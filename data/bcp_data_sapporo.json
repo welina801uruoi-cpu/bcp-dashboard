@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 14:47:02",
+  "timestamp": "2026-11-07 15:25:23",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -167,13 +167,13 @@
           "波浪警報"
         ],
         "notices": [
+          "大雪注意報",
           "着雪注意報",
           "波浪注意報",
-          "風雪注意報",
-          "大雪注意報",
-          "強風注意報"
+          "強風注意報",
+          "風雪注意報"
         ],
-        "summary": "波浪警報、着雪注意報、波浪注意報、風雪注意報、大雪注意報、強風注意報",
+        "summary": "波浪警報、大雪注意報、着雪注意報、波浪注意報、強風注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -187,10 +187,10 @@
           "暴風警報"
         ],
         "notices": [
-          "着雪注意報",
-          "強風注意報"
+          "強風注意報",
+          "着雪注意報"
         ],
-        "summary": "波浪警報、暴風警報、着雪注意報、強風注意報",
+        "summary": "波浪警報、暴風警報、強風注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -204,10 +204,10 @@
           "暴風警報"
         ],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪警報、暴風警報、波浪注意報、強風注意報",
+        "summary": "波浪警報、暴風警報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -313,8 +313,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/07 15:11",
+          "text": "@0115_dove_ START AU END の START 障害 END 情報ページとかを見てみると良いかもです。"
+        },
         {
           "time": "11/07 13:12",
           "text": "START au END のスマホ回線、めちゃくちゃ遅いんだが通信 START 障害 END 起きてるのかね？？？"
@@ -322,10 +326,6 @@
         {
           "time": "11/07 10:09",
           "text": "@jcom_support 今日jcomのインターネット START 障害 END 多くて解約が多いから料金そのままで START au END 10Gへ変更し..."
-        },
-        {
-          "time": "11/07 09:47",
-          "text": "START au END PAY カード 何かの START 障害 END 起きてる？起きてた？のか。でもarrowsユーザーじゃないんだよな…この後このカード..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -419,8 +419,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 14,
+    "disaster_count": 16,
     "articles": [
+      {
+        "title": "西武池袋線で人身事故 一部運転見合わせ(レスキューナウニュース)",
+        "summary": "00:01頃、江古田駅で発生した人身事故の影響で、西武池袋線は池袋～練馬駅間の運転を見合わせています。",
+        "pub_date": "11/08 00:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/4555b06f27afff0bea58a67a1bd6db5974a3ffec?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "パトカー追跡の車が事故　17歳男逮捕、名古屋(共同通信)",
+        "summary": "7日午後4時50分ごろ、名古屋市中区栄5丁目の路上で、パトカーが追跡していた軽乗用車が乗用車と衝突した。愛知県警中署は同日、自動車運転処罰法違反（危険運転致傷）の疑いで、軽乗用車を運転していた派遣社員",
+        "pub_date": "11/08 00:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/210394ec5d86b24fd1860d6205f801a5445b9ea0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【台風32号と次の渦?】32号は「強い」勢力で小笠原近海へ　10日は最大瞬間風速55メートル予想　さらに「次の渦」も【雨・風シミュレーション18日（水）まで/全国の週間天気予報】気象庁　台風情報(MBC南日本放送)",
+        "summary": "台風32号は、小笠原近海を西北西へ進んでいます。気象庁の予報では、日本の南で発達し、10日（火）には強い勢力で小笠原近海へ進むと予想されています。【画像で見る】台風32号の進路予想と「次の渦」? 【雨",
+        "pub_date": "11/07 23:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/6b94fc4314ee153399be493f8dedeb7649c24b58?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "17歳少年運転のレンタカーが交通事故　1人けが　名古屋・栄でパトカーから逃走中(メ〜テレ（名古屋テレビ）)",
         "summary": "17歳の少年が運転するレンタカーが別の車にぶつかる事故が7日、名古屋市の繁華街でありました。レンタカーは交通違反でパトカーの追跡を受けているところでした。 危険運転致傷の疑いで、現行犯逮捕されたのは、",
@@ -516,33 +540,9 @@
         "link": "https://news.yahoo.co.jp/articles/183a493fdf0b855131e63367f180bb7084c810cd?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "追突された軽自動車が横転…酒を飲んで自動車専用道路で事故起こし2人にケガさせたか 危険運転致傷容疑で23歳男逮捕(東海テレビ)",
-        "summary": "7日未明、愛知県武豊町の自動車専用道路で、飲酒運転で追突事故を起こし、2人にケガをさせたとして、23歳の男が現行犯逮捕されました。 危険運転致傷の疑いで現行犯逮捕されたのは、武豊町に住む会社員・久保田",
-        "pub_date": "11/07 18:13 JST",
-        "link": "https://news.yahoo.co.jp/articles/2a03257b451996df175676dfc2737c07e6ca632d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【台風情報】最大瞬間風速55m/s・中心気圧970hPaまで発達予想.「台風32号（チャンパカ）」発生..今後の進路は?雨と風のシミュレーション【気象庁7日15時45分発表】(RSK山陽放送)",
-        "summary": "■32年ぶりの「台風32号」（チャンパカ）発生気象庁によりますと、台風32号は、マリアナ諸島を時速25kmの速さで北西へ進んでいます。【画像でみる】18日にかけての雨と風のシミュレーション2026年1",
-        "pub_date": "11/07 17:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/3e7807e31f928746b55d2cb89d10d2486c194d7b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "富士山の麓　山中湖畔の紅葉が見ごろ　11月15日までライトアップも　山梨県(テレビ朝日系（ANN）)",
-        "summary": "富士山の麓、山中湖畔では、紅葉が見頃を迎えています。 湖畔沿いのおよそ1キロ続く遊歩道にはモミジやカエデ、ブナなどの木々が赤や黄色に色付いています。 山頂付近に雪をかぶった富士山との美しいコントラスト",
-        "pub_date": "11/07 23:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/90fdbb841a8b1ade51ba9e118914df26bb134dc4?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-07 23:46:47 JST"
+    "last_updated": "2026-11-08 00:25:07 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -596,10 +596,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "SUhnURp_zSg",
+        "video_id": "beDt_6zJ6W8",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/SUhnURp_zSg?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=SUhnURp_zSg"
+        "embed_url": "https://www.youtube.com/embed/beDt_6zJ6W8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=beDt_6zJ6W8"
       },
       {
         "id": "stream_fnnnews",

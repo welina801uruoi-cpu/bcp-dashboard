@@ -1,0 +1,61 @@
+name: Update BCP Dashboard Data
+
+on:
+  schedule:
+    # 15分おきに自動巡回・データ更新 (UTC基準)
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '実行モード (full: 全主要都市・16カ国, quick: 高速テスト)'
+        type: choice
+        options:
+          - full
+          - quick
+        default: full
+
+permissions:
+  contents: write  # data/*.json をコミット＆プッシュするための権限
+
+jobs:
+  collect-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Python 3.11 のセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 依存ライブラリのインストール
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 防災・危機管理データの自動収集
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "quick" ]; then
+            echo "=== [クイック更新モードで実行] ==="
+            python collect_data.py --quick
+          else
+            echo "=== [通常巡回モードで実行] ==="
+            python collect_data.py
+          fi
+
+      - name: 最新データの保存とGitHub Pagesへの反映
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if ! git diff --staged --quiet; then
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+            git commit -m "chore: auto-update disaster data ($TIMESTAMP) [skip ci]"
+            git push
+            echo "最新データを正常にプッシュしました。"
+          else
+            echo "データに変更はありませんでした。"
+          fi

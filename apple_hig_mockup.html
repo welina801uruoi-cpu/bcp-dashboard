@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>災害危機管理ダッシュボード | Apple HIG デザインコンセプト案</title>
+    <style>
+        /* =========================================================
+           Apple Human Interface Guidelines (HIG) デザインシステム
+           macOS Sequoia / iOS 18 WidgetKit & Control Center スタイル
+           ========================================================= */
+        :root {
+            /* Apple System Colors (Dark Mode) */
+            --apple-bg: #000000;
+            --apple-bg-sub: #121214;
+            --apple-card-bg: rgba(28, 28, 32, 0.72);
+            --apple-card-bg-hover: rgba(38, 38, 44, 0.85);
+            --apple-card-inner: rgba(18, 18, 20, 0.6);
+            --apple-border: rgba(255, 255, 255, 0.12);
+            --apple-border-subtle: rgba(255, 255, 255, 0.06);
+
+            --apple-text-primary: #FFFFFF;
+            --apple-text-secondary: rgba(235, 235, 245, 0.65);
+            --apple-text-tertiary: rgba(235, 235, 245, 0.38);
+
+            /* Apple HIG Status Colors */
+            --apple-green: #30D158;
+            --apple-green-bg: rgba(48, 209, 88, 0.15);
+            --apple-green-border: rgba(48, 209, 88, 0.35);
+
+            --apple-orange: #FF9F0A;
+            --apple-orange-bg: rgba(255, 159, 10, 0.15);
+            --apple-orange-border: rgba(255, 159, 10, 0.35);
+
+            --apple-red: #FF453A;
+            --apple-red-bg: rgba(255, 69, 58, 0.18);
+            --apple-red-border: rgba(255, 69, 58, 0.45);
+
+            --apple-blue: #0A84FF;
+            --apple-indigo: #5E5CE6;
+            --apple-cyan: #64D2FF;
+
+            --apple-radius-large: 22px;
+            --apple-radius-medium: 14px;
+            --apple-radius-small: 10px;
+            --apple-radius-pill: 9999px;
+
+            --apple-shadow-widget: 0 10px 30px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+            --apple-shadow-glow: 0 0 20px rgba(10, 132, 255, 0.25);
+        }
+
+        /* ライトモード (Silver / Clean HIG) */
+        [data-theme="light"] {
+            --apple-bg: #F2F2F7;
+            --apple-bg-sub: #E5E5EA;
+            --apple-card-bg: rgba(255, 255, 255, 0.82);
+            --apple-card-bg-hover: rgba(255, 255, 255, 0.95);
+            --apple-card-inner: rgba(242, 242, 247, 0.7);
+            --apple-border: rgba(0, 0, 0, 0.08);
+            --apple-border-subtle: rgba(0, 0, 0, 0.04);
+
+            --apple-text-primary: #000000;
+            --apple-text-secondary: rgba(60, 60, 67, 0.65);
+            --apple-text-tertiary: rgba(60, 60, 67, 0.35);
+
+            --apple-green: #28CD41;
+            --apple-green-bg: rgba(40, 205, 65, 0.12);
+            --apple-green-border: rgba(40, 205, 65, 0.3);
+
+            --apple-orange: #FF9500;
+            --apple-orange-bg: rgba(255, 149, 0, 0.12);
+            --apple-orange-border: rgba(255, 149, 0, 0.3);
+
+            --apple-red: #FF3B30;
+            --apple-red-bg: rgba(255, 59, 48, 0.12);
+            --apple-red-border: rgba(255, 59, 48, 0.3);
+
+            --apple-blue: #007AFF;
+            --apple-indigo: #5856D6;
+            --apple-cyan: #32ADE6;
+
+            --apple-shadow-widget: 0 8px 24px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.04);
+            --apple-shadow-glow: 0 0 20px rgba(0, 122, 255, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", sans-serif;
+            background-color: var(--apple-bg);
+            background-image: 
+                radial-gradient(at 10% 15%, rgba(10, 132, 255, 0.08) 0px, transparent 50%),
+                radial-gradient(at 90% 85%, rgba(94, 92, 230, 0.08) 0px, transparent 50%);
+            background-attachment: fixed;
+            color: var(--apple-text-primary);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            letter-spacing: -0.015em;
+        }
+
+        /* 1. Apple Navigation Bar (Frosted Glass Header) */
+        .apple-nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(18, 18, 22, 0.8);
+            backdrop-filter: blur(25px) saturate(180%);
+            -webkit-backdrop-filter: blur(25px) saturate(180%);
+            border-bottom: 1px solid var(--apple-border);
+            padding: 10px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+        [data-theme="light"] .apple-nav {
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        .nav-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        /* Apple Segmented Control (Pill Switcher) */
+        .apple-segmented-control {
+            display: inline-flex;
+            background: rgba(120, 120, 128, 0.24);
+            padding: 3px;
+            border-radius: var(--apple-radius-pill);
+            gap: 2px;
+            border: 1px solid var(--apple-border-subtle);
+        }
+        .segmented-item {
+            padding: 6px 16px;
+            border-radius: var(--apple-radius-pill);
+            font-size: 0.88em;
+            font-weight: 700;
+            color: var(--apple-text-secondary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+            cursor: pointer;
+        }
+        .segmented-item.active {
+            background: var(--apple-card-bg);
+            color: var(--apple-text-primary);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+            border: 0.5px solid var(--apple-border);
+        }
+
+        .app-title-box {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .app-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #0A84FF, #5E5CE6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1em;
+            box-shadow: 0 4px 12px rgba(10, 132, 255, 0.35);
+        }
+        .app-title {
+            font-size: 1.15em;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+        .app-subtitle {
+            font-size: 0.72em;
+            color: var(--apple-text-secondary);
+            font-weight: 600;
+            margin-top: 1px;
+        }
+
+        /* Apple Location Menu */
+        .apple-location-select {
+            appearance: none;
+            -webkit-appearance: none;
+            background: rgba(120, 120, 128, 0.2);
+            border: 1px solid var(--apple-border);
+            color: var(--apple-text-primary);
+            padding: 6px 32px 6px 14px;
+            border-radius: var(--apple-radius-pill);
+            font-size: 0.88em;
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%238E8E93' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            transition: all 0.2s ease;
+        }
+        .apple-location-select:focus {
+            border-color: var(--apple-blue);
+            box-shadow: 0 0 0 3px rgba(10, 132, 255, 0.25);
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        /* Apple SF Pro Style Digital Clock */
+        .apple-clock {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+            background: rgba(120, 120, 128, 0.16);
+            padding: 5px 14px;
+            border-radius: var(--apple-radius-pill);
+            border: 1px solid var(--apple-border-subtle);
+        }
+        .clock-date {
+            font-size: 0.78em;
+            font-weight: 600;
+            color: var(--apple-text-secondary);
+        }
+        .clock-time {
+            font-size: 1.15em;
+            font-weight: 800;
+            font-variant-numeric: tabular-nums;
+            color: var(--apple-text-primary);
+            letter-spacing: 0.5px;
+        }
+        .clock-jst {
+            font-size: 0.7em;
+            font-weight: 800;
+            color: var(--apple-blue);
+            margin-left: 2px;
+        }
+
+        /* Apple Pill Button */
+        .apple-pill-btn {
+            background: rgba(120, 120, 128, 0.2);
+            border: 1px solid var(--apple-border);
+            color: var(--apple-text-primary);
+            padding: 6px 14px;
+            border-radius: var(--apple-radius-pill);
+            font-size: 0.85em;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+            text-decoration: none;
+        }
+        .apple-pill-btn:hover {
+            background: rgba(120, 120, 128, 0.35);
+            transform: scale(1.02);
+        }
+        .apple-pill-btn.primary {
+            background: var(--apple-blue);
+            color: #FFFFFF;
+            border: none;
+            box-shadow: 0 2px 8px rgba(10, 132, 255, 0.4);
+        }
+        .apple-pill-btn.primary:hover {
+            background: #0071E3;
+        }
+
+        /* 2. Apple Status Banner (Dynamic Island Inspired Banner) */
+        .status-banner-wrap {
+            max-width: 1600px;
+            margin: 14px auto 6px;
+            padding: 0 24px;
+            width: 100%;
+        }
+        .apple-dynamic-banner {
+            background: rgba(28, 28, 32, 0.85);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--apple-border);
+            border-radius: var(--apple-radius-medium);
+            padding: 10px 18px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: var(--apple-shadow-widget);
+            position: relative;
+            overflow: hidden;
+        }
+        .apple-dynamic-banner::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--apple-green);
+        }
+        .banner-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .status-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 12px;
+            border-radius: var(--apple-radius-pill);
+            font-size: 0.82em;
+            font-weight: 800;
+            background: var(--apple-green-bg);
+            color: var(--apple-green);
+            border: 1px solid var(--apple-green-border);
+        }
+        .status-pulse {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--apple-green);
+            box-shadow: 0 0 8px var(--apple-green);
+        }
+        .status-headline {
+            font-size: 0.95em;
+            font-weight: 700;
+            color: var(--apple-text-primary);
+        }
+        .banner-tools {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .banner-chip {
+            font-size: 0.78em;
+            color: var(--apple-text-secondary);
+            font-weight: 600;
+        }
+
+        /* 3. Main Dashboard Layout (Widgets Grid + Media Dock) */
+        .dashboard-body {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 12px 24px 30px;
+            display: grid;
+            grid-template-columns: 1fr 410px;
+            gap: 20px;
+            width: 100%;
+            flex: 1;
+        }
+
+        /* 12 Widgets Grid (Apple WidgetKit Style) */
+        .widgets-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 14px;
+        }
+
+        /* Apple Widget Card */
+        .apple-widget {
+            background: var(--apple-card-bg);
+            backdrop-filter: blur(25px) saturate(180%);
+            -webkit-backdrop-filter: blur(25px) saturate(180%);
+            border: 1px solid var(--apple-border);
+            border-radius: var(--apple-radius-large);
+            padding: 16px 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: var(--apple-shadow-widget);
+            transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+            min-height: 148px;
+        }
+        .apple-widget:hover {
+            transform: translateY(-3px);
+            background: var(--apple-card-bg-hover);
+            border-color: rgba(255, 255, 255, 0.22);
+            box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5);
+        }
+        [data-theme="light"] .apple-widget:hover {
+            border-color: rgba(0, 0, 0, 0.16);
+            box-shadow: 0 14px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Card Header */
+        .widget-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        .widget-title-area {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .widget-icon-bubble {
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            background: rgba(120, 120, 128, 0.18);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.05em;
+            border: 0.5px solid var(--apple-border-subtle);
+        }
+        .widget-title {
+            font-size: 0.9em;
+            font-weight: 700;
+            color: var(--apple-text-secondary);
+            letter-spacing: -0.01em;
+        }
+
+        /* Apple Pill Badge */
+        .widget-badge {
+            font-size: 0.72em;
+            font-weight: 800;
+            padding: 3px 9px;
+            border-radius: var(--apple-radius-pill);
+            letter-spacing: 0.2px;
+        }
+        .badge-normal {
+            background: var(--apple-green-bg);
+            color: var(--apple-green);
+            border: 1px solid var(--apple-green-border);
+        }
+        .badge-caution {
+            background: var(--apple-orange-bg);
+            color: var(--apple-orange);
+            border: 1px solid var(--apple-orange-border);
+        }
+        .badge-alert {
+            background: var(--apple-red-bg);
+            color: var(--apple-red);
+            border: 1px solid var(--apple-red-border);
+        }
+
+        /* Card Body (High Visibility / 20m Legibility) */
+        .widget-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 4px 0 10px;
+        }
+        .widget-main-value {
+            font-size: 1.15em;
+            font-weight: 800;
+            line-height: 1.35;
+            color: var(--apple-text-primary);
+            letter-spacing: -0.02em;
+            margin-bottom: 3px;
+        }
+        .widget-sub-value {
+            font-size: 0.8em;
+            font-weight: 500;
+            color: var(--apple-text-secondary);
+            line-height: 1.35;
+        }
+
+        /* Seismic Display Box */
+        .seismic-pill-box {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(10, 132, 255, 0.15);
+            border: 1px solid rgba(10, 132, 255, 0.4);
+            color: var(--apple-blue);
+            padding: 3px 10px;
+            border-radius: var(--apple-radius-pill);
+            font-size: 0.9em;
+            font-weight: 800;
+            margin-top: 4px;
+        }
+
+        /* Card Footer */
+        .widget-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 8px;
+            border-top: 1px solid var(--apple-border-subtle);
+        }
+        .widget-action-btn {
+            font-size: 0.78em;
+            font-weight: 700;
+            color: var(--apple-blue);
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.15s ease;
+        }
+        .widget-action-btn:hover {
+            color: #409CFF;
+            text-decoration: underline;
+        }
+        .widget-source-label {
+            font-size: 0.72em;
+            color: var(--apple-text-tertiary);
+            font-weight: 600;
+        }
+
+        /* 4. Apple Media Dock (Right Side Panel) */
+        .apple-media-dock {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .media-container-card {
+            background: var(--apple-card-bg);
+            backdrop-filter: blur(25px) saturate(180%);
+            -webkit-backdrop-filter: blur(25px) saturate(180%);
+            border: 1px solid var(--apple-border);
+            border-radius: var(--apple-radius-large);
+            padding: 14px;
+            box-shadow: var(--apple-shadow-widget);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .media-dock-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 4px;
+        }
+        .media-dock-title {
+            font-size: 0.92em;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .media-dock-tabs {
+            display: inline-flex;
+            background: rgba(120, 120, 128, 0.2);
+            padding: 2px;
+            border-radius: var(--apple-radius-pill);
+            gap: 2px;
+        }
+        .media-dock-tab-btn {
+            padding: 3px 10px;
+            border-radius: var(--apple-radius-pill);
+            font-size: 0.75em;
+            font-weight: 700;
+            color: var(--apple-text-secondary);
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .media-dock-tab-btn.active {
+            background: var(--apple-card-bg);
+            color: var(--apple-text-primary);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .media-player-box {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 */
+            border-radius: var(--apple-radius-medium);
+            overflow: hidden;
+            background: #000000;
+            border: 1px solid var(--apple-border-subtle);
+        }
+        .media-player-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .weather-radar-box {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            border-radius: var(--apple-radius-medium);
+            overflow: hidden;
+            background: #000000;
+            border: 1px solid var(--apple-border-subtle);
+        }
+
+        /* HIG Tag Badges */
+        .sns-tag-pill {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(10, 132, 255, 0.12);
+            border: 1px solid rgba(10, 132, 255, 0.3);
+            color: var(--apple-cyan);
+            padding: 2px 8px;
+            border-radius: var(--apple-radius-pill);
+            font-size: 0.72em;
+            font-weight: 700;
+            margin: 2px;
+        }
+
+        /* Concept Guide Banner */
+        .concept-note-bar {
+            background: linear-gradient(90deg, rgba(10, 132, 255, 0.15), rgba(94, 92, 230, 0.15));
+            border-bottom: 1px solid rgba(10, 132, 255, 0.3);
+            padding: 6px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.82em;
+            color: var(--apple-cyan);
+            font-weight: 600;
+        }
+
+        /* 📱 iOS 18 / iPhone 15 向けレスポンシブスタイル */
+        @media (max-width: 900px) {
+            .concept-note-bar {
+                display: none;
+            }
+            .apple-nav {
+                flex-direction: column;
+                padding: 10px 14px;
+                gap: 8px;
+            }
+            .nav-left {
+                width: 100%;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+            .apple-segmented-control {
+                order: 3;
+                width: 100%;
+                justify-content: center;
+            }
+            .segmented-item {
+                flex: 1;
+                justify-content: center;
+                padding: 6px 10px;
+                font-size: 0.82em;
+            }
+            .nav-right {
+                width: 100%;
+                justify-content: space-between;
+            }
+            .apple-clock {
+                flex: 1;
+                justify-content: center;
+            }
+            .apple-pill-btn {
+                padding: 5px 10px;
+                font-size: 0.78em;
+            }
+            .status-banner-wrap {
+                padding: 0 12px;
+                margin: 8px auto 4px;
+            }
+            .apple-dynamic-banner {
+                padding: 8px 12px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 6px;
+            }
+            .status-headline {
+                font-size: 0.82em;
+                line-height: 1.4;
+            }
+            .banner-tools {
+                display: none;
+            }
+            .dashboard-body {
+                grid-template-columns: 1fr;
+                padding: 8px 12px 24px;
+                gap: 14px;
+            }
+            .widgets-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+            .apple-widget {
+                min-height: 125px;
+                padding: 12px 14px;
+            }
+            .widget-main-value {
+                font-size: 0.98em;
+            }
+            .widget-sub-value {
+                font-size: 0.75em;
+            }
+            .apple-media-dock {
+                order: 2;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Apple HIG コンセプト表示バー -->
+    <div class="concept-note-bar">
+        <span> Apple Human Interface Guidelines (HIG) デザインコンセプト案 ｜ macOS & iPadOS WidgetKit スタイル</span>
+        <div style="display:flex; gap:10px;">
+            <button class="apple-pill-btn" onclick="toggleTheme()" style="padding:2px 10px; font-size:0.8em;">☀️/🌙 テーマ切替</button>
+            <span style="color:var(--apple-text-tertiary);">20m遠視認 ＆ 半透明グラスモーフィズム両立</span>
+        </div>
+    </div>
+
+    <!-- 1. Apple Navigation Bar -->
+    <nav class="apple-nav">
+        <div class="nav-left">
+            <!-- App Icon & Title -->
+            <div class="app-title-box">
+                <div class="app-icon">🛡️</div>
+                <div>
+                    <div class="app-title">防災情報ダッシュボード</div>
+                    <div class="app-subtitle">Disaster Management Command</div>
+                </div>
+            </div>
+
+            <!-- Segmented Control (Domestic vs Overseas) -->
+            <div class="apple-segmented-control">
+                <div class="segmented-item active">🇯🇵 国内災害情報</div>
+                <div class="segmented-item" onclick="location.href='/overseas'">🌍 海外危機管理</div>
+            </div>
+
+            <!-- Location Selector -->
+            <select class="apple-location-select" id="pref-select">
+                <option value="tokyo" selected>📍 東京 (関東エリア / 1都6県)</option>
+                <option value="all">📍 全国 (全都道府県)</option>
+                <option value="osaka">📍 大阪 (近畿エリア)</option>
+                <option value="aichi">📍 愛知 (東海エリア)</option>
+                <option value="fukuoka">📍 福岡 (九州エリア)</option>
+                <option value="hokkaido">📍 北海道 (道央・道南・道北・道東)</option>
+            </select>
+        </div>
+
+        <div class="nav-right">
+            <!-- SF Pro Clock -->
+            <div class="apple-clock">
+                <span class="clock-date">2026年9月29日(火)</span>
+                <span class="clock-time">22:25:40</span>
+                <span class="clock-jst">JST</span>
+            </div>
+
+            <!-- Controls -->
+            <button class="apple-pill-btn primary">🔄 今すぐ更新</button>
+            <button class="apple-pill-btn">📋 報告コピー</button>
+            <button class="apple-pill-btn">⚙️ 閾値設定</button>
+        </div>
+    </nav>
+
+    <!-- 2. Dynamic Island Inspired Status Banner -->
+    <div class="status-banner-wrap">
+        <div class="apple-dynamic-banner">
+            <div class="banner-left">
+                <div class="status-pill">
+                    <span class="status-pulse"></span>
+                    <span>平常態勢 (NORMAL)</span>
+                </div>
+                <div class="status-headline">現在、管内において重大な緊急避難インシデントは検知されていません (全系正常稼働中)</div>
+            </div>
+            <div class="banner-tools">
+                <span class="banner-chip">自動更新: 28s</span>
+                <span class="banner-chip">視認性: 🚨 20m遠視認</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. Main Dashboard Layout -->
+    <main class="dashboard-body">
+
+        <!-- 12 Widgets Grid -->
+        <section class="widgets-grid">
+
+            <!-- 1. 地震 -->
+            <article class="apple-widget">
+                <div class="widget-header">
+                    <div class="widget-title-area">
+                        <div class="widget-icon-bubble">🌐</div>
+                        <h2 class="widget-title">地震 (最新情報)</h2>
+                    </div>
+                    <span class="widget-badge badge-normal">平常</span>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main-value">最新: 2026-09-28 21:04</div>
+                    <div class="widget-sub-value">茨城県沖 (M3.4 / 深さ 40km)</div>
+                    <div class="seismic-pill-box">
+                        <span>最大震度 1 (東京: 揺れなし)</span>
+                    </div>
+                </div>
+                <div class="widget-footer">
+                    <button class="widget-action-btn">詳細解析 ↗</button>
+                    <span class="widget-source-label">気象庁 連動</span>
+                </div>
+            </article>
+
+            <!-- 2. 津波情報 -->
+            <article class="apple-widget">
+                <div class="widget-header">
+                    <div class="widget-title-area">
+                        <div class="widget-icon-bubble">🌊</div>
+                        <h2 class="widget-title">津波情報</h2>
+                    </div>
+                    <span class="widget-badge badge-normal">平常</span>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main-value">津波の心配なし</div>
+                    <div class="widget-sub-value">全国沿岸海域 常時監視体制 (警報・注意報なし)</div>
+                </div>
+                <div class="widget-footer">
+                    <button class="widget-action-btn">詳細 ↗</button>
+                    <span class="widget-source-label">気象庁・Yahoo!津波</span>
+                </div>
+            </article>
+
+            <!-- 3. 火山活動 -->
+            <article class="apple-widget">
+                <div class="widget-header">
+                    <div class="widget-title-area">
+                        <div class="widget-icon-bubble">🌋</div>
+                        <h2 class="widget-title">火山活動</h2>
+                    </div>
+                    <span class="widget-badge badge-normal">平常</span>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main-value">全活火山 噴火警戒レベル1</div>
+                    <div class="widget-sub-value">関東管内 (浅間山・伊豆大島・富士山) 安定</div>
+                </div>
+                <div class="widget-footer">
+                    <button class="widget-action-btn">詳細 ↗</button>
+                    <span class="widget-source-label">気象庁 火山監視</span>
+                </div>
+            </article>
+
+            <!-- 4. 気象・警報 -->
+            <article class="apple-widget">
+                <div class="widget-header">
+                    <div class="widget-title-area">
+                        <div class="widget-icon-bubble">☂️</div>
+                        <h2 class="widget-title">気象・警報</h2>
+                    </div>
+                    <span class="widget-badge badge-caution">注意</span>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main-value" style="color:var(--apple-orange);">【注意報発表: 3地域】</div>
+                    <div class="widget-sub-value">東京、栃木、群馬 (特別警報・警報なし)</div>
+                </div>
+                <div class="widget-footer">
+                    <button class="widget-action-btn">詳細 ↗</button>
+                    <span class="widget-source-label">気象庁 特別警報・注意報</span>
+                </div>
+            </article>
+
+            <!-- 5. 河川情報 -->
+            <article class="apple-widget">
+                <div class="widget-header">
+                    <div class="widget-title-area">
+                        <div class="widget-icon-bubble">🗾</div>
+                        <h2 class="widget-title">河川氾濫水準</h2>
+                    </div>
+                    <span class="widget-badge badge-normal">平常</span>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main-value">氾濫危険・注意水位なし</div>
+                    <div class="widget-sub-value">利根川・多摩川・荒川 水位平常水準維持</div>
+                </div>
+                <div class="widget-footer">
+                    <button class="widget-action-btn">詳細 ↗</button>
+                    <span class="widget-source-label">国交省 川の防災情報</span>
+                </div>
+            </article>
+
+            <!-- 6. 避難情報 -->
+            <article class="apple-widget">
+                <div class="widget-header">
+                    <div class="widget-title-area">
+                        <div class="widget-icon-bubble">🏘️</div>
+                        <h2 class="widget-title">避難情報 (自治体)</h2>
+                    </div>
+                    <span class="widget-badge badge-normal">平常</span>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main-value">避難指示等の発令なし</div>
+                    <div class="widget-sub-value">管内全自治体 避難所開設なし (平常待機)</div>
+                </div>
+                <div class="widget-footer">
+                    <button class="widget-action-btn">詳細 ↗</button>
+                    <span class="widget-source-label">自治体防災・Lアラート</span>
+                </div>
+            </article>
+
+            <!-- 7. 警察・消防 -->
+            <article class="apple-widget">
+                <div class="widget-header">
+                    <div class="widget-title-area">
+                        <div class="widget-icon-bubble">🚨</div>
+                        <h2 class="widget-title">警察・消防速報</h2>
+                    </div>
+                    <span class="widget-badge badge-normal">平常</span>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main-value">重大事案・多数傷病災害なし</div>
+                    <div class="widget-sub-value">総務省消防庁・警視庁 通報状況平常監視</div>
+                </div>
+                <div class="widget-footer">
+                    <button class="widget-action-btn">詳細 ↗</button>
+                    <span class="widget-source-label">消防庁・警察庁</span>
+                </div>
+            </article>
+
+            <!-- 8. ライフライン -->
+            <article class="apple-widget">
+                <div class="widget-header">
+                    <div class="widget-title-area">
+                        <div class="widget-icon-bubble">⚡</div>
+                        <h2 class="widget-title">ライフライン</h2>
+                    </div>
+                    <span class="widget-badge badge-normal">平常</span>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main-value">電力・水道・ガス 正常供給中</div>
+                    <div class="widget-sub-value">東京電力PG: 大規模停電なし / 都市ガス安定</div>
+                </div>
+                <div class="widget-footer">
+                    <button class="widget-action-btn">詳細 ↗</button>
+                    <span class="widget-source-label">東電PG・各水道局</span>
+                </div>
+            </article>
+
+            <!-- 9. 交通網 -->
+            <article class="apple-widget">
+                <div class="widget-header">
+                    <div class="widget-title-area">
+                        <div class="widget-icon-bubble">🚆</div>
+                        <h2 class="widget-title">交通網 (鉄道・新幹線)</h2>
+                    </div>
+                    <span class="widget-badge badge-normal">平常</span>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main-value">在来線・新幹線 概ね全線平常</div>
+                    <div class="widget-sub-value">JR東日本・東京メトロ・私鉄各線 通常ダイヤ</div>
+                </div>
+                <div class="widget-footer">
+                    <button class="widget-action-btn">詳細 ↗</button>
+                    <span class="widget-source-label">JR各社・Yahoo!路線</span>
+                </div>
+            </article>
+
+            <!-- 10. 通信事業者 -->
+            <article class="apple-widget">
+                <div class="widget-header">
+                    <div class="widget-title-area">
+                        <div class="widget-icon-bubble">📶</div>
+                        <h2 class="widget-title">通信事業者 4社</h2>
+                    </div>
+                    <span class="widget-badge badge-normal">平常</span>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main-value">主要4キャリア 正常稼働中</div>
+                    <div class="widget-sub-value">docomo・au・SoftBank・Rakuten 障害なし</div>
+                </div>
+                <div class="widget-footer">
+                    <button class="widget-action-btn">詳細 ↗</button>
+                    <span class="widget-source-label">各社公式速報 連動</span>
+                </div>
+            </article>
+
+            <!-- 11. 口コミ監視 -->
+            <article class="apple-widget">
+                <div class="widget-header">
+                    <div class="widget-title-area">
+                        <div class="widget-icon-bubble">💬</div>
+                        <h2 class="widget-title">SNS口コミ監視</h2>
+                    </div>
+                    <span class="widget-badge badge-normal">平常</span>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main-value">被災・障害ワード急増なし</div>
+                    <div style="margin-top:4px;">
+                        <span class="sns-tag-pill">#au障害</span>
+                        <span class="sns-tag-pill">#KDDI障害</span>
+                        <span class="sns-tag-pill">#停電</span>
+                        <span class="sns-tag-pill">#運転見合わせ</span>
+                    </div>
+                </div>
+                <div class="widget-footer">
+                    <button class="widget-action-btn">ワード設定 ⚙️</button>
+                    <span class="widget-source-label">Yahoo!リアルタイム</span>
+                </div>
+            </article>
+
+            <!-- 12. 総合BCP / 行政 -->
+            <article class="apple-widget">
+                <div class="widget-header">
+                    <div class="widget-title-area">
+                        <div class="widget-icon-bubble">🏛️</div>
+                        <h2 class="widget-title">総合BCP / 行政</h2>
+                    </div>
+                    <span class="widget-badge badge-normal">平常</span>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main-value">政府・官公庁 非常態勢なし</div>
+                    <div class="widget-sub-value">内閣府防災・首相官邸 正常待機水準</div>
+                </div>
+                <div class="widget-footer">
+                    <button class="widget-action-btn">詳細 ↗</button>
+                    <span class="widget-source-label">内閣府・官邸速報</span>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- Right Side Media Dock (Apple TV / Picture-in-Picture Style) -->
+        <aside class="apple-media-dock">
+
+            <!-- 1. 災害生放送 -->
+            <div class="media-container-card">
+                <div class="media-dock-header">
+                    <div class="media-dock-title">
+                        <span style="color:#FF453A;">🔴</span>
+                        <span>災害生放送 (24h Live)</span>
+                    </div>
+                    <div class="media-dock-tabs">
+                        <button class="media-dock-tab-btn active">WNI気象</button>
+                        <button class="media-dock-tab-btn">TBS</button>
+                        <button class="media-dock-tab-btn">日テレ</button>
+                        <button class="media-dock-tab-btn">NHK</button>
+                    </div>
+                </div>
+                <div class="media-player-box">
+                    <iframe class="media-player-iframe" 
+                        src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCkImsn36iK5V-f1gN1lM-Gw&autoplay=1&mute=1&playsinline=1&enablejsapi=1&rel=0" 
+                        title="災害生放送">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- 2. 全国ライブカメラ -->
+            <div class="media-container-card">
+                <div class="media-dock-header">
+                    <div class="media-dock-title">
+                        <span>📷</span>
+                        <span>全国定点ライブカメラ</span>
+                    </div>
+                    <div class="media-dock-tabs">
+                        <button class="media-dock-tab-btn active">東京渋谷</button>
+                        <button class="media-dock-tab-btn">大阪</button>
+                        <button class="media-dock-tab-btn">那覇</button>
+                        <button class="media-dock-tab-btn">富士山</button>
+                    </div>
+                </div>
+                <div class="media-player-box">
+                    <iframe class="media-player-iframe" 
+                        src="https://www.youtube-nocookie.com/embed/OzYp4NRZlwQ?autoplay=1&mute=1&playsinline=1&enablejsapi=1&rel=0" 
+                        title="渋谷スクランブル交差点ライブ">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- 3. 気象レーダー -->
+            <div class="media-container-card">
+                <div class="media-dock-header">
+                    <div class="media-dock-title">
+                        <span>🌦️</span>
+                        <span>天気概況 ＆ 雨雲レーダー</span>
+                    </div>
+                    <div class="media-dock-tabs">
+                        <button class="media-dock-tab-btn active">雨雲レーダー</button>
+                        <button class="media-dock-tab-btn">気象概況</button>
+                    </div>
+                </div>
+                <div class="weather-radar-box">
+                    <iframe class="media-player-iframe" 
+                        src="https://embed.windy.com/embed2.html?lat=35.68&lon=139.76&detailLat=35.68&detailLon=139.76&width=100%25&height=100%25&zoom=7&level=surface&overlay=radar&product=radar&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" 
+                        title="雨雲レーダー">
+                    </iframe>
+                </div>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <script>
+        function toggleTheme() {
+            const html = document.documentElement;
+            const current = html.getAttribute('data-theme');
+            html.setAttribute('data-theme', current === 'dark' ? 'light' : 'dark');
+        }
+    </script>
+</body>
+</html>

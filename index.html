@@ -1,0 +1,3401 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark" class="font-scale-20m">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>災害危機管理ダッシュボード | 国内BCP司令塔</title>
+    <!-- PWA / モバイルアプリ化タグ -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" id="meta-theme-color" content="#060a12">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="災害危機管理ダッシュボード">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/564/564619.png">
+    <style>
+        :root, [data-theme="dark"] {
+            --bg-main: #060a12;
+            --bg-panel: #0d1527;
+            --bg-card: #131f37;
+            --bg-card-hover: #1a2a4a;
+            --bg-card-sub: #091020;
+            --border-color: #2b3d63;
+            --border-sub: #172440;
+            --border-focus: #38bdf8;
+            --text-primary: #ffffff;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --text-accent: #38bdf8;
+            --text-accent-link: #60a5fa;
+
+            --header-bg: linear-gradient(90deg, #090e1a 0%, #171638 50%, #090e1a 100%);
+            --header-border: #3b368c;
+
+            /* 3段階ステータス カラー定義 (20m離れていても強烈に光る高彩度) */
+            --status-normal-bg: rgba(16, 185, 129, 0.22);
+            --status-normal-border: #10b981;
+            --status-normal-text: #10b981;
+            --status-normal-glow: rgba(16, 185, 129, 0.5);
+
+            --status-notice-bg: rgba(245, 158, 11, 0.22);
+            --status-notice-border: #f59e0b;
+            --status-notice-text: #fbbf24;
+            --status-notice-glow: rgba(245, 158, 11, 0.55);
+
+            --status-alert-bg: rgba(239, 68, 68, 0.28);
+            --status-alert-border: #ef4444;
+            --status-alert-text: #ff5252;
+            --status-alert-glow: rgba(239, 68, 68, 0.7);
+
+            --card-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+            --modal-shadow: 0 24px 60px rgba(0, 0, 0, 0.85);
+
+            /* 20m遠視認基準フォントサイズ (PC大画面デフォルト) */
+            --base-font-size: 16px;
+        }
+
+        /* 文字サイズスケール定義 (PC時) */
+        html.font-scale-standard { --base-font-size: 12px; }
+        html.font-scale-large    { --base-font-size: 14px; }
+        html.font-scale-xlarge   { --base-font-size: 16px; }
+        html.font-scale-20m      { --base-font-size: 16.5px; }
+
+        [data-theme="light"] {
+            --bg-main: #edf2f7;
+            --bg-panel: #ffffff;
+            --bg-card: #ffffff;
+            --bg-card-hover: #f1f5f9;
+            --bg-card-sub: #f8fafc;
+            --border-color: #cbd5e1;
+            --border-sub: #e2e8f0;
+            --border-focus: #0284c7;
+            --text-primary: #020617;
+            --text-secondary: #334155;
+            --text-muted: #64748b;
+            --text-accent: #0284c7;
+            --text-accent-link: #2563eb;
+
+            --header-bg: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%);
+            --header-border: #1d4ed8;
+
+            --status-normal-bg: #dcfce7;
+            --status-normal-border: #059669;
+            --status-normal-text: #065f46;
+            --status-normal-glow: rgba(16, 185, 129, 0.35);
+
+            --status-notice-bg: #fef3c7;
+            --status-notice-border: #d97706;
+            --status-notice-text: #92400e;
+            --status-notice-glow: rgba(245, 158, 11, 0.35);
+
+            --status-alert-bg: #fee2e2;
+            --status-alert-border: #dc2626;
+            --status-alert-text: #991b1b;
+            --status-alert-glow: rgba(239, 68, 68, 0.4);
+
+            --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            --modal-shadow: 0 20px 48px rgba(0, 0, 0, 0.3);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        /* PCデフォルト (100vh 1画面完結) */
+        html, body {
+            height: 100vh;
+            max-height: 100vh;
+            overflow: hidden;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            font-size: var(--base-font-size);
+            padding: 4px 8px;
+            line-height: 1.3;
+            transition: background-color 0.2s ease, color 0.2s ease, font-size 0.15s ease;
+        }
+
+        /* 画面全体の縦フレックスコンテナ */
+        .cockpit-viewport {
+            display: flex;
+            flex-direction: column;
+            height: calc(100vh - 8px);
+            width: 100%;
+            overflow: hidden;
+            gap: 4px;
+        }
+
+        /* 1. ヘッダーナビゲーション (遠視認対応) */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--header-bg);
+            color: #ffffff;
+            border: 1.5px solid var(--header-border);
+            border-radius: 8px;
+            padding: 4px 12px;
+            flex-shrink: 0;
+            box-shadow: var(--card-shadow);
+            gap: 10px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .scope-tabs {
+            display: inline-flex;
+            background: rgba(0, 0, 0, 0.45);
+            border: 1.5px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 2px;
+            gap: 2px;
+        }
+
+        .scope-tab {
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 0.9em;
+            font-weight: 800;
+            text-decoration: none;
+            color: #cbd5e1;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+        .scope-tab:hover {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.15);
+        }
+        .scope-tab.active {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: #ffffff;
+            box-shadow: 0 2px 6px rgba(37, 99, 235, 0.6);
+        }
+
+        .dashboard-title {
+            font-size: 1.25em;
+            font-weight: 900;
+            letter-spacing: 0.8px;
+            white-space: nowrap;
+            color: #ffffff;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .location-select-wrap {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .location-select {
+            background-color: #171638;
+            color: #38bdf8;
+            border: 2px solid #6366f1;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-weight: 800;
+            font-size: 1.02em;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+        .location-select:focus {
+            border-color: #38bdf8;
+            box-shadow: 0 0 10px rgba(56, 189, 248, 0.6);
+        }
+        [data-theme="light"] .location-select {
+            background-color: #ffffff;
+            color: #1e3a8a;
+            border: 2px solid #3b82f6;
+        }
+
+        .header-region-badge {
+            background: rgba(56, 189, 248, 0.2);
+            color: #38bdf8;
+            border: 1.5px solid rgba(56, 189, 248, 0.5);
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.9em;
+            font-weight: 800;
+            white-space: nowrap;
+        }
+
+        /* ヘッダー右側: 大判JSTクロック */
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-shrink: 0;
+        }
+
+        .clock-display-box {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            background: rgba(10, 15, 30, 0.9);
+            border: 1.5px solid rgba(56, 189, 248, 0.5);
+            border-radius: 6px;
+            padding: 2px 12px;
+            line-height: 1.1;
+        }
+        [data-theme="light"] .clock-display-box {
+            background: #ffffff;
+            border: 1.5px solid #0284c7;
+        }
+
+        .clock-date-line {
+            font-size: 0.82em;
+            font-weight: 700;
+            color: #94a3b8;
+        }
+        [data-theme="light"] .clock-date-line { color: #475569; }
+
+        .clock-time-line {
+            display: flex;
+            align-items: baseline;
+            gap: 6px;
+        }
+
+        .clock-time-digits {
+            font-family: 'Consolas', 'Roboto Mono', monospace;
+            font-size: 1.7em;
+            font-weight: 900;
+            color: #38bdf8;
+            letter-spacing: 1.5px;
+            text-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+        }
+        [data-theme="light"] .clock-time-digits { color: #0284c7; text-shadow: none; }
+
+        .clock-tz-badge {
+            font-size: 0.76em;
+            font-weight: 900;
+            color: #7dd3fc;
+            background: rgba(56, 189, 248, 0.25);
+            border: 1px solid rgba(56, 189, 248, 0.5);
+            padding: 1px 5px;
+            border-radius: 4px;
+        }
+
+        /* 2. サブツールバー (インシデント判定 & 文字サイズ切替) */
+        .sub-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-color);
+            border-radius: 6px;
+            padding: 4px 10px;
+            font-size: 0.92em;
+            flex-shrink: 0;
+            gap: 10px;
+        }
+
+        .alert-banner-box {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-grow: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .alert-badge-state {
+            padding: 3px 10px;
+            border-radius: 5px;
+            font-weight: 900;
+            font-size: 0.95em;
+            letter-spacing: 0.8px;
+            white-space: nowrap;
+        }
+        .state-normal {
+            background: var(--status-normal-bg);
+            border: 1.5px solid var(--status-normal-border);
+            color: var(--status-normal-text);
+        }
+        .state-notice {
+            background: var(--status-notice-bg);
+            border: 1.5px solid var(--status-notice-border);
+            color: var(--status-notice-text);
+        }
+        .state-alert {
+            background: var(--status-alert-bg);
+            border: 1.5px solid var(--status-alert-border);
+            color: var(--status-alert-text);
+            animation: pulse-red 1.6s infinite;
+        }
+
+        @keyframes pulse-red {
+            0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+            70% { box-shadow: 0 0 0 9px rgba(239, 68, 68, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+        }
+
+        .sub-tools {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-shrink: 0;
+        }
+
+        .btn-tool {
+            background: var(--bg-card-sub);
+            border: 1.5px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 3px 9px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            outline: none;
+            white-space: nowrap;
+        }
+        .btn-tool:hover {
+            border-color: var(--border-focus);
+            color: var(--text-accent);
+            background: var(--bg-card-hover);
+        }
+        .btn-tool.btn-refresh-active {
+            background: linear-gradient(135deg, #0284c7, #2563eb);
+            color: #ffffff;
+            border-color: #38bdf8;
+            box-shadow: 0 2px 6px rgba(2, 132, 199, 0.4);
+        }
+
+        .font-size-selector {
+            background: var(--bg-card-sub);
+            border: 1.5px solid #0284c7;
+            color: #38bdf8;
+            font-weight: 900;
+            padding: 3px 8px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .progress-bar-wrap {
+            width: 44px;
+            height: 6px;
+            background: var(--border-color);
+            border-radius: 3px;
+            overflow: hidden;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .progress-bar-fill {
+            height: 100%;
+            background: var(--text-accent);
+            width: 100%;
+            transition: width 1s linear;
+        }
+
+        /* 3. 司令塔メインダッシュボード領域 (PC時: 100vhフィット) */
+        .cockpit-main {
+            display: flex;
+            flex-direction: row;
+            flex: 1 1 0;
+            min-height: 0;
+            gap: 6px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        /* 左領域: 12大危機管理指標グリッド (幅約 66%) */
+        .indicators-pane {
+            flex: 1 1 66%;
+            min-width: 0;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            gap: 5px;
+            overflow: hidden;
+        }
+
+        /* 各指標カード */
+        .indicator-card {
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-color);
+            border-radius: 8px;
+            padding: 6px 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: var(--card-shadow);
+            transition: all 0.2s ease;
+            position: relative;
+            overflow: hidden;
+            min-height: 0;
+        }
+        .indicator-card:hover {
+            border-color: var(--border-focus);
+            background: var(--bg-card-hover);
+        }
+
+        .indicator-card.status-level-ALERT {
+            border-left: 5px solid var(--status-alert-border);
+            box-shadow: 0 0 14px var(--status-alert-glow);
+        }
+        .indicator-card.status-level-NOTICE {
+            border-left: 5px solid var(--status-notice-border);
+            box-shadow: 0 0 8px var(--status-notice-glow);
+        }
+        .indicator-card.status-level-NORMAL {
+            border-left: 5px solid var(--status-normal-border);
+        }
+
+        .indicator-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1.5px solid var(--border-sub);
+            padding-bottom: 3px;
+            flex-shrink: 0;
+            gap: 6px;
+        }
+
+        .indicator-title {
+            font-size: 1.05em;
+            font-weight: 900;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            letter-spacing: 0.3px;
+        }
+
+        .indicator-badge {
+            font-size: 0.88em;
+            font-weight: 900;
+            padding: 2px 9px;
+            border-radius: 12px;
+            letter-spacing: 0.6px;
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            flex-shrink: 0;
+        }
+        .badge-level-NORMAL {
+            background: var(--status-normal-bg);
+            border: 1.5px solid var(--status-normal-border);
+            color: var(--status-normal-text);
+        }
+        .badge-level-NOTICE {
+            background: var(--status-notice-bg);
+            border: 1.5px solid var(--status-notice-border);
+            color: var(--status-notice-text);
+        }
+        .badge-level-ALERT {
+            background: var(--status-alert-bg);
+            border: 1.5px solid var(--status-alert-border);
+            color: var(--status-alert-text);
+            animation: pulse-red 1.6s infinite;
+        }
+
+        .indicator-card-body {
+            flex: 1 1 auto;
+            min-height: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2px 0;
+            overflow: hidden;
+        }
+
+        .indicator-main-text {
+            font-size: 1.08em;
+            font-weight: 900;
+            color: #ffffff;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-word;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+        }
+        [data-theme="light"] .indicator-main-text {
+            color: #0f172a;
+            text-shadow: none;
+        }
+
+        .indicator-sub-text {
+            font-size: 0.82em;
+            font-weight: 700;
+            color: var(--text-secondary);
+            margin-top: 1px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .quake-special-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 6px;
+        }
+        .quake-shindo-badge {
+            font-size: 2.1em;
+            font-weight: 900;
+            font-family: 'Consolas', monospace;
+            padding: 0 8px;
+            border-radius: 6px;
+            background: rgba(56, 189, 248, 0.2);
+            border: 2px solid #38bdf8;
+            color: #38bdf8;
+            line-height: 1.1;
+            flex-shrink: 0;
+            box-shadow: 0 0 12px rgba(56, 189, 248, 0.4);
+        }
+        .quake-shindo-badge.alert {
+            background: var(--status-alert-bg);
+            border-color: var(--status-alert-border);
+            color: var(--status-alert-text);
+            box-shadow: 0 0 14px var(--status-alert-glow);
+        }
+
+        .indicator-card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1.5px dashed var(--border-sub);
+            padding-top: 2px;
+            flex-shrink: 0;
+        }
+
+        .btn-detail {
+            background: linear-gradient(135deg, #1e3a8a, #2563eb);
+            color: #ffffff;
+            border: 1.5px solid #60a5fa;
+            border-radius: 4px;
+            padding: 3px 10px;
+            font-size: 0.84em;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            text-decoration: none;
+        }
+        .btn-detail:hover {
+            background: linear-gradient(135deg, #2563eb, #3b82f6);
+            border-color: #93c5fd;
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
+            transform: scale(1.04);
+        }
+
+        .raw-link-mini {
+            font-size: 0.78em;
+            font-weight: 700;
+            color: var(--text-accent-link);
+            text-decoration: none;
+            opacity: 0.9;
+        }
+        .raw-link-mini:hover {
+            text-decoration: underline;
+        }
+
+        /* 右領域: 常設メディア監視パネル (幅約 34%) */
+        .media-pane {
+            flex: 0 0 34%;
+            min-width: 320px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            overflow: hidden;
+        }
+
+        .permanent-stream-box {
+            flex: 2 1 0;
+            min-height: 0;
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-color);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+        }
+
+        .permanent-camera-box {
+            flex: 1.8 1 0;
+            min-height: 0;
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-color);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+        }
+
+        .permanent-weather-box {
+            flex: 1.2 1 0;
+            min-height: 0;
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-color);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+        }
+
+        .media-box-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-card-sub);
+            padding: 3px 10px;
+            border-bottom: 1.5px solid var(--border-color);
+            font-size: 0.9em;
+            font-weight: 900;
+            flex-shrink: 0;
+            gap: 6px;
+        }
+
+        .media-tabs-strip {
+            display: flex;
+            gap: 4px;
+            overflow-x: auto;
+        }
+        .media-tabs-strip::-webkit-scrollbar { display: none; }
+
+        .media-tab-btn {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 2px 7px;
+            border-radius: 4px;
+            font-size: 0.82em;
+            font-weight: 800;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.15s ease;
+        }
+        .media-tab-btn:hover {
+            color: var(--text-primary);
+            border-color: var(--border-focus);
+        }
+        .media-tab-btn.active {
+            background: var(--status-alert-border);
+            color: #ffffff;
+            border-color: var(--status-alert-border);
+        }
+        .camera-tab-btn.active {
+            background: #2563eb;
+            color: #ffffff;
+            border-color: #3b82f6;
+        }
+
+        .media-video-wrapper {
+            flex: 1 1 0;
+            min-height: 0;
+            position: relative;
+            background: #000000;
+            width: 100%;
+        }
+
+        .media-video-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .weather-scroll-content {
+            flex: 1 1 0;
+            min-height: 0;
+            overflow-y: auto;
+            padding: 6px 10px;
+            font-size: 0.88em;
+            line-height: 1.45;
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+        .weather-scroll-content::-webkit-scrollbar {
+            width: 5px;
+        }
+        .weather-scroll-content::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 3px;
+        }
+
+        /* モバイル専用スティッキーナビゲーション (画面上部固定で各セクションへ瞬時にジャンプ) */
+        .mobile-quick-nav {
+            display: none;
+        }
+
+        /* =========================================================
+           4. 詳細モーダルコンテナ (全指標共通 美麗ダイアログ)
+           ========================================================= */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.78);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            animation: fadeIn 0.2s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .modal-container {
+            background: var(--bg-panel);
+            border: 2px solid var(--border-focus);
+            border-radius: 10px;
+            width: 100%;
+            max-width: 950px;
+            max-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            box-shadow: var(--modal-shadow);
+            animation: zoomIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            overflow: hidden;
+            font-size: 1.05em;
+        }
+
+        @keyframes zoomIn {
+            from { transform: scale(0.95); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-card);
+            border-bottom: 1.5px solid var(--border-color);
+            padding: 10px 16px;
+            flex-shrink: 0;
+        }
+
+        .modal-title-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.2em;
+            font-weight: 900;
+            color: var(--text-primary);
+        }
+
+        .modal-close-btn {
+            background: rgba(239, 68, 68, 0.2);
+            border: 1.5px solid rgba(239, 68, 68, 0.6);
+            color: #f87171;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.95em;
+            font-weight: 900;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .modal-close-btn:hover {
+            background: #ef4444;
+            color: #ffffff;
+        }
+
+        .modal-body {
+            flex: 1 1 auto;
+            min-height: 0;
+            overflow-y: auto;
+            padding: 14px 18px;
+            line-height: 1.5;
+        }
+        .modal-body::-webkit-scrollbar {
+            width: 6px;
+        }
+        .modal-body::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 3px;
+        }
+
+        .modal-section {
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px 14px;
+            margin-bottom: 12px;
+        }
+
+        .modal-section-title {
+            font-size: 1.1em;
+            font-weight: 900;
+            color: var(--text-accent);
+            margin-bottom: 8px;
+            border-bottom: 1.5px solid var(--border-sub);
+            padding-bottom: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .quake-history-row {
+            padding: 8px 10px;
+            border-bottom: 1px dashed var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .quake-history-row:last-child {
+            border-bottom: none;
+        }
+
+        .sns-post-box {
+            padding: 6px 10px;
+            border-bottom: 1px solid var(--border-sub);
+            font-size: 0.95em;
+        }
+
+        /* --- 口コミ監視キーワード タグスタイル --- */
+        .card-kw-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-top: 4px;
+        }
+        .kw-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: rgba(56, 189, 248, 0.12);
+            border: 1px solid rgba(56, 189, 248, 0.35);
+            color: #38bdf8;
+            padding: 2px 7px;
+            border-radius: 10px;
+            font-size: 0.78em;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        .kw-chip.alert {
+            background: rgba(239, 68, 68, 0.25);
+            border-color: #ef4444;
+            color: #f87171;
+            font-weight: 800;
+        }
+        .kw-chip-btn {
+            background: none;
+            border: none;
+            color: inherit;
+            cursor: pointer;
+            padding: 0 2px;
+            font-size: 0.85em;
+            line-height: 1;
+            opacity: 0.75;
+            transition: opacity 0.15s;
+        }
+        .kw-chip-btn:hover {
+            opacity: 1;
+        }
+
+        /* --- 天気概況 & 雨雲レーダー タブスタイル --- */
+        .weather-tab-content {
+            display: none;
+            width: 100%;
+            height: calc(100% - 36px);
+        }
+        .weather-tab-content.active {
+            display: flex;
+            flex-direction: column;
+        }
+        .weather-radar-iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 220px;
+            border: none;
+            border-radius: 6px;
+            background: #0b1120;
+        }
+
+        /* --- 1画面モード専用ボトムドック (PC時は非表示) --- */
+        .compact-bottom-dock {
+            display: none;
+        }
+
+        /* =========================================================
+           📱 スマートフォン・タブレット完全最適化 (max-width: 768px)
+           iPhone 15 (393x852) ＆ Dynamic Island / Safe Area 完全対応
+           ========================================================= */
+        @media screen and (max-width: 768px) {
+            :root {
+                --safe-top: env(safe-area-inset-top, 24px);
+                --safe-bottom: env(safe-area-inset-bottom, 16px);
+            }
+
+            html, body {
+                height: auto;
+                max-height: none;
+                overflow-y: auto;
+                overflow-x: hidden;
+                padding: max(10px, env(safe-area-inset-top, 24px)) 6px max(24px, env(safe-area-inset-bottom, 20px)) 6px !important;
+                font-size: 13.5px !important;
+                -webkit-text-size-adjust: 100%;
+            }
+
+            .cockpit-viewport {
+                height: auto !important;
+                min-height: 100vh !important;
+                overflow: visible !important;
+                gap: 8px !important;
+            }
+
+            /* ヘッダー: 縦並び・コンパクト化 */
+            .header {
+                flex-direction: column !important;
+                align-items: stretch !important;
+                padding: 10px 10px !important;
+                gap: 8px !important;
+            }
+
+            .header-left {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: stretch !important;
+                gap: 6px !important;
+            }
+
+            /* --- 海外危機管理ボタンのタップ保証 (Apple HIG 44px+) --- */
+            .scope-tabs {
+                display: flex !important;
+                justify-content: center !important;
+                width: 100% !important;
+                gap: 8px !important;
+                margin-bottom: 4px !important;
+                z-index: 50 !important;
+            }
+            .scope-tab {
+                flex: 1 1 50% !important;
+                min-height: 46px !important; /* 押しやすいタップ領域 46px */
+                height: 46px !important;
+                padding: 10px 12px !important;
+                font-size: 1.02em !important;
+                font-weight: 800 !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                border-radius: 8px !important;
+                text-align: center !important;
+                touch-action: manipulation !important;
+                cursor: pointer !important;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.3) !important;
+                background: rgba(30, 41, 59, 0.85) !important;
+                border: 1.5px solid var(--border-color) !important;
+            }
+            .scope-tab.active {
+                background: #2563eb !important;
+                border-color: #3b82f6 !important;
+                color: #ffffff !important;
+            }
+
+            .dashboard-title {
+                font-size: 1.2em !important;
+                text-align: center !important;
+            }
+
+            .location-select-wrap {
+                width: 100% !important;
+                display: flex !important;
+                gap: 6px !important;
+            }
+            .location-select {
+                flex: 1 1 auto !important;
+                font-size: 1.05em !important;
+                padding: 8px 10px !important;
+                min-height: 42px !important;
+            }
+            .header-region-badge {
+                display: none !important;
+            }
+
+            .header-right {
+                width: 100% !important;
+                justify-content: center !important;
+            }
+            .clock-display-box {
+                width: 100% !important;
+                align-items: center !important;
+                padding: 4px 8px !important;
+            }
+            .clock-time-digits {
+                font-size: 1.5em !important;
+            }
+
+            /* サブバー: スマホ向け整理 */
+            .sub-bar {
+                flex-direction: column !important;
+                align-items: stretch !important;
+                gap: 6px !important;
+                padding: 6px 8px !important;
+            }
+            .alert-banner-box {
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 4px !important;
+                white-space: normal !important;
+            }
+            .sub-tools {
+                display: flex !important;
+                flex-wrap: wrap !important;
+                justify-content: space-between !important;
+                gap: 4px !important;
+            }
+            .btn-tool {
+                padding: 6px 10px !important;
+                min-height: 38px !important;
+                font-size: 0.95em !important;
+                flex: 1 1 45% !important;
+                justify-content: center !important;
+            }
+            .font-size-selector {
+                min-height: 38px !important;
+                flex: 1 1 45% !important;
+            }
+            .progress-bar-wrap {
+                display: none !important;
+            }
+
+            /* スマホ専用 クイックナビゲーションバー */
+            .mobile-quick-nav {
+                display: flex !important;
+                position: sticky !important;
+                top: 0 !important;
+                z-index: 100 !important;
+                background: rgba(6, 10, 18, 0.95) !important;
+                backdrop-filter: blur(8px) !important;
+                border-bottom: 2px solid var(--border-color) !important;
+                padding: 6px 4px !important;
+                gap: 6px !important;
+                overflow-x: auto !important;
+                -webkit-overflow-scrolling: touch !important;
+            }
+            .mobile-quick-btn {
+                background: var(--bg-card) !important;
+                border: 1.5px solid var(--border-color) !important;
+                color: var(--text-primary) !important;
+                padding: 6px 12px !important;
+                border-radius: 16px !important;
+                font-size: 0.88em !important;
+                font-weight: 800 !important;
+                white-space: nowrap !important;
+                text-decoration: none !important;
+                min-height: 38px !important;
+                display: inline-flex !important;
+                align-items: center !important;
+                gap: 4px !important;
+                touch-action: manipulation !important;
+            }
+            .mobile-quick-btn.active {
+                background: #2563eb !important;
+                border-color: #3b82f6 !important;
+                color: #ffffff !important;
+            }
+            .mobile-quick-btn.mode-btn {
+                background: #7c3aed !important;
+                border-color: #a855f7 !important;
+                color: #ffffff !important;
+            }
+            .mobile-quick-btn.overseas-nav-btn {
+                background: #ea580c !important;
+                border-color: #fb923c !important;
+                color: #ffffff !important;
+            }
+
+            /* メイン領域: 縦スクロール構成 (スクロールモード時) */
+            .cockpit-main {
+                display: flex !important;
+                flex-direction: column !important;
+                height: auto !important;
+                overflow: visible !important;
+                gap: 12px !important;
+            }
+
+            /* 12大指標グリッド: 1列カードレイアウト */
+            .indicators-pane {
+                display: flex !important;
+                flex-direction: column !important;
+                height: auto !important;
+                overflow: visible !important;
+                gap: 8px !important;
+            }
+
+            .indicator-card {
+                height: auto !important;
+                min-height: 90px !important;
+                padding: 10px 12px !important;
+                border-radius: 10px !important;
+                gap: 6px !important;
+            }
+
+            .indicator-title {
+                font-size: 1.1em !important;
+            }
+            .indicator-badge {
+                font-size: 0.9em !important;
+                padding: 3px 10px !important;
+            }
+            .indicator-main-text {
+                font-size: 1.15em !important;
+                line-height: 1.4 !important;
+                -webkit-line-clamp: 3 !important;
+            }
+            .quake-shindo-badge {
+                font-size: 1.9em !important;
+                padding: 2px 10px !important;
+            }
+
+            .indicator-card-footer {
+                padding-top: 6px !important;
+            }
+            .btn-detail {
+                padding: 6px 16px !important;
+                font-size: 0.95em !important;
+                min-height: 40px !important;
+                border-radius: 6px !important;
+            }
+            .raw-link-mini {
+                font-size: 0.9em !important;
+                padding: 4px 6px !important;
+            }
+
+            /* 右ペイン (常設メディア): 画面幅100% 縦並び */
+            .media-pane {
+                flex: none !important;
+                width: 100% !important;
+                height: auto !important;
+                overflow: visible !important;
+                gap: 12px !important;
+            }
+
+            .permanent-stream-box, .permanent-camera-box {
+                flex: none !important;
+                height: auto !important;
+                min-height: 250px !important;
+                border-radius: 10px !important;
+            }
+            .media-video-wrapper {
+                aspect-ratio: 16 / 9 !important;
+                height: auto !important;
+                min-height: 210px !important;
+            }
+
+            /* 天気概況 & 雨雲レーダーのスマホ最適化 (潰れ解消) */
+            .permanent-weather-box {
+                flex: none !important;
+                height: auto !important;
+                min-height: 320px !important;
+                max-height: none !important;
+                border-radius: 10px !important;
+                display: flex !important;
+                flex-direction: column !important;
+            }
+            .weather-scroll-content {
+                max-height: 260px !important;
+                min-height: 140px !important;
+                font-size: 0.95em !important;
+                line-height: 1.6 !important;
+                overflow-y: auto !important;
+            }
+            .weather-radar-iframe {
+                height: 260px !important;
+                min-height: 260px !important;
+            }
+
+            /* モーダル: スマホ全幅ボトムシート */
+            .modal-overlay {
+                padding: 0 !important;
+                align-items: flex-end !important;
+            }
+            .modal-container {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: 92vh !important;
+                max-height: 92vh !important;
+                border-radius: 16px 16px 0 0 !important;
+                border-bottom: none !important;
+            }
+            .modal-header {
+                padding: 12px 16px !important;
+            }
+            .modal-close-btn {
+                padding: 8px 16px !important;
+                font-size: 1.05em !important;
+                min-height: 42px !important;
+            }
+            .modal-body {
+                padding: 12px 14px !important;
+            }
+
+            /* =========================================================
+               📱 iPhone 15 完全スクロールなし 1画面モード (compact mode)
+               ========================================================= */
+            body.mobile-mode-compact {
+                height: 100dvh !important;
+                max-height: 100dvh !important;
+                overflow: hidden !important;
+                padding: max(4px, env(safe-area-inset-top, 14px)) 4px max(4px, env(safe-area-inset-bottom, 10px)) 4px !important;
+                display: flex !important;
+                flex-direction: column !important;
+            }
+            body.mobile-mode-compact .cockpit-viewport {
+                height: 100% !important;
+                min-height: 0 !important;
+                max-height: 100% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                overflow: hidden !important;
+                gap: 3px !important;
+            }
+
+            /* 1画面モード: ヘッダー超凝縮 (1行〜2行) */
+            body.mobile-mode-compact .header {
+                flex-direction: row !important;
+                align-items: center !important;
+                justify-content: space-between !important;
+                padding: 2px 6px !important;
+                gap: 4px !important;
+                min-height: 38px !important;
+            }
+            body.mobile-mode-compact .header-left {
+                flex-direction: row !important;
+                align-items: center !important;
+                gap: 4px !important;
+                flex: 1 1 auto !important;
+                overflow: hidden !important;
+            }
+            body.mobile-mode-compact .dashboard-title {
+                display: none !important;
+            }
+            body.mobile-mode-compact .scope-tabs {
+                width: auto !important;
+                gap: 4px !important;
+                margin-bottom: 0 !important;
+            }
+            body.mobile-mode-compact .scope-tab {
+                min-height: 32px !important;
+                height: 32px !important;
+                padding: 4px 8px !important;
+                font-size: 0.82em !important;
+                flex: none !important;
+            }
+            body.mobile-mode-compact .location-select-wrap {
+                width: auto !important;
+                flex: 1 1 auto !important;
+                max-width: 140px !important;
+            }
+            body.mobile-mode-compact .location-select {
+                min-height: 32px !important;
+                padding: 2px 6px !important;
+                font-size: 0.85em !important;
+            }
+            body.mobile-mode-compact .header-right {
+                width: auto !important;
+                display: none !important;
+            }
+
+            /* 1画面モード: サブバー凝縮 */
+            body.mobile-mode-compact .sub-bar {
+                flex-direction: row !important;
+                align-items: center !important;
+                justify-content: space-between !important;
+                padding: 2px 6px !important;
+                min-height: 26px !important;
+                gap: 4px !important;
+            }
+            body.mobile-mode-compact .alert-banner-box {
+                flex-direction: row !important;
+                align-items: center !important;
+                gap: 4px !important;
+                overflow: hidden !important;
+                flex: 1 1 auto !important;
+            }
+            body.mobile-mode-compact .alert-badge-state {
+                font-size: 0.72em !important;
+                padding: 1px 6px !important;
+            }
+            body.mobile-mode-compact #alert-summary-text {
+                font-size: 0.76em !important;
+                white-space: nowrap !important;
+                text-overflow: ellipsis !important;
+                overflow: hidden !important;
+            }
+            body.mobile-mode-compact .sub-tools {
+                display: flex !important;
+                gap: 4px !important;
+                flex: none !important;
+            }
+            body.mobile-mode-compact .sub-tools > *:not(#countdown-sec):not(.btn-compact-mode-toggle) {
+                display: none !important;
+            }
+
+            /* 1画面モード: クイックナビは隠して下部ドックへ */
+            body.mobile-mode-compact .mobile-quick-nav {
+                display: none !important;
+            }
+
+            /* 1画面モード: メイン領域 100%フィット */
+            body.mobile-mode-compact .cockpit-main {
+                flex: 1 1 0 !important;
+                min-height: 0 !important;
+                height: auto !important;
+                overflow: hidden !important;
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 3px !important;
+            }
+
+            /* 1画面モード: 12大指標を 3列 × 4行 タイルに配置 */
+            body.mobile-mode-compact .indicators-pane {
+                flex: 1 1 0 !important;
+                min-height: 0 !important;
+                height: 100% !important;
+                display: grid !important;
+                grid-template-columns: repeat(3, 1fr) !important;
+                grid-template-rows: repeat(4, 1fr) !important;
+                gap: 3px !important;
+                overflow: hidden !important;
+            }
+
+            body.mobile-mode-compact .indicator-card {
+                min-height: 0 !important;
+                height: 100% !important;
+                padding: 3px 5px !important;
+                border-radius: 6px !important;
+                display: flex !important;
+                flex-direction: column !important;
+                justify-content: space-between !important;
+                overflow: hidden !important;
+                gap: 2px !important;
+                cursor: pointer !important;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.4) !important;
+            }
+            body.mobile-mode-compact .indicator-card-header {
+                display: flex !important;
+                justify-content: space-between !important;
+                align-items: center !important;
+                margin-bottom: 0 !important;
+            }
+            body.mobile-mode-compact .indicator-title {
+                font-size: 0.78em !important;
+                font-weight: 800 !important;
+                white-space: nowrap !important;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+            }
+            body.mobile-mode-compact .indicator-badge {
+                font-size: 0.68em !important;
+                padding: 1px 4px !important;
+                line-height: 1.1 !important;
+            }
+            body.mobile-mode-compact .indicator-card-body {
+                flex: 1 1 0 !important;
+                display: flex !important;
+                flex-direction: column !important;
+                justify-content: center !important;
+                overflow: hidden !important;
+            }
+            body.mobile-mode-compact .indicator-main-text {
+                font-size: 0.80em !important;
+                line-height: 1.15 !important;
+                -webkit-line-clamp: 2 !important;
+                white-space: normal !important;
+                text-overflow: ellipsis !important;
+            }
+            body.mobile-mode-compact .indicator-sub-text,
+            body.mobile-mode-compact .card-sns-tags-container,
+            body.mobile-mode-compact .indicator-card-footer {
+                display: none !important;
+            }
+            body.mobile-mode-compact .quake-shindo-badge {
+                font-size: 1.05em !important;
+                padding: 1px 4px !important;
+            }
+
+            /* 1画面モード: メディアペインは非表示にして下部ドックから呼び出し */
+            body.mobile-mode-compact .media-pane {
+                display: none !important;
+            }
+
+            /* 1画面モード: 下部固定ミニドックバー */
+            body.mobile-mode-compact .compact-bottom-dock {
+                display: flex !important;
+                height: 40px !important;
+                min-height: 40px !important;
+                background: rgba(15, 23, 42, 0.95) !important;
+                backdrop-filter: blur(8px) !important;
+                border-top: 1.5px solid var(--border-color) !important;
+                align-items: center !important;
+                justify-content: space-around !important;
+                padding: 2px 4px !important;
+                border-radius: 8px !important;
+                gap: 4px !important;
+                z-index: 90 !important;
+            }
+            .compact-dock-btn {
+                background: rgba(255, 255, 255, 0.08) !important;
+                border: 1px solid var(--border-color) !important;
+                color: var(--text-primary) !important;
+                border-radius: 6px !important;
+                padding: 4px 6px !important;
+                font-size: 0.78em !important;
+                font-weight: 800 !important;
+                display: inline-flex !important;
+                align-items: center !important;
+                gap: 3px !important;
+                cursor: pointer !important;
+                text-decoration: none !important;
+                min-height: 32px !important;
+                touch-action: manipulation !important;
+            }
+            .compact-dock-btn:active {
+                background: var(--text-accent) !important;
+                color: #000 !important;
+            }
+        }
+    </style>
+    <!-- YouTube IFrame API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+
+    <div class="cockpit-viewport">
+        <!-- 1. ヘッダー -->
+        <header class="header">
+            <div class="header-left">
+                <nav class="scope-tabs">
+                    <a href="/" class="scope-tab active">🇯🇵 国内 災害情報</a>
+                    <a href="overseas.html" class="scope-tab">🌍 海外 危機管理</a>
+                </nav>
+                <h1 class="dashboard-title">災害危機管理ダッシュボード</h1>
+                
+                <div class="location-select-wrap">
+                    <select id="location-select" class="location-select" onchange="changeLocation()">
+                        <option value="all">🗾 全国 (都道府県すべて・沖縄含む)</option>
+                        <option value="sapporo">札幌 (北海道エリア)</option>
+                        <option value="sendai">仙台 (東北エリア)</option>
+                        <option value="tokyo" selected>東京 (関東エリア)</option>
+                        <option value="omiya">大宮 (北関東エリア)</option>
+                        <option value="yokohama">横浜 (南関東エリア)</option>
+                        <option value="kanazawa">金沢 (北陸・上越エリア)</option>
+                        <option value="nagoya">名古屋 (東海・信越エリア)</option>
+                        <option value="osaka">大阪 (近畿エリア)</option>
+                        <option value="hiroshima">広島 (中国エリア)</option>
+                        <option value="takamatsu">高松 (四国エリア)</option>
+                        <option value="fukuoka">福岡 (九州エリア)</option>
+                        <option value="naha">那覇 (沖縄エリア)</option>
+                    </select>
+                    <span id="header-region-badge" class="header-region-badge">エリア読込中...</span>
+                </div>
+            </div>
+
+            <!-- ヘッダー右側: 大判時計 (20m遠視認) -->
+            <div class="header-right">
+                <div class="clock-display-box" title="日本標準時 (JST) リアルタイム時計">
+                    <div class="clock-date-line" id="clock-date">----年--月--日 (--)</div>
+                    <div class="clock-time-line">
+                        <span class="clock-time-digits" id="clock-time">--:--:--</span>
+                        <span class="clock-tz-badge">JST</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- 2. サブツールバー (インシデント判定 & 文字サイズ切替) -->
+        <div class="sub-bar">
+            <div class="alert-banner-box">
+                <span id="sys-status-badge" class="alert-badge-state state-normal">平常態勢</span>
+                <span id="alert-summary-text" style="color:var(--text-primary); font-weight:800; font-size:1.02em;">現在、重大な緊急インシデントは検知されていません（全系正常稼働中）</span>
+            </div>
+
+            <div class="sub-tools">
+                <!-- 文字サイズ切替セレクター (20m遠視認対応) -->
+                <span style="font-weight:800; color:var(--text-muted);">文字:</span>
+                <select id="font-scale-select" class="font-size-selector" onchange="changeFontScale(this.value)" title="文字サイズ変更（大画面・遠距離視認）">
+                    <option value="font-scale-20m" selected>🚨 20m遠視認 (特大)</option>
+                    <option value="font-scale-xlarge">特大 (16px)</option>
+                    <option value="font-scale-large">大 (14px)</option>
+                    <option value="font-scale-standard">標準 (12px)</option>
+                </select>
+
+                <span style="color:var(--text-muted); margin-left:4px;">更新:</span>
+                <strong id="countdown-sec" style="color:var(--text-accent); min-width:20px;">30s</strong>
+                <div class="progress-bar-wrap" title="更新カウントダウン">
+                    <div id="progress-bar" class="progress-bar-fill"></div>
+                </div>
+
+                <button class="btn-tool btn-refresh-active" id="btn-manual-refresh" onclick="loadRealData(true)">
+                    <span id="btn-refresh-text">🔄 今すぐ更新</span>
+                </button>
+
+                <button class="btn-tool" onclick="copyReportText()" title="クリップボードに報告テキストをコピー">
+                    📋 報告コピー
+                </button>
+
+                <button class="btn-tool" onclick="openThresholdModal()" title="指標ごとの警戒・注意閾値を設定">
+                    ⚙️ 閾値設定
+                </button>
+
+                <select id="theme-select" class="btn-tool" onchange="changeTheme()" title="テーマ切替">
+                    <option value="dark" selected>🌙 ダーク</option>
+                    <option value="light">☀️ ライト</option>
+                </select>
+
+                <button class="btn-tool" onclick="toggleFullScreen()" title="全画面表示">
+                    🖥️ 全画面
+                </button>
+            </div>
+        </div>
+
+        <!-- 📱 スマホ専用 クイックジャンプ ナビゲーションバー (幅<=768pxで表示) -->
+        <nav class="mobile-quick-nav">
+            <button class="mobile-quick-btn mode-btn" onclick="toggleMobileDashboardMode()" id="mobile-quick-mode-btn">📱 1画面モードへ</button>
+            <a href="#sec-indicators-anchor" class="mobile-quick-btn active">📋 12大指標</a>
+            <a href="#sec-stream-anchor" class="mobile-quick-btn">🔴 災害生放送</a>
+            <a href="#sec-camera-anchor" class="mobile-quick-btn">📷 ライブカメラ</a>
+            <a href="#sec-weather-anchor" class="mobile-quick-btn">🌦️ 天気＆レーダー</a>
+            <a href="overseas.html" class="mobile-quick-btn overseas-nav-btn">🌍 海外危機 ↗</a>
+        </nav>
+
+        <!-- 3. ダッシュボード メインエリア -->
+        <main class="cockpit-main">
+            <!-- 左ペイン: 12大危機管理指標グリッド -->
+            <div class="indicators-pane" id="sec-indicators-anchor">
+                
+                <!-- 1. 地震 (最新情報のみ表示・超特大震度アイコン) -->
+                <div class="indicator-card" id="card-earthquake">
+                    <div class="indicator-card-header">
+                        <div class="indicator-title">🌐 地震 (最新情報)</div>
+                        <span class="indicator-badge badge-level-NORMAL" id="badge-earthquake">平常</span>
+                    </div>
+                    <div class="indicator-card-body">
+                        <div class="quake-special-box">
+                            <div>
+                                <div class="indicator-main-text" id="eq-main-text">最新地震データを取得中...</div>
+                                <div class="indicator-sub-text" id="eq-sub-text">気象庁発表 連動解析</div>
+                            </div>
+                            <div class="quake-shindo-badge" id="eq-shindo-badge">震度-</div>
+                        </div>
+                    </div>
+                    <div class="indicator-card-footer">
+                        <button class="btn-detail" onclick="openIndicatorDetail('earthquake')">詳細 ↗</button>
+                        <a href="https://www.data.jma.go.jp/multi/quake/?lang=jp" target="_blank" class="raw-link-mini">気象庁 ↗</a>
+                    </div>
+                </div>
+
+                <!-- 2. 津波 -->
+                <div class="indicator-card" id="card-tsunami">
+                    <div class="indicator-card-header">
+                        <div class="indicator-title">🌊 津波情報</div>
+                        <span class="indicator-badge badge-level-NORMAL" id="badge-tsunami">平常</span>
+                    </div>
+                    <div class="indicator-card-body">
+                        <div class="indicator-main-text" id="tsunami-main-text">津波の心配なし（警報・注意報なし）</div>
+                        <div class="indicator-sub-text" id="tsunami-sub-text">全国沿岸海域 監視中</div>
+                    </div>
+                    <div class="indicator-card-footer">
+                        <button class="btn-detail" onclick="openIndicatorDetail('tsunami')">詳細 ↗</button>
+                        <a href="https://typhoon.yahoo.co.jp/weather/jp/tsunami/" target="_blank" class="raw-link-mini">Yahoo!津波 ↗</a>
+                    </div>
+                </div>
+
+                <!-- 3. 火山 -->
+                <div class="indicator-card" id="card-volcano">
+                    <div class="indicator-card-header">
+                        <div class="indicator-title">🌋 火山活動</div>
+                        <span class="indicator-badge badge-level-NORMAL" id="badge-volcano">平常</span>
+                    </div>
+                    <div class="indicator-card-body">
+                        <div class="indicator-main-text" id="volcano-main-text">全活火山 噴火警戒レベル1 (平常)</div>
+                        <div class="indicator-sub-text" id="volcano-sub-text">桜島・浅間山・富士山等 常時監視</div>
+                    </div>
+                    <div class="indicator-card-footer">
+                        <button class="btn-detail" onclick="openIndicatorDetail('volcano')">詳細 ↗</button>
+                        <a href="https://typhoon.yahoo.co.jp/weather/jp/volcano/" target="_blank" class="raw-link-mini">Yahoo!火山 ↗</a>
+                    </div>
+                </div>
+
+                <!-- 4. 気象・警報 -->
+                <div class="indicator-card" id="card-weather">
+                    <div class="indicator-card-header">
+                        <div class="indicator-title">☔ 気象・警報</div>
+                        <span class="indicator-badge badge-level-NORMAL" id="badge-weather">平常</span>
+                    </div>
+                    <div class="indicator-card-body">
+                        <div class="indicator-main-text" id="weather-main-text">警報・特別警報なし (管内正常)</div>
+                        <div class="indicator-sub-text" id="weather-sub-text">気象庁特別警報・注意報</div>
+                    </div>
+                    <div class="indicator-card-footer">
+                        <button class="btn-detail" onclick="openIndicatorDetail('weather')">詳細 ↗</button>
+                        <a href="https://www.jma.go.jp/bosai/warning/" target="_blank" class="raw-link-mini" id="link-weather-raw">気象庁 ↗</a>
+                    </div>
+                </div>
+
+                <!-- 5. 河川情報 (川の防災情報) -->
+                <div class="indicator-card" id="card-river">
+                    <div class="indicator-card-header">
+                        <div class="indicator-title">🏞️ 河川情報</div>
+                        <span class="indicator-badge badge-level-NORMAL" id="badge-river">平常</span>
+                    </div>
+                    <div class="indicator-card-body">
+                        <div class="indicator-main-text" id="river-main-text">管内河川：氾濫危険・注意水位なし</div>
+                        <div class="indicator-sub-text" id="river-sub-text">国交省 川の防災情報連携</div>
+                    </div>
+                    <div class="indicator-card-footer">
+                        <button class="btn-detail" onclick="openIndicatorDetail('river')">詳細 ↗</button>
+                        <a href="https://www.river.go.jp/index" target="_blank" class="raw-link-mini" id="link-river-raw">川の防災 ↗</a>
+                    </div>
+                </div>
+
+                <!-- 6. 避難情報 -->
+                <div class="indicator-card" id="card-evacuation">
+                    <div class="indicator-card-header">
+                        <div class="indicator-title">🏠 避難情報</div>
+                        <span class="indicator-badge badge-level-NORMAL" id="badge-evacuation">平常</span>
+                    </div>
+                    <div class="indicator-card-body">
+                        <div class="indicator-main-text" id="evac-main-text">管内自治体：避難指示発令なし</div>
+                        <div class="indicator-sub-text" id="evac-sub-text">高齢者等避難・避難所開設状況</div>
+                    </div>
+                    <div class="indicator-card-footer">
+                        <button class="btn-detail" onclick="openIndicatorDetail('evacuation')">詳細 ↗</button>
+                        <a href="https://crisis.yahoo.co.jp/evacuation/" target="_blank" class="raw-link-mini">避難情報 ↗</a>
+                    </div>
+                </div>
+
+                <!-- 7. 警察・消防 -->
+                <div class="indicator-card" id="card-police_fire">
+                    <div class="indicator-card-header">
+                        <div class="indicator-title">🚨 警察・消防</div>
+                        <span class="indicator-badge badge-level-NORMAL" id="badge-police_fire">平常</span>
+                    </div>
+                    <div class="indicator-card-body">
+                        <div class="indicator-main-text" id="pf-main-text">重大事案・多数傷病災害なし</div>
+                        <div class="indicator-sub-text" id="pf-sub-text">総務省消防庁・警察庁 通報ログ</div>
+                    </div>
+                    <div class="indicator-card-footer">
+                        <button class="btn-detail" onclick="openIndicatorDetail('police_fire')">詳細 ↗</button>
+                        <a href="https://www.fdma.go.jp/" target="_blank" class="raw-link-mini">消防庁 ↗</a>
+                    </div>
+                </div>
+
+                <!-- 8. 拠点ライフライン (電・水・ガ) -->
+                <div class="indicator-card" id="card-lifeline">
+                    <div class="indicator-card-header">
+                        <div class="indicator-title">⚡ ライフライン</div>
+                        <span class="indicator-badge badge-level-NORMAL" id="badge-lifeline">平常</span>
+                    </div>
+                    <div class="indicator-card-body">
+                        <div class="indicator-main-text" id="lifeline-main-text">電力・水道・ガス 正常供給中</div>
+                        <div class="indicator-sub-text" id="lifeline-sub-text">大手電力各社・各水道局・都市ガス</div>
+                    </div>
+                    <div class="indicator-card-footer">
+                        <button class="btn-detail" onclick="openIndicatorDetail('lifeline')">詳細 ↗</button>
+                        <a href="https://typhoon.yahoo.co.jp/weather/poweroutage/" target="_blank" class="raw-link-mini">停電情報 ↗</a>
+                    </div>
+                </div>
+
+                <!-- 9. 交通網 (鉄道・新幹線・航空) -->
+                <div class="indicator-card" id="card-transit">
+                    <div class="indicator-card-header">
+                        <div class="indicator-title">🚃 交通網</div>
+                        <span class="indicator-badge badge-level-NORMAL" id="badge-transit">平常</span>
+                    </div>
+                    <div class="indicator-card-body">
+                        <div class="indicator-main-text" id="transit-main-text">在来線・新幹線 全線平常運行</div>
+                        <div class="indicator-sub-text" id="transit-sub-text">Yahoo!路線情報・JR各社運行解析</div>
+                    </div>
+                    <div class="indicator-card-footer">
+                        <button class="btn-detail" onclick="openIndicatorDetail('transit')">詳細 ↗</button>
+                        <a href="https://transit.yahoo.co.jp/diainfo" target="_blank" class="raw-link-mini" id="link-transit-raw">路線情報 ↗</a>
+                    </div>
+                </div>
+
+                <!-- 10. 通信事業者 (4キャリア) -->
+                <div class="indicator-card" id="card-telecom">
+                    <div class="indicator-card-header">
+                        <div class="indicator-title">📶 通信事業者</div>
+                        <span class="indicator-badge badge-level-NORMAL" id="badge-telecom">平常</span>
+                    </div>
+                    <div class="indicator-card-body">
+                        <div class="indicator-main-text" id="telecom-main-text">主要4キャリア 正常稼働中</div>
+                        <div class="indicator-sub-text" id="telecom-sub-text">KDDI(au/UQ/povo), ドコモ, SB, 楽天</div>
+                        <div style="display:flex; flex-wrap:wrap; gap:4px; margin-top:8px;">
+                            <a href="https://www.docomo.ne.jp/info/network/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();">ドコモ ↗</a>
+                            <a href="https://www.softbank.jp/mobile/info/personal/important/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();">SB ↗</a>
+                            <a href="https://network.mobile.rakuten.co.jp/information/failure/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();">楽天 ↗</a>
+                            <a href="https://www.au.com/information/notice_mobile/network/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();">au ↗</a>
+                            <a href="https://www.uqwimax.jp/information/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();">UQ ↗</a>
+                            <a href="https://povo.jp/news/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();">povo ↗</a>
+                        </div>
+                    </div>
+                    <div class="indicator-card-footer">
+                        <button class="btn-detail" onclick="openIndicatorDetail('telecom')">詳細 ↗</button>
+                    </div>
+                </div>
+
+                <!-- 11. 口コミ監視 (SNS/リアルタイム) -->
+                <div class="indicator-card" id="card-sns">
+                    <div class="indicator-card-header">
+                        <div class="indicator-title">📡 口コミ監視</div>
+                        <span class="indicator-badge badge-level-NORMAL" id="badge-sns">平常</span>
+                    </div>
+                    <div class="indicator-card-body">
+                        <div class="indicator-main-text" id="sns-main-text">通信障害・被災ワード 急増なし</div>
+                        <div class="indicator-sub-text" id="sns-sub-text">Yahoo!リアルタイム検索 安定検知</div>
+                        <!-- 設定中キーワード一覧（初期画面で見せる！） -->
+                        <div class="card-sns-tags-container" style="margin-top:6px; background:rgba(0,0,0,0.25); padding:6px 8px; border-radius:6px; border:1px solid var(--border-color);">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                                <span style="font-size:0.75em; color:var(--text-muted); font-weight:800;">🔍 監視ワード (<span id="card-kw-count">4</span>):</span>
+                                <button onclick="openIndicatorDetail('sns')" style="background:none; border:none; color:var(--text-accent); font-size:0.75em; cursor:pointer; font-weight:bold; padding:0;">⚙️ 設定</button>
+                            </div>
+                            <div id="card-sns-tags" class="card-kw-tags">
+                                <!-- JSで動的レンダリング -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="indicator-card-footer">
+                        <button class="btn-detail" onclick="openIndicatorDetail('sns')">詳細・ワード設定 ⚙️</button>
+                        <a href="https://search.yahoo.co.jp/realtime" target="_blank" class="raw-link-mini">Yahoo!リアルタイム ↗</a>
+                    </div>
+                </div>
+
+                <!-- 12. 総合BCP判定 / 行政対応 -->
+                <div class="indicator-card" id="card-government">
+                    <div class="indicator-card-header">
+                        <div class="indicator-title">🏛️ 総合BCP / 行政</div>
+                        <span class="indicator-badge badge-level-NORMAL" id="badge-government">平常</span>
+                    </div>
+                    <div class="indicator-card-body">
+                        <div class="indicator-main-text" id="gov-main-text">政府・自治体 非常態勢なし (平常)</div>
+                        <div class="indicator-sub-text" id="gov-sub-text">内閣府防災・厚生労働省・官邸</div>
+                    </div>
+                    <div class="indicator-card-footer">
+                        <button class="btn-detail" onclick="openIndicatorDetail('government')">詳細 ↗</button>
+                        <a href="https://www.bousai.go.jp/" target="_blank" class="raw-link-mini">内閣府 ↗</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 右ペイン: 常設メディア監視パネル (生放送・ライブカメラ・天気概況) -->
+            <div class="media-pane">
+                
+                <!-- 1. 災害生放送 (Live News Stream) -->
+                <div class="permanent-stream-box" id="sec-stream-anchor">
+                    <div class="media-box-header">
+                        <div style="display:flex; align-items:center; gap:6px;">
+                            <span>🔴 災害生放送 (24h Live)</span>
+                            <a id="stream-direct-link" href="https://www.youtube.com/@weathernews/live" target="_blank" rel="noopener" class="raw-link-mini" style="font-size:0.75em; padding:2px 6px;" title="YouTube公式チャンネルで直接開く">別窓 ↗</a>
+                        </div>
+                        <div class="media-tabs-strip" id="stream-tabs">
+                            <button class="media-tab-btn active" onclick="switchStreamVideo('stream_weathernews')">WNI気象</button>
+                            <button class="media-tab-btn" onclick="switchStreamVideo('stream_tbsnews')">TBS</button>
+                            <button class="media-tab-btn" onclick="switchStreamVideo('stream_ntvnews')">日テレ</button>
+                            <button class="media-tab-btn" onclick="switchStreamVideo('stream_annnews')">テレ朝</button>
+                            <button class="media-tab-btn" onclick="switchStreamVideo('stream_fnnnews')">フジ</button>
+                        </div>
+                    </div>
+                    <div class="media-video-wrapper">
+                        <iframe id="stream-player-iframe" class="media-video-iframe" 
+                            src="https://www.youtube-nocookie.com/embed/4_ae_IKXB8g?autoplay=1&mute=1&playsinline=1&enablejsapi=1&rel=0" 
+                            title="24時間災害生放送" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- 2. 全国ライブカメラ (Live Cameras) -->
+                <div class="permanent-camera-box" id="sec-camera-anchor">
+                    <div class="media-box-header">
+                        <span id="camera-box-title">📷 全国ライブカメラ</span>
+                        <div class="media-tabs-strip" id="camera-tabs">
+                            <button class="media-tab-btn camera-tab-btn active" onclick="switchCameraVideo('cam_tokyo_shibuya')">東京渋谷</button>
+                            <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_osaka_dotonbori')">大阪</button>
+                            <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_naha_kokusai')">那覇</button>
+                            <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_fuji')">富士山</button>
+                            <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_sakurajima')">桜島</button>
+                        </div>
+                    </div>
+                    <div class="media-video-wrapper">
+                        <iframe id="camera-player-iframe" class="media-video-iframe" 
+                            src="https://www.youtube-nocookie.com/embed/dfVK7ld38Ys?autoplay=1&mute=1&playsinline=1&enablejsapi=1&rel=0" 
+                            title="主要拠点ライブカメラ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- 3. 天気概況＆雨雲レーダー -->
+                <div class="permanent-weather-box" id="sec-weather-anchor">
+                    <div class="media-box-header">
+                        <div style="display:flex; align-items:center; gap:6px;">
+                            <span>🌦️ 天気概況 & 雨雲レーダー</span>
+                            <span id="weather-area-label" style="font-size:0.85em; color:var(--text-accent);">東京管内</span>
+                        </div>
+                        <div class="media-tabs-strip">
+                            <button class="media-tab-btn active" id="tab-weather-text" onclick="switchWeatherTab('text')">🌦️ 概況文</button>
+                            <button class="media-tab-btn" id="tab-weather-radar" onclick="switchWeatherTab('radar')">🌧️ 雨雲レーダー</button>
+                        </div>
+                    </div>
+                    <div class="weather-tab-content active" id="weather-overview-pane">
+                        <div class="weather-scroll-content" id="weather-overview-content">
+                            気象台の最新概況文を取得中...
+                        </div>
+                    </div>
+                    <div class="weather-tab-content" id="weather-radar-pane">
+                        <iframe id="weather-radar-iframe" class="weather-radar-iframe"
+                            src="https://embed.windy.com/embed2.html?lat=35.68&lon=139.76&detailLat=35.68&detailLon=139.76&width=100%25&height=100%25&zoom=7&level=surface&overlay=radar&product=radar&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" 
+                            title="リアルタイム雨雲レーダー" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- 📱 スマホ 1画面モード専用ボトムドックバー (iPhone 15 完全対応) -->
+        <div class="compact-bottom-dock" id="compact-bottom-dock">
+            <button class="compact-dock-btn" onclick="openMediaPopup('stream')" title="生放送を見る">🔴 生放送</button>
+            <button class="compact-dock-btn" onclick="openMediaPopup('camera')" title="カメラを見る">📷 カメラ</button>
+            <button class="compact-dock-btn" onclick="openMediaPopup('radar')" title="レーダーを見る">🌧️ レーダー</button>
+            <a href="overseas.html" class="compact-dock-btn" style="color:#fdba74 !important; border-color:#f97316 !important;">🌍 海外</a>
+            <button class="compact-dock-btn" onclick="toggleMobileDashboardMode('scroll')" style="color:#a78bfa !important; border-color:#8b5cf6 !important;" title="スクロールモードへ">📜 スクロール</button>
+        </div>
+    </div>
+
+    <!-- =========================================================
+         4. 詳細モーダル (各指標クリック・「詳細 ↗」で展開)
+         ========================================================= -->
+    <div id="indicator-detail-modal" class="modal-overlay" style="display:none;" onclick="closeModalOnBackdrop(event)">
+        <div class="modal-container">
+            <div class="modal-header">
+                <div class="modal-title-area" id="modal-title">
+                    <span>📋 指標詳細解析</span>
+                </div>
+                <button class="modal-close-btn" onclick="closeDetailModal()">✕ 閉じる (ESC)</button>
+            </div>
+            <div class="modal-body" id="modal-body-content">
+                <!-- 動的生成コンテンツ -->
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================
+         4-2. 閾値カスタマイズ設定モーダル (国内指標ごとの基準可変)
+         ========================================================= -->
+    <div id="threshold-setting-modal" class="modal-overlay" style="display:none;" onclick="closeThresholdModalOnBackdrop(event)">
+        <div class="modal-container" style="max-width: 680px;">
+            <div class="modal-header">
+                <div class="modal-title-area">
+                    <span>⚙️ 国内災害指標 閾値カスタマイズ設定</span>
+                </div>
+                <button class="modal-close-btn" onclick="closeThresholdModal()">✕ 閉じる (ESC)</button>
+            </div>
+            <div class="modal-body" style="padding: 18px 20px;">
+                <p style="color:var(--text-secondary); margin-bottom:16px; font-size:0.92em; line-height:1.5;">
+                    国内各指標が「注意（黄）」「警戒（赤）」に切り替わる基準値を自由にカスタマイズできます。<br>
+                    設定はブラウザに永続保存され、即時に全12指標の判定に反映されます。
+                </p>
+
+                <!-- 地震 -->
+                <div class="modal-section" style="margin-bottom:12px;">
+                    <div class="modal-section-title" style="margin-bottom:10px;">
+                        <span>🌐 地震 震度・規模 (気象庁発表)</span>
+                    </div>
+                    <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:10px;">
+                        <div>
+                            <label style="font-size:0.85em; color:var(--status-caution); font-weight:700; display:block; margin-bottom:4px;">⚠️ 注意 震度</label>
+                            <select id="th-eq-caution-shindo" style="width:100%; padding:6px; background:var(--bg-card); color:var(--text-primary); border:1px solid var(--border-color); border-radius:6px;">
+                                <option value="3">震度3 以上</option>
+                                <option value="4">震度4 以上 (標準)</option>
+                                <option value="5">震度5弱 以上</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="font-size:0.85em; color:var(--status-alert); font-weight:700; display:block; margin-bottom:4px;">🚨 警戒 震度</label>
+                            <select id="th-eq-alert-shindo" style="width:100%; padding:6px; background:var(--bg-card); color:var(--text-primary); border:1px solid var(--border-color); border-radius:6px;">
+                                <option value="5">震度5弱 以上 (標準)</option>
+                                <option value="6">震度5強 以上</option>
+                                <option value="7">震度6弱 以上</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="font-size:0.85em; color:var(--text-secondary); font-weight:700; display:block; margin-bottom:4px;">⚠️ 注意 M規模</label>
+                            <input type="number" id="th-eq-caution-mag" step="0.1" min="3.0" max="9.0" style="width:100%; padding:6px 10px; background:var(--bg-card); color:var(--text-primary); border:1px solid var(--border-color); border-radius:6px; box-sizing:border-box;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 気象・警報 -->
+                <div class="modal-section" style="margin-bottom:12px;">
+                    <div class="modal-section-title" style="margin-bottom:10px;">
+                        <span>☔ 気象・警報 (気象庁)</span>
+                    </div>
+                    <div>
+                        <select id="th-weather-mode" style="width:100%; padding:6px; background:var(--bg-card); color:var(--text-primary); border:1px solid var(--border-color); border-radius:6px;">
+                            <option value="warning_only">気象警報・特別警報のみ警戒 (標準・誤報防止)</option>
+                            <option value="advisory">気象注意報（大雨注意報等）でも注意アラートにする</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 津波 -->
+                <div class="modal-section" style="margin-bottom:12px;">
+                    <div class="modal-section-title" style="margin-bottom:10px;">
+                        <span>🌊 津波警報・注意報</span>
+                    </div>
+                    <div>
+                        <select id="th-tsunami-mode" style="width:100%; padding:6px; background:var(--bg-card); color:var(--text-primary); border:1px solid var(--border-color); border-radius:6px;">
+                            <option value="standard">津波注意報＝注意、津波警報・大津波警報＝警戒 (標準)</option>
+                            <option value="alert_all">津波注意報の段階でも即座に警戒とする (厳格モード)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 停電軒数 -->
+                <div class="modal-section" style="margin-bottom:12px;">
+                    <div class="modal-section-title" style="margin-bottom:10px;">
+                        <span>⚡ ライフライン 停電規模 (軒数)</span>
+                    </div>
+                    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
+                        <div>
+                            <label style="font-size:0.85em; color:var(--status-caution); font-weight:700; display:block; margin-bottom:4px;">⚠️ 注意 停電軒数 (軒以上)</label>
+                            <input type="number" id="th-power-caution" step="50" min="10" max="100000" style="width:100%; padding:6px 10px; background:var(--bg-card); color:var(--text-primary); border:1px solid var(--border-color); border-radius:6px; box-sizing:border-box;">
+                        </div>
+                        <div>
+                            <label style="font-size:0.85em; color:var(--status-alert); font-weight:700; display:block; margin-bottom:4px;">🚨 警戒 停電軒数 (軒以上)</label>
+                            <input type="number" id="th-power-alert" step="500" min="100" max="1000000" style="width:100%; padding:6px 10px; background:var(--bg-card); color:var(--text-primary); border:1px solid var(--border-color); border-radius:6px; box-sizing:border-box;">
+                        </div>
+                    </div>
+                </div>
+
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-top:16px; padding-top:12px; border-top:1px solid var(--border-color);">
+                    <button class="btn-tool" onclick="resetDefaultThresholds()" style="background:rgba(239,68,68,0.15); border-color:#ef4444; color:#f87171; padding:8px 14px;">
+                        🔄 初期標準値に戻す
+                    </button>
+                    <div style="display:flex; gap:8px;">
+                        <button class="btn-tool" onclick="closeThresholdModal()" style="padding:8px 14px;">
+                            キャンセル
+                        </button>
+                        <button class="btn-tool" onclick="saveThresholdSettings()" style="background:#2563eb; border-color:#3b82f6; color:#ffffff; font-weight:900; padding:8px 20px;">
+                            💾 設定を保存して適用
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================
+         5. JavaScript 実装ロジック
+         ========================================================= -->
+    <script>
+        // グローバル状態
+        let currentLocation = 'tokyo';
+        let latestDataCache = null;
+        let updateTimer = null;
+        let countdownSec = 30;
+        let countdownTimer = null;
+        let currentInterval = 30;
+        const DEFAULT_KEYWORDS = ["au 障害", "KDDI 障害", "au 繋がらない", "povo 障害"];
+        let watchedKeywords = [...DEFAULT_KEYWORDS];
+
+        // 国内閾値カスタマイズ設定
+        const DEFAULT_DOMESTIC_THRESHOLDS = {
+            eq_caution_shindo: 4,     // 震度4以上で注意
+            eq_alert_shindo: 5,       // 震度5弱以上で警戒
+            eq_caution_mag: 5.0,      // M5.0以上で注意
+            weather_mode: 'warning_only', // 'warning_only' or 'advisory'
+            tsunami_mode: 'standard',     // 'standard' or 'alert_all'
+            power_caution: 100,       // 停電100軒以上で注意
+            power_alert: 5000         // 停電5000軒以上で警戒
+        };
+        let domesticThresholds = { ...DEFAULT_DOMESTIC_THRESHOLDS };
+
+        function loadSavedThresholds() {
+            try {
+                const saved = localStorage.getItem('bcp_domestic_thresholds');
+                if (saved) {
+                    domesticThresholds = Object.assign({}, DEFAULT_DOMESTIC_THRESHOLDS, JSON.parse(saved));
+                }
+            } catch (e) {
+                console.error("国内閾値読込失敗:", e);
+            }
+        }
+
+        function openThresholdModal() {
+            loadSavedThresholds();
+            const elEqC = document.getElementById('th-eq-caution-shindo');
+            const elEqA = document.getElementById('th-eq-alert-shindo');
+            const elEqM = document.getElementById('th-eq-caution-mag');
+            const elW = document.getElementById('th-weather-mode');
+            const elT = document.getElementById('th-tsunami-mode');
+            const elPC = document.getElementById('th-power-caution');
+            const elPA = document.getElementById('th-power-alert');
+
+            if (elEqC) elEqC.value = domesticThresholds.eq_caution_shindo;
+            if (elEqA) elEqA.value = domesticThresholds.eq_alert_shindo;
+            if (elEqM) elEqM.value = domesticThresholds.eq_caution_mag;
+            if (elW) elW.value = domesticThresholds.weather_mode;
+            if (elT) elT.value = domesticThresholds.tsunami_mode;
+            if (elPC) elPC.value = domesticThresholds.power_caution;
+            if (elPA) elPA.value = domesticThresholds.power_alert;
+
+            const modal = document.getElementById('threshold-setting-modal');
+            if (modal) modal.style.display = 'flex';
+        }
+
+        function closeThresholdModal() {
+            const modal = document.getElementById('threshold-setting-modal');
+            if (modal) modal.style.display = 'none';
+        }
+
+        function closeThresholdModalOnBackdrop(e) {
+            if (e.target && e.target.id === 'threshold-setting-modal') {
+                closeThresholdModal();
+            }
+        }
+
+        function saveThresholdSettings() {
+            domesticThresholds = {
+                eq_caution_shindo: parseInt(document.getElementById('th-eq-caution-shindo').value, 10),
+                eq_alert_shindo: parseInt(document.getElementById('th-eq-alert-shindo').value, 10),
+                eq_caution_mag: parseFloat(document.getElementById('th-eq-caution-mag').value) || 5.0,
+                weather_mode: document.getElementById('th-weather-mode').value,
+                tsunami_mode: document.getElementById('th-tsunami-mode').value,
+                power_caution: parseInt(document.getElementById('th-power-caution').value, 10) || 100,
+                power_alert: parseInt(document.getElementById('th-power-alert').value, 10) || 5000
+            };
+            try {
+                localStorage.setItem('bcp_domestic_thresholds', JSON.stringify(domesticThresholds));
+            } catch (e) {}
+
+            closeThresholdModal();
+
+            if (latestDataCache) {
+                renderAllIndicators(latestDataCache);
+            }
+        }
+
+        function resetDefaultThresholds() {
+            domesticThresholds = { ...DEFAULT_DOMESTIC_THRESHOLDS };
+            try {
+                localStorage.removeItem('bcp_domestic_thresholds');
+            } catch (e) {}
+            openThresholdModal();
+            if (latestDataCache) {
+                renderAllIndicators(latestDataCache);
+            }
+        }
+
+        // 雨雲レーダー エリア別座標プリセット
+        const RADAR_COORDS = {
+            'all': { lat: 36.20, lon: 138.25, zoom: 5 },
+            'sapporo': { lat: 43.06, lon: 141.35, zoom: 8 },
+            'sendai': { lat: 38.26, lon: 140.87, zoom: 8 },
+            'tokyo': { lat: 35.68, lon: 139.76, zoom: 8 },
+            'omiya': { lat: 35.90, lon: 139.62, zoom: 8 },
+            'yokohama': { lat: 35.44, lon: 139.64, zoom: 8 },
+            'kanazawa': { lat: 36.56, lon: 136.65, zoom: 8 },
+            'nagoya': { lat: 35.18, lon: 136.90, zoom: 8 },
+            'osaka': { lat: 34.69, lon: 135.50, zoom: 8 },
+            'hiroshima': { lat: 34.39, lon: 132.46, zoom: 8 },
+            'takamatsu': { lat: 34.34, lon: 134.04, zoom: 8 },
+            'fukuoka': { lat: 33.59, lon: 130.40, zoom: 8 },
+            'naha': { lat: 26.21, lon: 127.68, zoom: 8 }
+        };
+
+        // 生放送ストリーム プリセット (動的API連携＋最新安定フォールバックID)
+        let STREAM_PRESETS = {
+            "stream_weathernews": "4_ae_IKXB8g",
+            "stream_tbsnews": "pz29vqiAVcg",
+            "stream_ntvnews": "V7ANB9xVjeY",
+            "stream_annnews": "5GIsbtEO0rg",
+            "stream_fnnnews": "WIAf__XbEJ0"
+        };
+
+        const STREAM_DIRECT_URLS = {
+            "stream_weathernews": "https://www.youtube.com/@weathernews/live",
+            "stream_tbsnews": "https://www.youtube.com/@tbsnewsdig/live",
+            "stream_ntvnews": "https://www.youtube.com/@ntv_news/live",
+            "stream_annnews": "https://www.youtube.com/@ANNnewsCH/live",
+            "stream_fnnnews": "https://www.youtube.com/@FNNnewsCH/live"
+        };
+
+        let currentActiveStreamId = "stream_weathernews";
+
+        // ライブカメラ プリセット (那覇はアクティブなライブカメラ 6HYjCFkmDPA を設定)
+        const CAMERA_PRESETS = {
+            "cam_tokyo_shibuya": "dfVK7ld38Ys",
+            "cam_tokyo_tower": "VM18f-IIUTw",
+            "cam_osaka_dotonbori": "czJhGgFsp38",
+            "cam_naha_kokusai": "6HYjCFkmDPA",
+            "cam_fuji": "bJqFntWbi54",
+            "cam_sakurajima": "PeElJClXtzE",
+            "cam_sapporo": "kfIQBC0hrII",
+            "cam_sendai": "AinAZQgQp_s",
+            "cam_nagoya_station": "X304dz1zrfU",
+            "cam_kanazawa_station": "JY0VPKVjmRs",
+            "cam_hiroshima_station": "YnCXegVqpKA",
+            "cam_takamatsu_seto": "xrb4L3p1eHY",
+            "cam_fukuoka_hakata": "yETDDgrE2E4"
+        };
+
+        // 拠点ごとの推奨カメラマッピング
+        const LOCATION_DEFAULT_CAMERAS = {
+            "all": "cam_tokyo_shibuya",
+            "tokyo": "cam_tokyo_shibuya",
+            "osaka": "cam_osaka_dotonbori",
+            "naha": "cam_naha_kokusai",
+            "sapporo": "cam_sapporo",
+            "sendai": "cam_sendai",
+            "omiya": "cam_tokyo_shibuya",
+            "yokohama": "cam_tokyo_shibuya",
+            "nagoya": "cam_nagoya_station",
+            "kanazawa": "cam_kanazawa_station",
+            "hiroshima": "cam_hiroshima_station",
+            "takamatsu": "cam_takamatsu_seto",
+            "fukuoka": "cam_fukuoka_hakata"
+        };
+
+        // 初期化処理
+        window.addEventListener('DOMContentLoaded', () => {
+            initClock();
+            loadSavedFontScale();
+            loadSavedKeywords();
+            initMobileDashboardMode();
+            renderKeywordTags();
+            initCardCompactClickHandlers();
+            loadSavedThresholds();
+            loadRealData();
+            startCountdown();
+
+            // ESCキーでモーダルを閉じる
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    closeDetailModal();
+                    closeThresholdModal();
+                }
+            });
+
+            // モバイル用クイックナビゲーションのアクティブ監視
+            initMobileNavScrollSpy();
+        });
+
+        // 文字サイズ切替
+        function changeFontScale(scaleClass) {
+            document.documentElement.className = document.documentElement.className
+                .replace(/font-scale-\w+/g, '')
+                .trim();
+            document.documentElement.classList.add(scaleClass);
+            try {
+                localStorage.setItem('bcp_font_scale', scaleClass);
+            } catch(e) {}
+        }
+
+        function loadSavedFontScale() {
+            try {
+                const saved = localStorage.getItem('bcp_font_scale');
+                if (saved) {
+                    const sel = document.getElementById('font-scale-select');
+                    if (sel) sel.value = saved;
+                    changeFontScale(saved);
+                }
+            } catch(e) {}
+        }
+
+        // モバイルナビのスクロールスパイ
+        function initMobileNavScrollSpy() {
+            const anchors = [
+                { id: 'sec-indicators-anchor', tab: 0 },
+                { id: 'sec-stream-anchor', tab: 1 },
+                { id: 'sec-camera-anchor', tab: 2 },
+                { id: 'sec-weather-anchor', tab: 3 }
+            ];
+            window.addEventListener('scroll', () => {
+                const pos = window.scrollY + 100;
+                const btns = document.querySelectorAll('.mobile-quick-btn');
+                anchors.forEach(a => {
+                    const el = document.getElementById(a.id);
+                    if (el && pos >= el.offsetTop) {
+                        btns.forEach(b => b.classList.remove('active'));
+                        if (btns[a.tab]) btns[a.tab].classList.add('active');
+                    }
+                });
+            }, { passive: true });
+        }
+
+        // リアルタイム時計
+        function initClock() {
+            function updateClock() {
+                const now = new Date();
+                const days = ['日', '月', '火', '水', '木', '金', '土'];
+                const year = now.getFullYear();
+                const month = String(now.getMonth() + 1).padStart(2, '0');
+                const date = String(now.getDate()).padStart(2, '0');
+                const day = days[now.getDay()];
+
+                const hours = String(now.getHours()).padStart(2, '0');
+                const minutes = String(now.getMinutes()).padStart(2, '0');
+                const seconds = String(now.getSeconds()).padStart(2, '0');
+
+                const dateEl = document.getElementById('clock-date');
+                const timeEl = document.getElementById('clock-time');
+
+                if (dateEl) dateEl.innerText = `${year}年${month}月${date}日 (${day})`;
+                if (timeEl) timeEl.innerText = `${hours}:${minutes}:${seconds}`;
+            }
+            updateClock();
+            setInterval(updateClock, 1000);
+        }
+
+        // 拠点変更
+        function changeLocation() {
+            const sel = document.getElementById('location-select');
+            currentLocation = sel.value;
+
+            // 拠点推奨カメラへ自動切替
+            const defCam = LOCATION_DEFAULT_CAMERAS[currentLocation] || 'cam_tokyo_shibuya';
+            switchCameraVideo(defCam);
+
+            loadRealData(true);
+        }
+
+        // カウントダウンUI
+        function startCountdown() {
+            if (countdownTimer) clearInterval(countdownTimer);
+            countdownSec = currentInterval;
+
+            countdownTimer = setInterval(() => {
+                countdownSec--;
+                if (countdownSec <= 0) {
+                    countdownSec = currentInterval;
+                    loadRealData();
+                }
+                const secEl = document.getElementById('countdown-sec');
+                const progEl = document.getElementById('progress-bar');
+                if (secEl) secEl.innerText = `${countdownSec}s`;
+                if (progEl) {
+                    const pct = (countdownSec / currentInterval) * 100;
+                    progEl.style.width = `${pct}%`;
+                }
+            }, 1000);
+        }
+
+        // バックエンド実データ取得 & 12指標自動解析レンダリング
+        async function loadRealData(isManual = false) {
+            const refreshBtn = document.getElementById('btn-manual-refresh');
+            const refreshText = document.getElementById('btn-refresh-text');
+            if (isManual && refreshBtn) {
+                refreshBtn.disabled = true;
+                refreshText.innerHTML = `🔄 取得中...`;
+            }
+
+            try {
+                const kwParam = encodeURIComponent(watchedKeywords.join(','));
+                let data = null;
+                let dataSource = "live_api";
+
+                // 1. ローカルFlask APIを試行 (タイムアウト1.5秒で高速判定)
+                try {
+                    const controller = new AbortController();
+                    const timeoutId = setTimeout(() => controller.abort(), 1500);
+                    const res = await fetch(`/api/bcp_data?location=${currentLocation}&keywords=${kwParam}`, { signal: controller.signal });
+                    clearTimeout(timeoutId);
+                    if (res.ok) {
+                        data = await res.json();
+                        dataSource = "local_flask";
+                    }
+                } catch (apiErr) {
+                    // ローカルサーバー未稼働（GitHub Pages等の静的ホスティング環境）
+                }
+
+                // 2. ローカルAPIが無い場合、GitHub Actions自動生成の静的JSONをフェッチ
+                if (!data) {
+                    try {
+                        const jsonPath = `./data/bcp_data_${currentLocation}.json?t=${Date.now()}`;
+                        let res = await fetch(jsonPath);
+                        if (!res.ok) {
+                            res = await fetch(`./data/bcp_data_all.json?t=${Date.now()}`);
+                        }
+                        if (res.ok) {
+                            data = await res.json();
+                            dataSource = "github_actions";
+                        }
+                    } catch (jsonErr) {
+                        console.warn("静的JSONの取得に失敗しました:", jsonErr);
+                    }
+                }
+
+                if (!data) {
+                    throw new Error("データソース（APIおよび静的JSON）から応答がありません");
+                }
+                latestDataCache = data;
+
+                const loc = data.location;
+                const regionBadge = document.getElementById('header-region-badge');
+                if (regionBadge) {
+                    const sourceIcon = dataSource === "github_actions" ? " ☁️ GitHub自動更新" : "";
+                    regionBadge.innerText = `📍 ${loc.region_name}（${loc.region_desc || ''}）${sourceIcon}`;
+                }
+
+                // 12大指標の3段階ステータス評価 & カード反映
+                renderAllIndicators(data);
+
+                // 右側メディア（天気概況）反映
+                renderWeatherOverview(data);
+
+                // 生放送ストリームの動的VideoID自動更新 (自律修復)
+                if (data && data.live_media && Array.isArray(data.live_media.streams)) {
+                    let streamUpdated = false;
+                    data.live_media.streams.forEach(st => {
+                        if (st.id && st.video_id && STREAM_PRESETS[st.id] !== st.video_id) {
+                            STREAM_PRESETS[st.id] = st.video_id;
+                            streamUpdated = true;
+                        }
+                    });
+                    if (streamUpdated && STREAM_PRESETS[currentActiveStreamId]) {
+                        const iframe = document.getElementById('stream-player-iframe');
+                        const newUrl = `https://www.youtube-nocookie.com/embed/${STREAM_PRESETS[currentActiveStreamId]}?autoplay=1&mute=1&playsinline=1&enablejsapi=1&rel=0`;
+                        if (iframe && iframe.src !== newUrl) {
+                            iframe.src = newUrl;
+                        }
+                    }
+                }
+
+            } catch (err) {
+                console.error("データ取得エラー:", err);
+            } finally {
+                if (isManual && refreshBtn) {
+                    refreshBtn.disabled = false;
+                    refreshText.innerHTML = `🔄 今すぐ更新`;
+                }
+            }
+        }
+
+        // 12大指標の評価とカードUI更新
+        function renderAllIndicators(data) {
+            const loc = data.location;
+            const detectedAlerts = [];
+
+            // 1. 地震 (最新1件のみ表示)
+            const eq = data.earthquake || {};
+            const shindoStr = String(eq.shindo || '0');
+            const shindoNum = parseInt(shindoStr.replace(/[^0-9]/g, '')) || 0;
+            let eqLevel = 'NORMAL';
+            if (shindoNum >= domesticThresholds.eq_alert_shindo || (domesticThresholds.eq_alert_shindo <= 5 && (shindoStr.includes('5') || shindoStr.includes('6') || shindoStr.includes('7')))) {
+                eqLevel = 'ALERT';
+                detectedAlerts.push(`🚨 最新地震 震度${eq.shindo} (${eq.place})`);
+            } else if (shindoNum >= domesticThresholds.eq_caution_shindo || (parseFloat(eq.magnitude) >= domesticThresholds.eq_caution_mag)) {
+                eqLevel = 'NOTICE';
+                detectedAlerts.push(`⚠️ 地震 震度${eq.shindo} (${eq.place})`);
+            }
+
+            updateCardStatus('earthquake', eqLevel, 
+                `最新: ${eq.time || '直近なし'} 発生`,
+                `震源: ${eq.place || '情報なし'} (M${eq.magnitude || '-'})`
+            );
+            const eqBadge = document.getElementById('eq-shindo-badge');
+            if (eqBadge) {
+                eqBadge.innerText = `震度${eq.shindo || '-'}`;
+                eqBadge.className = `quake-shindo-badge ${eqLevel === 'ALERT' ? 'alert' : ''}`;
+            }
+
+            // 2. 津波
+            const tsunami = data.tsunami || {};
+            let tsunamiLevel = 'NORMAL';
+            if (tsunami.status === 'ALERT' || (domesticThresholds.tsunami_mode === 'alert_all' && tsunami.status === 'NOTICE')) {
+                tsunamiLevel = 'ALERT';
+                detectedAlerts.push(`🌊 津波警報・注意報発令中`);
+            } else if (tsunami.status === 'NOTICE') {
+                tsunamiLevel = 'NOTICE';
+            }
+            updateCardStatus('tsunami', tsunamiLevel, tsunami.summary || '津波の心配なし（警報・注意報なし）', '気象庁発表 24時間監視');
+
+            // 3. 火山
+            const volcano = data.volcano || {};
+            let volcanoLevel = 'NORMAL';
+            if (volcano.status === 'ALERT') {
+                volcanoLevel = 'ALERT';
+                detectedAlerts.push(`🌋 火山噴火警報発表中`);
+            } else if (volcano.status === 'NOTICE') {
+                volcanoLevel = 'NOTICE';
+            }
+            updateCardStatus('volcano', volcanoLevel, volcano.summary || '全活火山 噴火警戒レベル1 (平常)', '全国活火山常時観測所');
+
+            // 4. 気象・警報
+            const weather = data.weather || {};
+            let weatherLevel = 'NORMAL';
+            if (weather.status === 'ALERT') {
+                weatherLevel = 'ALERT';
+                detectedAlerts.push(`☔ 気象警報発令中 (${loc.region_name})`);
+            } else if (weather.status === 'NOTICE') {
+                if (domesticThresholds.weather_mode === 'advisory' || (weather.summary && weather.summary.includes('警報'))) {
+                    weatherLevel = 'NOTICE';
+                }
+            }
+            updateCardStatus('weather', weatherLevel, weather.summary || '警報・注意報なし', `${loc.region_name}管内 気象庁警報`);
+            if (document.getElementById('link-weather-raw')) document.getElementById('link-weather-raw').href = weather.url || '#';
+
+            // 5. 河川情報 (川の防災情報)
+            const river = data.river || {};
+            let riverLevel = 'NORMAL';
+            if (river.status === 'ALERT') {
+                riverLevel = 'ALERT';
+                detectedAlerts.push(`🏞️ 河川氾濫警戒情報検知 (${loc.name})`);
+            } else if (river.status === 'NOTICE') {
+                riverLevel = 'NOTICE';
+            }
+            updateCardStatus('river', riverLevel, river.summary || '管内主要河川：氾濫危険・注意水位なし', '国交省 川の防災情報 リアルタイム水位');
+            if (document.getElementById('link-river-raw')) document.getElementById('link-river-raw').href = river.url || '#';
+
+            // 6. 避難情報
+            const evac = data.evacuation || {};
+            let evacLevel = 'NORMAL';
+            if (evac.status === 'ALERT') {
+                evacLevel = 'ALERT';
+                detectedAlerts.push(`🏠 避難情報発令検知`);
+            } else if (evac.status === 'NOTICE') {
+                evacLevel = 'NOTICE';
+            }
+            updateCardStatus('evacuation', evacLevel, evac.summary || '管内自治体：避難情報発令なし', '避難所開設・避難指示速報');
+
+            // 7. 警察・消防
+            const pf = data.police_fire || {};
+            let pfLevel = 'NORMAL';
+            if (pf.status === 'ALERT') {
+                pfLevel = 'ALERT';
+                detectedAlerts.push(`🚨 消防・警察 非常事案検知`);
+            } else if (pf.fdma_msg && pf.fdma_msg.includes('【要警戒】')) {
+                pfLevel = 'NOTICE';
+            }
+            const pfText = `${pf.fdma_msg || '消防通常'} / ${pf.npa_msg || '警察通常'}`;
+            updateCardStatus('police_fire', pfLevel, pfText, '総務省消防庁・警察庁 モニタリング');
+
+            // 8. 拠点ライフライン
+            const lf = data.lifeline || {};
+            let powerOutageCount = 0;
+            if (lf.power_msg) {
+                const match = lf.power_msg.match(/(\d+)[\s,]*軒/);
+                if (match) powerOutageCount = parseInt(match[1].replace(/,/g, ''), 10);
+            }
+            const isPowerAlert = lf.power_status === 'ALERT' || (lf.power_msg && lf.power_msg.includes('【停電発生中】')) || (powerOutageCount >= domesticThresholds.power_alert);
+            const isPowerNotice = (powerOutageCount >= domesticThresholds.power_caution);
+            const isWaterAlert = lf.water_status === 'ALERT' || (lf.water_msg && lf.water_msg.includes('【要確認】'));
+            const isGasAlert = lf.gas_status === 'ALERT' || (lf.gas_msg && lf.gas_msg.includes('【要確認】'));
+            let lfLevel = 'NORMAL';
+            if (isPowerAlert || isWaterAlert || isGasAlert) {
+                lfLevel = 'ALERT';
+                detectedAlerts.push(`⚡ ライフライン供給支障検知 (${loc.name})`);
+            } else if (isPowerNotice) {
+                lfLevel = 'NOTICE';
+            }
+            const lfSummary = isPowerAlert ? lf.power_msg : (isWaterAlert ? lf.water_msg : '電力・水道・ガス 全インフラ正常供給中');
+            updateCardStatus('lifeline', lfLevel, lfSummary, `${loc.power_name || '大手電力'}・水道局・ガス`);
+
+            // 9. 交通網
+            const transit = data.transit || {};
+            let transitLevel = 'NORMAL';
+            if (transit.status === 'ALERT' || transit.line_status === 'ALERT' || transit.shinkansen_status === 'ALERT') {
+                transitLevel = 'ALERT';
+                detectedAlerts.push(`🚃 交通網 ダイヤ乱れ・運休検知`);
+            } else if (transit.line_text && !transit.line_text.includes('全線平常') && !transit.line_text.includes('平常運転')) {
+                transitLevel = 'NOTICE';
+            }
+            let transitText = transit.line_text || '在来線全線平常運行';
+            if (transit.shinkansen_text && transit.shinkansen_text !== '全線平常運行中') {
+                transitText = `${transit.shinkansen_text} / ${transitText}`;
+            }
+            updateCardStatus('transit', transitLevel, transitText, 'Yahoo!路線情報 JR各社・私鉄・新幹線');
+            if (document.getElementById('link-transit-raw')) document.getElementById('link-transit-raw').href = transit.url || '#';
+
+            // 10. 通信事業者
+            const tel = data.telecom || {};
+            let telLevel = 'NORMAL';
+            if (tel.status === 'ALERT') {
+                telLevel = 'ALERT';
+                detectedAlerts.push(`📶 キャリア通信障害検知`);
+            } else if ((tel.kddi_msg && tel.kddi_msg.includes('一部')) || (tel.docomo_msg && tel.docomo_msg.includes('一部'))) {
+                telLevel = 'NOTICE';
+            }
+            const telText = telLevel === 'ALERT' ? '大手キャリアにて通信障害発生検知' : 'au・docomo・SB・楽天 全社正常稼働中';
+            updateCardStatus('telecom', telLevel, telText, '4社ネットワーク稼働監視');
+
+            // 11. 口コミ監視
+            const voices = data.sns_voices || [];
+            let snsLevel = 'NORMAL';
+            const hasSnsAlert = voices.some(v => v.status === 'ALERT' || v.trend === 'UP');
+            if (hasSnsAlert) {
+                snsLevel = 'ALERT';
+                detectedAlerts.push(`📡 SNS障害口コミ急増検知`);
+            }
+            const alertedKeywords = voices.filter(v => v.trend === 'UP').map(v => v.keyword);
+            const snsText = alertedKeywords.length > 0 ? `⚠️「${alertedKeywords.join('」「')}」投稿急増検知` : '障害・被災ワードの急増なし (平常)';
+            updateCardStatus('sns', snsLevel, snsText, 'Yahoo!リアルタイム検索トレンド分析');
+
+            // 12. 総合BCP判定 / 行政対応
+            const gov = data.government || {};
+            let govLevel = 'NORMAL';
+            if (gov.status === 'ALERT') {
+                govLevel = 'ALERT';
+                detectedAlerts.push(`🏛️ 災害対策本部・非常態勢検知`);
+            }
+            const govText = gov.status === 'ALERT' ? '政府・官公庁 非常態勢検知' : '内閣府・厚労省 非常態勢なし (平常即応)';
+            updateCardStatus('government', govLevel, govText, '内閣府防災・首相官邸・厚生労働省');
+
+            // 総合インシデント判定バナー更新
+            const sysBadge = document.getElementById('sys-status-badge');
+            const alertSummary = document.getElementById('alert-summary-text');
+            if (detectedAlerts.length > 0) {
+                sysBadge.className = 'alert-badge-state state-alert';
+                sysBadge.innerText = `要警戒 (${detectedAlerts.length}件)`;
+                alertSummary.innerHTML = `🚨 <strong>【警戒検知】</strong> ${detectedAlerts.join(' ／ ')}`;
+            } else {
+                sysBadge.className = 'alert-badge-state state-normal';
+                sysBadge.innerText = '平常態勢';
+                alertSummary.innerText = `現在、重大な緊急インシデントは検知されていません（全系正常稼働中: ${loc.region_name}）`;
+            }
+        }
+
+        // カードのステータスバッジ＆テキストを反映
+        function updateCardStatus(type, level, mainText, subText) {
+            const card = document.getElementById(`card-${type}`);
+            const badge = document.getElementById(`badge-${type}`);
+            const mainEl = document.getElementById(`${type === 'earthquake' ? 'eq' : (type === 'evacuation' ? 'evac' : (type === 'police_fire' ? 'pf' : (type === 'government' ? 'gov' : type)))}-main-text`);
+            const subEl = document.getElementById(`${type === 'earthquake' ? 'eq' : (type === 'evacuation' ? 'evac' : (type === 'police_fire' ? 'pf' : (type === 'government' ? 'gov' : type)))}-sub-text`);
+
+            if (card) {
+                card.className = `indicator-card status-level-${level}`;
+            }
+            if (badge) {
+                badge.className = `indicator-badge badge-level-${level}`;
+                badge.innerText = level === 'ALERT' ? '警戒' : (level === 'NOTICE' ? '注意' : '平常');
+            }
+            if (mainEl && mainText) {
+                mainEl.innerText = mainText;
+            }
+            if (subEl && subText) {
+                subEl.innerText = subText;
+            }
+        }
+
+        // 右側: 天気概況のレンダリング
+        function renderWeatherOverview(data) {
+            const wo = data.weather_overview;
+            const container = document.getElementById('weather-overview-content');
+            const areaLabel = document.getElementById('weather-area-label');
+            if (!container) return;
+
+            if (data.location && areaLabel) {
+                areaLabel.innerText = `${data.location.name}管内`;
+            }
+
+            if (wo && wo.text) {
+                container.innerHTML = `
+                    <div style="font-weight:900; color:var(--text-accent); margin-bottom:4px; font-size:1.02em;">
+                        【${wo.publishing_office || '気象台'}発表 ${wo.report_datetime ? wo.report_datetime.slice(11, 16) : ''}】
+                    </div>
+                    <div style="white-space:pre-line;">${wo.text}</div>
+                `;
+            } else {
+                container.innerText = "最新の天気概況を取得中...";
+            }
+        }
+
+        // 生放送ストリーム切り替え
+        function switchStreamVideo(streamId) {
+            currentActiveStreamId = streamId;
+            const videoId = STREAM_PRESETS[streamId] || '4_ae_IKXB8g';
+            const iframe = document.getElementById('stream-player-iframe');
+            if (iframe) {
+                iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&enablejsapi=1&rel=0`;
+            }
+            const tabs = document.querySelectorAll('#stream-tabs .media-tab-btn');
+            tabs.forEach(t => t.classList.remove('active'));
+            if (event && event.target) event.target.classList.add('active');
+
+            const directLink = document.getElementById('stream-direct-link');
+            if (directLink && STREAM_DIRECT_URLS[streamId]) {
+                directLink.href = STREAM_DIRECT_URLS[streamId];
+            }
+        }
+
+        // ライブカメラ切り替え
+        function switchCameraVideo(camId) {
+            const videoId = CAMERA_PRESETS[camId] || 'dfVK7ld38Ys';
+            const iframe = document.getElementById('camera-player-iframe');
+            if (iframe) {
+                iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&enablejsapi=1&rel=0`;
+            }
+            const titles = {
+                "cam_tokyo_shibuya": "東京 渋谷スクランブル交差点",
+                "cam_osaka_dotonbori": "大阪 道頓堀・戎橋",
+                "cam_naha_kokusai": "沖縄 那覇 市街・ゆいレール監視パノラマ",
+                "cam_fuji": "富士山 パノラマ観測",
+                "cam_sakurajima": "鹿児島 桜島 火山観測",
+                "cam_sapporo": "札幌 都心ライブカメラ",
+                "cam_sendai": "仙台 駅前ライブカメラ",
+                "cam_nagoya_station": "名古屋 駅前ライブカメラ",
+                "cam_kanazawa_station": "金沢 駅前ライブカメラ",
+                "cam_hiroshima_station": "広島 駅前ライブカメラ",
+                "cam_takamatsu_seto": "高松 瀬戸大橋監視",
+                "cam_fukuoka_hakata": "福岡 博多駅前ライブカメラ"
+            };
+            const titleEl = document.getElementById('camera-box-title');
+            if (titleEl && titles[camId]) {
+                titleEl.innerText = `📷 ${titles[camId]}`;
+            }
+
+            const tabs = document.querySelectorAll('#camera-tabs .camera-tab-btn');
+            tabs.forEach(t => t.classList.remove('active'));
+            if (event && event.target && event.target.classList) {
+                event.target.classList.add('active');
+            }
+        }
+
+        // =========================================================
+        // 詳細モーダル展開システム (openIndicatorDetail)
+        // =========================================================
+        function openIndicatorDetail(type) {
+            if (!latestDataCache) {
+                // キャッシュが未準備でもSNSキーワード設定モーダル等は即座に開けるようダミー構築
+                latestDataCache = {
+                    location: { name: '取得中', region_name: '管内' },
+                    sns_voices: watchedKeywords.map(k => ({ keyword: k, trend: 'NORMAL', trend_label: '待機中', recent_posts: [] }))
+                };
+            }
+            const modal = document.getElementById('indicator-detail-modal');
+            const titleEl = document.getElementById('modal-title');
+            const bodyEl = document.getElementById('modal-body-content');
+
+            const data = latestDataCache;
+            const loc = data.location;
+
+            let titleHtml = '';
+            let contentHtml = '';
+
+            switch(type) {
+                case 'earthquake': {
+                    titleHtml = '<span>🌐 気象庁 地震速報 ＆ 履歴詳細解析</span>';
+                    const eq = data.earthquake;
+                    const historyRows = (eq.history || []).map((q, idx) => `
+                        <div class="quake-history-row">
+                            <div>
+                                <span style="font-weight:900; color:var(--text-accent); font-size:1.05em;">${idx === 0 ? '【最新】' : ''}${q.time} 発生</span>
+                                <div style="color:var(--text-secondary); font-size:0.95em; margin-top:3px;">震源地: <strong style="color:#ffffff;">${q.place}</strong> (深さ: ${q.depth || '約10km'} / 規模: M${q.magnitude})</div>
+                            </div>
+                            <div style="font-size:1.4em; font-weight:900; color:${parseInt(q.shindo) >= 4 ? '#ef4444' : '#38bdf8'}; font-family:monospace;">
+                                最大震度 <span style="font-size:1.3em;">${q.shindo}</span>
+                            </div>
+                        </div>
+                    `).join('');
+
+                    contentHtml = `
+                        <div class="modal-section">
+                            <div class="modal-section-title">
+                                <span>最新の観測地震</span>
+                                <a href="${eq.raw_url || 'https://www.data.jma.go.jp/multi/quake/?lang=jp'}" target="_blank" class="btn-detail">気象庁公式生データ ↗</a>
+                            </div>
+                            <div style="display:flex; justify-content:space-between; align-items:center; background:var(--bg-card-sub); padding:12px 16px; border-radius:8px; border:1.5px solid var(--border-color);">
+                                <div>
+                                    <div style="font-size:1.25em; font-weight:900; color:var(--text-primary);">${eq.time} 発生</div>
+                                    <div style="color:var(--text-secondary); margin-top:4px; font-size:1.05em;">震源地: <strong style="color:var(--text-accent); font-size:1.1em;">${eq.place}</strong> (規模: M${eq.magnitude})</div>
+                                </div>
+                                <div style="font-size:1.8em; font-weight:900; color:#38bdf8; font-family:monospace;">
+                                    最大震度 <span style="font-size:1.3em;">${eq.shindo}</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal-section">
+                            <div class="modal-section-title">
+                                <span>直近の全国地震実測ログ (過去15件)</span>
+                                <span style="font-size:0.85em; color:var(--text-muted);">気象庁WebSocket/API常時同期</span>
+                            </div>
+                            <div style="max-height:380px; overflow-y:auto;">
+                                ${historyRows || '<div style="padding:10px; color:var(--text-muted);">直近の地震記録はありません</div>'}
+                            </div>
+                        </div>
+                    `;
+                    break;
+                }
+
+                case 'tsunami': {
+                    titleHtml = '<span>🌊 津波警報・注意報・潮位解析</span>';
+                    const t = data.tsunami;
+                    contentHtml = `
+                        <div class="modal-section">
+                            <div class="modal-section-title">
+                                <span>全国津波警報発令サマリー</span>
+                                <a href="${t.url || 'https://typhoon.yahoo.co.jp/weather/jp/tsunami/'}" target="_blank" class="btn-detail">Yahoo!津波情報 ↗</a>
+                            </div>
+                            <div style="font-size:1.15em; font-weight:800; padding:12px; background:var(--bg-card-sub); border-radius:6px; color:${t.status === 'ALERT' ? '#ef4444' : '#10b981'};">
+                                ${t.summary || '現在、大津波警報・津波警報・津波注意報は発表されていません。'}
+                            </div>
+                        </div>
+                    `;
+                    break;
+                }
+
+                case 'volcano': {
+                    titleHtml = '<span>🌋 火山活動・噴火警報状況</span>';
+                    const v = data.volcano;
+                    contentHtml = `
+                        <div class="modal-section">
+                            <div class="modal-section-title">
+                                <span>全国活火山 噴火警戒レベル</span>
+                                <a href="${v.url || 'https://typhoon.yahoo.co.jp/weather/jp/volcano/'}" target="_blank" class="btn-detail">Yahoo!火山情報 ↗</a>
+                            </div>
+                            <div style="font-size:1.1em; line-height:1.6; padding:12px; background:var(--bg-card-sub); border-radius:6px; font-weight:700;">
+                                ${v.summary || '全活火山 噴火警戒レベル1（活火山であることに留意）'}
+                            </div>
+                        </div>
+                    `;
+                    break;
+                }
+
+                case 'weather': {
+                    titleHtml = `<span>☔ 気象警報・特別警報詳細 (${loc.region_name})</span>`;
+                    const w = data.weather;
+                    let prefCards = '';
+                    if (w.pref_details && w.pref_details.length > 0) {
+                        prefCards = w.pref_details.map(p => {
+                            const isAlert = p.status === 'ALERT';
+                            const isNotice = p.status === 'NOTICE';
+                            const color = isAlert ? '#ef4444' : (isNotice ? '#f59e0b' : '#10b981');
+                            return `
+                                <div style="display:flex; justify-content:space-between; align-items:center; padding:8px 12px; border-bottom:1px solid var(--border-sub);">
+                                    <strong style="color:var(--text-accent); font-size:1.1em;">${p.name}</strong>
+                                    <span style="font-weight:800; font-size:1.05em; color:${color};">${p.summary}</span>
+                                </div>
+                            `;
+                        }).join('');
+                    }
+
+                    contentHtml = `
+                        <div class="modal-section">
+                            <div class="modal-section-title">
+                                <span>管内都道府県別 警報・注意報発令一覧</span>
+                                <a href="${w.url || 'https://www.jma.go.jp/bosai/warning/'}" target="_blank" class="btn-detail">気象庁警報公式 ↗</a>
+                            </div>
+                            <div style="max-height:380px; overflow-y:auto; background:var(--bg-card-sub); border-radius:6px;">
+                                ${prefCards || '<div style="padding:12px; color:var(--text-muted);">管内全域で警報・注意報なし</div>'}
+                            </div>
+                        </div>
+                    `;
+                    break;
+                }
+
+                case 'river': {
+                    titleHtml = `<span>🏞️ 河川氾濫危険水位・川の防災情報 (${loc.name})</span>`;
+                    const r = data.river || {};
+                    contentHtml = `
+                        <div class="modal-section">
+                            <div class="modal-section-title">
+                                <span>主要河川水位 判定ステータス</span>
+                                <a href="${r.url || 'https://www.river.go.jp/index'}" target="_blank" class="btn-detail">国交省 川の防災情報 ↗</a>
+                            </div>
+                            <div style="font-size:1.15em; font-weight:800; padding:14px; background:var(--bg-card-sub); border-radius:6px; color:${r.status === 'ALERT' ? '#ef4444' : (r.status === 'NOTICE' ? '#f59e0b' : '#10b981')};">
+                                ${r.summary || '管内主要河川：氾濫危険水位・氾濫警戒水位・氾濫注意水位の超過観測所なし（正常）'}
+                            </div>
+                            <div style="margin-top:10px; font-size:0.9em; color:var(--text-muted); line-height:1.5;">
+                                ※ 国土交通省 水管理・国土保全局が提供する「川の防災情報」のリアルタイム観測所データを解析しています。
+                            </div>
+                        </div>
+                    `;
+                    break;
+                }
+
+                case 'evacuation': {
+                    titleHtml = '<span>🏠 自治体 避難情報・避難所開設状況</span>';
+                    const ev = data.evacuation || {};
+                    contentHtml = `
+                        <div class="modal-section">
+                            <div class="modal-section-title">
+                                <span>管内自治体 避難情報発令状況</span>
+                                <a href="https://crisis.yahoo.co.jp/evacuation/" target="_blank" class="btn-detail">Yahoo!避難情報 ↗</a>
+                            </div>
+                            <div style="font-size:1.15em; padding:12px; background:var(--bg-card-sub); border-radius:6px; font-weight:800; color:${ev.status === 'ALERT' ? '#ef4444' : '#10b981'};">
+                                ${ev.summary || '管内全自治体：避難指示・高齢者等避難の発令なし'}
+                            </div>
+                        </div>
+                    `;
+                    break;
+                }
+
+                case 'police_fire': {
+                    titleHtml = '<span>🚨 警察・消防 重要インシデントログ</span>';
+                    const pf = data.police_fire || {};
+                    contentHtml = `
+                        <div class="modal-section">
+                            <div class="modal-section-title">
+                                <span>総務省消防庁 / 警察庁 速報モニタリング</span>
+                                <a href="https://www.fdma.go.jp/" target="_blank" class="btn-detail">消防庁ポータル ↗</a>
+                            </div>
+                            <div style="display:flex; flex-direction:column; gap:10px;">
+                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:6px;">
+                                    <strong style="color:var(--text-accent); font-size:1.1em;">🚒 消防出動・災害対応:</strong>
+                                    <div style="margin-top:4px; font-weight:800; font-size:1.05em;">${pf.fdma_msg || '重大災害出動なし・通常警戒'}</div>
+                                </div>
+                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:6px;">
+                                    <strong style="color:var(--text-accent); font-size:1.1em;">🚓 警察・幹線交通規制:</strong>
+                                    <div style="margin-top:4px; font-weight:800; font-size:1.05em;">${pf.npa_msg || '重大事案・主要幹線通行止規制なし'}</div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    break;
+                }
+
+                case 'lifeline': {
+                    titleHtml = `<span>⚡ 拠点ライフライン (電力・水道・ガス) 内訳詳細</span>`;
+                    const lf = data.lifeline || {};
+                    contentHtml = `
+                        <div class="modal-section">
+                            <div class="modal-section-title">
+                                <span>3大ライフライン供給ステータス</span>
+                                <a href="${lf.power_url || 'https://typhoon.yahoo.co.jp/weather/poweroutage/'}" target="_blank" class="btn-detail">Yahoo!停電情報 ↗</a>
+                            </div>
+                            <div style="display:flex; flex-direction:column; gap:10px;">
+                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:6px; border-left:4px solid #38bdf8;">
+                                    <strong style="color:var(--text-accent); font-size:1.1em;">⚡ 電力 (${loc.power_name || '大手電力'}):</strong>
+                                    <div style="margin-top:4px; font-weight:800; font-size:1.05em;">${lf.power_msg || '正常供給中'}</div>
+                                </div>
+                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:6px; border-left:4px solid #38bdf8;">
+                                    <strong style="color:var(--text-accent); font-size:1.1em;">🚰 水道 (${loc.water_name || '自治体水道局'}):</strong>
+                                    <div style="margin-top:4px; font-weight:800; font-size:1.05em;">${lf.water_msg || '断水影響なし・正常通水'}</div>
+                                </div>
+                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:6px; border-left:4px solid #38bdf8;">
+                                    <strong style="color:var(--text-accent); font-size:1.1em;">🔥 都市ガス (${loc.gas_name || '大手都市ガス'}):</strong>
+                                    <div style="margin-top:4px; font-weight:800; font-size:1.05em;">${lf.gas_msg || '供給安定'}</div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    break;
+                }
+
+                case 'transit': {
+                    titleHtml = `<span>🚃 交通網 運行状況 (新幹線・主要在来線)</span>`;
+                    const tr = data.transit || {};
+                    contentHtml = `
+                        <div class="modal-section">
+                            <div class="modal-section-title">
+                                <span>管内鉄道運行情報 (Yahoo!路線情報 連動)</span>
+                                <a href="${tr.url || 'https://transit.yahoo.co.jp/diainfo'}" target="_blank" class="btn-detail">Yahoo!路線情報 ↗</a>
+                            </div>
+                            <div style="background:var(--bg-card-sub); padding:12px; border-radius:6px; margin-bottom:10px;">
+                                <strong style="color:var(--text-accent); font-size:1.1em;">🚄 新幹線:</strong>
+                                <div style="margin-top:4px; font-weight:800; font-size:1.05em; color:${tr.shinkansen_status === 'ALERT' ? '#ef4444' : '#10b981'};">
+                                    ${tr.shinkansen_text || '全線平常運行中'}
+                                </div>
+                            </div>
+                            <div style="background:var(--bg-card-sub); padding:12px; border-radius:6px;">
+                                <strong style="color:var(--text-accent); font-size:1.1em;">🚃 在来線各線:</strong>
+                                <div style="margin-top:4px; font-weight:800; font-size:1.05em; color:${tr.line_status === 'ALERT' ? '#ef4444' : '#10b981'};">
+                                    ${tr.line_text || '全線平常運行中'}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    break;
+                }
+
+                case 'telecom': {
+                    titleHtml = '<span>📶 大手通信キャリア (4社) ネットワーク障害速報</span>';
+                    const tel = data.telecom || {};
+                    contentHtml = `
+                        <div class="modal-section">
+                            <div class="modal-section-title">
+                                <span>通信各社 障害アナウンス監視</span>
+                                <span style="font-size:0.82em; color:var(--text-muted);">各社カードをクリックで公式障害速報を開きます</span>
+                            </div>
+                            <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+                                <a href="${tel.docomo_url || 'https://www.docomo.ne.jp/info/network/'}" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit; display:block; background:var(--bg-card-sub); padding:10px 12px; border-radius:6px; border:1px solid rgba(255,255,255,0.08); transition:all 0.2s; cursor:pointer;" onmouseover="this.style.borderColor='#ef4444'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                                        <strong style="color:#ef4444; font-size:1.05em;">📶 NTTドコモ</strong>
+                                        <span style="font-size:0.75em; color:#38bdf8; background:rgba(56,189,248,0.12); padding:2px 6px; border-radius:4px; font-weight:600;">障害情報 ↗</span>
+                                    </div>
+                                    <div style="margin-top:4px; font-weight:800;">${tel.docomo_msg || '平常'}</div>
+                                </a>
+
+                                <a href="${tel.sb_url || 'https://www.softbank.jp/mobile/info/personal/important/'}" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit; display:block; background:var(--bg-card-sub); padding:10px 12px; border-radius:6px; border:1px solid rgba(255,255,255,0.08); transition:all 0.2s; cursor:pointer;" onmouseover="this.style.borderColor='#94a3b8'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                                        <strong style="color:#cbd5e1; font-size:1.05em;">📶 ソフトバンク</strong>
+                                        <span style="font-size:0.75em; color:#38bdf8; background:rgba(56,189,248,0.12); padding:2px 6px; border-radius:4px; font-weight:600;">障害情報 ↗</span>
+                                    </div>
+                                    <div style="margin-top:4px; font-weight:800;">${tel.sb_msg || '平常'}</div>
+                                </a>
+
+                                <a href="${tel.rakuten_url || 'https://network.mobile.rakuten.co.jp/information/failure/'}" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit; display:block; background:var(--bg-card-sub); padding:10px 12px; border-radius:6px; border:1px solid rgba(255,255,255,0.08); transition:all 0.2s; cursor:pointer;" onmouseover="this.style.borderColor='#e11d48'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                                        <strong style="color:#f43f5e; font-size:1.05em;">📶 楽天モバイル</strong>
+                                        <span style="font-size:0.75em; color:#38bdf8; background:rgba(56,189,248,0.12); padding:2px 6px; border-radius:4px; font-weight:600;">障害情報 ↗</span>
+                                    </div>
+                                    <div style="margin-top:4px; font-weight:800;">${tel.rakuten_msg || '平常'}</div>
+                                </a>
+
+                                <div style="background:var(--bg-card-sub); padding:10px 12px; border-radius:6px; border:1px solid rgba(255,255,255,0.08);">
+                                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                                        <strong style="color:#f97316; font-size:1.05em;">📶 au / UQ / povo (KDDI)</strong>
+                                    </div>
+                                    <div style="margin-top:4px; font-weight:800; margin-bottom:8px;">${tel.kddi_msg || '平常'}</div>
+                                    <div style="display:flex; gap:6px; flex-wrap:wrap;">
+                                        <a href="${tel.au_url || 'https://www.au.com/information/notice_mobile/network/'}" target="_blank" rel="noopener noreferrer" style="flex:1; min-width:65px; text-align:center; font-size:0.75em; color:#fff; background:#ea580c; padding:3px 6px; border-radius:4px; text-decoration:none; font-weight:700;">au ↗</a>
+                                        <a href="${tel.uq_url || 'https://www.uqwimax.jp/information/'}" target="_blank" rel="noopener noreferrer" style="flex:1; min-width:65px; text-align:center; font-size:0.75em; color:#fff; background:#0284c7; padding:3px 6px; border-radius:4px; text-decoration:none; font-weight:700;">UQ ↗</a>
+                                        <a href="${tel.povo_url || 'https://povo.jp/news/'}" target="_blank" rel="noopener noreferrer" style="flex:1; min-width:65px; text-align:center; font-size:0.75em; color:#0f172a; background:#facc15; padding:3px 6px; border-radius:4px; text-decoration:none; font-weight:700;">povo ↗</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    break;
+                }
+
+                case 'sns': {
+                    titleHtml = '<span>📡 SNS口コミ障害監視 (Yahoo!リアルタイム検索解析)</span>';
+                    const voices = data.sns_voices || [];
+                    
+                    // キーワード設定セクション (復活＆自由追加・編集・削除機能)
+                    const kwTagsHtml = watchedKeywords.map((kw, idx) => `
+                        <div class="kw-chip">
+                            <span>${kw}</span>
+                            <button class="kw-chip-btn" onclick="editKeyword(${idx})" title="キーワード編集">✏️</button>
+                            <button class="kw-chip-btn" onclick="removeKeyword(${idx})" title="キーワード削除">✕</button>
+                        </div>
+                    `).join('');
+
+                    const kwSettingsSection = `
+                        <div class="modal-section" style="background:var(--bg-card-sub); border:1.5px solid var(--border-color); padding:12px; border-radius:8px; margin-bottom:12px;">
+                            <div class="modal-section-title" style="margin-bottom:8px;">
+                                <span>🔍 監視キーワードの自由設定 (追加・編集・削除)</span>
+                                <button onclick="resetDefaultKeywords()" class="btn-tool" style="font-size:0.82em; padding:3px 8px; min-height:28px;">🔄 初期設定に戻す</button>
+                            </div>
+                            <div style="display:flex; gap:6px; margin-bottom:8px; flex-wrap:wrap;">
+                                <input type="text" id="kw-modal-input" placeholder="追加キーワード (例: 〇〇障害, 停電)" 
+                                       style="flex:1 1 180px; padding:6px 10px; font-size:0.95em; border-radius:6px; border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-primary);"
+                                       onkeydown="if(event.key==='Enter') addKeywordFromInput()">
+                                <button onclick="addKeywordFromInput()" class="btn-detail" style="padding:6px 16px; font-weight:800;">+ 追加</button>
+                            </div>
+                            <div id="modal-kw-tags" style="display:flex; flex-wrap:wrap; gap:6px;">
+                                ${kwTagsHtml}
+                            </div>
+                        </div>
+                    `;
+
+                    const voiceCards = voices.map(item => {
+                        const postsHtml = (item.recent_posts || []).map(p => `
+                            <div class="sns-post-box">
+                                <span style="color:var(--text-accent); font-weight:800;">[${p.time}]</span> ${p.text}
+                            </div>
+                        `).join('') || '<div style="padding:8px; color:var(--text-muted);">直近の関連投稿なし</div>';
+
+                        return `
+                            <div class="modal-section" style="margin-bottom:10px;">
+                                <div class="modal-section-title">
+                                    <span>「${item.keyword}」トレンド: <strong style="color:${item.trend === 'UP' ? '#ef4444' : '#10b981'};">${item.trend_label || (item.trend === 'UP' ? '急増' : '安定')}</strong></span>
+                                    <a href="${item.search_url || '#'}" target="_blank" class="btn-detail">Yahoo!生画面 ↗</a>
+                                </div>
+                                <div style="background:var(--bg-card-sub); border-radius:6px; max-height:160px; overflow-y:auto;">
+                                    ${postsHtml}
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+
+                    contentHtml = `
+                        ${kwSettingsSection}
+                        <div class="modal-section-title" style="margin-bottom:6px;">
+                            <span>📊 トレンド解析＆検出投稿ログ</span>
+                        </div>
+                        <div style="max-height:420px; overflow-y:auto;">
+                            ${voiceCards || '<div style="padding:10px; color:var(--text-muted);">データなし</div>'}
+                        </div>
+                    `;
+                    break;
+                }
+
+                case 'government': {
+                    titleHtml = '<span>🏛️ 政府・自治体 災害対策態勢</span>';
+                    const gov = data.government || {};
+                    contentHtml = `
+                        <div class="modal-section">
+                            <div class="modal-section-title">
+                                <span>官公庁 災害対策本部・非常態勢</span>
+                                <a href="https://www.bousai.go.jp/" target="_blank" class="btn-detail">内閣府防災ポータル ↗</a>
+                            </div>
+                            <div style="display:flex; flex-direction:column; gap:10px;">
+                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:6px;">
+                                    <strong style="color:var(--text-accent); font-size:1.1em;">🏛️ 内閣府 (防災担当):</strong>
+                                    <div style="margin-top:4px; font-weight:800; font-size:1.05em;">${gov.cabinet_msg || '災害対策本部設置なし (平常態勢)'}</div>
+                                </div>
+                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:6px;">
+                                    <strong style="color:var(--text-accent); font-size:1.1em;">🏥 厚生労働省 (DMAT/救護):</strong>
+                                    <div style="margin-top:4px; font-weight:800; font-size:1.05em;">${gov.mhlw_msg || '平常即応'}</div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    break;
+                }
+            }
+
+            titleEl.innerHTML = titleHtml;
+            bodyEl.innerHTML = contentHtml;
+            modal.style.display = 'flex';
+        }
+
+        function closeDetailModal() {
+            const modal = document.getElementById('indicator-detail-modal');
+            if (modal) modal.style.display = 'none';
+        }
+
+        function closeModalOnBackdrop(e) {
+            if (e.target && e.target.id === 'indicator-detail-modal') {
+                closeDetailModal();
+            }
+        }
+
+        // テーマ切り替え
+        function changeTheme() {
+            const sel = document.getElementById('theme-select');
+            const theme = sel.value;
+            document.documentElement.setAttribute('data-theme', theme);
+            const metaTheme = document.getElementById('meta-theme-color');
+            if (metaTheme) {
+                metaTheme.setAttribute('content', theme === 'dark' ? '#060a12' : '#edf2f7');
+            }
+        }
+
+        // 全画面表示切り替え
+        function toggleFullScreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(err => {
+                    console.error("全画面エラー:", err);
+                });
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        }
+
+        // 報告テキストコピー
+        function copyReportText() {
+            if (!latestDataCache) {
+                alert("データを取得中です。少々お待ちください。");
+                return;
+            }
+            const data = latestDataCache;
+            const loc = data.location;
+            const now = new Date();
+            const timeStr = `${now.getFullYear()}/${now.getMonth() + 1}/${now.getDate()} ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+
+            const eq = data.earthquake || {};
+            const tr = data.transit || {};
+            const lf = data.lifeline || {};
+            const w = data.weather || {};
+
+            const report = `【BCP災害危機管理 状況報告】
+■ 報告日時: ${timeStr} JST
+■ 監視拠点: ${loc.name}（${loc.region_name}）
+
+1. 地震: 最新発生 ${eq.time || '-'} 最大震度${eq.shindo || '-'} (${eq.place || '-'})
+2. 気象: ${w.summary || '警報なし'}
+3. 交通: ${tr.line_text || '全線平常運行'}
+4. インフラ: 電力・水道・ガス (${lf.power_msg ? lf.power_msg.slice(0, 30) : '正常'})
+5. 通信・SNS: 4キャリア稼働正常・口コミ急増なし
+
+※自動判定エンジン解析完了`;
+
+            navigator.clipboard.writeText(report).then(() => {
+                alert("状況報告テキストをクリップボードにコピーしました！");
+            }).catch(err => {
+                console.error("コピー失敗:", err);
+            });
+        }
+    
+        // =========================================================
+        // 監視キーワード管理 (localStorage 永続化 & タグ描画)
+        // =========================================================
+        function loadSavedKeywords() {
+            try {
+                const saved = localStorage.getItem('bcp_watched_keywords');
+                if (saved) {
+                    const parsed = JSON.parse(saved);
+                    if (Array.isArray(parsed) && parsed.length > 0) {
+                        watchedKeywords = parsed;
+                    }
+                }
+            } catch(e) {
+                console.error("キーワード読み込みエラー:", e);
+                watchedKeywords = [...DEFAULT_KEYWORDS];
+            }
+        }
+
+        function saveKeywords() {
+            try {
+                localStorage.setItem('bcp_watched_keywords', JSON.stringify(watchedKeywords));
+            } catch(e) {}
+            renderKeywordTags();
+        }
+
+        function renderKeywordTags() {
+            // 初期画面カード内のタグ描画
+            const cardTagsEl = document.getElementById('card-sns-tags');
+            const kwCountEl = document.getElementById('card-kw-count');
+            if (kwCountEl) kwCountEl.innerText = watchedKeywords.length;
+
+            if (cardTagsEl) {
+                const voices = (latestDataCache && latestDataCache.sns_voices) || [];
+                cardTagsEl.innerHTML = watchedKeywords.map(kw => {
+                    const match = voices.find(v => v.keyword === kw);
+                    const isAlert = match && (match.trend === 'UP' || match.status === 'ALERT');
+                    return `
+                        <div class="kw-chip ${isAlert ? 'alert' : ''}" title="${isAlert ? '投稿急増中!' : '監視中'}">
+                            <span>${kw}</span>
+                            ${isAlert ? '⚠️' : ''}
+                        </div>
+                    `;
+                }).join('');
+            }
+
+            // モーダルが開いていればモーダル内タグも再描画
+            const modalTagsEl = document.getElementById('modal-kw-tags');
+            if (modalTagsEl) {
+                modalTagsEl.innerHTML = watchedKeywords.map((kw, idx) => `
+                    <div class="kw-chip">
+                        <span>${kw}</span>
+                        <button class="kw-chip-btn" onclick="editKeyword(${idx})" title="キーワード編集">✏️</button>
+                        <button class="kw-chip-btn" onclick="removeKeyword(${idx})" title="キーワード削除">✕</button>
+                    </div>
+                `).join('');
+            }
+        }
+
+        function addKeywordFromInput() {
+            const input = document.getElementById('kw-modal-input');
+            if (!input) return;
+            const val = input.value.trim();
+            if (!val) return;
+            if (watchedKeywords.includes(val)) {
+                alert('既に登録されているキーワードです。');
+                return;
+            }
+            watchedKeywords.push(val);
+            input.value = '';
+            saveKeywords();
+            loadRealData(true);
+        }
+
+        function editKeyword(index) {
+            const current = watchedKeywords[index];
+            const updated = prompt('監視キーワードを編集してください:', current);
+            if (updated !== null && updated.trim() !== '') {
+                const trimmed = updated.trim();
+                if (trimmed !== current && watchedKeywords.includes(trimmed)) {
+                    alert('既に存在するキーワードです。');
+                    return;
+                }
+                watchedKeywords[index] = trimmed;
+                saveKeywords();
+                loadRealData(true);
+            }
+        }
+
+        function removeKeyword(index) {
+            if (watchedKeywords.length <= 1) {
+                alert('最低1つの監視キーワードが必要です。');
+                return;
+            }
+            if (confirm(`キーワード「${watchedKeywords[index]}」を監視対象から削除しますか？`)) {
+                watchedKeywords.splice(index, 1);
+                saveKeywords();
+                loadRealData(true);
+            }
+        }
+
+        function resetDefaultKeywords() {
+            if (confirm('監視キーワードを初期設定に戻しますか？')) {
+                watchedKeywords = [...DEFAULT_KEYWORDS];
+                saveKeywords();
+                loadRealData(true);
+            }
+        }
+
+        // =========================================================
+        // 天気概況 & 雨雲レーダー タブ切替 & 座標同期
+        // =========================================================
+        function switchWeatherTab(tab) {
+            const textBtn = document.getElementById('tab-weather-text');
+            const radarBtn = document.getElementById('tab-weather-radar');
+            const textPane = document.getElementById('weather-overview-pane');
+            const radarPane = document.getElementById('weather-radar-pane');
+
+            if (tab === 'text') {
+                if (textBtn) textBtn.classList.add('active');
+                if (radarBtn) radarBtn.classList.remove('active');
+                if (textPane) textPane.classList.add('active');
+                if (radarPane) radarPane.classList.remove('active');
+            } else {
+                if (textBtn) textBtn.classList.remove('active');
+                if (radarBtn) radarBtn.classList.add('active');
+                if (textPane) textPane.classList.remove('active');
+                if (radarPane) radarPane.classList.add('active');
+            }
+        }
+
+        function updateRadarLocation(locKey) {
+            const iframe = document.getElementById('weather-radar-iframe');
+            if (!iframe) return;
+            const coord = RADAR_COORDS[locKey] || RADAR_COORDS['tokyo'];
+            const src = `https://embed.windy.com/embed2.html?lat=${coord.lat}&lon=${coord.lon}&detailLat=${coord.lat}&detailLon=${coord.lon}&width=100%25&height=100%25&zoom=${coord.zoom}&level=surface&overlay=radar&product=radar&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1`;
+            iframe.src = src;
+        }
+
+        // =========================================================
+        // 📱 iPhone 15 最適化: 1画面モード ⇄ スクロールモード 切替
+        // =========================================================
+        function initMobileDashboardMode() {
+            try {
+                const saved = localStorage.getItem('bcp_mobile_dashboard_mode');
+                if (saved === 'compact') {
+                    setMobileMode(true);
+                } else {
+                    setMobileMode(false);
+                }
+            } catch(e) {}
+        }
+
+        function setMobileMode(isCompact) {
+            const body = document.body;
+            const quickBtn = document.getElementById('mobile-quick-mode-btn');
+            const subBtn = document.getElementById('sub-mode-btn');
+
+            if (isCompact) {
+                body.classList.add('mobile-mode-compact');
+                if (quickBtn) quickBtn.innerText = '📜 スクロールへ';
+                if (subBtn) subBtn.innerText = '📜 通常スクロール';
+                try { localStorage.setItem('bcp_mobile_dashboard_mode', 'compact'); } catch(e) {}
+            } else {
+                body.classList.remove('mobile-mode-compact');
+                if (quickBtn) quickBtn.innerText = '📱 1画面モードへ';
+                if (subBtn) subBtn.innerText = '📱 1画面モード';
+                try { localStorage.setItem('bcp_mobile_dashboard_mode', 'scroll'); } catch(e) {}
+            }
+        }
+
+        function toggleMobileDashboardMode(forcedMode) {
+            if (forcedMode === 'scroll') {
+                setMobileMode(false);
+            } else if (forcedMode === 'compact') {
+                setMobileMode(true);
+            } else {
+                const isCurrentlyCompact = document.body.classList.contains('mobile-mode-compact');
+                setMobileMode(!isCurrentlyCompact);
+            }
+        }
+
+        // 1画面モード時、タイルクリックで詳細モーダルを開く
+        function initCardCompactClickHandlers() {
+            const typeMap = {
+                'card-earthquake': 'earthquake',
+                'card-tsunami': 'tsunami',
+                'card-volcano': 'volcano',
+                'card-weather': 'weather',
+                'card-river': 'river',
+                'card-evacuation': 'evacuation',
+                'card-police-fire': 'police_fire',
+                'card-lifeline': 'lifeline',
+                'card-transit': 'transit',
+                'card-telecom': 'telecom',
+                'card-sns': 'sns',
+                'card-government': 'government'
+            };
+
+            Object.entries(typeMap).forEach(([id, type]) => {
+                const card = document.getElementById(id);
+                if (card) {
+                    card.addEventListener('click', (e) => {
+                        if (document.body.classList.contains('mobile-mode-compact')) {
+                            openIndicatorDetail(type);
+                        }
+                    });
+                }
+            });
+        }
+
+        // 1画面モード用 ポップアップランチャー (生放送・カメラ・レーダー)
+        function openMediaPopup(mediaType) {
+            const modal = document.getElementById('indicator-detail-modal');
+            const titleEl = document.getElementById('modal-title');
+            const bodyEl = document.getElementById('modal-body-content');
+
+            if (mediaType === 'stream') {
+                titleEl.innerHTML = '<span>🔴 24時間 災害生放送 (WNI/民放各局)</span>';
+                const mainIframe = document.getElementById('stream-player-iframe');
+                const src = mainIframe ? mainIframe.src : 'https://www.youtube-nocookie.com/embed/4_ae_IKXB8g?autoplay=1&mute=0&playsinline=1';
+                bodyEl.innerHTML = `
+                    <div style="aspect-ratio:16/9; width:100%; border-radius:8px; overflow:hidden; background:#000;">
+                        <iframe style="width:100%; height:100%; border:none;" 
+                            src="${src.replace('mute=1', 'mute=0')}" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                `;
+            } else if (mediaType === 'camera') {
+                titleEl.innerHTML = '<span>📷 全国主要拠点 ライブカメラ</span>';
+                const mainCamIframe = document.getElementById('camera-player-iframe');
+                const src = mainCamIframe ? mainCamIframe.src : 'https://www.youtube-nocookie.com/embed/dfVK7ld38Ys?autoplay=1&mute=1&playsinline=1';
+                bodyEl.innerHTML = `
+                    <div style="aspect-ratio:16/9; width:100%; border-radius:8px; overflow:hidden; background:#000;">
+                        <iframe style="width:100%; height:100%; border:none;" 
+                            src="${src}" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                `;
+            } else if (mediaType === 'radar') {
+                const coord = RADAR_COORDS[currentLocation] || RADAR_COORDS['tokyo'];
+                titleEl.innerHTML = '<span>🌧️ リアルタイム 高解像度雨雲レーダー</span>';
+                bodyEl.innerHTML = `
+                    <div style="height:65vh; width:100%; border-radius:8px; overflow:hidden;">
+                        <iframe style="width:100%; height:100%; border:none;" 
+                            src="https://embed.windy.com/embed2.html?lat=${coord.lat}&lon=${coord.lon}&detailLat=${coord.lat}&detailLon=${coord.lon}&width=100%25&height=100%25&zoom=${coord.zoom}&level=surface&overlay=radar&product=radar&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1">
+                        </iframe>
+                    </div>
+                `;
+            }
+            modal.style.display = 'flex';
+        }
+
+    </script>
+</body>
+</html>

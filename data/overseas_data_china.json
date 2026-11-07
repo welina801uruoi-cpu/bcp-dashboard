@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 06:02:41",
-  "timestamp_local": "2026-11-08 05:02:41",
+  "timestamp": "2026-11-08 06:30:13",
+  "timestamp_local": "2026-11-08 05:30:13",
   "country": {
     "id": "china",
     "name": "中国 (中華人民共和国)",
@@ -287,17 +287,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 12,
-    "summary": "M4.5 (65 km WSW of Masachapa, Nicaragua)",
+    "count_24h": 13,
+    "summary": "M4.7 (43 km ESE of Ambon, Indonesia)",
     "latest": {
-      "mag": 4.5,
-      "place": "65 km WSW of Masachapa, Nicaragua",
-      "time": "11/08 04:55 JST",
-      "depth_km": 37.054,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
+      "mag": 4.7,
+      "place": "43 km ESE of Ambon, Indonesia",
+      "time": "11/08 05:55 JST",
+      "depth_km": 136.656,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "43 km ESE of Ambon, Indonesia",
+        "time": "11/08 05:55 JST",
+        "depth_km": 136.656,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
+        "tsunami": 0
+      },
       {
         "mag": 4.5,
         "place": "65 km WSW of Masachapa, Nicaragua",
@@ -398,6 +406,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "イラン高官、米大統領を挑発　中間選挙後の側近去就巡り(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/41d3aac3d2e5510aa543b3100aa7d46a4ca0627a?source=rss",
+        "description": "【テヘラン共同】イラン最高安全保障委員会（SNSC）のレザイ事務局長は7日、米中間選挙でトランプ大統領の与党共和党が大敗したことに関し「戦争にも選挙にも負けた」とやゆした。トランプ氏の側近の去就が取り",
+        "pub_date": "11/08 06:17 JST",
+        "is_priority": false
+      },
       {
         "title": "元軍参謀総長に組閣指示へ　イスラエル、連立交渉加速(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/9ff32964454b2c7c9f140472a5d735686b55acaf?source=rss",
@@ -530,13 +545,6 @@
         "description": "ロシアにあるJT＝日本たばこ産業の資産がロシア企業の管理下に移された問題で、プーチン大統領は新たに、現地の販売会社なども対象に加える追加の大統領令を出しました。 6日付で公表された新たな大統領令では、",
         "pub_date": "11/07 20:50 JST",
         "is_priority": false
-      },
-      {
-        "title": "米民主党勝利は気候にとって「良いニュース」ではあるが… 意外な問題点も(クーリエ・ジャポン)",
-        "link": "https://news.yahoo.co.jp/articles/25020661587d700539815273495798624d36eff2?source=rss",
-        "description": "過去2年間、米民主党はトランプ政権による気候政策への攻撃を、ただただ見守るしかなかった。【画像】欧州メディア「トランプはさらに悪化しうる」民主党議員らは、連邦レベルで「エネルギー移行に向けた資金拠出の",
-        "pub_date": "11/07 20:45 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -659,7 +667,7 @@
     "default_channel_id": "stream_cctv_live"
   },
   "forex": {
-    "timestamp": "11/08 06:02 JST",
+    "timestamp": "11/08 06:30 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -728,13 +736,13 @@
         "lat": 39.9042,
         "lon": 116.4074,
         "temp": 1.7,
-        "apparent_temp": -1.3,
+        "apparent_temp": -1.4,
         "humidity": 99,
-        "wind_speed": 7.4,
-        "wind_gusts": 16.9,
-        "precipitation": 0.2,
-        "weather_code": 53,
-        "weather_label": "🌦️ 霧雨 (中)",
+        "wind_speed": 8.0,
+        "wind_gusts": 16.2,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -772,14 +780,14 @@
         "is_capital": false,
         "lat": 31.2304,
         "lon": 121.4737,
-        "temp": 14.9,
-        "apparent_temp": 15.0,
-        "humidity": 91,
-        "wind_speed": 7.1,
-        "wind_gusts": 17.6,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 15.0,
+        "apparent_temp": 15.2,
+        "humidity": 92,
+        "wind_speed": 6.1,
+        "wind_gusts": 14.8,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -806,6 +814,51 @@
             "precipitation_mm": 0.0
           }
         ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      },
+      {
+        "name": "広州 (南部主要都市)",
+        "name_en": "Guangzhou",
+        "is_capital": false,
+        "lat": 23.1291,
+        "lon": 113.2644,
+        "temp": 23.0,
+        "apparent_temp": 26.6,
+        "humidity": 92,
+        "wind_speed": 6.7,
+        "wind_gusts": 13.7,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 30.2,
+            "temp_min": 20.0,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 4.5
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 22.3,
+            "temp_min": 14.9,
+            "weather_code": 82,
+            "weather_label": "⛈️ 激しいにわか雨",
+            "precipitation_mm": 24.9
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 19.3,
+            "temp_min": 11.7,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
         "alert": "平常",
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
@@ -819,13 +872,13 @@
       "lat": 39.9042,
       "lon": 116.4074,
       "temp": 1.7,
-      "apparent_temp": -1.3,
+      "apparent_temp": -1.4,
       "humidity": 99,
-      "wind_speed": 7.4,
-      "wind_gusts": 16.9,
-      "precipitation": 0.2,
-      "weather_code": 53,
-      "weather_label": "🌦️ 霧雨 (中)",
+      "wind_speed": 8.0,
+      "wind_gusts": 16.2,
+      "precipitation": 0.1,
+      "weather_code": 51,
+      "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
         {
           "date": "11/08(日)",
@@ -857,7 +910,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/08 06:02 JST"
+    "timestamp": "11/08 06:30 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -886,7 +939,7 @@
         "details": "京滬高速鉄道ほか主要幹線は平常運行中"
       }
     ],
-    "timestamp": "11/08 06:02 JST"
+    "timestamp": "11/08 06:30 JST"
   },
   "lifeline": {
     "status": "NORMAL",

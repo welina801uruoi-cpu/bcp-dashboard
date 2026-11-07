@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 06:02:14",
-  "timestamp_local": "2026-11-08 03:32:14",
+  "timestamp": "2026-11-08 06:29:52",
+  "timestamp_local": "2026-11-08 03:59:52",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -267,17 +267,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 12,
-    "summary": "M4.5 (65 km WSW of Masachapa, Nicaragua)",
+    "count_24h": 13,
+    "summary": "M4.7 (43 km ESE of Ambon, Indonesia)",
     "latest": {
-      "mag": 4.5,
-      "place": "65 km WSW of Masachapa, Nicaragua",
-      "time": "11/08 04:55 JST",
-      "depth_km": 37.054,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
+      "mag": 4.7,
+      "place": "43 km ESE of Ambon, Indonesia",
+      "time": "11/08 05:55 JST",
+      "depth_km": 136.656,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "43 km ESE of Ambon, Indonesia",
+        "time": "11/08 05:55 JST",
+        "depth_km": 136.656,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
+        "tsunami": 0
+      },
       {
         "mag": 4.5,
         "place": "65 km WSW of Masachapa, Nicaragua",
@@ -378,6 +386,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "イラン高官、米大統領を挑発　中間選挙後の側近去就巡り(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/41d3aac3d2e5510aa543b3100aa7d46a4ca0627a?source=rss",
+        "description": "【テヘラン共同】イラン最高安全保障委員会（SNSC）のレザイ事務局長は7日、米中間選挙でトランプ大統領の与党共和党が大敗したことに関し「戦争にも選挙にも負けた」とやゆした。トランプ氏の側近の去就が取り",
+        "pub_date": "11/08 06:17 JST",
+        "is_priority": false
+      },
       {
         "title": "元軍参謀総長に組閣指示へ　イスラエル、連立交渉加速(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/9ff32964454b2c7c9f140472a5d735686b55acaf?source=rss",
@@ -510,13 +525,6 @@
         "description": "ロシアにあるJT＝日本たばこ産業の資産がロシア企業の管理下に移された問題で、プーチン大統領は新たに、現地の販売会社なども対象に加える追加の大統領令を出しました。 6日付で公表された新たな大統領令では、",
         "pub_date": "11/07 20:50 JST",
         "is_priority": false
-      },
-      {
-        "title": "米民主党勝利は気候にとって「良いニュース」ではあるが… 意外な問題点も(クーリエ・ジャポン)",
-        "link": "https://news.yahoo.co.jp/articles/25020661587d700539815273495798624d36eff2?source=rss",
-        "description": "過去2年間、米民主党はトランプ政権による気候政策への攻撃を、ただただ見守るしかなかった。【画像】欧州メディア「トランプはさらに悪化しうる」民主党議員らは、連邦レベルで「エネルギー移行に向けた資金拠出の",
-        "pub_date": "11/07 20:45 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -629,7 +637,7 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/08 06:02 JST",
+    "timestamp": "11/08 06:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -667,11 +675,20 @@
       "departures_url": "http://www.yangonairport.aero/",
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
-      "weather": {},
+      "weather": {
+        "raw": "METAR VYYY 072100Z 00000KT 6000 BKN013 FEW016CB BKN090 25/25 Q1012 TEMPO 4000 BR",
+        "wind": "0kt",
+        "wind_speed": 0,
+        "wind_gust": 0,
+        "visibility": "3.73マイル",
+        "temp": 25,
+        "fltcat": "VFR",
+        "report_time": "2026-11-07T21:00:00.000Z"
+      },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "定常運航中（現在重大な気象警報なし）"
+      "status_desc": "視程良好（3.73マイル）、風速安定（0kt）。順調に運航中"
     }
   ],
   "weather": {
@@ -683,13 +700,13 @@
         "lat": 16.8661,
         "lon": 96.1951,
         "temp": 24.6,
-        "apparent_temp": 29.3,
-        "humidity": 92,
-        "wind_speed": 6.7,
-        "wind_gusts": 14.8,
-        "precipitation": 0.2,
-        "weather_code": 53,
-        "weather_label": "🌦️ 霧雨 (中)",
+        "apparent_temp": 29.5,
+        "humidity": 93,
+        "wind_speed": 5.7,
+        "wind_gusts": 14.4,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -728,10 +745,10 @@
         "lat": 19.7633,
         "lon": 96.0785,
         "temp": 23.8,
-        "apparent_temp": 29.3,
+        "apparent_temp": 29.2,
         "humidity": 97,
-        "wind_speed": 1.5,
-        "wind_gusts": 4.0,
+        "wind_speed": 1.6,
+        "wind_gusts": 3.2,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -775,7 +792,7 @@
         "temp": 26.2,
         "apparent_temp": 31.4,
         "humidity": 83,
-        "wind_speed": 2.0,
+        "wind_speed": 2.1,
         "wind_gusts": 6.5,
         "precipitation": 0.0,
         "weather_code": 0,
@@ -819,10 +836,10 @@
       "lat": 19.7633,
       "lon": 96.0785,
       "temp": 23.8,
-      "apparent_temp": 29.3,
+      "apparent_temp": 29.2,
       "humidity": 97,
-      "wind_speed": 1.5,
-      "wind_gusts": 4.0,
+      "wind_speed": 1.6,
+      "wind_gusts": 3.2,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -857,7 +874,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 06:02 JST"
+    "timestamp": "11/08 06:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -886,7 +903,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/08 06:02 JST"
+    "timestamp": "11/08 06:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

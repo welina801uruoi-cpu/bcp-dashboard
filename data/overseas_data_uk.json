@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 06:03:21",
-  "timestamp_local": "2026-11-07 22:03:21",
+  "timestamp": "2026-11-08 06:30:54",
+  "timestamp_local": "2026-11-07 22:30:54",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -352,17 +352,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 12,
-    "summary": "M4.5 (65 km WSW of Masachapa, Nicaragua)",
+    "count_24h": 13,
+    "summary": "M4.7 (43 km ESE of Ambon, Indonesia)",
     "latest": {
-      "mag": 4.5,
-      "place": "65 km WSW of Masachapa, Nicaragua",
-      "time": "11/08 04:55 JST",
-      "depth_km": 37.054,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
+      "mag": 4.7,
+      "place": "43 km ESE of Ambon, Indonesia",
+      "time": "11/08 05:55 JST",
+      "depth_km": 136.656,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "43 km ESE of Ambon, Indonesia",
+        "time": "11/08 05:55 JST",
+        "depth_km": 136.656,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
+        "tsunami": 0
+      },
       {
         "mag": 4.5,
         "place": "65 km WSW of Masachapa, Nicaragua",
@@ -463,6 +471,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "イラン高官、米大統領を挑発　中間選挙後の側近去就巡り(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/41d3aac3d2e5510aa543b3100aa7d46a4ca0627a?source=rss",
+        "description": "【テヘラン共同】イラン最高安全保障委員会（SNSC）のレザイ事務局長は7日、米中間選挙でトランプ大統領の与党共和党が大敗したことに関し「戦争にも選挙にも負けた」とやゆした。トランプ氏の側近の去就が取り",
+        "pub_date": "11/08 06:17 JST",
+        "is_priority": false
+      },
       {
         "title": "元軍参謀総長に組閣指示へ　イスラエル、連立交渉加速(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/9ff32964454b2c7c9f140472a5d735686b55acaf?source=rss",
@@ -595,13 +610,6 @@
         "description": "ロシアにあるJT＝日本たばこ産業の資産がロシア企業の管理下に移された問題で、プーチン大統領は新たに、現地の販売会社なども対象に加える追加の大統領令を出しました。 6日付で公表された新たな大統領令では、",
         "pub_date": "11/07 20:50 JST",
         "is_priority": false
-      },
-      {
-        "title": "米民主党勝利は気候にとって「良いニュース」ではあるが… 意外な問題点も(クーリエ・ジャポン)",
-        "link": "https://news.yahoo.co.jp/articles/25020661587d700539815273495798624d36eff2?source=rss",
-        "description": "過去2年間、米民主党はトランプ政権による気候政策への攻撃を、ただただ見守るしかなかった。【画像】欧州メディア「トランプはさらに悪化しうる」民主党議員らは、連邦レベルで「エネルギー移行に向けた資金拠出の",
-        "pub_date": "11/07 20:45 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -732,7 +740,7 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/08 06:03 JST",
+    "timestamp": "11/08 06:30 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -830,14 +838,14 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 9.9,
-        "apparent_temp": 8.7,
-        "humidity": 81,
-        "wind_speed": 2.9,
-        "wind_gusts": 6.1,
+        "temp": 9.6,
+        "apparent_temp": 8.5,
+        "humidity": 83,
+        "wind_speed": 2.2,
+        "wind_gusts": 5.4,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/07(土)",
@@ -875,11 +883,11 @@
         "is_capital": false,
         "lat": 53.4808,
         "lon": -2.2426,
-        "temp": 8.8,
-        "apparent_temp": 7.7,
-        "humidity": 85,
-        "wind_speed": 1.4,
-        "wind_gusts": 4.3,
+        "temp": 8.6,
+        "apparent_temp": 7.4,
+        "humidity": 88,
+        "wind_speed": 2.5,
+        "wind_gusts": 5.4,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -898,12 +906,57 @@
             "temp_min": 7.2,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.3
+            "precipitation_mm": 0.1
           },
           {
             "date": "11/09(月)",
             "temp_max": 10.4,
             "temp_min": 4.9,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "エディンバラ (スコットランド)",
+        "name_en": "Edinburgh",
+        "is_capital": false,
+        "lat": 55.9533,
+        "lon": -3.1883,
+        "temp": 8.5,
+        "apparent_temp": 6.8,
+        "humidity": 82,
+        "wind_speed": 4.7,
+        "wind_gusts": 10.8,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 10.5,
+            "temp_min": 8.3,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.1
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 9.6,
+            "temp_min": 8.0,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 2.9
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 9.1,
+            "temp_min": 3.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -921,14 +974,14 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 9.9,
-      "apparent_temp": 8.7,
-      "humidity": 81,
-      "wind_speed": 2.9,
-      "wind_gusts": 6.1,
+      "temp": 9.6,
+      "apparent_temp": 8.5,
+      "humidity": 83,
+      "wind_speed": 2.2,
+      "wind_gusts": 5.4,
       "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
           "date": "11/07(土)",
@@ -960,7 +1013,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 06:03 JST"
+    "timestamp": "11/08 06:30 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -970,7 +1023,7 @@
     "overall_status": "大幅遅延・一部運休",
     "strike": false,
     "monitored_systems_count": 4,
-    "alert_lines_count": 3,
+    "alert_lines_count": 2,
     "alert_lines": [
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -979,14 +1032,6 @@
         "status": "Severe Delays",
         "badge": "🟠 警戒",
         "reason": "Bakerloo Line: Severe delays due to a points failure at Elephant & Castle. Tickets will be accepted on London Buses, Tha"
-      },
-      {
-        "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
-        "line": "Lioness",
-        "mode": "overground",
-        "status": "Reduced Service",
-        "badge": "🟠 警戒",
-        "reason": "LIONESS LINE: Saturday 7 and Sunday 8 November, a reduced service will run between Kilburn High Road and Euston. On Satu"
       },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1086,10 +1131,10 @@
           {
             "name": "Lioness",
             "mode": "overground",
-            "status_raw": "Reduced Service",
-            "badge": "🟠 警戒",
-            "code": "warning",
-            "reason": "LIONESS LINE: Saturday 7 and Sunday 8 November, a reduced service will run between Kilburn High Road and Euston. On Satu"
+            "status_raw": "Good Service",
+            "badge": "🟢 平常",
+            "code": "normal",
+            "reason": ""
           },
           {
             "name": "Metropolitan",
@@ -1217,7 +1262,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/08 06:03 JST"
+    "timestamp": "11/08 06:30 JST"
   },
   "lifeline": {
     "status": "NORMAL",

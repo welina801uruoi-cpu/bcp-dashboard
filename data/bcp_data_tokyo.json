@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 21:00:23",
+  "timestamp": "2026-11-07 21:28:05",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -313,22 +313,22 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 山手線）",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（山手線）",
-    "shinkansen_status": "NORMAL",
-    "shinkansen_text": "全線平常運行中",
+    "text": "運行支障あり（新幹線: 東海道新幹線（列車遅延））",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
+    "shinkansen_status": "ALERT",
+    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [
-      "山手線"
+    "troubled_lines": [],
+    "troubled_shinkansen": [
+      "東海道新幹線（列車遅延）"
     ],
-    "troubled_shinkansen": [],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "現在､事故･遅延に関する情報はありません。",
+        "status": "ALERT",
+        "state": "列車遅延",
+        "detail": "地震の影響で、列車に遅れが出ています。（11月8日 6時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       },
       {
@@ -432,16 +432,16 @@
       "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/07 21:26",
+          "text": "START au END ，なんか START 障害 END 発生してる？ どえらいULが遅くて現実的に使い物にならんレベルなんだが（緊急用のeSIMなIIJm..."
+        },
+        {
           "time": "11/07 20:53",
           "text": "START au END 回線 START 障害 END のリスク分散で変えたけどこれなら戻すかな…"
         },
         {
           "time": "11/07 20:04",
           "text": "ドコモ、不正アクセス被害者へお見舞金 流出は29万回線、本人確認書類の番号も（更新） https://t.co/yG8GbDM8Fv どうせ３桁ぐらいの｢お見舞..."
-        },
-        {
-          "time": "11/07 15:11",
-          "text": "@0115_dove_ START AU END の START 障害 END 情報ページとかを見てみると良いかもです。"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -534,8 +534,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 47,
+    "disaster_count": 45,
     "articles": [
+      {
+        "title": "【地震情報】棚から本が崩れ落ち床一面に散乱… 愛知･知多市で震度5強 東海道新幹線は始発から遅れ JR在来線は一部で始発から運転見合わせ(CBCテレビ)",
+        "summary": "きょう午前1時4分ごろ、愛知県知多市で最大震度5強を観測した地震で、愛知県内で少なくとも13人がけがをしました。【画像】散乱した本 粉々になったショーウィンドウのガラスこの地震で交通への影響も広がって",
+        "pub_date": "11/08 06:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/bdef881db59c040d664673cb2ab73482ad2b88c1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "パトカー追跡中の軽乗用車が乗用車と衝突　軽乗用車の17歳少年逮捕(CBCテレビ)",
         "summary": "7日夕方、名古屋市中区の路上でパトカーに追跡されていた軽乗用車が乗用車と衝突し男性に軽いけがをさせたとして17歳の派遣社員の少年が逮捕されました。【写真を見る】パトカー追跡中の軽乗用車が乗用車と衝突",
@@ -647,17 +655,9 @@
         "link": "https://news.yahoo.co.jp/articles/008241c2a2bae4faf4709598ed418b28db389d68?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "中部国際空港設備に不具合なし(共同通信)",
-        "summary": "愛知県常滑市の中部国際空港の運営会社によると、8日の地震で、人的被害や空港内の設備の不具合は確認されていない。",
-        "pub_date": "11/08 03:55 JST",
-        "link": "https://news.yahoo.co.jp/articles/1b1199280aa22175fde8b2452dece29dfa2d2762?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 06:00:05 JST"
+    "last_updated": "2026-11-08 06:27:50 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

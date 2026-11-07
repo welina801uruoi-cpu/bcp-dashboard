@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 06:02:52",
-  "timestamp_local": "2026-11-08 05:02:52",
+  "timestamp": "2026-11-08 06:30:24",
+  "timestamp_local": "2026-11-08 05:30:24",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -289,17 +289,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 12,
-    "summary": "M4.5 (65 km WSW of Masachapa, Nicaragua)",
+    "count_24h": 13,
+    "summary": "M4.7 (43 km ESE of Ambon, Indonesia)",
     "latest": {
-      "mag": 4.5,
-      "place": "65 km WSW of Masachapa, Nicaragua",
-      "time": "11/08 04:55 JST",
-      "depth_km": 37.054,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
+      "mag": 4.7,
+      "place": "43 km ESE of Ambon, Indonesia",
+      "time": "11/08 05:55 JST",
+      "depth_km": 136.656,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "43 km ESE of Ambon, Indonesia",
+        "time": "11/08 05:55 JST",
+        "depth_km": 136.656,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
+        "tsunami": 0
+      },
       {
         "mag": 4.5,
         "place": "65 km WSW of Masachapa, Nicaragua",
@@ -400,6 +408,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "イラン高官、米大統領を挑発　中間選挙後の側近去就巡り(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/41d3aac3d2e5510aa543b3100aa7d46a4ca0627a?source=rss",
+        "description": "【テヘラン共同】イラン最高安全保障委員会（SNSC）のレザイ事務局長は7日、米中間選挙でトランプ大統領の与党共和党が大敗したことに関し「戦争にも選挙にも負けた」とやゆした。トランプ氏の側近の去就が取り",
+        "pub_date": "11/08 06:17 JST",
+        "is_priority": false
+      },
       {
         "title": "元軍参謀総長に組閣指示へ　イスラエル、連立交渉加速(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/9ff32964454b2c7c9f140472a5d735686b55acaf?source=rss",
@@ -532,13 +547,6 @@
         "description": "ロシアにあるJT＝日本たばこ産業の資産がロシア企業の管理下に移された問題で、プーチン大統領は新たに、現地の販売会社なども対象に加える追加の大統領令を出しました。 6日付で公表された新たな大統領令では、",
         "pub_date": "11/07 20:50 JST",
         "is_priority": false
-      },
-      {
-        "title": "米民主党勝利は気候にとって「良いニュース」ではあるが… 意外な問題点も(クーリエ・ジャポン)",
-        "link": "https://news.yahoo.co.jp/articles/25020661587d700539815273495798624d36eff2?source=rss",
-        "description": "過去2年間、米民主党はトランプ政権による気候政策への攻撃を、ただただ見守るしかなかった。【画像】欧州メディア「トランプはさらに悪化しうる」民主党議員らは、連邦レベルで「エネルギー移行に向けた資金拠出の",
-        "pub_date": "11/07 20:45 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -560,18 +568,18 @@
       "trend": "DOWN",
       "trend_label": "📉 やや投稿あり (様子見)",
       "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 7 件です。",
+      "summary": "直近1時間の投稿数は 6 件です。",
       "recent_posts": [
+        {
+          "time": "11/07 21:25",
+          "text": "【# 地震 】東海地方で 地震 ：愛知県で震度5強(26/11/8) https://t.co/WZJLd4mw14 @..."
+        },
         {
           "time": "11/07 21:00",
           "text": "発生2026年11月8日1時4分 場所静岡県西部 津波ﾅｼ M5.7(暫定 深さ41km(暫定 東北東―西南西方向に張力軸を持つ型で フィリピン E..."
         },
         {
           "time": "11/07 20:43",
-          "text": "・静岡県西部 ・深さ41キロ ・ フィリピン 海プレート内部で発生した 地震 これ以上でもこれ以下でもない。 https..."
-        },
-        {
-          "time": "11/07 20:42",
           "text": "・静岡県西部 ・深さ41キロ ・ フィリピン 海プレート内部で発生した 地震 これ以上でもこれ以下でもない。 https..."
         }
       ],
@@ -637,7 +645,7 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/08 06:02 JST",
+    "timestamp": "11/08 06:30 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -705,11 +713,11 @@
         "is_capital": true,
         "lat": 14.5995,
         "lon": 120.9842,
-        "temp": 26.1,
-        "apparent_temp": 30.5,
-        "humidity": 77,
-        "wind_speed": 2.3,
-        "wind_gusts": 11.9,
+        "temp": 26.0,
+        "apparent_temp": 30.8,
+        "humidity": 78,
+        "wind_speed": 0.7,
+        "wind_gusts": 9.7,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -750,11 +758,11 @@
         "is_capital": false,
         "lat": 10.3157,
         "lon": 123.8854,
-        "temp": 24.2,
-        "apparent_temp": 28.0,
+        "temp": 24.4,
+        "apparent_temp": 28.2,
         "humidity": 89,
-        "wind_speed": 8.8,
-        "wind_gusts": 15.8,
+        "wind_speed": 9.2,
+        "wind_gusts": 16.6,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -788,51 +796,6 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "ダバオ (南部主要都市)",
-        "name_en": "Davao",
-        "is_capital": false,
-        "lat": 7.1907,
-        "lon": 125.4578,
-        "temp": 22.9,
-        "apparent_temp": 26.9,
-        "humidity": 93,
-        "wind_speed": 5.3,
-        "wind_gusts": 10.4,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 29.8,
-            "temp_min": 22.9,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 9.6
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 30.9,
-            "temp_min": 22.7,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 11.7
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 28.7,
-            "temp_min": 22.9,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 14.6
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -841,11 +804,11 @@
       "is_capital": true,
       "lat": 14.5995,
       "lon": 120.9842,
-      "temp": 26.1,
-      "apparent_temp": 30.5,
-      "humidity": 77,
-      "wind_speed": 2.3,
-      "wind_gusts": 11.9,
+      "temp": 26.0,
+      "apparent_temp": 30.8,
+      "humidity": 78,
+      "wind_speed": 0.7,
+      "wind_gusts": 9.7,
       "precipitation": 0.0,
       "weather_code": 1,
       "weather_label": "🌤️ 晴れ",
@@ -880,7 +843,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 06:02 JST"
+    "timestamp": "11/08 06:30 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -909,7 +872,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/08 06:02 JST"
+    "timestamp": "11/08 06:30 JST"
   },
   "lifeline": {
     "status": "NORMAL",

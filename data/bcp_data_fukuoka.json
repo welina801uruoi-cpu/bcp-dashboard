@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 21:01:14",
+  "timestamp": "2026-11-07 21:28:57",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -232,11 +232,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
+          "乾燥注意報",
           "波浪注意報",
-          "乾燥注意報"
+          "霜注意報"
         ],
-        "summary": "霜注意報、波浪注意報、乾燥注意報",
+        "summary": "乾燥注意報、波浪注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -275,10 +275,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "強風注意報"
+          "強風注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、強風注意報",
+        "summary": "強風注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       }
     ]
@@ -386,16 +386,16 @@
       "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/07 21:26",
+          "text": "START au END ，なんか START 障害 END 発生してる？ どえらいULが遅くて現実的に使い物にならんレベルなんだが（緊急用のeSIMなIIJm..."
+        },
+        {
           "time": "11/07 20:53",
           "text": "START au END 回線 START 障害 END のリスク分散で変えたけどこれなら戻すかな…"
         },
         {
           "time": "11/07 20:04",
           "text": "ドコモ、不正アクセス被害者へお見舞金 流出は29万回線、本人確認書類の番号も（更新） https://t.co/yG8GbDM8Fv どうせ３桁ぐらいの｢お見舞..."
-        },
-        {
-          "time": "11/07 15:11",
-          "text": "@0115_dove_ START AU END の START 障害 END 情報ページとかを見てみると良いかもです。"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -487,8 +487,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 47,
+    "disaster_count": 45,
     "articles": [
+      {
+        "title": "【地震情報】棚から本が崩れ落ち床一面に散乱… 愛知･知多市で震度5強 東海道新幹線は始発から遅れ JR在来線は一部で始発から運転見合わせ(CBCテレビ)",
+        "summary": "きょう午前1時4分ごろ、愛知県知多市で最大震度5強を観測した地震で、愛知県内で少なくとも13人がけがをしました。【画像】散乱した本 粉々になったショーウィンドウのガラスこの地震で交通への影響も広がって",
+        "pub_date": "11/08 06:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/bdef881db59c040d664673cb2ab73482ad2b88c1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "パトカー追跡中の軽乗用車が乗用車と衝突　軽乗用車の17歳少年逮捕(CBCテレビ)",
         "summary": "7日夕方、名古屋市中区の路上でパトカーに追跡されていた軽乗用車が乗用車と衝突し男性に軽いけがをさせたとして17歳の派遣社員の少年が逮捕されました。【写真を見る】パトカー追跡中の軽乗用車が乗用車と衝突",
@@ -600,17 +608,9 @@
         "link": "https://news.yahoo.co.jp/articles/008241c2a2bae4faf4709598ed418b28db389d68?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "中部国際空港設備に不具合なし(共同通信)",
-        "summary": "愛知県常滑市の中部国際空港の運営会社によると、8日の地震で、人的被害や空港内の設備の不具合は確認されていない。",
-        "pub_date": "11/08 03:55 JST",
-        "link": "https://news.yahoo.co.jp/articles/1b1199280aa22175fde8b2452dece29dfa2d2762?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 06:01:11 JST"
+    "last_updated": "2026-11-08 06:28:54 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",

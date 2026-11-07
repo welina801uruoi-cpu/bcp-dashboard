@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 06:04:08",
-  "timestamp_local": "2026-11-07 17:04:08",
+  "timestamp": "2026-11-08 06:31:33",
+  "timestamp_local": "2026-11-07 17:31:33",
   "country": {
     "id": "canada",
     "name": "カナダ",
@@ -141,17 +141,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 12,
-    "summary": "M4.5 (65 km WSW of Masachapa, Nicaragua)",
+    "count_24h": 13,
+    "summary": "M4.7 (43 km ESE of Ambon, Indonesia)",
     "latest": {
-      "mag": 4.5,
-      "place": "65 km WSW of Masachapa, Nicaragua",
-      "time": "11/08 04:55 JST",
-      "depth_km": 37.054,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
+      "mag": 4.7,
+      "place": "43 km ESE of Ambon, Indonesia",
+      "time": "11/08 05:55 JST",
+      "depth_km": 136.656,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "43 km ESE of Ambon, Indonesia",
+        "time": "11/08 05:55 JST",
+        "depth_km": 136.656,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
+        "tsunami": 0
+      },
       {
         "mag": 4.5,
         "place": "65 km WSW of Masachapa, Nicaragua",
@@ -252,6 +260,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "イラン高官、米大統領を挑発　中間選挙後の側近去就巡り(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/41d3aac3d2e5510aa543b3100aa7d46a4ca0627a?source=rss",
+        "description": "【テヘラン共同】イラン最高安全保障委員会（SNSC）のレザイ事務局長は7日、米中間選挙でトランプ大統領の与党共和党が大敗したことに関し「戦争にも選挙にも負けた」とやゆした。トランプ氏の側近の去就が取り",
+        "pub_date": "11/08 06:17 JST",
+        "is_priority": false
+      },
       {
         "title": "元軍参謀総長に組閣指示へ　イスラエル、連立交渉加速(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/9ff32964454b2c7c9f140472a5d735686b55acaf?source=rss",
@@ -384,13 +399,6 @@
         "description": "ロシアにあるJT＝日本たばこ産業の資産がロシア企業の管理下に移された問題で、プーチン大統領は新たに、現地の販売会社なども対象に加える追加の大統領令を出しました。 6日付で公表された新たな大統領令では、",
         "pub_date": "11/07 20:50 JST",
         "is_priority": false
-      },
-      {
-        "title": "米民主党勝利は気候にとって「良いニュース」ではあるが… 意外な問題点も(クーリエ・ジャポン)",
-        "link": "https://news.yahoo.co.jp/articles/25020661587d700539815273495798624d36eff2?source=rss",
-        "description": "過去2年間、米民主党はトランプ政権による気候政策への攻撃を、ただただ見守るしかなかった。【画像】欧州メディア「トランプはさらに悪化しうる」民主党議員らは、連邦レベルで「エネルギー移行に向けた資金拠出の",
-        "pub_date": "11/07 20:45 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -492,7 +500,7 @@
     "default_channel_id": "stream_cbc_live"
   },
   "forex": {
-    "timestamp": "11/08 06:03 JST",
+    "timestamp": "11/08 06:31 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -560,11 +568,11 @@
         "is_capital": true,
         "lat": 45.4215,
         "lon": -75.6972,
-        "temp": 8.8,
-        "apparent_temp": 6.8,
-        "humidity": 88,
-        "wind_speed": 8.4,
-        "wind_gusts": 15.5,
+        "temp": 8.6,
+        "apparent_temp": 6.4,
+        "humidity": 89,
+        "wind_speed": 10.0,
+        "wind_gusts": 18.0,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -572,10 +580,10 @@
           {
             "date": "11/07(土)",
             "temp_max": 11.5,
-            "temp_min": 7.6,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
+            "temp_min": 7.7,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.2
           },
           {
             "date": "11/08(日)",
@@ -598,6 +606,96 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "トロント (最大都市)",
+        "name_en": "Toronto",
+        "is_capital": false,
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "temp": 8.6,
+        "apparent_temp": 5.8,
+        "humidity": 87,
+        "wind_speed": 13.2,
+        "wind_gusts": 33.8,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 9.9,
+            "temp_min": 2.0,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 11.5,
+            "temp_min": 5.2,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 1.1
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 10.6,
+            "temp_min": 6.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "バンクーバー (太平洋岸主要都市)",
+        "name_en": "Vancouver",
+        "is_capital": false,
+        "lat": 49.2827,
+        "lon": -123.1207,
+        "temp": 13.6,
+        "apparent_temp": 11.8,
+        "humidity": 71,
+        "wind_speed": 9.8,
+        "wind_gusts": 15.8,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 14.0,
+            "temp_min": 8.0,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 7.4
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 11.4,
+            "temp_min": 6.6,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 3.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 11.7,
+            "temp_min": 5.9,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 8.9
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -606,11 +704,11 @@
       "is_capital": true,
       "lat": 45.4215,
       "lon": -75.6972,
-      "temp": 8.8,
-      "apparent_temp": 6.8,
-      "humidity": 88,
-      "wind_speed": 8.4,
-      "wind_gusts": 15.5,
+      "temp": 8.6,
+      "apparent_temp": 6.4,
+      "humidity": 89,
+      "wind_speed": 10.0,
+      "wind_gusts": 18.0,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -618,10 +716,10 @@
         {
           "date": "11/07(土)",
           "temp_max": 11.5,
-          "temp_min": 7.6,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_min": 7.7,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.2
         },
         {
           "date": "11/08(日)",
@@ -645,7 +743,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 06:04 JST"
+    "timestamp": "11/08 06:31 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -674,7 +772,7 @@
         "details": "VIA鉄道主要列車平常運行中"
       }
     ],
-    "timestamp": "11/08 06:03 JST"
+    "timestamp": "11/08 06:31 JST"
   },
   "lifeline": {
     "status": "NORMAL",

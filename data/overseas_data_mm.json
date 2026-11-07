@@ -1,0 +1,904 @@
+{
+  "timestamp": "2026-11-07 12:57:44",
+  "timestamp_local": "2026-11-07 10:27:44",
+  "country": {
+    "id": "myanmar",
+    "name": "ミャンマー",
+    "english_name": "Myanmar",
+    "flag": "🇲🇲",
+    "city": "ヤンゴン / ネピドー (Yangon / Naypyidaw)",
+    "embassy_name": "在ミャンマー日本国大使館 (Embassy of Japan in Myanmar)",
+    "mofa_code": "0095",
+    "mofa_page_url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_018.html",
+    "embassy_url": "https://www.mm.emb-japan.go.jp/itprtop_ja/index.html",
+    "tabireg_url": "https://www.ezairyu.mofa.go.jp/tabireg/index.html",
+    "emergency_phones": "警察: 199 / 救急: 192 / 消防: 191 / 大使館: +95-(0)1-549644",
+    "timezone_offset": 6.5,
+    "timezone_name": "MMT (現地: UTC+6:30)",
+    "currency_code": "MMK",
+    "currency_name": "チャット",
+    "currency_symbol": "K",
+    "default_camera_id": "stream_euronews_mm",
+    "default_keywords": [
+      "ヤンゴン 停電",
+      "ミャンマー 治安",
+      "ミャンマー 衝突",
+      "Myanmar conflict"
+    ],
+    "media_channels": [
+      {
+        "id": "stream_dvb_tv",
+        "name": "📺 DVB TV News (ビルマ民主の声 24h)",
+        "video_id": "pykpO5kQJ98",
+        "handle": "@dvbtvnews",
+        "type": "stream"
+      },
+      {
+        "id": "stream_mizzima_tv",
+        "name": "📺 Mizzima News LIVE",
+        "video_id": "a47ckXKZjxI",
+        "handle": "@MizzimaNews",
+        "type": "stream"
+      },
+      {
+        "id": "stream_cna_mm",
+        "name": "📺 CNA Asia (アジア国際報道生配信)",
+        "video_id": "XWq5kBlakcQ",
+        "handle": "@ChannelNewsAsia",
+        "type": "stream"
+      }
+    ],
+    "weather_cities": [
+      {
+        "name": "ヤンゴン (旧首都・商業中心)",
+        "name_en": "Yangon",
+        "lat": 16.8661,
+        "lon": 96.1951,
+        "is_capital": false
+      },
+      {
+        "name": "ネピドー (行政首都)",
+        "name_en": "Naypyidaw",
+        "lat": 19.7633,
+        "lon": 96.0785,
+        "is_capital": true
+      },
+      {
+        "name": "マンダレー (北部拠点)",
+        "name_en": "Mandalay",
+        "lat": 21.9588,
+        "lon": 96.0891,
+        "is_capital": false
+      }
+    ],
+    "transit_systems": [
+      {
+        "id": "myanmar_railway",
+        "name": "ミャンマー国鉄 (Myanma Railways)",
+        "mode": "幹線鉄道",
+        "coverage": "主要幹線",
+        "default_status": "運行状況注意",
+        "default_badge": "🟡 運航注意",
+        "default_code": "disrupted",
+        "default_details": "情勢に伴い減便または一部区間運休の可能性あり",
+        "official_url": "https://www.motc.gov.mm/"
+      }
+    ],
+    "airports": [
+      {
+        "iata": "RGN",
+        "icao": "VYYY",
+        "name": "ヤンゴン国際空港",
+        "city": "ヤンゴン",
+        "hub": "ミャンマー最大国際空港",
+        "departures_url": "http://www.yangonairport.aero/",
+        "radar_url": "https://www.flightradar24.com/airport/rgn",
+        "flightaware_url": "https://www.flightaware.com/live/airport/VYYY"
+      }
+    ]
+  },
+  "mofa_safety": {
+    "status": "OK",
+    "max_risk_level": 3,
+    "risk_level_name": "レベル3: 渡航は止めてください（渡航中止勧告）",
+    "max_infection_level": 0,
+    "risk_title": "ミャンマーの危険情報【一部地域の危険レベル引き上げ】",
+    "risk_lead": "●連邦選挙管理委員会は、2025年12月から2026年1月にかけ三回に分け選挙を実施する旨発表しており、選挙に向け当局の取締りや規制の強化及び国軍と民主派勢力との衝突事案が発生する可能性があります。\n●国防治安評議会は全国330地区のうち計63地区に戒厳令を発し、民主派勢力や少数民族武装組織による抵抗活動の取締りや空爆を含む攻撃を激化しています。\n●タイ国境のカレン州ミヤワディ地区は、国軍と少数民族武装組織の衝突が断続的に発生しており、治安が不安定です。また、この様な状況の中、同地区に点在する大規模な特殊詐欺拠点では、日本人を含む外国人が特殊詐欺に加担させられる事案が発生しています。",
+    "risk_url": "https://www.anzen.mofa.go.jp/info/pchazardspecificinfo_2025T116.html",
+    "risk_date": "2025/12/16 00:00:00",
+    "spots": [
+      {
+        "title": "中東情勢を受けた注意喚起",
+        "lead": "●米国東部時間７月20日、米国国務省は、全世界の米国民向けの渡航情報として、中東地域以外でも米国の外交施設が攻撃の標的とされてきたことに触れ、世界各地の米国や米国人に関連する施設がイランを支持する勢力の標的とされる可能性がある旨の注意喚起を発出しました。\n●特に、中東地域に滞在中の方は、７月18日に日本政府が発出した広域情報（中東情勢の急激な変化の可能性に関する注意喚起）を確認し、自らの安全確保に努めてください。また、中東地域以外でも不測の事態が発生する可能性が排除されません",
+        "date": "2026/07/21 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C038.html"
+      },
+      {
+        "title": "【広域情報】海外における写真・動画撮影及びＳＮＳ等への投稿に関する注意喚起",
+        "lead": "【広域情報】海外における写真・動画撮影及びＳＮＳ等への投稿に関する注意喚起",
+        "date": "2026/06/03 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C031.html"
+      },
+      {
+        "title": "台風シーズンに際しての注意喚起（日本海、北太平洋、南シナ海等）",
+        "lead": "日本海、北西太平洋及び南シナ海等に面する国・地域においては、例年6月から11月頃までが台風シーズンとなっています。日頃から気象情報に十分注意し、防災用品や飲料水・食料を備蓄するなど、事前の安全対策に努めてください。",
+        "date": "2026/05/28 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C029.html"
+      },
+      {
+        "title": "匿名・流動型犯罪グループ（トクリュウ）を含めた犯罪組織による海外における闇バイトに関する注意喚起（加害者にならないために）（その２）",
+        "lead": "【ポイント】\n●これまで、特殊詐欺や違法薬物（大麻等）の密輸に関する注意喚起を発出してきていますが、海外における闇バイトに応募し、犯罪組織等に「かけ子」として海外で特殊詐欺に加担させられるケースや、意図せず違法薬物（大麻等）の運び屋として犯罪に加担してしまい、その結果、現地警察に拘束又は保護される事案が引き続き発生しています。",
+        "date": "2026/05/01 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C023.html"
+      },
+      {
+        "title": "デング熱に関する注意喚起（内容の更新）",
+        "lead": "● 高熱、発疹、筋肉痛などの症状を引き起こすデング熱が、中南米、大洋州、東南アジア、アフリカ地域などで発生しています。\n● デング熱は、デングウイルスに感染した蚊に刺されることで感染しますので、上記地域においては、長袖の着用や虫除けスプレーの使用など、以下1(4)記載の予防措置をとるよう心がけてください。\n● 感染が疑われる場合は早期に医療機関を受診してください。",
+        "date": "2026/02/03 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C010.html"
+      },
+      {
+        "title": "薬剤耐性（AMR）に関する注意喚起（内容の更新）",
+        "lead": "● 薬剤耐性（AMR）とは、細菌による感染症の治療薬である抗菌薬が効きにくくなる、もしくは効かなくなる問題であり、細菌感染症ではないのに抗菌薬を使用したり、抗菌薬の使用を自己判断で止めてしまったりするなどの不適切な使用によって出現・拡大するおそれがあります。\n● 薬剤耐性（AMR）の拡大を防ぐために、抗菌薬を使用する際には、医師や薬剤師の指示に従い、適切な量・回数・期間を守って服用してください。\n● 日本とは異なり、薬局で抗菌薬を買えてしまう国もありますが、自分の判断で不要な",
+        "date": "2026/01/30 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C009.html"
+      },
+      {
+        "title": "特殊詐欺についての注意喚起（被害に遭わないために）",
+        "lead": "●非対面の方法で相手に接触し金銭をだまし取る、いわゆる特殊詐欺が海外でも発生しています。日本国大使館職員、日本国総領事館職員、日本の警察官や税関職員等の日本政府の職員を騙るケースも確認されております。\n\n●日本国大使館、日本国総領事館、警察官や税関職員等といった日本の公的機関が正式な手続によらず送金を要求することはありません。身に覚えのない不審な電話、電子メール、ＳＮＳ等に安易に反応しないなどの対策をとってください。\n\n●日本以外に居られる際に、少しでも不安を感じたら、お近く",
+        "date": "2025/12/16 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2025C057.html"
+      },
+      {
+        "title": "【広域情報】匿名・流動型犯罪グループ（トクリュウ）を含めた犯罪組織による海外における闇バイトに関する注意喚起（加害者にならないために）",
+        "lead": "●海外における闇バイトに応募し、犯罪組織等に「かけ子」として海外で特殊詐欺に加担させられるケースや意図せず違法薬物（大麻等）の運び屋として犯罪に加担してしまい、現地警察に拘束又は保護される事案が引き続き発生しています。\n\n●万が一、海外における闇バイトに応募してしまったと感じた場合、一人で悩み、抱え込むことなく、家族等の近しい人や外務省、警察等に助けを求めてください。\n\n●海外における闇バイトに応募した結果、特殊詐欺や違法薬物の密輸等の犯罪に加担してしまった(加担させられた)",
+        "date": "2025/12/16 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2025C056.html"
+      }
+    ],
+    "consular_mails": [
+      {
+        "title": "Tourist Visa on Arrival（到着時観光ビザ）の延長について",
+        "date": "2026/10/23 16:46:07",
+        "koukan": "",
+        "lead": "2024年10月21日から1年間を試行期間として、観光目的でネーピードー、ヤンゴン及びマンダレー国際空港から入国する一般旅券を所持する日本国民に対して、Tourist Visa on Arrival（到着時観光ビザ）が開始され、昨年10月に1年間延長されました。\n　今般、ミャンマー外務省から、本措置を更に1年間延長する旨連絡がありました。なお、当館が把握する限り、本措置に係る要件や内容に変更はありません。\n\n　当館が把握している到着時観光ビザの要件等は以下のとおりです。\n１　",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168518"
+      },
+      {
+        "title": "注意喚起（国民防衛隊（ＰＤＦ）のドローン攻撃によるマンダレー空港発着便の一時停止等）",
+        "date": "2026/09/11 21:11:06",
+        "koukan": "",
+        "lead": "１　本11日付ミャンマー国営紙は、10日午後、マンダレー空港付近のダダウー空軍基地が国民防衛隊（ＰＤＦ）の自爆ドローンにより攻撃を受けたと報じています。\n\n２　本事案を受けて、ミャンマー民間航空局からの情報等によれば、昨日（9月10日）のマンダレー空港発着便は、ほぼ全て停止されました。また、同日午後にＭＡＩ（ミャンマー国際航空）は、すべてのマンダレー発着便について、当面、国際線は運行を見合わせるとともに、国内線はマンダレー近郊のピンウールインのアニーサカン空港での運行に移行す",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167677"
+      },
+      {
+        "title": "（注意喚起）ヤンゴン市内等におけるコレラを含む下痢症の感染拡大",
+        "date": "2026/08/20 12:06:00",
+        "koukan": "",
+        "lead": "１．\t保健省当局によれば、８月８日から15日の間で、ヤンゴン市内で266例の通常下痢患者と、167例の重症下痢患者が確認され、90歳以上の高齢者１例が死亡しました。また、当地のWHO事務所によれば、ヤンゴン市内の中でもダウンタウン内のラター地区及びランマドー地区において、特に多く下痢患者が発生しているとのことです。\n\n２．その他、保健当局によれば、８月８日から15日の間で、ラカイン州で58例の通常下　痢患者と、22例の重症下痢患者が確認され、２例が死亡しました。そして、モン州",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167083"
+      },
+      {
+        "title": "注意喚起（バガン周辺の治安情勢について）",
+        "date": "2026/08/04 15:01:07",
+        "koukan": "",
+        "lead": "１　治安情勢評価機関等によると、バガン地域のうち、オールドバガンについては現在のところ治安情勢は比較的安定している一方、オールドバガン以外の地域については、治安上のリスクが高い状況にあると評価されています。\n\n２　現地報道等によれば、ニューバガンにおける旅行者の誘拐事案やポッパ山近くにあるホテル宿泊客の拘束事案が報じられています。また、事実関係は定かではありませんが、バガン近郊のニャウンウー空港敷地内にある軍事施設への砲撃事案が報道されています。　　\n　なお、ニャウンウー空港",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=166850"
+      },
+      {
+        "title": "中東情勢を受けた注意喚起",
+        "date": "2026/07/21 00:00:00",
+        "koukan": "",
+        "lead": "●米国東部時間７月20日、米国国務省は、全世界の米国民向けの渡航情報として、中東地域以外でも米国の外交施設が攻撃の標的とされてきたことに触れ、世界各地の米国や米国人に関連する施設がイランを支持する勢力の標的とされる可能性がある旨の注意喚起を発出しました。\n●特に、中東地域に滞在中の方は、７月18日に日本政府が発出した広域情報（中東情勢の急激な変化の可能性に関する注意喚起）を確認し、自らの安全確保に努めてください。また、中東地域以外でも不測の事態が発生する可能性が排除されません",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=2026C038"
+      },
+      {
+        "title": "注意喚起（特殊詐欺対策等について）",
+        "date": "2026/07/02 12:10:59",
+        "koukan": "",
+        "lead": "１　近年、非対面の方法で相手と接触し金銭をだまし取る、特殊詐欺が海外でも発生しています。大使館・総領事館等の日本の在外公館職員や、日本の警察官や税関職員等の日本政府の職員を騙る特殊詐欺が確認されています。日本の公的機関が正式な手続によらず送金を要求することはありません。\n\n２　特殊詐欺の被害防止には、不審な電話やメッセージに冷静に対応するとともに、最新の手口や対策に関する情報を日頃から確認しておくことが重要です。警察庁では、特殊詐欺被害の防止を目的とした「特殊詐欺対策アプリ」",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=166303"
+      },
+      {
+        "title": "【広域情報】海外における写真・動画撮影及びＳＮＳ等への投稿に関する注意喚起",
+        "date": "2026/06/03 00:00:00",
+        "koukan": "",
+        "lead": "【広域情報】海外における写真・動画撮影及びＳＮＳ等への投稿に関する注意喚起",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=2026C031"
+      },
+      {
+        "title": "台風シーズンに際しての注意喚起（日本海、北太平洋、南シナ海等）",
+        "date": "2026/05/28 00:00:00",
+        "koukan": "",
+        "lead": "日本海、北西太平洋及び南シナ海等に面する国・地域においては、例年6月から11月頃までが台風シーズンとなっています。日頃から気象情報に十分注意し、防災用品や飲料水・食料を備蓄するなど、事前の安全対策に努めてください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=2026C029"
+      },
+      {
+        "title": "注意喚起（ヤンゴン市内のバス停やバス車内における強盗・窃盗（スリ）被害の発 生について）",
+        "date": "2026/05/26 20:20:40",
+        "koukan": "",
+        "lead": "１　当地の報道によると、通勤・帰宅の時間帯に、ヤンゴン市内のバス停やバス車内において、携帯電話や現金を狙った強盗・窃盗（スリ）被害が発生しています。\n\n２　犯行の手口としては、混雑したバス停やバス車内で被害者を複数人で取り囲み、またはナイフを突き付けるなどして脅した上で、バッグの中から携帯電話や現金を奪うというものです。\n\n３　バスの利用はできる限り避けてください。やむを得ず利用する場合は、常に周囲に注意を払い、不審者が近寄ってきた際はすぐにその場を離れるようにしてください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=165453"
+      },
+      {
+        "title": "注意喚起（バガン及びポッパ山周辺の治安情勢について）",
+        "date": "2026/05/26 20:15:42",
+        "koukan": "",
+        "lead": "１　当地の報道等によれば、夜間にマンダレー市内からバガンへ向かう車両に対する襲撃事案や、バガンからポッパ山へ向かった旅行者の行方不明事案、バガン近郊を移動中の旅行者が誘拐される事案等が発生しているとのことです。\n\n２　身の安全を第一に行動してください。様々な危険から身を守り、安全な生活を送るためには、自分の身の周りに常に注意を払い、安全な環境を自らの努力で確保することが大切です。安全の三原則（「目立たない」、「行動のパターン化を避ける」、「用心を怠らない」）を意識するとともに",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=165452"
+      },
+      {
+        "title": "匿名・流動型犯罪グループ（トクリュウ）を含めた犯罪組織による海外における闇バイトに関する注意喚起（加害者にならないために）（その２）",
+        "date": "2026/05/01 00:00:00",
+        "koukan": "",
+        "lead": "【ポイント】\n●これまで、特殊詐欺や違法薬物（大麻等）の密輸に関する注意喚起を発出してきていますが、海外における闇バイトに応募し、犯罪組織等に「かけ子」として海外で特殊詐欺に加担させられるケースや、意図せず違法薬物（大麻等）の運び屋として犯罪に加担してしまい、その結果、現地警察に拘束又は保護される事案が引き続き発生しています。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=2026C023"
+      },
+      {
+        "title": "注意喚起（水掛け祭り（ティンジャン）期間中の注意事項）",
+        "date": "2026/04/08 21:15:40",
+        "koukan": "",
+        "lead": "在留邦人の皆様へ\n当地滞在中の皆様へ\n\n　４月１１日（土）から１９日（日）まで、ミャンマーでは新年を祝う水掛け祭り（ティンジャン）の連休となります。その間、ヤンゴン市内ではダウンタウンにある市庁舎や人民公園、その他市内の交差点等に特設ステージが設けられ、各種イベントなどが行われます。一方、2022年には、水掛け祭りの特設ステージが設置されたヤンゴン市庁舎前で爆発事案が発生しています。つきましては、在留邦人の皆様におかれましては、水掛け祭り期間中、これら特設ステージや不特定多数",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=164175"
+      },
+      {
+        "title": "（続報）中東情勢を踏まえた車両使用規制について（3月15日付エネルギー省公告）（在ミャンマー日本国大使館より）",
+        "date": "2026/03/18 21:30:40",
+        "koukan": "",
+        "lead": "３月15日付当地国営紙(GLOBAL NEW LIGHT OF MYANMAR)は、エネルギー省による公告を報じ、ガソリンを給油する際にはバーコードが記載された自動車税納税証明書（登録証明書）が必要となり、また偶数車両は偶数日、奇数車両は奇数日に限り、その日1日1回のみ給油できることとなりますのでご留意ください（長距離移動の際の給油規則は、下記の参考を参照ください。）。\n \n　また、前回の領事メールのとおり、１４日以降、交通規制に基づく本格的な取り締まりを開始したとして、国営",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=163746"
+      },
+      {
+        "title": "（続報）中東情勢を踏まえた車両使用規制について（公告：燃料管理のための携帯電話アプリケーションを用いた検証システムの試験導入）（在ミャンマー日本国大使館より）",
+        "date": "2026/03/13 21:10:39",
+        "koukan": "",
+        "lead": "３月３日に国防治安評議会（NDSC）広報チームが発表した車両使用規制に関連して、３月12日付当地国営紙(Global New Light of Myanmar)は、3月12日から燃料管理のために携帯電話アプリケーション（以下「アプリ」という。）を用いた検証システムの試験導入に係るエネルギー省の公告を報じたところ、概要は以下のとおりですので、ご留意ください。なお、同公告の全文の仮和訳は末尾のとおりです。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=163628"
+      },
+      {
+        "title": "（続報）中東情勢を踏まえた車両使用規制について（在ミャンマー日本国大使館より）",
+        "date": "2026/03/10 14:10:40",
+        "koukan": "",
+        "lead": "１　３月３日に国防治安評議会（NDSC）広報チームが発表した車両使用規制について、一部の民間メディアが本件の取り締まりに関する内部文書を入手したとし、その内容を報じています。\n\n２　その報道によれば、本内部文書には、３月１３日（金）までは猶予期間（啓蒙活動期間）とし、同月１４日（土）から内務省総合行政局、地元警察、交通警察、法務関係者、検察関係者、市役所関係者、区又は村落行政事務所関係者からなるチームによる本格的な取り締まりを開始するとされており、違反した場合は、強制労働なし",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=163490"
+      }
+    ],
+    "mail_count": 15
+  },
+  "world_earthquakes": {
+    "status": "OK",
+    "count_24h": 5,
+    "summary": "M4.8 (36 km WNW of Poso, Indonesia)",
+    "latest": {
+      "mag": 4.8,
+      "place": "36 km WNW of Poso, Indonesia",
+      "time": "11/07 04:07 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twmr",
+      "tsunami": 0
+    },
+    "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "36 km WNW of Poso, Indonesia",
+        "time": "11/07 04:07 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twmr",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "101 km SSE of Palekastro, Greece",
+        "time": "11/07 00:26 JST",
+        "depth_km": 40.657,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twhq",
+        "tsunami": 0
+      },
+      {
+        "mag": 6.1,
+        "place": "144 km SE of Hasaki, Japan",
+        "time": "11/06 19:39 JST",
+        "depth_km": 29,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg9",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "87 km N of Isangel, Vanuatu",
+        "time": "11/06 17:14 JST",
+        "depth_km": 246.521,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfu",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.9,
+        "place": "41 km SW of Balangonan, Philippines",
+        "time": "11/06 15:28 JST",
+        "depth_km": 35,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfk",
+        "tsunami": 0
+      }
+    ]
+  },
+  "world_news": {
+    "articles": [
+      {
+        "title": "韓国の対米外交に新たな課題…トランプ大統領だけを眺めた「おべっか外交」終わり、民主党への対応も(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/0965742c6a01bea373de8a00f16c5e4e436e644c?source=rss",
+        "description": "トランプ米大統領と握手して帰国しても、米議会に改めて説明しなければならない。今月3日（現地時間）の中間選挙の結果、民主党が上下両院を掌握することになり、韓国の対米外交に新たに突きつけられた課題だ。トラ",
+        "pub_date": "11/07 12:46 JST",
+        "is_priority": false
+      },
+      {
+        "title": "米アトランタ動物園でパンダ2頭が公開　米中友好をアピール　日本でのパンダゼロ(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/dcd4e24290a19881bfb8c564d4cf690934c0db11?source=rss",
+        "description": "中国からアメリカに貸し出されたパンダ2頭がアメリカ南部ジョージア州のアトランタ動物園で公開されました。 6日から公開されたのは、平和を意味するオスのパンダの「平平（ピンピン）」と、二重の祝福を意味する",
+        "pub_date": "11/07 12:43 JST",
+        "is_priority": false
+      },
+      {
+        "title": "イラン再攻撃の可能性に言及　トランプ大統領「近く決断」　回避に向けた動きも(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/74dfe30efc7c70b6c3b08523316b104948f1c15a?source=rss",
+        "description": "アメリカによるイランへの再攻撃はあるのか、ないのか。その判断が焦点となっています。トランプ大統領は記者団に対し、近く決定すると述べました。■イラン「柔軟な姿勢」の可能性も 中間選挙の前日、記者団から、",
+        "pub_date": "11/07 12:37 JST",
+        "is_priority": true
+      },
+      {
+        "title": "米テック右派の信仰回帰　AIスタートアップを支える「終末論的ナラティブ」とは　関西学院大・柳澤田実准教授(AERA DIGITAL)",
+        "link": "https://news.yahoo.co.jp/articles/c8245e3252a0a51fcc86a101a0b57d5e7984db0e?source=rss",
+        "description": "米国では、防衛テック企業が政治的な影響力を強めている。B2Cの時代からB2Gへと収益機会が移り、国防の必要性と商業的利益が連動しているのだという。関西学院大学の柳澤田実准教授に聞いた。AERA 202",
+        "pub_date": "11/07 12:30 JST",
+        "is_priority": false
+      },
+      {
+        "title": "謎の“黒フード姿“でボブ・ディラン氏が教皇と2ショット「まるでスター・ウォーズ」独特すぎる装いに世界が騒然…バチカンで歴史的面会(ABEMA TIMES)",
+        "link": "https://news.yahoo.co.jp/articles/ef99d0d1907b99d7c556eefdbf215ba783a8b376?source=rss",
+        "description": "ローマ教皇レオ14世と並び、黒いフード姿で写真に収まる人物。その正体は、ノーベル文学賞の受賞者としても知られるアメリカのシンガー・ソングライター、ボブ・ディランさんだ。【映像】まるでスター・ウォーズ？",
+        "pub_date": "11/07 12:27 JST",
+        "is_priority": false
+      },
+      {
+        "title": "最側近の首席補佐官退任へ トランプ大統領“閣僚交代はごくわずか”(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/64ced54f8cc8dac2f7adb5bc1e87553cecf3725a?source=rss",
+        "description": "アメリカのトランプ大統領はワイルズ首席補佐官を交代させ、強硬な移民政策の立案者として知られるミラー氏が後任に就くと発表しました。 トランプ大統領は6日、2期目の政権発足時から首席補佐官を務めた最側近の",
+        "pub_date": "11/07 12:18 JST",
+        "is_priority": false
+      },
+      {
+        "title": "韓国軍、民間人統制線以北への無断侵入に「山菜採り」…鉄条網切断は「動物の仕業」(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/ee032cf140940a1a96618bfb15801aaa0052b345?source=rss",
+        "description": "先月、江原道鉄原で30代の女性が民間人出入統制線以北の地域に無断で侵入した際、韓国軍はこの女性の身柄を確保できなかったにもかかわらず、「山菜を採りに来た民間人と推定される」として捜索を打ち切っていたこ",
+        "pub_date": "11/07 12:05 JST",
+        "is_priority": false
+      },
+      {
+        "title": "トランプ氏、ウクライナ和平で「欧州全体が参加」の安保合意案　詳細不明で欧州は戸惑い(CNN.co.jp)",
+        "link": "https://news.yahoo.co.jp/articles/dfa346d1182cf4ef0f548839e3ce8a7355758b65?source=rss",
+        "description": "（CNN） トランプ米大統領は5日、プーチン・ロシア大統領の特使と会談した後、ウクライナ和平に向けて「欧州全体が参加する可能性のある」新たな安全保障合意案があると述べた。ただし提案の詳細は示さず、欧州",
+        "pub_date": "11/07 12:01 JST",
+        "is_priority": true
+      },
+      {
+        "title": "テスラが来年「サイバートラック」の生産を縮小へ、ロボタクシー増産に舵取り(Forbes JAPAN)",
+        "link": "https://news.yahoo.co.jp/articles/465ac641dae277c400223d5a413401eda07d2cf6?source=rss",
+        "description": "テスラのイーロン・マスクCEOは、テキサス州の工場「Texas Gigafactory」におけるサイバートラックの生産を、来年段階的に縮小すると発表した。ロボタクシー「サイバーキャブ」の増産体制を整え",
+        "pub_date": "11/07 12:00 JST",
+        "is_priority": false
+      },
+      {
+        "title": "レーザーで無人機撃墜…北朝鮮の脅威多様化に対応する韓国空軍(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/5780dc5cccc16f7b3c137812bd4d12efdc589ed0?source=rss",
+        "description": "「接近目標最終識別および交戦要請！」今月4日午前、忠清南道保寧（ボリョン）の大川（デチョン）射撃場。天弓II部隊の近くで隊員の叫び声が響くと、垂直発射台からミサイル2発が空中へと飛び立った。ミサイルは",
+        "pub_date": "11/07 11:59 JST",
+        "is_priority": false
+      },
+      {
+        "title": "【解説】抗議活動で勢いづく欧州の若者たち、何で結びついているのか(BBC News)",
+        "link": "https://news.yahoo.co.jp/articles/201e01393cf2499a1cf75dcc1d9969a62bc0c067?source=rss",
+        "description": "カティヤ・アドラー欧州編集長伊ミラノ、仏マルセイユ、そしてスペインのマドリードなど、ヨーロッパ各地の多くの都市で、ここ数週間、色とりどりの情熱的な抗議活動が繰り広げられた。その多くは平和的に始まったも",
+        "pub_date": "11/07 11:58 JST",
+        "is_priority": true
+      },
+      {
+        "title": "男尊女卑、ショート動画、AIまで…「5つのネットスラング」が語る、アメリカの若者の「本音」(ニューズウィーク日本版)",
+        "link": "https://news.yahoo.co.jp/articles/b51039a9d63ef1b51027216489b580b80d01d64d?source=rss",
+        "description": "ジェンダー平等が男性の権利を犠牲にして実現されてきたと主張するオンラインコミュニティーの総称。富を築くことや女性を支配することを「男らしさ」の象徴とする。SNSやポッドキャスト、ゲーマーのコミュニティ",
+        "pub_date": "11/07 11:51 JST",
+        "is_priority": false
+      },
+      {
+        "title": "メーガン妃の父親を逮捕、未成年少女の性的虐待写真所持で　米司法省(CNN.co.jp)",
+        "link": "https://news.yahoo.co.jp/articles/a6e84b2124824dd19996aebb3fe34346268eb64c?source=rss",
+        "description": "（CNN） 米司法省によると、英メーガン妃の父親トーマス・マークル容疑者（82）が6日、自宅軟禁を命じられた。児童ポルノ所持の罪に問われている。写真特集：英王室の子どもたちロサンゼルス連邦地検の検事は",
+        "pub_date": "11/07 11:41 JST",
+        "is_priority": false
+      },
+      {
+        "title": "日本サッカー界の大物・田嶋幸三氏　FIFA会長選に出馬(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/16ae7f832275b3873983d5e05221602d2eb1437c?source=rss",
+        "description": "日本サッカー界の「大物」とされている田嶋幸三氏（68）＝日本サッカー協会（JFA）名誉会長＝が世界のサッカー界でトップの座に挑む。来年3月に行われる国際サッカー連盟（FIFA）会長選で、4選を目指す現",
+        "pub_date": "11/07 11:35 JST",
+        "is_priority": false
+      },
+      {
+        "title": "欧州放送局が爆破予告の標的に　英国とアイルランド､ブルガリア(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/d2c2302afb4341b85b7041b15c454acbf21e3c01?source=rss",
+        "description": "ロンドン、イギリス、11月7日 (AP) ー 今週相次いだ複数の航空便に対する爆破予告に続き、ヨーロッパ全域の3つの放送局が安全上の脅威を受けた。 アイルランドでは、国内の放送局RTEのダブリン本社が",
+        "pub_date": "11/07 11:30 JST",
+        "is_priority": true
+      },
+      {
+        "title": "釜山の食堂で初対面の女子中学生のほおをたたいた40代男、二審で執行猶予付き判決(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/c1940e2037622b14af78a0a791e9cbd19992c0ec?source=rss",
+        "description": "飲食店で初対面の女子中学生のほおをたたいて転倒させたとして起訴され、一審で罰金刑を言い渡された40代の男が、控訴審ではより重い執行猶予付きの有罪判決を言い渡された。【写真】集団で暴行される14歳女子中",
+        "pub_date": "11/07 11:30 JST",
+        "is_priority": false
+      },
+      {
+        "title": "オランダ建設現場に抗議者侵入　拡大するデータセンター反対の波(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/b5f1a9caa86ec02f4eef56dc90e9cd316ab58072?source=rss",
+        "description": "ハーグ、オランダ、11月7日 (AP) ー オランダのアムステルダムにあるマイクロソフトの新データセンターの建設現場に6日、抗議者らが侵入した。一部の抗議者らがクレーンに登って発煙筒をたき、警察と衝突",
+        "pub_date": "11/07 11:27 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ロシア　日本たばこ産業現地4法人の経営権を強制接収(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/6c23abf11da0aa796669b905ff47b62518c3f2a4?source=rss",
+        "description": "ロシアが同国のたばこ市場で1位を占める日本たばこ産業（JT）の現地法人4社の経営権を強制的に接収した。ロシアは日本に対する敵対的措置を続けており、日本政府が筆頭株主である企業の資産没収手続きにまで着手",
+        "pub_date": "11/07 11:25 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ビニール袋がモゾモゾ…開けてみたら口を縛られた子犬、韓国ネット驚がく(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/2e3216252a97cfa5cf4691274dcb24d836c8525b?source=rss",
+        "description": "【NEWSIS】ビニール袋に生きたまま入れられて捨てられていた子犬が発見され、ネットで怒りが渦巻いている。さらに子犬の口は輪ゴムで縛られており、近隣では足を骨折したもう一匹の捨て犬も発見され、動物虐待",
+        "pub_date": "11/07 11:25 JST",
+        "is_priority": false
+      },
+      {
+        "title": "高校生が落書き消去作業に参加　セルビアの首都ベオグラードで(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/9a7818c6fbf4e7154a4edf6ae608c7163374c0b1?source=rss",
+        "description": "ベオグラード、セルビア、11月7日 (AP) ー セルビアの首都ベオグラードで6日、長年権力を維持した強権指導者とその政府に対する若者主導の運動の勝利を受けた選挙後のクリーンアップとして、街のイメージ",
+        "pub_date": "11/07 11:24 JST",
+        "is_priority": false
+      }
+    ],
+    "count": 20
+  },
+  "sns_voices": [
+    {
+      "keyword": "ヤンゴン 停電",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [
+        {
+          "time": "11/04 21:14",
+          "text": "【今朝の配信ニュース-MNA】 ✓ 親軍政権、ミャンマー中国商工会会長の企業をブラックリストに指定 ✓ Yoma Central、 ヤンゴン ..."
+        },
+        {
+          "time": "10/31 16:38",
+          "text": "@MM_Creator あの湿度と 停電 には耐えられないと思い仕事のオファー蹴りました。 ヤンゴン の日本食レストラン..."
+        },
+        {
+          "time": "10/31 16:03",
+          "text": "ヤンゴン 。うちは絶賛 停電 中。電気が来ない時間が長い。雨季が明けて雨は少なくなったがジリジリと暑さが体にこたえる。外..."
+        }
+      ],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%A4%E3%83%B3%E3%82%B4%E3%83%B3%20%E5%81%9C%E9%9B%BB"
+    },
+    {
+      "keyword": "ミャンマー 治安",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [
+        {
+          "time": "11/07 09:07",
+          "text": "「バングラデシュの 治安 部隊は、 ミャンマー 国境付近で人身売買の疑いがある集団と銃撃戦を展開し、ロヒンギャ難民を含む..."
+        },
+        {
+          "time": "11/05 07:49",
+          "text": "@amatsuuni まあ、ちょっと考えれば、 ミャンマー やベトナムで通用しなかった人が日本の職場でちゃんと仕事できる訳ないよね。ゴミ捨て..."
+        },
+        {
+          "time": "11/04 10:21",
+          "text": "たとえば、既に中国の属州として確保されかけている ミャンマー への影響力を イギリスは中国に引き渡すことが出来るだろうか 実効支配と平和な譲..."
+        }
+      ],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%9F%E3%83%A3%E3%83%B3%E3%83%9E%E3%83%BC%20%E6%B2%BB%E5%AE%89"
+    },
+    {
+      "keyword": "ミャンマー 衝突",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [
+        {
+          "time": "11/07 09:07",
+          "text": "「バングラデシュの治安部隊は、 ミャンマー 国境付近で人身売買の疑いがある集団と銃撃戦を展開し、ロヒンギャ難民を含む少なくとも57人を救出し..."
+        },
+        {
+          "time": "11/06 22:54",
+          "text": "小学生の頃の写真を発掘 DD51-1006と乗った時期調べてみると、 衝突 事故の2ヶ月後だった よく見るとサイドのラジエーターグリルが本州..."
+        },
+        {
+          "time": "11/05 17:16",
+          "text": "【タイ】東部で小銃弾3万発超を押収、密輸容疑で5人検挙 【 ミャンマー 】ASEAN特使訪問中も国軍が空爆、民間人16人死亡 【バングラデシ..."
+        }
+      ],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%9F%E3%83%A3%E3%83%B3%E3%83%9E%E3%83%BC%20%E8%A1%9D%E7%AA%81"
+    },
+    {
+      "keyword": "Myanmar conflict",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=Myanmar%20conflict"
+    }
+  ],
+  "live_media": {
+    "channels": [
+      {
+        "id": "stream_dvb_tv",
+        "name": "📺 DVB TV News (ビルマ民主の声 24h)",
+        "video_id": "pykpO5kQJ98",
+        "handle": "@dvbtvnews",
+        "type": "stream"
+      },
+      {
+        "id": "stream_mizzima_tv",
+        "name": "📺 Mizzima News LIVE",
+        "video_id": "a47ckXKZjxI",
+        "handle": "@MizzimaNews",
+        "type": "stream"
+      },
+      {
+        "id": "stream_cna_mm",
+        "name": "📺 CNA Asia (アジア国際報道生配信)",
+        "video_id": "-PWMxjBgr0k",
+        "handle": "@ChannelNewsAsia",
+        "type": "stream"
+      }
+    ],
+    "default_channel_id": "stream_euronews_mm"
+  },
+  "forex": {
+    "timestamp": "11/07 12:57 JST",
+    "usd_jpy": {
+      "currency": "USD",
+      "name": "米ドル",
+      "symbol": "$",
+      "rate": 157.5,
+      "change": -0.86,
+      "change_pct": -0.54,
+      "direction": "down"
+    },
+    "local_jpy": {
+      "currency": "MMK",
+      "name": "チャット",
+      "symbol": "K",
+      "rate": 0.0754,
+      "change": 0.0019,
+      "change_pct": 2.61,
+      "direction": "up"
+    },
+    "eur_jpy": {
+      "currency": "EUR",
+      "name": "ユーロ",
+      "symbol": "€",
+      "rate": 176.82,
+      "change": -1.09,
+      "change_pct": -0.61
+    }
+  },
+  "airports": [
+    {
+      "iata": "RGN",
+      "icao": "VYYY",
+      "name": "ヤンゴン国際空港",
+      "city": "ヤンゴン",
+      "hub": "ミャンマー最大国際空港",
+      "departures_url": "http://www.yangonairport.aero/",
+      "radar_url": "https://www.flightradar24.com/airport/rgn",
+      "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
+      "weather": {
+        "raw": "METAR VYYY 070330Z 26002KT 5000 DZ BKN014 FEW018CB OVC100 26/26 Q1015 NOSIG",
+        "wind": "2kt",
+        "wind_speed": 2,
+        "wind_gust": 0,
+        "visibility": "3.11マイル",
+        "temp": 26,
+        "fltcat": "VFR",
+        "report_time": "2026-11-07T03:30:00.000Z"
+      },
+      "status": "平常運航",
+      "status_code": "normal",
+      "status_badge": "🟢 平常運航",
+      "status_desc": "視程良好（3.11マイル）、風速安定（2kt）。順調に運航中"
+    }
+  ],
+  "weather": {
+    "cities": [
+      {
+        "name": "ヤンゴン (旧首都・商業中心)",
+        "name_en": "Yangon",
+        "is_capital": false,
+        "lat": 16.8661,
+        "lon": 96.1951,
+        "temp": 29.4,
+        "apparent_temp": 36.3,
+        "humidity": 77,
+        "wind_speed": 3.1,
+        "wind_gusts": 19.1,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 31.0,
+            "temp_min": 23.6,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 12.7
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 29.4,
+            "temp_min": 23.4,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 17.1
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 29.6,
+            "temp_min": 23.6,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 4.0
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      },
+      {
+        "name": "ネピドー (行政首都)",
+        "name_en": "Naypyidaw",
+        "is_capital": true,
+        "lat": 19.7633,
+        "lon": 96.0785,
+        "temp": 29.5,
+        "apparent_temp": 35.7,
+        "humidity": 73,
+        "wind_speed": 4.2,
+        "wind_gusts": 14.4,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 31.6,
+            "temp_min": 23.0,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 7.0
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 30.7,
+            "temp_min": 22.6,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 11.3
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 29.1,
+            "temp_min": 22.4,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 10.1
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "マンダレー (北部拠点)",
+        "name_en": "Mandalay",
+        "is_capital": false,
+        "lat": 21.9588,
+        "lon": 96.0891,
+        "temp": 31.0,
+        "apparent_temp": 35.5,
+        "humidity": 57,
+        "wind_speed": 4.6,
+        "wind_gusts": 16.9,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 33.2,
+            "temp_min": 24.7,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 32.6,
+            "temp_min": 24.0,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 5.3
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 24.3,
+            "temp_min": 22.4,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 50.2
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "ネピドー (行政首都)",
+      "name_en": "Naypyidaw",
+      "is_capital": true,
+      "lat": 19.7633,
+      "lon": 96.0785,
+      "temp": 29.5,
+      "apparent_temp": 35.7,
+      "humidity": 73,
+      "wind_speed": 4.2,
+      "wind_gusts": 14.4,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
+      "forecast": [
+        {
+          "date": "11/07(土)",
+          "temp_max": 31.6,
+          "temp_min": 23.0,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 7.0
+        },
+        {
+          "date": "11/08(日)",
+          "temp_max": 30.7,
+          "temp_min": 22.6,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 11.3
+        },
+        {
+          "date": "11/09(月)",
+          "temp_max": 29.1,
+          "temp_min": 22.4,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 10.1
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/07 12:57 JST"
+  },
+  "transit": {
+    "status": "NORMAL",
+    "status_code": "normal",
+    "status_badge": "🟢 平常運行",
+    "status_text": "都市交通・鉄道 平常運行 (ストなし)",
+    "overall_status": "平常運行",
+    "strike": false,
+    "monitored_systems_count": 1,
+    "alert_lines_count": 0,
+    "alert_lines": [],
+    "systems": [
+      {
+        "id": "myanmar_railway",
+        "name": "ミャンマー国鉄 (Myanma Railways)",
+        "mode": "幹線鉄道",
+        "coverage": "主要幹線",
+        "default_status": "運行状況注意",
+        "default_badge": "🟡 運航注意",
+        "default_code": "disrupted",
+        "default_details": "情勢に伴い減便または一部区間運休の可能性あり",
+        "official_url": "https://www.motc.gov.mm/",
+        "status": "運行状況注意",
+        "status_badge": "🟡 運航注意",
+        "status_code": "disrupted",
+        "details": "情勢に伴い減便または一部区間運休の可能性あり"
+      }
+    ],
+    "timestamp": "11/07 12:57 JST"
+  },
+  "lifeline": {
+    "status": "NORMAL",
+    "status_text": "電力・通信インフラ 安定稼働中 (全系統正常)",
+    "monitored_items_count": 5,
+    "power": {
+      "name": "ミャンマー 国家電力公社・主要電力送電網",
+      "status": "NORMAL",
+      "status_text": "安定供給中 (停電なし)",
+      "details": "ミャンマー全土の電力供給インフラは安定稼働中。大規模停電報告なし。",
+      "official_url": "https://downdetector.com/"
+    },
+    "telecom": {
+      "status": "NORMAL",
+      "status_text": "主要キャリア全社 安定稼働",
+      "carriers": [
+        {
+          "name": "ミャンマー 主要キャリア1",
+          "type": "5G/4Gモバイル通信",
+          "status": "安定稼働"
+        },
+        {
+          "name": "ミャンマー 主要キャリア2",
+          "type": "モバイル通信・固定網",
+          "status": "安定稼働"
+        }
+      ],
+      "downdetector_url": "https://downdetector.com/"
+    },
+    "internet": {
+      "status": "NORMAL",
+      "status_text": "国際接続性 良好 (99.98%)",
+      "latency": "14ms (低遅延)",
+      "exchange": "ミャンマー 国内基幹IX・国際海底ケーブル接続",
+      "cloudflare_radar_url": "https://radar.cloudflare.com/"
+    },
+    "water_gas": {
+      "name": "ミャンマー 首都圏上下水道・都市エネルギー供給網",
+      "status": "NORMAL",
+      "status_text": "正常供給中",
+      "details": "基幹上下水道・天然ガス供給網 正常稼働"
+    }
+  },
+  "security": {
+    "status": "ALERT",
+    "status_text": "⚠️ 現地治安・テロ警戒態勢発令",
+    "threat_level": "ミャンマー治安当局 テロ警戒水準: 平常監視体制",
+    "summary": "ミャンマーにおいて、重大な治安テロ事案または大規模衝突が検知されています。現地公館の指示に従い退避・安全確保を行ってください。",
+    "incident_count": 1,
+    "incidents": [
+      {
+        "type": "MOFA_RISK",
+        "level": "ALERT",
+        "title": "外務省危険情報 レベル3",
+        "details": "レベル3: 渡航は止めてください（渡航中止勧告）"
+      }
+    ],
+    "official_url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_018.html",
+    "emergency_phone": "警察: 199 / 救急: 192 / 消防: 191 / 大使館: +95-(0)1-549644"
+  },
+  "collected_by": "GitHub Actions"
+}

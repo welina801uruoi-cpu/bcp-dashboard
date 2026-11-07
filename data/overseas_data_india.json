@@ -1,0 +1,944 @@
+{
+  "timestamp": "2026-11-07 12:49:28",
+  "timestamp_local": "2026-11-07 09:19:28",
+  "country": {
+    "id": "india",
+    "name": "インド",
+    "english_name": "India",
+    "flag": "🇮🇳",
+    "city": "ニューデリー / ムンバイ (New Delhi / Mumbai)",
+    "embassy_name": "在インド日本国大使館 (Embassy of Japan in India)",
+    "mofa_code": "0091",
+    "mofa_page_url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_001.html",
+    "embassy_url": "https://www.in.emb-japan.go.jp/itprtop_ja/index.html",
+    "tabireg_url": "https://www.ezairyu.mofa.go.jp/tabireg/index.html",
+    "emergency_phones": "総合緊急: 112 / 警察: 100 / 救急: 102 / 消防: 101 / 大使館: +91-(0)11-4610-4610",
+    "timezone_offset": 5.5,
+    "timezone_name": "IST (現地: UTC+5:30)",
+    "currency_code": "INR",
+    "currency_name": "インドルピー",
+    "currency_symbol": "₹",
+    "default_camera_id": "stream_ndtv_live",
+    "default_keywords": [
+      "デリー 大気汚染",
+      "インド デモ",
+      "ムンバイ 洪水",
+      "India flight disruption"
+    ],
+    "media_channels": [
+      {
+        "id": "stream_ndtv_live",
+        "name": "📺 NDTV 24x7 (インド全国英語ニュース)",
+        "video_id": "xDWQ3LkccY8",
+        "handle": "@NDTV",
+        "type": "stream"
+      },
+      {
+        "id": "stream_india_today",
+        "name": "📺 India Today LIVE 24h",
+        "video_id": "W1ilCy6gkQk",
+        "handle": "@indiatoday",
+        "type": "stream"
+      },
+      {
+        "id": "stream_wion_live",
+        "name": "📺 WION (World Is One News インド国際放送)",
+        "video_id": "LuKwFajn37U",
+        "handle": "@WION",
+        "type": "stream"
+      },
+      {
+        "id": "cam_somnath_temple",
+        "name": "📷 インド・グジャラート: ソームナート寺院 24h定点実況",
+        "video_id": "J4z7CIrvsuw",
+        "type": "camera"
+      },
+      {
+        "id": "cam_haridwar_ganga",
+        "name": "📷 インド・ハリドワール: ガンジス川 24h実況",
+        "video_id": "Bi9cRN61nOY",
+        "type": "camera"
+      }
+    ],
+    "weather_cities": [
+      {
+        "name": "ニューデリー (首都)",
+        "name_en": "New Delhi",
+        "lat": 28.6139,
+        "lon": 77.209,
+        "is_capital": true
+      },
+      {
+        "name": "ムンバイ (商業都市)",
+        "name_en": "Mumbai",
+        "lat": 19.076,
+        "lon": 72.8777,
+        "is_capital": false
+      },
+      {
+        "name": "ベンガルール (IT拠点)",
+        "name_en": "Bengaluru",
+        "lat": 12.9716,
+        "lon": 77.5946,
+        "is_capital": false
+      }
+    ],
+    "transit_systems": [
+      {
+        "id": "delhi_metro",
+        "name": "デリー・メトロ (Delhi Metro Rail)",
+        "mode": "都市高速鉄道",
+        "coverage": "デリー首都圏",
+        "default_status": "平常運行",
+        "default_badge": "🟢 平常運行",
+        "default_code": "normal",
+        "default_details": "デリーメトロ各線平常運行中",
+        "official_url": "https://www.delhimetrorail.com/"
+      }
+    ],
+    "airports": [
+      {
+        "iata": "DEL",
+        "icao": "VIDP",
+        "name": "インディラ・ガンディー国際空港",
+        "city": "ニューデリー",
+        "hub": "インド最大国際ハブ",
+        "departures_url": "https://www.newdelhiairport.in/flight-information/live-flight-departures",
+        "radar_url": "https://www.flightradar24.com/airport/del",
+        "flightaware_url": "https://www.flightaware.com/live/airport/VIDP"
+      },
+      {
+        "iata": "BOM",
+        "icao": "VABB",
+        "name": "チャトラパティ・シヴァージー国際空港",
+        "city": "ムンバイ",
+        "hub": "西部主要国際空港",
+        "departures_url": "https://csmia.adaniairports.com/",
+        "radar_url": "https://www.flightradar24.com/airport/bom",
+        "flightaware_url": "https://www.flightaware.com/live/airport/VABB"
+      }
+    ]
+  },
+  "mofa_safety": {
+    "status": "OK",
+    "max_risk_level": 4,
+    "risk_level_name": "レベル4: 退避してください（退避勧告）",
+    "max_infection_level": 0,
+    "risk_title": "インドの危険情報【一部地域の危険レベル引き下げ】（内容の更新）",
+    "risk_lead": "インドの危険情報を更新しました。",
+    "risk_url": "https://www.anzen.mofa.go.jp/info/pchazardspecificinfo_2025T030.html",
+    "risk_date": "2025/03/25 00:00:00",
+    "spots": [
+      {
+        "title": "中東情勢を受けた注意喚起",
+        "lead": "●米国東部時間７月20日、米国国務省は、全世界の米国民向けの渡航情報として、中東地域以外でも米国の外交施設が攻撃の標的とされてきたことに触れ、世界各地の米国や米国人に関連する施設がイランを支持する勢力の標的とされる可能性がある旨の注意喚起を発出しました。\n●特に、中東地域に滞在中の方は、７月18日に日本政府が発出した広域情報（中東情勢の急激な変化の可能性に関する注意喚起）を確認し、自らの安全確保に努めてください。また、中東地域以外でも不測の事態が発生する可能性が排除されません",
+        "date": "2026/07/21 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C038.html"
+      },
+      {
+        "title": "【広域情報】海外における写真・動画撮影及びＳＮＳ等への投稿に関する注意喚起",
+        "lead": "【広域情報】海外における写真・動画撮影及びＳＮＳ等への投稿に関する注意喚起",
+        "date": "2026/06/03 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C031.html"
+      },
+      {
+        "title": "匿名・流動型犯罪グループ（トクリュウ）を含めた犯罪組織による海外における闇バイトに関する注意喚起（加害者にならないために）（その２）",
+        "lead": "【ポイント】\n●これまで、特殊詐欺や違法薬物（大麻等）の密輸に関する注意喚起を発出してきていますが、海外における闇バイトに応募し、犯罪組織等に「かけ子」として海外で特殊詐欺に加担させられるケースや、意図せず違法薬物（大麻等）の運び屋として犯罪に加担してしまい、その結果、現地警察に拘束又は保護される事案が引き続き発生しています。",
+        "date": "2026/05/01 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C023.html"
+      },
+      {
+        "title": "デング熱に関する注意喚起（内容の更新）",
+        "lead": "● 高熱、発疹、筋肉痛などの症状を引き起こすデング熱が、中南米、大洋州、東南アジア、アフリカ地域などで発生しています。\n● デング熱は、デングウイルスに感染した蚊に刺されることで感染しますので、上記地域においては、長袖の着用や虫除けスプレーの使用など、以下1(4)記載の予防措置をとるよう心がけてください。\n● 感染が疑われる場合は早期に医療機関を受診してください。",
+        "date": "2026/02/03 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C010.html"
+      },
+      {
+        "title": "薬剤耐性（AMR）に関する注意喚起（内容の更新）",
+        "lead": "● 薬剤耐性（AMR）とは、細菌による感染症の治療薬である抗菌薬が効きにくくなる、もしくは効かなくなる問題であり、細菌感染症ではないのに抗菌薬を使用したり、抗菌薬の使用を自己判断で止めてしまったりするなどの不適切な使用によって出現・拡大するおそれがあります。\n● 薬剤耐性（AMR）の拡大を防ぐために、抗菌薬を使用する際には、医師や薬剤師の指示に従い、適切な量・回数・期間を守って服用してください。\n● 日本とは異なり、薬局で抗菌薬を買えてしまう国もありますが、自分の判断で不要な",
+        "date": "2026/01/30 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C009.html"
+      },
+      {
+        "title": "特殊詐欺についての注意喚起（被害に遭わないために）",
+        "lead": "●非対面の方法で相手に接触し金銭をだまし取る、いわゆる特殊詐欺が海外でも発生しています。日本国大使館職員、日本国総領事館職員、日本の警察官や税関職員等の日本政府の職員を騙るケースも確認されております。\n\n●日本国大使館、日本国総領事館、警察官や税関職員等といった日本の公的機関が正式な手続によらず送金を要求することはありません。身に覚えのない不審な電話、電子メール、ＳＮＳ等に安易に反応しないなどの対策をとってください。\n\n●日本以外に居られる際に、少しでも不安を感じたら、お近く",
+        "date": "2025/12/16 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2025C057.html"
+      },
+      {
+        "title": "【広域情報】匿名・流動型犯罪グループ（トクリュウ）を含めた犯罪組織による海外における闇バイトに関する注意喚起（加害者にならないために）",
+        "lead": "●海外における闇バイトに応募し、犯罪組織等に「かけ子」として海外で特殊詐欺に加担させられるケースや意図せず違法薬物（大麻等）の運び屋として犯罪に加担してしまい、現地警察に拘束又は保護される事案が引き続き発生しています。\n\n●万が一、海外における闇バイトに応募してしまったと感じた場合、一人で悩み、抱え込むことなく、家族等の近しい人や外務省、警察等に助けを求めてください。\n\n●海外における闇バイトに応募した結果、特殊詐欺や違法薬物の密輸等の犯罪に加担してしまった(加担させられた)",
+        "date": "2025/12/16 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2025C056.html"
+      },
+      {
+        "title": "ジカウイルス感染症に関する注意喚起（内容の更新）",
+        "lead": "● 発熱、発疹などの症状を引き起こすほか、胎児に小頭症などの先天性障害をもたらす可能性があるジカウイルス感染症の症例数は2017年以降、世界的に減少しましたが、中南米、アフリカ、アジア太平洋地域などで、少ない数ではあるものの感染が続いています。\n● ジカウイルス感染症は、ジカウイルスに感染した蚊に刺されることで感染しますので、上記地域においては、長袖の着用や虫除けスプレーの使用など、以下1(4)に記載の予防措置をとるよう心がけてください。\n● 感染が疑われる場合は早期に医療機",
+        "date": "2025/11/21 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2025C048.html"
+      }
+    ],
+    "consular_mails": [
+      {
+        "title": "【注意喚起】AP州サイクロン上陸に伴う豪雨災害への警戒について",
+        "date": "2026/11/02 19:41:05",
+        "koukan": "",
+        "lead": "インド気象庁（IMD）の発表によると、ベンガル湾沖で発生した大型低気圧は、西進しながらサイクロンに発達し、本日１１月２日午後２３時３０分頃に、アンドラ・プラデシュ州ネロールからナルサプール間のエリアへ上陸する見込みです。これにより、本日から４日にかけて、周辺州を含む各地で、暴風や激しい大雨が発生する可能性があり、当局は大雨警報を発して注意を呼びかけています。当館管轄エリア内の大雨警報の対象地域は以下のとおりです。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168696"
+      },
+      {
+        "title": "【注意喚起】タミル・ナド州チェンナイにおける大雨警報に対する警戒",
+        "date": "2026/10/18 20:01:07",
+        "koukan": "",
+        "lead": "１．インド気象局は１０月１８日（本日）夜、タミル・ナド州チェンナイに大雨警報を発令しました。\n\n２．ベンガル湾西中部上空にサイクロンが位置している影響で、タミル・ナド州チェンナイなどでは明日にかけて大雨が予想されています。\n\n３．雨がひどくなる前に早めの帰宅、安全な場所への移動、道路の寸断等に備えた非常食・飲用水等の準備等、最大限の警戒をお願いします。\n\n４. なお、これから12月頃までは豪雨シーズンに入りますので、常に天気予報には留意し、最新の情報を入手することを心がけて下",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168430"
+      },
+      {
+        "title": "中央選挙管理委員会委員長の辞任等を求める抗議活動に関する注意喚起（10月9日）",
+        "date": "2026/10/09 13:26:04",
+        "koukan": "",
+        "lead": "●ニューデリー中心部のJantar Mantar付近において、中央選挙管理委員会委員長（CEC）の辞任等を求める抗議活動が行われており、抗議デモに参加した野党議員が一時拘束される事案も発生しています。\n●報道等によれば、10月10日にもJantar Mantar付近での大規模なデモが呼びかけられているほか、今後抗議活動が拡大し長期化する可能性もあり、本抗議活動を巡る情勢については引き続き注意が必要です。\n●在留邦人及び旅行者の皆様におかれましては、報道等から最新の関連情報の入",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168239"
+      },
+      {
+        "title": "【注意喚起】モディ首相のチェンナイ来訪に伴う注意喚起",
+        "date": "2026/10/06 20:36:00",
+        "koukan": "",
+        "lead": "○　１０月１１日（日）、モディ首相がチェンナイを訪れる模様です。大規模な交通渋滞や雑踏が発生する恐れがありますので、外出時は十分注意してください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168151"
+      },
+      {
+        "title": "中央選挙管理委員会委員長の辞任等を求める抗議活動に関する注意喚起",
+        "date": "2026/10/01 18:11:05",
+        "koukan": "",
+        "lead": "【ポイント】 \n●9月25日、ニューデリー中心部のJantar Mantar付近をはじめ、インド主要都市において、野党関係者や学生団体等の関与により、中央選挙管理委員会委員長（CEC）の辞任等を求める抗議活動が行われました。\n●ムンバイにおいては、ゴキブリ人民党（Cockroach Janta Party:CJP）が、10月2日からムンバイを起点に抗議活動を開始し、デリー等全国に展開する方針を表明しており、本抗議活動を巡る情勢については引き続き注意が必要です。\n●一部報道によ",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168015"
+      },
+      {
+        "title": "【注意喚起】10月2日に予定されている抗議活動について（ムンバイ）",
+        "date": "2026/09/28 16:51:05",
+        "koukan": "",
+        "lead": "ゴキブリ人民党（Cockroach Janta Party: CJP）は、10月2日、ムンバイを起点として、中央選挙管理委員会委員長（CEC）の辞任及び刑事手続の開始、SIR（Special Intensive Revision）による有権者名簿の見直し等を求める抗議活動を開始し、全国に展開する方針を表明しています。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167932"
+      },
+      {
+        "title": "【注意喚起】ガネーシャ祭に伴う混雑・交通規制等について",
+        "date": "2026/09/10 18:46:06",
+        "koukan": "",
+        "lead": "ガネーシャ祭は、インド各地で行われるヒンドゥー教の祭事で、特にムンバイでは国内最大規模の祭りの一つとして盛大に開催されます。\n　ムンバイでは、9月14日から祭りが始まり、地域によって異なりますが、概ね1週間から10日間にわたり、市内各所にガネーシャ像を祀る祭壇が設置され、多くの人々で賑わいます。最終日の9月25日には、ガネーシャ像を海や河川等に流す「ヴィサルジャン（Visarjan）」が行われ、祭りの盛り上がりが最高潮に達します。\n　例年、祭りの期間中、ムンバイ警察をはじめと",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167649"
+      },
+      {
+        "title": "【注意喚起】ガネーシャ祭に伴う注意事項",
+        "date": "2026/09/09 19:31:07",
+        "koukan": "",
+        "lead": "○９月１４日（月）は、ガネーシャ祭です。各地でガネーシャ像が祭られます。一般的に１週間から１０日間続きます。\n○過去には、宗教上の対立等によるトラブルが発生したこともあり、警察当局による警戒が行われます。\n○在留邦人、滞在者の皆様におかれましては、お出かけの際は、現地当局から最新の情報を入手する、人混みを避けるなどして、トラブルに巻き込まれないよう十分ご注意ください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167632"
+      },
+      {
+        "title": "ＢＲＩＣＳサミット開催に伴う注意喚起",
+        "date": "2026/09/08 18:56:03",
+        "koukan": "",
+        "lead": "●９月１１日（金）から１３日（日）まで、ＢＲＩＣＳサミット及び関連行事がデリー市内で開催されます。各国政府首脳などの出席に伴い、市内において交通規制及び警戒態勢が敷かれる見込みです。インド治安当局は爆弾テロなどへの警戒を強めており、一層の注意が必要です。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167600"
+      },
+      {
+        "title": "【注意喚起】シャー連邦内務大臣他の来訪に伴う注意事項",
+        "date": "2026/08/19 19:51:00",
+        "koukan": "",
+        "lead": "【ポイント】\n○８月１９日（水）～翌２０日（木）、シャー連邦内務大臣や南インド諸州の州首相等が会議に出席するため、チェンナイ近郊コバラムを来訪する予定です。\n○これにより、チェンナイ空港やコバラム周辺では、当局の警戒強化、交通規制が行われる見込みです。\n○ECRをはじめとする周辺道路では、大規模な渋滞が発生するおそれがありますので、お出かけの際は、十分注意してください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167076"
+      },
+      {
+        "title": "インド独立記念日における注意喚起",
+        "date": "2026/08/11 21:41:01",
+        "koukan": "",
+        "lead": "【ポイント】\n○８月１５日（土）は、インドの独立記念日です。\n○当日は各地でイベント開催等に伴う交通渋滞の発生が予想されるほか、人が多く集まる場所では、犯罪被害など予期せぬトラブルに巻き込まれることがありますので、十分注意をお願いします。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=166983"
+      },
+      {
+        "title": "【注意喚起】インド独立記念日における安全対策について",
+        "date": "2026/08/11 17:46:03",
+        "koukan": "",
+        "lead": "【ポイント】\n○８月15日（土）は、インドの独立記念日です。各地で大規模な祝賀イベントが予定されており、通常の週末とは異なる状況となることが予想されます。\n○大規模なイベントでは、テロやスリ、ひったくり、傷害等の各種犯罪、雑踏事故等の発生が懸念されます。\n○大規模な交通規制、交通量の増加により、各地で著しい渋滞の発生が懸念されます。\n○特に空港では、当局の警戒強化により、手荷物検査等に通常より多くの時間がかかる見込みです。\n○在留邦人の皆様におかれましては、これらを踏まえ、下",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=166977"
+      },
+      {
+        "title": "コルカタ市内の独立記念日前後のイベント・ラリーに伴う交通規制・テロ警戒等に関する注意喚起",
+        "date": "2026/08/10 16:01:09",
+        "koukan": "",
+        "lead": "＜ポイント＞\n● コルカタ警察は、8月10日（月）「Har Ghar Tiranga」ラリー、11日（火）・13日（木）の本番想定／ドレスリハーサル、15日（土）の独立記念日パレード実施に伴い、マイダン一帯（レッドロード、メイヨーロード等）および中心部で大規模な交通規制・迂回・駐停車禁止等を予告しています。\n● 主に、8/10は正午以降、8/11・13は6:30～正午ごろ、8/14 22:00～8/15正午ごろ（または終了まで）にレッドロード周辺で広範な通行止めが見込まれ、8",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=166944"
+      },
+      {
+        "title": "【注意喚起】州議会議員逮捕に伴う抗議活動について",
+        "date": "2026/08/04 17:36:00",
+        "koukan": "",
+        "lead": "【ポイント】\n○本日、州議会野党主導者の議員が、女性を侮辱したとして逮捕されました。\n○同逮捕を受け、同人の支持者らが強く反発し、州内の一部で大規模な抗議活動を行っています。\n○在留邦人の皆様は、抗議活動に巻き込まれないよう、次の点に留意してください。\n・報道等から、常に最新の情報を入手するよう努める。\n・抗議活動の会場はもちろん、人混みや群衆には可能な限り近寄らない。\n・万が一、抗議活動等に遭遇してしまった場合は、直ちにその場を離れる。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=166853"
+      },
+      {
+        "title": "【注意喚起】ケララ州における豪雨災害の発生について",
+        "date": "2026/08/01 14:46:01",
+        "koukan": "",
+        "lead": "【ポイント】\n○ケララ州において豪雨災害による大規模な被害が確認されています。\n○少なくとも２名の死亡が確認されており、当局が引き続き行方不明者の捜索にあたっています。\n○当局は、引き続き大雨が降る可能性があるとして、一部地域に、最高レベルのレッド警報を発し、注意を呼びかけています。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=166805"
+      }
+    ],
+    "mail_count": 15
+  },
+  "world_earthquakes": {
+    "status": "OK",
+    "count_24h": 5,
+    "summary": "M4.8 (36 km WNW of Poso, Indonesia)",
+    "latest": {
+      "mag": 4.8,
+      "place": "36 km WNW of Poso, Indonesia",
+      "time": "11/07 04:07 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twmr",
+      "tsunami": 0
+    },
+    "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "36 km WNW of Poso, Indonesia",
+        "time": "11/07 04:07 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twmr",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "101 km SSE of Palekastro, Greece",
+        "time": "11/07 00:26 JST",
+        "depth_km": 40.657,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twhq",
+        "tsunami": 0
+      },
+      {
+        "mag": 6.1,
+        "place": "144 km SE of Hasaki, Japan",
+        "time": "11/06 19:39 JST",
+        "depth_km": 29,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg9",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "87 km N of Isangel, Vanuatu",
+        "time": "11/06 17:14 JST",
+        "depth_km": 246.521,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfu",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.9,
+        "place": "41 km SW of Balangonan, Philippines",
+        "time": "11/06 15:28 JST",
+        "depth_km": 35,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfk",
+        "tsunami": 0
+      }
+    ]
+  },
+  "world_news": {
+    "articles": [
+      {
+        "title": "韓国の対米外交に新たな課題…トランプ大統領だけを眺めた「おべっか外交」終わり、民主党への対応も(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/0965742c6a01bea373de8a00f16c5e4e436e644c?source=rss",
+        "description": "トランプ米大統領と握手して帰国しても、米議会に改めて説明しなければならない。今月3日（現地時間）の中間選挙の結果、民主党が上下両院を掌握することになり、韓国の対米外交に新たに突きつけられた課題だ。トラ",
+        "pub_date": "11/07 12:46 JST",
+        "is_priority": false
+      },
+      {
+        "title": "米アトランタ動物園でパンダ2頭が公開　米中友好をアピール　日本でのパンダゼロ(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/dcd4e24290a19881bfb8c564d4cf690934c0db11?source=rss",
+        "description": "中国からアメリカに貸し出されたパンダ2頭がアメリカ南部ジョージア州のアトランタ動物園で公開されました。 6日から公開されたのは、平和を意味するオスのパンダの「平平（ピンピン）」と、二重の祝福を意味する",
+        "pub_date": "11/07 12:43 JST",
+        "is_priority": false
+      },
+      {
+        "title": "イラン再攻撃の可能性に言及　トランプ大統領「近く決断」　回避に向けた動きも(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/74dfe30efc7c70b6c3b08523316b104948f1c15a?source=rss",
+        "description": "アメリカによるイランへの再攻撃はあるのか、ないのか。その判断が焦点となっています。トランプ大統領は記者団に対し、近く決定すると述べました。■イラン「柔軟な姿勢」の可能性も 中間選挙の前日、記者団から、",
+        "pub_date": "11/07 12:37 JST",
+        "is_priority": true
+      },
+      {
+        "title": "米テック右派の信仰回帰　AIスタートアップを支える「終末論的ナラティブ」とは　関西学院大・柳澤田実准教授(AERA DIGITAL)",
+        "link": "https://news.yahoo.co.jp/articles/c8245e3252a0a51fcc86a101a0b57d5e7984db0e?source=rss",
+        "description": "米国では、防衛テック企業が政治的な影響力を強めている。B2Cの時代からB2Gへと収益機会が移り、国防の必要性と商業的利益が連動しているのだという。関西学院大学の柳澤田実准教授に聞いた。AERA 202",
+        "pub_date": "11/07 12:30 JST",
+        "is_priority": false
+      },
+      {
+        "title": "謎の“黒フード姿“でボブ・ディラン氏が教皇と2ショット「まるでスター・ウォーズ」独特すぎる装いに世界が騒然…バチカンで歴史的面会(ABEMA TIMES)",
+        "link": "https://news.yahoo.co.jp/articles/ef99d0d1907b99d7c556eefdbf215ba783a8b376?source=rss",
+        "description": "ローマ教皇レオ14世と並び、黒いフード姿で写真に収まる人物。その正体は、ノーベル文学賞の受賞者としても知られるアメリカのシンガー・ソングライター、ボブ・ディランさんだ。【映像】まるでスター・ウォーズ？",
+        "pub_date": "11/07 12:27 JST",
+        "is_priority": false
+      },
+      {
+        "title": "最側近の首席補佐官退任へ トランプ大統領“閣僚交代はごくわずか”(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/64ced54f8cc8dac2f7adb5bc1e87553cecf3725a?source=rss",
+        "description": "アメリカのトランプ大統領はワイルズ首席補佐官を交代させ、強硬な移民政策の立案者として知られるミラー氏が後任に就くと発表しました。 トランプ大統領は6日、2期目の政権発足時から首席補佐官を務めた最側近の",
+        "pub_date": "11/07 12:18 JST",
+        "is_priority": false
+      },
+      {
+        "title": "韓国軍、民間人統制線以北への無断侵入に「山菜採り」…鉄条網切断は「動物の仕業」(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/ee032cf140940a1a96618bfb15801aaa0052b345?source=rss",
+        "description": "先月、江原道鉄原で30代の女性が民間人出入統制線以北の地域に無断で侵入した際、韓国軍はこの女性の身柄を確保できなかったにもかかわらず、「山菜を採りに来た民間人と推定される」として捜索を打ち切っていたこ",
+        "pub_date": "11/07 12:05 JST",
+        "is_priority": false
+      },
+      {
+        "title": "トランプ氏、ウクライナ和平で「欧州全体が参加」の安保合意案　詳細不明で欧州は戸惑い(CNN.co.jp)",
+        "link": "https://news.yahoo.co.jp/articles/dfa346d1182cf4ef0f548839e3ce8a7355758b65?source=rss",
+        "description": "（CNN） トランプ米大統領は5日、プーチン・ロシア大統領の特使と会談した後、ウクライナ和平に向けて「欧州全体が参加する可能性のある」新たな安全保障合意案があると述べた。ただし提案の詳細は示さず、欧州",
+        "pub_date": "11/07 12:01 JST",
+        "is_priority": true
+      },
+      {
+        "title": "テスラが来年「サイバートラック」の生産を縮小へ、ロボタクシー増産に舵取り(Forbes JAPAN)",
+        "link": "https://news.yahoo.co.jp/articles/465ac641dae277c400223d5a413401eda07d2cf6?source=rss",
+        "description": "テスラのイーロン・マスクCEOは、テキサス州の工場「Texas Gigafactory」におけるサイバートラックの生産を、来年段階的に縮小すると発表した。ロボタクシー「サイバーキャブ」の増産体制を整え",
+        "pub_date": "11/07 12:00 JST",
+        "is_priority": false
+      },
+      {
+        "title": "レーザーで無人機撃墜…北朝鮮の脅威多様化に対応する韓国空軍(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/5780dc5cccc16f7b3c137812bd4d12efdc589ed0?source=rss",
+        "description": "「接近目標最終識別および交戦要請！」今月4日午前、忠清南道保寧（ボリョン）の大川（デチョン）射撃場。天弓II部隊の近くで隊員の叫び声が響くと、垂直発射台からミサイル2発が空中へと飛び立った。ミサイルは",
+        "pub_date": "11/07 11:59 JST",
+        "is_priority": false
+      },
+      {
+        "title": "【解説】抗議活動で勢いづく欧州の若者たち、何で結びついているのか(BBC News)",
+        "link": "https://news.yahoo.co.jp/articles/201e01393cf2499a1cf75dcc1d9969a62bc0c067?source=rss",
+        "description": "カティヤ・アドラー欧州編集長伊ミラノ、仏マルセイユ、そしてスペインのマドリードなど、ヨーロッパ各地の多くの都市で、ここ数週間、色とりどりの情熱的な抗議活動が繰り広げられた。その多くは平和的に始まったも",
+        "pub_date": "11/07 11:58 JST",
+        "is_priority": true
+      },
+      {
+        "title": "男尊女卑、ショート動画、AIまで…「5つのネットスラング」が語る、アメリカの若者の「本音」(ニューズウィーク日本版)",
+        "link": "https://news.yahoo.co.jp/articles/b51039a9d63ef1b51027216489b580b80d01d64d?source=rss",
+        "description": "ジェンダー平等が男性の権利を犠牲にして実現されてきたと主張するオンラインコミュニティーの総称。富を築くことや女性を支配することを「男らしさ」の象徴とする。SNSやポッドキャスト、ゲーマーのコミュニティ",
+        "pub_date": "11/07 11:51 JST",
+        "is_priority": false
+      },
+      {
+        "title": "メーガン妃の父親を逮捕、未成年少女の性的虐待写真所持で　米司法省(CNN.co.jp)",
+        "link": "https://news.yahoo.co.jp/articles/a6e84b2124824dd19996aebb3fe34346268eb64c?source=rss",
+        "description": "（CNN） 米司法省によると、英メーガン妃の父親トーマス・マークル容疑者（82）が6日、自宅軟禁を命じられた。児童ポルノ所持の罪に問われている。写真特集：英王室の子どもたちロサンゼルス連邦地検の検事は",
+        "pub_date": "11/07 11:41 JST",
+        "is_priority": false
+      },
+      {
+        "title": "日本サッカー界の大物・田嶋幸三氏　FIFA会長選に出馬(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/16ae7f832275b3873983d5e05221602d2eb1437c?source=rss",
+        "description": "日本サッカー界の「大物」とされている田嶋幸三氏（68）＝日本サッカー協会（JFA）名誉会長＝が世界のサッカー界でトップの座に挑む。来年3月に行われる国際サッカー連盟（FIFA）会長選で、4選を目指す現",
+        "pub_date": "11/07 11:35 JST",
+        "is_priority": false
+      },
+      {
+        "title": "欧州放送局が爆破予告の標的に　英国とアイルランド､ブルガリア(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/d2c2302afb4341b85b7041b15c454acbf21e3c01?source=rss",
+        "description": "ロンドン、イギリス、11月7日 (AP) ー 今週相次いだ複数の航空便に対する爆破予告に続き、ヨーロッパ全域の3つの放送局が安全上の脅威を受けた。 アイルランドでは、国内の放送局RTEのダブリン本社が",
+        "pub_date": "11/07 11:30 JST",
+        "is_priority": true
+      },
+      {
+        "title": "釜山の食堂で初対面の女子中学生のほおをたたいた40代男、二審で執行猶予付き判決(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/c1940e2037622b14af78a0a791e9cbd19992c0ec?source=rss",
+        "description": "飲食店で初対面の女子中学生のほおをたたいて転倒させたとして起訴され、一審で罰金刑を言い渡された40代の男が、控訴審ではより重い執行猶予付きの有罪判決を言い渡された。【写真】集団で暴行される14歳女子中",
+        "pub_date": "11/07 11:30 JST",
+        "is_priority": false
+      },
+      {
+        "title": "オランダ建設現場に抗議者侵入　拡大するデータセンター反対の波(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/b5f1a9caa86ec02f4eef56dc90e9cd316ab58072?source=rss",
+        "description": "ハーグ、オランダ、11月7日 (AP) ー オランダのアムステルダムにあるマイクロソフトの新データセンターの建設現場に6日、抗議者らが侵入した。一部の抗議者らがクレーンに登って発煙筒をたき、警察と衝突",
+        "pub_date": "11/07 11:27 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ロシア　日本たばこ産業現地4法人の経営権を強制接収(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/6c23abf11da0aa796669b905ff47b62518c3f2a4?source=rss",
+        "description": "ロシアが同国のたばこ市場で1位を占める日本たばこ産業（JT）の現地法人4社の経営権を強制的に接収した。ロシアは日本に対する敵対的措置を続けており、日本政府が筆頭株主である企業の資産没収手続きにまで着手",
+        "pub_date": "11/07 11:25 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ビニール袋がモゾモゾ…開けてみたら口を縛られた子犬、韓国ネット驚がく(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/2e3216252a97cfa5cf4691274dcb24d836c8525b?source=rss",
+        "description": "【NEWSIS】ビニール袋に生きたまま入れられて捨てられていた子犬が発見され、ネットで怒りが渦巻いている。さらに子犬の口は輪ゴムで縛られており、近隣では足を骨折したもう一匹の捨て犬も発見され、動物虐待",
+        "pub_date": "11/07 11:25 JST",
+        "is_priority": false
+      },
+      {
+        "title": "高校生が落書き消去作業に参加　セルビアの首都ベオグラードで(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/9a7818c6fbf4e7154a4edf6ae608c7163374c0b1?source=rss",
+        "description": "ベオグラード、セルビア、11月7日 (AP) ー セルビアの首都ベオグラードで6日、長年権力を維持した強権指導者とその政府に対する若者主導の運動の勝利を受けた選挙後のクリーンアップとして、街のイメージ",
+        "pub_date": "11/07 11:24 JST",
+        "is_priority": false
+      }
+    ],
+    "count": 20
+  },
+  "sns_voices": [
+    {
+      "keyword": "デリー 大気汚染",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [
+        {
+          "time": "11/07 00:12",
+          "text": "ディワリにより 大気汚染 の始まった デリー を去り人生初のオセアニアに向かいます、さようならインディア https:/..."
+        },
+        {
+          "time": "11/06 23:00",
+          "text": "デリー 、ディワリのせいでどこも酷い渋滞＆ 大気汚染 でまあ、普通に外出したくなくなる。 ディワリギフトも今日で全部配り..."
+        },
+        {
+          "time": "11/06 11:56",
+          "text": "デリー NCRの地獄のような 大気汚染 。WHOの推奨は80以下ですよ。 インド人の友へ、「インドには空気の綺麗な場所も..."
+        }
+      ],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%87%E3%83%AA%E3%83%BC%20%E5%A4%A7%E6%B0%97%E6%B1%9A%E6%9F%93"
+    },
+    {
+      "keyword": "インド デモ",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [
+        {
+          "time": "11/07 08:13",
+          "text": "フランスの デモ はお手本だ。欧州・南米ではほぼ全ての国に広がる怒涛の デモ 、アメリカ・イスラエルでは選挙で民主党・ア..."
+        },
+        {
+          "time": "11/06 23:07",
+          "text": "欧州・南米ではほぼ全ての国に広がる怒涛の デモ 、アメリカ・イスラエルでは選挙で民主党・アラブユダヤ連携政党が過半数、 インド ..."
+        },
+        {
+          "time": "11/06 23:07",
+          "text": "フランス、ブラジル、世界各国に続け。欧州・南米ではほぼ全ての国に広がる怒涛の デモ 、アメリカ・イスラエルでは選挙で民主党・アラブユダヤ連携..."
+        }
+      ],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%A4%E3%83%B3%E3%83%89%20%E3%83%87%E3%83%A2"
+    },
+    {
+      "keyword": "ムンバイ 洪水",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [
+        {
+          "time": "10/23 12:11",
+          "text": "バンコクでの 洪水 リスク「100年に一度」が数年おきに発生も アジア開発銀行が警告 https://t.co/K9yZPunm69 バンコ..."
+        },
+        {
+          "time": "10/19 02:07",
+          "text": "去年から民泊をはじめたアニールさんもその一人。とはいえ今まで ムンバイ やデリーに住む同胞のパンデットが何かの用事で数組泊まっただけで、外国..."
+        },
+        {
+          "time": "10/15 18:48",
+          "text": "旅行じゃなく住んでた時だけど、2005年の ムンバイ 大 洪水 で立ち往生したときは、本当に怖かった。ドライバーの神テク..."
+        }
+      ],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%A0%E3%83%B3%E3%83%90%E3%82%A4%20%E6%B4%AA%E6%B0%B4"
+    },
+    {
+      "keyword": "India flight disruption",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=India%20flight%20disruption"
+    }
+  ],
+  "live_media": {
+    "channels": [
+      {
+        "id": "stream_ndtv_live",
+        "name": "📺 NDTV 24x7 (インド全国英語ニュース)",
+        "video_id": "i1vYo6zY8V4",
+        "handle": "@NDTV",
+        "type": "stream"
+      },
+      {
+        "id": "stream_india_today",
+        "name": "📺 India Today LIVE 24h",
+        "video_id": "R_1k_uHJQxc",
+        "handle": "@indiatoday",
+        "type": "stream"
+      },
+      {
+        "id": "stream_wion_live",
+        "name": "📺 WION (World Is One News インド国際放送)",
+        "video_id": "dtWvySy4-d4",
+        "handle": "@WION",
+        "type": "stream"
+      },
+      {
+        "id": "cam_somnath_temple",
+        "name": "📷 インド・グジャラート: ソームナート寺院 24h定点実況",
+        "video_id": "J4z7CIrvsuw",
+        "type": "camera"
+      },
+      {
+        "id": "cam_haridwar_ganga",
+        "name": "📷 インド・ハリドワール: ガンジス川 24h実況",
+        "video_id": "Bi9cRN61nOY",
+        "type": "camera"
+      }
+    ],
+    "default_channel_id": "stream_ndtv_live"
+  },
+  "forex": {
+    "timestamp": "11/07 12:49 JST",
+    "usd_jpy": {
+      "currency": "USD",
+      "name": "米ドル",
+      "symbol": "$",
+      "rate": 157.5,
+      "change": -0.86,
+      "change_pct": -0.54,
+      "direction": "down"
+    },
+    "local_jpy": {
+      "currency": "INR",
+      "name": "インドルピー",
+      "symbol": "₹",
+      "rate": 1.667,
+      "change": -0.008,
+      "change_pct": -0.46,
+      "direction": "down"
+    },
+    "eur_jpy": {
+      "currency": "EUR",
+      "name": "ユーロ",
+      "symbol": "€",
+      "rate": 176.82,
+      "change": -1.09,
+      "change_pct": -0.61
+    }
+  },
+  "airports": [
+    {
+      "iata": "DEL",
+      "icao": "VIDP",
+      "name": "インディラ・ガンディー国際空港",
+      "city": "ニューデリー",
+      "hub": "インド最大国際ハブ",
+      "departures_url": "https://www.newdelhiairport.in/flight-information/live-flight-departures",
+      "radar_url": "https://www.flightradar24.com/airport/del",
+      "flightaware_url": "https://www.flightaware.com/live/airport/VIDP",
+      "weather": {},
+      "status": "平常運航",
+      "status_code": "normal",
+      "status_badge": "🟢 平常運航",
+      "status_desc": "定常運航中（現在重大な気象警報なし）"
+    },
+    {
+      "iata": "BOM",
+      "icao": "VABB",
+      "name": "チャトラパティ・シヴァージー国際空港",
+      "city": "ムンバイ",
+      "hub": "西部主要国際空港",
+      "departures_url": "https://csmia.adaniairports.com/",
+      "radar_url": "https://www.flightradar24.com/airport/bom",
+      "flightaware_url": "https://www.flightaware.com/live/airport/VABB",
+      "weather": {},
+      "status": "平常運航",
+      "status_code": "normal",
+      "status_badge": "🟢 平常運航",
+      "status_desc": "定常運航中（現在重大な気象警報なし）"
+    }
+  ],
+  "weather": {
+    "cities": [
+      {
+        "name": "ニューデリー (首都)",
+        "name_en": "New Delhi",
+        "is_capital": true,
+        "lat": 28.6139,
+        "lon": 77.209,
+        "temp": 22.3,
+        "apparent_temp": 24.1,
+        "humidity": 74,
+        "wind_speed": 5.6,
+        "wind_gusts": 14.8,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 28.1,
+            "temp_min": 18.8,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 28.2,
+            "temp_min": 18.9,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 27.6,
+            "temp_min": 18.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ムンバイ (商業都市)",
+        "name_en": "Mumbai",
+        "is_capital": false,
+        "lat": 19.076,
+        "lon": 72.8777,
+        "temp": 30.1,
+        "apparent_temp": 29.8,
+        "humidity": 35,
+        "wind_speed": 8.3,
+        "wind_gusts": 22.7,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 35.9,
+            "temp_min": 26.1,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 35.8,
+            "temp_min": 24.4,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 35.4,
+            "temp_min": 24.9,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ベンガルール (IT拠点)",
+        "name_en": "Bengaluru",
+        "is_capital": false,
+        "lat": 12.9716,
+        "lon": 77.5946,
+        "temp": 23.7,
+        "apparent_temp": 24.7,
+        "humidity": 70,
+        "wind_speed": 13.1,
+        "wind_gusts": 34.2,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 28.4,
+            "temp_min": 19.5,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 2.8
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 28.3,
+            "temp_min": 19.7,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 2.7
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 27.7,
+            "temp_min": 19.4,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 6.6
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "ニューデリー (首都)",
+      "name_en": "New Delhi",
+      "is_capital": true,
+      "lat": 28.6139,
+      "lon": 77.209,
+      "temp": 22.3,
+      "apparent_temp": 24.1,
+      "humidity": 74,
+      "wind_speed": 5.6,
+      "wind_gusts": 14.8,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
+      "forecast": [
+        {
+          "date": "11/07(土)",
+          "temp_max": 28.1,
+          "temp_min": 18.8,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/08(日)",
+          "temp_max": 28.2,
+          "temp_min": 18.9,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/09(月)",
+          "temp_max": 27.6,
+          "temp_min": 18.1,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/07 12:49 JST"
+  },
+  "transit": {
+    "status": "NORMAL",
+    "status_code": "normal",
+    "status_badge": "🟢 平常運行",
+    "status_text": "都市交通・鉄道 平常運行 (ストなし)",
+    "overall_status": "平常運行",
+    "strike": false,
+    "monitored_systems_count": 1,
+    "alert_lines_count": 0,
+    "alert_lines": [],
+    "systems": [
+      {
+        "id": "delhi_metro",
+        "name": "デリー・メトロ (Delhi Metro Rail)",
+        "mode": "都市高速鉄道",
+        "coverage": "デリー首都圏",
+        "default_status": "平常運行",
+        "default_badge": "🟢 平常運行",
+        "default_code": "normal",
+        "default_details": "デリーメトロ各線平常運行中",
+        "official_url": "https://www.delhimetrorail.com/",
+        "status": "平常運行",
+        "status_badge": "🟢 平常運行",
+        "status_code": "normal",
+        "details": "デリーメトロ各線平常運行中"
+      }
+    ],
+    "timestamp": "11/07 12:49 JST"
+  },
+  "lifeline": {
+    "status": "NORMAL",
+    "status_text": "電力・通信インフラ 安定稼働中 (全系統正常)",
+    "monitored_items_count": 5,
+    "power": {
+      "name": "インド 国家電力公社・主要電力送電網",
+      "status": "NORMAL",
+      "status_text": "安定供給中 (停電なし)",
+      "details": "インド全土の電力供給インフラは安定稼働中。大規模停電報告なし。",
+      "official_url": "https://downdetector.com/"
+    },
+    "telecom": {
+      "status": "NORMAL",
+      "status_text": "主要キャリア全社 安定稼働",
+      "carriers": [
+        {
+          "name": "インド 主要キャリア1",
+          "type": "5G/4Gモバイル通信",
+          "status": "安定稼働"
+        },
+        {
+          "name": "インド 主要キャリア2",
+          "type": "モバイル通信・固定網",
+          "status": "安定稼働"
+        }
+      ],
+      "downdetector_url": "https://downdetector.com/"
+    },
+    "internet": {
+      "status": "NORMAL",
+      "status_text": "国際接続性 良好 (99.98%)",
+      "latency": "14ms (低遅延)",
+      "exchange": "インド 国内基幹IX・国際海底ケーブル接続",
+      "cloudflare_radar_url": "https://radar.cloudflare.com/"
+    },
+    "water_gas": {
+      "name": "インド 首都圏上下水道・都市エネルギー供給網",
+      "status": "NORMAL",
+      "status_text": "正常供給中",
+      "details": "基幹上下水道・天然ガス供給網 正常稼働"
+    }
+  },
+  "security": {
+    "status": "ALERT",
+    "status_text": "⚠️ 現地治安・テロ警戒態勢発令",
+    "threat_level": "インド治安当局 テロ警戒水準: 平常監視体制",
+    "summary": "インドにおいて、重大な治安テロ事案または大規模衝突が検知されています。現地公館の指示に従い退避・安全確保を行ってください。",
+    "incident_count": 1,
+    "incidents": [
+      {
+        "type": "MOFA_RISK",
+        "level": "ALERT",
+        "title": "外務省危険情報 レベル4",
+        "details": "レベル4: 退避してください（退避勧告）"
+      }
+    ],
+    "official_url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_001.html",
+    "emergency_phone": "総合緊急: 112 / 警察: 100 / 救急: 102 / 消防: 101 / 大使館: +91-(0)11-4610-4610"
+  },
+  "collected_by": "GitHub Actions"
+}

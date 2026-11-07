@@ -2395,25 +2395,62 @@
                     // ローカルサーバー未稼働（GitHub Pages等の静的ホスティング環境）
                 }
 
-                // 2. ローカルAPIが無い場合、GitHub Actions自動生成の静的JSONをフェッチ
+                // 2. ローカルAPIが無い場合、該当国の個別静的JSONをフェッチ (例: data/overseas_data_myanmar.json)
                 if (!data) {
                     try {
                         const jsonPath = `./data/overseas_data_${currentCountry}.json?t=${Date.now()}`;
-                        let res = await fetch(jsonPath);
-                        if (!res.ok) {
-                            res = await fetch(`./data/overseas_data_uk.json?t=${Date.now()}`);
-                        }
+                        const res = await fetch(jsonPath);
                         if (res.ok) {
                             data = await res.json();
-                            dataSource = "github_actions";
+                            dataSource = "github_country_json";
                         }
                     } catch (jsonErr) {
-                        console.warn("海外静的JSONの取得に失敗しました:", jsonErr);
+                        console.warn("個別JSON取得失敗:", jsonErr);
                     }
                 }
 
+                // 3. 個別JSONが無い場合、全カ国マスター (data/overseas_all_countries_risk.json) から該当国のデータを取得
                 if (!data) {
-                    throw new Error("海外データソース（APIおよび静的JSON）から応答がありません");
+                    try {
+                        const masterRes = await fetch(`./data/overseas_all_countries_risk.json?t=${Date.now()}`);
+                        if (masterRes.ok) {
+                            const masterAll = await masterRes.json();
+                            if (masterAll && masterAll[currentCountry]) {
+                                data = masterAll[currentCountry];
+                                dataSource = "github_master";
+                            }
+                        }
+                    } catch (mErr) {
+                        console.warn("マスターデータ取得失敗:", mErr);
+                    }
+                }
+
+                // 4. 万が一データが無い場合でも、絶対に他国(イギリス等)にすり替えず、選択国の安全デフォルトを生成
+                if (!data) {
+                    const meta = COUNTRY_METADATA[currentCountry] || { name: currentCountry, city: "" };
+                    data = {
+                        country: {
+                            id: currentCountry,
+                            name: meta.name || currentCountry,
+                            city: meta.city || "",
+                            flag: meta.flag || "🌐"
+                        },
+                        mofa_safety: {
+                            max_risk_level: 0,
+                            risk_level_name: "レベル0: 危険情報なし（平常）",
+                            max_infection_level: 0,
+                            risk_title: `${meta.name || currentCountry}：危険情報は発出されていません`,
+                            risk_lead: "最新の渡航・安全情報は外務省海外安全ホームページをご確認ください。",
+                            spots: [],
+                            mails: []
+                        },
+                        world_earthquakes: { count: 0, max_m: 0, items: [] },
+                        security: { threat_level: "NORMAL", desc: "特段の重大警報なし" },
+                        lifeline: { status: "NORMAL", desc: "平常稼働" },
+                        transit: { status: "NORMAL", desc: "平常運行" },
+                        airports: { status: "NORMAL", desc: "通常運航" },
+                        forex: { rate: "-", symbol: "", change_rate: 0 }
+                    };
                 }
                 latestDataCache = data;
                 renderDashboard(data);

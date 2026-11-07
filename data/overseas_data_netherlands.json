@@ -1,0 +1,918 @@
+{
+  "timestamp": "2026-11-07 12:50:03",
+  "timestamp_local": "2026-11-07 05:50:03",
+  "country": {
+    "id": "netherlands",
+    "name": "オランダ",
+    "english_name": "Netherlands",
+    "flag": "🇳🇱",
+    "city": "アムステルダム / ハーグ (Amsterdam / The Hague)",
+    "embassy_name": "在オランダ日本国大使館 (Embassy of Japan in the Netherlands)",
+    "mofa_code": "0031",
+    "mofa_page_url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_157.html",
+    "embassy_url": "https://www.nl.emb-japan.go.jp/itprtop_ja/index.html",
+    "tabireg_url": "https://www.ezairyu.mofa.go.jp/tabireg/index.html",
+    "emergency_phones": "警察・救急・消防: 112 / 大使館: +31-(0)70-346-9544",
+    "timezone_offset": 2,
+    "timezone_name": "CEST (現地: UTC+2)",
+    "currency_code": "EUR",
+    "currency_name": "ユーロ",
+    "currency_symbol": "€",
+    "default_camera_id": "stream_nos_live",
+    "default_keywords": [
+      "アムステルダム ストライキ",
+      "オランダ 嵐 欠航",
+      "スキポール 空港 遅延",
+      "Schiphol disruption"
+    ],
+    "media_channels": [
+      {
+        "id": "stream_nos_live",
+        "name": "📺 NOS Journaal (オランダ公共放送生配信)",
+        "video_id": "pykpO5kQJ98",
+        "handle": "@nos",
+        "type": "stream"
+      },
+      {
+        "id": "stream_rtl_nieuws",
+        "name": "📺 RTL Nieuws (オランダ主要民間報道)",
+        "video_id": "a47ckXKZjxI",
+        "handle": "@rtlnieuws",
+        "type": "stream"
+      },
+      {
+        "id": "stream_euronews_nl",
+        "name": "📺 Euronews English (欧州24h生配信)",
+        "video_id": "pykpO5kQJ98",
+        "handle": "@euronews",
+        "type": "stream"
+      },
+      {
+        "id": "cam_amsterdam_dam",
+        "name": "📷 アムステルダム: ダム広場・王宮前 4K [Now4Rent]",
+        "video_id": "Gd9d4q6WvUY",
+        "type": "camera"
+      },
+      {
+        "id": "cam_rotterdam_erasmus",
+        "name": "📷 ロッテルダム: エラスムス橋＆港湾 24h実況",
+        "video_id": "nFozEhYTEMo",
+        "type": "camera"
+      },
+      {
+        "id": "cam_netherlands_rail",
+        "name": "📷 オランダ鉄道: 幹線列車運行 24h実況 [RailCam]",
+        "video_id": "abaZ4GD5jbM",
+        "type": "camera"
+      }
+    ],
+    "weather_cities": [
+      {
+        "name": "アムステルダム (最大都市・首都)",
+        "name_en": "Amsterdam",
+        "lat": 52.3676,
+        "lon": 4.9041,
+        "is_capital": true
+      },
+      {
+        "name": "ハーグ (政府機関・国際司法)",
+        "name_en": "The Hague",
+        "lat": 52.0705,
+        "lon": 4.3007,
+        "is_capital": false
+      },
+      {
+        "name": "ロッテルダム (世界屈指の港湾)",
+        "name_en": "Rotterdam",
+        "lat": 51.9244,
+        "lon": 4.4777,
+        "is_capital": false
+      }
+    ],
+    "transit_systems": [
+      {
+        "id": "ns_rail",
+        "name": "オランダ鉄道 (NS Nederlandse Spoorwegen)",
+        "mode": "全国幹線鉄道",
+        "coverage": "オランダ全土・スキポール空港直結",
+        "default_status": "平常運行",
+        "default_badge": "🟢 平常運行",
+        "default_code": "normal",
+        "default_details": "主要インターシティ平常運行中",
+        "official_url": "https://www.ns.nl/en"
+      }
+    ],
+    "airports": [
+      {
+        "iata": "AMS",
+        "icao": "EHAM",
+        "name": "アムステルダム・スキポール空港",
+        "city": "アムステルダム",
+        "hub": "欧州最高峰メガハブ",
+        "departures_url": "https://www.schiphol.nl/en/departures/",
+        "radar_url": "https://www.flightradar24.com/airport/ams",
+        "flightaware_url": "https://www.flightaware.com/live/airport/EHAM"
+      }
+    ]
+  },
+  "mofa_safety": {
+    "status": "OK",
+    "max_risk_level": 0,
+    "risk_level_name": "レベル0: 危険情報なし（通常の安全対策を心掛けてください）",
+    "max_infection_level": 0,
+    "risk_title": "現在、危険情報は発出されていません",
+    "risk_lead": "安全対策の目安：海外渡航・滞在の際は「自分の身は自分で守る」心構えで最新情報を確認してください。",
+    "risk_url": "",
+    "risk_date": "",
+    "spots": [
+      {
+        "title": "欧州での抗議活動を受けた注意喚起",
+        "lead": "○欧州の複数の国で大規模な抗議活動が頻発しています。大部分は平和的な活動ですが、一部の過激な集団が暴徒化し、放火や略奪等が発生しています。報道等で最新の情報の入手に努め、抗議活動が行われている場所に不用意に近づかないなど、十分に注意を払ってください。\n○また、抗議活動が行われていない欧州諸国においても、今後抗議活動が行われる可能性もあるため、最新の情報の入手に努めるなど十分注意してください。",
+        "date": "2026/10/21 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C052.html"
+      },
+      {
+        "title": "中東情勢を受けた注意喚起",
+        "lead": "●米国東部時間７月20日、米国国務省は、全世界の米国民向けの渡航情報として、中東地域以外でも米国の外交施設が攻撃の標的とされてきたことに触れ、世界各地の米国や米国人に関連する施設がイランを支持する勢力の標的とされる可能性がある旨の注意喚起を発出しました。\n●特に、中東地域に滞在中の方は、７月18日に日本政府が発出した広域情報（中東情勢の急激な変化の可能性に関する注意喚起）を確認し、自らの安全確保に努めてください。また、中東地域以外でも不測の事態が発生する可能性が排除されません",
+        "date": "2026/07/21 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C038.html"
+      },
+      {
+        "title": "【広域情報】海外における写真・動画撮影及びＳＮＳ等への投稿に関する注意喚起",
+        "lead": "【広域情報】海外における写真・動画撮影及びＳＮＳ等への投稿に関する注意喚起",
+        "date": "2026/06/03 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C031.html"
+      },
+      {
+        "title": "匿名・流動型犯罪グループ（トクリュウ）を含めた犯罪組織による海外における闇バイトに関する注意喚起（加害者にならないために）（その２）",
+        "lead": "【ポイント】\n●これまで、特殊詐欺や違法薬物（大麻等）の密輸に関する注意喚起を発出してきていますが、海外における闇バイトに応募し、犯罪組織等に「かけ子」として海外で特殊詐欺に加担させられるケースや、意図せず違法薬物（大麻等）の運び屋として犯罪に加担してしまい、その結果、現地警察に拘束又は保護される事案が引き続き発生しています。",
+        "date": "2026/05/01 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C023.html"
+      },
+      {
+        "title": "イランへの攻撃に伴う注意喚起",
+        "lead": "●２月２８日（現地時間）、イスラエル国防相はイランを攻撃した旨発表しました。また、米国大統領はイランに対して軍事攻撃を開始した旨発表しました。イラン各地に攻撃があったと報道されています。\n●今回の攻撃を受けて、イランがイスラエルや中東地域の米軍基地等への反撃を実施する可能性は排除されません。中東地域の情勢が更に急速に悪化する可能性があります。\n●現地滞在中の方は、複数の情報源から中東情勢の滞在国への影響等の可能性やフライト情報を含む最新情報を収集し、米国の軍事施設等に近づかな",
+        "date": "2026/02/28 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C017.html"
+      },
+      {
+        "title": "デング熱に関する注意喚起（内容の更新）",
+        "lead": "● 高熱、発疹、筋肉痛などの症状を引き起こすデング熱が、中南米、大洋州、東南アジア、アフリカ地域などで発生しています。\n● デング熱は、デングウイルスに感染した蚊に刺されることで感染しますので、上記地域においては、長袖の着用や虫除けスプレーの使用など、以下1(4)記載の予防措置をとるよう心がけてください。\n● 感染が疑われる場合は早期に医療機関を受診してください。",
+        "date": "2026/02/03 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C010.html"
+      },
+      {
+        "title": "薬剤耐性（AMR）に関する注意喚起（内容の更新）",
+        "lead": "● 薬剤耐性（AMR）とは、細菌による感染症の治療薬である抗菌薬が効きにくくなる、もしくは効かなくなる問題であり、細菌感染症ではないのに抗菌薬を使用したり、抗菌薬の使用を自己判断で止めてしまったりするなどの不適切な使用によって出現・拡大するおそれがあります。\n● 薬剤耐性（AMR）の拡大を防ぐために、抗菌薬を使用する際には、医師や薬剤師の指示に従い、適切な量・回数・期間を守って服用してください。\n● 日本とは異なり、薬局で抗菌薬を買えてしまう国もありますが、自分の判断で不要な",
+        "date": "2026/01/30 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C009.html"
+      },
+      {
+        "title": "特殊詐欺についての注意喚起（被害に遭わないために）",
+        "lead": "●非対面の方法で相手に接触し金銭をだまし取る、いわゆる特殊詐欺が海外でも発生しています。日本国大使館職員、日本国総領事館職員、日本の警察官や税関職員等の日本政府の職員を騙るケースも確認されております。\n\n●日本国大使館、日本国総領事館、警察官や税関職員等といった日本の公的機関が正式な手続によらず送金を要求することはありません。身に覚えのない不審な電話、電子メール、ＳＮＳ等に安易に反応しないなどの対策をとってください。\n\n●日本以外に居られる際に、少しでも不安を感じたら、お近く",
+        "date": "2025/12/16 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2025C057.html"
+      }
+    ],
+    "consular_mails": [
+      {
+        "title": "アムステルダム市内でのデモ行進に伴う注意喚起（１１月８日（日））",
+        "date": "2026/11/05 21:46:11",
+        "koukan": "",
+        "lead": "●１１月８日（日），アムステルダム市内において、パレスチナ支援を訴える大規模なデモ行進が予定されています。 \n●不測の事態に巻き込まれることのないよう十分注意してください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168794"
+      },
+      {
+        "title": "【注意喚起】10月31日オランダ国内におけるデモ実施の可能性について",
+        "date": "2026/10/31 03:06:10",
+        "koukan": "",
+        "lead": "・明日１０月３１日、オランダ国内のアムステルダム市やハーグ市等の複数の都市においてデモが実施される可能性があるとの現地報道があります。現時点で具体的な場所・時間等の詳細は不明ですが、デモは短時間で参加者が集まり、交通規制や公共交通の遅延・運休が発生するほか、状況によっては警察による規制や衝突等に発展する可能性もあります。週末にかけて注意をお願いします。\n・テレビや新聞等の報道にも注意を払い、最新の情報の入手に努めるなどして、デモに巻き込まれないよう注意するとともに、偶然デモが",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168681"
+      },
+      {
+        "title": "ハーグ・マラソン大会開催について（１１月１日（日））",
+        "date": "2026/10/28 23:41:11",
+        "koukan": "",
+        "lead": "●１１月１日（日）、ハーグ市内においてマラソン大会が開催されます。 \n●市内で大規模な交通規制が予定されています。渋滞や混雑等に留意するとともに、不測の事態に巻き込まれることのないよう十分注意してください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168617"
+      },
+      {
+        "title": "欧州での抗議活動を受けた注意喚起",
+        "date": "2026/10/21 00:00:00",
+        "koukan": "",
+        "lead": "○欧州の複数の国で大規模な抗議活動が頻発しています。大部分は平和的な活動ですが、一部の過激な集団が暴徒化し、放火や略奪等が発生しています。報道等で最新の情報の入手に努め、抗議活動が行われている場所に不用意に近づかないなど、十分に注意を払ってください。\n○また、抗議活動が行われていない欧州諸国においても、今後抗議活動が行われる可能性もあるため、最新の情報の入手に努めるなど十分注意してください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=2026C052"
+      },
+      {
+        "title": "パスポートオンライン申請などの一時利用停止",
+        "date": "2026/09/29 19:06:10",
+        "koukan": "",
+        "lead": "法務省の戸籍情報連携関連システムの定期メンテナンスのため、下記の期間はパスポートのオンライン申請がご利用いただけませんので、ご注意ください。\n　また、同期間中は電子戸籍パス（戸籍電子証明書提供用識別符号）による手続きに対応できませんので、同期間中に当館領事窓口にて帰国のための渡航書の早期発給や在留証明の即日発給を申請される場合には、恐れ入りますが、紙の戸籍謄抄本をご用意ください。\n  \n【定期メンテナンス期間（当地時間）】\n　・10月  2日（金）11:00 ～ 10月  4",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167951"
+      },
+      {
+        "title": "ハーグ市内及びユトレヒト市近郊における複数のデモ予定について（９月１９日（土））",
+        "date": "2026/09/19 01:56:08",
+        "koukan": "",
+        "lead": "・現地報道によれば、ハーグ市内において、複数の右翼団体が９月１９日（土）午後１２時３０分から主に反移民をテーマとしたデモ行進（'Wij zijn het Volk'）を計画しています。ルートはMalieveld, Burgemeester Patijnlaan, Carnegieplein, Plein1813, Kneuterdijk, Lange Vijverberg, Korte Voorhoutを回ったのちにMalieveldに戻る予定です。また、これに対抗するデモが",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167799"
+      },
+      {
+        "title": "当館休館日のお知らせ（9月19日（土）～23日（水））",
+        "date": "2026/09/18 00:46:13",
+        "koukan": "",
+        "lead": "９月19日（土）から９月23日（水）は当館の休館日となりますので、お知らせします。\n　・９月21日（月）：敬老の日\n　・９月22日（火）：国民の休日\n　・９月23日（水）：秋分の日\n※当館ホームページ「休館日」： https://www.nl.emb-japan.go.jp/itpr_ja/a_close.html",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167773"
+      },
+      {
+        "title": "オランダ議会開会日におけるハーグ市内の交通規制について（９月１３日（日）から９月１５日（火）まで）",
+        "date": "2026/09/12 00:16:13",
+        "koukan": "",
+        "lead": "９月15日（火）は、オランダ議会の開会日であるため、国王陛下等がノールトアインデ宮殿（Paleis Noordeinde）から王立劇場（Koninklijke Schouwburg）まで馬車によるパレードを実施する予定です。\n　そのため、パレードのリハーサルが実施される９月13日（日）からパレード当日の９月15日（火）までの間は、ハーグ市中心部で大規模な交通規制が予定されております。\n　\n　上記期間中にその付近を訪れる予定の方は、あらかじめ以下の情報等をご確認いただくことをお",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167679"
+      },
+      {
+        "title": "注意喚起：ハーグ市内でのデモ行進について（９月１２日（土））",
+        "date": "2026/09/11 23:21:11",
+        "koukan": "",
+        "lead": "●９月12日（土）11時から13時までの間、ハーグ市内において反捕鯨団体によるデモ行進が予定されています。\n●不測の事態に巻き込まれることのないよう、十分注意してください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167678"
+      },
+      {
+        "title": "【一部訂正】労働組合ＦＮＶによるストライキに伴う公共交通機関の停止（９月９日（水））",
+        "date": "2026/09/09 01:31:15",
+        "koukan": "",
+        "lead": "●先ほどご案内致しました「労働組合ＦＮＶによるストライキに伴う公共交通機関の停止（９月９日（水））」につきまして、本文の曜日に誤りがございましたところ、訂正したものを改めてご案内いたします。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167611"
+      },
+      {
+        "title": "労働組合ＦＮＶによるストライキに伴う公共交通機関の停止（９月９日（水））",
+        "date": "2026/09/08 22:36:08",
+        "koukan": "",
+        "lead": "報道によれば、労働組合ＦＮＶは、オランダ政府の社会保障支出削減計画に対する抗議のため、明日９月９日（金）、オランダ全域の公共交通機関（列車、バス、トラム、地下鉄）の運行を終日停止する旨発表しております。\n\n　そのため、同日はほぼすべての公共交通機関の利用ができなくなり、交通に混乱が生じることが予想されます。外出や移動を計画される方は、ご利用される各社交通機関のウェブサイトや交通案内検索サイトなどを通じて、最新の情報を確認してください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167603"
+      },
+      {
+        "title": "日本大使館前歩道におけるデモの実施(８月３１日（月）)",
+        "date": "2026/08/28 23:51:08",
+        "koukan": "",
+        "lead": "８月３１日（月）１４時００分から１６時００分にかけて、日本大使館前において、日本のイルカ漁に反対するデモが実施される予定です。\n　当館へ来館される場合は、周囲の状況に注意を払い、大使館への出入りの際には警備に当たっている大使館警備員または当地警察の指示に従ってください。また、デモ隊には興味本位で近づかないようにし、不測の事態に巻き込まれることのないよう十分に注意してください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167369"
+      },
+      {
+        "title": "ロッテルダム港の爆発事案に関する注意喚起",
+        "date": "2026/08/13 22:16:08",
+        "koukan": "",
+        "lead": "○現地報道によれば、本日昼頃ロッテルダム港内ムーゼルウェフ（Moezelweg）にあるガンヴォー・エナジー（Gunvor Energy）社において貯蔵タンクの爆発があり、死者１名、負傷者複数、爆発の原因は不明とのことです。\n○近隣地域の方においては情報を収集し、安全に十分注意してください。\n\n　以下の外務省ホームページの「海外安全」にて、海外安全パンフレット・資料が確認できますので、ご参考としてください。 \nhttps://www.mofa.go.jp/mofaj/press",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167024"
+      },
+      {
+        "title": "マイナポータルからのパスポートのオンライン申請の運用開始",
+        "date": "2026/08/01 02:31:08",
+        "koukan": "",
+        "lead": "○本年8月25日以降、国外転出者向けマイナンバーカードをお持ちの方は、マイナポータルからパスポートのオンライン申請が可能となる予定です。\n○マイナポータルからの申請方法の詳細については、8月25日以降に外務省ウェブサイトに掲載予定の操作説明動画やマイナポータルの操作マニュアルをご参照ください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=166801"
+      },
+      {
+        "title": "中東情勢を受けた注意喚起",
+        "date": "2026/07/21 00:00:00",
+        "koukan": "",
+        "lead": "●米国東部時間７月20日、米国国務省は、全世界の米国民向けの渡航情報として、中東地域以外でも米国の外交施設が攻撃の標的とされてきたことに触れ、世界各地の米国や米国人に関連する施設がイランを支持する勢力の標的とされる可能性がある旨の注意喚起を発出しました。\n●特に、中東地域に滞在中の方は、７月18日に日本政府が発出した広域情報（中東情勢の急激な変化の可能性に関する注意喚起）を確認し、自らの安全確保に努めてください。また、中東地域以外でも不測の事態が発生する可能性が排除されません",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=2026C038"
+      }
+    ],
+    "mail_count": 15
+  },
+  "world_earthquakes": {
+    "status": "OK",
+    "count_24h": 5,
+    "summary": "M4.8 (36 km WNW of Poso, Indonesia)",
+    "latest": {
+      "mag": 4.8,
+      "place": "36 km WNW of Poso, Indonesia",
+      "time": "11/07 04:07 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twmr",
+      "tsunami": 0
+    },
+    "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "36 km WNW of Poso, Indonesia",
+        "time": "11/07 04:07 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twmr",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "101 km SSE of Palekastro, Greece",
+        "time": "11/07 00:26 JST",
+        "depth_km": 40.657,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twhq",
+        "tsunami": 0
+      },
+      {
+        "mag": 6.1,
+        "place": "144 km SE of Hasaki, Japan",
+        "time": "11/06 19:39 JST",
+        "depth_km": 29,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg9",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "87 km N of Isangel, Vanuatu",
+        "time": "11/06 17:14 JST",
+        "depth_km": 246.521,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfu",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.9,
+        "place": "41 km SW of Balangonan, Philippines",
+        "time": "11/06 15:28 JST",
+        "depth_km": 35,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfk",
+        "tsunami": 0
+      }
+    ]
+  },
+  "world_news": {
+    "articles": [
+      {
+        "title": "韓国の対米外交に新たな課題…トランプ大統領だけを眺めた「おべっか外交」終わり、民主党への対応も(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/0965742c6a01bea373de8a00f16c5e4e436e644c?source=rss",
+        "description": "トランプ米大統領と握手して帰国しても、米議会に改めて説明しなければならない。今月3日（現地時間）の中間選挙の結果、民主党が上下両院を掌握することになり、韓国の対米外交に新たに突きつけられた課題だ。トラ",
+        "pub_date": "11/07 12:46 JST",
+        "is_priority": false
+      },
+      {
+        "title": "米アトランタ動物園でパンダ2頭が公開　米中友好をアピール　日本でのパンダゼロ(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/dcd4e24290a19881bfb8c564d4cf690934c0db11?source=rss",
+        "description": "中国からアメリカに貸し出されたパンダ2頭がアメリカ南部ジョージア州のアトランタ動物園で公開されました。 6日から公開されたのは、平和を意味するオスのパンダの「平平（ピンピン）」と、二重の祝福を意味する",
+        "pub_date": "11/07 12:43 JST",
+        "is_priority": false
+      },
+      {
+        "title": "イラン再攻撃の可能性に言及　トランプ大統領「近く決断」　回避に向けた動きも(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/74dfe30efc7c70b6c3b08523316b104948f1c15a?source=rss",
+        "description": "アメリカによるイランへの再攻撃はあるのか、ないのか。その判断が焦点となっています。トランプ大統領は記者団に対し、近く決定すると述べました。■イラン「柔軟な姿勢」の可能性も 中間選挙の前日、記者団から、",
+        "pub_date": "11/07 12:37 JST",
+        "is_priority": true
+      },
+      {
+        "title": "米テック右派の信仰回帰　AIスタートアップを支える「終末論的ナラティブ」とは　関西学院大・柳澤田実准教授(AERA DIGITAL)",
+        "link": "https://news.yahoo.co.jp/articles/c8245e3252a0a51fcc86a101a0b57d5e7984db0e?source=rss",
+        "description": "米国では、防衛テック企業が政治的な影響力を強めている。B2Cの時代からB2Gへと収益機会が移り、国防の必要性と商業的利益が連動しているのだという。関西学院大学の柳澤田実准教授に聞いた。AERA 202",
+        "pub_date": "11/07 12:30 JST",
+        "is_priority": false
+      },
+      {
+        "title": "謎の“黒フード姿“でボブ・ディラン氏が教皇と2ショット「まるでスター・ウォーズ」独特すぎる装いに世界が騒然…バチカンで歴史的面会(ABEMA TIMES)",
+        "link": "https://news.yahoo.co.jp/articles/ef99d0d1907b99d7c556eefdbf215ba783a8b376?source=rss",
+        "description": "ローマ教皇レオ14世と並び、黒いフード姿で写真に収まる人物。その正体は、ノーベル文学賞の受賞者としても知られるアメリカのシンガー・ソングライター、ボブ・ディランさんだ。【映像】まるでスター・ウォーズ？",
+        "pub_date": "11/07 12:27 JST",
+        "is_priority": false
+      },
+      {
+        "title": "最側近の首席補佐官退任へ トランプ大統領“閣僚交代はごくわずか”(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/64ced54f8cc8dac2f7adb5bc1e87553cecf3725a?source=rss",
+        "description": "アメリカのトランプ大統領はワイルズ首席補佐官を交代させ、強硬な移民政策の立案者として知られるミラー氏が後任に就くと発表しました。 トランプ大統領は6日、2期目の政権発足時から首席補佐官を務めた最側近の",
+        "pub_date": "11/07 12:18 JST",
+        "is_priority": false
+      },
+      {
+        "title": "韓国軍、民間人統制線以北への無断侵入に「山菜採り」…鉄条網切断は「動物の仕業」(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/ee032cf140940a1a96618bfb15801aaa0052b345?source=rss",
+        "description": "先月、江原道鉄原で30代の女性が民間人出入統制線以北の地域に無断で侵入した際、韓国軍はこの女性の身柄を確保できなかったにもかかわらず、「山菜を採りに来た民間人と推定される」として捜索を打ち切っていたこ",
+        "pub_date": "11/07 12:05 JST",
+        "is_priority": false
+      },
+      {
+        "title": "トランプ氏、ウクライナ和平で「欧州全体が参加」の安保合意案　詳細不明で欧州は戸惑い(CNN.co.jp)",
+        "link": "https://news.yahoo.co.jp/articles/dfa346d1182cf4ef0f548839e3ce8a7355758b65?source=rss",
+        "description": "（CNN） トランプ米大統領は5日、プーチン・ロシア大統領の特使と会談した後、ウクライナ和平に向けて「欧州全体が参加する可能性のある」新たな安全保障合意案があると述べた。ただし提案の詳細は示さず、欧州",
+        "pub_date": "11/07 12:01 JST",
+        "is_priority": true
+      },
+      {
+        "title": "テスラが来年「サイバートラック」の生産を縮小へ、ロボタクシー増産に舵取り(Forbes JAPAN)",
+        "link": "https://news.yahoo.co.jp/articles/465ac641dae277c400223d5a413401eda07d2cf6?source=rss",
+        "description": "テスラのイーロン・マスクCEOは、テキサス州の工場「Texas Gigafactory」におけるサイバートラックの生産を、来年段階的に縮小すると発表した。ロボタクシー「サイバーキャブ」の増産体制を整え",
+        "pub_date": "11/07 12:00 JST",
+        "is_priority": false
+      },
+      {
+        "title": "レーザーで無人機撃墜…北朝鮮の脅威多様化に対応する韓国空軍(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/5780dc5cccc16f7b3c137812bd4d12efdc589ed0?source=rss",
+        "description": "「接近目標最終識別および交戦要請！」今月4日午前、忠清南道保寧（ボリョン）の大川（デチョン）射撃場。天弓II部隊の近くで隊員の叫び声が響くと、垂直発射台からミサイル2発が空中へと飛び立った。ミサイルは",
+        "pub_date": "11/07 11:59 JST",
+        "is_priority": false
+      },
+      {
+        "title": "【解説】抗議活動で勢いづく欧州の若者たち、何で結びついているのか(BBC News)",
+        "link": "https://news.yahoo.co.jp/articles/201e01393cf2499a1cf75dcc1d9969a62bc0c067?source=rss",
+        "description": "カティヤ・アドラー欧州編集長伊ミラノ、仏マルセイユ、そしてスペインのマドリードなど、ヨーロッパ各地の多くの都市で、ここ数週間、色とりどりの情熱的な抗議活動が繰り広げられた。その多くは平和的に始まったも",
+        "pub_date": "11/07 11:58 JST",
+        "is_priority": true
+      },
+      {
+        "title": "男尊女卑、ショート動画、AIまで…「5つのネットスラング」が語る、アメリカの若者の「本音」(ニューズウィーク日本版)",
+        "link": "https://news.yahoo.co.jp/articles/b51039a9d63ef1b51027216489b580b80d01d64d?source=rss",
+        "description": "ジェンダー平等が男性の権利を犠牲にして実現されてきたと主張するオンラインコミュニティーの総称。富を築くことや女性を支配することを「男らしさ」の象徴とする。SNSやポッドキャスト、ゲーマーのコミュニティ",
+        "pub_date": "11/07 11:51 JST",
+        "is_priority": false
+      },
+      {
+        "title": "メーガン妃の父親を逮捕、未成年少女の性的虐待写真所持で　米司法省(CNN.co.jp)",
+        "link": "https://news.yahoo.co.jp/articles/a6e84b2124824dd19996aebb3fe34346268eb64c?source=rss",
+        "description": "（CNN） 米司法省によると、英メーガン妃の父親トーマス・マークル容疑者（82）が6日、自宅軟禁を命じられた。児童ポルノ所持の罪に問われている。写真特集：英王室の子どもたちロサンゼルス連邦地検の検事は",
+        "pub_date": "11/07 11:41 JST",
+        "is_priority": false
+      },
+      {
+        "title": "日本サッカー界の大物・田嶋幸三氏　FIFA会長選に出馬(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/16ae7f832275b3873983d5e05221602d2eb1437c?source=rss",
+        "description": "日本サッカー界の「大物」とされている田嶋幸三氏（68）＝日本サッカー協会（JFA）名誉会長＝が世界のサッカー界でトップの座に挑む。来年3月に行われる国際サッカー連盟（FIFA）会長選で、4選を目指す現",
+        "pub_date": "11/07 11:35 JST",
+        "is_priority": false
+      },
+      {
+        "title": "欧州放送局が爆破予告の標的に　英国とアイルランド､ブルガリア(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/d2c2302afb4341b85b7041b15c454acbf21e3c01?source=rss",
+        "description": "ロンドン、イギリス、11月7日 (AP) ー 今週相次いだ複数の航空便に対する爆破予告に続き、ヨーロッパ全域の3つの放送局が安全上の脅威を受けた。 アイルランドでは、国内の放送局RTEのダブリン本社が",
+        "pub_date": "11/07 11:30 JST",
+        "is_priority": true
+      },
+      {
+        "title": "釜山の食堂で初対面の女子中学生のほおをたたいた40代男、二審で執行猶予付き判決(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/c1940e2037622b14af78a0a791e9cbd19992c0ec?source=rss",
+        "description": "飲食店で初対面の女子中学生のほおをたたいて転倒させたとして起訴され、一審で罰金刑を言い渡された40代の男が、控訴審ではより重い執行猶予付きの有罪判決を言い渡された。【写真】集団で暴行される14歳女子中",
+        "pub_date": "11/07 11:30 JST",
+        "is_priority": false
+      },
+      {
+        "title": "オランダ建設現場に抗議者侵入　拡大するデータセンター反対の波(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/b5f1a9caa86ec02f4eef56dc90e9cd316ab58072?source=rss",
+        "description": "ハーグ、オランダ、11月7日 (AP) ー オランダのアムステルダムにあるマイクロソフトの新データセンターの建設現場に6日、抗議者らが侵入した。一部の抗議者らがクレーンに登って発煙筒をたき、警察と衝突",
+        "pub_date": "11/07 11:27 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ロシア　日本たばこ産業現地4法人の経営権を強制接収(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/6c23abf11da0aa796669b905ff47b62518c3f2a4?source=rss",
+        "description": "ロシアが同国のたばこ市場で1位を占める日本たばこ産業（JT）の現地法人4社の経営権を強制的に接収した。ロシアは日本に対する敵対的措置を続けており、日本政府が筆頭株主である企業の資産没収手続きにまで着手",
+        "pub_date": "11/07 11:25 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ビニール袋がモゾモゾ…開けてみたら口を縛られた子犬、韓国ネット驚がく(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/2e3216252a97cfa5cf4691274dcb24d836c8525b?source=rss",
+        "description": "【NEWSIS】ビニール袋に生きたまま入れられて捨てられていた子犬が発見され、ネットで怒りが渦巻いている。さらに子犬の口は輪ゴムで縛られており、近隣では足を骨折したもう一匹の捨て犬も発見され、動物虐待",
+        "pub_date": "11/07 11:25 JST",
+        "is_priority": false
+      },
+      {
+        "title": "高校生が落書き消去作業に参加　セルビアの首都ベオグラードで(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/9a7818c6fbf4e7154a4edf6ae608c7163374c0b1?source=rss",
+        "description": "ベオグラード、セルビア、11月7日 (AP) ー セルビアの首都ベオグラードで6日、長年権力を維持した強権指導者とその政府に対する若者主導の運動の勝利を受けた選挙後のクリーンアップとして、街のイメージ",
+        "pub_date": "11/07 11:24 JST",
+        "is_priority": false
+      }
+    ],
+    "count": 20
+  },
+  "sns_voices": [
+    {
+      "keyword": "アムステルダム ストライキ",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [
+        {
+          "time": "10/20 09:55",
+          "text": "🇳🇱オランダ｜ アムステルダム における大規模音楽イベントに伴う注意喚起⚠️ 10/21(水)〜25(日)に「 アムステルダム ..."
+        }
+      ],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%A2%E3%83%A0%E3%82%B9%E3%83%86%E3%83%AB%E3%83%80%E3%83%A0%20%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AD"
+    },
+    {
+      "keyword": "オランダ 嵐 欠航",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80%20%E5%B5%90%20%E6%AC%A0%E8%88%AA"
+    },
+    {
+      "keyword": "スキポール 空港 遅延",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [
+        {
+          "time": "11/01 06:48",
+          "text": "昨日「飛行機の 遅延 で予定していたSnowManのライブに行けない」件が話題になっていましたが、私は大雪による欠航で スキポー..."
+        },
+        {
+          "time": "10/10 03:41",
+          "text": "スキポール空港 でトランジット1時間半しかなくて不安だと思ってたら全然早く行けたかつ今のところ1時間半 遅延 してる ど..."
+        }
+      ],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%B9%E3%82%AD%E3%83%9D%E3%83%BC%E3%83%AB%20%E7%A9%BA%E6%B8%AF%20%E9%81%85%E5%BB%B6"
+    },
+    {
+      "keyword": "Schiphol disruption",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=Schiphol%20disruption"
+    }
+  ],
+  "live_media": {
+    "channels": [
+      {
+        "id": "stream_nos_live",
+        "name": "📺 NOS Journaal (オランダ公共放送生配信)",
+        "video_id": "96_0qY2ldn4",
+        "handle": "@nos",
+        "type": "stream"
+      },
+      {
+        "id": "stream_rtl_nieuws",
+        "name": "📺 RTL Nieuws (オランダ主要民間報道)",
+        "video_id": "UsW2X1a7jCw",
+        "handle": "@rtlnieuws",
+        "type": "stream"
+      },
+      {
+        "id": "stream_euronews_nl",
+        "name": "📺 Euronews English (欧州24h生配信)",
+        "video_id": "pykpO5kQJ98",
+        "handle": "@euronews",
+        "type": "stream"
+      },
+      {
+        "id": "cam_amsterdam_dam",
+        "name": "📷 アムステルダム: ダム広場・王宮前 4K [Now4Rent]",
+        "video_id": "Gd9d4q6WvUY",
+        "type": "camera"
+      },
+      {
+        "id": "cam_rotterdam_erasmus",
+        "name": "📷 ロッテルダム: エラスムス橋＆港湾 24h実況",
+        "video_id": "nFozEhYTEMo",
+        "type": "camera"
+      },
+      {
+        "id": "cam_netherlands_rail",
+        "name": "📷 オランダ鉄道: 幹線列車運行 24h実況 [RailCam]",
+        "video_id": "abaZ4GD5jbM",
+        "type": "camera"
+      }
+    ],
+    "default_channel_id": "stream_nos_live"
+  },
+  "forex": {
+    "timestamp": "11/07 12:49 JST",
+    "usd_jpy": {
+      "currency": "USD",
+      "name": "米ドル",
+      "symbol": "$",
+      "rate": 157.5,
+      "change": -0.86,
+      "change_pct": -0.54,
+      "direction": "down"
+    },
+    "local_jpy": {
+      "currency": "EUR",
+      "name": "ユーロ",
+      "symbol": "€",
+      "rate": 176.82,
+      "change": -1.09,
+      "change_pct": -0.61,
+      "direction": "down"
+    },
+    "eur_jpy": {
+      "currency": "EUR",
+      "name": "ユーロ",
+      "symbol": "€",
+      "rate": 176.82,
+      "change": -1.09,
+      "change_pct": -0.61
+    }
+  },
+  "airports": [
+    {
+      "iata": "AMS",
+      "icao": "EHAM",
+      "name": "アムステルダム・スキポール空港",
+      "city": "アムステルダム",
+      "hub": "欧州最高峰メガハブ",
+      "departures_url": "https://www.schiphol.nl/en/departures/",
+      "radar_url": "https://www.flightradar24.com/airport/ams",
+      "flightaware_url": "https://www.flightaware.com/live/airport/EHAM",
+      "weather": {},
+      "status": "平常運航",
+      "status_code": "normal",
+      "status_badge": "🟢 平常運航",
+      "status_desc": "定常運航中（現在重大な気象警報なし）"
+    }
+  ],
+  "weather": {
+    "cities": [
+      {
+        "name": "アムステルダム (最大都市・首都)",
+        "name_en": "Amsterdam",
+        "is_capital": true,
+        "lat": 52.3676,
+        "lon": 4.9041,
+        "temp": 3.6,
+        "apparent_temp": 0.4,
+        "humidity": 87,
+        "wind_speed": 9.4,
+        "wind_gusts": 16.9,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 7.1,
+            "temp_min": 2.7,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 9.0,
+            "temp_min": 6.5,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 1.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 10.0,
+            "temp_min": 2.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ハーグ (政府機関・国際司法)",
+        "name_en": "The Hague",
+        "is_capital": false,
+        "lat": 52.0705,
+        "lon": 4.3007,
+        "temp": 3.0,
+        "apparent_temp": 0.1,
+        "humidity": 90,
+        "wind_speed": 6.5,
+        "wind_gusts": 12.2,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 9.2,
+            "temp_min": 2.3,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 1.7
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 9.2,
+            "temp_min": 5.9,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.5
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 10.4,
+            "temp_min": 3.9,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ロッテルダム (世界屈指の港湾)",
+        "name_en": "Rotterdam",
+        "is_capital": false,
+        "lat": 51.9244,
+        "lon": 4.4777,
+        "temp": 4.7,
+        "apparent_temp": 2.3,
+        "humidity": 88,
+        "wind_speed": 5.0,
+        "wind_gusts": 7.9,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 9.6,
+            "temp_min": 3.4,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.6
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 9.6,
+            "temp_min": 6.3,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 10.1,
+            "temp_min": 4.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "アムステルダム (最大都市・首都)",
+      "name_en": "Amsterdam",
+      "is_capital": true,
+      "lat": 52.3676,
+      "lon": 4.9041,
+      "temp": 3.6,
+      "apparent_temp": 0.4,
+      "humidity": 87,
+      "wind_speed": 9.4,
+      "wind_gusts": 16.9,
+      "precipitation": 0.0,
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
+      "forecast": [
+        {
+          "date": "11/07(土)",
+          "temp_max": 7.1,
+          "temp_min": 2.7,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/08(日)",
+          "temp_max": 9.0,
+          "temp_min": 6.5,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 1.0
+        },
+        {
+          "date": "11/09(月)",
+          "temp_max": 10.0,
+          "temp_min": 2.6,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/07 12:50 JST"
+  },
+  "transit": {
+    "status": "NORMAL",
+    "status_code": "normal",
+    "status_badge": "🟢 平常運行",
+    "status_text": "都市交通・鉄道 平常運行 (ストなし)",
+    "overall_status": "平常運行",
+    "strike": false,
+    "monitored_systems_count": 1,
+    "alert_lines_count": 0,
+    "alert_lines": [],
+    "systems": [
+      {
+        "id": "ns_rail",
+        "name": "オランダ鉄道 (NS Nederlandse Spoorwegen)",
+        "mode": "全国幹線鉄道",
+        "coverage": "オランダ全土・スキポール空港直結",
+        "default_status": "平常運行",
+        "default_badge": "🟢 平常運行",
+        "default_code": "normal",
+        "default_details": "主要インターシティ平常運行中",
+        "official_url": "https://www.ns.nl/en",
+        "status": "平常運行",
+        "status_badge": "🟢 平常運行",
+        "status_code": "normal",
+        "details": "主要インターシティ平常運行中"
+      }
+    ],
+    "timestamp": "11/07 12:49 JST"
+  },
+  "lifeline": {
+    "status": "NORMAL",
+    "status_text": "電力・通信インフラ 安定稼働中 (全系統正常)",
+    "monitored_items_count": 5,
+    "power": {
+      "name": "オランダ 国家電力公社・主要電力送電網",
+      "status": "NORMAL",
+      "status_text": "安定供給中 (停電なし)",
+      "details": "オランダ全土の電力供給インフラは安定稼働中。大規模停電報告なし。",
+      "official_url": "https://downdetector.com/"
+    },
+    "telecom": {
+      "status": "NORMAL",
+      "status_text": "主要キャリア全社 安定稼働",
+      "carriers": [
+        {
+          "name": "オランダ 主要キャリア1",
+          "type": "5G/4Gモバイル通信",
+          "status": "安定稼働"
+        },
+        {
+          "name": "オランダ 主要キャリア2",
+          "type": "モバイル通信・固定網",
+          "status": "安定稼働"
+        }
+      ],
+      "downdetector_url": "https://downdetector.com/"
+    },
+    "internet": {
+      "status": "NORMAL",
+      "status_text": "国際接続性 良好 (99.98%)",
+      "latency": "14ms (低遅延)",
+      "exchange": "オランダ 国内基幹IX・国際海底ケーブル接続",
+      "cloudflare_radar_url": "https://radar.cloudflare.com/"
+    },
+    "water_gas": {
+      "name": "オランダ 首都圏上下水道・都市エネルギー供給網",
+      "status": "NORMAL",
+      "status_text": "正常供給中",
+      "details": "基幹上下水道・天然ガス供給網 正常稼働"
+    }
+  },
+  "security": {
+    "status": "CAUTION",
+    "status_text": "現地デモ・治安注意情報あり (注意)",
+    "threat_level": "オランダ治安当局 テロ警戒水準: 平常監視体制",
+    "summary": "オランダにおいて、抗議デモや治安注意事案が検知されています。人混みを避け、最新情報に留意してください。",
+    "incident_count": 2,
+    "incidents": [
+      {
+        "type": "CONSULAR_CAUTION",
+        "level": "CAUTION",
+        "title": "アムステルダム市内でのデモ行進に伴う注意喚起（１１月８日（日））",
+        "date": "2026/11/05 21:46:11",
+        "koukan": "",
+        "details": "●１１月８日（日），アムステルダム市内において、パレスチナ支援を訴える大規模なデモ行進が予定されています。 \n●不測の事態に巻き込まれることのないよう十分注意してください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168794"
+      },
+      {
+        "type": "CONSULAR_CAUTION",
+        "level": "CAUTION",
+        "title": "注意喚起：ハーグ市内でのデモ行進について（９月１２日（土））",
+        "date": "2026/09/11 23:21:11",
+        "koukan": "",
+        "details": "●９月12日（土）11時から13時までの間、ハーグ市内において反捕鯨団体によるデモ行進が予定されています。\n●不測の事態に巻き込まれることのないよう、十分注意してください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=167678"
+      }
+    ],
+    "official_url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_157.html",
+    "emergency_phone": "警察・救急・消防: 112 / 大使館: +31-(0)70-346-9544"
+  },
+  "collected_by": "GitHub Actions"
+}

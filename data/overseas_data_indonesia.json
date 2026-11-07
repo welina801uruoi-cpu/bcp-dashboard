@@ -1,0 +1,932 @@
+{
+  "timestamp": "2026-11-07 12:49:17",
+  "timestamp_local": "2026-11-07 10:49:17",
+  "country": {
+    "id": "indonesia",
+    "name": "インドネシア",
+    "english_name": "Indonesia",
+    "flag": "🇮🇩",
+    "city": "ジャカルタ (Jakarta)",
+    "embassy_name": "在インドネシア日本国大使館 (Embassy of Japan in Indonesia)",
+    "mofa_code": "0062",
+    "mofa_page_url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_002.html",
+    "embassy_url": "https://www.id.emb-japan.go.jp/itprtop_ja/index.html",
+    "tabireg_url": "https://www.ezairyu.mofa.go.jp/tabireg/index.html",
+    "emergency_phones": "総合緊急: 112 / 警察: 110 / 救急: 118 / 大使館: +62-(0)21-3192-4308",
+    "timezone_offset": 7,
+    "timezone_name": "WIB (現地: UTC+7)",
+    "currency_code": "IDR",
+    "currency_name": "インドネシアルピア",
+    "currency_symbol": "Rp",
+    "default_camera_id": "stream_kompas_live",
+    "default_keywords": [
+      "ジャカルタ 洪水",
+      "インドネシア 地震",
+      "ジャカルタ デモ",
+      "Jakarta strike"
+    ],
+    "media_channels": [
+      {
+        "id": "stream_kompas_live",
+        "name": "📺 Kompas TV 24h 生配信",
+        "video_id": "pykpO5kQJ98",
+        "handle": "@KompasTV",
+        "type": "stream"
+      },
+      {
+        "id": "stream_cnn_id",
+        "name": "📺 CNN Indonesia 24h LIVE",
+        "video_id": "a47ckXKZjxI",
+        "handle": "@CNNindonesiaOfficial",
+        "type": "stream"
+      },
+      {
+        "id": "stream_tvone_live",
+        "name": "📺 tvOne News 24h 生配信",
+        "video_id": "xDWQ3LkccY8",
+        "handle": "@tvOneNews",
+        "type": "stream"
+      },
+      {
+        "id": "cam_bali_jimbaran",
+        "name": "📷 バリ島: ジンバラン・ビーチ 4Kパノラマ 24/7 [Bali Weather]",
+        "video_id": "L1duJDAqbJY",
+        "type": "camera"
+      }
+    ],
+    "weather_cities": [
+      {
+        "name": "ジャカルタ (首都)",
+        "name_en": "Jakarta",
+        "lat": -6.2088,
+        "lon": 106.8456,
+        "is_capital": true
+      },
+      {
+        "name": "デンパサール (バリ島)",
+        "name_en": "Denpasar",
+        "lat": -8.6705,
+        "lon": 115.2126,
+        "is_capital": false
+      },
+      {
+        "name": "スラバヤ (東ジャワ)",
+        "name_en": "Surabaya",
+        "lat": -7.2575,
+        "lon": 112.7521,
+        "is_capital": false
+      }
+    ],
+    "transit_systems": [
+      {
+        "id": "mrt_jakarta",
+        "name": "MRTジャカルタ (MRT Jakarta)",
+        "mode": "地下鉄・都市鉄道",
+        "coverage": "ジャカルタ南北線",
+        "default_status": "平常運行",
+        "default_badge": "🟢 平常運行",
+        "default_code": "normal",
+        "default_details": "MRT線定常運行中",
+        "official_url": "https://jakartamrt.co.id/"
+      }
+    ],
+    "airports": [
+      {
+        "iata": "CGK",
+        "icao": "WIII",
+        "name": "スカルノ・ハッタ国際空港",
+        "city": "ジャカルタ",
+        "hub": "インドネシア最大ハブ",
+        "departures_url": "https://soekarnohatta-airport.co.id/",
+        "radar_url": "https://www.flightradar24.com/airport/cgk",
+        "flightaware_url": "https://www.flightaware.com/live/airport/WIII"
+      },
+      {
+        "iata": "DPS",
+        "icao": "WADD",
+        "name": "ングラ・ライ国際空港 (バリ島)",
+        "city": "バリ・デンパサール",
+        "hub": "主要観光国際空港",
+        "departures_url": "https://baliairport.ngurahrai.co.id/",
+        "radar_url": "https://www.flightradar24.com/airport/dps",
+        "flightaware_url": "https://www.flightaware.com/live/airport/WADD"
+      }
+    ]
+  },
+  "mofa_safety": {
+    "status": "OK",
+    "max_risk_level": 2,
+    "risk_level_name": "レベル2: 不要不急の渡航は止めてください",
+    "max_infection_level": 0,
+    "risk_title": "インドネシアの危険情報【危険レベル継続】（内容の更新）",
+    "risk_lead": "インドネシアの危険情報を更新しました。",
+    "risk_url": "https://www.anzen.mofa.go.jp/info/pchazardspecificinfo_2025T028.html",
+    "risk_date": "2025/03/24 00:00:00",
+    "spots": [
+      {
+        "title": "中東情勢を受けた注意喚起",
+        "lead": "●米国東部時間７月20日、米国国務省は、全世界の米国民向けの渡航情報として、中東地域以外でも米国の外交施設が攻撃の標的とされてきたことに触れ、世界各地の米国や米国人に関連する施設がイランを支持する勢力の標的とされる可能性がある旨の注意喚起を発出しました。\n●特に、中東地域に滞在中の方は、７月18日に日本政府が発出した広域情報（中東情勢の急激な変化の可能性に関する注意喚起）を確認し、自らの安全確保に努めてください。また、中東地域以外でも不測の事態が発生する可能性が排除されません",
+        "date": "2026/07/21 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C038.html"
+      },
+      {
+        "title": "【広域情報】海外における写真・動画撮影及びＳＮＳ等への投稿に関する注意喚起",
+        "lead": "【広域情報】海外における写真・動画撮影及びＳＮＳ等への投稿に関する注意喚起",
+        "date": "2026/06/03 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C031.html"
+      },
+      {
+        "title": "台風シーズンに際しての注意喚起（日本海、北太平洋、南シナ海等）",
+        "lead": "日本海、北西太平洋及び南シナ海等に面する国・地域においては、例年6月から11月頃までが台風シーズンとなっています。日頃から気象情報に十分注意し、防災用品や飲料水・食料を備蓄するなど、事前の安全対策に努めてください。",
+        "date": "2026/05/28 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C029.html"
+      },
+      {
+        "title": "匿名・流動型犯罪グループ（トクリュウ）を含めた犯罪組織による海外における闇バイトに関する注意喚起（加害者にならないために）（その２）",
+        "lead": "【ポイント】\n●これまで、特殊詐欺や違法薬物（大麻等）の密輸に関する注意喚起を発出してきていますが、海外における闇バイトに応募し、犯罪組織等に「かけ子」として海外で特殊詐欺に加担させられるケースや、意図せず違法薬物（大麻等）の運び屋として犯罪に加担してしまい、その結果、現地警察に拘束又は保護される事案が引き続き発生しています。",
+        "date": "2026/05/01 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C023.html"
+      },
+      {
+        "title": "デング熱に関する注意喚起（内容の更新）",
+        "lead": "● 高熱、発疹、筋肉痛などの症状を引き起こすデング熱が、中南米、大洋州、東南アジア、アフリカ地域などで発生しています。\n● デング熱は、デングウイルスに感染した蚊に刺されることで感染しますので、上記地域においては、長袖の着用や虫除けスプレーの使用など、以下1(4)記載の予防措置をとるよう心がけてください。\n● 感染が疑われる場合は早期に医療機関を受診してください。",
+        "date": "2026/02/03 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C010.html"
+      },
+      {
+        "title": "薬剤耐性（AMR）に関する注意喚起（内容の更新）",
+        "lead": "● 薬剤耐性（AMR）とは、細菌による感染症の治療薬である抗菌薬が効きにくくなる、もしくは効かなくなる問題であり、細菌感染症ではないのに抗菌薬を使用したり、抗菌薬の使用を自己判断で止めてしまったりするなどの不適切な使用によって出現・拡大するおそれがあります。\n● 薬剤耐性（AMR）の拡大を防ぐために、抗菌薬を使用する際には、医師や薬剤師の指示に従い、適切な量・回数・期間を守って服用してください。\n● 日本とは異なり、薬局で抗菌薬を買えてしまう国もありますが、自分の判断で不要な",
+        "date": "2026/01/30 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2026C009.html"
+      },
+      {
+        "title": "特殊詐欺についての注意喚起（被害に遭わないために）",
+        "lead": "●非対面の方法で相手に接触し金銭をだまし取る、いわゆる特殊詐欺が海外でも発生しています。日本国大使館職員、日本国総領事館職員、日本の警察官や税関職員等の日本政府の職員を騙るケースも確認されております。\n\n●日本国大使館、日本国総領事館、警察官や税関職員等といった日本の公的機関が正式な手続によらず送金を要求することはありません。身に覚えのない不審な電話、電子メール、ＳＮＳ等に安易に反応しないなどの対策をとってください。\n\n●日本以外に居られる際に、少しでも不安を感じたら、お近く",
+        "date": "2025/12/16 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2025C057.html"
+      },
+      {
+        "title": "【広域情報】匿名・流動型犯罪グループ（トクリュウ）を含めた犯罪組織による海外における闇バイトに関する注意喚起（加害者にならないために）",
+        "lead": "●海外における闇バイトに応募し、犯罪組織等に「かけ子」として海外で特殊詐欺に加担させられるケースや意図せず違法薬物（大麻等）の運び屋として犯罪に加担してしまい、現地警察に拘束又は保護される事案が引き続き発生しています。\n\n●万が一、海外における闇バイトに応募してしまったと感じた場合、一人で悩み、抱え込むことなく、家族等の近しい人や外務省、警察等に助けを求めてください。\n\n●海外における闇バイトに応募した結果、特殊詐欺や違法薬物の密輸等の犯罪に加担してしまった(加担させられた)",
+        "date": "2025/12/16 00:00:00",
+        "url": "https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2025C056.html"
+      }
+    ],
+    "consular_mails": [
+      {
+        "title": "デモ情報（ジャカルタ：１１月６日）",
+        "date": "2026/11/06 10:56:06",
+        "koukan": "",
+        "lead": "●　本６日午前１０時頃から、当館前において労働団体によるデモが予定されています。\n●　デモ実施に際しては、不測の事態が発生するおそれがあります。来館を予定している方は、日時を変更するなど、あらかじめご留意ください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168804"
+      },
+      {
+        "title": "雨季のピーク期入り等に伴う悪天候について",
+        "date": "2026/11/05 18:21:03",
+        "koukan": "",
+        "lead": "●　インドネシア国家防災庁（BNPB）は、インドネシアの一部が本格的な雨季に入りつつあるとして、極端な悪天候に注意するよう呼び掛けています。\n\n●　インドネシア各地で悪天候による災害が発生しており、バリ州では、土砂崩れ、倒木、建物の倒壊等が８５件発生しています。１１月２日には、バリ州バドゥン県北部のグランピング場で土砂崩れが発生し、外国人１名を含む２名が行方不明になる事案が発生していますので、十分に警戒してください。\n\n●　インドネシア各地では、洪水被害や倒木による事故等がた",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168787"
+      },
+      {
+        "title": "デモ情報（マカッサル市：１１月５日（木））",
+        "date": "2026/11/05 11:51:04",
+        "koukan": "",
+        "lead": "●１１月５日（木）マカッサル市内で、デモ団体等による以下の抗議デモが行われる予定との情報があります。\n●デモの周辺箇所では交通規制が行われ、混乱や渋滞が生じる可能性があります。外出の際には十分にご注意ください。\n●同様のデモは、今後も継続する可能性があります。引き続き警戒をお願いします。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168783"
+      },
+      {
+        "title": "【注意喚起】雨季のピーク期入り等に伴う悪天候について",
+        "date": "2026/11/05 11:21:07",
+        "koukan": "",
+        "lead": "●　インドネシア国家防災庁（BNPB）は、インドネシアの一部が本格的な雨季に入りつつあるとして、極端な悪天候に注意するよう呼び掛けています。\n\n●　既に東ジャワ州ルマジャン県・マラン県を中心に、強い降雨に伴う河川氾濫や土砂崩れ、倒木等の被害も出ていますので、十分に警戒してください。\n\n●　インドネシア各地では、洪水被害や倒木による事故等がたびたび発生していますので、特に激しい風雨が予想される際には、老朽化した立木や建物等から離れるなど、十分注意してください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168782"
+      },
+      {
+        "title": "デモ情報（ジャカルタ：１１月５日）",
+        "date": "2026/11/05 10:31:17",
+        "koukan": "",
+        "lead": "●　本５日午前８時頃から、ジャカルタ東部の東ジャカルタ地方裁判所において、市民団体によるデモが予定されています。\n●　デモの周辺道路では交通規制が行われ、交通状況に影響が生じる可能性があります。外出の際にはご注意ください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168781"
+      },
+      {
+        "title": "デモ情報（ジャカルタ：１１月４日）",
+        "date": "2026/11/04 10:56:08",
+        "koukan": "",
+        "lead": "●　本４日、ジャカルタ中心部のホテルインドネシア前ロータリー（Bundaran HI）南側のスディルマン通り（Jl.Jenderal Sudirman）付近において、学生団体によるデモが予定されています。\n●　デモの周辺道路では交通規制が行われ、交通状況に影響が生じる可能性があります。外出の際にはご注意ください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168756"
+      },
+      {
+        "title": "ジャカルタ：１１月２日",
+        "date": "2026/11/02 10:46:14",
+        "koukan": "",
+        "lead": "●　本２日午前８時頃から、中央ジャカルタの国家栄養庁（BGN）前において、市民団体によるデモが予定されています。\n●　デモの周辺道路では交通規制が行われ、交通状況に影響が生じる可能性があります。外出の際にはご注意ください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168692"
+      },
+      {
+        "title": "デモ情報（ジャカルタ：１０月３０日）",
+        "date": "2026/10/30 11:31:14",
+        "koukan": "",
+        "lead": "●　本３０日午後１時頃から、ジャカルタ中心部の独立記念塔（モナス）周辺において、宗教団体によるデモ活動が予定されています。\n\n●　デモの周辺道路では交通規制が行われ、交通状況に影響が生じる可能性があります。外出の際にはご注意ください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168658"
+      },
+      {
+        "title": "デモ情報（１０月２９日）",
+        "date": "2026/10/29 11:31:18",
+        "koukan": "",
+        "lead": "●　本２９日、ジャカルタ中心部の独立記念塔（モナス）周辺において、複数のデモ活動が予定されています。\n●　デモの周辺道路では交通規制が行われ、交通状況に影響が生じる可能性があります。外出の際にはご注意ください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168626"
+      },
+      {
+        "title": "デモ情報（ジャカルタ：１０月２８日）",
+        "date": "2026/10/28 18:01:15",
+        "koukan": "",
+        "lead": "●　１０月２８日午後３時３０分現在、ジャカルタ中心部のホテルインドネシア前ロータリー（Bundaran HI）周辺においてデモが実施され、交通規制が行われています。\n●　デモ活動は、予期せぬ出来事によって過激化する恐れもありますので、デモが行われている場所やその周囲には近付かないでください。\n●　デモ周辺の道路では渋滞が発生しています。外出や帰宅の際はご注意ください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168612"
+      },
+      {
+        "title": "デモ情報（マカッサル市：１０月２８日（水））",
+        "date": "2026/10/28 11:36:04",
+        "koukan": "",
+        "lead": "●１０月２８日（水）マカッサル市内で、複数のデモ団体等による以下の抗議デモが行われる予定との情報があります。\n●デモの周辺箇所では交通規制が行われ、混乱や渋滞が生じる可能性があります。外出の際には十分にご注意ください。\n●同様のデモは、今後も継続する可能性があります。引き続き警戒をお願いします。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168608"
+      },
+      {
+        "title": "【注意喚起】デモ情報（メダン：１０月２８日）",
+        "date": "2026/10/28 11:26:01",
+        "koukan": "",
+        "lead": "●本１０月２８日午前１０時頃から、メダン市内において、市民団体がデモを行う予定です。\n●デモが行われている場所やその周辺には近づかないようにしてください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168607"
+      },
+      {
+        "title": "デモ情報（西ヌサ・トゥンガラ州内）",
+        "date": "2026/10/28 11:21:09",
+        "koukan": "",
+        "lead": "●本１０月２８日（水）西ヌサ・トゥンガラ州ロンボク島マタラム市内において学生団体によるデモが予定されています。\n\n●日時\n１０月２８日（水）午前１０時および午後４時から\n\n●場所\n・西ヌサ・トゥンガラ州知事庁舎前\n・西ヌサ・トゥンガラ州議会（DPRD）議事堂前\n\n●参加者は約１５０人と見込まれています。なお、それぞれの時間における実施場所は確認できていません。\n\n●周辺では交通規制や渋滞が発生する可能性があります。最新の情報に注意し、デモが行われている場所には近づかないなど、",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168606"
+      },
+      {
+        "title": "デモ情報（ジャカルタ：１０月２７日）",
+        "date": "2026/10/27 11:16:15",
+        "koukan": "",
+        "lead": "●　本２７日午前１０時頃から、ジャカルタ中心部の独立記念塔（モナス）周辺において、市民団体によるデモが予定されています。\n\n●　デモの周辺道路では交通規制が行われ、交通状況に影響が生じる可能性があります。外出の際にはご注意ください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168575"
+      },
+      {
+        "title": "交通規制情報（ジャカルタ：１０月２４日及び２５日）",
+        "date": "2026/10/23 17:46:12",
+        "koukan": "",
+        "lead": "●　１０月２４日（土）及び２５日（日）、ジャカルタ市内において、「Jakarta Running Festival 2026」が開催される予定です。\n●　イベント開催に伴い周辺道路では交通規制が行われるため、交通状況に影響が生じる可能性があります。外出の際には最新情報を入手し、周辺道路の交通状況にご注意ください。",
+        "url": "https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168519"
+      }
+    ],
+    "mail_count": 15
+  },
+  "world_earthquakes": {
+    "status": "OK",
+    "count_24h": 5,
+    "summary": "M4.8 (36 km WNW of Poso, Indonesia)",
+    "latest": {
+      "mag": 4.8,
+      "place": "36 km WNW of Poso, Indonesia",
+      "time": "11/07 04:07 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twmr",
+      "tsunami": 0
+    },
+    "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "36 km WNW of Poso, Indonesia",
+        "time": "11/07 04:07 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twmr",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "101 km SSE of Palekastro, Greece",
+        "time": "11/07 00:26 JST",
+        "depth_km": 40.657,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twhq",
+        "tsunami": 0
+      },
+      {
+        "mag": 6.1,
+        "place": "144 km SE of Hasaki, Japan",
+        "time": "11/06 19:39 JST",
+        "depth_km": 29,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg9",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "87 km N of Isangel, Vanuatu",
+        "time": "11/06 17:14 JST",
+        "depth_km": 246.521,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfu",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.9,
+        "place": "41 km SW of Balangonan, Philippines",
+        "time": "11/06 15:28 JST",
+        "depth_km": 35,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfk",
+        "tsunami": 0
+      }
+    ]
+  },
+  "world_news": {
+    "articles": [
+      {
+        "title": "韓国の対米外交に新たな課題…トランプ大統領だけを眺めた「おべっか外交」終わり、民主党への対応も(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/0965742c6a01bea373de8a00f16c5e4e436e644c?source=rss",
+        "description": "トランプ米大統領と握手して帰国しても、米議会に改めて説明しなければならない。今月3日（現地時間）の中間選挙の結果、民主党が上下両院を掌握することになり、韓国の対米外交に新たに突きつけられた課題だ。トラ",
+        "pub_date": "11/07 12:46 JST",
+        "is_priority": false
+      },
+      {
+        "title": "米アトランタ動物園でパンダ2頭が公開　米中友好をアピール　日本でのパンダゼロ(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/dcd4e24290a19881bfb8c564d4cf690934c0db11?source=rss",
+        "description": "中国からアメリカに貸し出されたパンダ2頭がアメリカ南部ジョージア州のアトランタ動物園で公開されました。 6日から公開されたのは、平和を意味するオスのパンダの「平平（ピンピン）」と、二重の祝福を意味する",
+        "pub_date": "11/07 12:43 JST",
+        "is_priority": false
+      },
+      {
+        "title": "イラン再攻撃の可能性に言及　トランプ大統領「近く決断」　回避に向けた動きも(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/74dfe30efc7c70b6c3b08523316b104948f1c15a?source=rss",
+        "description": "アメリカによるイランへの再攻撃はあるのか、ないのか。その判断が焦点となっています。トランプ大統領は記者団に対し、近く決定すると述べました。■イラン「柔軟な姿勢」の可能性も 中間選挙の前日、記者団から、",
+        "pub_date": "11/07 12:37 JST",
+        "is_priority": true
+      },
+      {
+        "title": "米テック右派の信仰回帰　AIスタートアップを支える「終末論的ナラティブ」とは　関西学院大・柳澤田実准教授(AERA DIGITAL)",
+        "link": "https://news.yahoo.co.jp/articles/c8245e3252a0a51fcc86a101a0b57d5e7984db0e?source=rss",
+        "description": "米国では、防衛テック企業が政治的な影響力を強めている。B2Cの時代からB2Gへと収益機会が移り、国防の必要性と商業的利益が連動しているのだという。関西学院大学の柳澤田実准教授に聞いた。AERA 202",
+        "pub_date": "11/07 12:30 JST",
+        "is_priority": false
+      },
+      {
+        "title": "謎の“黒フード姿“でボブ・ディラン氏が教皇と2ショット「まるでスター・ウォーズ」独特すぎる装いに世界が騒然…バチカンで歴史的面会(ABEMA TIMES)",
+        "link": "https://news.yahoo.co.jp/articles/ef99d0d1907b99d7c556eefdbf215ba783a8b376?source=rss",
+        "description": "ローマ教皇レオ14世と並び、黒いフード姿で写真に収まる人物。その正体は、ノーベル文学賞の受賞者としても知られるアメリカのシンガー・ソングライター、ボブ・ディランさんだ。【映像】まるでスター・ウォーズ？",
+        "pub_date": "11/07 12:27 JST",
+        "is_priority": false
+      },
+      {
+        "title": "最側近の首席補佐官退任へ トランプ大統領“閣僚交代はごくわずか”(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/64ced54f8cc8dac2f7adb5bc1e87553cecf3725a?source=rss",
+        "description": "アメリカのトランプ大統領はワイルズ首席補佐官を交代させ、強硬な移民政策の立案者として知られるミラー氏が後任に就くと発表しました。 トランプ大統領は6日、2期目の政権発足時から首席補佐官を務めた最側近の",
+        "pub_date": "11/07 12:18 JST",
+        "is_priority": false
+      },
+      {
+        "title": "韓国軍、民間人統制線以北への無断侵入に「山菜採り」…鉄条網切断は「動物の仕業」(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/ee032cf140940a1a96618bfb15801aaa0052b345?source=rss",
+        "description": "先月、江原道鉄原で30代の女性が民間人出入統制線以北の地域に無断で侵入した際、韓国軍はこの女性の身柄を確保できなかったにもかかわらず、「山菜を採りに来た民間人と推定される」として捜索を打ち切っていたこ",
+        "pub_date": "11/07 12:05 JST",
+        "is_priority": false
+      },
+      {
+        "title": "トランプ氏、ウクライナ和平で「欧州全体が参加」の安保合意案　詳細不明で欧州は戸惑い(CNN.co.jp)",
+        "link": "https://news.yahoo.co.jp/articles/dfa346d1182cf4ef0f548839e3ce8a7355758b65?source=rss",
+        "description": "（CNN） トランプ米大統領は5日、プーチン・ロシア大統領の特使と会談した後、ウクライナ和平に向けて「欧州全体が参加する可能性のある」新たな安全保障合意案があると述べた。ただし提案の詳細は示さず、欧州",
+        "pub_date": "11/07 12:01 JST",
+        "is_priority": true
+      },
+      {
+        "title": "テスラが来年「サイバートラック」の生産を縮小へ、ロボタクシー増産に舵取り(Forbes JAPAN)",
+        "link": "https://news.yahoo.co.jp/articles/465ac641dae277c400223d5a413401eda07d2cf6?source=rss",
+        "description": "テスラのイーロン・マスクCEOは、テキサス州の工場「Texas Gigafactory」におけるサイバートラックの生産を、来年段階的に縮小すると発表した。ロボタクシー「サイバーキャブ」の増産体制を整え",
+        "pub_date": "11/07 12:00 JST",
+        "is_priority": false
+      },
+      {
+        "title": "レーザーで無人機撃墜…北朝鮮の脅威多様化に対応する韓国空軍(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/5780dc5cccc16f7b3c137812bd4d12efdc589ed0?source=rss",
+        "description": "「接近目標最終識別および交戦要請！」今月4日午前、忠清南道保寧（ボリョン）の大川（デチョン）射撃場。天弓II部隊の近くで隊員の叫び声が響くと、垂直発射台からミサイル2発が空中へと飛び立った。ミサイルは",
+        "pub_date": "11/07 11:59 JST",
+        "is_priority": false
+      },
+      {
+        "title": "【解説】抗議活動で勢いづく欧州の若者たち、何で結びついているのか(BBC News)",
+        "link": "https://news.yahoo.co.jp/articles/201e01393cf2499a1cf75dcc1d9969a62bc0c067?source=rss",
+        "description": "カティヤ・アドラー欧州編集長伊ミラノ、仏マルセイユ、そしてスペインのマドリードなど、ヨーロッパ各地の多くの都市で、ここ数週間、色とりどりの情熱的な抗議活動が繰り広げられた。その多くは平和的に始まったも",
+        "pub_date": "11/07 11:58 JST",
+        "is_priority": true
+      },
+      {
+        "title": "男尊女卑、ショート動画、AIまで…「5つのネットスラング」が語る、アメリカの若者の「本音」(ニューズウィーク日本版)",
+        "link": "https://news.yahoo.co.jp/articles/b51039a9d63ef1b51027216489b580b80d01d64d?source=rss",
+        "description": "ジェンダー平等が男性の権利を犠牲にして実現されてきたと主張するオンラインコミュニティーの総称。富を築くことや女性を支配することを「男らしさ」の象徴とする。SNSやポッドキャスト、ゲーマーのコミュニティ",
+        "pub_date": "11/07 11:51 JST",
+        "is_priority": false
+      },
+      {
+        "title": "メーガン妃の父親を逮捕、未成年少女の性的虐待写真所持で　米司法省(CNN.co.jp)",
+        "link": "https://news.yahoo.co.jp/articles/a6e84b2124824dd19996aebb3fe34346268eb64c?source=rss",
+        "description": "（CNN） 米司法省によると、英メーガン妃の父親トーマス・マークル容疑者（82）が6日、自宅軟禁を命じられた。児童ポルノ所持の罪に問われている。写真特集：英王室の子どもたちロサンゼルス連邦地検の検事は",
+        "pub_date": "11/07 11:41 JST",
+        "is_priority": false
+      },
+      {
+        "title": "日本サッカー界の大物・田嶋幸三氏　FIFA会長選に出馬(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/16ae7f832275b3873983d5e05221602d2eb1437c?source=rss",
+        "description": "日本サッカー界の「大物」とされている田嶋幸三氏（68）＝日本サッカー協会（JFA）名誉会長＝が世界のサッカー界でトップの座に挑む。来年3月に行われる国際サッカー連盟（FIFA）会長選で、4選を目指す現",
+        "pub_date": "11/07 11:35 JST",
+        "is_priority": false
+      },
+      {
+        "title": "欧州放送局が爆破予告の標的に　英国とアイルランド､ブルガリア(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/d2c2302afb4341b85b7041b15c454acbf21e3c01?source=rss",
+        "description": "ロンドン、イギリス、11月7日 (AP) ー 今週相次いだ複数の航空便に対する爆破予告に続き、ヨーロッパ全域の3つの放送局が安全上の脅威を受けた。 アイルランドでは、国内の放送局RTEのダブリン本社が",
+        "pub_date": "11/07 11:30 JST",
+        "is_priority": true
+      },
+      {
+        "title": "釜山の食堂で初対面の女子中学生のほおをたたいた40代男、二審で執行猶予付き判決(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/c1940e2037622b14af78a0a791e9cbd19992c0ec?source=rss",
+        "description": "飲食店で初対面の女子中学生のほおをたたいて転倒させたとして起訴され、一審で罰金刑を言い渡された40代の男が、控訴審ではより重い執行猶予付きの有罪判決を言い渡された。【写真】集団で暴行される14歳女子中",
+        "pub_date": "11/07 11:30 JST",
+        "is_priority": false
+      },
+      {
+        "title": "オランダ建設現場に抗議者侵入　拡大するデータセンター反対の波(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/b5f1a9caa86ec02f4eef56dc90e9cd316ab58072?source=rss",
+        "description": "ハーグ、オランダ、11月7日 (AP) ー オランダのアムステルダムにあるマイクロソフトの新データセンターの建設現場に6日、抗議者らが侵入した。一部の抗議者らがクレーンに登って発煙筒をたき、警察と衝突",
+        "pub_date": "11/07 11:27 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ロシア　日本たばこ産業現地4法人の経営権を強制接収(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/6c23abf11da0aa796669b905ff47b62518c3f2a4?source=rss",
+        "description": "ロシアが同国のたばこ市場で1位を占める日本たばこ産業（JT）の現地法人4社の経営権を強制的に接収した。ロシアは日本に対する敵対的措置を続けており、日本政府が筆頭株主である企業の資産没収手続きにまで着手",
+        "pub_date": "11/07 11:25 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ビニール袋がモゾモゾ…開けてみたら口を縛られた子犬、韓国ネット驚がく(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/2e3216252a97cfa5cf4691274dcb24d836c8525b?source=rss",
+        "description": "【NEWSIS】ビニール袋に生きたまま入れられて捨てられていた子犬が発見され、ネットで怒りが渦巻いている。さらに子犬の口は輪ゴムで縛られており、近隣では足を骨折したもう一匹の捨て犬も発見され、動物虐待",
+        "pub_date": "11/07 11:25 JST",
+        "is_priority": false
+      },
+      {
+        "title": "高校生が落書き消去作業に参加　セルビアの首都ベオグラードで(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/9a7818c6fbf4e7154a4edf6ae608c7163374c0b1?source=rss",
+        "description": "ベオグラード、セルビア、11月7日 (AP) ー セルビアの首都ベオグラードで6日、長年権力を維持した強権指導者とその政府に対する若者主導の運動の勝利を受けた選挙後のクリーンアップとして、街のイメージ",
+        "pub_date": "11/07 11:24 JST",
+        "is_priority": false
+      }
+    ],
+    "count": 20
+  },
+  "sns_voices": [
+    {
+      "keyword": "ジャカルタ 洪水",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [
+        {
+          "time": "11/01 15:33",
+          "text": "ジャカルタ の自宅のリノベーション完了。 残りは部分的なペンキ塗り、シャワーなどの取り付けなどです。 洪水 対策で土地の..."
+        },
+        {
+          "time": "10/29 17:56",
+          "text": "【ジャカ日・小学生ニュース】 雨季（うき）に入ると、 ジャカルタ などインドネシアの各地では、朝は晴れていても午後に大雨が降（ふ）って道路や..."
+        },
+        {
+          "time": "10/29 06:28",
+          "text": "「1. 森林火災と 洪水 災害を国家災害認定 2. 経済政策のガバナンス改善 3. 言論の自由 4. KKN（腐敗 癒着 縁故主義）根絶 5..."
+        }
+      ],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%B8%E3%83%A3%E3%82%AB%E3%83%AB%E3%82%BF%20%E6%B4%AA%E6%B0%B4"
+    },
+    {
+      "keyword": "インドネシア 地震",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [
+        {
+          "time": "11/06 19:29",
+          "text": "@azukiglg 日本と同じ島国で､常に､ 地震 と火山の脅威に晒されている インドネシア が、イスラム教徒の数が一番..."
+        },
+        {
+          "time": "11/06 08:42",
+          "text": "@ntyoooooo 言語習得とサバイバル会得しとこ。頑張って( ⩌⩊⩌) インドネシア も、 地震 津波日本よりあるで..."
+        },
+        {
+          "time": "11/05 22:16",
+          "text": "@zetsuboushika パキスタンや インドネシア も 地震 国のはずだけど、自分の国で災害が起こった際にそんなこ..."
+        }
+      ],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%A4%E3%83%B3%E3%83%89%E3%83%8D%E3%82%B7%E3%82%A2%20%E5%9C%B0%E9%9C%87"
+    },
+    {
+      "keyword": "ジャカルタ デモ",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [
+        {
+          "time": "11/06 20:17",
+          "text": "@kapi2019SFC 意外と ジャカルタ が抜けてるんですね まあ、行っても デモ ばっかりしてタクシーは偽ブルーバ..."
+        },
+        {
+          "time": "11/06 13:18",
+          "text": "ジャカルタ 、 デモ のための治安維持と称しての軍配置。 なぜにジョコウィの卒業証書を裁判所に提出日に配置するかなぁ？ ..."
+        },
+        {
+          "time": "11/05 12:01",
+          "text": "日本大使館のお知らせも ジャカルタ は デモ ばかり。 Businesiaではこう。 どーせジョコウィだけじゃないんでし..."
+        }
+      ],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%B8%E3%83%A3%E3%82%AB%E3%83%AB%E3%82%BF%20%E3%83%87%E3%83%A2"
+    },
+    {
+      "keyword": "Jakarta strike",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "recent_posts": [],
+      "search_url": "https://search.yahoo.co.jp/realtime/search?p=Jakarta%20strike"
+    }
+  ],
+  "live_media": {
+    "channels": [
+      {
+        "id": "stream_kompas_live",
+        "name": "📺 Kompas TV 24h 生配信",
+        "video_id": "qvIDxWs62A8",
+        "handle": "@KompasTV",
+        "type": "stream"
+      },
+      {
+        "id": "stream_cnn_id",
+        "name": "📺 CNN Indonesia 24h LIVE",
+        "video_id": "a47ckXKZjxI",
+        "handle": "@CNNindonesiaOfficial",
+        "type": "stream"
+      },
+      {
+        "id": "stream_tvone_live",
+        "name": "📺 tvOne News 24h 生配信",
+        "video_id": "rQJoEpzKkNk",
+        "handle": "@tvOneNews",
+        "type": "stream"
+      },
+      {
+        "id": "cam_bali_jimbaran",
+        "name": "📷 バリ島: ジンバラン・ビーチ 4Kパノラマ 24/7 [Bali Weather]",
+        "video_id": "L1duJDAqbJY",
+        "type": "camera"
+      }
+    ],
+    "default_channel_id": "stream_kompas_live"
+  },
+  "forex": {
+    "timestamp": "11/07 12:49 JST",
+    "usd_jpy": {
+      "currency": "USD",
+      "name": "米ドル",
+      "symbol": "$",
+      "rate": 157.5,
+      "change": -0.86,
+      "change_pct": -0.54,
+      "direction": "down"
+    },
+    "local_jpy": {
+      "currency": "IDR",
+      "name": "インドネシアルピア",
+      "symbol": "Rp",
+      "rate": 0.0087,
+      "change": 0.0,
+      "change_pct": 0.18,
+      "direction": "even"
+    },
+    "eur_jpy": {
+      "currency": "EUR",
+      "name": "ユーロ",
+      "symbol": "€",
+      "rate": 176.82,
+      "change": -1.09,
+      "change_pct": -0.61
+    }
+  },
+  "airports": [
+    {
+      "iata": "CGK",
+      "icao": "WIII",
+      "name": "スカルノ・ハッタ国際空港",
+      "city": "ジャカルタ",
+      "hub": "インドネシア最大ハブ",
+      "departures_url": "https://soekarnohatta-airport.co.id/",
+      "radar_url": "https://www.flightradar24.com/airport/cgk",
+      "flightaware_url": "https://www.flightaware.com/live/airport/WIII",
+      "weather": {},
+      "status": "平常運航",
+      "status_code": "normal",
+      "status_badge": "🟢 平常運航",
+      "status_desc": "定常運航中（現在重大な気象警報なし）"
+    },
+    {
+      "iata": "DPS",
+      "icao": "WADD",
+      "name": "ングラ・ライ国際空港 (バリ島)",
+      "city": "バリ・デンパサール",
+      "hub": "主要観光国際空港",
+      "departures_url": "https://baliairport.ngurahrai.co.id/",
+      "radar_url": "https://www.flightradar24.com/airport/dps",
+      "flightaware_url": "https://www.flightaware.com/live/airport/WADD",
+      "weather": {},
+      "status": "平常運航",
+      "status_code": "normal",
+      "status_badge": "🟢 平常運航",
+      "status_desc": "定常運航中（現在重大な気象警報なし）"
+    }
+  ],
+  "weather": {
+    "cities": [
+      {
+        "name": "ジャカルタ (首都)",
+        "name_en": "Jakarta",
+        "is_capital": true,
+        "lat": -6.2088,
+        "lon": 106.8456,
+        "temp": 33.8,
+        "apparent_temp": 39.3,
+        "humidity": 49,
+        "wind_speed": 6.2,
+        "wind_gusts": 20.5,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 34.1,
+            "temp_min": 25.3,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 8.0
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 32.7,
+            "temp_min": 25.6,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 4.3
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 32.1,
+            "temp_min": 24.6,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 5.9
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "デンパサール (バリ島)",
+        "name_en": "Denpasar",
+        "is_capital": false,
+        "lat": -8.6705,
+        "lon": 115.2126,
+        "temp": 30.7,
+        "apparent_temp": 37.8,
+        "humidity": 66,
+        "wind_speed": 9.1,
+        "wind_gusts": 31.0,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 30.9,
+            "temp_min": 24.7,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 3.7
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 30.9,
+            "temp_min": 24.9,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 2.7
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 31.0,
+            "temp_min": 24.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 3.1
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      },
+      {
+        "name": "スラバヤ (東ジャワ)",
+        "name_en": "Surabaya",
+        "is_capital": false,
+        "lat": -7.2575,
+        "lon": 112.7521,
+        "temp": 33.1,
+        "apparent_temp": 38.0,
+        "humidity": 49,
+        "wind_speed": 9.9,
+        "wind_gusts": 30.2,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 34.3,
+            "temp_min": 26.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 34.9,
+            "temp_min": 27.0,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.8
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 33.7,
+            "temp_min": 25.3,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 6.9
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "ジャカルタ (首都)",
+      "name_en": "Jakarta",
+      "is_capital": true,
+      "lat": -6.2088,
+      "lon": 106.8456,
+      "temp": 33.8,
+      "apparent_temp": 39.3,
+      "humidity": 49,
+      "wind_speed": 6.2,
+      "wind_gusts": 20.5,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
+      "forecast": [
+        {
+          "date": "11/07(土)",
+          "temp_max": 34.1,
+          "temp_min": 25.3,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 8.0
+        },
+        {
+          "date": "11/08(日)",
+          "temp_max": 32.7,
+          "temp_min": 25.6,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 4.3
+        },
+        {
+          "date": "11/09(月)",
+          "temp_max": 32.1,
+          "temp_min": 24.6,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 5.9
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/07 12:49 JST"
+  },
+  "transit": {
+    "status": "NORMAL",
+    "status_code": "normal",
+    "status_badge": "🟢 平常運行",
+    "status_text": "都市交通・鉄道 平常運行 (ストなし)",
+    "overall_status": "平常運行",
+    "strike": false,
+    "monitored_systems_count": 1,
+    "alert_lines_count": 0,
+    "alert_lines": [],
+    "systems": [
+      {
+        "id": "mrt_jakarta",
+        "name": "MRTジャカルタ (MRT Jakarta)",
+        "mode": "地下鉄・都市鉄道",
+        "coverage": "ジャカルタ南北線",
+        "default_status": "平常運行",
+        "default_badge": "🟢 平常運行",
+        "default_code": "normal",
+        "default_details": "MRT線定常運行中",
+        "official_url": "https://jakartamrt.co.id/",
+        "status": "平常運行",
+        "status_badge": "🟢 平常運行",
+        "status_code": "normal",
+        "details": "MRT線定常運行中"
+      }
+    ],
+    "timestamp": "11/07 12:49 JST"
+  },
+  "lifeline": {
+    "status": "NORMAL",
+    "status_text": "電力・通信インフラ 安定稼働中 (全系統正常)",
+    "monitored_items_count": 5,
+    "power": {
+      "name": "インドネシア 国家電力公社・主要電力送電網",
+      "status": "NORMAL",
+      "status_text": "安定供給中 (停電なし)",
+      "details": "インドネシア全土の電力供給インフラは安定稼働中。大規模停電報告なし。",
+      "official_url": "https://downdetector.com/"
+    },
+    "telecom": {
+      "status": "NORMAL",
+      "status_text": "主要キャリア全社 安定稼働",
+      "carriers": [
+        {
+          "name": "インドネシア 主要キャリア1",
+          "type": "5G/4Gモバイル通信",
+          "status": "安定稼働"
+        },
+        {
+          "name": "インドネシア 主要キャリア2",
+          "type": "モバイル通信・固定網",
+          "status": "安定稼働"
+        }
+      ],
+      "downdetector_url": "https://downdetector.com/"
+    },
+    "internet": {
+      "status": "NORMAL",
+      "status_text": "国際接続性 良好 (99.98%)",
+      "latency": "14ms (低遅延)",
+      "exchange": "インドネシア 国内基幹IX・国際海底ケーブル接続",
+      "cloudflare_radar_url": "https://radar.cloudflare.com/"
+    },
+    "water_gas": {
+      "name": "インドネシア 首都圏上下水道・都市エネルギー供給網",
+      "status": "NORMAL",
+      "status_text": "正常供給中",
+      "details": "基幹上下水道・天然ガス供給網 正常稼働"
+    }
+  },
+  "security": {
+    "status": "ALERT",
+    "status_text": "⚠️ 現地治安・テロ警戒態勢発令",
+    "threat_level": "インドネシア治安当局 テロ警戒水準: 平常監視体制",
+    "summary": "インドネシアにおいて、重大な治安テロ事案または大規模衝突が検知されています。現地公館の指示に従い退避・安全確保を行ってください。",
+    "incident_count": 1,
+    "incidents": [
+      {
+        "type": "MOFA_RISK",
+        "level": "ALERT",
+        "title": "外務省危険情報 レベル2",
+        "details": "レベル2: 不要不急の渡航は止めてください"
+      }
+    ],
+    "official_url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_002.html",
+    "emergency_phone": "総合緊急: 112 / 警察: 110 / 救急: 118 / 大使館: +62-(0)21-3192-4308"
+  },
+  "collected_by": "GitHub Actions"
+}

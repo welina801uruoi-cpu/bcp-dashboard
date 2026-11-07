@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 02:02:20",
-  "timestamp_local": "2026-11-08 02:02:20",
+  "timestamp": "2026-11-08 02:30:33",
+  "timestamp_local": "2026-11-08 02:30:33",
   "country": {
     "id": "korea",
     "name": "韓国 (大韓民国)",
@@ -400,7 +400,7 @@
       {
         "title": "ポーランドで銃撃、5人死亡　南部クラクフ、容疑者拘束(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/f572c949ecee6ea2ef6f59805ac2e2d68fd15579?source=rss",
-        "description": "【ベルリン共同】ポーランドのメディアは7日、同国南部クラクフ中心部の広場で同日、銃撃があり、5人が死亡、約10人が負傷したと伝えた。警察は容疑者を拘束したとしている。 警察によると、容疑者は車から通行",
+        "description": "【ベルリン共同】ポーランドの警察は7日、同国南部クラクフ中心部の広場で同日、銃撃があり、5人が死亡、約10人が負傷したとX（旧ツイッター）で発表した。警察は容疑者を拘束したとしている。警察などによると",
         "pub_date": "11/08 00:42 JST",
         "is_priority": false
       },
@@ -651,7 +651,7 @@
     "default_channel_id": "stream_ytn_live"
   },
   "forex": {
-    "timestamp": "11/08 02:02 JST",
+    "timestamp": "11/08 02:30 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -714,19 +714,64 @@
   "weather": {
     "cities": [
       {
+        "name": "ソウル (首都)",
+        "name_en": "Seoul",
+        "is_capital": true,
+        "lat": 37.5665,
+        "lon": 126.978,
+        "temp": 2.9,
+        "apparent_temp": -0.8,
+        "humidity": 42,
+        "wind_speed": 3.6,
+        "wind_gusts": 9.0,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 6.6,
+            "temp_min": 2.6,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 6.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 11.4,
+            "temp_min": 3.9,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 10.9,
+            "temp_min": 1.2,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "釜山 (南部港湾都市)",
         "name_en": "Busan",
         "is_capital": false,
         "lat": 35.1796,
         "lon": 129.0756,
         "temp": 5.8,
-        "apparent_temp": 2.1,
-        "humidity": 39,
+        "apparent_temp": 2.2,
+        "humidity": 40,
         "wind_speed": 4.3,
         "wind_gusts": 14.0,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -764,11 +809,11 @@
         "is_capital": false,
         "lat": 33.4996,
         "lon": 126.5312,
-        "temp": 10.9,
+        "temp": 11.0,
         "apparent_temp": 7.3,
-        "humidity": 62,
-        "wind_speed": 15.4,
-        "wind_gusts": 23.8,
+        "humidity": 63,
+        "wind_speed": 15.5,
+        "wind_gusts": 24.8,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -805,42 +850,42 @@
       }
     ],
     "capital": {
-      "name": "釜山 (南部港湾都市)",
-      "name_en": "Busan",
-      "is_capital": false,
-      "lat": 35.1796,
-      "lon": 129.0756,
-      "temp": 5.8,
-      "apparent_temp": 2.1,
-      "humidity": 39,
-      "wind_speed": 4.3,
-      "wind_gusts": 14.0,
+      "name": "ソウル (首都)",
+      "name_en": "Seoul",
+      "is_capital": true,
+      "lat": 37.5665,
+      "lon": 126.978,
+      "temp": 2.9,
+      "apparent_temp": -0.8,
+      "humidity": 42,
+      "wind_speed": 3.6,
+      "wind_gusts": 9.0,
       "precipitation": 0.0,
-      "weather_code": 0,
-      "weather_label": "☀️ 快晴",
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 15.4,
-          "temp_min": 5.4,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 6.6,
+          "temp_min": 2.6,
+          "weather_code": 55,
+          "weather_label": "🌦️ 霧雨 (強)",
+          "precipitation_mm": 6.0
         },
         {
           "date": "11/09(月)",
-          "temp_max": 12.6,
-          "temp_min": 9.4,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 11.4
+          "temp_max": 11.4,
+          "temp_min": 3.9,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/10(火)",
-          "temp_max": 15.7,
-          "temp_min": 4.3,
-          "weather_code": 1,
-          "weather_label": "🌤️ 晴れ",
+          "temp_max": 10.9,
+          "temp_min": 1.2,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
         }
       ],
@@ -849,7 +894,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 02:02 JST"
+    "timestamp": "11/08 02:30 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -878,7 +923,7 @@
         "details": "京釜線KTXなど主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/08 02:02 JST"
+    "timestamp": "11/08 02:30 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 02:03:17",
-  "timestamp_local": "2026-11-07 19:03:17",
+  "timestamp": "2026-11-08 02:31:29",
+  "timestamp_local": "2026-11-07 19:31:29",
   "country": {
     "id": "belgium",
     "name": "ベルギー",
@@ -377,7 +377,7 @@
       {
         "title": "ポーランドで銃撃、5人死亡　南部クラクフ、容疑者拘束(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/f572c949ecee6ea2ef6f59805ac2e2d68fd15579?source=rss",
-        "description": "【ベルリン共同】ポーランドのメディアは7日、同国南部クラクフ中心部の広場で同日、銃撃があり、5人が死亡、約10人が負傷したと伝えた。警察は容疑者を拘束したとしている。 警察によると、容疑者は車から通行",
+        "description": "【ベルリン共同】ポーランドの警察は7日、同国南部クラクフ中心部の広場で同日、銃撃があり、5人が死亡、約10人が負傷したとX（旧ツイッター）で発表した。警察は容疑者を拘束したとしている。警察などによると",
         "pub_date": "11/08 00:42 JST",
         "is_priority": false
       },
@@ -576,16 +576,16 @@
       "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/07 14:41",
+          "text": "🚨🇵🇱Chaos in Krakow, Poland, where five people have just been shot in a public sq..."
+        },
+        {
           "time": "10/28 16:02",
           "text": "Brussels , 2026. What you see is not protest , it's vandalis..."
         },
         {
           "time": "10/12 19:51",
           "text": "Total chaos in Europe. Brussels . Student protest . Journali..."
-        },
-        {
-          "time": "10/09 19:56",
-          "text": "Riots have been taking place in Brussels this afternoon as young 2nd a..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=Brussels%20protest"
@@ -630,7 +630,7 @@
     "default_channel_id": "stream_rtbf_live"
   },
   "forex": {
-    "timestamp": "11/08 02:03 JST",
+    "timestamp": "11/08 02:31 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -678,15 +678,60 @@
   "weather": {
     "cities": [
       {
+        "name": "ブリュッセル (首都・EU本部)",
+        "name_en": "Brussels",
+        "is_capital": true,
+        "lat": 50.8503,
+        "lon": 4.3517,
+        "temp": 8.5,
+        "apparent_temp": 6.3,
+        "humidity": 92,
+        "wind_speed": 10.1,
+        "wind_gusts": 19.1,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 8.8,
+            "temp_min": 6.8,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 6.8
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 10.2,
+            "temp_min": 5.4,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.6
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 11.1,
+            "temp_min": 3.6,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "アントワープ (北部主要港湾)",
         "name_en": "Antwerp",
         "is_capital": false,
         "lat": 51.2194,
         "lon": 4.4025,
-        "temp": 8.5,
-        "apparent_temp": 6.9,
-        "humidity": 91,
-        "wind_speed": 5.8,
+        "temp": 8.4,
+        "apparent_temp": 6.8,
+        "humidity": 92,
+        "wind_speed": 6.1,
         "wind_gusts": 10.4,
         "precipitation": 0.0,
         "weather_code": 3,
@@ -724,40 +769,40 @@
       }
     ],
     "capital": {
-      "name": "アントワープ (北部主要港湾)",
-      "name_en": "Antwerp",
-      "is_capital": false,
-      "lat": 51.2194,
-      "lon": 4.4025,
+      "name": "ブリュッセル (首都・EU本部)",
+      "name_en": "Brussels",
+      "is_capital": true,
+      "lat": 50.8503,
+      "lon": 4.3517,
       "temp": 8.5,
-      "apparent_temp": 6.9,
-      "humidity": 91,
-      "wind_speed": 5.8,
-      "wind_gusts": 10.4,
+      "apparent_temp": 6.3,
+      "humidity": 92,
+      "wind_speed": 10.1,
+      "wind_gusts": 19.1,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 9.1,
-          "temp_min": 6.3,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.8
+          "temp_max": 8.8,
+          "temp_min": 6.8,
+          "weather_code": 63,
+          "weather_label": "🌧️ 雨 (中雨)",
+          "precipitation_mm": 6.8
         },
         {
           "date": "11/08(日)",
-          "temp_max": 9.0,
-          "temp_min": 5.0,
+          "temp_max": 10.2,
+          "temp_min": 5.4,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.3
+          "precipitation_mm": 0.6
         },
         {
           "date": "11/09(月)",
-          "temp_max": 10.7,
-          "temp_min": 3.1,
+          "temp_max": 11.1,
+          "temp_min": 3.6,
           "weather_code": 0,
           "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
@@ -768,7 +813,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 02:03 JST"
+    "timestamp": "11/08 02:31 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -797,7 +842,7 @@
         "details": "国鉄インターシティ線平常運行中"
       }
     ],
-    "timestamp": "11/08 02:03 JST"
+    "timestamp": "11/08 02:31 JST"
   },
   "lifeline": {
     "status": "NORMAL",

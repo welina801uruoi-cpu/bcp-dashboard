@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 17:00:29",
+  "timestamp": "2026-11-07 17:28:05",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -345,13 +345,20 @@
     "key": "all"
   },
   "earthquake": {
-    "status": "ALERT",
-    "shindo": "5強",
-    "time": "2026-11-08 01:04",
-    "place": "静岡県西部",
-    "magnitude": "5.7",
+    "status": "NORMAL",
+    "shindo": "2",
+    "time": "2026-11-08 02:03",
+    "place": "愛知県東部",
+    "magnitude": "3.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-08 02:03",
+        "place": "愛知県東部",
+        "shindo": "2",
+        "magnitude": "3.3",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-08 01:04",
         "place": "静岡県西部",
@@ -414,13 +421,6 @@
         "shindo": "3",
         "magnitude": "5.6",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-07 20:07",
-        "place": "茨城県沖",
-        "shindo": "-",
-        "magnitude": "5.6",
-        "maxScale": -1
       }
     ]
   },
@@ -436,7 +436,7 @@
   },
   "weather": {
     "status": "ALERT",
-    "summary": "【警報発表: 8地域】道央（波浪警報）、道南（暴風警報、波浪警報）、道北（暴風警報、波浪警報）、道東（暴風警報、波浪警報）、青森（波浪警報）、秋田（波浪警報）、山形（波浪警報）、新潟（波浪警報） ／ 他32地域で注意報",
+    "summary": "【警報発表: 8地域】道央（波浪警報）、道南（波浪警報、暴風警報）、道北（波浪警報、暴風警報）、道東（波浪警報、暴風警報）、青森（波浪警報）、秋田（波浪警報）、山形（波浪警報）、新潟（波浪警報） ／ 他32地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 8,
     "notice_count": 32,
@@ -452,13 +452,13 @@
           "波浪警報"
         ],
         "notices": [
-          "波浪注意報",
-          "強風注意報",
+          "着雪注意報",
           "大雪注意報",
+          "強風注意報",
           "風雪注意報",
-          "着雪注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪警報、波浪注意報、強風注意報、大雪注意報、風雪注意報、着雪注意報",
+        "summary": "波浪警報、着雪注意報、大雪注意報、強風注意報、風雪注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -468,14 +468,14 @@
         "status": "ALERT",
         "emg_warns": [],
         "warns": [
-          "暴風警報",
-          "波浪警報"
+          "波浪警報",
+          "暴風警報"
         ],
         "notices": [
-          "強風注意報",
-          "着雪注意報"
+          "着雪注意報",
+          "強風注意報"
         ],
-        "summary": "暴風警報、波浪警報、強風注意報、着雪注意報",
+        "summary": "波浪警報、暴風警報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -485,14 +485,14 @@
         "status": "ALERT",
         "emg_warns": [],
         "warns": [
-          "暴風警報",
-          "波浪警報"
+          "波浪警報",
+          "暴風警報"
         ],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "暴風警報、波浪警報、強風注意報、波浪注意報",
+        "summary": "波浪警報、暴風警報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -502,15 +502,15 @@
         "status": "ALERT",
         "emg_warns": [],
         "warns": [
-          "暴風警報",
-          "波浪警報"
+          "波浪警報",
+          "暴風警報"
         ],
         "notices": [
-          "波浪注意報",
+          "着雪注意報",
           "強風注意報",
-          "着雪注意報"
+          "波浪注意報"
         ],
-        "summary": "暴風警報、波浪警報、波浪注意報、強風注意報、着雪注意報",
+        "summary": "波浪警報、暴風警報、着雪注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
@@ -523,10 +523,10 @@
           "波浪警報"
         ],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "波浪警報、強風注意報、波浪注意報",
+        "summary": "波浪警報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -595,9 +595,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報"
+          "霜注意報",
+          "強風注意報"
         ],
-        "summary": "霜注意報",
+        "summary": "霜注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       },
       {
@@ -693,10 +694,10 @@
           "波浪警報"
         ],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "波浪警報、強風注意報、波浪注意報",
+        "summary": "波浪警報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -707,10 +708,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、波浪注意報",
+        "summary": "波浪注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/16/"
       },
       {
@@ -734,10 +735,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、波浪注意報",
+        "summary": "波浪注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/18/"
       },
       {
@@ -949,10 +950,10 @@
         "warns": [],
         "notices": [
           "霜注意報",
-          "乾燥注意報",
-          "強風注意報"
+          "強風注意報",
+          "乾燥注意報"
         ],
-        "summary": "霜注意報、乾燥注意報、強風注意報",
+        "summary": "霜注意報、強風注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -1052,11 +1053,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "強風注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、強風注意報、濃霧注意報",
+        "summary": "濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -1093,11 +1093,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "波浪注意報",
           "霜注意報",
-          "乾燥注意報",
-          "波浪注意報"
+          "乾燥注意報"
         ],
-        "summary": "霜注意報、乾燥注意報、波浪注意報",
+        "summary": "波浪注意報、霜注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1124,53 +1124,38 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線37路線: 山陰本線、山陽本線、姫新線等 ／ 新幹線: 山陽新幹線（列車遅延）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線22路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山陰本線、山陽本線、姫新線、美祢線、岡山電気軌道線 等 計37路線）",
+    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線、岡山電気軌道線、肥薩線 等 計22路線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延）、九州新幹線（その他））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "山陰本線",
-      "山陽本線",
-      "姫新線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
       "美祢線",
       "岡山電気軌道線",
-      "日豊本線",
       "肥薩線",
-      "大湊線",
-      "奥羽本線",
-      "陸羽西線",
-      "五能線",
-      "羽越本線",
       "山田線",
       "米坂線",
       "陸羽東線",
       "北上線",
+      "五能線",
       "津軽線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "東海道本線",
-      "近鉄名古屋線",
-      "大糸線",
-      "しなの鉄道線",
-      "しなの鉄道北しなの線",
+      "羽越本線",
       "小海線",
       "越後線",
       "大井川鉄道大井川本線",
       "万葉線",
-      "横須賀線",
-      "総武線",
       "内房線",
       "外房線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
-      "室蘭本線"
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
-      "山陽新幹線（列車遅延）",
+      "山陽新幹線（その他）",
       "九州新幹線（その他）"
     ],
     "shinkansen_details": [
@@ -1184,8 +1169,8 @@
       {
         "name": "山陽新幹線",
         "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "小倉駅で発生した車両故障の影響で、上り線(新大阪方面行)の一部列車に遅れが出ています。（11月7日 22時10分掲載）",
+        "state": "その他",
+        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月7日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       },
       {
@@ -1245,12 +1230,12 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 37,
+    "target_lines_count": 22,
     "target_shinkansen_count": 10
   },
   "police_fire": {
     "status": "ALERT",
-    "fdma_msg": "消防庁速報: 【要警戒】千葉県北東部を震源とする地震による被害及び消防機関等の対応状況（第3報...",
+    "fdma_msg": "消防庁速報: 【要警戒】静岡県西部を震源とする地震による被害及び消防機関等の対応状況（第２報・...",
     "npa_msg": "警察庁: 緊急交通路指定・通行止め規制なし",
     "fdma_url": "https://www.fdma.go.jp/disaster#anchor--01",
     "npa_url": "https://www.npa.go.jp/"
@@ -1405,8 +1390,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 28,
+    "disaster_count": 30,
     "articles": [
+      {
+        "title": "震源の静岡県では最大震度5弱を観測 浜岡原発は地震の影響なし 女性が救急搬送要請　(テレビ朝日系（ANN）)",
+        "summary": "8日午前1時すぎ、静岡県西部を震源とした強い地震がありました。 県内では浜松・浜名区で最大震度5弱を観測しています。 この地震による津波の心配はありません。 気象庁によりますと、地震の震源の深さはおよ",
+        "pub_date": "11/08 02:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/df1d665955c1d8055850e3bfebd732e8f80abb1b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知県西部で震度５強 津波の心配なし 官邸に連絡室設置【11月8日午前2時20分現在】(テレビ愛知)",
+        "summary": "2026年11月8日午前1時4分ごろ、愛知県西部で震度5強を観測する地震がありました。この地震による津波の心配はありません。気象庁によりますと、震源地は静岡県西部で震源の深さは40キロ、地震の規模を示",
+        "pub_date": "11/08 02:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/173ece1a1a80c053f5907b5346d400d38117bc38?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【速報】愛知県で震度5強、「知多半島道路」など通行止め　地震の影響(京都新聞)",
+        "summary": "8日午前1時4分に愛知県西部で最大震度5強を観測したM5・7の地震により、午前1時半から、愛知県内の複数の自動車専用道路が、安全点検などのため複数の路線で通行止めになった。【画像】この地震の詳しい震度",
+        "pub_date": "11/08 02:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/cde3a2ca27d89e44b0d6201cdf8313cd9268bedd?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "【愛知で震度5強】政府が官邸連絡室を設置　情報収集や被害確認へ(テレビ朝日系（ANN）)",
         "summary": "愛知県で震度5強を観測した地震を受けて、政府は総理官邸の危機管理センターに官邸連絡室を設置しました。 関係府省庁が連携して情報の収集や被害の確認などにあたる方針です。",
@@ -1416,8 +1425,8 @@
         "is_disaster": true
       },
       {
-        "title": "【地震情報まとめ】愛知県で最大震度5強の強い地震 けが人も 被害・交通情報など 随時更新(CBCテレビ)",
-        "summary": "8日午前1時4分ごろ、愛知県で最大震度5強を観測する強い地震がありました。気象庁によりますと、震源地は静岡県西部で、震源の深さはおよそ40km、地震の規模を示すマグニチュードは5.7と推定されます。こ",
+        "title": "【地震情報まとめ】愛知県で最大震度5強の強い地震 けが人も 被害･交通情報の詳細（随時更新）(CBCテレビ)",
+        "summary": "きょう午前1時4分ごろ、愛知県知多市で震度5強の揺れを観測する地震がありました。この地震による津波の心配はありません。【画像】愛知県で最大震度5強 詳しい震度を見る気象庁によりますと、震源地は静岡県西",
         "pub_date": "11/08 01:49 JST",
         "link": "https://news.yahoo.co.jp/articles/fd288a0d3b312cd54e6d42d7ecc8952561004b9f?source=rss",
         "category": "国内・気象防災",
@@ -1502,33 +1511,9 @@
         "link": "https://news.yahoo.co.jp/articles/a9017ad69b0b8914d8eca0910da795b90a48026c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "〔地震〕愛知県知多市で震度5強 津波の心配なし(11/8)(レスキューナウニュース)",
-        "summary": "気象庁によると、8日01:04頃に地震があり、愛知県知多市で震度5強の揺れを観測しました。津波の心配はありません。■発生事象・発生日時 ：11月8日01:04頃・震源地 ：静岡県西部(北緯34.9度、",
-        "pub_date": "11/08 01:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/ff0f8002b6237f572c27ab6075ad68ab9a3a7e5d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "西武池袋線で人身事故 運転再開(レスキューナウニュース)",
-        "summary": "江古田駅で発生した人身事故の影響で、西武池袋線は池袋～所沢駅間の運転を見合わせていましたが、01:06頃、運転を再開しました。なお、ダイヤが乱れています。",
-        "pub_date": "11/08 01:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/021fb8ef7a201a6539d85294eca1458e1db0b02c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【関東も雪】今季最強寒気　大雪の北日本で車のトラブル続出　スリップ事故で死者も(テレビ朝日系（ANN）)",
-        "summary": "季節がグッと進みそうです。暦の上で「立冬」の7日、今シーズン最強の寒気が襲来。関東でも雪が降りました。北日本では吹雪となっている場所もあり、この先も交通障害に注意が必要です。（サタデーステーション11",
-        "pub_date": "11/08 00:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/fac98db9e52f1fa48a839dc50e6483d907f002f8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 02:00:27 JST"
+    "last_updated": "2026-11-08 02:28:02 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1560,10 +1545,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "QNOQCLPzJtA",
+        "video_id": "jZrVlGLQWiU",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/QNOQCLPzJtA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=QNOQCLPzJtA"
+        "embed_url": "https://www.youtube.com/embed/jZrVlGLQWiU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=jZrVlGLQWiU"
       },
       {
         "id": "stream_ntvnews",

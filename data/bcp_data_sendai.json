@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 16:00:23",
+  "timestamp": "2026-11-07 16:30:02",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -75,84 +75,13 @@
     "key": "sendai"
   },
   "earthquake": {
-    "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-08 00:42",
-    "place": "岩手県沖",
-    "magnitude": "4.1",
+    "status": "ERROR",
+    "shindo": "ERR",
+    "time": "2026-11-07 16:29",
+    "place": "エラー: The read operation timed out",
+    "magnitude": "-",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
-    "history": [
-      {
-        "time": "2026-11-08 00:42",
-        "place": "岩手県沖",
-        "shindo": "1",
-        "magnitude": "4.1",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-07 22:48",
-        "place": "福島県沖",
-        "shindo": "1",
-        "magnitude": "3.6",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-07 20:07",
-        "place": "茨城県沖",
-        "shindo": "3",
-        "magnitude": "5.6",
-        "maxScale": 30
-      },
-      {
-        "time": "2026-11-07 20:07",
-        "place": "茨城県沖",
-        "shindo": "-",
-        "magnitude": "5.6",
-        "maxScale": -1
-      },
-      {
-        "time": "2026-11-07 20:07",
-        "place": "震源情報なし",
-        "shindo": "3",
-        "magnitude": "-",
-        "maxScale": 30
-      },
-      {
-        "time": "2026-11-07 06:30",
-        "place": "山口県中部",
-        "shindo": "2",
-        "magnitude": "2.9",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-07 03:54",
-        "place": "和歌山県北部",
-        "shindo": "1",
-        "magnitude": "2.3",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-07 03:51",
-        "place": "和歌山県北部",
-        "shindo": "1",
-        "magnitude": "2.1",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-07 03:02",
-        "place": "和歌山県北部",
-        "shindo": "2",
-        "magnitude": "3.5",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-06 22:43",
-        "place": "淡路島付近",
-        "shindo": "1",
-        "magnitude": "3.1",
-        "maxScale": 10
-      }
-    ]
+    "history": []
   },
   "tsunami": {
     "status": "NORMAL",
@@ -182,10 +111,10 @@
           "波浪警報"
         ],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪警報、波浪注意報、強風注意報",
+        "summary": "波浪警報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -196,11 +125,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "風雪注意報",
+          "強風注意報",
           "波浪注意報",
-          "強風注意報"
+          "風雪注意報"
         ],
-        "summary": "風雪注意報、波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -323,11 +252,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東北電力NW: 停電情報なし（東北エリア管内正常）",
+    "power_msg": "東北電力NW: 【停電発生中】秋田で停電情報を検知",
     "water_msg": "仙台市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "仙台市ガス局: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -367,7 +296,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/07 15:11",
@@ -476,8 +405,88 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 17,
+    "disaster_count": 24,
     "articles": [
+      {
+        "title": "政府、愛知の地震で官邸連絡室設置(共同通信)",
+        "summary": "政府は8日、愛知県西部で震度5強を観測したのを受け、首相官邸の危機管理センターに官邸連絡室を設置した。",
+        "pub_date": "11/08 01:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/93d8d99050771f10c3fdfe44ca9858fa7770735d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【地震情報】愛知県で最大震度5強の強い地震　愛知・知多市(CBCテレビ)",
+        "summary": "■愛知で最大震度5強を観測8日午前1時4分ごろ、愛知県で最大震度5強を観測する強い地震がありました。気象庁によりますと、震源地は静岡県西部で、震源の深さはおよそ40km、地震の規模を示すマグニチュード",
+        "pub_date": "11/08 01:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/559a2415d15cfef6c39ce11049a770e23904448b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知県で震度5強の地震　マグニチュード 5.7(産経新聞)",
+        "summary": "11月8日午前1時4分ごろ、愛知県で震度5強の地震があった。気象庁によると、震源地は静岡県西部、震源の深さは約40km。地震の規模はマグニチュード（M）5.7と推定される。各地域の震度情報は以下の通り",
+        "pub_date": "11/08 01:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/5807fe6a2bc4a292355e2f896f97570bb35cb82f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【速報】愛知県西部で震度5強の地震　滋賀県や京都府南部でも震度3、震源は静岡県西部(京都新聞)",
+        "summary": "気象庁によると、8日午前1時4分ごろ、愛知県西部で震度5強を観測する地震があった。震源は静岡県西部、震源の深さは約40キロ、地震の規模はマグニチュード（M）5・7と推定される。[震度3以上が観測された",
+        "pub_date": "11/08 01:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/6c160a06255b4a376b8a384a108c825abd1e07a6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "マグニチュード5.7、津波の心配なし(共同通信)",
+        "summary": "気象庁によると、愛知県西部で震度5強を観測した地震の規模を示すマグニチュードは5.7と推定される。この地震による津波の心配はない。",
+        "pub_date": "11/08 01:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/dac97afd33370c92914b71867f77f7a904d03e2b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【速報】愛知県西部で震度5強　津波の心配なし(テレビ朝日系（ANN）)",
+        "summary": "午前1時04分ごろに愛知県西部で震度5強の地震がありました。 震源地は静岡県西部で、地震の規模（マグニチュード）は5.7と推定されます。 この地震による津波の心配はありません。",
+        "pub_date": "11/08 01:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/e7b5185d1fb424a07693ad835a413d7793ea979a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知県で震度5強の地震　津波の心配なし(日本気象協会tenki.jp)",
+        "summary": "8日午前1時4分頃、静岡県西部を震源とするマグニチュード5.7の地震が発生し、愛知県で最大震度5強を観測しました。この地震による津波の心配はありません。",
+        "pub_date": "11/08 01:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/d7475ea29d634e65cd28dac0a7707b069e285968?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知で震度5強(共同通信)",
+        "summary": "気象庁によると、8日午前1時4分ごろ、愛知県西部で震度5強の地震があった。",
+        "pub_date": "11/08 01:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/a9017ad69b0b8914d8eca0910da795b90a48026c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "〔地震〕愛知県知多市で震度5強 津波の心配なし(11/8)(レスキューナウニュース)",
+        "summary": "気象庁によると、8日01:04頃に地震があり、愛知県知多市で震度5強の揺れを観測しました。津波の心配はありません。■発生事象・発生日時 ：11月8日01:04頃・震源地 ：静岡県西部(北緯34.9度、",
+        "pub_date": "11/08 01:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/ff0f8002b6237f572c27ab6075ad68ab9a3a7e5d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "西武池袋線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "江古田駅で発生した人身事故の影響で、西武池袋線は池袋～所沢駅間の運転を見合わせていましたが、01:06頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/08 01:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/021fb8ef7a201a6539d85294eca1458e1db0b02c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "【関東も雪】今季最強寒気　大雪の北日本で車のトラブル続出　スリップ事故で死者も(テレビ朝日系（ANN）)",
         "summary": "季節がグッと進みそうです。暦の上で「立冬」の7日、今シーズン最強の寒気が襲来。関東でも雪が降りました。北日本では吹雪となっている場所もあり、この先も交通障害に注意が必要です。（サタデーステーション11",
@@ -517,89 +526,9 @@
         "link": "https://news.yahoo.co.jp/articles/2e8bfd88c0bdd297f39f20b5bf8c9aa5fc678d39?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "【台風情報】台風32号（チャンパカ）の進路予想　小笠原近海を西北西へ　中心気圧1000hPa、最大瞬間風速30m/s　12日午後9時までの予報は　　　(FNNプライムオンライン)",
-        "summary": "気象庁によりますと、台風32号（チャンパカ）は7日午後9時現在、小笠原近海にあって、1時間におよそ25キロの速さで西北西へ進んでいます。中心気圧は1000hPa、中心付近の最大風速は20m/s、最大瞬",
-        "pub_date": "11/07 23:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/b48137411a89c79e2c337a1946c9c8e3c849f7f7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "大阪発高知行き高速バスから出火、全員無事(共同通信)",
-        "summary": "大阪市の西日本JRバスによると、7日午後7時40分ごろ、兵庫県淡路市の神戸淡路鳴門自動車道下りで、大阪から高知に向かっていた同社の高速バスから出火した。乗客21人と運転手1人は避難し無事だった。",
-        "pub_date": "11/07 21:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/d173ea2c7e7b45b1398a7ed3f36840186f789f3f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "神戸淡路鳴門道で高知行きバス火災　兵庫・淡路　目撃者「煙が真っ赤」　乗客ら22人脱出(産経新聞)",
-        "summary": "7日午後7時45分ごろ、兵庫県淡路市の神戸淡路鳴門自動車道下り明石海峡大橋ー淡路サービスエリア（SA）間を走行中のバスから火が出ていると110番があった。バスは、西日本JRバス（大阪市）の大阪発高知行",
-        "pub_date": "11/07 21:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/12a3ca67450fef205ac7b7051074363129d21da2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "大和路線で人身事故 運転再開(レスキューナウニュース)",
-        "summary": "加美駅で発生した人身事故の影響で、大和路線は王寺～JR難波駅間の運転を見合わせていましたが、20:35頃、運転を再開しました。なお、ダイヤが乱れています。",
-        "pub_date": "11/07 20:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/374c4f38f07929ab2ea18683b75c5ed505455ee8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "大和路線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "19:50頃、加美駅で発生した人身事故の影響で、大和路線は王寺～JR難波駅間の運転を見合わせています。振替輸送を行っています。",
-        "pub_date": "11/07 20:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/5832c39e784f59e44ad5bd04392bb62f4853c8c7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "酒酔い運転で前を走っていた車に追突 車は横転し2人軽傷 危険運転傷害容疑で23歳の男を逮捕 愛知・武豊町の自動車専用道路(CBCテレビ)",
-        "summary": "きょう7日（土）未明、愛知県武豊町の自動車専用道路で、酒に酔った状態で車を運転して追突事故を起こし、男性2人にけがをさせたとして、23歳の男が逮捕されました。【写真を見る】酒酔い運転で前を走っていた車",
-        "pub_date": "11/07 19:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/5754be7a18c39c09f1e6030fb8edc00f21d0ebe7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【台風情報】台風32号（チャンパカ）の進路予想　小笠原近海を北西へ　中心気圧1002hPa、最大瞬間風速25m/s　12日午後3時までの予報は　(FNNプライムオンライン)",
-        "summary": "気象庁によりますと、台風32号（チャンパカ）は7日午後6時現在、小笠原近海にあって、1時間におよそ30キロの速さで北西へ進んでいます。中心気圧は1002hPa、中心付近の最大風速は18m/s、最大瞬間",
-        "pub_date": "11/07 19:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/3cfe39de488968ca37b809bca3b4877148c0c2b6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【台風情報】急カーブ台風32号　なぜ急に方向転換する?　次の「反時計回りの渦」も【雨風シミュレーション18日（水）/全国の週間予報】気象庁進路予想(MBC南日本放送)",
-        "summary": "■【過去6番目の多さ】32年ぶりの「台風32号」「台風32号」は午後6時現在、マリアナ諸島にあって北西に時速30kmの速さで進んでいます。今後発達しながら西寄りに進み、9日（月）ごろには東寄りに進路を",
-        "pub_date": "11/07 19:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/300410bf819943d58b90f5b177437fe504687ca8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "台風多発の年 32号が発生 過去6番目の多さ　来週、小笠原諸島接近か(テレビ朝日系（ANN）)",
-        "summary": "台風32号が発生しました。32号まで発生するのは、過去6番目に多い記録です。 7日正午に、日本のはるか南で台風32号が発生しました。 今後は発達しながら西寄りに進み、9日には強い勢力になり、進路を東寄",
-        "pub_date": "11/07 18:56 JST",
-        "link": "https://news.yahoo.co.jp/articles/3472a6800a7df21f4227fca3deb8e37946a315f3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "交通課巡査部長が酒酔い状態で運転し事故か 同僚と飲酒後　秋田(テレビ朝日系（ANN）)",
-        "summary": "酒に酔った状態で車を運転して物損事故を起こしたとして、由利本荘警察署の交通課の巡査部長・菅尾泰斗容疑者（38）を道路交通法違反の疑いで逮捕しました。 菅尾容疑者は当日、同僚6人と飲酒をしていて、警察の",
-        "pub_date": "11/07 18:46 JST",
-        "link": "https://news.yahoo.co.jp/articles/7f771fa1f099309243a7d6162fe0fb115524fa05?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 00:59:49 JST"
+    "last_updated": "2026-11-08 01:29:32 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -631,10 +560,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "jZrVlGLQWiU",
+        "video_id": "QNOQCLPzJtA",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/jZrVlGLQWiU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=jZrVlGLQWiU"
+        "embed_url": "https://www.youtube.com/embed/QNOQCLPzJtA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=QNOQCLPzJtA"
       },
       {
         "id": "stream_ntvnews",
@@ -653,10 +582,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "beDt_6zJ6W8",
+        "video_id": "X1erMnLBgtg",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/beDt_6zJ6W8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=beDt_6zJ6W8"
+        "embed_url": "https://www.youtube.com/embed/X1erMnLBgtg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=X1erMnLBgtg"
       },
       {
         "id": "stream_fnnnews",

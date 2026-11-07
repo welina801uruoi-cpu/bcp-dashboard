@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 01:01:43",
-  "timestamp_local": "2026-11-08 00:01:43",
+  "timestamp": "2026-11-08 01:31:27",
+  "timestamp_local": "2026-11-08 00:31:27",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -289,23 +289,39 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
-    "summary": "M4.9 (77 km NNW of Khorixas, Namibia)",
+    "count_24h": 10,
+    "summary": "M5.5 (10 km NW of Hamakita, Japan)",
     "latest": {
-      "mag": 4.9,
-      "place": "77 km NNW of Khorixas, Namibia",
-      "time": "11/08 00:22 JST",
-      "depth_km": 8.035,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twss",
+      "mag": 5.5,
+      "place": "10 km NW of Hamakita, Japan",
+      "time": "11/08 01:04 JST",
+      "depth_km": 38.081,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.5,
+        "place": "10 km NW of Hamakita, Japan",
+        "time": "11/08 01:04 JST",
+        "depth_km": 38.081,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "77 km NNW of Khorixas, Namibia",
         "time": "11/08 00:22 JST",
         "depth_km": 8.035,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twss",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": "11/08 00:05 JST",
+        "depth_km": 571.898,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twsp",
         "tsunami": 0
       },
       {
@@ -524,23 +540,23 @@
     },
     {
       "keyword": "フィリピン 地震",
-      "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "status": "ALERT",
+      "trend": "UP",
+      "trend_label": "📈 上昇傾向 (投稿急増・要警戒)",
+      "trend_class": "red",
+      "summary": "直近1時間で 39 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
       "recent_posts": [
         {
-          "time": "11/07 12:27",
-          "text": "日本列島は、地球上でも最も地殻変動が活発な地域の一つに位置している。 絶え間なく続く 地震 、火山噴火の脅威、そしてプレートの動きによる海溝..."
+          "time": "11/07 16:29",
+          "text": "確か6〜7年前にも同じぐらいの位置で同じぐらい揺れてた記憶 今回の 地震 は深さ的に フィリピン プレートの中かな？ 場..."
         },
         {
-          "time": "11/07 09:48",
-          "text": "南海トラフ 地震 関連解説情報は フィリピン 海プレートの動きから派生する陸側プレート（ユーラシアプレート）との関連性を..."
+          "time": "11/07 16:29",
+          "text": "AQUA-CMTとF-net自動メカニズム解 東北東ー西南西方向に張力軸を持つ正断層型で フィリピン 海プレートの内部で発生した ..."
         },
         {
-          "time": "11/07 08:42",
-          "text": "浅いってのもあるんだと思うけど、 フィリピン 海プレート由来の揺れ方の方が鋭くて怖い感じ。東海地方に住んでる時に思った。回数が凄く少ないんだ..."
+          "time": "11/07 16:28",
+          "text": "フィリピン 海プレート内部の左横ずれタイプの 地震 だから一応南海トラフとは関係無さそう 本当にプレート境界じゃなくてよ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%95%E3%82%A3%E3%83%AA%E3%83%94%E3%83%B3%20%E5%9C%B0%E9%9C%87"
@@ -605,7 +621,7 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/08 01:01 JST",
+    "timestamp": "11/08 01:31 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -673,11 +689,11 @@
         "is_capital": true,
         "lat": 14.5995,
         "lon": 120.9842,
-        "temp": 26.7,
-        "apparent_temp": 30.5,
+        "temp": 26.6,
+        "apparent_temp": 30.6,
         "humidity": 72,
-        "wind_speed": 4.4,
-        "wind_gusts": 19.4,
+        "wind_speed": 3.3,
+        "wind_gusts": 16.2,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -718,11 +734,11 @@
         "is_capital": false,
         "lat": 10.3157,
         "lon": 123.8854,
-        "temp": 25.5,
-        "apparent_temp": 29.5,
+        "temp": 25.3,
+        "apparent_temp": 29.4,
         "humidity": 88,
-        "wind_speed": 11.7,
-        "wind_gusts": 22.7,
+        "wind_speed": 10.7,
+        "wind_gusts": 22.0,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -763,11 +779,11 @@
         "is_capital": false,
         "lat": 7.1907,
         "lon": 125.4578,
-        "temp": 23.3,
-        "apparent_temp": 27.3,
+        "temp": 23.2,
+        "apparent_temp": 27.1,
         "humidity": 93,
-        "wind_speed": 6.5,
-        "wind_gusts": 11.5,
+        "wind_speed": 6.9,
+        "wind_gusts": 12.2,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -809,11 +825,11 @@
       "is_capital": true,
       "lat": 14.5995,
       "lon": 120.9842,
-      "temp": 26.7,
-      "apparent_temp": 30.5,
+      "temp": 26.6,
+      "apparent_temp": 30.6,
       "humidity": 72,
-      "wind_speed": 4.4,
-      "wind_gusts": 19.4,
+      "wind_speed": 3.3,
+      "wind_gusts": 16.2,
       "precipitation": 0.0,
       "weather_code": 1,
       "weather_label": "🌤️ 晴れ",
@@ -848,7 +864,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 01:01 JST"
+    "timestamp": "11/08 01:31 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -877,7 +893,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/08 01:01 JST"
+    "timestamp": "11/08 01:31 JST"
   },
   "lifeline": {
     "status": "NORMAL",

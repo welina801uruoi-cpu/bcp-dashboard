@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 01:01:46",
-  "timestamp_local": "2026-11-07 23:01:46",
+  "timestamp": "2026-11-08 01:31:30",
+  "timestamp_local": "2026-11-07 23:31:30",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -283,23 +283,39 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
-    "summary": "M4.9 (77 km NNW of Khorixas, Namibia)",
+    "count_24h": 10,
+    "summary": "M5.5 (10 km NW of Hamakita, Japan)",
     "latest": {
-      "mag": 4.9,
-      "place": "77 km NNW of Khorixas, Namibia",
-      "time": "11/08 00:22 JST",
-      "depth_km": 8.035,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twss",
+      "mag": 5.5,
+      "place": "10 km NW of Hamakita, Japan",
+      "time": "11/08 01:04 JST",
+      "depth_km": 38.081,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.5,
+        "place": "10 km NW of Hamakita, Japan",
+        "time": "11/08 01:04 JST",
+        "depth_km": 38.081,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "77 km NNW of Khorixas, Namibia",
         "time": "11/08 00:22 JST",
         "depth_km": 8.035,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twss",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": "11/08 00:05 JST",
+        "depth_km": 571.898,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twsp",
         "tsunami": 0
       },
       {
@@ -535,8 +551,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/07 16:13",
+          "text": "外国人は 地震 が来たらパニックになるというイメージだったけど インドネシア 人は「ん？ 地震 ？」..."
+        },
         {
           "time": "11/06 10:29",
           "text": "@azukiglg 日本と同じ島国で､常に､ 地震 と火山の脅威に晒されている インドネシア が、イスラム教徒の数が一番..."
@@ -544,10 +564,6 @@
         {
           "time": "11/05 23:42",
           "text": "@ntyoooooo 言語習得とサバイバル会得しとこ。頑張って( ⩌⩊⩌) インドネシア も、 地震 津波日本よりあるで..."
-        },
-        {
-          "time": "11/05 13:16",
-          "text": "@zetsuboushika パキスタンや インドネシア も 地震 国のはずだけど、自分の国で災害が起こった際にそんなこ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%A4%E3%83%B3%E3%83%89%E3%83%8D%E3%82%B7%E3%82%A2%20%E5%9C%B0%E9%9C%87"
@@ -605,7 +621,7 @@
       {
         "id": "stream_tvone_live",
         "name": "📺 tvOne News 24h 生配信",
-        "video_id": "rQJoEpzKkNk",
+        "video_id": "atq_-DXWavs",
         "handle": "@tvOneNews",
         "type": "stream"
       },
@@ -619,7 +635,7 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/08 01:01 JST",
+    "timestamp": "11/08 01:31 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -687,14 +703,14 @@
         "is_capital": true,
         "lat": -6.2088,
         "lon": 106.8456,
-        "temp": 28.5,
-        "apparent_temp": 34.7,
-        "humidity": 80,
-        "wind_speed": 2.8,
+        "temp": 28.2,
+        "apparent_temp": 34.4,
+        "humidity": 82,
+        "wind_speed": 2.9,
         "wind_gusts": 5.8,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/07(土)",
@@ -721,10 +737,10 @@
             "precipitation_mm": 9.8
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "デンパサール (バリ島)",
@@ -732,14 +748,14 @@
         "is_capital": false,
         "lat": -8.6705,
         "lon": 115.2126,
-        "temp": 26.2,
-        "apparent_temp": 32.1,
-        "humidity": 89,
-        "wind_speed": 1.9,
-        "wind_gusts": 3.2,
+        "temp": 26.1,
+        "apparent_temp": 32.0,
+        "humidity": 90,
+        "wind_speed": 2.6,
+        "wind_gusts": 3.6,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -777,11 +793,11 @@
         "is_capital": false,
         "lat": -7.2575,
         "lon": 112.7521,
-        "temp": 29.8,
+        "temp": 29.7,
         "apparent_temp": 34.0,
         "humidity": 67,
-        "wind_speed": 8.6,
-        "wind_gusts": 22.0,
+        "wind_speed": 8.1,
+        "wind_gusts": 20.2,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -823,14 +839,14 @@
       "is_capital": true,
       "lat": -6.2088,
       "lon": 106.8456,
-      "temp": 28.5,
-      "apparent_temp": 34.7,
-      "humidity": 80,
-      "wind_speed": 2.8,
+      "temp": 28.2,
+      "apparent_temp": 34.4,
+      "humidity": 82,
+      "wind_speed": 2.9,
       "wind_gusts": 5.8,
-      "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "precipitation": 0.1,
+      "weather_code": 51,
+      "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
         {
           "date": "11/07(土)",
@@ -857,12 +873,12 @@
           "precipitation_mm": 9.8
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/08 01:01 JST"
+    "timestamp": "11/08 01:31 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -891,7 +907,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/08 01:01 JST"
+    "timestamp": "11/08 01:31 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 01:02:52",
-  "timestamp_local": "2026-11-07 12:02:52",
+  "timestamp": "2026-11-08 01:32:45",
+  "timestamp_local": "2026-11-07 12:32:45",
   "country": {
     "id": "usa",
     "name": "アメリカ (米国)",
@@ -169,23 +169,39 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
-    "summary": "M4.9 (77 km NNW of Khorixas, Namibia)",
+    "count_24h": 10,
+    "summary": "M5.5 (10 km NW of Hamakita, Japan)",
     "latest": {
-      "mag": 4.9,
-      "place": "77 km NNW of Khorixas, Namibia",
-      "time": "11/08 00:22 JST",
-      "depth_km": 8.035,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twss",
+      "mag": 5.5,
+      "place": "10 km NW of Hamakita, Japan",
+      "time": "11/08 01:04 JST",
+      "depth_km": 38.081,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.5,
+        "place": "10 km NW of Hamakita, Japan",
+        "time": "11/08 01:04 JST",
+        "depth_km": 38.081,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "77 km NNW of Khorixas, Namibia",
         "time": "11/08 00:22 JST",
         "depth_km": 8.035,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twss",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": "11/08 00:05 JST",
+        "depth_km": 571.898,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twsp",
         "tsunami": 0
       },
       {
@@ -514,7 +530,7 @@
     "default_channel_id": "stream_nbc_live"
   },
   "forex": {
-    "timestamp": "11/08 01:02 JST",
+    "timestamp": "11/08 01:32 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -592,24 +608,69 @@
   "weather": {
     "cities": [
       {
+        "name": "ワシントンD.C. (首都)",
+        "name_en": "Washington, D.C.",
+        "is_capital": true,
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "temp": 13.9,
+        "apparent_temp": 9.8,
+        "humidity": 46,
+        "wind_speed": 17.7,
+        "wind_gusts": 32.4,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 15.5,
+            "temp_min": 7.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 16.8,
+            "temp_min": 4.3,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 16.8,
+            "temp_min": 6.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ニューヨーク (東部最大都市)",
         "name_en": "New York",
         "is_capital": false,
         "lat": 40.7128,
         "lon": -74.006,
-        "temp": 14.6,
-        "apparent_temp": 13.0,
+        "temp": 15.6,
+        "apparent_temp": 13.7,
         "humidity": 81,
-        "wind_speed": 14.1,
-        "wind_gusts": 21.6,
+        "wind_speed": 18.4,
+        "wind_gusts": 27.0,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/07(土)",
-            "temp_max": 15.4,
-            "temp_min": 7.1,
+            "temp_max": 16.0,
+            "temp_min": 6.9,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
             "precipitation_mm": 0.4
@@ -617,7 +678,7 @@
           {
             "date": "11/08(日)",
             "temp_max": 14.0,
-            "temp_min": 6.6,
+            "temp_min": 6.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -642,18 +703,18 @@
         "is_capital": false,
         "lat": 34.0522,
         "lon": -118.2437,
-        "temp": 20.2,
-        "apparent_temp": 17.9,
-        "humidity": 31,
-        "wind_speed": 4.1,
-        "wind_gusts": 8.6,
+        "temp": 22.5,
+        "apparent_temp": 20.2,
+        "humidity": 27,
+        "wind_speed": 3.9,
+        "wind_gusts": 11.2,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/07(土)",
-            "temp_max": 28.9,
+            "temp_max": 29.7,
             "temp_min": 14.9,
             "weather_code": 0,
             "weather_label": "☀️ 快晴",
@@ -687,18 +748,18 @@
         "is_capital": false,
         "lat": 41.8781,
         "lon": -87.6298,
-        "temp": 5.4,
-        "apparent_temp": 2.3,
-        "humidity": 75,
-        "wind_speed": 8.7,
-        "wind_gusts": 13.7,
+        "temp": 6.9,
+        "apparent_temp": 4.1,
+        "humidity": 71,
+        "wind_speed": 7.0,
+        "wind_gusts": 15.5,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/07(土)",
-            "temp_max": 9.9,
+            "temp_max": 10.1,
             "temp_min": -0.3,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -707,7 +768,7 @@
           {
             "date": "11/08(日)",
             "temp_max": 13.2,
-            "temp_min": 1.7,
+            "temp_min": 1.9,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -728,40 +789,40 @@
       }
     ],
     "capital": {
-      "name": "ニューヨーク (東部最大都市)",
-      "name_en": "New York",
-      "is_capital": false,
-      "lat": 40.7128,
-      "lon": -74.006,
-      "temp": 14.6,
-      "apparent_temp": 13.0,
-      "humidity": 81,
-      "wind_speed": 14.1,
-      "wind_gusts": 21.6,
+      "name": "ワシントンD.C. (首都)",
+      "name_en": "Washington, D.C.",
+      "is_capital": true,
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "temp": 13.9,
+      "apparent_temp": 9.8,
+      "humidity": 46,
+      "wind_speed": 17.7,
+      "wind_gusts": 32.4,
       "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 15.4,
-          "temp_min": 7.1,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.4
-        },
-        {
-          "date": "11/08(日)",
-          "temp_max": 14.0,
-          "temp_min": 6.6,
+          "temp_max": 15.5,
+          "temp_min": 7.4,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
+          "date": "11/08(日)",
+          "temp_max": 16.8,
+          "temp_min": 4.3,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
+          "precipitation_mm": 0.0
+        },
+        {
           "date": "11/09(月)",
-          "temp_max": 14.0,
-          "temp_min": 6.2,
+          "temp_max": 16.8,
+          "temp_min": 6.4,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -772,7 +833,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 01:02 JST"
+    "timestamp": "11/08 01:32 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -816,7 +877,7 @@
         "details": "NY地下鉄各線平常運行中"
       }
     ],
-    "timestamp": "11/08 01:02 JST"
+    "timestamp": "11/08 01:32 JST"
   },
   "lifeline": {
     "status": "NORMAL",

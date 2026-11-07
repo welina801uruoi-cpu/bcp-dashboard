@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 01:01:29",
-  "timestamp_local": "2026-11-08 01:01:29",
+  "timestamp": "2026-11-08 01:31:09",
+  "timestamp_local": "2026-11-08 01:31:09",
   "country": {
     "id": "korea",
     "name": "韓国 (大韓民国)",
@@ -295,23 +295,39 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
-    "summary": "M4.9 (77 km NNW of Khorixas, Namibia)",
+    "count_24h": 10,
+    "summary": "M5.5 (10 km NW of Hamakita, Japan)",
     "latest": {
-      "mag": 4.9,
-      "place": "77 km NNW of Khorixas, Namibia",
-      "time": "11/08 00:22 JST",
-      "depth_km": 8.035,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twss",
+      "mag": 5.5,
+      "place": "10 km NW of Hamakita, Japan",
+      "time": "11/08 01:04 JST",
+      "depth_km": 38.081,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.5,
+        "place": "10 km NW of Hamakita, Japan",
+        "time": "11/08 01:04 JST",
+        "depth_km": 38.081,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "77 km NNW of Khorixas, Namibia",
         "time": "11/08 00:22 JST",
         "depth_km": 8.035,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twss",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": "11/08 00:05 JST",
+        "depth_km": 571.898,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twsp",
         "tsunami": 0
       },
       {
@@ -635,7 +651,7 @@
     "default_channel_id": "stream_ytn_live"
   },
   "forex": {
-    "timestamp": "11/08 01:01 JST",
+    "timestamp": "11/08 01:31 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -673,20 +689,11 @@
       "departures_url": "https://www.airport.kr/ap/ko/dep/depPasList.do",
       "radar_url": "https://www.flightradar24.com/airport/icn",
       "flightaware_url": "https://www.flightaware.com/live/airport/RKSI",
-      "weather": {
-        "raw": "METAR RKSI 071530Z 02007KT CAVOK 06/M09 Q1035 NOSIG",
-        "wind": "7kt",
-        "wind_speed": 7,
-        "wind_gust": 0,
-        "visibility": "良好 (CAVOK)",
-        "temp": 6,
-        "fltcat": "VFR",
-        "report_time": "2026-11-07T15:30:00.000Z"
-      },
+      "weather": {},
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "視程良好（良好 (CAVOK)）、風速安定（7kt）。順調に運航中"
+      "status_desc": "定常運航中（現在重大な気象警報なし）"
     },
     {
       "iata": "GMP",
@@ -697,20 +704,11 @@
       "departures_url": "https://www.airport.co.kr/gimpo/index.do",
       "radar_url": "https://www.flightradar24.com/airport/gmp",
       "flightaware_url": "https://www.flightaware.com/live/airport/RKSS",
-      "weather": {
-        "raw": "METAR RKSS 071500Z 36003KT CAVOK 02/M02 Q1035 NOSIG",
-        "wind": "3kt",
-        "wind_speed": 3,
-        "wind_gust": 0,
-        "visibility": "良好 (CAVOK)",
-        "temp": 2,
-        "fltcat": "VFR",
-        "report_time": "2026-11-07T15:00:00.000Z"
-      },
+      "weather": {},
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "視程良好（良好 (CAVOK)）、風速安定（3kt）。順調に運航中"
+      "status_desc": "定常運航中（現在重大な気象警報なし）"
     }
   ],
   "weather": {
@@ -721,14 +719,14 @@
         "is_capital": true,
         "lat": 37.5665,
         "lon": 126.978,
-        "temp": 2.8,
-        "apparent_temp": -1.0,
-        "humidity": 42,
-        "wind_speed": 4.8,
-        "wind_gusts": 10.1,
+        "temp": 2.9,
+        "apparent_temp": -0.8,
+        "humidity": 41,
+        "wind_speed": 3.6,
+        "wind_gusts": 9.4,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -767,10 +765,10 @@
         "lat": 35.1796,
         "lon": 129.0756,
         "temp": 5.8,
-        "apparent_temp": 2.2,
-        "humidity": 40,
+        "apparent_temp": 2.1,
+        "humidity": 39,
         "wind_speed": 4.3,
-        "wind_gusts": 12.6,
+        "wind_gusts": 13.3,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -811,11 +809,11 @@
         "is_capital": false,
         "lat": 33.4996,
         "lon": 126.5312,
-        "temp": 10.8,
-        "apparent_temp": 6.9,
-        "humidity": 59,
-        "wind_speed": 16.4,
-        "wind_gusts": 24.8,
+        "temp": 10.9,
+        "apparent_temp": 7.1,
+        "humidity": 61,
+        "wind_speed": 15.9,
+        "wind_gusts": 24.1,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -857,14 +855,14 @@
       "is_capital": true,
       "lat": 37.5665,
       "lon": 126.978,
-      "temp": 2.8,
-      "apparent_temp": -1.0,
-      "humidity": 42,
-      "wind_speed": 4.8,
-      "wind_gusts": 10.1,
+      "temp": 2.9,
+      "apparent_temp": -0.8,
+      "humidity": 41,
+      "wind_speed": 3.6,
+      "wind_gusts": 9.4,
       "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
           "date": "11/08(日)",
@@ -896,7 +894,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 01:01 JST"
+    "timestamp": "11/08 01:31 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -925,7 +923,7 @@
         "details": "京釜線KTXなど主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/08 01:01 JST"
+    "timestamp": "11/08 01:31 JST"
   },
   "lifeline": {
     "status": "NORMAL",

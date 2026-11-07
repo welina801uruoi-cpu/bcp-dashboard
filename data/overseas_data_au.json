@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 01:32:42",
-  "timestamp_local": "2026-11-08 02:32:42",
+  "timestamp": "2026-11-08 02:03:34",
+  "timestamp_local": "2026-11-08 03:03:34",
   "country": {
     "id": "australia",
     "name": "オーストラリア (豪州)",
@@ -652,7 +652,7 @@
     "default_channel_id": "stream_abc_news_au"
   },
   "forex": {
-    "timestamp": "11/08 01:32 JST",
+    "timestamp": "11/08 02:03 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -715,61 +715,16 @@
   "weather": {
     "cities": [
       {
-        "name": "キャンベラ (首都)",
-        "name_en": "Canberra",
-        "is_capital": true,
-        "lat": -35.2809,
-        "lon": 149.13,
-        "temp": 4.2,
-        "apparent_temp": 0.2,
-        "humidity": 68,
-        "wind_speed": 11.4,
-        "wind_gusts": 26.3,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 14.8,
-            "temp_min": 4.2,
-            "weather_code": 2,
-            "weather_label": "⛅ 晴れ時々曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 18.6,
-            "temp_min": 5.5,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 22.3,
-            "temp_min": 5.4,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "シドニー (最大都市)",
         "name_en": "Sydney",
         "is_capital": false,
         "lat": -33.8688,
         "lon": 151.2093,
-        "temp": 11.5,
-        "apparent_temp": 7.5,
-        "humidity": 56,
-        "wind_speed": 16.6,
-        "wind_gusts": 33.5,
+        "temp": 11.2,
+        "apparent_temp": 7.1,
+        "humidity": 57,
+        "wind_speed": 16.9,
+        "wind_gusts": 34.2,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -803,45 +758,90 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "メルボルン (南部)",
+        "name_en": "Melbourne",
+        "is_capital": false,
+        "lat": -37.8136,
+        "lon": 144.9631,
+        "temp": 10.6,
+        "apparent_temp": 7.3,
+        "humidity": 61,
+        "wind_speed": 11.8,
+        "wind_gusts": 29.2,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 15.3,
+            "temp_min": 9.7,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 21.1,
+            "temp_min": 5.8,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 26.1,
+            "temp_min": 10.7,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 0.7
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
-      "name": "キャンベラ (首都)",
-      "name_en": "Canberra",
-      "is_capital": true,
-      "lat": -35.2809,
-      "lon": 149.13,
-      "temp": 4.2,
-      "apparent_temp": 0.2,
-      "humidity": 68,
-      "wind_speed": 11.4,
-      "wind_gusts": 26.3,
+      "name": "シドニー (最大都市)",
+      "name_en": "Sydney",
+      "is_capital": false,
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "temp": 11.2,
+      "apparent_temp": 7.1,
+      "humidity": 57,
+      "wind_speed": 16.9,
+      "wind_gusts": 34.2,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 14.8,
-          "temp_min": 4.2,
-          "weather_code": 2,
-          "weather_label": "⛅ 晴れ時々曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 16.3,
+          "temp_min": 10.5,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 2.3
         },
         {
           "date": "11/09(月)",
-          "temp_max": 18.6,
-          "temp_min": 5.5,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 17.6,
+          "temp_min": 11.1,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.9
         },
         {
           "date": "11/10(火)",
-          "temp_max": 22.3,
-          "temp_min": 5.4,
-          "weather_code": 45,
-          "weather_label": "🌫️ 霧",
+          "temp_max": 21.3,
+          "temp_min": 10.7,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         }
       ],
@@ -850,7 +850,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 01:32 JST"
+    "timestamp": "11/08 02:03 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -880,7 +880,7 @@
         "details": "シドニー首都圏鉄道網は概ね平常運行中"
       }
     ],
-    "timestamp": "11/08 01:32 JST"
+    "timestamp": "11/08 02:03 JST"
   },
   "lifeline": {
     "status": "NORMAL",

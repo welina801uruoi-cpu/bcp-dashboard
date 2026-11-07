@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 16:30:02",
+  "timestamp": "2026-11-07 17:01:39",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -75,13 +75,84 @@
     "key": "sendai"
   },
   "earthquake": {
-    "status": "ERROR",
-    "shindo": "ERR",
-    "time": "2026-11-07 16:29",
-    "place": "エラー: The read operation timed out",
-    "magnitude": "-",
+    "status": "ALERT",
+    "shindo": "5強",
+    "time": "2026-11-08 01:04",
+    "place": "静岡県西部",
+    "magnitude": "5.7",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
-    "history": []
+    "history": [
+      {
+        "time": "2026-11-08 01:04",
+        "place": "静岡県西部",
+        "shindo": "5強",
+        "magnitude": "5.7",
+        "maxScale": 50
+      },
+      {
+        "time": "2026-11-08 01:04",
+        "place": "静岡県西部",
+        "shindo": "5強",
+        "magnitude": "5.7",
+        "maxScale": 50
+      },
+      {
+        "time": "2026-11-08 01:04",
+        "place": "震源情報なし",
+        "shindo": "5強",
+        "magnitude": "-",
+        "maxScale": 50
+      },
+      {
+        "time": "2026-11-08 01:04",
+        "place": "静岡県西部",
+        "shindo": "-",
+        "magnitude": "5.7",
+        "maxScale": -1
+      },
+      {
+        "time": "2026-11-08 01:04",
+        "place": "震源情報なし",
+        "shindo": "5強",
+        "magnitude": "-",
+        "maxScale": 50
+      },
+      {
+        "time": "2026-11-08 01:04",
+        "place": "震源情報なし",
+        "shindo": "5強",
+        "magnitude": "-",
+        "maxScale": 50
+      },
+      {
+        "time": "2026-11-08 00:42",
+        "place": "岩手県沖",
+        "shindo": "1",
+        "magnitude": "4.1",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-07 22:48",
+        "place": "福島県沖",
+        "shindo": "1",
+        "magnitude": "3.6",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-07 20:07",
+        "place": "茨城県沖",
+        "shindo": "3",
+        "magnitude": "5.6",
+        "maxScale": 30
+      },
+      {
+        "time": "2026-11-07 20:07",
+        "place": "茨城県沖",
+        "shindo": "-",
+        "magnitude": "5.6",
+        "maxScale": -1
+      }
+    ]
   },
   "tsunami": {
     "status": "NORMAL",
@@ -125,11 +196,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "風雪注意報",
           "強風注意報",
-          "波浪注意報",
-          "風雪注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、風雪注意報",
+        "summary": "風雪注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -199,16 +270,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 奥羽本線、羽越本線、北上線）",
+    "text": "運行支障あり（在来線: 北上線、羽越本線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（奥羽本線、羽越本線、北上線）",
+    "line_text": "運行支障あり（北上線、羽越本線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/3",
     "troubled_lines": [
-      "奥羽本線",
-      "羽越本線",
-      "北上線"
+      "北上線",
+      "羽越本線"
     ],
     "troubled_shinkansen": [],
     "shinkansen_details": [
@@ -405,8 +475,40 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 24,
+    "disaster_count": 28,
     "articles": [
+      {
+        "title": "【愛知で震度5強】政府が官邸連絡室を設置　情報収集や被害確認へ(テレビ朝日系（ANN）)",
+        "summary": "愛知県で震度5強を観測した地震を受けて、政府は総理官邸の危機管理センターに官邸連絡室を設置しました。 関係府省庁が連携して情報の収集や被害の確認などにあたる方針です。",
+        "pub_date": "11/08 01:52 JST",
+        "link": "https://news.yahoo.co.jp/articles/16c9b47767c7b68994cb84cb3dc4cede2274575a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【地震情報まとめ】愛知県で最大震度5強の強い地震 けが人も 被害・交通情報など 随時更新(CBCテレビ)",
+        "summary": "8日午前1時4分ごろ、愛知県で最大震度5強を観測する強い地震がありました。気象庁によりますと、震源地は静岡県西部で、震源の深さはおよそ40km、地震の規模を示すマグニチュードは5.7と推定されます。こ",
+        "pub_date": "11/08 01:49 JST",
+        "link": "https://news.yahoo.co.jp/articles/fd288a0d3b312cd54e6d42d7ecc8952561004b9f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知県西部で震度5強　M5.7、津波の心配なし(共同通信)",
+        "summary": "8日午前1時4分ごろ、愛知県西部で震度5強の地震があった。気象庁によると、震源は静岡県西部で深さは約40キロ。地震の規模を示すマグニチュード（M）は5.7と推定される。この地震による津波の心配はない。",
+        "pub_date": "11/08 01:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/d8782355d5af90e6e91a314ddd6dc836ed61e411?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知・豊田で2人けがとの通報(共同通信)",
+        "summary": "愛知県豊田市消防本部によると、8日発生した地震で、豊田市内で2人が転倒し、けがをしたとの通報があった。いずれも意識はあるという。",
+        "pub_date": "11/08 01:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/5f9923ada1d5dfe7001e21fc6a3f0eaeada95a55?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "政府、愛知の地震で官邸連絡室設置(共同通信)",
         "summary": "政府は8日、愛知県西部で震度5強を観測したのを受け、首相官邸の危機管理センターに官邸連絡室を設置した。",
@@ -424,7 +526,7 @@
         "is_disaster": true
       },
       {
-        "title": "愛知県で震度5強の地震　マグニチュード 5.7(産経新聞)",
+        "title": "愛知県で震度5強の地震　震源地は静岡県西部　マグニチュード 5.7と推定(産経新聞)",
         "summary": "11月8日午前1時4分ごろ、愛知県で震度5強の地震があった。気象庁によると、震源地は静岡県西部、震源の深さは約40km。地震の規模はマグニチュード（M）5.7と推定される。各地域の震度情報は以下の通り",
         "pub_date": "11/08 01:19 JST",
         "link": "https://news.yahoo.co.jp/articles/5807fe6a2bc4a292355e2f896f97570bb35cb82f?source=rss",
@@ -433,7 +535,7 @@
       },
       {
         "title": "【速報】愛知県西部で震度5強の地震　滋賀県や京都府南部でも震度3、震源は静岡県西部(京都新聞)",
-        "summary": "気象庁によると、8日午前1時4分ごろ、愛知県西部で震度5強を観測する地震があった。震源は静岡県西部、震源の深さは約40キロ、地震の規模はマグニチュード（M）5・7と推定される。[震度3以上が観測された",
+        "summary": "気象庁によると、8日午前1時4分ごろ、愛知県西部で震度5強を観測する地震があった。震源は静岡県西部、震源の深さは約40キロ、地震の規模はマグニチュード（M）5・7と推定される。津波の心配はない。【画像",
         "pub_date": "11/08 01:18 JST",
         "link": "https://news.yahoo.co.jp/articles/6c160a06255b4a376b8a384a108c825abd1e07a6?source=rss",
         "category": "国内・気象防災",
@@ -448,7 +550,7 @@
         "is_disaster": true
       },
       {
-        "title": "【速報】愛知県西部で震度5強　津波の心配なし(テレビ朝日系（ANN）)",
+        "title": "【速報】愛知県西部で震度5強　津波の心配なし　カメラが小刻みに揺れる様子も(テレビ朝日系（ANN）)",
         "summary": "午前1時04分ごろに愛知県西部で震度5強の地震がありました。 震源地は静岡県西部で、地震の規模（マグニチュード）は5.7と推定されます。 この地震による津波の心配はありません。",
         "pub_date": "11/08 01:11 JST",
         "link": "https://news.yahoo.co.jp/articles/e7b5185d1fb424a07693ad835a413d7793ea979a?source=rss",
@@ -494,41 +596,9 @@
         "link": "https://news.yahoo.co.jp/articles/fac98db9e52f1fa48a839dc50e6483d907f002f8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "西武池袋線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "00:01頃、江古田駅で発生した人身事故の影響で、西武池袋線は池袋～所沢駅間の運転を見合わせています。",
-        "pub_date": "11/08 00:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/4555b06f27afff0bea58a67a1bd6db5974a3ffec?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "パトカー追跡の車が事故　17歳男逮捕、名古屋(共同通信)",
-        "summary": "7日午後4時50分ごろ、名古屋市中区栄5丁目の路上で、パトカーが追跡していた軽乗用車が乗用車と衝突した。愛知県警中署は同日、自動車運転処罰法違反（危険運転致傷）の疑いで、軽乗用車を運転していた派遣社員",
-        "pub_date": "11/08 00:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/210394ec5d86b24fd1860d6205f801a5445b9ea0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【台風32号と次の渦?】32号は「強い」勢力で小笠原近海へ　10日は最大瞬間風速55メートル予想　さらに「次の渦」も【雨・風シミュレーション18日（水）まで/全国の週間天気予報】気象庁　台風情報(MBC南日本放送)",
-        "summary": "台風32号は、小笠原近海を西北西へ進んでいます。気象庁の予報では、日本の南で発達し、10日（火）には強い勢力で小笠原近海へ進むと予想されています。【画像で見る】台風32号の進路予想と「次の渦」? 【雨",
-        "pub_date": "11/07 23:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/6b94fc4314ee153399be493f8dedeb7649c24b58?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "17歳少年運転のレンタカーが交通事故　1人けが　名古屋・栄でパトカーから逃走中(メ〜テレ（名古屋テレビ）)",
-        "summary": "17歳の少年が運転するレンタカーが別の車にぶつかる事故が7日、名古屋市の繁華街でありました。レンタカーは交通違反でパトカーの追跡を受けているところでした。 危険運転致傷の疑いで、現行犯逮捕されたのは、",
-        "pub_date": "11/07 23:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/2e8bfd88c0bdd297f39f20b5bf8c9aa5fc678d39?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 01:29:32 JST"
+    "last_updated": "2026-11-08 02:01:37 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",

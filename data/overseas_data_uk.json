@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 01:32:00",
-  "timestamp_local": "2026-11-07 17:32:00",
+  "timestamp": "2026-11-08 02:03:05",
+  "timestamp_local": "2026-11-07 18:03:05",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -716,7 +716,7 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/08 01:31 JST",
+    "timestamp": "11/08 02:03 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -814,14 +814,14 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 10.6,
-        "apparent_temp": 9.2,
-        "humidity": 70,
-        "wind_speed": 2.2,
-        "wind_gusts": 6.1,
+        "temp": 10.4,
+        "apparent_temp": 9.1,
+        "humidity": 71,
+        "wind_speed": 1.4,
+        "wind_gusts": 4.7,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/07(土)",
@@ -859,11 +859,11 @@
         "is_capital": false,
         "lat": 53.4808,
         "lon": -2.2426,
-        "temp": 10.1,
-        "apparent_temp": 8.3,
-        "humidity": 79,
-        "wind_speed": 6.5,
-        "wind_gusts": 13.7,
+        "temp": 10.2,
+        "apparent_temp": 8.5,
+        "humidity": 77,
+        "wind_speed": 5.0,
+        "wind_gusts": 10.8,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -904,11 +904,11 @@
         "is_capital": false,
         "lat": 55.9533,
         "lon": -3.1883,
-        "temp": 9.3,
-        "apparent_temp": 7.6,
-        "humidity": 90,
-        "wind_speed": 7.9,
-        "wind_gusts": 18.0,
+        "temp": 9.4,
+        "apparent_temp": 7.8,
+        "humidity": 91,
+        "wind_speed": 7.6,
+        "wind_gusts": 17.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -950,14 +950,14 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 10.6,
-      "apparent_temp": 9.2,
-      "humidity": 70,
-      "wind_speed": 2.2,
-      "wind_gusts": 6.1,
+      "temp": 10.4,
+      "apparent_temp": 9.1,
+      "humidity": 71,
+      "wind_speed": 1.4,
+      "wind_gusts": 4.7,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/07(土)",
@@ -989,26 +989,18 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 01:32 JST"
+    "timestamp": "11/08 02:03 JST"
   },
   "transit": {
     "status": "CAUTION",
     "status_code": "warning",
     "status_badge": "🟠 大幅遅延・運行注意",
-    "status_text": "⚠️ Liberty線: 大幅遅延・一部運休",
+    "status_text": "⚠️ Lioness線: 大幅遅延・一部運休",
     "overall_status": "大幅遅延・一部運休",
     "strike": false,
     "monitored_systems_count": 4,
-    "alert_lines_count": 3,
+    "alert_lines_count": 2,
     "alert_lines": [
-      {
-        "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
-        "line": "Liberty",
-        "mode": "overground",
-        "status": "Suspended",
-        "badge": "🔴 運休/見合せ",
-        "reason": "Liberty Line: No service due to a train being damaged by vandalism. Tickets are being accepted on London Underground. "
-      },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
         "line": "Lioness",
@@ -1051,10 +1043,10 @@
           {
             "name": "Central",
             "mode": "tube",
-            "status_raw": "Good Service",
-            "badge": "🟢 平常",
-            "code": "normal",
-            "reason": ""
+            "status_raw": "Minor Delays",
+            "badge": "🟡 注意",
+            "code": "minor",
+            "reason": "Central Line: Minor delays due to train cancellations.  "
           },
           {
             "name": "Circle",
@@ -1107,10 +1099,10 @@
           {
             "name": "Liberty",
             "mode": "overground",
-            "status_raw": "Suspended",
-            "badge": "🔴 運休/見合せ",
-            "code": "severe",
-            "reason": "Liberty Line: No service due to a train being damaged by vandalism. Tickets are being accepted on London Underground. "
+            "status_raw": "Good Service",
+            "badge": "🟢 平常",
+            "code": "normal",
+            "reason": ""
           },
           {
             "name": "Lioness",
@@ -1246,7 +1238,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/08 01:31 JST"
+    "timestamp": "11/08 02:03 JST"
   },
   "lifeline": {
     "status": "NORMAL",

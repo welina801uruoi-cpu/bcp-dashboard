@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 01:30:45",
-  "timestamp_local": "2026-11-07 23:00:45",
+  "timestamp": "2026-11-08 02:02:04",
+  "timestamp_local": "2026-11-07 23:32:04",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -613,7 +613,7 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/08 01:30 JST",
+    "timestamp": "11/08 02:02 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -651,11 +651,20 @@
       "departures_url": "http://www.yangonairport.aero/",
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
-      "weather": {},
+      "weather": {
+        "raw": "METAR VYYY 071630Z 11002KT 6000 BKN015 FEW020CB BKN110 27/26 Q1014 NOSIG",
+        "wind": "2kt",
+        "wind_speed": 2,
+        "wind_gust": 0,
+        "visibility": "3.73マイル",
+        "temp": 27,
+        "fltcat": "VFR",
+        "report_time": "2026-11-07T16:30:00.000Z"
+      },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "定常運航中（現在重大な気象警報なし）"
+      "status_desc": "視程良好（3.73マイル）、風速安定（2kt）。順調に運航中"
     }
   ],
   "weather": {
@@ -667,10 +676,10 @@
         "lat": 16.8661,
         "lon": 96.1951,
         "temp": 24.9,
-        "apparent_temp": 30.6,
-        "humidity": 97,
-        "wind_speed": 4.4,
-        "wind_gusts": 8.6,
+        "apparent_temp": 30.5,
+        "humidity": 96,
+        "wind_speed": 4.8,
+        "wind_gusts": 9.0,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -711,11 +720,11 @@
         "is_capital": true,
         "lat": 19.7633,
         "lon": 96.0785,
-        "temp": 24.3,
-        "apparent_temp": 29.5,
-        "humidity": 97,
-        "wind_speed": 5.4,
-        "wind_gusts": 11.5,
+        "temp": 24.1,
+        "apparent_temp": 29.3,
+        "humidity": 98,
+        "wind_speed": 4.6,
+        "wind_gusts": 10.4,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -756,11 +765,11 @@
         "is_capital": false,
         "lat": 21.9588,
         "lon": 96.0891,
-        "temp": 26.9,
-        "apparent_temp": 32.6,
+        "temp": 26.8,
+        "apparent_temp": 32.3,
         "humidity": 84,
-        "wind_speed": 2.2,
-        "wind_gusts": 8.3,
+        "wind_speed": 3.6,
+        "wind_gusts": 6.8,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -802,11 +811,11 @@
       "is_capital": true,
       "lat": 19.7633,
       "lon": 96.0785,
-      "temp": 24.3,
-      "apparent_temp": 29.5,
-      "humidity": 97,
-      "wind_speed": 5.4,
-      "wind_gusts": 11.5,
+      "temp": 24.1,
+      "apparent_temp": 29.3,
+      "humidity": 98,
+      "wind_speed": 4.6,
+      "wind_gusts": 10.4,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
@@ -841,7 +850,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 01:30 JST"
+    "timestamp": "11/08 02:02 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -870,7 +879,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/08 01:30 JST"
+    "timestamp": "11/08 02:02 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 10:27:36",
+  "timestamp": "2026-11-07 11:06:20",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -216,10 +216,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -230,10 +230,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -319,14 +319,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 高崎線、東武東上線、西武池袋線・秩父線 ／ 新幹線: 山形新幹線（列車遅延））",
+    "text": "運行支障あり（在来線: 東武東上線、西武池袋線・秩父線、西武有楽町線 ／ 新幹線: 山形新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（高崎線、東武東上線、西武池袋線・秩父線、西武有楽町線、小田急小田原線）",
+    "line_text": "運行支障あり（東武東上線、西武池袋線・秩父線、西武有楽町線、小田急小田原線、東京メトロ有楽町線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山形新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [
-      "高崎線",
       "東武東上線",
       "西武池袋線・秩父線",
       "西武有楽町線",
@@ -444,7 +443,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/07 10:09",
@@ -549,8 +548,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 13,
+    "disaster_count": 14,
     "articles": [
+      {
+        "title": "酒酔い運転で前を走っていた車に追突 車は横転し2人軽傷 危険運転傷害容疑で23歳の男を逮捕 愛知・武豊町の自動車専用道路(CBCテレビ)",
+        "summary": "きょう7日（土）未明、愛知県武豊町の自動車専用道路で、酒に酔った状態で車を運転して追突事故を起こし、男性2人にけがをさせたとして、23歳の男が逮捕されました。【写真を見る】酒酔い運転で前を走っていた車",
+        "pub_date": "11/07 19:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/5754be7a18c39c09f1e6030fb8edc00f21d0ebe7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【台風情報】台風32号（チャンパカ）の進路予想　小笠原近海を北西へ　中心気圧1002hPa、最大瞬間風速25m/s　12日午後3時までの予報は　(FNNプライムオンライン)",
+        "summary": "気象庁によりますと、台風32号（チャンパカ）は7日午後6時現在、小笠原近海にあって、1時間におよそ30キロの速さで北西へ進んでいます。中心気圧は1002hPa、中心付近の最大風速は18m/s、最大瞬間",
+        "pub_date": "11/07 19:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/3cfe39de488968ca37b809bca3b4877148c0c2b6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【台風情報】急カーブ台風32号　なぜ急に方向転換する?　次の「反時計回りの渦」も【雨風シミュレーション18日（水）/全国の週間予報】気象庁進路予想(MBC南日本放送)",
+        "summary": "■【過去6番目の多さ】32年ぶりの「台風32号」「台風32号」は午後6時現在、マリアナ諸島にあって北西に時速30kmの速さで進んでいます。今後発達しながら西寄りに進み、9日（月）ごろには東寄りに進路を",
+        "pub_date": "11/07 19:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/300410bf819943d58b90f5b177437fe504687ca8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "台風多発の年 32号が発生 過去6番目の多さ　来週、小笠原諸島接近か(テレビ朝日系（ANN）)",
         "summary": "台風32号が発生しました。32号まで発生するのは、過去6番目に多い記録です。 7日正午に、日本のはるか南で台風32号が発生しました。 今後は発達しながら西寄りに進み、9日には強い勢力になり、進路を東寄",
@@ -640,39 +663,15 @@
         "is_disaster": true
       },
       {
-        "title": "寒さ対策とモバイルバッテリーの組み合わせに要注意　火事の季節到来　近年増加中の出火原因は(ウェザーマップ)",
-        "summary": "11月9日から「秋の火災予防運動」が始まります。住宅火災の件数と、それによる死者数はこの数年で再び増加傾向にあります。特に増えているのが、モバイルバッテリーなどの充電式電池による火災。モバイルバッテリ",
-        "pub_date": "11/07 16:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/aa1096897c3e3f3846504ca5f3adbf61dfc4c0be?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "事故漁船に親子3人 転落し2人死亡",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/07 18:54 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6601680?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "ファンへ感謝込め「宇都宮餃子祭り」 各店の“自慢の一皿”食べ比べ(テレビ朝日系（ANN）)",
-        "summary": "餃子の町として知られる宇都宮市では毎年恒例の「宇都宮餃子祭り」が開かれています。 このイベントは宇都宮餃子ファンへの感謝祭として開かれていて、今年で26回目を迎えます。 会場には、宇都宮餃子会に加盟し",
-        "pub_date": "11/07 19:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/109bd7ad0613035f9d6f702cfd215e2e6ef07832?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "“松葉ガニ”初水揚げ「去年より少ない」　初物の御祝儀相場で140万円の最高値(テレビ朝日系（ANN）)",
-        "summary": "立冬の7日、鳥取港では冬の到来を告げる「松葉ガニ」が初水揚げされ、競りにかけられました。 山陰地方で水揚げされるオスのズワイガニは「松葉ガニ」と呼ばれ、日本海の冬の味覚として親しまれています。 今シー",
-        "pub_date": "11/07 19:19 JST",
-        "link": "https://news.yahoo.co.jp/articles/630ad0294c5a011de181f2c19ed651d2fc0e254f?source=rss",
+        "title": "政治家として40年、綿貫民輔元衆院議長の歩みを振り返る　ふるさとが良くなれば日本が良くなる　その(1)(FNNプライムオンライン)",
+        "summary": "「国が良くなれば地方も良くなる。地方が良くなれば日本が良くなる」。40年にわたる政治家人生で、綿貫民輔氏は繰り返し語ってきた。南砺市井波に生まれ、神職、実業家、そして政治家として歩んだ。富山テレビが取",
+        "pub_date": "11/07 20:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/7f98ab8bc9c724136a1890d768325b20f4958851?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-07 19:27:22 JST"
+    "last_updated": "2026-11-07 20:06:06 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -693,10 +692,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "NOQHyqXMaCg",
+        "video_id": "Cbc7dAjjezI",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/NOQHyqXMaCg?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=NOQHyqXMaCg"
+        "embed_url": "https://www.youtube.com/embed/Cbc7dAjjezI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Cbc7dAjjezI"
       },
       {
         "id": "stream_tbsnews",

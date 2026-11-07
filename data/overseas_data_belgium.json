@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-07 23:11:01",
-  "timestamp_local": "2026-11-07 16:11:01",
+  "timestamp": "2026-11-07 23:49:10",
+  "timestamp_local": "2026-11-07 16:49:10",
   "country": {
     "id": "belgium",
     "name": "ベルギー",
@@ -352,6 +352,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "北朝鮮製の弾道弾使用か　ウクライナのエネ施設への攻撃(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/8f5163245b80a8f43a8b2fb4a793d6bf9ee9a922?source=rss",
+        "description": "【キーウ共同】ウクライナのゼレンスキー大統領は7日、ロシアが6日夜から7日朝にかけてウクライナの主要なエネルギー施設を攻撃した際に北朝鮮製の短距離弾道ミサイル「KN23」を使用した可能性があると明らか",
+        "pub_date": "11/07 23:30 JST",
+        "is_priority": true
+      },
+      {
         "title": "マカオ司法警察局が東南アジア系海外労働者対象の防犯キャンペーン展開(マカオ新聞)",
         "link": "https://news.yahoo.co.jp/articles/1b74a02b2e7458248c32e29e8ff246a360b3054f?source=rss",
         "description": "マカオでは、「外僱」と呼ばれる海外（中国本土・香港・台湾を含む）からの労働者が多く就労しており、その数は今年（2026年）9月時点で18万人超に達している。 マカオの総人口は約68.9万人で、海外労働",
@@ -483,13 +490,6 @@
         "description": "（東京中央社）第2次世界大戦後の旧ソ連に抑留された台湾人元日本兵の呉正男さんが先月24日、肝細胞がんのため、死去したことが分かった。99歳だった。日本李登輝友の会が6日、明らかにした。同会によると、呉",
         "pub_date": "11/07 18:02 JST",
         "is_priority": false
-      },
-      {
-        "title": "「中国ナンバー2を乗せた飛行機が突如墜落」乗客すべて死亡、事故と判断されたが…「林彪事件」に残された“奇妙な謎”(文春オンライン)",
-        "link": "https://news.yahoo.co.jp/articles/6589fc5378b5ffbf7b0f9bb275221d3f677d3a5c?source=rss",
-        "description": "毛沢東の「親密な戦友」としてナンバー2に上り詰め、党規約に後継者と明記されながらも突如失脚した林彪。1971年、彼と家族を乗せた軍用機はなぜモンゴルの荒野へ墜落したのか。事故か、それとも撃墜か――。鉄",
-        "pub_date": "11/07 17:12 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -614,7 +614,7 @@
     "default_channel_id": "stream_rtbf_live"
   },
   "forex": {
-    "timestamp": "11/07 23:11 JST",
+    "timestamp": "11/07 23:49 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -662,85 +662,40 @@
   "weather": {
     "cities": [
       {
-        "name": "ブリュッセル (首都・EU本部)",
-        "name_en": "Brussels",
-        "is_capital": true,
-        "lat": 50.8503,
-        "lon": 4.3517,
-        "temp": 8.6,
-        "apparent_temp": 6.4,
-        "humidity": 89,
-        "wind_speed": 9.0,
-        "wind_gusts": 18.0,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/07(土)",
-            "temp_max": 8.7,
-            "temp_min": 6.8,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 5.1
-          },
-          {
-            "date": "11/08(日)",
-            "temp_max": 10.4,
-            "temp_min": 5.1,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 0.5
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 11.4,
-            "temp_min": 3.9,
-            "weather_code": 2,
-            "weather_label": "⛅ 晴れ時々曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "アントワープ (北部主要港湾)",
         "name_en": "Antwerp",
         "is_capital": false,
         "lat": 51.2194,
         "lon": 4.4025,
-        "temp": 8.4,
-        "apparent_temp": 6.7,
-        "humidity": 91,
-        "wind_speed": 5.8,
-        "wind_gusts": 13.7,
+        "temp": 8.8,
+        "apparent_temp": 7.3,
+        "humidity": 89,
+        "wind_speed": 5.0,
+        "wind_gusts": 12.2,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/07(土)",
-            "temp_max": 8.4,
+            "temp_max": 8.9,
             "temp_min": 6.3,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 1.3
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 2.7
           },
           {
             "date": "11/08(日)",
-            "temp_max": 10.0,
-            "temp_min": 5.0,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 1.3
+            "temp_max": 9.8,
+            "temp_min": 5.9,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 3.6
           },
           {
             "date": "11/09(月)",
             "temp_max": 10.8,
-            "temp_min": 3.3,
+            "temp_min": 3.2,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -753,42 +708,42 @@
       }
     ],
     "capital": {
-      "name": "ブリュッセル (首都・EU本部)",
-      "name_en": "Brussels",
-      "is_capital": true,
-      "lat": 50.8503,
-      "lon": 4.3517,
-      "temp": 8.6,
-      "apparent_temp": 6.4,
+      "name": "アントワープ (北部主要港湾)",
+      "name_en": "Antwerp",
+      "is_capital": false,
+      "lat": 51.2194,
+      "lon": 4.4025,
+      "temp": 8.8,
+      "apparent_temp": 7.3,
       "humidity": 89,
-      "wind_speed": 9.0,
-      "wind_gusts": 18.0,
+      "wind_speed": 5.0,
+      "wind_gusts": 12.2,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 8.7,
-          "temp_min": 6.8,
+          "temp_max": 8.9,
+          "temp_min": 6.3,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 5.1
+          "precipitation_mm": 2.7
         },
         {
           "date": "11/08(日)",
-          "temp_max": 10.4,
-          "temp_min": 5.1,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 0.5
+          "temp_max": 9.8,
+          "temp_min": 5.9,
+          "weather_code": 63,
+          "weather_label": "🌧️ 雨 (中雨)",
+          "precipitation_mm": 3.6
         },
         {
           "date": "11/09(月)",
-          "temp_max": 11.4,
-          "temp_min": 3.9,
-          "weather_code": 2,
-          "weather_label": "⛅ 晴れ時々曇り",
+          "temp_max": 10.8,
+          "temp_min": 3.2,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         }
       ],
@@ -797,7 +752,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/07 23:11 JST"
+    "timestamp": "11/07 23:49 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -826,7 +781,7 @@
         "details": "国鉄インターシティ線平常運行中"
       }
     ],
-    "timestamp": "11/07 23:11 JST"
+    "timestamp": "11/07 23:49 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-07 23:10:38",
-  "timestamp_local": "2026-11-07 19:40:38",
+  "timestamp": "2026-11-07 23:48:38",
+  "timestamp_local": "2026-11-07 20:18:38",
   "country": {
     "id": "india",
     "name": "インド",
@@ -369,6 +369,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "北朝鮮製の弾道弾使用か　ウクライナのエネ施設への攻撃(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/8f5163245b80a8f43a8b2fb4a793d6bf9ee9a922?source=rss",
+        "description": "【キーウ共同】ウクライナのゼレンスキー大統領は7日、ロシアが6日夜から7日朝にかけてウクライナの主要なエネルギー施設を攻撃した際に北朝鮮製の短距離弾道ミサイル「KN23」を使用した可能性があると明らか",
+        "pub_date": "11/07 23:30 JST",
+        "is_priority": true
+      },
+      {
         "title": "マカオ司法警察局が東南アジア系海外労働者対象の防犯キャンペーン展開(マカオ新聞)",
         "link": "https://news.yahoo.co.jp/articles/1b74a02b2e7458248c32e29e8ff246a360b3054f?source=rss",
         "description": "マカオでは、「外僱」と呼ばれる海外（中国本土・香港・台湾を含む）からの労働者が多く就労しており、その数は今年（2026年）9月時点で18万人超に達している。 マカオの総人口は約68.9万人で、海外労働",
@@ -500,13 +507,6 @@
         "description": "（東京中央社）第2次世界大戦後の旧ソ連に抑留された台湾人元日本兵の呉正男さんが先月24日、肝細胞がんのため、死去したことが分かった。99歳だった。日本李登輝友の会が6日、明らかにした。同会によると、呉",
         "pub_date": "11/07 18:02 JST",
         "is_priority": false
-      },
-      {
-        "title": "「中国ナンバー2を乗せた飛行機が突如墜落」乗客すべて死亡、事故と判断されたが…「林彪事件」に残された“奇妙な謎”(文春オンライン)",
-        "link": "https://news.yahoo.co.jp/articles/6589fc5378b5ffbf7b0f9bb275221d3f677d3a5c?source=rss",
-        "description": "毛沢東の「親密な戦友」としてナンバー2に上り詰め、党規約に後継者と明記されながらも突如失脚した林彪。1971年、彼と家族を乗せた軍用機はなぜモンゴルの荒野へ墜落したのか。事故か、それとも撃墜か――。鉄",
-        "pub_date": "11/07 17:12 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -631,7 +631,7 @@
     "default_channel_id": "stream_ndtv_live"
   },
   "forex": {
-    "timestamp": "11/07 23:10 JST",
+    "timestamp": "11/07 23:48 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -694,19 +694,109 @@
   "weather": {
     "cities": [
       {
+        "name": "ニューデリー (首都)",
+        "name_en": "New Delhi",
+        "is_capital": true,
+        "lat": 28.6139,
+        "lon": 77.209,
+        "temp": 22.7,
+        "apparent_temp": 24.2,
+        "humidity": 68,
+        "wind_speed": 5.4,
+        "wind_gusts": 9.0,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 28.6,
+            "temp_min": 18.5,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 28.2,
+            "temp_min": 19.1,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 27.8,
+            "temp_min": 18.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ムンバイ (商業都市)",
+        "name_en": "Mumbai",
+        "is_capital": false,
+        "lat": 19.076,
+        "lon": 72.8777,
+        "temp": 30.2,
+        "apparent_temp": 31.9,
+        "humidity": 51,
+        "wind_speed": 11.2,
+        "wind_gusts": 27.4,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 36.4,
+            "temp_min": 26.0,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 35.9,
+            "temp_min": 24.5,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 35.7,
+            "temp_min": 24.8,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ベンガルール (IT拠点)",
         "name_en": "Bengaluru",
         "is_capital": false,
         "lat": 12.9716,
         "lon": 77.5946,
-        "temp": 23.4,
-        "apparent_temp": 26.1,
-        "humidity": 81,
-        "wind_speed": 8.1,
-        "wind_gusts": 14.0,
+        "temp": 22.9,
+        "apparent_temp": 25.1,
+        "humidity": 82,
+        "wind_speed": 9.4,
+        "wind_gusts": 19.8,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/07(土)",
@@ -740,43 +830,43 @@
       }
     ],
     "capital": {
-      "name": "ベンガルール (IT拠点)",
-      "name_en": "Bengaluru",
-      "is_capital": false,
-      "lat": 12.9716,
-      "lon": 77.5946,
-      "temp": 23.4,
-      "apparent_temp": 26.1,
-      "humidity": 81,
-      "wind_speed": 8.1,
-      "wind_gusts": 14.0,
+      "name": "ニューデリー (首都)",
+      "name_en": "New Delhi",
+      "is_capital": true,
+      "lat": 28.6139,
+      "lon": 77.209,
+      "temp": 22.7,
+      "apparent_temp": 24.2,
+      "humidity": 68,
+      "wind_speed": 5.4,
+      "wind_gusts": 9.0,
       "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 28.1,
-          "temp_min": 19.8,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 1.2
+          "temp_max": 28.6,
+          "temp_min": 18.5,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/08(日)",
-          "temp_max": 28.4,
-          "temp_min": 19.9,
-          "weather_code": 55,
-          "weather_label": "🌦️ 霧雨 (強)",
-          "precipitation_mm": 3.6
+          "temp_max": 28.2,
+          "temp_min": 19.1,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/09(月)",
-          "temp_max": 28.1,
-          "temp_min": 19.2,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.2
+          "temp_max": 27.8,
+          "temp_min": 18.3,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -784,7 +874,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/07 23:10 JST"
+    "timestamp": "11/07 23:48 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -813,7 +903,7 @@
         "details": "デリーメトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/07 23:10 JST"
+    "timestamp": "11/07 23:48 JST"
   },
   "lifeline": {
     "status": "NORMAL",

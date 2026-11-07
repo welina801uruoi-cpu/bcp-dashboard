@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 14:09:28",
+  "timestamp": "2026-11-07 14:47:15",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -182,10 +182,10 @@
           "波浪警報"
         ],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "波浪警報、強風注意報、波浪注意報",
+        "summary": "波浪警報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -196,11 +196,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "風雪注意報",
           "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "風雪注意報"
         ],
-        "summary": "風雪注意報、強風注意報、波浪注意報",
+        "summary": "強風注意報、波浪注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -327,7 +327,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東北電力NW: 【停電発生中】青森・秋田で停電情報を検知",
+    "power_msg": "東北電力NW: 【停電発生中】秋田で停電情報を検知",
     "water_msg": "仙台市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "仙台市ガス局: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -367,7 +367,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/07 13:12",
@@ -476,8 +476,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 12,
+    "disaster_count": 14,
     "articles": [
+      {
+        "title": "17歳少年運転のレンタカーが交通事故　1人けが　名古屋・栄でパトカーから逃走中(メ〜テレ（名古屋テレビ）)",
+        "summary": "17歳の少年が運転するレンタカーが別の車にぶつかる事故が7日、名古屋市の繁華街でありました。レンタカーは交通違反でパトカーの追跡を受けているところでした。 危険運転致傷の疑いで、現行犯逮捕されたのは、",
+        "pub_date": "11/07 23:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/2e8bfd88c0bdd297f39f20b5bf8c9aa5fc678d39?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【台風情報】台風32号（チャンパカ）の進路予想　小笠原近海を西北西へ　中心気圧1000hPa、最大瞬間風速30m/s　12日午後9時までの予報は　　　(FNNプライムオンライン)",
+        "summary": "気象庁によりますと、台風32号（チャンパカ）は7日午後9時現在、小笠原近海にあって、1時間におよそ25キロの速さで西北西へ進んでいます。中心気圧は1000hPa、中心付近の最大風速は20m/s、最大瞬",
+        "pub_date": "11/07 23:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/b48137411a89c79e2c337a1946c9c8e3c849f7f7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "大阪発高知行き高速バスから出火、全員無事(共同通信)",
         "summary": "大阪市の西日本JRバスによると、7日午後7時40分ごろ、兵庫県淡路市の神戸淡路鳴門自動車道下りで、大阪から高知に向かっていた同社の高速バスから出火した。乗客21人と運転手1人は避難し無事だった。",
@@ -575,31 +591,15 @@
         "is_disaster": true
       },
       {
-        "title": "酒酔い運転で高齢男性をはねた疑い　32歳女を現行犯逮捕　男性は死亡　茨城・境町(テレビ朝日系（ANN）)",
-        "summary": "茨城県境町で酒に酔った状態で車を運転し、高齢男性をはねたとして、32歳の女性が現行犯逮捕されました。高齢男性は搬送先の病院で死亡しました。 自称・ネイリストの木村華寿美容疑者は7日午前7時ごろ、境町の",
-        "pub_date": "11/07 22:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/6bf376a7cbc7e9742531f54d280eed27351ac9ed?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "大阪発高知行きのバスが出火　明石大橋付近、全員無事(共同通信)",
-        "summary": "7日午後7時45分ごろ、兵庫県淡路市の神戸淡路鳴門自動車道下り明石海峡大橋―淡路サービスエリア（SA）間を走行中のバスから火が出ているのに運転手の男性（50）が気付き、110番した。西日本JRバス（大",
-        "pub_date": "11/07 22:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/7496fa014ee2133e174b9573a2fbe340444247d9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "石破氏らの採決退席、自民・野田聖子氏「しょうがない」立民・蓮舫氏「勇気ある行動」絶賛(産経新聞)",
-        "summary": "自民党の野田聖子衆院議員と立憲民主党の蓮舫参院議員は7日、東京・永田町で対談し、消費税減税関連法案の採決を退席した自民党の石破茂元首相らの行動について言及した。野田氏は「自由なんだけど、しょうがないよ",
-        "pub_date": "11/07 21:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/665ed590630c25dd44b58fb732d1672f4d3d5fe7?source=rss",
+        "title": "富士山の麓　山中湖畔の紅葉が見ごろ　11月15日までライトアップも　山梨県(テレビ朝日系（ANN）)",
+        "summary": "富士山の麓、山中湖畔では、紅葉が見頃を迎えています。 湖畔沿いのおよそ1キロ続く遊歩道にはモミジやカエデ、ブナなどの木々が赤や黄色に色付いています。 山頂付近に雪をかぶった富士山との美しいコントラスト",
+        "pub_date": "11/07 23:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/90fdbb841a8b1ade51ba9e118914df26bb134dc4?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-07 23:09:12 JST"
+    "last_updated": "2026-11-07 23:46:47 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-07 23:10:14",
-  "timestamp_local": "2026-11-07 21:10:14",
+  "timestamp": "2026-11-07 23:48:24",
+  "timestamp_local": "2026-11-07 21:48:24",
   "country": {
     "id": "vietnam",
     "name": "ベトナム",
@@ -369,6 +369,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "北朝鮮製の弾道弾使用か　ウクライナのエネ施設への攻撃(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/8f5163245b80a8f43a8b2fb4a793d6bf9ee9a922?source=rss",
+        "description": "【キーウ共同】ウクライナのゼレンスキー大統領は7日、ロシアが6日夜から7日朝にかけてウクライナの主要なエネルギー施設を攻撃した際に北朝鮮製の短距離弾道ミサイル「KN23」を使用した可能性があると明らか",
+        "pub_date": "11/07 23:30 JST",
+        "is_priority": true
+      },
+      {
         "title": "マカオ司法警察局が東南アジア系海外労働者対象の防犯キャンペーン展開(マカオ新聞)",
         "link": "https://news.yahoo.co.jp/articles/1b74a02b2e7458248c32e29e8ff246a360b3054f?source=rss",
         "description": "マカオでは、「外僱」と呼ばれる海外（中国本土・香港・台湾を含む）からの労働者が多く就労しており、その数は今年（2026年）9月時点で18万人超に達している。 マカオの総人口は約68.9万人で、海外労働",
@@ -500,13 +507,6 @@
         "description": "（東京中央社）第2次世界大戦後の旧ソ連に抑留された台湾人元日本兵の呉正男さんが先月24日、肝細胞がんのため、死去したことが分かった。99歳だった。日本李登輝友の会が6日、明らかにした。同会によると、呉",
         "pub_date": "11/07 18:02 JST",
         "is_priority": false
-      },
-      {
-        "title": "「中国ナンバー2を乗せた飛行機が突如墜落」乗客すべて死亡、事故と判断されたが…「林彪事件」に残された“奇妙な謎”(文春オンライン)",
-        "link": "https://news.yahoo.co.jp/articles/6589fc5378b5ffbf7b0f9bb275221d3f677d3a5c?source=rss",
-        "description": "毛沢東の「親密な戦友」としてナンバー2に上り詰め、党規約に後継者と明記されながらも突如失脚した林彪。1971年、彼と家族を乗せた軍用機はなぜモンゴルの荒野へ墜落したのか。事故か、それとも撃墜か――。鉄",
-        "pub_date": "11/07 17:12 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -605,7 +605,7 @@
     "default_channel_id": "stream_vtv_live"
   },
   "forex": {
-    "timestamp": "11/07 23:10 JST",
+    "timestamp": "11/07 23:48 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -673,14 +673,14 @@
         "is_capital": true,
         "lat": 21.0285,
         "lon": 105.8542,
-        "temp": 24.0,
-        "apparent_temp": 29.5,
-        "humidity": 97,
-        "wind_speed": 2.0,
-        "wind_gusts": 5.4,
+        "temp": 23.9,
+        "apparent_temp": 29.4,
+        "humidity": 98,
+        "wind_speed": 2.7,
+        "wind_gusts": 6.1,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/07(土)",
@@ -718,14 +718,14 @@
         "is_capital": false,
         "lat": 10.8231,
         "lon": 106.6297,
-        "temp": 26.5,
-        "apparent_temp": 32.3,
-        "humidity": 84,
-        "wind_speed": 0.7,
-        "wind_gusts": 9.4,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
+        "temp": 26.4,
+        "apparent_temp": 31.9,
+        "humidity": 86,
+        "wind_speed": 4.0,
+        "wind_gusts": 10.8,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/07(土)",
@@ -752,10 +752,10 @@
             "precipitation_mm": 2.2
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
         "name": "ダナン (中部主要港湾)",
@@ -763,14 +763,14 @@
         "is_capital": false,
         "lat": 16.0544,
         "lon": 108.2022,
-        "temp": 26.5,
-        "apparent_temp": 32.3,
-        "humidity": 87,
-        "wind_speed": 2.2,
-        "wind_gusts": 4.7,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "temp": 26.1,
+        "apparent_temp": 31.8,
+        "humidity": 89,
+        "wind_speed": 3.8,
+        "wind_gusts": 7.6,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/07(土)",
@@ -797,10 +797,10 @@
             "precipitation_mm": 83.1
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -809,14 +809,14 @@
       "is_capital": true,
       "lat": 21.0285,
       "lon": 105.8542,
-      "temp": 24.0,
-      "apparent_temp": 29.5,
-      "humidity": 97,
-      "wind_speed": 2.0,
-      "wind_gusts": 5.4,
+      "temp": 23.9,
+      "apparent_temp": 29.4,
+      "humidity": 98,
+      "wind_speed": 2.7,
+      "wind_gusts": 6.1,
       "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
           "date": "11/07(土)",
@@ -848,7 +848,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/07 23:10 JST"
+    "timestamp": "11/07 23:48 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -877,7 +877,7 @@
         "details": "南北統一鉄道各便平常運行中"
       }
     ],
-    "timestamp": "11/07 23:10 JST"
+    "timestamp": "11/07 23:48 JST"
   },
   "lifeline": {
     "status": "NORMAL",

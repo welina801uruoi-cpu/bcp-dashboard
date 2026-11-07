@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 05:54:07",
+  "timestamp": "2026-11-07 06:33:25",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -216,10 +216,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -230,10 +230,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -270,11 +270,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "霜注意報",
           "波浪注意報",
-          "強風注意報",
-          "霜注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、霜注意報",
+        "summary": "霜注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -325,13 +325,16 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東京メトロ有楽町線、横須賀線、総武線 ／ 新幹線: 東海道新幹線（列車遅延）、山形新幹線（列車遅延））",
+    "text": "運行支障あり（在来線: 東武東上線、西武池袋線・秩父線、西武有楽町線 ／ 新幹線: 東海道新幹線（列車遅延）、山形新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東京メトロ有楽町線、横須賀線、総武線）",
+    "line_text": "運行支障あり（東武東上線、西武池袋線・秩父線、西武有楽町線、東京メトロ有楽町線、横須賀線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延）、山形新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [
+      "東武東上線",
+      "西武池袋線・秩父線",
+      "西武有楽町線",
       "東京メトロ有楽町線",
       "横須賀線",
       "総武線"
@@ -345,7 +348,7 @@
         "name": "東海道新幹線",
         "status": "ALERT",
         "state": "列車遅延",
-        "detail": "品川駅での安全確認の影響などで、一部列車に遅れが出ています。（11月7日 13時40分掲載）",
+        "detail": "品川駅での安全確認の影響などで、下り線(新大阪方面行)の一部列車に遅れが出ています。（11月7日 15時10分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       },
       {
@@ -406,7 +409,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東京電力PG: 【停電発生中】千葉・栃木・群馬で停電情報を検知",
+    "power_msg": "東京電力PG: 【停電発生中】千葉・栃木で停電情報を検知",
     "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東京ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -492,19 +495,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/07 06:04",
+          "text": "ドコモ系(アハモ)離れようかな〜😑 本当大事な時にネット START 繋がらない END (`ｰωｰ´)ｲﾗｯ START au END 系(uq)に移ろうかな..."
+        },
+        {
+          "time": "11/07 05:58",
+          "text": "先月iPhone12miniから18PROに変える為にキャリアを長年使った START au END からdocomoに変えたら、この体たらく こういうメールは..."
+        },
         {
           "time": "11/07 05:34",
           "text": "@shalaladaikon 突然のお声掛け失礼します、povoサポートです。 START 繋がらない END ところがあると不安になってしまいますよね💦もしよ..."
-        },
-        {
-          "time": "11/07 04:51",
-          "text": "START au END ，今日LTEが START 繋がらない END 昨日は大丈夫だったのに"
-        },
-        {
-          "time": "11/07 03:07",
-          "text": "@juju04150 ドコモのメリット繋がる START AU END のメリット繋がる SBのデメリット START 繋がらない END 楽天のデメリット S..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -515,7 +518,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/07 05:06",
@@ -551,7 +554,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 20,
+    "disaster_count": 16,
     "articles": [
       {
         "title": "【動画解説】来週にかけて朝の冷え込み強まる　週明けは関東などで冷たい雨　台風32号発生(ウェザーマップ)",
@@ -674,7 +677,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-07 14:53:55 JST"
+    "last_updated": "2026-11-07 15:33:08 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

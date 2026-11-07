@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 21:59:34",
+  "timestamp": "2026-11-07 22:27:33",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "ALERT",
-    "summary": "【警報発表: 8地域】道央（波浪警報）、道南（波浪警報）、道北（波浪警報）、道東（暴風警報、波浪警報）、青森（波浪警報）、秋田（波浪警報）、山形（波浪警報）、新潟（波浪警報） ／ 他29地域で注意報",
+    "summary": "【警報発表: 8地域】道央（波浪警報）、道南（波浪警報）、道北（波浪警報）、道東（暴風警報、波浪警報）、青森（波浪警報）、秋田（波浪警報）、山形（波浪警報）、新潟（波浪警報） ／ 他27地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 8,
-    "notice_count": 29,
+    "notice_count": 27,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -486,10 +486,10 @@
         ],
         "notices": [
           "強風注意報",
-          "乾燥注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "乾燥注意報"
         ],
-        "summary": "波浪警報、強風注意報、乾燥注意報、波浪注意報",
+        "summary": "波浪警報、強風注意報、波浪注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -533,12 +533,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "風雪注意報",
           "強風注意報",
-          "乾燥注意報",
           "波浪注意報",
-          "風雪注意報"
+          "乾燥注意報"
         ],
-        "summary": "強風注意報、乾燥注意報、波浪注意報、風雪注意報",
+        "summary": "風雪注意報、強風注意報、波浪注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -938,10 +938,10 @@
         "warns": [],
         "notices": [
           "霜注意報",
-          "乾燥注意報",
-          "強風注意報"
+          "強風注意報",
+          "乾燥注意報"
         ],
-        "summary": "霜注意報、乾燥注意報、強風注意報",
+        "summary": "霜注意報、強風注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -996,13 +996,11 @@
         "code": "40",
         "name": "福岡県",
         "short_name": "福岡",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "霜注意報"
-        ],
-        "summary": "霜注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -1013,10 +1011,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
           "強風注意報"
         ],
-        "summary": "霜注意報、強風注意報",
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       },
       {
@@ -1064,13 +1061,11 @@
         "code": "45",
         "name": "宮崎県",
         "short_name": "宮崎",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "霜注意報"
-        ],
-        "summary": "霜注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/45/"
       },
       {
@@ -1081,11 +1076,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "乾燥注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "乾燥注意報"
         ],
-        "summary": "霜注意報、乾燥注意報、波浪注意報",
+        "summary": "波浪注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1112,18 +1106,16 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線49路線: 美祢線、岡山電気軌道線、肥薩線等 ／ 新幹線: 東海道新幹線（列車遅延）、山陽新幹線（その他））",
+    "text": "運行支障あり（在来線48路線: 美祢線、岡山電気軌道線、只見線等 ／ 新幹線: 東海道新幹線（列車遅延）、山陽新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（美祢線、岡山電気軌道線、肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線 等 計49路線）",
+    "line_text": "運行支障あり（美祢線、岡山電気軌道線、只見線、五能線、羽越本線 等 計48路線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延）、山陽新幹線（その他）、九州新幹線（その他））",
+    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延）、山陽新幹線（列車遅延）、東北新幹線（運転見合わせ）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
       "美祢線",
       "岡山電気軌道線",
-      "肥薩線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
+      "只見線",
       "五能線",
       "羽越本線",
       "山田線",
@@ -1131,6 +1123,16 @@
       "陸羽東線",
       "北上線",
       "津軽線",
+      "肥薩線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "中央総武線",
+      "内房線",
+      "外房線",
+      "久留里線",
+      "小湊鉄道線",
+      "いすみ鉄道線",
+      "わたらせ渓谷鐵道線",
       "東海道本線",
       "飯田線",
       "武豊線",
@@ -1143,35 +1145,27 @@
       "名鉄豊田線",
       "名鉄蒲郡線",
       "名鉄常滑線・空港線",
-      "名鉄築港線",
       "名鉄河和線・知多新線",
       "名鉄小牧線",
       "名鉄各務原線",
       "名鉄犬山線",
       "名鉄広見線",
-      "名鉄津島線・尾西線",
       "名鉄竹鼻・羽島線",
       "名鉄豊川線",
+      "名古屋市営鶴舞線",
       "名古屋市営桜通線",
       "名古屋市営上飯田線",
-      "大井川鉄道大井川本線",
-      "天竜浜名湖鉄道線",
+      "明知鉄道線",
       "長良川鉄道越美南線",
       "愛知環状鉄道線",
       "小海線",
       "越後線",
-      "万葉線",
-      "中央総武線",
-      "内房線",
-      "外房線",
-      "久留里線",
-      "小湊鉄道線",
-      "いすみ鉄道線",
-      "わたらせ渓谷鐵道線"
+      "万葉線"
     ],
     "troubled_shinkansen": [
       "東海道新幹線（列車遅延）",
-      "山陽新幹線（その他）",
+      "山陽新幹線（列車遅延）",
+      "東北新幹線（運転見合わせ）",
       "九州新幹線（その他）"
     ],
     "shinkansen_details": [
@@ -1185,15 +1179,15 @@
       {
         "name": "山陽新幹線",
         "status": "ALERT",
-        "state": "その他",
-        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月8日 5時0分掲載）",
+        "state": "列車遅延",
+        "detail": "地震の影響で、下り線(博多方面行)の一部列車に遅れが出ています。（11月8日 7時10分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       },
       {
         "name": "東北新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "現在､事故･遅延に関する情報はありません。",
+        "status": "ALERT",
+        "state": "運転見合わせ",
+        "detail": "郡山〜福島駅間で発生した架線支障の影響で、東京〜盛岡駅間の運転を見合わせています。（11月8日 7時15分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/1/0"
       },
       {
@@ -1246,7 +1240,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 49,
+    "target_lines_count": 48,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1261,7 +1255,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・新潟・長野・愛知で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】宮城・千葉・新潟・長野・愛知で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1301,7 +1295,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/07 21:26",
@@ -1406,10 +1400,34 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 43,
+    "disaster_count": 36,
     "articles": [
       {
-        "title": "【名鉄】空港線も運転見合わせで中部空港まで電車では行けず　他の交通機関の検討を呼びかけ(メ〜テレ（名古屋テレビ）)",
+        "title": "茨城で住宅火災、焼け跡から2遺体(共同通信)",
+        "summary": "茨城県警によると、8日午前2時ごろ、同県結城市で「2階建ての建物が延焼している」と近隣住民から119番があった。木造2階建てが全焼し、焼け跡から2人の遺体が見つかった。",
+        "pub_date": "11/08 07:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/8ac6bf0cde65c4e3d6347ca9146294fc11eb13f2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知で震度5強　今後1週間は同程度の地震に注意　気象庁(テレビ朝日系（ANN）)",
+        "summary": "気象庁は静岡県西部を震源とする最大震度5強を観測した地震について、今後1週間程度は同じ規模の地震に注意するよう呼び掛けました。気象庁地震津波監視課 海老田綾貴課長「1週間程度、特に今後、2日から3日間",
+        "pub_date": "11/08 07:13 JST",
+        "link": "https://news.yahoo.co.jp/articles/ca2a73544e73fb4f97233ce9808355ed59898958?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【地震情報】愛知で少なくとも21人ケガ 店舗のガラスが粉々に… 大量の本が崩れ落ちた書店も 知多市で震度5強  断水している地域も(CBCテレビ)",
+        "summary": "8日午前1時4分ごろに起きた静岡県西部を震源とするマグニチュード5.7の地震で、愛知県知多市で震度5強を観測しました。【画像】散乱した本 粉々になった店舗のガラス愛知県内では、常滑市で50代の女性が避",
+        "pub_date": "11/08 07:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/24922db8fdd6bc45abf900d9e8a85192738bad7a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【名鉄】空港線運転見合わせで中部空港へ電車で行けず　他の交通機関検討を呼びかけ※午前7時5分情報更新(メ〜テレ（名古屋テレビ）)",
         "summary": "8日未明、東海地方で震度5強の地震が発生した影響で、名鉄は、安全確認のため点検作業を行っています。 このため、全線にわたり運転見合わせや運休、遅延が発生していて、一部線区では本数を減らして運行をしてい",
         "pub_date": "11/08 06:56 JST",
         "link": "https://news.yahoo.co.jp/articles/aba8df1832f1109e273df7c3b9d0a654ba735ba5?source=rss",
@@ -1418,7 +1436,7 @@
       },
       {
         "title": "【地震情報】ガラスが粉々に割れて散乱 少なくとも21人ケガ 愛知･知多市で震度5強 大量の本が崩れ落ちた書店も(CBCテレビ)",
-        "summary": "きょう午前1時4分ごろ、愛知県で最大震度5強を観測した地震で、愛知県内で少なくとも21人がけがをしました。【画像】散乱した本 粉々になった店舗のガラス震度4を観測した愛知県豊橋市。外国車販売店では、シ",
+        "summary": "きょう午前1時4分ごろ、愛知県で最大震度5強を観測した地震で、愛知県内で少なくとも21人がけがをしました。【画像】散乱した本 粉々になった店舗のガラス▼「南海トラフ巨大地震」との関連は? 専門家に聞く",
         "pub_date": "11/08 06:38 JST",
         "link": "https://news.yahoo.co.jp/articles/2017c6d6520a21127fcdfc6adbf171eb5f743eea?source=rss",
         "category": "国内・気象防災",
@@ -1503,33 +1521,9 @@
         "link": "https://news.yahoo.co.jp/articles/8a0739ec784f1cf2a38d4d59d98d255be8c1d9ec?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "東海地方で最大震度5強の地震　愛知県内では少なくとも10人がけが(メ〜テレ（名古屋テレビ）)",
-        "summary": "11月8日未明、東海地方で最大震度5強の地震がありました。この地震による津波の心配はありません。愛知県で震度5強を観測するのは1997年3月以来、約30年ぶりです。愛知県内では少なくとも10人がけがを",
-        "pub_date": "11/08 04:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/f9866e877ab2f21da2fa3e75074d035536056825?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "JR東海、在来線で始発から運転見合わせ(共同通信)",
-        "summary": "JR東海によると、8日に発生した地震の影響で、愛知県内などを走る複数の在来線の運転を、始発から見合わせる。同日午前9時ごろまでに再開する見通し。",
-        "pub_date": "11/08 04:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/489fa4bd71191fb5c9d0c3d5d9a0ba3fed0c49d4?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【鉄道情報】新幹線や在来線　始発列車の遅れや一部区間で運転見合わせの可能性も(メ〜テレ（名古屋テレビ）)",
-        "summary": "JR東海によりますと、新幹線や在来線について、始発の遅れや一部区間の運転見合わせの可能性があるということです。 名鉄によりますと、現在点検を行っていて複数の区間で運転見合わせとなる予定だということです",
-        "pub_date": "11/08 04:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/81f13d1c14add8d2738837028861cd91021c679a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 06:59:31 JST"
+    "last_updated": "2026-11-08 07:27:29 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

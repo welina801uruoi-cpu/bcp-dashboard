@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 05:24:06",
-  "timestamp_local": "2026-11-07 21:24:06",
+  "timestamp": "2026-11-08 06:03:21",
+  "timestamp_local": "2026-11-07 22:03:21",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -732,7 +732,7 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/08 05:24 JST",
+    "timestamp": "11/08 06:03 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -830,18 +830,18 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 9.8,
-        "apparent_temp": 8.6,
-        "humidity": 82,
+        "temp": 9.9,
+        "apparent_temp": 8.7,
+        "humidity": 81,
         "wind_speed": 2.9,
-        "wind_gusts": 6.5,
+        "wind_gusts": 6.1,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/07(土)",
-            "temp_max": 11.0,
+            "temp_max": 11.1,
             "temp_min": 6.8,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -875,11 +875,11 @@
         "is_capital": false,
         "lat": 53.4808,
         "lon": -2.2426,
-        "temp": 9.0,
-        "apparent_temp": 7.8,
-        "humidity": 84,
-        "wind_speed": 2.2,
-        "wind_gusts": 5.8,
+        "temp": 8.8,
+        "apparent_temp": 7.7,
+        "humidity": 85,
+        "wind_speed": 1.4,
+        "wind_gusts": 4.3,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -913,51 +913,6 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "エディンバラ (スコットランド)",
-        "name_en": "Edinburgh",
-        "is_capital": false,
-        "lat": 55.9533,
-        "lon": -3.1883,
-        "temp": 8.6,
-        "apparent_temp": 7.0,
-        "humidity": 85,
-        "wind_speed": 4.7,
-        "wind_gusts": 11.9,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/07(土)",
-            "temp_max": 10.5,
-            "temp_min": 8.4,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 1.1
-          },
-          {
-            "date": "11/08(日)",
-            "temp_max": 9.6,
-            "temp_min": 8.0,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 2.9
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 9.1,
-            "temp_min": 3.7,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -966,18 +921,18 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 9.8,
-      "apparent_temp": 8.6,
-      "humidity": 82,
+      "temp": 9.9,
+      "apparent_temp": 8.7,
+      "humidity": 81,
       "wind_speed": 2.9,
-      "wind_gusts": 6.5,
+      "wind_gusts": 6.1,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 11.0,
+          "temp_max": 11.1,
           "temp_min": 6.8,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
@@ -1005,7 +960,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 05:24 JST"
+    "timestamp": "11/08 06:03 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -1015,7 +970,7 @@
     "overall_status": "大幅遅延・一部運休",
     "strike": false,
     "monitored_systems_count": 4,
-    "alert_lines_count": 4,
+    "alert_lines_count": 3,
     "alert_lines": [
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1024,14 +979,6 @@
         "status": "Severe Delays",
         "badge": "🟠 警戒",
         "reason": "Bakerloo Line: Severe delays due to a points failure at Elephant & Castle. Tickets will be accepted on London Buses, Tha"
-      },
-      {
-        "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
-        "line": "Hammersmith & City",
-        "mode": "tube",
-        "status": "Severe Delays",
-        "badge": "🟠 警戒",
-        "reason": "Hammersmith and City Line: Severe delays due to train cancellations. "
       },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1115,10 +1062,10 @@
           {
             "name": "Hammersmith & City",
             "mode": "tube",
-            "status_raw": "Severe Delays",
-            "badge": "🟠 警戒",
-            "code": "warning",
-            "reason": "Hammersmith and City Line: Severe delays due to train cancellations. "
+            "status_raw": "Good Service",
+            "badge": "🟢 平常",
+            "code": "normal",
+            "reason": ""
           },
           {
             "name": "Jubilee",
@@ -1270,7 +1217,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/08 05:24 JST"
+    "timestamp": "11/08 06:03 JST"
   },
   "lifeline": {
     "status": "NORMAL",

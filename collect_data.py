@@ -155,6 +155,14 @@ def collect_domestic_data(quick_mode=False):
             elapsed = time.time() - t0
             print(f" [OK] ({elapsed:.1f}s)")
             success_count += 1
+
+            # 全国データ収集時に非常参集基準（一都三県 震度6弱/全国震度7/富士山噴火Lv4）を判定しLINE・メール通知
+            if loc_key == "all":
+                try:
+                    import assembly_notifier
+                    assembly_notifier.check_and_notify_assembly(data)
+                except Exception as notify_err:
+                    print(f" [WARN] 非常参集通知判定エラー: {notify_err}")
         except Exception as e:
             print(f" [NG] エラー: {e}")
 

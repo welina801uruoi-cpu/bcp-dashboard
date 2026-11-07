@@ -36,7 +36,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 防災・危機管理データの自動収集
+      - name: 防災・危機管理データの自動収集 ＆ 非常参集自動通知
+        env:
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          LINE_TO_USER_ID: ${{ secrets.LINE_TO_USER_ID }}
+          GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_TO_ADDRESSES: ${{ secrets.GMAIL_TO_ADDRESSES }}
         run: |
           if [ "${{ github.event.inputs.mode }}" = "quick" ]; then
             echo "=== [クイック更新モードで実行] ==="

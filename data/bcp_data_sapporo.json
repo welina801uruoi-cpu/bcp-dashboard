@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 11:44:25",
+  "timestamp": "2026-11-07 12:19:08",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -151,7 +151,7 @@
   },
   "weather": {
     "status": "ALERT",
-    "summary": "【警報発表: 4地域】道央（暴風警報、波浪警報）、道南（暴風警報、波浪警報）、道北（波浪警報、暴風警報）、道東（暴風警報、波浪警報）",
+    "summary": "【警報発表: 4地域】道央（暴風警報、波浪警報）、道南（波浪警報、暴風警報）、道北（波浪警報、暴風警報）、道東（暴風警報、波浪警報）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 4,
     "notice_count": 0,
@@ -168,13 +168,13 @@
           "波浪警報"
         ],
         "notices": [
-          "風雪注意報",
           "波浪注意報",
-          "強風注意報",
           "着雪注意報",
+          "強風注意報",
+          "風雪注意報",
           "大雪注意報"
         ],
-        "summary": "暴風警報、波浪警報、風雪注意報、波浪注意報、強風注意報、着雪注意報、大雪注意報",
+        "summary": "暴風警報、波浪警報、波浪注意報、着雪注意報、強風注意報、風雪注意報、大雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -184,14 +184,14 @@
         "status": "ALERT",
         "emg_warns": [],
         "warns": [
-          "暴風警報",
-          "波浪警報"
+          "波浪警報",
+          "暴風警報"
         ],
         "notices": [
           "着雪注意報",
           "強風注意報"
         ],
-        "summary": "暴風警報、波浪警報、着雪注意報、強風注意報",
+        "summary": "波浪警報、暴風警報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -223,10 +223,10 @@
         ],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "着雪注意報"
+          "着雪注意報",
+          "強風注意報"
         ],
-        "summary": "暴風警報、波浪警報、波浪注意報、強風注意報、着雪注意報",
+        "summary": "暴風警報、波浪警報、波浪注意報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -358,8 +358,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/07 12:10",
+          "text": "@sui_FL5 ドコモ→盤石。コスパならahamo ソフバン、 START au END も安パイ。 楽天→安いよ。データ通信無制限だし、 ただ人が多いとこは..."
+        },
         {
           "time": "11/07 11:33",
           "text": "START au END ひかり START 繋がらない END んだけど… なんなんこれ"
@@ -367,10 +371,6 @@
         {
           "time": "11/07 09:26",
           "text": "今回のライブでの学び ahamoはまじで START 繋がらない END 横浜公演までに START au END にキャリア変更します"
-        },
-        {
-          "time": "11/07 08:24",
-          "text": "@morujiro 結局、住んでいる場所次第ですね。 私はたまたまソフバンより START au END が繋がる＆安くなるのでwimaxに変更。ポケWi-Fi..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -418,8 +418,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 15,
+    "disaster_count": 13,
     "articles": [
+      {
+        "title": "大和路線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "加美駅で発生した人身事故の影響で、大和路線は王寺～JR難波駅間の運転を見合わせていましたが、20:35頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/07 20:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/374c4f38f07929ab2ea18683b75c5ed505455ee8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "大和路線で人身事故 一部運転見合わせ(レスキューナウニュース)",
         "summary": "19:50頃、加美駅で発生した人身事故の影響で、大和路線は王寺～JR難波駅間の運転を見合わせています。振替輸送を行っています。",
@@ -517,31 +525,23 @@
         "is_disaster": true
       },
       {
-        "title": "廃棄物処分場、情報発信の場に　埋め立て後の活用法、国が提案(共同通信)",
-        "summary": "東京電力福島第1原発事故に伴い福島県内で発生した放射性物質を含む指定廃棄物の最終処分場（同県富岡町）を巡り、埋め立て完了後の地上部分の活用法について検討が始まった。環境省は見学者用にパネルや広場を設け",
-        "pub_date": "11/07 16:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/d75eb8908b5b4e5ff0115e69a8fab4d537aa457d?source=rss",
+        "title": "石川の女性監禁容疑で男逮捕、殺人も視野(共同通信)",
+        "summary": "石川県警は7日、県内在住の20代女性を車で連れ回したとして、監禁容疑で、広島市の無職宇都宮孝司容疑者（49）を逮捕したと発表した。女性の遺体は同日、福井県あわら市で見つかり、殺人容疑の適用も視野に調べ",
+        "pub_date": "11/07 21:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/a811f5be70ce14095ca0f722c999777932decc34?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "台風32号の特徴　珍しくない11月の台風　急カーブの原因は偏西風の急激な南下(日本気象協会tenki.jp)",
-        "summary": "7日正午にマリアナ諸島で台風32号が発生しました。11月の台風発生は今年で3年連続です。この台風の特徴は進路を西から東へと急激に変えることです。その原因はなぜなのか、詳しく解説していきます。",
-        "pub_date": "11/07 16:46 JST",
-        "link": "https://news.yahoo.co.jp/articles/53868f0a461964314dc5c1e90cbe1b9edb6811f5?source=rss",
+        "title": "【独自】「継戦能力」の強化を明記へ　国家防衛戦略、表現に慎重論も(共同通信)",
+        "summary": "政府は、年末に改定する安全保障関連3文書のうち「国家防衛戦略」に、戦闘が長期化した場合の対応力を示す「継戦能力」の強化を明記する検討に入った。複数の関係者が7日、明らかにした。4年以上続くロシアによる",
+        "pub_date": "11/07 21:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/f3f8d24276eb0741042de3077f197fcfbc8d8f2a?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "台風25号被害 JR内房線 あす全線運転再開(ABEMA TIMES)",
-        "summary": "台風25号の影響で現在も一部区間で運転を見合わせているJR内房線が明日、全線で運転を再開します。【映像】台風25号の影響で線路に土砂が流入した様子 千葉県を走るJR内房線は、9月の台風25号の影響で線",
-        "pub_date": "11/07 16:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/77a83141b71450f0664f7e71bfb9698a7f326a6d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-07 20:44:23 JST"
+    "last_updated": "2026-11-07 21:19:05 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -573,10 +573,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "2jPJpKM6Mb4",
+        "video_id": "jZrVlGLQWiU",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/2jPJpKM6Mb4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=2jPJpKM6Mb4"
+        "embed_url": "https://www.youtube.com/embed/jZrVlGLQWiU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=jZrVlGLQWiU"
       },
       {
         "id": "stream_ntvnews",

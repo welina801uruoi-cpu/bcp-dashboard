@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 07:42:13",
+  "timestamp": "2026-11-07 08:29:22",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -208,11 +208,11 @@
         "warns": [],
         "notices": [
           "乾燥注意報",
-          "霜注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "霜注意報"
         ],
-        "summary": "乾燥注意報、霜注意報、波浪注意報、強風注意報",
+        "summary": "乾燥注意報、波浪注意報、強風注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -265,11 +265,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "乾燥注意報",
           "強風注意報",
-          "波浪注意報",
-          "乾燥注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、乾燥注意報",
+        "summary": "乾燥注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -297,25 +297,24 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 肥薩線 ／ 新幹線: 山陽新幹線（列車遅延）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線: 肥薩線 ／ 新幹線: 九州新幹線（その他））",
     "line_status": "ALERT",
     "line_text": "運行支障あり（肥薩線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延）、九州新幹線（その他））",
+    "shinkansen_text": "運行支障あり（九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [
       "肥薩線"
     ],
     "troubled_shinkansen": [
-      "山陽新幹線（列車遅延）",
       "九州新幹線（その他）"
     ],
     "shinkansen_details": [
       {
         "name": "山陽新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "東海道新幹線内での車内安全確認の影響で、下り線(博多方面行)の一部列車に遅れが出ています。（11月7日 14時0分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "17:00現在、ほぼ平常通り運転しています。（11月7日 17時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       },
       {
@@ -388,8 +387,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/07 08:10",
+          "text": "今の所デザフェスで通信 START 障害 END に遭ったことは START au END でもdocomoでも無かったけど、ご経験あります？ 決済できなかった..."
+        },
         {
           "time": "11/07 06:34",
           "text": "START au END ひかり止まってる？ START 障害 END 情報調べても出てない…"
@@ -397,10 +400,6 @@
         {
           "time": "11/07 02:05",
           "text": "10月末に起きた START au END の START 障害 END 以降、データセンターに届いたメールが自動的に届かなくて、いちいち自分で確認しなきゃいけ..."
-        },
-        {
-          "time": "11/07 01:57",
-          "text": "この辺は「忖度した」と言うよりセキュリティや技術に疎い。 START au END の大規模 START 障害 END の時もだけど 全体的に技術知見がそもそも..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -431,11 +430,15 @@
     {
       "keyword": "au 繋がらない",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 5 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/07 08:24",
+          "text": "@morujiro 結局、住んでいる場所次第ですね。 私はたまたまソフバンより START au END が繋がる＆安くなるのでwimaxに変更。ポケWi-Fi..."
+        },
         {
           "time": "11/07 07:38",
           "text": "docomoの回線使ってるんだけど4gばっかりだし START 繋がらない END し変えたいけど前 START au END で9000円だったから払うのつら..."
@@ -443,10 +446,6 @@
         {
           "time": "11/07 07:35",
           "text": "@_r_s_kap こんにちは、突然失礼します、povoサポートです。 START 繋がらない END 場所があるのは困ってしまいますよね💦もしよろしければ、安..."
-        },
-        {
-          "time": "11/07 07:07",
-          "text": "試合が終わった途端プレミアパートナーなのに横浜駅近くで START 繋がらない END ドコモ。 START au END のJALモバイルだと普通に繋がります..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -492,8 +491,56 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 13,
+    "disaster_count": 16,
     "articles": [
+      {
+        "title": "【台風情報】日本の南で強い勢力に発達後「く」の字に反転へ　7日発生の台風32号「チャンパカ」　年間32個は1994年以来(MBSニュース)",
+        "summary": "気象庁は7日、マリアナ諸島で台風32号「チャンパカ」が発生したと発表しました。台風が年間で32個発生したのは1994年以来で、今年の台風発生数は1951年の統計開始以来6番目の多さです。【画像を見る】",
+        "pub_date": "11/07 17:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/c62fc5e626c87a947fdf27556c704bb8e6a56386?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "温暖化で気温1.5度超、数年内　COP31、被害抑制へ合意焦点(共同通信)",
+        "summary": "【アンタルヤ共同】国連気候変動枠組み条約第31回締約国会議（COP31）が9日、トルコ南部アンタルヤで開幕する。産業革命前からの気温上昇が、国際枠組み「パリ協定」が掲げる「1.5度目標」を数年以内に超",
+        "pub_date": "11/07 17:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/9d4b73e8e36b1788192433084e6c958cb5499fe3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "“魔の交差点”で50件超の事故…なぜ？　中越地震「空飛ぶ牛」前代未聞の救出劇(テレビ朝日系（ANN）)",
+        "summary": "千葉県の交差点で50件以上も車の衝突事故が続発して“魔の交差点”と呼ばれる場所があります。事故の瞬間の映像を確認すると多くの車が一時停止を無視していることが分かりました。標識も停止線もあるのになぜ車は",
+        "pub_date": "11/07 17:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/c47c15a6a68a6d75197731f2bdfc8465181f3aa9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "廃棄物処分場、情報発信の場に　埋め立て後の活用法、国が提案(共同通信)",
+        "summary": "東京電力福島第1原発事故に伴い福島県内で発生した放射性物質を含む指定廃棄物の最終処分場（同県富岡町）を巡り、埋め立て完了後の地上部分の活用法について検討が始まった。環境省は見学者用にパネルや広場を設け",
+        "pub_date": "11/07 16:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/d75eb8908b5b4e5ff0115e69a8fab4d537aa457d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "台風32号の特徴　珍しくない11月の台風　急カーブの原因は偏西風の急激な南下(日本気象協会tenki.jp)",
+        "summary": "7日正午にマリアナ諸島で台風32号が発生しました。11月の台風発生は今年で3年連続です。この台風の特徴は進路を西から東へと急激に変えることです。その原因はなぜなのか、詳しく解説していきます。",
+        "pub_date": "11/07 16:46 JST",
+        "link": "https://news.yahoo.co.jp/articles/53868f0a461964314dc5c1e90cbe1b9edb6811f5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "台風25号被害 JR内房線 あす全線運転再開(ABEMA TIMES)",
+        "summary": "台風25号の影響で現在も一部区間で運転を見合わせているJR内房線が明日、全線で運転を再開します。【映像】台風25号の影響で線路に土砂が流入した様子 千葉県を走るJR内房線は、9月の台風25号の影響で線",
+        "pub_date": "11/07 16:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/77a83141b71450f0664f7e71bfb9698a7f326a6d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "寒さ対策とモバイルバッテリーの組み合わせに要注意　火事の季節到来　近年増加中の出火原因は(ウェザーマップ)",
         "summary": "11月9日から「秋の火災予防運動」が始まります。住宅火災の件数と、それによる死者数はこの数年で再び増加傾向にあります。特に増えているのが、モバイルバッテリーなどの充電式電池による火災。モバイルバッテリ",
@@ -565,57 +612,9 @@
         "link": "https://news.yahoo.co.jp/articles/2578bde6928ac07e6ae6037b1374d520d3b2d4bc?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "台風32号が発生 小笠原に影響か(ABEMA TIMES)",
-        "summary": "さきほど正午に日本のはるか南、マリアナ諸島付近で台風32号が発生しました。今後は発達しながら西寄りに進む見込みです。【映像】「台風32号」の進路予想（気象庁HP） 9日・月曜日には強い勢力となって動き",
-        "pub_date": "11/07 13:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/9c3152dbaa87a80093e25cdac4e08f90f778dd73?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【速報】台風32号「チャンパカ」発生　32号の発生は32年ぶり(日本気象協会tenki.jp)",
-        "summary": "7日の正午、マリアナ諸島で、台風32号「チャンパカ」が発生しました。年間で台風が32個発生するのは、1994年以来、32年ぶりです。台風32号は今後「強い」勢力に発達して、11日頃には小笠原諸島に接近",
-        "pub_date": "11/07 13:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/a734e3fbc73556e1d01e8f86293af0a9e80c6e17?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【速報】台風32号が発生 小笠原に影響か 今年は毎月台風が発生(テレビ朝日系（ANN）)",
-        "summary": "7日正午に日本のはるか南、マリアナ諸島付近で台風32号が発生しました。今後は発達しながら西寄りに進む見込みです。 9日には強い勢力となって動きが遅くなり、進路が東寄りに変わるとみられています。 来週中",
-        "pub_date": "11/07 13:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/41023cdd262a6ece1aeed3ed44c7c1c4c0c53dd7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "新東名高速で大型トラックなど3台が事故 1人死亡　静岡・沼津市(テレビ朝日系（ANN）)",
-        "summary": "7日午前、静岡県沼津市の新東名高速上りで大型トラックなど3台が関連する事故があり、1人が死亡しました。 事故があったのは沼津市井出の新東名高速上りで、午前8時ごろ、「事故が起きている」と目撃者から11",
-        "pub_date": "11/07 12:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/bb63f0754a7500e86196fa2039593db3f350ff74?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "中間選挙で惨敗。トランプ政治の終焉は、アメリカ二大政党制“崩壊の序曲”か(SPA!)",
-        "summary": "アメリカで選挙の取材をするたびに「アメリカとは古臭い国だ」と感じる。投票日は19世紀の農家が最も投票しやすかった火曜日のままだし、政治形態も、これまた19世紀半ばから続く二大政党制のままだ。やっている",
-        "pub_date": "11/07 16:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/89a884dd7f71839312c88948e6c826eda821f7c9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "常時対応がキャリアを停滞させる原因に　深い集中力を守る「境界線」の作り方(Forbes JAPAN)",
-        "summary": "企業文化の中では、ビジネスチャットツールでの即時返信や、メールをすぐに返信することを名誉のように扱う人が少なくない。素早いレスポンスこそが献身性、勤勉さ、信頼性の証しだと私たちは思い込まされてきた。し",
-        "pub_date": "11/07 16:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/2e03143b4a859d57560e7908db1d0b45179b42a5?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-07 16:42:09 JST"
+    "last_updated": "2026-11-07 17:29:19 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -647,10 +646,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "fLYXFeO5VZw",
+        "video_id": "3F8QoFQpRvo",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/fLYXFeO5VZw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=fLYXFeO5VZw"
+        "embed_url": "https://www.youtube.com/embed/3F8QoFQpRvo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=3F8QoFQpRvo"
       },
       {
         "id": "stream_ntvnews",

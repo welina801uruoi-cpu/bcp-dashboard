@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 05:15:05",
+  "timestamp": "2026-11-07 05:54:44",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -193,10 +193,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "霜注意報"
+          "霜注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、霜注意報",
+        "summary": "霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -207,12 +207,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
+          "乾燥注意報",
           "霜注意報",
-          "乾燥注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報、霜注意報、乾燥注意報",
+        "summary": "強風注意報、乾燥注意報、霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -236,12 +236,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
+          "乾燥注意報",
           "霜注意報",
-          "乾燥注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報、霜注意報、乾燥注意報",
+        "summary": "強風注意報、乾燥注意報、霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -266,11 +266,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報、乾燥注意報",
+        "summary": "強風注意報、乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -439,16 +439,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/07 05:34",
+          "text": "@shalaladaikon 突然のお声掛け失礼します、povoサポートです。 START 繋がらない END ところがあると不安になってしまいますよね💦もしよ..."
+        },
+        {
           "time": "11/07 04:51",
           "text": "START au END ，今日LTEが START 繋がらない END 昨日は大丈夫だったのに"
         },
         {
           "time": "11/07 03:07",
           "text": "@juju04150 ドコモのメリット繋がる START AU END のメリット繋がる SBのデメリット START 繋がらない END 楽天のデメリット S..."
-        },
-        {
-          "time": "11/07 02:43",
-          "text": "@juju04150 docomo系は高い START au END 系は電波は繋がりやすいが、端末の返却プログラムの縛りがシビア 傷一つでもあったら返却できな..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -494,8 +494,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 18,
+    "disaster_count": 20,
     "articles": [
+      {
+        "title": "【動画解説】来週にかけて朝の冷え込み強まる　週明けは関東などで冷たい雨　台風32号発生(ウェザーマップ)",
+        "summary": "きょう（土）は強い冬型の気圧配置となって、北海道では札幌など市街地も積雪となっています。あす（日）の朝にかけて、北日本は大雪や猛ふぶきに警戒が必要です。晴れる所も北風が冷たく、あす（日）の朝は冷え込み",
+        "pub_date": "11/07 14:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/1ee5ebc30db8f2e138ceeb96e0386a61dffbc030?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "【台風情報】32年ぶり「台風32号」が発生　今後の進路予想は　8日午前0時には小笠原近海に進む見込み、中心気圧は1000hPa予想　12日午前9時までの予報は(FNNプライムオンライン)",
         "summary": "気象庁は台風32号（チャンパカ）が発生したと発表しました。7日正午、マリアナ諸島の北緯19度10分、東経143度30分において、熱帯低気圧が台風32号になりました。台風は1時間におよそ35キロの速さで",
@@ -529,8 +537,8 @@
         "is_disaster": true
       },
       {
-        "title": "台風32号が32年ぶりに発生　小笠原近海で複雑な動きをしたのち小笠原諸島に接近か(ウェザーマップ)",
-        "summary": "7日(土)正午、マリアナ諸島で台風32号が発生しました。台風32号が発生するのは1994年以来、32年ぶりです。台風は小笠原近海で複雑な動きをしそうで、小笠原諸島では高波を中心に影響が長引く見通しです",
+        "title": "台風32号が32年ぶりに発生　複雑な動きをしたのち小笠原諸島に接近か(ウェザーマップ)",
+        "summary": "7日(土)正午、マリアナ諸島で台風32号が発生しました。台風32号が発生するのは1994年以来、32年ぶりです。台風は日本の南海上で複雑な動きをしそうで、小笠原諸島では高波を中心に影響が長引く見通しで",
         "pub_date": "11/07 14:00 JST",
         "link": "https://news.yahoo.co.jp/articles/63eb285a073340e4ab06a6fa462faa95ca174700?source=rss",
         "category": "国内・気象防災",
@@ -607,17 +615,9 @@
         "link": "https://news.yahoo.co.jp/articles/24234bbe8688bc1a0bd9d57a964559c02ee50afa?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "なぜ?自動車盗が急減…中東情勢が“盗難車ルート”直撃か…専門家は“リバウンド”を警戒(FNNプライムオンライン)",
-        "summary": "全国ワーストの被害が続いていた愛知県の自動車盗が、いま急減しています。その背景として浮かび上がってきたのは、遠く離れた中東で続く混乱でした。ホルムズ海峡の封鎖で盗難車の流通ルートに異変が起きる一方、専",
-        "pub_date": "11/07 12:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/518c822a9424b043e9555cf9d26e0dc7b4c85199?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-07 14:14:09 JST"
+    "last_updated": "2026-11-07 14:53:55 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",

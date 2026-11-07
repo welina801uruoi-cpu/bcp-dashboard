@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-07 21:20:20",
-  "timestamp_local": "2026-11-07 20:20:20",
+  "timestamp": "2026-11-07 22:21:31",
+  "timestamp_local": "2026-11-07 21:21:31",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -289,7 +289,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 6,
+    "count_24h": 8,
     "summary": "M4.9 (southern Mid-Atlantic Ridge)",
     "latest": {
       "mag": 4.9,
@@ -314,6 +314,22 @@
         "time": "11/07 20:07 JST",
         "depth_km": 31.748,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrq",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "57 km SW of Ollagüe, Chile",
+        "time": "11/07 19:53 JST",
+        "depth_km": 110.716,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrp",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.7,
+        "place": "156 km ESE of Modisi, Indonesia",
+        "time": "11/07 18:47 JST",
+        "depth_km": 38.531,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrh",
         "tsunami": 0
       },
       {
@@ -512,8 +528,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/07 12:27",
+          "text": "日本列島は、地球上でも最も地殻変動が活発な地域の一つに位置している。 絶え間なく続く 地震 、火山噴火の脅威、そしてプレートの動きによる海溝..."
+        },
         {
           "time": "11/07 09:48",
           "text": "南海トラフ 地震 関連解説情報は フィリピン 海プレートの動きから派生する陸側プレート（ユーラシアプレート）との関連性を..."
@@ -521,10 +541,6 @@
         {
           "time": "11/07 08:42",
           "text": "浅いってのもあるんだと思うけど、 フィリピン 海プレート由来の揺れ方の方が鋭くて怖い感じ。東海地方に住んでる時に思った。回数が凄く少ないんだ..."
-        },
-        {
-          "time": "11/07 04:38",
-          "text": "フィリピン 諸島、ミンダナオの 地震 #津波注意報 https://t.co/MIDp7WIM58"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%95%E3%82%A3%E3%83%AA%E3%83%94%E3%83%B3%20%E5%9C%B0%E9%9C%87"
@@ -589,7 +605,7 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/07 21:20 JST",
+    "timestamp": "11/07 22:21 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -657,38 +673,38 @@
         "is_capital": true,
         "lat": 14.5995,
         "lon": 120.9842,
-        "temp": 27.7,
-        "apparent_temp": 31.3,
-        "humidity": 68,
-        "wind_speed": 6.7,
-        "wind_gusts": 20.2,
+        "temp": 27.3,
+        "apparent_temp": 31.1,
+        "humidity": 71,
+        "wind_speed": 5.8,
+        "wind_gusts": 19.1,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/07(土)",
-            "temp_max": 32.6,
+            "temp_max": 33.0,
             "temp_min": 26.3,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.6
+            "precipitation_mm": 0.9
           },
           {
             "date": "11/08(日)",
-            "temp_max": 33.5,
-            "temp_min": 26.1,
+            "temp_max": 33.0,
+            "temp_min": 25.9,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.5
+            "precipitation_mm": 0.7
           },
           {
             "date": "11/09(月)",
-            "temp_max": 33.6,
+            "temp_max": 33.1,
             "temp_min": 26.4,
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 1.2
+            "precipitation_mm": 1.3
           }
         ],
         "alert": "平常",
@@ -702,83 +718,38 @@
         "is_capital": false,
         "lat": 10.3157,
         "lon": 123.8854,
-        "temp": 25.5,
-        "apparent_temp": 30.0,
+        "temp": 25.9,
+        "apparent_temp": 30.5,
         "humidity": 91,
-        "wind_speed": 10.9,
-        "wind_gusts": 22.3,
+        "wind_speed": 11.5,
+        "wind_gusts": 21.2,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/07(土)",
-            "temp_max": 30.8,
+            "temp_max": 31.6,
             "temp_min": 24.0,
             "weather_code": 55,
             "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 4.9
+            "precipitation_mm": 4.4
           },
           {
             "date": "11/08(日)",
-            "temp_max": 29.1,
-            "temp_min": 24.2,
+            "temp_max": 29.3,
+            "temp_min": 24.7,
             "weather_code": 95,
             "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 8.6
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 30.5,
-            "temp_min": 24.1,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 3.8
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "ダバオ (南部主要都市)",
-        "name_en": "Davao",
-        "is_capital": false,
-        "lat": 7.1907,
-        "lon": 125.4578,
-        "temp": 24.3,
-        "apparent_temp": 29.2,
-        "humidity": 92,
-        "wind_speed": 3.9,
-        "wind_gusts": 7.9,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
-        "forecast": [
-          {
-            "date": "11/07(土)",
-            "temp_max": 29.7,
-            "temp_min": 23.0,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 6.4
-          },
-          {
-            "date": "11/08(日)",
-            "temp_max": 30.4,
-            "temp_min": 22.6,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
             "precipitation_mm": 5.8
           },
           {
             "date": "11/09(月)",
-            "temp_max": 30.9,
-            "temp_min": 22.6,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 8.1
+            "temp_max": 30.6,
+            "temp_min": 24.5,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 4.1
           }
         ],
         "alert": "平常",
@@ -793,38 +764,38 @@
       "is_capital": true,
       "lat": 14.5995,
       "lon": 120.9842,
-      "temp": 27.7,
-      "apparent_temp": 31.3,
-      "humidity": 68,
-      "wind_speed": 6.7,
-      "wind_gusts": 20.2,
+      "temp": 27.3,
+      "apparent_temp": 31.1,
+      "humidity": 71,
+      "wind_speed": 5.8,
+      "wind_gusts": 19.1,
       "precipitation": 0.0,
       "weather_code": 1,
       "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 32.6,
+          "temp_max": 33.0,
           "temp_min": 26.3,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.6
+          "precipitation_mm": 0.9
         },
         {
           "date": "11/08(日)",
-          "temp_max": 33.5,
-          "temp_min": 26.1,
+          "temp_max": 33.0,
+          "temp_min": 25.9,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.5
+          "precipitation_mm": 0.7
         },
         {
           "date": "11/09(月)",
-          "temp_max": 33.6,
+          "temp_max": 33.1,
           "temp_min": 26.4,
           "weather_code": 53,
           "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 1.2
+          "precipitation_mm": 1.3
         }
       ],
       "alert": "平常",
@@ -832,7 +803,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/07 21:20 JST"
+    "timestamp": "11/07 22:21 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -861,7 +832,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/07 21:20 JST"
+    "timestamp": "11/07 22:21 JST"
   },
   "lifeline": {
     "status": "NORMAL",

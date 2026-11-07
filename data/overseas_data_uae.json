@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-07 21:22:02",
-  "timestamp_local": "2026-11-07 16:22:02",
+  "timestamp": "2026-11-07 22:22:42",
+  "timestamp_local": "2026-11-07 17:22:42",
   "country": {
     "id": "uae",
     "name": "アラブ首長国連邦 (UAE)",
@@ -276,7 +276,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 6,
+    "count_24h": 8,
     "summary": "M4.9 (southern Mid-Atlantic Ridge)",
     "latest": {
       "mag": 4.9,
@@ -301,6 +301,22 @@
         "time": "11/07 20:07 JST",
         "depth_km": 31.748,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrq",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "57 km SW of Ollagüe, Chile",
+        "time": "11/07 19:53 JST",
+        "depth_km": 110.716,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrp",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.7,
+        "place": "156 km ESE of Modisi, Indonesia",
+        "time": "11/07 18:47 JST",
+        "depth_km": 38.531,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrh",
         "tsunami": 0
       },
       {
@@ -580,7 +596,7 @@
     "default_channel_id": "stream_dubai_live"
   },
   "forex": {
-    "timestamp": "11/07 21:22 JST",
+    "timestamp": "11/07 22:22 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -643,61 +659,16 @@
   "weather": {
     "cities": [
       {
-        "name": "アブダビ (連邦首都)",
-        "name_en": "Abu Dhabi",
-        "is_capital": true,
-        "lat": 24.4539,
-        "lon": 54.3773,
-        "temp": 33.7,
-        "apparent_temp": 35.7,
-        "humidity": 42,
-        "wind_speed": 9.3,
-        "wind_gusts": 23.4,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/07(土)",
-            "temp_max": 36.0,
-            "temp_min": 26.5,
-            "weather_code": 2,
-            "weather_label": "⛅ 晴れ時々曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/08(日)",
-            "temp_max": 35.2,
-            "temp_min": 25.9,
-            "weather_code": 2,
-            "weather_label": "⛅ 晴れ時々曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 34.8,
-            "temp_min": 25.0,
-            "weather_code": 1,
-            "weather_label": "🌤️ 晴れ",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "ドバイ (世界商業ハブ)",
         "name_en": "Dubai",
         "is_capital": false,
         "lat": 25.2048,
         "lon": 55.2708,
-        "temp": 31.2,
-        "apparent_temp": 33.2,
-        "humidity": 53,
-        "wind_speed": 14.8,
-        "wind_gusts": 26.6,
+        "temp": 30.7,
+        "apparent_temp": 33.6,
+        "humidity": 59,
+        "wind_speed": 12.6,
+        "wind_gusts": 23.4,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -734,15 +705,15 @@
       }
     ],
     "capital": {
-      "name": "アブダビ (連邦首都)",
-      "name_en": "Abu Dhabi",
-      "is_capital": true,
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "temp": 33.7,
-      "apparent_temp": 35.7,
-      "humidity": 42,
-      "wind_speed": 9.3,
+      "name": "ドバイ (世界商業ハブ)",
+      "name_en": "Dubai",
+      "is_capital": false,
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "temp": 30.7,
+      "apparent_temp": 33.6,
+      "humidity": 59,
+      "wind_speed": 12.6,
       "wind_gusts": 23.4,
       "precipitation": 0.0,
       "weather_code": 0,
@@ -750,26 +721,26 @@
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 36.0,
-          "temp_min": 26.5,
-          "weather_code": 2,
-          "weather_label": "⛅ 晴れ時々曇り",
+          "temp_max": 35.4,
+          "temp_min": 27.0,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/08(日)",
-          "temp_max": 35.2,
-          "temp_min": 25.9,
-          "weather_code": 2,
-          "weather_label": "⛅ 晴れ時々曇り",
+          "temp_max": 33.7,
+          "temp_min": 26.3,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/09(月)",
-          "temp_max": 34.8,
-          "temp_min": 25.0,
-          "weather_code": 1,
-          "weather_label": "🌤️ 晴れ",
+          "temp_max": 32.9,
+          "temp_min": 26.8,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
         }
       ],
@@ -778,7 +749,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/07 21:22 JST"
+    "timestamp": "11/07 22:22 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -807,7 +778,7 @@
         "details": "レッドライン・グリーンライン平常運行中"
       }
     ],
-    "timestamp": "11/07 21:22 JST"
+    "timestamp": "11/07 22:22 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-07 21:21:15",
-  "timestamp_local": "2026-11-07 14:21:15",
+  "timestamp": "2026-11-07 22:22:14",
+  "timestamp_local": "2026-11-07 15:22:14",
   "country": {
     "id": "belgium",
     "name": "ベルギー",
@@ -272,7 +272,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 6,
+    "count_24h": 8,
     "summary": "M4.9 (southern Mid-Atlantic Ridge)",
     "latest": {
       "mag": 4.9,
@@ -297,6 +297,22 @@
         "time": "11/07 20:07 JST",
         "depth_km": 31.748,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrq",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "57 km SW of Ollagüe, Chile",
+        "time": "11/07 19:53 JST",
+        "depth_km": 110.716,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrp",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.7,
+        "place": "156 km ESE of Modisi, Indonesia",
+        "time": "11/07 18:47 JST",
+        "depth_km": 38.531,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrh",
         "tsunami": 0
       },
       {
@@ -508,19 +524,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/07 12:29",
+          "text": "先週末、🇫🇷フランスで大規模な暴動が発生した。 しかし、🇧🇪 ベルギー 、🇪🇸スペイン、🇮🇹イタリアでもここ数週間、 デモ EN..."
+        },
+        {
+          "time": "11/07 12:29",
+          "text": "🌐#ブラック・ブロック：🇪🇺ヨーロッパの デモ を妨害する覆面抗議者たちは一体何者なのか？ #2030agenda/#NWO 🇫🇷フランス、..."
+        },
         {
           "time": "11/07 08:34",
           "text": "@HackCofeBin2 イギリスとかフランス、 ベルギー でイスラム過激派組織が、シャリア法を適用せよ、とか言って デモ E..."
-        },
-        {
-          "time": "11/07 02:37",
-          "text": "フランス・ ベルギー 旅行は デモ で危険？安全情報と対策 確認ポイントと注意点を、公開情報に沿って整理しました👇 ht..."
-        },
-        {
-          "time": "11/04 19:21",
-          "text": "フランスで始まった若者主導の抗議 デモ が、イタリア、 ベルギー 、ドイツなど欧州各国に拡大している。 教育環境の悪化、..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%99%E3%83%AB%E3%82%AE%E3%83%BC%20%E3%83%87%E3%83%A2"
@@ -598,7 +614,7 @@
     "default_channel_id": "stream_rtbf_live"
   },
   "forex": {
-    "timestamp": "11/07 21:21 JST",
+    "timestamp": "11/07 22:22 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -651,82 +667,37 @@
         "is_capital": true,
         "lat": 50.8503,
         "lon": 4.3517,
-        "temp": 8.2,
-        "apparent_temp": 6.1,
-        "humidity": 89,
+        "temp": 8.0,
+        "apparent_temp": 5.9,
+        "humidity": 90,
         "wind_speed": 7.9,
-        "wind_gusts": 16.2,
+        "wind_gusts": 16.6,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/07(土)",
-            "temp_max": 8.8,
+            "temp_max": 8.7,
             "temp_min": 6.8,
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 3.6
+            "precipitation_mm": 3.5
           },
           {
             "date": "11/08(日)",
-            "temp_max": 10.0,
-            "temp_min": 5.8,
+            "temp_max": 10.3,
+            "temp_min": 5.6,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.4
+            "precipitation_mm": 0.2
           },
           {
             "date": "11/09(月)",
-            "temp_max": 10.9,
-            "temp_min": 3.7,
-            "weather_code": 2,
-            "weather_label": "⛅ 晴れ時々曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      },
-      {
-        "name": "アントワープ (北部主要港湾)",
-        "name_en": "Antwerp",
-        "is_capital": false,
-        "lat": 51.2194,
-        "lon": 4.4025,
-        "temp": 8.1,
-        "apparent_temp": 6.2,
-        "humidity": 90,
-        "wind_speed": 6.5,
-        "wind_gusts": 13.0,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
-        "forecast": [
-          {
-            "date": "11/07(土)",
-            "temp_max": 8.6,
-            "temp_min": 6.3,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 6.8
-          },
-          {
-            "date": "11/08(日)",
-            "temp_max": 9.6,
-            "temp_min": 5.5,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.7
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 10.7,
-            "temp_min": 2.6,
-            "weather_code": 0,
-            "weather_label": "☀️ 快晴",
+            "temp_max": 11.8,
+            "temp_min": 3.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           }
         ],
@@ -742,37 +713,37 @@
       "is_capital": true,
       "lat": 50.8503,
       "lon": 4.3517,
-      "temp": 8.2,
-      "apparent_temp": 6.1,
-      "humidity": 89,
+      "temp": 8.0,
+      "apparent_temp": 5.9,
+      "humidity": 90,
       "wind_speed": 7.9,
-      "wind_gusts": 16.2,
+      "wind_gusts": 16.6,
       "precipitation": 0.1,
       "weather_code": 51,
       "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 8.8,
+          "temp_max": 8.7,
           "temp_min": 6.8,
           "weather_code": 53,
           "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 3.6
+          "precipitation_mm": 3.5
         },
         {
           "date": "11/08(日)",
-          "temp_max": 10.0,
-          "temp_min": 5.8,
+          "temp_max": 10.3,
+          "temp_min": 5.6,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.4
+          "precipitation_mm": 0.2
         },
         {
           "date": "11/09(月)",
-          "temp_max": 10.9,
-          "temp_min": 3.7,
-          "weather_code": 2,
-          "weather_label": "⛅ 晴れ時々曇り",
+          "temp_max": 11.8,
+          "temp_min": 3.6,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         }
       ],
@@ -781,7 +752,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/07 21:21 JST"
+    "timestamp": "11/07 22:22 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -810,7 +781,7 @@
         "details": "国鉄インターシティ線平常運行中"
       }
     ],
-    "timestamp": "11/07 21:21 JST"
+    "timestamp": "11/07 22:22 JST"
   },
   "lifeline": {
     "status": "NORMAL",

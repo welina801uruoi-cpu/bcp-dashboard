@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 12:19:31",
+  "timestamp": "2026-11-07 13:20:35",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -245,25 +245,25 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 山陰本線、岡山電気軌道線 ／ 新幹線: 山陽新幹線（運転状況））",
+    "text": "運行支障あり（在来線: 山陰本線、岡山電気軌道線 ／ 新幹線: 山陽新幹線（列車遅延））",
     "line_status": "ALERT",
     "line_text": "運行支障あり（山陰本線、岡山電気軌道線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（運転状況））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
     "troubled_lines": [
       "山陰本線",
       "岡山電気軌道線"
     ],
     "troubled_shinkansen": [
-      "山陽新幹線（運転状況）"
+      "山陽新幹線（列車遅延）"
     ],
     "shinkansen_details": [
       {
         "name": "山陽新幹線",
         "status": "ALERT",
-        "state": "運転状況",
-        "detail": "小倉駅での車両点検の影響で、上り線(新大阪方面行)の一部列車に遅れや運休が出ています。（11月7日 21時15分掲載）",
+        "state": "列車遅延",
+        "detail": "小倉駅で発生した車両故障の影響で、上り線(新大阪方面行)の一部列車に遅れが出ています。（11月7日 22時10分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       }
     ],
@@ -322,8 +322,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/07 13:12",
+          "text": "START au END のスマホ回線、めちゃくちゃ遅いんだが通信 START 障害 END 起きてるのかね？？？"
+        },
         {
           "time": "11/07 10:09",
           "text": "@jcom_support 今日jcomのインターネット START 障害 END 多くて解約が多いから料金そのままで START au END 10Gへ変更し..."
@@ -331,10 +335,6 @@
         {
           "time": "11/07 09:47",
           "text": "START au END PAY カード 何かの START 障害 END 起きてる？起きてた？のか。でもarrowsユーザーじゃないんだよな…この後このカード..."
-        },
-        {
-          "time": "11/07 09:16",
-          "text": "START au END のポイント運用が START 障害 END で引き出せない間に3割減ってるんですけどお金返してくれませんか？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -368,8 +368,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/07 13:09",
+          "text": "私の家は START au END 圏外になるし、水害を経験した時にはソフトバンクが1番繋がらなかった経験あり。仕事場は START au END とソフトバン..."
+        },
         {
           "time": "11/07 12:10",
           "text": "@sui_FL5 ドコモ→盤石。コスパならahamo ソフバン、 START au END も安パイ。 楽天→安いよ。データ通信無制限だし、 ただ人が多いとこは..."
@@ -377,10 +381,6 @@
         {
           "time": "11/07 11:33",
           "text": "START au END ひかり START 繋がらない END んだけど… なんなんこれ"
-        },
-        {
-          "time": "11/07 09:26",
-          "text": "今回のライブでの学び ahamoはまじで START 繋がらない END 横浜公演までに START au END にキャリア変更します"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -426,8 +426,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 13,
+    "disaster_count": 12,
     "articles": [
+      {
+        "title": "大阪発高知行き高速バスから出火、全員無事(共同通信)",
+        "summary": "大阪市の西日本JRバスによると、7日午後7時40分ごろ、兵庫県淡路市の神戸淡路鳴門自動車道下りで、大阪から高知に向かっていた同社の高速バスから出火した。乗客21人と運転手1人は避難し無事だった。",
+        "pub_date": "11/07 21:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/d173ea2c7e7b45b1398a7ed3f36840186f789f3f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "神戸淡路鳴門道で大型バス火災　兵庫・淡路市　目撃者「煙が真っ赤」　乗客ら約20人脱出(産経新聞)",
+        "summary": "7日午後7時40分ごろ、兵庫県淡路市岩屋の神戸淡路鳴門自動車道下り線の路上で、大型バスから出火。地元消防などによると、バスは道路脇に停車後、出火したとみられ、乗客や運転手ら約20人は出火前に車内から脱",
+        "pub_date": "11/07 21:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/12a3ca67450fef205ac7b7051074363129d21da2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "大和路線で人身事故 運転再開(レスキューナウニュース)",
         "summary": "加美駅で発生した人身事故の影響で、大和路線は王寺～JR難波駅間の運転を見合わせていましたが、20:35頃、運転を再開しました。なお、ダイヤが乱れています。",
@@ -509,47 +525,31 @@
         "is_disaster": true
       },
       {
-        "title": "【台風情報】日本の南で強い勢力に発達後「く」の字に反転へ　7日発生の台風32号「チャンパカ」　年間32個は1994年以来(MBSニュース)",
-        "summary": "気象庁は7日、マリアナ諸島で台風32号「チャンパカ」が発生したと発表しました。台風が年間で32個発生したのは1994年以来で、今年の台風発生数は1951年の統計開始以来6番目の多さです。【画像を見る】",
-        "pub_date": "11/07 17:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/c62fc5e626c87a947fdf27556c704bb8e6a56386?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "温暖化で気温1.5度超、数年内　COP31、被害抑制へ合意焦点(共同通信)",
-        "summary": "【アンタルヤ共同】国連気候変動枠組み条約第31回締約国会議（COP31）が9日、トルコ南部アンタルヤで開幕する。産業革命前からの気温上昇が、国際枠組み「パリ協定」が掲げる「1.5度目標」を数年以内に超",
-        "pub_date": "11/07 17:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/9d4b73e8e36b1788192433084e6c958cb5499fe3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "“魔の交差点”で50件超の事故…なぜ？　中越地震「空飛ぶ牛」前代未聞の救出劇(テレビ朝日系（ANN）)",
-        "summary": "千葉県の交差点で50件以上も車の衝突事故が続発して“魔の交差点”と呼ばれる場所があります。事故の瞬間の映像を確認すると多くの車が一時停止を無視していることが分かりました。標識も停止線もあるのになぜ車は",
-        "pub_date": "11/07 17:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/c47c15a6a68a6d75197731f2bdfc8465181f3aa9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "石川の女性監禁容疑で男逮捕、殺人も視野(共同通信)",
-        "summary": "石川県警は7日、県内在住の20代女性を車で連れ回したとして、監禁容疑で、広島市の無職宇都宮孝司容疑者（49）を逮捕したと発表した。女性の遺体は同日、福井県あわら市で見つかり、殺人容疑の適用も視野に調べ",
-        "pub_date": "11/07 21:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/a811f5be70ce14095ca0f722c999777932decc34?source=rss",
+        "title": "大阪発高知行きのバスが出火　明石大橋付近、全員無事(共同通信)",
+        "summary": "7日午後7時45分ごろ、兵庫県淡路市の神戸淡路鳴門自動車道下り明石海峡大橋―淡路サービスエリア（SA）間を走行中のバスから火が出ていると110番があった。西日本JRバス（大阪市）によると、大阪から高知",
+        "pub_date": "11/07 22:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/7496fa014ee2133e174b9573a2fbe340444247d9?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【独自】「継戦能力」の強化を明記へ　国家防衛戦略、表現に慎重論も(共同通信)",
-        "summary": "政府は、年末に改定する安全保障関連3文書のうち「国家防衛戦略」に、戦闘が長期化した場合の対応力を示す「継戦能力」の強化を明記する検討に入った。複数の関係者が7日、明らかにした。4年以上続くロシアによる",
-        "pub_date": "11/07 21:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/f3f8d24276eb0741042de3077f197fcfbc8d8f2a?source=rss",
+        "title": "石破氏らの採決退席、自民・野田聖子氏「しょうがない」立民・蓮舫氏「勇気ある行動」絶賛(産経新聞)",
+        "summary": "自民党の野田聖子衆院議員と立憲民主党の蓮舫参院議員は7日、東京・永田町で対談し、消費税減税関連法案の採決を退席した自民党の石破茂元首相らの行動について言及した。野田氏は「自由なんだけど、しょうがないよ",
+        "pub_date": "11/07 21:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/665ed590630c25dd44b58fb732d1672f4d3d5fe7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "女性監禁疑い、広島の男逮捕　殺人容疑視野に捜査、石川(共同通信)",
+        "summary": "石川県警は7日、県内在住の20代女性を車で連れ回したとして、監禁の疑いで、広島市の無職、宇都宮孝司容疑者（49）を逮捕したと発表した。逮捕は6日付。女性の遺体が7日に福井県あわら市の山林で見つかり、殺",
+        "pub_date": "11/07 21:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/6f2ff53c07b895b7fc1fa7b23c92eb7ba9d8ba5b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-07 21:19:05 JST"
+    "last_updated": "2026-11-07 22:19:49 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -570,10 +570,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "Cbc7dAjjezI",
+        "video_id": "rLkDOtgQ-Gk",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/Cbc7dAjjezI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Cbc7dAjjezI"
+        "embed_url": "https://www.youtube.com/embed/rLkDOtgQ-Gk?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=rLkDOtgQ-Gk"
       },
       {
         "id": "stream_tbsnews",

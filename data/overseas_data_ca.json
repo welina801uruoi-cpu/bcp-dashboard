@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-07 21:21:52",
-  "timestamp_local": "2026-11-07 08:21:52",
+  "timestamp": "2026-11-07 22:22:32",
+  "timestamp_local": "2026-11-07 09:22:32",
   "country": {
     "id": "canada",
     "name": "カナダ",
@@ -141,7 +141,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 6,
+    "count_24h": 8,
     "summary": "M4.9 (southern Mid-Atlantic Ridge)",
     "latest": {
       "mag": 4.9,
@@ -166,6 +166,22 @@
         "time": "11/07 20:07 JST",
         "depth_km": 31.748,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrq",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "57 km SW of Ollagüe, Chile",
+        "time": "11/07 19:53 JST",
+        "depth_km": 110.716,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrp",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.7,
+        "place": "156 km ESE of Modisi, Indonesia",
+        "time": "11/07 18:47 JST",
+        "depth_km": 38.531,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrh",
         "tsunami": 0
       },
       {
@@ -439,7 +455,7 @@
     "default_channel_id": "stream_cbc_live"
   },
   "forex": {
-    "timestamp": "11/07 21:21 JST",
+    "timestamp": "11/07 22:22 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -502,24 +518,69 @@
   "weather": {
     "cities": [
       {
+        "name": "オタワ (首都)",
+        "name_en": "Ottawa",
+        "is_capital": true,
+        "lat": 45.4215,
+        "lon": -75.6972,
+        "temp": 8.7,
+        "apparent_temp": 6.4,
+        "humidity": 85,
+        "wind_speed": 8.8,
+        "wind_gusts": 25.9,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 11.5,
+            "temp_min": 7.9,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.3
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 8.0,
+            "temp_min": 6.2,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.4
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 8.7,
+            "temp_min": 4.8,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 2.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "トロント (最大都市)",
         "name_en": "Toronto",
         "is_capital": false,
         "lat": 43.6532,
         "lon": -79.3832,
-        "temp": 2.0,
-        "apparent_temp": -1.4,
-        "humidity": 93,
-        "wind_speed": 10.3,
-        "wind_gusts": 17.6,
+        "temp": 3.8,
+        "apparent_temp": 1.1,
+        "humidity": 94,
+        "wind_speed": 7.4,
+        "wind_gusts": 20.2,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/07(土)",
-            "temp_max": 11.1,
-            "temp_min": 1.8,
+            "temp_max": 9.8,
+            "temp_min": 2.0,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -545,46 +606,91 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "バンクーバー (太平洋岸主要都市)",
+        "name_en": "Vancouver",
+        "is_capital": false,
+        "lat": 49.2827,
+        "lon": -123.1207,
+        "temp": 8.7,
+        "apparent_temp": 6.8,
+        "humidity": 88,
+        "wind_speed": 7.1,
+        "wind_gusts": 9.7,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 14.1,
+            "temp_min": 8.0,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 5.0
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 10.2,
+            "temp_min": 6.6,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 5.4
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 11.2,
+            "temp_min": 6.6,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.5
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
-      "name": "トロント (最大都市)",
-      "name_en": "Toronto",
-      "is_capital": false,
-      "lat": 43.6532,
-      "lon": -79.3832,
-      "temp": 2.0,
-      "apparent_temp": -1.4,
-      "humidity": 93,
-      "wind_speed": 10.3,
-      "wind_gusts": 17.6,
+      "name": "オタワ (首都)",
+      "name_en": "Ottawa",
+      "is_capital": true,
+      "lat": 45.4215,
+      "lon": -75.6972,
+      "temp": 8.7,
+      "apparent_temp": 6.4,
+      "humidity": 85,
+      "wind_speed": 8.8,
+      "wind_gusts": 25.9,
       "precipitation": 0.0,
-      "weather_code": 0,
-      "weather_label": "☀️ 快晴",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 11.1,
-          "temp_min": 1.8,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 11.5,
+          "temp_min": 7.9,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.3
         },
         {
           "date": "11/08(日)",
-          "temp_max": 10.0,
-          "temp_min": 5.0,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 8.0,
+          "temp_min": 6.2,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.4
         },
         {
           "date": "11/09(月)",
-          "temp_max": 11.3,
-          "temp_min": 7.8,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.2
+          "temp_max": 8.7,
+          "temp_min": 4.8,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 2.0
         }
       ],
       "alert": "平常",
@@ -592,7 +698,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/07 21:21 JST"
+    "timestamp": "11/07 22:22 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -621,7 +727,7 @@
         "details": "VIA鉄道主要列車平常運行中"
       }
     ],
-    "timestamp": "11/07 21:21 JST"
+    "timestamp": "11/07 22:22 JST"
   },
   "lifeline": {
     "status": "NORMAL",

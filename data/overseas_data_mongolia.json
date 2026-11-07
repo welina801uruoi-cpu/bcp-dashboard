@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-07 21:20:47",
-  "timestamp_local": "2026-11-07 20:20:47",
+  "timestamp": "2026-11-07 22:22:02",
+  "timestamp_local": "2026-11-07 21:22:02",
   "country": {
     "id": "mongolia",
     "name": "モンゴル",
@@ -259,7 +259,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 6,
+    "count_24h": 8,
     "summary": "M4.9 (southern Mid-Atlantic Ridge)",
     "latest": {
       "mag": 4.9,
@@ -284,6 +284,22 @@
         "time": "11/07 20:07 JST",
         "depth_km": 31.748,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrq",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "57 km SW of Ollagüe, Chile",
+        "time": "11/07 19:53 JST",
+        "depth_km": 110.716,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrp",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.7,
+        "place": "156 km ESE of Modisi, Indonesia",
+        "time": "11/07 18:47 JST",
+        "depth_km": 38.531,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrh",
         "tsunami": 0
       },
       {
@@ -553,7 +569,7 @@
     "default_channel_id": "stream_mongol_news"
   },
   "forex": {
-    "timestamp": "11/07 21:20 JST",
+    "timestamp": "11/07 22:22 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -599,9 +615,99 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/07 21:20 JST"
+    "cities": [
+      {
+        "name": "ウランバートル (首都)",
+        "name_en": "Ulaanbaatar",
+        "is_capital": true,
+        "lat": 47.8864,
+        "lon": 106.9057,
+        "temp": -12.7,
+        "apparent_temp": -16.5,
+        "humidity": 78,
+        "wind_speed": 0.8,
+        "wind_gusts": 6.1,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": -6.3,
+            "temp_min": -13.0,
+            "weather_code": 71,
+            "weather_label": "❄️ 降雪 (小雪)",
+            "precipitation_mm": 0.5
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": -0.0,
+            "temp_min": -13.6,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 3.4,
+            "temp_min": -7.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "厳寒・凍結警戒",
+        "alert_badge": "🟠 凍結警戒",
+        "alert_class": "orange",
+        "alert_desc": "気温-12.7℃。路面凍結・交通遅延に注意"
+      }
+    ],
+    "capital": {
+      "name": "ウランバートル (首都)",
+      "name_en": "Ulaanbaatar",
+      "is_capital": true,
+      "lat": 47.8864,
+      "lon": 106.9057,
+      "temp": -12.7,
+      "apparent_temp": -16.5,
+      "humidity": 78,
+      "wind_speed": 0.8,
+      "wind_gusts": 6.1,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
+      "forecast": [
+        {
+          "date": "11/07(土)",
+          "temp_max": -6.3,
+          "temp_min": -13.0,
+          "weather_code": 71,
+          "weather_label": "❄️ 降雪 (小雪)",
+          "precipitation_mm": 0.5
+        },
+        {
+          "date": "11/08(日)",
+          "temp_max": -0.0,
+          "temp_min": -13.6,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/09(月)",
+          "temp_max": 3.4,
+          "temp_min": -7.4,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        }
+      ],
+      "alert": "厳寒・凍結警戒",
+      "alert_badge": "🟠 凍結警戒",
+      "alert_class": "orange",
+      "alert_desc": "気温-12.7℃。路面凍結・交通遅延に注意"
+    },
+    "timestamp": "11/07 22:22 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -630,7 +736,7 @@
         "details": "定期運行中"
       }
     ],
-    "timestamp": "11/07 21:20 JST"
+    "timestamp": "11/07 22:22 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 15:25:23",
+  "timestamp": "2026-11-07 16:00:08",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -62,11 +62,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-07 22:48",
-    "place": "福島県沖",
-    "magnitude": "3.6",
+    "time": "2026-11-08 00:42",
+    "place": "岩手県沖",
+    "magnitude": "4.1",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-08 00:42",
+        "place": "岩手県沖",
+        "shindo": "1",
+        "magnitude": "4.1",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-07 22:48",
         "place": "福島県沖",
@@ -129,13 +136,6 @@
         "shindo": "1",
         "magnitude": "3.1",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-06 22:04",
-        "place": "北海道北西沖",
-        "shindo": "2",
-        "magnitude": "3.3",
-        "maxScale": 20
       }
     ]
   },
@@ -167,13 +167,13 @@
           "波浪警報"
         ],
         "notices": [
-          "大雪注意報",
           "着雪注意報",
-          "波浪注意報",
+          "大雪注意報",
           "強風注意報",
-          "風雪注意報"
+          "風雪注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪警報、大雪注意報、着雪注意報、波浪注意報、強風注意報、風雪注意報",
+        "summary": "波浪警報、着雪注意報、大雪注意報、強風注意報、風雪注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -187,10 +187,10 @@
           "暴風警報"
         ],
         "notices": [
-          "強風注意報",
-          "着雪注意報"
+          "着雪注意報",
+          "強風注意報"
         ],
-        "summary": "波浪警報、暴風警報、強風注意報、着雪注意報",
+        "summary": "波浪警報、暴風警報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -204,10 +204,10 @@
           "暴風警報"
         ],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "波浪警報、暴風警報、強風注意報、波浪注意報",
+        "summary": "波浪警報、暴風警報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -222,10 +222,10 @@
         ],
         "notices": [
           "着雪注意報",
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪警報、暴風警報、着雪注意報、波浪注意報、強風注意報",
+        "summary": "波浪警報、暴風警報、着雪注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -419,11 +419,19 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 16,
+    "disaster_count": 17,
     "articles": [
       {
+        "title": "【関東も雪】今季最強寒気　大雪の北日本で車のトラブル続出　スリップ事故で死者も(テレビ朝日系（ANN）)",
+        "summary": "季節がグッと進みそうです。暦の上で「立冬」の7日、今シーズン最強の寒気が襲来。関東でも雪が降りました。北日本では吹雪となっている場所もあり、この先も交通障害に注意が必要です。（サタデーステーション11",
+        "pub_date": "11/08 00:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/fac98db9e52f1fa48a839dc50e6483d907f002f8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "西武池袋線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "00:01頃、江古田駅で発生した人身事故の影響で、西武池袋線は池袋～練馬駅間の運転を見合わせています。",
+        "summary": "00:01頃、江古田駅で発生した人身事故の影響で、西武池袋線は池袋～所沢駅間の運転を見合わせています。",
         "pub_date": "11/08 00:10 JST",
         "link": "https://news.yahoo.co.jp/articles/4555b06f27afff0bea58a67a1bd6db5974a3ffec?source=rss",
         "category": "国内・気象防災",
@@ -532,17 +540,9 @@
         "link": "https://news.yahoo.co.jp/articles/7f771fa1f099309243a7d6162fe0fb115524fa05?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "7日は北海道や東北で記録的な暴風　8日朝まで台風並みの暴風やふぶく恐れ(日本気象協会tenki.jp)",
-        "summary": "今日7日は発達する低気圧の影響で、北海道や東北では記録的な暴風となった所があります。7日夜から8日朝にかけても北海道や東北は台風並みの暴風が吹き荒れる恐れがあります。また、北海道を中心に雪を伴う所があ",
-        "pub_date": "11/07 18:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/183a493fdf0b855131e63367f180bb7084c810cd?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 00:25:07 JST"
+    "last_updated": "2026-11-08 00:59:49 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",

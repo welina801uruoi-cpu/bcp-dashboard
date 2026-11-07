@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 02:34:37",
+  "timestamp": "2026-11-07 03:27:28",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -216,10 +216,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -230,10 +230,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -270,10 +270,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -322,24 +322,25 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 中央線、横須賀線、総武線）",
+    "text": "運行支障あり（在来線: 横須賀線、総武線 ／ 新幹線: 東海道新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（中央線、横須賀線、総武線）",
-    "shinkansen_status": "NORMAL",
-    "shinkansen_text": "全線平常運行中",
+    "line_text": "運行支障あり（横須賀線、総武線）",
+    "shinkansen_status": "ALERT",
+    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [
-      "中央線",
       "横須賀線",
       "総武線"
     ],
-    "troubled_shinkansen": [],
+    "troubled_shinkansen": [
+      "東海道新幹線（列車遅延）"
+    ],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "現在､事故･遅延に関する情報はありません。",
+        "status": "ALERT",
+        "state": "列車遅延",
+        "detail": "品川駅での安全確認の影響で、下り線(新大阪方面行)の一部列車に遅れが出ています。（11月7日 11時40分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       },
       {
@@ -400,7 +401,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東京電力PG: 【停電発生中】東京・千葉で停電情報を検知",
+    "power_msg": "東京電力PG: 【停電発生中】千葉・栃木で停電情報を検知",
     "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東京ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -440,7 +441,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/07 02:05",
@@ -486,42 +487,42 @@
       "trend": "UP",
       "trend_label": "📈 上昇傾向 (投稿急増・要警戒)",
       "trend_class": "red",
-      "summary": "直近1時間で 22 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
+      "summary": "直近1時間で 31 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
       "recent_posts": [
         {
-          "time": "11/07 02:30",
-          "text": "西日本の128信用金庫で大規模なシステム START 障害 END -ATM・ネットバンキングが利用できず、共同センターの START 通信障害 END が影響..."
+          "time": "11/07 03:26",
+          "text": "もうＮＴＴドコモまでサイバー攻撃で START 通信障害 END になったり情報漏洩になったら全部の企業が狙われてそうなる事は避けられない。"
         },
         {
-          "time": "11/07 02:30",
-          "text": "テザリング不調は、親スマホの START 通信 END から確認。 Wi-Fiを切り、モバイル START 通信 END でネットを開く。 使えなければ回線・契..."
+          "time": "11/07 03:26",
+          "text": "ドコモ START 通信障害 END でこれ（本人はドコモじゃない模様） https://t.co/Q3qcQbXp5V"
         },
         {
-          "time": "11/07 02:28",
-          "text": "大きめの地震が起きた時に、備蓄していないものがあると不安になりませんか👀 強風や大雪、停電や START 通信障害 END などで物流がストップしたときに、今の..."
+          "time": "11/07 03:23",
+          "text": "@makoti_m ありがとうございます～ こないだ START 通信障害 END で全く使えなくなったんで迷い中です…"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E9%80%9A%E4%BF%A1%20%E9%9A%9C%E5%AE%B3"
     },
     {
       "keyword": "新幹線 遅延",
-      "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 10 件です。",
+      "status": "ALERT",
+      "trend": "UP",
+      "trend_label": "📈 上昇傾向 (投稿急増・要警戒)",
+      "trend_class": "red",
+      "summary": "直近1時間で 24 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
       "recent_posts": [
         {
-          "time": "11/07 02:30",
-          "text": "START 新幹線 END が最初から START 遅延 END してる… 動いたと思ったら緊急停止 雲行きが、怪しい💦"
+          "time": "11/07 03:25",
+          "text": "@ZERO_TAKAholo 7分発のに乗る予定だったのに超 START 遅延 END してるせいで未だに START 新幹線 END 乗れてないっすね…🫠 か..."
         },
         {
-          "time": "11/07 02:28",
-          "text": "悪天候で電車 START 遅延 END して START 新幹線 END どう考えても間に合わなかったので20分後のに変更 同行者を一人で東京に行かすのは心苦し..."
+          "time": "11/07 03:24",
+          "text": "11月7日12時22分 配信 山形 START 新幹線 END ：『 START 遅延 END 』 山形 START 新幹線 END 「つばさ１３１号」は、踏切..."
         },
         {
-          "time": "11/07 02:24",
-          "text": "行ってきます！ そして START 新幹線 END が START 遅延 END 中 https://t.co/gHAnhZgjAF"
+          "time": "11/07 03:15",
+          "text": "START 新幹線遅延 END なく無事に着きましたー 4時間あっという間でした🚅古川さん故郷に着き感激です🥹さくらはフカフカでしたが30分しか乗ってない。のぞ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E6%96%B0%E5%B9%B9%E7%B7%9A%20%E9%81%85%E5%BB%B6"
@@ -545,8 +546,56 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 2,
+    "disaster_count": 7,
     "articles": [
+      {
+        "title": "“泊原発で重大事故”想定 国と自治体の防災訓練に高市総理・閣僚参加(テレビ朝日系（ANN）)",
+        "summary": "北海道電力の泊原発で、重大事故が起きたと想定した国の原子力総合防災訓練が行われました。 訓練は北海道西方沖を震源とする震度7の地震によって、泊原発3号機の原子炉を冷却する機能が失われ重大事故が発生した",
+        "pub_date": "11/07 12:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/c14a3b58065974a2915f11ce3be946e84a8cd7ac?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "JR内房線はあす全線で運転再開へ　台風25号の被害から復旧(テレビ朝日系（ANN）)",
+        "summary": "台風25号の影響で現在も一部区間で運転を見合わせているJR内房線が8日、全線で運転を再開します。利用者「助かりますね。電車ないと厳しいので」「助かります。行動範囲が広がります」 千葉県を走るJR内房線",
+        "pub_date": "11/07 12:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/aaf475464ccd6b25170f83accbfcdb8a2a383124?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "4人が死傷した陸自戦車暴発事故　砲身内に残留した砲弾カスが原因か(テレビ朝日系（ANN）)",
+        "summary": "陸上自衛隊の戦車内で訓練中に砲弾が暴発し隊員4人が死傷した事故で、人為的なミスではなく砲身内に残った弾のカスが事故原因とみられることが分かりました。 今年4月、大分県の日出生台演習場で射撃訓練を実施し",
+        "pub_date": "11/07 12:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/24234bbe8688bc1a0bd9d57a964559c02ee50afa?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "なぜ?自動車盗が急減…中東情勢が“盗難車ルート”直撃か…専門家は“リバウンド”を警戒(FNNプライムオンライン)",
+        "summary": "全国ワーストの被害が続いていた愛知県の自動車盗が、いま急減しています。その背景として浮かび上がってきたのは、遠く離れた中東で続く混乱でした。ホルムズ海峡の封鎖で盗難車の流通ルートに異変が起きる一方、専",
+        "pub_date": "11/07 12:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/518c822a9424b043e9555cf9d26e0dc7b4c85199?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【台風情報】“台風のたまご”熱帯低気圧の進路予想　7日午後9時には小笠原近海で「台風」に発達する見込み　「台風32号」が発生すれば、1994年以来32年ぶり　12日午前9時までの予報(FNNプライムオンライン)",
+        "summary": "気象庁によりますと、熱帯低気圧は7日午前9時現在、マリアナ諸島にあって、1時間におよそ35キロの速さで西北西へ進んでいます。中心気圧は1006hPa、中心付近の最大風速は15m/s、最大瞬間風速は23",
+        "pub_date": "11/07 11:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/34241d02f5ea835c38ddeef36e88328299268a99?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【台風情報】今後12時間以内に台風へ...台風のたまご「熱帯低気圧a」...最大瞬間風速50m/s・中心気圧975hPa予想...今後の進路、日本への影響は?雨と風のシミュレーション【気象庁7日10時15分発表】(RSK山陽放送)",
+        "summary": "■新たな台風発生へ気象庁によりますと、熱帯低気圧aは、12時間以内に台風へ発達する見込みです。マリアナ諸島を時速35kmの速さで西北西へ進んでいます。【画像でみる】17日にかけての雨と風のシミュレーシ",
+        "pub_date": "11/07 11:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/ee3924dfc9de15deb6ec2b3fb98ea5ccebb6afe5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "Mattに「性的被害」文春がLINEで追撃、食い違う双方の主張…「不同意性交」の立証が極めて困難なワケ(弁護士JPニュース)",
         "summary": "タレントのMatt（32＝本名・桑田将司）に“性的トラブル”が報じられ、騒然となっている。10月28日に「週刊文春電子版」が配信したもので、週刊文春によれば、Mattから性的被害を受けたと主張する3人",
@@ -556,119 +605,71 @@
         "is_disaster": true
       },
       {
-        "title": "「犯人と母親」が車炎上で壮絶な焼死…09年「島根女子大生バラバラ殺人」と事件発覚直後の「交通事故」　7年後に結びついても残った“根本的な謎”(デイリー新潮)",
-        "summary": "第1回【紅葉残る山に女性の頭部や手足のない胴体…09年「島根女子大生バラバラ殺人事件」 捜査本部が注目した「刃物売り場・レンタル店・書店」】を読む【写真】夫は病死、“代役”はバラバラ遺体…「身替り保険",
-        "pub_date": "11/07 09:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/81697281b8f39e49a467825b7f83e44205805ee1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本市動植物園のキンシコウ「ヨウヨウ」死ぬ　中国高地に生息する絶滅危惧種のサル(テレビ朝日系（ANN）)",
-        "summary": "熊本市動植物園は、6日にキンシコウの「ヨウヨウ」が死んだと発表しました。 キンシコウは、中国の高地に暮らすオナガザル科の仲間で、絶滅危惧種に指定されています。 「ヨウヨウ」は2004年に生まれた国内最",
-        "pub_date": "11/07 11:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/dec0d8749c186914313b649f398b2d55052df26f?source=rss",
+        "title": "刃物で刺された男性死亡 74歳男を逮捕　同じアパートの住人同士か　北海道(テレビ朝日系（ANN）)",
+        "summary": "北海道室蘭市のアパートで、男性を刃物で刺し殺害しようとしたとして74歳の男が逮捕されました。 逮捕されたのは室蘭市高砂町の無職・在田実容疑者です。 警察によりますと、在田容疑者は6日午後8時半ごろ、自",
+        "pub_date": "11/07 12:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/fd82e8210c4981eb03135133c6ef277171821609?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ミュージシャン「JESSE」逮捕 コカイン使用疑い(ABEMA TIMES)",
-        "summary": "「JESSE」として活動している、ミュージシャンのマック・ファーデン・ジェシー・ソラト容疑者がコカインを使用した疑いで逮捕されました。【映像】ミュージシャン「JESSE」 コカイン使用疑いで逮捕 ミュ",
-        "pub_date": "11/07 11:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/19d40ec657bc092f010d8490f0058ae293d31cda?source=rss",
+        "title": "日中政府、遠い雪解け  「台湾有事」高市首相答弁1年　強硬姿勢に支持高く「改善に数年も」(西日本新聞me)",
+        "summary": "高市早苗首相の台湾有事を巡る国会答弁から7日で1年となる。中国の習近平政権は今も強硬な態度を崩さず、日中両国の政府間の対話は、ほぼ断絶している。中国側は輸出制限や渡航自粛で圧力をかけ、経済や民間交流に",
+        "pub_date": "11/07 12:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/e7bdf5574ba45fab396594d896fd8ad4f567f308?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "炊飯器でパスタを作る!? Z世代でコンロキャンセル界隈急拡大…専門家が指南するほったらかしレシピと“しない方がいい”料理(ABEMA TIMES)",
-        "summary": "Z世代を中心に、自宅のキッチンに備え付けられているコンロを使用しない、あるいはコンロのない住宅を選択する“コンロキャンセル界隈”が急拡大している。その背景には、料理の利便性を高める調理家電の進化やタイ",
-        "pub_date": "11/07 11:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/46b44020bcb1e7beb009fa637f08d333ea7e662d?source=rss",
+        "title": "札幌市で積雪10センチ　7日は北海道の都市部で積雪　8日朝まで大雪に注意(日本気象協会tenki.jp)",
+        "summary": "7日は強い寒気の影響で、北海道は都市部でも本格的な積雪となっています。午前11時までの最深積雪は札幌市10センチ、旭川市9センチなどとなっています。8日の朝にかけて日本海側を中心に大雪となる所があるで",
+        "pub_date": "11/07 12:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/d8bc1a1c59efdcf7b1cb6120610be7b508b4f605?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "日野菜を使った「食べるラー油」　おにぎり太郎さん、ホテル料理長と共同開発(日本農業新聞)",
-        "summary": "おにぎりを通じて米の魅力を世界に発信する料理人「おにぎり太郎」さんが、ホテルの料理長と共同開発した、伝統野菜の日野菜を使った「食べるラー油」が注目を集めている。ホテルの朝食提供を通じて、日野菜の認知度",
-        "pub_date": "11/07 11:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/7a10a908255f1eca8ea7fa4dbd74b8192180bb1f?source=rss",
+        "title": "限定のシナモンロールが人気！　「北欧フェア」に雑貨やグルメが集結　阪神梅田本店　(ABCニュース)",
+        "summary": "北欧のグルメや雑貨を集めたイベントが、大阪梅田の百貨店で開催されています。 阪神梅田本店で開かれている「北欧フェア」には、期間中約５０店舗が出店しています。【岩本計介ニュースの現場から】「飛行場でも作",
+        "pub_date": "11/07 12:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/a3a0d0369a05abbcc3f6e40cbfe50dcd807ec9db?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "北日本は冬の嵐　あす8日(日)にかけて雪を伴う暴風・高波に警戒　晴れる所も北風の冷たい一日に(ウェザーマップ)",
-        "summary": "立冬のきょう7日(土)は、北日本の日本海側を中心に冬の嵐となっています。北海道の日本海側北部ではあす8日(日)明け方にかけて、東北の日本海側では今夜にかけて、雪を伴う暴風に警戒が必要です。北日本と北陸",
-        "pub_date": "11/07 11:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/e58bac949bb1f40faaaaf242bce604d52096789b?source=rss",
+        "title": "埼玉で「ねんりんピック」開幕　60万人参加、30種目で交流(共同通信)",
+        "summary": "全国の高齢者がスポーツや文化活動で交流する第38回全国健康福祉祭埼玉大会（ねんりんピック彩の国さいたま2026）が7日、埼玉県熊谷市の熊谷スポーツ文化公園陸上競技場で開幕した。60歳以上の選手を中心と",
+        "pub_date": "11/07 12:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/ab7d93c8e2b47d0c6b4ef8b414a604e693fc4d92?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "劇団ひとりさん、寿司屋の「時価」に疑問「あとで『100万円』と言われたら？」法律上問題ないのか(弁護士ドットコムニュース)",
-        "summary": "「あとで『はい！100万円でした』って言われたら払わなきゃいけないの？」お笑いタレントの劇団ひとりさんが、11月3日深夜放送のTBS「令和に足りないテレビ」で、寿司屋の「時価」に疑問を投げかけた。【写",
-        "pub_date": "11/07 11:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/d1ca21224cb0505fe9ce12ae4259f4e925d7d539?source=rss",
+        "title": "「普通に生活ができない」バーベキューに花火、深夜の騒音…　人気上昇中の淡路島の住宅街で民泊トラブル　注意喚起の看板を“のこぎりで切り刻む”業者も　県は規制強化へ(FNNプライムオンライン)",
+        "summary": "近年社会問題となっているのが民泊をめぐるトラブル。いま、問題となっているのが関西のリゾート地・淡路島だ。■【動画で見る】バーベキューに花火、深夜の騒音…淡路島の民泊で“トラブル続出”の実態兵庫県の民泊",
+        "pub_date": "11/07 12:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/837400cb0714fb8ac97b10d2f4cd8c3ace93fc2d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "コカイン使用容疑JESSE逮捕　ギタリストCharさんの息子(共同通信)",
-        "summary": "警視庁は7日までに、コカインを使用したとして麻薬取締法違反（使用）の疑いで、「JESSE」の名前で音楽活動をしているマック・ファーデン・ジェシー・ソラト容疑者（46）を逮捕した。捜査関係者への取材で分",
-        "pub_date": "11/07 11:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/b7d37f7615e0671800168ffb5c6cd02168cf132c?source=rss",
+        "title": "オリーブオイルはオレイン酸が豊富なのでダイエットにも便秘にもいい・・テレビ番組で紹介される間違いだらけの健康法(デイリー新潮)",
+        "summary": "健康に良いとされることが、実は身体に悪い。誰もがにわかには信じがたいと思うことだろう。だが、巷に溢れている健康情報の大本となった研究データが、日本人に基づいたものではないと知ったら……。今までの常識が",
+        "pub_date": "11/07 12:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/d4052e6bf94b8880a60f0ae752993ac014534f3b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "犯罪ジャーナリスト・小川泰平氏に訊く！「抗がん剤治療はストップ！」医師も止めた激しい副作用の全貌(FRIDAY)",
-        "summary": "「私は、風邪を30数年引いていませんでした。コロナワクチンを打っても副反応が出ない。だから『俺、身体強いんだよ』って豪語してたんですよ。ちょっと弱ってるなと思ったら、『ラーメンにニンニク入れて食べたら",
-        "pub_date": "11/07 11:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/8a63f72744107a1d894768823c15e71f98954397?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "慶喜に｢卑怯者になります｣と浴びせてクビに…来年の大河ドラマ主人公･小栗忠順がたどった\"悲劇的な最期\"(プレジデントオンライン)",
-        "summary": "幕末の幕臣・小栗忠順はどんな最期を迎えたのか。歴史エッセイストの堀江宏樹さんは「小栗が領地の上州・権田村へ移住すると、『家康の埋蔵金を持ち出して隠しており、反乱の拠点を作っている』と悪意ある情報が資金",
-        "pub_date": "11/07 11:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/5c1d3084698146c0479d8fb835252e4bd653386a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "将門塚で下半身露出した容疑で男性を書類送検　石碑にしがみつく様子もネット配信(テレビ朝日系（ANN）)",
-        "summary": "平安時代の武将・平将門を供養する「将門塚」の前で、下半身を露出するなどしたとして、礼拝所不敬などの疑いで30代の男性が書類送検されました。 男性は8月、ネット上で「将門塚」の石碑にしがみつく様子を配信",
-        "pub_date": "11/07 11:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/01f5158d616cd7d7d8b8f4154f1fe7b6a1077722?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "高市総理“台湾有事”答弁1年 中国「誤りを正さず誠意もない」(ABEMA TIMES)",
-        "summary": "中国外務省は、高市総理大臣の台湾有事に関する答弁から1年経ったことについて問われ、「日本は誤りを正さず、誠意や行動もない」と高市政権を批判しました。【映像】高市政権を批判する中国外務省中国外務省・郭嘉",
-        "pub_date": "11/07 11:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/7634b133a3f5bb847d987dd7e8680c9421fb8f0f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「ほぼ無人島」なのに、なぜかキレイに整備されたトイレが…“わずか4人”が生活している「九州のナゾの島」で見た意外な光景(文春オンライン)",
-        "summary": "宮崎県串間市の沖合、わずか200メートルに浮かぶ「築島（つきしま）」。住民は実質4人で、地元・宮崎の人でさえ「そんげな島あったっけ?」と首をかしげる“ナゾの島”だ。本土とを結ぶ定期船はなく、島内には商",
-        "pub_date": "11/07 11:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/9bb077cb5d91984670ddb973d71a2b62151c063c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "ミュージシャン「JESSE」逮捕　コカイン使用疑い　警視庁(テレビ朝日系（ANN）)",
-        "summary": "「JESSE」として活動している、ミュージシャンのマック・ファーデン・ジェシー・ソラト容疑者（46）がコカインを使用した疑いで逮捕されました。 ミュージシャンのマック・ファーデン・ジェシー・ソラト容疑",
-        "pub_date": "11/07 11:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/52f23b4fbd000172fa0f8f8fd52eab6a2931c42c?source=rss",
+        "title": "茨城で漁船が座礁、2人心肺停止　目撃者が110番(共同通信)",
+        "summary": "7日午前8時50分ごろ、茨城県北茨城市中郷町足洗の海岸で、船から2人が投げ出されたと、目撃した男性から110番があった。茨城海上保安部や県警によると、小型漁船1隻が座礁しており、乗組員3人のうち、男性",
+        "pub_date": "11/07 11:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/436beafb7e8fc2e1520b6c69d6805745d68231e3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-07 11:34:21 JST"
+    "last_updated": "2026-11-07 12:27:15 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -711,10 +712,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "1OMMDGFfvJY",
+        "video_id": "1HgTBW2g-mc",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/1OMMDGFfvJY?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=1OMMDGFfvJY"
+        "embed_url": "https://www.youtube.com/embed/1HgTBW2g-mc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=1HgTBW2g-mc"
       },
       {
         "id": "stream_annnews",
@@ -733,10 +734,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "hUKqWqKi-RA",
+        "video_id": "pd7yEKoooME",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/hUKqWqKi-RA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=hUKqWqKi-RA"
+        "embed_url": "https://www.youtube.com/embed/pd7yEKoooME?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=pd7yEKoooME"
       }
     ],
     "cameras": [

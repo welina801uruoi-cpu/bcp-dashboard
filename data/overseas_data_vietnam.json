@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 07:30:08",
-  "timestamp_local": "2026-11-08 05:30:08",
+  "timestamp": "2026-11-08 08:02:09",
+  "timestamp_local": "2026-11-08 06:02:09",
   "country": {
     "id": "vietnam",
     "name": "ベトナム",
@@ -289,7 +289,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
+    "count_24h": 12,
     "summary": "M4.7 (43 km ESE of Ambon, Indonesia)",
     "latest": {
       "mag": 4.7,
@@ -395,19 +395,18 @@
         "depth_km": 103.682,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twqw",
         "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "11 km ENE of Yigo Village, Guam",
-        "time": "11/07 07:37 JST",
-        "depth_km": 113.394,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twqm",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "サウジ首都攻撃とフーシ派　イエメンでは32人死亡(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/97456a2d6dc35a10eeb647a52c576bb93b7c30b6?source=rss",
+        "description": "【カイロ共同】イエメンの親イラン武装組織フーシ派は7日、サウジアラビアの首都リヤドにある国際空港や、サウジ国有石油会社サウジアラムコの施設などを攻撃したとする声明を出した。被害の有無は不明。フーシ派メ",
+        "pub_date": "11/08 07:28 JST",
+        "is_priority": true
+      },
       {
         "title": "私は2億5000万円で、幽霊屋敷「リジー・ボーデン邸」を購入した。その中で見たのは、幽霊よりも恐ろしいものだった（海外）(BUSINESS INSIDER JAPAN)",
         "link": "https://news.yahoo.co.jp/articles/b2e2fb786ba788577fc3cd3efd838f4f36ac36d0?source=rss",
@@ -540,13 +539,6 @@
         "description": "【キーウ共同】ウクライナのゼレンスキー大統領は7日、ロシアが6日夜から7日朝にかけてウクライナの主要なエネルギー施設を攻撃した際に北朝鮮製の短距離弾道ミサイル「KN23」を使用した可能性があると明らか",
         "pub_date": "11/07 23:30 JST",
         "is_priority": true
-      },
-      {
-        "title": "マカオ司法警察局が東南アジア系海外労働者対象の防犯キャンペーン展開(マカオ新聞)",
-        "link": "https://news.yahoo.co.jp/articles/1b74a02b2e7458248c32e29e8ff246a360b3054f?source=rss",
-        "description": "マカオでは、「外僱」と呼ばれる海外（中国本土・香港・台湾を含む）からの労働者が多く就労しており、その数は今年（2026年）9月時点で18万人超に達している。 マカオの総人口は約68.9万人で、海外労働",
-        "pub_date": "11/07 22:50 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -645,7 +637,7 @@
     "default_channel_id": "stream_vtv_live"
   },
   "forex": {
-    "timestamp": "11/08 07:30 JST",
+    "timestamp": "11/08 08:02 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -708,16 +700,61 @@
   "weather": {
     "cities": [
       {
+        "name": "ハノイ (首都)",
+        "name_en": "Hanoi",
+        "is_capital": true,
+        "lat": 21.0285,
+        "lon": 105.8542,
+        "temp": 22.3,
+        "apparent_temp": 26.0,
+        "humidity": 96,
+        "wind_speed": 6.6,
+        "wind_gusts": 12.6,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 28.1,
+            "temp_min": 21.9,
+            "weather_code": 82,
+            "weather_label": "⛈️ 激しいにわか雨",
+            "precipitation_mm": 30.4
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 21.8,
+            "temp_min": 16.0,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 19.3
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 21.8,
+            "temp_min": 16.9,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      },
+      {
         "name": "ダナン (中部主要港湾)",
         "name_en": "Da Nang",
         "is_capital": false,
         "lat": 16.0544,
         "lon": 108.2022,
         "temp": 25.4,
-        "apparent_temp": 31.0,
-        "humidity": 90,
+        "apparent_temp": 31.1,
+        "humidity": 92,
         "wind_speed": 2.2,
-        "wind_gusts": 4.7,
+        "wind_gusts": 5.0,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -754,51 +791,51 @@
       }
     ],
     "capital": {
-      "name": "ダナン (中部主要港湾)",
-      "name_en": "Da Nang",
-      "is_capital": false,
-      "lat": 16.0544,
-      "lon": 108.2022,
-      "temp": 25.4,
-      "apparent_temp": 31.0,
-      "humidity": 90,
-      "wind_speed": 2.2,
-      "wind_gusts": 4.7,
-      "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "name": "ハノイ (首都)",
+      "name_en": "Hanoi",
+      "is_capital": true,
+      "lat": 21.0285,
+      "lon": 105.8542,
+      "temp": 22.3,
+      "apparent_temp": 26.0,
+      "humidity": 96,
+      "wind_speed": 6.6,
+      "wind_gusts": 12.6,
+      "precipitation": 0.1,
+      "weather_code": 51,
+      "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 29.6,
-          "temp_min": 25.3,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 2.4
+          "temp_max": 28.1,
+          "temp_min": 21.9,
+          "weather_code": 82,
+          "weather_label": "⛈️ 激しいにわか雨",
+          "precipitation_mm": 30.4
         },
         {
           "date": "11/09(月)",
-          "temp_max": 25.8,
-          "temp_min": 22.7,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 85.1
+          "temp_max": 21.8,
+          "temp_min": 16.0,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 19.3
         },
         {
           "date": "11/10(火)",
-          "temp_max": 25.2,
-          "temp_min": 23.4,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 57.5
+          "temp_max": 21.8,
+          "temp_min": 16.9,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/08 07:30 JST"
+    "timestamp": "11/08 08:02 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -827,7 +864,7 @@
         "details": "南北統一鉄道各便平常運行中"
       }
     ],
-    "timestamp": "11/08 07:30 JST"
+    "timestamp": "11/08 08:02 JST"
   },
   "lifeline": {
     "status": "NORMAL",

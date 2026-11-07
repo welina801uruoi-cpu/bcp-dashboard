@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 03:00:07",
-  "timestamp_local": "2026-11-08 00:30:07",
+  "timestamp": "2026-11-08 03:28:40",
+  "timestamp_local": "2026-11-08 00:58:40",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -621,7 +621,7 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/08 03:00 JST",
+    "timestamp": "11/08 03:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -659,11 +659,20 @@
       "departures_url": "http://www.yangonairport.aero/",
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
-      "weather": {},
+      "weather": {
+        "raw": "METAR VYYY 071800Z 04003KT 6000 SCT015 FEW020CB SCT110 27/26 Q1013 NOSIG",
+        "wind": "3kt",
+        "wind_speed": 3,
+        "wind_gust": 0,
+        "visibility": "3.73マイル",
+        "temp": 27,
+        "fltcat": "VFR",
+        "report_time": "2026-11-07T18:00:00.000Z"
+      },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "定常運航中（現在重大な気象警報なし）"
+      "status_desc": "視程良好（3.73マイル）、風速安定（3kt）。順調に運航中"
     }
   ],
   "weather": {
@@ -675,10 +684,10 @@
         "lat": 16.8661,
         "lon": 96.1951,
         "temp": 24.9,
-        "apparent_temp": 30.3,
+        "apparent_temp": 30.2,
         "humidity": 96,
-        "wind_speed": 5.9,
-        "wind_gusts": 10.8,
+        "wind_speed": 6.1,
+        "wind_gusts": 11.5,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -722,7 +731,7 @@
         "temp": 23.9,
         "apparent_temp": 29.1,
         "humidity": 98,
-        "wind_speed": 4.4,
+        "wind_speed": 4.0,
         "wind_gusts": 7.6,
         "precipitation": 0.0,
         "weather_code": 0,
@@ -765,8 +774,8 @@
         "lat": 21.9588,
         "lon": 96.0891,
         "temp": 26.6,
-        "apparent_temp": 32.1,
-        "humidity": 83,
+        "apparent_temp": 32.0,
+        "humidity": 82,
         "wind_speed": 2.1,
         "wind_gusts": 6.8,
         "precipitation": 0.0,
@@ -813,7 +822,7 @@
       "temp": 23.9,
       "apparent_temp": 29.1,
       "humidity": 98,
-      "wind_speed": 4.4,
+      "wind_speed": 4.0,
       "wind_gusts": 7.6,
       "precipitation": 0.0,
       "weather_code": 0,
@@ -849,7 +858,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 03:00 JST"
+    "timestamp": "11/08 03:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -878,7 +887,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/08 03:00 JST"
+    "timestamp": "11/08 03:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

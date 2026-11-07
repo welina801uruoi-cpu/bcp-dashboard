@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 03:01:16",
-  "timestamp_local": "2026-11-07 19:01:16",
+  "timestamp": "2026-11-08 03:29:59",
+  "timestamp_local": "2026-11-07 19:29:59",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -724,7 +724,7 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/08 03:01 JST",
+    "timestamp": "11/08 03:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -822,18 +822,18 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 9.9,
-        "apparent_temp": 8.8,
+        "temp": 10.1,
+        "apparent_temp": 9.0,
         "humidity": 76,
-        "wind_speed": 0.7,
-        "wind_gusts": 3.2,
+        "wind_speed": 1.4,
+        "wind_gusts": 3.6,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/07(土)",
-            "temp_max": 10.8,
+            "temp_max": 10.9,
             "temp_min": 6.8,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -862,69 +862,24 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
-        "name": "マンチェスター (中部)",
-        "name_en": "Manchester",
-        "is_capital": false,
-        "lat": 53.4808,
-        "lon": -2.2426,
-        "temp": 9.9,
-        "apparent_temp": 8.4,
-        "humidity": 81,
-        "wind_speed": 5.0,
-        "wind_gusts": 11.5,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/07(土)",
-            "temp_max": 10.9,
-            "temp_min": 8.0,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/08(日)",
-            "temp_max": 10.3,
-            "temp_min": 6.9,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.1
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 10.3,
-            "temp_min": 5.0,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "エディンバラ (スコットランド)",
         "name_en": "Edinburgh",
         "is_capital": false,
         "lat": 55.9533,
         "lon": -3.1883,
-        "temp": 9.3,
-        "apparent_temp": 7.2,
-        "humidity": 92,
-        "wind_speed": 11.2,
-        "wind_gusts": 25.2,
+        "temp": 9.4,
+        "apparent_temp": 7.3,
+        "humidity": 91,
+        "wind_speed": 10.4,
+        "wind_gusts": 23.0,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/07(土)",
-            "temp_max": 10.5,
-            "temp_min": 7.7,
+            "temp_max": 10.4,
+            "temp_min": 8.0,
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
             "precipitation_mm": 1.1
@@ -958,18 +913,18 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 9.9,
-      "apparent_temp": 8.8,
+      "temp": 10.1,
+      "apparent_temp": 9.0,
       "humidity": 76,
-      "wind_speed": 0.7,
-      "wind_gusts": 3.2,
+      "wind_speed": 1.4,
+      "wind_gusts": 3.6,
       "precipitation": 0.0,
       "weather_code": 2,
       "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 10.8,
+          "temp_max": 10.9,
           "temp_min": 6.8,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
@@ -997,18 +952,26 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 03:01 JST"
+    "timestamp": "11/08 03:29 JST"
   },
   "transit": {
     "status": "CAUTION",
     "status_code": "warning",
     "status_badge": "🟠 大幅遅延・運行注意",
-    "status_text": "⚠️ Lioness線: 大幅遅延・一部運休",
+    "status_text": "⚠️ Bakerloo線: 大幅遅延・一部運休",
     "overall_status": "大幅遅延・一部運休",
     "strike": false,
     "monitored_systems_count": 4,
-    "alert_lines_count": 2,
+    "alert_lines_count": 3,
     "alert_lines": [
+      {
+        "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
+        "line": "Bakerloo",
+        "mode": "tube",
+        "status": "Severe Delays",
+        "badge": "🟠 警戒",
+        "reason": "Bakerloo Line: No service between Lambeth North and Elephant & Castle while we fix a points failure at Elephant & Castle"
+      },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
         "line": "Lioness",
@@ -1043,10 +1006,10 @@
           {
             "name": "Bakerloo",
             "mode": "tube",
-            "status_raw": "Minor Delays",
-            "badge": "🟡 注意",
-            "code": "minor",
-            "reason": "Bakerloo Line: Minor delays due to infrastructure damage at Harlesden.  "
+            "status_raw": "Severe Delays",
+            "badge": "🟠 警戒",
+            "code": "warning",
+            "reason": "Bakerloo Line: No service between Lambeth North and Elephant & Castle while we fix a points failure at Elephant & Castle"
           },
           {
             "name": "Central",
@@ -1091,10 +1054,10 @@
           {
             "name": "Hammersmith & City",
             "mode": "tube",
-            "status_raw": "Good Service",
-            "badge": "🟢 平常",
-            "code": "normal",
-            "reason": ""
+            "status_raw": "Minor Delays",
+            "badge": "🟡 注意",
+            "code": "minor",
+            "reason": "Hammersmith and City Line: Minor delays due to train cancellations. "
           },
           {
             "name": "Jubilee",
@@ -1246,7 +1209,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/08 03:01 JST"
+    "timestamp": "11/08 03:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

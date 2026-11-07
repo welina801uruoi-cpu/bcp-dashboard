@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 17:59:17",
+  "timestamp": "2026-11-07 18:27:47",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -151,7 +151,7 @@
   },
   "weather": {
     "status": "ALERT",
-    "summary": "【警報発表: 4地域】道央（波浪警報）、道南（波浪警報、暴風警報）、道北（波浪警報、暴風警報）、道東（波浪警報、暴風警報）",
+    "summary": "【警報発表: 4地域】道央（波浪警報）、道南（暴風警報、波浪警報）、道北（暴風警報、波浪警報）、道東（暴風警報、波浪警報）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 4,
     "notice_count": 0,
@@ -167,13 +167,13 @@
           "波浪警報"
         ],
         "notices": [
-          "大雪注意報",
+          "波浪注意報",
           "強風注意報",
           "風雪注意報",
-          "波浪注意報",
+          "大雪注意報",
           "着雪注意報"
         ],
-        "summary": "波浪警報、大雪注意報、強風注意報、風雪注意報、波浪注意報、着雪注意報",
+        "summary": "波浪警報、波浪注意報、強風注意報、風雪注意報、大雪注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -183,14 +183,14 @@
         "status": "ALERT",
         "emg_warns": [],
         "warns": [
-          "波浪警報",
-          "暴風警報"
+          "暴風警報",
+          "波浪警報"
         ],
         "notices": [
-          "強風注意報",
-          "着雪注意報"
+          "着雪注意報",
+          "強風注意報"
         ],
-        "summary": "波浪警報、暴風警報、強風注意報、着雪注意報",
+        "summary": "暴風警報、波浪警報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -200,14 +200,14 @@
         "status": "ALERT",
         "emg_warns": [],
         "warns": [
-          "波浪警報",
-          "暴風警報"
+          "暴風警報",
+          "波浪警報"
         ],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "波浪警報、暴風警報、強風注意報、波浪注意報",
+        "summary": "暴風警報、波浪警報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -217,15 +217,15 @@
         "status": "ALERT",
         "emg_warns": [],
         "warns": [
-          "波浪警報",
-          "暴風警報"
+          "暴風警報",
+          "波浪警報"
         ],
         "notices": [
-          "強風注意報",
           "波浪注意報",
-          "着雪注意報"
+          "着雪注意報",
+          "強風注意報"
         ],
-        "summary": "波浪警報、暴風警報、強風注意報、波浪注意報、着雪注意報",
+        "summary": "暴風警報、波浪警報、波浪注意報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -357,8 +357,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/07 18:03",
+          "text": "WiFiが START 繋がらない END まま5時間近く経った... いい加減回線変えようと思って調べてるけどなにがいいかわからん ゲーム出来て安くてマンショ..."
+        },
         {
           "time": "11/07 13:09",
           "text": "私の家は START au END 圏外になるし、水害を経験した時にはソフトバンクが1番繋がらなかった経験あり。仕事場は START au END とソフトバン..."
@@ -366,10 +370,6 @@
         {
           "time": "11/07 12:10",
           "text": "@sui_FL5 ドコモ→盤石。コスパならahamo ソフバン、 START au END も安パイ。 楽天→安いよ。データ通信無制限だし、 ただ人が多いとこは..."
-        },
-        {
-          "time": "11/07 11:33",
-          "text": "START au END ひかり START 繋がらない END んだけど… なんなんこれ"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -417,8 +417,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 31,
+    "disaster_count": 34,
     "articles": [
+      {
+        "title": "【静岡県内の情報】寝台特急「サンライズ出雲」も影響　新幹線、在来線は確認中(テレビ朝日系（ANN）)",
+        "summary": "8日午前1時すぎ、静岡県西部を震源とした強い地震がありました。県内では浜松・浜名区で最大震度5弱を観測しています。この地震による津波の心配はありません。 気象庁によりますと、地震の震源の深さはおよそ4",
+        "pub_date": "11/08 03:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/1cbc86b79c50d89f18ba3fa25eb767333efa2f8b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知県西部で震度5強　各地の被害状況【11月8日午前3時5分現在】(テレビ愛知)",
+        "summary": "2026年11月8日午前1時4分ごろ、愛知県西部で震度5強を観測する地震がありました。県内各地の被害状況のまとめです。常滑市消防本部によると、50代女性が避難しようとして、自宅の階段で転倒し、右足首を",
+        "pub_date": "11/08 03:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/2c36dec603d85709178edf488cb4b5cb3896b538?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【愛知で震度5強】静岡県内の被害情報　ベッドから転落などで負傷か(テレビ朝日系（ANN）)",
+        "summary": "消防によりますと、静岡県袋井市で90代女性がベッドから転落し右肩を負傷し救急要請があったということです。 ほかにも磐田市で50代の女性がめまいや頭痛を訴え、掛川市でも30代の女性が地震に驚き肩を負傷し",
+        "pub_date": "11/08 02:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/128666cd02c5cdee75909591a8c272d8c341c529?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "【愛知で震度5強】転倒や避難する際に飛び降りけが(テレビ朝日系（ANN）)",
         "summary": "豊田市消防本部によりますと、地震の影響で43歳男性と88歳女性が転倒、いずれも頭を打ち病院に搬送されましたが軽傷だということです。 また、常滑市によりますと、50代女性が避難している途中に転倒し、右足",
@@ -476,7 +500,7 @@
         "is_disaster": true
       },
       {
-        "title": "【地震情報まとめ・随時更新】愛知県で最大震度5強の強い地震 けが人も 被害･交通情報の詳細(CBCテレビ)",
+        "title": "【地震情報まとめ・随時更新】愛知県で最大震度5強の強い地震 けが人も 被害･交通情報の詳細 LIVE配信(CBCテレビ)",
         "summary": "きょう午前1時4分ごろ、愛知県知多市で震度5強の揺れを観測する地震がありました。この地震による津波の心配はありません。【画像】愛知県で最大震度5強 詳しい震度を見る気象庁によりますと、震源地は静岡県西",
         "pub_date": "11/08 01:49 JST",
         "link": "https://news.yahoo.co.jp/articles/fd288a0d3b312cd54e6d42d7ecc8952561004b9f?source=rss",
@@ -509,38 +533,14 @@
       },
       {
         "title": "【地震情報】愛知県で最大震度5強の強い地震　愛知・知多市(CBCテレビ)",
-        "summary": "■愛知で最大震度5強を観測8日午前1時4分ごろ、愛知県で最大震度5強を観測する強い地震がありました。気象庁によりますと、震源地は静岡県西部で、震源の深さはおよそ40km、地震の規模を示すマグニチュード",
+        "summary": "■愛知で最大震度5強を観測8日午前1時4分ごろ、愛知県で最大震度5強を観測する強い地震がありました。【写真を見る】【地震情報】愛知県で最大震度5強の強い地震 愛知・知多市気象庁によりますと、震源地は静",
         "pub_date": "11/08 01:22 JST",
         "link": "https://news.yahoo.co.jp/articles/559a2415d15cfef6c39ce11049a770e23904448b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "愛知県で震度5強の地震　震源地は静岡県西部　マグニチュード 5.7と推定(産経新聞)",
-        "summary": "11月8日午前1時4分ごろ、愛知県で震度5強の地震があった。気象庁によると、震源地は静岡県西部、震源の深さは約40km。地震の規模はマグニチュード（M）5.7と推定される。各地域の震度情報は以下の通り",
-        "pub_date": "11/08 01:19 JST",
-        "link": "https://news.yahoo.co.jp/articles/5807fe6a2bc4a292355e2f896f97570bb35cb82f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【速報】愛知県西部で震度5強の地震　滋賀県や京都府南部でも震度3、震源は静岡県西部(京都新聞)",
-        "summary": "気象庁によると、8日午前1時4分ごろ、愛知県西部で震度5強を観測する地震があった。震源は静岡県西部、震源の深さは約40キロ、地震の規模はマグニチュード（M）5・7と推定される。津波の心配はない。【画像",
-        "pub_date": "11/08 01:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/6c160a06255b4a376b8a384a108c825abd1e07a6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "マグニチュード5.7、津波の心配なし(共同通信)",
-        "summary": "気象庁によると、愛知県西部で震度5強を観測した地震の規模を示すマグニチュードは5.7と推定される。この地震による津波の心配はない。",
-        "pub_date": "11/08 01:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/dac97afd33370c92914b71867f77f7a904d03e2b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 02:59:02 JST"
+    "last_updated": "2026-11-08 03:27:32 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -572,10 +572,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "jZrVlGLQWiU",
+        "video_id": "_NJVHhfOats",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/jZrVlGLQWiU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=jZrVlGLQWiU"
+        "embed_url": "https://www.youtube.com/embed/_NJVHhfOats?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=_NJVHhfOats"
       },
       {
         "id": "stream_ntvnews",
@@ -605,10 +605,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "hUKqWqKi-RA",
+        "video_id": "BLZFyqOiyiA",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/hUKqWqKi-RA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=hUKqWqKi-RA"
+        "embed_url": "https://www.youtube.com/embed/BLZFyqOiyiA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=BLZFyqOiyiA"
       }
     ],
     "cameras": [

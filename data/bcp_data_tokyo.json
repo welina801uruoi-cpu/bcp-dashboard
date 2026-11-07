@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 21:28:05",
+  "timestamp": "2026-11-07 21:59:49",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -313,13 +313,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（新幹線: 東海道新幹線（列車遅延））",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "text": "運行支障あり（在来線: 中央総武線 ／ 新幹線: 東海道新幹線（列車遅延））",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（中央総武線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "中央総武線"
+    ],
     "troubled_shinkansen": [
       "東海道新幹線（列車遅延）"
     ],
@@ -429,7 +431,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/07 21:26",
@@ -534,8 +536,40 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 45,
+    "disaster_count": 43,
     "articles": [
+      {
+        "title": "【名鉄】空港線も運転見合わせで中部空港まで電車では行けず　他の交通機関の検討を呼びかけ(メ〜テレ（名古屋テレビ）)",
+        "summary": "8日未明、東海地方で震度5強の地震が発生した影響で、名鉄は、安全確認のため点検作業を行っています。 このため、全線にわたり運転見合わせや運休、遅延が発生していて、一部線区では本数を減らして運行をしてい",
+        "pub_date": "11/08 06:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/aba8df1832f1109e273df7c3b9d0a654ba735ba5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【地震情報】ガラスが粉々に割れて散乱 少なくとも21人ケガ 愛知･知多市で震度5強 大量の本が崩れ落ちた書店も(CBCテレビ)",
+        "summary": "きょう午前1時4分ごろ、愛知県で最大震度5強を観測した地震で、愛知県内で少なくとも21人がけがをしました。【画像】散乱した本 粉々になった店舗のガラス震度4を観測した愛知県豊橋市。外国車販売店では、シ",
+        "pub_date": "11/08 06:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/2017c6d6520a21127fcdfc6adbf171eb5f743eea?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "事故相次ぎ3人死亡　雪や路面の凍結が原因か　北海道(テレビ朝日系（ANN）)",
+        "summary": "北海道では雪や路面の凍結が原因とみられるスリップ事故などが相次ぎ、合わせて3人が死亡しました。 7日午前7時ごろ、北海道洞爺湖町の国道でワンボックスカーが道路脇に転落しました。 乗っていた男性4人が病",
+        "pub_date": "11/08 06:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/e0a27f7bd27e576c38f53476c5d6abf285383745?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知で最大震度5強　20人以上がけが(テレビ朝日系（ANN）)",
+        "summary": "8日未明、愛知県で最大震度5強の地震があり、愛知県や静岡県でけが人が出ています。 午前1時4分ごろ、愛知県知多市で震度5強を観測する地震がありました。 常滑市によりますと、50代の女性が避難している途",
+        "pub_date": "11/08 06:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/75d273c01671a72b2af75e61e628021b229c762c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "【地震情報】棚から本が崩れ落ち床一面に散乱… 愛知･知多市で震度5強 東海道新幹線は始発から遅れ JR在来線は一部で始発から運転見合わせ(CBCテレビ)",
         "summary": "きょう午前1時4分ごろ、愛知県知多市で最大震度5強を観測した地震で、愛知県内で少なくとも13人がけがをしました。【画像】散乱した本 粉々になったショーウィンドウのガラスこの地震で交通への影響も広がって",
@@ -623,41 +657,9 @@
         "link": "https://news.yahoo.co.jp/articles/81f13d1c14add8d2738837028861cd91021c679a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "愛知で最大震度5強 「南海トラフ巨大地震」との関連は? 安全な場所で就寝を 震源は静岡県西部 なぜ愛知･知多市で5強?専門家に聞く(CBCテレビ)",
-        "summary": "午前1時4分ごろ、静岡県西部を震源とするマグニチュード5.7の地震がありました。この地震で、愛知県知多市で震度5強。愛知県瀬戸市、半田市、刈谷市、豊田市、新城市、東海市、みよし市、東郷町、岐阜県恵那市",
-        "pub_date": "11/08 04:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/2c10159bf591b467869ab138b2347f1f53d4f8b0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "最大震度5強の地震の影響…東海地方のJR在来線 一部区間で始発から運転見合わせの可能性【8日午前4時半時点】(東海テレビ)",
-        "summary": "8日未明、愛知県で最大震度5強を観測した地震の影響で、JRの在来線は一部区間で8日の始発から運転を見合わせる可能性があります。▼東海道線 豊橋駅～名古屋駅 午前9時 運転再開見込み▼中央線 中津川駅～",
-        "pub_date": "11/08 04:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/67cad6431cca3eab010bad870667660cc77eedfb?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "愛知県で震度5強の観測は1997年3月以来約30年ぶり　少なくとも14人がけが（午前4時30分時点）(メ〜テレ（名古屋テレビ）)",
-        "summary": "8日未明、東海地方で最大震度5強の地震がありました。この地震による津波の心配はありません。愛知県で震度5強を観測するのは1997年3月以来、約30年ぶりです。 愛知県内では少なくとも10人がけがをして",
-        "pub_date": "11/08 04:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/4e62e6ec86ef730c90ab1e68547871f514aa4a03?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "気象庁「1週間、震度5強程度に警戒を」(共同通信)",
-        "summary": "気象庁は8日、愛知県で震度5強を観測した地震について記者会見を開き、今後1週間ほど、特に2、3日の間は最大震度5強程度の地震に注意するよう呼びかけた。",
-        "pub_date": "11/08 03:55 JST",
-        "link": "https://news.yahoo.co.jp/articles/008241c2a2bae4faf4709598ed418b28db389d68?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 06:27:50 JST"
+    "last_updated": "2026-11-08 06:59:31 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

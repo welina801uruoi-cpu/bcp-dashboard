@@ -137,7 +137,8 @@ def collect_domestic_data(quick_mode=False):
     """国内主要エリアの災害データを収集・保存"""
     print("\n[2/4] 国内災害データを収集開始...")
     locations = ["all", "tokyo", "osaka"] if quick_mode else TARGET_LOCATIONS
-    default_keywords = ["au 障害", "KDDI 障害", "通信 障害", "新幹線 遅延"]
+    # ユーザー設定キーワードと完全一致 (au / KDDI / povo 障害)
+    default_keywords = ["au 障害", "KDDI 障害", "au 繋がらない", "povo 障害"]
 
     success_count = 0
     for loc_key in locations:

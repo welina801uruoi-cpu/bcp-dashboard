@@ -1481,13 +1481,316 @@
                 color: #000 !important;
             }
         }
+
+        /* =========================================================
+           #1 参集基準アラート & #2 参集ルート検索 スタイル
+           ========================================================= */
+        .assembly-bar {
+            width: 100%;
+            background: linear-gradient(90deg, #091224 0%, #0d1e3d 50%, #091224 100%);
+            border-bottom: 2px solid #1e3a8a;
+            padding: 8px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+            position: relative;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+
+        /* 参集基準発令時: 緊急ハザードモード (赤×黄ストライプ＆強烈パルス) */
+        .assembly-bar.assembly-status-alert {
+            background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 30%, #450a0a 70%, #991b1b 100%) !important;
+            border-bottom: 3px solid #ef4444 !important;
+            animation: assembly-hazard-pulse 2s infinite ease-in-out;
+        }
+
+        @keyframes assembly-hazard-pulse {
+            0%, 100% {
+                box-shadow: 0 0 25px rgba(239, 68, 68, 0.8), inset 0 0 15px rgba(245, 158, 11, 0.4);
+            }
+            50% {
+                box-shadow: 0 0 45px rgba(239, 68, 68, 1.0), inset 0 0 30px rgba(245, 158, 11, 0.8);
+            }
+        }
+
+        .assembly-bar-content {
+            width: 100%;
+            max-width: 1800px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .assembly-status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+
+        .assembly-pulse-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #10b981;
+            box-shadow: 0 0 10px #10b981;
+            transition: all 0.3s;
+        }
+
+        .assembly-status-alert .assembly-pulse-dot {
+            background: #f59e0b !important;
+            box-shadow: 0 0 15px #f59e0b, 0 0 30px #ef4444 !important;
+            animation: assembly-dot-blink 0.8s infinite alternate;
+        }
+
+        @keyframes assembly-dot-blink {
+            0% { transform: scale(1.0); opacity: 0.6; }
+            100% { transform: scale(1.4); opacity: 1.0; }
+        }
+
+        .assembly-badge {
+            font-size: 0.82em;
+            font-weight: 800;
+            padding: 4px 10px;
+            border-radius: 6px;
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.4);
+            letter-spacing: 0.05em;
+        }
+
+        .assembly-status-alert .assembly-badge {
+            background: #ef4444 !important;
+            color: #fff !important;
+            border: 1px solid #fecaca !important;
+            font-size: 0.95em !important;
+            padding: 5px 14px !important;
+            animation: assembly-badge-shake 3s infinite;
+        }
+
+        @keyframes assembly-badge-shake {
+            0%, 90%, 100% { transform: none; }
+            92% { transform: translateX(-3px); }
+            94% { transform: translateX(3px); }
+            96% { transform: translateX(-3px); }
+            98% { transform: translateX(3px); }
+        }
+
+        .assembly-message {
+            flex: 1;
+            font-size: 0.88em;
+            color: #e2e8f0;
+            line-height: 1.4;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .assembly-status-alert .assembly-message {
+            color: #fff !important;
+            font-size: 1.02em !important;
+            font-weight: 800 !important;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+        }
+
+        .assembly-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-shrink: 0;
+        }
+
+        .btn-assembly-route {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: #fff;
+            border: 1.5px solid #60a5fa;
+            border-radius: 6px;
+            padding: 5px 12px;
+            font-size: 0.82em;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.2s ease;
+        }
+
+        .btn-assembly-route:hover {
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.5);
+        }
+
+        .assembly-status-alert .btn-assembly-route {
+            background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+            color: #000 !important;
+            border-color: #fde68a !important;
+            font-weight: 900 !important;
+            font-size: 0.9em !important;
+            padding: 6px 14px !important;
+            box-shadow: 0 0 15px rgba(245, 158, 11, 0.8) !important;
+        }
+
+        .btn-assembly-sim {
+            background: rgba(255, 255, 255, 0.08);
+            color: #94a3b8;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 6px;
+            padding: 5px 10px;
+            font-size: 0.78em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-assembly-sim:hover {
+            background: rgba(255, 255, 255, 0.18);
+            color: #fff;
+        }
+
+        /* 参集ルートモーダル内のレイアウト */
+        .assembly-modal-grid {
+            display: grid;
+            grid-template-columns: 340px 1fr;
+            gap: 16px;
+        }
+
+        @media (max-width: 992px) {
+            .assembly-modal-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .kddi-building-card {
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            padding: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-bottom: 10px;
+        }
+
+        .kddi-building-card:hover {
+            border-color: #3b82f6;
+            background: rgba(59, 130, 246, 0.05);
+        }
+
+        .kddi-building-card.active {
+            border-color: #60a5fa;
+            background: rgba(37, 99, 235, 0.18);
+            box-shadow: 0 0 16px rgba(59, 130, 246, 0.35);
+        }
+
+        .kddi-building-name {
+            font-weight: 800;
+            font-size: 1.05em;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .kddi-building-meta {
+            font-size: 0.8em;
+            color: var(--text-muted);
+            margin-top: 4px;
+            line-height: 1.4;
+        }
+
+        .transit-compare-card {
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-color);
+            border-radius: 10px;
+            padding: 14px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .transit-compare-card.recommended {
+            border-color: #10b981;
+            background: linear-gradient(145deg, rgba(16, 185, 129, 0.12) 0%, rgba(15, 23, 42, 0.6) 100%);
+            box-shadow: 0 0 20px rgba(16, 185, 129, 0.25);
+        }
+
+        .transit-badge-rec {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: #10b981;
+            color: #000;
+            font-weight: 900;
+            font-size: 0.72em;
+            padding: 3px 10px;
+            border-bottom-left-radius: 8px;
+            letter-spacing: 0.05em;
+        }
+
+        .hazard-check-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 8px 10px;
+            border-radius: 6px;
+            background: var(--bg-card-sub);
+            margin-bottom: 6px;
+            font-size: 0.85em;
+        }
+
+        .hazard-check-item.danger {
+            background: rgba(239, 68, 68, 0.12);
+            border-left: 3px solid #ef4444;
+        }
+
+        .hazard-check-item.safe {
+            background: rgba(16, 185, 129, 0.08);
+            border-left: 3px solid #10b981;
+        }
+
+        .hazard-check-item.warning {
+            background: rgba(245, 158, 11, 0.1);
+            border-left: 3px solid #f59e0b;
+        }
+    </style>
+
     </style>
     <!-- YouTube IFrame API -->
     <script src="https://www.youtube.com/iframe_api"></script>
+    <!-- Leaflet.js (参集ルート地図用) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
 
     <div class="cockpit-viewport">
+        <!-- #1 参集基準アラートバナー (画面最上部) -->
+        <div id="assembly-alert-bar" class="assembly-bar assembly-status-normal">
+            <div class="assembly-bar-content">
+                <div class="assembly-status-indicator">
+                    <span class="assembly-pulse-dot" id="assembly-pulse-dot"></span>
+                    <span id="assembly-badge" class="assembly-badge">参集基準: 平常監視中</span>
+                </div>
+                <div class="assembly-message" id="assembly-message-text">
+                    <span>🛡️ 現在、参集基準（一都三県 震度6弱以上 / 全国 震度7 / 富士山 噴火レベル4以上）には達していません（平常態勢）</span>
+                </div>
+                <div class="assembly-actions">
+                    <button class="btn-assembly-route" onclick="openAssemblyRouteModal()">
+                        🧭 KDDI拠点 参集ルート・危険確認 ↗
+                    </button>
+                    <button class="btn-assembly-sim" onclick="toggleAssemblySimMode()" id="btn-assembly-sim" title="訓練・検証用シミュレーショントグル">
+                        🧪 訓練発令テスト
+                    </button>
+                </div>
+            </div>
+        </div>
+
         <!-- 1. ヘッダー -->
         <header class="header">
             <div class="header-left">
@@ -1893,6 +2196,203 @@
     <!-- =========================================================
          4. 詳細モーダル (各指標クリック・「詳細 ↗」で展開)
          ========================================================= -->
+    
+    <!-- =========================================================
+         #2 参集ルート検索・危険確認 モーダル
+         ========================================================= -->
+    <div id="assembly-route-modal" class="modal-overlay" style="display:none;" onclick="closeAssemblyRouteModalOnBackdrop(event)">
+        <div class="modal-container" style="max-width: 1280px; width: 94%; height: 92vh; display: flex; flex-direction: column;">
+            <div class="modal-header">
+                <div class="modal-title-area">
+                    <span class="modal-title-icon">🧭</span>
+                    <span class="modal-title-text" style="font-size:1.2em;">KDDI重要拠点 参集ルート検索 ＆ 経路危険診断</span>
+                    <span style="font-size:0.75em; padding:3px 8px; border-radius:4px; background:#1e3a8a; color:#93c5fd; margin-left:8px;">BCP非常時参集支援</span>
+                </div>
+                <button class="modal-close-btn" onclick="closeAssemblyRouteModal()">✕ 閉じる (ESC)</button>
+            </div>
+
+            <div class="modal-body" style="padding: 16px; overflow-y: auto; flex: 1;">
+                <!-- 1. 出発地設定 & 参集拠点選択バー -->
+                <div style="background:var(--bg-card-sub); border:1.5px solid var(--border-color); border-radius:10px; padding:12px 16px; margin-bottom:16px;">
+                    <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px;">
+                        <div style="display:flex; align-items:center; gap:8px; flex:1; min-width:280px;">
+                            <span style="font-weight:800; color:var(--text-accent);">📍 出発地:</span>
+                            <input type="text" id="route-start-input" value="新宿駅" placeholder="駅名・住所・目印を入力"
+                                   style="flex:1; padding:7px 12px; background:var(--bg-card); border:1px solid var(--border-color); border-radius:6px; color:var(--text-primary); font-weight:700;"
+                                   onchange="onStartLocationChange()">
+                            <button class="btn-tool" onclick="getGPSLocation()" title="ブラウザのGPSから現在地を自動取得" style="padding:6px 12px;">
+                                🛰️ GPS現在地
+                            </button>
+                        </div>
+                        <!-- クイック出発地プリセット -->
+                        <div style="display:flex; align-items:center; gap:5px; flex-wrap:wrap;">
+                            <span style="font-size:0.8em; color:var(--text-muted);">候補:</span>
+                            <button class="btn-tool" style="padding:4px 8px; font-size:0.78em;" onclick="setStartPreset('新宿駅')">新宿</button>
+                            <button class="btn-tool" style="padding:4px 8px; font-size:0.78em;" onclick="setStartPreset('渋谷駅')">渋谷</button>
+                            <button class="btn-tool" style="padding:4px 8px; font-size:0.78em;" onclick="setStartPreset('品川駅')">品川</button>
+                            <button class="btn-tool" style="padding:4px 8px; font-size:0.78em;" onclick="setStartPreset('東京駅')">東京</button>
+                            <button class="btn-tool" style="padding:4px 8px; font-size:0.78em;" onclick="setStartPreset('横浜駅')">横浜</button>
+                            <button class="btn-tool" style="padding:4px 8px; font-size:0.78em;" onclick="setStartPreset('川崎駅')">川崎</button>
+                            <button class="btn-tool" style="padding:4px 8px; font-size:0.78em;" onclick="setStartPreset('立川駅')">立川</button>
+                            <button class="btn-tool" style="padding:4px 8px; font-size:0.78em;" onclick="setStartPreset('町田駅')">町田</button>
+                            <button class="btn-tool" style="padding:4px 8px; font-size:0.78em;" onclick="setStartPreset('八王子駅')">八王子</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. メイングリッド: 左側: KDDI4大拠点選択 / 右側: ルート解析＆提案＆マップ -->
+                <div class="assembly-modal-grid">
+                    <!-- 左カラム: KDDI 4大重要拠点リスト -->
+                    <div>
+                        <div style="font-weight:800; color:var(--text-accent); margin-bottom:8px; display:flex; align-items:center; justify-content:space-between;">
+                            <span>🏢 参集指定拠点 (4大重要拠点)</span>
+                            <span style="font-size:0.8em; color:var(--text-muted);">選択して切替</span>
+                        </div>
+
+                        <!-- 拠点 1: 高輪ビル -->
+                        <div class="kddi-building-card active" id="card-bldg-takanawa" onclick="selectKDDIBuilding('takanawa')">
+                            <div class="kddi-building-name">
+                                <span>KDDI 高輪ビル</span>
+                                <span style="font-size:0.75em; padding:2px 6px; border-radius:4px; background:#1e3a8a; color:#93c5fd;">重要通信拠点</span>
+                            </div>
+                            <div class="kddi-building-meta">
+                                📍 東京都港区高輪3-19-20<br>
+                                🚇 品川駅(高輪口) 徒歩6分 / 泉岳寺駅 徒歩7分<br>
+                                🎯 ネットワーク運用・重要インフラ設備
+                            </div>
+                        </div>
+
+                        <!-- 拠点 2: 新宿ビル -->
+                        <div class="kddi-building-card" id="card-bldg-shinjuku" onclick="selectKDDIBuilding('shinjuku')">
+                            <div class="kddi-building-name">
+                                <span>KDDI 新宿ビル</span>
+                                <span style="font-size:0.75em; padding:2px 6px; border-radius:4px; background:#1e3a8a; color:#93c5fd;">主要DC・運用</span>
+                            </div>
+                            <div class="kddi-building-meta">
+                                📍 東京都新宿区西新宿2-3-2<br>
+                                🚇 都庁前駅 徒歩3分 / 新宿駅(西口) 徒歩6分<br>
+                                🎯 重要データセンター・副対策本部
+                            </div>
+                        </div>
+
+                        <!-- 拠点 3: 多摩センター -->
+                        <div class="kddi-building-card" id="card-bldg-tama" onclick="selectKDDIBuilding('tama')">
+                            <div class="kddi-building-name">
+                                <span>KDDI 多摩センター</span>
+                                <span style="font-size:0.75em; padding:2px 6px; border-radius:4px; background:#1e3a8a; color:#93c5fd;">多摩NWセンター</span>
+                            </div>
+                            <div class="kddi-building-meta">
+                                📍 東京都多摩市鶴牧3-5-1<br>
+                                🚇 多摩センター駅 (小田急/京王/モノレール) 徒歩8分<br>
+                                🎯 郊外自律分散拠点・大規模研修運用
+                            </div>
+                        </div>
+
+                        <!-- 拠点 4: ガーデンエアータワー -->
+                        <div class="kddi-building-card" id="card-bldg-gat" onclick="selectKDDIBuilding('gat')">
+                            <div class="kddi-building-name">
+                                <span>KDDI ガーデンエアータワー</span>
+                                <span style="font-size:0.75em; padding:2px 6px; border-radius:4px; background:#b91c1c; color:#fecaca;">中央災害対策本部</span>
+                            </div>
+                            <div class="kddi-building-meta">
+                                📍 東京都千代田区飯田橋3-10-10<br>
+                                🚇 飯田橋駅(東口) 徒歩5分 / 水道橋駅 徒歩4分<br>
+                                🎯 本社機能・非常時全社統括司令室
+                            </div>
+                        </div>
+
+                        <!-- 外部リンク補助 -->
+                        <div style="margin-top:12px; display:flex; flex-direction:column; gap:6px;">
+                            <a id="btn-open-google-maps" href="https://maps.google.com" target="_blank" class="btn-tool" style="text-align:center; padding:8px; text-decoration:none; color:#fff; background:#1d4ed8; justify-content:center;">
+                                🗺️ Googleマップでルートナビ起動 ↗
+                            </a>
+                            <a href="https://map.bosai.metro.tokyo.lg.jp/" target="_blank" class="btn-tool" style="text-align:center; padding:6px; text-decoration:none; color:var(--text-muted); font-size:0.8em; justify-content:center;">
+                                🔰 東京都 防災マップ（避難所・帰宅困難支援）↗
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 右カラム: 提案サマリー & 4手段比較 & 危険診断 & 地図 -->
+                    <div>
+                        <!-- AI安全＆最速提案サマリー -->
+                        <div id="route-recommendation-box" style="background:linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(30, 58, 138, 0.25) 100%); border:2px solid #10b981; border-radius:10px; padding:14px 18px; margin-bottom:14px;">
+                            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;">
+                                <span style="font-size:0.85em; font-weight:800; color:#34d399; letter-spacing:0.05em;">★ 総合安全診断 ＆ 最適参集手段のご提案</span>
+                                <span id="route-dist-label" style="font-weight:800; color:#93c5fd; font-size:0.95em;">推定距離: -- km</span>
+                            </div>
+                            <div id="route-recommend-text" style="font-size:1.15em; font-weight:900; color:#fff; line-height:1.4;">
+                                解析中...
+                            </div>
+                            <div id="route-recommend-detail" style="font-size:0.88em; color:#cbd5e1; margin-top:6px; line-height:1.5;">
+                                --
+                            </div>
+                        </div>
+
+                        <!-- 4大移動手段カード比較グリッド -->
+                        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:10px; margin-bottom:14px;">
+                            <!-- 1. 鉄道 -->
+                            <div class="transit-compare-card" id="card-mode-train">
+                                <div style="display:flex; justify-content:space-between; align-items:center;">
+                                    <span style="font-weight:800; font-size:1.0em;">🚇 公共交通 (鉄道)</span>
+                                </div>
+                                <div style="font-size:1.25em; font-weight:900;" id="time-mode-train">--分</div>
+                                <div style="font-size:0.75em; color:var(--text-muted);" id="status-mode-train">運行情報照合中...</div>
+                            </div>
+
+                            <!-- 2. 徒歩 -->
+                            <div class="transit-compare-card" id="card-mode-walk">
+                                <div style="display:flex; justify-content:space-between; align-items:center;">
+                                    <span style="font-weight:800; font-size:1.0em;">🚶 徒歩</span>
+                                </div>
+                                <div style="font-size:1.25em; font-weight:900; color:#38bdf8;" id="time-mode-walk">--分</div>
+                                <div style="font-size:0.75em; color:var(--text-muted);" id="status-mode-walk">時速4km換算・寸断耐性高</div>
+                            </div>
+
+                            <!-- 3. 自転車 -->
+                            <div class="transit-compare-card recommended" id="card-mode-bicycle">
+                                <span class="transit-badge-rec">安全＆最速推奨</span>
+                                <div style="display:flex; justify-content:space-between; align-items:center;">
+                                    <span style="font-weight:800; font-size:1.0em;">🚲 自転車</span>
+                                </div>
+                                <div style="font-size:1.25em; font-weight:900; color:#34d399;" id="time-mode-bicycle">--分</div>
+                                <div style="font-size:0.75em; color:var(--text-muted);" id="status-mode-bicycle">時速13km換算・高機動性</div>
+                            </div>
+
+                            <!-- 4. バイク -->
+                            <div class="transit-compare-card" id="card-mode-bike">
+                                <div style="display:flex; justify-content:space-between; align-items:center;">
+                                    <span style="font-weight:800; font-size:1.0em;">🛵 バイク</span>
+                                </div>
+                                <div style="font-size:1.25em; font-weight:900; color:#fbbf24;" id="time-mode-bike">--分</div>
+                                <div style="font-size:0.75em; color:var(--text-muted);" id="status-mode-bike">時速22km換算・緊急交通路規制留意</div>
+                            </div>
+                        </div>
+
+                        <!-- 経路ハザード・途中の危険確認チェックリスト -->
+                        <div style="background:var(--bg-card); border:1.5px solid var(--border-color); border-radius:10px; padding:12px 16px; margin-bottom:14px;">
+                            <div style="font-weight:800; color:var(--text-accent); font-size:0.95em; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+                                <span>⚠️ 参集ルート上の危険・ハザード確認チェック</span>
+                                <span style="font-size:0.75em; color:var(--text-muted);">（地形・河川・延焼・インフラ総合判定）</span>
+                            </div>
+                            <div id="route-hazards-list">
+                                <!-- JSで動的生成 -->
+                            </div>
+                        </div>
+
+                        <!-- 参集マップ (Leaflet) -->
+                        <div style="background:var(--bg-card); border:1.5px solid var(--border-color); border-radius:10px; padding:10px;">
+                            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;">
+                                <span style="font-size:0.85em; font-weight:800; color:var(--text-muted);">🗺️ 参集ルートマップ（出発地 → KDDI拠点）</span>
+                                <span style="font-size:0.75em; color:#38bdf8;" id="map-route-summary">地図表示中</span>
+                            </div>
+                            <div id="assembly-map" style="width:100%; height:260px; border-radius:6px; background:#0b1329;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="indicator-detail-modal" class="modal-overlay" style="display:none;" onclick="closeModalOnBackdrop(event)">
         <div class="modal-container">
             <div class="modal-header">
@@ -2369,6 +2869,9 @@
                 // 12大指標の3段階ステータス評価 & カード反映
                 renderAllIndicators(data);
 
+                // 参集基準アラート自動評価 (#1)
+                evaluateAssemblyAlert(data);
+
                 // 右側メディア（天気概況）反映
                 renderWeatherOverview(data);
 
@@ -2548,8 +3051,9 @@
             const telText = telLevel === 'ALERT' ? '大手キャリアにて通信障害発生検知' : 'au・docomo・SB・楽天 全社正常稼働中';
             updateCardStatus('telecom', telLevel, telText, '4社ネットワーク稼働監視');
 
-            // 11. 口コミ監視
-            const voices = data.sns_voices || [];
+            // 11. 口コミ監視 (設定キーワード watchedKeywords のみを厳格に対象とする)
+            const targetKeywordsSet = new Set(watchedKeywords);
+            const voices = (data.sns_voices || []).filter(v => targetKeywordsSet.has(v.keyword));
             let snsLevel = 'NORMAL';
             const hasSnsAlert = voices.some(v => v.status === 'ALERT' || v.trend === 'UP');
             if (hasSnsAlert) {
@@ -3010,17 +3514,30 @@
                         </div>
                     `;
 
-                    const voiceCards = voices.map(item => {
+                    // 設定されているキーワード (watchedKeywords) のみ厳格に表示（未設定単語は完全排除）
+                    const targetVoices = watchedKeywords.map(kw => {
+                        const found = (data.sns_voices || []).find(v => v.keyword === kw);
+                        if (found) return found;
+                        return {
+                            keyword: kw,
+                            trend: 'NORMAL',
+                            trend_label: '次回更新で取得',
+                            recent_posts: [],
+                            search_url: `https://search.yahoo.co.jp/realtime/search?p=${encodeURIComponent(kw)}`
+                        };
+                    });
+
+                    const voiceCards = targetVoices.map(item => {
                         const postsHtml = (item.recent_posts || []).map(p => `
                             <div class="sns-post-box">
                                 <span style="color:var(--text-accent); font-weight:800;">[${p.time}]</span> ${p.text}
                             </div>
-                        `).join('') || '<div style="padding:8px; color:var(--text-muted);">直近の関連投稿なし</div>';
+                        `).join('') || '<div style="padding:8px; color:var(--text-muted);">直近の検出投稿なし (平穏)</div>';
 
                         return `
                             <div class="modal-section" style="margin-bottom:10px;">
                                 <div class="modal-section-title">
-                                    <span>「${item.keyword}」トレンド: <strong style="color:${item.trend === 'UP' ? '#ef4444' : '#10b981'};">${item.trend_label || (item.trend === 'UP' ? '急増' : '安定')}</strong></span>
+                                    <span>「${item.keyword}」トレンド: <strong style="color:${item.trend === 'UP' ? '#ef4444' : '#10b981'};">${item.trend_label || (item.trend === 'UP' ? '急増・要警戒' : '安定')}</strong></span>
                                     <a href="${item.search_url || '#'}" target="_blank" class="btn-detail">Yahoo!生画面 ↗</a>
                                 </div>
                                 <div style="background:var(--bg-card-sub); border-radius:6px; max-height:160px; overflow-y:auto;">
@@ -3397,5 +3914,509 @@
         }
 
     </script>
+<script>
+
+        // =========================================================
+        // #1 参集基準アラート & #2 参集ルート検索 ロジック
+        // =========================================================
+        
+        const KDDI_BUILDINGS = {
+            takanawa: {
+                id: 'takanawa',
+                name: 'KDDI 高輪ビル',
+                lat: 35.6315,
+                lon: 139.7380,
+                address: '東京都港区高輪3-19-20',
+                station: 'JR品川駅 (高輪口 徒歩6分) / 泉岳寺駅 徒歩7分',
+                role: '重要通信設備・ネットワーク運用拠点',
+                badge: '重要通信拠点'
+            },
+            shinjuku: {
+                id: 'shinjuku',
+                name: 'KDDI 新宿ビル',
+                lat: 35.6882,
+                lon: 139.6937,
+                address: '東京都新宿区西新宿2-3-2',
+                station: '都営大江戸線 都庁前駅 徒歩3分 / 新宿駅 徒歩6分',
+                role: '主要データセンター・副災害対策本部',
+                badge: '主要DC・運用'
+            },
+            tama: {
+                id: 'tama',
+                name: 'KDDI 多摩センター',
+                lat: 35.6200,
+                lon: 139.4215,
+                address: '東京都多摩市鶴牧3-5-1',
+                station: '多摩センター駅 (小田急/京王/多摩モノレール 徒歩8分)',
+                role: '多摩ネットワークセンター・郊外自律分散拠点',
+                badge: '多摩NWセンター'
+            },
+            gat: {
+                id: 'gat',
+                name: 'KDDI ガーデンエアータワー',
+                lat: 35.7001,
+                lon: 139.7516,
+                address: '東京都千代田区飯田橋3-10-10',
+                station: 'JR・地下鉄 飯田橋駅(東口 徒歩5分) / 水道橋駅 徒歩4分',
+                role: '本社機能・中央災害対策本部 (全社司令塔)',
+                badge: '中央災害対策本部'
+            }
+        };
+
+        const START_PRESETS = {
+            '新宿駅': { lat: 35.6909, lon: 139.7003, name: '新宿駅' },
+            '渋谷駅': { lat: 35.6580, lon: 139.7016, name: '渋谷駅' },
+            '品川駅': { lat: 35.6284, lon: 139.7387, name: '品川駅' },
+            '東京駅': { lat: 35.6812, lon: 139.7671, name: '東京駅' },
+            '横浜駅': { lat: 35.4658, lon: 139.6227, name: '横浜駅' },
+            '川崎駅': { lat: 35.5312, lon: 139.6969, name: '川崎駅' },
+            '立川駅': { lat: 35.6980, lon: 139.4137, name: '立川駅' },
+            '町田駅': { lat: 35.5428, lon: 139.4452, name: '町田駅' },
+            '八王子駅': { lat: 35.6558, lon: 139.3389, name: '八王子駅' }
+        };
+
+        let currentActiveBldgId = 'takanawa';
+        let currentStartCoords = { lat: 35.6909, lon: 139.7003, name: '新宿駅' };
+        let leafletAssemblyMap = null;
+        let leafletRouteLayer = null;
+        let assemblySimMode = 'normal'; // 'normal' | 'alert_shindo6' | 'alert_volcano'
+
+        function evaluateAssemblyAlert(data) {
+            const bar = document.getElementById('assembly-alert-bar');
+            const badge = document.getElementById('assembly-badge');
+            const msg = document.getElementById('assembly-message-text');
+            if (!bar || !badge || !msg) return;
+
+            let isTriggered = false;
+            let triggerReason = '';
+            let triggerDetail = '';
+
+            // 1. シミュレーションモード判定
+            if (assemblySimMode === 'alert_shindo6') {
+                isTriggered = true;
+                triggerReason = '【訓練発令】一都三県 震度6強 検知 (首都直下地震想定)';
+                triggerDetail = '東京23区・多摩東部で震度6強を観測。直ちに事前指定されたKDDI参集拠点への移動・安否報告を行ってください。';
+            } else if (assemblySimMode === 'alert_volcano') {
+                isTriggered = true;
+                triggerReason = '【訓練発令】富士山 噴火警戒レベル4 (避難準備) 発表';
+                triggerDetail = '気象庁より富士山噴火警戒レベル4が発表されました。降灰ハザードおよび交通途絶に留意し参集態勢を確立してください。';
+            } else {
+                // 2. 実データ判定
+                if (data && data.earthquake) {
+                    const eq = data.earthquake;
+                    const maxInt = eq.intensity || '';
+                    const detail = (eq.detail || '') + ' ' + (eq.location || '');
+                    const kantoKeywords = ['東京', '神奈川', '千葉', '埼玉', '23区', '多摩', '横浜', '川崎', 'さいたま', '千葉市'];
+                    const isKanto = kantoKeywords.some(kw => detail.includes(kw) || (data.location && kantoKeywords.some(k => (data.location.region_name || '').includes(k))));
+
+                    const isShindo6WeakPlus = maxInt.includes('6弱') || maxInt.includes('6強') || maxInt.includes('7') || maxInt.includes('6-') || maxInt.includes('6+');
+                    const isShindo7 = maxInt.includes('7');
+
+                    if (isKanto && isShindo6WeakPlus) {
+                        isTriggered = true;
+                        triggerReason = `🚨【緊急参集基準 発令中】一都三県 震度${maxInt} 検知！`;
+                        triggerDetail = `${detail}にて震度${maxInt}を観測しました。BCP第1種参集基準に合致。指定拠点へ直ちに参集を開始してください。`;
+                    } else if (isShindo7) {
+                        isTriggered = true;
+                        triggerReason = `🚨【緊急参集基準 発令中】震度7 極大地震 検知！`;
+                        triggerDetail = `${detail}にて最大震度7を観測。全国BCP非常参集基準に合致。全社統括参集体制へ移行してください。`;
+                    }
+                }
+
+                if (!isTriggered && data && data.volcano) {
+                    const vol = data.volcano;
+                    const vDetail = (vol.detail || '') + ' ' + (vol.status || '') + ' ' + (vol.target || '');
+                    if (vDetail.includes('富士山')) {
+                        const levelMatch = vDetail.match(/レベル([1-5])/);
+                        const lvl = levelMatch ? parseInt(levelMatch[1], 10) : 0;
+                        if (lvl >= 4) {
+                            isTriggered = true;
+                            triggerReason = `🚨【緊急参集基準 発令中】富士山 噴火警戒レベル${lvl} 発表！`;
+                            triggerDetail = `富士山に噴火警戒レベル${lvl}（避難準備・避難）が発令されました。指定拠点へ安全に参集してください。`;
+                        }
+                    }
+                }
+            }
+
+            if (isTriggered) {
+                bar.className = 'assembly-bar assembly-status-alert';
+                badge.innerText = '🚨 非常時参集基準 発令中';
+                msg.innerHTML = `
+                    <div style="display:flex; flex-direction:column; gap:2px;">
+                        <span style="font-size:1.05em; font-weight:900; color:#fde047;">${triggerReason}</span>
+                        <span style="font-size:0.84em; color:#fff; font-weight:600;">${triggerDetail}</span>
+                    </div>
+                `;
+            } else {
+                bar.className = 'assembly-bar assembly-status-normal';
+                badge.innerText = '参集基準: 平常監視中';
+                msg.innerHTML = `<span>🛡️ 現在、参集基準（一都三県 震度6弱以上 / 全国 震度7 / 富士山 噴火レベル4以上）には達していません（平常態勢）</span>`;
+            }
+        }
+
+        function toggleAssemblySimMode() {
+            const btn = document.getElementById('btn-assembly-sim');
+            if (assemblySimMode === 'normal') {
+                assemblySimMode = 'alert_shindo6';
+                if (btn) btn.innerText = '🧪 富士山レベル4へ';
+            } else if (assemblySimMode === 'alert_shindo6') {
+                assemblySimMode = 'alert_volcano';
+                if (btn) btn.innerText = '🧪 通常監視へ戻す';
+            } else {
+                assemblySimMode = 'normal';
+                if (btn) btn.innerText = '🧪 訓練発令テスト';
+            }
+            if (latestDataCache) {
+                evaluateAssemblyAlert(latestDataCache);
+            } else {
+                evaluateAssemblyAlert({});
+            }
+        }
+
+        function openAssemblyRouteModal() {
+            const modal = document.getElementById('assembly-route-modal');
+            if (!modal) return;
+            modal.style.display = 'flex';
+            setTimeout(() => {
+                initOrUpdateAssemblyMap();
+                calculateAndRenderRoute();
+            }, 100);
+        }
+
+        function closeAssemblyRouteModal() {
+            const modal = document.getElementById('assembly-route-modal');
+            if (modal) modal.style.display = 'none';
+        }
+
+        function closeAssemblyRouteModalOnBackdrop(e) {
+            if (e.target && e.target.id === 'assembly-route-modal') {
+                closeAssemblyRouteModal();
+            }
+        }
+
+        function selectKDDIBuilding(bldgId) {
+            currentActiveBldgId = bldgId;
+            document.querySelectorAll('.kddi-building-card').forEach(c => c.classList.remove('active'));
+            const activeCard = document.getElementById(`card-bldg-${bldgId}`);
+            if (activeCard) activeCard.classList.add('active');
+            calculateAndRenderRoute();
+        }
+
+        function setStartPreset(presetName) {
+            const p = START_PRESETS[presetName];
+            if (!p) return;
+            currentStartCoords = { ...p };
+            const input = document.getElementById('route-start-input');
+            if (input) input.value = presetName;
+            calculateAndRenderRoute();
+        }
+
+        function onStartLocationChange() {
+            const input = document.getElementById('route-start-input');
+            const val = (input && input.value.trim()) || '新宿駅';
+            if (START_PRESETS[val]) {
+                currentStartCoords = { ...START_PRESETS[val] };
+            } else {
+                if (val.includes('渋谷')) currentStartCoords = { lat: 35.6580, lon: 139.7016, name: val };
+                else if (val.includes('品川')) currentStartCoords = { lat: 35.6284, lon: 139.7387, name: val };
+                else if (val.includes('東京')) currentStartCoords = { lat: 35.6812, lon: 139.7671, name: val };
+                else if (val.includes('横浜')) currentStartCoords = { lat: 35.4658, lon: 139.6227, name: val };
+                else if (val.includes('川崎')) currentStartCoords = { lat: 35.5312, lon: 139.6969, name: val };
+                else if (val.includes('立川')) currentStartCoords = { lat: 35.6980, lon: 139.4137, name: val };
+                else if (val.includes('多摩')) currentStartCoords = { lat: 35.6250, lon: 139.4200, name: val };
+                else currentStartCoords = { lat: 35.6909, lon: 139.7003, name: val };
+            }
+            calculateAndRenderRoute();
+        }
+
+        function getGPSLocation() {
+            if (!navigator.geolocation) {
+                alert('お使いのブラウザはGPS位置情報に対応していません。');
+                return;
+            }
+            const input = document.getElementById('route-start-input');
+            if (input) input.value = '🛰️ GPS測位中...';
+
+            navigator.geolocation.getCurrentPosition(
+                pos => {
+                    const lat = pos.coords.latitude;
+                    const lon = pos.coords.longitude;
+                    currentStartCoords = { lat, lon, name: '現在地 (GPS)' };
+                    if (input) input.value = `現在地 (${lat.toFixed(4)}, ${lon.toFixed(4)})`;
+                    calculateAndRenderRoute();
+                },
+                err => {
+                    alert('位置情報の取得に失敗しました。手動で駅名を入力してください。');
+                    if (input) input.value = '新宿駅';
+                },
+                { timeout: 10000, enableHighAccuracy: true }
+            );
+        }
+
+        function calcDistanceKm(lat1, lon1, lat2, lon2) {
+            const R = 6371;
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                      Math.sin(dLon/2) * Math.sin(dLon/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            return R * c;
+        }
+
+        function calculateAndRenderRoute() {
+            const bldg = KDDI_BUILDINGS[currentActiveBldgId] || KDDI_BUILDINGS.takanawa;
+            const start = currentStartCoords;
+
+            const straightDist = calcDistanceKm(start.lat, start.lon, bldg.lat, bldg.lon);
+            const roadDist = Math.max(0.5, straightDist * 1.28);
+            const roadDistFormatted = roadDist.toFixed(1);
+
+            const walkMin = Math.round((roadDist / 4.0) * 60);
+            const bicycleMin = Math.round((roadDist / 13.0) * 60);
+            const bikeMin = Math.round((roadDist / 22.0) * 60);
+            const trainMin = Math.round(15 + (roadDist / 30.0) * 60);
+
+            const isAlertActive = (document.getElementById('assembly-alert-bar')?.classList.contains('assembly-status-alert'));
+
+            const distLabel = document.getElementById('route-dist-label');
+            if (distLabel) distLabel.innerText = `推定道路距離: 約 ${roadDistFormatted} km`;
+
+            const elWalk = document.getElementById('time-mode-walk');
+            if (elWalk) elWalk.innerText = `${walkMin} 分`;
+
+            const elBicycle = document.getElementById('time-mode-bicycle');
+            if (elBicycle) elBicycle.innerText = `${bicycleMin} 分`;
+
+            const elBike = document.getElementById('time-mode-bike');
+            if (elBike) elBike.innerText = `${bikeMin} 分`;
+
+            const elTrain = document.getElementById('time-mode-train');
+            const stTrain = document.getElementById('status-mode-train');
+            if (elTrain && stTrain) {
+                if (isAlertActive) {
+                    elTrain.innerText = '❌ 運行停止';
+                    elTrain.style.color = '#ef4444';
+                    stTrain.innerText = '⚠️ 震度6弱以上のため全線運転見合わせと予測';
+                } else {
+                    elTrain.innerText = `約 ${trainMin} 分`;
+                    elTrain.style.color = '#fff';
+                    stTrain.innerText = '通常運行想定（遅延情報に留意）';
+                }
+            }
+
+            const cardTrain = document.getElementById('card-mode-train');
+            const cardWalk = document.getElementById('card-mode-walk');
+            const cardBicycle = document.getElementById('card-mode-bicycle');
+            const cardBike = document.getElementById('card-mode-bike');
+            [cardTrain, cardWalk, cardBicycle, cardBike].forEach(c => {
+                if (c) {
+                    c.classList.remove('recommended');
+                    const badge = c.querySelector('.transit-badge-rec');
+                    if (badge) badge.remove();
+                }
+            });
+
+            let recMode = 'bicycle';
+            let recTitle = '';
+            let recDetail = '';
+
+            if (isAlertActive) {
+                if (roadDist <= 3.5) {
+                    recMode = 'walk';
+                    recTitle = `★ 最適推奨: 🚶 徒歩 (所要時間: 約 ${walkMin} 分)`;
+                    recDetail = `至近距離(${roadDistFormatted}km)のため、道路亀裂や倒壊障害を安全に回避できる徒歩参集を強く推奨します。ヘルメットを着用し落下物に十分警戒してください。`;
+                } else if (roadDist <= 12.0) {
+                    recMode = 'bicycle';
+                    recTitle = `★ 最適推奨: 🚲 自転車 / シェアサイクル (所要時間: 約 ${bicycleMin} 分)`;
+                    recDetail = `中距離(${roadDistFormatted}km)のため、歩行(${walkMin}分)に比べ約${walkMin - bicycleMin}分短縮可能かつ道路寸断回避性に優れた自転車参集が安全・最速です。歩道走行時は徐行してください。`;
+                } else {
+                    recMode = 'bike';
+                    recTitle = `★ 最適推奨: 🛵 バイク (所要時間: 約 ${bikeMin} 分)`;
+                    recDetail = `遠距離(${roadDistFormatted}km)のためバイク移動が最速です。ただし第1次緊急交通路規制（環七・環八・主要国道）や道路段差・液状化スリップに厳重警戒してください。`;
+                }
+            } else {
+                if (roadDist >= 6.0) {
+                    recMode = 'train';
+                    recTitle = `★ 通常時推奨: 🚇 公共交通機関 (約 ${trainMin} 分)`;
+                    recDetail = `平常時は鉄道網利用が確実かつ最速です。運行遅延がないことを確認の上ご移動ください。`;
+                } else {
+                    recMode = 'bicycle';
+                    recTitle = `★ 最適推奨: 🚲 自転車 / 徒歩 (約 ${bicycleMin} 分)`;
+                    recDetail = `近距離のため自転車または徒歩がスムーズです。天候や交通状況に合わせて選択してください。`;
+                }
+            }
+
+            const targetCard = recMode === 'walk' ? cardWalk : (recMode === 'bicycle' ? cardBicycle : (recMode === 'bike' ? cardBike : cardTrain));
+            if (targetCard) {
+                targetCard.classList.add('recommended');
+                const b = document.createElement('span');
+                b.className = 'transit-badge-rec';
+                b.innerText = '安全＆最速推奨';
+                targetCard.appendChild(b);
+            }
+
+            const recTitleEl = document.getElementById('route-recommend-text');
+            const recDetailEl = document.getElementById('route-recommend-detail');
+            if (recTitleEl) recTitleEl.innerText = recTitle;
+            if (recDetailEl) recDetailEl.innerText = recDetail;
+
+            renderHazardChecks(start, bldg, roadDist, isAlertActive);
+
+            const gmapBtn = document.getElementById('btn-open-google-maps');
+            if (gmapBtn) {
+                const sName = encodeURIComponent(start.name || '新宿駅');
+                const dName = encodeURIComponent(bldg.name + ' ' + bldg.address);
+                gmapBtn.href = `https://www.google.com/maps/dir/?api=1&origin=${sName}&destination=${dName}&travelmode=bicycling`;
+            }
+
+            updateMapRoute(start, bldg);
+        }
+
+        function renderHazardChecks(start, bldg, dist, isAlert) {
+            const listEl = document.getElementById('route-hazards-list');
+            if (!listEl) return;
+
+            const hazards = [];
+
+            const crossesTamaRiver = (start.lat < 35.58 && bldg.lat >= 35.62) || (start.lat >= 35.62 && bldg.lat < 35.58);
+            if (crossesTamaRiver) {
+                hazards.push({
+                    type: isAlert ? 'danger' : 'warning',
+                    icon: '🌊',
+                    title: '多摩川 渡河（橋梁寸断・点検閉鎖リスク）',
+                    desc: 'ルート上で多摩川を渡る必要があります。大地震時は橋梁の緊急安全点検のため一時通行止めとなる場合があるため、複数の橋梁迂回路を確認してください。'
+                });
+            } else {
+                hazards.push({
+                    type: 'safe',
+                    icon: '✅',
+                    title: '主要大規模河川の渡河なし',
+                    desc: '多摩川等の大規模河川の横断がないため、主要落橋・橋梁閉鎖による移動遮断リスクは極めて低いです。'
+                });
+            }
+
+            const inFireHazardZone = (dist >= 3.0 && (bldg.id === 'gat' || bldg.id === 'shinjuku' || bldg.id === 'takanawa'));
+            if (inFireHazardZone && isAlert) {
+                hazards.push({
+                    type: 'warning',
+                    icon: '🔥',
+                    title: '木造密集地・火災延焼ハザード帯 通過留意',
+                    desc: '都心環状道路（環六〜環七間）の木造密集地帯周辺では、地震直後の火災煙・延焼ハザードに注意し、広幅員の避難道路・幹線道路を選択してください。'
+                });
+            } else {
+                hazards.push({
+                    type: 'safe',
+                    icon: '✅',
+                    title: '火災延焼リスク：低',
+                    desc: '主要幹線道路および耐火建物帯に沿った移動が可能です。'
+                });
+            }
+
+            if (bldg.id === 'takanawa') {
+                hazards.push({
+                    type: 'warning',
+                    icon: '🧱',
+                    title: '品川・高輪周辺 埋立低地 液状化・泥水注意',
+                    desc: '第一京浜より東側の埋立地・運河周辺では液状化による噴泥や道路段差が生じる可能性があります。高輪側（高台）の道路を選択してください。'
+                });
+            } else {
+                hazards.push({
+                    type: 'safe',
+                    icon: '✅',
+                    title: '台地・高地ルート（液状化リスク極小）',
+                    desc: '武蔵野台地・山手台地上に位置しており、地盤は比較的堅固です。'
+                });
+            }
+
+            if (isAlert) {
+                hazards.push({
+                    type: 'danger',
+                    icon: '🚨',
+                    title: '第1次・第2次 緊急交通路（一般車両通行止め）',
+                    desc: '震度6弱以上で環状7号線から都心側への一般車両（四輪・バイク）の進入規制が敷かれます。バイク移動時は緊急輸送路規制に十分ご注意ください。'
+                });
+            }
+
+            listEl.innerHTML = hazards.map(h => `
+                <div class="hazard-check-item ${h.type}">
+                    <span style="font-size:1.2em; flex-shrink:0;">${h.icon}</span>
+                    <div style="flex:1;">
+                        <div style="font-weight:800; color:var(--text-primary);">${h.title}</div>
+                        <div style="font-size:0.85em; color:var(--text-muted); margin-top:2px;">${h.desc}</div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function initOrUpdateAssemblyMap() {
+            const mapContainer = document.getElementById('assembly-map');
+            if (!mapContainer) return;
+
+            if (!leafletAssemblyMap) {
+                leafletAssemblyMap = L.map('assembly-map', {
+                    zoomControl: true,
+                    attributionControl: false
+                }).setView([35.6600, 139.6800], 11);
+
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    maxZoom: 18
+                }).addTo(leafletAssemblyMap);
+            } else {
+                leafletAssemblyMap.invalidateSize();
+            }
+        }
+
+        function updateMapRoute(start, bldg) {
+            if (!leafletAssemblyMap) return;
+
+            if (leafletRouteLayer) {
+                leafletAssemblyMap.removeLayer(leafletRouteLayer);
+            }
+
+            leafletRouteLayer = L.layerGroup().addTo(leafletAssemblyMap);
+
+            const startMarker = L.marker([start.lat, start.lon]).addTo(leafletRouteLayer);
+            startMarker.bindPopup(`<b>📍 出発地: ${start.name}</b>`).openPopup();
+
+            Object.values(KDDI_BUILDINGS).forEach(b => {
+                const isSelected = b.id === bldg.id;
+                const marker = L.circleMarker([b.lat, b.lon], {
+                    radius: isSelected ? 11 : 7,
+                    fillColor: isSelected ? '#ef4444' : '#3b82f6',
+                    color: isSelected ? '#fde047' : '#fff',
+                    weight: isSelected ? 3 : 1.5,
+                    opacity: 1,
+                    fillOpacity: 0.9
+                }).addTo(leafletRouteLayer);
+
+                marker.bindPopup(`<b>🏢 ${b.name}</b><br>${b.address}<br>最寄: ${b.station}`);
+            });
+
+            const latlngs = [
+                [start.lat, start.lon],
+                [(start.lat + bldg.lat) / 2 + 0.005, (start.lon + bldg.lon) / 2 - 0.003],
+                [bldg.lat, bldg.lon]
+            ];
+            const routeLine = L.polyline(latlngs, {
+                color: '#10b981',
+                weight: 5,
+                opacity: 0.85,
+                dashArray: '8, 8'
+            }).addTo(leafletRouteLayer);
+
+            const bounds = L.latLngBounds([
+                [start.lat, start.lon],
+                [bldg.lat, bldg.lon]
+            ]);
+            leafletAssemblyMap.fitBounds(bounds, { padding: [40, 40] });
+
+            const summaryEl = document.getElementById('map-route-summary');
+            if (summaryEl) {
+                summaryEl.innerText = `${start.name} → ${bldg.name}`;
+            }
+        }
+
+</script>
 </body>
 </html>

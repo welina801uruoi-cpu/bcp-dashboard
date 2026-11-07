@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-07 22:21:38",
-  "timestamp_local": "2026-11-07 20:21:38",
+  "timestamp": "2026-11-07 23:10:24",
+  "timestamp_local": "2026-11-07 21:10:24",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -363,6 +363,20 @@
   "world_news": {
     "articles": [
       {
+        "title": "マカオ司法警察局が東南アジア系海外労働者対象の防犯キャンペーン展開(マカオ新聞)",
+        "link": "https://news.yahoo.co.jp/articles/1b74a02b2e7458248c32e29e8ff246a360b3054f?source=rss",
+        "description": "マカオでは、「外僱」と呼ばれる海外（中国本土・香港・台湾を含む）からの労働者が多く就労しており、その数は今年（2026年）9月時点で18万人超に達している。 マカオの総人口は約68.9万人で、海外労働",
+        "pub_date": "11/07 22:50 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ロ・ウ・米3者協議を前に 攻撃は続く　キーウ市長「電力供給極めて厳しい」(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/5fbb05933c4765dfde1cf5574c8a076e63f6714e?source=rss",
+        "description": "ウクライナとロシア、アメリカによる3者協議が10日から始まるのを前に双方の攻撃が依然として続いています。 ロシア国防省は7日朝、ウクライナのミサイル製造企業やキーウ市内の橋や発電所を攻撃したと明らかに",
+        "pub_date": "11/07 22:30 JST",
+        "is_priority": true
+      },
+      {
         "title": "イタリア外相、ハッキング標的に　ウクライナ支援が原因と指摘(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/21d9de438c7d203fd8c56c0bcc22cca984087420?source=rss",
         "description": "【キーウ共同】イタリアのタヤーニ外相は7日、「数日前からサイバー犯罪集団の標的とされ、個人情報がダークウェブ上に流されている」とX（旧ツイッター）で明らかにした。自国のウクライナ支援が原因だと言及し、",
@@ -487,20 +501,6 @@
         "description": "毛沢東の「親密な戦友」としてナンバー2に上り詰め、党規約に後継者と明記されながらも突如失脚した林彪。1971年、彼と家族を乗せた軍用機はなぜモンゴルの荒野へ墜落したのか。事故か、それとも撃墜か――。鉄",
         "pub_date": "11/07 17:12 JST",
         "is_priority": false
-      },
-      {
-        "title": "ロ大統領、JT資産を管理下に置く追加命令(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/2ef2d730effb452d0a99aaf5e52232bf1f888c49?source=rss",
-        "description": "【モスクワ共同】ロシアのプーチン大統領は6日、日本たばこ産業（JT）のロシア事業の資産をロシア企業の暫定管理下に置く追加の大統領令に署名した。新たに暫定管理下に置かれたのは、JT関連会社3社の全株式な",
-        "pub_date": "11/07 17:01 JST",
-        "is_priority": false
-      },
-      {
-        "title": "アトランタ動物園 パンダ2頭公開 米中友好アピール(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/2b0a136b6d546c01ab6e4d49924dd04f03325bdb?source=rss",
-        "description": "中国からアメリカに貸し出されたパンダ2頭が、アメリカ南部ジョージア州のアトランタ動物園で公開されました。【映像】アトランタ動物園で公開された2頭のパンダ 6日から公開されたのは、平和を意味するオスのパ",
-        "pub_date": "11/07 16:48 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -619,7 +619,7 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/07 22:21 JST",
+    "timestamp": "11/07 23:10 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -682,16 +682,61 @@
   "weather": {
     "cities": [
       {
+        "name": "ジャカルタ (首都)",
+        "name_en": "Jakarta",
+        "is_capital": true,
+        "lat": -6.2088,
+        "lon": 106.8456,
+        "temp": 29.3,
+        "apparent_temp": 35.4,
+        "humidity": 76,
+        "wind_speed": 3.3,
+        "wind_gusts": 6.1,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 33.6,
+            "temp_min": 26.6,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 4.5
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 32.7,
+            "temp_min": 26.2,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 7.2
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 32.4,
+            "temp_min": 26.0,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 9.8
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "デンパサール (バリ島)",
         "name_en": "Denpasar",
         "is_capital": false,
         "lat": -8.6705,
         "lon": 115.2126,
-        "temp": 27.3,
-        "apparent_temp": 32.5,
-        "humidity": 80,
-        "wind_speed": 4.0,
-        "wind_gusts": 12.2,
+        "temp": 27.1,
+        "apparent_temp": 32.4,
+        "humidity": 81,
+        "wind_speed": 3.6,
+        "wind_gusts": 9.7,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -732,11 +777,11 @@
         "is_capital": false,
         "lat": -7.2575,
         "lon": 112.7521,
-        "temp": 30.4,
+        "temp": 30.3,
         "apparent_temp": 34.2,
-        "humidity": 67,
-        "wind_speed": 13.3,
-        "wind_gusts": 35.6,
+        "humidity": 66,
+        "wind_speed": 11.5,
+        "wind_gusts": 32.8,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -773,43 +818,43 @@
       }
     ],
     "capital": {
-      "name": "デンパサール (バリ島)",
-      "name_en": "Denpasar",
-      "is_capital": false,
-      "lat": -8.6705,
-      "lon": 115.2126,
-      "temp": 27.3,
-      "apparent_temp": 32.5,
-      "humidity": 80,
-      "wind_speed": 4.0,
-      "wind_gusts": 12.2,
+      "name": "ジャカルタ (首都)",
+      "name_en": "Jakarta",
+      "is_capital": true,
+      "lat": -6.2088,
+      "lon": 106.8456,
+      "temp": 29.3,
+      "apparent_temp": 35.4,
+      "humidity": 76,
+      "wind_speed": 3.3,
+      "wind_gusts": 6.1,
       "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 30.8,
-          "temp_min": 24.7,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 2.0
+          "temp_max": 33.6,
+          "temp_min": 26.6,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 4.5
         },
         {
           "date": "11/08(日)",
-          "temp_max": 32.1,
-          "temp_min": 24.6,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.6
+          "temp_max": 32.7,
+          "temp_min": 26.2,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 7.2
         },
         {
           "date": "11/09(月)",
-          "temp_max": 31.5,
-          "temp_min": 24.5,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 4.6
+          "temp_max": 32.4,
+          "temp_min": 26.0,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 9.8
         }
       ],
       "alert": "平常",
@@ -817,7 +862,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/07 22:21 JST"
+    "timestamp": "11/07 23:10 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -846,7 +891,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/07 22:21 JST"
+    "timestamp": "11/07 23:10 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 04:15:39",
-  "timestamp_local": "2026-11-08 03:15:39",
+  "timestamp": "2026-11-08 04:49:08",
+  "timestamp_local": "2026-11-08 03:49:08",
   "country": {
     "id": "taiwan",
     "name": "台湾",
@@ -423,9 +423,9 @@
         "is_priority": false
       },
       {
-        "title": "ポーランドで銃撃、5人死亡　南部クラクフ、容疑者拘束(共同通信)",
+        "title": "ポーランドで銃乱射、6人死亡　容疑者の男拘束、15人負傷(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/f572c949ecee6ea2ef6f59805ac2e2d68fd15579?source=rss",
-        "description": "【ベルリン共同】ポーランドの警察は7日、同国南部クラクフ中心部の広場で同日、銃撃があり、5人が死亡、約10人が負傷したとX（旧ツイッター）で発表した。警察は容疑者を拘束したとしている。警察などによると",
+        "description": "【ベルリン共同】ポーランド南部クラクフで7日、男が中心部の広場に車で突入して車内から通行人らに向かって無差別に銃を乱射し、6人が死亡、警察官2人を含む15人が負傷した。ポーランドのメディアが伝えた。男",
         "pub_date": "11/08 00:42 JST",
         "is_priority": false
       },
@@ -670,7 +670,7 @@
     "default_channel_id": "stream_ftv_taiwan"
   },
   "forex": {
-    "timestamp": "11/08 04:15 JST",
+    "timestamp": "11/08 04:49 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -733,42 +733,87 @@
   "weather": {
     "cities": [
       {
-        "name": "台中 (中部ハイテク拠点)",
-        "name_en": "Taichung",
-        "is_capital": false,
-        "lat": 24.1477,
-        "lon": 120.6736,
-        "temp": 21.9,
-        "apparent_temp": 25.3,
-        "humidity": 90,
-        "wind_speed": 3.8,
-        "wind_gusts": 10.1,
+        "name": "台北 (北部主要都市)",
+        "name_en": "Taipei",
+        "is_capital": true,
+        "lat": 25.033,
+        "lon": 121.5654,
+        "temp": 22.5,
+        "apparent_temp": 23.1,
+        "humidity": 75,
+        "wind_speed": 15.7,
+        "wind_gusts": 34.9,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 31.2,
-            "temp_min": 21.3,
+            "temp_max": 28.8,
+            "temp_min": 21.8,
             "weather_code": 1,
             "weather_label": "🌤️ 晴れ",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/09(月)",
-            "temp_max": 27.9,
+            "temp_max": 25.1,
             "temp_min": 16.8,
-            "weather_code": 1,
-            "weather_label": "🌤️ 晴れ",
-            "precipitation_mm": 0.0
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.8
           },
           {
             "date": "11/10(火)",
-            "temp_max": 23.3,
-            "temp_min": 14.4,
-            "weather_code": 2,
-            "weather_label": "⛅ 晴れ時々曇り",
+            "temp_max": 20.9,
+            "temp_min": 15.7,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.6
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "高雄 (南部主要港湾)",
+        "name_en": "Kaohsiung",
+        "is_capital": false,
+        "lat": 22.6273,
+        "lon": 120.3014,
+        "temp": 25.1,
+        "apparent_temp": 29.5,
+        "humidity": 88,
+        "wind_speed": 7.5,
+        "wind_gusts": 16.2,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 28.2,
+            "temp_min": 24.8,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.9
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 28.6,
+            "temp_min": 20.6,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 4.1
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 24.0,
+            "temp_min": 18.2,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           }
         ],
@@ -779,43 +824,43 @@
       }
     ],
     "capital": {
-      "name": "台中 (中部ハイテク拠点)",
-      "name_en": "Taichung",
-      "is_capital": false,
-      "lat": 24.1477,
-      "lon": 120.6736,
-      "temp": 21.9,
-      "apparent_temp": 25.3,
-      "humidity": 90,
-      "wind_speed": 3.8,
-      "wind_gusts": 10.1,
+      "name": "台北 (北部主要都市)",
+      "name_en": "Taipei",
+      "is_capital": true,
+      "lat": 25.033,
+      "lon": 121.5654,
+      "temp": 22.5,
+      "apparent_temp": 23.1,
+      "humidity": 75,
+      "wind_speed": 15.7,
+      "wind_gusts": 34.9,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 31.2,
-          "temp_min": 21.3,
+          "temp_max": 28.8,
+          "temp_min": 21.8,
           "weather_code": 1,
           "weather_label": "🌤️ 晴れ",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/09(月)",
-          "temp_max": 27.9,
+          "temp_max": 25.1,
           "temp_min": 16.8,
-          "weather_code": 1,
-          "weather_label": "🌤️ 晴れ",
-          "precipitation_mm": 0.0
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.8
         },
         {
           "date": "11/10(火)",
-          "temp_max": 23.3,
-          "temp_min": 14.4,
-          "weather_code": 2,
-          "weather_label": "⛅ 晴れ時々曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 20.9,
+          "temp_min": 15.7,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.6
         }
       ],
       "alert": "平常",
@@ -823,7 +868,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 04:15 JST"
+    "timestamp": "11/08 04:49 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -867,7 +912,7 @@
         "details": "台北メトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/08 04:15 JST"
+    "timestamp": "11/08 04:49 JST"
   },
   "lifeline": {
     "status": "NORMAL",

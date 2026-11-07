@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 02:31:54",
-  "timestamp_local": "2026-11-07 14:31:54",
+  "timestamp": "2026-11-08 03:02:03",
+  "timestamp_local": "2026-11-07 15:02:03",
   "country": {
     "id": "brazil",
     "name": "ブラジル",
@@ -295,17 +295,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 10,
-    "summary": "M5.5 (10 km NW of Hamakita, Japan)",
+    "count_24h": 11,
+    "summary": "M4.7 (45 km NNW of Salinas, Ecuador)",
     "latest": {
-      "mag": 5.5,
-      "place": "10 km NW of Hamakita, Japan",
-      "time": "11/08 01:04 JST",
-      "depth_km": 38.081,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
+      "mag": 4.7,
+      "place": "45 km NNW of Salinas, Ecuador",
+      "time": "11/08 02:17 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "45 km NNW of Salinas, Ecuador",
+        "time": "11/08 02:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
+        "tsunami": 0
+      },
       {
         "mag": 5.5,
         "place": "10 km NW of Hamakita, Japan",
@@ -651,7 +659,7 @@
     "default_channel_id": "stream_band_live"
   },
   "forex": {
-    "timestamp": "11/08 02:31 JST",
+    "timestamp": "11/08 03:01 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -714,19 +722,64 @@
   "weather": {
     "cities": [
       {
+        "name": "ブラジリア (首都)",
+        "name_en": "Brasília",
+        "is_capital": true,
+        "lat": -15.8267,
+        "lon": -47.9218,
+        "temp": 27.1,
+        "apparent_temp": 28.7,
+        "humidity": 57,
+        "wind_speed": 9.3,
+        "wind_gusts": 27.4,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 30.0,
+            "temp_min": 20.0,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 3.8
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 29.0,
+            "temp_min": 19.0,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 9.7
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 25.9,
+            "temp_min": 19.6,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 27.2
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      },
+      {
         "name": "サンパウロ (南米最大都市)",
         "name_en": "São Paulo",
         "is_capital": false,
         "lat": -23.5505,
         "lon": -46.6333,
-        "temp": 26.4,
-        "apparent_temp": 28.2,
-        "humidity": 68,
-        "wind_speed": 13.9,
-        "wind_gusts": 52.2,
+        "temp": 24.5,
+        "apparent_temp": 26.8,
+        "humidity": 79,
+        "wind_speed": 13.4,
+        "wind_gusts": 50.0,
         "precipitation": 0.5,
-        "weather_code": 95,
-        "weather_label": "⛈️ 雷雨 (弱〜中)",
+        "weather_code": 80,
+        "weather_label": "🌧️ にわか雨 (弱)",
         "forecast": [
           {
             "date": "11/07(土)",
@@ -753,103 +806,58 @@
             "precipitation_mm": 0.7
           }
         ],
-        "alert": "暴風・悪天候警報",
-        "alert_badge": "🔴 暴風警報",
-        "alert_class": "red",
-        "alert_desc": "雷雨または猛烈な突風（52.2km/h）・激しい降雨に警戒"
-      },
-      {
-        "name": "リオデジャネイロ (沿岸主要都市)",
-        "name_en": "Rio de Janeiro",
-        "is_capital": false,
-        "lat": -22.9068,
-        "lon": -43.1729,
-        "temp": 31.9,
-        "apparent_temp": 39.2,
-        "humidity": 72,
-        "wind_speed": 10.3,
-        "wind_gusts": 25.9,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
-        "forecast": [
-          {
-            "date": "11/07(土)",
-            "temp_max": 32.7,
-            "temp_min": 22.5,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 2.4
-          },
-          {
-            "date": "11/08(日)",
-            "temp_max": 29.1,
-            "temp_min": 18.9,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 9.9
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 21.6,
-            "temp_min": 18.8,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 3.2
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "強風・大雨注意報",
+        "alert_badge": "🟠 気象注意報",
+        "alert_class": "orange",
+        "alert_desc": "強風（突風50.0km/h）または強い雨。移動・屋外行動に注意"
       }
     ],
     "capital": {
-      "name": "サンパウロ (南米最大都市)",
-      "name_en": "São Paulo",
-      "is_capital": false,
-      "lat": -23.5505,
-      "lon": -46.6333,
-      "temp": 26.4,
-      "apparent_temp": 28.2,
-      "humidity": 68,
-      "wind_speed": 13.9,
-      "wind_gusts": 52.2,
-      "precipitation": 0.5,
-      "weather_code": 95,
-      "weather_label": "⛈️ 雷雨 (弱〜中)",
+      "name": "ブラジリア (首都)",
+      "name_en": "Brasília",
+      "is_capital": true,
+      "lat": -15.8267,
+      "lon": -47.9218,
+      "temp": 27.1,
+      "apparent_temp": 28.7,
+      "humidity": 57,
+      "wind_speed": 9.3,
+      "wind_gusts": 27.4,
+      "precipitation": 0.1,
+      "weather_code": 51,
+      "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 30.4,
-          "temp_min": 19.2,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 3.9
+          "temp_max": 30.0,
+          "temp_min": 20.0,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 3.8
         },
         {
           "date": "11/08(日)",
-          "temp_max": 21.3,
-          "temp_min": 14.5,
+          "temp_max": 29.0,
+          "temp_min": 19.0,
           "weather_code": 95,
           "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 11.2
+          "precipitation_mm": 9.7
         },
         {
           "date": "11/09(月)",
-          "temp_max": 16.2,
-          "temp_min": 13.2,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.7
+          "temp_max": 25.9,
+          "temp_min": 19.6,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 27.2
         }
       ],
-      "alert": "暴風・悪天候警報",
-      "alert_badge": "🔴 暴風警報",
-      "alert_class": "red",
-      "alert_desc": "雷雨または猛烈な突風（52.2km/h）・激しい降雨に警戒"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/08 02:31 JST"
+    "timestamp": "11/08 03:02 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -878,7 +886,7 @@
         "details": "地下鉄各線平常運行中"
       }
     ],
-    "timestamp": "11/08 02:31 JST"
+    "timestamp": "11/08 03:01 JST"
   },
   "lifeline": {
     "status": "NORMAL",

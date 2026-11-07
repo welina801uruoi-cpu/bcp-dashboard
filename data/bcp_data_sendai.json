@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 17:29:39",
+  "timestamp": "2026-11-07 17:59:32",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -77,11 +77,25 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "2",
-    "time": "2026-11-08 02:03",
-    "place": "愛知県東部",
-    "magnitude": "3.3",
+    "time": "2026-11-08 02:31",
+    "place": "渡島地方東部",
+    "magnitude": "2.9",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-08 02:31",
+        "place": "渡島地方東部",
+        "shindo": "2",
+        "magnitude": "2.9",
+        "maxScale": 20
+      },
+      {
+        "time": "2026-11-08 02:30",
+        "place": "茨城県南部",
+        "shindo": "1",
+        "magnitude": "3.2",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-08 02:03",
         "place": "愛知県東部",
@@ -137,20 +151,6 @@
         "shindo": "1",
         "magnitude": "4.1",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-07 22:48",
-        "place": "福島県沖",
-        "shindo": "1",
-        "magnitude": "3.6",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-07 20:07",
-        "place": "茨城県沖",
-        "shindo": "3",
-        "magnitude": "5.6",
-        "maxScale": 30
       }
     ]
   },
@@ -182,10 +182,10 @@
           "波浪警報"
         ],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪警報、波浪注意報、強風注意報",
+        "summary": "波浪警報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -196,11 +196,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "風雪注意報",
           "強風注意報",
+          "風雪注意報",
           "波浪注意報"
         ],
-        "summary": "風雪注意報、強風注意報、波浪注意報",
+        "summary": "強風注意報、風雪注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -254,10 +254,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "強風注意報"
+          "強風注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、強風注意報",
+        "summary": "強風注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       }
     ]
@@ -476,8 +476,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 30,
+    "disaster_count": 31,
     "articles": [
+      {
+        "title": "【愛知で震度5強】転倒や避難する際に飛び降りけが(テレビ朝日系（ANN）)",
+        "summary": "豊田市消防本部によりますと、地震の影響で43歳男性と88歳女性が転倒、いずれも頭を打ち病院に搬送されましたが軽傷だということです。 また、常滑市によりますと、50代女性が避難している途中に転倒し、右足",
+        "pub_date": "11/08 02:46 JST",
+        "link": "https://news.yahoo.co.jp/articles/8cdc6063db929209edb18e07c0b4142428a94198?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知で震度5強 大高～半田中央など一部通行止め【11月8日午前2時30分現在】(テレビ愛知)",
+        "summary": "2026年11月8日午前1時4分ごろ、愛知県西部で震度5強を観測する地震がありました。この地震による津波の心配はありません。日本道路交通情報センターによりますと、地震による影響で、大高～半田中央の上下",
+        "pub_date": "11/08 02:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/549b3d9cd1ebedee2b9dcf871314fec9733af740?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【愛知で震度5強】高市総理　被害状況の把握などを指示(テレビ朝日系（ANN）)",
+        "summary": "愛知県で震度5強を観測した地震を受けて、政府は総理官邸の危機管理センターに官邸連絡室を設置しました。 関係府省庁が連携して情報の収集や被害の確認などにあたっています。 高市総理大臣は自身のSNSで、被",
+        "pub_date": "11/08 02:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/e5ece9b0671656029634046e157461f0d57ee67b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "震源の静岡県では最大震度5弱を観測 浜岡原発は地震の影響なし 女性が救急搬送要請　(テレビ朝日系（ANN）)",
         "summary": "8日午前1時すぎ、静岡県西部を震源とした強い地震がありました。 県内では浜松・浜名区で最大震度5弱を観測しています。 この地震による津波の心配はありません。 気象庁によりますと、地震の震源の深さはおよ",
@@ -511,7 +535,7 @@
         "is_disaster": true
       },
       {
-        "title": "【地震情報まとめ】愛知県で最大震度5強の強い地震 けが人も 被害･交通情報の詳細（随時更新）(CBCテレビ)",
+        "title": "【地震情報まとめ・随時更新】愛知県で最大震度5強の強い地震 けが人も 被害･交通情報の詳細(CBCテレビ)",
         "summary": "きょう午前1時4分ごろ、愛知県知多市で震度5強の揺れを観測する地震がありました。この地震による津波の心配はありません。【画像】愛知県で最大震度5強 詳しい震度を見る気象庁によりますと、震源地は静岡県西",
         "pub_date": "11/08 01:49 JST",
         "link": "https://news.yahoo.co.jp/articles/fd288a0d3b312cd54e6d42d7ecc8952561004b9f?source=rss",
@@ -573,33 +597,9 @@
         "link": "https://news.yahoo.co.jp/articles/dac97afd33370c92914b71867f77f7a904d03e2b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "【速報】愛知県西部で震度5強　津波の心配なし　カメラが小刻みに揺れる様子も(テレビ朝日系（ANN）)",
-        "summary": "午前1時04分ごろに愛知県西部で震度5強の地震がありました。 震源地は静岡県西部で、地震の規模（マグニチュード）は5.7と推定されます。 この地震による津波の心配はありません。",
-        "pub_date": "11/08 01:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/e7b5185d1fb424a07693ad835a413d7793ea979a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "愛知県で震度5強の地震　津波の心配なし(日本気象協会tenki.jp)",
-        "summary": "8日午前1時4分頃、静岡県西部を震源とするマグニチュード5.7の地震が発生し、愛知県で最大震度5強を観測しました。この地震による津波の心配はありません。",
-        "pub_date": "11/08 01:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/d7475ea29d634e65cd28dac0a7707b069e285968?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "愛知で震度5強(共同通信)",
-        "summary": "気象庁によると、8日午前1時4分ごろ、愛知県西部で震度5強の地震があった。",
-        "pub_date": "11/08 01:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/a9017ad69b0b8914d8eca0910da795b90a48026c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 02:29:07 JST"
+    "last_updated": "2026-11-08 02:59:02 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",

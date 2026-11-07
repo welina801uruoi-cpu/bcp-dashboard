@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 02:30:52",
-  "timestamp_local": "2026-11-08 01:30:52",
+  "timestamp": "2026-11-08 03:00:46",
+  "timestamp_local": "2026-11-08 02:00:46",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -289,17 +289,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 10,
-    "summary": "M5.5 (10 km NW of Hamakita, Japan)",
+    "count_24h": 11,
+    "summary": "M4.7 (45 km NNW of Salinas, Ecuador)",
     "latest": {
-      "mag": 5.5,
-      "place": "10 km NW of Hamakita, Japan",
-      "time": "11/08 01:04 JST",
-      "depth_km": 38.081,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
+      "mag": 4.7,
+      "place": "45 km NNW of Salinas, Ecuador",
+      "time": "11/08 02:17 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "45 km NNW of Salinas, Ecuador",
+        "time": "11/08 02:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
+        "tsunami": 0
+      },
       {
         "mag": 5.5,
         "place": "10 km NW of Hamakita, Japan",
@@ -540,23 +548,23 @@
     },
     {
       "keyword": "フィリピン 地震",
-      "status": "ALERT",
-      "trend": "UP",
-      "trend_label": "📈 上昇傾向 (投稿急増・要警戒)",
-      "trend_class": "red",
-      "summary": "直近1時間で 40 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
+      "status": "NORMAL",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 14 件です。",
       "recent_posts": [
         {
-          "time": "11/07 17:29",
-          "text": "@nao_9921 さっきの 地震 （静岡県西部・M5.7）は南海トラフ想定震源域内ですが、横ずれ断層型で フィリピン ..."
+          "time": "11/07 17:58",
+          "text": "@n_M__o6o6 今回の 地震 は フィリピン 海プレート内部の 地震 。 南海トラフはユーラシ..."
         },
         {
-          "time": "11/07 17:26",
-          "text": "今回の 地震 は、南海トラフ巨大 地震 を引き起こすプレート境界ではなく、沈み込んだ フィリピン 海..."
+          "time": "11/07 17:51",
+          "text": "フィリピン 海プレート内部の 地震 で東南海トラフとは関係ないって気象庁が会見しそうと予想してみた"
         },
         {
-          "time": "11/07 17:19",
-          "text": "トレンド:南海トラフ←関係ないだろ トレンド:中央構造線←関係ないだろ2 深さは推定35km〜41km程度だし、 フィリピン 海プレート内部..."
+          "time": "11/07 17:42",
+          "text": "一昨日の関東東方沖の 地震 が フィリピン 海プレートの先っぽを揺すったみたいだからその影響でちょい西にあるスラブ内が割..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%95%E3%82%A3%E3%83%AA%E3%83%94%E3%83%B3%20%E5%9C%B0%E9%9C%87"
@@ -621,7 +629,7 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/08 02:30 JST",
+    "timestamp": "11/08 03:00 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -689,11 +697,11 @@
         "is_capital": true,
         "lat": 14.5995,
         "lon": 120.9842,
-        "temp": 26.4,
+        "temp": 26.3,
         "apparent_temp": 30.5,
-        "humidity": 74,
-        "wind_speed": 2.8,
-        "wind_gusts": 10.4,
+        "humidity": 75,
+        "wind_speed": 2.7,
+        "wind_gusts": 9.4,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -734,14 +742,14 @@
         "is_capital": false,
         "lat": 10.3157,
         "lon": 123.8854,
-        "temp": 25.1,
+        "temp": 25.0,
         "apparent_temp": 29.2,
-        "humidity": 88,
-        "wind_speed": 9.4,
-        "wind_gusts": 20.5,
+        "humidity": 89,
+        "wind_speed": 9.1,
+        "wind_gusts": 19.4,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -779,11 +787,11 @@
         "is_capital": false,
         "lat": 7.1907,
         "lon": 125.4578,
-        "temp": 22.9,
-        "apparent_temp": 26.8,
-        "humidity": 94,
-        "wind_speed": 6.0,
-        "wind_gusts": 13.0,
+        "temp": 22.7,
+        "apparent_temp": 26.7,
+        "humidity": 95,
+        "wind_speed": 5.0,
+        "wind_gusts": 12.6,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -825,11 +833,11 @@
       "is_capital": true,
       "lat": 14.5995,
       "lon": 120.9842,
-      "temp": 26.4,
+      "temp": 26.3,
       "apparent_temp": 30.5,
-      "humidity": 74,
-      "wind_speed": 2.8,
-      "wind_gusts": 10.4,
+      "humidity": 75,
+      "wind_speed": 2.7,
+      "wind_gusts": 9.4,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
@@ -864,7 +872,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 02:30 JST"
+    "timestamp": "11/08 03:00 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -893,7 +901,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/08 02:30 JST"
+    "timestamp": "11/08 03:00 JST"
   },
   "lifeline": {
     "status": "NORMAL",

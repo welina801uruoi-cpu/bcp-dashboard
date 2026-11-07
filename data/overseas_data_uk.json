@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 02:31:23",
-  "timestamp_local": "2026-11-07 18:31:23",
+  "timestamp": "2026-11-08 03:01:16",
+  "timestamp_local": "2026-11-07 19:01:16",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -352,17 +352,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 10,
-    "summary": "M5.5 (10 km NW of Hamakita, Japan)",
+    "count_24h": 11,
+    "summary": "M4.7 (45 km NNW of Salinas, Ecuador)",
     "latest": {
-      "mag": 5.5,
-      "place": "10 km NW of Hamakita, Japan",
-      "time": "11/08 01:04 JST",
-      "depth_km": 38.081,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
+      "mag": 4.7,
+      "place": "45 km NNW of Salinas, Ecuador",
+      "time": "11/08 02:17 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "45 km NNW of Salinas, Ecuador",
+        "time": "11/08 02:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
+        "tsunami": 0
+      },
       {
         "mag": 5.5,
         "place": "10 km NW of Hamakita, Japan",
@@ -716,7 +724,7 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/08 02:31 JST",
+    "timestamp": "11/08 03:01 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -814,11 +822,11 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 10.0,
-        "apparent_temp": 9.0,
+        "temp": 9.9,
+        "apparent_temp": 8.8,
         "humidity": 76,
-        "wind_speed": 0.4,
-        "wind_gusts": 2.9,
+        "wind_speed": 0.7,
+        "wind_gusts": 3.2,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -852,6 +860,96 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "マンチェスター (中部)",
+        "name_en": "Manchester",
+        "is_capital": false,
+        "lat": 53.4808,
+        "lon": -2.2426,
+        "temp": 9.9,
+        "apparent_temp": 8.4,
+        "humidity": 81,
+        "wind_speed": 5.0,
+        "wind_gusts": 11.5,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 10.9,
+            "temp_min": 8.0,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 10.3,
+            "temp_min": 6.9,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 10.3,
+            "temp_min": 5.0,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "エディンバラ (スコットランド)",
+        "name_en": "Edinburgh",
+        "is_capital": false,
+        "lat": 55.9533,
+        "lon": -3.1883,
+        "temp": 9.3,
+        "apparent_temp": 7.2,
+        "humidity": 92,
+        "wind_speed": 11.2,
+        "wind_gusts": 25.2,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/07(土)",
+            "temp_max": 10.5,
+            "temp_min": 7.7,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.1
+          },
+          {
+            "date": "11/08(日)",
+            "temp_max": 9.4,
+            "temp_min": 7.4,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.3
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 8.8,
+            "temp_min": 3.9,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -860,11 +958,11 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 10.0,
-      "apparent_temp": 9.0,
+      "temp": 9.9,
+      "apparent_temp": 8.8,
       "humidity": 76,
-      "wind_speed": 0.4,
-      "wind_gusts": 2.9,
+      "wind_speed": 0.7,
+      "wind_gusts": 3.2,
       "precipitation": 0.0,
       "weather_code": 2,
       "weather_label": "⛅ 晴れ時々曇り",
@@ -899,7 +997,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 02:31 JST"
+    "timestamp": "11/08 03:01 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -972,7 +1070,7 @@
             "status_raw": "Minor Delays",
             "badge": "🟡 注意",
             "code": "minor",
-            "reason": "District Line: Minor delays between Tower Hill and Upminster due to train cancellations. GOOD SERVICE on the rest of the"
+            "reason": "District Line: Minor delays between Ealing Broadway and Upminster and between Earl's Court and Kensington (Olympia) due "
           },
           {
             "name": "DLR",
@@ -1148,7 +1246,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/08 02:31 JST"
+    "timestamp": "11/08 03:01 JST"
   },
   "lifeline": {
     "status": "NORMAL",

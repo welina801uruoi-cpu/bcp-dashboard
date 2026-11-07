@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 02:30:21",
-  "timestamp_local": "2026-11-08 00:30:21",
+  "timestamp": "2026-11-08 03:00:15",
+  "timestamp_local": "2026-11-08 01:00:15",
   "country": {
     "id": "thailand",
     "name": "タイ",
@@ -295,17 +295,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 10,
-    "summary": "M5.5 (10 km NW of Hamakita, Japan)",
+    "count_24h": 11,
+    "summary": "M4.7 (45 km NNW of Salinas, Ecuador)",
     "latest": {
-      "mag": 5.5,
-      "place": "10 km NW of Hamakita, Japan",
-      "time": "11/08 01:04 JST",
-      "depth_km": 38.081,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
+      "mag": 4.7,
+      "place": "45 km NNW of Salinas, Ecuador",
+      "time": "11/08 02:17 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "45 km NNW of Salinas, Ecuador",
+        "time": "11/08 02:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
+        "tsunami": 0
+      },
       {
         "mag": 5.5,
         "place": "10 km NW of Hamakita, Japan",
@@ -548,7 +556,7 @@
         },
         {
           "time": "10/27 01:03",
-          "text": "@yabadabadoo00 義弟はナコンパトム在住（ 冠水 エリア）。 バンコク 洪水 危機のとき..."
+          "text": "@yabadabadoo00 義弟はナコンパトム在住（ 冠水 エリア）。 バンコク洪水 危機のとき、「この辺は STAR..."
         },
         {
           "time": "10/26 22:53",
@@ -659,7 +667,7 @@
     "default_channel_id": "stream_thairath_live"
   },
   "forex": {
-    "timestamp": "11/08 02:30 JST",
+    "timestamp": "11/08 03:00 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -697,11 +705,20 @@
       "departures_url": "https://suvarnabhumi.airportthai.co.th/en",
       "radar_url": "https://www.flightradar24.com/airport/bkk",
       "flightaware_url": "https://www.flightaware.com/live/airport/VTBS",
-      "weather": {},
+      "weather": {
+        "raw": "METAR VTBS 071730Z 32004KT 9000 FEW015 SCT100 26/25 Q1014 NOSIG",
+        "wind": "4kt",
+        "wind_speed": 4,
+        "wind_gust": 0,
+        "visibility": "5.59マイル",
+        "temp": 26,
+        "fltcat": "VFR",
+        "report_time": "2026-11-07T17:30:00.000Z"
+      },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "定常運航中（現在重大な気象警報なし）"
+      "status_desc": "視程良好（5.59マイル）、風速安定（4kt）。順調に運航中"
     },
     {
       "iata": "DMK",
@@ -712,11 +729,20 @@
       "departures_url": "https://donmueang.airportthai.co.th/en",
       "radar_url": "https://www.flightradar24.com/airport/dmk",
       "flightaware_url": "https://www.flightaware.com/live/airport/VTBD",
-      "weather": {},
+      "weather": {
+        "raw": "METAR VTBD 071730Z 33004KT 9000 FEW010 25/24 Q1014 NOSIG",
+        "wind": "4kt",
+        "wind_speed": 4,
+        "wind_gust": 0,
+        "visibility": "5.59マイル",
+        "temp": 25,
+        "fltcat": "VFR",
+        "report_time": "2026-11-07T17:30:00.000Z"
+      },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "定常運航中（現在重大な気象警報なし）"
+      "status_desc": "視程良好（5.59マイル）、風速安定（4kt）。順調に運航中"
     }
   ],
   "weather": {
@@ -727,14 +753,14 @@
         "is_capital": true,
         "lat": 13.7563,
         "lon": 100.5018,
-        "temp": 25.6,
-        "apparent_temp": 30.7,
-        "humidity": 89,
-        "wind_speed": 5.4,
-        "wind_gusts": 13.3,
+        "temp": 25.4,
+        "apparent_temp": 30.5,
+        "humidity": 90,
+        "wind_speed": 5.8,
+        "wind_gusts": 13.7,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -767,61 +793,16 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
-        "name": "チェンマイ (北部拠点)",
-        "name_en": "Chiang Mai",
-        "is_capital": false,
-        "lat": 18.7883,
-        "lon": 98.9853,
-        "temp": 22.5,
-        "apparent_temp": 26.9,
-        "humidity": 97,
-        "wind_speed": 4.0,
-        "wind_gusts": 7.2,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 28.1,
-            "temp_min": 21.9,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 10.7
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 28.3,
-            "temp_min": 20.6,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 11.9
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 27.1,
-            "temp_min": 20.0,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.2
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "プーケット (南部リゾート)",
         "name_en": "Phuket",
         "is_capital": false,
         "lat": 7.8804,
         "lon": 98.3923,
-        "temp": 26.4,
-        "apparent_temp": 30.7,
-        "humidity": 84,
-        "wind_speed": 10.1,
-        "wind_gusts": 21.2,
+        "temp": 25.7,
+        "apparent_temp": 29.6,
+        "humidity": 85,
+        "wind_speed": 11.4,
+        "wind_gusts": 24.1,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
@@ -863,14 +844,14 @@
       "is_capital": true,
       "lat": 13.7563,
       "lon": 100.5018,
-      "temp": 25.6,
-      "apparent_temp": 30.7,
-      "humidity": 89,
-      "wind_speed": 5.4,
-      "wind_gusts": 13.3,
+      "temp": 25.4,
+      "apparent_temp": 30.5,
+      "humidity": 90,
+      "wind_speed": 5.8,
+      "wind_gusts": 13.7,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/08(日)",
@@ -902,7 +883,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 02:30 JST"
+    "timestamp": "11/08 03:00 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -931,7 +912,7 @@
         "details": "BTSスクムウィット線・MRTブルーライン平常運行中"
       }
     ],
-    "timestamp": "11/08 02:30 JST"
+    "timestamp": "11/08 03:00 JST"
   },
   "lifeline": {
     "status": "NORMAL",

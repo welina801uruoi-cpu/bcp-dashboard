@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 02:31:27",
-  "timestamp_local": "2026-11-07 19:31:27",
+  "timestamp": "2026-11-08 03:01:26",
+  "timestamp_local": "2026-11-07 20:01:26",
   "country": {
     "id": "spain",
     "name": "スペイン",
@@ -352,17 +352,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 10,
-    "summary": "M5.5 (10 km NW of Hamakita, Japan)",
+    "count_24h": 11,
+    "summary": "M4.7 (45 km NNW of Salinas, Ecuador)",
     "latest": {
-      "mag": 5.5,
-      "place": "10 km NW of Hamakita, Japan",
-      "time": "11/08 01:04 JST",
-      "depth_km": 38.081,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
+      "mag": 4.7,
+      "place": "45 km NNW of Salinas, Ecuador",
+      "time": "11/08 02:17 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "45 km NNW of Salinas, Ecuador",
+        "time": "11/08 02:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
+        "tsunami": 0
+      },
       {
         "mag": 5.5,
         "place": "10 km NW of Hamakita, Japan",
@@ -718,7 +726,7 @@
     "default_channel_id": "stream_rtve"
   },
   "forex": {
-    "timestamp": "11/08 02:31 JST",
+    "timestamp": "11/08 03:01 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -801,18 +809,18 @@
         "is_capital": true,
         "lat": 40.4168,
         "lon": -3.7038,
-        "temp": 15.1,
-        "apparent_temp": 13.9,
-        "humidity": 57,
-        "wind_speed": 2.8,
-        "wind_gusts": 7.2,
+        "temp": 14.8,
+        "apparent_temp": 13.7,
+        "humidity": 58,
+        "wind_speed": 2.1,
+        "wind_gusts": 6.5,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/07(土)",
-            "temp_max": 16.8,
+            "temp_max": 17.3,
             "temp_min": 8.2,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
@@ -821,7 +829,7 @@
           {
             "date": "11/08(日)",
             "temp_max": 15.9,
-            "temp_min": 7.1,
+            "temp_min": 7.4,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
             "precipitation_mm": 0.1
@@ -847,10 +855,10 @@
         "lat": 41.3879,
         "lon": 2.1699,
         "temp": 17.6,
-        "apparent_temp": 17.9,
-        "humidity": 80,
-        "wind_speed": 7.1,
-        "wind_gusts": 12.2,
+        "apparent_temp": 18.5,
+        "humidity": 83,
+        "wind_speed": 4.0,
+        "wind_gusts": 9.4,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -865,11 +873,11 @@
           },
           {
             "date": "11/08(日)",
-            "temp_max": 19.2,
-            "temp_min": 13.4,
+            "temp_max": 19.4,
+            "temp_min": 13.6,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.1
+            "precipitation_mm": 0.0
           },
           {
             "date": "11/09(月)",
@@ -884,51 +892,6 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "セビリア (アンダルシア)",
-        "name_en": "Seville",
-        "is_capital": false,
-        "lat": 37.3891,
-        "lon": -5.9845,
-        "temp": 24.1,
-        "apparent_temp": 24.3,
-        "humidity": 45,
-        "wind_speed": 1.1,
-        "wind_gusts": 2.5,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/07(土)",
-            "temp_max": 25.5,
-            "temp_min": 12.2,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/08(日)",
-            "temp_max": 25.5,
-            "temp_min": 15.4,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 2.5
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 22.0,
-            "temp_min": 18.1,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 21.7
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -937,18 +900,18 @@
       "is_capital": true,
       "lat": 40.4168,
       "lon": -3.7038,
-      "temp": 15.1,
-      "apparent_temp": 13.9,
-      "humidity": 57,
-      "wind_speed": 2.8,
-      "wind_gusts": 7.2,
+      "temp": 14.8,
+      "apparent_temp": 13.7,
+      "humidity": 58,
+      "wind_speed": 2.1,
+      "wind_gusts": 6.5,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/07(土)",
-          "temp_max": 16.8,
+          "temp_max": 17.3,
           "temp_min": 8.2,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
@@ -957,7 +920,7 @@
         {
           "date": "11/08(日)",
           "temp_max": 15.9,
-          "temp_min": 7.1,
+          "temp_min": 7.4,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
           "precipitation_mm": 0.1
@@ -976,7 +939,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 02:31 JST"
+    "timestamp": "11/08 03:01 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1058,7 +1021,7 @@
         "details": "全国主要都市間ルートは定常運行中"
       }
     ],
-    "timestamp": "11/08 02:31 JST"
+    "timestamp": "11/08 03:01 JST"
   },
   "lifeline": {
     "status": "NORMAL",

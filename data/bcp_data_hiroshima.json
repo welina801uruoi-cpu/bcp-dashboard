@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 09:56:19",
+  "timestamp": "2026-11-07 10:28:50",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -190,11 +190,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "乾燥注意報",
-          "霜注意報",
-          "強風注意報"
+          "霜注意報"
         ],
-        "summary": "乾燥注意報、霜注意報、強風注意報",
+        "summary": "強風注意報、乾燥注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -325,16 +325,16 @@
       "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/07 10:09",
+          "text": "@jcom_support 今日jcomのインターネット START 障害 END 多くて解約が多いから料金そのままで START au END 10Gへ変更し..."
+        },
+        {
           "time": "11/07 09:47",
           "text": "START au END PAY カード 何かの START 障害 END 起きてる？起きてた？のか。でもarrowsユーザーじゃないんだよな…この後このカード..."
         },
         {
           "time": "11/07 09:16",
           "text": "START au END のポイント運用が START 障害 END で引き出せない間に3割減ってるんですけどお金返してくれませんか？"
-        },
-        {
-          "time": "11/07 08:55",
-          "text": "START au END の家のネット切れたんだが? START 障害 END とか起きてるの？情報ないから違うの？払えてない？そんなことなくない？www"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -345,7 +345,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/07 09:00",
@@ -368,7 +368,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/07 09:26",
@@ -426,8 +426,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 13,
     "articles": [
+      {
+        "title": "台風多発の年 32号が発生 過去6番目の多さ　来週、小笠原諸島接近か(テレビ朝日系（ANN）)",
+        "summary": "台風32号が発生しました。32号まで発生するのは、過去6番目に多い記録です。 7日正午に、日本のはるか南で台風32号が発生しました。 今後は発達しながら西寄りに進み、9日には強い勢力になり、進路を東寄",
+        "pub_date": "11/07 18:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/3472a6800a7df21f4227fca3deb8e37946a315f3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "交通課巡査部長が酒酔い状態で運転し事故か 同僚と飲酒後　秋田(テレビ朝日系（ANN）)",
         "summary": "酒に酔った状態で車を運転して物損事故を起こしたとして、由利本荘警察署の交通課の巡査部長・菅尾泰斗容疑者（38）を道路交通法違反の疑いで逮捕しました。 菅尾容疑者は当日、同僚6人と飲酒をしていて、警察の",
@@ -517,39 +525,31 @@
         "is_disaster": true
       },
       {
-        "title": "茨城沖で海中転落の50代男女、死亡確認(共同通信)",
-        "summary": "茨城海上保安部によると、茨城県北茨城市の沖合で、漁船から海に転落し、心肺停止状態だった50代男女の死亡が7日、確認された。",
-        "pub_date": "11/07 18:46 JST",
-        "link": "https://news.yahoo.co.jp/articles/989f6581030cad819a5a612b98ddb8765471ee89?source=rss",
+        "title": "事故漁船に親子3人 転落し2人死亡",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/07 18:54 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6601680?source=rss",
+        "category": "主要速報",
+        "is_disaster": true
+      },
+      {
+        "title": "ファンへ感謝込め「宇都宮餃子祭り」 各店の“自慢の一皿”食べ比べ(テレビ朝日系（ANN）)",
+        "summary": "餃子の町として知られる宇都宮市では毎年恒例の「宇都宮餃子祭り」が開かれています。 このイベントは宇都宮餃子ファンへの感謝祭として開かれていて、今年で26回目を迎えます。 会場には、宇都宮餃子会に加盟し",
+        "pub_date": "11/07 19:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/109bd7ad0613035f9d6f702cfd215e2e6ef07832?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "岩国基地交付金、打ち切りか　山口・和木町長「協力したのに」(共同通信)",
-        "summary": "山口県岩国市に隣接する同県和木町が、米軍岩国基地への空母艦載機移駐に伴う国の特別交付金の対象から外される可能性が出ている。坂本啓三町長は7日、騒音調査の結果、来年度から対象外になる見込みだとの説明が「",
-        "pub_date": "11/07 18:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/328a68b9109788d7634feb8aff14f213a79001ad?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【動画】8日の天気 - 北日本は明け方にかけて猛吹雪に警戒　東・西日本は強まる朝の冷え込み注意（7日19時更新）(ウェザーマップ)",
-        "summary": "冬型の気圧配置の影響で、北から寒気が流れ込んでいます。北日本では引き続き猛吹雪に警戒が必要で、晴れている東日本、西日本も日曜の朝の冷え込みに注意が必要です。",
-        "pub_date": "11/07 18:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/f0dce14bfb4484db2c0d45ef2facbf9063ce85d1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "2万発が夜空を彩る土浦全国花火競技大会　“日本三大花火”のひとつ(テレビ朝日系（ANN）)",
-        "summary": "土浦全国花火競技大会は7日午後、始まりました。会場から報告です。 午後5時半ごろから花火大会が始まりました。 今はプログラムとプログラムの間ということで花火は見られませんが、大きな花火が打ち上がる度に",
-        "pub_date": "11/07 18:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/d922d4cc2ffd3b71c7788b5aa1468f536c358e31?source=rss",
+        "title": "“松葉ガニ”初水揚げ「去年より少ない」　初物の御祝儀相場で140万円の最高値(テレビ朝日系（ANN）)",
+        "summary": "立冬の7日、鳥取港では冬の到来を告げる「松葉ガニ」が初水揚げされ、競りにかけられました。 山陰地方で水揚げされるオスのズワイガニは「松葉ガニ」と呼ばれ、日本海の冬の味覚として親しまれています。 今シー",
+        "pub_date": "11/07 19:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/630ad0294c5a011de181f2c19ed651d2fc0e254f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-07 18:55:31 JST"
+    "last_updated": "2026-11-07 19:28:26 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 12:19:16",
+  "timestamp": "2026-11-08 13:18:36",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -226,10 +226,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
           "波浪注意報"
         ],
-        "summary": "乾燥注意報、波浪注意報",
+        "summary": "波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -278,14 +277,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 鹿児島本線、肥薩線 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線: 日豊本線、肥薩線 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（鹿児島本線、肥薩線）",
+    "line_text": "運行支障あり（日豊本線、肥薩線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [
-      "鹿児島本線",
+      "日豊本線",
       "肥薩線"
     ],
     "troubled_shinkansen": [
@@ -370,19 +369,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 12:50",
+          "text": "ホントラグコスの日ってなんか起こるよね… 知ってるだけでも、 START au END の通信 START 障害 END 、台風と今回の地震💦 全国からレイヤー..."
+        },
+        {
+          "time": "11/08 12:39",
+          "text": "START au END の通信 START 障害 END が酷い。 マジで繋がらん。"
+        },
         {
           "time": "11/08 12:06",
           "text": "START au END も乗り換えキャンペーンで5G SAも試したが、5Gより4Gの方が速度が速いという奇妙な結果が出てしまった。 ドコモ5G SA STAR..."
-        },
-        {
-          "time": "11/08 09:26",
-          "text": "@ START au END _support ご丁寧にありがとうございます。 返信打つのもひとくろうです😰毎回、OFFにしているので。 クラウドは利用していま..."
-        },
-        {
-          "time": "11/08 09:25",
-          "text": "【過去に楽天モバイルを解約した方も🙆‍♂️】 社員紹介キャンペーン経由なら、楽天ポイント特典あり🎁 停電・通信 START 障害 END ・出張・在宅でも使える..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -439,7 +438,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 12:06",
@@ -474,11 +473,19 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 16,
+    "disaster_count": 15,
     "articles": [
       {
+        "title": "名鉄名古屋本線で人身事故 一部運転見合わせ(レスキューナウニュース)",
+        "summary": "富士松～豊明駅間で発生した人身事故の影響で、名鉄名古屋本線は新安城～豊明駅間の運転を見合わせています。振替輸送を行っています。",
+        "pub_date": "11/08 21:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/09f2a93fb60f6544874f0ab86f92d99aef83f4d1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "高崎線で人身事故 運転見合わせ(レスキューナウニュース)",
-        "summary": "岡部～本庄駅間で発生した人身事故の影響で、高崎線は運転を見合わせています。",
+        "summary": "岡部～本庄駅間で発生した人身事故の影響で、高崎線は運転を見合わせています。振替輸送を行っています。",
         "pub_date": "11/08 21:05 JST",
         "link": "https://news.yahoo.co.jp/articles/e5649bee28750d67caf740f7548c4383e29be434?source=rss",
         "category": "国内・気象防災",
@@ -587,17 +594,9 @@
         "link": "https://news.yahoo.co.jp/articles/1d5f5fff6bbd25a01013847aba2bf2cc58a4909b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "交差点で車とトラック衝突　東京、歩行者ら4人けが(共同通信)",
-        "summary": "8日午後1時ごろ、東京都品川区の都道交差点で、乗用車とトラックが衝突した。巻き込まれた歩行者の女性2人と、乗用車の男女2人が負傷して搬送され、警視庁荏原署が詳しい状況を調べている。いずれも意識はあると",
-        "pub_date": "11/08 16:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/4190854f676e073c1915249c14110eef051a1946?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 21:18:20 JST"
+    "last_updated": "2026-11-08 22:17:41 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -640,10 +639,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "uiRVXfW2vZo",
+        "video_id": "jGHLhb-0m1s",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/uiRVXfW2vZo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=uiRVXfW2vZo"
+        "embed_url": "https://www.youtube.com/embed/jGHLhb-0m1s?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=jGHLhb-0m1s"
       },
       {
         "id": "stream_annnews",

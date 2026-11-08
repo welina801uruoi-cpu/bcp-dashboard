@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 21:20:19",
-  "timestamp_local": "2026-11-08 19:20:19",
+  "timestamp": "2026-11-08 22:19:30",
+  "timestamp_local": "2026-11-08 20:19:30",
   "country": {
     "id": "thailand",
     "name": "タイ",
@@ -295,17 +295,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
-    "summary": "M4.7 (46 km NW of Huara, Chile)",
+    "count_24h": 15,
+    "summary": "M4.7 (Southwest Indian Ridge)",
     "latest": {
       "mag": 4.7,
-      "place": "46 km NW of Huara, Chile",
-      "time": "11/08 20:58 JST",
-      "depth_km": 68.785,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxf",
+      "place": "Southwest Indian Ridge",
+      "time": "11/08 21:29 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "Southwest Indian Ridge",
+        "time": "11/08 21:29 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "46 km NW of Huara, Chile",
@@ -595,8 +603,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 13:15",
+          "text": "ﾖｯﾀﾗｷｽｼﾀｸﾅﾙﾉ ｵｯｻﾝｽｷﾞﾃ､ｼﾞﾌﾞﾝﾃﾞｷﾓﾁﾜﾙｲ ﾃﾞﾓ ､ｼ ﾀｲ"
+        },
         {
           "time": "11/08 11:02",
           "text": "@inouesaaaaaaaan ｵ ﾃﾞﾓ 、ﾔｷﾆｸﾀﾍﾞ ﾀｲ"
@@ -604,10 +616,6 @@
         {
           "time": "11/08 10:35",
           "text": "ｵｵｻｶｼﾞｮｳｺｳｴﾝｲｷ ﾀｲ ﾃﾞﾓ ｾｲｼﾞﾝｼｷﾃﾞｴﾋﾒｶｴﾙﾋﾀﾞ"
-        },
-        {
-          "time": "11/08 10:25",
-          "text": "セックスシ タイ ！！！！ オンナノコノヒ デモ セイヨクハヨユウデアル。"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%BF%E3%82%A4%20%E3%83%87%E3%83%A2"
@@ -658,7 +666,7 @@
       {
         "id": "stream_thaipbs_live",
         "name": "📺 Thai PBS 24h 生配信",
-        "video_id": "PDcJl4XmVbQ",
+        "video_id": "eShOQT1h0kw",
         "handle": "@ThaiPBS",
         "type": "stream"
       },
@@ -691,7 +699,7 @@
     "default_channel_id": "stream_thairath_live"
   },
   "forex": {
-    "timestamp": "11/08 21:20 JST",
+    "timestamp": "11/08 22:19 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -729,20 +737,11 @@
       "departures_url": "https://suvarnabhumi.airportthai.co.th/en",
       "radar_url": "https://www.flightradar24.com/airport/bkk",
       "flightaware_url": "https://www.flightaware.com/live/airport/VTBS",
-      "weather": {
-        "raw": "METAR VTBS 081200Z 01006KT 9999 FEW020 31/24 Q1012 NOSIG",
-        "wind": "6kt",
-        "wind_speed": 6,
-        "wind_gust": 0,
-        "visibility": "6+マイル",
-        "temp": 31,
-        "fltcat": "VFR",
-        "report_time": "2026-11-08T12:00:00.000Z"
-      },
+      "weather": {},
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "視程良好（6+マイル）、風速安定（6kt）。順調に運航中"
+      "status_desc": "定常運航中（現在重大な気象警報なし）"
     },
     {
       "iata": "DMK",
@@ -753,20 +752,11 @@
       "departures_url": "https://donmueang.airportthai.co.th/en",
       "radar_url": "https://www.flightradar24.com/airport/dmk",
       "flightaware_url": "https://www.flightaware.com/live/airport/VTBD",
-      "weather": {
-        "raw": "METAR VTBD 081200Z 33006KT 300V010 9999 FEW020 30/24 Q1012 NOSIG",
-        "wind": "6kt",
-        "wind_speed": 6,
-        "wind_gust": 0,
-        "visibility": "6+マイル",
-        "temp": 30,
-        "fltcat": "VFR",
-        "report_time": "2026-11-08T12:00:00.000Z"
-      },
+      "weather": {},
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "視程良好（6+マイル）、風速安定（6kt）。順調に運航中"
+      "status_desc": "定常運航中（現在重大な気象警報なし）"
     }
   ],
   "weather": {
@@ -777,38 +767,83 @@
         "is_capital": true,
         "lat": 13.7563,
         "lon": 100.5018,
-        "temp": 28.1,
-        "apparent_temp": 32.9,
-        "humidity": 76,
-        "wind_speed": 6.8,
-        "wind_gusts": 17.6,
+        "temp": 27.7,
+        "apparent_temp": 32.2,
+        "humidity": 77,
+        "wind_speed": 7.9,
+        "wind_gusts": 22.0,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 33.9,
+            "temp_min": 23.9,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 1.4
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 33.7,
+            "temp_min": 24.7,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.2
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 32.5,
+            "temp_min": 25.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "チェンマイ (北部拠点)",
+        "name_en": "Chiang Mai",
+        "is_capital": false,
+        "lat": 18.7883,
+        "lon": 98.9853,
+        "temp": 23.4,
+        "apparent_temp": 28.4,
+        "humidity": 96,
+        "wind_speed": 2.2,
+        "wind_gusts": 4.3,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 32.7,
-            "temp_min": 23.9,
+            "temp_max": 28.2,
+            "temp_min": 22.0,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 4.4
+            "precipitation_mm": 5.7
           },
           {
             "date": "11/09(月)",
-            "temp_max": 33.0,
-            "temp_min": 23.7,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 2.1
+            "temp_max": 28.3,
+            "temp_min": 20.9,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 7.9
           },
           {
             "date": "11/10(火)",
-            "temp_max": 31.5,
-            "temp_min": 24.2,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.2
+            "temp_max": 26.0,
+            "temp_min": 20.0,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 0.6
           }
         ],
         "alert": "平常",
@@ -822,38 +857,38 @@
         "is_capital": false,
         "lat": 7.8804,
         "lon": 98.3923,
-        "temp": 27.5,
-        "apparent_temp": 31.8,
-        "humidity": 80,
-        "wind_speed": 10.9,
-        "wind_gusts": 23.0,
+        "temp": 27.1,
+        "apparent_temp": 30.9,
+        "humidity": 79,
+        "wind_speed": 11.8,
+        "wind_gusts": 24.5,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 29.2,
+            "temp_max": 30.0,
             "temp_min": 26.1,
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 2.6
+            "precipitation_mm": 1.6
           },
           {
             "date": "11/09(月)",
-            "temp_max": 29.1,
-            "temp_min": 25.5,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 6.3
+            "temp_max": 28.6,
+            "temp_min": 26.0,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 5.8
           },
           {
             "date": "11/10(火)",
-            "temp_max": 29.3,
-            "temp_min": 24.7,
+            "temp_max": 29.5,
+            "temp_min": 24.9,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 6.7
+            "precipitation_mm": 5.8
           }
         ],
         "alert": "平常",
@@ -868,38 +903,38 @@
       "is_capital": true,
       "lat": 13.7563,
       "lon": 100.5018,
-      "temp": 28.1,
-      "apparent_temp": 32.9,
-      "humidity": 76,
-      "wind_speed": 6.8,
-      "wind_gusts": 17.6,
+      "temp": 27.7,
+      "apparent_temp": 32.2,
+      "humidity": 77,
+      "wind_speed": 7.9,
+      "wind_gusts": 22.0,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 32.7,
+          "temp_max": 33.9,
           "temp_min": 23.9,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 4.4
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 1.4
         },
         {
           "date": "11/09(月)",
-          "temp_max": 33.0,
-          "temp_min": 23.7,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 2.1
-        },
-        {
-          "date": "11/10(火)",
-          "temp_max": 31.5,
-          "temp_min": 24.2,
+          "temp_max": 33.7,
+          "temp_min": 24.7,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
           "precipitation_mm": 0.2
+        },
+        {
+          "date": "11/10(火)",
+          "temp_max": 32.5,
+          "temp_min": 25.1,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -907,7 +942,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 21:20 JST"
+    "timestamp": "11/08 22:19 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -936,7 +971,7 @@
         "details": "BTSスクムウィット線・MRTブルーライン平常運行中"
       }
     ],
-    "timestamp": "11/08 21:20 JST"
+    "timestamp": "11/08 22:19 JST"
   },
   "lifeline": {
     "status": "NORMAL",

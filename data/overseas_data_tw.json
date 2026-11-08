@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 21:20:22",
-  "timestamp_local": "2026-11-08 20:20:22",
+  "timestamp": "2026-11-08 22:19:38",
+  "timestamp_local": "2026-11-08 21:19:38",
   "country": {
     "id": "taiwan",
     "name": "台湾",
@@ -306,17 +306,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
-    "summary": "M4.7 (46 km NW of Huara, Chile)",
+    "count_24h": 15,
+    "summary": "M4.7 (Southwest Indian Ridge)",
     "latest": {
       "mag": 4.7,
-      "place": "46 km NW of Huara, Chile",
-      "time": "11/08 20:58 JST",
-      "depth_km": 68.785,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxf",
+      "place": "Southwest Indian Ridge",
+      "time": "11/08 21:29 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "Southwest Indian Ridge",
+        "time": "11/08 21:29 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "46 km NW of Huara, Chile",
@@ -583,8 +591,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 12:51",
+          "text": "日本って 地震 多い国なのに避難所の質が変わってないように見える。 台湾 と比べると全然違う。 税金ってどこに使われてる..."
+        },
         {
           "time": "11/08 12:09",
           "text": "@kantei Ç√キュウベェミニ（反鏡術（鏡術・観察者） みんな、妄想で在ればいいけど ただの偶然なら良いけど お子様が、ママ 11 8 地震 E..."
@@ -592,10 +604,6 @@
         {
           "time": "11/08 11:50",
           "text": "南翔饅頭店へ 名古屋は真夜中の 地震 の影響が残っていましたが、開店前に行ったら1時間待ちでした… クリレス優待でお支払い 日本株が下がって..."
-        },
-        {
-          "time": "11/08 11:28",
-          "text": "エコルート/耐震シェルター/ 地震 シェルター オール金属製 事業所用【組立なし】 耐荷重75トン 防災グッズ/災害対策 台湾 ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E5%8F%B0%E6%B9%BE%20%E5%9C%B0%E9%9C%87"
@@ -676,7 +684,7 @@
       {
         "id": "stream_tvbs_news",
         "name": "📺 TVBS NEWS 55頻道 24h生配信",
-        "video_id": "yQ3VAts7onc",
+        "video_id": "ypFsU-IEofs",
         "handle": "@TVBSNEWS01",
         "type": "stream"
       },
@@ -702,7 +710,7 @@
     "default_channel_id": "stream_ftv_taiwan"
   },
   "forex": {
-    "timestamp": "11/08 21:20 JST",
+    "timestamp": "11/08 22:19 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -770,11 +778,11 @@
         "is_capital": true,
         "lat": 25.033,
         "lon": 121.5654,
-        "temp": 22.4,
-        "apparent_temp": 24.3,
-        "humidity": 80,
-        "wind_speed": 9.4,
-        "wind_gusts": 23.0,
+        "temp": 21.9,
+        "apparent_temp": 24.4,
+        "humidity": 84,
+        "wind_speed": 6.6,
+        "wind_gusts": 18.7,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -782,71 +790,26 @@
           {
             "date": "11/08(日)",
             "temp_max": 28.6,
-            "temp_min": 21.4,
+            "temp_min": 21.3,
             "weather_code": 1,
             "weather_label": "🌤️ 晴れ",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/09(月)",
-            "temp_max": 23.9,
+            "temp_max": 23.4,
             "temp_min": 17.0,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.8
+            "precipitation_mm": 0.6
           },
           {
             "date": "11/10(火)",
-            "temp_max": 21.3,
-            "temp_min": 15.9,
+            "temp_max": 21.1,
+            "temp_min": 15.8,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.8
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "高雄 (南部主要港湾)",
-        "name_en": "Kaohsiung",
-        "is_capital": false,
-        "lat": 22.6273,
-        "lon": 120.3014,
-        "temp": 26.0,
-        "apparent_temp": 31.6,
-        "humidity": 90,
-        "wind_speed": 4.8,
-        "wind_gusts": 8.3,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 29.2,
-            "temp_min": 24.6,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 3.8
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 28.0,
-            "temp_min": 20.1,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 2.6
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 23.7,
-            "temp_min": 17.9,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
+            "precipitation_mm": 0.5
           }
         ],
         "alert": "平常",
@@ -860,18 +823,18 @@
         "is_capital": false,
         "lat": 24.1477,
         "lon": 120.6736,
-        "temp": 24.0,
-        "apparent_temp": 26.1,
-        "humidity": 76,
-        "wind_speed": 9.9,
-        "wind_gusts": 20.9,
+        "temp": 23.5,
+        "apparent_temp": 25.1,
+        "humidity": 75,
+        "wind_speed": 11.1,
+        "wind_gusts": 24.5,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 30.6,
+            "temp_max": 31.2,
             "temp_min": 21.2,
             "weather_code": 2,
             "weather_label": "⛅ 晴れ時々曇り",
@@ -879,18 +842,18 @@
           },
           {
             "date": "11/09(月)",
-            "temp_max": 27.1,
-            "temp_min": 16.5,
+            "temp_max": 26.4,
+            "temp_min": 16.4,
             "weather_code": 1,
             "weather_label": "🌤️ 晴れ",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/10(火)",
-            "temp_max": 23.6,
+            "temp_max": 23.9,
             "temp_min": 14.3,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
             "precipitation_mm": 0.0
           }
         ],
@@ -906,11 +869,11 @@
       "is_capital": true,
       "lat": 25.033,
       "lon": 121.5654,
-      "temp": 22.4,
-      "apparent_temp": 24.3,
-      "humidity": 80,
-      "wind_speed": 9.4,
-      "wind_gusts": 23.0,
+      "temp": 21.9,
+      "apparent_temp": 24.4,
+      "humidity": 84,
+      "wind_speed": 6.6,
+      "wind_gusts": 18.7,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
@@ -918,26 +881,26 @@
         {
           "date": "11/08(日)",
           "temp_max": 28.6,
-          "temp_min": 21.4,
+          "temp_min": 21.3,
           "weather_code": 1,
           "weather_label": "🌤️ 晴れ",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/09(月)",
-          "temp_max": 23.9,
+          "temp_max": 23.4,
           "temp_min": 17.0,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.8
+          "precipitation_mm": 0.6
         },
         {
           "date": "11/10(火)",
-          "temp_max": 21.3,
-          "temp_min": 15.9,
+          "temp_max": 21.1,
+          "temp_min": 15.8,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.8
+          "precipitation_mm": 0.5
         }
       ],
       "alert": "平常",
@@ -945,7 +908,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 21:20 JST"
+    "timestamp": "11/08 22:19 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -989,7 +952,7 @@
         "details": "台北メトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/08 21:20 JST"
+    "timestamp": "11/08 22:19 JST"
   },
   "lifeline": {
     "status": "NORMAL",

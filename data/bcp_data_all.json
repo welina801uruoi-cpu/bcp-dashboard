@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 16:26:13",
+  "timestamp": "2026-11-08 16:59:45",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 19地域】道南、道北、道東、宮城、福島、茨城、群馬、東京、神奈川、新潟、富山、石川、静岡、大阪、兵庫、和歌山、熊本、鹿児島、沖縄（警報なし）",
+    "summary": "【注意報発表: 20地域】道南、道北、道東、宮城、福島、茨城、群馬、東京、神奈川、新潟、富山、石川、静岡、大阪、兵庫、和歌山、長崎、熊本、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 19,
+    "notice_count": 20,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -631,10 +631,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -965,11 +965,13 @@
         "code": "42",
         "name": "長崎県",
         "short_name": "長崎",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報"
+        ],
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -1065,13 +1067,13 @@
       "姫新線",
       "芸備線",
       "美祢線",
+      "日豊本線",
+      "福北ゆたか線",
+      "肥薩線",
       "学研都市線",
       "奈良線",
       "桜井線",
       "南海高野線",
-      "日豊本線",
-      "福北ゆたか線",
-      "肥薩線",
       "高崎線",
       "武蔵野線",
       "上越線",
@@ -1230,7 +1232,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 15:28",
@@ -1458,7 +1460,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 01:26:11 JST"
+    "last_updated": "2026-11-09 01:59:41 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 01:28:32",
-  "timestamp_local": "2026-11-09 00:28:32",
+  "timestamp": "2026-11-09 02:02:38",
+  "timestamp_local": "2026-11-09 01:02:38",
   "country": {
     "id": "malaysia",
     "name": "マレーシア",
@@ -607,7 +607,7 @@
     "default_channel_id": "stream_bernama_live"
   },
   "forex": {
-    "timestamp": "11/09 01:28 JST",
+    "timestamp": "11/09 02:02 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -660,11 +660,11 @@
         "is_capital": true,
         "lat": 3.139,
         "lon": 101.6869,
-        "temp": 25.8,
-        "apparent_temp": 32.1,
-        "humidity": 93,
-        "wind_speed": 0.6,
-        "wind_gusts": 1.8,
+        "temp": 25.5,
+        "apparent_temp": 31.8,
+        "humidity": 95,
+        "wind_speed": 1.4,
+        "wind_gusts": 2.5,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -700,19 +700,64 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
+        "name": "ペナン (ジョージタウン)",
+        "name_en": "Penang",
+        "is_capital": false,
+        "lat": 5.4141,
+        "lon": 100.3288,
+        "temp": 25.5,
+        "apparent_temp": 31.8,
+        "humidity": 99,
+        "wind_speed": 3.9,
+        "wind_gusts": 10.8,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/09(月)",
+            "temp_max": 31.2,
+            "temp_min": 24.7,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 5.6
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 30.0,
+            "temp_min": 24.6,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 15.3
+          },
+          {
+            "date": "11/11(水)",
+            "temp_max": 29.4,
+            "temp_min": 23.4,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 16.8
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ジョホールバル (南部経済圏)",
         "name_en": "Johor Bahru",
         "is_capital": false,
         "lat": 1.4927,
         "lon": 103.7414,
-        "temp": 25.2,
-        "apparent_temp": 31.5,
-        "humidity": 98,
-        "wind_speed": 2.8,
-        "wind_gusts": 7.6,
+        "temp": 25.0,
+        "apparent_temp": 30.9,
+        "humidity": 100,
+        "wind_speed": 5.2,
+        "wind_gusts": 11.2,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 45,
+        "weather_label": "🌫️ 霧",
         "forecast": [
           {
             "date": "11/09(月)",
@@ -739,10 +784,10 @@
             "precipitation_mm": 10.2
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -751,11 +796,11 @@
       "is_capital": true,
       "lat": 3.139,
       "lon": 101.6869,
-      "temp": 25.8,
-      "apparent_temp": 32.1,
-      "humidity": 93,
-      "wind_speed": 0.6,
-      "wind_gusts": 1.8,
+      "temp": 25.5,
+      "apparent_temp": 31.8,
+      "humidity": 95,
+      "wind_speed": 1.4,
+      "wind_gusts": 2.5,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -790,7 +835,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 01:28 JST"
+    "timestamp": "11/09 02:02 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -819,7 +864,7 @@
         "details": "LRTクラナジャヤ線・MRT各線平常運行中"
       }
     ],
-    "timestamp": "11/09 01:28 JST"
+    "timestamp": "11/09 02:02 JST"
   },
   "lifeline": {
     "status": "NORMAL",

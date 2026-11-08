@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 19:50:58",
+  "timestamp": "2026-11-08 20:23:40",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -61,12 +61,33 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-09 03:15",
-    "place": "茨城県北部",
-    "magnitude": "3.5",
+    "shindo": "3",
+    "time": "2026-11-09 05:16",
+    "place": "宮城県沖",
+    "magnitude": "4.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-09 05:16",
+        "place": "宮城県沖",
+        "shindo": "3",
+        "magnitude": "4.5",
+        "maxScale": 30
+      },
+      {
+        "time": "2026-11-09 05:16",
+        "place": "宮城県沖",
+        "shindo": "-",
+        "magnitude": "4.5",
+        "maxScale": -1
+      },
+      {
+        "time": "2026-11-09 05:16",
+        "place": "震源情報なし",
+        "shindo": "3",
+        "magnitude": "-",
+        "maxScale": 30
+      },
       {
         "time": "2026-11-09 03:15",
         "place": "茨城県北部",
@@ -115,27 +136,6 @@
         "shindo": "4",
         "magnitude": "-",
         "maxScale": 40
-      },
-      {
-        "time": "2026-11-08 08:23",
-        "place": "熊本県熊本地方",
-        "shindo": "1",
-        "magnitude": "3",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-08 07:38",
-        "place": "福島県沖",
-        "shindo": "2",
-        "magnitude": "3.9",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-08 02:31",
-        "place": "渡島地方東部",
-        "shindo": "2",
-        "magnitude": "2.9",
-        "maxScale": 20
       }
     ]
   },
@@ -189,10 +189,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報",
+        "summary": "乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -518,7 +518,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 04:50:44 JST"
+    "last_updated": "2026-11-09 05:23:27 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -550,10 +550,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "6UTp4V00cls",
+        "video_id": "F-e3JSif8bE",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/6UTp4V00cls?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=6UTp4V00cls"
+        "embed_url": "https://www.youtube.com/embed/F-e3JSif8bE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=F-e3JSif8bE"
       },
       {
         "id": "stream_ntvnews",
@@ -561,10 +561,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "jGHLhb-0m1s",
+        "video_id": "NwtnKYpRfBs",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/jGHLhb-0m1s?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=jGHLhb-0m1s"
+        "embed_url": "https://www.youtube.com/embed/NwtnKYpRfBs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=NwtnKYpRfBs"
       },
       {
         "id": "stream_annnews",
@@ -572,10 +572,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "UI3AMgJl2CI",
+        "video_id": "4XqiNFJuNsU",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/UI3AMgJl2CI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=UI3AMgJl2CI"
+        "embed_url": "https://www.youtube.com/embed/4XqiNFJuNsU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=4XqiNFJuNsU"
       },
       {
         "id": "stream_fnnnews",

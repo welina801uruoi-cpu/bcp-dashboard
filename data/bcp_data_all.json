@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 19:49:42",
+  "timestamp": "2026-11-08 20:22:25",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -346,12 +346,33 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-09 03:15",
-    "place": "茨城県北部",
-    "magnitude": "3.5",
+    "shindo": "3",
+    "time": "2026-11-09 05:16",
+    "place": "宮城県沖",
+    "magnitude": "4.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-09 05:16",
+        "place": "宮城県沖",
+        "shindo": "3",
+        "magnitude": "4.5",
+        "maxScale": 30
+      },
+      {
+        "time": "2026-11-09 05:16",
+        "place": "宮城県沖",
+        "shindo": "-",
+        "magnitude": "4.5",
+        "maxScale": -1
+      },
+      {
+        "time": "2026-11-09 05:16",
+        "place": "震源情報なし",
+        "shindo": "3",
+        "magnitude": "-",
+        "maxScale": 30
+      },
       {
         "time": "2026-11-09 03:15",
         "place": "茨城県北部",
@@ -400,27 +421,6 @@
         "shindo": "4",
         "magnitude": "-",
         "maxScale": 40
-      },
-      {
-        "time": "2026-11-08 08:23",
-        "place": "熊本県熊本地方",
-        "shindo": "1",
-        "magnitude": "3",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-08 07:38",
-        "place": "福島県沖",
-        "shindo": "2",
-        "magnitude": "3.9",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-08 02:31",
-        "place": "渡島地方東部",
-        "shindo": "2",
-        "magnitude": "2.9",
-        "maxScale": 20
       }
     ]
   },
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 23地域】道央、道北、宮城、福島、茨城、群馬、埼玉、千葉、東京、神奈川、新潟、富山、石川、静岡、大阪、兵庫、和歌山、山口、福岡、長崎、熊本、鹿児島、沖縄（警報なし）",
+    "summary": "【注意報発表: 24地域】道央、道北、宮城、福島、茨城、栃木、群馬、埼玉、千葉、東京、神奈川、新潟、富山、石川、静岡、大阪、兵庫、和歌山、山口、福岡、長崎、熊本、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 23,
+    "notice_count": 24,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -474,10 +474,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報",
+        "summary": "乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -569,21 +569,23 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
         "code": "9",
         "name": "栃木県",
         "short_name": "栃木",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/9/"
       },
       {
@@ -620,10 +622,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -634,11 +636,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "雷注意報",
-          "波浪注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -1038,10 +1040,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -1055,13 +1057,24 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線23路線: 肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線23路線: 石巻線、山田線、奥羽本線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、小海線、越後線 等 計23路線）",
+    "line_text": "運行支障あり（石巻線、山田線、奥羽本線、米坂線、陸羽東線 等 計23路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
+      "石巻線",
+      "山田線",
+      "奥羽本線",
+      "米坂線",
+      "陸羽東線",
+      "北上線",
+      "津軽線",
+      "山陽本線",
+      "姫新線",
+      "芸備線",
+      "美祢線",
       "肥薩線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
@@ -1073,18 +1086,7 @@
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
-      "山陽本線",
-      "姫新線",
-      "芸備線",
-      "美祢線",
-      "石巻線",
-      "山田線",
-      "奥羽本線",
-      "米坂線",
-      "陸羽東線",
-      "北上線",
-      "津軽線"
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1102,7 +1104,7 @@
         "name": "山陽新幹線",
         "status": "ALERT",
         "state": "その他",
-        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月8日 5時0分掲載）",
+        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月9日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       },
       {
@@ -1130,7 +1132,7 @@
         "name": "九州新幹線",
         "status": "ALERT",
         "state": "その他",
-        "detail": "地震災害の影響で、一部列車に運休や運転変更が出ています。（11月8日 5時0分掲載）",
+        "detail": "地震災害の影響で、一部列車に運休や運転変更が出ています。（11月9日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/410/0"
       },
       {
@@ -1445,7 +1447,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 04:49:39 JST"
+    "last_updated": "2026-11-09 05:22:21 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1477,10 +1479,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "6UTp4V00cls",
+        "video_id": "F-e3JSif8bE",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/6UTp4V00cls?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=6UTp4V00cls"
+        "embed_url": "https://www.youtube.com/embed/F-e3JSif8bE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=F-e3JSif8bE"
       },
       {
         "id": "stream_ntvnews",
@@ -1488,10 +1490,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "jGHLhb-0m1s",
+        "video_id": "NwtnKYpRfBs",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/jGHLhb-0m1s?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=jGHLhb-0m1s"
+        "embed_url": "https://www.youtube.com/embed/NwtnKYpRfBs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=NwtnKYpRfBs"
       },
       {
         "id": "stream_annnews",
@@ -1499,10 +1501,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "UI3AMgJl2CI",
+        "video_id": "4XqiNFJuNsU",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/UI3AMgJl2CI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=UI3AMgJl2CI"
+        "embed_url": "https://www.youtube.com/embed/4XqiNFJuNsU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=4XqiNFJuNsU"
       },
       {
         "id": "stream_fnnnews",

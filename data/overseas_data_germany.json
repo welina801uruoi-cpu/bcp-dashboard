@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 04:15:22",
-  "timestamp_local": "2026-11-08 21:15:22",
+  "timestamp": "2026-11-09 04:52:55",
+  "timestamp_local": "2026-11-08 21:52:55",
   "country": {
     "id": "germany",
     "name": "ドイツ",
@@ -615,7 +615,7 @@
         },
         {
           "time": "10/21 11:12",
-          "text": "#primenews ドイツ 鉄道 がクソ過ぎるという理由の一つが、 鉄道 通信ケーブルが年に200..."
+          "text": "#primenews ドイツ鉄道 がクソ過ぎるという理由の一つが、 鉄道 通信ケーブルが年に2000件破壊されているとは..."
         },
         {
           "time": "10/19 09:52",
@@ -630,7 +630,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 18:52",
@@ -735,32 +735,32 @@
     "default_channel_id": "stream_dw"
   },
   "forex": {
-    "timestamp": "11/09 04:15 JST",
+    "timestamp": "11/09 04:52 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.32,
-      "change": 0.82,
-      "change_pct": 0.52,
+      "rate": 158.38,
+      "change": 0.88,
+      "change_pct": 0.56,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.3,
-      "change": -0.52,
-      "change_pct": -0.29,
+      "rate": 176.46,
+      "change": -0.36,
+      "change_pct": -0.21,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.3,
-      "change": -0.52,
-      "change_pct": -0.29
+      "rate": 176.46,
+      "change": -0.36,
+      "change_pct": -0.21
     }
   },
   "airports": [
@@ -813,16 +813,61 @@
   "weather": {
     "cities": [
       {
+        "name": "ベルリン (首都)",
+        "name_en": "Berlin",
+        "is_capital": true,
+        "lat": 52.52,
+        "lon": 13.405,
+        "temp": 4.1,
+        "apparent_temp": 1.2,
+        "humidity": 84,
+        "wind_speed": 7.2,
+        "wind_gusts": 17.3,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 5.4,
+            "temp_min": 1.9,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 5.6,
+            "temp_min": 1.0,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 6.0,
+            "temp_min": 0.6,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "フランクフルト (金融・航空ハブ)",
         "name_en": "Frankfurt",
         "is_capital": false,
         "lat": 50.1109,
         "lon": 8.6821,
-        "temp": 7.4,
-        "apparent_temp": 6.2,
-        "humidity": 92,
-        "wind_speed": 1.5,
-        "wind_gusts": 4.0,
+        "temp": 7.2,
+        "apparent_temp": 6.1,
+        "humidity": 93,
+        "wind_speed": 1.1,
+        "wind_gusts": 2.2,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -838,15 +883,15 @@
           {
             "date": "11/09(月)",
             "temp_max": 8.8,
-            "temp_min": 5.8,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
+            "temp_min": 5.9,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/10(火)",
-            "temp_max": 8.0,
-            "temp_min": 3.2,
+            "temp_max": 8.1,
+            "temp_min": 3.1,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
             "precipitation_mm": 0.1
@@ -856,91 +901,46 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "ミュンヘン (バイエルン)",
-        "name_en": "Munich",
-        "is_capital": false,
-        "lat": 48.1351,
-        "lon": 11.582,
-        "temp": 4.1,
-        "apparent_temp": 1.7,
-        "humidity": 96,
-        "wind_speed": 6.0,
-        "wind_gusts": 12.6,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 8.9,
-            "temp_min": 3.7,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 10.2,
-            "temp_min": 1.6,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 5.5
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 9.7,
-            "temp_min": 7.7,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 12.4
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
-      "name": "フランクフルト (金融・航空ハブ)",
-      "name_en": "Frankfurt",
-      "is_capital": false,
-      "lat": 50.1109,
-      "lon": 8.6821,
-      "temp": 7.4,
-      "apparent_temp": 6.2,
-      "humidity": 92,
-      "wind_speed": 1.5,
-      "wind_gusts": 4.0,
+      "name": "ベルリン (首都)",
+      "name_en": "Berlin",
+      "is_capital": true,
+      "lat": 52.52,
+      "lon": 13.405,
+      "temp": 4.1,
+      "apparent_temp": 1.2,
+      "humidity": 84,
+      "wind_speed": 7.2,
+      "wind_gusts": 17.3,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 8.4,
-          "temp_min": 5.4,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 0.2
+          "temp_max": 5.4,
+          "temp_min": 1.9,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/09(月)",
-          "temp_max": 8.8,
-          "temp_min": 5.8,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
+          "temp_max": 5.6,
+          "temp_min": 1.0,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/10(火)",
-          "temp_max": 8.0,
-          "temp_min": 3.2,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 0.1
+          "temp_max": 6.0,
+          "temp_min": 0.6,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -948,7 +948,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 04:15 JST"
+    "timestamp": "11/09 04:52 JST"
   },
   "transit": {
     "status": "ALERT",
@@ -1030,7 +1030,7 @@
         "details": "フランクフルト・ベルリン発着の長距離路線は概ね定常運行中"
       }
     ],
-    "timestamp": "11/09 04:15 JST"
+    "timestamp": "11/09 04:52 JST"
   },
   "lifeline": {
     "status": "NORMAL",

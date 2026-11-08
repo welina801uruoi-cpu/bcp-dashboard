@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 19:12:46",
+  "timestamp": "2026-11-08 19:49:42",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 22地域】道央、道北、宮城、福島、茨城、群馬、埼玉、東京、神奈川、新潟、富山、石川、静岡、大阪、兵庫、和歌山、山口、福岡、長崎、熊本、鹿児島、沖縄（警報なし）",
+    "summary": "【注意報発表: 23地域】道央、道北、宮城、福島、茨城、群馬、埼玉、千葉、東京、神奈川、新潟、富山、石川、静岡、大阪、兵庫、和歌山、山口、福岡、長崎、熊本、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 22,
+    "notice_count": 23,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -569,9 +569,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "霜注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -615,11 +616,14 @@
         "code": "12",
         "name": "千葉県",
         "short_name": "千葉",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "波浪注意報",
+          "強風注意報"
+        ],
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -630,11 +634,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
+          "雷注意報",
           "波浪注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -1034,10 +1038,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -1051,17 +1055,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線23路線: 山陽本線、姫新線、芸備線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線23路線: 肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山陽本線、姫新線、芸備線、美祢線、肥薩線 等 計23路線）",
+    "line_text": "運行支障あり（肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、小海線、越後線 等 計23路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "山陽本線",
-      "姫新線",
-      "芸備線",
-      "美祢線",
       "肥薩線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
@@ -1074,6 +1074,10 @@
       "小湊鉄道線",
       "いすみ鉄道線",
       "わたらせ渓谷鐵道線",
+      "山陽本線",
+      "姫新線",
+      "芸備線",
+      "美祢線",
       "石巻線",
       "山田線",
       "奥羽本線",
@@ -1301,19 +1305,19 @@
     }
   ],
   "weather_overview": {
-    "status": "ALERT",
+    "status": "NORMAL",
     "office": "気象庁",
     "target_area": "東京都",
-    "report_time": "11/08 16:37",
+    "report_time": "11/09 04:38",
     "headline": "",
-    "text": "　関東甲信地方は高気圧に緩やかに覆われていますが、伊豆諸島付近は気圧の谷となっています。\n\n　東京地方は、曇りとなっています。\n\n　８日は、気圧の谷や湿った空気の影響を受ける見込みです。このため、曇りとなるでしょう。伊豆諸島では、雨や雷雨となる所がある見込みです。\n\n　９日は、低気圧が伊豆諸島付近から日本の東に進む見込みです。このため、雨時々曇りとなるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。",
+    "text": "　伊豆諸島付近が気圧の谷となっており、関東甲信地方は湿った空気の影響を受けています。\n\n　東京地方は、おおむね雨となっています。\n\n　９日は、伊豆諸島付近で低気圧が発生し、日本の東に進む見込みです。このため、雨となるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。\n\n　１０日は、上空の気圧の谷や寒気、湿った空気の影響を受けますが、次第に高気圧に緩やかに覆われる見込みです。このため、雨のち曇りで、午後は次第に晴れるでしょう。",
     "paragraphs": [
-      "関東甲信地方は高気圧に緩やかに覆われていますが、伊豆諸島付近は気圧の谷となっています。",
-      "東京地方は、曇りとなっています。",
-      "８日は、気圧の谷や湿った空気の影響を受ける見込みです。このため、曇りとなるでしょう。伊豆諸島では、雨や雷雨となる所がある見込みです。",
-      "９日は、低気圧が伊豆諸島付近から日本の東に進む見込みです。このため、雨時々曇りとなるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。"
+      "伊豆諸島付近が気圧の谷となっており、関東甲信地方は湿った空気の影響を受けています。",
+      "東京地方は、おおむね雨となっています。",
+      "９日は、伊豆諸島付近で低気圧が発生し、日本の東に進む見込みです。このため、雨となるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。",
+      "１０日は、上空の気圧の谷や寒気、湿った空気の影響を受けますが、次第に高気圧に緩やかに覆われる見込みです。このため、雨のち曇りで、午後は次第に晴れるでしょう。"
     ],
-    "summary": "関東甲信地方は高気圧に緩やかに覆われていますが、伊豆諸島付近は気圧の谷となっています。...",
+    "summary": "伊豆諸島付近が気圧の谷となっており、関東甲信地方は湿った空気の影響を受けています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=130000"
   },
   "disaster_news": {
@@ -1441,7 +1445,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 04:12:43 JST"
+    "last_updated": "2026-11-09 04:49:39 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1462,10 +1466,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "1qXC6VIktio",
+        "video_id": "dLy_IxzEYw4",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/1qXC6VIktio?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=1qXC6VIktio"
+        "embed_url": "https://www.youtube.com/embed/dLy_IxzEYw4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=dLy_IxzEYw4"
       },
       {
         "id": "stream_tbsnews",
@@ -1495,10 +1499,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "NoIzfUhRkTQ",
+        "video_id": "UI3AMgJl2CI",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/NoIzfUhRkTQ?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=NoIzfUhRkTQ"
+        "embed_url": "https://www.youtube.com/embed/UI3AMgJl2CI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=UI3AMgJl2CI"
       },
       {
         "id": "stream_fnnnews",

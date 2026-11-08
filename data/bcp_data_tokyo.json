@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 19:12:55",
+  "timestamp": "2026-11-08 19:49:55",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -202,10 +202,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 5地域】東京、神奈川、埼玉、茨城、群馬（警報なし）",
+    "summary": "【注意報発表: 6地域】東京、千葉、神奈川、埼玉、茨城、群馬（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 5,
+    "notice_count": 6,
     "total_prefs": 8,
     "pref_details": [
       {
@@ -216,22 +216,25 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
+          "雷注意報",
           "波浪注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
         "code": "12",
         "name": "千葉県",
         "short_name": "千葉",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "波浪注意報",
+          "強風注意報"
+        ],
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -268,9 +271,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "霜注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -521,19 +525,19 @@
     }
   ],
   "weather_overview": {
-    "status": "ALERT",
+    "status": "NORMAL",
     "office": "気象庁",
     "target_area": "東京都",
-    "report_time": "11/08 16:37",
+    "report_time": "11/09 04:38",
     "headline": "",
-    "text": "　関東甲信地方は高気圧に緩やかに覆われていますが、伊豆諸島付近は気圧の谷となっています。\n\n　東京地方は、曇りとなっています。\n\n　８日は、気圧の谷や湿った空気の影響を受ける見込みです。このため、曇りとなるでしょう。伊豆諸島では、雨や雷雨となる所がある見込みです。\n\n　９日は、低気圧が伊豆諸島付近から日本の東に進む見込みです。このため、雨時々曇りとなるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。",
+    "text": "　伊豆諸島付近が気圧の谷となっており、関東甲信地方は湿った空気の影響を受けています。\n\n　東京地方は、おおむね雨となっています。\n\n　９日は、伊豆諸島付近で低気圧が発生し、日本の東に進む見込みです。このため、雨となるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。\n\n　１０日は、上空の気圧の谷や寒気、湿った空気の影響を受けますが、次第に高気圧に緩やかに覆われる見込みです。このため、雨のち曇りで、午後は次第に晴れるでしょう。",
     "paragraphs": [
-      "関東甲信地方は高気圧に緩やかに覆われていますが、伊豆諸島付近は気圧の谷となっています。",
-      "東京地方は、曇りとなっています。",
-      "８日は、気圧の谷や湿った空気の影響を受ける見込みです。このため、曇りとなるでしょう。伊豆諸島では、雨や雷雨となる所がある見込みです。",
-      "９日は、低気圧が伊豆諸島付近から日本の東に進む見込みです。このため、雨時々曇りとなるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。"
+      "伊豆諸島付近が気圧の谷となっており、関東甲信地方は湿った空気の影響を受けています。",
+      "東京地方は、おおむね雨となっています。",
+      "９日は、伊豆諸島付近で低気圧が発生し、日本の東に進む見込みです。このため、雨となるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。",
+      "１０日は、上空の気圧の谷や寒気、湿った空気の影響を受けますが、次第に高気圧に緩やかに覆われる見込みです。このため、雨のち曇りで、午後は次第に晴れるでしょう。"
     ],
-    "summary": "関東甲信地方は高気圧に緩やかに覆われていますが、伊豆諸島付近は気圧の谷となっています。...",
+    "summary": "伊豆諸島付近が気圧の谷となっており、関東甲信地方は湿った空気の影響を受けています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=130000"
   },
   "disaster_news": {
@@ -661,7 +665,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 04:12:43 JST"
+    "last_updated": "2026-11-09 04:49:39 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -682,10 +686,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "1qXC6VIktio",
+        "video_id": "dLy_IxzEYw4",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/1qXC6VIktio?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=1qXC6VIktio"
+        "embed_url": "https://www.youtube.com/embed/dLy_IxzEYw4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=dLy_IxzEYw4"
       },
       {
         "id": "stream_tbsnews",
@@ -715,10 +719,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "NoIzfUhRkTQ",
+        "video_id": "UI3AMgJl2CI",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/NoIzfUhRkTQ?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=NoIzfUhRkTQ"
+        "embed_url": "https://www.youtube.com/embed/UI3AMgJl2CI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=UI3AMgJl2CI"
       },
       {
         "id": "stream_fnnnews",

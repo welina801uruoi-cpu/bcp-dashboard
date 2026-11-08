@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 22:57:33",
+  "timestamp": "2026-11-08 23:24:40",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 22地域】道央、道北、茨城、栃木、群馬、埼玉、千葉、東京、神奈川、新潟、富山、石川、静岡、大阪、兵庫、和歌山、山口、福岡、佐賀、長崎、鹿児島、沖縄（警報なし）",
+    "summary": "【注意報発表: 23地域】道央、道南、道北、茨城、栃木、群馬、埼玉、千葉、東京、神奈川、新潟、富山、石川、静岡、大阪、兵庫、和歌山、山口、福岡、佐賀、長崎、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 22,
+    "notice_count": 23,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -450,20 +450,23 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報"
+          "強風注意報",
+          "着雪注意報"
         ],
-        "summary": "強風注意報",
+        "summary": "強風注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
         "code": "1b",
         "name": "北海道(道南)",
         "short_name": "道南",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "着雪注意報"
+        ],
+        "summary": "着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -565,10 +568,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -618,10 +621,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -632,11 +635,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -1036,10 +1039,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -1053,9 +1056,9 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線35路線: 石巻線、山田線、奥羽本線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線39路線: 石巻線、山田線、奥羽本線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（石巻線、山田線、奥羽本線、米坂線、陸羽東線 等 計35路線）",
+    "line_text": "運行支障あり（石巻線、山田線、奥羽本線、米坂線、陸羽東線 等 計39路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
@@ -1067,14 +1070,14 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "函館本線",
-      "肥薩線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
       "山陽本線",
       "姫新線",
       "芸備線",
       "美祢線",
+      "函館本線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "肥薩線",
       "東海道本線",
       "名鉄名古屋本線",
       "名鉄常滑線・空港線",
@@ -1087,7 +1090,11 @@
       "万葉線",
       "中央線",
       "青梅線",
+      "五日市線",
       "東武東上線",
+      "西武池袋線・秩父線",
+      "西武有楽町線",
+      "東急東横線",
       "都営三田線",
       "東京メトロ有楽町線",
       "東京メトロ副都心線",
@@ -1172,7 +1179,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 35,
+    "target_lines_count": 39,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1332,7 +1339,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 15,
+    "disaster_count": 12,
     "articles": [
       {
         "title": "大阪・港区の倉庫火災　54時間後に鎮火　7500平方メートル焼ける　近隣住民が軽傷(産経新聞)",
@@ -1423,39 +1430,39 @@
         "is_disaster": true
       },
       {
-        "title": "三重・紀宝町で総合防災訓練　南海トラフ巨大地震を想定　県の防災ヘリを使って負傷者を救助する訓練も(メ〜テレ（名古屋テレビ）)",
-        "summary": "南海トラフ巨大地震で甚大な津波被害が想定されている三重県紀宝町で、防災訓練が行われました。 訓練は、南海トラフを震源とする巨大地震が発生し、海岸付近に最大11ｍの高さの津波が到達するという想定で行われ",
-        "pub_date": "11/08 22:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/e18733eea86a3561c8f6854f7c9165b6e5624d0a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "名鉄名古屋本線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "富士松～豊明駅間で発生した人身事故の影響で、名鉄名古屋本線は新安城～豊明駅間の運転を見合わせています。",
-        "pub_date": "11/08 21:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/09f2a93fb60f6544874f0ab86f92d99aef83f4d1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "高崎線で人身事故 運転見合わせ(レスキューナウニュース)",
-        "summary": "岡部～本庄駅間で発生した人身事故の影響で、高崎線は運転を見合わせています。振替輸送を行っています。",
-        "pub_date": "11/08 21:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/e5649bee28750d67caf740f7548c4383e29be434?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "エジプトで列車同士衝突 7人死亡",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/09 07:21 JST",
         "link": "https://news.yahoo.co.jp/pickup/6601860?source=rss",
         "category": "主要速報",
         "is_disaster": true
+      },
+      {
+        "title": "勇者気分で“雑草の「モンスター」退治”⁉　除草剤売り場でRPGの世界観(日本農業新聞)",
+        "summary": "【茨城・常陸】笠間市飯合のJA常陸笠間営農経済センターは、全国のJA資材店舗が売り場づくりを競う、JA全農主催「JA資材店舗CS甲子園2026」の大型陳列部門で準優勝した。除草剤の売り場をロールプレー",
+        "pub_date": "11/09 08:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/a55ff9085ce29f7c993c4065c9d53a61feb0d18b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "1000円台ランチから黒毛和牛まで…専門家4名が語る『しゃぶ葉』で本当に得するコースの選び方(FRIDAY)",
+        "summary": "平日の14時過ぎ、FRIDAY記者は『しゃぶ葉 マロニエゲート銀座2店』(東京・中央区)を訪れた。ランチのピークは過ぎているが、客席は8割方埋まり、食材が並ぶビュッフェ台には引きも切らずに客が押し寄せ",
+        "pub_date": "11/09 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/3c70dba731f31f550755096a408d7fe2b375ea41?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "苦境のユースホステル、でも残したい　赤字は年金で…旅人の「ただいま」励みに(共同通信)",
+        "summary": "北海道室蘭市のユースホステル（YH）支配人の藤当満さん（77）は46年間、この地で旅人を迎えてきた。若者らでにぎわった時代は去り、経営は厳しいが「一日でも長く続けたい」と、赤字を自身の年金で埋めながら",
+        "pub_date": "11/09 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/17884ea6ad3b4f5b11d36195f499f81cb23a600f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-09 07:57:31 JST"
+    "last_updated": "2026-11-09 08:24:37 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

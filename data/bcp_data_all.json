@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 14:06:50",
+  "timestamp": "2026-11-08 14:45:13",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -474,10 +474,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報",
+        "summary": "乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -488,10 +488,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
@@ -631,11 +631,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -1045,18 +1045,17 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線35路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、日豊本線等 ／ 新幹線: 山陽新幹線（その他）、東北新幹線（列車遅延））",
+    "text": "運行支障あり（在来線38路線: 伯備線、姫新線、芸備線等 ／ 新幹線: 山陽新幹線（その他）、東北新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、日豊本線、福北ゆたか線、肥薩線 等 計35路線）",
+    "line_text": "運行支障あり（伯備線、姫新線、芸備線、美祢線、石巻線 等 計38路線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（その他）、東北新幹線（列車遅延）、九州新幹線（その他）、山形新幹線（列車遅延））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（その他）、東北新幹線（列車遅延）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "日豊本線",
-      "福北ゆたか線",
-      "肥薩線",
+      "伯備線",
+      "姫新線",
+      "芸備線",
+      "美祢線",
       "石巻線",
       "山田線",
       "奥羽本線",
@@ -1064,14 +1063,16 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "山陽本線",
-      "伯備線",
-      "姫新線",
-      "芸備線",
-      "美祢線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "日豊本線",
+      "福北ゆたか線",
+      "肥薩線",
+      "奈良線",
+      "桜井線",
+      "南海高野線",
       "東海道本線",
       "身延線",
-      "名鉄名古屋本線",
       "名鉄常滑線・空港線",
       "名鉄犬山線",
       "小海線",
@@ -1079,10 +1080,12 @@
       "しなの鉄道北しなの線",
       "大井川鉄道大井川本線",
       "万葉線",
-      "湘南新宿ライン",
       "横須賀線",
       "青梅線",
-      "内房線",
+      "高崎線",
+      "上越線",
+      "信越本線",
+      "両毛線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
@@ -1091,8 +1094,7 @@
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
       "東北新幹線（列車遅延）",
-      "九州新幹線（その他）",
-      "山形新幹線（列車遅延）"
+      "九州新幹線（その他）"
     ],
     "shinkansen_details": [
       {
@@ -1153,9 +1155,9 @@
       },
       {
         "name": "山形新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "東北新幹線内で発生した架線支障の影響で、一部列車に遅れが出ています。（11月8日 16時0分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "23:10現在、ほぼ平常通り運転しています。（11月8日 23時10分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/5/0"
       },
       {
@@ -1166,7 +1168,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 35,
+    "target_lines_count": 38,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1224,16 +1226,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/08 14:40",
+          "text": "@prk599 ありましたー😿docomoやめたいんですが、 START au END がまさかの我が家入らないっていうwww くそ docomo大都市圏だと通..."
+        },
+        {
           "time": "11/08 13:25",
           "text": "またJ-COM NET落ちた。20分くらいで復活したけど、、、 START 障害 END 情報もでない（ださない？）しなぁ。 START au END ショップ..."
         },
         {
           "time": "11/08 12:50",
           "text": "ホントラグコスの日ってなんか起こるよね… 知ってるだけでも、 START au END の通信 START 障害 END 、台風と今回の地震💦 全国からレイヤー..."
-        },
-        {
-          "time": "11/08 12:39",
-          "text": "START au END の通信 START 障害 END が酷い。 マジで繋がらん。"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1267,19 +1269,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 14:40",
+          "text": "@prk599 ありましたー😿docomoやめたいんですが、 START au END がまさかの我が家入らないっていうwww くそ docomo大都市圏だと通..."
+        },
+        {
+          "time": "11/08 14:24",
+          "text": "UQに乗り換えて START 繋がらない END って事がなくなりました ドコモの時はパケ詰まりなのか5G繋がると全然ダメな時あったしやっぱ時代は START ..."
+        },
         {
           "time": "11/08 13:59",
           "text": "何がプレミアムパートナーだ START au END とSBのMVNOより START 繋がらない END し遅いぞドコモ！って三ツ沢行く度に毒吐いてる。"
-        },
-        {
-          "time": "11/08 13:55",
-          "text": "@yui00rbrb docomo使ってましたが、サーキットに限らず地元でも START 繋がらない END 時が多々あったのでデータ通信のsimはpovoにし..."
-        },
-        {
-          "time": "11/08 13:24",
-          "text": "解約の問い合わせも保留で繋がせない、他の問い合わせ番号で解約すると伝えると START 繋がらない END 番号案内される、なんかずっと START au EN..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -1326,8 +1328,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 17,
+    "disaster_count": 20,
     "articles": [
+      {
+        "title": "福岡空港の近くで産廃処理施設で火災　福岡・粕屋町　(テレビ朝日系（ANN）)",
+        "summary": "福岡空港近くの産廃処理施設で火災が発生しました。 警察などによりますと、8日午後1時すぎ、福岡県粕屋町で「建物から黒煙が見える」などと119番通報が相次ぎました。 火災は福岡空港から2キロほど離れた産",
+        "pub_date": "11/08 23:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/0648e35ed81a4815d488421be8f9029b29e7867c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "拉致被害者救出へ　高市総理「北朝鮮と対話して行動する用意」(テレビ朝日系（ANN）)",
+        "summary": "東京・千代田区で拉致被害者の救出を訴える国民大集会が開かれ、高市総理は「北朝鮮側と対話をして行動をする用意がある」と語りました。高市総理大臣「私の代で何としても突破口を開き、拉致問題を解決するとの決意",
+        "pub_date": "11/08 23:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/3aadbbe691606b97aaf28902b86b7c90130c75f9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "名鉄名古屋本線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "富士松～豊明駅間で発生した人身事故の影響で、名鉄名古屋本線は新安城～豊明駅間の運転を見合わせていましたが、23:09頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/08 23:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/937bc4f04057c73b13d5c011e27b5a684830bf82?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "高崎線で人身事故 運転再開(レスキューナウニュース)",
         "summary": "岡部～本庄駅間で発生した人身事故の影響で、高崎線は運転を見合わせていましたが、22:34頃、運転を再開しました。なお、ダイヤが乱れています。",
@@ -1423,33 +1449,9 @@
         "link": "https://news.yahoo.co.jp/articles/b57e3d3b657eb82101e2e8b817eb72cb389f5a1b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "2階の家庭科室の壁が1階に落ちた小学校も…愛知で最大震度5強を観測した地震 少なくとも県内で19人がケガ(東海テレビ)",
-        "summary": "8日未明、愛知県で最大震度5強を観測する強い地震があり、県内で少なくとも19人がケガをしました。 8日午前1時4分、静岡県西部を震源とするマグニチュード5.7の地震があり、愛知県知多市で震度5強、豊田",
-        "pub_date": "11/08 18:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/53622946ecfcc2eded68d010b8fb480577961bdf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "JR内房線“1カ月半ぶり”全線開通　一方で避難生活も…(テレビ朝日系（ANN）)",
-        "summary": "台風25号の影響で一部で運転を見合わせていたJR内房線が全線で再開しました。およそ1カ月半ぶりの再開に利用者からは安堵の声が広がっています。■JR内房線“1カ月半ぶり”全線開通 到着した電車に、待ちわ",
-        "pub_date": "11/08 18:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/f76b85699460a4f8fd3870049659662c437bbaf0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "帰国実現「延ばすこと絶対許容できない」飯塚耕一郎さん強調　時間の少なさ訴えた拉致家族(産経新聞)",
-        "summary": "北朝鮮による拉致被害者の家族会などが主催して開かれた8日の国民大集会で、家族たちは残された時間の少なさを相次いで訴えた。来年には、横田めぐみさん（62）＝拉致当時（13）＝ら昭和52年に北朝鮮に連れ去",
-        "pub_date": "11/08 18:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/6b798eed0956be1ff5d9f70c8df449706e935dd2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 23:06:47 JST"
+    "last_updated": "2026-11-08 23:45:10 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1470,10 +1472,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "Y3BAP2EqvPE",
+        "video_id": "1qXC6VIktio",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/Y3BAP2EqvPE?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Y3BAP2EqvPE"
+        "embed_url": "https://www.youtube.com/embed/1qXC6VIktio?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=1qXC6VIktio"
       },
       {
         "id": "stream_tbsnews",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 23:10:13",
-  "timestamp_local": "2026-11-08 15:10:13",
+  "timestamp": "2026-11-08 23:48:13",
+  "timestamp_local": "2026-11-08 15:48:13",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -693,8 +693,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 14:45",
+          "text": "イギリス 、ノッティンガムシャーの警察官６人がレイプの訴えを無視したとして懲戒処分に。25年１月、同警察官らは、現場のアパートに急行したにも..."
+        },
         {
           "time": "11/08 14:05",
           "text": "@Weomicns1203 @yu5nyan_nyan 🤭で？ 治安 崩壊の イギリス なんかは17%、さらに終わってる..."
@@ -702,10 +706,6 @@
         {
           "time": "11/08 11:54",
           "text": "子供達が卒業するまでの期間は イギリス より 治安 が良いから https://t.co/VxO0Zw0TgY"
-        },
-        {
-          "time": "11/08 10:10",
-          "text": "@shiikazuo グローバル化が『混乱』『無秩序』『 治安 悪化』しか生まない事は イギリス ・フランスなどEU諸国..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%20%E6%B2%BB%E5%AE%89"
@@ -756,7 +756,7 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/08 23:10 JST",
+    "timestamp": "11/08 23:48 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -849,16 +849,61 @@
   "weather": {
     "cities": [
       {
+        "name": "ロンドン (首都)",
+        "name_en": "London",
+        "is_capital": true,
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "temp": 11.0,
+        "apparent_temp": 9.0,
+        "humidity": 70,
+        "wind_speed": 6.5,
+        "wind_gusts": 14.8,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 11.2,
+            "temp_min": 7.8,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 11.0,
+            "temp_min": 5.9,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 10.6,
+            "temp_min": 6.4,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 3.8
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "マンチェスター (中部)",
         "name_en": "Manchester",
         "is_capital": false,
         "lat": 53.4808,
         "lon": -2.2426,
-        "temp": 8.9,
-        "apparent_temp": 7.1,
-        "humidity": 80,
-        "wind_speed": 4.7,
-        "wind_gusts": 10.8,
+        "temp": 9.0,
+        "apparent_temp": 7.2,
+        "humidity": 78,
+        "wind_speed": 4.3,
+        "wind_gusts": 10.4,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -901,9 +946,9 @@
         "lon": -3.1883,
         "temp": 9.2,
         "apparent_temp": 7.6,
-        "humidity": 88,
-        "wind_speed": 6.5,
-        "wind_gusts": 13.7,
+        "humidity": 86,
+        "wind_speed": 5.8,
+        "wind_gusts": 12.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -914,7 +959,7 @@
             "temp_min": 7.2,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 1.8
+            "precipitation_mm": 1.4
           },
           {
             "date": "11/09(月)",
@@ -940,43 +985,43 @@
       }
     ],
     "capital": {
-      "name": "マンチェスター (中部)",
-      "name_en": "Manchester",
-      "is_capital": false,
-      "lat": 53.4808,
-      "lon": -2.2426,
-      "temp": 8.9,
-      "apparent_temp": 7.1,
-      "humidity": 80,
-      "wind_speed": 4.7,
-      "wind_gusts": 10.8,
+      "name": "ロンドン (首都)",
+      "name_en": "London",
+      "is_capital": true,
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "temp": 11.0,
+      "apparent_temp": 9.0,
+      "humidity": 70,
+      "wind_speed": 6.5,
+      "wind_gusts": 14.8,
       "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 9.1,
-          "temp_min": 6.6,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 11.2,
+          "temp_min": 7.8,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
         },
         {
           "date": "11/09(月)",
-          "temp_max": 10.9,
-          "temp_min": 5.7,
+          "temp_max": 11.0,
+          "temp_min": 5.9,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/10(火)",
-          "temp_max": 10.2,
-          "temp_min": 5.2,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 10.6,
+          "temp_min": 6.4,
+          "weather_code": 55,
+          "weather_label": "🌦️ 霧雨 (強)",
+          "precipitation_mm": 3.8
         }
       ],
       "alert": "平常",
@@ -984,7 +1029,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 23:10 JST"
+    "timestamp": "11/08 23:48 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -994,7 +1039,7 @@
     "overall_status": "大幅遅延・一部運休",
     "strike": false,
     "monitored_systems_count": 4,
-    "alert_lines_count": 3,
+    "alert_lines_count": 2,
     "alert_lines": [
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1003,14 +1048,6 @@
         "status": "Severe Delays",
         "badge": "🟠 警戒",
         "reason": "Bakerloo Line: Severe delays due to earlier infrastructure damage at Harlesden and while we fix a points failure at Elep"
-      },
-      {
-        "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
-        "line": "Lioness",
-        "mode": "overground",
-        "status": "Severe Delays",
-        "badge": "🟠 警戒",
-        "reason": "Lioness Line: Severe delays due to earlier infrastructure damage at Harlesden. Tickets are being accepted on London Unde"
       },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1110,10 +1147,10 @@
           {
             "name": "Lioness",
             "mode": "overground",
-            "status_raw": "Severe Delays",
-            "badge": "🟠 警戒",
-            "code": "warning",
-            "reason": "Lioness Line: Severe delays due to earlier infrastructure damage at Harlesden. Tickets are being accepted on London Unde"
+            "status_raw": "Good Service",
+            "badge": "🟢 平常",
+            "code": "normal",
+            "reason": ""
           },
           {
             "name": "Metropolitan",
@@ -1241,7 +1278,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/08 23:10 JST"
+    "timestamp": "11/08 23:48 JST"
   },
   "lifeline": {
     "status": "NORMAL",

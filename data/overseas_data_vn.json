@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 23:09:28",
-  "timestamp_local": "2026-11-08 21:09:28",
+  "timestamp": "2026-11-08 23:47:36",
+  "timestamp_local": "2026-11-08 21:47:36",
   "country": {
     "id": "vietnam",
     "name": "ベトナム",
@@ -661,7 +661,7 @@
     "default_channel_id": "stream_vtv_live"
   },
   "forex": {
-    "timestamp": "11/08 23:09 JST",
+    "timestamp": "11/08 23:47 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -724,43 +724,88 @@
   "weather": {
     "cities": [
       {
-        "name": "ホーチミン (最大経済都市)",
-        "name_en": "Ho Chi Minh City",
-        "is_capital": false,
-        "lat": 10.8231,
-        "lon": 106.6297,
-        "temp": 26.2,
-        "apparent_temp": 31.8,
-        "humidity": 87,
-        "wind_speed": 3.0,
-        "wind_gusts": 24.5,
-        "precipitation": 0.2,
-        "weather_code": 53,
-        "weather_label": "🌦️ 霧雨 (中)",
+        "name": "ハノイ (首都)",
+        "name_en": "Hanoi",
+        "is_capital": true,
+        "lat": 21.0285,
+        "lon": 105.8542,
+        "temp": 23.2,
+        "apparent_temp": 24.9,
+        "humidity": 91,
+        "wind_speed": 20.1,
+        "wind_gusts": 40.7,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 34.3,
-            "temp_min": 24.1,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 1.7
+            "temp_max": 29.4,
+            "temp_min": 22.0,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 20.7
           },
           {
             "date": "11/09(月)",
-            "temp_max": 33.5,
-            "temp_min": 23.9,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 1.0
+            "temp_max": 22.4,
+            "temp_min": 16.0,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 34.7
           },
           {
             "date": "11/10(火)",
-            "temp_max": 33.5,
-            "temp_min": 24.4,
+            "temp_max": 21.8,
+            "temp_min": 17.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      },
+      {
+        "name": "ダナン (中部主要港湾)",
+        "name_en": "Da Nang",
+        "is_capital": false,
+        "lat": 16.0544,
+        "lon": 108.2022,
+        "temp": 25.7,
+        "apparent_temp": 31.7,
+        "humidity": 91,
+        "wind_speed": 0.8,
+        "wind_gusts": 3.2,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 30.1,
+            "temp_min": 25.1,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 3.7
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 25.7,
+            "temp_min": 22.9,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 86.4
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 24.8,
+            "temp_min": 23.4,
             "weather_code": 81,
             "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 3.7
+            "precipitation_mm": 55.0
           }
         ],
         "alert": "気象注意",
@@ -770,43 +815,43 @@
       }
     ],
     "capital": {
-      "name": "ホーチミン (最大経済都市)",
-      "name_en": "Ho Chi Minh City",
-      "is_capital": false,
-      "lat": 10.8231,
-      "lon": 106.6297,
-      "temp": 26.2,
-      "apparent_temp": 31.8,
-      "humidity": 87,
-      "wind_speed": 3.0,
-      "wind_gusts": 24.5,
-      "precipitation": 0.2,
-      "weather_code": 53,
-      "weather_label": "🌦️ 霧雨 (中)",
+      "name": "ハノイ (首都)",
+      "name_en": "Hanoi",
+      "is_capital": true,
+      "lat": 21.0285,
+      "lon": 105.8542,
+      "temp": 23.2,
+      "apparent_temp": 24.9,
+      "humidity": 91,
+      "wind_speed": 20.1,
+      "wind_gusts": 40.7,
+      "precipitation": 0.1,
+      "weather_code": 51,
+      "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 34.3,
-          "temp_min": 24.1,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 1.7
+          "temp_max": 29.4,
+          "temp_min": 22.0,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 20.7
         },
         {
           "date": "11/09(月)",
-          "temp_max": 33.5,
-          "temp_min": 23.9,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 1.0
+          "temp_max": 22.4,
+          "temp_min": 16.0,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 34.7
         },
         {
           "date": "11/10(火)",
-          "temp_max": 33.5,
-          "temp_min": 24.4,
-          "weather_code": 81,
-          "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 3.7
+          "temp_max": 21.8,
+          "temp_min": 17.1,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "気象注意",
@@ -814,7 +859,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/08 23:09 JST"
+    "timestamp": "11/08 23:47 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -843,7 +888,7 @@
         "details": "南北統一鉄道各便平常運行中"
       }
     ],
-    "timestamp": "11/08 23:09 JST"
+    "timestamp": "11/08 23:47 JST"
   },
   "lifeline": {
     "status": "NORMAL",

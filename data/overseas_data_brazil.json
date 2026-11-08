@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 23:10:55",
-  "timestamp_local": "2026-11-08 11:10:55",
+  "timestamp": "2026-11-08 23:49:16",
+  "timestamp_local": "2026-11-08 11:49:16",
   "country": {
     "id": "brazil",
     "name": "ブラジル",
@@ -691,7 +691,7 @@
     "default_channel_id": "stream_band_live"
   },
   "forex": {
-    "timestamp": "11/08 23:10 JST",
+    "timestamp": "11/08 23:49 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -754,64 +754,19 @@
   "weather": {
     "cities": [
       {
-        "name": "ブラジリア (首都)",
-        "name_en": "Brasília",
-        "is_capital": true,
-        "lat": -15.8267,
-        "lon": -47.9218,
-        "temp": 22.6,
-        "apparent_temp": 25.9,
-        "humidity": 82,
-        "wind_speed": 1.8,
-        "wind_gusts": 11.5,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 27.7,
-            "temp_min": 18.6,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 12.8
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 26.4,
-            "temp_min": 19.5,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 18.1
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 26.8,
-            "temp_min": 18.7,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 5.7
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "サンパウロ (南米最大都市)",
         "name_en": "São Paulo",
         "is_capital": false,
         "lat": -23.5505,
         "lon": -46.6333,
-        "temp": 16.1,
-        "apparent_temp": 15.7,
-        "humidity": 91,
-        "wind_speed": 12.4,
-        "wind_gusts": 32.0,
-        "precipitation": 0.3,
-        "weather_code": 55,
-        "weather_label": "🌦️ 霧雨 (強)",
+        "temp": 16.4,
+        "apparent_temp": 15.8,
+        "humidity": 89,
+        "wind_speed": 14.3,
+        "wind_gusts": 33.8,
+        "precipitation": 0.5,
+        "weather_code": 61,
+        "weather_label": "🌧️ 雨 (小雨)",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -849,11 +804,11 @@
         "is_capital": false,
         "lat": -22.9068,
         "lon": -43.1729,
-        "temp": 22.5,
-        "apparent_temp": 22.2,
-        "humidity": 81,
-        "wind_speed": 25.3,
-        "wind_gusts": 72.0,
+        "temp": 22.3,
+        "apparent_temp": 21.8,
+        "humidity": 79,
+        "wind_speed": 24.9,
+        "wind_gusts": 65.2,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
@@ -883,58 +838,58 @@
             "precipitation_mm": 0.6
           }
         ],
-        "alert": "暴風・悪天候警報",
-        "alert_badge": "🔴 暴風警報",
-        "alert_class": "red",
-        "alert_desc": "雷雨または猛烈な突風（72.0km/h）・激しい降雨に警戒"
+        "alert": "強風・大雨注意報",
+        "alert_badge": "🟠 気象注意報",
+        "alert_class": "orange",
+        "alert_desc": "強風（突風65.2km/h）または強い雨。移動・屋外行動に注意"
       }
     ],
     "capital": {
-      "name": "ブラジリア (首都)",
-      "name_en": "Brasília",
-      "is_capital": true,
-      "lat": -15.8267,
-      "lon": -47.9218,
-      "temp": 22.6,
-      "apparent_temp": 25.9,
-      "humidity": 82,
-      "wind_speed": 1.8,
-      "wind_gusts": 11.5,
-      "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "name": "サンパウロ (南米最大都市)",
+      "name_en": "São Paulo",
+      "is_capital": false,
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "temp": 16.4,
+      "apparent_temp": 15.8,
+      "humidity": 89,
+      "wind_speed": 14.3,
+      "wind_gusts": 33.8,
+      "precipitation": 0.5,
+      "weather_code": 61,
+      "weather_label": "🌧️ 雨 (小雨)",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 27.7,
-          "temp_min": 18.6,
-          "weather_code": 81,
-          "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 12.8
+          "temp_max": 19.4,
+          "temp_min": 13.8,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 10.4
         },
         {
           "date": "11/09(月)",
-          "temp_max": 26.4,
-          "temp_min": 19.5,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 18.1
+          "temp_max": 15.6,
+          "temp_min": 13.1,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.7
         },
         {
           "date": "11/10(火)",
-          "temp_max": 26.8,
-          "temp_min": 18.7,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 5.7
+          "temp_max": 20.5,
+          "temp_min": 11.8,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.2
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/08 23:10 JST"
+    "timestamp": "11/08 23:49 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -963,7 +918,7 @@
         "details": "地下鉄各線平常運行中"
       }
     ],
-    "timestamp": "11/08 23:10 JST"
+    "timestamp": "11/08 23:49 JST"
   },
   "lifeline": {
     "status": "NORMAL",

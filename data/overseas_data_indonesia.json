@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 23:09:38",
-  "timestamp_local": "2026-11-08 21:09:38",
+  "timestamp": "2026-11-08 23:47:51",
+  "timestamp_local": "2026-11-08 21:47:51",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -591,7 +591,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 13:12",
@@ -675,7 +675,7 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/08 23:09 JST",
+    "timestamp": "11/08 23:47 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -738,64 +738,19 @@
   "weather": {
     "cities": [
       {
-        "name": "ジャカルタ (首都)",
-        "name_en": "Jakarta",
-        "is_capital": true,
-        "lat": -6.2088,
-        "lon": 106.8456,
-        "temp": 29.5,
-        "apparent_temp": 35.8,
-        "humidity": 76,
-        "wind_speed": 2.1,
-        "wind_gusts": 5.4,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 33.9,
-            "temp_min": 26.0,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 4.2
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 32.2,
-            "temp_min": 25.3,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 4.1
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 33.7,
-            "temp_min": 25.3,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 3.6
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "デンパサール (バリ島)",
         "name_en": "Denpasar",
         "is_capital": false,
         "lat": -8.6705,
         "lon": 115.2126,
-        "temp": 27.4,
-        "apparent_temp": 32.8,
-        "humidity": 82,
-        "wind_speed": 5.4,
-        "wind_gusts": 13.0,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "temp": 26.9,
+        "apparent_temp": 32.3,
+        "humidity": 85,
+        "wind_speed": 5.2,
+        "wind_gusts": 16.6,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -822,10 +777,10 @@
             "precipitation_mm": 9.2
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "スラバヤ (東ジャワ)",
@@ -833,14 +788,14 @@
         "is_capital": false,
         "lat": -7.2575,
         "lon": 112.7521,
-        "temp": 31.0,
-        "apparent_temp": 35.4,
-        "humidity": 65,
-        "wind_speed": 10.2,
-        "wind_gusts": 27.4,
+        "temp": 30.7,
+        "apparent_temp": 35.2,
+        "humidity": 66,
+        "wind_speed": 9.8,
+        "wind_gusts": 24.5,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -874,51 +829,51 @@
       }
     ],
     "capital": {
-      "name": "ジャカルタ (首都)",
-      "name_en": "Jakarta",
-      "is_capital": true,
-      "lat": -6.2088,
-      "lon": 106.8456,
-      "temp": 29.5,
-      "apparent_temp": 35.8,
-      "humidity": 76,
-      "wind_speed": 2.1,
-      "wind_gusts": 5.4,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "name": "デンパサール (バリ島)",
+      "name_en": "Denpasar",
+      "is_capital": false,
+      "lat": -8.6705,
+      "lon": 115.2126,
+      "temp": 26.9,
+      "apparent_temp": 32.3,
+      "humidity": 85,
+      "wind_speed": 5.2,
+      "wind_gusts": 16.6,
+      "precipitation": 0.1,
+      "weather_code": 51,
+      "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 33.9,
-          "temp_min": 26.0,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 4.2
+          "temp_max": 32.1,
+          "temp_min": 24.8,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 1.7
         },
         {
           "date": "11/09(月)",
-          "temp_max": 32.2,
-          "temp_min": 25.3,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 4.1
+          "temp_max": 31.9,
+          "temp_min": 24.1,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 3.3
         },
         {
           "date": "11/10(火)",
-          "temp_max": 33.7,
-          "temp_min": 25.3,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 3.6
+          "temp_max": 30.0,
+          "temp_min": 22.8,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 9.2
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/08 23:09 JST"
+    "timestamp": "11/08 23:47 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -947,7 +902,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/08 23:09 JST"
+    "timestamp": "11/08 23:47 JST"
   },
   "lifeline": {
     "status": "NORMAL",

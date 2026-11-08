@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 02:02:52",
-  "timestamp_local": "2026-11-09 00:02:52",
+  "timestamp": "2026-11-09 02:29:42",
+  "timestamp_local": "2026-11-09 00:29:42",
   "country": {
     "id": "cambodia",
     "name": "カンボジア",
@@ -260,17 +260,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M4.7 (Southwest Indian Ridge)",
+    "count_24h": 12,
+    "summary": "M4.6 (117 km NE of Tobelo, Indonesia)",
     "latest": {
-      "mag": 4.7,
-      "place": "Southwest Indian Ridge",
-      "time": "11/08 21:29 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn",
+      "mag": 4.6,
+      "place": "117 km NE of Tobelo, Indonesia",
+      "time": "11/09 01:45 JST",
+      "depth_km": 224.59,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "117 km NE of Tobelo, Indonesia",
+        "time": "11/09 01:45 JST",
+        "depth_km": 224.59,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.8,
+        "place": "central Mid-Atlantic Ridge",
+        "time": "11/09 01:33 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyc",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "Southwest Indian Ridge",
@@ -349,14 +365,6 @@
         "time": "11/08 04:55 JST",
         "depth_km": 37.054,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "45 km NNW of Salinas, Ecuador",
-        "time": "11/08 02:17 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
         "tsunami": 0
       }
     ]
@@ -601,7 +609,7 @@
     "default_channel_id": "stream_euronews_asia"
   },
   "forex": {
-    "timestamp": "11/09 02:02 JST",
+    "timestamp": "11/09 02:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -649,60 +657,15 @@
   "weather": {
     "cities": [
       {
-        "name": "プノンペン (首都)",
-        "name_en": "Phnom Penh",
-        "is_capital": true,
-        "lat": 11.5564,
-        "lon": 104.9282,
-        "temp": 27.0,
-        "apparent_temp": 32.4,
-        "humidity": 86,
-        "wind_speed": 6.8,
-        "wind_gusts": 11.9,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/09(月)",
-            "temp_max": 32.2,
-            "temp_min": 24.5,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 5.6
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 31.8,
-            "temp_min": 24.5,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 6.1
-          },
-          {
-            "date": "11/11(水)",
-            "temp_max": 31.3,
-            "temp_min": 24.2,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 6.1
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "シェムリアップ (北西部)",
         "name_en": "Siem Reap",
         "is_capital": false,
         "lat": 13.3671,
         "lon": 103.8448,
-        "temp": 24.4,
+        "temp": 24.3,
         "apparent_temp": 29.0,
         "humidity": 96,
-        "wind_speed": 8.8,
+        "wind_speed": 8.4,
         "wind_gusts": 13.7,
         "precipitation": 0.0,
         "weather_code": 2,
@@ -740,43 +703,43 @@
       }
     ],
     "capital": {
-      "name": "プノンペン (首都)",
-      "name_en": "Phnom Penh",
-      "is_capital": true,
-      "lat": 11.5564,
-      "lon": 104.9282,
-      "temp": 27.0,
-      "apparent_temp": 32.4,
-      "humidity": 86,
-      "wind_speed": 6.8,
-      "wind_gusts": 11.9,
+      "name": "シェムリアップ (北西部)",
+      "name_en": "Siem Reap",
+      "is_capital": false,
+      "lat": 13.3671,
+      "lon": 103.8448,
+      "temp": 24.3,
+      "apparent_temp": 29.0,
+      "humidity": 96,
+      "wind_speed": 8.4,
+      "wind_gusts": 13.7,
       "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
           "date": "11/09(月)",
-          "temp_max": 32.2,
-          "temp_min": 24.5,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 5.6
+          "temp_max": 32.3,
+          "temp_min": 23.2,
+          "weather_code": 82,
+          "weather_label": "⛈️ 激しいにわか雨",
+          "precipitation_mm": 13.2
         },
         {
           "date": "11/10(火)",
-          "temp_max": 31.8,
-          "temp_min": 24.5,
-          "weather_code": 81,
-          "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 6.1
+          "temp_max": 30.5,
+          "temp_min": 23.2,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
         },
         {
           "date": "11/11(水)",
-          "temp_max": 31.3,
-          "temp_min": 24.2,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 6.1
+          "temp_max": 30.4,
+          "temp_min": 22.0,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 4.2
         }
       ],
       "alert": "平常",
@@ -784,7 +747,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 02:02 JST"
+    "timestamp": "11/09 02:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -813,7 +776,7 @@
         "details": "旅客定期便運行中"
       }
     ],
-    "timestamp": "11/09 02:02 JST"
+    "timestamp": "11/09 02:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

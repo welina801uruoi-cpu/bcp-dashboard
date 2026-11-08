@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 16:59:58",
+  "timestamp": "2026-11-08 17:26:47",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -217,10 +217,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -316,20 +316,15 @@
     "notice_items": []
   },
   "transit": {
-    "status": "ALERT",
-    "text": "運行支障あり（在来線: 高崎線、武蔵野線 ／ 新幹線: 東北新幹線（列車遅延））",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（高崎線、武蔵野線）",
-    "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東北新幹線（列車遅延））",
+    "status": "NORMAL",
+    "text": "全線平常運行中",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
+    "shinkansen_status": "NORMAL",
+    "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [
-      "高崎線",
-      "武蔵野線"
-    ],
-    "troubled_shinkansen": [
-      "東北新幹線（列車遅延）"
-    ],
+    "troubled_lines": [],
+    "troubled_shinkansen": [],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
@@ -340,9 +335,9 @@
       },
       {
         "name": "東北新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "郡山〜福島駅間で発生した架線支障の影響で、東京〜福島駅間の上り線(東京方面行)の一部列車に遅れが出ています。（11月8日 23時0分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/1/0"
       },
       {
@@ -664,7 +659,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 01:59:41 JST"
+    "last_updated": "2026-11-09 02:26:31 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

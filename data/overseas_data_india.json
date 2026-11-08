@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 02:02:49",
-  "timestamp_local": "2026-11-08 22:32:49",
+  "timestamp": "2026-11-09 02:29:33",
+  "timestamp_local": "2026-11-08 22:59:33",
   "country": {
     "id": "india",
     "name": "インド",
@@ -289,17 +289,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M4.7 (Southwest Indian Ridge)",
+    "count_24h": 12,
+    "summary": "M4.6 (117 km NE of Tobelo, Indonesia)",
     "latest": {
-      "mag": 4.7,
-      "place": "Southwest Indian Ridge",
-      "time": "11/08 21:29 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn",
+      "mag": 4.6,
+      "place": "117 km NE of Tobelo, Indonesia",
+      "time": "11/09 01:45 JST",
+      "depth_km": 224.59,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "117 km NE of Tobelo, Indonesia",
+        "time": "11/09 01:45 JST",
+        "depth_km": 224.59,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.8,
+        "place": "central Mid-Atlantic Ridge",
+        "time": "11/09 01:33 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyc",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "Southwest Indian Ridge",
@@ -378,14 +394,6 @@
         "time": "11/08 04:55 JST",
         "depth_km": 37.054,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "45 km NNW of Salinas, Ecuador",
-        "time": "11/08 02:17 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
         "tsunami": 0
       }
     ]
@@ -655,7 +663,7 @@
     "default_channel_id": "stream_ndtv_live"
   },
   "forex": {
-    "timestamp": "11/09 02:02 JST",
+    "timestamp": "11/09 02:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -718,15 +726,105 @@
   "weather": {
     "cities": [
       {
+        "name": "ニューデリー (首都)",
+        "name_en": "New Delhi",
+        "is_capital": true,
+        "lat": 28.6139,
+        "lon": 77.209,
+        "temp": 21.3,
+        "apparent_temp": 23.2,
+        "humidity": 78,
+        "wind_speed": 5.0,
+        "wind_gusts": 8.6,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 28.5,
+            "temp_min": 18.7,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 27.7,
+            "temp_min": 18.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 27.8,
+            "temp_min": 18.2,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ムンバイ (商業都市)",
+        "name_en": "Mumbai",
+        "is_capital": false,
+        "lat": 19.076,
+        "lon": 72.8777,
+        "temp": 29.4,
+        "apparent_temp": 28.6,
+        "humidity": 31,
+        "wind_speed": 6.8,
+        "wind_gusts": 16.2,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 36.6,
+            "temp_min": 25.0,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 35.6,
+            "temp_min": 24.4,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 35.7,
+            "temp_min": 24.4,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ベンガルール (IT拠点)",
         "name_en": "Bengaluru",
         "is_capital": false,
         "lat": 12.9716,
         "lon": 77.5946,
-        "temp": 21.2,
-        "apparent_temp": 23.0,
-        "humidity": 89,
-        "wind_speed": 12.0,
+        "temp": 21.1,
+        "apparent_temp": 22.9,
+        "humidity": 90,
+        "wind_speed": 11.8,
         "wind_gusts": 25.9,
         "precipitation": 0.0,
         "weather_code": 3,
@@ -764,40 +862,40 @@
       }
     ],
     "capital": {
-      "name": "ベンガルール (IT拠点)",
-      "name_en": "Bengaluru",
-      "is_capital": false,
-      "lat": 12.9716,
-      "lon": 77.5946,
-      "temp": 21.2,
-      "apparent_temp": 23.0,
-      "humidity": 89,
-      "wind_speed": 12.0,
-      "wind_gusts": 25.9,
+      "name": "ニューデリー (首都)",
+      "name_en": "New Delhi",
+      "is_capital": true,
+      "lat": 28.6139,
+      "lon": 77.209,
+      "temp": 21.3,
+      "apparent_temp": 23.2,
+      "humidity": 78,
+      "wind_speed": 5.0,
+      "wind_gusts": 8.6,
       "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 28.4,
-          "temp_min": 19.9,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.9
+          "temp_max": 28.5,
+          "temp_min": 18.7,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/09(月)",
-          "temp_max": 28.5,
-          "temp_min": 19.7,
+          "temp_max": 27.7,
+          "temp_min": 18.4,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/10(火)",
-          "temp_max": 28.9,
-          "temp_min": 18.5,
+          "temp_max": 27.8,
+          "temp_min": 18.2,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -808,7 +906,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 02:02 JST"
+    "timestamp": "11/09 02:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -837,7 +935,7 @@
         "details": "デリーメトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/09 02:02 JST"
+    "timestamp": "11/09 02:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

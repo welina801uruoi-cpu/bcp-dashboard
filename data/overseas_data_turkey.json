@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 02:03:10",
-  "timestamp_local": "2026-11-08 20:03:10",
+  "timestamp": "2026-11-09 02:30:19",
+  "timestamp_local": "2026-11-08 20:30:19",
   "country": {
     "id": "turkey",
     "name": "トルコ",
@@ -283,17 +283,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M4.7 (Southwest Indian Ridge)",
+    "count_24h": 12,
+    "summary": "M4.6 (117 km NE of Tobelo, Indonesia)",
     "latest": {
-      "mag": 4.7,
-      "place": "Southwest Indian Ridge",
-      "time": "11/08 21:29 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn",
+      "mag": 4.6,
+      "place": "117 km NE of Tobelo, Indonesia",
+      "time": "11/09 01:45 JST",
+      "depth_km": 224.59,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "117 km NE of Tobelo, Indonesia",
+        "time": "11/09 01:45 JST",
+        "depth_km": 224.59,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.8,
+        "place": "central Mid-Atlantic Ridge",
+        "time": "11/09 01:33 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyc",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "Southwest Indian Ridge",
@@ -372,14 +388,6 @@
         "time": "11/08 04:55 JST",
         "depth_km": 37.054,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "45 km NNW of Salinas, Ecuador",
-        "time": "11/08 02:17 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
         "tsunami": 0
       }
     ]
@@ -630,7 +638,7 @@
     "default_channel_id": "stream_trt_live"
   },
   "forex": {
-    "timestamp": "11/09 02:03 JST",
+    "timestamp": "11/09 02:30 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -698,11 +706,11 @@
         "is_capital": true,
         "lat": 39.9334,
         "lon": 32.8597,
-        "temp": 2.8,
-        "apparent_temp": -0.4,
-        "humidity": 58,
-        "wind_speed": 2.9,
-        "wind_gusts": 10.8,
+        "temp": 2.5,
+        "apparent_temp": -0.6,
+        "humidity": 60,
+        "wind_speed": 2.3,
+        "wind_gusts": 5.8,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -743,11 +751,11 @@
         "is_capital": false,
         "lat": 41.0082,
         "lon": 28.9784,
-        "temp": 8.2,
-        "apparent_temp": 6.3,
-        "humidity": 79,
-        "wind_speed": 4.6,
-        "wind_gusts": 11.2,
+        "temp": 7.9,
+        "apparent_temp": 6.0,
+        "humidity": 81,
+        "wind_speed": 4.3,
+        "wind_gusts": 7.9,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -781,51 +789,6 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "イズミル (エーゲ海沿岸)",
-        "name_en": "Izmir",
-        "is_capital": false,
-        "lat": 38.4237,
-        "lon": 27.1428,
-        "temp": 9.2,
-        "apparent_temp": 6.8,
-        "humidity": 59,
-        "wind_speed": 3.7,
-        "wind_gusts": 8.3,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 15.1,
-            "temp_min": 6.3,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 16.8,
-            "temp_min": 5.2,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.1
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 16.5,
-            "temp_min": 9.4,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 1.7
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -834,11 +797,11 @@
       "is_capital": true,
       "lat": 39.9334,
       "lon": 32.8597,
-      "temp": 2.8,
-      "apparent_temp": -0.4,
-      "humidity": 58,
-      "wind_speed": 2.9,
-      "wind_gusts": 10.8,
+      "temp": 2.5,
+      "apparent_temp": -0.6,
+      "humidity": 60,
+      "wind_speed": 2.3,
+      "wind_gusts": 5.8,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
@@ -873,7 +836,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 02:03 JST"
+    "timestamp": "11/09 02:30 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -902,7 +865,7 @@
         "details": "YHT高速列車など主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/09 02:03 JST"
+    "timestamp": "11/09 02:30 JST"
   },
   "lifeline": {
     "status": "NORMAL",

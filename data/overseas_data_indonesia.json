@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 02:02:35",
-  "timestamp_local": "2026-11-09 00:02:35",
+  "timestamp": "2026-11-09 02:29:27",
+  "timestamp_local": "2026-11-09 00:29:27",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -283,17 +283,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M4.7 (Southwest Indian Ridge)",
+    "count_24h": 12,
+    "summary": "M4.6 (117 km NE of Tobelo, Indonesia)",
     "latest": {
-      "mag": 4.7,
-      "place": "Southwest Indian Ridge",
-      "time": "11/08 21:29 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn",
+      "mag": 4.6,
+      "place": "117 km NE of Tobelo, Indonesia",
+      "time": "11/09 01:45 JST",
+      "depth_km": 224.59,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "117 km NE of Tobelo, Indonesia",
+        "time": "11/09 01:45 JST",
+        "depth_km": 224.59,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.8,
+        "place": "central Mid-Atlantic Ridge",
+        "time": "11/09 01:33 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyc",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "Southwest Indian Ridge",
@@ -372,14 +388,6 @@
         "time": "11/08 04:55 JST",
         "depth_km": 37.054,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "45 km NNW of Salinas, Ecuador",
-        "time": "11/08 02:17 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
         "tsunami": 0
       }
     ]
@@ -643,7 +651,7 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/09 02:02 JST",
+    "timestamp": "11/09 02:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -711,11 +719,11 @@
         "is_capital": true,
         "lat": -6.2088,
         "lon": 106.8456,
-        "temp": 28.5,
-        "apparent_temp": 34.4,
+        "temp": 28.3,
+        "apparent_temp": 34.2,
         "humidity": 79,
-        "wind_speed": 2.3,
-        "wind_gusts": 5.4,
+        "wind_speed": 2.7,
+        "wind_gusts": 6.1,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -756,14 +764,14 @@
         "is_capital": false,
         "lat": -8.6705,
         "lon": 115.2126,
-        "temp": 25.9,
-        "apparent_temp": 31.7,
+        "temp": 25.8,
+        "apparent_temp": 31.5,
         "humidity": 91,
         "wind_speed": 3.3,
         "wind_gusts": 10.1,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/09(月)",
@@ -790,51 +798,6 @@
             "precipitation_mm": 7.7
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "スラバヤ (東ジャワ)",
-        "name_en": "Surabaya",
-        "is_capital": false,
-        "lat": -7.2575,
-        "lon": 112.7521,
-        "temp": 27.9,
-        "apparent_temp": 32.8,
-        "humidity": 81,
-        "wind_speed": 9.0,
-        "wind_gusts": 19.1,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
-        "forecast": [
-          {
-            "date": "11/09(月)",
-            "temp_max": 34.9,
-            "temp_min": 25.6,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 4.9
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 33.4,
-            "temp_min": 25.8,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 6.1
-          },
-          {
-            "date": "11/11(水)",
-            "temp_max": 32.5,
-            "temp_min": 24.3,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 4.7
-          }
-        ],
         "alert": "気象注意",
         "alert_badge": "🟡 気象注意",
         "alert_class": "yellow",
@@ -847,11 +810,11 @@
       "is_capital": true,
       "lat": -6.2088,
       "lon": 106.8456,
-      "temp": 28.5,
-      "apparent_temp": 34.4,
+      "temp": 28.3,
+      "apparent_temp": 34.2,
       "humidity": 79,
-      "wind_speed": 2.3,
-      "wind_gusts": 5.4,
+      "wind_speed": 2.7,
+      "wind_gusts": 6.1,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -886,7 +849,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 02:02 JST"
+    "timestamp": "11/09 02:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -915,7 +878,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/09 02:02 JST"
+    "timestamp": "11/09 02:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

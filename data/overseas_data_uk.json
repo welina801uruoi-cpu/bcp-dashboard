@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 02:02:56",
-  "timestamp_local": "2026-11-08 18:02:56",
+  "timestamp": "2026-11-09 02:29:51",
+  "timestamp_local": "2026-11-08 18:29:51",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -352,17 +352,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M4.7 (Southwest Indian Ridge)",
+    "count_24h": 12,
+    "summary": "M4.6 (117 km NE of Tobelo, Indonesia)",
     "latest": {
-      "mag": 4.7,
-      "place": "Southwest Indian Ridge",
-      "time": "11/08 21:29 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn",
+      "mag": 4.6,
+      "place": "117 km NE of Tobelo, Indonesia",
+      "time": "11/09 01:45 JST",
+      "depth_km": 224.59,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "117 km NE of Tobelo, Indonesia",
+        "time": "11/09 01:45 JST",
+        "depth_km": 224.59,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.8,
+        "place": "central Mid-Atlantic Ridge",
+        "time": "11/09 01:33 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyc",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "Southwest Indian Ridge",
@@ -441,14 +457,6 @@
         "time": "11/08 04:55 JST",
         "depth_km": 37.054,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "45 km NNW of Salinas, Ecuador",
-        "time": "11/08 02:17 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
         "tsunami": 0
       }
     ]
@@ -724,7 +732,7 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/09 02:02 JST",
+    "timestamp": "11/09 02:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -822,18 +830,18 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 10.7,
-        "apparent_temp": 9.1,
-        "humidity": 71,
-        "wind_speed": 3.6,
-        "wind_gusts": 8.6,
+        "temp": 10.3,
+        "apparent_temp": 8.7,
+        "humidity": 75,
+        "wind_speed": 4.7,
+        "wind_gusts": 10.4,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 11.1,
+            "temp_max": 10.9,
             "temp_min": 7.9,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
@@ -867,11 +875,11 @@
         "is_capital": false,
         "lat": 53.4808,
         "lon": -2.2426,
-        "temp": 8.8,
-        "apparent_temp": 7.2,
-        "humidity": 81,
-        "wind_speed": 4.0,
-        "wind_gusts": 9.0,
+        "temp": 8.9,
+        "apparent_temp": 7.5,
+        "humidity": 82,
+        "wind_speed": 2.5,
+        "wind_gusts": 5.8,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -912,22 +920,22 @@
         "is_capital": false,
         "lat": 55.9533,
         "lon": -3.1883,
-        "temp": 8.8,
-        "apparent_temp": 7.1,
+        "temp": 8.9,
+        "apparent_temp": 7.2,
         "humidity": 89,
-        "wind_speed": 6.5,
-        "wind_gusts": 14.4,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "wind_speed": 6.8,
+        "wind_gusts": 15.1,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 9.2,
+            "temp_max": 9.1,
             "temp_min": 7.2,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 1.7
+            "precipitation_mm": 1.9
           },
           {
             "date": "11/09(月)",
@@ -946,10 +954,10 @@
             "precipitation_mm": 0.0
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -958,18 +966,18 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 10.7,
-      "apparent_temp": 9.1,
-      "humidity": 71,
-      "wind_speed": 3.6,
-      "wind_gusts": 8.6,
+      "temp": 10.3,
+      "apparent_temp": 8.7,
+      "humidity": 75,
+      "wind_speed": 4.7,
+      "wind_gusts": 10.4,
       "precipitation": 0.0,
       "weather_code": 2,
       "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 11.1,
+          "temp_max": 10.9,
           "temp_min": 7.9,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
@@ -997,7 +1005,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 02:02 JST"
+    "timestamp": "11/09 02:29 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -1019,11 +1027,11 @@
       },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
-        "line": "Circle",
+        "line": "District",
         "mode": "tube",
-        "status": "Part Suspended",
-        "badge": "🔴 運休/見合せ",
-        "reason": "Circle Line: No service anticlockwise only while we respond to a customer incident at High Street Kensington. GOOD SERVI"
+        "status": "Severe Delays",
+        "badge": "🟠 警戒",
+        "reason": "District Line: Severe delays between Earl's Court and Edgware Road due to an earlier customer incident at High Street Ke"
       },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1067,18 +1075,18 @@
           {
             "name": "Circle",
             "mode": "tube",
-            "status_raw": "Part Suspended",
-            "badge": "🔴 運休/見合せ",
-            "code": "severe",
-            "reason": "Circle Line: No service anticlockwise only while we respond to a customer incident at High Street Kensington. GOOD SERVI"
+            "status_raw": "Minor Delays",
+            "badge": "🟡 注意",
+            "code": "minor",
+            "reason": "Circle Line: Minor delays due to an earlier customer incident at High Street Kensington. "
           },
           {
             "name": "District",
             "mode": "tube",
-            "status_raw": "Minor Delays",
-            "badge": "🟡 注意",
-            "code": "minor",
-            "reason": "District Line: Minor delays due to train cancellations.  "
+            "status_raw": "Severe Delays",
+            "badge": "🟠 警戒",
+            "code": "warning",
+            "reason": "District Line: Severe delays between Earl's Court and Edgware Road due to an earlier customer incident at High Street Ke"
           },
           {
             "name": "DLR",
@@ -1254,7 +1262,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/09 02:02 JST"
+    "timestamp": "11/09 02:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 02:01:56",
-  "timestamp_local": "2026-11-08 23:31:56",
+  "timestamp": "2026-11-09 02:28:44",
+  "timestamp_local": "2026-11-08 23:58:44",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -267,17 +267,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M4.7 (Southwest Indian Ridge)",
+    "count_24h": 12,
+    "summary": "M4.6 (117 km NE of Tobelo, Indonesia)",
     "latest": {
-      "mag": 4.7,
-      "place": "Southwest Indian Ridge",
-      "time": "11/08 21:29 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn",
+      "mag": 4.6,
+      "place": "117 km NE of Tobelo, Indonesia",
+      "time": "11/09 01:45 JST",
+      "depth_km": 224.59,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "117 km NE of Tobelo, Indonesia",
+        "time": "11/09 01:45 JST",
+        "depth_km": 224.59,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.8,
+        "place": "central Mid-Atlantic Ridge",
+        "time": "11/09 01:33 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyc",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "Southwest Indian Ridge",
@@ -356,14 +372,6 @@
         "time": "11/08 04:55 JST",
         "depth_km": 37.054,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "45 km NNW of Salinas, Ecuador",
-        "time": "11/08 02:17 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
         "tsunami": 0
       }
     ]
@@ -621,7 +629,7 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/09 02:01 JST",
+    "timestamp": "11/09 02:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -660,19 +668,19 @@
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
       "weather": {
-        "raw": "METAR VYYY 081630Z 08002KT 7000 SCT020 SCT120 28/25 Q1015 NOSIG",
-        "wind": "2kt",
-        "wind_speed": 2,
+        "raw": "METAR VYYY 081700Z 06004KT 7000 SCT020 SCT120 28/25 Q1015 NOSIG",
+        "wind": "4kt",
+        "wind_speed": 4,
         "wind_gust": 0,
         "visibility": "4.35マイル",
         "temp": 28,
         "fltcat": "VFR",
-        "report_time": "2026-11-08T16:30:00.000Z"
+        "report_time": "2026-11-08T17:00:00.000Z"
       },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "視程良好（4.35マイル）、風速安定（2kt）。順調に運航中"
+      "status_desc": "視程良好（4.35マイル）、風速安定（4kt）。順調に運航中"
     }
   ],
   "weather": {
@@ -689,8 +697,8 @@
         "wind_speed": 7.5,
         "wind_gusts": 15.1,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -729,10 +737,10 @@
         "lat": 19.7633,
         "lon": 96.0785,
         "temp": 24.1,
-        "apparent_temp": 29.4,
+        "apparent_temp": 29.3,
         "humidity": 97,
         "wind_speed": 4.0,
-        "wind_gusts": 6.8,
+        "wind_gusts": 7.6,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -773,14 +781,14 @@
         "is_capital": false,
         "lat": 21.9588,
         "lon": 96.0891,
-        "temp": 25.7,
-        "apparent_temp": 30.9,
-        "humidity": 88,
-        "wind_speed": 4.3,
-        "wind_gusts": 8.6,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "temp": 25.4,
+        "apparent_temp": 30.6,
+        "humidity": 89,
+        "wind_speed": 3.6,
+        "wind_gusts": 11.2,
+        "precipitation": 1.0,
+        "weather_code": 95,
+        "weather_label": "⛈️ 雷雨 (弱〜中)",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -807,10 +815,10 @@
             "precipitation_mm": 50.6
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "暴風・悪天候警報",
+        "alert_badge": "🔴 暴風警報",
+        "alert_class": "red",
+        "alert_desc": "雷雨または猛烈な突風（11.2km/h）・激しい降雨に警戒"
       }
     ],
     "capital": {
@@ -820,10 +828,10 @@
       "lat": 19.7633,
       "lon": 96.0785,
       "temp": 24.1,
-      "apparent_temp": 29.4,
+      "apparent_temp": 29.3,
       "humidity": 97,
       "wind_speed": 4.0,
-      "wind_gusts": 6.8,
+      "wind_gusts": 7.6,
       "precipitation": 0.0,
       "weather_code": 1,
       "weather_label": "🌤️ 晴れ",
@@ -858,7 +866,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 02:01 JST"
+    "timestamp": "11/09 02:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -887,7 +895,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/09 02:01 JST"
+    "timestamp": "11/09 02:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

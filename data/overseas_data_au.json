@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 02:03:20",
-  "timestamp_local": "2026-11-09 03:03:20",
+  "timestamp": "2026-11-09 02:30:27",
+  "timestamp_local": "2026-11-09 03:30:27",
   "country": {
     "id": "australia",
     "name": "オーストラリア (豪州)",
@@ -296,17 +296,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M4.7 (Southwest Indian Ridge)",
+    "count_24h": 12,
+    "summary": "M4.6 (117 km NE of Tobelo, Indonesia)",
     "latest": {
-      "mag": 4.7,
-      "place": "Southwest Indian Ridge",
-      "time": "11/08 21:29 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn",
+      "mag": 4.6,
+      "place": "117 km NE of Tobelo, Indonesia",
+      "time": "11/09 01:45 JST",
+      "depth_km": 224.59,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "117 km NE of Tobelo, Indonesia",
+        "time": "11/09 01:45 JST",
+        "depth_km": 224.59,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.8,
+        "place": "central Mid-Atlantic Ridge",
+        "time": "11/09 01:33 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyc",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "Southwest Indian Ridge",
@@ -385,14 +401,6 @@
         "time": "11/08 04:55 JST",
         "depth_km": 37.054,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "45 km NNW of Salinas, Ecuador",
-        "time": "11/08 02:17 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
         "tsunami": 0
       }
     ]
@@ -660,7 +668,7 @@
     "default_channel_id": "stream_abc_news_au"
   },
   "forex": {
-    "timestamp": "11/09 02:03 JST",
+    "timestamp": "11/09 02:30 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -723,19 +731,64 @@
   "weather": {
     "cities": [
       {
+        "name": "キャンベラ (首都)",
+        "name_en": "Canberra",
+        "is_capital": true,
+        "lat": -35.2809,
+        "lon": 149.13,
+        "temp": 5.4,
+        "apparent_temp": 1.4,
+        "humidity": 77,
+        "wind_speed": 14.1,
+        "wind_gusts": 29.5,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/09(月)",
+            "temp_max": 18.3,
+            "temp_min": 5.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 22.8,
+            "temp_min": 4.9,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/11(水)",
+            "temp_max": 26.0,
+            "temp_min": 8.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "シドニー (最大都市)",
         "name_en": "Sydney",
         "is_capital": false,
         "lat": -33.8688,
         "lon": 151.2093,
-        "temp": 11.9,
+        "temp": 11.8,
         "apparent_temp": 8.9,
-        "humidity": 74,
-        "wind_speed": 15.2,
-        "wind_gusts": 35.3,
+        "humidity": 73,
+        "wind_speed": 14.8,
+        "wind_gusts": 33.1,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/09(月)",
@@ -766,91 +819,46 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "メルボルン (南部)",
-        "name_en": "Melbourne",
-        "is_capital": false,
-        "lat": -37.8136,
-        "lon": 144.9631,
-        "temp": 6.7,
-        "apparent_temp": 5.0,
-        "humidity": 89,
-        "wind_speed": 3.2,
-        "wind_gusts": 6.8,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/09(月)",
-            "temp_max": 21.3,
-            "temp_min": 6.0,
-            "weather_code": 1,
-            "weather_label": "🌤️ 晴れ",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 25.6,
-            "temp_min": 10.5,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/11(水)",
-            "temp_max": 17.5,
-            "temp_min": 12.3,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
-      "name": "シドニー (最大都市)",
-      "name_en": "Sydney",
-      "is_capital": false,
-      "lat": -33.8688,
-      "lon": 151.2093,
-      "temp": 11.9,
-      "apparent_temp": 8.9,
-      "humidity": 74,
-      "wind_speed": 15.2,
-      "wind_gusts": 35.3,
+      "name": "キャンベラ (首都)",
+      "name_en": "Canberra",
+      "is_capital": true,
+      "lat": -35.2809,
+      "lon": 149.13,
+      "temp": 5.4,
+      "apparent_temp": 1.4,
+      "humidity": 77,
+      "wind_speed": 14.1,
+      "wind_gusts": 29.5,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/09(月)",
-          "temp_max": 17.9,
-          "temp_min": 11.0,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.7
+          "temp_max": 18.3,
+          "temp_min": 5.3,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/10(火)",
-          "temp_max": 21.7,
-          "temp_min": 11.1,
-          "weather_code": 1,
-          "weather_label": "🌤️ 晴れ",
+          "temp_max": 22.8,
+          "temp_min": 4.9,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/11(水)",
           "temp_max": 26.0,
-          "temp_min": 13.6,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 0.5
+          "temp_min": 8.6,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
         }
       ],
       "alert": "平常",
@@ -858,7 +866,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 02:03 JST"
+    "timestamp": "11/09 02:30 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -888,7 +896,7 @@
         "details": "シドニー首都圏鉄道網は概ね平常運行中"
       }
     ],
-    "timestamp": "11/09 02:03 JST"
+    "timestamp": "11/09 02:30 JST"
   },
   "lifeline": {
     "status": "NORMAL",

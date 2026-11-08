@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 17:01:21",
+  "timestamp": "2026-11-08 17:28:08",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -253,25 +253,23 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 奥羽本線、北上線 ／ 新幹線: 東北新幹線（列車遅延））",
+    "text": "運行支障あり（在来線: 奥羽本線、北上線）",
     "line_status": "ALERT",
     "line_text": "運行支障あり（奥羽本線、北上線）",
-    "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東北新幹線（列車遅延））",
+    "shinkansen_status": "NORMAL",
+    "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/3",
     "troubled_lines": [
       "奥羽本線",
       "北上線"
     ],
-    "troubled_shinkansen": [
-      "東北新幹線（列車遅延）"
-    ],
+    "troubled_shinkansen": [],
     "shinkansen_details": [
       {
         "name": "東北新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "郡山〜福島駅間で発生した架線支障の影響で、東京〜福島駅間の上り線(東京方面行)の一部列車に遅れが出ています。（11月8日 23時0分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/1/0"
       },
       {
@@ -307,11 +305,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東北電力NW: 停電情報なし（東北エリア管内正常）",
+    "power_msg": "東北電力NW: 【停電発生中】秋田で停電情報を検知",
     "water_msg": "仙台市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "仙台市ガス局: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -582,7 +580,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 02:00:50 JST"
+    "last_updated": "2026-11-09 02:27:38 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",

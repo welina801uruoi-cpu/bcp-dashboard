@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 02:03:25",
-  "timestamp_local": "2026-11-08 13:03:25",
+  "timestamp": "2026-11-09 02:30:33",
+  "timestamp_local": "2026-11-08 13:30:33",
   "country": {
     "id": "canada",
     "name": "カナダ",
@@ -141,17 +141,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M4.7 (Southwest Indian Ridge)",
+    "count_24h": 12,
+    "summary": "M4.6 (117 km NE of Tobelo, Indonesia)",
     "latest": {
-      "mag": 4.7,
-      "place": "Southwest Indian Ridge",
-      "time": "11/08 21:29 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn",
+      "mag": 4.6,
+      "place": "117 km NE of Tobelo, Indonesia",
+      "time": "11/09 01:45 JST",
+      "depth_km": 224.59,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "117 km NE of Tobelo, Indonesia",
+        "time": "11/09 01:45 JST",
+        "depth_km": 224.59,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.8,
+        "place": "central Mid-Atlantic Ridge",
+        "time": "11/09 01:33 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyc",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "Southwest Indian Ridge",
@@ -230,14 +246,6 @@
         "time": "11/08 04:55 JST",
         "depth_km": 37.054,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "45 km NNW of Salinas, Ecuador",
-        "time": "11/08 02:17 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
         "tsunami": 0
       }
     ]
@@ -451,7 +459,7 @@
       {
         "id": "stream_global_news",
         "name": "📺 Global News (カナダ主要ニュース24h)",
-        "video_id": "OdskouxzElo",
+        "video_id": "MJDCUK7hiNw",
         "handle": "@GlobalNews",
         "type": "stream"
       },
@@ -484,7 +492,7 @@
     "default_channel_id": "stream_cbc_live"
   },
   "forex": {
-    "timestamp": "11/09 02:03 JST",
+    "timestamp": "11/09 02:30 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -552,11 +560,11 @@
         "is_capital": true,
         "lat": 45.4215,
         "lon": -75.6972,
-        "temp": 7.4,
-        "apparent_temp": 4.3,
-        "humidity": 73,
-        "wind_speed": 10.3,
-        "wind_gusts": 20.2,
+        "temp": 7.9,
+        "apparent_temp": 4.5,
+        "humidity": 72,
+        "wind_speed": 12.3,
+        "wind_gusts": 23.4,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -579,11 +587,11 @@
           },
           {
             "date": "11/10(火)",
-            "temp_max": 10.0,
-            "temp_min": 4.0,
+            "temp_max": 9.3,
+            "temp_min": 3.9,
             "weather_code": 55,
             "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 1.2
+            "precipitation_mm": 1.9
           }
         ],
         "alert": "平常",
@@ -597,10 +605,10 @@
         "is_capital": false,
         "lat": 43.6532,
         "lon": -79.3832,
-        "temp": 10.7,
-        "apparent_temp": 6.1,
-        "humidity": 63,
-        "wind_speed": 21.2,
+        "temp": 11.0,
+        "apparent_temp": 6.5,
+        "humidity": 60,
+        "wind_speed": 20.9,
         "wind_gusts": 41.8,
         "precipitation": 0.0,
         "weather_code": 3,
@@ -624,7 +632,7 @@
           },
           {
             "date": "11/10(火)",
-            "temp_max": 16.0,
+            "temp_max": 15.9,
             "temp_min": 6.4,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -642,11 +650,11 @@
         "is_capital": false,
         "lat": 49.2827,
         "lon": -123.1207,
-        "temp": 10.1,
+        "temp": 10.3,
         "apparent_temp": 6.5,
         "humidity": 75,
-        "wind_speed": 18.0,
-        "wind_gusts": 33.8,
+        "wind_speed": 19.6,
+        "wind_gusts": 34.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -669,11 +677,11 @@
           },
           {
             "date": "11/10(火)",
-            "temp_max": 11.1,
+            "temp_max": 11.5,
             "temp_min": 9.2,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 26.7
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 24.4
           }
         ],
         "alert": "平常",
@@ -688,11 +696,11 @@
       "is_capital": true,
       "lat": 45.4215,
       "lon": -75.6972,
-      "temp": 7.4,
-      "apparent_temp": 4.3,
-      "humidity": 73,
-      "wind_speed": 10.3,
-      "wind_gusts": 20.2,
+      "temp": 7.9,
+      "apparent_temp": 4.5,
+      "humidity": 72,
+      "wind_speed": 12.3,
+      "wind_gusts": 23.4,
       "precipitation": 0.0,
       "weather_code": 1,
       "weather_label": "🌤️ 晴れ",
@@ -715,11 +723,11 @@
         },
         {
           "date": "11/10(火)",
-          "temp_max": 10.0,
-          "temp_min": 4.0,
+          "temp_max": 9.3,
+          "temp_min": 3.9,
           "weather_code": 55,
           "weather_label": "🌦️ 霧雨 (強)",
-          "precipitation_mm": 1.2
+          "precipitation_mm": 1.9
         }
       ],
       "alert": "平常",
@@ -727,7 +735,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 02:03 JST"
+    "timestamp": "11/09 02:30 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -756,7 +764,7 @@
         "details": "VIA鉄道主要列車平常運行中"
       }
     ],
-    "timestamp": "11/09 02:03 JST"
+    "timestamp": "11/09 02:30 JST"
   },
   "lifeline": {
     "status": "NORMAL",

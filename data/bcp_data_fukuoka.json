@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 01:35:47",
+  "timestamp": "2026-11-08 02:31:08",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -90,11 +90,39 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-08 08:23",
-    "place": "熊本県熊本地方",
-    "magnitude": "3",
+    "time": "2026-11-08 11:21",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "2.8",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-08 11:21",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.8",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-08 10:53",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "4",
+        "magnitude": "4.3",
+        "maxScale": 40
+      },
+      {
+        "time": "2026-11-08 10:53",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "-",
+        "magnitude": "4.3",
+        "maxScale": -1
+      },
+      {
+        "time": "2026-11-08 10:53",
+        "place": "震源情報なし",
+        "shindo": "4",
+        "magnitude": "-",
+        "maxScale": 40
+      },
       {
         "time": "2026-11-08 08:23",
         "place": "熊本県熊本地方",
@@ -135,34 +163,6 @@
         "place": "静岡県西部",
         "shindo": "5強",
         "magnitude": "5.7",
-        "maxScale": 50
-      },
-      {
-        "time": "2026-11-08 01:04",
-        "place": "静岡県西部",
-        "shindo": "5強",
-        "magnitude": "5.7",
-        "maxScale": 50
-      },
-      {
-        "time": "2026-11-08 01:04",
-        "place": "震源情報なし",
-        "shindo": "5強",
-        "magnitude": "-",
-        "maxScale": 50
-      },
-      {
-        "time": "2026-11-08 01:04",
-        "place": "静岡県西部",
-        "shindo": "-",
-        "magnitude": "5.7",
-        "maxScale": -1
-      },
-      {
-        "time": "2026-11-08 01:04",
-        "place": "震源情報なし",
-        "shindo": "5強",
-        "magnitude": "-",
         "maxScale": 50
       }
     ]
@@ -377,16 +377,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/08 02:28",
+          "text": "ラグコスは結構な頻度で開催日になんか起きるよな ゲリラ豪雨もあった 台風直撃未遂もあった 熱海の山崩れもあった START au END 電波 START 障害..."
+        },
+        {
           "time": "11/08 00:43",
           "text": "まあ、ﾗｸﾞは仕事で行けなかったけど、今回はそれでも良かった気がするね。寒そうだったし地震のオマケもあったし…（雨の日とか START AU END 通信 ST..."
         },
         {
           "time": "11/07 21:26",
           "text": "START au END ，なんか START 障害 END 発生してる？ どえらいULが遅くて現実的に使い物にならんレベルなんだが（緊急用のeSIMなIIJm..."
-        },
-        {
-          "time": "11/07 20:53",
-          "text": "START au END 回線 START 障害 END のリスク分散で変えたけどこれなら戻すかな…"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -420,7 +420,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 01:05",
@@ -431,8 +431,8 @@
           "text": "@ START au END _support @569Nyanya 横からすいません 昨年にも START au END に電話で改善をお願いいたしましたが改..."
         },
         {
-          "time": "11/07 18:03",
-          "text": "WiFiが START 繋がらない END まま5時間近く経った... いい加減回線変えようと思って調べてるけどなにがいいかわからん ゲーム出来て安くてマンショ..."
+          "time": "11/07 13:09",
+          "text": "私の家は START au END 圏外になるし、水害を経験した時にはソフトバンクが1番繋がらなかった経験あり。仕事場は START au END とソフトバン..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -443,7 +443,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 00:48",
@@ -478,8 +478,112 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 24,
+    "disaster_count": 29,
     "articles": [
+      {
+        "title": "1週間の地震回数　8日未明に愛知県で震度5強　緊急地震速報発表時にとるべき行動(日本気象協会tenki.jp)",
+        "summary": "ここ1週間(11月1日11時00分～8日11時00分)で発生した地震は37回で、そのうち最大震度3以上の地震は5回でした。今日11月8日(日)1時4分頃には愛知県で最大震度5強の地震が発生しました。こ",
+        "pub_date": "11/08 11:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/990b5a8b68574dd04cea4ad66f478a88ad403fa8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【宮崎勤事件】6000本のビデオが積まれた真っ暗な部屋にFRIDAY記者が抱いた“違和感”(FRIDAY)",
+        "summary": "1988年から1989年にかけて4歳〜7歳の女児4人が犠牲になった『東京・埼玉連続幼女誘拐殺人事件』。1989年6月に東京・江東区で4人目の被害者・Dちゃん(当時5歳)が行方不明となり、飯能市内でバラ",
+        "pub_date": "11/08 11:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/2fac0f813262b270456d9d6eefe35f0c0c5dd7f2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知県で未明に震度5強 　南海トラフ想定域も気象庁「プレート特段変化なし」(テレビ朝日系（ANN）)",
+        "summary": "8日午前1時すぎ、愛知県で最大震度5強を観測する強い地震がありました。気象庁は会見で、南海トラフ地震の想定震源域内で発生したものの、ただちに巨大地震につながるものではないという見方を示しました。【画像",
+        "pub_date": "11/08 11:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/48e59ea7388fe978c6eb041af40d6bd0884af1fa?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "熊本で震度4(共同通信)",
+        "summary": "気象庁によると、8日午前10時53分ごろ、熊本県で震度4の地震があった。",
+        "pub_date": "11/08 11:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/1aea06386c13919d3cbfe62b7278021184b3c02e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "東海道新幹線、所定速度で運転再開(共同通信)",
+        "summary": "JR東海によると、地震の影響で東海道新幹線は静岡―岐阜羽島間で速度を落として運転していたが、安全が確認できたとして所定速度での運転を再開した。",
+        "pub_date": "11/08 11:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/bfacbd5d5c4e8ed60230c8088b30cd21eb84a200?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "熊本県熊本で震度4 津波の心配なし(ABEMA TIMES)",
+        "summary": "午前10時53分頃、九州地方で震度4の地震がありました。この地震による津波の心配はありません。【映像】地震の情報震源 熊本県天草・芦北地方深さ 10km M4.3震度4 熊本南区 宇土市 宇城市震度3",
+        "pub_date": "11/08 11:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/2fa41205c852eaea3cef02576fcb8eaf54adaded?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「被害届出せなかった」殺人容疑で再逮捕も…“宮城遺棄事件”被害女性元カレが漏らす「警察への不満」(FRIDAY)",
+        "summary": "宮城県栗原市の山中で東京都練馬区のアルバイト・室賀真歩さん(当時25)の遺体が見つかった事件で、警視庁捜査1課は10月28日、同居していた交際相手のバー経営、三浦拓也容疑者(36)を殺人容疑で再逮捕し",
+        "pub_date": "11/08 11:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/afb97de64e18a8417123aa11e36b907d58b0470e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "〔地震〕熊本県熊本市南区などで震度4 津波の心配なし(11/8)(レスキューナウニュース)",
+        "summary": "気象庁によると、8日10:53頃に地震があり、熊本県熊本市南区などで震度4の揺れを観測しました。津波の心配はありません。■発生事象・発生日時 ：11月8日10:53頃・震源地 ：熊本県天草・芦北地方(",
+        "pub_date": "11/08 11:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/7049395c52d93236db652b4d2ccd479494a83bf1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "ちいかわ転売、ボンドロ開店アタック、声の権利…「流行語」の裏側で起きた法律ニュースで振り返る2026年(弁護士ドットコムニュース)",
+        "summary": "今年の世相を映す「新語・流行語大賞」のノミネート30語が11月5日に発表された。このうち少なくとも10語は、弁護士ドットコムニュースでも取り上げてきた言葉だ。【衣装を透かされて】りくりゅうも被害に…デ",
+        "pub_date": "11/08 11:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/b404b1cd693319b2708f7b8fcce9a7b51560d615?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "熊本県熊本で震度4(テレビ朝日系（ANN）)",
+        "summary": "8日午前10時53分ごろに熊本県熊本で震度4の地震がありました。 震源地は熊本県天草・芦北地方で、地震の規模（マグニチュード）は4.3と推定されます。 この地震による津波の心配はありません。",
+        "pub_date": "11/08 10:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/f01accdfd3fb63f8d4e73f9fe81c2a5ad170d545?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "熊本県で震度4の地震　津波の心配なし(日本気象協会tenki.jp)",
+        "summary": "8日午前10時53分頃、熊本県天草・芦北地方を震源とするマグニチュード4.3の地震が発生し、熊本県で最大震度4を観測しました。この地震による津波の心配はありません。",
+        "pub_date": "11/08 10:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/ac53c5a2bad18812cb87cd40237dab8e7f2b07df?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "JR内房線が全線再開 台風被害で一部運転見合わせ(ABEMA TIMES)",
+        "summary": "台風25号の影響で一部区間で運転を見合わせていたJR内房線が、およそ1カ月半ぶりに全線で再開しました。【映像】全線で運転を再開したJR内房線（実際の様子） 千葉県を走るJR内房線は、9月の台風25号の",
+        "pub_date": "11/08 10:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/b47cb081164725b1f3f777cfb2a42f10675a272e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【JR東海】東海道新幹線　午前9時前に全区間で所定の速度で運転再開　影響は1万7千人に(メ〜テレ（名古屋テレビ）)",
+        "summary": "8日午前1時4分に東海地方を震源とする地震が発生した影響で、震源に近い静岡～岐阜羽島駅間で設備点検を実施するため、この区間の列車(上下)で、始発から速度を落として運転していました。 JR東海によります",
+        "pub_date": "11/08 10:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/c73746f12139d706e28082df16e40293014bceaa?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "8日は晴れても北風ひんやり　東京・大阪は20℃届かず　台風32号は強い勢力へ(ウェザーマップ)",
         "summary": "8日(日)朝は全国321地点で今季一番の冷え込みとなり、77地点で最低気温が0℃未満となる冬日となりました。日中は東・西日本の太平洋側を中心に晴れますが、北風が冷たく、日差しがあっても肌寒い一日となり",
@@ -495,113 +599,9 @@
         "link": "https://news.yahoo.co.jp/articles/22cc286dc2b699f0569368452107b5be0aebd8ec?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "企業の｢宝の山｣だった個人情報が裏目に…海外ハッカーが日本を｢割に合う国｣と見なすようになった理由(プレジデントオンライン)",
-        "summary": "日本を狙うサイバー攻撃が急増している。カーシェア「タイムズカー」では約660万件のアカウント情報が流出し、大和証券やヤマト運輸、大阪公立大学などでも被害が相次いだ。なぜ日本がこれほど狙われるようになっ",
-        "pub_date": "11/08 10:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/31123cd9d93f1b10643d5c876fd675696970e4d8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "内房線が約1カ月半ぶりに全線で再開　台風25号の影響で運転見合わせ　JR東日本(テレビ朝日系（ANN）)",
-        "summary": "台風25号の影響で一部区間で運転を見合わせていたJR内房線がおよそ1カ月半ぶりに全線で再開しました。 千葉県を走るJR内房線は9月の台風25号の影響で線路に土砂が流入し、姉ケ崎駅と長浦駅の間で運転を見",
-        "pub_date": "11/08 10:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/81a9ed1e1ce0a1b252a8401d4a529f291c2c7c19?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "〔中部電力パワーグリッド〕長野県安曇野市で停電(8日10時15分現在)(レスキューナウニュース)",
-        "summary": "中部電力パワーグリッドの発表によると、8日10:15現在、長野県安曇野市で停電が発生しています。現在、復旧作業が行われています。■影響地域安曇野市：約31100軒(三郷小倉、三郷明盛、三郷温、堀金三田",
-        "pub_date": "11/08 10:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/52b31dccfdff867637349798aed5f97f303b0a22?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "70歳女性が「路線図検索」で1000万円被害…画面に“警告”が出たらすぐとるべき“対処法”とは(弁護士JPニュース)",
-        "summary": "先日、埼玉県新座市で、70代の無職女性がパソコンで鉄道の路線図などを検索していたところ、突然アラート（警告表示）が表示され、それを信じ込み画面に記載された番号に電話をかけた結果、計1000万円をだまし",
-        "pub_date": "11/08 10:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/ebebe2959df81cd278990393e67191f842c10850?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "架線に異物、一時見合わせ　東北、東海道の両新幹線(共同通信)",
-        "summary": "8日午前6時40分ごろ、東北新幹線の郡山―福島間の下り線の架線から植物が垂れ下がっているのが見つかり、東京―盛岡間の上下線で運転を見合わせた。同日午前7時20分ごろには、東海道新幹線の東京―新横浜間で",
-        "pub_date": "11/08 09:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/3f2587d210084bb08b47c33c20abcc79821f821d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "東北新幹線が運転再開 東京〜盛岡駅で一時運転見合わせ(ABEMA TIMES)",
-        "summary": "JR東日本によりますと、東北新幹線は先ほど全線で運転を再開しました。 郡山駅と福島駅の間の架線に支障物が見つかった影響で、東京駅と盛岡駅の間の上下線で一時運転を見合わせていました。【映像】東北新幹線が",
-        "pub_date": "11/08 09:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/55d1f702e0f08a4b8df06c721f72d13e45415166?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "台風被害のJR内房線　きょう昼ごろ全線再開へ　夕方まで一部列車に運休も(テレビ朝日系（ANN）)",
-        "summary": "千葉県を走るJR内房線は9月の台風25号の影響で線路に土砂が流入し、姉ケ崎駅と長浦駅の間で運転を見合わせていました。 8日朝までに長浦駅に設置された臨時の折り返し設備の撤去作業が行われ、昼ごろに運転を",
-        "pub_date": "11/08 09:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/db42eb894b2993567efd8a8d36fcef6073d4a405?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "立冬に今季一番の寒気　北海道旭川市で初積雪　スリップ事故相次ぐ(テレビ朝日系（ANN）)",
-        "summary": "暦の上で冬の始まりとなる立冬だった7日。今シーズン一番の寒気が流れ込み、関東の山沿いでは雪となりました。 気温が氷点下となった群馬県みなかみ町の天神峠では朝から雪が降り続きました。 立冬寒気の影響は、",
-        "pub_date": "11/08 09:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/6dd71e56d643f1cf17dd05f69534edf487f771cf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "南海トラフ地震とは「直接関係ない」…愛知で“最大震度5強” 専門家「より大きな地震が起きることもある 今日自宅の点検を」(東海テレビ)",
-        "summary": "8日未明に愛知県で最大震度5強を観測した地震について、南海トラフ地震との関連や今後の注意点などを、名古屋大学の福和伸夫名誉教授に聞きました。Q.なぜ震源から少し離れた愛知県知多市で震度5強だったのか？",
-        "pub_date": "11/08 09:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/57ec5e1a5de653e47c3c8b444ef3d8753296adde?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "架線に支障物で運転を見合わせの東北新幹線東京－盛岡間、運転再開(産経新聞)",
-        "summary": "JR東日本は、架線に支障物の影響で上下線で運転を見合わせていた東北新幹線の東京－盛岡駅間の上下線について、午前9時ごろに運転を再開したとホームページで発表した。同区間の上下線に遅れが出ている。",
-        "pub_date": "11/08 09:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/ec5ec07c3f985aab419184cd5f15e58624dc51d6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "東北新幹線が全線で運転再開　架線の支障物で一時運転見合わせ　JR東日本(テレビ朝日系（ANN）)",
-        "summary": "JR東日本によりますと、東北新幹線は全線で運転を再開しました。 郡山駅と福島駅の間の架線に支障物が見つかった影響で、東京駅と盛岡駅の間の上下線で一時運転を見合わせていました。 復旧作業が完了し、安全が",
-        "pub_date": "11/08 09:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/7f070b947f04a83ec835b5656ddfdfd82084902c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "東北新幹線、東京―盛岡間の運転再開(共同通信)",
-        "summary": "JR東日本によると、8日午前9時ごろ、運転を見合わせていた東北新幹線の東京―盛岡間で、運転を再開した。",
-        "pub_date": "11/08 09:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/3d277e7c48c46611906e6f057894030823c2be36?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【社説】防災庁が発足　官民を束ねる役割果たせ(西日本新聞me)",
-        "summary": "災害対策における歴史的転換点としなければならない。政府の司令塔を担う防災庁が発足した。 日本は世界有数の災害大国でありながら「防災後進国」と指摘される。とりわけ過酷な避難所生活が多くの災害関連死を引き",
-        "pub_date": "11/08 09:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/b64ef97f524eab43049a7931b29cf6c0b1e2349b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 10:34:54 JST"
+    "last_updated": "2026-11-08 11:31:04 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -633,10 +633,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "k_85QSzdqd8",
+        "video_id": "YSHup00eGM0",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/k_85QSzdqd8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=k_85QSzdqd8"
+        "embed_url": "https://www.youtube.com/embed/YSHup00eGM0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=YSHup00eGM0"
       },
       {
         "id": "stream_ntvnews",

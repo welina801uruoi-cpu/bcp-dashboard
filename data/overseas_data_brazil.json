@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 01:01:55",
-  "timestamp_local": "2026-11-08 13:01:55",
+  "timestamp": "2026-11-09 01:29:43",
+  "timestamp_local": "2026-11-08 13:29:43",
   "country": {
     "id": "brazil",
     "name": "ブラジル",
@@ -295,7 +295,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
+    "count_24h": 11,
     "summary": "M4.7 (Southwest Indian Ridge)",
     "latest": {
       "mag": 4.7,
@@ -392,22 +392,6 @@
         "time": "11/08 02:17 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.5,
-        "place": "10 km NW of Hamakita, Japan",
-        "time": "11/08 01:04 JST",
-        "depth_km": 38.081,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.5,
-        "place": "11 km ESE of Pedasí, Panama",
-        "time": "11/08 01:01 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twsy",
         "tsunami": 0
       }
     ]
@@ -576,7 +560,7 @@
         },
         {
           "time": "11/07 06:29",
-          "text": "サンパウロ 治安 の印象 ※個人の感想です 初日は サンパウロ 美術館〜オスカー・フレイレ通り〜Be..."
+          "text": "サンパウロ治安 の印象 ※個人の感想です 初日は サンパウロ 美術館〜オスカー・フレイレ通り〜Beco do Batma..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%B5%E3%83%B3%E3%83%91%E3%82%A6%E3%83%AD%20%E6%B2%BB%E5%AE%89"
@@ -675,7 +659,7 @@
     "default_channel_id": "stream_band_live"
   },
   "forex": {
-    "timestamp": "11/09 01:01 JST",
+    "timestamp": "11/09 01:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -743,11 +727,11 @@
         "is_capital": true,
         "lat": -15.8267,
         "lon": -47.9218,
-        "temp": 26.9,
-        "apparent_temp": 32.7,
-        "humidity": 65,
-        "wind_speed": 3.9,
-        "wind_gusts": 21.6,
+        "temp": 27.1,
+        "apparent_temp": 32.6,
+        "humidity": 64,
+        "wind_speed": 4.6,
+        "wind_gusts": 22.3,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -783,19 +767,64 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
+        "name": "サンパウロ (南米最大都市)",
+        "name_en": "São Paulo",
+        "is_capital": false,
+        "lat": -23.5505,
+        "lon": -46.6333,
+        "temp": 16.2,
+        "apparent_temp": 15.6,
+        "humidity": 88,
+        "wind_speed": 13.4,
+        "wind_gusts": 37.4,
+        "precipitation": 0.2,
+        "weather_code": 53,
+        "weather_label": "🌦️ 霧雨 (中)",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 19.4,
+            "temp_min": 13.8,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 10.4
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 15.6,
+            "temp_min": 13.1,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.7
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 20.5,
+            "temp_min": 11.8,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.2
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      },
+      {
         "name": "リオデジャネイロ (沿岸主要都市)",
         "name_en": "Rio de Janeiro",
         "is_capital": false,
         "lat": -22.9068,
         "lon": -43.1729,
-        "temp": 20.9,
-        "apparent_temp": 20.7,
+        "temp": 20.8,
+        "apparent_temp": 20.6,
         "humidity": 88,
-        "wind_speed": 24.1,
-        "wind_gusts": 61.6,
-        "precipitation": 0.3,
-        "weather_code": 55,
-        "weather_label": "🌦️ 霧雨 (強)",
+        "wind_speed": 23.9,
+        "wind_gusts": 60.5,
+        "precipitation": 0.2,
+        "weather_code": 53,
+        "weather_label": "🌦️ 霧雨 (中)",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -825,7 +854,7 @@
         "alert": "強風・大雨注意報",
         "alert_badge": "🟠 気象注意報",
         "alert_class": "orange",
-        "alert_desc": "強風（突風61.6km/h）または強い雨。移動・屋外行動に注意"
+        "alert_desc": "強風（突風60.5km/h）または強い雨。移動・屋外行動に注意"
       }
     ],
     "capital": {
@@ -834,11 +863,11 @@
       "is_capital": true,
       "lat": -15.8267,
       "lon": -47.9218,
-      "temp": 26.9,
-      "apparent_temp": 32.7,
-      "humidity": 65,
-      "wind_speed": 3.9,
-      "wind_gusts": 21.6,
+      "temp": 27.1,
+      "apparent_temp": 32.6,
+      "humidity": 64,
+      "wind_speed": 4.6,
+      "wind_gusts": 22.3,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -873,7 +902,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 01:01 JST"
+    "timestamp": "11/09 01:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -902,7 +931,7 @@
         "details": "地下鉄各線平常運行中"
       }
     ],
-    "timestamp": "11/09 01:01 JST"
+    "timestamp": "11/09 01:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

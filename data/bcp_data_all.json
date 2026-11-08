@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 07:41:21",
+  "timestamp": "2026-11-08 08:26:25",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -476,11 +476,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
+          "強風注意報",
           "波浪注意報",
-          "強風注意報"
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -531,10 +531,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、乾燥注意報",
+        "summary": "乾燥注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -641,11 +641,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
+          "強風注意報",
           "波浪注意報",
-          "強風注意報"
+          "雷注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -1036,10 +1036,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、波浪注意報",
+        "summary": "波浪注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1066,36 +1066,30 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線34路線: 赤穂線、山陽本線、姫新線等 ／ 新幹線: 山陽新幹線（その他）、東北新幹線（列車遅延））",
+    "text": "運行支障あり（在来線32路線: 鹿児島本線、肥薩線、土佐くろしお鉄道ごめん・なはり線等 ／ 新幹線: 山陽新幹線（その他）、東北新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（赤穂線、山陽本線、姫新線、芸備線、美祢線 等 計34路線）",
+    "line_text": "運行支障あり（鹿児島本線、肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、山陽本線 等 計32路線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（その他）、東北新幹線（列車遅延）、九州新幹線（列車遅延）、北海道新幹線（列車遅延）、山形新幹線（列車遅延）、秋田新幹線（列車遅延））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（その他）、東北新幹線（列車遅延）、北海道新幹線（列車遅延）、山形新幹線（列車遅延）、秋田新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "赤穂線",
+      "鹿児島本線",
+      "肥薩線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
       "山陽本線",
       "姫新線",
       "芸備線",
       "美祢線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "鹿児島本線",
-      "肥薩線",
+      "奥羽本線",
       "田沢湖線",
       "五能線",
       "石巻線",
       "山田線",
-      "奥羽本線",
       "米坂線",
       "陸羽東線",
       "北上線",
       "津軽線",
-      "琵琶湖線",
-      "JR京都線",
-      "学研都市線",
-      "JR東西線",
-      "JR神戸線",
       "東海道本線",
       "小海線",
       "越後線",
@@ -1106,12 +1100,15 @@
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線"
+      "わたらせ渓谷鐵道線",
+      "琵琶湖線",
+      "JR京都線",
+      "学研都市線",
+      "JR東西線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
       "東北新幹線（列車遅延）",
-      "九州新幹線（列車遅延）",
       "北海道新幹線（列車遅延）",
       "山形新幹線（列車遅延）",
       "秋田新幹線（列車遅延）"
@@ -1154,9 +1151,9 @@
       },
       {
         "name": "九州新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "15:01頃、博多駅でのドア点検の影響で、一部列車に遅れが出ています。（11月8日 15時40分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "17:10現在、ほぼ平常通り運転しています。（11月8日 17時10分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/410/0"
       },
       {
@@ -1184,11 +1181,11 @@
         "name": "秋田新幹線",
         "status": "ALERT",
         "state": "列車遅延",
-        "detail": "東北新幹線内で発生した架線支障の影響で、列車に遅れが出ています。（11月8日 12時0分掲載）",
+        "detail": "東北新幹線内で発生した架線支障の影響で、一部列車に遅れが出ています。（11月8日 17時20分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 34,
+    "target_lines_count": 32,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1240,11 +1237,15 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 5 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 08:05",
+          "text": "通信 START 障害 END かな🥺 START au END 頼むぜ…"
+        },
         {
           "time": "11/08 07:38",
           "text": "今 START au END 回線ってもしかして通信 START 障害 END 起きてる？ アンテナは立ってるんだけど5Gか4Gの表示がされないで電波なしって言..."
@@ -1252,10 +1253,6 @@
         {
           "time": "11/08 07:25",
           "text": "START au END のGoogle Pixel10PROさくさく動くし気に入って使ってるんですが、今日の昼過ぎから通信 START 障害 END 起きてる..."
-        },
-        {
-          "time": "11/08 07:21",
-          "text": "docomoの通信 START 障害 END あったからデュアルsim検討してるんだけど 入れるとしたら START au END かSoftBankの回線使っ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1286,22 +1283,22 @@
     {
       "keyword": "au 繋がらない",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 5 件です。",
       "recent_posts": [
         {
-          "time": "11/08 07:33",
-          "text": "@WF315 はじめまして、 START au END サポート小野です。ポストを拝見し気になり、お声がけしました。スマホのモバイルデータ通信が START 繋..."
+          "time": "11/08 08:07",
+          "text": "@nagi07241111 アイコンかわいいです🎤ポスト拝見しましたが、特定の場所で START au END スマホが START 繋がらない END でしょ..."
         },
         {
-          "time": "11/08 05:01",
-          "text": "@bibresin 突然のお声がけ失礼します、povoサポートです！ずっと START 繋がらない END のは困りますね🥲もしよろしければ、安定の START..."
+          "time": "11/08 07:51",
+          "text": "@yvuffa START 繋がらない END …圏外といった状態でしょうか？💦 START au END サポート石川"
         },
         {
-          "time": "11/08 04:29",
-          "text": "ツインリンクもてぎでレース見に来たけど楽天モバイルが START 繋がらない END 。 START au END ローミング終了したからかな？まいった。 #楽..."
+          "time": "11/08 07:48",
+          "text": "START au END 回線はネット START 繋がらない END"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -1312,7 +1309,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 07:05",
@@ -1350,6 +1347,14 @@
     "count": 15,
     "disaster_count": 18,
     "articles": [
+      {
+        "title": "交差点で車とトラック衝突　東京、歩行者ら4人けが(共同通信)",
+        "summary": "8日午後1時ごろ、東京都品川区の都道交差点で、乗用車とトラックが衝突した。巻き込まれた歩行者の女性2人と、乗用車の男女2人が負傷して搬送され、警視庁荏原署が詳しい状況を調べている。いずれも意識はあると",
+        "pub_date": "11/08 16:54 JST",
+        "link": "https://news.yahoo.co.jp/articles/4190854f676e073c1915249c14110eef051a1946?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "「やっと日常が戻った」JR内房線1カ月半ぶり全線再開、利用客は安堵　台風25号で運休(産経新聞)",
         "summary": "千葉県を襲った台風25号の影響により一部で運休が続いていたJR内房線が8日、約1カ月半ぶりに全線で運転を再開した。代行バスなどで不便な通勤を強いられてきた利用客は「やっと日常が戻った」と待望の運転再開",
@@ -1461,17 +1466,9 @@
         "link": "https://news.yahoo.co.jp/articles/7b4a5286a188f025892efef77915a30f1c025ff6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "熊本で震度4　M4.3、津波なし(共同通信)",
-        "summary": "8日午前10時53分ごろ、熊本県で震度4の地震があった。気象庁によると、震源地は熊本県天草・芦北地方で、震源の深さは約10キロ。地震の規模はマグニチュード（M）4.3と推定される。この地震による津波は",
-        "pub_date": "11/08 12:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/8b4d4dcfd05a77bcf1c1153312285834e042213c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 16:41:19 JST"
+    "last_updated": "2026-11-08 17:26:22 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1492,10 +1489,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "gkOeIK1mmzY",
+        "video_id": "VNswL1xEF1w",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/gkOeIK1mmzY?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=gkOeIK1mmzY"
+        "embed_url": "https://www.youtube.com/embed/VNswL1xEF1w?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=VNswL1xEF1w"
       },
       {
         "id": "stream_tbsnews",
@@ -1525,10 +1522,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "naT1UhbJ_kw",
+        "video_id": "pJWMjolNvgc",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/naT1UhbJ_kw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=naT1UhbJ_kw"
+        "embed_url": "https://www.youtube.com/embed/pJWMjolNvgc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=pJWMjolNvgc"
       },
       {
         "id": "stream_fnnnews",

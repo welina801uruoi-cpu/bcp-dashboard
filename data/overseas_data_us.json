@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 18:55:44",
-  "timestamp_local": "2026-11-08 05:55:44",
+  "timestamp": "2026-11-08 19:31:50",
+  "timestamp_local": "2026-11-08 06:31:50",
   "country": {
     "id": "usa",
     "name": "アメリカ (米国)",
@@ -454,7 +454,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 09:26",
@@ -570,7 +570,7 @@
     "default_channel_id": "stream_nbc_live"
   },
   "forex": {
-    "timestamp": "11/08 18:55 JST",
+    "timestamp": "11/08 19:31 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -648,68 +648,23 @@
   "weather": {
     "cities": [
       {
-        "name": "ワシントンD.C. (首都)",
-        "name_en": "Washington, D.C.",
-        "is_capital": true,
-        "lat": 38.9072,
-        "lon": -77.0369,
-        "temp": 7.3,
-        "apparent_temp": 4.1,
-        "humidity": 75,
-        "wind_speed": 11.2,
-        "wind_gusts": 23.0,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 18.3,
-            "temp_min": 7.0,
-            "weather_code": 0,
-            "weather_label": "☀️ 快晴",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 15.3,
-            "temp_min": 6.9,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 18.9,
-            "temp_min": 8.9,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "ニューヨーク (東部最大都市)",
         "name_en": "New York",
         "is_capital": false,
         "lat": 40.7128,
         "lon": -74.006,
-        "temp": 8.4,
-        "apparent_temp": 5.4,
-        "humidity": 80,
-        "wind_speed": 12.2,
-        "wind_gusts": 27.7,
+        "temp": 8.6,
+        "apparent_temp": 5.8,
+        "humidity": 83,
+        "wind_speed": 12.3,
+        "wind_gusts": 27.4,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 15.6,
+            "temp_max": 15.9,
             "temp_min": 7.7,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
@@ -736,43 +691,133 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ロサンゼルス (西海岸最大都市)",
+        "name_en": "Los Angeles",
+        "is_capital": false,
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "temp": 16.9,
+        "apparent_temp": 13.3,
+        "humidity": 35,
+        "wind_speed": 11.7,
+        "wind_gusts": 15.8,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 31.7,
+            "temp_min": 15.8,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 31.9,
+            "temp_min": 18.2,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 29.1,
+            "temp_min": 21.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "シカゴ (中西部主要都市)",
+        "name_en": "Chicago",
+        "is_capital": false,
+        "lat": 41.8781,
+        "lon": -87.6298,
+        "temp": 3.1,
+        "apparent_temp": -2.3,
+        "humidity": 74,
+        "wind_speed": 21.3,
+        "wind_gusts": 41.4,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 15.7,
+            "temp_min": 2.8,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 12.3,
+            "temp_min": 1.9,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 15.3,
+            "temp_min": 9.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
-      "name": "ワシントンD.C. (首都)",
-      "name_en": "Washington, D.C.",
-      "is_capital": true,
-      "lat": 38.9072,
-      "lon": -77.0369,
-      "temp": 7.3,
-      "apparent_temp": 4.1,
-      "humidity": 75,
-      "wind_speed": 11.2,
-      "wind_gusts": 23.0,
+      "name": "ニューヨーク (東部最大都市)",
+      "name_en": "New York",
+      "is_capital": false,
+      "lat": 40.7128,
+      "lon": -74.006,
+      "temp": 8.6,
+      "apparent_temp": 5.8,
+      "humidity": 83,
+      "wind_speed": 12.3,
+      "wind_gusts": 27.4,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 18.3,
-          "temp_min": 7.0,
-          "weather_code": 0,
-          "weather_label": "☀️ 快晴",
-          "precipitation_mm": 0.0
+          "temp_max": 15.9,
+          "temp_min": 7.7,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
         },
         {
           "date": "11/09(月)",
-          "temp_max": 15.3,
-          "temp_min": 6.9,
+          "temp_max": 13.6,
+          "temp_min": 6.5,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/10(火)",
-          "temp_max": 18.9,
-          "temp_min": 8.9,
+          "temp_max": 15.8,
+          "temp_min": 8.2,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -783,7 +828,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 18:55 JST"
+    "timestamp": "11/08 19:31 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -827,7 +872,7 @@
         "details": "NY地下鉄各線平常運行中"
       }
     ],
-    "timestamp": "11/08 18:55 JST"
+    "timestamp": "11/08 19:31 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 18:54:28",
-  "timestamp_local": "2026-11-08 17:54:28",
+  "timestamp": "2026-11-08 19:30:49",
+  "timestamp_local": "2026-11-08 18:30:49",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -584,7 +584,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 09:28",
@@ -627,14 +627,14 @@
       {
         "id": "stream_abscbn_news",
         "name": "📺 ABS-CBN News (フィリピン最大手生配信)",
-        "video_id": "7Lv3-T21D2E",
+        "video_id": "I6lxzVE7HVM",
         "handle": "@ABSCBNNews",
         "type": "stream"
       },
       {
         "id": "stream_gma_news",
         "name": "📺 GMA Integrated News 24h",
-        "video_id": "JZ379ZH_cxw",
+        "video_id": "jcTNalWYAcA",
         "handle": "@gmanews",
         "type": "stream"
       },
@@ -661,7 +661,7 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/08 18:54 JST",
+    "timestamp": "11/08 19:30 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -729,14 +729,14 @@
         "is_capital": true,
         "lat": 14.5995,
         "lon": 120.9842,
-        "temp": 29.7,
-        "apparent_temp": 32.9,
-        "humidity": 62,
-        "wind_speed": 10.3,
-        "wind_gusts": 33.5,
+        "temp": 29.2,
+        "apparent_temp": 32.6,
+        "humidity": 64,
+        "wind_speed": 9.1,
+        "wind_gusts": 27.4,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -774,14 +774,14 @@
         "is_capital": false,
         "lat": 10.3157,
         "lon": 123.8854,
-        "temp": 26.1,
-        "apparent_temp": 30.7,
-        "humidity": 87,
-        "wind_speed": 9.2,
-        "wind_gusts": 25.6,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "temp": 25.9,
+        "apparent_temp": 30.5,
+        "humidity": 88,
+        "wind_speed": 9.3,
+        "wind_gusts": 20.5,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -808,55 +808,10 @@
             "precipitation_mm": 6.6
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "ダバオ (南部主要都市)",
-        "name_en": "Davao",
-        "is_capital": false,
-        "lat": 7.1907,
-        "lon": 125.4578,
-        "temp": 24.5,
-        "apparent_temp": 29.1,
-        "humidity": 95,
-        "wind_speed": 8.4,
-        "wind_gusts": 15.5,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 30.7,
-            "temp_min": 22.9,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 12.8
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 31.0,
-            "temp_min": 23.2,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 6.6
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 29.4,
-            "temp_min": 23.4,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 8.3
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -865,14 +820,14 @@
       "is_capital": true,
       "lat": 14.5995,
       "lon": 120.9842,
-      "temp": 29.7,
-      "apparent_temp": 32.9,
-      "humidity": 62,
-      "wind_speed": 10.3,
-      "wind_gusts": 33.5,
+      "temp": 29.2,
+      "apparent_temp": 32.6,
+      "humidity": 64,
+      "wind_speed": 9.1,
+      "wind_gusts": 27.4,
       "precipitation": 0.0,
-      "weather_code": 0,
-      "weather_label": "☀️ 快晴",
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/08(日)",
@@ -904,7 +859,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 18:54 JST"
+    "timestamp": "11/08 19:30 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -933,7 +888,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/08 18:54 JST"
+    "timestamp": "11/08 19:30 JST"
   },
   "lifeline": {
     "status": "NORMAL",

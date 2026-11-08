@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 15:38:09",
-  "timestamp_local": "2026-11-08 15:38:09",
+  "timestamp": "2026-11-08 16:43:40",
+  "timestamp_local": "2026-11-08 16:43:40",
   "country": {
     "id": "korea",
     "name": "韓国 (大韓民国)",
@@ -296,16 +296,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 17,
-    "summary": "M4.5 (11 km W of Honmachi, Japan)",
+    "summary": "M4.5 (90 km NE of Punta Cana, Dominican Republic)",
     "latest": {
       "mag": 4.5,
-      "place": "11 km W of Honmachi, Japan",
-      "time": "11/08 10:53 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twvb",
+      "place": "90 km NE of Punta Cana, Dominican Republic",
+      "time": "11/08 15:30 JST",
+      "depth_km": 30.424,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twwc",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.5,
+        "place": "90 km NE of Punta Cana, Dominican Republic",
+        "time": "11/08 15:30 JST",
+        "depth_km": 30.424,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twwc",
+        "tsunami": 0
+      },
       {
         "mag": 4.5,
         "place": "11 km W of Honmachi, Japan",
@@ -417,19 +425,18 @@
         "depth_km": 31.748,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrq",
         "tsunami": 0
-      },
-      {
-        "mag": 4.5,
-        "place": "57 km SW of Ollagüe, Chile",
-        "time": "11/07 19:53 JST",
-        "depth_km": 110.716,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrp",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "イスラエル 野党アイゼンコット氏に組閣指示へ(ABEMA TIMES)",
+        "link": "https://news.yahoo.co.jp/articles/7fa13ed31aa7920217fd959301290bff113d9fa1?source=rss",
+        "description": "イスラエルのヘルツォグ大統領は、10月に行われた総選挙の結果を受け、野党の党首で元参謀総長のアイゼンコット氏に組閣を指示する意向を伝えました。【映像】アイゼンコット氏「今こそ国家緊急内閣を樹立する時」",
+        "pub_date": "11/08 15:57 JST",
+        "is_priority": false
+      },
       {
         "title": "トランプ氏 格闘技代表に報道官打診も「断った」と報道(ABEMA TIMES)",
         "link": "https://news.yahoo.co.jp/articles/e32e6d1645ab31295771462c83d96ed8b3f879a0?source=rss",
@@ -562,13 +569,6 @@
         "description": "コムソモリスク・ナ・アムーレ、ロシア、11月8日 (AP) ー ロシア極東のハバロフスク地方では7日、11月初めに同地方を直撃し、約1カ月分の降水量に相当する雪をもたらした猛烈な吹雪への対応に追われて",
         "pub_date": "11/08 12:15 JST",
         "is_priority": false
-      },
-      {
-        "title": "オマーン湾で米軍が船舶攻撃　　米軍艦艇監視のイラン系船舶(AP通信)",
-        "link": "https://news.yahoo.co.jp/articles/e562cdf2538e386895d4e6475aa9105d01c70315?source=rss",
-        "description": "マスカット、オマーン湾、11月8日 (AP) ー 米軍は6日、オマーン湾で米海軍艦艇の監視および標的化を行っていたイランと関係がある船舶を破壊したと発表した。 過去7カ月にわたり、イランのイスラム革命",
-        "pub_date": "11/08 12:13 JST",
-        "is_priority": true
       }
     ],
     "count": 20
@@ -603,7 +603,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 06:23",
@@ -691,7 +691,7 @@
     "default_channel_id": "stream_ytn_live"
   },
   "forex": {
-    "timestamp": "11/08 15:38 JST",
+    "timestamp": "11/08 16:43 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -754,19 +754,64 @@
   "weather": {
     "cities": [
       {
+        "name": "ソウル (首都)",
+        "name_en": "Seoul",
+        "is_capital": true,
+        "lat": 37.5665,
+        "lon": 126.978,
+        "temp": 5.2,
+        "apparent_temp": 2.8,
+        "humidity": 83,
+        "wind_speed": 4.7,
+        "wind_gusts": 18.0,
+        "precipitation": 0.2,
+        "weather_code": 53,
+        "weather_label": "🌦️ 霧雨 (中)",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 6.6,
+            "temp_min": 2.6,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 6.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 11.4,
+            "temp_min": 3.9,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 10.3,
+            "temp_min": 1.2,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      },
+      {
         "name": "釜山 (南部港湾都市)",
         "name_en": "Busan",
         "is_capital": false,
         "lat": 35.1796,
         "lon": 129.0756,
-        "temp": 14.6,
-        "apparent_temp": 12.9,
-        "humidity": 64,
-        "wind_speed": 7.9,
-        "wind_gusts": 26.6,
+        "temp": 14.1,
+        "apparent_temp": 12.5,
+        "humidity": 66,
+        "wind_speed": 6.7,
+        "wind_gusts": 21.6,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -786,53 +831,8 @@
           },
           {
             "date": "11/10(火)",
-            "temp_max": 16.0,
-            "temp_min": 5.0,
-            "weather_code": 1,
-            "weather_label": "🌤️ 晴れ",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "済州 (リゾート島)",
-        "name_en": "Jeju",
-        "is_capital": false,
-        "lat": 33.4996,
-        "lon": 126.5312,
-        "temp": 17.1,
-        "apparent_temp": 15.5,
-        "humidity": 73,
-        "wind_speed": 15.5,
-        "wind_gusts": 28.8,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 17.5,
-            "temp_min": 10.5,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 2.8
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 14.7,
-            "temp_min": 11.6,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 26.5
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 13.4,
-            "temp_min": 8.4,
+            "temp_max": 16.1,
+            "temp_min": 4.5,
             "weather_code": 1,
             "weather_label": "🌤️ 晴れ",
             "precipitation_mm": 0.0
@@ -845,51 +845,51 @@
       }
     ],
     "capital": {
-      "name": "釜山 (南部港湾都市)",
-      "name_en": "Busan",
-      "is_capital": false,
-      "lat": 35.1796,
-      "lon": 129.0756,
-      "temp": 14.6,
-      "apparent_temp": 12.9,
-      "humidity": 64,
-      "wind_speed": 7.9,
-      "wind_gusts": 26.6,
-      "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "name": "ソウル (首都)",
+      "name_en": "Seoul",
+      "is_capital": true,
+      "lat": 37.5665,
+      "lon": 126.978,
+      "temp": 5.2,
+      "apparent_temp": 2.8,
+      "humidity": 83,
+      "wind_speed": 4.7,
+      "wind_gusts": 18.0,
+      "precipitation": 0.2,
+      "weather_code": 53,
+      "weather_label": "🌦️ 霧雨 (中)",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 15.4,
-          "temp_min": 5.4,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 6.6,
+          "temp_min": 2.6,
+          "weather_code": 55,
+          "weather_label": "🌦️ 霧雨 (強)",
+          "precipitation_mm": 6.0
         },
         {
           "date": "11/09(月)",
-          "temp_max": 12.6,
-          "temp_min": 9.4,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 11.4
+          "temp_max": 11.4,
+          "temp_min": 3.9,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/10(火)",
-          "temp_max": 16.0,
-          "temp_min": 5.0,
-          "weather_code": 1,
-          "weather_label": "🌤️ 晴れ",
+          "temp_max": 10.3,
+          "temp_min": 1.2,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/08 15:38 JST"
+    "timestamp": "11/08 16:43 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -918,7 +918,7 @@
         "details": "京釜線KTXなど主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/08 15:38 JST"
+    "timestamp": "11/08 16:43 JST"
   },
   "lifeline": {
     "status": "NORMAL",

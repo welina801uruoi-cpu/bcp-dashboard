@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 02:59:51",
-  "timestamp_local": "2026-11-08 13:59:51",
+  "timestamp": "2026-11-09 03:27:09",
+  "timestamp_local": "2026-11-08 14:27:09",
   "country": {
     "id": "usa",
     "name": "アメリカ (米国)",
@@ -281,6 +281,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "イラン戦闘再開の可能性「低い」と米大統領(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/32528f8e6b42e037f893bd66801eb125107636e2?source=rss",
+        "description": "【ワシントン共同】トランプ米大統領は8日、CNNテレビの電話インタビューで、イランの核開発などを巡る交渉に進展がある限り、イランとの戦闘再開を命じる可能性は「極めて低い」と語った。",
+        "pub_date": "11/09 03:25 JST",
+        "is_priority": false
+      },
+      {
         "title": "「最も野蛮で非人道的」ミラー氏が首席補佐官＆「狂暴なファイター」が報道官に？(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/15357933a708d2f38ead6b067a22e8e73af413ad?source=rss",
         "description": "日本時間8日未明、トランプ氏のSNSへの投稿に衝撃が走りました。「狂暴なファイターであり戦士、ダナ・ホワイト氏に大統領報道官のオファーを出した」屈強な格闘家らを率いる総合格闘技団体「UFC」のトップで",
@@ -412,13 +419,6 @@
         "description": "イスラエルのヘルツォグ大統領は、10月に行われた総選挙の結果を受け、野党の党首で元参謀総長のアイゼンコット氏に組閣を指示する意向を伝えました。【映像】アイゼンコット氏「今こそ国家緊急内閣を樹立する時」",
         "pub_date": "11/08 15:57 JST",
         "is_priority": false
-      },
-      {
-        "title": "米国から購入のF16V戦闘機　第2陣が台湾に到着　空軍「安定した生産と引き渡しが構築」(中央社フォーカス台湾)",
-        "link": "https://news.yahoo.co.jp/articles/4d0e7b3bfbdb173f81635cae38e3ee70893e4eff?source=rss",
-        "description": "（台東、台北中央社）台湾が米国から購入した新造のF16V戦闘機（ブロック70）全66機のうち、第2陣の3機が8日午前、東部・台東県の志航基地に到着した。空軍司令部は、米国側のプロジェクトオフィスや関係",
-        "pub_date": "11/08 15:43 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -546,7 +546,7 @@
     "default_channel_id": "stream_nbc_live"
   },
   "forex": {
-    "timestamp": "11/09 02:59 JST",
+    "timestamp": "11/09 03:27 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -560,18 +560,18 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.18,
-      "change": -0.64,
-      "change_pct": -0.36,
+      "rate": 176.17,
+      "change": -0.65,
+      "change_pct": -0.37,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.18,
-      "change": -0.64,
-      "change_pct": -0.36
+      "rate": 176.17,
+      "change": -0.65,
+      "change_pct": -0.37
     }
   },
   "airports": [
@@ -624,23 +624,68 @@
   "weather": {
     "cities": [
       {
+        "name": "ワシントンD.C. (首都)",
+        "name_en": "Washington, D.C.",
+        "is_capital": true,
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "temp": 16.5,
+        "apparent_temp": 12.7,
+        "humidity": 39,
+        "wind_speed": 14.7,
+        "wind_gusts": 23.0,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 17.5,
+            "temp_min": 6.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 15.7,
+            "temp_min": 6.2,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 19.4,
+            "temp_min": 4.8,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ニューヨーク (東部最大都市)",
         "name_en": "New York",
         "is_capital": false,
         "lat": 40.7128,
         "lon": -74.006,
-        "temp": 15.8,
+        "temp": 15.6,
         "apparent_temp": 12.0,
-        "humidity": 51,
-        "wind_speed": 19.1,
-        "wind_gusts": 28.1,
+        "humidity": 50,
+        "wind_speed": 16.9,
+        "wind_gusts": 26.6,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 16.1,
+            "temp_max": 16.0,
             "temp_min": 7.7,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
@@ -674,10 +719,10 @@
         "is_capital": false,
         "lat": 34.0522,
         "lon": -118.2437,
-        "temp": 25.8,
-        "apparent_temp": 22.8,
-        "humidity": 20,
-        "wind_speed": 7.4,
+        "temp": 27.4,
+        "apparent_temp": 24.9,
+        "humidity": 19,
+        "wind_speed": 6.8,
         "wind_gusts": 13.7,
         "precipitation": 0.0,
         "weather_code": 0,
@@ -719,11 +764,11 @@
         "is_capital": false,
         "lat": 41.8781,
         "lon": -87.6298,
-        "temp": 12.1,
-        "apparent_temp": 8.4,
-        "humidity": 67,
-        "wind_speed": 18.9,
-        "wind_gusts": 31.3,
+        "temp": 13.1,
+        "apparent_temp": 9.4,
+        "humidity": 63,
+        "wind_speed": 19.1,
+        "wind_gusts": 36.4,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -760,31 +805,31 @@
       }
     ],
     "capital": {
-      "name": "ニューヨーク (東部最大都市)",
-      "name_en": "New York",
-      "is_capital": false,
-      "lat": 40.7128,
-      "lon": -74.006,
-      "temp": 15.8,
-      "apparent_temp": 12.0,
-      "humidity": 51,
-      "wind_speed": 19.1,
-      "wind_gusts": 28.1,
+      "name": "ワシントンD.C. (首都)",
+      "name_en": "Washington, D.C.",
+      "is_capital": true,
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "temp": 16.5,
+      "apparent_temp": 12.7,
+      "humidity": 39,
+      "wind_speed": 14.7,
+      "wind_gusts": 23.0,
       "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 16.1,
-          "temp_min": 7.7,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.1
+          "temp_max": 17.5,
+          "temp_min": 6.4,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/09(月)",
-          "temp_max": 12.9,
+          "temp_max": 15.7,
           "temp_min": 6.2,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
@@ -792,8 +837,8 @@
         },
         {
           "date": "11/10(火)",
-          "temp_max": 16.0,
-          "temp_min": 5.6,
+          "temp_max": 19.4,
+          "temp_min": 4.8,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -804,7 +849,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 02:59 JST"
+    "timestamp": "11/09 03:27 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -848,7 +893,7 @@
         "details": "NY地下鉄各線平常運行中"
       }
     ],
-    "timestamp": "11/09 02:59 JST"
+    "timestamp": "11/09 03:27 JST"
   },
   "lifeline": {
     "status": "NORMAL",

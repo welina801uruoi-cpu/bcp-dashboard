@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 17:56:05",
+  "timestamp": "2026-11-08 18:23:44",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -347,11 +347,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "2",
-    "time": "2026-11-08 20:47",
-    "place": "熊本県熊本地方",
-    "magnitude": "2",
+    "time": "2026-11-09 03:15",
+    "place": "茨城県北部",
+    "magnitude": "3.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-09 03:15",
+        "place": "茨城県北部",
+        "shindo": "2",
+        "magnitude": "3.5",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-08 20:47",
         "place": "熊本県熊本地方",
@@ -414,13 +421,6 @@
         "shindo": "2",
         "magnitude": "2.9",
         "maxScale": 20
-      },
-      {
-        "time": "2026-11-08 02:30",
-        "place": "茨城県南部",
-        "shindo": "1",
-        "magnitude": "3.2",
-        "maxScale": 10
       }
     ]
   },
@@ -630,11 +630,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "雷注意報",
+          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -1046,13 +1046,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線23路線: 石巻線、山田線、奥羽本線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線23路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、石巻線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（石巻線、山田線、奥羽本線、米坂線、陸羽東線 等 計23路線）",
+    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、石巻線、山田線、奥羽本線 等 計23路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
       "石巻線",
       "山田線",
       "奥羽本線",
@@ -1060,22 +1062,20 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "肥薩線",
-      "山陽本線",
-      "姫新線",
-      "芸備線",
-      "美祢線",
-      "久留里線",
-      "小湊鉄道線",
-      "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
       "小海線",
       "越後線",
       "しなの鉄道北しなの線",
       "大井川鉄道大井川本線",
-      "万葉線"
+      "万葉線",
+      "久留里線",
+      "小湊鉄道線",
+      "いすみ鉄道線",
+      "わたらせ渓谷鐵道線",
+      "山陽本線",
+      "姫新線",
+      "芸備線",
+      "美祢線",
+      "肥薩線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1168,7 +1168,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】秋田・千葉・長野・奈良・山口で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】秋田・千葉・長野・山口で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1436,7 +1436,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 02:56:02 JST"
+    "last_updated": "2026-11-09 03:23:42 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

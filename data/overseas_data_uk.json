@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 02:58:54",
-  "timestamp_local": "2026-11-08 18:58:54",
+  "timestamp": "2026-11-09 03:26:16",
+  "timestamp_local": "2026-11-08 19:26:16",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -732,7 +732,7 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/09 02:58 JST",
+    "timestamp": "11/09 03:26 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -746,18 +746,18 @@
       "currency": "GBP",
       "name": "英ポンド",
       "symbol": "£",
-      "rate": 211.55,
-      "change": -0.34,
-      "change_pct": -0.16,
+      "rate": 211.06,
+      "change": -0.83,
+      "change_pct": -0.39,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.18,
-      "change": -0.64,
-      "change_pct": -0.36
+      "rate": 176.17,
+      "change": -0.65,
+      "change_pct": -0.37
     }
   },
   "airports": [
@@ -831,17 +831,17 @@
         "lat": 51.5074,
         "lon": -0.1278,
         "temp": 10.1,
-        "apparent_temp": 8.5,
-        "humidity": 75,
-        "wind_speed": 4.3,
-        "wind_gusts": 9.4,
+        "apparent_temp": 8.6,
+        "humidity": 76,
+        "wind_speed": 4.0,
+        "wind_gusts": 9.7,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 10.9,
+            "temp_max": 10.8,
             "temp_min": 7.9,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
@@ -870,23 +870,68 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
+        "name": "マンチェスター (中部)",
+        "name_en": "Manchester",
+        "is_capital": false,
+        "lat": 53.4808,
+        "lon": -2.2426,
+        "temp": 8.8,
+        "apparent_temp": 7.4,
+        "humidity": 83,
+        "wind_speed": 2.5,
+        "wind_gusts": 5.0,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 9.0,
+            "temp_min": 6.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 10.7,
+            "temp_min": 5.2,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 10.8,
+            "temp_min": 5.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "エディンバラ (スコットランド)",
         "name_en": "Edinburgh",
         "is_capital": false,
         "lat": 55.9533,
         "lon": -3.1883,
-        "temp": 8.8,
-        "apparent_temp": 7.2,
-        "humidity": 90,
-        "wind_speed": 6.1,
-        "wind_gusts": 13.3,
+        "temp": 8.5,
+        "apparent_temp": 7.1,
+        "humidity": 91,
+        "wind_speed": 5.0,
+        "wind_gusts": 11.2,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 9.1,
+            "temp_max": 9.0,
             "temp_min": 7.2,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
@@ -922,17 +967,17 @@
       "lat": 51.5074,
       "lon": -0.1278,
       "temp": 10.1,
-      "apparent_temp": 8.5,
-      "humidity": 75,
-      "wind_speed": 4.3,
-      "wind_gusts": 9.4,
+      "apparent_temp": 8.6,
+      "humidity": 76,
+      "wind_speed": 4.0,
+      "wind_gusts": 9.7,
       "precipitation": 0.0,
-      "weather_code": 0,
-      "weather_label": "☀️ 快晴",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 10.9,
+          "temp_max": 10.8,
           "temp_min": 7.9,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
@@ -960,7 +1005,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 02:58 JST"
+    "timestamp": "11/09 03:26 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -1209,7 +1254,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/09 02:58 JST"
+    "timestamp": "11/09 03:26 JST"
   },
   "lifeline": {
     "status": "NORMAL",

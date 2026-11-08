@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 21:58:23",
+  "timestamp": "2026-11-08 22:25:59",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -474,10 +474,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、波浪注意報",
+        "summary": "波浪注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -632,11 +632,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、強風注意報、波浪注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -1053,18 +1053,27 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線25路線: 山陽本線、姫新線、芸備線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線27路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、函館本線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山陽本線、姫新線、芸備線、美祢線、肥薩線 等 計25路線）",
+    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、函館本線、山陽本線、姫新線 等 計27路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "函館本線",
       "山陽本線",
       "姫新線",
       "芸備線",
       "美祢線",
+      "嵯峨野線",
       "肥薩線",
+      "小海線",
+      "越後線",
+      "しなの鉄道北しなの線",
+      "大井川鉄道大井川本線",
+      "万葉線",
       "石巻線",
       "山田線",
       "奥羽本線",
@@ -1072,19 +1081,12 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "嵯峨野線",
+      "中央線",
       "青梅線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
-      "小海線",
-      "越後線",
-      "しなの鉄道北しなの線",
-      "大井川鉄道大井川本線",
-      "万葉線"
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1162,7 +1164,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 25,
+    "target_lines_count": 27,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1322,7 +1324,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 21,
+    "disaster_count": 14,
     "articles": [
       {
         "title": "中央線(快速)で人身事故 運転再開(レスキューナウニュース)",
@@ -1437,15 +1439,15 @@
         "is_disaster": true
       },
       {
-        "title": "未明に大きな揺れ　東海地方で最大震度5強 22人けが(テレビ朝日系（ANN）)",
-        "summary": "8日未明、東海地方で最大震度5強の地震がありました。転倒するなどして各地で22人がけがをしています。 気象庁によりますと、午前1時4分ごろ、静岡県西部を震源とする地震が発生し、愛知県知多市で震度5強を",
-        "pub_date": "11/08 19:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/f17ba0b15c7c2715dae6feb7d95945d1b0a6b99b?source=rss",
+        "title": "東京で今季初 最低気温1桁の冷え込み　北海道では今季初－10℃以下(テレビ朝日系（ANN）)",
+        "summary": "9日朝は東京都心で今シーズン初めて一桁の冷え込みとなりました。日中も気温が上がらず、1月並みの寒さとなるため、服装や体調管理に注意が必要です。 上空の強い寒気の影響で、9日朝は関東から北海道で冷え込み",
+        "pub_date": "11/09 07:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/6ac2019ec62cf2cc6b45ff482574f24c0040a5e2?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-09 06:58:21 JST"
+    "last_updated": "2026-11-09 07:25:56 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

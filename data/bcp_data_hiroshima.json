@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 18:25:05",
+  "timestamp": "2026-11-08 19:14:03",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -162,11 +162,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NORMAL",
-    "summary": "現在、中国エリア全域（5地域）に警報・注意報の発表はありません。",
+    "status": "NOTICE",
+    "summary": "【注意報発表: 1地域】山口（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 0,
+    "notice_count": 1,
     "total_prefs": 5,
     "pref_details": [
       {
@@ -184,11 +184,13 @@
         "code": "35",
         "name": "山口県",
         "short_name": "山口",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報"
+        ],
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -268,11 +270,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中国電力NW: 【停電発生中】山口で停電情報を検知",
+    "power_msg": "中国電力NW: 停電情報なし（中国エリア管内正常）",
     "water_msg": "広島市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "広島ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -539,7 +541,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 03:24:43 JST"
+    "last_updated": "2026-11-09 04:13:51 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

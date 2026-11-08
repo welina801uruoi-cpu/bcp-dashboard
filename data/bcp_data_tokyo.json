@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 18:23:54",
+  "timestamp": "2026-11-08 19:12:55",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -202,10 +202,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 4地域】東京、神奈川、茨城、群馬（警報なし）",
+    "summary": "【注意報発表: 5地域】東京、神奈川、埼玉、茨城、群馬（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 4,
+    "notice_count": 5,
     "total_prefs": 8,
     "pref_details": [
       {
@@ -216,11 +216,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、強風注意報、波浪注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -251,11 +251,13 @@
         "code": "11",
         "name": "埼玉県",
         "short_name": "埼玉",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/11/"
       },
       {
@@ -659,7 +661,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 03:23:42 JST"
+    "last_updated": "2026-11-09 04:12:43 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

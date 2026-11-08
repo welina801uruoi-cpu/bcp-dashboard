@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 03:27:12",
-  "timestamp_local": "2026-11-08 14:27:12",
+  "timestamp": "2026-11-09 04:15:51",
+  "timestamp_local": "2026-11-08 15:15:51",
   "country": {
     "id": "canada",
     "name": "カナダ",
@@ -253,6 +253,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "エジプトで2つの列車が衝突　7人死亡112人けが　追突か(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/756c15de242814ebffadd809ba0c58d4f090459b?source=rss",
+        "description": "エジプトで2つの列車が衝突し、一部が脱線しました。これまでに7人の死亡が確認され、112人がけがをしています。 エジプト当局によりますと8日、カイロの南およそ70キロの地点で旅客列車同士が衝突し、一部",
+        "pub_date": "11/09 03:37 JST",
+        "is_priority": false
+      },
+      {
         "title": "イラン戦闘再開の可能性「低い」と米大統領(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/32528f8e6b42e037f893bd66801eb125107636e2?source=rss",
         "description": "【ワシントン共同】トランプ米大統領は8日、CNNテレビの電話インタビューで、イランの核開発などを巡る交渉に進展がある限り、イランとの戦闘再開を命じる可能性は「極めて低い」と語った。",
@@ -384,13 +391,6 @@
         "description": "【ソウル聯合ニュース】韓国国会の国防委員会委員長を務める与党「共に民主党」の陳声準（チン・ソンジュン）議員は8日、国会で記者会見を開き、米軍主導の韓米連合軍が持つ有事作戦統制権の韓国への移管について「",
         "pub_date": "11/08 16:46 JST",
         "is_priority": false
-      },
-      {
-        "title": "イスラエル 野党アイゼンコット氏に組閣指示へ(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/7fa13ed31aa7920217fd959301290bff113d9fa1?source=rss",
-        "description": "イスラエルのヘルツォグ大統領は、10月に行われた総選挙の結果を受け、野党の党首で元参謀総長のアイゼンコット氏に組閣を指示する意向を伝えました。【映像】アイゼンコット氏「今こそ国家緊急内閣を樹立する時」",
-        "pub_date": "11/08 15:57 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -492,32 +492,32 @@
     "default_channel_id": "stream_cbc_live"
   },
   "forex": {
-    "timestamp": "11/09 03:27 JST",
+    "timestamp": "11/09 04:15 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.43,
-      "change": 0.93,
-      "change_pct": 0.59,
+      "rate": 158.32,
+      "change": 0.82,
+      "change_pct": 0.52,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "CAD",
       "name": "カナダドル",
       "symbol": "C$",
-      "rate": 111.83,
-      "change": -0.52,
-      "change_pct": -0.46,
+      "rate": 112.05,
+      "change": -0.29,
+      "change_pct": -0.26,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.17,
-      "change": -0.65,
-      "change_pct": -0.37
+      "rate": 176.3,
+      "change": -0.52,
+      "change_pct": -0.29
     }
   },
   "airports": [
@@ -555,64 +555,19 @@
   "weather": {
     "cities": [
       {
-        "name": "オタワ (首都)",
-        "name_en": "Ottawa",
-        "is_capital": true,
-        "lat": 45.4215,
-        "lon": -75.6972,
-        "temp": 9.0,
-        "apparent_temp": 5.3,
-        "humidity": 68,
-        "wind_speed": 14.6,
-        "wind_gusts": 26.6,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 9.3,
-            "temp_min": 4.5,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 2.6
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 8.4,
-            "temp_min": 4.3,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 9.3,
-            "temp_min": 3.9,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 1.9
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "トロント (最大都市)",
         "name_en": "Toronto",
         "is_capital": false,
         "lat": 43.6532,
         "lon": -79.3832,
-        "temp": 11.8,
-        "apparent_temp": 7.3,
-        "humidity": 60,
-        "wind_speed": 21.1,
-        "wind_gusts": 42.8,
+        "temp": 12.0,
+        "apparent_temp": 7.9,
+        "humidity": 58,
+        "wind_speed": 18.2,
+        "wind_gusts": 36.4,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -628,7 +583,7 @@
             "temp_min": 5.3,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.4
+            "precipitation_mm": 0.2
           },
           {
             "date": "11/10(火)",
@@ -650,19 +605,19 @@
         "is_capital": false,
         "lat": 49.2827,
         "lon": -123.1207,
-        "temp": 11.4,
-        "apparent_temp": 8.2,
-        "humidity": 77,
-        "wind_speed": 17.6,
-        "wind_gusts": 33.1,
+        "temp": 11.2,
+        "apparent_temp": 8.3,
+        "humidity": 78,
+        "wind_speed": 15.3,
+        "wind_gusts": 25.9,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 11.9,
-            "temp_min": 6.2,
+            "temp_max": 12.1,
+            "temp_min": 6.3,
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
             "precipitation_mm": 0.8
@@ -691,43 +646,43 @@
       }
     ],
     "capital": {
-      "name": "オタワ (首都)",
-      "name_en": "Ottawa",
-      "is_capital": true,
-      "lat": 45.4215,
-      "lon": -75.6972,
-      "temp": 9.0,
-      "apparent_temp": 5.3,
-      "humidity": 68,
-      "wind_speed": 14.6,
-      "wind_gusts": 26.6,
+      "name": "トロント (最大都市)",
+      "name_en": "Toronto",
+      "is_capital": false,
+      "lat": 43.6532,
+      "lon": -79.3832,
+      "temp": 12.0,
+      "apparent_temp": 7.9,
+      "humidity": 58,
+      "wind_speed": 18.2,
+      "wind_gusts": 36.4,
       "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 9.3,
-          "temp_min": 4.5,
-          "weather_code": 55,
-          "weather_label": "🌦️ 霧雨 (強)",
-          "precipitation_mm": 2.6
+          "temp_max": 12.2,
+          "temp_min": 5.8,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 0.5
         },
         {
           "date": "11/09(月)",
-          "temp_max": 8.4,
-          "temp_min": 4.3,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 8.2,
+          "temp_min": 5.3,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.2
         },
         {
           "date": "11/10(火)",
-          "temp_max": 9.3,
-          "temp_min": 3.9,
-          "weather_code": 55,
-          "weather_label": "🌦️ 霧雨 (強)",
-          "precipitation_mm": 1.9
+          "temp_max": 15.9,
+          "temp_min": 6.4,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -735,7 +690,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 03:27 JST"
+    "timestamp": "11/09 04:15 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -764,7 +719,7 @@
         "details": "VIA鉄道主要列車平常運行中"
       }
     ],
-    "timestamp": "11/09 03:27 JST"
+    "timestamp": "11/09 04:15 JST"
   },
   "lifeline": {
     "status": "NORMAL",

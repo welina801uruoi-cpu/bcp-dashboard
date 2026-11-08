@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 18:24:45",
+  "timestamp": "2026-11-08 19:13:40",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -151,34 +151,34 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 3地域】道南、道北、道東（警報なし）",
+    "summary": "【注意報発表: 2地域】道央、道北（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 3,
+    "notice_count": 2,
     "total_prefs": 4,
     "pref_details": [
       {
         "code": "1a",
         "name": "道央",
         "short_name": "道央",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報"
+        ],
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
         "code": "1b",
         "name": "道南",
         "short_name": "道南",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "波浪注意報"
-        ],
-        "summary": "波浪注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -189,23 +189,21 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、波浪注意報",
+        "summary": "波浪注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
         "code": "1d",
         "name": "道東",
         "short_name": "道東",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "波浪注意報"
-        ],
-        "summary": "波浪注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -520,7 +518,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 03:24:43 JST"
+    "last_updated": "2026-11-09 04:12:43 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",

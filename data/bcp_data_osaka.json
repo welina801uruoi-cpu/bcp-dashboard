@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 08:26:51",
+  "timestamp": "2026-11-08 09:13:31",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -350,8 +350,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 08:34",
+          "text": "START au END は通信 START 障害 END かなんかか。うちのあたりはもともと電波が弱くて使い物にならないけど、300m先まで歩いて再起動しても..."
+        },
         {
           "time": "11/08 08:05",
           "text": "通信 START 障害 END かな🥺 START au END 頼むぜ…"
@@ -359,10 +363,6 @@
         {
           "time": "11/08 07:38",
           "text": "今 START au END 回線ってもしかして通信 START 障害 END 起きてる？ アンテナは立ってるんだけど5Gか4Gの表示がされないで電波なしって言..."
-        },
-        {
-          "time": "11/08 07:25",
-          "text": "START au END のGoogle Pixel10PROさくさく動くし気に入って使ってるんですが、今日の昼過ぎから通信 START 障害 END 起きてる..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -393,10 +393,10 @@
     {
       "keyword": "au 繋がらない",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 5 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 08:07",
@@ -419,8 +419,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 08:33",
+          "text": "@tedori_lab00 通信 START 障害 END などはどのキャリアでも起こり得るので、メイン回線+サブ回線で運用しておくのがコスパ的にも良いですし、..."
+        },
         {
           "time": "11/08 07:05",
           "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方もOK🙆‍♂️ eSIM＋eKYCで最短即日⏱️ 停電・通..."
@@ -428,10 +432,6 @@
         {
           "time": "11/08 00:48",
           "text": "これは超高額！ START povo END 新規申し込みで6,200ポイント🔥🔥 通信 START 障害 END とか災害対策のサブ回線としても超優秀だと思い..."
-        },
-        {
-          "time": "11/07 19:43",
-          "text": "私はKDDIの START 障害 END を機に、デュアルで使っております。 Nuro（S回線）と START POVO END です。両社を使うことでMNO契..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -457,8 +457,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 18,
+    "disaster_count": 12,
     "articles": [
+      {
+        "title": "商店街近くでトラックと乗用車が接触　歩行者ら4人けが　東京・品川区(テレビ朝日系（ANN）)",
+        "summary": "週末ににぎわう東京・品川区の商店街近くで事故があり、巻き込まれた歩行者ら4人がけがをしました。 8日午後1時ごろ、品川区西中延の交差点で、「トラックと乗用車の事故」と通報がありました。 警視庁によりま",
+        "pub_date": "11/08 17:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/1d5f5fff6bbd25a01013847aba2bf2cc58a4909b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "交差点で車とトラック衝突　東京、歩行者ら4人けが(共同通信)",
         "summary": "8日午後1時ごろ、東京都品川区の都道交差点で、乗用車とトラックが衝突した。巻き込まれた歩行者の女性2人と、乗用車の男女2人が負傷して搬送され、警視庁荏原署が詳しい状況を調べている。いずれも意識はあると",
@@ -509,7 +517,7 @@
       },
       {
         "title": "泊原発、装甲車乗り避難訓練　複合災害による孤立地域想定(共同通信)",
-        "summary": "北海道電力泊原発（北海道泊村）の重大事故を想定した国の原子力防災総合訓練が8日行われ、複合災害による孤立地域から装甲車に乗って避難する流れを確認した。ヘリコプターでの物資輸送など一部の訓練は、降雪の影",
+        "summary": "北海道電力泊原発（北海道泊村）の重大事故を想定した国と北海道の原子力防災総合訓練が8日行われ、複合災害による孤立地域から装甲車に乗って避難する流れを確認した。ヘリコプターでの物資輸送など一部の訓練は、",
         "pub_date": "11/08 14:59 JST",
         "link": "https://news.yahoo.co.jp/articles/53b37268c698e8c3d3e22beb2a7a4958939cc04f?source=rss",
         "category": "国内・気象防災",
@@ -532,55 +540,47 @@
         "is_disaster": true
       },
       {
-        "title": "JR内房線　全線で運転再開　台風25号の影響で 約1カ月半ぶり(テレビ朝日系（ANN）)",
-        "summary": "台風25号の影響で一部区間で運転を見合わせていたJR内房線が8日午前、およそ1カ月半ぶりに全線で再開しました。 JR内房線は9月の台風25号の影響で線路に土砂が流入し、一部区間で運転を見合わせていまし",
-        "pub_date": "11/08 12:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/900c8a27a0ee4085c9c6ed6d5410e9e582ce8a0f?source=rss",
-        "category": "国内・気象防災",
+        "title": "台風 強い勢力で小笠原諸島接近か",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/08 15:51 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6601792?source=rss",
+        "category": "主要速報",
         "is_disaster": true
       },
       {
-        "title": "熊本県で最大震度4　けが人などの情報なし(テレビ朝日系（ANN）)",
-        "summary": "8日午前10時53分ごろ、熊本県で最大震度4を観測する地震がありました。この地震による津波の心配はありません。 気象庁によりますと、震源は熊本県の天草・芦北地方で震源の深さは10キロ、地震の規模を示す",
-        "pub_date": "11/08 12:13 JST",
-        "link": "https://news.yahoo.co.jp/articles/bcd6326e91a4300b35899f25aa91792198f00f2e?source=rss",
-        "category": "国内・気象防災",
+        "title": "事故で娘失う 病院で母「いやだ」",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/08 17:25 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6601812?source=rss",
+        "category": "主要速報",
         "is_disaster": true
       },
       {
-        "title": "気象庁「1週間程度は地震に注意」 南海トラフ“関連低い”(テレビ朝日系（ANN）)",
-        "summary": "気象庁は今後1週間程度は同じ規模の地震に注意するよう呼び掛けています。気象庁 地震津波監視課 海老田綾貴課長「1週間程度、特に今後2日から3日間程度ですけれども、最大震度5強程度の地震に注意をお願い致",
-        "pub_date": "11/08 12:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/bcd50b12b51d639125f923e3c99766cab8d14ca3?source=rss",
+        "title": "「科学地理オリンピック日本選手権」11/15まで参加者募集、参加無料(高校生新聞)",
+        "summary": "国際地理オリンピック日本委員会は、地図や統計、写真などを読み解きながら「地理力」を競う「第21回科学地理オリンピック日本選手権」の参加者を募集しています。参加費は無料で、応募締め切りは2026年11月",
+        "pub_date": "11/08 18:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/f543d6181892d26f637c81f7f3fb6d680d76f491?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "一部地域で“断水”が発生…愛知で最大震度5強を観測した地震 避難時に転倒し骨折するなど少なくとも16人がケガ(東海テレビ)",
-        "summary": "8日未明、愛知県で最大震度5強を観測する強い地震があり、少なくとも16人がケガをしました。 8日午前1時4分、静岡県西部を震源とするマグニチュード5.7の地震があり、愛知県知多市で震度5強、瀬戸市、半",
-        "pub_date": "11/08 12:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/db85670ebc68ca3bff4f45f2296b1b3741d6ba4a?source=rss",
+        "title": "クマに襲われ男性けが　通報者が語る「手と足　全身も痛いと…」　山口・周南市(テレビ朝日系（ANN）)",
+        "summary": "ジョギング中の男性がクマに襲われ、けがをしました。現場の近くには小学校があり、警察がパトカーで警戒にあたっています。また、通報した人が当時の状況を語りました。通報した人「言葉になっていないような声がし",
+        "pub_date": "11/08 18:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/6fa68e26745c2ff851d691069fbbbd1209bf82f9?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "愛知県で最大震度5強　未明に大きな揺れ　25人以上けが　通行止めも(テレビ朝日系（ANN）)",
-        "summary": "8日未明、東海地方で最大震度5強の地震がありました。転倒するなどして各地で25人以上のけが人が確認されています。 気象庁によりますと、午前1時4分ごろ、静岡県西部を震源とする地震が発生し、愛知県知多市",
-        "pub_date": "11/08 12:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/fde575f1f0ca80c9945c61a2005c5f1a314f4f2a?source=rss",
+        "title": "アナウンス日本一の高校生の練習方法　友達に読みを聞いてもらい癖を直した(高校生新聞)",
+        "summary": "花谷美海さん（宮城・宮城学院高校3年）は、今年、放送部の全国大会「NHK杯全国高校放送コンテスト（通称：Nコン）」のアナウンス部門で優勝した。どんな練習を重ねきたか聞いた。（構成・椎木里咲）",
+        "pub_date": "11/08 18:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/de05e99172d4c03b9ccb2df581e5d6a39e7d64c3?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "店舗のガラスが割れるなど被害　散乱し片付け続く　愛知・豊橋市(テレビ朝日系（ANN）)",
-        "summary": "車の販売店のガラスが割れるなどの被害があった愛知県豊橋市から報告です。 愛知県の豊橋駅から車でおよそ15分の場所です。 豊橋市は地震で震度4の揺れを観測しました。 店の正面にはガラスが貼られていたので",
-        "pub_date": "11/08 12:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/7b4a5286a188f025892efef77915a30f1c025ff6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-08 17:26:22 JST"
+    "last_updated": "2026-11-08 18:12:55 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -612,10 +612,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "YSHup00eGM0",
+        "video_id": "JMYQzw1dfjg",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/YSHup00eGM0?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=YSHup00eGM0"
+        "embed_url": "https://www.youtube.com/embed/JMYQzw1dfjg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=JMYQzw1dfjg"
       },
       {
         "id": "stream_ntvnews",
@@ -634,10 +634,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "pJWMjolNvgc",
+        "video_id": "kFjVDHjSOrs",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/pJWMjolNvgc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=pJWMjolNvgc"
+        "embed_url": "https://www.youtube.com/embed/kFjVDHjSOrs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=kFjVDHjSOrs"
       },
       {
         "id": "stream_fnnnews",

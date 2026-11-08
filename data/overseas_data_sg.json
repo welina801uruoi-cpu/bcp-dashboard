@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 02:28:57",
-  "timestamp_local": "2026-11-09 01:28:57",
+  "timestamp": "2026-11-09 02:57:58",
+  "timestamp_local": "2026-11-09 01:57:58",
   "country": {
     "id": "singapore",
     "name": "シンガポール",
@@ -619,7 +619,7 @@
     "default_channel_id": "stream_cna_live"
   },
   "forex": {
-    "timestamp": "11/09 02:28 JST",
+    "timestamp": "11/09 02:57 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -642,9 +642,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.34,
-      "change": -0.48,
-      "change_pct": -0.27
+      "rate": 176.18,
+      "change": -0.64,
+      "change_pct": -0.36
     }
   },
   "airports": [
@@ -665,9 +665,99 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/09 02:28 JST"
+    "cities": [
+      {
+        "name": "シンガポール (全域)",
+        "name_en": "Singapore",
+        "is_capital": true,
+        "lat": 1.3521,
+        "lon": 103.8198,
+        "temp": 24.4,
+        "apparent_temp": 30.0,
+        "humidity": 99,
+        "wind_speed": 4.8,
+        "wind_gusts": 11.2,
+        "precipitation": 0.0,
+        "weather_code": 45,
+        "weather_label": "🌫️ 霧",
+        "forecast": [
+          {
+            "date": "11/09(月)",
+            "temp_max": 31.8,
+            "temp_min": 23.3,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 20.4
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 30.9,
+            "temp_min": 23.2,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 14.8
+          },
+          {
+            "date": "11/11(水)",
+            "temp_max": 31.2,
+            "temp_min": 23.5,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 13.6
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      }
+    ],
+    "capital": {
+      "name": "シンガポール (全域)",
+      "name_en": "Singapore",
+      "is_capital": true,
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "temp": 24.4,
+      "apparent_temp": 30.0,
+      "humidity": 99,
+      "wind_speed": 4.8,
+      "wind_gusts": 11.2,
+      "precipitation": 0.0,
+      "weather_code": 45,
+      "weather_label": "🌫️ 霧",
+      "forecast": [
+        {
+          "date": "11/09(月)",
+          "temp_max": 31.8,
+          "temp_min": 23.3,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 20.4
+        },
+        {
+          "date": "11/10(火)",
+          "temp_max": 30.9,
+          "temp_min": 23.2,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 14.8
+        },
+        {
+          "date": "11/11(水)",
+          "temp_max": 31.2,
+          "temp_min": 23.5,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 13.6
+        }
+      ],
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
+    },
+    "timestamp": "11/09 02:57 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -696,7 +786,7 @@
         "details": "MRT南北線・東西線・環状線など平常運行中"
       }
     ],
-    "timestamp": "11/09 02:28 JST"
+    "timestamp": "11/09 02:57 JST"
   },
   "lifeline": {
     "status": "NORMAL",

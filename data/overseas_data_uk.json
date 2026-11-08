@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09 02:29:51",
-  "timestamp_local": "2026-11-08 18:29:51",
+  "timestamp": "2026-11-09 02:58:54",
+  "timestamp_local": "2026-11-08 18:58:54",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -732,7 +732,7 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/09 02:29 JST",
+    "timestamp": "11/09 02:58 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -755,9 +755,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.34,
-      "change": -0.48,
-      "change_pct": -0.27
+      "rate": 176.18,
+      "change": -0.64,
+      "change_pct": -0.36
     }
   },
   "airports": [
@@ -830,14 +830,14 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 10.3,
-        "apparent_temp": 8.7,
+        "temp": 10.1,
+        "apparent_temp": 8.5,
         "humidity": 75,
-        "wind_speed": 4.7,
-        "wind_gusts": 10.4,
+        "wind_speed": 4.3,
+        "wind_gusts": 9.4,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -870,61 +870,16 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
-        "name": "マンチェスター (中部)",
-        "name_en": "Manchester",
-        "is_capital": false,
-        "lat": 53.4808,
-        "lon": -2.2426,
-        "temp": 8.9,
-        "apparent_temp": 7.5,
-        "humidity": 82,
-        "wind_speed": 2.5,
-        "wind_gusts": 5.8,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 9.0,
-            "temp_min": 6.6,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 10.7,
-            "temp_min": 5.2,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 10.8,
-            "temp_min": 5.4,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "エディンバラ (スコットランド)",
         "name_en": "Edinburgh",
         "is_capital": false,
         "lat": 55.9533,
         "lon": -3.1883,
-        "temp": 8.9,
+        "temp": 8.8,
         "apparent_temp": 7.2,
-        "humidity": 89,
-        "wind_speed": 6.8,
-        "wind_gusts": 15.1,
+        "humidity": 90,
+        "wind_speed": 6.1,
+        "wind_gusts": 13.3,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
@@ -966,14 +921,14 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 10.3,
-      "apparent_temp": 8.7,
+      "temp": 10.1,
+      "apparent_temp": 8.5,
       "humidity": 75,
-      "wind_speed": 4.7,
-      "wind_gusts": 10.4,
+      "wind_speed": 4.3,
+      "wind_gusts": 9.4,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/08(日)",
@@ -1005,7 +960,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/09 02:29 JST"
+    "timestamp": "11/09 02:58 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -1015,7 +970,7 @@
     "overall_status": "大幅遅延・一部運休",
     "strike": false,
     "monitored_systems_count": 4,
-    "alert_lines_count": 3,
+    "alert_lines_count": 2,
     "alert_lines": [
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1024,14 +979,6 @@
         "status": "Severe Delays",
         "badge": "🟠 警戒",
         "reason": "Bakerloo Line: Severe delays due to earlier infrastructure damage at Harlesden and while we fix a points failure at Elep"
-      },
-      {
-        "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
-        "line": "District",
-        "mode": "tube",
-        "status": "Severe Delays",
-        "badge": "🟠 警戒",
-        "reason": "District Line: Severe delays between Earl's Court and Edgware Road due to an earlier customer incident at High Street Ke"
       },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1083,10 +1030,10 @@
           {
             "name": "District",
             "mode": "tube",
-            "status_raw": "Severe Delays",
-            "badge": "🟠 警戒",
-            "code": "warning",
-            "reason": "District Line: Severe delays between Earl's Court and Edgware Road due to an earlier customer incident at High Street Ke"
+            "status_raw": "Minor Delays",
+            "badge": "🟡 注意",
+            "code": "minor",
+            "reason": "District Line: Minor delays due to train cancellations.  "
           },
           {
             "name": "DLR",
@@ -1262,7 +1209,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/09 02:29 JST"
+    "timestamp": "11/09 02:58 JST"
   },
   "lifeline": {
     "status": "NORMAL",

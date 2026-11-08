@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07 23:57:40",
+  "timestamp": "2026-11-08 00:26:16",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -180,10 +180,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -194,12 +194,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "乾燥注意報",
           "強風注意報",
-          "風雪注意報",
-          "乾燥注意報"
+          "波浪注意報",
+          "風雪注意報"
         ],
-        "summary": "波浪注意報、強風注意報、風雪注意報、乾燥注意報",
+        "summary": "乾燥注意報、強風注意報、波浪注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -210,10 +210,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
@@ -224,10 +224,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、乾燥注意報",
+        "summary": "乾燥注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -265,39 +265,41 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 羽越本線、北上線 ／ 新幹線: 東北新幹線（運転見合わせ））",
+    "text": "運行支障あり（在来線: 羽越本線、北上線 ／ 新幹線: 東北新幹線（運転再開）、秋田新幹線（列車遅延））",
     "line_status": "ALERT",
     "line_text": "運行支障あり（羽越本線、北上線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東北新幹線（運転見合わせ））",
+    "shinkansen_text": "運行支障あり（東北新幹線（運転再開）、秋田新幹線（列車遅延）、山形新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/3",
     "troubled_lines": [
       "羽越本線",
       "北上線"
     ],
     "troubled_shinkansen": [
-      "東北新幹線（運転見合わせ）"
+      "東北新幹線（運転再開）",
+      "秋田新幹線（列車遅延）",
+      "山形新幹線（列車遅延）"
     ],
     "shinkansen_details": [
       {
         "name": "東北新幹線",
         "status": "ALERT",
-        "state": "運転見合わせ",
-        "detail": "郡山〜福島駅間で発生した架線支障の影響で、東京〜盛岡駅間の運転を見合わせています。（11月8日 7時15分掲載）",
+        "state": "運転再開",
+        "detail": "郡山〜福島駅間で発生した架線支障の影響で、東京〜盛岡駅間の運転を見合わせていましたが、09:00頃、運転を再開しました。なお、列車に遅れが出ています。（11月8日 9時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/1/0"
       },
       {
         "name": "秋田新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "現在､事故･遅延に関する情報はありません。",
+        "status": "ALERT",
+        "state": "列車遅延",
+        "detail": "東北新幹線内で発生した架線支障の影響で、下り線(秋田方面行)の列車に遅れが出ています。（11月8日 9時20分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       },
       {
         "name": "山形新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "現在､事故･遅延に関する情報はありません。",
+        "status": "ALERT",
+        "state": "列車遅延",
+        "detail": "東北新幹線内で発生した架線支障の影響で、下り線(新庄方面行)の列車に遅れが出ています。（11月8日 9時20分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/5/0"
       },
       {
@@ -323,7 +325,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東北電力NW: 【停電発生中】宮城で停電情報を検知",
+    "power_msg": "東北電力NW: 【停電発生中】福島で停電情報を検知",
     "water_msg": "仙台市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "仙台市ガス局: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -472,8 +474,56 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 26,
+    "disaster_count": 25,
     "articles": [
+      {
+        "title": "南海トラフ地震とは「直接関係ない」…愛知で“最大震度5強” 専門家「より大きな地震が起きることもある 今日自宅の点検を」(東海テレビ)",
+        "summary": "8日未明に愛知県で最大震度5強を観測した地震について、南海トラフ地震との関連や今後の注意点などを、名古屋大学の福和伸夫名誉教授に聞きました。Q.なぜ震源から少し離れた愛知県知多市で震度5強だったのか？",
+        "pub_date": "11/08 09:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/57ec5e1a5de653e47c3c8b444ef3d8753296adde?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "架線に支障物で運転を見合わせの東北新幹線東京－盛岡間、運転再開(産経新聞)",
+        "summary": "JR東日本は、架線に支障物の影響で上下線で運転を見合わせていた東北新幹線の東京－盛岡駅間の上下線について、午前9時ごろに運転を再開したとホームページで発表した。同区間の上下線に遅れが出ている。",
+        "pub_date": "11/08 09:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/ec5ec07c3f985aab419184cd5f15e58624dc51d6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "東北新幹線が全線で運転再開　架線の支障物で一時運転見合わせ　JR東日本(テレビ朝日系（ANN）)",
+        "summary": "JR東日本によりますと、東北新幹線は全線で運転を再開しました。 郡山駅と福島駅の間の架線に支障物が見つかった影響で、東京駅と盛岡駅の間の上下線で一時運転を見合わせていました。 復旧作業が完了し、安全が",
+        "pub_date": "11/08 09:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/7f070b947f04a83ec835b5656ddfdfd82084902c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "東北新幹線、東京―盛岡間の運転再開(共同通信)",
+        "summary": "JR東日本によると、8日午前9時ごろ、運転を見合わせていた東北新幹線の東京―盛岡間で、運転を再開した。",
+        "pub_date": "11/08 09:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/3d277e7c48c46611906e6f057894030823c2be36?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【社説】防災庁が発足　官民を束ねる役割果たせ(西日本新聞me)",
+        "summary": "災害対策における歴史的転換点としなければならない。政府の司令塔を担う防災庁が発足した。 日本は世界有数の災害大国でありながら「防災後進国」と指摘される。とりわけ過酷な避難所生活が多くの災害関連死を引き",
+        "pub_date": "11/08 09:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/b64ef97f524eab43049a7931b29cf6c0b1e2349b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "気象庁「1週間程度 地震に注意」 落石など警戒(ABEMA TIMES)",
+        "summary": "気象庁は、静岡県西部を震源とする最大震度5強を観測した地震について、今後1週間程度は同じ規模の地震に注意するよう呼びかけました。【映像】気象庁「1週間程度、最大震度5強程度の地震に注意」気象庁地震津波",
+        "pub_date": "11/08 08:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/e8d050a7367683759e1cf6153a941b575a4c8570?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "東北新幹線 東京〜盛岡で運転見合わせ(ABEMA TIMES)",
         "summary": "JR東日本によりますと、東北新幹線は、郡山駅と福島駅の間の架線に支障物が見つかった影響で、東京駅と盛岡駅の間の上下線で運転を見合わせています。【映像】新幹線の運行情報（JR東日本のHPから） 現在、係",
@@ -545,57 +595,9 @@
         "link": "https://news.yahoo.co.jp/articles/7be34110ca2b4f15d75b72edb48abe1db2006e30?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "東海道新幹線、東京―新横浜間運転見合わせ(共同通信)",
-        "summary": "JR東海によると、東海道新幹線の東京―新横浜間で架線に飛来物が付着しているのが見つかり、8日午前7時20分ごろから、同区間の上下線で運転を見合わせている。",
-        "pub_date": "11/08 07:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/f5d942514058a3f940368ce270d971cbb6643d6f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "東北新幹線　東京～盛岡駅間の上下線で運転を見合わせ　架線に支障物　9時再開見込み(テレビ朝日系（ANN）)",
-        "summary": "JR東日本によりますと、東北新幹線は郡山駅と福島駅の間の架線に支障物が見つかった影響で、東京駅と盛岡駅の間の上下線で運転を見合わせています。 現在、係員が現地に向かっていて、運転再開は8日午前9時ごろ",
-        "pub_date": "11/08 07:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/9c5f323a87732cd283f9cee2cd425355be7a74d8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "東北新幹線、東京－盛岡間で運転見合わせ　架線に支障物か、再開めど立たず(産経新聞)",
-        "summary": "JR東日本のホームページによると、東北新幹線は郡山－福島間の架線に支障物が見つかった影響で、東京－盛岡間の上下線で運転を見合わせている。運転再開見込は立っておらず、係員が現地に向かっているという。",
-        "pub_date": "11/08 07:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/db9a35c6d106dbadec4f70e508173af505d258ed?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【速報】東海道新幹線 運転再開 一時東京〜新横浜で運転見合わせ 架線に飛来物(CBCテレビ)",
-        "summary": "東海道新幹線は、架線に飛来物があるのを確認し、安全確保のため強制的に送電を停止している影響で、「東京」〜「新横浜」の上下線で運転を見合わせていましたが、8日午前7時40分に運転を再開しました。【写真を",
-        "pub_date": "11/08 07:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/902e42b2c88e322903e3ca4eef212d3f7daa836f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "住宅火災、焼け跡に2遺体　茨城・結城(共同通信)",
-        "summary": "8日午前2時ごろ、茨城県結城市で「2階建ての建物が延焼している」と近隣住民から119番があった。木造2階建てが全焼し、焼け跡から2人の遺体が見つかった。県警によると、この家に住む2人と連絡が取れておら",
-        "pub_date": "11/08 07:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/d48378be0af6e925d9b70db66e87341919c7c29d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "茨城で住宅火災、焼け跡から2遺体(共同通信)",
-        "summary": "茨城県警によると、8日午前2時ごろ、同県結城市で「2階建ての建物が延焼している」と近隣住民から119番があった。木造2階建てが全焼し、焼け跡から2人の遺体が見つかった。",
-        "pub_date": "11/08 07:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/8ac6bf0cde65c4e3d6347ca9146294fc11eb13f2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 08:57:09 JST"
+    "last_updated": "2026-11-08 09:26:02 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -638,10 +640,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "l_Dou7wW-uY",
+        "video_id": "rF8uuwcskdc",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/l_Dou7wW-uY?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=l_Dou7wW-uY"
+        "embed_url": "https://www.youtube.com/embed/rF8uuwcskdc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=rF8uuwcskdc"
       },
       {
         "id": "stream_annnews",

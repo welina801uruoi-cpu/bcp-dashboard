@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 13:18:49",
+  "timestamp": "2026-11-08 14:08:06",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -203,10 +203,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -233,7 +233,7 @@
         "name": "北海道新幹線",
         "status": "NORMAL",
         "state": "平常運転",
-        "detail": "22:00現在、ほぼ平常通り運転しています。（11月8日 22時0分掲載）",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/637/0"
       }
     ],
@@ -292,8 +292,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 13:25",
+          "text": "またJ-COM NET落ちた。20分くらいで復活したけど、、、 START 障害 END 情報もでない（ださない？）しなぁ。 START au END ショップ..."
+        },
         {
           "time": "11/08 12:50",
           "text": "ホントラグコスの日ってなんか起こるよね… 知ってるだけでも、 START au END の通信 START 障害 END 、台風と今回の地震💦 全国からレイヤー..."
@@ -301,10 +305,6 @@
         {
           "time": "11/08 12:39",
           "text": "START au END の通信 START 障害 END が酷い。 マジで繋がらん。"
-        },
-        {
-          "time": "11/08 12:06",
-          "text": "START au END も乗り換えキャンペーンで5G SAも試したが、5Gより4Gの方が速度が速いという奇妙な結果が出てしまった。 ドコモ5G SA STAR..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -338,19 +338,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/08 09:27",
-          "text": "これ。 まーじーで、繋がらなくて大変。 いろんな物事が、デジタル化されちゃって ・事前購入してるんです！！ ・YouTube登録してるんです！！ イベントスタッ..."
+          "time": "11/08 13:59",
+          "text": "何がプレミアムパートナーだ START au END とSBのMVNOより START 繋がらない END し遅いぞドコモ！って三ツ沢行く度に毒吐いてる。"
         },
         {
-          "time": "11/08 09:21",
-          "text": "@_Pxxh START au END 、UQのときは日常的に不便はなかったしdocomoも心配してなかったんですけど…こんなに START 繋がらない END..."
+          "time": "11/08 13:55",
+          "text": "@yui00rbrb docomo使ってましたが、サーキットに限らず地元でも START 繋がらない END 時が多々あったのでデータ通信のsimはpovoにし..."
         },
         {
-          "time": "11/08 09:15",
-          "text": "誰も話題にしてないけれど、しれっと START au END が買うガラケー新発売してたぞ。 START 繋がらない END チャンス到来。 docomoやソフ..."
+          "time": "11/08 13:24",
+          "text": "解約の問い合わせも保留で繋がせない、他の問い合わせ番号で解約すると伝えると START 繋がらない END 番号案内される、なんかずっと START au EN..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -398,11 +398,27 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 15,
+    "disaster_count": 17,
     "articles": [
       {
+        "title": "高崎線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "岡部～本庄駅間で発生した人身事故の影響で、高崎線は運転を見合わせていましたが、22:34頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/08 22:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/9df93d57ecf29fea8a983a6c5f821173fed6e909?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "三重・紀宝町で総合防災訓練　南海トラフ巨大地震を想定　県の防災ヘリを使って負傷者を救助する訓練も(メ〜テレ（名古屋テレビ）)",
+        "summary": "南海トラフ巨大地震で甚大な津波被害が想定されている三重県紀宝町で、防災訓練が行われました。 訓練は、南海トラフを震源とする巨大地震が発生し、海岸付近に最大11ｍの高さの津波が到達するという想定で行われ",
+        "pub_date": "11/08 22:49 JST",
+        "link": "https://news.yahoo.co.jp/articles/e18733eea86a3561c8f6854f7c9165b6e5624d0a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "名鉄名古屋本線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "富士松～豊明駅間で発生した人身事故の影響で、名鉄名古屋本線は新安城～豊明駅間の運転を見合わせています。振替輸送を行っています。",
+        "summary": "富士松～豊明駅間で発生した人身事故の影響で、名鉄名古屋本線は新安城～豊明駅間の運転を見合わせています。",
         "pub_date": "11/08 21:25 JST",
         "link": "https://news.yahoo.co.jp/articles/09f2a93fb60f6544874f0ab86f92d99aef83f4d1?source=rss",
         "category": "国内・気象防災",
@@ -503,25 +519,9 @@
         "link": "https://news.yahoo.co.jp/articles/6b798eed0956be1ff5d9f70c8df449706e935dd2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "台風32号は非常に強い勢力へ　トロピカルストームPenaは越境台風となる可能性(日本気象協会tenki.jp)",
-        "summary": "8日(日)15時現在、日本の南の台風32号は「強い」勢力となりました。台風はさらに発達し、10日(火)には「非常に強い」勢力となるでしょう。10日(火)から11日(水)にかけては小笠原諸島に接近する恐",
-        "pub_date": "11/08 18:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/f60d12d69845c17e7c05919554c14c86ea8ed28a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "商店街近くでトラックと乗用車が接触　歩行者ら4人けが　東京・品川区(テレビ朝日系（ANN）)",
-        "summary": "週末ににぎわう東京・品川区の商店街近くで事故があり、巻き込まれた歩行者ら4人がけがをしました。 8日午後1時ごろ、品川区西中延の交差点で、「トラックと乗用車の事故」と通報がありました。 警視庁によりま",
-        "pub_date": "11/08 17:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/1d5f5fff6bbd25a01013847aba2bf2cc58a4909b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 22:18:46 JST"
+    "last_updated": "2026-11-08 23:07:51 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -542,10 +542,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "2U6OEwlbt8M",
+        "video_id": "Y3BAP2EqvPE",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/2U6OEwlbt8M?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=2U6OEwlbt8M"
+        "embed_url": "https://www.youtube.com/embed/Y3BAP2EqvPE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Y3BAP2EqvPE"
       },
       {
         "id": "stream_tbsnews",
@@ -575,10 +575,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "kFjVDHjSOrs",
+        "video_id": "UI3AMgJl2CI",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/kFjVDHjSOrs?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=kFjVDHjSOrs"
+        "embed_url": "https://www.youtube.com/embed/UI3AMgJl2CI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=UI3AMgJl2CI"
       },
       {
         "id": "stream_fnnnews",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 11:10:11",
+  "timestamp": "2026-11-08 11:45:37",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -163,23 +163,21 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 2地域】広島、山口（警報なし）",
+    "summary": "【注意報発表: 1地域】山口（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 2,
+    "notice_count": 1,
     "total_prefs": 5,
     "pref_details": [
       {
         "code": "34",
         "name": "広島県",
         "short_name": "広島",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "乾燥注意報"
-        ],
-        "summary": "乾燥注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/34/"
       },
       {
@@ -239,14 +237,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 山口線、山陽本線、芸備線 ／ 新幹線: 山陽新幹線（その他））",
+    "text": "運行支障あり（在来線: 山陰本線、山陽本線、芸備線 ／ 新幹線: 山陽新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山口線、山陽本線、芸備線）",
+    "line_text": "運行支障あり（山陰本線、山陽本線、芸備線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
     "troubled_lines": [
-      "山口線",
+      "山陰本線",
       "山陽本線",
       "芸備線"
     ],
@@ -544,7 +542,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 20:09:47 JST"
+    "last_updated": "2026-11-08 20:45:11 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

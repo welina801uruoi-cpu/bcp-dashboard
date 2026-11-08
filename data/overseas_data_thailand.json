@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 20:10:27",
-  "timestamp_local": "2026-11-08 18:10:27",
+  "timestamp": "2026-11-08 20:46:03",
+  "timestamp_local": "2026-11-08 18:46:03",
   "country": {
     "id": "thailand",
     "name": "タイ",
@@ -295,7 +295,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
+    "count_24h": 13,
     "summary": "M4.7 (137 km E of Miyako, Japan)",
     "latest": {
       "mag": 4.7,
@@ -408,14 +408,6 @@
         "time": "11/08 00:05 JST",
         "depth_km": 571.898,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twsp",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "southern Mid-Atlantic Ridge",
-        "time": "11/07 20:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrt",
         "tsunami": 0
       }
     ]
@@ -592,10 +584,10 @@
     {
       "keyword": "タイ デモ",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 5 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 11:02",
@@ -665,7 +657,7 @@
       {
         "id": "stream_amarintv_live",
         "name": "📺 Amarin TV HD 34 LIVE",
-        "video_id": "c8ogNG295HE",
+        "video_id": "8V0q0-aer4s",
         "handle": "@AMARINTVHD",
         "type": "stream"
       },
@@ -691,7 +683,7 @@
     "default_channel_id": "stream_thairath_live"
   },
   "forex": {
-    "timestamp": "11/08 20:10 JST",
+    "timestamp": "11/08 20:45 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -754,61 +746,16 @@
   "weather": {
     "cities": [
       {
-        "name": "バンコク (首都)",
-        "name_en": "Bangkok",
-        "is_capital": true,
-        "lat": 13.7563,
-        "lon": 100.5018,
-        "temp": 28.7,
-        "apparent_temp": 33.3,
-        "humidity": 72,
-        "wind_speed": 6.3,
-        "wind_gusts": 22.7,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 32.7,
-            "temp_min": 23.9,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 4.4
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 33.0,
-            "temp_min": 23.7,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 2.1
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 31.5,
-            "temp_min": 24.2,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.2
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "チェンマイ (北部拠点)",
         "name_en": "Chiang Mai",
         "is_capital": false,
         "lat": 18.7883,
         "lon": 98.9853,
-        "temp": 24.9,
-        "apparent_temp": 29.5,
-        "humidity": 88,
-        "wind_speed": 5.3,
-        "wind_gusts": 10.1,
+        "temp": 24.5,
+        "apparent_temp": 29.2,
+        "humidity": 91,
+        "wind_speed": 4.8,
+        "wind_gusts": 11.2,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -849,11 +796,11 @@
         "is_capital": false,
         "lat": 7.8804,
         "lon": 98.3923,
-        "temp": 27.9,
-        "apparent_temp": 32.0,
-        "humidity": 78,
-        "wind_speed": 11.9,
-        "wind_gusts": 27.4,
+        "temp": 27.6,
+        "apparent_temp": 31.8,
+        "humidity": 79,
+        "wind_speed": 11.5,
+        "wind_gusts": 24.5,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -890,40 +837,40 @@
       }
     ],
     "capital": {
-      "name": "バンコク (首都)",
-      "name_en": "Bangkok",
-      "is_capital": true,
-      "lat": 13.7563,
-      "lon": 100.5018,
-      "temp": 28.7,
-      "apparent_temp": 33.3,
-      "humidity": 72,
-      "wind_speed": 6.3,
-      "wind_gusts": 22.7,
+      "name": "チェンマイ (北部拠点)",
+      "name_en": "Chiang Mai",
+      "is_capital": false,
+      "lat": 18.7883,
+      "lon": 98.9853,
+      "temp": 24.5,
+      "apparent_temp": 29.2,
+      "humidity": 91,
+      "wind_speed": 4.8,
+      "wind_gusts": 11.2,
       "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 32.7,
-          "temp_min": 23.9,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 4.4
+          "temp_max": 28.3,
+          "temp_min": 22.0,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 6.5
         },
         {
           "date": "11/09(月)",
-          "temp_max": 33.0,
-          "temp_min": 23.7,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 2.1
+          "temp_max": 28.0,
+          "temp_min": 20.9,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 14.2
         },
         {
           "date": "11/10(火)",
-          "temp_max": 31.5,
-          "temp_min": 24.2,
+          "temp_max": 26.8,
+          "temp_min": 20.0,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
           "precipitation_mm": 0.2
@@ -934,7 +881,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 20:10 JST"
+    "timestamp": "11/08 20:46 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -963,7 +910,7 @@
         "details": "BTSスクムウィット線・MRTブルーライン平常運行中"
       }
     ],
-    "timestamp": "11/08 20:10 JST"
+    "timestamp": "11/08 20:45 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 20:10:25",
-  "timestamp_local": "2026-11-08 17:40:25",
+  "timestamp": "2026-11-08 20:45:55",
+  "timestamp_local": "2026-11-08 18:15:55",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -267,7 +267,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
+    "count_24h": 13,
     "summary": "M4.7 (137 km E of Miyako, Japan)",
     "latest": {
       "mag": 4.7,
@@ -380,14 +380,6 @@
         "time": "11/08 00:05 JST",
         "depth_km": 571.898,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twsp",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "southern Mid-Atlantic Ridge",
-        "time": "11/07 20:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrt",
         "tsunami": 0
       }
     ]
@@ -645,7 +637,7 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/08 20:10 JST",
+    "timestamp": "11/08 20:45 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -684,14 +676,14 @@
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
       "weather": {
-        "raw": "METAR VYYY 081100Z 00000KT 7000 FEW020 SCT120 30/27 Q1012 NOSIG",
+        "raw": "METAR VYYY 081130Z 00000KT 7000 SCT020 SCT120 30/25 Q1012 NOSIG",
         "wind": "0kt",
         "wind_speed": 0,
         "wind_gust": 0,
         "visibility": "4.35マイル",
         "temp": 30,
         "fltcat": "VFR",
-        "report_time": "2026-11-08T11:00:00.000Z"
+        "report_time": "2026-11-08T11:30:00.000Z"
       },
       "status": "平常運航",
       "status_code": "normal",
@@ -707,11 +699,11 @@
         "is_capital": false,
         "lat": 16.8661,
         "lon": 96.1951,
-        "temp": 28.5,
-        "apparent_temp": 34.4,
-        "humidity": 78,
-        "wind_speed": 2.5,
-        "wind_gusts": 9.0,
+        "temp": 28.0,
+        "apparent_temp": 33.5,
+        "humidity": 80,
+        "wind_speed": 4.4,
+        "wind_gusts": 8.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -752,11 +744,11 @@
         "is_capital": true,
         "lat": 19.7633,
         "lon": 96.0785,
-        "temp": 24.9,
-        "apparent_temp": 30.5,
-        "humidity": 96,
-        "wind_speed": 4.2,
-        "wind_gusts": 11.5,
+        "temp": 24.6,
+        "apparent_temp": 30.1,
+        "humidity": 97,
+        "wind_speed": 3.8,
+        "wind_gusts": 8.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -797,14 +789,14 @@
         "is_capital": false,
         "lat": 21.9588,
         "lon": 96.0891,
-        "temp": 27.0,
-        "apparent_temp": 31.3,
-        "humidity": 74,
-        "wind_speed": 3.3,
-        "wind_gusts": 10.8,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
+        "temp": 26.9,
+        "apparent_temp": 31.6,
+        "humidity": 75,
+        "wind_speed": 1.5,
+        "wind_gusts": 9.0,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -831,10 +823,10 @@
             "precipitation_mm": 38.3
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -843,11 +835,11 @@
       "is_capital": true,
       "lat": 19.7633,
       "lon": 96.0785,
-      "temp": 24.9,
-      "apparent_temp": 30.5,
-      "humidity": 96,
-      "wind_speed": 4.2,
-      "wind_gusts": 11.5,
+      "temp": 24.6,
+      "apparent_temp": 30.1,
+      "humidity": 97,
+      "wind_speed": 3.8,
+      "wind_gusts": 8.6,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -882,7 +874,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 20:10 JST"
+    "timestamp": "11/08 20:45 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -911,7 +903,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/08 20:10 JST"
+    "timestamp": "11/08 20:45 JST"
   },
   "lifeline": {
     "status": "NORMAL",

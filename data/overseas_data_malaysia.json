@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 20:11:08",
-  "timestamp_local": "2026-11-08 19:11:08",
+  "timestamp": "2026-11-08 20:46:43",
+  "timestamp_local": "2026-11-08 19:46:43",
   "country": {
     "id": "malaysia",
     "name": "マレーシア",
@@ -273,7 +273,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
+    "count_24h": 13,
     "summary": "M4.7 (137 km E of Miyako, Japan)",
     "latest": {
       "mag": 4.7,
@@ -386,14 +386,6 @@
         "time": "11/08 00:05 JST",
         "depth_km": 571.898,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twsp",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "southern Mid-Atlantic Ridge",
-        "time": "11/07 20:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrt",
         "tsunami": 0
       }
     ]
@@ -603,7 +595,7 @@
       {
         "id": "stream_astro_awani",
         "name": "📺 Astro AWANI 24h (マレーシア主要ニュース)",
-        "video_id": "MyCRvvXGeGk",
+        "video_id": "be6IfqWZnZk",
         "handle": "@astroawani",
         "type": "stream"
       },
@@ -631,7 +623,7 @@
     "default_channel_id": "stream_bernama_live"
   },
   "forex": {
-    "timestamp": "11/08 20:11 JST",
+    "timestamp": "11/08 20:46 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -684,14 +676,14 @@
         "is_capital": true,
         "lat": 3.139,
         "lon": 101.6869,
-        "temp": 25.1,
-        "apparent_temp": 30.5,
-        "humidity": 95,
-        "wind_speed": 6.4,
-        "wind_gusts": 17.3,
-        "precipitation": 0.3,
-        "weather_code": 55,
-        "weather_label": "🌦️ 霧雨 (強)",
+        "temp": 25.2,
+        "apparent_temp": 30.8,
+        "humidity": 96,
+        "wind_speed": 4.8,
+        "wind_gusts": 13.0,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -724,6 +716,51 @@
         "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
+        "name": "ペナン (ジョージタウン)",
+        "name_en": "Penang",
+        "is_capital": false,
+        "lat": 5.4141,
+        "lon": 100.3288,
+        "temp": 25.5,
+        "apparent_temp": 31.8,
+        "humidity": 99,
+        "wind_speed": 4.1,
+        "wind_gusts": 16.6,
+        "precipitation": 0.5,
+        "weather_code": 80,
+        "weather_label": "🌧️ にわか雨 (弱)",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 31.2,
+            "temp_min": 24.4,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 24.2
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 30.7,
+            "temp_min": 24.8,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 17.2
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 29.8,
+            "temp_min": 23.9,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 20.9
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      },
+      {
         "name": "ジョホールバル (南部経済圏)",
         "name_en": "Johor Bahru",
         "is_capital": false,
@@ -732,11 +769,11 @@
         "temp": 26.0,
         "apparent_temp": 32.4,
         "humidity": 95,
-        "wind_speed": 2.3,
-        "wind_gusts": 12.6,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
+        "wind_speed": 1.9,
+        "wind_gusts": 6.5,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -763,10 +800,10 @@
             "precipitation_mm": 21.8
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -775,14 +812,14 @@
       "is_capital": true,
       "lat": 3.139,
       "lon": 101.6869,
-      "temp": 25.1,
-      "apparent_temp": 30.5,
-      "humidity": 95,
-      "wind_speed": 6.4,
-      "wind_gusts": 17.3,
-      "precipitation": 0.3,
-      "weather_code": 55,
-      "weather_label": "🌦️ 霧雨 (強)",
+      "temp": 25.2,
+      "apparent_temp": 30.8,
+      "humidity": 96,
+      "wind_speed": 4.8,
+      "wind_gusts": 13.0,
+      "precipitation": 0.1,
+      "weather_code": 51,
+      "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
         {
           "date": "11/08(日)",
@@ -814,7 +851,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/08 20:11 JST"
+    "timestamp": "11/08 20:46 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -843,7 +880,7 @@
         "details": "LRTクラナジャヤ線・MRT各線平常運行中"
       }
     ],
-    "timestamp": "11/08 20:11 JST"
+    "timestamp": "11/08 20:46 JST"
   },
   "lifeline": {
     "status": "NORMAL",

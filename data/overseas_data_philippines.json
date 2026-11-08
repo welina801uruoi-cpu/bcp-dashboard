@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 20:10:57",
-  "timestamp_local": "2026-11-08 19:10:57",
+  "timestamp": "2026-11-08 20:46:37",
+  "timestamp_local": "2026-11-08 19:46:37",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -289,7 +289,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
+    "count_24h": 13,
     "summary": "M4.7 (137 km E of Miyako, Japan)",
     "latest": {
       "mag": 4.7,
@@ -402,14 +402,6 @@
         "time": "11/08 00:05 JST",
         "depth_km": 571.898,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twsp",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "southern Mid-Atlantic Ridge",
-        "time": "11/07 20:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrt",
         "tsunami": 0
       }
     ]
@@ -576,19 +568,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 11:40",
+          "text": "日本も津波注意 フィリピン 🇵🇭で 地震 ⁉️ https://t.co/b6q5AHa1BH"
+        },
+        {
+          "time": "11/08 11:22",
+          "text": "@YahooNewsTopics 1997年の愛知県東部の 地震 （M5.9・深さ39km）とほぼ同じ地域・深さ 両方とも沈み込んだ STA..."
+        },
         {
           "time": "11/08 10:49",
           "text": "気象庁「震源は北緯37.7度、東経137.7度の深さ40kmの フィリピン 海プレートの内部、震央地名は静岡県西部」 ニュース「震源は静岡県..."
-        },
-        {
-          "time": "11/08 09:28",
-          "text": "フィリピン の方に「昨夜おらの地域ででかい 地震 があってな…」と話してたら「マグニチュードはどれくらいだった？」と聞か..."
-        },
-        {
-          "time": "11/08 09:24",
-          "text": "@wheywheysan 地震 は大丈夫でしたか。大きな揺れだって フィリピン でもニュースになってますね。"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%95%E3%82%A3%E3%83%AA%E3%83%94%E3%83%B3%20%E5%9C%B0%E9%9C%87"
@@ -653,7 +645,7 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/08 20:10 JST",
+    "timestamp": "11/08 20:46 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -716,88 +708,43 @@
   "weather": {
     "cities": [
       {
-        "name": "セブ (中部拠点都市)",
-        "name_en": "Cebu",
-        "is_capital": false,
-        "lat": 10.3157,
-        "lon": 123.8854,
-        "temp": 25.8,
-        "apparent_temp": 30.3,
-        "humidity": 89,
-        "wind_speed": 10.2,
-        "wind_gusts": 19.1,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 30.9,
-            "temp_min": 24.0,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 3.8
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 30.7,
-            "temp_min": 24.4,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 2.6
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 30.6,
-            "temp_min": 24.2,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 6.6
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      },
-      {
-        "name": "ダバオ (南部主要都市)",
-        "name_en": "Davao",
-        "is_capital": false,
-        "lat": 7.1907,
-        "lon": 125.4578,
-        "temp": 24.2,
-        "apparent_temp": 28.7,
-        "humidity": 94,
-        "wind_speed": 7.2,
-        "wind_gusts": 15.8,
+        "name": "マニラ (首都)",
+        "name_en": "Manila",
+        "is_capital": true,
+        "lat": 14.5995,
+        "lon": 120.9842,
+        "temp": 28.7,
+        "apparent_temp": 32.2,
+        "humidity": 66,
+        "wind_speed": 7.3,
+        "wind_gusts": 22.3,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 30.7,
-            "temp_min": 22.9,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 12.8
+            "temp_max": 33.8,
+            "temp_min": 26.2,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.8
           },
           {
             "date": "11/09(月)",
-            "temp_max": 31.0,
-            "temp_min": 23.2,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 6.6
+            "temp_max": 33.1,
+            "temp_min": 26.8,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.9
           },
           {
             "date": "11/10(火)",
-            "temp_max": 29.4,
-            "temp_min": 23.4,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 8.3
+            "temp_max": 31.7,
+            "temp_min": 26.1,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
           }
         ],
         "alert": "平常",
@@ -807,51 +754,51 @@
       }
     ],
     "capital": {
-      "name": "セブ (中部拠点都市)",
-      "name_en": "Cebu",
-      "is_capital": false,
-      "lat": 10.3157,
-      "lon": 123.8854,
-      "temp": 25.8,
-      "apparent_temp": 30.3,
-      "humidity": 89,
-      "wind_speed": 10.2,
-      "wind_gusts": 19.1,
-      "precipitation": 0.1,
-      "weather_code": 51,
-      "weather_label": "🌦️ 霧雨 (弱)",
+      "name": "マニラ (首都)",
+      "name_en": "Manila",
+      "is_capital": true,
+      "lat": 14.5995,
+      "lon": 120.9842,
+      "temp": 28.7,
+      "apparent_temp": 32.2,
+      "humidity": 66,
+      "wind_speed": 7.3,
+      "wind_gusts": 22.3,
+      "precipitation": 0.0,
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 30.9,
-          "temp_min": 24.0,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 3.8
+          "temp_max": 33.8,
+          "temp_min": 26.2,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.8
         },
         {
           "date": "11/09(月)",
-          "temp_max": 30.7,
-          "temp_min": 24.4,
+          "temp_max": 33.1,
+          "temp_min": 26.8,
           "weather_code": 53,
           "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 2.6
+          "precipitation_mm": 1.9
         },
         {
           "date": "11/10(火)",
-          "temp_max": 30.6,
-          "temp_min": 24.2,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 6.6
+          "temp_max": 31.7,
+          "temp_min": 26.1,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
         }
       ],
-      "alert": "気象注意",
-      "alert_badge": "🟡 気象注意",
-      "alert_class": "yellow",
-      "alert_desc": "降雨または視程低下あり。通常行動可能"
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 20:10 JST"
+    "timestamp": "11/08 20:46 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -880,7 +827,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/08 20:10 JST"
+    "timestamp": "11/08 20:46 JST"
   },
   "lifeline": {
     "status": "NORMAL",

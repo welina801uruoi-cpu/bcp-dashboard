@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 20:11:29",
-  "timestamp_local": "2026-11-08 19:11:29",
+  "timestamp": "2026-11-08 20:47:00",
+  "timestamp_local": "2026-11-08 19:47:00",
   "country": {
     "id": "mongolia",
     "name": "モンゴル",
@@ -259,7 +259,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
+    "count_24h": 13,
     "summary": "M4.7 (137 km E of Miyako, Japan)",
     "latest": {
       "mag": 4.7,
@@ -372,14 +372,6 @@
         "time": "11/08 00:05 JST",
         "depth_km": 571.898,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twsp",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "southern Mid-Atlantic Ridge",
-        "time": "11/07 20:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrt",
         "tsunami": 0
       }
     ]
@@ -617,7 +609,7 @@
     "default_channel_id": "stream_mongol_news"
   },
   "forex": {
-    "timestamp": "11/08 20:11 JST",
+    "timestamp": "11/08 20:47 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -663,9 +655,99 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/08 20:11 JST"
+    "cities": [
+      {
+        "name": "ウランバートル (首都)",
+        "name_en": "Ulaanbaatar",
+        "is_capital": true,
+        "lat": 47.8864,
+        "lon": 106.9057,
+        "temp": -7.2,
+        "apparent_temp": -11.4,
+        "humidity": 38,
+        "wind_speed": 3.0,
+        "wind_gusts": 8.6,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": -1.3,
+            "temp_min": -15.8,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 3.1,
+            "temp_min": -8.5,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 8.8,
+            "temp_min": -6.5,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "厳寒・凍結警戒",
+        "alert_badge": "🟠 凍結警戒",
+        "alert_class": "orange",
+        "alert_desc": "気温-7.2℃。路面凍結・交通遅延に注意"
+      }
+    ],
+    "capital": {
+      "name": "ウランバートル (首都)",
+      "name_en": "Ulaanbaatar",
+      "is_capital": true,
+      "lat": 47.8864,
+      "lon": 106.9057,
+      "temp": -7.2,
+      "apparent_temp": -11.4,
+      "humidity": 38,
+      "wind_speed": 3.0,
+      "wind_gusts": 8.6,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
+      "forecast": [
+        {
+          "date": "11/08(日)",
+          "temp_max": -1.3,
+          "temp_min": -15.8,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/09(月)",
+          "temp_max": 3.1,
+          "temp_min": -8.5,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/10(火)",
+          "temp_max": 8.8,
+          "temp_min": -6.5,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        }
+      ],
+      "alert": "厳寒・凍結警戒",
+      "alert_badge": "🟠 凍結警戒",
+      "alert_class": "orange",
+      "alert_desc": "気温-7.2℃。路面凍結・交通遅延に注意"
+    },
+    "timestamp": "11/08 20:47 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -694,7 +776,7 @@
         "details": "定期運行中"
       }
     ],
-    "timestamp": "11/08 20:11 JST"
+    "timestamp": "11/08 20:47 JST"
   },
   "lifeline": {
     "status": "NORMAL",

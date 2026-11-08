@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 20:10:39",
-  "timestamp_local": "2026-11-08 20:10:39",
+  "timestamp": "2026-11-08 20:46:19",
+  "timestamp_local": "2026-11-08 20:46:19",
   "country": {
     "id": "korea",
     "name": "韓国 (大韓民国)",
@@ -295,7 +295,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
+    "count_24h": 13,
     "summary": "M4.7 (137 km E of Miyako, Japan)",
     "latest": {
       "mag": 4.7,
@@ -408,14 +408,6 @@
         "time": "11/08 00:05 JST",
         "depth_km": 571.898,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twsp",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "southern Mid-Atlantic Ridge",
-        "time": "11/07 20:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrt",
         "tsunami": 0
       }
     ]
@@ -572,7 +564,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 10:41",
@@ -683,7 +675,7 @@
     "default_channel_id": "stream_ytn_live"
   },
   "forex": {
-    "timestamp": "11/08 20:10 JST",
+    "timestamp": "11/08 20:46 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -746,106 +738,16 @@
   "weather": {
     "cities": [
       {
-        "name": "ソウル (首都)",
-        "name_en": "Seoul",
-        "is_capital": true,
-        "lat": 37.5665,
-        "lon": 126.978,
-        "temp": 4.8,
-        "apparent_temp": 2.7,
-        "humidity": 92,
-        "wind_speed": 3.9,
-        "wind_gusts": 13.0,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 6.6,
-            "temp_min": 2.6,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 6.0
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 11.4,
-            "temp_min": 3.9,
-            "weather_code": 2,
-            "weather_label": "⛅ 晴れ時々曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 10.3,
-            "temp_min": 1.2,
-            "weather_code": 0,
-            "weather_label": "☀️ 快晴",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      },
-      {
-        "name": "釜山 (南部港湾都市)",
-        "name_en": "Busan",
-        "is_capital": false,
-        "lat": 35.1796,
-        "lon": 129.0756,
-        "temp": 12.7,
-        "apparent_temp": 11.1,
-        "humidity": 71,
-        "wind_speed": 6.4,
-        "wind_gusts": 21.2,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/08(日)",
-            "temp_max": 15.4,
-            "temp_min": 5.4,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/09(月)",
-            "temp_max": 12.6,
-            "temp_min": 9.4,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 11.4
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 16.1,
-            "temp_min": 4.5,
-            "weather_code": 1,
-            "weather_label": "🌤️ 晴れ",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "済州 (リゾート島)",
         "name_en": "Jeju",
         "is_capital": false,
         "lat": 33.4996,
         "lon": 126.5312,
-        "temp": 14.8,
-        "apparent_temp": 12.9,
-        "humidity": 81,
-        "wind_speed": 16.1,
-        "wind_gusts": 22.3,
+        "temp": 14.5,
+        "apparent_temp": 12.6,
+        "humidity": 82,
+        "wind_speed": 16.6,
+        "wind_gusts": 24.8,
         "precipitation": 0.2,
         "weather_code": 53,
         "weather_label": "🌦️ 霧雨 (中)",
@@ -882,42 +784,42 @@
       }
     ],
     "capital": {
-      "name": "ソウル (首都)",
-      "name_en": "Seoul",
-      "is_capital": true,
-      "lat": 37.5665,
-      "lon": 126.978,
-      "temp": 4.8,
-      "apparent_temp": 2.7,
-      "humidity": 92,
-      "wind_speed": 3.9,
-      "wind_gusts": 13.0,
-      "precipitation": 0.1,
-      "weather_code": 51,
-      "weather_label": "🌦️ 霧雨 (弱)",
+      "name": "済州 (リゾート島)",
+      "name_en": "Jeju",
+      "is_capital": false,
+      "lat": 33.4996,
+      "lon": 126.5312,
+      "temp": 14.5,
+      "apparent_temp": 12.6,
+      "humidity": 82,
+      "wind_speed": 16.6,
+      "wind_gusts": 24.8,
+      "precipitation": 0.2,
+      "weather_code": 53,
+      "weather_label": "🌦️ 霧雨 (中)",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 6.6,
-          "temp_min": 2.6,
-          "weather_code": 55,
-          "weather_label": "🌦️ 霧雨 (強)",
-          "precipitation_mm": 6.0
+          "temp_max": 17.5,
+          "temp_min": 10.5,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 2.8
         },
         {
           "date": "11/09(月)",
-          "temp_max": 11.4,
-          "temp_min": 3.9,
-          "weather_code": 2,
-          "weather_label": "⛅ 晴れ時々曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 14.7,
+          "temp_min": 11.6,
+          "weather_code": 63,
+          "weather_label": "🌧️ 雨 (中雨)",
+          "precipitation_mm": 26.5
         },
         {
           "date": "11/10(火)",
-          "temp_max": 10.3,
-          "temp_min": 1.2,
-          "weather_code": 0,
-          "weather_label": "☀️ 快晴",
+          "temp_max": 13.5,
+          "temp_min": 8.3,
+          "weather_code": 1,
+          "weather_label": "🌤️ 晴れ",
           "precipitation_mm": 0.0
         }
       ],
@@ -926,7 +828,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/08 20:10 JST"
+    "timestamp": "11/08 20:46 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -955,7 +857,7 @@
         "details": "京釜線KTXなど主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/08 20:10 JST"
+    "timestamp": "11/08 20:46 JST"
   },
   "lifeline": {
     "status": "NORMAL",

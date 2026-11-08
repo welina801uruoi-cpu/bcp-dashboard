@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 11:08:48",
+  "timestamp": "2026-11-08 11:44:07",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 24地域】道央、道南、道北、道東、青森、岩手、宮城、秋田、山形、福島、茨城、東京、神奈川、新潟、富山、石川、大阪、兵庫、和歌山、広島、山口、熊本、鹿児島、沖縄（警報なし）",
+    "summary": "【注意報発表: 23地域】道央、道南、道北、道東、青森、岩手、宮城、秋田、山形、福島、茨城、東京、神奈川、新潟、富山、石川、大阪、兵庫、和歌山、山口、熊本、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 24,
+    "notice_count": 23,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -476,11 +476,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
+          "波浪注意報",
           "乾燥注意報",
-          "波浪注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、乾燥注意報、波浪注意報",
+        "summary": "波浪注意報、乾燥注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -491,10 +491,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
@@ -531,10 +531,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
           "霜注意報"
         ],
-        "summary": "乾燥注意報、霜注意報",
+        "summary": "霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -641,11 +640,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
+          "波浪注意報",
           "雷注意報",
-          "波浪注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -886,13 +885,11 @@
         "code": "34",
         "name": "広島県",
         "short_name": "広島",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "乾燥注意報"
-        ],
-        "summary": "乾燥注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/34/"
       },
       {
@@ -1028,10 +1025,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、波浪注意報",
+        "summary": "波浪注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1058,21 +1055,20 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線26路線: 山口線、山陽本線、姫新線等 ／ 新幹線: 東海道新幹線（列車遅延）、山陽新幹線（その他））",
+    "text": "運行支障あり（在来線25路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、山陽本線等 ／ 新幹線: 東海道新幹線（列車遅延）、山陽新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山口線、山陽本線、姫新線、芸備線、美祢線 等 計26路線）",
+    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、山陽本線、姫新線、芸備線 等 計25路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延）、山陽新幹線（その他）、東北新幹線（列車遅延）、九州新幹線（その他）、北海道新幹線（列車遅延）、山形新幹線（列車遅延）、秋田新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "山口線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
       "山陽本線",
       "姫新線",
       "芸備線",
       "美祢線",
       "肥薩線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
       "奥羽本線",
       "石巻線",
       "山田線",
@@ -1120,7 +1116,7 @@
         "name": "東北新幹線",
         "status": "ALERT",
         "state": "列車遅延",
-        "detail": "郡山〜福島駅間で発生した架線支障の影響で、一部列車に遅れが出ています。（11月8日 15時50分掲載）",
+        "detail": "郡山〜福島駅間で発生した架線支障の影響で、下り線(新青森方面行)の一部列車に遅れが出ています。（11月8日 20時30分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/1/0"
       },
       {
@@ -1173,7 +1169,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 26,
+    "target_lines_count": 25,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1337,7 +1333,7 @@
     "articles": [
       {
         "title": "「施設の利活用法の継続検討を」と脱線事故遺族　JR西社長は「0か100でなく検討」(産経新聞)",
-        "summary": "JR西日本は8日、乗客106人と運転士が死亡した平成17年のJR福知山線脱線事故の遺族らへの説明会を開き、大阪府吹田市に昨年完成した事故車両の保存施設の活用方法などについて意見交換した。説明会は7日に",
+        "summary": "JR西日本は8日、乗客106人と運転士が死亡した平成17年のJR福知山線脱線事故の遺族らへの説明会を開き、大阪府吹田市に昨年完成した事故車両の保存施設の活用方法などについて意見交換した。【写真】JR福",
         "pub_date": "11/08 20:03 JST",
         "link": "https://news.yahoo.co.jp/articles/00161d80e1e0ded7c05d876055f96c01fede7b97?source=rss",
         "category": "国内・気象防災",
@@ -1456,7 +1452,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 20:08:46 JST"
+    "last_updated": "2026-11-08 20:44:05 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

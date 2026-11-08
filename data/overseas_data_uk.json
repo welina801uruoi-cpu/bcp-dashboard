@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 20:11:36",
-  "timestamp_local": "2026-11-08 12:11:36",
+  "timestamp": "2026-11-08 20:47:02",
+  "timestamp_local": "2026-11-08 12:47:02",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -352,7 +352,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
+    "count_24h": 13,
     "summary": "M4.7 (137 km E of Miyako, Japan)",
     "latest": {
       "mag": 4.7,
@@ -465,14 +465,6 @@
         "time": "11/08 00:05 JST",
         "depth_km": 571.898,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twsp",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "southern Mid-Atlantic Ridge",
-        "time": "11/07 20:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrt",
         "tsunami": 0
       }
     ]
@@ -748,7 +740,7 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/08 20:11 JST",
+    "timestamp": "11/08 20:47 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -841,23 +833,68 @@
   "weather": {
     "cities": [
       {
-        "name": "マンチェスター (中部)",
-        "name_en": "Manchester",
-        "is_capital": false,
-        "lat": 53.4808,
-        "lon": -2.2426,
-        "temp": 7.7,
-        "apparent_temp": 6.3,
-        "humidity": 90,
-        "wind_speed": 3.2,
-        "wind_gusts": 8.3,
+        "name": "ロンドン (首都)",
+        "name_en": "London",
+        "is_capital": true,
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "temp": 9.4,
+        "apparent_temp": 7.7,
+        "humidity": 84,
+        "wind_speed": 5.8,
+        "wind_gusts": 13.3,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/08(日)",
-            "temp_max": 9.1,
+            "temp_max": 11.4,
+            "temp_min": 7.3,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 11.0,
+            "temp_min": 6.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 9.8,
+            "temp_min": 6.7,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 4.3
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "マンチェスター (中部)",
+        "name_en": "Manchester",
+        "is_capital": false,
+        "lat": 53.4808,
+        "lon": -2.2426,
+        "temp": 7.9,
+        "apparent_temp": 6.3,
+        "humidity": 89,
+        "wind_speed": 4.7,
+        "wind_gusts": 10.4,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 9.2,
             "temp_min": 6.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -891,22 +928,22 @@
         "is_capital": false,
         "lat": 55.9533,
         "lon": -3.1883,
-        "temp": 8.5,
+        "temp": 8.7,
         "apparent_temp": 7.3,
-        "humidity": 89,
-        "wind_speed": 2.9,
-        "wind_gusts": 6.5,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
+        "humidity": 91,
+        "wind_speed": 5.0,
+        "wind_gusts": 11.2,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/08(日)",
             "temp_max": 9.1,
             "temp_min": 7.2,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 2.9
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 1.3
           },
           {
             "date": "11/09(月)",
@@ -925,50 +962,50 @@
             "precipitation_mm": 0.0
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
-      "name": "マンチェスター (中部)",
-      "name_en": "Manchester",
-      "is_capital": false,
-      "lat": 53.4808,
-      "lon": -2.2426,
-      "temp": 7.7,
-      "apparent_temp": 6.3,
-      "humidity": 90,
-      "wind_speed": 3.2,
-      "wind_gusts": 8.3,
+      "name": "ロンドン (首都)",
+      "name_en": "London",
+      "is_capital": true,
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "temp": 9.4,
+      "apparent_temp": 7.7,
+      "humidity": 84,
+      "wind_speed": 5.8,
+      "wind_gusts": 13.3,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 9.1,
-          "temp_min": 6.7,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 11.4,
+          "temp_min": 7.3,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
         },
         {
           "date": "11/09(月)",
-          "temp_max": 10.8,
-          "temp_min": 5.2,
-          "weather_code": 2,
-          "weather_label": "⛅ 晴れ時々曇り",
+          "temp_max": 11.0,
+          "temp_min": 6.6,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/10(火)",
-          "temp_max": 7.8,
-          "temp_min": 5.2,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 9.8,
+          "temp_min": 6.7,
+          "weather_code": 55,
+          "weather_label": "🌦️ 霧雨 (強)",
+          "precipitation_mm": 4.3
         }
       ],
       "alert": "平常",
@@ -976,7 +1013,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 20:11 JST"
+    "timestamp": "11/08 20:47 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -1225,7 +1262,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/08 20:11 JST"
+    "timestamp": "11/08 20:47 JST"
   },
   "lifeline": {
     "status": "NORMAL",

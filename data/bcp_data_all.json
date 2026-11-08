@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 09:12:58",
+  "timestamp": "2026-11-08 09:52:12",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -476,11 +476,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "乾燥注意報",
           "強風注意報",
-          "波浪注意報",
-          "乾燥注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、乾燥注意報",
+        "summary": "乾燥注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -491,10 +491,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
@@ -531,10 +531,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、乾燥注意報",
+        "summary": "乾燥注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -641,11 +641,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "強風注意報",
-          "波浪注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -1036,10 +1036,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報",
+        "summary": "乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1066,25 +1066,23 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線31路線: 因美線、山陽本線、姫新線等 ／ 新幹線: 山陽新幹線（その他）、東北新幹線（列車遅延））",
+    "text": "運行支障あり（在来線27路線: 山陽本線、姫新線、芸備線等 ／ 新幹線: 東海道新幹線（列車遅延）、山陽新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（因美線、山陽本線、姫新線、芸備線、美祢線 等 計31路線）",
+    "line_text": "運行支障あり（山陽本線、姫新線、芸備線、美祢線、肥薩線 等 計27路線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（その他）、東北新幹線（列車遅延）、九州新幹線（その他）、北海道新幹線（列車遅延）、山形新幹線（列車遅延）、秋田新幹線（列車遅延））",
+    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延）、山陽新幹線（その他）、東北新幹線（列車遅延）、九州新幹線（その他）、北海道新幹線（列車遅延）、山形新幹線（列車遅延）、秋田新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "因美線",
       "山陽本線",
       "姫新線",
       "芸備線",
       "美祢線",
+      "肥薩線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
-      "肥薩線",
       "東北本線",
       "奥羽本線",
       "田沢湖線",
-      "五能線",
       "石巻線",
       "山田線",
       "米坂線",
@@ -1098,14 +1096,13 @@
       "大井川鉄道大井川本線",
       "万葉線",
       "琵琶湖線",
-      "JR京都線",
-      "JR神戸線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
       "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
+      "東海道新幹線（列車遅延）",
       "山陽新幹線（その他）",
       "東北新幹線（列車遅延）",
       "九州新幹線（その他）",
@@ -1116,9 +1113,9 @@
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "現在､事故･遅延に関する情報はありません。",
+        "status": "ALERT",
+        "state": "列車遅延",
+        "detail": "名古屋駅での安全確認の影響で、一部列車に遅れが出ています。（11月8日 18時20分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       },
       {
@@ -1185,7 +1182,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 31,
+    "target_lines_count": 27,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1200,7 +1197,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】秋田・千葉・長野・愛知で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】北海道・秋田・千葉・長野・愛知で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1240,19 +1237,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/08 08:34",
-          "text": "START au END は通信 START 障害 END かなんかか。うちのあたりはもともと電波が弱くて使い物にならないけど、300m先まで歩いて再起動しても..."
+          "time": "11/08 09:26",
+          "text": "@ START au END _support ご丁寧にありがとうございます。 返信打つのもひとくろうです😰毎回、OFFにしているので。 クラウドは利用していま..."
         },
         {
-          "time": "11/08 08:05",
-          "text": "通信 START 障害 END かな🥺 START au END 頼むぜ…"
+          "time": "11/08 09:25",
+          "text": "【過去に楽天モバイルを解約した方も🙆‍♂️】 社員紹介キャンペーン経由なら、楽天ポイント特典あり🎁 停電・通信 START 障害 END ・出張・在宅でも使える..."
         },
         {
-          "time": "11/08 07:38",
-          "text": "今 START au END 回線ってもしかして通信 START 障害 END 起きてる？ アンテナは立ってるんだけど5Gか4Gの表示がされないで電波なしって言..."
+          "time": "11/08 09:17",
+          "text": "なんか START au障害 END おきてない？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1286,19 +1283,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/08 08:07",
-          "text": "@nagi07241111 アイコンかわいいです🎤ポスト拝見しましたが、特定の場所で START au END スマホが START 繋がらない END でしょ..."
+          "time": "11/08 09:27",
+          "text": "これ。 まーじーで、繋がらなくて大変。 いろんな物事が、デジタル化されちゃって ・事前購入してるんです！！ ・YouTube登録してるんです！！ イベントスタッ..."
         },
         {
-          "time": "11/08 07:51",
-          "text": "@yvuffa START 繋がらない END …圏外といった状態でしょうか？💦 START au END サポート石川"
+          "time": "11/08 09:21",
+          "text": "@_Pxxh START au END 、UQのときは日常的に不便はなかったしdocomoも心配してなかったんですけど…こんなに START 繋がらない END..."
         },
         {
-          "time": "11/08 07:48",
-          "text": "START au END 回線はネット START 繋がらない END"
+          "time": "11/08 09:15",
+          "text": "誰も話題にしてないけれど、しれっと START au END が買うガラケー新発売してたぞ。 START 繋がらない END チャンス到来。 docomoやソフ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -1312,16 +1309,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/08 09:25",
+          "text": "【過去に楽天モバイルを解約した方も🙆‍♂️】 社員紹介キャンペーン経由なら、楽天ポイント特典あり🎁 停電・通信 START 障害 END ・出張・在宅でも使える..."
+        },
+        {
           "time": "11/08 08:33",
           "text": "@tedori_lab00 通信 START 障害 END などはどのキャリアでも起こり得るので、メイン回線+サブ回線で運用しておくのがコスパ的にも良いですし、..."
         },
         {
           "time": "11/08 07:05",
           "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方もOK🙆‍♂️ eSIM＋eKYCで最短即日⏱️ 停電・通..."
-        },
-        {
-          "time": "11/08 00:48",
-          "text": "これは超高額！ START povo END 新規申し込みで6,200ポイント🔥🔥 通信 START 障害 END とか災害対策のサブ回線としても超優秀だと思い..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -1345,8 +1342,48 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 12,
+    "disaster_count": 17,
     "articles": [
+      {
+        "title": "石川・穴水町に「甲駅食堂」開店　旧駅舎を利用、復興の拠点に(共同通信)",
+        "summary": "2024年の能登半島地震で被災した石川県穴水町の甲地区に8日、鉄道の旧駅舎を利用した「甲駅食堂」がオープンした。運営を支える「穴水町甲復興団」団長で同町出身の東井孝允さん（44）＝さいたま市＝は「地域",
+        "pub_date": "11/08 18:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/b57e3d3b657eb82101e2e8b817eb72cb389f5a1b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "2階の家庭科室の壁が1階に落ちた小学校も…愛知で最大震度5強を観測した地震 少なくとも県内で19人がケガ(東海テレビ)",
+        "summary": "8日未明、愛知県で最大震度5強を観測する強い地震があり、県内で少なくとも19人がケガをしました。 8日午前1時4分、静岡県西部を震源とするマグニチュード5.7の地震があり、愛知県知多市で震度5強、豊田",
+        "pub_date": "11/08 18:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/53622946ecfcc2eded68d010b8fb480577961bdf?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "JR内房線“1カ月半ぶり”全線開通　一方で避難生活も…(テレビ朝日系（ANN）)",
+        "summary": "台風25号の影響で一部で運転を見合わせていたJR内房線が全線で再開しました。およそ1カ月半ぶりの再開に利用者からは安堵の声が広がっています。■JR内房線“1カ月半ぶり”全線開通 到着した電車に、待ちわ",
+        "pub_date": "11/08 18:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/f76b85699460a4f8fd3870049659662c437bbaf0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "帰国実現「延ばすこと絶対許容できない」飯塚耕一郎さん強調　時間の少なさ訴えた拉致家族(産経新聞)",
+        "summary": "北朝鮮による拉致被害者の家族会などが主催して開かれた8日の国民大集会で、家族たちは残された時間の少なさを相次いで訴えた。来年には、横田めぐみさん（62）＝拉致当時（13）＝ら昭和52年に北朝鮮に連れ去",
+        "pub_date": "11/08 18:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/6b798eed0956be1ff5d9f70c8df449706e935dd2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "台風32号は非常に強い勢力へ　トロピカルストームPenaは越境台風となる可能性(日本気象協会tenki.jp)",
+        "summary": "8日(日)15時現在、日本の南の台風32号は「強い」勢力となりました。台風はさらに発達し、10日(火)には「非常に強い」勢力となるでしょう。10日(火)から11日(水)にかけては小笠原諸島に接近する恐",
+        "pub_date": "11/08 18:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/f60d12d69845c17e7c05919554c14c86ea8ed28a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "商店街近くでトラックと乗用車が接触　歩行者ら4人けが　東京・品川区(テレビ朝日系（ANN）)",
         "summary": "週末ににぎわう東京・品川区の商店街近くで事故があり、巻き込まれた歩行者ら4人がけがをしました。 8日午後1時ごろ、品川区西中延の交差点で、「トラックと乗用車の事故」と通報がありました。 警視庁によりま",
@@ -1426,49 +1463,9 @@
         "link": "https://news.yahoo.co.jp/articles/f4a92f0d741c234ced88be3b3291728fa83ce839?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "台風 強い勢力で小笠原諸島接近か",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/08 15:51 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6601792?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "事故で娘失う 病院で母「いやだ」",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/08 17:25 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6601812?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "「科学地理オリンピック日本選手権」11/15まで参加者募集、参加無料(高校生新聞)",
-        "summary": "国際地理オリンピック日本委員会は、地図や統計、写真などを読み解きながら「地理力」を競う「第21回科学地理オリンピック日本選手権」の参加者を募集しています。参加費は無料で、応募締め切りは2026年11月",
-        "pub_date": "11/08 18:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/f543d6181892d26f637c81f7f3fb6d680d76f491?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "クマに襲われ男性けが　通報者が語る「手と足　全身も痛いと…」　山口・周南市(テレビ朝日系（ANN）)",
-        "summary": "ジョギング中の男性がクマに襲われ、けがをしました。現場の近くには小学校があり、警察がパトカーで警戒にあたっています。また、通報した人が当時の状況を語りました。通報した人「言葉になっていないような声がし",
-        "pub_date": "11/08 18:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/6fa68e26745c2ff851d691069fbbbd1209bf82f9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "アナウンス日本一の高校生の練習方法　友達に読みを聞いてもらい癖を直した(高校生新聞)",
-        "summary": "花谷美海さん（宮城・宮城学院高校3年）は、今年、放送部の全国大会「NHK杯全国高校放送コンテスト（通称：Nコン）」のアナウンス部門で優勝した。どんな練習を重ねきたか聞いた。（構成・椎木里咲）",
-        "pub_date": "11/08 18:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/de05e99172d4c03b9ccb2df581e5d6a39e7d64c3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-08 18:12:55 JST"
+    "last_updated": "2026-11-08 18:52:09 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

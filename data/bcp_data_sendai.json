@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 21:27:49",
+  "timestamp": "2026-11-08 21:59:37",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -305,7 +305,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東北電力NW: 【停電発生中】青森・秋田で停電情報を検知",
+    "power_msg": "東北電力NW: 【停電発生中】青森で停電情報を検知",
     "water_msg": "仙台市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "仙台市ガス局: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -345,8 +345,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 21:54",
+          "text": "こないだのiPhoneのアップデートが良くないのか START au END の START 障害 END の時設定し直したのがいけないのか、なんかメールの受信..."
+        },
         {
           "time": "11/08 15:28",
           "text": "@mikan_box 通信 START 障害 END の年懐かしい START au END が滅した日"
@@ -354,10 +358,6 @@
         {
           "time": "11/08 14:40",
           "text": "@prk599 ありましたー😿docomoやめたいんですが、 START au END がまさかの我が家入らないっていうwww くそ docomo大都市圏だと通..."
-        },
-        {
-          "time": "11/08 13:25",
-          "text": "またJ-COM NET落ちた。20分くらいで復活したけど、、、 START 障害 END 情報もでない（ださない？）しなぁ。 START au END ショップ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -453,8 +453,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 22,
+    "disaster_count": 21,
     "articles": [
+      {
+        "title": "中央線(快速)で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "国分寺駅で発生した人身事故の影響で、中央線(快速)は運転を見合わせていましたが、06:46頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/09 06:55 JST",
+        "link": "https://news.yahoo.co.jp/articles/abc993c4d8f5bc12668ca91e91c643ed2514ac2d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "10歳と12歳の男の子ら5人が重軽傷…国道の信号交差点で右折しようとした車と直進の車が衝突  周辺は約3時間通行止めに(東海テレビ)",
+        "summary": "8日夜、愛知県扶桑町の交差点で車同士が衝突し、それぞれの車に乗っていた計5人がケガをして病院に搬送されました。 消防によりますと、8日午後7時半ごろ、扶桑町の国道41号線の交差点で右折しようとしたワン",
+        "pub_date": "11/09 06:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/409dea867164689ada73cb1ee577a9e7a9a7a912?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "JR内房線 きょうから通常ダイヤに　9月の台風25号で被害(テレビ朝日系（ANN）)",
         "summary": "台風25号による被害から1カ月半ぶりに8日、全線で再開したJR内房線は9日から通常ダイヤで運行します。 JR内房線は9月の台風25号の影響で線路に土砂が流入し、一部区間で運転を見合わせていました。 J",
@@ -558,25 +574,9 @@
         "link": "https://news.yahoo.co.jp/articles/f17ba0b15c7c2715dae6feb7d95945d1b0a6b99b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "にぎわう商店街近くで事故 歩行者ら4人けが(ABEMA TIMES)",
-        "summary": "週末でにぎわう東京・品川区の商店街近くで事故があり、巻き込まれた歩行者ら4人がけがをしました。【映像】電柱に衝突した乗用車やトラック（実際の様子） 午後1時ごろ、品川区西中延の交差点で、「トラックと乗",
-        "pub_date": "11/08 19:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/4d230efff40525fa9cfb253cff1890f9c70e65a9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "どちらかが信号無視か…名古屋の繁華街“錦三”の交差点で貨物車が20代位の女性2人と衝突 うち1人が意識不明の重体(東海テレビ)",
-        "summary": "名古屋市中区の錦三丁目の交差点で8日、貨物車が歩行者2人と衝突する事故がありました。歩行者の女性1人が意識不明の重体となっています。【動画を見る】「被害者を見捨てない」交通事故で重度の後遺障害残った患",
-        "pub_date": "11/08 19:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/d7f7b8ad1caa2eb532f8aa3c4e0f3e13df3dfec3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 06:27:22 JST"
+    "last_updated": "2026-11-09 06:59:24 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -641,10 +641,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "hUKqWqKi-RA",
+        "video_id": "YIrAQIhHABc",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/hUKqWqKi-RA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=hUKqWqKi-RA"
+        "embed_url": "https://www.youtube.com/embed/YIrAQIhHABc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=YIrAQIhHABc"
       }
     ],
     "cameras": [

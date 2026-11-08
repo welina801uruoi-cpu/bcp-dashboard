@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 05:16:52",
+  "timestamp": "2026-11-08 05:57:32",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -239,15 +239,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 岡山電気軌道線 ／ 新幹線: 山陽新幹線（列車遅延））",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（岡山電気軌道線）",
+    "text": "運行支障あり（新幹線: 山陽新幹線（列車遅延））",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
-    "troubled_lines": [
-      "岡山電気軌道線"
-    ],
+    "troubled_lines": [],
     "troubled_shinkansen": [
       "山陽新幹線（列車遅延）"
     ],
@@ -256,7 +254,7 @@
         "name": "山陽新幹線",
         "status": "ALERT",
         "state": "列車遅延",
-        "detail": "東海道新幹線内で発生した架線支障の影響などで、下り線(博多方面行)の一部列車に遅れが出ています。（11月8日 12時0分掲載）",
+        "detail": "東海道新幹線内で発生した架線支障の影響などで、岡山〜博多駅間の下り線(博多方面行)の一部列車に遅れが出ています。（11月8日 14時15分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       }
     ],
@@ -315,7 +313,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 04:48",
@@ -361,7 +359,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/08 05:01",
@@ -419,7 +417,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 24,
+    "disaster_count": 23,
     "articles": [
       {
         "title": "台風32号は強い勢力で小笠原諸島に接近か　今年の台風の発生・接近数は平年より多い(日本気象協会tenki.jp)",
@@ -542,7 +540,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 14:16:04 JST"
+    "last_updated": "2026-11-08 14:57:19 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

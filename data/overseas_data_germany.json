@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-08 20:47:15",
-  "timestamp_local": "2026-11-08 13:47:15",
+  "timestamp": "2026-11-08 21:21:17",
+  "timestamp_local": "2026-11-08 14:21:17",
   "country": {
     "id": "germany",
     "name": "ドイツ",
@@ -346,17 +346,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
-    "summary": "M4.7 (137 km E of Miyako, Japan)",
+    "count_24h": 14,
+    "summary": "M4.7 (46 km NW of Huara, Chile)",
     "latest": {
       "mag": 4.7,
-      "place": "137 km E of Miyako, Japan",
-      "time": "11/08 18:23 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twx1",
+      "place": "46 km NW of Huara, Chile",
+      "time": "11/08 20:58 JST",
+      "depth_km": 68.785,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxf",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.7,
+        "place": "46 km NW of Huara, Chile",
+        "time": "11/08 20:58 JST",
+        "depth_km": 68.785,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxf",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "137 km E of Miyako, Japan",
@@ -465,6 +473,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "女性が全裸で8階から転落、プールに着水…「混乱する現場」写真がSNSで拡散、室内に大麻の痕跡や警棒も（海外）(ニューズウィーク日本版)",
+        "link": "https://news.yahoo.co.jp/articles/1797246db5e553314dba9fc5ebda6eda5e72ea3b?source=rss",
+        "description": "タイ東部のパタヤで、マンションの8階から全裸の女性がプールに転落する騒ぎがあった。警察や救助隊が駆け付ける事態となり、混乱の様子が現場の写真とともにSNSで拡散されている。■【動画】女性が全裸で8階か",
+        "pub_date": "11/08 21:11 JST",
+        "is_priority": false
+      },
       {
         "title": "まるで猫のように光を追いかける…深海のタコが探査機のレーザーに飛びつく、奇妙な行動を捉えた映像(ニューズウィーク日本版)",
         "link": "https://news.yahoo.co.jp/articles/ff8522a77e6750f2fa1613b4c95ae1ecf390071c?source=rss",
@@ -597,13 +612,6 @@
         "description": "米中間選挙の結果は、米国の外交政策に──とりわけイランやロシアに対するドナルド・トランプ大統領の行動に、どのような影響を及ぼすだろうか。（対中外交は中国側の動向に大きく左右されるため、事情が少々異なる",
         "pub_date": "11/08 15:00 JST",
         "is_priority": false
-      },
-      {
-        "title": "米紙が見た「日本の建築へのアンチテーゼ」―東京・三田「蟻鱒鳶ル（ありますとんびる）」の物語(クーリエ・ジャポン)",
-        "link": "https://news.yahoo.co.jp/articles/1dce302dd19761252a4ddefacbabae05b343e08e?source=rss",
-        "description": "東京・三田にある異形の建物「蟻鱒鳶ル（ありますとんびる）」は、建築家の岡啓輔が21年にわたり協力者たちとともに造り上げてきたセルフビルド建築だ。多くの建物が数十年で取り壊される日本で、この建築物が発す",
-        "pub_date": "11/08 14:30 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -623,7 +631,7 @@
         },
         {
           "time": "10/21 11:12",
-          "text": "#primenews ドイツ 鉄道 がクソ過ぎるという理由の一つが、 鉄道 通信ケーブルが年に200..."
+          "text": "#primenews ドイツ鉄道 がクソ過ぎるという理由の一つが、 鉄道 通信ケーブルが年に2000件破壊されているとは..."
         },
         {
           "time": "10/19 09:52",
@@ -663,6 +671,10 @@
       "trend_class": "green",
       "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/07 14:31",
+          "text": "A large scale industrial strike has begun in Germany , with ..."
+        },
         {
           "time": "10/11 18:52",
           "text": "Apparently Russian servers have been hit by a Ukrainian strike and imm..."
@@ -739,7 +751,7 @@
     "default_channel_id": "stream_dw"
   },
   "forex": {
-    "timestamp": "11/08 20:47 JST",
+    "timestamp": "11/08 21:21 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -817,19 +829,64 @@
   "weather": {
     "cities": [
       {
+        "name": "ベルリン (首都)",
+        "name_en": "Berlin",
+        "is_capital": true,
+        "lat": 52.52,
+        "lon": 13.405,
+        "temp": 5.3,
+        "apparent_temp": 2.5,
+        "humidity": 79,
+        "wind_speed": 6.8,
+        "wind_gusts": 16.2,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/08(日)",
+            "temp_max": 6.2,
+            "temp_min": 1.9,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/09(月)",
+            "temp_max": 6.2,
+            "temp_min": 0.8,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 4.3,
+            "temp_min": 1.0,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "フランクフルト (金融・航空ハブ)",
         "name_en": "Frankfurt",
         "is_capital": false,
         "lat": 50.1109,
         "lon": 8.6821,
-        "temp": 8.0,
-        "apparent_temp": 6.4,
+        "temp": 8.2,
+        "apparent_temp": 6.6,
         "humidity": 76,
         "wind_speed": 1.6,
-        "wind_gusts": 7.6,
+        "wind_gusts": 7.2,
         "precipitation": 0.0,
-        "weather_code": 61,
-        "weather_label": "🌧️ 雨 (小雨)",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -856,10 +913,10 @@
             "precipitation_mm": 0.0
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
         "name": "ミュンヘン (バイエルン)",
@@ -867,14 +924,14 @@
         "is_capital": false,
         "lat": 48.1351,
         "lon": 11.582,
-        "temp": 7.9,
-        "apparent_temp": 6.0,
-        "humidity": 77,
-        "wind_speed": 3.9,
-        "wind_gusts": 11.9,
+        "temp": 8.2,
+        "apparent_temp": 6.1,
+        "humidity": 76,
+        "wind_speed": 4.4,
+        "wind_gusts": 12.2,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/08(日)",
@@ -908,51 +965,51 @@
       }
     ],
     "capital": {
-      "name": "フランクフルト (金融・航空ハブ)",
-      "name_en": "Frankfurt",
-      "is_capital": false,
-      "lat": 50.1109,
-      "lon": 8.6821,
-      "temp": 8.0,
-      "apparent_temp": 6.4,
-      "humidity": 76,
-      "wind_speed": 1.6,
-      "wind_gusts": 7.6,
+      "name": "ベルリン (首都)",
+      "name_en": "Berlin",
+      "is_capital": true,
+      "lat": 52.52,
+      "lon": 13.405,
+      "temp": 5.3,
+      "apparent_temp": 2.5,
+      "humidity": 79,
+      "wind_speed": 6.8,
+      "wind_gusts": 16.2,
       "precipitation": 0.0,
-      "weather_code": 61,
-      "weather_label": "🌧️ 雨 (小雨)",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/08(日)",
-          "temp_max": 8.7,
-          "temp_min": 5.4,
+          "temp_max": 6.2,
+          "temp_min": 1.9,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/09(月)",
-          "temp_max": 8.0,
-          "temp_min": 5.2,
-          "weather_code": 45,
-          "weather_label": "🌫️ 霧",
+          "temp_max": 6.2,
+          "temp_min": 0.8,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/10(火)",
-          "temp_max": 7.2,
-          "temp_min": 3.4,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
+          "temp_max": 4.3,
+          "temp_min": 1.0,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
           "precipitation_mm": 0.0
         }
       ],
-      "alert": "気象注意",
-      "alert_badge": "🟡 気象注意",
-      "alert_class": "yellow",
-      "alert_desc": "降雨または視程低下あり。通常行動可能"
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/08 20:47 JST"
+    "timestamp": "11/08 21:21 JST"
   },
   "transit": {
     "status": "ALERT",
@@ -1034,7 +1091,7 @@
         "details": "フランクフルト・ベルリン発着の長距離路線は概ね定常運行中"
       }
     ],
-    "timestamp": "11/08 20:47 JST"
+    "timestamp": "11/08 21:21 JST"
   },
   "lifeline": {
     "status": "NORMAL",

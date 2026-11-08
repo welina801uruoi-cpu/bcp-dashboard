@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08 11:45:01",
+  "timestamp": "2026-11-08 12:19:16",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -89,12 +89,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-08 19:39",
-    "place": "日向灘",
-    "magnitude": "3",
+    "shindo": "2",
+    "time": "2026-11-08 20:47",
+    "place": "熊本県熊本地方",
+    "magnitude": "2",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-08 20:47",
+        "place": "熊本県熊本地方",
+        "shindo": "2",
+        "magnitude": "2",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-08 19:39",
         "place": "日向灘",
@@ -157,13 +164,6 @@
         "shindo": "1",
         "magnitude": "3.2",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-08 02:03",
-        "place": "愛知県東部",
-        "shindo": "2",
-        "magnitude": "3.3",
-        "maxScale": 20
       }
     ]
   },
@@ -226,10 +226,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報",
+        "summary": "乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -278,13 +278,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 肥薩線 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線: 鹿児島本線、肥薩線 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（肥薩線）",
+    "line_text": "運行支障あり（鹿児島本線、肥薩線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [
+      "鹿児島本線",
       "肥薩線"
     ],
     "troubled_shinkansen": [
@@ -369,8 +370,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 12:06",
+          "text": "START au END も乗り換えキャンペーンで5G SAも試したが、5Gより4Gの方が速度が速いという奇妙な結果が出てしまった。 ドコモ5G SA STAR..."
+        },
         {
           "time": "11/08 09:26",
           "text": "@ START au END _support ご丁寧にありがとうございます。 返信打つのもひとくろうです😰毎回、OFFにしているので。 クラウドは利用していま..."
@@ -378,10 +383,6 @@
         {
           "time": "11/08 09:25",
           "text": "【過去に楽天モバイルを解約した方も🙆‍♂️】 社員紹介キャンペーン経由なら、楽天ポイント特典あり🎁 停電・通信 START 障害 END ・出張・在宅でも使える..."
-        },
-        {
-          "time": "11/08 09:17",
-          "text": "なんか START au障害 END おきてない？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -438,8 +439,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/08 12:06",
+          "text": "auも乗り換えキャンペーンで5G SAも試したが、5Gより4Gの方が速度が速いという奇妙な結果が出てしまった。 ドコモ5G SA START 障害 END のと..."
+        },
         {
           "time": "11/08 09:25",
           "text": "【過去に楽天モバイルを解約した方も🙆‍♂️】 社員紹介キャンペーン経由なら、楽天ポイント特典あり🎁 停電・通信 START 障害 END ・出張・在宅でも使える..."
@@ -447,10 +452,6 @@
         {
           "time": "11/08 08:33",
           "text": "@tedori_lab00 通信 START 障害 END などはどのキャリアでも起こり得るので、メイン回線+サブ回線で運用しておくのがコスパ的にも良いですし、..."
-        },
-        {
-          "time": "11/08 07:05",
-          "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方もOK🙆‍♂️ eSIM＋eKYCで最短即日⏱️ 停電・通..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -473,8 +474,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 15,
+    "disaster_count": 16,
     "articles": [
+      {
+        "title": "高崎線で人身事故 運転見合わせ(レスキューナウニュース)",
+        "summary": "岡部～本庄駅間で発生した人身事故の影響で、高崎線は運転を見合わせています。",
+        "pub_date": "11/08 21:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/e5649bee28750d67caf740f7548c4383e29be434?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "「施設の利活用法の継続検討を」と脱線事故遺族　JR西社長は「0か100でなく検討」(産経新聞)",
         "summary": "JR西日本は8日、乗客106人と運転士が死亡した平成17年のJR福知山線脱線事故の遺族らへの説明会を開き、大阪府吹田市に昨年完成した事故車両の保存施設の活用方法などについて意見交換した。【写真】JR福",
@@ -586,17 +595,9 @@
         "link": "https://news.yahoo.co.jp/articles/4190854f676e073c1915249c14110eef051a1946?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "「やっと日常が戻った」JR内房線1カ月半ぶり全線再開、利用客は安堵　台風25号で運休(産経新聞)",
-        "summary": "千葉県を襲った台風25号の影響により一部で運休が続いていたJR内房線が8日、約1カ月半ぶりに全線で運転を再開した。代行バスなどで不便な通勤を強いられてきた利用客は「やっと日常が戻った」と待望の運転再開",
-        "pub_date": "11/08 16:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/dad89adad923093579e60082c7cb4d0e11f9d746?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-08 20:44:05 JST"
+    "last_updated": "2026-11-08 21:18:20 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -628,10 +629,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "JMYQzw1dfjg",
+        "video_id": "6UTp4V00cls",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/JMYQzw1dfjg?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=JMYQzw1dfjg"
+        "embed_url": "https://www.youtube.com/embed/6UTp4V00cls?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=6UTp4V00cls"
       },
       {
         "id": "stream_ntvnews",
@@ -639,10 +640,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "GqwUlvvkrDA",
+        "video_id": "uiRVXfW2vZo",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/GqwUlvvkrDA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=GqwUlvvkrDA"
+        "embed_url": "https://www.youtube.com/embed/uiRVXfW2vZo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=uiRVXfW2vZo"
       },
       {
         "id": "stream_annnews",

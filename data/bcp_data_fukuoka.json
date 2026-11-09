@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 23:06:27",
+  "timestamp": "2026-11-09 23:45:25",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -430,8 +430,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/09 23:23",
+          "text": "【災害時、最も重要なのは情報収集と安否確認📶】 メイン回線が START 繋がらない END 時の「通信の保険」として、楽天モバイルを持つ人が増えています📱 3..."
+        },
         {
           "time": "11/09 14:43",
           "text": "マジでドコモは都市部行くと通信ゴミ過ぎるから田舎限定回線 ソフトバンクは山が START 繋がらない END ところが多いから田舎で使うには厳しい START ..."
@@ -439,10 +443,6 @@
         {
           "time": "11/09 14:43",
           "text": "5Gと表示されているし電波も全部立っているがネットは全然 START 繋がらない END 現象がずっと起きている 田舎だから？まじで START au END ..."
-        },
-        {
-          "time": "11/09 13:35",
-          "text": "START au END 、ソフトバンクと経由してdocomoになったけど、そもそも START au END で説明されない料金の請求きたりして信用がない ソ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -491,6 +491,22 @@
     "disaster_count": 9,
     "articles": [
       {
+        "title": "【速報】JR京都線・神戸線で運転見合わせ 茨木駅で列車が乗客と接触(読売テレビ)",
+        "summary": "JR西日本によりますと、10日午前8時07分ごろ、JR京都線の茨木駅で、野洲行きの新快速列車が乗客と接触しました。現在、琵琶湖線の米原～京都間、JR京都線の京都～大阪間、JR神戸線の大阪～姫路間で順次",
+        "pub_date": "11/10 08:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/0d4e9e3dce1eb82b1bce0bf7c7811555502a2503?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "JR京都線で人身事故 運転見合わせ(レスキューナウニュース)",
+        "summary": "08:07頃、茨木駅で発生した人身事故の影響で、JR京都線は運転を見合わせています。振替輸送を行っています。",
+        "pub_date": "11/10 08:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/82a1439dbc347be35ca5f91c8fbbabdc572d5a88?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "「何もいらないから知華だけ返して」辺野古沖転覆で娘を奪われ…なぜ事故は起きた？責任の所在は？遺族が問い続ける“我が子の最期”(ABEMA TIMES)",
         "summary": "2026年3月、沖縄・辺野古沖で発生した小型船転覆事故。平和学習のために訪れていた同志社国際高校の生徒ら21人が海に投げ出され、高校2年生の武石知華さん（当時17）ら2人が命を落とした。【映像】知華さ",
         "pub_date": "11/10 08:00 JST",
@@ -499,8 +515,8 @@
         "is_disaster": true
       },
       {
-        "title": "JR福知山線で普通電車がシカと接触し停車　一部区間で運転見合わせ(産経新聞)",
-        "summary": "JR西日本によると、10日午前5時23分ごろ、JR福知山線の藍本駅～相野駅間で、篠山口発大阪行きの普通電車がシカと接触し、停車した。この影響で福知山線では広野駅～篠山口駅間の下り線で運転を見合わせてい",
+        "title": "JR福知山線で普通電車がシカと接触し停車　一部区間で一時運転見合わせ(産経新聞)",
+        "summary": "JR西日本によると、10日午前5時23分ごろ、JR福知山線の藍本駅～相野駅間で、篠山口発大阪行きの普通電車がシカと接触し、停車した。この影響で福知山線では広野駅～篠山口駅間の下り線で運転を一時見合わせ",
         "pub_date": "11/10 07:56 JST",
         "link": "https://news.yahoo.co.jp/articles/d3ce0efc72f0f5504cae64a575392f2614ed19b7?source=rss",
         "category": "国内・気象防災",
@@ -539,28 +555,44 @@
         "is_disaster": true
       },
       {
-        "title": "トクリュウ対策、スマホ遠隔解析の乱用懸念　警職法改正案10日衆院通過へ(北海道新聞)",
-        "summary": "特殊詐欺や強盗などの犯罪被害防止に向けた警察官職務執行法（警職法）改正案が10日、衆院を通過する見通しだ。特殊詐欺被害額が過去最悪となる中、大半の野党が賛成する構えだが、最大の変更点である、スマートフ",
-        "pub_date": "11/10 06:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/3650b89dbe013f917cd0bca2ffce8d244987e90b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "7月の熊本地震で90代女性死亡　八代市「災害関連死」認定(テレビ朝日系（ANN）)",
-        "summary": "7月の熊本地震後に八代市で亡くなった90代の女性について、市は「災害関連死」に認定したと発表しました。この地震による災害関連死の認定は初めてです。 八代市によりますと、90代の女性は地震発生時に転倒し",
-        "pub_date": "11/10 05:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/a413db154ed221bbb04cea9c3fac7a99721541b1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "大地震エネルギー蓄積か 日本海溝",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/09 22:37 JST",
         "link": "https://news.yahoo.co.jp/pickup/6601961?source=rss",
         "category": "主要速報",
         "is_disaster": true
+      },
+      {
+        "title": "防衛、外交力強化へ自・維が協議　非核三原則、原潜の保有が焦点(共同通信)",
+        "summary": "自民党と日本維新の会は10日、国家安全保障戦略など安保関連3文書の改定に向けた実務者協議を国会内で開いた。現在の安保情勢を踏まえた防衛・外交力強化の方向性を議論。核政策の基本方針「非核三原則」の在り方",
+        "pub_date": "11/10 08:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/a372633e02e5429f729fb3514a777082ae167e5d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "マンジャロ、視力低下の恐れ　肥満治療、米FDAが警告(共同通信)",
+        "summary": "【ワシントン共同】米食品医薬品局（FDA）は9日、肥満症や2型糖尿病の治療に使われる「GLP1受容体作動薬」の使用により、急激な視力低下につながる恐れがあると発表した。製薬企業に対し、薬の添付文書にこ",
+        "pub_date": "11/10 08:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/262caee021f790fd29ffea42c6697a061471c90e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "重傷ひき逃げの疑いで女（68）を逮捕 「鹿をさけるか何かで、車を壁にぶつけてしまったのだと思います」容疑を一部否認(CBCテレビ)",
+        "summary": "三重県名張市で自転車に乗った男性を車ではねて重傷を負わせ、そのまま逃げた疑いで、女（68）が逮捕されました。【写真を見る】重傷ひき逃げの疑いで女（68）を逮捕 「鹿をさけるか何かで、車を壁にぶつけてし",
+        "pub_date": "11/10 08:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/7513d2f58907a0caac3d0764fe679702219b3462?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "親や友人に失業中だとバレたくない…中国の若者が｢1日700円～1200円｣払って通う\"ニセ出社\"ビジネスの正体(プレジデントオンライン)",
+        "summary": "中国の若者はどんな日常を過ごしているのか。明治大学講師の近藤大介さんは「知人の中国の大手経済紙幹部によれば、まともに就職できている若者が全体の2割弱だという。大学生、大学院生は就職で苦労しているようだ",
+        "pub_date": "11/10 08:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/998de202037d1a580da18543e28a1833c8ff9019?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "【GINZA SIXスプレー噴射】いったい何のために…中国籍の“実行犯”が逮捕されてもなお残る謎(FRIDAY)",
@@ -577,41 +609,9 @@
         "link": "https://news.yahoo.co.jp/articles/2cd22b4b407808e0b915f5f8665d490ac78a4907?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "「ハグしていいと判断」目の病気を悪用し女子高生に抱きつき　20代被告が裁判で語った身勝手な主張(FRIDAY)",
-        "summary": "道案内をしてくれた女子高校生に抱きつき、公衆に著しく迷惑をかける暴力的不良行為等の防止に関する条例違反の罪に問われている酒井孝斗被告(23)の初公判が10月23日、東京地裁で開かれた。【画像】車椅子イ",
-        "pub_date": "11/10 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/4d713596dfbe5b8f3db65f380c49d29d1b4c279e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "《千葉市・老人ホーム殺害》“寝たきり妻”の呼吸器を外した75歳夫、近隣住民が証言した“おしどり夫婦”からの暗転(週刊女性PRIME)",
-        "summary": "千葉市美浜区の住宅型有料老人ホームの個室に入居する妻・たか子さん（74）を殺害したとして、県警千葉西署が10月28日に逮捕したのは同区の無職・山口章容疑者（75）。たか子さんは会話も自発呼吸もできない",
-        "pub_date": "11/10 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/1b9b23babfaa7fd6185b6b906128867667c2a117?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【ニュースto】「いつ崩れるか不安」東京・渋谷の住宅街に巨大な『盛り土』　工事停止求める住民と区役所側が法廷闘争　東京高裁の決定に専門家は「皮肉な流れ…」(読売テレビ)",
-        "summary": "東京・渋谷区の高級住宅街で、建物の解体工事の最中に巨大な『盛り土』が出現し、住民たちを悩ませています。住民らは工事の停止を求める一方で、渋谷区は「規制の対象ではない」と主張し、法廷闘争に発展しました。",
-        "pub_date": "11/10 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/99a8d14c3553061faf97d7fe08cb19c9f15da8e0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "安保3文書改定へ与党実務者協議開催(共同通信)",
-        "summary": "自民党と日本維新の会は10日、国家安全保障戦略など安保関連3文書の年内改定に向けた実務者協議を国会内で開いた。",
-        "pub_date": "11/10 07:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/781f801e43df4aa129c12c658a273f2fb278360c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 08:05:37 JST"
+    "last_updated": "2026-11-10 08:45:22 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -654,10 +654,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "ojCELzbwKjI",
+        "video_id": "cTKubK2V_oA",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/ojCELzbwKjI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=ojCELzbwKjI"
+        "embed_url": "https://www.youtube.com/embed/cTKubK2V_oA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=cTKubK2V_oA"
       },
       {
         "id": "stream_annnews",

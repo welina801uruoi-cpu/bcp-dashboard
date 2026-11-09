@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 18:26:46",
+  "timestamp": "2026-11-09 19:23:13",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -435,11 +435,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "ALERT",
-    "summary": "【警報発表: 1地域】沖縄（波浪警報） ／ 他37地域で注意報",
+    "status": "NOTICE",
+    "summary": "【注意報発表: 38地域】道央、道南、道北、道東、岩手、宮城、山形、福島、茨城、栃木、埼玉、千葉、東京、神奈川、富山、石川、福井、山梨、長野、静岡、三重、京都、兵庫、和歌山、鳥取、島根、山口、徳島、愛媛、高知、福岡、佐賀、長崎、熊本、大分、宮崎、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
-    "alert_count": 1,
-    "notice_count": 37,
+    "alert_count": 0,
+    "notice_count": 38,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -450,15 +450,15 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "着雪注意報",
-          "雷注意報",
+          "なだれ注意報",
           "低温注意報",
-          "波浪注意報",
+          "雷注意報",
           "大雪注意報",
-          "なだれ注意報"
+          "波浪注意報",
+          "着雪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、着雪注意報、雷注意報、低温注意報、波浪注意報、大雪注意報、なだれ注意報",
+        "summary": "なだれ注意報、低温注意報、雷注意報、大雪注意報、波浪注意報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -469,12 +469,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "大雪注意報",
-          "着雪注意報",
+          "強風注意報",
           "なだれ注意報",
-          "強風注意報"
+          "大雪注意報",
+          "着雪注意報"
         ],
-        "summary": "大雪注意報、着雪注意報、なだれ注意報、強風注意報",
+        "summary": "強風注意報、なだれ注意報、大雪注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -486,11 +486,11 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "低温注意報",
+          "波浪注意報",
           "乾燥注意報",
-          "波浪注意報"
+          "雷注意報"
         ],
-        "summary": "強風注意報、低温注意報、乾燥注意報、波浪注意報",
+        "summary": "強風注意報、波浪注意報、乾燥注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -501,11 +501,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
           "低温注意報",
-          "強風注意報"
+          "強風注意報",
+          "着雪注意報"
         ],
-        "summary": "着雪注意報、低温注意報、強風注意報",
+        "summary": "低温注意報、強風注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
@@ -540,9 +540,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報"
+          "霜注意報",
+          "乾燥注意報"
         ],
-        "summary": "霜注意報",
+        "summary": "霜注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -564,9 +565,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報"
+          "霜注意報",
+          "濃霧注意報"
         ],
-        "summary": "霜注意報",
+        "summary": "霜注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -899,10 +901,9 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "波浪注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/32/"
       },
       {
@@ -988,9 +989,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/39/"
       },
       {
@@ -1096,16 +1098,14 @@
         "code": "47",
         "name": "沖縄県",
         "short_name": "沖縄",
-        "status": "ALERT",
+        "status": "NOTICE",
         "emg_warns": [],
-        "warns": [
-          "波浪警報"
-        ],
+        "warns": [],
         "notices": [
           "強風注意報",
           "波浪注意報"
         ],
-        "summary": "波浪警報、強風注意報、波浪注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -1119,27 +1119,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線28路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、姫新線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線28路線: 石巻線、山田線、大湊線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、姫新線、呉線、美祢線 等 計28路線）",
+    "line_text": "運行支障あり（石巻線、山田線、大湊線、奥羽本線、米坂線 等 計28路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "姫新線",
-      "呉線",
-      "美祢線",
-      "長崎本線",
-      "肥薩線",
-      "小海線",
-      "越後線",
-      "九頭竜線",
-      "しなの鉄道北しなの線",
-      "大井川鉄道大井川本線",
-      "万葉線",
-      "関西本線",
       "石巻線",
       "山田線",
       "大湊線",
@@ -1148,12 +1134,26 @@
       "陸羽東線",
       "北上線",
       "津軽線",
+      "姫新線",
+      "呉線",
+      "美祢線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "長崎本線",
+      "肥薩線",
+      "関西本線",
       "烏山線",
       "成田線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線"
+      "わたらせ渓谷鐵道線",
+      "小海線",
+      "越後線",
+      "九頭竜線",
+      "しなの鉄道北しなの線",
+      "大井川鉄道大井川本線",
+      "万葉線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1246,7 +1246,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】栃木・千葉・長野・山口・鹿児島で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】栃木・千葉・長野・京都・山口・高知・鹿児島で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1355,18 +1355,18 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/09 18:40",
+          "text": "デュアルSIMで失敗しない考え方は、主回線と副回線の役割を分けること。 番号と本人確認は主回線に残し、副回線は START povo END やIIJmio e..."
+        },
         {
           "time": "11/09 07:37",
           "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
         },
         {
           "time": "11/09 05:40",
-          "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
-        },
-        {
-          "time": "11/09 04:05",
           "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
         }
       ],
@@ -1514,7 +1514,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 03:26:43 JST"
+    "last_updated": "2026-11-10 04:23:10 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

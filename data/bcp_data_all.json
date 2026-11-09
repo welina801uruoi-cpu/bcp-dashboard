@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 21:41:05",
+  "timestamp": "2026-11-09 22:25:32",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -450,15 +450,15 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
+          "強風注意報",
           "風雪注意報",
-          "なだれ注意報",
           "雷注意報",
-          "波浪注意報",
           "大雪注意報",
-          "強風注意報"
+          "波浪注意報",
+          "着雪注意報",
+          "なだれ注意報"
         ],
-        "summary": "着雪注意報、風雪注意報、なだれ注意報、雷注意報、波浪注意報、大雪注意報、強風注意報",
+        "summary": "強風注意報、風雪注意報、雷注意報、大雪注意報、波浪注意報、着雪注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -469,12 +469,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
           "大雪注意報",
           "強風注意報",
+          "着雪注意報",
           "なだれ注意報"
         ],
-        "summary": "着雪注意報、大雪注意報、強風注意報、なだれ注意報",
+        "summary": "大雪注意報、強風注意報、着雪注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -485,12 +485,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "乾燥注意報",
           "波浪注意報",
-          "雷注意報",
           "強風注意報",
-          "乾燥注意報"
+          "雷注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報、乾燥注意報",
+        "summary": "乾燥注意報、波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -501,11 +501,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
           "低温注意報",
+          "着雪注意報",
           "強風注意報"
         ],
-        "summary": "着雪注意報、低温注意報、強風注意報",
+        "summary": "低温注意報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
@@ -653,10 +653,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -715,10 +715,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/18/"
       },
       {
@@ -768,9 +767,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "波浪注意報",
           "強風注意報"
         ],
-        "summary": "強風注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -895,10 +895,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/32/"
       },
       {
@@ -932,10 +931,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -999,10 +998,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -1028,10 +1027,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -1113,38 +1112,44 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線31路線: 呉線、姫新線、美祢線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線37路線: 鹿児島本線、長崎本線、肥薩線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（呉線、姫新線、美祢線、長崎本線、肥薩線 等 計31路線）",
+    "line_text": "運行支障あり（鹿児島本線、長崎本線、肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線 等 計37路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "呉線",
-      "姫新線",
-      "美祢線",
+      "鹿児島本線",
       "長崎本線",
       "肥薩線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
+      "呉線",
+      "姫新線",
+      "美祢線",
+      "大湊線",
       "羽越本線",
       "白新線",
+      "青い森鉄道線",
       "石巻線",
       "山田線",
-      "大湊線",
       "奥羽本線",
       "米坂線",
       "陸羽東線",
       "北上線",
       "津軽線",
-      "JR宝塚線",
-      "関西本線",
+      "東海道本線",
       "越後線",
+      "上越線",
       "小海線",
       "九頭竜線",
       "しなの鉄道北しなの線",
       "大井川鉄道大井川本線",
       "万葉線",
+      "JR宝塚線",
+      "関西本線",
+      "南武線",
+      "湘南モノレール線",
       "烏山線",
       "成田線",
       "久留里線",
@@ -1228,7 +1233,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 31,
+    "target_lines_count": 37,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1243,7 +1248,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】秋田・栃木・千葉・長野・京都・岡山・山口・熊本で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】秋田・栃木・千葉・長野・京都・岡山・山口で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1283,7 +1288,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/09 21:18",
@@ -1388,7 +1393,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 8,
+    "disaster_count": 6,
     "articles": [
       {
         "title": "南海トラフ地震に直接影響の可能性低く…愛知での約30年ぶり“震度5強”に専門家「『大丈夫だ』ではなく早めの備えを」(FNNプライムオンライン)",
@@ -1423,22 +1428,6 @@
         "is_disaster": true
       },
       {
-        "title": "廃病院に侵入しエアコン盗売却か　先月にも約30台盗難被害　埼玉・三郷市(テレビ朝日系（ANN）)",
-        "summary": "埼玉県三郷市で廃業した病院の建物に侵入し、エアコンなどを盗んだ疑いで男が逮捕されました。同じ建物で盗みを繰り返していた可能性があります。 三郷市の自称・パート従業員、野崎哲士容疑者（54）は10月9日",
-        "pub_date": "11/09 21:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/84f8e7b4b4dd45a17e9d8804c2eb9b8fe8595867?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "気象庁が震源を精査し修正…8日未明に最大震度5強を観測した地震 震源は静岡県西部でなく“愛知県東部”(東海テレビ)",
-        "summary": "気象庁は8日未明に発生した最大震度5強の地震について、震源が愛知県東部だったと修正しました。【動画を見る】南海トラフ地震に直接影響の可能性低く…愛知での約30年ぶり“震度5強”に専門家「『大丈夫だ』で",
-        "pub_date": "11/09 20:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/08cbf4f7a8527417594b6e9937e1190d3900bbcf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "大地震エネルギー蓄積か 日本海溝",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/09 22:37 JST",
@@ -1455,63 +1444,79 @@
         "is_disaster": true
       },
       {
-        "title": "自転車の42歳男性を車ではねて重傷負わせ逃走か 68歳女を逮捕「壁にぶつけてしまったと思った」と一部否認(東海テレビ)",
-        "summary": "三重県名張市で8日、自転車の男性を車ではねてケガをさせたにも関わらずそのまま逃げたとして、68歳の女が逮捕されました。 警察によりますと、逮捕されたのは名張市のアルバイト従業員・中嶋妙子容疑者(68)",
-        "pub_date": "11/10 06:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/4d293f0d9de5b7f9758746ef8e7f2d0d1e9a1e34?source=rss",
+        "title": "｢デモはすぐに収まって｣は危うい…早大教授らの研究で判明､デモ嫌いの日本人ほど\"中国の宣伝\"に乗せられる(プレジデントオンライン)",
+        "summary": "フランスで大規模デモが起こるのはなぜか。ジャーナリストの柴田優呼さんは「日本のニュースは暴動や略奪の映像ばかりを流すが、フランスの新聞の論調は違う。なぜフランス社会はデモに寛容なのか、留学先で出会った",
+        "pub_date": "11/10 07:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/091b31a3a1f80f822a43d5fc1841fc7981da29b6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「SNS選挙」は戦前回帰なのか？ 「代議士ソング」など、戦後も感情に訴える政治宣伝は盛んに行なわれていた(文春オンライン)",
-        "summary": "「福田赳夫（たけお）の福田赳夫の 心意気ヨイヨイ 上州生まれのよい男 サテ」（「福田音頭」）【写真】この記事の写真を見る（3枚）「情熱と力のひとよ 大平先生 われらの矜持（ほこり）」（「大平正芳先生の",
-        "pub_date": "11/10 06:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/6f805c0104006defefad37dff61cfcd55319c7c7?source=rss",
+        "title": "リニア名古屋駅完成は2033年以降に…当初は2027年想定 用地取得や地中の障害物撤去など 想定よりも時間を要したため(CBCテレビ)",
+        "summary": "リニア中央新幹線の名古屋駅の完成が2033年以降になることがわかりました。リニア中央新幹線の名古屋駅の工事は2016年に着工し、地下約30メートルに上りと下りのホームを設ける計画で工事が進んでいます。",
+        "pub_date": "11/10 07:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/df8b7b9d0307595a50d7bb57c834e776acc7722b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "G7をドタキャンした「高市首相」今度は中国開催「APEC首脳会談」でも窮地に？　信用失墜で習近平国家主席との会談も絶望的　古賀茂明(AERA DIGITAL)",
-        "summary": "高市早苗首相の「世界の真ん中で咲き誇る」はずの外交が、「世界の東の端の海の藻屑」と消える寸前だ。【写真】高市首相が欠席したG7首脳会談後に発言するマクロン仏大統領 マクロン仏大統領主催のG7首脳のオン",
-        "pub_date": "11/10 06:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/b7fcb75dde07c93defab930df573048a609ce494?source=rss",
+        "title": "離婚、親しい友人なし、長時間労働…。孤独な男性がフィリピン移住で第二の人生を切り開いた方法（海外）(BUSINESS INSIDER JAPAN)",
+        "summary": "離婚とパンデミックを経て、ブリット・マカリスターはアメリカで心からの友人をつくるのに苦労していた。長時間労働で、趣味や望んでいた生活に割ける時間がほとんどなくなっていた。だから彼は変化を起こすことを決",
+        "pub_date": "11/10 07:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/d781fbb33135d7010e961891ffcc8160d790a7bb?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "《名古屋》「オレが叱ってやる！」小５男児の父親が教室に乗り込み、同級生2人を平手打ちした理由と帰り際に残した言葉(集英社オンライン)",
-        "summary": "朝のホームルームが始まった小学校の教室に児童の父親が入り込み、わが子の同級生2人を廊下に連れ出して平手打ちする“事件”が発生した。なぜ父親は校舎3階の教室まで立ち入ることができたのか。そして、子どもた",
-        "pub_date": "11/10 06:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/a2b639cda9ebf0e654d96e38bf7ca6f5c9c88022?source=rss",
+        "title": "介護施設の個室は年2000万円…親のために「庭に小さな家」を建てるアメリカ人たち（海外）(BUSINESS INSIDER JAPAN)",
+        "summary": "敷地内に建てる付属住宅「ADU」が多世代同居の選択肢としてアメリカで人気を集めている。介護施設より費用を抑えられる場合もある。ADUの建設には複雑な手続きや多額の費用がかかる一方、家族が支え合い、住み",
+        "pub_date": "11/10 07:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/640faafd9252533086e879894c9ce57cf2af3956?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "〈GMO情報漏えい〉「低空飛行でうるさかった」自家用ヘリにプライベートジェット…熊谷代表の華麗な私生活…一方、相次ぐ情報漏えいには「私は言語化できていません」(集英社オンライン)",
-        "summary": "不正アクセスで顧客資産に損失が生じたり個人情報が抜かれたりしたGMOグループでは、「世界最強のホワイトハッカー集団」を持つと誇示しながらセキュリティの穴が次々と見つかっている。11月2日に会見した持ち",
-        "pub_date": "11/10 06:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/0382be30dc3aa60cc91833467f345adbb8f93b81?source=rss",
+        "title": "93歳のある男性、体力は40代に匹敵…長寿の秘訣6つを日課から分析（海外）(BUSINESS INSIDER JAPAN)",
+        "summary": "リチャード・モーガンは93歳だが、心臓の健康状態と体力は数十歳若い人と変わらない。彼は日課として筋力トレーニングと低強度の有酸素運動を行っている。また、体脂肪を低く保ちながら筋肉量を維持するのに役立つ",
+        "pub_date": "11/10 07:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/ec0329e01d7f1c7a2c6aed27e05c340df5af33fa?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【トランプ大統領】中間選挙で“大敗”も強行姿勢は崩さずか　イラン攻撃では「支持層と民意の板挟み」専門家が指摘　米中ロの接近動きは「日本が立ち回りにくい展開になるおそれも」(MBSニュース)",
-        "summary": "トランプ大統領は8日、来週中国で開催されるAPEC（アジア太平洋経済協力会議）の首脳会議に合わせた習主席とプーチン大統領との三者会談の開催に意欲を示しました。【写真を見る】AI政策・イラン戦争・中ロと",
-        "pub_date": "11/10 06:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/6e8e9cc4811c673d9b63e327e3debee834c8ed21?source=rss",
+        "title": "九州から関東は日差しが戻る　北海道は日中も路面凍結に注意　今日10日(火)の天気(日本気象協会tenki.jp)",
+        "summary": "今日10日(火)は、九州から関東の雨は次第にやんで、日中は晴れ間の広がる所が多いでしょう。一方、北海道の日本海側は昼過ぎにかけて雪が降りそうです。最高気温は平年より低い所が多く、昼間も空気が冷たく感じ",
+        "pub_date": "11/10 07:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/408e119ff9c9ba8863288d9716e98b786ab7f26c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "審査員は｢一等｣に選んでいなかった…宇野千代が夫を捨て\"二等の男\"と同棲する契機になった｢懸賞小説｣の謎(プレジデントオンライン)",
-        "summary": "NHK朝の連続テレビ小説「ブラッサム」では、作家の宇野千代をモデルにした珠が「懸賞小説」に応募する様子が描かれる。ライターの栗下直也さんは「ドラマでは応募の理由を、子どもを持つことを諦め、仕立ての仕事",
-        "pub_date": "11/10 06:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/d56f869540a33ff2caaa0bd31c9bb2cdcea584e1?source=rss",
+        "title": "「12時間で20キロ痩せる」離島の牛　小宝島の和牛出荷に密着【鹿児島発】(FNNプライムオンライン)",
+        "summary": "鹿児島県本土までフェリーで約半日かかる十島村。基幹産業の一つは、県本土と同じく和牛の生産である。しかし、牛の移動など離島ならではの苦労がある。今回、小宝島にカメラが入り、離島の和牛生産を見つめた。【写",
+        "pub_date": "11/10 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/8bc1b607515cacec7f86a555a207417e91d0c606?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「腫瘍もヘルニアも放置」…教育現場で起きている「学校動物ネグレクト」の知られざる実態(FRIDAY)",
+        "summary": "子供の心の健全な発達を目的として、学校で行われている動物飼育。だが、一部の学校では、飼育どころかネグレクト(飼育放棄)や暴力といった虐待が行われている実態があるという——。【画像】あっという間に多頭飼",
+        "pub_date": "11/10 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/11be2e2bd8ccd6f6c9c6ce4bf599842da5c55713?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「官僚はすごく楽」石破前総理らに“戒告処分” 郵政民営化の時は…竹中平蔵氏が指摘する「自民党の強さ」と処分の“曖昧さ”(ABEMA TIMES)",
+        "summary": "消費減税関連法案の採決を棄権した自民党の石破茂前総理ら同党の議員4人が、党から戒告処分を受けた。退席した理由を11月9日までに提出するよう求められ、その提出を受けての決定となった。「戒告」は下から2番",
+        "pub_date": "11/10 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/5dfb2905108768a9a67b2f640b0097a7611ae88f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 06:41:02 JST"
+    "last_updated": "2026-11-10 07:25:30 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1576,10 +1581,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "kGG1CaeQ9oM",
+        "video_id": "UINo4aWVMbs",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/kGG1CaeQ9oM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=kGG1CaeQ9oM"
+        "embed_url": "https://www.youtube.com/embed/UINo4aWVMbs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=UINo4aWVMbs"
       }
     ],
     "cameras": [

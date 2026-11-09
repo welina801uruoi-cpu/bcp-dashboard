@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 07:59:02",
+  "timestamp": "2026-11-09 08:57:51",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -450,14 +450,15 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報",
+          "なだれ注意報",
+          "低温注意報",
+          "大雪注意報",
           "雷注意報",
           "着雪注意報",
-          "低温注意報",
-          "大雪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報、着雪注意報、低温注意報、大雪注意報",
+        "summary": "なだれ注意報、低温注意報、大雪注意報、雷注意報、着雪注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -483,12 +484,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "低温注意報",
-          "波浪注意報",
           "乾燥注意報",
-          "強風注意報"
+          "波浪注意報",
+          "強風注意報",
+          "低温注意報"
         ],
-        "summary": "低温注意報、波浪注意報、乾燥注意報、強風注意報",
+        "summary": "乾燥注意報、波浪注意報、強風注意報、低温注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -636,9 +637,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -1091,13 +1093,22 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線38路線: 八戸線、石巻線、山田線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線37路線: 山陰本線、山陽本線、呉線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（八戸線、石巻線、山田線、大湊線、奥羽本線 等 計38路線）",
+    "line_text": "運行支障あり（山陰本線、山陽本線、呉線、姫新線、美祢線 等 計37路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
+      "山陰本線",
+      "山陽本線",
+      "呉線",
+      "姫新線",
+      "美祢線",
+      "長崎本線",
+      "肥薩線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
       "八戸線",
       "石巻線",
       "山田線",
@@ -1107,29 +1118,19 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "山陰本線",
-      "姫新線",
-      "呉線",
-      "美祢線",
-      "長崎本線",
-      "肥薩線",
-      "関西本線",
       "東海道本線",
-      "IRいしかわ鉄道線",
       "小海線",
       "越後線",
       "九頭竜線",
       "しなの鉄道北しなの線",
       "大井川鉄道大井川本線",
       "万葉線",
+      "関西本線",
       "湘南新宿ライン",
       "宇都宮線",
       "日光線",
-      "内房線",
-      "小田急小田原線",
       "東京メトロ日比谷線",
+      "東京メトロ南北線",
       "烏山線",
       "成田線",
       "久留里線",
@@ -1213,7 +1214,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 38,
+    "target_lines_count": 37,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1228,7 +1229,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】北海道・秋田・千葉・長野・愛媛で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】北海道・千葉・長野・愛媛で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1268,7 +1269,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/09 07:37",
@@ -1291,7 +1292,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/09 07:21",
@@ -1314,8 +1315,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/09 08:30",
+          "text": "この3日ぐらい START au END 全然 START 繋がらない END んだけど"
+        },
         {
           "time": "11/09 07:56",
           "text": "いまドコモなんだけど普通に START 繋がらない END ことが多いから次は START au END に戻そ"
@@ -1323,10 +1328,6 @@
         {
           "time": "11/09 07:52",
           "text": "楽天モバイル楽天ターボどちらも通信途切れて通話もできない パソコンは START 繋がらない END 。 問い合わせに電話しても結局直らない。 楽天が回線を借り..."
-        },
-        {
-          "time": "11/09 07:46",
-          "text": "@ta_1tter START AU END は人が多い場所では START 繋がらない END ソフトバンクは地下鉄やJRのトンネル内は圏外"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -1337,7 +1338,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/09 07:37",
@@ -1373,8 +1374,96 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 15,
     "articles": [
+      {
+        "title": "温暖化被害抑制へ議論　トルコでCOP31が開幕(共同通信)",
+        "summary": "【アンタルヤ共同】国連気候変動枠組み条約第31回締約国会議（COP31）は9日、トルコ南部のアンタルヤで開幕した。国連は産業革命前からの気温上昇が数年以内に世界平均で1.5度を超えるとしており、地球温",
+        "pub_date": "11/09 17:49 JST",
+        "link": "https://news.yahoo.co.jp/articles/dd9d2c6e9cfad03c7c39f2cf9fd34dea51f6c365?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "踏切内にいた女性が普通電車にはねられ死亡 高齢とみられ身元を示す所持品等なし 約1時間半運転見合わせに(東海テレビ)",
+        "summary": "名鉄の踏切内で、高齢とみられる女性が電車にはねられ死亡しました。 警察によりますと、岐阜市加納徳川町で9日午後0時前、名鉄名古屋本線の名鉄岐阜発・須ヶ口行きの普通電車が、踏切内にいた女性をはねました。",
+        "pub_date": "11/09 17:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/5301d416c6fee3235cf90883b8c31b98e4eed206?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知で震度5強は約30年ぶり 名古屋でも震度4 「ここまでの被害は初めて…」 ガラスが粉々に割れた自動車販売店(CBCテレビ)",
+        "summary": "8日未明、最大震度5強の地震が発生しました。休校となる小学校も。8日午前1時過ぎに発生した愛知県東部を震源とするマグニチュード5.7の地震。この地震で愛知県知多市で震度5強、瀬戸市、半田市、刈谷市など",
+        "pub_date": "11/09 17:43 JST",
+        "link": "https://news.yahoo.co.jp/articles/e1480dceb085b7eb82556f22a69aaa922135979a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "湘南新宿ライン　日光駅と新宿駅の間で運転見合わせ　再開は午後6時ごろ予定(テレビ朝日系（ANN）)",
+        "summary": "JR湘南新宿ラインは人身事故の影響で新宿駅より北の区間で運転を見合わせています。 JR東日本によりますと、湘南新宿ラインは9日午後4時15分ごろに宇都宮駅と雀宮駅の間で発生した人身事故の影響で、日光駅",
+        "pub_date": "11/09 17:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/087e757f2d0ffdbd315aae518a9cdb2847498070?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【10日(火)】天気は回復傾向も気温はあまり上がらず　関東や北日本は12月並み　台風32号は小笠原諸島接近へ(ウェザーマップ)",
+        "summary": "きょう9日(月)は広い範囲で雨が降り、気温は平年を下回った所が多くなりました。関東など真冬並みの寒さになった所もありますが、あす10日(火)もこの時季にしては気温が低くなりそうです。ただ、天気はきょう",
+        "pub_date": "11/09 17:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/77046c17034819de532bfd04ca954ba49da05994?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "南海トラフ地震に直接影響の可能性低く…愛知での約30年ぶり“震度5強”に専門家「『大丈夫だ』ではなく早めの備えを」(東海テレビ)",
+        "summary": "8日未明、愛知では約30年ぶりとなる震度5強の地震が発生し、少なくとも19人のケガ人が出ました。【動画で見る】南海トラフ地震に直接影響の可能性低く…愛知での約30年ぶり“震度5強”に専門家「『大丈夫だ",
+        "pub_date": "11/09 17:17 JST",
+        "link": "https://news.yahoo.co.jp/articles/c94db0cb598f8412d99bd9d69e851f6ee7834f13?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【台風情報】「台風32号（チャンパカ）」最大瞬間風速55m/s・中心気圧970hPaまで発達予想…日本の南をゆっくりと北北西へ…今後の進路は?雨と風のシミュレーション【気象庁9日15時45分発表】(RSK山陽放送)",
+        "summary": "■「台風32号」（チャンパカ）気象庁によりますと、強い台風32号は、日本の南をゆっくりと北北西へ進んでいます。【画像でみる】20日にかけての雨と風のシミュレーション2026年11月09日15時45分発",
+        "pub_date": "11/09 17:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/ba06849d0b5065ac4195d51da03c93d7e607cb4f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "松山市中心部で火災　男性遺体発見(テレビ朝日系（ANN）)",
+        "summary": "松山市中心部にほど近い住宅街で火災が発生し、黒煙が激しく立ち上りました。 警察や消防によりますと、9日午前11時半ごろ、松山市で「2階建ての建物から黒い煙が出ている」などと119番通報がありました。",
+        "pub_date": "11/09 17:13 JST",
+        "link": "https://news.yahoo.co.jp/articles/a8d495ed95b9aedcaa72996cb00f5dc49cce4c1f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "日本海溝周辺でひずみの蓄積再開　東日本大震災の震源、同様に固着(共同通信)",
+        "summary": "東日本大震災の震源である日本海溝周辺で、プレート同士がくっつき地震の原因となる「固着」が再開し、ひずみがたまり始めたとの解析結果を、東北大などのチームが9日、発表した。発生後10年ほどで地震前と同様の",
+        "pub_date": "11/09 17:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/3883c157c73c659102adc9c5c6da94469b4ce55c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "台風32号　10日～11日に小笠原諸島接近　暴風・高波警戒　本州などもうねり注意(日本気象協会tenki.jp)",
+        "summary": "台風32号は日本の南の海上で急カーブし、10日(火)の夜から11日(水)の午前中にかけて、強い勢力で小笠原諸島へ接近するおそれがあります。小笠原諸島では雨や風が強まり、大荒れとなるでしょう。暴風や高波",
+        "pub_date": "11/09 17:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/72a5e12631cd51ac67dced5a1850144e0e6c07b7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知で最大震度5強 ガラスの壁が崩れた小学校 週1〜2回利用される多目的スペース 「生活している時間帯に起きなくて良かった」(CBCテレビ)",
+        "summary": "8日未明、愛知県で最大震度5強を観測した地震で、愛知県内では学校施設が一部壊れる被害があり、2つの小学校が臨時休校になりました。【画像を見る】床に散乱したガラスの壁8日午前1時過ぎに発生した、愛知県東",
+        "pub_date": "11/09 17:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/c9a5c1c103dcdbebab3ecfd72fc9b8488734eb20?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "遺族、米兵の交通安全教育を要請　死亡事故で横須賀市に(共同通信)",
         "summary": "神奈川県横須賀市で2024年、米海軍横須賀基地所属の米兵が乗用車でオートバイに衝突し、運転していた男性＝当時（22）＝を死亡させた事故で、米兵を提訴している男性の遺族が9日、基地の米兵に対する交通安全",
@@ -1400,103 +1489,15 @@
         "is_disaster": true
       },
       {
-        "title": "要潤さん1日消防署長に「ちょっとした心がけが命を守る」　高尾山近くで林野火災演習(産経新聞)",
-        "summary": "秋の火災予防運動が始まった9日、東京消防庁は俳優の要潤さんを1日消防署長に迎え、東京都八王子市内で消防演習などを行った。要さんは「日々のちょっとした心がけが、私たちの大切な命や暮らしを守ることにつなが",
-        "pub_date": "11/09 15:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/8ab7ab6f4f12f7fb93cc6687ebf10dfdd4137c7d?source=rss",
-        "category": "国内・気象防災",
+        "title": "津波巡り欧州のビール物議 謝罪",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/09 17:13 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6601926?source=rss",
+        "category": "主要速報",
         "is_disaster": true
-      },
-      {
-        "title": "JR内房線が全線再開後初の平日迎える 通勤・通学客から安堵の声(ABEMA TIMES)",
-        "summary": "台風の被害により一部区間で運転を見合わせていたJR内房線が、再開後初めての平日を迎え、通勤・通学客からは安堵の声が聞かれました。【映像】JR内房線 約1カ月半ぶりに全線で再開 9月の台風25号によって",
-        "pub_date": "11/09 15:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/a0df573ba6b308591cdcda4993a2023e0f7d1959?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "7月熊本地震で初の関連死　90代女性、八代市が認定(共同通信)",
-        "summary": "熊本県八代市は9日、7月の熊本地震の発生から1カ月以内に死亡した同市の90代女性を、災害関連死に認定したと発表した。最大震度7を観測した今回の地震による災害関連死が正式に認定されたのは初めて。地震によ",
-        "pub_date": "11/09 15:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/5a5f3f2524fb735c3be3a855f6da6a8352671603?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【不正アクセス情報まとめ】10月のサイバー攻撃、過去最多の233件　個人情報の漏洩は約1億8500万件(テレビ朝日系（ANN）)",
-        "summary": "不正アクセスによって、民間企業などから情報漏洩（ろうえい）が相次いでいます。関連するニュースをまとめています。【画像】不正アクセスで情報漏洩 クレカ不正利用の『二次被害』も 最新手口は“2段階方式”",
-        "pub_date": "11/09 14:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/20837ef861f4557264fa39ca4e72f2af699a8e97?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本地震の死者39人に(共同通信)",
-        "summary": "熊本県は9日、7月の熊本地震で八代市の1人が災害関連死に認定されたとして、地震の死者が関連死の可能性がある2人を含め39人になったと発表した。",
-        "pub_date": "11/09 14:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/df98193b3167b5bff12cc712008b907eac6a0f8b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "7月熊本地震で関連死初認定(共同通信)",
-        "summary": "熊本県八代市は9日、7月の熊本地震の発生から1カ月以内に死亡した同市の90代女性を、災害関連死に認定したと発表した。今回の地震で災害関連死が正式に認定されたのは初めて。",
-        "pub_date": "11/09 14:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/9771537312a63dddfe9f9b805cf361a966f06e04?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「119番の日」高尾山で訓練　要潤さんが一日消防署長に(テレビ朝日系（ANN）)",
-        "summary": "9日からの秋の火災予防運動に合わせて、俳優の要潤さんが一日消防署長に就任しました。 訓練は、東京消防庁の山岳救助隊や地域の消防団などおよそ110人が参加し、高尾山で山火事が起きたことを想定して行われま",
-        "pub_date": "11/09 14:04 JST",
-        "link": "https://news.yahoo.co.jp/articles/2a6e300bccffed3ca1bec4d1b6446da4369a2b1d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "調書署名の押印「電子サイン」に　刑事デジタル化で、概要が判明(共同通信)",
-        "summary": "2027年3月末までに始まる刑事手続きのデジタル化で、検察当局が実務で想定する運用の概要が9日、法務省などへの取材で判明した。電子化される供述調書では署名と押印に代わり、パッドを使った「電子サイン」を",
-        "pub_date": "11/09 16:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/385df38a45310404a877083cf3fed9f0f9c53e62?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "靴に小型カメラ隠しスカート内を盗撮か　塾講師の男逮捕　栃木・那須塩原市(テレビ朝日系（ANN）)",
-        "summary": "栃木県那須塩原市にある駅のホームで女性のスカートの中を小型カメラで盗撮したとして、塾講師で30代の男が逮捕されました。 大田原市の塾講師・江連樹利野容疑者（34）は9月、那須塩原市内にある駅のホームで",
-        "pub_date": "11/09 16:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/9b871019ec634af8c98343f4d766ef82233a899b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【今週の天気】　冬の寒さでスタートも週後半は気温上昇　広く小春日和に　天気は周期変化(ウェザーマップ)",
-        "summary": "今週は前半と後半で気温変化が大きくなりそうです。あす10日(火)までは全国的に寒さが続きますが、11日(水)以降は気温が上向いてきます。天気も週中頃からは晴れる所が多くなりますので、日差しポカポカの小",
-        "pub_date": "11/09 16:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/e32f18bc90d058f834765be23067e7ce60a40b4e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "スマイル社、石丸氏と和解、金額は非公表(共同通信)",
-        "summary": "旧ジャニーズ事務所のスマイルアップが、ジャニーズ性加害問題当事者の会の石丸志門元副代表に補償額を超える賠償責任はないことの確認を求めた訴訟は9日、さいたま地裁で、同社が解決金を支払う内容で和解が成立し",
-        "pub_date": "11/09 16:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/fe61836025e7d8ae66eda04c2f5cf69de60203c3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "飲酒運転で追突　逃げた先でまた飲酒　会社員の30代男逮捕　千葉市(テレビ朝日系（ANN）)",
-        "summary": "千葉市若葉区で飲酒運転中にバイクに追突して逃走したうえ、酒を飲んだことを隠すため、さらにアルコールを摂取するなどしたとして30代の男が逮捕されました。 9月26日午前3時ごろ、千葉市若葉区の交差点で「",
-        "pub_date": "11/09 16:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/f0233045fdb32f621d4ee8d61d26eb4ddb09dd7c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-09 16:58:59 JST"
+    "last_updated": "2026-11-09 17:57:48 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1539,10 +1540,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "9zI9v4bJ9HU",
+        "video_id": "nUd6b4ihB1Y",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/9zI9v4bJ9HU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=9zI9v4bJ9HU"
+        "embed_url": "https://www.youtube.com/embed/nUd6b4ihB1Y?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=nUd6b4ihB1Y"
       },
       {
         "id": "stream_annnews",
@@ -1550,10 +1551,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "naT1UhbJ_kw",
+        "video_id": "AKnB9N1w0g8",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/naT1UhbJ_kw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=naT1UhbJ_kw"
+        "embed_url": "https://www.youtube.com/embed/AKnB9N1w0g8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=AKnB9N1w0g8"
       },
       {
         "id": "stream_fnnnews",

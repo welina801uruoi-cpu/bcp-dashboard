@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 15:38:28",
+  "timestamp": "2026-11-09 16:43:12",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -193,11 +193,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報",
+          "強風注意報",
           "雷注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -208,10 +208,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -233,10 +233,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -260,11 +260,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報",
+          "強風注意報",
           "雷注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -275,11 +275,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "強風注意報",
-          "波浪注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       }
     ]
@@ -343,11 +343,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "九州電力送配電: 【停電発生中】鹿児島で停電情報を検知",
+    "power_msg": "九州電力送配電: 停電情報なし（九州エリア管内正常）",
     "water_msg": "福岡市水道局: 供給安定（平常）",
     "gas_msg": "西部ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -387,7 +387,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/09 14:50",
@@ -433,7 +433,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/09 14:43",
@@ -491,7 +491,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 8,
+    "disaster_count": 9,
     "articles": [
       {
         "title": "防災庁で地域ごとの「事前防災」を進める　ふるさと防災職員が初会合(テレビ朝日系（ANN）)",
@@ -558,6 +558,22 @@
         "is_disaster": true
       },
       {
+        "title": "自動運転バス運行初日に接触 運休",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/10 00:44 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6601972?source=rss",
+        "category": "主要速報",
+        "is_disaster": true
+      },
+      {
+        "title": "日米外相、ICC問題で意見交換(共同通信)",
+        "summary": "【パリ共同】茂木敏充外相は9日、フランス・パリでルビオ米国務長官と面会し、米政権による国際刑事裁判所（ICC）の制裁対象指定を巡り意見交換した。",
+        "pub_date": "11/10 01:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/e01587005479f43450e293cab33a6a3fc3268e33?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "茂木氏、仏外相にEV優遇策への懸念伝達(共同通信)",
         "summary": "【パリ共同】茂木敏充外相は9日、訪問先のフランス・パリでバロ外相と会談し、欧州連合（EU）が検討する欧州製の電気自動車（EV）優遇策に強い懸念を伝達した。",
         "pub_date": "11/10 00:22 JST",
@@ -596,25 +612,9 @@
         "link": "https://news.yahoo.co.jp/articles/8290f2b53d14e72c16446a45231e616f9c7288a1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "消費減税法案の採決棄権…石破前総理ら4人に戒告処分　“軽い処分”に参院側から不満(テレビ朝日系（ANN）)",
-        "summary": "自民党は、消費減税関連法案を棄権した石破前総理ら4人を戒告処分とすることを決めました。党の総裁経験者への戒告処分は、結党以来、初めてです。自民党 鈴木俊一幹事長「本会議を退席したことについては、党紀お",
-        "pub_date": "11/09 23:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/b108f565f0eddef1c59ffef9e9de31b96598b996?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "“ニセ基地局”詐欺どう防ぐ？日本初摘発『SMSブラスター』中国籍の男を現行犯逮捕(テレビ朝日系（ANN）)",
-        "summary": "東京・銀座で7日、携帯電話の通信を妨害する電波を発したとして、中国籍の男が現行犯逮捕されました。日本で初めて摘発された、この手口。海外では“SMSブラスター”と呼ばれています。各国の警察が注意を呼び掛",
-        "pub_date": "11/09 23:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/9f7e6c16607bab0a7598becc0b478e5d8276fc51?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 00:38:24 JST"
+    "last_updated": "2026-11-10 01:43:09 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -635,10 +635,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "R9YXmm3rzR8",
+        "video_id": "vQlevt2p1E4",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/R9YXmm3rzR8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=R9YXmm3rzR8"
+        "embed_url": "https://www.youtube.com/embed/vQlevt2p1E4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=vQlevt2p1E4"
       },
       {
         "id": "stream_tbsnews",
@@ -657,10 +657,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "D3xxL4acJ9o",
+        "video_id": "I53xEZRBncc",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/D3xxL4acJ9o?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=D3xxL4acJ9o"
+        "embed_url": "https://www.youtube.com/embed/I53xEZRBncc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=I53xEZRBncc"
       },
       {
         "id": "stream_annnews",

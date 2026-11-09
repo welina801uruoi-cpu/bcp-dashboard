@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 21:00:28",
+  "timestamp": "2026-11-09 21:41:55",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -89,12 +89,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-10 00:09",
-    "place": "瀬戸内海中部",
-    "magnitude": "2.8",
+    "shindo": "2",
+    "time": "2026-11-10 06:16",
+    "place": "橘湾",
+    "magnitude": "3.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-10 06:16",
+        "place": "橘湾",
+        "shindo": "2",
+        "magnitude": "3.3",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-10 00:09",
         "place": "瀬戸内海中部",
@@ -157,13 +164,6 @@
         "shindo": "-",
         "magnitude": "4.5",
         "maxScale": -1
-      },
-      {
-        "time": "2026-11-09 05:16",
-        "place": "震源情報なし",
-        "shindo": "3",
-        "magnitude": "-",
-        "maxScale": 30
       }
     ]
   },
@@ -386,8 +386,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/09 21:18",
+          "text": "@10714MEEB7 START au END って常時通信 START 障害 END のイメージ"
+        },
         {
           "time": "11/09 14:50",
           "text": "START au END 通信 START 障害 END 多いのにトップなん？"
@@ -395,10 +399,6 @@
         {
           "time": "11/09 14:17",
           "text": "START au END 5G SAの START 障害 END のとき、 端末側4G固定でもsimカードバージョンの影響からか、通信通話断となった。 同時にA..."
-        },
-        {
-          "time": "11/09 12:32",
-          "text": "インスタ営業やってなくてもプラベ用と仕事用は分けた方がいいです。 仕事用は中古のiPhoneとか新規一括1円のAndroidとかで、回線は格安simで月2000..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -490,8 +490,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "南海トラフ地震に直接影響の可能性低く…愛知での約30年ぶり“震度5強”に専門家「『大丈夫だ』ではなく早めの備えを」(FNNプライムオンライン)",
+        "summary": "8日未明、愛知では約30年ぶりとなる震度5強の地震が発生し、少なくとも19人のケガ人が出ました。【動画で見る】南海トラフ地震に直接影響の可能性低く…愛知での約30年ぶり“震度5強”に専門家「『大丈夫だ",
+        "pub_date": "11/10 06:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/9454f7d7555af35c711e297bb588dbabd32176c8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "トクリュウ対策、スマホ遠隔解析の乱用懸念　警職法改正案10日衆院通過へ(北海道新聞)",
+        "summary": "特殊詐欺や強盗などの犯罪被害防止に向けた警察官職務執行法（警職法）改正案が10日、衆院を通過する見通しだ。特殊詐欺被害額が過去最悪となる中、大半の野党が賛成する構えだが、最大の変更点である、スマートフ",
+        "pub_date": "11/10 06:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/3650b89dbe013f917cd0bca2ffce8d244987e90b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "7月の熊本地震で90代女性死亡　八代市「災害関連死」認定(テレビ朝日系（ANN）)",
+        "summary": "7月の熊本地震後に八代市で亡くなった90代の女性について、市は「災害関連死」に認定したと発表しました。この地震による災害関連死の認定は初めてです。 八代市によりますと、90代の女性は地震発生時に転倒し",
+        "pub_date": "11/10 05:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/a413db154ed221bbb04cea9c3fac7a99721541b1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "防災庁で地域ごとの「事前防災」を進める　ふるさと防災職員が初会合(テレビ朝日系（ANN）)",
         "summary": "事前防災や災害時の自治体支援を担う「ふるさと防災職員」と都道府県の災害担当者が防災庁の発足後、初めて一堂に会し、熊本地震の対応を踏まえた今後の取り組みについて話し合いました。 防災庁のふるさと防災職員",
@@ -517,38 +541,6 @@
         "is_disaster": true
       },
       {
-        "title": "愛知で約30年ぶりの震度5強 南海トラフ地震評価検討会「特段の変化なし」 防災庁「水やトイレなど日頃の備えを」(CBCテレビ)",
-        "summary": "11月8日の地震について、新たに分かったこととは?11月9日午後2時から、南海トラフ地震の評価検討会が行われました。急遽ではなく、もともと9日にセッティングされていました。気象庁によると、震源は静岡県",
-        "pub_date": "11/09 20:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/0871b49c876bde97d2b12b161de44ec8e5aac355?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "“頂き女子”の手口で…26歳女を再逮捕 現金100万円をだまし取ったか 「返す気はありました」 13人の男性が被害訴える(CBCテレビ)",
-        "summary": "頂き女子の手口で詐欺行為か。26歳の女が再逮捕されました。再逮捕されたのは、名古屋市東区の店員・川村玲音容疑者（26）です。【写真を見る】“頂き女子”の手口で…26歳女を再逮捕 現金100万円をだまし",
-        "pub_date": "11/09 20:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/7ff1a76ab48b74fa176d71d93082faebbb1cd9bc?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "南海トラフ巨大地震との関連は?今できる備えは?防災庁「備蓄を最低3日分、できれば1週間分の用意を」(CBCテレビ)",
-        "summary": "8日午前1時過ぎに発生した愛知県東部を震源とするマグニチュード5.7の地震。この地震で愛知県知多市で震度5強、瀬戸市、半田市、刈谷市などで震度5弱、名古屋市でも一部で震度4を観測しました。【写真を見る",
-        "pub_date": "11/09 19:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/13a71e9a18a0dd640a12ab3537ca7ee821b0b1c9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "漏れたのは油でなく“冷却水”…名古屋・中日ビル前の交差点で軽自動車が横転 当時多くの車行き交うもケガ人なし(東海テレビ)",
-        "summary": "名古屋・栄の中日ビル前の交差点で、軽自動車が横転する事故が発生しました。 事故があったのは中区栄の広小路久屋東交差点で、9日午後5時ごろ、「車の事故があって油漏れが発生した」と事故の当事者の女性から1",
-        "pub_date": "11/09 19:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/6fcae040c7b25100584e8fea17ec2ef58fb4e506?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "大地震エネルギー蓄積か 日本海溝",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/09 22:37 JST",
@@ -565,55 +557,63 @@
         "is_disaster": true
       },
       {
-        "title": "「創価学会はよく理解している」　消費減税法案に対する公明党のスタンスとは(デイリー新潮)",
-        "summary": "食料品の消費税率を2027年4月から2年間、1％に引き下げることなどを盛り込んだ消費税減税関連法案は、6日の衆議院本会議で採決が行われ、自民党と日本維新の会などの賛成多数で可決された。衆院に議席を持つ",
-        "pub_date": "11/10 05:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/52afce4ba5650bc55e94aeb713ef99d2718a20db?source=rss",
+        "title": "自転車の42歳男性を車ではねて重傷負わせ逃走か 68歳女を逮捕「壁にぶつけてしまったと思った」と一部否認(東海テレビ)",
+        "summary": "三重県名張市で8日、自転車の男性を車ではねてケガをさせたにも関わらずそのまま逃げたとして、68歳の女が逮捕されました。 警察によりますと、逮捕されたのは名張市のアルバイト従業員・中嶋妙子容疑者(68)",
+        "pub_date": "11/10 06:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/4d293f0d9de5b7f9758746ef8e7f2d0d1e9a1e34?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "駆除ジビエをしょうゆに　福岡工業大、無駄なく活用(共同通信)",
-        "summary": "福岡工業大（福岡市）などの研究チームが、駆除した野生のシカやイノシシの肉を原料にしたしょうゆを開発した。農林水産省によると、駆除鳥獣は安定供給の難しさや採算性の悪さなどから9割近くが廃棄されており、有",
-        "pub_date": "11/10 05:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/65f828b04b47f99406c48d28b9abfe1667645c5b?source=rss",
+        "title": "「SNS選挙」は戦前回帰なのか？ 「代議士ソング」など、戦後も感情に訴える政治宣伝は盛んに行なわれていた(文春オンライン)",
+        "summary": "「福田赳夫（たけお）の福田赳夫の 心意気ヨイヨイ 上州生まれのよい男 サテ」（「福田音頭」）【写真】この記事の写真を見る（3枚）「情熱と力のひとよ 大平先生 われらの矜持（ほこり）」（「大平正芳先生の",
+        "pub_date": "11/10 06:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/6f805c0104006defefad37dff61cfcd55319c7c7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "大学の軍事関連研究は「懸念」すべきことなのか？「安全保障技術研究」に過去最多の応募、現代社会におけるあり方とは(Wedge（ウェッジ）)",
-        "summary": "防衛省は10月20日、2026年度の「安全保障技術研究推進制度」の採択結果を公表した。この制度は防衛装備庁が15年度に開始した競争的研究費制度で、防衛分野での将来における研究開発に資することを期待し、",
-        "pub_date": "11/10 05:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/6aea54505d187a8ed8a49a18de01c90fc207caf5?source=rss",
+        "title": "G7をドタキャンした「高市首相」今度は中国開催「APEC首脳会談」でも窮地に？　信用失墜で習近平国家主席との会談も絶望的　古賀茂明(AERA DIGITAL)",
+        "summary": "高市早苗首相の「世界の真ん中で咲き誇る」はずの外交が、「世界の東の端の海の藻屑」と消える寸前だ。【写真】高市首相が欠席したG7首脳会談後に発言するマクロン仏大統領 マクロン仏大統領主催のG7首脳のオン",
+        "pub_date": "11/10 06:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/b7fcb75dde07c93defab930df573048a609ce494?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「単発の事例で終わらぬよう」自治体トップで“全国初”八幡市長が産休から復帰(テレビ朝日系（ANN）)",
-        "summary": "自治体トップとしては“全国初”とみられる、産休を取得した京都府八幡市の川田翔子市長（36）が9日、4カ月ぶりに公務に復帰しました。市ぐるみで取り組んだ、今回の産休。市長は「1度きりの特例に終わらせず、",
-        "pub_date": "11/10 01:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/257bca73d14bc0698999e8996e8af1a45b2c3f14?source=rss",
+        "title": "《名古屋》「オレが叱ってやる！」小５男児の父親が教室に乗り込み、同級生2人を平手打ちした理由と帰り際に残した言葉(集英社オンライン)",
+        "summary": "朝のホームルームが始まった小学校の教室に児童の父親が入り込み、わが子の同級生2人を廊下に連れ出して平手打ちする“事件”が発生した。なぜ父親は校舎3階の教室まで立ち入ることができたのか。そして、子どもた",
+        "pub_date": "11/10 06:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/a2b639cda9ebf0e654d96e38bf7ca6f5c9c88022?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "日米外相、ICC問題で意見交換(共同通信)",
-        "summary": "【パリ共同】茂木敏充外相は9日、フランス・パリでルビオ米国務長官と面会し、米政権による国際刑事裁判所（ICC）の制裁対象指定を巡り意見交換した。",
-        "pub_date": "11/10 01:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/e01587005479f43450e293cab33a6a3fc3268e33?source=rss",
+        "title": "〈GMO情報漏えい〉「低空飛行でうるさかった」自家用ヘリにプライベートジェット…熊谷代表の華麗な私生活…一方、相次ぐ情報漏えいには「私は言語化できていません」(集英社オンライン)",
+        "summary": "不正アクセスで顧客資産に損失が生じたり個人情報が抜かれたりしたGMOグループでは、「世界最強のホワイトハッカー集団」を持つと誇示しながらセキュリティの穴が次々と見つかっている。11月2日に会見した持ち",
+        "pub_date": "11/10 06:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/0382be30dc3aa60cc91833467f345adbb8f93b81?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "茂木氏、仏外相にEV優遇策への懸念伝達(共同通信)",
-        "summary": "【パリ共同】茂木敏充外相は9日、訪問先のフランス・パリでバロ外相と会談し、欧州連合（EU）が検討する欧州製の電気自動車（EV）優遇策に強い懸念を伝達した。",
-        "pub_date": "11/10 00:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/964e42b9f564f5d63501bb2291e4100765d88146?source=rss",
+        "title": "【トランプ大統領】中間選挙で“大敗”も強行姿勢は崩さずか　イラン攻撃では「支持層と民意の板挟み」専門家が指摘　米中ロの接近動きは「日本が立ち回りにくい展開になるおそれも」(MBSニュース)",
+        "summary": "トランプ大統領は8日、来週中国で開催されるAPEC（アジア太平洋経済協力会議）の首脳会議に合わせた習主席とプーチン大統領との三者会談の開催に意欲を示しました。【写真を見る】AI政策・イラン戦争・中ロと",
+        "pub_date": "11/10 06:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/6e8e9cc4811c673d9b63e327e3debee834c8ed21?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "審査員は｢一等｣に選んでいなかった…宇野千代が夫を捨て\"二等の男\"と同棲する契機になった｢懸賞小説｣の謎(プレジデントオンライン)",
+        "summary": "NHK朝の連続テレビ小説「ブラッサム」では、作家の宇野千代をモデルにした珠が「懸賞小説」に応募する様子が描かれる。ライターの栗下直也さんは「ドラマでは応募の理由を、子どもを持つことを諦め、仕立ての仕事",
+        "pub_date": "11/10 06:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/d56f869540a33ff2caaa0bd31c9bb2cdcea584e1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 06:00:26 JST"
+    "last_updated": "2026-11-10 06:41:02 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",

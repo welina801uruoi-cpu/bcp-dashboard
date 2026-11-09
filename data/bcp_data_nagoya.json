@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 09:50:30",
+  "timestamp": "2026-11-09 10:44:01",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -293,7 +293,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野で停電情報を検知",
+    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野・静岡で停電情報を検知",
     "water_msg": "名古屋市上下水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東邦ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -333,7 +333,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/09 09:45",
@@ -376,22 +376,22 @@
     {
       "keyword": "au 繋がらない",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 11 件です。",
       "recent_posts": [
         {
-          "time": "11/09 09:01",
-          "text": "docomo情報漏洩はするし都心5G START 繋がらない END し人の多いディズニーとかも START 繋がらない END し変えたい～～～～～～～～～～..."
+          "time": "11/09 10:26",
+          "text": "@ssmachine69 @povo_official 繋がらなくて困っちゃう povoは START 繋がらない END 楽天モバイルのローミングは STAR..."
         },
         {
-          "time": "11/09 08:30",
-          "text": "この3日ぐらい START au END 全然 START 繋がらない END んだけど"
+          "time": "11/09 10:26",
+          "text": "@24nnsodk @povo_official 繋がらなくて困っちゃう povoは START 繋がらない END 楽天モバイルのローミングは START A..."
         },
         {
-          "time": "11/09 07:56",
-          "text": "いまドコモなんだけど普通に START 繋がらない END ことが多いから次は START au END に戻そ"
+          "time": "11/09 10:26",
+          "text": "@povo_official @blue_moon_storm 繋がらなくて困っちゃう povoは START 繋がらない END 楽天モバイルのローミングは ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -438,8 +438,88 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 19,
+    "disaster_count": 15,
     "articles": [
+      {
+        "title": "漏れたのは油でなく“冷却水”…名古屋・中日ビル前の交差点で軽自動車が横転 当時多くの車行き交うもケガ人なし(東海テレビ)",
+        "summary": "名古屋・栄の中日ビル前の交差点で、軽自動車が横転する事故が発生しました。 事故があったのは中区栄の広小路久屋東交差点で、9日午後5時ごろ、「車の事故があって油漏れが発生した」と事故の当事者の女性から1",
+        "pub_date": "11/09 19:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/6fcae040c7b25100584e8fea17ec2ef58fb4e506?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "アジア大会で選手の宿泊施設として活用 名古屋でコンテナハウスの撤去始まる 約40戸は仮設住宅として熊本地震の被災地へ 「自信を持って提案できる」(CBCテレビ)",
+        "summary": "名古屋港から熊本へ。アジア大会の選手村に使われたコンテナハウスの撤去が始まりました。【写真を見る】アジア大会で選手の宿泊施設として活用 名古屋でコンテナハウスの撤去始まる 約40戸は仮設住宅として熊本",
+        "pub_date": "11/09 19:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/ba9feffcb02d9fbb6ddbc1133b317bad894b1726?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【台風情報】台風32号（チャンパカ）の進路予想　10日から小笠原諸島に接近か　6メートルの高波予想　新たな台風発生の恐れも(FNNプライムオンライン)",
+        "summary": "強い台風32号（チャンパカ）は日本の南をゆっくり北北西に進んでいます。今後は勢力を維持したまま東寄りに進み、10日（火）から11日（水）にかけて小笠原諸島に接近する見込みです。最大風速25メートル、波",
+        "pub_date": "11/09 19:17 JST",
+        "link": "https://news.yahoo.co.jp/articles/4a3dab0fa9fe5bacfdefa8a249f64bd1548fd49a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知の震度5強の地震「南海トラフ地震発生の可能性は高まっていない」専門家検討会(テレビ朝日系（ANN）)",
+        "summary": "8日に愛知県で最大震度5強を観測した地震について、専門家らからなる評価検討会は南海トラフ地震が発生する可能性は高まっていないとする見解を示しました。 気象庁は南海トラフ地震が発生する恐れのある震源想定",
+        "pub_date": "11/09 19:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/763970ccb4a2b36557124af6108ea690152be9b2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "震度5強地震、震源を愛知県東部に更新(共同通信)",
+        "summary": "気象庁は9日、愛知県で8日に震度5強を観測した地震について、精査した結果、震源を静岡県西部から愛知県東部に更新したと明らかにした。",
+        "pub_date": "11/09 19:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/2558fa74f260beddef55ab0b11a837938cab19d2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知で震度5強観測 名古屋のホームセンターでは防災グッズを求め客殺到… 改めて備えの確認を(CBCテレビ)",
+        "summary": "11月8日の地震で需要が急速に高まり、名古屋市北区のホームセンターでは防災グッズの補充作業が行われています。【写真を見る】愛知で震度5強観測 名古屋のホームセンターでは防災グッズを求め客殺到… 改めて",
+        "pub_date": "11/09 19:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/05828e9014b3270e4e3ed5f6cd5fa5583ed5756c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛知県震度5強　南海トラフ地震に影響なし　気象庁(テレビ朝日系（ANN）)",
+        "summary": "8日に愛知県で最大震度5強を観測した地震について、専門家らからなる評価検討会は、南海トラフ地震が発生する可能性は高まっていないとする見解を示しました。気象庁は、南海トラフ地震が発生する恐れのある震源想",
+        "pub_date": "11/09 19:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/2acd80965c597b05eeb2458f366ce7d8e195a250?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【台風情報】強い台風32号　10〜11日に小笠原諸島へ接近おそれ　暴風・高波に警戒【雨・風シミュレーション14日（土）まで・全国週間天気予報】気象庁の進路予想(MBC南日本放送)",
+        "summary": "強い台風32号は、10日（火）から11日（水）にかけて、強い勢力を維持したまま小笠原諸島に接近するおそれがあります。小笠原諸島では10日夜遅くから11日にかけて、暴風やうねりを伴う高波に警戒してくださ",
+        "pub_date": "11/09 18:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/3622be65ed393aea5d37f588ec7636ecdfdc71e5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【動画】10日の天気 - 回復傾向も関東など寒空続く　台風32号は小笠原諸島へ接近（9日18時更新）(ウェザーマップ)",
+        "summary": "10日(火)は雨の降るところは日中は少なくなって、天気は回復傾向でしょう。しかし、日本海側や関東は雲が優勢の空が午後にかけても続き、寒空が続きそうです。なお、台風32号は強い勢力で次第に小笠原諸島へと",
+        "pub_date": "11/09 18:55 JST",
+        "link": "https://news.yahoo.co.jp/articles/471631ab4d4e4468edf13d41af00e0a35221d56b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "宇都宮線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "雀宮～宇都宮駅間で発生した人身事故の影響で、宇都宮線は小金井～宇都宮駅間の運転を見合わせていましたが、18:35頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/09 18:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/5a91f2769e9879295699560e3f8eb4dd39b61120?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "犯罪被害者国民イベント　実情伝え、理解深めるきっかけに　愛子さまがご臨席(産経新聞)",
         "summary": "犯罪被害者月間（11月1日～12月1日）に合わせて警察庁は9日、被害の実情や支援などに対する理解を深めるため、「こころをつなぐ国民イベント」を開いた。楠芳伸長官は「社会全体で犯罪被害者の方々を支える機",
@@ -479,89 +559,9 @@
         "link": "https://news.yahoo.co.jp/articles/75980c34795c6f7cbb7ff71da69621189f970cde?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "南海トラフ、特段変化なし　愛知震度5強「影響せず」(共同通信)",
-        "summary": "気象庁は9日、有識者でつくる南海トラフ地震評価検討会の定例会を開き、大規模地震発生の可能性は「平常時と比べて相対的に高まったと考えられる特段の変化は観測されていない」との分析結果をまとめた。8日未明に",
-        "pub_date": "11/09 18:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/b60c4ab7749f63abfade1663b73233d4a6aa9b0f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "静岡防災アプリ、障害時も受信可　県の災害情報、人工衛星利用で(共同通信)",
-        "summary": "静岡県は9日、県の防災アプリについて、大規模災害で通信障害が起きた際も、人工衛星とスマホの直接通信により災害関連情報を受信できる運用を始めた。米スペースXの「スターリンク」などの通信サービスを利用して",
-        "pub_date": "11/09 18:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/b8a9e7652c1b09d40b1692a479523c66a84ab7aa?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "台風32号、小笠原諸島へ　暴風、高波に警戒(共同通信)",
-        "summary": "強い台風32号は9日、日本の南海上を北寄りに進んだ。今後、東へ向かい、勢力を維持したまま東京・小笠原諸島に近づく見通し。気象庁は、10日から11日にかけて、暴風や、うねりを伴う高波に警戒を呼びかけた。",
-        "pub_date": "11/09 18:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/27b4a094dc6bd21761ddc26d42469a0ed49fe951?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【情報まとめ】令和8年熊本地震で初の災害関連死　死者39人、いまだ1000人超が避難生活(テレビ朝日系（ANN）)",
-        "summary": "7月28日に最大震度7を観測した熊本地震。地震後に亡くなった90代の女性が「災害関連死」に認定されました。これまでの情報をまとめています。【爆発発生のイオンモール内部の動画】天井が落下、がれきも散乱",
-        "pub_date": "11/09 18:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/60a4b4c82a0730cfde0627b5184ba6f595eb4b1e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "119の日 俳優 要潤さんが1日消防署長に(ABEMA TIMES)",
-        "summary": "きょうからの秋の火災予防運動に合わせて、俳優の要潤さんが一日消防署長に就任しました。【映像】要潤が消火活動を体験する様子 一日消防署長要潤さん「一斉放水始め！」訓練は、東京消防庁の山岳救助隊や地域の消",
-        "pub_date": "11/09 18:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/50be086334b5dc3fc7fd1cac633d0a9a7151d930?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「近くにいるだけで力」　犯罪被害者遺族が講演(共同通信)",
-        "summary": "犯罪被害者月間（今月1日から12月1日）に合わせ、警察庁は9日、関連イベントを東京都内で開いた。登壇した遺族は「そっと近くにいてくれるだけで力になる」など、人とのつながりが大切だと訴えた。天皇、皇后両",
-        "pub_date": "11/09 18:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/235a9f3bb10f2b49502a568d0226fc698b5963ff?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「100％来ると思っていないと」 南海トラフ巨大地震に備え訓練 地元住民や消防･自衛隊が避難経路や備蓄の点検など手順を確認 三重･紀宝町(CBCテレビ)",
-        "summary": "11月8日 三重県紀宝町では、消防や陸上自衛隊なども参加する南海トラフ巨大地震の訓練が行われました。【写真を見る】「100％来ると思っていないと」 南海トラフ巨大地震に備え訓練 地元住民や消防･自衛隊",
-        "pub_date": "11/09 18:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/b4db14444b6ce0c8fedead9204a507a7fe167a67?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "愛子さま「こころをつなぐ国民イベント」出席(テレビ朝日系（ANN）)",
-        "summary": "愛子さまが警察庁主催のイベントに出席されました。 愛子さまが足を運ばれたのは、犯罪被害者らへの支援の取り組みとして警察庁が主催した「こころをつなぐ国民イベント2026」です。 愛子さまは開会式で、犯罪",
-        "pub_date": "11/09 18:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/026e9ecbb61991f9171db4e64af231411ae87399?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "南海トラフ巨大地震の想定震源域でM5.7 愛知で最大震度5強 関連は?専門家“プレート境界型とは違うメカニズム”(CBCテレビ)",
-        "summary": "今後、30年以内の発生確率が60〜90％程度以上とされる「南海トラフ巨大地震」。11月8日の地震は、その想定震源域の中で発生しました。巨大地震との関連はあるのでしょうか。【写真で見る】ガラスの壁が散乱",
-        "pub_date": "11/09 18:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/e0613770c9eada6a01e3a73aa2c572420105e5bd?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "温暖化被害抑制へ議論　トルコでCOP31が開幕(共同通信)",
-        "summary": "【アンタルヤ共同】国連気候変動枠組み条約第31回締約国会議（COP31）は9日、トルコ南部のアンタルヤで開幕した。国連は産業革命前からの気温上昇が数年以内に世界平均で1.5度を超えるとしており、地球温",
-        "pub_date": "11/09 17:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/dd9d2c6e9cfad03c7c39f2cf9fd34dea51f6c365?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 18:49:38 JST"
+    "last_updated": "2026-11-09 19:43:08 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -615,10 +615,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "bzQlbdnQDj8",
+        "video_id": "UF9B3JkHje8",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/bzQlbdnQDj8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=bzQlbdnQDj8"
+        "embed_url": "https://www.youtube.com/embed/UF9B3JkHje8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=UF9B3JkHje8"
       },
       {
         "id": "stream_fnnnews",

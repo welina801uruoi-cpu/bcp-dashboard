@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 14:45:03",
+  "timestamp": "2026-11-09 15:38:38",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -62,11 +62,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-09 18:35",
-    "place": "長野県南部",
-    "magnitude": "2.3",
+    "time": "2026-11-10 00:09",
+    "place": "瀬戸内海中部",
+    "magnitude": "2.8",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-10 00:09",
+        "place": "瀬戸内海中部",
+        "shindo": "1",
+        "magnitude": "2.8",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-09 18:35",
         "place": "長野県南部",
@@ -129,13 +136,6 @@
         "shindo": "3",
         "magnitude": "-",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-09 03:15",
-        "place": "茨城県北部",
-        "shindo": "2",
-        "magnitude": "3.5",
-        "maxScale": 20
       }
     ]
   },
@@ -165,15 +165,15 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "なだれ注意報",
           "着雪注意報",
-          "雷注意報",
+          "強風注意報",
           "波浪注意報",
-          "大雪注意報",
-          "低温注意報"
+          "雷注意報",
+          "なだれ注意報",
+          "低温注意報",
+          "大雪注意報"
         ],
-        "summary": "強風注意報、なだれ注意報、着雪注意報、雷注意報、波浪注意報、大雪注意報、低温注意報",
+        "summary": "着雪注意報、強風注意報、波浪注意報、雷注意報、なだれ注意報、低温注意報、大雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -184,12 +184,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "大雪注意報",
-          "強風注意報",
           "なだれ注意報",
-          "着雪注意報"
+          "大雪注意報",
+          "着雪注意報",
+          "強風注意報"
         ],
-        "summary": "大雪注意報、強風注意報、なだれ注意報、着雪注意報",
+        "summary": "なだれ注意報、大雪注意報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -200,12 +200,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報",
           "乾燥注意報",
+          "強風注意報",
+          "波浪注意報",
           "低温注意報"
         ],
-        "summary": "波浪注意報、強風注意報、乾燥注意報、低温注意報",
+        "summary": "乾燥注意報、強風注意報、波浪注意報、低温注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -216,11 +216,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "着雪注意報",
           "低温注意報",
-          "強風注意報",
-          "着雪注意報"
+          "強風注意報"
         ],
-        "summary": "低温注意報、強風注意報、着雪注意報",
+        "summary": "着雪注意報、低温注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -309,16 +309,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/09 14:50",
+          "text": "START au END 通信 START 障害 END 多いのにトップなん？"
+        },
+        {
           "time": "11/09 14:17",
           "text": "START au END 5G SAの START 障害 END のとき、 端末側4G固定でもsimカードバージョンの影響からか、通信通話断となった。 同時にA..."
         },
         {
           "time": "11/09 12:32",
           "text": "インスタ営業やってなくてもプラベ用と仕事用は分けた方がいいです。 仕事用は中古のiPhoneとか新規一括1円のAndroidとかで、回線は格安simで月2000..."
-        },
-        {
-          "time": "11/09 09:45",
-          "text": "START au END メール START 障害 END あってからずっと調子悪いんだけど"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -412,8 +412,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "防災庁で地域ごとの「事前防災」を進める　ふるさと防災職員が初会合(テレビ朝日系（ANN）)",
+        "summary": "事前防災や災害時の自治体支援を担う「ふるさと防災職員」と都道府県の災害担当者が防災庁の発足後、初めて一堂に会し、熊本地震の対応を踏まえた今後の取り組みについて話し合いました。 防災庁のふるさと防災職員",
+        "pub_date": "11/09 23:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/f8997664c106aa3f52f832a1217979e477b43fb6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "廃病院に侵入しエアコン盗売却か　先月にも約30台盗難被害　埼玉・三郷市(テレビ朝日系（ANN）)",
         "summary": "埼玉県三郷市で廃業した病院の建物に侵入し、エアコンなどを盗んだ疑いで男が逮捕されました。同じ建物で盗みを繰り返していた可能性があります。 三郷市の自称・パート従業員、野崎哲士容疑者（54）は10月9日",
@@ -463,28 +471,52 @@
         "is_disaster": true
       },
       {
-        "title": "アジア大会で選手の宿泊施設として活用 名古屋でコンテナハウスの撤去始まる 約40戸は仮設住宅として熊本地震の被災地へ 「自信を持って提案できる」(CBCテレビ)",
-        "summary": "名古屋港から熊本へ。アジア大会の選手村に使われたコンテナハウスの撤去が始まりました。【写真を見る】アジア大会で選手の宿泊施設として活用 名古屋でコンテナハウスの撤去始まる 約40戸は仮設住宅として熊本",
-        "pub_date": "11/09 19:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/ba9feffcb02d9fbb6ddbc1133b317bad894b1726?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【台風情報】台風32号（チャンパカ）の進路予想　10日から小笠原諸島に接近か　6メートルの高波予想　新たな台風発生の恐れも(FNNプライムオンライン)",
-        "summary": "強い台風32号（チャンパカ）は日本の南をゆっくり北北西に進んでいます。今後は勢力を維持したまま東寄りに進み、10日（火）から11日（水）にかけて小笠原諸島に接近する見込みです。最大風速25メートル、波",
-        "pub_date": "11/09 19:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/4a3dab0fa9fe5bacfdefa8a249f64bd1548fd49a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "大地震エネルギー蓄積か 日本海溝",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/09 22:37 JST",
         "link": "https://news.yahoo.co.jp/pickup/6601961?source=rss",
         "category": "主要速報",
         "is_disaster": true
+      },
+      {
+        "title": "茂木氏、仏外相にEV優遇策への懸念伝達(共同通信)",
+        "summary": "【パリ共同】茂木敏充外相は9日、訪問先のフランス・パリでバロ外相と会談し、欧州連合（EU）が検討する欧州製の電気自動車（EV）優遇策に強い懸念を伝達した。",
+        "pub_date": "11/10 00:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/964e42b9f564f5d63501bb2291e4100765d88146?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "AI巡る国際社会の連携不可欠と首相(共同通信)",
+        "summary": "高市首相はAI関連会議で、高性能AIに関し「わが国でも喫緊の課題となっているサイバー攻撃などへの悪用や制御の喪失といった安全保障上の新たな挑戦ともなっている。国際社会の連携が不可欠だ」と訴えた。",
+        "pub_date": "11/10 00:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/06293d39dba7f66c7009815f4162d2b0ebf275cb?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "高市首相がAI関連オンライン会議に出席(共同通信)",
+        "summary": "日本政府は9日夜、高市早苗首相がフランス主催の人工知能（AI）関連の会議にオンラインで出席したと発表した。",
+        "pub_date": "11/10 00:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/63cbfff320e3e208364fe287a5c189408c51af87?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "窃盗罪などで起訴の慶応大生初公判　認否について話さず(テレビ朝日系（ANN）)",
+        "summary": "盗んだクレジットカードで買い物をしたとして窃盗の罪などに問われた慶応大学に通う女の初公判が開かれました。女は認否を明らかにしませんでした。 慶応大学4年生の新澤かれん被告（23）は4月、東京・渋谷区の",
+        "pub_date": "11/09 23:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/35c783e1aeb50ff87e76473074201ec032f712a6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "鉄筋製造工場で火事　消火活動続く　金属約40トンが流れ出たか　東京・足立区(テレビ朝日系（ANN）)",
+        "summary": "東京・足立区の工場で火事がありました。現在も消防による消火活動が続けられています。 9日午後7時ごろ、足立区綾瀬にある鉄筋などを製造する工場で火事がありました。 警視庁などによりますと、溶かした金属を",
+        "pub_date": "11/09 23:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/8290f2b53d14e72c16446a45231e616f9c7288a1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "消費減税法案の採決棄権…石破前総理ら4人に戒告処分　“軽い処分”に参院側から不満(テレビ朝日系（ANN）)",
@@ -501,41 +533,9 @@
         "link": "https://news.yahoo.co.jp/articles/9f7e6c16607bab0a7598becc0b478e5d8276fc51?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "薬物譲り渡しでベトナム国籍の男再逮捕、覚醒剤など1億5000万円相当を押収　兵庫県警(産経新聞)",
-        "summary": "違法薬物を営利目的で譲り渡したとして、兵庫県警国際捜査課などは9日、麻薬取締法違反の疑いでベトナム国籍の住所不定、無職、ター・フイ・ホアン被告（32）＝覚醒剤取締法違反などで起訴＝を再逮捕した。「私は",
-        "pub_date": "11/09 23:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/7852e0ec201304191273209ae251ade2efa69305?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "灯油高騰に代金払えない人も　北海道でマイナス10.4度…各地で今季一番の冷え込み(テレビ朝日系（ANN）)",
-        "summary": "9日、最低気温が0度を下回る冬日となったのは、全国で178地点。今シーズン最多を更新し、各地で季節外れの、冬本番の冷え込みとなりました。",
-        "pub_date": "11/09 23:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/8f64c3cda4a9b441af04ceb5f5c6e72f69a8dae0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「前首相の行動としてあり得ない」　消費税減税採決で棄権の石破氏ら処分、3日決着の背景(西日本新聞me)",
-        "summary": "自民党が、消費税減税関連法案の採決を“棄権”した石破茂前首相らの処分に踏み切った。土日を挟んでわずか3日のスピード決着には、今後控える参院での審議を前にこれ以上の「造反」拡大を封じる狙いがある。法成立",
-        "pub_date": "11/09 22:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/1d3f3cf238d61e30d82dd37b27e772c5720053d0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "兵庫・尼崎市長選が告示、現新が一騎打ち　市議補選は12人立候補(産経新聞)",
-        "summary": "任期満了に伴う兵庫県尼崎市長選と議員辞職に伴う同市議補選（欠員1）が8日、告示された。市長選には再選をめざす現職の松本真氏（47）と、新人で弁護士の福永活也氏（46）がいずれも無所属で立候補し、一騎打",
-        "pub_date": "11/09 22:19 JST",
-        "link": "https://news.yahoo.co.jp/articles/9b4456ea898ad37922f468c52a614f9341d43840?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-09 23:44:46 JST"
+    "last_updated": "2026-11-10 00:38:24 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -589,10 +589,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "Pmdk2kHf-l8",
+        "video_id": "61SVBnUDv4U",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/Pmdk2kHf-l8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Pmdk2kHf-l8"
+        "embed_url": "https://www.youtube.com/embed/61SVBnUDv4U?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=61SVBnUDv4U"
       },
       {
         "id": "stream_fnnnews",

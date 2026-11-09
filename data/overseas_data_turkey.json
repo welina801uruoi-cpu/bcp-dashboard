@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-10 01:45:50",
-  "timestamp_local": "2026-11-09 19:45:50",
+  "timestamp": "2026-11-10 02:40:10",
+  "timestamp_local": "2026-11-09 20:40:10",
   "country": {
     "id": "turkey",
     "name": "トルコ",
@@ -283,7 +283,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 16,
+    "count_24h": 15,
     "summary": "M4.9 (Mid-Indian Ridge)",
     "latest": {
       "mag": 4.9,
@@ -419,6 +419,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "米2年連続欠席「大国の責任を」　COP31で太平洋諸国が米に温暖化対策を求める(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/14d6540396450f0b00083c5f9ac27a71fed9f833?source=rss",
+        "description": "気候変動対策を議論する国連の会議「COP31」で太平洋の島国地域の代表が2年連続で会議を欠席したアメリカに対し、「大国として温暖化の責任を果たすべきだ」と非難しました。 「COP31」は9日、トルコ南",
+        "pub_date": "11/10 02:12 JST",
+        "is_priority": false
+      },
+      {
         "title": "G7、ウクライナ情勢協議　外相会合、米中間選挙後初(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/4115a9802b94e2244516a5be8a8a76d87eccc7e3?source=rss",
         "description": "【パリ共同】日米欧の先進7カ国（G7）外相会合が9日、パリで開幕した。2日間の日程で、ウクライナや中東情勢を協議。米中間選挙でトランプ大統領率いる共和党が敗北して以降、欧米の外交トップが顔をそろえる初",
@@ -550,13 +557,6 @@
         "description": "トルコで気候変動対策を議論する国連の会議「COP31」が開幕しました。 国連の気候変動枠組み条約締約国会議COP31が、日本時間午後5時半ごろ、トルコ南部のアンタルヤで開幕しました。首脳は90人余り、",
         "pub_date": "11/09 20:36 JST",
         "is_priority": false
-      },
-      {
-        "title": "米中ロ首脳会談か　思惑は　人事も引き続き“トランプ流”側近に強い忠誠心　ミラー氏(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/6213be69dc5d319f49e94e473781594860b0f823?source=rss",
-        "description": "厳しい中間選挙の結果後、首席補佐官に新たに選んだのは、またも忠誠を誓う側近でした。大敗しても続くトランプ流人事、その狙いは。【画像】人事の狙いは",
-        "pub_date": "11/09 20:33 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -662,14 +662,14 @@
     "default_channel_id": "stream_trt_live"
   },
   "forex": {
-    "timestamp": "11/10 01:45 JST",
+    "timestamp": "11/10 02:39 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.01,
-      "change": 0.51,
-      "change_pct": 0.33,
+      "rate": 157.98,
+      "change": 0.49,
+      "change_pct": 0.31,
       "direction": "up"
     },
     "local_jpy": {
@@ -685,9 +685,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.01,
-      "change": 0.18,
-      "change_pct": 0.1
+      "rate": 177.04,
+      "change": 0.22,
+      "change_pct": 0.12
     }
   },
   "airports": [
@@ -725,109 +725,19 @@
   "weather": {
     "cities": [
       {
-        "name": "アンカラ (首都)",
-        "name_en": "Ankara",
-        "is_capital": true,
-        "lat": 39.9334,
-        "lon": 32.8597,
-        "temp": 3.3,
-        "apparent_temp": 0.6,
-        "humidity": 72,
-        "wind_speed": 2.9,
-        "wind_gusts": 5.4,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/09(月)",
-            "temp_max": 7.5,
-            "temp_min": -3.9,
-            "weather_code": 1,
-            "weather_label": "🌤️ 晴れ",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 5.1,
-            "temp_min": -1.7,
-            "weather_code": 71,
-            "weather_label": "❄️ 降雪 (小雪)",
-            "precipitation_mm": 1.7
-          },
-          {
-            "date": "11/11(水)",
-            "temp_max": 11.2,
-            "temp_min": -0.3,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "イスタンブール (最大都市)",
-        "name_en": "Istanbul",
-        "is_capital": false,
-        "lat": 41.0082,
-        "lon": 28.9784,
-        "temp": 10.7,
-        "apparent_temp": 9.0,
-        "humidity": 64,
-        "wind_speed": 2.5,
-        "wind_gusts": 5.0,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/09(月)",
-            "temp_max": 13.3,
-            "temp_min": 1.7,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.7
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 14.0,
-            "temp_min": 9.4,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 4.6
-          },
-          {
-            "date": "11/11(水)",
-            "temp_max": 17.9,
-            "temp_min": 11.4,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 1.6
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "イズミル (エーゲ海沿岸)",
         "name_en": "Izmir",
         "is_capital": false,
         "lat": 38.4237,
         "lon": 27.1428,
-        "temp": 12.8,
-        "apparent_temp": 11.0,
-        "humidity": 53,
-        "wind_speed": 1.6,
+        "temp": 12.0,
+        "apparent_temp": 10.5,
+        "humidity": 57,
+        "wind_speed": 0.8,
         "wind_gusts": 2.9,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 61,
+        "weather_label": "🌧️ 雨 (小雨)",
         "forecast": [
           {
             "date": "11/09(月)",
@@ -854,58 +764,58 @@
             "precipitation_mm": 0.1
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
-      "name": "アンカラ (首都)",
-      "name_en": "Ankara",
-      "is_capital": true,
-      "lat": 39.9334,
-      "lon": 32.8597,
-      "temp": 3.3,
-      "apparent_temp": 0.6,
-      "humidity": 72,
-      "wind_speed": 2.9,
-      "wind_gusts": 5.4,
+      "name": "イズミル (エーゲ海沿岸)",
+      "name_en": "Izmir",
+      "is_capital": false,
+      "lat": 38.4237,
+      "lon": 27.1428,
+      "temp": 12.0,
+      "apparent_temp": 10.5,
+      "humidity": 57,
+      "wind_speed": 0.8,
+      "wind_gusts": 2.9,
       "precipitation": 0.0,
-      "weather_code": 0,
-      "weather_label": "☀️ 快晴",
+      "weather_code": 61,
+      "weather_label": "🌧️ 雨 (小雨)",
       "forecast": [
         {
           "date": "11/09(月)",
-          "temp_max": 7.5,
-          "temp_min": -3.9,
-          "weather_code": 1,
-          "weather_label": "🌤️ 晴れ",
-          "precipitation_mm": 0.0
+          "temp_max": 17.9,
+          "temp_min": 4.1,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
+          "precipitation_mm": 1.6
         },
         {
           "date": "11/10(火)",
-          "temp_max": 5.1,
-          "temp_min": -1.7,
-          "weather_code": 71,
-          "weather_label": "❄️ 降雪 (小雪)",
-          "precipitation_mm": 1.7
+          "temp_max": 16.8,
+          "temp_min": 10.1,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
+          "precipitation_mm": 1.3
         },
         {
           "date": "11/11(水)",
-          "temp_max": 11.2,
-          "temp_min": -0.3,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 19.9,
+          "temp_min": 11.1,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
+          "precipitation_mm": 0.1
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/10 01:45 JST"
+    "timestamp": "11/10 02:40 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -934,7 +844,7 @@
         "details": "YHT高速列車など主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/10 01:45 JST"
+    "timestamp": "11/10 02:39 JST"
   },
   "lifeline": {
     "status": "NORMAL",

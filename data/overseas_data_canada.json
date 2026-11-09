@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-10 01:46:04",
-  "timestamp_local": "2026-11-09 12:46:04",
+  "timestamp": "2026-11-10 02:40:23",
+  "timestamp_local": "2026-11-09 13:40:23",
   "country": {
     "id": "canada",
     "name": "カナダ",
@@ -277,6 +277,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "米2年連続欠席「大国の責任を」　COP31で太平洋諸国が米に温暖化対策を求める(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/14d6540396450f0b00083c5f9ac27a71fed9f833?source=rss",
+        "description": "気候変動対策を議論する国連の会議「COP31」で太平洋の島国地域の代表が2年連続で会議を欠席したアメリカに対し、「大国として温暖化の責任を果たすべきだ」と非難しました。 「COP31」は9日、トルコ南",
+        "pub_date": "11/10 02:12 JST",
+        "is_priority": false
+      },
+      {
         "title": "G7、ウクライナ情勢協議　外相会合、米中間選挙後初(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/4115a9802b94e2244516a5be8a8a76d87eccc7e3?source=rss",
         "description": "【パリ共同】日米欧の先進7カ国（G7）外相会合が9日、パリで開幕した。2日間の日程で、ウクライナや中東情勢を協議。米中間選挙でトランプ大統領率いる共和党が敗北して以降、欧米の外交トップが顔をそろえる初",
@@ -408,13 +415,6 @@
         "description": "トルコで気候変動対策を議論する国連の会議「COP31」が開幕しました。 国連の気候変動枠組み条約締約国会議COP31が、日本時間午後5時半ごろ、トルコ南部のアンタルヤで開幕しました。首脳は90人余り、",
         "pub_date": "11/09 20:36 JST",
         "is_priority": false
-      },
-      {
-        "title": "米中ロ首脳会談か　思惑は　人事も引き続き“トランプ流”側近に強い忠誠心　ミラー氏(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/6213be69dc5d319f49e94e473781594860b0f823?source=rss",
-        "description": "厳しい中間選挙の結果後、首席補佐官に新たに選んだのは、またも忠誠を誓う側近でした。大敗しても続くトランプ流人事、その狙いは。【画像】人事の狙いは",
-        "pub_date": "11/09 20:33 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -516,32 +516,32 @@
     "default_channel_id": "stream_cbc_live"
   },
   "forex": {
-    "timestamp": "11/10 01:46 JST",
+    "timestamp": "11/10 02:40 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.01,
-      "change": 0.51,
-      "change_pct": 0.33,
+      "rate": 157.99,
+      "change": 0.49,
+      "change_pct": 0.31,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "CAD",
       "name": "カナダドル",
       "symbol": "C$",
-      "rate": 111.83,
+      "rate": 111.84,
       "change": -0.51,
-      "change_pct": -0.46,
+      "change_pct": -0.45,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.01,
-      "change": 0.18,
-      "change_pct": 0.1
+      "rate": 177.04,
+      "change": 0.21,
+      "change_pct": 0.12
     }
   },
   "airports": [
@@ -579,68 +579,23 @@
   "weather": {
     "cities": [
       {
-        "name": "オタワ (首都)",
-        "name_en": "Ottawa",
-        "is_capital": true,
-        "lat": 45.4215,
-        "lon": -75.6972,
-        "temp": 9.5,
-        "apparent_temp": 5.6,
-        "humidity": 70,
-        "wind_speed": 17.7,
-        "wind_gusts": 33.5,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/09(月)",
-            "temp_max": 9.8,
-            "temp_min": 4.5,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/10(火)",
-            "temp_max": 9.0,
-            "temp_min": 2.9,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 8.7
-          },
-          {
-            "date": "11/11(水)",
-            "temp_max": 8.5,
-            "temp_min": 2.4,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "トロント (最大都市)",
         "name_en": "Toronto",
         "is_capital": false,
         "lat": 43.6532,
         "lon": -79.3832,
-        "temp": 8.9,
-        "apparent_temp": 4.6,
-        "humidity": 66,
-        "wind_speed": 18.4,
-        "wind_gusts": 31.3,
+        "temp": 9.4,
+        "apparent_temp": 5.0,
+        "humidity": 64,
+        "wind_speed": 19.4,
+        "wind_gusts": 31.0,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/09(月)",
-            "temp_max": 9.6,
+            "temp_max": 9.4,
             "temp_min": 5.2,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -649,18 +604,18 @@
           {
             "date": "11/10(火)",
             "temp_max": 12.6,
-            "temp_min": 5.9,
+            "temp_min": 5.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/11(水)",
-            "temp_max": 10.4,
+            "temp_max": 11.2,
             "temp_min": 4.8,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
           }
         ],
         "alert": "平常",
@@ -674,22 +629,22 @@
         "is_capital": false,
         "lat": 49.2827,
         "lon": -123.1207,
-        "temp": 7.1,
-        "apparent_temp": 4.2,
-        "humidity": 81,
-        "wind_speed": 9.7,
-        "wind_gusts": 18.0,
+        "temp": 8.7,
+        "apparent_temp": 6.2,
+        "humidity": 82,
+        "wind_speed": 9.6,
+        "wind_gusts": 24.1,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/09(月)",
-            "temp_max": 11.5,
+            "temp_max": 11.9,
             "temp_min": 5.6,
             "weather_code": 63,
             "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 10.9
+            "precipitation_mm": 8.4
           },
           {
             "date": "11/10(火)",
@@ -715,43 +670,43 @@
       }
     ],
     "capital": {
-      "name": "オタワ (首都)",
-      "name_en": "Ottawa",
-      "is_capital": true,
-      "lat": 45.4215,
-      "lon": -75.6972,
-      "temp": 9.5,
-      "apparent_temp": 5.6,
-      "humidity": 70,
-      "wind_speed": 17.7,
-      "wind_gusts": 33.5,
+      "name": "トロント (最大都市)",
+      "name_en": "Toronto",
+      "is_capital": false,
+      "lat": 43.6532,
+      "lon": -79.3832,
+      "temp": 9.4,
+      "apparent_temp": 5.0,
+      "humidity": 64,
+      "wind_speed": 19.4,
+      "wind_gusts": 31.0,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/09(月)",
-          "temp_max": 9.8,
-          "temp_min": 4.5,
+          "temp_max": 9.4,
+          "temp_min": 5.2,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/10(火)",
-          "temp_max": 9.0,
-          "temp_min": 2.9,
-          "weather_code": 63,
-          "weather_label": "🌧️ 雨 (中雨)",
-          "precipitation_mm": 8.7
-        },
-        {
-          "date": "11/11(水)",
-          "temp_max": 8.5,
-          "temp_min": 2.4,
+          "temp_max": 12.6,
+          "temp_min": 5.7,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/11(水)",
+          "temp_max": 11.2,
+          "temp_min": 4.8,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
         }
       ],
       "alert": "平常",
@@ -759,7 +714,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/10 01:46 JST"
+    "timestamp": "11/10 02:40 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -788,7 +743,7 @@
         "details": "VIA鉄道主要列車平常運行中"
       }
     ],
-    "timestamp": "11/10 01:46 JST"
+    "timestamp": "11/10 02:40 JST"
   },
   "lifeline": {
     "status": "NORMAL",

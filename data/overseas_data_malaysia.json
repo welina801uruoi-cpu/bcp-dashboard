@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-10 01:45:03",
-  "timestamp_local": "2026-11-10 00:45:03",
+  "timestamp": "2026-11-10 02:39:13",
+  "timestamp_local": "2026-11-10 01:39:13",
   "country": {
     "id": "malaysia",
     "name": "マレーシア",
@@ -273,7 +273,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 16,
+    "count_24h": 15,
     "summary": "M4.9 (Mid-Indian Ridge)",
     "latest": {
       "mag": 4.9,
@@ -409,6 +409,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "米2年連続欠席「大国の責任を」　COP31で太平洋諸国が米に温暖化対策を求める(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/14d6540396450f0b00083c5f9ac27a71fed9f833?source=rss",
+        "description": "気候変動対策を議論する国連の会議「COP31」で太平洋の島国地域の代表が2年連続で会議を欠席したアメリカに対し、「大国として温暖化の責任を果たすべきだ」と非難しました。 「COP31」は9日、トルコ南",
+        "pub_date": "11/10 02:12 JST",
+        "is_priority": false
+      },
+      {
         "title": "G7、ウクライナ情勢協議　外相会合、米中間選挙後初(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/4115a9802b94e2244516a5be8a8a76d87eccc7e3?source=rss",
         "description": "【パリ共同】日米欧の先進7カ国（G7）外相会合が9日、パリで開幕した。2日間の日程で、ウクライナや中東情勢を協議。米中間選挙でトランプ大統領率いる共和党が敗北して以降、欧米の外交トップが顔をそろえる初",
@@ -540,13 +547,6 @@
         "description": "トルコで気候変動対策を議論する国連の会議「COP31」が開幕しました。 国連の気候変動枠組み条約締約国会議COP31が、日本時間午後5時半ごろ、トルコ南部のアンタルヤで開幕しました。首脳は90人余り、",
         "pub_date": "11/09 20:36 JST",
         "is_priority": false
-      },
-      {
-        "title": "米中ロ首脳会談か　思惑は　人事も引き続き“トランプ流”側近に強い忠誠心　ミラー氏(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/6213be69dc5d319f49e94e473781594860b0f823?source=rss",
-        "description": "厳しい中間選挙の結果後、首席補佐官に新たに選んだのは、またも忠誠を誓う側近でした。大敗しても続くトランプ流人事、その狙いは。【画像】人事の狙いは",
-        "pub_date": "11/09 20:33 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -639,14 +639,14 @@
     "default_channel_id": "stream_bernama_live"
   },
   "forex": {
-    "timestamp": "11/10 01:44 JST",
+    "timestamp": "11/10 02:39 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.01,
-      "change": 0.51,
-      "change_pct": 0.33,
+      "rate": 157.98,
+      "change": 0.49,
+      "change_pct": 0.31,
       "direction": "up"
     },
     "local_jpy": {
@@ -662,9 +662,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.01,
-      "change": 0.18,
-      "change_pct": 0.1
+      "rate": 177.04,
+      "change": 0.22,
+      "change_pct": 0.12
     }
   },
   "airports": [
@@ -692,11 +692,11 @@
         "is_capital": true,
         "lat": 3.139,
         "lon": 101.6869,
-        "temp": 25.7,
-        "apparent_temp": 31.7,
-        "humidity": 93,
+        "temp": 25.4,
+        "apparent_temp": 31.4,
+        "humidity": 94,
         "wind_speed": 2.4,
-        "wind_gusts": 5.4,
+        "wind_gusts": 6.1,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -732,19 +732,64 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
+        "name": "ペナン (ジョージタウン)",
+        "name_en": "Penang",
+        "is_capital": false,
+        "lat": 5.4141,
+        "lon": 100.3288,
+        "temp": 25.5,
+        "apparent_temp": 31.3,
+        "humidity": 95,
+        "wind_speed": 4.4,
+        "wind_gusts": 14.8,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
+        "forecast": [
+          {
+            "date": "11/10(火)",
+            "temp_max": 30.7,
+            "temp_min": 24.8,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 13.6
+          },
+          {
+            "date": "11/11(水)",
+            "temp_max": 29.9,
+            "temp_min": 24.6,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 4.4
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 30.0,
+            "temp_min": 24.3,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 17.3
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      },
+      {
         "name": "ジョホールバル (南部経済圏)",
         "name_en": "Johor Bahru",
         "is_capital": false,
         "lat": 1.4927,
         "lon": 103.7414,
         "temp": 24.4,
-        "apparent_temp": 29.5,
+        "apparent_temp": 29.3,
         "humidity": 97,
-        "wind_speed": 6.6,
-        "wind_gusts": 15.5,
+        "wind_speed": 7.1,
+        "wind_gusts": 15.1,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/10(火)",
@@ -783,11 +828,11 @@
       "is_capital": true,
       "lat": 3.139,
       "lon": 101.6869,
-      "temp": 25.7,
-      "apparent_temp": 31.7,
-      "humidity": 93,
+      "temp": 25.4,
+      "apparent_temp": 31.4,
+      "humidity": 94,
       "wind_speed": 2.4,
-      "wind_gusts": 5.4,
+      "wind_gusts": 6.1,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -822,7 +867,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/10 01:45 JST"
+    "timestamp": "11/10 02:39 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -851,7 +896,7 @@
         "details": "LRTクラナジャヤ線・MRT各線平常運行中"
       }
     ],
-    "timestamp": "11/10 01:44 JST"
+    "timestamp": "11/10 02:39 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 16:42:17",
+  "timestamp": "2026-11-09 17:36:21",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -202,10 +202,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 6地域】東京、千葉、神奈川、埼玉、茨城、栃木（警報なし）",
+    "summary": "【注意報発表: 7地域】東京、千葉、神奈川、埼玉、茨城、栃木、山梨（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 6,
+    "notice_count": 7,
     "total_prefs": 8,
     "pref_details": [
       {
@@ -216,11 +216,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
+          "波浪注意報",
           "雷注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -231,10 +231,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -304,11 +304,13 @@
         "code": "19",
         "name": "山梨県",
         "short_name": "山梨",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/19/"
       }
     ]
@@ -321,19 +323,14 @@
     "notice_items": []
   },
   "transit": {
-    "status": "ALERT",
-    "text": "運行支障あり（在来線: 東海道本線、中央線、宇都宮線）",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（東海道本線、中央線、宇都宮線、東京メトロ千代田線）",
+    "status": "NORMAL",
+    "text": "全線平常運行中",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [
-      "東海道本線",
-      "中央線",
-      "宇都宮線",
-      "東京メトロ千代田線"
-    ],
+    "troubled_lines": [],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
@@ -401,7 +398,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東京電力PG: 【停電発生中】千葉・埼玉・茨城で停電情報を検知",
+    "power_msg": "東京電力PG: 【停電発生中】千葉・埼玉で停電情報を検知",
     "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東京ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -621,6 +618,14 @@
         "is_disaster": true
       },
       {
+        "title": "「単発の事例で終わらぬよう」自治体トップで“全国初”八幡市長が産休から復帰(テレビ朝日系（ANN）)",
+        "summary": "自治体トップとしては“全国初”とみられる、産休を取得した京都府八幡市の川田翔子市長（36）が9日、4カ月ぶりに公務に復帰しました。市ぐるみで取り組んだ、今回の産休。市長は「1度きりの特例に終わらせず、",
+        "pub_date": "11/10 01:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/257bca73d14bc0698999e8996e8af1a45b2c3f14?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "日米外相、ICC問題で意見交換(共同通信)",
         "summary": "【パリ共同】茂木敏充外相は9日、フランス・パリでルビオ米国務長官と面会し、米政権による国際刑事裁判所（ICC）の制裁対象指定を巡り意見交換した。",
         "pub_date": "11/10 01:24 JST",
@@ -659,17 +664,9 @@
         "link": "https://news.yahoo.co.jp/articles/35c783e1aeb50ff87e76473074201ec032f712a6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "鉄筋製造工場で火事　消火活動続く　金属約40トンが流れ出たか　東京・足立区(テレビ朝日系（ANN）)",
-        "summary": "東京・足立区の工場で火事がありました。現在も消防による消火活動が続けられています。 9日午後7時ごろ、足立区綾瀬にある鉄筋などを製造する工場で火事がありました。 警視庁などによりますと、溶かした金属を",
-        "pub_date": "11/09 23:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/8290f2b53d14e72c16446a45231e616f9c7288a1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 01:42:02 JST"
+    "last_updated": "2026-11-10 02:36:07 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

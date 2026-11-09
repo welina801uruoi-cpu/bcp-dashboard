@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 16:43:24",
+  "timestamp": "2026-11-09 17:37:27",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -165,15 +165,15 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
-          "大雪注意報",
           "波浪注意報",
           "雷注意報",
           "強風注意報",
+          "大雪注意報",
+          "なだれ注意報",
           "低温注意報",
-          "なだれ注意報"
+          "着雪注意報"
         ],
-        "summary": "着雪注意報、大雪注意報、波浪注意報、雷注意報、強風注意報、低温注意報、なだれ注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報、大雪注意報、なだれ注意報、低温注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -184,12 +184,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
           "強風注意報",
+          "大雪注意報",
           "なだれ注意報",
-          "大雪注意報"
+          "着雪注意報"
         ],
-        "summary": "着雪注意報、強風注意報、なだれ注意報、大雪注意報",
+        "summary": "強風注意報、大雪注意報、なだれ注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -200,12 +200,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
+          "波浪注意報",
           "乾燥注意報",
           "低温注意報"
         ],
-        "summary": "波浪注意報、強風注意報、乾燥注意報、低温注意報",
+        "summary": "強風注意報、波浪注意報、乾燥注意報、低温注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -216,11 +216,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "低温注意報",
           "着雪注意報",
-          "強風注意報",
-          "低温注意報"
+          "強風注意報"
         ],
-        "summary": "着雪注意報、強風注意報、低温注意報",
+        "summary": "低温注意報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -262,11 +262,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "ほくでんNW: 停電情報なし（北海道エリア管内正常）",
+    "power_msg": "ほくでんNW: 【停電発生中】北海道で停電情報を検知",
     "water_msg": "札幌市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "北海道ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -487,6 +487,14 @@
         "is_disaster": true
       },
       {
+        "title": "「単発の事例で終わらぬよう」自治体トップで“全国初”八幡市長が産休から復帰(テレビ朝日系（ANN）)",
+        "summary": "自治体トップとしては“全国初”とみられる、産休を取得した京都府八幡市の川田翔子市長（36）が9日、4カ月ぶりに公務に復帰しました。市ぐるみで取り組んだ、今回の産休。市長は「1度きりの特例に終わらせず、",
+        "pub_date": "11/10 01:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/257bca73d14bc0698999e8996e8af1a45b2c3f14?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "日米外相、ICC問題で意見交換(共同通信)",
         "summary": "【パリ共同】茂木敏充外相は9日、フランス・パリでルビオ米国務長官と面会し、米政権による国際刑事裁判所（ICC）の制裁対象指定を巡り意見交換した。",
         "pub_date": "11/10 01:24 JST",
@@ -525,17 +533,9 @@
         "link": "https://news.yahoo.co.jp/articles/35c783e1aeb50ff87e76473074201ec032f712a6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "鉄筋製造工場で火事　消火活動続く　金属約40トンが流れ出たか　東京・足立区(テレビ朝日系（ANN）)",
-        "summary": "東京・足立区の工場で火事がありました。現在も消防による消火活動が続けられています。 9日午後7時ごろ、足立区綾瀬にある鉄筋などを製造する工場で火事がありました。 警視庁などによりますと、溶かした金属を",
-        "pub_date": "11/09 23:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/8290f2b53d14e72c16446a45231e616f9c7288a1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 01:43:09 JST"
+    "last_updated": "2026-11-10 02:37:12 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",

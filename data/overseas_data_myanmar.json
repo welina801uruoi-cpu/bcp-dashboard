@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-10 02:38:21",
-  "timestamp_local": "2026-11-10 00:08:21",
+  "timestamp": "2026-11-10 03:28:38",
+  "timestamp_local": "2026-11-10 00:58:38",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -403,6 +403,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "仏スーパー冷蔵庫攻撃イラン関与か 革命防衛隊のサイバー部隊特定 外相「相応の報い」(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/8eb4c211846b5fb21b3927a7b44859a9ea7c87df?source=rss",
+        "description": "フランス国内で10月にスーパーマーケットの冷蔵設備がサイバー攻撃の被害にあった事件で、現地メディアはイランの「革命防衛隊」の関与があったと報じました。 フランスでは10月に、数百店に及ぶスーパーマーケ",
+        "pub_date": "11/10 02:50 JST",
+        "is_priority": true
+      },
+      {
         "title": "米2年連続欠席「大国の責任を」　COP31で太平洋諸国が米に温暖化対策を求める(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/14d6540396450f0b00083c5f9ac27a71fed9f833?source=rss",
         "description": "気候変動対策を議論する国連の会議「COP31」で太平洋の島国地域の代表が2年連続で会議を欠席したアメリカに対し、「大国として温暖化の責任を果たすべきだ」と非難しました。 「COP31」は9日、トルコ南",
@@ -534,13 +541,6 @@
         "description": "大きな湯船の中で伸びている脚は、よく見ると作り物だ。北京・王府井のデパートの地下2階にある「清華池珈琲」は、昔の北京の公衆浴場を再現したコンセプトカフェ。【画像】大きな湯船の中で伸びている脚青いタイル",
         "pub_date": "11/09 20:51 JST",
         "is_priority": false
-      },
-      {
-        "title": "COP31開幕 気候変動対策を議論(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/e521f852ecf40d19244b2cabfedc076349660ab4?source=rss",
-        "description": "トルコで気候変動対策を議論する国連の会議「COP31」が開幕しました。 国連の気候変動枠組み条約締約国会議COP31が、日本時間午後5時半ごろ、トルコ南部のアンタルヤで開幕しました。首脳は90人余り、",
-        "pub_date": "11/09 20:36 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -653,14 +653,14 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/10 02:38 JST",
+    "timestamp": "11/10 03:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 157.98,
-      "change": 0.49,
-      "change_pct": 0.31,
+      "rate": 158.02,
+      "change": 0.52,
+      "change_pct": 0.33,
       "direction": "up"
     },
     "local_jpy": {
@@ -676,9 +676,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.04,
-      "change": 0.22,
-      "change_pct": 0.12
+      "rate": 177.06,
+      "change": 0.24,
+      "change_pct": 0.14
     }
   },
   "airports": [
@@ -691,11 +691,20 @@
       "departures_url": "http://www.yangonairport.aero/",
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
-      "weather": {},
-      "status": "平常運航",
-      "status_code": "normal",
-      "status_badge": "🟢 平常運航",
-      "status_desc": "定常運航中（現在重大な気象警報なし）"
+      "weather": {
+        "raw": "METAR VYYY 091800Z 15002KT 6000 BKN015 FEW018CB BKN090 26/25 Q1015 TEMPO 5000 -RA",
+        "wind": "2kt",
+        "wind_speed": 2,
+        "wind_gust": 0,
+        "visibility": "3.73マイル",
+        "temp": 26,
+        "fltcat": "VFR",
+        "report_time": "2026-11-09T18:00:00.000Z"
+      },
+      "status": "気象注意",
+      "status_code": "advisory",
+      "status_badge": "🟡 気象注意",
+      "status_desc": "雨天または雲底低下あり。現在大きな乱れなし"
     }
   ],
   "weather": {
@@ -706,23 +715,15 @@
         "is_capital": false,
         "lat": 16.8661,
         "lon": 96.1951,
-        "temp": 24.1,
-        "apparent_temp": 28.1,
-        "humidity": 94,
-        "wind_speed": 9.5,
-        "wind_gusts": 28.1,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 23.9,
+        "apparent_temp": 28.0,
+        "humidity": 93,
+        "wind_speed": 8.7,
+        "wind_gusts": 27.0,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
-          {
-            "date": "11/09(月)",
-            "temp_max": 32.6,
-            "temp_min": 24.0,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 1.6
-          },
           {
             "date": "11/10(火)",
             "temp_max": 29.7,
@@ -738,12 +739,20 @@
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
             "precipitation_mm": 2.6
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 31.2,
+            "temp_min": 21.9,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "ネピドー (行政首都)",
@@ -751,23 +760,15 @@
         "is_capital": true,
         "lat": 19.7633,
         "lon": 96.0785,
-        "temp": 22.4,
-        "apparent_temp": 25.6,
-        "humidity": 97,
-        "wind_speed": 11.7,
-        "wind_gusts": 24.8,
-        "precipitation": 0.6,
-        "weather_code": 80,
-        "weather_label": "🌧️ にわか雨 (弱)",
+        "temp": 22.3,
+        "apparent_temp": 25.5,
+        "humidity": 98,
+        "wind_speed": 10.7,
+        "wind_gusts": 25.2,
+        "precipitation": 0.7,
+        "weather_code": 81,
+        "weather_label": "🌧️ にわか雨 (中)",
         "forecast": [
-          {
-            "date": "11/09(月)",
-            "temp_max": 28.4,
-            "temp_min": 22.4,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 19.4
-          },
           {
             "date": "11/10(火)",
             "temp_max": 22.8,
@@ -783,12 +784,20 @@
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
             "precipitation_mm": 10.8
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 28.9,
+            "temp_min": 19.8,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 10.4
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
         "name": "マンダレー (北部拠点)",
@@ -796,23 +805,15 @@
         "is_capital": false,
         "lat": 21.9588,
         "lon": 96.0891,
-        "temp": 23.4,
-        "apparent_temp": 28.1,
+        "temp": 23.3,
+        "apparent_temp": 27.8,
         "humidity": 97,
-        "wind_speed": 4.5,
-        "wind_gusts": 10.4,
-        "precipitation": 0.6,
+        "wind_speed": 5.6,
+        "wind_gusts": 14.8,
+        "precipitation": 0.5,
         "weather_code": 80,
         "weather_label": "🌧️ にわか雨 (弱)",
         "forecast": [
-          {
-            "date": "11/09(月)",
-            "temp_max": 24.9,
-            "temp_min": 23.2,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 50.0
-          },
           {
             "date": "11/10(火)",
             "temp_max": 23.4,
@@ -828,6 +829,14 @@
             "weather_code": 81,
             "weather_label": "🌧️ にわか雨 (中)",
             "precipitation_mm": 14.3
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 25.5,
+            "temp_min": 19.5,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 3.0
           }
         ],
         "alert": "気象注意",
@@ -842,23 +851,15 @@
       "is_capital": true,
       "lat": 19.7633,
       "lon": 96.0785,
-      "temp": 22.4,
-      "apparent_temp": 25.6,
-      "humidity": 97,
-      "wind_speed": 11.7,
-      "wind_gusts": 24.8,
-      "precipitation": 0.6,
-      "weather_code": 80,
-      "weather_label": "🌧️ にわか雨 (弱)",
+      "temp": 22.3,
+      "apparent_temp": 25.5,
+      "humidity": 98,
+      "wind_speed": 10.7,
+      "wind_gusts": 25.2,
+      "precipitation": 0.7,
+      "weather_code": 81,
+      "weather_label": "🌧️ にわか雨 (中)",
       "forecast": [
-        {
-          "date": "11/09(月)",
-          "temp_max": 28.4,
-          "temp_min": 22.4,
-          "weather_code": 81,
-          "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 19.4
-        },
         {
           "date": "11/10(火)",
           "temp_max": 22.8,
@@ -874,14 +875,22 @@
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
           "precipitation_mm": 10.8
+        },
+        {
+          "date": "11/12(木)",
+          "temp_max": 28.9,
+          "temp_min": 19.8,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 10.4
         }
       ],
-      "alert": "気象注意",
-      "alert_badge": "🟡 気象注意",
-      "alert_class": "yellow",
-      "alert_desc": "降雨または視程低下あり。通常行動可能"
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/10 02:38 JST"
+    "timestamp": "11/10 03:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -910,7 +919,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/10 02:38 JST"
+    "timestamp": "11/10 03:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

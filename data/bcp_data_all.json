@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 17:36:10",
+  "timestamp": "2026-11-09 18:26:46",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "ALERT",
-    "summary": "【警報発表: 1地域】沖縄（波浪警報） ／ 他36地域で注意報",
+    "summary": "【警報発表: 1地域】沖縄（波浪警報） ／ 他37地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 1,
-    "notice_count": 36,
+    "notice_count": 37,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -450,15 +450,15 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "雷注意報",
           "強風注意報",
-          "大雪注意報",
-          "なだれ注意報",
+          "着雪注意報",
+          "雷注意報",
           "低温注意報",
-          "着雪注意報"
+          "波浪注意報",
+          "大雪注意報",
+          "なだれ注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報、大雪注意報、なだれ注意報、低温注意報、着雪注意報",
+        "summary": "強風注意報、着雪注意報、雷注意報、低温注意報、波浪注意報、大雪注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -469,12 +469,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "大雪注意報",
+          "着雪注意報",
           "なだれ注意報",
-          "着雪注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、大雪注意報、なだれ注意報、着雪注意報",
+        "summary": "大雪注意報、着雪注意報、なだれ注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -486,11 +486,11 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "波浪注意報",
+          "低温注意報",
           "乾燥注意報",
-          "低温注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、乾燥注意報、低温注意報",
+        "summary": "強風注意報、低温注意報、乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -501,11 +501,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "低温注意報",
           "着雪注意報",
+          "低温注意報",
           "強風注意報"
         ],
-        "summary": "低温注意報、着雪注意報、強風注意報",
+        "summary": "着雪注意報、低温注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
@@ -1069,11 +1069,13 @@
         "code": "45",
         "name": "宮崎県",
         "short_name": "宮崎",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "波浪注意報"
+        ],
+        "summary": "波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/45/"
       },
       {
@@ -1129,6 +1131,15 @@
       "姫新線",
       "呉線",
       "美祢線",
+      "長崎本線",
+      "肥薩線",
+      "小海線",
+      "越後線",
+      "九頭竜線",
+      "しなの鉄道北しなの線",
+      "大井川鉄道大井川本線",
+      "万葉線",
+      "関西本線",
       "石巻線",
       "山田線",
       "大湊線",
@@ -1137,21 +1148,12 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "関西本線",
-      "長崎本線",
-      "肥薩線",
       "烏山線",
       "成田線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
-      "小海線",
-      "越後線",
-      "九頭竜線",
-      "しなの鉄道北しなの線",
-      "大井川鉄道大井川本線",
-      "万葉線"
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1244,7 +1246,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】北海道・埼玉・千葉・新潟・長野・山口で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】栃木・千葉・長野・山口・鹿児島で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1512,7 +1514,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 02:36:07 JST"
+    "last_updated": "2026-11-10 03:26:43 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

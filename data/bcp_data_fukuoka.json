@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 17:37:15",
+  "timestamp": "2026-11-09 18:27:41",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -179,10 +179,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 6地域】福岡、大分、鹿児島、熊本、長崎、佐賀（警報なし）",
+    "summary": "【注意報発表: 7地域】福岡、大分、宮崎、鹿児島、熊本、長崎、佐賀（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 6,
+    "notice_count": 7,
     "total_prefs": 7,
     "pref_details": [
       {
@@ -218,11 +218,13 @@
         "code": "45",
         "name": "宮崎県",
         "short_name": "宮崎",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "波浪注意報"
+        ],
+        "summary": "波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/45/"
       },
       {
@@ -341,11 +343,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "九州電力送配電: 停電情報なし（九州エリア管内正常）",
+    "power_msg": "九州電力送配電: 【停電発生中】鹿児島で停電情報を検知",
     "water_msg": "福岡市水道局: 供給安定（平常）",
     "gas_msg": "西部ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -612,7 +614,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 02:37:12 JST"
+    "last_updated": "2026-11-10 03:26:43 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-10 02:39:42",
-  "timestamp_local": "2026-11-09 18:39:42",
+  "timestamp": "2026-11-10 03:29:32",
+  "timestamp_local": "2026-11-09 19:29:32",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -488,6 +488,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "仏スーパー冷蔵庫攻撃イラン関与か 革命防衛隊のサイバー部隊特定 外相「相応の報い」(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/8eb4c211846b5fb21b3927a7b44859a9ea7c87df?source=rss",
+        "description": "フランス国内で10月にスーパーマーケットの冷蔵設備がサイバー攻撃の被害にあった事件で、現地メディアはイランの「革命防衛隊」の関与があったと報じました。 フランスでは10月に、数百店に及ぶスーパーマーケ",
+        "pub_date": "11/10 02:50 JST",
+        "is_priority": true
+      },
+      {
         "title": "米2年連続欠席「大国の責任を」　COP31で太平洋諸国が米に温暖化対策を求める(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/14d6540396450f0b00083c5f9ac27a71fed9f833?source=rss",
         "description": "気候変動対策を議論する国連の会議「COP31」で太平洋の島国地域の代表が2年連続で会議を欠席したアメリカに対し、「大国として温暖化の責任を果たすべきだ」と非難しました。 「COP31」は9日、トルコ南",
@@ -619,13 +626,6 @@
         "description": "大きな湯船の中で伸びている脚は、よく見ると作り物だ。北京・王府井のデパートの地下2階にある「清華池珈琲」は、昔の北京の公衆浴場を再現したコンセプトカフェ。【画像】大きな湯船の中で伸びている脚青いタイル",
         "pub_date": "11/09 20:51 JST",
         "is_priority": false
-      },
-      {
-        "title": "COP31開幕 気候変動対策を議論(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/e521f852ecf40d19244b2cabfedc076349660ab4?source=rss",
-        "description": "トルコで気候変動対策を議論する国連の会議「COP31」が開幕しました。 国連の気候変動枠組み条約締約国会議COP31が、日本時間午後5時半ごろ、トルコ南部のアンタルヤで開幕しました。首脳は90人余り、",
-        "pub_date": "11/09 20:36 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -756,32 +756,32 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/10 02:39 JST",
+    "timestamp": "11/10 03:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 157.98,
-      "change": 0.49,
-      "change_pct": 0.31,
+      "rate": 158.02,
+      "change": 0.52,
+      "change_pct": 0.33,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "GBP",
       "name": "英ポンド",
       "symbol": "£",
-      "rate": 212.08,
-      "change": 0.19,
-      "change_pct": 0.09,
+      "rate": 212.12,
+      "change": 0.23,
+      "change_pct": 0.11,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.04,
-      "change": 0.22,
-      "change_pct": 0.12
+      "rate": 177.06,
+      "change": 0.24,
+      "change_pct": 0.14
     }
   },
   "airports": [
@@ -849,24 +849,114 @@
   "weather": {
     "cities": [
       {
+        "name": "ロンドン (首都)",
+        "name_en": "London",
+        "is_capital": true,
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "temp": 8.3,
+        "apparent_temp": 5.4,
+        "humidity": 86,
+        "wind_speed": 13.7,
+        "wind_gusts": 29.5,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/09(月)",
+            "temp_max": 10.2,
+            "temp_min": 5.5,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 10.4,
+            "temp_min": 5.8,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 6.4
+          },
+          {
+            "date": "11/11(水)",
+            "temp_max": 9.7,
+            "temp_min": 8.4,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 10.7
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "マンチェスター (中部)",
+        "name_en": "Manchester",
+        "is_capital": false,
+        "lat": 53.4808,
+        "lon": -2.2426,
+        "temp": 8.4,
+        "apparent_temp": 6.4,
+        "humidity": 78,
+        "wind_speed": 5.0,
+        "wind_gusts": 11.9,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/09(月)",
+            "temp_max": 9.9,
+            "temp_min": 6.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 10.6,
+            "temp_min": 4.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/11(水)",
+            "temp_max": 10.5,
+            "temp_min": 6.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "エディンバラ (スコットランド)",
         "name_en": "Edinburgh",
         "is_capital": false,
         "lat": 55.9533,
         "lon": -3.1883,
-        "temp": 7.3,
-        "apparent_temp": 5.5,
-        "humidity": 83,
-        "wind_speed": 3.2,
-        "wind_gusts": 7.2,
+        "temp": 7.2,
+        "apparent_temp": 5.7,
+        "humidity": 86,
+        "wind_speed": 2.2,
+        "wind_gusts": 5.8,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/09(月)",
             "temp_max": 9.0,
-            "temp_min": 4.5,
+            "temp_min": 4.4,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -895,43 +985,43 @@
       }
     ],
     "capital": {
-      "name": "エディンバラ (スコットランド)",
-      "name_en": "Edinburgh",
-      "is_capital": false,
-      "lat": 55.9533,
-      "lon": -3.1883,
-      "temp": 7.3,
-      "apparent_temp": 5.5,
-      "humidity": 83,
-      "wind_speed": 3.2,
-      "wind_gusts": 7.2,
+      "name": "ロンドン (首都)",
+      "name_en": "London",
+      "is_capital": true,
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "temp": 8.3,
+      "apparent_temp": 5.4,
+      "humidity": 86,
+      "wind_speed": 13.7,
+      "wind_gusts": 29.5,
       "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
           "date": "11/09(月)",
-          "temp_max": 9.0,
-          "temp_min": 4.5,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
+          "temp_max": 10.2,
+          "temp_min": 5.5,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/10(火)",
-          "temp_max": 7.3,
-          "temp_min": 3.3,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 10.4,
+          "temp_min": 5.8,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
+          "precipitation_mm": 6.4
         },
         {
           "date": "11/11(水)",
-          "temp_max": 6.4,
-          "temp_min": 2.2,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 9.7,
+          "temp_min": 8.4,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
+          "precipitation_mm": 10.7
         }
       ],
       "alert": "平常",
@@ -939,7 +1029,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/10 02:39 JST"
+    "timestamp": "11/10 03:29 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -949,7 +1039,7 @@
     "overall_status": "大幅遅延・一部運休",
     "strike": false,
     "monitored_systems_count": 4,
-    "alert_lines_count": 1,
+    "alert_lines_count": 2,
     "alert_lines": [
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -958,6 +1048,14 @@
         "status": "Severe Delays",
         "badge": "🟠 警戒",
         "reason": "Central Line: Severe delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / "
+      },
+      {
+        "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
+        "line": "Mildmay",
+        "mode": "overground",
+        "status": "Severe Delays",
+        "badge": "🟠 警戒",
+        "reason": "Mildmay Line: No service between Richmond and South Acton and SEVERE DELAYS between South Acton and Willesden Junction w"
       }
     ],
     "systems": [
@@ -1004,7 +1102,7 @@
             "status_raw": "Minor Delays",
             "badge": "🟡 注意",
             "code": "minor",
-            "reason": "District Line: Minor delays due to train cancellations. "
+            "reason": "District Line: Severe delays between Richmond and Turnham Green while we deal with a trespasser on the track at Gunnersb"
           },
           {
             "name": "DLR",
@@ -1017,10 +1115,10 @@
           {
             "name": "Elizabeth line",
             "mode": "elizabeth-line",
-            "status_raw": "Minor Delays",
-            "badge": "🟡 注意",
-            "code": "minor",
-            "reason": "Minor delays between Shenfield and Whitechapel due to an earlier customer incident. GOOD SERVICE on the rest of the line"
+            "status_raw": "Good Service",
+            "badge": "🟢 平常",
+            "code": "normal",
+            "reason": ""
           },
           {
             "name": "Hammersmith & City",
@@ -1036,7 +1134,7 @@
             "status_raw": "Minor Delays",
             "badge": "🟡 注意",
             "code": "minor",
-            "reason": "Jubilee Line: Severe delays between Finchley Road and Stanmore due to an earlier faulty train at Canary Wharf. Tickets a"
+            "reason": "Jubilee Line: Minor delays due to an earlier faulty train at Canary Wharf.  "
           },
           {
             "name": "Liberty",
@@ -1065,10 +1163,10 @@
           {
             "name": "Mildmay",
             "mode": "overground",
-            "status_raw": "Good Service",
-            "badge": "🟢 平常",
-            "code": "normal",
-            "reason": ""
+            "status_raw": "Severe Delays",
+            "badge": "🟠 警戒",
+            "code": "warning",
+            "reason": "Mildmay Line: No service between Richmond and South Acton and SEVERE DELAYS between South Acton and Willesden Junction w"
           },
           {
             "name": "Northern",
@@ -1180,7 +1278,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/10 02:39 JST"
+    "timestamp": "11/10 03:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

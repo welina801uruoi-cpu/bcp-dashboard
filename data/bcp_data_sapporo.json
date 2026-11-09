@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 17:37:27",
+  "timestamp": "2026-11-09 18:27:55",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -165,15 +165,15 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "雷注意報",
           "強風注意報",
-          "大雪注意報",
-          "なだれ注意報",
+          "着雪注意報",
+          "雷注意報",
           "低温注意報",
-          "着雪注意報"
+          "波浪注意報",
+          "大雪注意報",
+          "なだれ注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報、大雪注意報、なだれ注意報、低温注意報、着雪注意報",
+        "summary": "強風注意報、着雪注意報、雷注意報、低温注意報、波浪注意報、大雪注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -184,12 +184,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "大雪注意報",
+          "着雪注意報",
           "なだれ注意報",
-          "着雪注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、大雪注意報、なだれ注意報、着雪注意報",
+        "summary": "大雪注意報、着雪注意報、なだれ注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -201,11 +201,11 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "波浪注意報",
+          "低温注意報",
           "乾燥注意報",
-          "低温注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、乾燥注意報、低温注意報",
+        "summary": "強風注意報、低温注意報、乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -216,11 +216,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "低温注意報",
           "着雪注意報",
+          "低温注意報",
           "強風注意報"
         ],
-        "summary": "低温注意報、着雪注意報、強風注意報",
+        "summary": "着雪注意報、低温注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -262,11 +262,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "ほくでんNW: 【停電発生中】北海道で停電情報を検知",
+    "power_msg": "ほくでんNW: 停電情報なし（北海道エリア管内正常）",
     "water_msg": "札幌市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "北海道ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -535,7 +535,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 02:37:12 JST"
+    "last_updated": "2026-11-10 03:27:53 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",

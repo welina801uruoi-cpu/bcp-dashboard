@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-10 02:38:41",
-  "timestamp_local": "2026-11-10 02:38:41",
+  "timestamp": "2026-11-10 03:28:48",
+  "timestamp_local": "2026-11-10 03:28:48",
   "country": {
     "id": "korea",
     "name": "韓国 (大韓民国)",
@@ -431,6 +431,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "仏スーパー冷蔵庫攻撃イラン関与か 革命防衛隊のサイバー部隊特定 外相「相応の報い」(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/8eb4c211846b5fb21b3927a7b44859a9ea7c87df?source=rss",
+        "description": "フランス国内で10月にスーパーマーケットの冷蔵設備がサイバー攻撃の被害にあった事件で、現地メディアはイランの「革命防衛隊」の関与があったと報じました。 フランスでは10月に、数百店に及ぶスーパーマーケ",
+        "pub_date": "11/10 02:50 JST",
+        "is_priority": true
+      },
+      {
         "title": "米2年連続欠席「大国の責任を」　COP31で太平洋諸国が米に温暖化対策を求める(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/14d6540396450f0b00083c5f9ac27a71fed9f833?source=rss",
         "description": "気候変動対策を議論する国連の会議「COP31」で太平洋の島国地域の代表が2年連続で会議を欠席したアメリカに対し、「大国として温暖化の責任を果たすべきだ」と非難しました。 「COP31」は9日、トルコ南",
@@ -562,13 +569,6 @@
         "description": "大きな湯船の中で伸びている脚は、よく見ると作り物だ。北京・王府井のデパートの地下2階にある「清華池珈琲」は、昔の北京の公衆浴場を再現したコンセプトカフェ。【画像】大きな湯船の中で伸びている脚青いタイル",
         "pub_date": "11/09 20:51 JST",
         "is_priority": false
-      },
-      {
-        "title": "COP31開幕 気候変動対策を議論(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/e521f852ecf40d19244b2cabfedc076349660ab4?source=rss",
-        "description": "トルコで気候変動対策を議論する国連の会議「COP31」が開幕しました。 国連の気候変動枠組み条約締約国会議COP31が、日本時間午後5時半ごろ、トルコ南部のアンタルヤで開幕しました。首脳は90人余り、",
-        "pub_date": "11/09 20:36 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -695,21 +695,21 @@
     "default_channel_id": "stream_ytn_live"
   },
   "forex": {
-    "timestamp": "11/10 02:38 JST",
+    "timestamp": "11/10 03:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 157.98,
-      "change": 0.49,
-      "change_pct": 0.31,
+      "rate": 158.02,
+      "change": 0.52,
+      "change_pct": 0.33,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "KRW",
       "name": "韓国ウォン",
       "symbol": "₩",
-      "rate": 0.1175,
+      "rate": 0.1174,
       "change": 0.0014,
       "change_pct": 1.24,
       "direction": "up"
@@ -718,9 +718,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.04,
-      "change": 0.22,
-      "change_pct": 0.12
+      "rate": 177.06,
+      "change": 0.24,
+      "change_pct": 0.14
     }
   },
   "airports": [
@@ -758,19 +758,64 @@
   "weather": {
     "cities": [
       {
+        "name": "ソウル (首都)",
+        "name_en": "Seoul",
+        "is_capital": true,
+        "lat": 37.5665,
+        "lon": 126.978,
+        "temp": 3.0,
+        "apparent_temp": -0.5,
+        "humidity": 46,
+        "wind_speed": 3.3,
+        "wind_gusts": 10.4,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/10(火)",
+            "temp_max": 10.7,
+            "temp_min": 1.7,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/11(水)",
+            "temp_max": 14.8,
+            "temp_min": 4.9,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 16.2,
+            "temp_min": 6.0,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "釜山 (南部港湾都市)",
         "name_en": "Busan",
         "is_capital": false,
         "lat": 35.1796,
         "lon": 129.0756,
-        "temp": 11.2,
-        "apparent_temp": 9.4,
+        "temp": 11.0,
+        "apparent_temp": 9.2,
         "humidity": 82,
-        "wind_speed": 8.9,
-        "wind_gusts": 27.0,
+        "wind_speed": 9.0,
+        "wind_gusts": 25.6,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/10(火)",
@@ -808,11 +853,11 @@
         "is_capital": false,
         "lat": 33.4996,
         "lon": 126.5312,
-        "temp": 11.8,
-        "apparent_temp": 7.3,
+        "temp": 11.6,
+        "apparent_temp": 7.2,
         "humidity": 78,
-        "wind_speed": 27.8,
-        "wind_gusts": 41.4,
+        "wind_speed": 27.0,
+        "wind_gusts": 34.9,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -849,42 +894,42 @@
       }
     ],
     "capital": {
-      "name": "釜山 (南部港湾都市)",
-      "name_en": "Busan",
-      "is_capital": false,
-      "lat": 35.1796,
-      "lon": 129.0756,
-      "temp": 11.2,
-      "apparent_temp": 9.4,
-      "humidity": 82,
-      "wind_speed": 8.9,
-      "wind_gusts": 27.0,
+      "name": "ソウル (首都)",
+      "name_en": "Seoul",
+      "is_capital": true,
+      "lat": 37.5665,
+      "lon": 126.978,
+      "temp": 3.0,
+      "apparent_temp": -0.5,
+      "humidity": 46,
+      "wind_speed": 3.3,
+      "wind_gusts": 10.4,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/10(火)",
-          "temp_max": 16.6,
-          "temp_min": 8.1,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
-        },
-        {
-          "date": "11/11(水)",
-          "temp_max": 16.9,
-          "temp_min": 7.2,
+          "temp_max": 10.7,
+          "temp_min": 1.7,
           "weather_code": 0,
           "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
         },
         {
-          "date": "11/12(木)",
-          "temp_max": 17.3,
-          "temp_min": 8.9,
+          "date": "11/11(水)",
+          "temp_max": 14.8,
+          "temp_min": 4.9,
           "weather_code": 1,
           "weather_label": "🌤️ 晴れ",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/12(木)",
+          "temp_max": 16.2,
+          "temp_min": 6.0,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
           "precipitation_mm": 0.0
         }
       ],
@@ -893,7 +938,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/10 02:38 JST"
+    "timestamp": "11/10 03:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -922,7 +967,7 @@
         "details": "京釜線KTXなど主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/10 02:38 JST"
+    "timestamp": "11/10 03:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-10 02:39:25",
-  "timestamp_local": "2026-11-09 23:09:25",
+  "timestamp": "2026-11-10 03:29:25",
+  "timestamp_local": "2026-11-09 23:59:25",
   "country": {
     "id": "india",
     "name": "インド",
@@ -425,6 +425,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "仏スーパー冷蔵庫攻撃イラン関与か 革命防衛隊のサイバー部隊特定 外相「相応の報い」(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/8eb4c211846b5fb21b3927a7b44859a9ea7c87df?source=rss",
+        "description": "フランス国内で10月にスーパーマーケットの冷蔵設備がサイバー攻撃の被害にあった事件で、現地メディアはイランの「革命防衛隊」の関与があったと報じました。 フランスでは10月に、数百店に及ぶスーパーマーケ",
+        "pub_date": "11/10 02:50 JST",
+        "is_priority": true
+      },
+      {
         "title": "米2年連続欠席「大国の責任を」　COP31で太平洋諸国が米に温暖化対策を求める(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/14d6540396450f0b00083c5f9ac27a71fed9f833?source=rss",
         "description": "気候変動対策を議論する国連の会議「COP31」で太平洋の島国地域の代表が2年連続で会議を欠席したアメリカに対し、「大国として温暖化の責任を果たすべきだ」と非難しました。 「COP31」は9日、トルコ南",
@@ -556,13 +563,6 @@
         "description": "大きな湯船の中で伸びている脚は、よく見ると作り物だ。北京・王府井のデパートの地下2階にある「清華池珈琲」は、昔の北京の公衆浴場を再現したコンセプトカフェ。【画像】大きな湯船の中で伸びている脚青いタイル",
         "pub_date": "11/09 20:51 JST",
         "is_priority": false
-      },
-      {
-        "title": "COP31開幕 気候変動対策を議論(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/e521f852ecf40d19244b2cabfedc076349660ab4?source=rss",
-        "description": "トルコで気候変動対策を議論する国連の会議「COP31」が開幕しました。 国連の気候変動枠組み条約締約国会議COP31が、日本時間午後5時半ごろ、トルコ南部のアンタルヤで開幕しました。首脳は90人余り、",
-        "pub_date": "11/09 20:36 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -687,14 +687,14 @@
     "default_channel_id": "stream_ndtv_live"
   },
   "forex": {
-    "timestamp": "11/10 02:39 JST",
+    "timestamp": "11/10 03:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 157.98,
-      "change": 0.49,
-      "change_pct": 0.31,
+      "rate": 158.02,
+      "change": 0.52,
+      "change_pct": 0.33,
       "direction": "up"
     },
     "local_jpy": {
@@ -710,9 +710,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.04,
-      "change": 0.22,
-      "change_pct": 0.12
+      "rate": 177.06,
+      "change": 0.24,
+      "change_pct": 0.14
     }
   },
   "airports": [
@@ -750,19 +750,109 @@
   "weather": {
     "cities": [
       {
+        "name": "ニューデリー (首都)",
+        "name_en": "New Delhi",
+        "is_capital": true,
+        "lat": 28.6139,
+        "lon": 77.209,
+        "temp": 21.1,
+        "apparent_temp": 22.9,
+        "humidity": 75,
+        "wind_speed": 3.0,
+        "wind_gusts": 4.7,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/09(月)",
+            "temp_max": 28.2,
+            "temp_min": 18.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 27.7,
+            "temp_min": 18.2,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/11(水)",
+            "temp_max": 27.8,
+            "temp_min": 16.9,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ムンバイ (商業都市)",
+        "name_en": "Mumbai",
+        "is_capital": false,
+        "lat": 19.076,
+        "lon": 72.8777,
+        "temp": 28.0,
+        "apparent_temp": 29.2,
+        "humidity": 47,
+        "wind_speed": 4.9,
+        "wind_gusts": 14.0,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/09(月)",
+            "temp_max": 36.0,
+            "temp_min": 25.4,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/10(火)",
+            "temp_max": 35.5,
+            "temp_min": 24.5,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/11(水)",
+            "temp_max": 34.9,
+            "temp_min": 24.2,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ベンガルール (IT拠点)",
         "name_en": "Bengaluru",
         "is_capital": false,
         "lat": 12.9716,
         "lon": 77.5946,
-        "temp": 21.1,
-        "apparent_temp": 22.5,
-        "humidity": 84,
-        "wind_speed": 10.8,
+        "temp": 20.7,
+        "apparent_temp": 22.3,
+        "humidity": 87,
+        "wind_speed": 10.1,
         "wind_gusts": 24.1,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/09(月)",
@@ -796,42 +886,42 @@
       }
     ],
     "capital": {
-      "name": "ベンガルール (IT拠点)",
-      "name_en": "Bengaluru",
-      "is_capital": false,
-      "lat": 12.9716,
-      "lon": 77.5946,
+      "name": "ニューデリー (首都)",
+      "name_en": "New Delhi",
+      "is_capital": true,
+      "lat": 28.6139,
+      "lon": 77.209,
       "temp": 21.1,
-      "apparent_temp": 22.5,
-      "humidity": 84,
-      "wind_speed": 10.8,
-      "wind_gusts": 24.1,
+      "apparent_temp": 22.9,
+      "humidity": 75,
+      "wind_speed": 3.0,
+      "wind_gusts": 4.7,
       "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/09(月)",
-          "temp_max": 28.7,
-          "temp_min": 19.5,
+          "temp_max": 28.2,
+          "temp_min": 18.3,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/10(火)",
-          "temp_max": 29.6,
-          "temp_min": 18.9,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
+          "temp_max": 27.7,
+          "temp_min": 18.2,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/11(水)",
-          "temp_max": 30.1,
-          "temp_min": 18.5,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
+          "temp_max": 27.8,
+          "temp_min": 16.9,
+          "weather_code": 1,
+          "weather_label": "🌤️ 晴れ",
           "precipitation_mm": 0.0
         }
       ],
@@ -840,7 +930,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/10 02:39 JST"
+    "timestamp": "11/10 03:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -869,7 +959,7 @@
         "details": "デリーメトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/10 02:39 JST"
+    "timestamp": "11/10 03:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

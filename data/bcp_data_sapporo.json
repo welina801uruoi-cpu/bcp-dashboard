@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 08:59:04",
+  "timestamp": "2026-11-09 09:51:05",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -62,11 +62,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-09 14:01",
-    "place": "茨城県沖",
-    "magnitude": "4.5",
+    "time": "2026-11-09 18:35",
+    "place": "長野県南部",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-09 18:35",
+        "place": "長野県南部",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-09 14:01",
         "place": "茨城県沖",
@@ -129,13 +136,6 @@
         "shindo": "2",
         "magnitude": "3.5",
         "maxScale": 20
-      },
-      {
-        "time": "2026-11-08 20:47",
-        "place": "熊本県熊本地方",
-        "shindo": "2",
-        "magnitude": "2",
-        "maxScale": 20
       }
     ]
   },
@@ -166,14 +166,14 @@
         "warns": [],
         "notices": [
           "なだれ注意報",
-          "低温注意報",
           "大雪注意報",
-          "雷注意報",
-          "着雪注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "低温注意報",
+          "雷注意報",
+          "着雪注意報"
         ],
-        "summary": "なだれ注意報、低温注意報、大雪注意報、雷注意報、着雪注意報、波浪注意報、強風注意報",
+        "summary": "なだれ注意報、大雪注意報、波浪注意報、強風注意報、低温注意報、雷注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -184,11 +184,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
+          "強風注意報",
           "大雪注意報",
-          "強風注意報"
+          "着雪注意報"
         ],
-        "summary": "着雪注意報、大雪注意報、強風注意報",
+        "summary": "強風注意報、大雪注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -199,12 +199,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "波浪注意報",
           "強風注意報",
-          "低温注意報"
+          "低温注意報",
+          "乾燥注意報",
+          "波浪注意報"
         ],
-        "summary": "乾燥注意報、波浪注意報、強風注意報、低温注意報",
+        "summary": "強風注意報、低温注意報、乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -216,10 +216,10 @@
         "warns": [],
         "notices": [
           "低温注意報",
-          "着雪注意報",
-          "強風注意報"
+          "強風注意報",
+          "着雪注意報"
         ],
-        "summary": "低温注意報、着雪注意報、強風注意報",
+        "summary": "低温注意報、強風注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -261,11 +261,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "ほくでんNW: 【停電発生中】北海道で停電情報を検知",
+    "power_msg": "ほくでんNW: 停電情報なし（北海道エリア管内正常）",
     "water_msg": "札幌市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "北海道ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -305,19 +305,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/09 07:37",
-          "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
+          "time": "11/09 09:45",
+          "text": "START au END メール START 障害 END あってからずっと調子悪いんだけど"
         },
         {
-          "time": "11/09 06:48",
-          "text": "@10714MEEB7 自分のとこだけかもしれませんが離島だと電波1でなんとか繋がる程度ですね。 START Au END に至っては23年の大規模 START..."
+          "time": "11/09 09:32",
+          "text": "なんか START au END で通信 START 障害 END 起きてる！？"
         },
         {
-          "time": "11/09 05:40",
-          "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
+          "time": "11/09 09:19",
+          "text": "あれ、いまの START au END 自転車保険からモンベル自転車保険にのりかえちゃう？ 月1400円→年2000円？？？ ん？ さらに山とか日常とかもカバー..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -354,16 +354,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/09 09:01",
+          "text": "docomo情報漏洩はするし都心5G START 繋がらない END し人の多いディズニーとかも START 繋がらない END し変えたい～～～～～～～～～～..."
+        },
+        {
           "time": "11/09 08:30",
           "text": "この3日ぐらい START au END 全然 START 繋がらない END んだけど"
         },
         {
           "time": "11/09 07:56",
           "text": "いまドコモなんだけど普通に START 繋がらない END ことが多いから次は START au END に戻そ"
-        },
-        {
-          "time": "11/09 07:52",
-          "text": "楽天モバイル楽天ターボどちらも通信途切れて通話もできない パソコンは START 繋がらない END 。 問い合わせに電話しても結局直らない。 楽天が回線を借り..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -411,8 +411,120 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 15,
+    "disaster_count": 19,
     "articles": [
+      {
+        "title": "犯罪被害者国民イベント　実情伝え、理解深めるきっかけに　愛子さまがご臨席(産経新聞)",
+        "summary": "犯罪被害者月間（11月1日～12月1日）に合わせて警察庁は9日、被害の実情や支援などに対する理解を深めるため、「こころをつなぐ国民イベント」を開いた。楠芳伸長官は「社会全体で犯罪被害者の方々を支える機",
+        "pub_date": "11/09 18:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/ed16435cee7cfe874df41dbd502d3095dc34a6ad?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "“12人暮らし”住宅から2遺体　避難したが“忘れ物を取りに…”茨城県で火事(テレビ朝日系（ANN）)",
+        "summary": "■“12人暮らし”住宅から2遺体 茨城県結城市で火事があったのは8日午前2時ごろです。通報（8日午前2時ごろ）「住宅延焼中、2階に2人逃げ遅れあり」 この家の母屋と離れには3世帯12人が住んでいました",
+        "pub_date": "11/09 18:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/1aa36db60bfd3d60c30c1cff083e6acfb8ef6d0c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "エレベーターも水も…寒さも　夜に“突然停電”「初めての状況」(テレビ朝日系（ANN）)",
+        "summary": "■夜に“突然停電”「初めての状況」 マンションのエレベーターも動かず、ライトで足元を照らしながら非常階段を降りる人の姿が…。周辺住民「エレベーターを押してもつかなくて（家に）入れていない状況」「トイレ",
+        "pub_date": "11/09 18:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/5c2e71d01f2dd4924db577169dcaee308be2676a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "アパート“下の階の男”逮捕　“上の部屋の住人”刺したか　北海道・室蘭市(テレビ朝日系（ANN）)",
+        "summary": "■アパート“下の階の男”逮捕 殺人の疑いで送検されたのは無職の在田実容疑者（74）です。被害者は在田容疑者と同じアパートの真上の部屋に住んでいました。近所の人「騒がしいというか、カーテンを閉めていても",
+        "pub_date": "11/09 18:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/0913eb64472498474a68aa6b72508b5d328a302f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "夜中に“大きな揺れ”…どうすれば？　深夜に震度5強　31人けが(テレビ朝日系（ANN）)",
+        "summary": "■深夜に震度5強 31人けが 8日午前1時ごろ、部屋が小刻みに揺れ出します。すると、父親が子どもを守るために覆いかぶさりました。 8日、愛知県知多市で震度5強を観測する地震が発生。深夜とあり、熟睡して",
+        "pub_date": "11/09 18:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/75980c34795c6f7cbb7ff71da69621189f970cde?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "南海トラフ、特段変化なし　愛知震度5強「影響せず」(共同通信)",
+        "summary": "気象庁は9日、有識者でつくる南海トラフ地震評価検討会の定例会を開き、大規模地震発生の可能性は「平常時と比べて相対的に高まったと考えられる特段の変化は観測されていない」との分析結果をまとめた。8日未明に",
+        "pub_date": "11/09 18:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/b60c4ab7749f63abfade1663b73233d4a6aa9b0f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "静岡防災アプリ、障害時も受信可　県の災害情報、人工衛星利用で(共同通信)",
+        "summary": "静岡県は9日、県の防災アプリについて、大規模災害で通信障害が起きた際も、人工衛星とスマホの直接通信により災害関連情報を受信できる運用を始めた。米スペースXの「スターリンク」などの通信サービスを利用して",
+        "pub_date": "11/09 18:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/b8a9e7652c1b09d40b1692a479523c66a84ab7aa?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "台風32号、小笠原諸島へ　暴風、高波に警戒(共同通信)",
+        "summary": "強い台風32号は9日、日本の南海上を北寄りに進んだ。今後、東へ向かい、勢力を維持したまま東京・小笠原諸島に近づく見通し。気象庁は、10日から11日にかけて、暴風や、うねりを伴う高波に警戒を呼びかけた。",
+        "pub_date": "11/09 18:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/27b4a094dc6bd21761ddc26d42469a0ed49fe951?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【情報まとめ】令和8年熊本地震で初の災害関連死　死者39人、いまだ1000人超が避難生活(テレビ朝日系（ANN）)",
+        "summary": "7月28日に最大震度7を観測した熊本地震。地震後に亡くなった90代の女性が「災害関連死」に認定されました。これまでの情報をまとめています。【爆発発生のイオンモール内部の動画】天井が落下、がれきも散乱",
+        "pub_date": "11/09 18:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/60a4b4c82a0730cfde0627b5184ba6f595eb4b1e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "119の日 俳優 要潤さんが1日消防署長に(ABEMA TIMES)",
+        "summary": "きょうからの秋の火災予防運動に合わせて、俳優の要潤さんが一日消防署長に就任しました。【映像】要潤が消火活動を体験する様子 一日消防署長要潤さん「一斉放水始め！」訓練は、東京消防庁の山岳救助隊や地域の消",
+        "pub_date": "11/09 18:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/50be086334b5dc3fc7fd1cac633d0a9a7151d930?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「近くにいるだけで力」　犯罪被害者遺族が講演(共同通信)",
+        "summary": "犯罪被害者月間（今月1日から12月1日）に合わせ、警察庁は9日、関連イベントを東京都内で開いた。登壇した遺族は「そっと近くにいてくれるだけで力になる」など、人とのつながりが大切だと訴えた。天皇、皇后両",
+        "pub_date": "11/09 18:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/235a9f3bb10f2b49502a568d0226fc698b5963ff?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「100％来ると思っていないと」 南海トラフ巨大地震に備え訓練 地元住民や消防･自衛隊が避難経路や備蓄の点検など手順を確認 三重･紀宝町(CBCテレビ)",
+        "summary": "11月8日 三重県紀宝町では、消防や陸上自衛隊なども参加する南海トラフ巨大地震の訓練が行われました。【写真を見る】「100％来ると思っていないと」 南海トラフ巨大地震に備え訓練 地元住民や消防･自衛隊",
+        "pub_date": "11/09 18:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/b4db14444b6ce0c8fedead9204a507a7fe167a67?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛子さま「こころをつなぐ国民イベント」出席(テレビ朝日系（ANN）)",
+        "summary": "愛子さまが警察庁主催のイベントに出席されました。 愛子さまが足を運ばれたのは、犯罪被害者らへの支援の取り組みとして警察庁が主催した「こころをつなぐ国民イベント2026」です。 愛子さまは開会式で、犯罪",
+        "pub_date": "11/09 18:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/026e9ecbb61991f9171db4e64af231411ae87399?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "南海トラフ巨大地震の想定震源域でM5.7 愛知で最大震度5強 関連は?専門家“プレート境界型とは違うメカニズム”(CBCテレビ)",
+        "summary": "今後、30年以内の発生確率が60〜90％程度以上とされる「南海トラフ巨大地震」。11月8日の地震は、その想定震源域の中で発生しました。巨大地震との関連はあるのでしょうか。【写真で見る】ガラスの壁が散乱",
+        "pub_date": "11/09 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/e0613770c9eada6a01e3a73aa2c572420105e5bd?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "温暖化被害抑制へ議論　トルコでCOP31が開幕(共同通信)",
         "summary": "【アンタルヤ共同】国連気候変動枠組み条約第31回締約国会議（COP31）は9日、トルコ南部のアンタルヤで開幕した。国連は産業革命前からの気温上昇が数年以内に世界平均で1.5度を超えるとしており、地球温",
@@ -420,121 +532,9 @@
         "link": "https://news.yahoo.co.jp/articles/dd9d2c6e9cfad03c7c39f2cf9fd34dea51f6c365?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "踏切内にいた女性が普通電車にはねられ死亡 高齢とみられ身元を示す所持品等なし 約1時間半運転見合わせに(東海テレビ)",
-        "summary": "名鉄の踏切内で、高齢とみられる女性が電車にはねられ死亡しました。 警察によりますと、岐阜市加納徳川町で9日午後0時前、名鉄名古屋本線の名鉄岐阜発・須ヶ口行きの普通電車が、踏切内にいた女性をはねました。",
-        "pub_date": "11/09 17:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/5301d416c6fee3235cf90883b8c31b98e4eed206?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "愛知で震度5強は約30年ぶり 名古屋でも震度4 「ここまでの被害は初めて…」 ガラスが粉々に割れた自動車販売店(CBCテレビ)",
-        "summary": "8日未明、最大震度5強の地震が発生しました。休校となる小学校も。8日午前1時過ぎに発生した愛知県東部を震源とするマグニチュード5.7の地震。この地震で愛知県知多市で震度5強、瀬戸市、半田市、刈谷市など",
-        "pub_date": "11/09 17:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/e1480dceb085b7eb82556f22a69aaa922135979a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "湘南新宿ライン　日光駅と新宿駅の間で運転見合わせ　再開は午後6時ごろ予定(テレビ朝日系（ANN）)",
-        "summary": "JR湘南新宿ラインは人身事故の影響で新宿駅より北の区間で運転を見合わせています。 JR東日本によりますと、湘南新宿ラインは9日午後4時15分ごろに宇都宮駅と雀宮駅の間で発生した人身事故の影響で、日光駅",
-        "pub_date": "11/09 17:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/087e757f2d0ffdbd315aae518a9cdb2847498070?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【10日(火)】天気は回復傾向も気温はあまり上がらず　関東や北日本は12月並み　台風32号は小笠原諸島接近へ(ウェザーマップ)",
-        "summary": "きょう9日(月)は広い範囲で雨が降り、気温は平年を下回った所が多くなりました。関東など真冬並みの寒さになった所もありますが、あす10日(火)もこの時季にしては気温が低くなりそうです。ただ、天気はきょう",
-        "pub_date": "11/09 17:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/77046c17034819de532bfd04ca954ba49da05994?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "南海トラフ地震に直接影響の可能性低く…愛知での約30年ぶり“震度5強”に専門家「『大丈夫だ』ではなく早めの備えを」(東海テレビ)",
-        "summary": "8日未明、愛知では約30年ぶりとなる震度5強の地震が発生し、少なくとも19人のケガ人が出ました。【動画で見る】南海トラフ地震に直接影響の可能性低く…愛知での約30年ぶり“震度5強”に専門家「『大丈夫だ",
-        "pub_date": "11/09 17:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/c94db0cb598f8412d99bd9d69e851f6ee7834f13?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【台風情報】「台風32号（チャンパカ）」最大瞬間風速55m/s・中心気圧970hPaまで発達予想…日本の南をゆっくりと北北西へ…今後の進路は?雨と風のシミュレーション【気象庁9日15時45分発表】(RSK山陽放送)",
-        "summary": "■「台風32号」（チャンパカ）気象庁によりますと、強い台風32号は、日本の南をゆっくりと北北西へ進んでいます。【画像でみる】20日にかけての雨と風のシミュレーション2026年11月09日15時45分発",
-        "pub_date": "11/09 17:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/ba06849d0b5065ac4195d51da03c93d7e607cb4f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "松山市中心部で火災　男性遺体発見(テレビ朝日系（ANN）)",
-        "summary": "松山市中心部にほど近い住宅街で火災が発生し、黒煙が激しく立ち上りました。 警察や消防によりますと、9日午前11時半ごろ、松山市で「2階建ての建物から黒い煙が出ている」などと119番通報がありました。",
-        "pub_date": "11/09 17:13 JST",
-        "link": "https://news.yahoo.co.jp/articles/a8d495ed95b9aedcaa72996cb00f5dc49cce4c1f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "日本海溝周辺でひずみの蓄積再開　東日本大震災の震源、同様に固着(共同通信)",
-        "summary": "東日本大震災の震源である日本海溝周辺で、プレート同士がくっつき地震の原因となる「固着」が再開し、ひずみがたまり始めたとの解析結果を、東北大などのチームが9日、発表した。発生後10年ほどで地震前と同様の",
-        "pub_date": "11/09 17:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/3883c157c73c659102adc9c5c6da94469b4ce55c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "台風32号　10日～11日に小笠原諸島接近　暴風・高波警戒　本州などもうねり注意(日本気象協会tenki.jp)",
-        "summary": "台風32号は日本の南の海上で急カーブし、10日(火)の夜から11日(水)の午前中にかけて、強い勢力で小笠原諸島へ接近するおそれがあります。小笠原諸島では雨や風が強まり、大荒れとなるでしょう。暴風や高波",
-        "pub_date": "11/09 17:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/72a5e12631cd51ac67dced5a1850144e0e6c07b7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "愛知で最大震度5強 ガラスの壁が崩れた小学校 週1〜2回利用される多目的スペース 「生活している時間帯に起きなくて良かった」(CBCテレビ)",
-        "summary": "8日未明、愛知県で最大震度5強を観測した地震で、愛知県内では学校施設が一部壊れる被害があり、2つの小学校が臨時休校になりました。【画像を見る】床に散乱したガラスの壁8日午前1時過ぎに発生した、愛知県東",
-        "pub_date": "11/09 17:04 JST",
-        "link": "https://news.yahoo.co.jp/articles/c9a5c1c103dcdbebab3ecfd72fc9b8488734eb20?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "遺族、米兵の交通安全教育を要請　死亡事故で横須賀市に(共同通信)",
-        "summary": "神奈川県横須賀市で2024年、米海軍横須賀基地所属の米兵が乗用車でオートバイに衝突し、運転していた男性＝当時（22）＝を死亡させた事故で、米兵を提訴している男性の遺族が9日、基地の米兵に対する交通安全",
-        "pub_date": "11/09 16:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/7bd180742a0819567127eaf9fd0a7887e96d32db?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "宇都宮線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "16:14頃、雀宮～宇都宮駅間で発生した人身事故の影響で、宇都宮線は小金井～宇都宮駅間の運転を見合わせています。振替輸送を行っています。",
-        "pub_date": "11/09 16:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/ad19c2839b5c6d78365b47b8409590550ce0cae9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本・八代市の90代女性を7月の熊本地震での災害関連死に初認定　死者は39人に(テレビ朝日系（ANN）)",
-        "summary": "7月の熊本地震後に亡くなった90代の女性が「災害関連死」に認定されました。この地震による災害関連死の認定は初めてです。熊本県八代市によりますと、女性は地震発生時に転倒して硬膜下血腫による意識障害を発症",
-        "pub_date": "11/09 15:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/751708a2ef04f898b6a6ecb06c44f9c1330eff7f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "津波巡り欧州のビール物議 謝罪",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/09 17:13 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6601926?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-09 17:58:48 JST"
+    "last_updated": "2026-11-09 18:50:47 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -555,10 +555,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "-pmkvRN-6VQ",
+        "video_id": "nqKwqcBMqNM",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/-pmkvRN-6VQ?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=-pmkvRN-6VQ"
+        "embed_url": "https://www.youtube.com/embed/nqKwqcBMqNM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=nqKwqcBMqNM"
       },
       {
         "id": "stream_tbsnews",
@@ -566,10 +566,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "yN2SzKwjLlc",
+        "video_id": "ArLX681QYv8",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/yN2SzKwjLlc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=yN2SzKwjLlc"
+        "embed_url": "https://www.youtube.com/embed/ArLX681QYv8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=ArLX681QYv8"
       },
       {
         "id": "stream_ntvnews",
@@ -577,10 +577,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "nUd6b4ihB1Y",
+        "video_id": "yR4hKDEvqfA",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/nUd6b4ihB1Y?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=nUd6b4ihB1Y"
+        "embed_url": "https://www.youtube.com/embed/yR4hKDEvqfA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=yR4hKDEvqfA"
       },
       {
         "id": "stream_annnews",
@@ -588,10 +588,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "AKnB9N1w0g8",
+        "video_id": "bzQlbdnQDj8",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/AKnB9N1w0g8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=AKnB9N1w0g8"
+        "embed_url": "https://www.youtube.com/embed/bzQlbdnQDj8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=bzQlbdnQDj8"
       },
       {
         "id": "stream_fnnnews",
@@ -599,10 +599,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "6OdH9G9KbYg",
+        "video_id": "ddv7f-eTzws",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/6OdH9G9KbYg?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=6OdH9G9KbYg"
+        "embed_url": "https://www.youtube.com/embed/ddv7f-eTzws?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=ddv7f-eTzws"
       }
     ],
     "cameras": [

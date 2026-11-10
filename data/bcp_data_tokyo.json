@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 08:34:53",
+  "timestamp": "2026-11-10 09:30:15",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -202,7 +202,7 @@
   },
   "weather": {
     "status": "ALERT",
-    "summary": "【警報発表: 1地域】東京（波浪警報、暴風警報） ／ 他4地域で注意報",
+    "summary": "【警報発表: 1地域】東京（暴風警報、波浪警報） ／ 他4地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 1,
     "notice_count": 4,
@@ -215,15 +215,15 @@
         "status": "ALERT",
         "emg_warns": [],
         "warns": [
-          "波浪警報",
-          "暴風警報"
+          "暴風警報",
+          "波浪警報"
         ],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "波浪警報、暴風警報、雷注意報、波浪注意報、強風注意報",
+        "summary": "暴風警報、波浪警報、波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -269,10 +269,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、波浪注意報",
+        "summary": "波浪注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -399,7 +399,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東京電力PG: 【停電発生中】千葉・神奈川で停電情報を検知",
+    "power_msg": "東京電力PG: 【停電発生中】千葉で停電情報を検知",
     "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東京ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -439,8 +439,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/10 09:20",
+          "text": "はるか昔、ボーダフォンもしくはソフトバンクだとイジメの対象だったのだ。 親の支援を振り切って憧れのドコモに変えて、はや数十年…ソフトバンクに傾くキモチ。 STA..."
+        },
         {
           "time": "11/10 07:29",
           "text": "START au障害 END ある？ povoメインとサブ両方繋がらん"
@@ -448,10 +452,6 @@
         {
           "time": "11/10 00:19",
           "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方もOK🙆‍♂️ eSIM＋eKYCで最短即日⏱️ 停電・通..."
-        },
-        {
-          "time": "11/09 23:46",
-          "text": "なんかソフトバンクから START au END に電話が繋がらない。「おかけになった電話番号は電波の届かない所か〜」ってなるんよ。 どちらか通信 START ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -547,6 +547,54 @@
     "disaster_count": 8,
     "articles": [
       {
+        "title": "大雨から園児を救った“顔の見える関係” 交流は10年前から 名古屋を襲った記録的豪雨から学ぶ備え(CBCテレビ)",
+        "summary": "災害時に重要となる日頃からの備え。ことし9月に名古屋市を襲った観測史上1位となる1時間に104.5ミリの雨。道路が冠水する中、保育園の園児たちが避難した先は「顔の見える」隣の会社でした。【写真を見る】",
+        "pub_date": "11/10 18:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/e8a4baf8bd5831285460cfd10533f1d0bc77c133?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "熊本の災害関連死、5人中4人は暑さ影響か(共同通信)",
+        "summary": "熊本県で地震による災害関連死として新たに認定された5人のうち、4人が熱中症や空調停止に伴う体調悪化など、厳しい暑さが死亡につながったとみられることが、各自治体への取材で分かった。",
+        "pub_date": "11/10 18:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/7584fdd91e64092fc3252e27f41a7d3f91258b57?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "特殊詐欺被害防止へ独自のパトロール用音源　奈良県警、協力の女子短大生を特別広報官に(産経新聞)",
+        "summary": "奈良県内で特殊詐欺被害が相次ぎ「緊急事態宣言」が発令される中、奈良県警西和署は被害の防止に向け、10月に同署管内で発足させた特殊詐欺を止める「＃みんとめ」啓発隊の特別広報官に、アナウンス技術に実績があ",
+        "pub_date": "11/10 18:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/1f5e7312fbfc929c49b3a5c68f65fcb868516282?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "台風32号　今日10日夜遅く～明日未明　小笠原諸島に最接近　猛烈な風に厳重警戒(日本気象協会tenki.jp)",
+        "summary": "台風32号は今日10日(火)、非常に強い勢力に発達しました。今夜遅くから明日11日(水)未明にかけて、小笠原諸島に最も接近する見込みです。小笠原諸島では今夜、最大瞬間風速45メートルの猛烈な風が吹くお",
+        "pub_date": "11/10 18:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/b6cbdc2af8498031ca123ea306c482a320e73320?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "CBC永岡歩アナウンサーが1日警察署長に 午後5時〜7時は“魔の時間” 反射材付きバッグなど配布し交通事故防止呼びかけ(CBCテレビ)",
+        "summary": "CBCテレビの永岡歩アナウンサーが、名古屋・昭和警察署の1日警察署長に就任し、交通事故防止などを呼びかけました。【写真を見る】CBC永岡歩アナウンサーが1日警察署長に 午後5時〜7時は“魔の時間” 反",
+        "pub_date": "11/10 17:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/9bc4472ea68263cf46deb508d70daae55e8b2ecb?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "阪急曽根駅で高齢男性はねられ死亡、宝塚線で一時運転見合わせ、1万8600人に影響(産経新聞)",
+        "summary": "3日午後3時15分ごろ、大阪府豊中市の阪急電鉄宝塚線曽根駅で、男性が宝塚発大阪梅田行き急行電車にはねられ死亡した。大阪府警豊中署によると、男性は80代とみられ、付近の防犯カメラには男性がホームから線路",
+        "pub_date": "11/10 17:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/862b604df69d039de36d563ccb476c1088596063?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "宗教施設の避難所活用促す　文化庁通知、国内18万法人(共同通信)",
         "summary": "災害時の避難所として寺社や教会などの宗教施設を活用しようと、文化庁は10日までに、全国の宗教法人と自治体に支援協定の締結を検討するよう求める通知を出した。国内に約18万ある宗教法人の施設を有効利用して",
         "pub_date": "11/10 17:31 JST",
@@ -563,111 +611,63 @@
         "is_disaster": true
       },
       {
-        "title": "《はなわ“SAGA禁止”だけじゃない》佐賀県知事のNGリストに入った「才女タレント」＆「ネトフリ俳優」とは(文春オンライン)",
-        "summary": "「テレビやイベントで気に入らない発言をする佐賀出身のタレントを、知事は続々とNGにしています。まるで王様気取りで、対応を疑問視する声も庁内では上がっている。被害者は、はなわさんだけではありません」（佐",
-        "pub_date": "11/10 17:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/e276fa27ca001b5ce33f2726e8b90b8960c58fb7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "突然の激しい揺れに猫カフェの猫たちがパニックで騒然　愛知で最大震度5強の地震　(メ〜テレ（名古屋テレビ）)",
-        "summary": "地震の怖さに、改めて気づいた人も多いのではないでしょうか。家族や自分の身を守る「備え」への意識が高まっています。 周囲を警戒するような動きを見せる猫たち。名古屋市西区の「保護猫カフェ」で撮影された映像",
-        "pub_date": "11/10 17:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/2f7f56b24a4527c5df169ebb736a3010debb2d2d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "阪急宝塚本線で人身事故 運転再開(レスキューナウニュース)",
-        "summary": "曽根駅で発生した人身事故の影響で、阪急宝塚本線は大阪梅田～豊中駅間の運転を見合わせていましたが、16:43頃、運転を再開しました。なお、ダイヤが乱れています。",
-        "pub_date": "11/10 16:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/dbd0b96a3af480f584c2c6876f0223ab7b3f1a47?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "政府、ブロッキングの是非議論へ　サイバー攻撃、二次被害抑止で(共同通信)",
-        "summary": "総務省は10日、サイバー攻撃で漏えいした個人情報の拡散といった二次被害の抑止策を議論するため、作業部会を新設すると発表した。通信事業者が脅迫サイトへの接続を強制的に遮断する「ブロッキング」の実施の是非",
-        "pub_date": "11/10 16:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/1331fd25b0305835078ef97bd5e70d2975fd854f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "阪急宝塚線の曽根駅で人身事故、大阪梅田―豊中間で運転見合わせ(産経新聞)",
-        "summary": "阪急電鉄によると、10日午後3時15分ごろ、大阪府豊中市の宝塚線曽根駅で人身事故が発生した。この影響で大阪梅田－豊中間で運転を見合わせている。",
-        "pub_date": "11/10 16:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/66d4ca3c44c7b3e67748cca8539c71fb49077a6f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "26年の熊本地震 関連死新たに5人",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/10 16:11 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602047?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "【独自】万博のEVバス補助金、返還半分　大阪メトロ、国と府・市に(共同通信)",
-        "summary": "大阪メトロが大阪・関西万博で来場者輸送に使用し、車両トラブルが相次いだ電気自動車（EV）バスを巡り、国や大阪府・市から受け取った補助金約58億5千万円のうち、半分に当たる約28億8千万円が返還されない",
-        "pub_date": "11/10 17:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/a18b456d59769b9814235afaf14eb4cd55797c11?source=rss",
+        "title": "みんながイエスと言う必要はないと小渕氏(共同通信)",
+        "summary": "自民党の小渕元選対委員長は消費税減税関連法案を巡り「みんなが同じ方向を向いてイエスと言わなくてもいい。財源が必要だと言うことが必要だ」と記者団に語った。",
+        "pub_date": "11/10 18:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/d50d135875beb20290f3744e12d201411d446ab8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "小笠原諸島は10日（火）暴風に厳重警戒　11日（水）は関東の天気も回復　12日（木）は広く小春日和に(ウェザーマップ)",
-        "summary": "きょう（火）も北・東日本にかけては寒い一日となり、北海道の内陸は昼間でも0℃に届かない地点がありました。東京都心の最高気温は10.7℃と、4日前に夏日を観測したとは思えない空気の冷たさでした。あす（水",
-        "pub_date": "11/10 17:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/65abe093fa6bf6ff9bca7ad707c40b2779ce47d4?source=rss",
+        "title": "消費減税関連法案めぐり 自民･青木参院幹事長「参院で棄権はないと確信」(テレビ朝日系（ANN）)",
+        "summary": "石破前総理大臣ら4人が消費減税関連法案の衆議院本会議での採決を棄権したことをめぐり、自民党の青木参院幹事長は少数与党の参院では「棄権者は出ないと確信している」と強調しました。自民・青木参院幹事長「私は",
+        "pub_date": "11/10 18:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/cc29b94eb6df90158bc5cddae2d17975f4b3ac22?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「人間が向き合う『超越的存在』　AIとは『新しい自然』である」東浩紀(AERA DIGITAL)",
-        "summary": "批評家の東浩紀さんの「AERA」巻頭エッセイ「eyes」をお届けします。時事問題に、批評的視点からアプローチします。【写真特集】大物がズラリ！AERA表紙はこちら＊ ＊ ＊ AIをめぐる議論が新展開を",
-        "pub_date": "11/10 17:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/6b2e7a7b2bac6f2844eedf52accbfcaea4b1fd63?source=rss",
+        "title": "SNS対策、実効性向上を　与野党、選挙偽情報で(共同通信)",
+        "summary": "与野党の選挙運動に関する協議会は10日、交流サイト（SNS）対策の改正法に基づく指針案の公表を受け、会合を開いた。指針案は選挙の公正を害する恐れがある偽情報の影響を減らすため、閲覧数に応じて投稿者が報",
+        "pub_date": "11/10 18:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/cca0fc0b98728a0f1131eccf3b9d7714e64667d0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "小渕氏が税調副会長を辞任へ　事実上の更迭か　消費減税法案の採決棄権を受け(テレビ朝日系（ANN）)",
-        "summary": "消費減税関連法案の採決を棄権し、戒告処分を受けた自民党の小渕元経済産業大臣らが党の税制調査会での役職を辞任することが分かりました。事実上の更迭とみられます。 鈴木幹事長と萩生田幹事長代行は10日午前、",
-        "pub_date": "11/10 17:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/eb326622769c84855205e0ef456beb2f93a2116a?source=rss",
+        "title": "警備員妻「死刑望まず」　富山交番襲撃差し戻し審(共同通信)",
+        "summary": "富山市の交番で2018年に警察官が刺殺され、奪われた拳銃で警備員中村信一さん＝当時（68）＝が射殺された事件で、強盗殺人罪などに問われた元自衛官島津慧大被告（30）の差し戻し裁判員裁判の公判が10日、",
+        "pub_date": "11/10 18:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/bf8e36a99aecfc03b02f3f6d87dd21cec8e4143b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "前澤友作さん、メタ社への1円訴訟で敗訴…フェイスブック詐欺広告のパブリシティ権侵害は認定　東京地裁(弁護士ドットコムニュース)",
-        "summary": "自分の顔や名前を勝手に使った詐欺広告が出回っている。それなのに広告が掲載されたプラットフォーム側には責任がないのか──。前澤さんの言葉「「彼らの行為が違法か合法かはっきりさせたい」」実業家の前澤友作さ",
-        "pub_date": "11/10 17:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/42b0301ccec734c8259062000420e4be59021b7e?source=rss",
+        "title": "保存データの詳細は明らかにされず…空自の40代幹部自衛官が部隊の共有PCを紛失 減給1カ月の懲戒処分(東海テレビ)",
+        "summary": "航空自衛隊岐阜基地は10日、部隊のパソコンを紛失した幹部自衛官を懲戒処分としました。 岐阜基地によりますと、飛行開発実験団に所属する40代の2等空佐は、去年11月25日、管理を担当していた部隊の共有の",
+        "pub_date": "11/10 18:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/7cdb5bf8c7383ebca68dc9beacd494ad29c0a70c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "CBCテレビのショートドラマ「パレード界隈」が“優秀”受賞 CBCラジオは報道など3部門で“優秀”を受賞 日本民間放送連盟賞(CBCテレビ)",
-        "summary": "CBCテレビとCBCラジオの番組が、日本民間放送連盟賞で「優秀」を受賞しました。11月10日、日本民間放送連盟賞の表彰式が東京都内で行われ、CBCテレビは『パレード界隈』がテレビドラマ部門で「優秀」を",
-        "pub_date": "11/10 17:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/70356a0541a205efac6e2002265cc226afca86ee?source=rss",
+        "title": "都構想の制度案、全容固まる　特別区設置日は令和13年1月1日　大阪府市の法定協議会(産経新聞)",
+        "summary": "大阪市を廃止して複数の特別区に再編する「大阪都構想」を巡り、制度設計を担う大阪府市の法定協議会の第13回会合が10日、開かれた。特別区の設置日を令和13年1月1日とするほか、移行後の区議選は現在の24",
+        "pub_date": "11/10 18:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/ee4ec49143c7b1a960526066209595c9e30396dc?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ダルメシアンが通行人にかみつきケガ　飼い主の男（72）を逮捕　以前から警告も(テレビ朝日系（ANN）)",
-        "summary": "飼っていたダルメシアンを適切に管理せず、通行人の80代女性にけがをさせたとして、72歳の飼い主の男が逮捕されました。 濱名眞人容疑者（72）は7月に千葉県御宿町の自宅で飼っていたダルメシアン4匹を適切",
-        "pub_date": "11/10 17:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/047f834cb4fcd8f164b96a88bfd5d86ac1b3da4f?source=rss",
+        "title": "養子届偽造疑い男3人逮捕　東京・赤坂の土地狙ったか(共同通信)",
+        "summary": "東京・赤坂に住む男性（93）との養子縁組届を偽造したなどとして、警視庁赤坂署が、有印私文書偽造・同行使の疑いなどで、不動産会社役員宇佐美恭正容疑者（79）＝東京都中央区＝ら男3人を逮捕していたことが1",
+        "pub_date": "11/10 18:17 JST",
+        "link": "https://news.yahoo.co.jp/articles/03104d026835b7f23e491ee21369a1f2b3ffa4b3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 17:34:38 JST"
+    "last_updated": "2026-11-10 18:30:00 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -699,10 +699,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "bU5VuCH3FQ8",
+        "video_id": "pqula4ZuTcI",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/bU5VuCH3FQ8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=bU5VuCH3FQ8"
+        "embed_url": "https://www.youtube.com/embed/pqula4ZuTcI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=pqula4ZuTcI"
       },
       {
         "id": "stream_ntvnews",
@@ -710,10 +710,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "wDoxxnbs7Zw",
+        "video_id": "moStw21u9ig",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/wDoxxnbs7Zw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=wDoxxnbs7Zw"
+        "embed_url": "https://www.youtube.com/embed/moStw21u9ig?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=moStw21u9ig"
       },
       {
         "id": "stream_annnews",
@@ -721,10 +721,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "ih0ue_Zc-RE",
+        "video_id": "t28uoyHqBq8",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/ih0ue_Zc-RE?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=ih0ue_Zc-RE"
+        "embed_url": "https://www.youtube.com/embed/t28uoyHqBq8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=t28uoyHqBq8"
       },
       {
         "id": "stream_fnnnews",
@@ -732,10 +732,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "7H7vJngY8ng",
+        "video_id": "cQKjabsU-OA",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/7H7vJngY8ng?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=7H7vJngY8ng"
+        "embed_url": "https://www.youtube.com/embed/cQKjabsU-OA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=cQKjabsU-OA"
       }
     ],
     "cameras": [

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 06:17:44",
+  "timestamp": "2026-11-10 07:40:03",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -90,11 +90,25 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-10 14:20",
-    "place": "茨城県沖",
-    "magnitude": "4.5",
+    "time": "2026-11-10 16:14",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-10 16:14",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-10 15:36",
+        "place": "房総半島南方沖",
+        "shindo": "2",
+        "magnitude": "4.5",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-10 14:20",
         "place": "茨城県沖",
@@ -150,20 +164,6 @@
         "shindo": "3",
         "magnitude": "-",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-09 13:52",
-        "place": "震源情報なし",
-        "shindo": "3",
-        "magnitude": "-",
-        "maxScale": 30
-      },
-      {
-        "time": "2026-11-09 05:16",
-        "place": "宮城県沖",
-        "shindo": "3",
-        "magnitude": "4.5",
-        "maxScale": 30
       }
     ]
   },
@@ -207,11 +207,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "霜注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、霜注意報、波浪注意報",
+        "summary": "霜注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -222,11 +222,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "霜注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、霜注意報、波浪注意報",
+        "summary": "霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/45/"
       },
       {
@@ -237,11 +236,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "霜注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、霜注意報、波浪注意報",
+        "summary": "霜注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -252,10 +251,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "霜注意報"
+          "霜注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、霜注意報",
+        "summary": "霜注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -266,11 +265,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
+          "波浪注意報",
           "強風注意報",
-          "波浪注意報"
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -281,10 +280,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       }
     ]
@@ -392,8 +390,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/10 07:29",
+          "text": "START au障害 END ある？ povoメインとサブ両方繋がらん"
+        },
         {
           "time": "11/10 00:19",
           "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方もOK🙆‍♂️ eSIM＋eKYCで最短即日⏱️ 停電・通..."
@@ -401,10 +403,6 @@
         {
           "time": "11/09 23:46",
           "text": "なんかソフトバンクから START au END に電話が繋がらない。「おかけになった電話番号は電波の届かない所か〜」ってなるんよ。 どちらか通信 START ..."
-        },
-        {
-          "time": "11/09 21:18",
-          "text": "@10714MEEB7 START au END って常時通信 START 障害 END のイメージ"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -438,7 +436,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/10 05:27",
@@ -461,8 +459,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/10 07:29",
+          "text": "au START 障害 END ある？ START povo END メインとサブ両方繋がらん"
+        },
         {
           "time": "11/10 03:54",
           "text": "たまに通信 START 障害 END とか見かけるからサブで START povo END のデータ専用eSIMとか入れればいいんだろうけど…スマホが非対応。 ..."
@@ -470,10 +472,6 @@
         {
           "time": "11/10 00:19",
           "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方もOK🙆‍♂️ eSIM＋eKYCで最短即日⏱️ 停電・通..."
-        },
-        {
-          "time": "11/09 18:40",
-          "text": "デュアルSIMで失敗しない考え方は、主回線と副回線の役割を分けること。 番号と本人確認は主回線に残し、副回線は START povo END やIIJmio e..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -483,21 +481,85 @@
     "status": "NORMAL",
     "office": "福岡管区気象台",
     "target_area": "福岡県",
-    "report_time": "11/10 10:31",
+    "report_time": "11/10 16:32",
     "headline": "",
-    "text": "　福岡県は、高気圧に覆われて晴れとなっています。\n\n　１０日は、高気圧に覆われて晴れとなるでしょう。\n\n　１１日は、寒気の影響により曇りとなる所がありますが、高気圧に覆われておおむね晴れとなるでしょう。",
+    "text": "　福岡県は、高気圧に覆われておおむね晴れとなっています。\n\n　１０日は、高気圧に覆われておおむね晴れとなりますが、寒気の影響により夜遅くは曇りとなるでしょう。\n\n\n　１１日は、寒気の影響により曇りとなる所がありますが、高気圧に覆われておおむね晴れとなるでしょう。",
     "paragraphs": [
-      "福岡県は、高気圧に覆われて晴れとなっています。",
-      "１０日は、高気圧に覆われて晴れとなるでしょう。",
+      "福岡県は、高気圧に覆われておおむね晴れとなっています。",
+      "１０日は、高気圧に覆われておおむね晴れとなりますが、寒気の影響により夜遅くは曇りとなるでしょう。",
       "１１日は、寒気の影響により曇りとなる所がありますが、高気圧に覆われておおむね晴れとなるでしょう。"
     ],
-    "summary": "福岡県は、高気圧に覆われて晴れとなっています。...",
+    "summary": "福岡県は、高気圧に覆われておおむね晴れとなっています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=400000"
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 12,
     "articles": [
+      {
+        "title": "阪急宝塚線の曽根駅で人身事故、大阪梅田―豊中間で運転見合わせ(産経新聞)",
+        "summary": "阪急電鉄によると、10日午後3時15分ごろ、大阪府豊中市の宝塚線曽根駅で人身事故が発生した。この影響で大阪梅田－豊中間で運転を見合わせている。",
+        "pub_date": "11/10 16:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/66d4ca3c44c7b3e67748cca8539c71fb49077a6f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "熊本地震関連死新たに5人　犠牲43人に(共同通信)",
+        "summary": "熊本県氷川町、嘉島町、芦北町は10日、7月の熊本地震による災害関連死として、計5人を認定したと発表した。9日に認定された八代市の1人に加え、正式認定された関連死は計6人となった。地震による犠牲者は、関",
+        "pub_date": "11/10 15:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/57ef423f2b6634e8ca2c30e6ce657dd2159c1474?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "80代女性路上で流血　搬送後に死亡　衣服に“衝突痕”　ひき逃げ事件で捜査　茨城(テレビ朝日系（ANN）)",
+        "summary": "茨城県常総市の県道で80代の女性が頭から血を流して倒れているのが見つかり、その後、死亡しました。警察はひき逃げ事件として捜査しています。 9日午後5時すぎ、常総市水海道高野町の県道で「高齢女性がアパー",
+        "pub_date": "11/10 15:46 JST",
+        "link": "https://news.yahoo.co.jp/articles/2f30eb46a5b7f883d1d93332567117c9ecee2660?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "アクアラインマラソン　台風で延期・来年開催へ「房総地域を元気づけるような大会に」(テレビ朝日系（ANN）)",
+        "summary": "台風25号の影響によって開催が見送られていた今年の「ちばアクアラインマラソン」について、大会の実行委員会は来年11月への延期を正式に決めました。大会実行委員会 熊谷俊人県知事「千葉県の復興のある種、象",
+        "pub_date": "11/10 15:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/12099c8e35d23db5f8e4ce0a8f33707f8e74c906?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "80代女性 路上で流血　搬送後に死亡　衣服に”衝突痕”　ひき逃げ事件で警察捜査(テレビ朝日系（ANN）)",
+        "summary": "茨城県・常総市の県道で、80代の女性が頭から血を流して倒れているのが見つかりその後、死亡しました。警察はひき逃げ事件として捜査しています。9日午後5時すぎ常総市水海道高野町の県道で「高齢女性がアパート",
+        "pub_date": "11/10 15:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/e46b924a6df32f18e714ea48457e7823f695fe61?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "熊本地震の死者43人に(共同通信)",
+        "summary": "熊本県は10日、7月の熊本地震による死者が4人増え、計43人になったと発表した。3町が新たに災害関連死に認定した5人のうち、1人は既に関連死の疑いがあるとして死者数に含んでいたため、増加は4人となった",
+        "pub_date": "11/10 15:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/b32dc96b3c664664980cea2b14704d7c149e01e9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "阪急宝塚本線で人身事故 一部運転見合わせ(レスキューナウニュース)",
+        "summary": "15:15頃、曽根駅で発生した人身事故の影響で、阪急宝塚本線は大阪梅田～豊中駅間の運転を見合わせています。振替輸送を行っています。",
+        "pub_date": "11/10 15:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/eb63df6234c54297036dd5b6353c200652183579?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "7月熊本地震で5人を災害関連死に認定(共同通信)",
+        "summary": "熊本県の氷川町、嘉島町、芦北町は10日、7月の熊本地震による災害関連死として、計5人を認定したと発表した。9日に認定された八代市の1人に加え、正式認定された関連死は計6人となった。",
+        "pub_date": "11/10 15:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/0ffc4d2da5a8dc3a160a54c7584e40421ad39cc0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "「内水氾濫」対策で新基準 “1時間100mm雨量”にも(ABEMA TIMES)",
         "summary": "千葉豪雨などで発生した「内水氾濫」を防ぐため、国土交通省は、1時間あたり100ミリ程度の雨量でも耐えられるよう、自治体が取るべき対策の新たな基準を取りまとめ公表しました。【映像】「内水氾濫」が起きた千",
@@ -515,111 +577,47 @@
         "is_disaster": true
       },
       {
-        "title": "被害者情報漏えい「遺憾」　総務相、16年度以降百件超(共同通信)",
-        "summary": "藤井比早之総務相は10日の閣議後記者会見で、ドメスティックバイオレンスやストーカーなどの被害者情報を、全国の自治体が誤って加害者側に漏えいした事案が2016年度から昨年度までに119件あったと認め「緊",
-        "pub_date": "11/10 14:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/d8a93086f44a1a9952fa42b5f537031a3571e6f4?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "徳島・阿波市長ら逮捕 事故修理費を詐取か(ABEMA TIMES)",
-        "summary": "自身が起こした交通事故に伴う修理費用を市の工事代金に上乗せしてだまし取った疑いで、徳島県阿波市の現職市長が逮捕されました。【映像】逮捕された阿波市長・町田寿人容疑者 詐欺の疑いで逮捕されたのは、阿波市",
-        "pub_date": "11/10 14:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/eb0ef66159c051d36b0aa36476058b2ff6f19a93?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "居座り強烈寒気が猛威　吹雪に凍結…道路状況の悪化で事故相次ぐ　北海道(テレビ朝日系（ANN）)",
-        "summary": "北日本を中心に寒気が居座って、東京は10日も12月並みの寒さとなります。そして、今シーズン一番の積雪となっている北海道では、スリップ事故が多発するなど生活にも影響が出てきています。【画像】田んぼ脇の溝",
-        "pub_date": "11/10 14:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/0f91c84174c990bcc6066a843b2d7ebb261f185e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "マラソン大会は来年11月に延期　ちばアクアライン、台風25号で(共同通信)",
-        "summary": "9月の台風25号の影響で今月の開催を見合わせた「ちばアクアラインマラソン2026」の実行委員会は10日、千葉市内で総会を開き、大会を来年11月21日に延期して開催すると決めた。マラソンは2年ごとに実施",
-        "pub_date": "11/10 14:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/b507d1770f3f5dc054b616da0f88ed93c0278ce1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "匿流スマホ解析、衆院通過　計画察知し、被害防止へ(共同通信)",
-        "summary": "秘匿性の高い通信アプリを悪用する匿名・流動型犯罪グループ（匿流）対策として、スマートフォン内の情報を遠隔で解析することを可能とする警察官職務執行法改正案が10日の衆院本会議で賛成多数により可決され、衆",
-        "pub_date": "11/10 14:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/289351e7536693f7b9a26e599828c69867cd98a7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【速報】「現金が至急必要になった」息子装い70代女性から100万円詐取の罪　“リクルーター役”の建設作業員の男ら逮捕・起訴　「荷物運ぶだけの仕事ある」などと“受け子”を勧誘　計16件の“特殊詐欺”などに関与か(関西テレビ)",
-        "summary": "大阪府内の70代の女性に息子を名乗ってうその電話をかけ、現金をだまし取ったなどとして、32歳の建設作業員の男が逮捕・起訴されました。男は被害者から現金を受け取る「受け子」のリクルーター役だったとみられ",
-        "pub_date": "11/10 14:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/df1393ce3226e66fd1472d5c296377501127cf8b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【速報】徳島・阿波市長ら3人逮捕 事故修理費350万円を詐取か(テレビ朝日系（ANN）)",
-        "summary": "自身が起こした交通事故に伴う修理費用を市の工事代金に上乗せしてだまし取った疑いで、徳島県阿波市の現職市長が逮捕されました。 詐欺の疑いで逮捕されたのは、阿波市長の町田寿人容疑者（69）ら3人です。 警",
-        "pub_date": "11/10 14:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/dbd61025a4f5a04f6023fe547318e30ddf2053e4?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「勾留中の生活はノンストレス」池袋寿司店員殺害事件　被告の身勝手発言に被害者遺族　裁判で憤り訴え(FRIDAY)",
-        "summary": "東京・池袋にある寿司店で同僚のAさん(当時32)を包丁で切りつけ殺害したとして、殺人の罪に問われている石岡雅人被告(57)の裁判員裁判が11月4日、東京地裁で開かれた。【画像】ボサボサの頭髪に無精ひげ",
-        "pub_date": "11/10 14:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/140b9e07a692324253cda67f7da9669eaf22f207?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "内水氾濫の被害軽減へ 国が対応策",
+        "title": "26年の熊本地震 関連死新たに5人",
         "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/10 12:49 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602029?source=rss",
+        "pub_date": "11/10 16:11 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6602047?source=rss",
         "category": "主要速報",
         "is_disaster": true
       },
       {
-        "title": "「特定の国の者を不許可、でない」小野田紀美氏、中国人による重要土地取得巡る答弁を説明(産経新聞)",
-        "summary": "小野田紀美経済安全保障担当相は10日の記者会見で、安全保障上重要な施設周辺の土地取引規制を強化する土地利用規制法改正案で、外国政府や外国軍関係者らへの所有権移転は原則として認めないとする内容に関する自",
-        "pub_date": "11/10 15:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/724ff8fcbd651dd815af54c5913369a4f96b8624?source=rss",
+        "title": "阿波市長逮捕 事故修理費詐取疑い",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/10 16:35 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6602049?source=rss",
+        "category": "主要速報",
+        "is_disaster": true
+      },
+      {
+        "title": "石破前総理の“処分”は「総裁としての実績がない」から？　消費税“減税”法案の採決での退席で自民党が異例の“総裁経験者”の処分に踏み切った背景を政治ジャーナリスト・岩田氏が独自取材で指摘(関西テレビ)",
+        "summary": "自民党は、衆議院本会議で消費税減税法案の採決を棄権した石破前総理ら4人に対し、党の処分で2番目に軽い「戒告処分」としました。与党内からは「総裁経験者初の戒告処分としたことに意味がある」といった声が上が",
+        "pub_date": "11/10 16:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/0339ce4216b3f8cc43237de96f97c3ccf1d8adb3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "中国大使館侵入、元3尉に拘禁1年6月求刑(共同通信)",
-        "summary": "在日中国大使館に侵入したなどとして、建造物侵入や銃刀法違反の罪に問われた陸上自衛隊えびの駐屯地所属だった元3等陸尉村田晃大被告（24）の公判が10日、東京地裁で開かれ、検察側は拘禁刑1年6月を求刑した",
-        "pub_date": "11/10 15:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/007dc9b2dad2bd3a69cb6f817c0e180c8a26538a?source=rss",
+        "title": "東京ディズニーR、Xマス一色に　巨大ツリーやパレード(共同通信)",
+        "summary": "千葉県浦安市の東京ディズニーリゾートで11日から始まる特別イベント「ディズニー・クリスマス」が10日、一足早く報道陣向けにお披露目された。高さ15メートルの巨大なツリーや期間限定のパレードが楽しめ、1",
+        "pub_date": "11/10 16:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/2ce86bf0af5a37d51672a35a1923c02086b4c7ca?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "参院で否決なら「消費税解散」も？ 石破氏ら“4人造反”で一気に高まった消費税減税法案「参院否決」シナリオの現実味(東洋経済オンライン)",
-        "summary": "臨時国会で最大の焦点とされている消費税減税関連法案が11月6日に衆議院を通過。11日から参議院での審議が始まる。【写真あり】実は自民党結党以来「初の異常事態」！ その対象となった人物とは？ こうした中",
-        "pub_date": "11/10 15:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/20ef9bc49b4632605f0b9da4d3bc41b009db188b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "秋の叙勲「大綬章」親授式 トヨタ自動車会長らが受章(ABEMA TIMES)",
-        "summary": "「秋の叙勲」大綬章の親授式が皇居で開かれ、天皇陛下が勲章を手渡されました。 皇居・宮殿「松の間」で午前10時半から始まった親授式で、天皇陛下は旭日大綬章を受章した元厚生労働大臣の武見敬三さん、トヨタ自",
-        "pub_date": "11/10 15:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/fe593ce30af4d2fd7c8701ba655b928481b646c1?source=rss",
+        "title": "愛知県知事選挙は来年2月7日投開票 地域政党「減税日本」からは野口昌一路さんが立候補表明  現在4期目の大村秀章知事は態度明らかにせず 　(CBCテレビ)",
+        "summary": "任期満了に伴う愛知県知事選は「来年2月7日投開票」に決まりました。来年2月14日の任期満了に伴う愛知県知事選について、愛知県選挙管理委員会は10日、来年1月21日告示、2月7日投開票とすることを決めま",
+        "pub_date": "11/10 16:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/9a6f9771089ede4bbf82db56cbbbcdadd2b4e961?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 15:16:54 JST"
+    "last_updated": "2026-11-10 16:39:10 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -662,10 +660,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "aHim2vBKr7M",
+        "video_id": "wDoxxnbs7Zw",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/aHim2vBKr7M?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=aHim2vBKr7M"
+        "embed_url": "https://www.youtube.com/embed/wDoxxnbs7Zw?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=wDoxxnbs7Zw"
       },
       {
         "id": "stream_annnews",
@@ -673,10 +671,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "B2gNBYGGgqM",
+        "video_id": "mW3El1pI6eI",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/B2gNBYGGgqM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=B2gNBYGGgqM"
+        "embed_url": "https://www.youtube.com/embed/mW3El1pI6eI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=mW3El1pI6eI"
       },
       {
         "id": "stream_fnnnews",

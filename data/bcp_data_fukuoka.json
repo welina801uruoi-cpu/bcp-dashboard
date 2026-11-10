@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 11:14:09",
+  "timestamp": "2026-11-10 11:56:08",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -179,10 +179,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 7地域】福岡、大分、宮崎、鹿児島、熊本、長崎、佐賀（警報なし）",
+    "summary": "【注意報発表: 6地域】福岡、大分、宮崎、鹿児島、熊本、長崎（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 7,
+    "notice_count": 6,
     "total_prefs": 7,
     "pref_details": [
       {
@@ -206,10 +206,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "霜注意報"
+          "霜注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、霜注意報",
+        "summary": "霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -220,10 +220,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "霜注意報"
+          "霜注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、霜注意報",
+        "summary": "霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/45/"
       },
       {
@@ -235,10 +235,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "波浪注意報",
-          "霜注意報"
+          "霜注意報",
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、霜注意報",
+        "summary": "強風注意報、霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -249,10 +249,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "霜注意報"
+          "霜注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、霜注意報",
+        "summary": "霜注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -274,13 +274,11 @@
         "code": "41",
         "name": "佐賀県",
         "short_name": "佐賀",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "波浪注意報"
-        ],
-        "summary": "波浪注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       }
     ]
@@ -432,8 +430,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/10 11:42",
+          "text": "atotoで START au END は大都市以外は無理と見たけどuqはまじで START 繋がらない END 。楽天はギリ繋がるけど設定がクソめんどくさそう..."
+        },
         {
           "time": "11/10 11:00",
           "text": "衛星に繋がってもビルの中や地下は START 繋がらない END だろうなぁ。地下じゃなくても所々で楽天Simから切替わるほど電波拾わないし。 START au..."
@@ -441,10 +443,6 @@
         {
           "time": "11/10 05:27",
           "text": "@lattecappucino 無線通信なので、利用している場所や環境によっても大きく変動するとは思います。最終的に行き着いたのは、 START AU END ..."
-        },
-        {
-          "time": "11/10 03:55",
-          "text": "@povo_official 繋がらなくて困っちゃう povoは START 繋がらない END START AU END がローミングを切っても切る前と同じで..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -493,6 +491,14 @@
     "disaster_count": 4,
     "articles": [
       {
+        "title": "【次は “越境台風”か】トロピカルストームPENAが「日付変更線」を超え　金曜日には「台風33号」発生か【雨風シミュレーション21日（土）まで/全国各都市の週間予報】「今後の台風情報に注意」(MBC南日本放送)",
+        "summary": "■【トロピカルストーム】日付変更線の東側にあるが・・・ハワイの南西にある「トロピカルストームPENA」が日付変更線を超えてきそうです。「台風28号」に続き、今年2つ目の「越境台風」となる可能性がでてき",
+        "pub_date": "11/10 20:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/b01f65450fa42df8bfca8c34a19d88fec8da6dd3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "養鶏場襲ったヒグマか駆除　北海道岩見沢市(共同通信)",
         "summary": "北海道岩見沢市で、体長約1.9メートル、体重約270キロの雄のヒグマ1頭が箱わなにかかり、10日までに駆除された。市内の養鶏場では8月以降、ヒグマによるとみられるニワトリなどへの被害が複数回あり、駆除",
         "pub_date": "11/10 20:06 JST",
@@ -517,12 +523,84 @@
         "is_disaster": true
       },
       {
-        "title": "コンビニ交付が一時停止　408自治体の証明書(共同通信)",
-        "summary": "全国のコンビニの端末で10日、408自治体の戸籍などの証明書が一時交付できない状態となった。10日午後に復旧した。地方公共団体情報システム機構が明らかにした。システムの通信障害が原因とみて調べている。",
-        "pub_date": "11/10 19:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/cf25dfd95342e59836c1dd90fe08edd45aab0274?source=rss",
+        "title": "「私の訴えに正面から応えた判決を聞きたい」 角川元会長が控訴審の早期開始を求め会見(ビデオニュース・ドットコム)",
+        "summary": "東京五輪汚職事件で贈賄の罪に問われている出版大手「KADOKAWA」の角川歴彦元会長と弁護団が11月9日、控訴趣意補充書と審理の早期開始を求める上申書を裁判所に提出し、記者会見を行った。 東京地裁は2",
+        "pub_date": "11/10 20:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/a2a1a6b89574d79741b49dceeed6654f0274923e?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "遺族の訴えに被告が涙　2人が殺害された奥田交番襲撃事件　被告と面会や手紙のやり取りを続ける殺害された警備員の妻が出廷(FNNプライムオンライン)",
+        "summary": "2018年に2人が殺害された奥田交番襲撃事件の「差し戻し審」が10日、12回目の公判を迎えた。島津慧大被告に殺害された警備員、中村信一さんの妻が弁護側の証人として出廷し、「生きて償ってほしい」と裁判員",
+        "pub_date": "11/10 20:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/434fd4193d8c26b11cb561cbc62a4335108a799c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "防衛力強化は「相手の目的達成を拒否する力」 3文書改定で防衛省方針(テレビ朝日系（ANN）)",
+        "summary": "安保3文書の年内改定に向けて政府は、「相手の目的達成を拒否する力」を持つことを目指して防衛力を強化する考えを与党側に示しました。10日の与党の実務者協議で防衛省が示した資料では、防衛力の基本的な考え方",
+        "pub_date": "11/10 20:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/b15f830123b91c79da918db624a1abe4d36e6e70?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "“メタルの二刀流”で恩返し…金属加工会社の2代目はヘヴィメタルのミュージシャン「日本のモノづくりの素晴らしさを世界へ」(東海テレビ)",
+        "summary": "溶接マスクを外せば、手にするのはギター。愛知県小牧市の町工場を率いる社長が、かつて世界で活動したヘヴィメタルバンドマンとしての経験を武器に、日本のものづくりを世界へ発信しようとしています。【動画で見る",
+        "pub_date": "11/10 20:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/35db34fbae6792a1340f677d7980577edc0c0ba8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "防衛力強化は「相手の目的達成を拒否する力」　3文書改定で防衛省方針(テレビ朝日系（ANN）)",
+        "summary": "安保3文書の年内改定に向け、政府は「相手の目的達成を拒否する力」を持つことを目指して防衛力を強化する考えを与党側に示しました。 10日の与党の実務者協議で防衛省が示した資料では、防衛力の基本的な考え方",
+        "pub_date": "11/10 20:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/0d8a4062381e700cece2afb9c5ecc2f3dc39bfa9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "天皇陛下と愛子さま “父娘リンクコーデ”紺と白のバイカラーでお揃い？ソフトテニス観戦で陛下が優しくエスコートされるほっこりシーンも(ABEMA TIMES)",
+        "summary": "天皇陛下と長女の愛子さまが、全日本ソフトテニス選手権大会を観戦するため、有明コロシアムを訪問された。会場入りされた際、陛下が愛子さまを座席まで優しくエスコートされる一幕もあった。【映像】陛下が愛子さま",
+        "pub_date": "11/10 20:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/0aaea43916b2dc91caa1aabf78e32df5e56264b6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "鳥取ガス、前社長を提訴　無断で3千万円送金か(共同通信)",
+        "summary": "取締役会に無断で、自身が設立した会社に資金を送金させたとして、鳥取ガス（鳥取市）が児嶋太一前社長に3千万円の損害賠償を求めて鳥取地裁に提訴したことが10日、分かった。同社は個人口座への10億円超の無断",
+        "pub_date": "11/10 20:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/4a9be587b8915e1420e0f00731e731031172e92d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "小渕優子氏ら“棄権議員”を更迭(ABEMA TIMES)",
+        "summary": "消費減税関連法案の採決を棄権した小渕元経産大臣が党税調から更迭です。 小渕氏は、鈴木幹事長から党の税制調査会の役職を辞任するよう求められましたが、拒否したため、小野寺税調会長が更迭を決めました。【映像",
+        "pub_date": "11/10 20:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/2936ede7f94b33714ca1e8e3d7b81ee06bf26dc1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "消費税減税法案採決で「戒告処分」受けた棄権4人　元自民党事務局長はどう見た？「こっちのほうが正論でしょ」(J-CASTニュース)",
+        "summary": "消費税減税法案の衆院採決を棄権した石破茂前首相ら4人に対し、自民党は2026年11月9日、「戒告処分」としたが、自民党元事務局長の久米晃さん（72）は、取材に対し、「戒告された人の退席理由のほうが、よ",
+        "pub_date": "11/10 20:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/e0af91fce3d6bd480aa6df0218f45f63ce1c0c7c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "日米共同、侵攻拒否力強化　防衛生産拡大、3文書指針(共同通信)",
+        "summary": "政府が改定する安全保障関連3文書のうち、国家防衛戦略に盛り込む防衛力強化の基本指針が判明した。日米共同で相手の侵攻を阻止する「拒否する能力」の向上や生産基盤の協力拡大、同志国との連携深化を明記した。複",
+        "pub_date": "11/10 20:13 JST",
+        "link": "https://news.yahoo.co.jp/articles/2d2e4b765a4ac172e195348d60df277447765fa7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "東京最低8.9℃　北海道「日本一寒い町」で幻想的風景(テレビ朝日系（ANN）)",
@@ -531,89 +609,9 @@
         "link": "https://news.yahoo.co.jp/articles/6a234ba58ded6b10f4b4bdbcd384dff87e77884f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "核持ち込み例外明記必要と政府高官(共同通信)",
-        "summary": "政府高官は10日、安全保障関連3文書改定で、核政策の基本方針「非核三原則」のうち「持ち込ませず」の例外として緊急時に核兵器の持ち込みを認める見解を明記する必要があるとの認識を記者団に示した。",
-        "pub_date": "11/10 20:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/03fdca2061481e87f825957177952df6873b5f9d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【会見詳報】覚悟の退席…自民・小渕優子氏 “党税調から更迭”「自ら辞することはできないと申し上げた」　戒告処分は「重く受け止め」「皆が皆、同じ方向を向いて、同じイエスと言わなくてもいいのでは」(テレビ朝日系（ANN）)",
-        "summary": "消費減税関連法案の採決を棄権した小渕元経産大臣が党税調から更迭です。「電話で戒告なんて、へのツッパリにも…」参院幹部",
-        "pub_date": "11/10 20:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/f35f5dc623bb933f258e9447f7d9e67d0eae1128?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "元交際相手に「いいね」で有罪判決(ABEMA TIMES)",
-        "summary": "元交際相手の「X」に「いいね」を繰り返した女に有罪判決です。 斉藤芹奈被告（33）は警察からつきまといなどの禁止命令を受けていたのに、元交際相手の「X」の投稿に「いいね」などを合わせて15回した、スト",
-        "pub_date": "11/10 20:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/357c240e7e9ad63874b3a1f13c9dd57785b22017?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "再婚相手の娘に“ガソリン放火”男逮捕(ABEMA TIMES)",
-        "summary": "東京・大田区で再婚相手の娘にガソリンをかけて火を放ち、殺害したなどとして78歳の男が逮捕されました。【映像】再婚相手の娘に火を放ち殺害 78歳の男が逮捕 関誠容疑者（78）は今年7月、大田区の自宅で火",
-        "pub_date": "11/10 20:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/bd4e4a13b6e48947d96a1ead943dfff3413c1922?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "ダルメシアンが通行人かみケガ 飼い主逮捕(ABEMA TIMES)",
-        "summary": "ダルメシアンが通行人を噛んだとして、飼い主を逮捕です。 濱名眞人容疑者（72）は7月に千葉県御宿町の自宅で飼っていたダルメシアン4匹を適切に管理せず、そのうち1匹が散歩中の80代の女性に噛みつき、けが",
-        "pub_date": "11/10 20:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/f4245975f878f6e25504d980be8df8bb58094d5a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "新宿区長選挙に立候補した4氏の経歴・政策まとめ(選挙ドットコム)",
-        "summary": "任期満了に伴う新宿区長選挙が11月8日告示、11月15日投開票の日程で実施されています。今回の新宿区長選挙には届け出順に、新人の山片賢一（やまがた・けんいち）氏（59）、新人の大門幸恵（だいもん・さち",
-        "pub_date": "11/10 20:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/127827646cbf18fc7b4fe04b4659af31879b71a2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "2月の緊縛強盗事件“指示役”　逮捕現場でアプリ使い指示か　千葉・野田市(テレビ朝日系（ANN）)",
-        "summary": "今年2月、千葉県野田市の高齢夫婦の住宅に男らが押し入り、夫を殴って縛ったうえ、金庫を奪って逃走した事件で、指示役とされる男が逮捕されました。 及川魁士容疑者（24）は2月、野田市にある80代の夫婦の住",
-        "pub_date": "11/10 20:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/4bb9e280d483f7c99a78d0709c7dff92d88a6a74?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "シリーズ「綿貫民輔の遺言」(4) 「抵抗勢力の親分になればいいんだね」　国民的人気の小泉政権に抗った郵政選挙と党除名の舞台裏　後に語った「国民新党、楽しかったよな」(FNNプライムオンライン)",
-        "summary": "平成17年の郵政選挙は、政治家・綿貫民輔氏にとって大きな転換点だった。当選13回を重ね、国土庁長官や衆院議長も務めた「ミスター自民党」は、なぜ抵抗勢力の先頭に立ったのか。当時の右腕で、元国民新党幹事長",
-        "pub_date": "11/10 20:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/2b7e3563c22639cab074d62d77d20e2259d3360d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【気象庁】エルニーニョ現象「過去最大」を更新　暖冬でも大雪に?過去には都心で積雪15センチも【エルニーニョ監視速報】(MBC南日本放送)",
-        "summary": "■エルニーニョが続く 過去には都心で大雪も気象庁は11月10日、最新の「エルニーニョ監視速報」を発表しました。2026年春から続くエルニーニョ現象は、10月に入り「過去最大の強さ」をさらに更新しました",
-        "pub_date": "11/10 20:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/7c6aebbe100f75701e81caa574020b18fcbf048d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "《G7欠席で炎上》高市首相、ASEAN・APECへの〈出席表明〉アピールも「表明する必要ある？」指摘される“異常事態”(週刊女性PRIME)",
-        "summary": "G7オンライン首脳会議の“欠席”をめぐって、窮地に立たされている高市早苗首相。そんな中、別の国際会議に関して首相が示した意向をめぐって、国民からは厳しい反応が上がっている。【写真】「こんな下品な乾杯見",
-        "pub_date": "11/10 20:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/bc303f1c7347104775147da8bae710411239e99d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 20:14:06 JST"
+    "last_updated": "2026-11-10 20:55:14 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -656,10 +654,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "moStw21u9ig",
+        "video_id": "BmuPXXJEB_c",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/moStw21u9ig?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=moStw21u9ig"
+        "embed_url": "https://www.youtube.com/embed/BmuPXXJEB_c?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=BmuPXXJEB_c"
       },
       {
         "id": "stream_annnews",

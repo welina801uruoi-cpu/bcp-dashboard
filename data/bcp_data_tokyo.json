@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 05:23:19",
+  "timestamp": "2026-11-10 06:17:07",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -112,12 +112,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-10 06:16",
-    "place": "橘湾",
-    "magnitude": "3.3",
+    "shindo": "1",
+    "time": "2026-11-10 14:20",
+    "place": "茨城県沖",
+    "magnitude": "4.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-10 14:20",
+        "place": "茨城県沖",
+        "shindo": "1",
+        "magnitude": "4.5",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-10 06:16",
         "place": "橘湾",
@@ -180,13 +187,6 @@
         "shindo": "3",
         "magnitude": "4.5",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-09 05:16",
-        "place": "宮城県沖",
-        "shindo": "-",
-        "magnitude": "4.5",
-        "maxScale": -1
       }
     ]
   },
@@ -201,26 +201,29 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NOTICE",
-    "summary": "【注意報発表: 5地域】東京、千葉、茨城、栃木、山梨（警報なし）",
+    "status": "ALERT",
+    "summary": "【警報発表: 1地域】東京（波浪警報、暴風警報） ／ 他4地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
-    "alert_count": 0,
-    "notice_count": 5,
+    "alert_count": 1,
+    "notice_count": 4,
     "total_prefs": 8,
     "pref_details": [
       {
         "code": "13",
         "name": "東京都",
         "short_name": "東京",
-        "status": "NOTICE",
+        "status": "ALERT",
         "emg_warns": [],
-        "warns": [],
+        "warns": [
+          "波浪警報",
+          "暴風警報"
+        ],
         "notices": [
           "波浪注意報",
           "強風注意報",
           "雷注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "波浪警報、暴風警報、波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -231,10 +234,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -267,9 +270,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "霜注意報",
           "波浪注意報"
         ],
-        "summary": "波浪注意報",
+        "summary": "霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -320,18 +324,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 湘南新宿ライン、武蔵野線、相鉄線 ／ 新幹線: 北陸新幹線（列車遅延））",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（湘南新宿ライン、武蔵野線、相鉄線、東京メトロ日比谷線）",
+    "text": "運行支障あり（新幹線: 北陸新幹線（列車遅延））",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（北陸新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [
-      "湘南新宿ライン",
-      "武蔵野線",
-      "相鉄線",
-      "東京メトロ日比谷線"
-    ],
+    "troubled_lines": [],
     "troubled_shinkansen": [
       "北陸新幹線（列車遅延）"
     ],
@@ -401,7 +400,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東京電力PG: 【停電発生中】千葉・山梨で停電情報を検知",
+    "power_msg": "東京電力PG: 【停電発生中】千葉・神奈川・山梨で停電情報を検知",
     "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東京ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -487,8 +486,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/10 05:27",
+          "text": "@lattecappucino 無線通信なので、利用している場所や環境によっても大きく変動するとは思います。最終的に行き着いたのは、 START AU END ..."
+        },
         {
           "time": "11/10 03:55",
           "text": "@povo_official 繋がらなくて困っちゃう povoは START 繋がらない END START AU END がローミングを切っても切る前と同じで..."
@@ -496,10 +499,6 @@
         {
           "time": "11/10 03:54",
           "text": "@povo_official 繋がらなくて困っちゃう povoは START 繋がらない END START AU END がローミングを切っても切る前と同じで..."
-        },
-        {
-          "time": "11/10 03:16",
-          "text": "@oWGjEbM3TV14001 通信が重いときは電源再起動してみると改善されることも📶💡場所問わず START 繋がらない END ような状況でしょうか？📝も..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -546,8 +545,48 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 11,
     "articles": [
+      {
+        "title": "「内水氾濫」対策で新基準 “1時間100mm雨量”にも(ABEMA TIMES)",
+        "summary": "千葉豪雨などで発生した「内水氾濫」を防ぐため、国土交通省は、1時間あたり100ミリ程度の雨量でも耐えられるよう、自治体が取るべき対策の新たな基準を取りまとめ公表しました。【映像】「内水氾濫」が起きた千",
+        "pub_date": "11/10 15:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/2c79d244cda955edbb57d19578d24dcc71dd2c94?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「ブロッキング」実施検討へ向けた作業部会設置　総務省　法的整理など加速へ(産経新聞)",
+        "summary": "総務省は10日、サイバー攻撃で漏えいした個人情報の拡散などの二次被害の抑止策を議論するため、作業部会を新設すると発表した。通信事業者が、ウェブサイトへのアクセスを強制的に遮断する「ブロッキング」の実施",
+        "pub_date": "11/10 14:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/71ad0c880c7714bcdd32ee69fc5b4d407240927f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "被害者情報漏えい「遺憾」　総務相、16年度以降百件超(共同通信)",
+        "summary": "藤井比早之総務相は10日の閣議後記者会見で、ドメスティックバイオレンスやストーカーなどの被害者情報を、全国の自治体が誤って加害者側に漏えいした事案が2016年度から昨年度までに119件あったと認め「緊",
+        "pub_date": "11/10 14:43 JST",
+        "link": "https://news.yahoo.co.jp/articles/d8a93086f44a1a9952fa42b5f537031a3571e6f4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "徳島・阿波市長ら逮捕 事故修理費を詐取か(ABEMA TIMES)",
+        "summary": "自身が起こした交通事故に伴う修理費用を市の工事代金に上乗せしてだまし取った疑いで、徳島県阿波市の現職市長が逮捕されました。【映像】逮捕された阿波市長・町田寿人容疑者 詐欺の疑いで逮捕されたのは、阿波市",
+        "pub_date": "11/10 14:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/eb0ef66159c051d36b0aa36476058b2ff6f19a93?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "居座り強烈寒気が猛威　吹雪に凍結…道路状況の悪化で事故相次ぐ　北海道(テレビ朝日系（ANN）)",
+        "summary": "北日本を中心に寒気が居座って、東京は10日も12月並みの寒さとなります。そして、今シーズン一番の積雪となっている北海道では、スリップ事故が多発するなど生活にも影響が出てきています。【画像】田んぼ脇の溝",
+        "pub_date": "11/10 14:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/0f91c84174c990bcc6066a843b2d7ebb261f185e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "マラソン大会は来年11月に延期　ちばアクアライン、台風25号で(共同通信)",
         "summary": "9月の台風25号の影響で今月の開催を見合わせた「ちばアクアラインマラソン2026」の実行委員会は10日、千葉市内で総会を開き、大会を来年11月21日に延期して開催すると決めた。マラソンは2年ごとに実施",
@@ -589,30 +628,6 @@
         "is_disaster": true
       },
       {
-        "title": "被害者情報漏えい「遺憾」と総務相(共同通信)",
-        "summary": "藤井比早之総務相は10日の閣議後記者会見で、ストーカーなどの被害者の情報が加害者側に誤って漏れたケースが2016年度以降、119件あったと認め「緊張感を持って運用すべきなのに、漏えいが発生したことは遺",
-        "pub_date": "11/10 13:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/f649c745042e2c5eb6a0a0f8e526508667c6dd4d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「いじめを隠したのでは？」当時5年生、神戸市教委を20年追及する保護者の憤り　教育長と面談へ(弁護士ドットコムニュース)",
-        "summary": "「被害児童から聞き取りができず、いじめの確認ができなかった」20年以上前に神戸市立小学校で起きたいじめ事件をめぐり、神戸市教育委員会は長年、こう説明してきた。ところが、2023年に公表された調査報告書",
-        "pub_date": "11/10 13:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/a40568c366b481a5b54fd3dbab16f4247fea33e7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「内水氾濫」対策で国が新基準 “1時間100mm雨量”下水道などの整備を強化(テレビ朝日系（ANN）)",
-        "summary": "千葉豪雨などで発生した「内水氾濫」を防ぐため、国土交通省は、1時間あたり100ミリ程度の雨量でも耐えられるよう自治体が取るべき対策の新たな基準を取りまとめ公表しました。 8月の千葉豪雨では、「内水氾濫",
-        "pub_date": "11/10 12:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/b5bc53ac4ea904ea191ed5165dd9855bca97d76b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "内水氾濫の被害軽減へ 国が対応策",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/10 12:49 JST",
@@ -621,55 +636,39 @@
         "is_disaster": true
       },
       {
-        "title": "新潟・新発田市長選、市議が立候補の意思固める　地域経済の活性化に取り組む考え示す(産経新聞)",
-        "summary": "任期満了に伴う新潟県新発田市長選（15日告示、22日投開票）に、市議の小柳肇氏（61）が無所属で立候補する意思を固めたことが10日、分かった。小柳氏は市内で報道陣の取材に応じ、「デジタル地域通貨などを",
-        "pub_date": "11/10 14:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/798317e729da9b569cc414258073cead1c507de3?source=rss",
+        "title": "「特定の国の者を不許可、でない」小野田紀美氏、中国人による重要土地取得巡る答弁を説明(産経新聞)",
+        "summary": "小野田紀美経済安全保障担当相は10日の記者会見で、安全保障上重要な施設周辺の土地取引規制を強化する土地利用規制法改正案で、外国政府や外国軍関係者らへの所有権移転は原則として認めないとする内容に関する自",
+        "pub_date": "11/10 15:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/724ff8fcbd651dd815af54c5913369a4f96b8624?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "石川の女性遺体で発見 「殺されるかも」同僚に相談か(テレビ朝日系（ANN）)",
-        "summary": "石川県野々市市に住む女性が遺体で見つかった事件で、女性が勤務先の同僚に「殺されるかもしれない」などと相談していたことが分かりました。 広島県の無職・宇都宮孝司容疑者（49）は先月30日、野々市市に住む",
-        "pub_date": "11/10 14:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/adda2c64659208b55ed8fdf2fa7b9d0b751e8593?source=rss",
+        "title": "中国大使館侵入、元3尉に拘禁1年6月求刑(共同通信)",
+        "summary": "在日中国大使館に侵入したなどとして、建造物侵入や銃刀法違反の罪に問われた陸上自衛隊えびの駐屯地所属だった元3等陸尉村田晃大被告（24）の公判が10日、東京地裁で開かれ、検察側は拘禁刑1年6月を求刑した",
+        "pub_date": "11/10 15:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/007dc9b2dad2bd3a69cb6f817c0e180c8a26538a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "東北　寒さ一転　13日は仙台20℃予想　14日は紅葉狩り日和(日本気象協会tenki.jp)",
-        "summary": "明日11日(水)も厳しい寒さが続き、東北北部では昼頃まで雨や雪の降る所があるでしょう。その後、14日(土)にかけて晴れる所が多く、東北南部では最高気温が20℃くらいまで上がる予想です。寒さはいったん和",
-        "pub_date": "11/10 14:13 JST",
-        "link": "https://news.yahoo.co.jp/articles/c0683288d7ffa3da3d6f4363edb04e0b864d7d46?source=rss",
+        "title": "参院で否決なら「消費税解散」も？ 石破氏ら“4人造反”で一気に高まった消費税減税法案「参院否決」シナリオの現実味(東洋経済オンライン)",
+        "summary": "臨時国会で最大の焦点とされている消費税減税関連法案が11月6日に衆議院を通過。11日から参議院での審議が始まる。【写真あり】実は自民党結党以来「初の異常事態」！ その対象となった人物とは？ こうした中",
+        "pub_date": "11/10 15:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/20ef9bc49b4632605f0b9da4d3bc41b009db188b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "SNS偽広告、メタへの請求棄却　前沢友作氏敗訴、東京地裁(共同通信)",
-        "summary": "実業家の前沢友作氏が、交流サイト（SNS）上で自身の氏名や肖像を無断で使用した偽の投資詐欺広告を放置したとして、米IT大手メタ（旧フェイスブック）などに1円の損害賠償と掲載の差し止めなどを求めた訴訟の",
-        "pub_date": "11/10 14:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/ee7a48451cf028246d22a8c737c1473961619fda?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「吉村代表は弁護士だったが仕事ができなかったのでは？」国民・足立議員が維新の同日選を批判 答弁めぐり“国会ストップ”の場面も(ABEMA TIMES)",
-        "summary": "参議院総務委員会で10日、国民民主党の足立康史議員が質問に立ち、日本維新の会の吉村洋文代表（大阪府知事）が進める「大阪都構想」の住民投票と来春の統一地方選の同日実施方針について追及した。足立氏は、同日",
-        "pub_date": "11/10 14:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/f289a9a6e0fa4f0155a99485021d7c608d78e77d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "福島・いわき市　3歳男児死亡 　同居の男逮捕　警察に母親が虐待の相談(テレビ朝日系（ANN）)",
-        "summary": "3歳の男の子が同居していた母親の交際相手に蹴られるなどして亡くなった事件で、警察に母親から虐待の相談が寄せられていたことが分かりました。 いわき市の会社員・松井諒容疑者（41）は8日午後4時ごろ、いわ",
-        "pub_date": "11/10 14:04 JST",
-        "link": "https://news.yahoo.co.jp/articles/ea28881c8c4553a8649ea283117d50ecbbc79a2f?source=rss",
+        "title": "秋の叙勲「大綬章」親授式 トヨタ自動車会長らが受章(ABEMA TIMES)",
+        "summary": "「秋の叙勲」大綬章の親授式が皇居で開かれ、天皇陛下が勲章を手渡されました。 皇居・宮殿「松の間」で午前10時半から始まった親授式で、天皇陛下は旭日大綬章を受章した元厚生労働大臣の武見敬三さん、トヨタ自",
+        "pub_date": "11/10 15:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/fe593ce30af4d2fd7c8701ba655b928481b646c1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 14:23:07 JST"
+    "last_updated": "2026-11-10 15:16:54 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

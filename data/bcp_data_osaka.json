@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 19:24:55",
+  "timestamp": "2026-11-10 20:12:12",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -180,10 +180,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 2地域】兵庫、和歌山（警報なし）",
+    "summary": "【注意報発表: 3地域】兵庫、奈良、和歌山（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 2,
+    "notice_count": 3,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -236,11 +236,13 @@
         "code": "29",
         "name": "奈良県",
         "short_name": "奈良",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/29/"
       },
       {
@@ -251,10 +253,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "濃霧注意報",
+          "乾燥注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "濃霧注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       }
     ]
@@ -290,7 +292,7 @@
         "name": "山陽新幹線",
         "status": "ALERT",
         "state": "その他",
-        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月10日 5時0分掲載）",
+        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月11日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       }
     ],
@@ -349,8 +351,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/10 19:31",
+          "text": "10月末に起きた START au END の START 障害 END 以降、データセンターに届いたメールが自動的に届かなくて、いちいち自分で確認しなきゃいけ..."
+        },
         {
           "time": "11/10 15:29",
           "text": "START au END もといkddi今日だめだな電話もネットもイカれちゃってる通信 START 障害 END じゃん"
@@ -358,10 +364,6 @@
         {
           "time": "11/10 14:36",
           "text": "START au END ひかり通信 START 障害 END ??復旧したと思ったらまた繋がらなくなった。何回かルーター再起動してみたけど... START ..."
-        },
-        {
-          "time": "11/10 13:25",
-          "text": "さっきびっくりしたんやけど、仕事終わってスマホ見たらモバイルのアンテナが切れてる表示になってて、myAuにも全然繋がらんのね。 自宅に着いてから、Wi-Fiでネ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -440,23 +442,23 @@
     "status": "NORMAL",
     "office": "大阪管区気象台",
     "target_area": "大阪府",
-    "report_time": "11/10 16:33",
+    "report_time": "11/11 04:35",
     "headline": "",
-    "text": "　大阪府は、高気圧に覆われておおむね晴れています。\n\n　１０日の大阪府は、高気圧に覆われて晴れるでしょう。\n\n　１１日の大阪府は、高気圧に覆われておおむね晴れる見込みです。\n\n【近畿地方】\n　近畿地方は、高気圧に覆われておおむね晴れていますが、北部では寒気や湿った空気の影響でおおむね曇っています。\n\n　１０日の近畿地方は、高気圧に覆われておおむね晴れますが、北部では寒気や湿った空気の影響でおおむね曇り、雨の降る所がある見込みです。\n\n　１１日の近畿地方は、高気圧に覆われておおむね晴れますが、北部では湿った空気の影響でおおむね曇るでしょう。",
+    "text": "　大阪府は、高気圧に覆われて晴れています。\n\n　１１日の大阪府は、高気圧に覆われて晴れるでしょう。\n\n　１２日の大阪府は、高気圧に覆われて晴れる見込みです。\n\n【近畿地方】\n　近畿地方は、高気圧に覆われておおむね晴れていますが、北部では寒気や湿った空気の影響でおおむね曇っています。\n\n　１１日の近畿地方は、高気圧に覆われて晴れますが、北部では寒気や湿った空気の影響でおおむね曇るでしょう。\n\n　１２日の近畿地方は、高気圧に覆われておおむね晴れる見込みです。",
     "paragraphs": [
-      "大阪府は、高気圧に覆われておおむね晴れています。",
-      "１０日の大阪府は、高気圧に覆われて晴れるでしょう。",
-      "１１日の大阪府は、高気圧に覆われておおむね晴れる見込みです。",
+      "大阪府は、高気圧に覆われて晴れています。",
+      "１１日の大阪府は、高気圧に覆われて晴れるでしょう。",
+      "１２日の大阪府は、高気圧に覆われて晴れる見込みです。",
       "【近畿地方】\n　近畿地方は、高気圧に覆われておおむね晴れていますが、北部では寒気や湿った空気の影響でおおむね曇っています。",
-      "１０日の近畿地方は、高気圧に覆われておおむね晴れますが、北部では寒気や湿った空気の影響でおおむね曇り、雨の降る所がある見込みです。",
-      "１１日の近畿地方は、高気圧に覆われておおむね晴れますが、北部では湿った空気の影響でおおむね曇るでしょう。"
+      "１１日の近畿地方は、高気圧に覆われて晴れますが、北部では寒気や湿った空気の影響でおおむね曇るでしょう。",
+      "１２日の近畿地方は、高気圧に覆われておおむね晴れる見込みです。"
     ],
-    "summary": "大阪府は、高気圧に覆われておおむね晴れています。...",
+    "summary": "大阪府は、高気圧に覆われて晴れています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=270000"
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 8,
+    "disaster_count": 7,
     "articles": [
       {
         "title": "徳島・阿波市長　詐欺の疑いで逮捕…事故修理費を“上乗せ”か(テレビ朝日系（ANN）)",
@@ -515,12 +517,28 @@
         "is_disaster": true
       },
       {
-        "title": "詐欺容疑で阿波市長ら逮捕　事故の修理費用“上乗せ”か(テレビ朝日系（ANN）)",
-        "summary": "現職の市長が詐欺の疑いで逮捕されました。市が発注した工事代金に交通事故の修理費用を上乗せした疑いです。阿波市 町田寿人市長（当時67歳）「皆さん、おはようございます。日頃の行いが良いので晴天ということ",
-        "pub_date": "11/10 20:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/f33d97df85acd05928fc667a28639eb106515735?source=rss",
+        "title": "〈思想史研究者・片山杜秀氏 インタビュー〉歴史の分水嶺に立つ日本、今こそ「生存戦略」を打ち出す時(Wedge（ウェッジ）)",
+        "summary": "思想史研究者で慶應義塾大学教授の片山杜秀氏は昨今の政治状況をどう見ているのか。1930年代との類似性から歴史の〝交代期〟に入りつつある世界情勢など、話題は多岐にわたった。そこから見えてきた日本が目指す",
+        "pub_date": "11/11 05:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/70333f1fa4f33b330c2f55ed0e4a7f47acf32f9b?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "新興出版社啓林館、小学校用自習書が始まり　1946年に大阪で創業【経済トレンド／わが社のあの時】(共同通信)",
+        "summary": "新興出版社啓林館は小中高の教科書や教材などを手がける老舗。1946年、出版に携わる原野仲次、曽川勝太郎、佐藤武雄の3人が大阪市で新興出版社を創業。日本の復興の要は教育だとして、小学校用の自習書を発行し",
+        "pub_date": "11/11 05:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/c447a172b75f6709cbc6436430d723463148c998?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "自転車の17歳女性に追い抜きざまにわいせつ行為か 50歳の無職の男を逮捕 愛知県警東海署(CBCテレビ)",
+        "summary": "愛知県大府市の歩道で、自転車に乗っていた女性にわいせつな行為をして、けがをさせたとして、50歳の男が逮捕されました。不同意わいせつ傷害の疑いで逮捕されたのは住居不定・無職の井美貴支容疑者（50）です。",
+        "pub_date": "11/11 04:49 JST",
+        "link": "https://news.yahoo.co.jp/articles/c5ff6df753bab4cc38d034977cc79463a25a41a4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "軽乗用車で自転車の男性をひき逃げした疑い 男性は頭などを強く打ち大けが 64歳の看護師の女を逮捕 三重・四日市市(CBCテレビ)",
@@ -561,25 +579,9 @@
         "link": "https://news.yahoo.co.jp/articles/15211bbab358e240bd389d8f1b11c16db369285f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "灯油の高騰続き…販売会社も悲鳴　冬日“200地点超”今季一番の寒さ(テレビ朝日系（ANN）)",
-        "summary": "上空の寒気は10日に一段と強まり、北海道では気温が-10度を下回る場所が続出しました。その北海道で、生活に欠かせない灯油の値上がりが、使う側だけでなく、販売する側にも重くのしかかっています。11日はさ",
-        "pub_date": "11/10 23:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/70608ec52e3612ef2a6989b3ccb21427dc754d33?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "ウォークスルー改札を本格導入へ　2028年春に山手線など40駅　JR東日本(テレビ朝日系（ANN）)",
-        "summary": "JR東日本は2028年春からタッチせずに札を通過できるウォークスルー改札を本格導入すると発表しました。 JR東日本によりますと、2028年春から山手線の全駅など40駅で本格導入するウォークスルー改札は",
-        "pub_date": "11/10 23:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/ab5e6f5853f9a0631aa7f4abe99f8ea4df79a58b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-11 04:24:16 JST"
+    "last_updated": "2026-11-11 05:11:42 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -600,10 +602,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "fwKWZS7wFFg",
+        "video_id": "U_XoJJ8D1GI",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/fwKWZS7wFFg?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=fwKWZS7wFFg"
+        "embed_url": "https://www.youtube.com/embed/U_XoJJ8D1GI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=U_XoJJ8D1GI"
       },
       {
         "id": "stream_tbsnews",
@@ -611,10 +613,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "x6m7ok5ILA0",
+        "video_id": "8NZw0d-8vJI",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/x6m7ok5ILA0?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=x6m7ok5ILA0"
+        "embed_url": "https://www.youtube.com/embed/8NZw0d-8vJI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=8NZw0d-8vJI"
       },
       {
         "id": "stream_ntvnews",
@@ -622,10 +624,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "jmqF3cjsvJ8",
+        "video_id": "5Pntg9NwDhs",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/jmqF3cjsvJ8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=jmqF3cjsvJ8"
+        "embed_url": "https://www.youtube.com/embed/5Pntg9NwDhs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=5Pntg9NwDhs"
       },
       {
         "id": "stream_annnews",
@@ -633,10 +635,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "PZlOxkP191c",
+        "video_id": "jiHq-TbpJC4",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/PZlOxkP191c?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=PZlOxkP191c"
+        "embed_url": "https://www.youtube.com/embed/jiHq-TbpJC4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=jiHq-TbpJC4"
       },
       {
         "id": "stream_fnnnews",

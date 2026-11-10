@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 17:01:24",
+  "timestamp": "2026-11-10 17:41:41",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -180,10 +180,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 1地域】和歌山（警報なし）",
+    "summary": "【注意報発表: 2地域】兵庫、和歌山（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 1,
+    "notice_count": 2,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -201,11 +201,13 @@
         "code": "28",
         "name": "兵庫県",
         "short_name": "兵庫",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -249,10 +251,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       }
     ]
@@ -577,7 +579,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-11 02:00:42 JST"
+    "last_updated": "2026-11-11 02:41:12 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",

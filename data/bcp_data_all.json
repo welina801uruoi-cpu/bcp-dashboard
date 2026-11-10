@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 17:00:45",
+  "timestamp": "2026-11-10 17:41:14",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "ALERT",
-    "summary": "【警報発表: 1地域】東京（暴風警報、波浪警報） ／ 他28地域で注意報",
+    "summary": "【警報発表: 1地域】東京（暴風警報、波浪警報） ／ 他29地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 1,
-    "notice_count": 28,
+    "notice_count": 29,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -450,10 +450,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
-          "低温注意報"
+          "低温注意報",
+          "なだれ注意報"
         ],
-        "summary": "なだれ注意報、低温注意報",
+        "summary": "低温注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -464,10 +464,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
-          "低温注意報"
+          "低温注意報",
+          "なだれ注意報"
         ],
-        "summary": "なだれ注意報、低温注意報",
+        "summary": "低温注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -478,11 +478,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "乾燥注意報",
-          "低温注意報"
+          "低温注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報、低温注意報",
+        "summary": "乾燥注意報、低温注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -643,10 +643,10 @@
         ],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "暴風警報、波浪警報、波浪注意報、強風注意報、雷注意報",
+        "summary": "暴風警報、波浪警報、波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -821,11 +821,13 @@
         "code": "28",
         "name": "兵庫県",
         "short_name": "兵庫",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -847,10 +849,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       },
       {
@@ -956,10 +958,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/39/"
       },
       {
@@ -1007,10 +1009,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "霜注意報"
+          "霜注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、霜注意報",
+        "summary": "霜注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -1035,10 +1037,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "霜注意報"
+          "霜注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、霜注意報",
+        "summary": "霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/45/"
       },
       {
@@ -1049,10 +1051,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "霜注意報"
+          "霜注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、霜注意報",
+        "summary": "霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1079,20 +1081,30 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線41路線: 山陰本線、山陽本線、伯備線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線25路線: 長崎本線、肥薩線、土佐くろしお鉄道ごめん・なはり線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山陰本線、山陽本線、伯備線、姫新線、呉線 等 計41路線）",
+    "line_text": "運行支障あり（長崎本線、肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、姫新線 等 計25路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "山陰本線",
-      "山陽本線",
-      "伯備線",
+      "長崎本線",
+      "肥薩線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
       "姫新線",
       "呉線",
       "美祢線",
-      "磐越西線",
+      "越後線",
+      "九頭竜線",
+      "しなの鉄道北しなの線",
+      "大井川鉄道大井川本線",
+      "万葉線",
+      "成田線",
+      "久留里線",
+      "小湊鉄道線",
+      "いすみ鉄道線",
+      "わたらせ渓谷鐵道線",
       "石巻線",
       "山田線",
       "大湊線",
@@ -1100,33 +1112,7 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "きのくに線",
-      "関西本線",
-      "日豊本線",
-      "福北ゆたか線",
-      "香椎線",
-      "長崎本線",
-      "肥薩線",
-      "身延線",
-      "中央本線",
-      "越後線",
-      "九頭竜線",
-      "しなの鉄道北しなの線",
-      "大井川鉄道大井川本線",
-      "万葉線",
-      "横須賀線",
-      "中央総武線",
-      "総武線",
-      "総武本線",
-      "内房線",
-      "外房線",
-      "成田線",
-      "久留里線",
-      "小湊鉄道線",
-      "いすみ鉄道線",
-      "わたらせ渓谷鐵道線"
+      "関西本線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1204,7 +1190,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 41,
+    "target_lines_count": 25,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1487,7 +1473,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-11 02:00:42 JST"
+    "last_updated": "2026-11-11 02:41:12 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

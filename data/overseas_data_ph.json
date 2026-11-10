@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 02:03:18",
-  "timestamp_local": "2026-11-11 01:03:18",
+  "timestamp": "2026-11-11 02:43:24",
+  "timestamp_local": "2026-11-11 01:43:24",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -289,7 +289,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
+    "count_24h": 18,
     "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
     "latest": {
       "mag": 4.8,
@@ -330,6 +330,14 @@
         "time": "11/10 23:54 JST",
         "depth_km": 35,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb8",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.7,
+        "place": "111 km WNW of Höfn, Iceland",
+        "time": "11/10 22:37 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txay",
         "tsunami": 0
       },
       {
@@ -411,19 +419,32 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7h",
         "tsunami": 0
-      },
-      {
-        "mag": 4.8,
-        "place": "149 km NW of Port-Olry, Vanuatu",
-        "time": "11/10 04:27 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6m",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "米アンソロピック　上場で10兆円調達か(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/3eae4376133cbf7e18678ba3e0950338c1bc9dcd?source=rss",
+        "description": "AI（人工知能）開発企業のアンソロピックは10日、IPO（新規株式公開）による調達額が最大で10兆円余りになることを明らかにしました。 アンソロピックがアメリカの証券取引委員会に提出した資料によります",
+        "pub_date": "11/11 02:33 JST",
+        "is_priority": false
+      },
+      {
+        "title": "イラン戦争の責任…ヘグセス国防長官に“弾劾決議案”　カギ握るのが“新首席補佐官”(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/3554f1f64e1ee61cd1e30c9a65940e8bdd24e526?source=rss",
+        "description": "アメリカのヘグセス国防長官に対する弾劾訴追決議案が、身内の共和党議員から提出されました。【画像】イラン戦争の責任…ヘグセス国防長官に“弾劾決議案” カギ握るのが“新首席補佐官”アメリカ トランプ大統領",
+        "pub_date": "11/11 02:30 JST",
+        "is_priority": false
+      },
+      {
+        "title": "香港の無印良品で「宮崎スギ」特別展　五感体験や木育推進も(みんなの経済新聞ネットワーク)",
+        "link": "https://news.yahoo.co.jp/articles/166b9d3f2733d0c57a5678c8992be4d9d1aacdb4?source=rss",
+        "description": "宮崎県産材「宮崎スギ」をテーマにした特別展示「FROM FOREST TO FORM－Nature, Craft and the Living Soul of Miyazaki Wood（由林至物――",
+        "pub_date": "11/11 01:28 JST",
+        "is_priority": false
+      },
       {
         "title": "「根拠がない」サイバー攻撃を否定　仏発表受け「無責任で卑劣」とイラン外務省が非難(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/04cbe07d68059528c8ca570c77029f596aee5ebd?source=rss",
@@ -465,6 +486,13 @@
         "description": "半導体の受託製造で世界最大手の台湾TSMCは10日に取締役会を開き、アメリカのAI（人工知能）開発企業であるアンソロピックとオープンAIの株式を、それぞれ5億ドル（約790億円）を限度に取得することを",
         "pub_date": "11/10 23:59 JST",
         "is_priority": false
+      },
+      {
+        "title": "五輪“5冠”柔道家テディ・リネール氏　フランス大統領選への立候補表明(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/9395031dcdb47a5d81b8d690b906f5314a85884f?source=rss",
+        "description": "オリンピックで5つの金メダルを獲得した、柔道家のテディ・リネール氏（37）が、来年春のフランス大統領選に立候補する意向を表明しました。新たな挑戦。次の舞台は未経験の政治の世界です。リネール氏は社会の分",
+        "pub_date": "11/10 23:30 JST",
+        "is_priority": true
       },
       {
         "title": "G7外相、ウクライナ支援一致　ミサイル攻撃で弱体化の電力分野(共同通信)",
@@ -534,34 +562,6 @@
         "link": "https://news.yahoo.co.jp/articles/05cc425de701cf6d80f2c85213752404c961340c?source=rss",
         "description": "【ワシントン共同】ヘグセス米国防長官は10日、下院で自身に対する弾劾訴追決議案が提出されたことを受け、国防総省で記者会見を開いた。",
         "pub_date": "11/10 22:06 JST",
-        "is_priority": false
-      },
-      {
-        "title": "製鉄所で大爆発、巨大な煙が一気に噴き上がる…トルコで17人死亡の惨事の衝撃映像(ニューズウィーク日本版)",
-        "link": "https://news.yahoo.co.jp/articles/52249947b725c8cfd4cdd38c35ca869dd322d758?source=rss",
-        "description": "工場の一角から、灰色の巨大な煙が勢いよく噴き上がる。煙は瞬く間に大きく広がり、周囲の建物を覆い隠していく。【映像】巨大な煙が一気に噴き上がる…トルコ製鉄所で起きた大爆発の瞬間11月9日、トルコ西部イズ",
-        "pub_date": "11/10 22:01 JST",
-        "is_priority": true
-      },
-      {
-        "title": "ウクライナ巡る3カ国協議、1日目終了(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/f5ce5623cddb4724c6dbec6fd034b4e9b35c2cfd?source=rss",
-        "description": "【キーウ、モスクワ共同】アラブ首長国連邦（UAE）で開催されたウクライナとロシア、米国の3カ国高官協議は10日、1日目の議論が終了した。ウクライナとロシアのメディアがそれぞれ報じた。",
-        "pub_date": "11/10 21:57 JST",
-        "is_priority": false
-      },
-      {
-        "title": "エヌビディアCEOが中国の「スパイ」と…　AI業界の大物たちはなぜ性欲を制御できないのか(ニューズウィーク日本版)",
-        "link": "https://news.yahoo.co.jp/articles/cdb9805d4f8150a7cda8fc9dba210f2827f5d534?source=rss",
-        "description": "7月、オープンAIが開発中の人工知能（AI）エージェントの一部が、セキュリティー上の制限を突破し、機械学習とデータサイエンスのプラットフォーム「ハギングフェイス（Hugging Face）」のシステム",
-        "pub_date": "11/10 21:31 JST",
-        "is_priority": false
-      },
-      {
-        "title": "「顔にカボチャがすっぽり」…奇妙な姿で10日間さまよったシカ、ついに救出された瞬間(ニューズウィーク日本版)",
-        "link": "https://news.yahoo.co.jp/articles/0e15b1f45f8017504e89272bed45abfb261d2bb1?source=rss",
-        "description": "住宅街の庭先に、奇妙な姿をしたシカが現れた。顔の先には、鮮やかなオレンジ色のカボチャ。まるでハロウィーンの仮装をしているかのようだ。【映像】顔にカボチャがすっぽり…10日間も外れなかったシカ、住宅街を",
-        "pub_date": "11/10 21:30 JST",
         "is_priority": false
       }
     ],
@@ -661,14 +661,14 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/11 02:03 JST",
+    "timestamp": "11/11 02:43 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.76,
-      "change": 0.46,
-      "change_pct": 0.29,
+      "rate": 158.78,
+      "change": 0.49,
+      "change_pct": 0.31,
       "direction": "up"
     },
     "local_jpy": {
@@ -676,7 +676,7 @@
       "name": "フィリピンペソ",
       "symbol": "₱",
       "rate": 2.516,
-      "change": 0.008,
+      "change": 0.007,
       "change_pct": 0.3,
       "direction": "up"
     },
@@ -684,9 +684,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.04,
-      "change": 0.59,
-      "change_pct": 0.34
+      "rate": 177.07,
+      "change": 0.62,
+      "change_pct": 0.35
     }
   },
   "airports": [
@@ -729,11 +729,11 @@
         "is_capital": false,
         "lat": 10.3157,
         "lon": 123.8854,
-        "temp": 24.8,
-        "apparent_temp": 29.5,
+        "temp": 24.7,
+        "apparent_temp": 29.4,
         "humidity": 96,
-        "wind_speed": 10.5,
-        "wind_gusts": 19.1,
+        "wind_speed": 10.4,
+        "wind_gusts": 19.4,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -774,10 +774,10 @@
         "is_capital": false,
         "lat": 7.1907,
         "lon": 125.4578,
-        "temp": 23.8,
-        "apparent_temp": 28.3,
-        "humidity": 90,
-        "wind_speed": 3.1,
+        "temp": 23.9,
+        "apparent_temp": 28.6,
+        "humidity": 89,
+        "wind_speed": 1.9,
         "wind_gusts": 5.4,
         "precipitation": 0.0,
         "weather_code": 3,
@@ -820,11 +820,11 @@
       "is_capital": false,
       "lat": 10.3157,
       "lon": 123.8854,
-      "temp": 24.8,
-      "apparent_temp": 29.5,
+      "temp": 24.7,
+      "apparent_temp": 29.4,
       "humidity": 96,
-      "wind_speed": 10.5,
-      "wind_gusts": 19.1,
+      "wind_speed": 10.4,
+      "wind_gusts": 19.4,
       "precipitation": 0.0,
       "weather_code": 2,
       "weather_label": "⛅ 晴れ時々曇り",
@@ -859,7 +859,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/11 02:03 JST"
+    "timestamp": "11/11 02:43 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -888,7 +888,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/11 02:03 JST"
+    "timestamp": "11/11 02:43 JST"
   },
   "lifeline": {
     "status": "NORMAL",

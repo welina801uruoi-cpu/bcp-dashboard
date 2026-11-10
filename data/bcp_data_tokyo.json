@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 17:01:04",
+  "timestamp": "2026-11-10 17:41:25",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -220,10 +220,10 @@
         ],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "暴風警報、波浪警報、波浪注意報、強風注意報、雷注意報",
+        "summary": "暴風警報、波浪警報、波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -320,19 +320,14 @@
     "notice_items": []
   },
   "transit": {
-    "status": "ALERT",
-    "text": "運行支障あり（在来線: 横須賀線、中央総武線、総武線）",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（横須賀線、中央総武線、総武線、総武本線）",
+    "status": "NORMAL",
+    "text": "全線平常運行中",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [
-      "横須賀線",
-      "中央総武線",
-      "総武線",
-      "総武本線"
-    ],
+    "troubled_lines": [],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
@@ -668,7 +663,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-11 02:00:42 JST"
+    "last_updated": "2026-11-11 02:41:12 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

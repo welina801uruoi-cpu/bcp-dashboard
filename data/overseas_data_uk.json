@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 02:44:01",
-  "timestamp_local": "2026-11-10 18:44:01",
+  "timestamp": "2026-11-11 03:24:44",
+  "timestamp_local": "2026-11-10 19:24:44",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -352,17 +352,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 18,
-    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
+    "count_24h": 20,
+    "summary": "M5.2 (21 km WNW of Popondetta, Papua New Guinea)",
     "latest": {
-      "mag": 4.8,
-      "place": "20 km SSW of Lata, Solomon Islands",
-      "time": "11/11 00:52 JST",
-      "depth_km": 48.333,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+      "mag": 5.2,
+      "place": "21 km WNW of Popondetta, Papua New Guinea",
+      "time": "11/11 02:36 JST",
+      "depth_km": 124.245,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.2,
+        "place": "21 km WNW of Popondetta, Papua New Guinea",
+        "time": "11/11 02:36 JST",
+        "depth_km": 124.245,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
+        "tsunami": 0
+      },
+      {
+        "mag": 5.2,
+        "place": "Mid-Indian Ridge",
+        "time": "11/11 02:36 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc3",
+        "tsunami": 0
+      },
       {
         "mag": 4.8,
         "place": "20 km SSW of Lata, Solomon Islands",
@@ -465,22 +481,6 @@
         "time": "11/10 10:53 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8d",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 08:45 JST",
-        "depth_km": 175.527,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7v",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "103 km W of Attu Station, Alaska",
-        "time": "11/10 07:03 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7h",
         "tsunami": 0
       }
     ]
@@ -756,32 +756,32 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/11 02:44 JST",
+    "timestamp": "11/11 03:24 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.78,
-      "change": 0.49,
-      "change_pct": 0.31,
+      "rate": 158.8,
+      "change": 0.51,
+      "change_pct": 0.32,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "GBP",
       "name": "英ポンド",
       "symbol": "£",
-      "rate": 211.64,
-      "change": 0.16,
-      "change_pct": 0.08,
+      "rate": 211.8,
+      "change": 0.33,
+      "change_pct": 0.16,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.07,
-      "change": 0.62,
-      "change_pct": 0.35
+      "rate": 177.17,
+      "change": 0.72,
+      "change_pct": 0.41
     }
   },
   "airports": [
@@ -854,11 +854,11 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 10.1,
-        "apparent_temp": 6.6,
-        "humidity": 75,
-        "wind_speed": 17.3,
-        "wind_gusts": 38.2,
+        "temp": 10.0,
+        "apparent_temp": 6.5,
+        "humidity": 77,
+        "wind_speed": 17.6,
+        "wind_gusts": 38.9,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -900,10 +900,10 @@
         "lat": 53.4808,
         "lon": -2.2426,
         "temp": 8.1,
-        "apparent_temp": 5.6,
+        "apparent_temp": 5.8,
         "humidity": 80,
-        "wind_speed": 9.0,
-        "wind_gusts": 19.8,
+        "wind_speed": 7.2,
+        "wind_gusts": 15.8,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -944,19 +944,19 @@
         "is_capital": false,
         "lat": 55.9533,
         "lon": -3.1883,
-        "temp": 5.9,
-        "apparent_temp": 3.4,
+        "temp": 5.4,
+        "apparent_temp": 2.8,
         "humidity": 84,
-        "wind_speed": 6.8,
-        "wind_gusts": 14.8,
+        "wind_speed": 7.2,
+        "wind_gusts": 15.1,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/10(火)",
             "temp_max": 7.8,
-            "temp_min": 2.9,
+            "temp_min": 3.1,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -990,11 +990,11 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 10.1,
-      "apparent_temp": 6.6,
-      "humidity": 75,
-      "wind_speed": 17.3,
-      "wind_gusts": 38.2,
+      "temp": 10.0,
+      "apparent_temp": 6.5,
+      "humidity": 77,
+      "wind_speed": 17.6,
+      "wind_gusts": 38.9,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -1029,26 +1029,18 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/11 02:44 JST"
+    "timestamp": "11/11 03:24 JST"
   },
   "transit": {
     "status": "CAUTION",
     "status_code": "warning",
     "status_badge": "🟠 大幅遅延・運行注意",
-    "status_text": "⚠️ District線: 大幅遅延・一部運休",
+    "status_text": "⚠️ Victoria線: 大幅遅延・一部運休",
     "overall_status": "大幅遅延・一部運休",
     "strike": false,
     "monitored_systems_count": 4,
-    "alert_lines_count": 2,
+    "alert_lines_count": 1,
     "alert_lines": [
-      {
-        "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
-        "line": "District",
-        "mode": "tube",
-        "status": "Severe Delays",
-        "badge": "🟠 警戒",
-        "reason": "District Line: Severe delays between Turnham Green and Richmond due to a signal failure at Shepherd's Bush. Tickets are "
-      },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
         "line": "Victoria",
@@ -1099,10 +1091,10 @@
           {
             "name": "District",
             "mode": "tube",
-            "status_raw": "Severe Delays",
-            "badge": "🟠 警戒",
-            "code": "warning",
-            "reason": "District Line: Severe delays between Turnham Green and Richmond due to a signal failure at Shepherd's Bush. Tickets are "
+            "status_raw": "Minor Delays",
+            "badge": "🟡 注意",
+            "code": "minor",
+            "reason": "District Line: Severe delays between Earl's Court and Richmond / Ealing Broadway due to a signal failure at Shepherd's B"
           },
           {
             "name": "DLR",
@@ -1131,10 +1123,10 @@
           {
             "name": "Jubilee",
             "mode": "tube",
-            "status_raw": "Good Service",
-            "badge": "🟢 平常",
-            "code": "normal",
-            "reason": ""
+            "status_raw": "Minor Delays",
+            "badge": "🟡 注意",
+            "code": "minor",
+            "reason": "Jubilee Line: Minor delays due to train cancellations. "
           },
           {
             "name": "Liberty",
@@ -1171,10 +1163,10 @@
           {
             "name": "Northern",
             "mode": "tube",
-            "status_raw": "Good Service",
-            "badge": "🟢 平常",
-            "code": "normal",
-            "reason": ""
+            "status_raw": "Minor Delays",
+            "badge": "🟡 注意",
+            "code": "minor",
+            "reason": "Northern Line: Minor delays between Camden Town and High Barnet, northbound only, while we fix a points failure at Kenni"
           },
           {
             "name": "Piccadilly",
@@ -1278,7 +1270,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/11 02:44 JST"
+    "timestamp": "11/11 03:24 JST"
   },
   "lifeline": {
     "status": "NORMAL",

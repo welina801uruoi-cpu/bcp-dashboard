@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 02:44:16",
-  "timestamp_local": "2026-11-10 19:44:16",
+  "timestamp": "2026-11-11 03:25:04",
+  "timestamp_local": "2026-11-10 20:25:04",
   "country": {
     "id": "spain",
     "name": "スペイン",
@@ -352,17 +352,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 18,
-    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
+    "count_24h": 20,
+    "summary": "M5.2 (21 km WNW of Popondetta, Papua New Guinea)",
     "latest": {
-      "mag": 4.8,
-      "place": "20 km SSW of Lata, Solomon Islands",
-      "time": "11/11 00:52 JST",
-      "depth_km": 48.333,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+      "mag": 5.2,
+      "place": "21 km WNW of Popondetta, Papua New Guinea",
+      "time": "11/11 02:36 JST",
+      "depth_km": 124.245,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.2,
+        "place": "21 km WNW of Popondetta, Papua New Guinea",
+        "time": "11/11 02:36 JST",
+        "depth_km": 124.245,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
+        "tsunami": 0
+      },
+      {
+        "mag": 5.2,
+        "place": "Mid-Indian Ridge",
+        "time": "11/11 02:36 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc3",
+        "tsunami": 0
+      },
       {
         "mag": 4.8,
         "place": "20 km SSW of Lata, Solomon Islands",
@@ -465,22 +481,6 @@
         "time": "11/10 10:53 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8d",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 08:45 JST",
-        "depth_km": 175.527,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7v",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "103 km W of Attu Station, Alaska",
-        "time": "11/10 07:03 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7h",
         "tsunami": 0
       }
     ]
@@ -712,7 +712,7 @@
       {
         "id": "stream_rtve",
         "name": "📺 RTVE Noticias 24h (スペイン国営放送)",
-        "video_id": "b4tE5aKhtlg",
+        "video_id": "qaUu6gUa0K4",
         "handle": "@RTVEnoticias",
         "type": "stream"
       },
@@ -758,32 +758,32 @@
     "default_channel_id": "stream_rtve"
   },
   "forex": {
-    "timestamp": "11/11 02:44 JST",
+    "timestamp": "11/11 03:24 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.78,
-      "change": 0.49,
-      "change_pct": 0.31,
+      "rate": 158.8,
+      "change": 0.51,
+      "change_pct": 0.32,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.07,
-      "change": 0.62,
-      "change_pct": 0.35,
+      "rate": 177.17,
+      "change": 0.72,
+      "change_pct": 0.41,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.07,
-      "change": 0.62,
-      "change_pct": 0.35
+      "rate": 177.17,
+      "change": 0.72,
+      "change_pct": 0.41
     }
   },
   "airports": [
@@ -841,30 +841,30 @@
         "is_capital": true,
         "lat": 40.4168,
         "lon": -3.7038,
-        "temp": 15.5,
-        "apparent_temp": 15.2,
+        "temp": 15.3,
+        "apparent_temp": 14.9,
         "humidity": 89,
         "wind_speed": 10.1,
-        "wind_gusts": 37.4,
-        "precipitation": 0.3,
+        "wind_gusts": 36.7,
+        "precipitation": 0.2,
         "weather_code": 61,
         "weather_label": "🌧️ 雨 (小雨)",
         "forecast": [
           {
             "date": "11/10(火)",
-            "temp_max": 17.1,
+            "temp_max": 17.0,
             "temp_min": 12.6,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 11.1
+            "precipitation_mm": 7.1
           },
           {
             "date": "11/11(水)",
             "temp_max": 14.9,
-            "temp_min": 12.3,
+            "temp_min": 12.0,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 51.2
+            "precipitation_mm": 48.6
           },
           {
             "date": "11/12(木)",
@@ -886,11 +886,11 @@
         "is_capital": false,
         "lat": 41.3879,
         "lon": 2.1699,
-        "temp": 20.0,
-        "apparent_temp": 20.5,
-        "humidity": 80,
-        "wind_speed": 11.7,
-        "wind_gusts": 21.2,
+        "temp": 19.8,
+        "apparent_temp": 20.6,
+        "humidity": 78,
+        "wind_speed": 8.4,
+        "wind_gusts": 14.8,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -898,18 +898,18 @@
           {
             "date": "11/10(火)",
             "temp_max": 22.6,
-            "temp_min": 16.6,
+            "temp_min": 16.4,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/11(水)",
-            "temp_max": 22.9,
-            "temp_min": 16.4,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 1.5
+            "temp_max": 22.1,
+            "temp_min": 16.2,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 1.0
           },
           {
             "date": "11/12(木)",
@@ -924,51 +924,6 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "セビリア (アンダルシア)",
-        "name_en": "Seville",
-        "is_capital": false,
-        "lat": 37.3891,
-        "lon": -5.9845,
-        "temp": 19.8,
-        "apparent_temp": 20.5,
-        "humidity": 88,
-        "wind_speed": 14.5,
-        "wind_gusts": 36.4,
-        "precipitation": 0.1,
-        "weather_code": 80,
-        "weather_label": "🌧️ にわか雨 (弱)",
-        "forecast": [
-          {
-            "date": "11/10(火)",
-            "temp_max": 21.2,
-            "temp_min": 18.6,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 7.5
-          },
-          {
-            "date": "11/11(水)",
-            "temp_max": 21.5,
-            "temp_min": 18.4,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 34.2
-          },
-          {
-            "date": "11/12(木)",
-            "temp_max": 21.7,
-            "temp_min": 16.6,
-            "weather_code": 2,
-            "weather_label": "⛅ 晴れ時々曇り",
-            "precipitation_mm": 0.3
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -977,30 +932,30 @@
       "is_capital": true,
       "lat": 40.4168,
       "lon": -3.7038,
-      "temp": 15.5,
-      "apparent_temp": 15.2,
+      "temp": 15.3,
+      "apparent_temp": 14.9,
       "humidity": 89,
       "wind_speed": 10.1,
-      "wind_gusts": 37.4,
-      "precipitation": 0.3,
+      "wind_gusts": 36.7,
+      "precipitation": 0.2,
       "weather_code": 61,
       "weather_label": "🌧️ 雨 (小雨)",
       "forecast": [
         {
           "date": "11/10(火)",
-          "temp_max": 17.1,
+          "temp_max": 17.0,
           "temp_min": 12.6,
           "weather_code": 80,
           "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 11.1
+          "precipitation_mm": 7.1
         },
         {
           "date": "11/11(水)",
           "temp_max": 14.9,
-          "temp_min": 12.3,
+          "temp_min": 12.0,
           "weather_code": 80,
           "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 51.2
+          "precipitation_mm": 48.6
         },
         {
           "date": "11/12(木)",
@@ -1016,7 +971,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/11 02:44 JST"
+    "timestamp": "11/11 03:25 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1098,7 +1053,7 @@
         "details": "全国主要都市間ルートは定常運行中"
       }
     ],
-    "timestamp": "11/11 02:44 JST"
+    "timestamp": "11/11 03:24 JST"
   },
   "lifeline": {
     "status": "NORMAL",

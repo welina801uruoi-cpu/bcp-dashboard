@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 02:43:12",
-  "timestamp_local": "2026-11-11 02:43:12",
+  "timestamp": "2026-11-11 03:24:00",
+  "timestamp_local": "2026-11-11 03:24:00",
   "country": {
     "id": "korea",
     "name": "韓国 (大韓民国)",
@@ -295,17 +295,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 18,
-    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
+    "count_24h": 20,
+    "summary": "M5.2 (21 km WNW of Popondetta, Papua New Guinea)",
     "latest": {
-      "mag": 4.8,
-      "place": "20 km SSW of Lata, Solomon Islands",
-      "time": "11/11 00:52 JST",
-      "depth_km": 48.333,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+      "mag": 5.2,
+      "place": "21 km WNW of Popondetta, Papua New Guinea",
+      "time": "11/11 02:36 JST",
+      "depth_km": 124.245,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.2,
+        "place": "21 km WNW of Popondetta, Papua New Guinea",
+        "time": "11/11 02:36 JST",
+        "depth_km": 124.245,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
+        "tsunami": 0
+      },
+      {
+        "mag": 5.2,
+        "place": "Mid-Indian Ridge",
+        "time": "11/11 02:36 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc3",
+        "tsunami": 0
+      },
       {
         "mag": 4.8,
         "place": "20 km SSW of Lata, Solomon Islands",
@@ -408,22 +424,6 @@
         "time": "11/10 10:53 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8d",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 08:45 JST",
-        "depth_km": 175.527,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7v",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "103 km W of Attu Station, Alaska",
-        "time": "11/10 07:03 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7h",
         "tsunami": 0
       }
     ]
@@ -695,14 +695,14 @@
     "default_channel_id": "stream_ytn_live"
   },
   "forex": {
-    "timestamp": "11/11 02:43 JST",
+    "timestamp": "11/11 03:23 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.78,
-      "change": 0.49,
-      "change_pct": 0.31,
+      "rate": 158.8,
+      "change": 0.51,
+      "change_pct": 0.32,
       "direction": "up"
     },
     "local_jpy": {
@@ -711,16 +711,16 @@
       "symbol": "₩",
       "rate": 0.1181,
       "change": 0.002,
-      "change_pct": 1.69,
+      "change_pct": 1.68,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.07,
-      "change": 0.62,
-      "change_pct": 0.35
+      "rate": 177.17,
+      "change": 0.72,
+      "change_pct": 0.41
     }
   },
   "airports": [
@@ -763,14 +763,14 @@
         "is_capital": true,
         "lat": 37.5665,
         "lon": 126.978,
-        "temp": 4.8,
+        "temp": 4.7,
         "apparent_temp": 2.9,
         "humidity": 93,
-        "wind_speed": 3.0,
-        "wind_gusts": 6.8,
+        "wind_speed": 2.7,
+        "wind_gusts": 7.6,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/11(水)",
@@ -808,11 +808,11 @@
         "is_capital": false,
         "lat": 35.1796,
         "lon": 129.0756,
-        "temp": 7.5,
+        "temp": 7.4,
         "apparent_temp": 4.5,
-        "humidity": 68,
-        "wind_speed": 8.7,
-        "wind_gusts": 23.0,
+        "humidity": 70,
+        "wind_speed": 7.9,
+        "wind_gusts": 22.7,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -853,11 +853,11 @@
         "is_capital": false,
         "lat": 33.4996,
         "lon": 126.5312,
-        "temp": 11.5,
-        "apparent_temp": 10.1,
-        "humidity": 77,
-        "wind_speed": 5.3,
-        "wind_gusts": 5.4,
+        "temp": 11.3,
+        "apparent_temp": 10.3,
+        "humidity": 76,
+        "wind_speed": 2.0,
+        "wind_gusts": 5.0,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -899,14 +899,14 @@
       "is_capital": true,
       "lat": 37.5665,
       "lon": 126.978,
-      "temp": 4.8,
+      "temp": 4.7,
       "apparent_temp": 2.9,
       "humidity": 93,
-      "wind_speed": 3.0,
-      "wind_gusts": 6.8,
+      "wind_speed": 2.7,
+      "wind_gusts": 7.6,
       "precipitation": 0.0,
-      "weather_code": 0,
-      "weather_label": "☀️ 快晴",
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/11(水)",
@@ -938,7 +938,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/11 02:43 JST"
+    "timestamp": "11/11 03:24 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -967,7 +967,7 @@
         "details": "京釜線KTXなど主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/11 02:43 JST"
+    "timestamp": "11/11 03:23 JST"
   },
   "lifeline": {
     "status": "NORMAL",

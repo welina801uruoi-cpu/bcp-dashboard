@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 02:44:13",
-  "timestamp_local": "2026-11-10 19:44:13",
+  "timestamp": "2026-11-11 03:24:51",
+  "timestamp_local": "2026-11-10 20:24:51",
   "country": {
     "id": "germany",
     "name": "ドイツ",
@@ -346,17 +346,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 18,
-    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
+    "count_24h": 20,
+    "summary": "M5.2 (21 km WNW of Popondetta, Papua New Guinea)",
     "latest": {
-      "mag": 4.8,
-      "place": "20 km SSW of Lata, Solomon Islands",
-      "time": "11/11 00:52 JST",
-      "depth_km": 48.333,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+      "mag": 5.2,
+      "place": "21 km WNW of Popondetta, Papua New Guinea",
+      "time": "11/11 02:36 JST",
+      "depth_km": 124.245,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.2,
+        "place": "21 km WNW of Popondetta, Papua New Guinea",
+        "time": "11/11 02:36 JST",
+        "depth_km": 124.245,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
+        "tsunami": 0
+      },
+      {
+        "mag": 5.2,
+        "place": "Mid-Indian Ridge",
+        "time": "11/11 02:36 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc3",
+        "tsunami": 0
+      },
       {
         "mag": 4.8,
         "place": "20 km SSW of Lata, Solomon Islands",
@@ -459,22 +475,6 @@
         "time": "11/10 10:53 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8d",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 08:45 JST",
-        "depth_km": 175.527,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7v",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "103 km W of Attu Station, Alaska",
-        "time": "11/10 07:03 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7h",
         "tsunami": 0
       }
     ]
@@ -759,32 +759,32 @@
     "default_channel_id": "stream_dw"
   },
   "forex": {
-    "timestamp": "11/11 02:44 JST",
+    "timestamp": "11/11 03:24 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.78,
-      "change": 0.49,
-      "change_pct": 0.31,
+      "rate": 158.8,
+      "change": 0.51,
+      "change_pct": 0.32,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.07,
-      "change": 0.62,
-      "change_pct": 0.35,
+      "rate": 177.17,
+      "change": 0.72,
+      "change_pct": 0.41,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.07,
-      "change": 0.62,
-      "change_pct": 0.35
+      "rate": 177.17,
+      "change": 0.72,
+      "change_pct": 0.41
     }
   },
   "airports": [
@@ -837,35 +837,80 @@
   "weather": {
     "cities": [
       {
+        "name": "ベルリン (首都)",
+        "name_en": "Berlin",
+        "is_capital": true,
+        "lat": 52.52,
+        "lon": 13.405,
+        "temp": 3.6,
+        "apparent_temp": 1.1,
+        "humidity": 91,
+        "wind_speed": 5.4,
+        "wind_gusts": 14.4,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/10(火)",
+            "temp_max": 4.8,
+            "temp_min": 2.3,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/11(水)",
+            "temp_max": 4.7,
+            "temp_min": 1.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 5.8,
+            "temp_min": 2.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ミュンヘン (バイエルン)",
         "name_en": "Munich",
         "is_capital": false,
         "lat": 48.1351,
         "lon": 11.582,
-        "temp": 7.2,
-        "apparent_temp": 5.3,
+        "temp": 6.9,
+        "apparent_temp": 4.7,
         "humidity": 95,
-        "wind_speed": 6.6,
-        "wind_gusts": 17.3,
+        "wind_speed": 8.4,
+        "wind_gusts": 19.8,
         "precipitation": 0.0,
-        "weather_code": 61,
-        "weather_label": "🌧️ 雨 (小雨)",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/10(火)",
             "temp_max": 8.3,
-            "temp_min": 6.7,
+            "temp_min": 6.5,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
             "precipitation_mm": 13.9
           },
           {
             "date": "11/11(水)",
-            "temp_max": 12.2,
+            "temp_max": 12.1,
             "temp_min": 6.3,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 7.2
+            "precipitation_mm": 8.3
           },
           {
             "date": "11/12(木)",
@@ -876,58 +921,58 @@
             "precipitation_mm": 9.6
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
-      "name": "ミュンヘン (バイエルン)",
-      "name_en": "Munich",
-      "is_capital": false,
-      "lat": 48.1351,
-      "lon": 11.582,
-      "temp": 7.2,
-      "apparent_temp": 5.3,
-      "humidity": 95,
-      "wind_speed": 6.6,
-      "wind_gusts": 17.3,
+      "name": "ベルリン (首都)",
+      "name_en": "Berlin",
+      "is_capital": true,
+      "lat": 52.52,
+      "lon": 13.405,
+      "temp": 3.6,
+      "apparent_temp": 1.1,
+      "humidity": 91,
+      "wind_speed": 5.4,
+      "wind_gusts": 14.4,
       "precipitation": 0.0,
-      "weather_code": 61,
-      "weather_label": "🌧️ 雨 (小雨)",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/10(火)",
-          "temp_max": 8.3,
-          "temp_min": 6.7,
+          "temp_max": 4.8,
+          "temp_min": 2.3,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 13.9
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/11(水)",
-          "temp_max": 12.2,
-          "temp_min": 6.3,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 7.2
+          "temp_max": 4.7,
+          "temp_min": 1.1,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/12(木)",
-          "temp_max": 11.4,
-          "temp_min": 6.6,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 9.6
+          "temp_max": 5.8,
+          "temp_min": 2.3,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
-      "alert": "気象注意",
-      "alert_badge": "🟡 気象注意",
-      "alert_class": "yellow",
-      "alert_desc": "降雨または視程低下あり。通常行動可能"
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/11 02:44 JST"
+    "timestamp": "11/11 03:24 JST"
   },
   "transit": {
     "status": "ALERT",
@@ -1009,7 +1054,7 @@
         "details": "フランクフルト・ベルリン発着の長距離路線は概ね定常運行中"
       }
     ],
-    "timestamp": "11/11 02:44 JST"
+    "timestamp": "11/11 03:24 JST"
   },
   "lifeline": {
     "status": "NORMAL",

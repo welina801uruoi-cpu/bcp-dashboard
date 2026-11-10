@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 02:43:18",
-  "timestamp_local": "2026-11-11 00:43:18",
+  "timestamp": "2026-11-11 03:24:10",
+  "timestamp_local": "2026-11-11 01:24:10",
   "country": {
     "id": "vietnam",
     "name": "ベトナム",
@@ -289,17 +289,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 18,
-    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
+    "count_24h": 20,
+    "summary": "M5.2 (21 km WNW of Popondetta, Papua New Guinea)",
     "latest": {
-      "mag": 4.8,
-      "place": "20 km SSW of Lata, Solomon Islands",
-      "time": "11/11 00:52 JST",
-      "depth_km": 48.333,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+      "mag": 5.2,
+      "place": "21 km WNW of Popondetta, Papua New Guinea",
+      "time": "11/11 02:36 JST",
+      "depth_km": 124.245,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.2,
+        "place": "21 km WNW of Popondetta, Papua New Guinea",
+        "time": "11/11 02:36 JST",
+        "depth_km": 124.245,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
+        "tsunami": 0
+      },
+      {
+        "mag": 5.2,
+        "place": "Mid-Indian Ridge",
+        "time": "11/11 02:36 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc3",
+        "tsunami": 0
+      },
       {
         "mag": 4.8,
         "place": "20 km SSW of Lata, Solomon Islands",
@@ -402,22 +418,6 @@
         "time": "11/10 10:53 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8d",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 08:45 JST",
-        "depth_km": 175.527,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7v",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "103 km W of Attu Station, Alaska",
-        "time": "11/10 07:03 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7h",
         "tsunami": 0
       }
     ]
@@ -661,14 +661,14 @@
     "default_channel_id": "stream_vtv_live"
   },
   "forex": {
-    "timestamp": "11/11 02:43 JST",
+    "timestamp": "11/11 03:24 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.78,
-      "change": 0.49,
-      "change_pct": 0.31,
+      "rate": 158.8,
+      "change": 0.51,
+      "change_pct": 0.32,
       "direction": "up"
     },
     "local_jpy": {
@@ -677,16 +677,16 @@
       "symbol": "₫",
       "rate": 0.0062,
       "change": 0.0,
-      "change_pct": 0.09,
+      "change_pct": 0.1,
       "direction": "even"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.07,
-      "change": 0.62,
-      "change_pct": 0.35
+      "rate": 177.17,
+      "change": 0.72,
+      "change_pct": 0.41
     }
   },
   "airports": [
@@ -729,11 +729,11 @@
         "is_capital": true,
         "lat": 21.0285,
         "lon": 105.8542,
-        "temp": 15.7,
-        "apparent_temp": 15.9,
-        "humidity": 87,
-        "wind_speed": 6.2,
-        "wind_gusts": 12.6,
+        "temp": 15.6,
+        "apparent_temp": 15.8,
+        "humidity": 88,
+        "wind_speed": 6.4,
+        "wind_gusts": 11.5,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -769,60 +769,15 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
-        "name": "ホーチミン (最大経済都市)",
-        "name_en": "Ho Chi Minh City",
-        "is_capital": false,
-        "lat": 10.8231,
-        "lon": 106.6297,
-        "temp": 25.5,
-        "apparent_temp": 30.9,
-        "humidity": 94,
-        "wind_speed": 6.4,
-        "wind_gusts": 15.1,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/11(水)",
-            "temp_max": 32.1,
-            "temp_min": 24.4,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 5.1
-          },
-          {
-            "date": "11/12(木)",
-            "temp_max": 31.6,
-            "temp_min": 24.7,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 6.4
-          },
-          {
-            "date": "11/13(金)",
-            "temp_max": 30.9,
-            "temp_min": 24.2,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 8.1
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "ダナン (中部主要港湾)",
         "name_en": "Da Nang",
         "is_capital": false,
         "lat": 16.0544,
         "lon": 108.2022,
-        "temp": 23.7,
-        "apparent_temp": 24.2,
-        "humidity": 86,
-        "wind_speed": 26.6,
+        "temp": 23.6,
+        "apparent_temp": 24.0,
+        "humidity": 85,
+        "wind_speed": 26.4,
         "wind_gusts": 50.8,
         "precipitation": 0.2,
         "weather_code": 53,
@@ -865,11 +820,11 @@
       "is_capital": true,
       "lat": 21.0285,
       "lon": 105.8542,
-      "temp": 15.7,
-      "apparent_temp": 15.9,
-      "humidity": 87,
-      "wind_speed": 6.2,
-      "wind_gusts": 12.6,
+      "temp": 15.6,
+      "apparent_temp": 15.8,
+      "humidity": 88,
+      "wind_speed": 6.4,
+      "wind_gusts": 11.5,
       "precipitation": 0.0,
       "weather_code": 2,
       "weather_label": "⛅ 晴れ時々曇り",
@@ -904,7 +859,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/11 02:43 JST"
+    "timestamp": "11/11 03:24 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -933,7 +888,7 @@
         "details": "南北統一鉄道各便平常運行中"
       }
     ],
-    "timestamp": "11/11 02:43 JST"
+    "timestamp": "11/11 03:24 JST"
   },
   "lifeline": {
     "status": "NORMAL",

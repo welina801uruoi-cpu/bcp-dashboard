@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-10 08:47:26",
-  "timestamp_local": "2026-11-10 01:47:26",
+  "timestamp": "2026-11-10 09:18:56",
+  "timestamp_local": "2026-11-10 02:18:56",
   "country": {
     "id": "netherlands",
     "name": "オランダ",
@@ -285,17 +285,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
-    "summary": "M4.7 (103 km W of Attu Station, Alaska)",
+    "count_24h": 18,
+    "summary": "M5 (south of the Fiji Islands)",
     "latest": {
-      "mag": 4.7,
-      "place": "103 km W of Attu Station, Alaska",
-      "time": "11/10 07:03 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7h",
+      "mag": 5,
+      "place": "south of the Fiji Islands",
+      "time": "11/10 08:45 JST",
+      "depth_km": 126.01,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7v",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "south of the Fiji Islands",
+        "time": "11/10 08:45 JST",
+        "depth_km": 126.01,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7v",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "103 km W of Attu Station, Alaska",
@@ -407,19 +415,67 @@
         "depth_km": 24.173,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1f",
         "tsunami": 0
-      },
-      {
-        "mag": 6.4,
-        "place": "30 km WSW of Lata, Solomon Islands",
-        "time": "11/09 12:34 JST",
-        "depth_km": 17,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx16",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "「フアンＣＥＯの恋人」アリス・フアン…中国名しか判明していない「正体不明の人物」(ハンギョレ新聞)",
+        "link": "https://news.yahoo.co.jp/articles/89a1023fdaa94434b1b2727325b4f871d8c5b50c?source=rss",
+        "description": "エヌビディアのジェンスン・フアン最高経営責任者（CEO）が「恋人関係」だと認めたアリス・フアン氏は、中国名が黄楽（ホアン・ルー）であること以外、年齢、出身地、出身校、結婚の有無など、多くが謎に包まれて",
+        "pub_date": "11/10 09:09 JST",
+        "is_priority": false
+      },
+      {
+        "title": "日本、フィリピンにレーダー・無人機を供与…中国牽制に向け安全保障協力を加速(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/5d975114a548097a43e3f539696993264e43f61f?source=rss",
+        "description": "日本がフィリピンにレーダーや無人機などの防衛装備品を供与することにした。東シナ海と南シナ海で軍事活動を拡大する中国を牽制するため、日本とフィリピンが安全保障協力を一段と強化する動きを見せている。日本外",
+        "pub_date": "11/10 09:07 JST",
+        "is_priority": false
+      },
+      {
+        "title": "【社説】ロシアの圧力　JT管理の横暴許されぬ(西日本新聞me)",
+        "link": "https://news.yahoo.co.jp/articles/c9d053bbdbd0b56ed566668b62d84aaa299d3d83?source=rss",
+        "description": "ロシアが現地の日本企業に対し、経営権を実質的に奪う暴挙に出た。断じて許されない措置である。日本政府は欧米諸国などと連携し、撤回させなくてはならない。 ロシアのプーチン大統領は日本たばこ産業（JT）のグ",
+        "pub_date": "11/10 09:01 JST",
+        "is_priority": false
+      },
+      {
+        "title": "コスダック指数 22.76ポイント▲ 661.73(寄り付き)(聯合ニュース)",
+        "link": "https://news.yahoo.co.jp/articles/a23f266421f3731efba0460f47fff947306520cc?source=rss",
+        "description": "コスダック指数 22.76ポイント▲ 661.73(寄り付き)",
+        "pub_date": "11/10 09:01 JST",
+        "is_priority": false
+      },
+      {
+        "title": "総合株価指数 228.37ポイント▲ 5247.22(寄り付き)(聯合ニュース)",
+        "link": "https://news.yahoo.co.jp/articles/3768acf68ddf59f66b99ef77ddc7d532e036f15b?source=rss",
+        "description": "総合株価指数 228.37ポイント▲ 5247.22(寄り付き)",
+        "pub_date": "11/10 09:01 JST",
+        "is_priority": false
+      },
+      {
+        "title": "フランス当局、冷蔵庫へのサイバー攻撃は「イランの犯行」(Forbes JAPAN)",
+        "link": "https://news.yahoo.co.jp/articles/5146d3d3821fba69e7ffa7ebfe03bbc8738ed95b?source=rss",
+        "description": "フランス各地のスーパーマーケットで先月、冷蔵庫が過熱し、数百万ユーロの損害をもたらした大規模なサイバー攻撃を巡り、フランス当局はイランによる犯行と断定した。フランス外務省は9日、国内で発生した「容認で",
+        "pub_date": "11/10 09:00 JST",
+        "is_priority": true
+      },
+      {
+        "title": "ジェンスン・フアン氏の不倫認定に揺れるエヌビディア…株価一時8％急落(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/6a3c1d96e7f47c97b6ebf5e544d96bb2cf67ef23?source=rss",
+        "description": "エヌビディアのジェンスン・フアン最高経営責任者（CEO）が中国の情報機関との関連が疑われる女性企業家との不倫を認めた中で、ニューヨーク証券市場でエヌビディアの株価は6％超以上急落した。9日午前9時40",
+        "pub_date": "11/10 08:55 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ミシェル・スティール駐韓米国大使「米韓同盟の核心は信頼…次世代のために約束守るべき」(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/6fae8480272d63462342bd1ab6c5b449d96806aa?source=rss",
+        "description": "ミシェル・スティール駐韓米国大使は韓米同盟の核心的な価値として信頼を強調しながら「私たちには（次世代のために）約束を履行し、機微な対話を責任を持って扱い、同盟の基盤である信頼を守る責任がある」と述べた",
+        "pub_date": "11/10 08:53 JST",
+        "is_priority": false
+      },
       {
         "title": "米政府当局者、露ウクライナ双方が「水面下では少し柔軟に」　領土問題めぐり(産経新聞)",
         "link": "https://news.yahoo.co.jp/articles/54a4b49d06d10421f25328fc4ffce0a4d87a5ffe?source=rss",
@@ -502,62 +558,6 @@
         "link": "https://news.yahoo.co.jp/articles/fad7a2667050ff9aa330442f65376ae61f3c1a76?source=rss",
         "description": "米国の中間選挙で共和党が連邦上下両院の第一党の座をいずれも失う惨敗を喫したことで、トランプ大統領がイラン戦争をめぐって進むことも退くことも難しい状況に陥っている。さらなる空爆に踏み切れば戦争を拒否した",
         "pub_date": "11/10 08:14 JST",
-        "is_priority": false
-      },
-      {
-        "title": "トランプ氏 イランへの軍事行動「現時点で必要なし」 事態変われば「行動の準備ある」(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/3cef0f9d903f2cd850531920a079a4922472ef49?source=rss",
-        "description": "アメリカのトランプ大統領はイランに対し、現時点で軍事行動に踏み切る必要はないとの認識を示しました。トランプ大統領「現時点では軍事行動はそれほど必要ないように見えるが、事態が変わればいつでも行動できる準",
-        "pub_date": "11/10 08:12 JST",
-        "is_priority": false
-      },
-      {
-        "title": "日本・ペルー首脳会談へ　フジモリ大統領の訪日を発表(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/2f6d127b110ea09638c1a154d4d8e6bfb3caf863?source=rss",
-        "description": "【リマ共同】南米ペルーの大統領府は9日、フジモリ大統領が19日から日本を訪れ、20日に高市早苗首相と会談すると発表した。日系3世のフジモリ氏は7月の大統領就任前から早期訪日に意欲を示していた。大統領と",
-        "pub_date": "11/10 08:12 JST",
-        "is_priority": false
-      },
-      {
-        "title": "仏スーパー冷蔵庫へのサイバー攻撃、イラン革命防衛隊関連組織の犯行と断定　外務省が声明(産経新聞)",
-        "link": "https://news.yahoo.co.jp/articles/6f33354942bd40de4c0a8376813380eef264cf80?source=rss",
-        "description": "【パリ＝三井美奈】フランス外務省は9日、10月に仏国内の大手スーパーなど約700店舗の冷蔵・冷凍設備がサイバー攻撃を受けた事件について、イラン革命防衛隊の関連組織の犯行だとする声明を発表し、イランを強",
-        "pub_date": "11/10 08:09 JST",
-        "is_priority": true
-      },
-      {
-        "title": "「幹細胞論文捏造」黄禹錫氏、UAE国民に(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/735e7aff33c335e8c0539fa7db5b73363814b66b?source=rss",
-        "description": "黄禹錫（ファン・ウソク）博士がアラブ首長国連邦（UAE）の国籍を取得し、韓国国籍を喪失した。9日の官報によると、韓国法務部傘下の清州（チョンジュ）出入国・外国人事務所は、1953年生まれの黄禹錫氏が4",
-        "pub_date": "11/10 08:05 JST",
-        "is_priority": false
-      },
-      {
-        "title": "祭りが終わるとインドを覆った「灰色の恐怖」…PM2．5濃度が基準値の60倍に急上昇(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/736e35a18330bce85ea46043ac6bf52896ee2bea?source=rss",
-        "description": "インド最大のヒンズー教の祭典「ディワリ」を祝う大規模な花火によって、首都ニューデリーの大気汚染が深刻な水準にまで悪化した。一部地域では、微小粒子状物質（PM2．5）の濃度が世界保健機関（WHO）の推奨",
-        "pub_date": "11/10 08:02 JST",
-        "is_priority": false
-      },
-      {
-        "title": "トランプ大統領 イランへの軍事行動「現時点で必要なし」 事態変われば「行動の準備ある」(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/91c65e0a9f8e557035788776e1bdaeabf482e61e?source=rss",
-        "description": "アメリカのトランプ大統領はイランに対し現時点で軍事行動に踏み切る必要はないという認識を示しました。トランプ大統領｢現時点では軍事行動はそれほど必要ないように見えるが、事態が変わればいつでも行動できる準",
-        "pub_date": "11/10 08:00 JST",
-        "is_priority": false
-      },
-      {
-        "title": "韓国主要紙の朝刊ヘッドライン（11月10日）(聯合ニュース)",
-        "link": "https://news.yahoo.co.jp/articles/6b6b8107b41ab31af6f503b717fe147d4b3a041a?source=rss",
-        "description": "＜朝鮮日報＞「特別検察任命法案」可決するや「起訴取り下げ」で本性現した与党＜東亜日報＞法相候補「真相究明に集中」 李大統領事件の起訴取り下げの余地残す ＜中央日報＞革ジャンの裏切り…エヌビディアCEO",
-        "pub_date": "11/10 08:00 JST",
-        "is_priority": false
-      },
-      {
-        "title": "ヘグセス国防長官の弾劾決議案を共和党議員が提出　造反・可決に自信、罷免は困難な見通し(産経新聞)",
-        "link": "https://news.yahoo.co.jp/articles/5e3eecdeaaa3ffff3b60ea60d5e57014c8d1874a?source=rss",
-        "description": "【ワシントン＝杉本康士】米共和党のマシー下院議員は9日、ヘグセス国防長官の弾劾訴追決議案を下院に再提出した。可決には過半数が必要。現在の議会は野党・民主党が圧勝した米中間選挙の結果が反映されておらず、",
-        "pub_date": "11/10 07:57 JST",
         "is_priority": false
       }
     ],
@@ -664,32 +664,32 @@
     "default_channel_id": "stream_nos_live"
   },
   "forex": {
-    "timestamp": "11/10 08:47 JST",
+    "timestamp": "11/10 09:18 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.0,
-      "change": 0.5,
-      "change_pct": 0.32,
-      "direction": "up"
+      "rate": 158.07,
+      "change": -0.22,
+      "change_pct": -0.14,
+      "direction": "down"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.3,
-      "change": 0.47,
-      "change_pct": 0.27,
+      "rate": 177.32,
+      "change": 0.88,
+      "change_pct": 0.5,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.3,
-      "change": 0.47,
-      "change_pct": 0.27
+      "rate": 177.32,
+      "change": 0.88,
+      "change_pct": 0.5
     }
   },
   "airports": [
@@ -717,11 +717,11 @@
         "is_capital": true,
         "lat": 52.3676,
         "lon": 4.9041,
-        "temp": 5.1,
-        "apparent_temp": 2.6,
+        "temp": 5.0,
+        "apparent_temp": 2.3,
         "humidity": 82,
-        "wind_speed": 5.4,
-        "wind_gusts": 6.1,
+        "wind_speed": 6.1,
+        "wind_gusts": 6.5,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -762,11 +762,11 @@
         "is_capital": false,
         "lat": 52.0705,
         "lon": 4.3007,
-        "temp": 3.3,
-        "apparent_temp": 0.8,
+        "temp": 3.2,
+        "apparent_temp": 0.7,
         "humidity": 84,
-        "wind_speed": 3.6,
-        "wind_gusts": 5.4,
+        "wind_speed": 2.9,
+        "wind_gusts": 4.7,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -800,51 +800,6 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "ロッテルダム (世界屈指の港湾)",
-        "name_en": "Rotterdam",
-        "is_capital": false,
-        "lat": 51.9244,
-        "lon": 4.4777,
-        "temp": 5.4,
-        "apparent_temp": 2.9,
-        "humidity": 76,
-        "wind_speed": 4.0,
-        "wind_gusts": 5.4,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/10(火)",
-            "temp_max": 9.4,
-            "temp_min": 3.6,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/11(水)",
-            "temp_max": 7.2,
-            "temp_min": 4.6,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.6
-          },
-          {
-            "date": "11/12(木)",
-            "temp_max": 9.6,
-            "temp_min": 2.7,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.1
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -853,11 +808,11 @@
       "is_capital": true,
       "lat": 52.3676,
       "lon": 4.9041,
-      "temp": 5.1,
-      "apparent_temp": 2.6,
+      "temp": 5.0,
+      "apparent_temp": 2.3,
       "humidity": 82,
-      "wind_speed": 5.4,
-      "wind_gusts": 6.1,
+      "wind_speed": 6.1,
+      "wind_gusts": 6.5,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
@@ -892,7 +847,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/10 08:47 JST"
+    "timestamp": "11/10 09:18 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -921,7 +876,7 @@
         "details": "主要インターシティ平常運行中"
       }
     ],
-    "timestamp": "11/10 08:47 JST"
+    "timestamp": "11/10 09:18 JST"
   },
   "lifeline": {
     "status": "NORMAL",

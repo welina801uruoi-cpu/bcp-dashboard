@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09 23:45:06",
+  "timestamp": "2026-11-10 00:16:24",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -264,18 +264,14 @@
     "notice_items": []
   },
   "transit": {
-    "status": "ALERT",
-    "text": "運行支障あり（在来線: 東海道本線、飯田線、越後線）",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（東海道本線、飯田線、越後線）",
+    "status": "NORMAL",
+    "text": "全線平常運行中",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
-    "troubled_lines": [
-      "東海道本線",
-      "飯田線",
-      "越後線"
-    ],
+    "troubled_lines": [],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
@@ -341,8 +337,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/09 23:46",
+          "text": "なんかソフトバンクから START au END に電話が繋がらない。「おかけになった電話番号は電波の届かない所か〜」ってなるんよ。 どちらか通信 START ..."
+        },
         {
           "time": "11/09 21:18",
           "text": "@10714MEEB7 START au END って常時通信 START 障害 END のイメージ"
@@ -350,10 +350,6 @@
         {
           "time": "11/09 14:50",
           "text": "START au END 通信 START 障害 END 多いのにトップなん？"
-        },
-        {
-          "time": "11/09 14:17",
-          "text": "START au END 5G SAの START 障害 END のとき、 端末側4G固定でもsimカードバージョンの影響からか、通信通話断となった。 同時にA..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -387,19 +383,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/10 00:16",
+          "text": "全キャリア使っているけど、最近の楽天モバイルは START 繋がらない END ところが多い。ドコモも比較的弱いけど、使えないレベルではない。 START au..."
+        },
+        {
+          "time": "11/09 23:46",
+          "text": "なんかソフトバンクから START au END に電話が START 繋がらない END 。「おかけになった電話番号は電波の届かない所か〜」ってなるんよ。 ど..."
+        },
         {
           "time": "11/09 23:23",
           "text": "【災害時、最も重要なのは情報収集と安否確認📶】 メイン回線が START 繋がらない END 時の「通信の保険」として、楽天モバイルを持つ人が増えています📱 3..."
-        },
-        {
-          "time": "11/09 14:43",
-          "text": "マジでドコモは都市部行くと通信ゴミ過ぎるから田舎限定回線 ソフトバンクは山が START 繋がらない END ところが多いから田舎で使うには厳しい START ..."
-        },
-        {
-          "time": "11/09 14:43",
-          "text": "5Gと表示されているし電波も全部立っているがネットは全然 START 繋がらない END 現象がずっと起きている 田舎だから？まじで START au END ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -446,8 +442,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 10,
     "articles": [
+      {
+        "title": "【速報】米原ー姫路の広範囲で運転見合わせ　JR京都線の茨木駅で列車と人が接触(京都新聞)",
+        "summary": "JR西日本のホームページによると、10日午前8時5分ごろ、JR京都線（東海道線）の茨木駅で列車と人が接触した。【地図】茨木駅の位置は この影響で琵琶湖線、JR京都線、JR神戸線（東海道線、山陽線）の米",
+        "pub_date": "11/10 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/4c13d27743e210e05276252901f7b822f1b138b8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "台風32号が小笠原諸島に接近　暴風、高波に警戒(共同通信)",
+        "summary": "強い台風32号は10日、日本の南海上を東寄りに進んだ。小笠原諸島には夜遅くから11日未明にかけて最接近する見通し。気象庁は、暴風やうねりを伴う高波、土砂災害に警戒を呼びかけた。 10日午前6時現在、日",
+        "pub_date": "11/10 08:55 JST",
+        "link": "https://news.yahoo.co.jp/articles/80396bb8303502039e276ff593c1d2dd7fe0e226?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "【速報】JR京都線・神戸線で運転見合わせ 茨木駅で列車が乗客と接触(読売テレビ)",
         "summary": "JR西日本によりますと、10日午前8時07分ごろ、JR京都線の茨木駅で、野洲行きの新快速列車が乗客と接触しました。現在、琵琶湖線の米原～京都間、JR京都線の京都～大阪間、JR神戸線の大阪～姫路間で順次",
@@ -513,12 +525,20 @@
         "is_disaster": true
       },
       {
-        "title": "大地震エネルギー蓄積か 日本海溝",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/09 22:37 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6601961?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
+        "title": "【近畿の天気】10日（火）朝　大阪は雨のち晴れ　最高気温はきのう9日と同じくらいのところが多い予想(読売テレビ)",
+        "summary": "11月10日（火）朝の近畿地方の天気です。詳しくは天気動画をご覧ください。",
+        "pub_date": "11/10 09:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/3aa69e82c55658d08f0ca58d6f8c47f6053495f3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "日米外相、ICC巡り意見交換　パリで面会、中間選挙後初(共同通信)",
+        "summary": "【パリ共同】茂木敏充外相は9日（日本時間同日）、訪問先のフランス・パリでルビオ米国務長官と面会し、米政権による国際刑事裁判所（ICC、赤根智子所長）への制裁対象指定などを巡り意見交換した。法の支配を重",
+        "pub_date": "11/10 08:48 JST",
+        "link": "https://news.yahoo.co.jp/articles/f53cd68f17671241690eac56833bc1734b72b5f3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "防衛、外交力強化へ自・維が協議　非核三原則、原潜の保有が焦点(共同通信)",
@@ -543,33 +563,9 @@
         "link": "https://news.yahoo.co.jp/articles/7513d2f58907a0caac3d0764fe679702219b3462?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "親や友人に失業中だとバレたくない…中国の若者が｢1日700円～1200円｣払って通う\"ニセ出社\"ビジネスの正体(プレジデントオンライン)",
-        "summary": "中国の若者はどんな日常を過ごしているのか。明治大学講師の近藤大介さんは「知人の中国の大手経済紙幹部によれば、まともに就職できている若者が全体の2割弱だという。大学生、大学院生は就職で苦労しているようだ",
-        "pub_date": "11/10 08:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/998de202037d1a580da18543e28a1833c8ff9019?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【GINZA SIXスプレー噴射】いったい何のために…中国籍の“実行犯”が逮捕されてもなお残る謎(FRIDAY)",
-        "summary": "今年5月25日の白昼に銀座エリア最大の商業施設『GINZA SIX』で起きた異臭騒ぎ。「刺激臭がする」との通報で、大型特殊救急車「スーパーアンビュランス」や消防車などあわせて59台が出動する事態となっ",
-        "pub_date": "11/10 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/dcb73eac2699ef5a797124663a95daf40428bca6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「裏社会でいま一番の人気商材」池袋で2690万円相当が強奪…ポケモンカードが狙われる「理由」(FRIDAY)",
-        "summary": "10月29日、朝8時ちょうどに池袋署から姿を現した森海燈容疑者(24)は、マッシュヘアの若い男だった。一見、おとなしそうに見えるが、鋭い目線を報道のカメラへ投げる。検察へ向かうバスに乗り込むために横を",
-        "pub_date": "11/10 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/2cd22b4b407808e0b915f5f8665d490ac78a4907?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 08:44:21 JST"
+    "last_updated": "2026-11-10 09:15:39 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -612,10 +608,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "cTKubK2V_oA",
+        "video_id": "Zgd58Uf16hU",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/cTKubK2V_oA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=cTKubK2V_oA"
+        "embed_url": "https://www.youtube.com/embed/Zgd58Uf16hU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Zgd58Uf16hU"
       },
       {
         "id": "stream_annnews",

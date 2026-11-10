@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 22:06:00",
+  "timestamp": "2026-11-10 22:48:52",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -91,11 +91,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-10 22:23",
-    "place": "熊本県天草・芦北地方",
-    "magnitude": "2.5",
+    "time": "2026-11-11 07:36",
+    "place": "岩手県内陸南部",
+    "magnitude": "2.9",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-11 07:36",
+        "place": "岩手県内陸南部",
+        "shindo": "1",
+        "magnitude": "2.9",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-10 22:23",
         "place": "熊本県天草・芦北地方",
@@ -158,13 +165,6 @@
         "shindo": "1",
         "magnitude": "4.5",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-09 13:52",
-        "place": "茨城県沖",
-        "shindo": "3",
-        "magnitude": "5.9",
-        "maxScale": 30
       }
     ]
   },
@@ -253,10 +253,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、濃霧注意報",
+        "summary": "濃霧注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       }
     ]
@@ -458,8 +458,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 5,
     "articles": [
+      {
+        "title": "額に包丁が深々と刺さったまま…「犯人のメッセージ性がうかがえる」元刑事らも驚く異質な手口、住民が感じた“異変”も 11年未解決・湯河原殺人放火事件の謎(ABEMA TIMES)",
+        "summary": "2015年4月21日、神奈川県湯河原町の住宅で火災が発生し、住人の平井美江さん（当時66）が遺体で見つかった。平井さんは頭部や顔に複数の傷を負い、額には包丁が刺さっていた。警察は殺人・放火事件として捜",
+        "pub_date": "11/11 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/8669df4c9dc088c699282eb70d5c0f4bd02ea08a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "19億円詐欺事件 『第一生命』トップセールス ″伝説の生保レディ″はなぜ闇落ちしたのか？(FRIDAY)",
         "summary": "被害総額19億円——空前の巨額詐欺事件を引き起こしながら、動機などを一切語らぬまま鬼籍に入った″伝説の生保レディ″がいる。第一生命のトップセールスゆえに「女帝」と称された女はなぜ、晩節を汚してしまった",
@@ -485,30 +493,6 @@
         "is_disaster": true
       },
       {
-        "title": "台風32号　小笠原諸島は今日11日夕方にかけて高波に警戒　台風は次第に遠ざかる(日本気象協会tenki.jp)",
-        "summary": "今日11日(水)、台風32号は小笠原諸島から次第に遠ざかるでしょう。小笠原諸島で予想される波の高さは6メートルと、大しけとなる所がありそうです。今日11日(水)の夕方にかけて、うねりを伴った高波に警戒",
-        "pub_date": "11/11 05:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/edb63d6680031a2d6cc2b44912679c9974806a7c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "徳島・阿波市長　詐欺の疑いで逮捕…事故修理費を“上乗せ”か(テレビ朝日系（ANN）)",
-        "summary": "現職の市長が詐欺の疑いで逮捕されるという異例の事態。徳島県阿波市の町田寿人市長（69）は、自身が起こした交通事故の修理費用を、市の工事代金に上乗せした疑いが持たれています。【画像】徳島・阿波市長 詐欺",
-        "pub_date": "11/11 00:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/a1b4a2b7f08bf792690546fdb84a8ee5fa067e68?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "東日本大震災から15年8か月(レスキューナウニュース)",
-        "summary": "11月11日、東日本大震災が発生してから15年8か月◆人的被害・避難者数・避難指示（避難指示 更新なし）・2011年3月11日、国内最大規模となるM9.0の地震が発生し、大津波により東北地方の太平洋沿",
-        "pub_date": "11/11 00:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/39fd4c9447194a0fe196b298a3051be369169476?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "女性搬送の救急車事故 病院で死亡",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/11 06:27 JST",
@@ -517,71 +501,87 @@
         "is_disaster": true
       },
       {
-        "title": "簗氏「予算カット」発言の余波、地元の議会が抗議　改めて考える、国会議員の役割は？(withnews by 朝日新聞)",
-        "summary": "簗（やな）和生・前農林水産相の「予算カット」発言が政治や行政への不信感をもたらしたなか、新年度予算の大枠が決まる年末に向け、地方自治体の国への要望活動が本格化しています。地域の実情を伝え、優先的に予算",
-        "pub_date": "11/11 07:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/dc1dfae57b0a48271e3c2ba84a091a26577d3d86?source=rss",
+        "title": "朝は今季一番の冷え込み　日中は広く晴れて寒さ和らぐ　今日11日(水)の天気(日本気象協会tenki.jp)",
+        "summary": "今日11日(水)の朝は、多くの所で今季一番の冷え込みとなりました。日中は高気圧に覆われて広い範囲で晴れるでしょう。最高気温は昨日より高くなり、厳しい寒さは少し和らぎそうです。",
+        "pub_date": "11/11 07:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/b8a674d8f2f5d6e91ac7c3109013df8235dfffab?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「輝かしいサウンド」鹿児島・星峯西小の金管バンド　全国初出場で金賞　次はフロア部門で2つ目に挑戦(FNNプライムオンライン)",
-        "summary": "10月に開かれた全日本小学生バンドフェスティバルで、鹿児島市の星峯西小学校金管バンドがステージ部門に初出場し、金賞を獲得した。快挙の裏には、一人一人の音を丁寧にそろえる日々の積み重ねがあった。実は挑戦",
-        "pub_date": "11/11 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/413a16680e3b8be0774219f05f9933b40e4d8496?source=rss",
+        "title": "小学生の作品にも「AIくさい」　批判を呼び込む“犬笛“と正義の暴走、疑いが攻撃に変わる社会(AERA DIGITAL)",
+        "summary": "「AIくさい」。生成AIの使用を疑うこの一言が、作品や作者への批判を呼び込んでいる。その矛先は、企業やアーティストだけでなく、小学生にまで向けられた。10月には、福島県喜多方市のポスターコンクールで、",
+        "pub_date": "11/11 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/d44d1572365855d5c42d98f560de10bf9034065e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「アメリカは実はかなり遅れてやって来た」　歴史家が語る、知られざる「リベラル」の歴史(AERA DIGITAL)",
-        "summary": "リベラリズムは、英米の専売特許ではない。本書で米ニューヨーク市立大学教授のヘレナ・ローゼンブラットは、その言葉を古代ローマまでさかのぼって掘り起こす。危機のたびに自らを作り替えてきた思想の、来たるべき",
-        "pub_date": "11/11 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/8a4f8fa5f9c076b88f3bc2e68dcebf24906de782?source=rss",
+        "title": "「部長もCCに入れてやったよ」 　部下への叱責メールで人間関係は大荒れに… やり方が汚い？　メールの「CCハラスメント」の境界線(AERA DIGITAL)",
+        "summary": "普段の仕事で何げなく使う、メールの「CC」。便利な情報共有の手段だが、使い方によっては相手に不安やストレスを与えたり、人間関係のトラブルにつながったりすることもある。中には「CCハラスメント」と受け止",
+        "pub_date": "11/11 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/abcf56172e22b8c6551a961958d9b42fb3fc23d4?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "12日の天気（西日本）(共同通信)",
-        "summary": "◆大阪 晴れ◆京都 晴れ◆広島 晴れ◆高松 晴れ時々曇り◆福岡 晴れ◆鹿児島 晴れ◆那覇 晴れ時々曇り",
-        "pub_date": "11/11 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/fd97e2f75a042e928b9566bb200529ae923847fe?source=rss",
+        "title": "スマホよりカフェインに注意？　寝酒、中途覚醒…年齢とともに変わる快眠の“敵”(AERA DIGITAL)",
+        "summary": "若いころは朝まで眠れたのに、夜中に目が覚めるようになった。年齢とともに眠りはどう変わり、何が安眠を遠ざけるのか。身近な習慣に潜む落とし穴と、睡眠をめぐる思い込みを専門家に聞いた。AERA 2026年1",
+        "pub_date": "11/11 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/141f4356cb71a00f7d1394b6c65b7c03f67ded27?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「VIVANT」鳥取砂丘ロケの立役者は民藝運動家！？緑化運動反対→保護活動に尽力した男とは(日刊スポーツ)",
-        "summary": "鳥取県は現在、8日に映画化が発表された人気連続ドラマのTBS系日曜劇場「VIVANT」のロケ地として盛り上がりを見せている。TVer（ティーバー）で公開された撮影の舞台裏では、最終回に登場した砂漠のシ",
-        "pub_date": "11/11 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/3ab09d5432f51aef52d0dd6f78fdc0e32f853b75?source=rss",
+        "title": "睡眠不足かも？　「どこでもすぐ眠れる人」は要注意　知らぬ間にたまる「睡眠負債」(AERA DIGITAL)",
+        "summary": "夜中に目が覚める。土日は寝だめ。それでも電車ではすぐ眠ってしまう。そんな習慣の裏に、知らぬ間にたまった「睡眠負債」が隠れているかもしれない。スマホや寝酒、カフェインを見直し、眠りを整える手がかりを探る",
+        "pub_date": "11/11 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/119cd94e9957fff241320a3bc9c06e2894236bf9?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「VIVANT県」鳥取は酒処…「谷本酒店」の矜持「それだけじゃダメで…」1950年創業(日刊スポーツ)",
-        "summary": "鳥取県は現在、8日に映画化が発表された人気連続ドラマのTBS系日曜劇場「VIVANT」のロケ地として盛り上がりを見せている。TVer（ティーバー）で公開された撮影の舞台裏では、最終回に登場した砂漠のシ",
-        "pub_date": "11/11 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/1afc8cf0e027c3b258dd5b87931685475b214d50?source=rss",
+        "title": "【動画】11日の天気 - 日中は広く日差しの温もりあり　朝は北海道で－20℃未満に　路面の凍結注意（11日7時更新）(ウェザーマップ)",
+        "summary": "きょう11日(水)は高気圧に覆われて、晴れる所が多いでしょう。朝は冷え込みが厳しくなりましたが、日中は日差しの力できのう10日(火)よりもやや過ごしやすくなりそうです。",
+        "pub_date": "11/11 07:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/f8b354300bd575deead94d4fddbd40355141aa21?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「VIVANT県」鳥取で「聖地巡礼」した後は高温自慢の日乃丸温泉でホカホカ、創業約100年(日刊スポーツ)",
-        "summary": "鳥取県は現在、8日に映画化が発表された人気連続ドラマのTBS系日曜劇場「VIVANT」のロケ地として盛り上がりを見せている。TVer（ティーバー）で公開された撮影の舞台裏では、最終回に登場した砂漠のシ",
-        "pub_date": "11/11 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/bf684183f14a1df82b70708e300d1681c1035f01?source=rss",
+        "title": "倒産危機がむしろトヨタを強くした…今や世界がマネする｢トヨタ生産方式｣を決定づけた76年前の分岐点(プレジデントオンライン)",
+        "summary": "トヨタは、ムダを徹底的に排除する独自の生産管理システムによって世界的企業に成長した。この生産方式はどうやって確立されたのか。ビジネスモデル研究家の古市大三さんの著書『ビジネスモデル進化論』(秀和システ",
+        "pub_date": "11/11 07:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/aa61d656afc1fae4fef82be11cbed8c83faab8d7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「VIVANT県」鳥取を代表する写真家池本喜巳さん「鳥取で生まれ育ち、鳥取撮って世界に…」(日刊スポーツ)",
-        "summary": "鳥取県は現在、8日に映画化が発表された人気連続ドラマのTBS系日曜劇場「VIVANT」のロケ地として盛り上がりを見せている。TVer（ティーバー）で公開された撮影の舞台裏では、最終回に登場した砂漠のシ",
-        "pub_date": "11/11 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/725860b7a305fa740a81dcd0a828b6701274dace?source=rss",
+        "title": "10時間半かけても料金は3万円…フランス美大首席のネイリスト(50)が採算度外視で爪に描いた\"光るデコトラ\"(プレジデントオンライン)",
+        "summary": "ネイル産業の市場規模が拡大している。製品だけでなく、サロン等のサービスも好調だ。そんな中で、フランスの美大を首席で卒業した異端のネイリストが注目を集めている。ジャーナリストの高野真吾さんが取材した――",
+        "pub_date": "11/11 07:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/68e586d409b03c99618c5d1fa5adde2e838200a5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "《“かぶり回避”三者三様のハーフアップ》紀子さまは“落ち着きと品格”、愛子さまは“華やかでフェミニン”、佳子さまは…「前髪、毛先、ボリューム感」の工夫とは(NEWSポストセブン)",
+        "summary": "11月4日、天皇皇后両陛下は皇居・宮殿の連翠で、文化勲章受章者や文化功労者らを招いた茶会を催された。秋篠宮ご夫妻や天皇皇后両陛下の長女・愛子さま、秋篠宮ご夫妻の次女・佳子さまも出席され、皇族方は出席者",
+        "pub_date": "11/11 07:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/30c89a3fb8da7af426e9dcae902e0fc9b8b18330?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【山口組分裂「10年抗争」秘録】神戸山口組に鞍替えしようとしたら…長野県で発生した最初の殺人事件の裏側　“ヤクザを観光資源に使ってきた”南信州の歴史(NEWSポストセブン)",
+        "summary": "音が鳴る……暴力団社会では抗争事件をこう表現する。そう、ついに音が鳴ったのだ。神戸から遠く離れた長野県で命を落とす者が現れた。山口組を誰よりも近くで見てきたライターの鈴木智彦氏が綴る。【第10回。前後",
+        "pub_date": "11/11 07:13 JST",
+        "link": "https://news.yahoo.co.jp/articles/d917fc2480fdcc94c932043f101eae9eb220080f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-11 07:05:26 JST"
+    "last_updated": "2026-11-11 07:48:16 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -602,10 +602,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "U_XoJJ8D1GI",
+        "video_id": "PpDWE8mD4WM",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/U_XoJJ8D1GI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=U_XoJJ8D1GI"
+        "embed_url": "https://www.youtube.com/embed/PpDWE8mD4WM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=PpDWE8mD4WM"
       },
       {
         "id": "stream_tbsnews",

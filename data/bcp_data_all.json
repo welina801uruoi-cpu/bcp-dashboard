@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 11:55:17",
+  "timestamp": "2026-11-10 12:41:41",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "ALERT",
-    "summary": "【警報発表: 1地域】東京（波浪警報、暴風警報） ／ 他32地域で注意報",
+    "summary": "【警報発表: 1地域】東京（暴風警報、波浪警報） ／ 他31地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 1,
-    "notice_count": 32,
+    "notice_count": 31,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -450,10 +450,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
-          "低温注意報"
+          "低温注意報",
+          "なだれ注意報"
         ],
-        "summary": "なだれ注意報、低温注意報",
+        "summary": "低温注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -464,10 +464,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
-          "低温注意報"
+          "低温注意報",
+          "なだれ注意報"
         ],
-        "summary": "なだれ注意報、低温注意報",
+        "summary": "低温注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -478,12 +478,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "低温注意報",
           "乾燥注意報",
+          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、低温注意報、乾燥注意報、波浪注意報",
+        "summary": "低温注意報、乾燥注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -641,15 +641,15 @@
         "status": "ALERT",
         "emg_warns": [],
         "warns": [
-          "波浪警報",
-          "暴風警報"
+          "暴風警報",
+          "波浪警報"
         ],
         "notices": [
           "強風注意報",
-          "雷注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "波浪警報、暴風警報、強風注意報、雷注意報、波浪注意報",
+        "summary": "暴風警報、波浪警報、強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -793,13 +793,11 @@
         "code": "25",
         "name": "滋賀県",
         "short_name": "滋賀",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "強風注意報"
-        ],
-        "summary": "強風注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/25/"
       },
       {
@@ -1004,11 +1002,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "乾燥注意報",
+          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、乾燥注意報、波浪注意報",
+        "summary": "乾燥注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -1061,11 +1059,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "霜注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、霜注意報、波浪注意報",
+        "summary": "霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1093,15 +1090,17 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線46路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、石巻線等 ／ 新幹線: 山陽新幹線（その他）、北陸新幹線（列車遅延））",
+    "text": "運行支障あり（在来線42路線: 伯備線、姫新線、呉線等 ／ 新幹線: 山陽新幹線（その他）、北陸新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、石巻線、山田線、大湊線 等 計46路線）",
+    "line_text": "運行支障あり（伯備線、姫新線、呉線、美祢線、石巻線 等 計42路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、北陸新幹線（列車遅延）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
+      "伯備線",
+      "姫新線",
+      "呉線",
+      "美祢線",
       "石巻線",
       "山田線",
       "大湊線",
@@ -1109,43 +1108,37 @@
       "陸羽東線",
       "北上線",
       "津軽線",
+      "久大本線",
       "長崎本線",
       "肥薩線",
-      "山陰本線",
-      "山陽本線",
-      "因美線",
-      "伯備線",
-      "姫新線",
-      "美祢線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
       "琵琶湖線",
       "JR京都線",
       "JR神戸線",
-      "奈良線",
       "きのくに線",
-      "阪急宝塚本線",
       "関西本線",
-      "中央総武線",
-      "宇都宮線",
-      "高崎線",
-      "総武線",
-      "内房線",
-      "外房線",
-      "京成本線",
-      "ブルーライン",
-      "関東鉄道常総線",
-      "成田線",
-      "久留里線",
-      "小湊鉄道線",
-      "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
       "東海道本線",
+      "飯田線",
       "長野電鉄線",
+      "ハピラインふくい線",
       "小海線",
       "越後線",
       "九頭竜線",
       "しなの鉄道北しなの線",
       "大井川鉄道大井川本線",
-      "万葉線"
+      "万葉線",
+      "横須賀線",
+      "中央総武線",
+      "総武線",
+      "内房線",
+      "外房線",
+      "成田線",
+      "関東鉄道常総線",
+      "久留里線",
+      "小湊鉄道線",
+      "いすみ鉄道線",
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1224,7 +1217,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 46,
+    "target_lines_count": 42,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1239,7 +1232,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】北海道・秋田・千葉・長野で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・長野で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1325,7 +1318,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/10 11:42",
@@ -1387,7 +1380,15 @@
     "disaster_count": 4,
     "articles": [
       {
-        "title": "【次は “越境台風”か】トロピカルストームPENAが「日付変更線」を超え　金曜日には「台風33号」発生か【雨風シミュレーション21日（土）まで/全国各都市の週間予報】「今後の台風情報に注意」(MBC南日本放送)",
+        "title": "総武線(快速)で人身事故 運転見合わせ(レスキューナウニュース)",
+        "summary": "津田沼～稲毛駅間で発生した人身事故の影響で、総武線(快速)は東京～千葉駅間の運転を見合わせています。振替輸送を行っています。",
+        "pub_date": "11/10 21:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/2696a6c689622854405d216e4f8232593d3e79d9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【次は “越境台風”か】金曜には「台風33号」に?トロピカルストームPENAが「日付変更線」を超える予想【雨風シミュレーション21日（土）まで/全国各都市の週間予報】「今後の台風情報に注意」(MBC南日本放送)",
         "summary": "■【トロピカルストーム】日付変更線の東側にあるが・・・ハワイの南西にある「トロピカルストームPENA」が日付変更線を超えてきそうです。「台風28号」に続き、今年2つ目の「越境台風」となる可能性がでてき",
         "pub_date": "11/10 20:30 JST",
         "link": "https://news.yahoo.co.jp/articles/b01f65450fa42df8bfca8c34a19d88fec8da6dd3?source=rss",
@@ -1411,12 +1412,60 @@
         "is_disaster": true
       },
       {
-        "title": "奈良で“シカ被害”過去最多　搬送者の7割強が外国人(テレビ朝日系（ANN）)",
-        "summary": "シカによる「人的被害」が過去最多です。観光客「ここ（シカに）かみ付かれた。せんべい持ってたから」「利口になって、せんべいを買った人を覚えてるから、ずっと後を付いてくる」 市立奈良病院によりますと、奈良",
-        "pub_date": "11/10 19:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/6599181c23a494530965e6463f797fa1107117a1?source=rss",
+        "title": "小渕優子氏「私をクビにしてくださいと」自民税調副会長“更迭”も「耳の痛いこと言うのも必要」(日刊スポーツ)",
+        "summary": "自民党の小渕優子元経産相は10日、自民党本部で報道陣の取材に応じ、高市早苗首相肝いりの消費税減税法案の衆議院採決で、党の方針に反して採決前に棄権したことを受け、党税制調査会の副会長ポストを退任するよう",
+        "pub_date": "11/10 21:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/40d42795111680d83d48a9653692ea657e1c33bd?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "函館市長が再選出馬表明　「誇りと自信取り戻す」(共同通信)",
+        "summary": "北海道函館市の大泉潤市長（60）は10日、任期満了に伴う来春の市長選に再選を目指して立候補する意向を表明した。市内で開かれた市政報告会で「財政の立て直しに正面から向き合い、函館に誇りと自信を取り戻して",
+        "pub_date": "11/10 21:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/ae925986e226be59e079ae9f366c81f2e4b94650?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「あ！ひよこ！」佳子さま驚かれ周囲も笑顔に…工芸品イベントで絵付けにも挑戦「口が難しいですね」ひつじの人形の絵付けに真剣なまなざし(ABEMA TIMES)",
+        "summary": "佳子さまは11月8日、横浜市で開かれた伝統工芸品の展示イベントに出席された。会場では、地元・神奈川県に伝わる「箱根小田原からくり細工」の体験に挑戦。卵型の作品を手に取り、本物の卵を割るような手つきでか",
+        "pub_date": "11/10 21:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/4a61773b88714c3a0b0d6472ff711af4e267f02e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "複数の便の離着陸に影響…中部空港で離陸する貨物機から部品が落下 撤去のため滑走路を一時閉鎖も安全が確認され再開(東海テレビ)",
+        "summary": "10日夕方、中部国際空港で離陸する貨物機から部品が落下しました。撤去作業のため一時滑走路が閉鎖され、一部の便の離着陸に影響が出ました。 中部国際空港などによりますと、10日午後4時すぎ、貨物機が離陸す",
+        "pub_date": "11/10 21:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/57a2ee2b35471d7115dc3ea6228dc398ea4626b9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "佳子さま、キャメル色×黒のシックな装いの“大人コーデ” 伝統工芸品の巧妙な仕掛けに驚き「すごい」…人形の色付けにも挑戦(ABEMA TIMES)",
+        "summary": "11月8日、秋篠宮家の次女・佳子さまは、横浜市で開催されている伝統工芸品の展示会を視察された。この日の装いは、キャメルのスーツに黒のインナーを合わせたシックな“大人コーデ”のスタイル。【映像】佳子さま",
+        "pub_date": "11/10 21:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/a2f6bda15efb44548ebb95992441fc2a234b6d0c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "〔急性呼吸器感染症定点当たり報告数まとめ〕全国の定点報告数61.00人・平均上回る水準(2026年第44週)(レスキューナウニュース)",
+        "summary": "11月10日、国立健康危機管理研究機構は都道府県別の急性呼吸器感染症（ARI）の定点当たり報告数を発表しました。今週の発表によると、第44週（10/26～11/1）の全国の急性呼吸器感染症の定点当たり",
+        "pub_date": "11/10 21:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/26f2760d7c318881d21347dbad9d3de2524adaac?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "神戸市の学生向けサイトでメールアドレス2万730件漏洩(産経新聞)",
+        "summary": "神戸市は10日、運営している学生向けのサイト「BE KOBE学生ナビ」で情報漏洩（ろうえい）があったと発表した。サイトが活用していた外部配信サービス「アララメッセージ」への第三者による不正アクセスが原",
+        "pub_date": "11/10 20:54 JST",
+        "link": "https://news.yahoo.co.jp/articles/31027600d6dd98a226926b5382df27965f946ae7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "「私の訴えに正面から応えた判決を聞きたい」 角川元会長が控訴審の早期開始を求め会見(ビデオニュース・ドットコム)",
@@ -1449,65 +1498,9 @@
         "link": "https://news.yahoo.co.jp/articles/35db34fbae6792a1340f677d7980577edc0c0ba8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "防衛力強化は「相手の目的達成を拒否する力」　3文書改定で防衛省方針(テレビ朝日系（ANN）)",
-        "summary": "安保3文書の年内改定に向け、政府は「相手の目的達成を拒否する力」を持つことを目指して防衛力を強化する考えを与党側に示しました。 10日の与党の実務者協議で防衛省が示した資料では、防衛力の基本的な考え方",
-        "pub_date": "11/10 20:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/0d8a4062381e700cece2afb9c5ecc2f3dc39bfa9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "天皇陛下と愛子さま “父娘リンクコーデ”紺と白のバイカラーでお揃い？ソフトテニス観戦で陛下が優しくエスコートされるほっこりシーンも(ABEMA TIMES)",
-        "summary": "天皇陛下と長女の愛子さまが、全日本ソフトテニス選手権大会を観戦するため、有明コロシアムを訪問された。会場入りされた際、陛下が愛子さまを座席まで優しくエスコートされる一幕もあった。【映像】陛下が愛子さま",
-        "pub_date": "11/10 20:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/0aaea43916b2dc91caa1aabf78e32df5e56264b6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "鳥取ガス、前社長を提訴　無断で3千万円送金か(共同通信)",
-        "summary": "取締役会に無断で、自身が設立した会社に資金を送金させたとして、鳥取ガス（鳥取市）が児嶋太一前社長に3千万円の損害賠償を求めて鳥取地裁に提訴したことが10日、分かった。同社は個人口座への10億円超の無断",
-        "pub_date": "11/10 20:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/4a9be587b8915e1420e0f00731e731031172e92d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "小渕優子氏ら“棄権議員”を更迭(ABEMA TIMES)",
-        "summary": "消費減税関連法案の採決を棄権した小渕元経産大臣が党税調から更迭です。 小渕氏は、鈴木幹事長から党の税制調査会の役職を辞任するよう求められましたが、拒否したため、小野寺税調会長が更迭を決めました。【映像",
-        "pub_date": "11/10 20:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/2936ede7f94b33714ca1e8e3d7b81ee06bf26dc1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "消費税減税法案採決で「戒告処分」受けた棄権4人　元自民党事務局長はどう見た？「こっちのほうが正論でしょ」(J-CASTニュース)",
-        "summary": "消費税減税法案の衆院採決を棄権した石破茂前首相ら4人に対し、自民党は2026年11月9日、「戒告処分」としたが、自民党元事務局長の久米晃さん（72）は、取材に対し、「戒告された人の退席理由のほうが、よ",
-        "pub_date": "11/10 20:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/e0af91fce3d6bd480aa6df0218f45f63ce1c0c7c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "日米共同、侵攻拒否力強化　防衛生産拡大、3文書指針(共同通信)",
-        "summary": "政府が改定する安全保障関連3文書のうち、国家防衛戦略に盛り込む防衛力強化の基本指針が判明した。日米共同で相手の侵攻を阻止する「拒否する能力」の向上や生産基盤の協力拡大、同志国との連携深化を明記した。複",
-        "pub_date": "11/10 20:13 JST",
-        "link": "https://news.yahoo.co.jp/articles/2d2e4b765a4ac172e195348d60df277447765fa7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "東京最低8.9℃　北海道「日本一寒い町」で幻想的風景(テレビ朝日系（ANN）)",
-        "summary": "強烈寒気が居座り続ける北海道。「日本一寒い町」では、この時期ならではの幻想的な風景が。【画像】川湯温泉で知られる弟子屈町の絶景",
-        "pub_date": "11/10 20:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/6a234ba58ded6b10f4b4bdbcd384dff87e77884f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 20:55:14 JST"
+    "last_updated": "2026-11-10 21:41:38 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1539,10 +1532,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "pqula4ZuTcI",
+        "video_id": "x6m7ok5ILA0",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/pqula4ZuTcI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=pqula4ZuTcI"
+        "embed_url": "https://www.youtube.com/embed/x6m7ok5ILA0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=x6m7ok5ILA0"
       },
       {
         "id": "stream_ntvnews",
@@ -1572,10 +1565,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "cQKjabsU-OA",
+        "video_id": "kGG1CaeQ9oM",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/cQKjabsU-OA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=cQKjabsU-OA"
+        "embed_url": "https://www.youtube.com/embed/kGG1CaeQ9oM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=kGG1CaeQ9oM"
       }
     ],
     "cameras": [

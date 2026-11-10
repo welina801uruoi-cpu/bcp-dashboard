@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 23:23:01",
+  "timestamp": "2026-11-10 23:55:39",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -113,11 +113,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-11 07:36",
-    "place": "岩手県内陸南部",
-    "magnitude": "2.9",
+    "time": "2026-11-11 08:33",
+    "place": "熊本県熊本地方",
+    "magnitude": "2.7",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-11 08:33",
+        "place": "熊本県熊本地方",
+        "shindo": "1",
+        "magnitude": "2.7",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-11 07:36",
         "place": "岩手県内陸南部",
@@ -180,13 +187,6 @@
         "shindo": "1",
         "magnitude": "2.3",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-09 14:01",
-        "place": "茨城県沖",
-        "shindo": "1",
-        "magnitude": "4.5",
-        "maxScale": 10
       }
     ]
   },
@@ -218,10 +218,10 @@
           "波浪警報"
         ],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "波浪警報、強風注意報、波浪注意報",
+        "summary": "波浪警報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -316,14 +316,20 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 宇都宮線）",
+    "text": "運行支障あり（在来線: 京浜東北根岸線、宇都宮線、常磐線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（宇都宮線）",
+    "line_text": "運行支障あり（京浜東北根岸線、宇都宮線、常磐線、小田急小田原線、小田急多摩線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [
-      "宇都宮線"
+      "京浜東北根岸線",
+      "宇都宮線",
+      "常磐線",
+      "小田急小田原線",
+      "小田急多摩線",
+      "都営浅草線",
+      "東京メトロ千代田線"
     ],
     "troubled_shinkansen": [],
     "shinkansen_details": [
@@ -537,8 +543,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 4,
+    "disaster_count": 3,
     "articles": [
+      {
+        "title": "県道で80代女性死亡　自転車で衝突後逃走か　ベトナム国籍の男逮捕　茨城・常総市(テレビ朝日系（ANN）)",
+        "summary": "茨城県常総市の県道で80代の女性が倒れているのが見つかり死亡した事件で、警察はひき逃げなどの疑いでベトナム国籍の男を逮捕しました。 9日午後5時すぎ、常総市水海道高野町の県道で、近くに住む鶴見純子さん",
+        "pub_date": "11/11 08:49 JST",
+        "link": "https://news.yahoo.co.jp/articles/81cc861337736f2ec2ce175a2a3fc86bcea53a2e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "額に包丁が深々と刺さったまま…「犯人のメッセージ性がうかがえる」元刑事らも驚く異質な手口、住民が感じた“異変”も 11年未解決・湯河原殺人放火事件の謎(ABEMA TIMES)",
         "summary": "2015年4月21日、神奈川県湯河原町の住宅で火災が発生し、住人の平井美江さん（当時66）が遺体で見つかった。平井さんは頭部や顔に複数の傷を負い、額には包丁が刺さっていた。警察は殺人・放火事件として捜",
@@ -556,20 +570,20 @@
         "is_disaster": true
       },
       {
-        "title": "【全国の海溝型地震一覧】巨大地震・津波の「発生確率・リスク」まとめ　南海トラフ・首都圏・東北・北海道・南西諸島など…「低確率=安全」ではない(MBC南日本放送)",
-        "summary": "■巨大地震・大津波に備える 全国「海溝型地震」の長期評価まとめ 海溝型の巨大地震は、強い揺れや大津波を引き起こし、広い範囲に甚大な被害を及ぼすおそれがあります。南海トラフや首都圏、北海道から沖縄まで、",
-        "pub_date": "11/11 06:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/4d21facce557566502860cf99509e3357ec54a6a?source=rss",
+        "title": "8つの警察署を分庁舎へ大規模再編　広島県警の狙いは?  人手不足やサイバー犯罪対策の強化など(FNNプライムオンライン)",
+        "summary": "新たな犯罪や課題への対応を強化するため、広島県警が来年大きな組織改革に踏み切ります。県内8つの警察署が分庁舎となる大規模な再編。その狙いを取材しました。【広島県警・大塚 健滋 警務部長】「直面する課題",
+        "pub_date": "11/11 08:46 JST",
+        "link": "https://news.yahoo.co.jp/articles/9dbab7513b969cb1cd8ef706712417265577c7df?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "女性搬送の救急車事故 病院で死亡",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/11 06:27 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602106?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
+        "title": "敵対グループにコンクリートブロックを投げつけたか 愛知・小牧市の商業施設で不良グループ同士が抗争 男2人と男子中学生1人を逮捕 愛知県警小牧署(CBCテレビ)",
+        "summary": "ことし7月、愛知県小牧市の商業施設で抗争を起こしたとして、不良グループに所属する男2人と男子中学生が逮捕されました。【写真を見る】敵対グループにコンクリートブロックを投げつけたか 愛知・小牧市の商業施",
+        "pub_date": "11/11 08:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/4190a6e9d526d9524535ed3259e754741259cfff?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "帰宅途中の25歳女性 路上でショルダーバッグを男に奪われ転倒し軽傷 愛知・阿久比町(CBCテレビ)",
@@ -650,17 +664,9 @@
         "link": "https://news.yahoo.co.jp/articles/d44d1572365855d5c42d98f560de10bf9034065e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "「部長もCCに入れてやったよ」 　部下への叱責メールで人間関係は大荒れに… やり方が汚い？　メールの「CCハラスメント」の境界線(AERA DIGITAL)",
-        "summary": "普段の仕事で何げなく使う、メールの「CC」。便利な情報共有の手段だが、使い方によっては相手に不安やストレスを与えたり、人間関係のトラブルにつながったりすることもある。中には「CCハラスメント」と受け止",
-        "pub_date": "11/11 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/abcf56172e22b8c6551a961958d9b42fb3fc23d4?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-11 08:22:48 JST"
+    "last_updated": "2026-11-11 08:55:21 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -703,10 +709,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "5Pntg9NwDhs",
+        "video_id": "7aJE8WOR3_E",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/5Pntg9NwDhs?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=5Pntg9NwDhs"
+        "embed_url": "https://www.youtube.com/embed/7aJE8WOR3_E?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=7aJE8WOR3_E"
       },
       {
         "id": "stream_annnews",

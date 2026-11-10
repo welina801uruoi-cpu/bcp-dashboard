@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 12:42:24",
+  "timestamp": "2026-11-10 13:48:03",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -84,11 +84,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-10 16:53",
-    "place": "愛媛県南予",
-    "magnitude": "3",
+    "time": "2026-11-10 22:23",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "2.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-10 22:23",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.5",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-10 16:53",
         "place": "愛媛県南予",
@@ -151,13 +158,6 @@
         "shindo": "3",
         "magnitude": "5.9",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-09 13:52",
-        "place": "茨城県沖",
-        "shindo": "-",
-        "magnitude": "5.9",
-        "maxScale": -1
       }
     ]
   },
@@ -173,10 +173,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 4地域】新潟、長野、岐阜、静岡（警報なし）",
+    "summary": "【注意報発表: 3地域】新潟、長野、岐阜（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 4,
+    "notice_count": 3,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -222,13 +222,11 @@
         "code": "22",
         "name": "静岡県",
         "short_name": "静岡",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "波浪注意報"
-        ],
-        "summary": "波浪注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -264,15 +262,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東海道本線、飯田線、越後線）",
+    "text": "運行支障あり（在来線: 中央本線、越後線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東海道本線、飯田線、越後線）",
+    "line_text": "運行支障あり（中央本線、越後線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
-      "東海道本線",
-      "飯田線",
+      "中央本線",
       "越後線"
     ],
     "troubled_shinkansen": [],
@@ -340,19 +337,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/10 13:25",
+          "text": "さっきびっくりしたんやけど、仕事終わってスマホ見たらモバイルのアンテナが切れてる表示になってて、myAuにも全然繋がらんのね。 自宅に着いてから、Wi-Fiでネ..."
+        },
+        {
+          "time": "11/10 13:09",
+          "text": "@MhyuRu 自分は頼んだ人が10月末に起こった START au END の通信 START 障害 END で当選メール届かずで、30thシュリ付きを買い逃..."
+        },
         {
           "time": "11/10 10:10",
           "text": "\\ドコモ・ソフトバンク・ START au END ユーザーへ😊/ 通信 START 障害 END の備えに、楽天モバイルをサブ回線で2台持ちする人が急増中！👇..."
-        },
-        {
-          "time": "11/10 09:54",
-          "text": "携帯キャリアによって、批判と擁護の反応が違うのって不思議じゃないですか？🤔📱 Xを見ていて思うこと。 📱 ドコモ・ START au END など 「電波がつな..."
-        },
-        {
-          "time": "11/10 09:44",
-          "text": "#阪急宝塚線 START 障害 END 復旧はいいものの、大阪梅田駅構内に通勤帰り客がどっさり滞留。当方 START au END 回線だけど激遅になってました..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -363,8 +360,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/10 13:31",
+          "text": "START kddi END ゴミすぎる高い金払って通信 START 障害 END かよ"
+        },
         {
           "time": "11/09 12:00",
           "text": "2022年7月の START KDDI END の通信 START 障害 END は61時間25分続き、音声で約2,316万人、データ通信で775万人以上に影響..."
@@ -372,10 +373,6 @@
         {
           "time": "11/09 11:55",
           "text": "現状別に4Gで困らんし、田舎住みならahamoでも快適だしキャリアの中容量のプランなら最安値だからな START KDDI END も少し前に通信 START ..."
-        },
-        {
-          "time": "11/09 07:21",
-          "text": "@yyak0712 @yamiaka9412_ @muxtuhoi 過去にピンポイントで通信 START 障害 END を起こしてしまっても、その後反省して改善..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -386,7 +383,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/10 11:42",
@@ -445,8 +442,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 4,
+    "disaster_count": 5,
     "articles": [
+      {
+        "title": "タマホーム社員、不正請求　火災保険、数千万円規模か(共同通信)",
+        "summary": "大手住宅メーカーのタマホームの社員が火災保険の保険金を不正請求していたことが10日、関係者への取材で分かった。損害保険会社の指摘で判明し、被害額は数千万円規模になるとみられる。損保側は同社に追加調査を",
+        "pub_date": "11/10 21:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/dff1ee7e975732545fb6dad30ee9a272c98dbe36?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "総武線(快速)で人身事故 運転見合わせ(レスキューナウニュース)",
         "summary": "津田沼～稲毛駅間で発生した人身事故の影響で、総武線(快速)は東京～千葉駅間の運転を見合わせています。振替輸送を行っています。",
@@ -478,6 +483,14 @@
         "link": "https://news.yahoo.co.jp/articles/f33d97df85acd05928fc667a28639eb106515735?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
+      },
+      {
+        "title": "閉山中の富士山 中国観光客遭難か 雪山装備なく登山 8日から連絡とれず 警察など捜索(テレビ朝日系（ANN）)",
+        "summary": "閉山中の富士山で中国からの男性観光客が遭難したとみられ、警察などが捜索しています。 警察によりますと、中国籍の20代の男性は先週、友人とともに来日し、8日午前、富士山の吉田口5合目から1人で登山を開始",
+        "pub_date": "11/10 21:52 JST",
+        "link": "https://news.yahoo.co.jp/articles/f239ad6e18b3c6a0074cc80398c8f4ef4036577f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "小渕優子氏「私をクビにしてくださいと」自民税調副会長“更迭”も「耳の痛いこと言うのも必要」(日刊スポーツ)",
@@ -550,25 +563,9 @@
         "link": "https://news.yahoo.co.jp/articles/434fd4193d8c26b11cb561cbc62a4335108a799c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "防衛力強化は「相手の目的達成を拒否する力」 3文書改定で防衛省方針(テレビ朝日系（ANN）)",
-        "summary": "安保3文書の年内改定に向けて政府は、「相手の目的達成を拒否する力」を持つことを目指して防衛力を強化する考えを与党側に示しました。10日の与党の実務者協議で防衛省が示した資料では、防衛力の基本的な考え方",
-        "pub_date": "11/10 20:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/b15f830123b91c79da918db624a1abe4d36e6e70?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "“メタルの二刀流”で恩返し…金属加工会社の2代目はヘヴィメタルのミュージシャン「日本のモノづくりの素晴らしさを世界へ」(東海テレビ)",
-        "summary": "溶接マスクを外せば、手にするのはギター。愛知県小牧市の町工場を率いる社長が、かつて世界で活動したヘヴィメタルバンドマンとしての経験を武器に、日本のものづくりを世界へ発信しようとしています。【動画で見る",
-        "pub_date": "11/10 20:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/35db34fbae6792a1340f677d7980577edc0c0ba8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 21:41:38 JST"
+    "last_updated": "2026-11-10 22:47:10 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",

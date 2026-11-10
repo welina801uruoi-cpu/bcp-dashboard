@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 03:35:36",
+  "timestamp": "2026-11-10 04:32:12",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -267,10 +267,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "乾燥注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "乾燥注意報"
         ],
-        "summary": "強風注意報、乾燥注意報、波浪注意報",
+        "summary": "強風注意報、波浪注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -298,13 +298,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 長崎本線、肥薩線 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線: 福岡市営空港線、福岡市営箱崎線、長崎本線 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（長崎本線、肥薩線）",
+    "line_text": "運行支障あり（福岡市営空港線、福岡市営箱崎線、長崎本線、肥薩線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [
+      "福岡市営空港線",
+      "福岡市営箱崎線",
       "長崎本線",
       "肥薩線"
     ],
@@ -346,11 +348,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "九州電力送配電: 停電情報なし（九州エリア管内正常）",
+    "power_msg": "九州電力送配電: 【停電発生中】熊本で停電情報を検知",
     "water_msg": "福岡市水道局: 供給安定（平常）",
     "gas_msg": "西部ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -386,25 +388,12 @@
   "sns_voices": [
     {
       "keyword": "au 障害",
-      "status": "NORMAL",
+      "status": "ERROR",
       "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
-      "recent_posts": [
-        {
-          "time": "11/10 00:19",
-          "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方もOK🙆‍♂️ eSIM＋eKYCで最短即日⏱️ 停電・通..."
-        },
-        {
-          "time": "11/09 23:46",
-          "text": "なんかソフトバンクから START au END に電話が繋がらない。「おかけになった電話番号は電波の届かない所か〜」ってなるんよ。 どちらか通信 START ..."
-        },
-        {
-          "time": "11/09 21:18",
-          "text": "@10714MEEB7 START au END って常時通信 START 障害 END のイメージ"
-        }
-      ],
+      "trend_label": "⚠️ 取得失敗",
+      "trend_class": "yellow",
+      "summary": "通信エラー: HTTP Error 504: Gateway Time-out",
+      "recent_posts": [],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
     },
     {
@@ -432,48 +421,22 @@
     },
     {
       "keyword": "au 繋がらない",
-      "status": "NORMAL",
+      "status": "ERROR",
       "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
-      "recent_posts": [
-        {
-          "time": "11/10 03:16",
-          "text": "@oWGjEbM3TV14001 通信が重いときは電源再起動してみると改善されることも📶💡場所問わず START 繋がらない END ような状況でしょうか？📝も..."
-        },
-        {
-          "time": "11/10 00:16",
-          "text": "全キャリア使っているけど、最近の楽天モバイルは START 繋がらない END ところが多い。ドコモも比較的弱いけど、使えないレベルではない。 START au..."
-        },
-        {
-          "time": "11/09 23:46",
-          "text": "なんかソフトバンクから START au END に電話が START 繋がらない END 。「おかけになった電話番号は電波の届かない所か〜」ってなるんよ。 ど..."
-        }
-      ],
+      "trend_label": "⚠️ 取得失敗",
+      "trend_class": "yellow",
+      "summary": "通信エラー: HTTP Error 504: Gateway Time-out",
+      "recent_posts": [],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
     },
     {
       "keyword": "povo 障害",
-      "status": "NORMAL",
+      "status": "ERROR",
       "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
-      "recent_posts": [
-        {
-          "time": "11/10 00:19",
-          "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方もOK🙆‍♂️ eSIM＋eKYCで最短即日⏱️ 停電・通..."
-        },
-        {
-          "time": "11/09 18:40",
-          "text": "デュアルSIMで失敗しない考え方は、主回線と副回線の役割を分けること。 番号と本人確認は主回線に残し、副回線は START povo END やIIJmio e..."
-        },
-        {
-          "time": "11/09 07:37",
-          "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
-        }
-      ],
+      "trend_label": "⚠️ 取得失敗",
+      "trend_class": "yellow",
+      "summary": "通信エラー: HTTP Error 504: Gateway Time-out",
+      "recent_posts": [],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
     }
   ],
@@ -494,8 +457,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 5,
+    "disaster_count": 6,
     "articles": [
+      {
+        "title": "被害者情報漏えい「遺憾」と総務相(共同通信)",
+        "summary": "藤井比早之総務相は10日の閣議後記者会見で、ストーカーなどの被害者の情報が加害者側に誤って漏れたケースが2016年度以降、119件あったと認め「緊張感を持って運用すべきなのに、漏えいが発生したことは遺",
+        "pub_date": "11/10 13:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/f649c745042e2c5eb6a0a0f8e526508667c6dd4d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「いじめを隠したのでは？」当時5年生、神戸市教委を20年追及する保護者の憤り　教育長と面談へ(弁護士ドットコムニュース)",
+        "summary": "「被害児童から聞き取りができず、いじめの確認ができなかった」20年以上前に神戸市立小学校で起きたいじめ事件をめぐり、神戸市教育委員会は長年、こう説明してきた。ところが、2023年に公表された調査報告書",
+        "pub_date": "11/10 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/a40568c366b481a5b54fd3dbab16f4247fea33e7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "「内水氾濫」対策で国が新基準 “1時間100mm雨量”下水道などの整備を強化(テレビ朝日系（ANN）)",
         "summary": "千葉豪雨などで発生した「内水氾濫」を防ぐため、国土交通省は、1時間あたり100ミリ程度の雨量でも耐えられるよう自治体が取るべき対策の新たな基準を取りまとめ公表しました。 8月の千葉豪雨では、「内水氾濫",
@@ -521,103 +500,87 @@
         "is_disaster": true
       },
       {
-        "title": "防災備蓄品の購入増える　愛知の震度5強で　気象庁検討会は南海トラフ影響なしと判断(テレビ朝日系（ANN）)",
-        "summary": "8日未明、東海地方を襲った地震について気象庁は、震源の位置を「静岡県西部」から「愛知県東部」に変更しました。現地では店舗のガラスが粉々に割れるなど、大きな被害が出ています。■自動車販売店ではガラス片散",
-        "pub_date": "11/10 11:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/33cfd2fd34ae06bea82184affec3846a38426fa0?source=rss",
-        "category": "国内・気象防災",
+        "title": "内水氾濫の被害軽減へ 国が対応策",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/10 12:49 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6602029?source=rss",
+        "category": "主要速報",
         "is_disaster": true
       },
       {
-        "title": "35年働いて年金“月10万円・生活保護以下”　84歳女性ら国連に訴え　「女性の低年金」が“人権侵害”とされるワケ(弁護士JPニュース)",
-        "summary": "「35年間働いたにもかかわらず、手取りの額は月10万円ほど」千葉県に住む高橋芙蓉子さん（84）は、会見でこう語った。3歳で父親を事故で亡くし、母親は女手一つで5人の子どもを育てた。29歳で見合い結婚し",
-        "pub_date": "11/10 11:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/61aae32e7a34a8af74e0f8a8439d876d717317b7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「リニア中央新幹線の名古屋駅」完成は2033年以降に　JR東海が周辺住民への説明会で見通し示す(メ〜テレ（名古屋テレビ）)",
-        "summary": "JR東海は、リニア中央新幹線の名古屋駅を新設する工事について、完成が2033年以降になるとの見通しを明らかにしました。 JR東海は、9日までにリニア中央新幹線の整備に伴う名古屋駅の新設工事に関して、周",
-        "pub_date": "11/10 12:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/285e7c45a98065e52c2bd1757e04cec67526f6da?source=rss",
+        "title": "養子届偽造疑い3人逮捕、赤坂の土地狙いか(共同通信)",
+        "summary": "東京・赤坂に住む男性（93）との養子縁組届を偽造したなどとして、警視庁が有印私文書偽造・同行使容疑などで、不動産会社役員ら3人を逮捕していたことが10日、捜査関係者への取材で分かった。相続による土地取",
+        "pub_date": "11/10 13:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/720fa646d72a71d0f6465741e4b964539c23bc0b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「政治とカネ」今国会で審議を　国民・玉木代表(共同通信)",
-        "summary": "国民民主党の玉木雄一郎代表は10日の記者会見で、衆院比例代表の定数削減を含む選挙制度改革だけでなく、自民党派閥裏金事件に端を発した「政治とカネ」問題も今国会で審議すべきだと訴えた。具体的には企業・団体",
-        "pub_date": "11/10 12:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/b1ce0ad33f992df013ad470690e37de7127866de?source=rss",
+        "title": "開催時間いつ通知？ 木原長官明言せず「外交上のやり取り」 高市総理G7会議欠席(テレビ朝日系（ANN）)",
+        "summary": "高市総理大臣がG7オンライン首脳会議を欠席したことをめぐり、木原官房長官は開催時間をいつ通知されたかについて｢外交上のやりとり｣として明らかにしませんでした。木原官房長官｢それ(これまでの説明)以上の",
+        "pub_date": "11/10 13:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/12266504983a005db6fb63894b1cf5425e5db972?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "“盗んだ車”で上京　10件関与か 愛知拠点の窃盗G男4人逮捕(テレビ朝日系（ANN）)",
-        "summary": "都内のマンションに侵入し加熱式たばこなどを盗んだとして、男4人が逮捕されました。4人は愛知県を拠点とする窃盗グループで、盗んだ車で上京したとみられています。 堤義道容疑者（42）ら4人は、東京・渋谷区",
-        "pub_date": "11/10 12:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/268743b88c2b2ef913bc79a817262294c4a4564a?source=rss",
+        "title": "覆面姿では“権力者チェック”機能せず?「素顔をホームページなどで有権者に示すべき」と橋下徹氏　兵庫県初“覆面レスラー議員”が覆面姿で本会議出席　「議長が素顔を確認」など条件に着用認められる(FNNプライムオンライン)",
+        "summary": "兵庫県初の“覆面レスラー議員”となった川西市議会のビリーケン・キッド議員が9日、覆面姿で議会に出席し本会議に臨んだ。【動画で見る】“覆面レスラー議員”に賛否?橋下徹氏の意見は…議場に入る前に議長による",
+        "pub_date": "11/10 13:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/5573d1b99dbb38a60ea16f5ed1f7631734889853?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "維新、区議選24行政区を維持へ　大選挙区制から転換、大阪都構想(共同通信)",
-        "summary": "日本維新の会の看板政策「大阪都構想」を巡り、維新の大阪市議団は10日、市を4特別区に再編した後の区議選の選挙区について、現在の24行政区単位を維持する方針を固めた。市議団幹部が記者団に明らかにした。都",
-        "pub_date": "11/10 12:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/58a9336222067765d8ee5375a832e98026993c32?source=rss",
+        "title": "阿波市長ら3人を詐欺容疑で逮捕　徳島県警、市から350万円(共同通信)",
+        "summary": "徳島県警は10日、ケーブルネットワーク事業に絡み同県阿波市から350万円をだまし取ったとして、詐欺容疑で阿波市長町田寿人容疑者（69）ら男3人を逮捕した。 逮捕容疑は共謀して、同市のケーブルネットワー",
+        "pub_date": "11/10 13:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/d35221a087516805eda35846e61ddf407be7a9a0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "国民・玉木代表「元総理や大臣経験者も反対せざるを得ないと証明」自民４人棄権の消費減税法案に(日刊スポーツ)",
-        "summary": "国民民主党の玉木雄一郎代表は10日の定例会見で、高市早苗首相肝いりの消費税減税法案の衆議院採決を欠席した石破茂前首相ら4議員を、自民党が党則にもとづき戒告処分としたことへの感想を問われ、「他党のこと」",
-        "pub_date": "11/10 12:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/bc70f4c44c91d6167b320736d797a9eca1f1210e?source=rss",
+        "title": "福島男児死亡、傷害致死疑いで容疑者を送検(共同通信)",
+        "summary": "福島県いわき市の男児（3）が母親の交際相手から暴行を受けて死亡した事件で、県警は10日、傷害容疑で逮捕した会社員松井諒容疑者（41）を傷害致死容疑に切り替えて送検した。",
+        "pub_date": "11/10 13:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/f79cd3e8644396ef97fdf6523bfe3a39f1315320?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "明日11日～13日　近畿はポカポカ陽気で紅葉狩り日和　嵐山や六甲山は色づき始め(日本気象協会tenki.jp)",
-        "summary": "11月に入ってから今日10日にかけて、近畿では「色づき始め」の紅葉スポットが急速に増加しており、「見頃」のスポットも、所々、出てきています。京都府の嵐山や兵庫県の六甲山は、「色づき始め」となっています",
-        "pub_date": "11/10 12:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/73642733d893fc82543f14c7796db0d1c5148e4b?source=rss",
+        "title": "西野亮廣さん、ジャングリア沖縄に「森の長いすべり台」提案　年間売上「約1億6200万円」試算(J-CASTニュース)",
+        "summary": "お笑いコンビ・キングコングの西野亮廣さんが2026年11月9日、沖縄県北部の大型テーマパーク「ジャングリア沖縄」を訪れたことを明かし、「助け方が少し分かりました」とXでつづった。【画像】20秒に1人、",
+        "pub_date": "11/10 13:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/2543255f88d896c6f4f8a6220265de47b3848535?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "秋の叙勲「大綬章」親授式 豊田章男さんや武見敬三元大臣ら受章(テレビ朝日系（ANN）)",
-        "summary": "「秋の叙勲」大綬章の親授式が皇居で開かれ、天皇陛下が勲章を手渡されました。 皇居・宮殿「松の間」で10日午前10時半から始まった親授式で天皇陛下は、旭日大綬章を受章した元厚生労働大臣の武見敬三さん、ト",
-        "pub_date": "11/10 12:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/cc40d6d8fcd8946634a8fe96ba5d15a3cbcbaa51?source=rss",
+        "title": "岩屋氏は不問、石破氏は戒告… 同じ「退席」でも処分が分かれたのはなぜか？ 自民党執行部“ダブスタ”に潜む2つの背景事情(東洋経済オンライン)",
+        "summary": "来年4月から2年間限定の食料品の消費税減税関連法案の衆議院での採決をめぐって、自民党は衆院本会議を途中退席した石破茂前首相、船田元元経済企画庁長官、小渕優子元経済産業相、古川禎久元法相を戒告処分するこ",
+        "pub_date": "11/10 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/18ab37b42fa80e56044ebe5ee8f77c27a00defe8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "元交際相手SNSに「いいね」女に猶予付き判決　ストーカー規正法違反の罪　東京地裁(テレビ朝日系（ANN）)",
-        "summary": "元交際相手のSNSに「いいね」などを繰り返したとしてストーカー規制法違反の罪に問われている女の裁判で、東京地裁は拘禁刑6カ月、執行猶予3年の判決を言い渡しました。 斉藤芹奈被告（33）は3月に警察から",
-        "pub_date": "11/10 12:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/6fb097c77d187cee0d754a67af8b427ce26a2dd5?source=rss",
+        "title": "消費減税法案に石破前首相、小渕優子元経産相ら4人が「造反」　参院でも「造反」なら解散・総選挙も？(AERA DIGITAL)",
+        "summary": "「参院で可決される保証はどこにもない、総理は大きな賭けに出た」 11月6日、衆院本会議から議員会館に戻ったばかりの自民党の閣僚経験者A氏はこう話した。【写真】消費減税法案の参院通過の鍵を握るのはこの人",
+        "pub_date": "11/10 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/6e5c9d2e4e3db91e7f8b1f5e977b2e6375cd1701?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "アパート男性刺殺事件　逮捕の男「騒音がうるさかった」趣旨の供述　北海道室蘭市(テレビ朝日系（ANN）)",
-        "summary": "北海道室蘭市のアパートで真上の部屋に住む男性を刃物で刺したとして男が逮捕された事件で、男が「騒音がうるさかった」という趣旨の供述をしていることが分かりました。 室蘭市の無職・在田実容疑者（74）は6日",
-        "pub_date": "11/10 12:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/aaad00be493acd1d256220ac64ccc466d0ad4c85?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "ひろゆき氏、ハワイ入国審査めぐり持論　「収入源を説明できなければ犯罪収益と疑われる」(J-CASTニュース)",
-        "summary": "実業家の「ひろゆき」こと西村博之氏が2026年11月10日、ハワイ・ホノルルの空港で日本人女性が入国審査の末に強制送還されたとする話題にXで言及した。ブランド品や服装と職業・収入の釣り合いが取れない場",
-        "pub_date": "11/10 12:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/fd05fc34363150e3aee7d65375ab5b4104f8abc9?source=rss",
+        "title": "破産手続き中のクレジットカード決済代行「全東信」社長が死亡　粉飾決算の実態解明に少なからず影響も(読売テレビ)",
+        "summary": "1151億円の負債を抱え、破産したクレジットカード決済代行・全東信の社長が、先月死亡していたことが分かりました。 破産管財人によりますと、全東信の社長は、10月6日に入院先の病院で死亡しました。病死だ",
+        "pub_date": "11/10 12:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/a8306dc574976b65b307b00f36bd128c82737930?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 12:35:33 JST"
+    "last_updated": "2026-11-10 13:31:15 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -660,10 +623,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "fj7GRso8-fU",
+        "video_id": "aHim2vBKr7M",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/fj7GRso8-fU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=fj7GRso8-fU"
+        "embed_url": "https://www.youtube.com/embed/aHim2vBKr7M?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=aHim2vBKr7M"
       },
       {
         "id": "stream_annnews",
@@ -671,10 +634,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "C0p_TCM-Dhw",
+        "video_id": "rOSAJNM7PI0",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/C0p_TCM-Dhw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=C0p_TCM-Dhw"
+        "embed_url": "https://www.youtube.com/embed/rOSAJNM7PI0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=rOSAJNM7PI0"
       },
       {
         "id": "stream_fnnnews",

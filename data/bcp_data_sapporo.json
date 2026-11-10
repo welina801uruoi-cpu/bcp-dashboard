@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10 00:16:53",
+  "timestamp": "2026-11-10 01:14:39",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -165,15 +165,15 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
-          "風雪注意報",
           "強風注意報",
-          "大雪注意報",
-          "なだれ注意報",
+          "着雪注意報",
           "波浪注意報",
-          "雷注意報"
+          "なだれ注意報",
+          "大雪注意報",
+          "雷注意報",
+          "風雪注意報"
         ],
-        "summary": "着雪注意報、風雪注意報、強風注意報、大雪注意報、なだれ注意報、波浪注意報、雷注意報",
+        "summary": "強風注意報、着雪注意報、波浪注意報、なだれ注意報、大雪注意報、雷注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -184,12 +184,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "着雪注意報",
-          "大雪注意報",
-          "なだれ注意報"
+          "なだれ注意報",
+          "低温注意報"
         ],
-        "summary": "強風注意報、着雪注意報、大雪注意報、なだれ注意報",
+        "summary": "なだれ注意報、低温注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -200,12 +198,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報",
+          "強風注意報",
           "雷注意報",
           "乾燥注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報、乾燥注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -307,16 +305,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/10 00:19",
+          "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方もOK🙆‍♂️ eSIM＋eKYCで最短即日⏱️ 停電・通..."
+        },
+        {
           "time": "11/09 23:46",
           "text": "なんかソフトバンクから START au END に電話が繋がらない。「おかけになった電話番号は電波の届かない所か〜」ってなるんよ。 どちらか通信 START ..."
         },
         {
           "time": "11/09 21:18",
           "text": "@10714MEEB7 START au END って常時通信 START 障害 END のイメージ"
-        },
-        {
-          "time": "11/09 14:50",
-          "text": "START au END 通信 START 障害 END 多いのにトップなん？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -350,7 +348,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/10 00:16",
@@ -373,18 +371,18 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/10 00:19",
+          "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方もOK🙆‍♂️ eSIM＋eKYCで最短即日⏱️ 停電・通..."
+        },
         {
           "time": "11/09 18:40",
           "text": "デュアルSIMで失敗しない考え方は、主回線と副回線の役割を分けること。 番号と本人確認は主回線に残し、副回線は START povo END やIIJmio e..."
         },
         {
           "time": "11/09 07:37",
-          "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
-        },
-        {
-          "time": "11/09 05:40",
           "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
         }
       ],
@@ -410,10 +408,66 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 16,
     "articles": [
       {
-        "title": "【速報】米原ー姫路の広範囲で運転見合わせ　JR京都線の茨木駅で列車と人が接触(京都新聞)",
+        "title": "国交省、内水氾濫への対応方針公表(共同通信)",
+        "summary": "国土交通省は10日、雨水が市街地にあふれる「内水氾濫」による被害軽減に向けた今後の対応方針を公表した。1時間当たり100ミリ程度の最大クラスの豪雨にも対応できる排水施設整備や、リスク情報の発信強化など",
+        "pub_date": "11/10 10:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/5b7624906fe2452d2362149287637def4c3d52d9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "雨の中央道で激しく回転する車の動画を岐阜県警が投稿　速度落とすよう呼びかける(テレビ朝日系（ANN）)",
+        "summary": "水しぶきをあげながら走る車が、激しく回転して止まりました。現場は中央自動車道です。 この動画は、岐阜県警がSNSに投稿しました。 投稿の2日前、同じ中央道で車が横転し女性が死亡する事故があり、注意を呼",
+        "pub_date": "11/10 09:55 JST",
+        "link": "https://news.yahoo.co.jp/articles/bd92935b6c6615ac26a8500a29a10d5f29768a37?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "JR京都線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "茨木駅で発生した人身事故の影響で、JR京都線は運転を見合わせていましたが、09:45頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/10 09:55 JST",
+        "link": "https://news.yahoo.co.jp/articles/e9b57836d88fb0e4cc3adde775389bf9b03740eb?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "JR茨木駅で新快速と人が接触、米原－姫路間の上下線で一時運転見合わせ(産経新聞)",
+        "summary": "10日午前8時5分ごろ、大阪府茨木市のJR東海道（京都）線茨木駅で、通過中の網干発野洲行き新快速電車（12両編成）がホームから線路に入ってきた人物と接触した。大阪府警が経緯を調べる。この事故の影響で、",
+        "pub_date": "11/10 09:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/9b870f2af8d5de3729b641d854e2bbdd716d780e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "海沿いの工事現場から《81ミリ迫撃砲弾》　介護施設は「誘導に時間かかった」住民120人が避難、自衛隊が回収も高知・土佐市で地域の課題あらわに(FNNプライムオンライン)",
+        "summary": "11月2日、高知県土佐市の海沿いで不発弾が発見された。住民や高校生など約120人が一時避難し、深夜に自衛隊が回収するまで約6時間にわたり、周辺に避難指示や交通規制が敷かれた。【画像】発見された不発弾不",
+        "pub_date": "11/10 09:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/03ec2a94d75065b4aea3ee058f44d495e7a77fb7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "愛子さまが犯罪被害者の支援行事に出席　池田小事件遺族の基調講演に耳を傾ける(テレビ朝日系（ANN）)",
+        "summary": "愛子さまは9日、警察庁が主催した犯罪被害者を支援するイベントに出席されました。 開会式では、犯罪で亡くなった被害者に黙とうを捧げられました。 その後、児童8人が殺害された大阪の池田小事件で長女を亡くし",
+        "pub_date": "11/10 09:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/f5365863e1ba7a87d0060870a5057decff6ecd46?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "体重270kgオスのヒグマが箱わなに　近くの養鶏場で被害、同一個体か　北海道(テレビ朝日系（ANN）)",
+        "summary": "箱わなにかかっているのは、体長190センチ、体重およそ270キロのオスのヒグマです。 岩見沢市などによりますと、8日、北海道岩見沢市で箱わなにクマ1頭が捕獲されているのをハンターが発見しました。 その",
+        "pub_date": "11/10 09:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/73552564892f74df81bca2268d4be95e711c2691?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "米原ー姫路の広範囲で一時運転見合わせ　JR京都線の茨木駅で列車と人が接触(京都新聞)",
         "summary": "JR西日本のホームページによると、10日午前8時5分ごろ、JR京都線（東海道線）の茨木駅で列車と人が接触した。【地図】茨木駅の位置は この影響で琵琶湖線、JR京都線、JR神戸線（東海道線、山陽線）の米",
         "pub_date": "11/10 09:00 JST",
         "link": "https://news.yahoo.co.jp/articles/4c13d27743e210e05276252901f7b822f1b138b8?source=rss",
@@ -429,8 +483,8 @@
         "is_disaster": true
       },
       {
-        "title": "【速報】JR京都線・神戸線で運転見合わせ 茨木駅で列車が乗客と接触(読売テレビ)",
-        "summary": "JR西日本によりますと、10日午前8時07分ごろ、JR京都線の茨木駅で、野洲行きの新快速列車が乗客と接触しました。現在、琵琶湖線の米原～京都間、JR京都線の京都～大阪間、JR神戸線の大阪～姫路間で順次",
+        "title": "【速報】JR京都線・神戸線で一時運転見合わせ　茨木駅で列車が乗客と接触　(読売テレビ)",
+        "summary": "JR西日本などによりますと、10日午前8時7分ごろ、JR京都線の茨木駅で、野洲行きの新快速列車が通過しようとした際、男性がホームから線路内に立ち入り、運転士が非常ブレーキをかけましたが間に合わずに接触",
         "pub_date": "11/10 08:41 JST",
         "link": "https://news.yahoo.co.jp/articles/0d4e9e3dce1eb82b1bce0bf7c7811555502a2503?source=rss",
         "category": "国内・気象防災",
@@ -475,65 +529,9 @@
         "link": "https://news.yahoo.co.jp/articles/c9f4828def1bff708b80097fdf66e01f39645e1c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "【動画】10日の天気 - 天気回復へ 晴れる所も北風冷たく　関東など寒さ続く　台風32号は小笠原諸島接近へ（10日7時更新）(ウェザーマップ)",
-        "summary": "きょう（火）は朝のうちは冷たい雨や雪が降りやすいですが、日中は回復して晴れ間の戻る所もあるでしょう。ただ、気温はこの時季としては低く、雲の多い関東は寒さが続きそうです。小笠原諸島は台風32号の接近に伴",
-        "pub_date": "11/10 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/31921834782cd1cde1e89cd2d908e866a54b8769?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "南海トラフ地震に直接影響の可能性低く…愛知での約30年ぶり“震度5強”に専門家「『大丈夫だ』ではなく早めの備えを」(FNNプライムオンライン)",
-        "summary": "8日未明、愛知では約30年ぶりとなる震度5強の地震が発生し、少なくとも19人のケガ人が出ました。【動画で見る】南海トラフ地震に直接影響の可能性低く…愛知での約30年ぶり“震度5強”に専門家「『大丈夫だ",
-        "pub_date": "11/10 06:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/9454f7d7555af35c711e297bb588dbabd32176c8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【近畿の天気】10日（火）朝　大阪は雨のち晴れ　最高気温はきのう9日と同じくらいのところが多い予想(読売テレビ)",
-        "summary": "11月10日（火）朝の近畿地方の天気です。詳しくは天気動画をご覧ください。",
-        "pub_date": "11/10 09:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/3aa69e82c55658d08f0ca58d6f8c47f6053495f3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "日米外相、ICC巡り意見交換　パリで面会、中間選挙後初(共同通信)",
-        "summary": "【パリ共同】茂木敏充外相は9日（日本時間同日）、訪問先のフランス・パリでルビオ米国務長官と面会し、米政権による国際刑事裁判所（ICC、赤根智子所長）への制裁対象指定などを巡り意見交換した。法の支配を重",
-        "pub_date": "11/10 08:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/f53cd68f17671241690eac56833bc1734b72b5f3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "防衛、外交力強化へ自・維が協議　非核三原則、原潜の保有が焦点(共同通信)",
-        "summary": "自民党と日本維新の会は10日、国家安全保障戦略など安保関連3文書の改定に向けた実務者協議を国会内で開いた。現在の安保情勢を踏まえた防衛・外交力強化の方向性を議論。核政策の基本方針「非核三原則」の在り方",
-        "pub_date": "11/10 08:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/a372633e02e5429f729fb3514a777082ae167e5d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "マンジャロ、視力低下の恐れ　肥満治療、米FDAが警告(共同通信)",
-        "summary": "【ワシントン共同】米食品医薬品局（FDA）は9日、肥満症や2型糖尿病の治療に使われる「GLP1受容体作動薬」の使用により、急激な視力低下につながる恐れがあると発表した。製薬企業に対し、薬の添付文書にこ",
-        "pub_date": "11/10 08:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/262caee021f790fd29ffea42c6697a061471c90e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "重傷ひき逃げの疑いで女（68）を逮捕 「鹿をさけるか何かで、車を壁にぶつけてしまったのだと思います」容疑を一部否認(CBCテレビ)",
-        "summary": "三重県名張市で自転車に乗った男性を車ではねて重傷を負わせ、そのまま逃げた疑いで、女（68）が逮捕されました。【写真を見る】重傷ひき逃げの疑いで女（68）を逮捕 「鹿をさけるか何かで、車を壁にぶつけてし",
-        "pub_date": "11/10 08:19 JST",
-        "link": "https://news.yahoo.co.jp/articles/7513d2f58907a0caac3d0764fe679702219b3462?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-10 09:16:40 JST"
+    "last_updated": "2026-11-10 10:14:38 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -587,10 +585,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "7bX61EjvpXQ",
+        "video_id": "CEMKlH4KXUY",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/7bX61EjvpXQ?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=7bX61EjvpXQ"
+        "embed_url": "https://www.youtube.com/embed/CEMKlH4KXUY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=CEMKlH4KXUY"
       },
       {
         "id": "stream_fnnnews",

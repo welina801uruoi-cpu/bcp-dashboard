@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 01:18:54",
-  "timestamp_local": "2026-11-10 19:18:54",
+  "timestamp": "2026-11-11 02:04:01",
+  "timestamp_local": "2026-11-10 20:04:01",
   "country": {
     "id": "turkey",
     "name": "トルコ",
@@ -283,17 +283,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 16,
-    "summary": "M5.2 (140 km ESE of Labuha, Indonesia)",
+    "count_24h": 17,
+    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
     "latest": {
-      "mag": 5.2,
-      "place": "140 km ESE of Labuha, Indonesia",
-      "time": "11/11 00:51 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi",
+      "mag": 4.8,
+      "place": "20 km SSW of Lata, Solomon Islands",
+      "time": "11/11 00:52 JST",
+      "depth_km": 48.333,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "20 km SSW of Lata, Solomon Islands",
+        "time": "11/11 00:52 JST",
+        "depth_km": 48.333,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "140 km ESE of Labuha, Indonesia",
@@ -404,14 +412,6 @@
         "time": "11/10 04:27 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6m",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 04:09 JST",
-        "depth_km": 519.944,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6l",
         "tsunami": 0
       }
     ]
@@ -662,32 +662,32 @@
     "default_channel_id": "stream_trt_live"
   },
   "forex": {
-    "timestamp": "11/11 01:18 JST",
+    "timestamp": "11/11 02:03 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.74,
-      "change": 0.45,
-      "change_pct": 0.28,
+      "rate": 158.76,
+      "change": 0.46,
+      "change_pct": 0.29,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "TRY",
       "name": "トルコリラ",
       "symbol": "₺",
-      "rate": 3.11,
-      "change": -0.037,
-      "change_pct": -1.18,
+      "rate": 3.111,
+      "change": -0.036,
+      "change_pct": -1.15,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.03,
-      "change": 0.58,
-      "change_pct": 0.33
+      "rate": 177.04,
+      "change": 0.59,
+      "change_pct": 0.34
     }
   },
   "airports": [
@@ -730,10 +730,10 @@
         "is_capital": true,
         "lat": 39.9334,
         "lon": 32.8597,
-        "temp": 2.4,
-        "apparent_temp": 0.2,
-        "humidity": 91,
-        "wind_speed": 1.8,
+        "temp": 2.2,
+        "apparent_temp": -0.1,
+        "humidity": 93,
+        "wind_speed": 2.6,
         "wind_gusts": 5.0,
         "precipitation": 0.0,
         "weather_code": 2,
@@ -775,10 +775,10 @@
         "is_capital": false,
         "lat": 41.0082,
         "lon": 28.9784,
-        "temp": 11.5,
-        "apparent_temp": 10.6,
-        "humidity": 81,
-        "wind_speed": 3.3,
+        "temp": 11.2,
+        "apparent_temp": 10.4,
+        "humidity": 83,
+        "wind_speed": 2.5,
         "wind_gusts": 6.5,
         "precipitation": 0.0,
         "weather_code": 0,
@@ -813,51 +813,6 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "イズミル (エーゲ海沿岸)",
-        "name_en": "Izmir",
-        "is_capital": false,
-        "lat": 38.4237,
-        "lon": 27.1428,
-        "temp": 13.9,
-        "apparent_temp": 13.7,
-        "humidity": 83,
-        "wind_speed": 4.1,
-        "wind_gusts": 8.6,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
-        "forecast": [
-          {
-            "date": "11/10(火)",
-            "temp_max": 17.0,
-            "temp_min": 10.0,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 2.4
-          },
-          {
-            "date": "11/11(水)",
-            "temp_max": 19.0,
-            "temp_min": 10.0,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 0.3
-          },
-          {
-            "date": "11/12(木)",
-            "temp_max": 22.4,
-            "temp_min": 17.0,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -866,10 +821,10 @@
       "is_capital": true,
       "lat": 39.9334,
       "lon": 32.8597,
-      "temp": 2.4,
-      "apparent_temp": 0.2,
-      "humidity": 91,
-      "wind_speed": 1.8,
+      "temp": 2.2,
+      "apparent_temp": -0.1,
+      "humidity": 93,
+      "wind_speed": 2.6,
       "wind_gusts": 5.0,
       "precipitation": 0.0,
       "weather_code": 2,
@@ -905,7 +860,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/11 01:18 JST"
+    "timestamp": "11/11 02:04 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -934,7 +889,7 @@
         "details": "YHT高速列車など主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/11 01:18 JST"
+    "timestamp": "11/11 02:03 JST"
   },
   "lifeline": {
     "status": "NORMAL",

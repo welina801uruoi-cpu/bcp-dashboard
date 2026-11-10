@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 01:17:25",
-  "timestamp_local": "2026-11-10 23:17:25",
+  "timestamp": "2026-11-11 02:02:53",
+  "timestamp_local": "2026-11-11 00:02:53",
   "country": {
     "id": "thailand",
     "name": "タイ",
@@ -295,17 +295,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 16,
-    "summary": "M5.2 (140 km ESE of Labuha, Indonesia)",
+    "count_24h": 17,
+    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
     "latest": {
-      "mag": 5.2,
-      "place": "140 km ESE of Labuha, Indonesia",
-      "time": "11/11 00:51 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi",
+      "mag": 4.8,
+      "place": "20 km SSW of Lata, Solomon Islands",
+      "time": "11/11 00:52 JST",
+      "depth_km": 48.333,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "20 km SSW of Lata, Solomon Islands",
+        "time": "11/11 00:52 JST",
+        "depth_km": 48.333,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "140 km ESE of Labuha, Indonesia",
@@ -416,14 +424,6 @@
         "time": "11/10 04:27 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6m",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 04:09 JST",
-        "depth_km": 519.944,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6l",
         "tsunami": 0
       }
     ]
@@ -603,7 +603,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/10 15:46",
@@ -699,32 +699,32 @@
     "default_channel_id": "stream_thairath_live"
   },
   "forex": {
-    "timestamp": "11/11 01:17 JST",
+    "timestamp": "11/11 02:02 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.74,
-      "change": 0.45,
-      "change_pct": 0.28,
+      "rate": 158.76,
+      "change": 0.46,
+      "change_pct": 0.29,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "THB",
       "name": "タイバーツ",
       "symbol": "฿",
-      "rate": 4.721,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "direction": "up"
+      "rate": 4.715,
+      "change": -0.005,
+      "change_pct": -0.12,
+      "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.03,
-      "change": 0.58,
-      "change_pct": 0.33
+      "rate": 177.04,
+      "change": 0.59,
+      "change_pct": 0.34
     }
   },
   "airports": [
@@ -767,23 +767,15 @@
         "is_capital": true,
         "lat": 13.7563,
         "lon": 100.5018,
-        "temp": 27.4,
-        "apparent_temp": 28.9,
-        "humidity": 57,
-        "wind_speed": 9.9,
-        "wind_gusts": 22.0,
+        "temp": 26.9,
+        "apparent_temp": 27.8,
+        "humidity": 56,
+        "wind_speed": 11.4,
+        "wind_gusts": 25.6,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
-          {
-            "date": "11/10(火)",
-            "temp_max": 33.0,
-            "temp_min": 25.8,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.3
-          },
           {
             "date": "11/11(水)",
             "temp_max": 32.2,
@@ -799,6 +791,14 @@
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
             "precipitation_mm": 2.0
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 34.6,
+            "temp_min": 24.7,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.2
           }
         ],
         "alert": "平常",
@@ -814,21 +814,13 @@
         "lon": 98.9853,
         "temp": 21.1,
         "apparent_temp": 21.8,
-        "humidity": 79,
-        "wind_speed": 12.8,
-        "wind_gusts": 27.0,
+        "humidity": 78,
+        "wind_speed": 12.0,
+        "wind_gusts": 25.2,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
-          {
-            "date": "11/10(火)",
-            "temp_max": 27.4,
-            "temp_min": 20.6,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 7.1
-          },
           {
             "date": "11/11(水)",
             "temp_max": 21.4,
@@ -844,6 +836,14 @@
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 27.9,
+            "temp_min": 19.0,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.2
           }
         ],
         "alert": "平常",
@@ -857,23 +857,15 @@
         "is_capital": false,
         "lat": 7.8804,
         "lon": 98.3923,
-        "temp": 25.3,
-        "apparent_temp": 30.5,
-        "humidity": 96,
-        "wind_speed": 8.6,
-        "wind_gusts": 18.7,
+        "temp": 25.4,
+        "apparent_temp": 30.4,
+        "humidity": 95,
+        "wind_speed": 9.4,
+        "wind_gusts": 17.3,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
-          {
-            "date": "11/10(火)",
-            "temp_max": 31.3,
-            "temp_min": 25.3,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 8.5
-          },
           {
             "date": "11/11(水)",
             "temp_max": 29.0,
@@ -889,6 +881,14 @@
             "weather_code": 95,
             "weather_label": "⛈️ 雷雨 (弱〜中)",
             "precipitation_mm": 16.7
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 29.1,
+            "temp_min": 24.7,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 12.8
           }
         ],
         "alert": "平常",
@@ -903,23 +903,15 @@
       "is_capital": true,
       "lat": 13.7563,
       "lon": 100.5018,
-      "temp": 27.4,
-      "apparent_temp": 28.9,
-      "humidity": 57,
-      "wind_speed": 9.9,
-      "wind_gusts": 22.0,
+      "temp": 26.9,
+      "apparent_temp": 27.8,
+      "humidity": 56,
+      "wind_speed": 11.4,
+      "wind_gusts": 25.6,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
-        {
-          "date": "11/10(火)",
-          "temp_max": 33.0,
-          "temp_min": 25.8,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.3
-        },
         {
           "date": "11/11(水)",
           "temp_max": 32.2,
@@ -935,6 +927,14 @@
           "weather_code": 53,
           "weather_label": "🌦️ 霧雨 (中)",
           "precipitation_mm": 2.0
+        },
+        {
+          "date": "11/13(金)",
+          "temp_max": 34.6,
+          "temp_min": 24.7,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 1.2
         }
       ],
       "alert": "平常",
@@ -942,7 +942,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/11 01:17 JST"
+    "timestamp": "11/11 02:02 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -971,7 +971,7 @@
         "details": "BTSスクムウィット線・MRTブルーライン平常運行中"
       }
     ],
-    "timestamp": "11/11 01:17 JST"
+    "timestamp": "11/11 02:02 JST"
   },
   "lifeline": {
     "status": "NORMAL",

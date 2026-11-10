@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 01:17:37",
-  "timestamp_local": "2026-11-11 00:17:37",
+  "timestamp": "2026-11-11 02:02:54",
+  "timestamp_local": "2026-11-11 01:02:54",
   "country": {
     "id": "taiwan",
     "name": "台湾",
@@ -306,17 +306,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 16,
-    "summary": "M5.2 (140 km ESE of Labuha, Indonesia)",
+    "count_24h": 17,
+    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
     "latest": {
-      "mag": 5.2,
-      "place": "140 km ESE of Labuha, Indonesia",
-      "time": "11/11 00:51 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi",
+      "mag": 4.8,
+      "place": "20 km SSW of Lata, Solomon Islands",
+      "time": "11/11 00:52 JST",
+      "depth_km": 48.333,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "20 km SSW of Lata, Solomon Islands",
+        "time": "11/11 00:52 JST",
+        "depth_km": 48.333,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "140 km ESE of Labuha, Indonesia",
@@ -427,14 +435,6 @@
         "time": "11/10 04:27 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6m",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 04:09 JST",
-        "depth_km": 519.944,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6l",
         "tsunami": 0
       }
     ]
@@ -591,7 +591,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/10 15:37",
@@ -710,32 +710,32 @@
     "default_channel_id": "stream_ftv_taiwan"
   },
   "forex": {
-    "timestamp": "11/11 01:17 JST",
+    "timestamp": "11/11 02:02 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.74,
-      "change": 0.45,
-      "change_pct": 0.28,
+      "rate": 158.76,
+      "change": 0.46,
+      "change_pct": 0.29,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "TWD",
       "name": "新台湾ドル",
       "symbol": "NT$",
-      "rate": 4.805,
-      "change": -0.01,
-      "change_pct": -0.2,
+      "rate": 4.799,
+      "change": -0.016,
+      "change_pct": -0.33,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.03,
-      "change": 0.58,
-      "change_pct": 0.33
+      "rate": 177.04,
+      "change": 0.59,
+      "change_pct": 0.34
     }
   },
   "airports": [
@@ -773,16 +773,61 @@
   "weather": {
     "cities": [
       {
+        "name": "台北 (北部主要都市)",
+        "name_en": "Taipei",
+        "is_capital": true,
+        "lat": 25.033,
+        "lon": 121.5654,
+        "temp": 17.3,
+        "apparent_temp": 18.4,
+        "humidity": 92,
+        "wind_speed": 6.8,
+        "wind_gusts": 15.8,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/11(水)",
+            "temp_max": 23.7,
+            "temp_min": 17.1,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.2
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 27.9,
+            "temp_min": 19.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 28.7,
+            "temp_min": 21.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "高雄 (南部主要港湾)",
         "name_en": "Kaohsiung",
         "is_capital": false,
         "lat": 22.6273,
         "lon": 120.3014,
-        "temp": 23.4,
-        "apparent_temp": 24.4,
-        "humidity": 70,
-        "wind_speed": 12.5,
-        "wind_gusts": 31.0,
+        "temp": 23.5,
+        "apparent_temp": 24.7,
+        "humidity": 68,
+        "wind_speed": 9.9,
+        "wind_gusts": 28.1,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -816,42 +861,87 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "台中 (中部ハイテク拠点)",
+        "name_en": "Taichung",
+        "is_capital": false,
+        "lat": 24.1477,
+        "lon": 120.6736,
+        "temp": 17.2,
+        "apparent_temp": 18.0,
+        "humidity": 80,
+        "wind_speed": 2.3,
+        "wind_gusts": 7.6,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/11(水)",
+            "temp_max": 27.8,
+            "temp_min": 17.2,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 28.4,
+            "temp_min": 17.8,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 30.3,
+            "temp_min": 18.7,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
-      "name": "高雄 (南部主要港湾)",
-      "name_en": "Kaohsiung",
-      "is_capital": false,
-      "lat": 22.6273,
-      "lon": 120.3014,
-      "temp": 23.4,
-      "apparent_temp": 24.4,
-      "humidity": 70,
-      "wind_speed": 12.5,
-      "wind_gusts": 31.0,
+      "name": "台北 (北部主要都市)",
+      "name_en": "Taipei",
+      "is_capital": true,
+      "lat": 25.033,
+      "lon": 121.5654,
+      "temp": 17.3,
+      "apparent_temp": 18.4,
+      "humidity": 92,
+      "wind_speed": 6.8,
+      "wind_gusts": 15.8,
       "precipitation": 0.0,
       "weather_code": 1,
       "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/11(水)",
-          "temp_max": 26.5,
-          "temp_min": 21.2,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 23.7,
+          "temp_min": 17.1,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.2
         },
         {
           "date": "11/12(木)",
-          "temp_max": 27.6,
-          "temp_min": 21.2,
+          "temp_max": 27.9,
+          "temp_min": 19.3,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/13(金)",
-          "temp_max": 28.6,
+          "temp_max": 28.7,
           "temp_min": 21.6,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
@@ -863,7 +953,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/11 01:17 JST"
+    "timestamp": "11/11 02:02 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -907,7 +997,7 @@
         "details": "台北メトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/11 01:17 JST"
+    "timestamp": "11/11 02:02 JST"
   },
   "lifeline": {
     "status": "NORMAL",

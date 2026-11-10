@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 01:19:03",
-  "timestamp_local": "2026-11-11 02:19:03",
+  "timestamp": "2026-11-11 02:04:05",
+  "timestamp_local": "2026-11-11 03:04:05",
   "country": {
     "id": "australia",
     "name": "オーストラリア (豪州)",
@@ -296,17 +296,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 16,
-    "summary": "M5.2 (140 km ESE of Labuha, Indonesia)",
+    "count_24h": 17,
+    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
     "latest": {
-      "mag": 5.2,
-      "place": "140 km ESE of Labuha, Indonesia",
-      "time": "11/11 00:51 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi",
+      "mag": 4.8,
+      "place": "20 km SSW of Lata, Solomon Islands",
+      "time": "11/11 00:52 JST",
+      "depth_km": 48.333,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "20 km SSW of Lata, Solomon Islands",
+        "time": "11/11 00:52 JST",
+        "depth_km": 48.333,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "140 km ESE of Labuha, Indonesia",
@@ -417,14 +425,6 @@
         "time": "11/10 04:27 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6m",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 04:09 JST",
-        "depth_km": 519.944,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6l",
         "tsunami": 0
       }
     ]
@@ -631,11 +631,11 @@
       "recent_posts": [
         {
           "time": "11/10 01:05",
-          "text": "@hirox246 やりすぎかな…😅 シドニー空港 （キングズフォード・スミス国際空港 人手不足や過密化による深刻なトラブルや混乱が相次いで..."
+          "text": "@hirox246 やりすぎかな…😅 シドニー 空港 （キングズフォード・スミス国際空港 人手不足や過密化による深刻なト..."
         },
         {
           "time": "10/30 06:47",
-          "text": "シドニー空港 ・ストライキ続報 午前5〜8時は、現地正午時点の集計で 欠航 なしで終了しましたが、まだ決着はせず、午後の..."
+          "text": "シドニー 空港 ・ストライキ続報 午前5〜8時は、現地正午時点の集計で 欠航 なしで終了しましたが、..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%B7%E3%83%89%E3%83%8B%E3%83%BC%20%E7%A9%BA%E6%B8%AF%20%E6%AC%A0%E8%88%AA"
@@ -656,7 +656,7 @@
       {
         "id": "stream_abc_news_au",
         "name": "📺 ABC News Australia LIVE (豪公共放送24h)",
-        "video_id": "6QFVhVT187M",
+        "video_id": "aVeETi7qmBs",
         "handle": "@abcnews",
         "type": "stream"
       },
@@ -696,14 +696,14 @@
     "default_channel_id": "stream_abc_news_au"
   },
   "forex": {
-    "timestamp": "11/11 01:18 JST",
+    "timestamp": "11/11 02:04 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.74,
-      "change": 0.45,
-      "change_pct": 0.28,
+      "rate": 158.76,
+      "change": 0.46,
+      "change_pct": 0.29,
       "direction": "up"
     },
     "local_jpy": {
@@ -712,16 +712,16 @@
       "symbol": "A$",
       "rate": 108.75,
       "change": 0.03,
-      "change_pct": 0.03,
+      "change_pct": 0.02,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.03,
-      "change": 0.58,
-      "change_pct": 0.33
+      "rate": 177.04,
+      "change": 0.59,
+      "change_pct": 0.34
     }
   },
   "airports": [
@@ -764,11 +764,11 @@
         "is_capital": true,
         "lat": -35.2809,
         "lon": 149.13,
-        "temp": 11.2,
-        "apparent_temp": 10.2,
-        "humidity": 76,
-        "wind_speed": 1.3,
-        "wind_gusts": 3.2,
+        "temp": 10.5,
+        "apparent_temp": 9.4,
+        "humidity": 78,
+        "wind_speed": 1.8,
+        "wind_gusts": 4.3,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -804,16 +804,61 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
+        "name": "シドニー (最大都市)",
+        "name_en": "Sydney",
+        "is_capital": false,
+        "lat": -33.8688,
+        "lon": 151.2093,
+        "temp": 15.6,
+        "apparent_temp": 15.3,
+        "humidity": 78,
+        "wind_speed": 5.2,
+        "wind_gusts": 10.8,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/11(水)",
+            "temp_max": 25.7,
+            "temp_min": 15.3,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 2.5
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 22.2,
+            "temp_min": 17.8,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.2
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 24.4,
+            "temp_min": 15.2,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "メルボルン (南部)",
         "name_en": "Melbourne",
         "is_capital": false,
         "lat": -37.8136,
         "lon": 144.9631,
-        "temp": 15.7,
+        "temp": 15.5,
         "apparent_temp": 15.5,
-        "humidity": 88,
-        "wind_speed": 9.4,
-        "wind_gusts": 20.5,
+        "humidity": 89,
+        "wind_speed": 8.5,
+        "wind_gusts": 18.7,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -855,11 +900,11 @@
       "is_capital": true,
       "lat": -35.2809,
       "lon": 149.13,
-      "temp": 11.2,
-      "apparent_temp": 10.2,
-      "humidity": 76,
-      "wind_speed": 1.3,
-      "wind_gusts": 3.2,
+      "temp": 10.5,
+      "apparent_temp": 9.4,
+      "humidity": 78,
+      "wind_speed": 1.8,
+      "wind_gusts": 4.3,
       "precipitation": 0.0,
       "weather_code": 1,
       "weather_label": "🌤️ 晴れ",
@@ -894,7 +939,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/11 01:19 JST"
+    "timestamp": "11/11 02:04 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -924,7 +969,7 @@
         "details": "シドニー首都圏鉄道網は概ね平常運行中"
       }
     ],
-    "timestamp": "11/11 01:18 JST"
+    "timestamp": "11/11 02:04 JST"
   },
   "lifeline": {
     "status": "NORMAL",

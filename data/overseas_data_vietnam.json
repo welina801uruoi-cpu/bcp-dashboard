@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 01:17:55",
-  "timestamp_local": "2026-11-10 23:17:55",
+  "timestamp": "2026-11-11 02:03:11",
+  "timestamp_local": "2026-11-11 00:03:11",
   "country": {
     "id": "vietnam",
     "name": "ベトナム",
@@ -289,17 +289,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 16,
-    "summary": "M5.2 (140 km ESE of Labuha, Indonesia)",
+    "count_24h": 17,
+    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
     "latest": {
-      "mag": 5.2,
-      "place": "140 km ESE of Labuha, Indonesia",
-      "time": "11/11 00:51 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi",
+      "mag": 4.8,
+      "place": "20 km SSW of Lata, Solomon Islands",
+      "time": "11/11 00:52 JST",
+      "depth_km": 48.333,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "20 km SSW of Lata, Solomon Islands",
+        "time": "11/11 00:52 JST",
+        "depth_km": 48.333,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "140 km ESE of Labuha, Indonesia",
@@ -410,14 +418,6 @@
         "time": "11/10 04:27 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6m",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 04:09 JST",
-        "depth_km": 519.944,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6l",
         "tsunami": 0
       }
     ]
@@ -661,14 +661,14 @@
     "default_channel_id": "stream_vtv_live"
   },
   "forex": {
-    "timestamp": "11/11 01:17 JST",
+    "timestamp": "11/11 02:03 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.74,
-      "change": 0.45,
-      "change_pct": 0.28,
+      "rate": 158.76,
+      "change": 0.46,
+      "change_pct": 0.29,
       "direction": "up"
     },
     "local_jpy": {
@@ -677,16 +677,16 @@
       "symbol": "₫",
       "rate": 0.0062,
       "change": 0.0,
-      "change_pct": 0.06,
+      "change_pct": 0.08,
       "direction": "even"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.03,
-      "change": 0.58,
-      "change_pct": 0.33
+      "rate": 177.04,
+      "change": 0.59,
+      "change_pct": 0.34
     }
   },
   "airports": [
@@ -724,28 +724,65 @@
   "weather": {
     "cities": [
       {
+        "name": "ハノイ (首都)",
+        "name_en": "Hanoi",
+        "is_capital": true,
+        "lat": 21.0285,
+        "lon": 105.8542,
+        "temp": 15.8,
+        "apparent_temp": 16.0,
+        "humidity": 86,
+        "wind_speed": 6.1,
+        "wind_gusts": 13.3,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/11(水)",
+            "temp_max": 21.0,
+            "temp_min": 14.9,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 18.8,
+            "temp_min": 16.1,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 5.5
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 25.8,
+            "temp_min": 17.7,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.7
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ホーチミン (最大経済都市)",
         "name_en": "Ho Chi Minh City",
         "is_capital": false,
         "lat": 10.8231,
         "lon": 106.6297,
-        "temp": 25.9,
-        "apparent_temp": 31.6,
-        "humidity": 95,
-        "wind_speed": 6.3,
-        "wind_gusts": 14.0,
+        "temp": 25.7,
+        "apparent_temp": 31.2,
+        "humidity": 94,
+        "wind_speed": 6.5,
+        "wind_gusts": 15.5,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
-          {
-            "date": "11/10(火)",
-            "temp_max": 34.4,
-            "temp_min": 24.5,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 3.4
-          },
           {
             "date": "11/11(水)",
             "temp_max": 32.1,
@@ -761,6 +798,14 @@
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
             "precipitation_mm": 6.4
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 30.9,
+            "temp_min": 24.2,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 8.1
           }
         ],
         "alert": "平常",
@@ -774,23 +819,15 @@
         "is_capital": false,
         "lat": 16.0544,
         "lon": 108.2022,
-        "temp": 23.9,
-        "apparent_temp": 24.5,
+        "temp": 23.7,
+        "apparent_temp": 24.4,
         "humidity": 86,
-        "wind_speed": 26.5,
-        "wind_gusts": 52.2,
+        "wind_speed": 26.2,
+        "wind_gusts": 51.1,
         "precipitation": 0.4,
         "weather_code": 80,
         "weather_label": "🌧️ にわか雨 (弱)",
         "forecast": [
-          {
-            "date": "11/10(火)",
-            "temp_max": 25.3,
-            "temp_min": 23.0,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 94.9
-          },
           {
             "date": "11/11(水)",
             "temp_max": 25.3,
@@ -806,52 +843,60 @@
             "weather_code": 81,
             "weather_label": "🌧️ にわか雨 (中)",
             "precipitation_mm": 47.4
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 28.3,
+            "temp_min": 24.5,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 3.6
           }
         ],
         "alert": "強風・大雨注意報",
         "alert_badge": "🟠 気象注意報",
         "alert_class": "orange",
-        "alert_desc": "強風（突風52.2km/h）または強い雨。移動・屋外行動に注意"
+        "alert_desc": "強風（突風51.1km/h）または強い雨。移動・屋外行動に注意"
       }
     ],
     "capital": {
-      "name": "ホーチミン (最大経済都市)",
-      "name_en": "Ho Chi Minh City",
-      "is_capital": false,
-      "lat": 10.8231,
-      "lon": 106.6297,
-      "temp": 25.9,
-      "apparent_temp": 31.6,
-      "humidity": 95,
-      "wind_speed": 6.3,
-      "wind_gusts": 14.0,
+      "name": "ハノイ (首都)",
+      "name_en": "Hanoi",
+      "is_capital": true,
+      "lat": 21.0285,
+      "lon": 105.8542,
+      "temp": 15.8,
+      "apparent_temp": 16.0,
+      "humidity": 86,
+      "wind_speed": 6.1,
+      "wind_gusts": 13.3,
       "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
-          "date": "11/10(火)",
-          "temp_max": 34.4,
-          "temp_min": 24.5,
-          "weather_code": 55,
-          "weather_label": "🌦️ 霧雨 (強)",
-          "precipitation_mm": 3.4
-        },
-        {
           "date": "11/11(水)",
-          "temp_max": 32.1,
-          "temp_min": 24.4,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 5.1
+          "temp_max": 21.0,
+          "temp_min": 14.9,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/12(木)",
-          "temp_max": 31.6,
-          "temp_min": 24.7,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 6.4
+          "temp_max": 18.8,
+          "temp_min": 16.1,
+          "weather_code": 55,
+          "weather_label": "🌦️ 霧雨 (強)",
+          "precipitation_mm": 5.5
+        },
+        {
+          "date": "11/13(金)",
+          "temp_max": 25.8,
+          "temp_min": 17.7,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.7
         }
       ],
       "alert": "平常",
@@ -859,7 +904,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/11 01:17 JST"
+    "timestamp": "11/11 02:03 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -888,7 +933,7 @@
         "details": "南北統一鉄道各便平常運行中"
       }
     ],
-    "timestamp": "11/11 01:17 JST"
+    "timestamp": "11/11 02:03 JST"
   },
   "lifeline": {
     "status": "NORMAL",

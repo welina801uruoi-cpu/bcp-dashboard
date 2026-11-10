@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 01:17:23",
-  "timestamp_local": "2026-11-10 22:47:23",
+  "timestamp": "2026-11-11 02:02:50",
+  "timestamp_local": "2026-11-10 23:32:50",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -267,17 +267,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 16,
-    "summary": "M5.2 (140 km ESE of Labuha, Indonesia)",
+    "count_24h": 17,
+    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
     "latest": {
-      "mag": 5.2,
-      "place": "140 km ESE of Labuha, Indonesia",
-      "time": "11/11 00:51 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi",
+      "mag": 4.8,
+      "place": "20 km SSW of Lata, Solomon Islands",
+      "time": "11/11 00:52 JST",
+      "depth_km": 48.333,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "20 km SSW of Lata, Solomon Islands",
+        "time": "11/11 00:52 JST",
+        "depth_km": 48.333,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "140 km ESE of Labuha, Indonesia",
@@ -388,14 +396,6 @@
         "time": "11/10 04:27 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6m",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 04:09 JST",
-        "depth_km": 519.944,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6l",
         "tsunami": 0
       }
     ]
@@ -575,7 +575,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/10 15:27",
@@ -653,14 +653,14 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/11 01:17 JST",
+    "timestamp": "11/11 02:02 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.74,
-      "change": 0.45,
-      "change_pct": 0.28,
+      "rate": 158.76,
+      "change": 0.46,
+      "change_pct": 0.29,
       "direction": "up"
     },
     "local_jpy": {
@@ -676,9 +676,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.03,
-      "change": 0.58,
-      "change_pct": 0.33
+      "rate": 177.04,
+      "change": 0.59,
+      "change_pct": 0.34
     }
   },
   "airports": [
@@ -692,19 +692,19 @@
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
       "weather": {
-        "raw": "METAR VYYY 101600Z 26002KT 6000 BKN014 FEW018CB OVC100 24/23 Q1015 NOSIG",
-        "wind": "2kt",
-        "wind_speed": 2,
+        "raw": "METAR VYYY 101630Z 00000KT 6000 BKN014 FEW018CB OVC100 24/23 Q1015 NOSIG",
+        "wind": "0kt",
+        "wind_speed": 0,
         "wind_gust": 0,
         "visibility": "3.73マイル",
         "temp": 24,
         "fltcat": "VFR",
-        "report_time": "2026-11-10T16:00:00.000Z"
+        "report_time": "2026-11-10T16:30:00.000Z"
       },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "視程良好（3.73マイル）、風速安定（2kt）。順調に運航中"
+      "status_desc": "視程良好（3.73マイル）、風速安定（0kt）。順調に運航中"
     }
   ],
   "weather": {
@@ -715,11 +715,11 @@
         "is_capital": false,
         "lat": 16.8661,
         "lon": 96.1951,
-        "temp": 23.7,
-        "apparent_temp": 27.8,
+        "temp": 23.8,
+        "apparent_temp": 28.0,
         "humidity": 96,
-        "wind_speed": 9.3,
-        "wind_gusts": 16.9,
+        "wind_speed": 9.4,
+        "wind_gusts": 17.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -760,11 +760,11 @@
         "is_capital": true,
         "lat": 19.7633,
         "lon": 96.0785,
-        "temp": 21.2,
+        "temp": 21.1,
         "apparent_temp": 24.0,
         "humidity": 98,
-        "wind_speed": 10.1,
-        "wind_gusts": 22.0,
+        "wind_speed": 9.3,
+        "wind_gusts": 22.3,
         "precipitation": 0.6,
         "weather_code": 80,
         "weather_label": "🌧️ にわか雨 (弱)",
@@ -806,10 +806,10 @@
         "lat": 21.9588,
         "lon": 96.0891,
         "temp": 20.7,
-        "apparent_temp": 23.6,
-        "humidity": 92,
+        "apparent_temp": 23.4,
+        "humidity": 90,
         "wind_speed": 4.3,
-        "wind_gusts": 8.3,
+        "wind_gusts": 7.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -851,11 +851,11 @@
       "is_capital": true,
       "lat": 19.7633,
       "lon": 96.0785,
-      "temp": 21.2,
+      "temp": 21.1,
       "apparent_temp": 24.0,
       "humidity": 98,
-      "wind_speed": 10.1,
-      "wind_gusts": 22.0,
+      "wind_speed": 9.3,
+      "wind_gusts": 22.3,
       "precipitation": 0.6,
       "weather_code": 80,
       "weather_label": "🌧️ にわか雨 (弱)",
@@ -890,7 +890,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/11 01:17 JST"
+    "timestamp": "11/11 02:02 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -919,7 +919,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/11 01:17 JST"
+    "timestamp": "11/11 02:02 JST"
   },
   "lifeline": {
     "status": "NORMAL",

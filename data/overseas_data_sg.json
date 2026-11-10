@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 01:17:42",
-  "timestamp_local": "2026-11-11 00:17:42",
+  "timestamp": "2026-11-11 02:03:02",
+  "timestamp_local": "2026-11-11 01:03:02",
   "country": {
     "id": "singapore",
     "name": "シンガポール",
@@ -259,17 +259,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 16,
-    "summary": "M5.2 (140 km ESE of Labuha, Indonesia)",
+    "count_24h": 17,
+    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
     "latest": {
-      "mag": 5.2,
-      "place": "140 km ESE of Labuha, Indonesia",
-      "time": "11/11 00:51 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi",
+      "mag": 4.8,
+      "place": "20 km SSW of Lata, Solomon Islands",
+      "time": "11/11 00:52 JST",
+      "depth_km": 48.333,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "20 km SSW of Lata, Solomon Islands",
+        "time": "11/11 00:52 JST",
+        "depth_km": 48.333,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "140 km ESE of Labuha, Indonesia",
@@ -380,14 +388,6 @@
         "time": "11/10 04:27 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6m",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 04:09 JST",
-        "depth_km": 519.944,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6l",
         "tsunami": 0
       }
     ]
@@ -567,7 +567,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/10 15:40",
@@ -639,14 +639,14 @@
     "default_channel_id": "stream_cna_live"
   },
   "forex": {
-    "timestamp": "11/11 01:17 JST",
+    "timestamp": "11/11 02:02 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.74,
-      "change": 0.45,
-      "change_pct": 0.28,
+      "rate": 158.76,
+      "change": 0.46,
+      "change_pct": 0.29,
       "direction": "up"
     },
     "local_jpy": {
@@ -654,7 +654,7 @@
       "name": "シンガポールドル",
       "symbol": "S$",
       "rate": 123.76,
-      "change": 0.34,
+      "change": 0.35,
       "change_pct": 0.28,
       "direction": "up"
     },
@@ -662,9 +662,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.03,
-      "change": 0.58,
-      "change_pct": 0.33
+      "rate": 177.04,
+      "change": 0.59,
+      "change_pct": 0.34
     }
   },
   "airports": [
@@ -685,99 +685,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "シンガポール (全域)",
-        "name_en": "Singapore",
-        "is_capital": true,
-        "lat": 1.3521,
-        "lon": 103.8198,
-        "temp": 23.8,
-        "apparent_temp": 29.3,
-        "humidity": 100,
-        "wind_speed": 2.7,
-        "wind_gusts": 10.4,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
-        "forecast": [
-          {
-            "date": "11/11(水)",
-            "temp_max": 31.7,
-            "temp_min": 23.7,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 13.8
-          },
-          {
-            "date": "11/12(木)",
-            "temp_max": 31.3,
-            "temp_min": 23.1,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 4.7
-          },
-          {
-            "date": "11/13(金)",
-            "temp_max": 30.3,
-            "temp_min": 23.3,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 12.5
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      }
-    ],
-    "capital": {
-      "name": "シンガポール (全域)",
-      "name_en": "Singapore",
-      "is_capital": true,
-      "lat": 1.3521,
-      "lon": 103.8198,
-      "temp": 23.8,
-      "apparent_temp": 29.3,
-      "humidity": 100,
-      "wind_speed": 2.7,
-      "wind_gusts": 10.4,
-      "precipitation": 0.1,
-      "weather_code": 51,
-      "weather_label": "🌦️ 霧雨 (弱)",
-      "forecast": [
-        {
-          "date": "11/11(水)",
-          "temp_max": 31.7,
-          "temp_min": 23.7,
-          "weather_code": 81,
-          "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 13.8
-        },
-        {
-          "date": "11/12(木)",
-          "temp_max": 31.3,
-          "temp_min": 23.1,
-          "weather_code": 81,
-          "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 4.7
-        },
-        {
-          "date": "11/13(金)",
-          "temp_max": 30.3,
-          "temp_min": 23.3,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 12.5
-        }
-      ],
-      "alert": "気象注意",
-      "alert_badge": "🟡 気象注意",
-      "alert_class": "yellow",
-      "alert_desc": "降雨または視程低下あり。通常行動可能"
-    },
-    "timestamp": "11/11 01:17 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/11 02:03 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -806,7 +716,7 @@
         "details": "MRT南北線・東西線・環状線など平常運行中"
       }
     ],
-    "timestamp": "11/11 01:17 JST"
+    "timestamp": "11/11 02:02 JST"
   },
   "lifeline": {
     "status": "NORMAL",

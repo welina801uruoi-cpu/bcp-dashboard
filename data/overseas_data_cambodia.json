@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 01:18:20",
-  "timestamp_local": "2026-11-10 23:18:20",
+  "timestamp": "2026-11-11 02:03:36",
+  "timestamp_local": "2026-11-11 00:03:36",
   "country": {
     "id": "cambodia",
     "name": "カンボジア",
@@ -260,17 +260,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 16,
-    "summary": "M5.2 (140 km ESE of Labuha, Indonesia)",
+    "count_24h": 17,
+    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
     "latest": {
-      "mag": 5.2,
-      "place": "140 km ESE of Labuha, Indonesia",
-      "time": "11/11 00:51 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi",
+      "mag": 4.8,
+      "place": "20 km SSW of Lata, Solomon Islands",
+      "time": "11/11 00:52 JST",
+      "depth_km": 48.333,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "20 km SSW of Lata, Solomon Islands",
+        "time": "11/11 00:52 JST",
+        "depth_km": 48.333,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "140 km ESE of Labuha, Indonesia",
@@ -381,14 +389,6 @@
         "time": "11/10 04:27 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6m",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 04:09 JST",
-        "depth_km": 519.944,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6l",
         "tsunami": 0
       }
     ]
@@ -633,14 +633,14 @@
     "default_channel_id": "stream_euronews_asia"
   },
   "forex": {
-    "timestamp": "11/11 01:18 JST",
+    "timestamp": "11/11 02:03 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.74,
-      "change": 0.45,
-      "change_pct": 0.28,
+      "rate": 158.76,
+      "change": 0.46,
+      "change_pct": 0.29,
       "direction": "up"
     },
     "local_jpy": {
@@ -656,9 +656,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.03,
-      "change": 0.58,
-      "change_pct": 0.33
+      "rate": 177.04,
+      "change": 0.59,
+      "change_pct": 0.34
     }
   },
   "airports": [
@@ -681,28 +681,65 @@
   "weather": {
     "cities": [
       {
+        "name": "プノンペン (首都)",
+        "name_en": "Phnom Penh",
+        "is_capital": true,
+        "lat": 11.5564,
+        "lon": 104.9282,
+        "temp": 24.1,
+        "apparent_temp": 27.4,
+        "humidity": 92,
+        "wind_speed": 14.0,
+        "wind_gusts": 27.7,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/11(水)",
+            "temp_max": 30.9,
+            "temp_min": 23.9,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 4.7
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 31.3,
+            "temp_min": 23.9,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 15.4
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 31.3,
+            "temp_min": 23.9,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 20.3
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "シェムリアップ (北西部)",
         "name_en": "Siem Reap",
         "is_capital": false,
         "lat": 13.3671,
         "lon": 103.8448,
         "temp": 23.2,
-        "apparent_temp": 23.7,
-        "humidity": 74,
-        "wind_speed": 17.8,
-        "wind_gusts": 30.6,
+        "apparent_temp": 23.4,
+        "humidity": 71,
+        "wind_speed": 17.1,
+        "wind_gusts": 29.9,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
-          {
-            "date": "11/10(火)",
-            "temp_max": 31.4,
-            "temp_min": 23.2,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 3.6
-          },
           {
             "date": "11/11(水)",
             "temp_max": 30.3,
@@ -718,6 +755,14 @@
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
             "precipitation_mm": 1.4
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 30.4,
+            "temp_min": 23.5,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 10.4
           }
         ],
         "alert": "平常",
@@ -727,43 +772,43 @@
       }
     ],
     "capital": {
-      "name": "シェムリアップ (北西部)",
-      "name_en": "Siem Reap",
-      "is_capital": false,
-      "lat": 13.3671,
-      "lon": 103.8448,
-      "temp": 23.2,
-      "apparent_temp": 23.7,
-      "humidity": 74,
-      "wind_speed": 17.8,
-      "wind_gusts": 30.6,
+      "name": "プノンペン (首都)",
+      "name_en": "Phnom Penh",
+      "is_capital": true,
+      "lat": 11.5564,
+      "lon": 104.9282,
+      "temp": 24.1,
+      "apparent_temp": 27.4,
+      "humidity": 92,
+      "wind_speed": 14.0,
+      "wind_gusts": 27.7,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
-          "date": "11/10(火)",
-          "temp_max": 31.4,
-          "temp_min": 23.2,
-          "weather_code": 55,
-          "weather_label": "🌦️ 霧雨 (強)",
-          "precipitation_mm": 3.6
-        },
-        {
           "date": "11/11(水)",
-          "temp_max": 30.3,
-          "temp_min": 21.6,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 30.9,
+          "temp_min": 23.9,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 4.7
         },
         {
           "date": "11/12(木)",
-          "temp_max": 31.1,
-          "temp_min": 22.2,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 1.4
+          "temp_max": 31.3,
+          "temp_min": 23.9,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 15.4
+        },
+        {
+          "date": "11/13(金)",
+          "temp_max": 31.3,
+          "temp_min": 23.9,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 20.3
         }
       ],
       "alert": "平常",
@@ -771,7 +816,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/11 01:18 JST"
+    "timestamp": "11/11 02:03 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -800,7 +845,7 @@
         "details": "旅客定期便運行中"
       }
     ],
-    "timestamp": "11/11 01:18 JST"
+    "timestamp": "11/11 02:03 JST"
   },
   "lifeline": {
     "status": "NORMAL",

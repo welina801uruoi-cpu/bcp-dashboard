@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 01:18:05",
-  "timestamp_local": "2026-11-10 23:18:05",
+  "timestamp": "2026-11-11 02:03:22",
+  "timestamp_local": "2026-11-11 00:03:22",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -283,17 +283,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 16,
-    "summary": "M5.2 (140 km ESE of Labuha, Indonesia)",
+    "count_24h": 17,
+    "summary": "M4.8 (20 km SSW of Lata, Solomon Islands)",
     "latest": {
-      "mag": 5.2,
-      "place": "140 km ESE of Labuha, Indonesia",
-      "time": "11/11 00:51 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi",
+      "mag": 4.8,
+      "place": "20 km SSW of Lata, Solomon Islands",
+      "time": "11/11 00:52 JST",
+      "depth_km": 48.333,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "20 km SSW of Lata, Solomon Islands",
+        "time": "11/11 00:52 JST",
+        "depth_km": 48.333,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbj",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "140 km ESE of Labuha, Indonesia",
@@ -404,14 +412,6 @@
         "time": "11/10 04:27 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6m",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "south of the Fiji Islands",
-        "time": "11/10 04:09 JST",
-        "depth_km": 519.944,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6l",
         "tsunami": 0
       }
     ]
@@ -614,7 +614,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/10 15:45",
@@ -647,7 +647,7 @@
       {
         "id": "stream_kompas_live",
         "name": "📺 Kompas TV 24h 生配信",
-        "video_id": "ahzsOqSBIuA",
+        "video_id": "DOOrIxw5xOw",
         "handle": "@KompasTV",
         "type": "stream"
       },
@@ -661,7 +661,7 @@
       {
         "id": "stream_tvone_live",
         "name": "📺 tvOne News 24h 生配信",
-        "video_id": "-K67gEoiNRM",
+        "video_id": "rQJoEpzKkNk",
         "handle": "@tvOneNews",
         "type": "stream"
       },
@@ -675,14 +675,14 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/11 01:18 JST",
+    "timestamp": "11/11 02:03 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.74,
-      "change": 0.45,
-      "change_pct": 0.28,
+      "rate": 158.76,
+      "change": 0.46,
+      "change_pct": 0.29,
       "direction": "up"
     },
     "local_jpy": {
@@ -691,16 +691,16 @@
       "symbol": "Rp",
       "rate": 0.0088,
       "change": 0.0001,
-      "change_pct": 0.68,
+      "change_pct": 0.7,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.03,
-      "change": 0.58,
-      "change_pct": 0.33
+      "rate": 177.04,
+      "change": 0.59,
+      "change_pct": 0.34
     }
   },
   "airports": [
@@ -743,23 +743,15 @@
         "is_capital": true,
         "lat": -6.2088,
         "lon": 106.8456,
-        "temp": 26.1,
+        "temp": 26.2,
         "apparent_temp": 31.5,
-        "humidity": 86,
-        "wind_speed": 2.8,
-        "wind_gusts": 10.4,
+        "humidity": 84,
+        "wind_speed": 1.5,
+        "wind_gusts": 13.3,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
-          {
-            "date": "11/10(火)",
-            "temp_max": 32.7,
-            "temp_min": 25.6,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 5.2
-          },
           {
             "date": "11/11(水)",
             "temp_max": 31.8,
@@ -775,6 +767,14 @@
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
             "precipitation_mm": 5.5
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 31.7,
+            "temp_min": 24.9,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 6.6
           }
         ],
         "alert": "気象注意",
@@ -788,14 +788,14 @@
         "is_capital": false,
         "lat": -8.6705,
         "lon": 115.2126,
-        "temp": 25.7,
-        "apparent_temp": 31.3,
+        "temp": 25.6,
+        "apparent_temp": 31.2,
         "humidity": 92,
-        "wind_speed": 4.7,
-        "wind_gusts": 11.2,
+        "wind_speed": 4.0,
+        "wind_gusts": 9.7,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/11(水)",
@@ -826,6 +826,51 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "スラバヤ (東ジャワ)",
+        "name_en": "Surabaya",
+        "is_capital": false,
+        "lat": -7.2575,
+        "lon": 112.7521,
+        "temp": 28.4,
+        "apparent_temp": 33.4,
+        "humidity": 75,
+        "wind_speed": 5.6,
+        "wind_gusts": 13.7,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
+        "forecast": [
+          {
+            "date": "11/11(水)",
+            "temp_max": 33.2,
+            "temp_min": 24.9,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 5.8
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 32.4,
+            "temp_min": 26.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 2.2
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 34.1,
+            "temp_min": 26.4,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 4.1
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -834,23 +879,15 @@
       "is_capital": true,
       "lat": -6.2088,
       "lon": 106.8456,
-      "temp": 26.1,
+      "temp": 26.2,
       "apparent_temp": 31.5,
-      "humidity": 86,
-      "wind_speed": 2.8,
-      "wind_gusts": 10.4,
+      "humidity": 84,
+      "wind_speed": 1.5,
+      "wind_gusts": 13.3,
       "precipitation": 0.1,
       "weather_code": 51,
       "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
-        {
-          "date": "11/10(火)",
-          "temp_max": 32.7,
-          "temp_min": 25.6,
-          "weather_code": 81,
-          "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 5.2
-        },
         {
           "date": "11/11(水)",
           "temp_max": 31.8,
@@ -866,6 +903,14 @@
           "weather_code": 80,
           "weather_label": "🌧️ にわか雨 (弱)",
           "precipitation_mm": 5.5
+        },
+        {
+          "date": "11/13(金)",
+          "temp_max": 31.7,
+          "temp_min": 24.9,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 6.6
         }
       ],
       "alert": "気象注意",
@@ -873,7 +918,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/11 01:18 JST"
+    "timestamp": "11/11 02:03 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -902,7 +947,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/11 01:18 JST"
+    "timestamp": "11/11 02:03 JST"
   },
   "lifeline": {
     "status": "NORMAL",

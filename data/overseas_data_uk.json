@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 03:24:44",
-  "timestamp_local": "2026-11-10 19:24:44",
+  "timestamp": "2026-11-11 04:27:50",
+  "timestamp_local": "2026-11-10 20:27:50",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -352,7 +352,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 20,
+    "count_24h": 19,
     "summary": "M5.2 (21 km WNW of Popondetta, Papua New Guinea)",
     "latest": {
       "mag": 5.2,
@@ -409,6 +409,14 @@
         "time": "11/10 23:54 JST",
         "depth_km": 35,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb8",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.7,
+        "place": "Java, Indonesia",
+        "time": "11/10 23:31 JST",
+        "depth_km": 101.214,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb6",
         "tsunami": 0
       },
       {
@@ -474,19 +482,18 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8i",
         "tsunami": 0
-      },
-      {
-        "mag": 5.4,
-        "place": "Pulau Pulau Tanimbar, Indonesia",
-        "time": "11/10 10:53 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8d",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "イラン高官が米副大統領と会談否定　「対応は偽りだ」原油価格下げるのが目的と非難(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/475c390bed9f63848b970f41de236c40eeb07ca8?source=rss",
+        "description": "アメリカとの戦闘終結に向けた交渉が膠着（こうちゃく）するなか、バンス副大統領と会談すると報じられたイランの国家安全保障最高評議会のレザイ事務局長が、「事実無根だ」と否定しました。 レザイ事務局長は10",
+        "pub_date": "11/11 03:35 JST",
+        "is_priority": false
+      },
       {
         "title": "米アンソロピック　上場で10兆円調達か(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/3eae4376133cbf7e18678ba3e0950338c1bc9dcd?source=rss",
@@ -619,13 +626,6 @@
         "description": "【ソウル聯合ニュース】韓国の趙顕（チョ・ヒョン）外交部長官は10日（現地時間）、主要7カ国（G7）外相会合のため訪問中のフランス・パリでルビオ米国務長官と会談し、韓米関係や北朝鮮問題などについて協議し",
         "pub_date": "11/10 22:17 JST",
         "is_priority": false
-      },
-      {
-        "title": "ヘグセス米国防長官の会見始まる(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/05cc425de701cf6d80f2c85213752404c961340c?source=rss",
-        "description": "【ワシントン共同】ヘグセス米国防長官は10日、下院で自身に対する弾劾訴追決議案が提出されたことを受け、国防総省で記者会見を開いた。",
-        "pub_date": "11/10 22:06 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -716,7 +716,7 @@
       {
         "id": "stream_skynews",
         "name": "📺 Sky News LIVE (24h英国ニュース)",
-        "video_id": "9hUJCnLnR7E",
+        "video_id": "9UwfKUGeALM",
         "handle": "@SkyNews",
         "type": "stream"
       },
@@ -756,32 +756,32 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/11 03:24 JST",
+    "timestamp": "11/11 04:27 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.8,
-      "change": 0.51,
-      "change_pct": 0.32,
+      "rate": 158.83,
+      "change": 0.54,
+      "change_pct": 0.34,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "GBP",
       "name": "英ポンド",
       "symbol": "£",
-      "rate": 211.8,
-      "change": 0.33,
-      "change_pct": 0.16,
+      "rate": 211.98,
+      "change": 0.51,
+      "change_pct": 0.24,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.17,
-      "change": 0.72,
-      "change_pct": 0.41
+      "rate": 177.35,
+      "change": 0.9,
+      "change_pct": 0.51
     }
   },
   "airports": [
@@ -854,22 +854,22 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 10.0,
-        "apparent_temp": 6.5,
-        "humidity": 77,
-        "wind_speed": 17.6,
-        "wind_gusts": 38.9,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 9.9,
+        "apparent_temp": 7.0,
+        "humidity": 88,
+        "wind_speed": 16.2,
+        "wind_gusts": 31.0,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/10(火)",
-            "temp_max": 10.6,
+            "temp_max": 10.7,
             "temp_min": 5.9,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 3.8
+            "precipitation_mm": 4.4
           },
           {
             "date": "11/11(水)",
@@ -877,7 +877,7 @@
             "temp_min": 8.2,
             "weather_code": 63,
             "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 15.2
+            "precipitation_mm": 15.6
           },
           {
             "date": "11/12(木)",
@@ -888,10 +888,10 @@
             "precipitation_mm": 0.0
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "マンチェスター (中部)",
@@ -899,18 +899,18 @@
         "is_capital": false,
         "lat": 53.4808,
         "lon": -2.2426,
-        "temp": 8.1,
+        "temp": 8.0,
         "apparent_temp": 5.8,
-        "humidity": 80,
-        "wind_speed": 7.2,
-        "wind_gusts": 15.8,
+        "humidity": 82,
+        "wind_speed": 6.8,
+        "wind_gusts": 18.0,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/10(火)",
-            "temp_max": 9.5,
+            "temp_max": 9.6,
             "temp_min": 4.3,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -937,51 +937,6 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "エディンバラ (スコットランド)",
-        "name_en": "Edinburgh",
-        "is_capital": false,
-        "lat": 55.9533,
-        "lon": -3.1883,
-        "temp": 5.4,
-        "apparent_temp": 2.8,
-        "humidity": 84,
-        "wind_speed": 7.2,
-        "wind_gusts": 15.1,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
-        "forecast": [
-          {
-            "date": "11/10(火)",
-            "temp_max": 7.8,
-            "temp_min": 3.1,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/11(水)",
-            "temp_max": 6.7,
-            "temp_min": 2.0,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/12(木)",
-            "temp_max": 6.8,
-            "temp_min": 1.2,
-            "weather_code": 1,
-            "weather_label": "🌤️ 晴れ",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -990,22 +945,22 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 10.0,
-      "apparent_temp": 6.5,
-      "humidity": 77,
-      "wind_speed": 17.6,
-      "wind_gusts": 38.9,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "temp": 9.9,
+      "apparent_temp": 7.0,
+      "humidity": 88,
+      "wind_speed": 16.2,
+      "wind_gusts": 31.0,
+      "precipitation": 0.1,
+      "weather_code": 51,
+      "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
         {
           "date": "11/10(火)",
-          "temp_max": 10.6,
+          "temp_max": 10.7,
           "temp_min": 5.9,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 3.8
+          "precipitation_mm": 4.4
         },
         {
           "date": "11/11(水)",
@@ -1013,7 +968,7 @@
           "temp_min": 8.2,
           "weather_code": 63,
           "weather_label": "🌧️ 雨 (中雨)",
-          "precipitation_mm": 15.2
+          "precipitation_mm": 15.6
         },
         {
           "date": "11/12(木)",
@@ -1024,30 +979,46 @@
           "precipitation_mm": 0.0
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/11 03:24 JST"
+    "timestamp": "11/11 04:27 JST"
   },
   "transit": {
     "status": "CAUTION",
     "status_code": "warning",
     "status_badge": "🟠 大幅遅延・運行注意",
-    "status_text": "⚠️ Victoria線: 大幅遅延・一部運休",
+    "status_text": "⚠️ District線: 大幅遅延・一部運休",
     "overall_status": "大幅遅延・一部運休",
     "strike": false,
     "monitored_systems_count": 4,
-    "alert_lines_count": 1,
+    "alert_lines_count": 3,
     "alert_lines": [
+      {
+        "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
+        "line": "District",
+        "mode": "tube",
+        "status": "Severe Delays",
+        "badge": "🟠 警戒",
+        "reason": "District Line: Severe delays between Turnham Green and Richmond due to a signal failure at Shepherd's Bush. Tickets are "
+      },
+      {
+        "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
+        "line": "Mildmay",
+        "mode": "overground",
+        "status": "Severe Delays",
+        "badge": "🟠 警戒",
+        "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to a signal failure at Shepherd's Bush. "
+      },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
         "line": "Victoria",
         "mode": "tube",
         "status": "Severe Delays",
         "badge": "🟠 警戒",
-        "reason": "Victoria Line: Severe delays while we fix a track fault at Brixton. Tickets are being accepted on London Buses, London O"
+        "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets are being accepted on London Buses, London Overgro"
       }
     ],
     "systems": [
@@ -1091,10 +1062,10 @@
           {
             "name": "District",
             "mode": "tube",
-            "status_raw": "Minor Delays",
-            "badge": "🟡 注意",
-            "code": "minor",
-            "reason": "District Line: Severe delays between Earl's Court and Richmond / Ealing Broadway due to a signal failure at Shepherd's B"
+            "status_raw": "Severe Delays",
+            "badge": "🟠 警戒",
+            "code": "warning",
+            "reason": "District Line: Severe delays between Turnham Green and Richmond due to a signal failure at Shepherd's Bush. Tickets are "
           },
           {
             "name": "DLR",
@@ -1126,7 +1097,7 @@
             "status_raw": "Minor Delays",
             "badge": "🟡 注意",
             "code": "minor",
-            "reason": "Jubilee Line: Minor delays due to train cancellations. "
+            "reason": "Jubilee Line: Minor delays due train cancellations. "
           },
           {
             "name": "Liberty",
@@ -1155,10 +1126,10 @@
           {
             "name": "Mildmay",
             "mode": "overground",
-            "status_raw": "Minor Delays",
-            "badge": "🟡 注意",
-            "code": "minor",
-            "reason": "Mildmay Line: No service between Willesden Junction and Shepherd's Bush while we fix a signal failure at Shepherd's Bush"
+            "status_raw": "Severe Delays",
+            "badge": "🟠 警戒",
+            "code": "warning",
+            "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to a signal failure at Shepherd's Bush. "
           },
           {
             "name": "Northern",
@@ -1166,7 +1137,7 @@
             "status_raw": "Minor Delays",
             "badge": "🟡 注意",
             "code": "minor",
-            "reason": "Northern Line: Minor delays between Camden Town and High Barnet, northbound only, while we fix a points failure at Kenni"
+            "reason": "Northern Line: Minor delays between Camden Town and Battersea Power Station via Charing Cross southbound only, while we "
           },
           {
             "name": "Piccadilly",
@@ -1190,7 +1161,7 @@
             "status_raw": "Severe Delays",
             "badge": "🟠 警戒",
             "code": "warning",
-            "reason": "Victoria Line: Severe delays while we fix a track fault at Brixton. Tickets are being accepted on London Buses, London O"
+            "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets are being accepted on London Buses, London Overgro"
           },
           {
             "name": "Waterloo & City",
@@ -1270,7 +1241,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/11 03:24 JST"
+    "timestamp": "11/11 04:27 JST"
   },
   "lifeline": {
     "status": "NORMAL",

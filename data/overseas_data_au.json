@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 03:25:27",
-  "timestamp_local": "2026-11-11 04:25:27",
+  "timestamp": "2026-11-11 04:28:13",
+  "timestamp_local": "2026-11-11 05:28:13",
   "country": {
     "id": "australia",
     "name": "オーストラリア (豪州)",
@@ -296,7 +296,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 20,
+    "count_24h": 19,
     "summary": "M5.2 (21 km WNW of Popondetta, Papua New Guinea)",
     "latest": {
       "mag": 5.2,
@@ -353,6 +353,14 @@
         "time": "11/10 23:54 JST",
         "depth_km": 35,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb8",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.7,
+        "place": "Java, Indonesia",
+        "time": "11/10 23:31 JST",
+        "depth_km": 101.214,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb6",
         "tsunami": 0
       },
       {
@@ -418,19 +426,18 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8i",
         "tsunami": 0
-      },
-      {
-        "mag": 5.4,
-        "place": "Pulau Pulau Tanimbar, Indonesia",
-        "time": "11/10 10:53 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8d",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "イラン高官が米副大統領と会談否定　「対応は偽りだ」原油価格下げるのが目的と非難(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/475c390bed9f63848b970f41de236c40eeb07ca8?source=rss",
+        "description": "アメリカとの戦闘終結に向けた交渉が膠着（こうちゃく）するなか、バンス副大統領と会談すると報じられたイランの国家安全保障最高評議会のレザイ事務局長が、「事実無根だ」と否定しました。 レザイ事務局長は10",
+        "pub_date": "11/11 03:35 JST",
+        "is_priority": false
+      },
       {
         "title": "米アンソロピック　上場で10兆円調達か(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/3eae4376133cbf7e18678ba3e0950338c1bc9dcd?source=rss",
@@ -563,13 +570,6 @@
         "description": "【ソウル聯合ニュース】韓国の趙顕（チョ・ヒョン）外交部長官は10日（現地時間）、主要7カ国（G7）外相会合のため訪問中のフランス・パリでルビオ米国務長官と会談し、韓米関係や北朝鮮問題などについて協議し",
         "pub_date": "11/10 22:17 JST",
         "is_priority": false
-      },
-      {
-        "title": "ヘグセス米国防長官の会見始まる(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/05cc425de701cf6d80f2c85213752404c961340c?source=rss",
-        "description": "【ワシントン共同】ヘグセス米国防長官は10日、下院で自身に対する弾劾訴追決議案が提出されたことを受け、国防総省で記者会見を開いた。",
-        "pub_date": "11/10 22:06 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -696,32 +696,32 @@
     "default_channel_id": "stream_abc_news_au"
   },
   "forex": {
-    "timestamp": "11/11 03:25 JST",
+    "timestamp": "11/11 04:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.8,
-      "change": 0.51,
-      "change_pct": 0.32,
+      "rate": 158.83,
+      "change": 0.54,
+      "change_pct": 0.34,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "AUD",
       "name": "豪ドル",
       "symbol": "A$",
-      "rate": 108.88,
-      "change": 0.16,
-      "change_pct": 0.15,
+      "rate": 109.01,
+      "change": 0.29,
+      "change_pct": 0.27,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.17,
-      "change": 0.72,
-      "change_pct": 0.41
+      "rate": 177.35,
+      "change": 0.9,
+      "change_pct": 0.51
     }
   },
   "airports": [
@@ -764,38 +764,38 @@
         "is_capital": true,
         "lat": -35.2809,
         "lon": 149.13,
-        "temp": 10.4,
-        "apparent_temp": 8.6,
-        "humidity": 79,
-        "wind_speed": 6.9,
-        "wind_gusts": 17.3,
+        "temp": 9.4,
+        "apparent_temp": 8.5,
+        "humidity": 86,
+        "wind_speed": 1.3,
+        "wind_gusts": 5.0,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/11(水)",
-            "temp_max": 25.7,
-            "temp_min": 10.0,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.2
+            "temp_max": 25.4,
+            "temp_min": 9.1,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.2
           },
           {
             "date": "11/12(木)",
-            "temp_max": 24.0,
-            "temp_min": 11.8,
-            "weather_code": 2,
-            "weather_label": "⛅ 晴れ時々曇り",
+            "temp_max": 25.0,
+            "temp_min": 10.2,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/13(金)",
             "temp_max": 27.7,
-            "temp_min": 11.6,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
+            "temp_min": 10.2,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.9
           }
         ],
         "alert": "平常",
@@ -809,44 +809,44 @@
         "is_capital": false,
         "lat": -33.8688,
         "lon": 151.2093,
-        "temp": 15.6,
-        "apparent_temp": 15.2,
-        "humidity": 78,
-        "wind_speed": 6.0,
-        "wind_gusts": 12.2,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 16.1,
+        "apparent_temp": 15.4,
+        "humidity": 76,
+        "wind_speed": 8.2,
+        "wind_gusts": 21.2,
+        "precipitation": 0.2,
+        "weather_code": 53,
+        "weather_label": "🌦️ 霧雨 (中)",
         "forecast": [
           {
             "date": "11/11(水)",
-            "temp_max": 25.7,
-            "temp_min": 15.3,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 2.5
+            "temp_max": 25.6,
+            "temp_min": 15.5,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 2.6
           },
           {
             "date": "11/12(木)",
-            "temp_max": 22.2,
-            "temp_min": 17.8,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.2
+            "temp_max": 22.1,
+            "temp_min": 18.0,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
           },
           {
             "date": "11/13(金)",
-            "temp_max": 24.4,
-            "temp_min": 15.2,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.1
+            "temp_max": 24.9,
+            "temp_min": 15.3,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.2
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "メルボルン (南部)",
@@ -854,38 +854,38 @@
         "is_capital": false,
         "lat": -37.8136,
         "lon": 144.9631,
-        "temp": 15.1,
-        "apparent_temp": 14.9,
-        "humidity": 88,
-        "wind_speed": 8.4,
-        "wind_gusts": 18.4,
+        "temp": 14.6,
+        "apparent_temp": 14.6,
+        "humidity": 90,
+        "wind_speed": 6.8,
+        "wind_gusts": 13.3,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/11(水)",
-            "temp_max": 18.7,
-            "temp_min": 13.5,
+            "temp_max": 18.5,
+            "temp_min": 13.3,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.3
+            "precipitation_mm": 0.1
           },
           {
             "date": "11/12(木)",
             "temp_max": 19.3,
-            "temp_min": 12.1,
+            "temp_min": 10.8,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/13(金)",
-            "temp_max": 18.8,
-            "temp_min": 12.7,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.3
+            "temp_max": 18.7,
+            "temp_min": 12.6,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 2.4
           }
         ],
         "alert": "平常",
@@ -900,38 +900,38 @@
       "is_capital": true,
       "lat": -35.2809,
       "lon": 149.13,
-      "temp": 10.4,
-      "apparent_temp": 8.6,
-      "humidity": 79,
-      "wind_speed": 6.9,
-      "wind_gusts": 17.3,
+      "temp": 9.4,
+      "apparent_temp": 8.5,
+      "humidity": 86,
+      "wind_speed": 1.3,
+      "wind_gusts": 5.0,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/11(水)",
-          "temp_max": 25.7,
-          "temp_min": 10.0,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.2
+          "temp_max": 25.4,
+          "temp_min": 9.1,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 1.2
         },
         {
           "date": "11/12(木)",
-          "temp_max": 24.0,
-          "temp_min": 11.8,
-          "weather_code": 2,
-          "weather_label": "⛅ 晴れ時々曇り",
+          "temp_max": 25.0,
+          "temp_min": 10.2,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/13(金)",
           "temp_max": 27.7,
-          "temp_min": 11.6,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_min": 10.2,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.9
         }
       ],
       "alert": "平常",
@@ -939,7 +939,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/11 03:25 JST"
+    "timestamp": "11/11 04:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -969,7 +969,7 @@
         "details": "シドニー首都圏鉄道網は概ね平常運行中"
       }
     ],
-    "timestamp": "11/11 03:25 JST"
+    "timestamp": "11/11 04:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

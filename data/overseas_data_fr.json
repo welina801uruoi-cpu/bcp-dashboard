@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11 03:24:45",
-  "timestamp_local": "2026-11-10 20:24:45",
+  "timestamp": "2026-11-11 04:27:56",
+  "timestamp_local": "2026-11-10 21:27:56",
   "country": {
     "id": "france",
     "name": "フランス",
@@ -346,7 +346,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 20,
+    "count_24h": 19,
     "summary": "M5.2 (21 km WNW of Popondetta, Papua New Guinea)",
     "latest": {
       "mag": 5.2,
@@ -403,6 +403,14 @@
         "time": "11/10 23:54 JST",
         "depth_km": 35,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb8",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.7,
+        "place": "Java, Indonesia",
+        "time": "11/10 23:31 JST",
+        "depth_km": 101.214,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb6",
         "tsunami": 0
       },
       {
@@ -468,19 +476,18 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8i",
         "tsunami": 0
-      },
-      {
-        "mag": 5.4,
-        "place": "Pulau Pulau Tanimbar, Indonesia",
-        "time": "11/10 10:53 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8d",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "イラン高官が米副大統領と会談否定　「対応は偽りだ」原油価格下げるのが目的と非難(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/475c390bed9f63848b970f41de236c40eeb07ca8?source=rss",
+        "description": "アメリカとの戦闘終結に向けた交渉が膠着（こうちゃく）するなか、バンス副大統領と会談すると報じられたイランの国家安全保障最高評議会のレザイ事務局長が、「事実無根だ」と否定しました。 レザイ事務局長は10",
+        "pub_date": "11/11 03:35 JST",
+        "is_priority": false
+      },
       {
         "title": "米アンソロピック　上場で10兆円調達か(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/3eae4376133cbf7e18678ba3e0950338c1bc9dcd?source=rss",
@@ -613,13 +620,6 @@
         "description": "【ソウル聯合ニュース】韓国の趙顕（チョ・ヒョン）外交部長官は10日（現地時間）、主要7カ国（G7）外相会合のため訪問中のフランス・パリでルビオ米国務長官と会談し、韓米関係や北朝鮮問題などについて協議し",
         "pub_date": "11/10 22:17 JST",
         "is_priority": false
-      },
-      {
-        "title": "ヘグセス米国防長官の会見始まる(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/05cc425de701cf6d80f2c85213752404c961340c?source=rss",
-        "description": "【ワシントン共同】ヘグセス米国防長官は10日、下院で自身に対する弾劾訴追決議案が提出されたことを受け、国防総省で記者会見を開いた。",
-        "pub_date": "11/10 22:06 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -631,7 +631,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/10 17:43",
@@ -763,32 +763,32 @@
     "default_channel_id": "stream_france24_fr"
   },
   "forex": {
-    "timestamp": "11/11 03:24 JST",
+    "timestamp": "11/11 04:27 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.8,
-      "change": 0.51,
-      "change_pct": 0.32,
+      "rate": 158.83,
+      "change": 0.54,
+      "change_pct": 0.34,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.17,
-      "change": 0.72,
-      "change_pct": 0.41,
+      "rate": 177.35,
+      "change": 0.9,
+      "change_pct": 0.51,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.17,
-      "change": 0.72,
-      "change_pct": 0.41
+      "rate": 177.35,
+      "change": 0.9,
+      "change_pct": 0.51
     }
   },
   "airports": [
@@ -841,61 +841,16 @@
   "weather": {
     "cities": [
       {
-        "name": "パリ (首都)",
-        "name_en": "Paris",
-        "is_capital": true,
-        "lat": 48.8566,
-        "lon": 2.3522,
-        "temp": 12.5,
-        "apparent_temp": 12.4,
-        "humidity": 97,
-        "wind_speed": 4.6,
-        "wind_gusts": 10.1,
-        "precipitation": 0.6,
-        "weather_code": 61,
-        "weather_label": "🌧️ 雨 (小雨)",
-        "forecast": [
-          {
-            "date": "11/10(火)",
-            "temp_max": 13.0,
-            "temp_min": 8.5,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 10.4
-          },
-          {
-            "date": "11/11(水)",
-            "temp_max": 16.1,
-            "temp_min": 11.4,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/12(木)",
-            "temp_max": 11.4,
-            "temp_min": 5.3,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      },
-      {
         "name": "ニース (南部・コートダジュール)",
         "name_en": "Nice",
         "is_capital": false,
         "lat": 43.7102,
         "lon": 7.262,
-        "temp": 16.3,
-        "apparent_temp": 17.7,
-        "humidity": 92,
-        "wind_speed": 1.8,
-        "wind_gusts": 7.6,
+        "temp": 15.3,
+        "apparent_temp": 16.1,
+        "humidity": 96,
+        "wind_speed": 5.1,
+        "wind_gusts": 9.4,
         "precipitation": 0.0,
         "weather_code": 45,
         "weather_label": "🌫️ 霧",
@@ -910,19 +865,19 @@
           },
           {
             "date": "11/11(水)",
-            "temp_max": 17.8,
-            "temp_min": 13.7,
+            "temp_max": 18.0,
+            "temp_min": 13.5,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 0.0
+            "precipitation_mm": 0.6
           },
           {
             "date": "11/12(木)",
-            "temp_max": 17.4,
-            "temp_min": 15.1,
+            "temp_max": 16.9,
+            "temp_min": 15.6,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 23.6
+            "precipitation_mm": 29.3
           }
         ],
         "alert": "気象注意",
@@ -936,11 +891,11 @@
         "is_capital": false,
         "lat": 45.764,
         "lon": 4.8357,
-        "temp": 17.2,
-        "apparent_temp": 17.8,
-        "humidity": 84,
-        "wind_speed": 6.2,
-        "wind_gusts": 13.7,
+        "temp": 16.3,
+        "apparent_temp": 16.8,
+        "humidity": 88,
+        "wind_speed": 6.0,
+        "wind_gusts": 13.3,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -955,19 +910,19 @@
           },
           {
             "date": "11/11(水)",
-            "temp_max": 20.3,
-            "temp_min": 14.8,
+            "temp_max": 20.6,
+            "temp_min": 14.9,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 2.9
+            "precipitation_mm": 0.1
           },
           {
             "date": "11/12(木)",
-            "temp_max": 15.4,
+            "temp_max": 15.7,
             "temp_min": 11.1,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 34.2
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 32.4
           }
         ],
         "alert": "平常",
@@ -977,43 +932,43 @@
       }
     ],
     "capital": {
-      "name": "パリ (首都)",
-      "name_en": "Paris",
-      "is_capital": true,
-      "lat": 48.8566,
-      "lon": 2.3522,
-      "temp": 12.5,
-      "apparent_temp": 12.4,
-      "humidity": 97,
-      "wind_speed": 4.6,
-      "wind_gusts": 10.1,
-      "precipitation": 0.6,
-      "weather_code": 61,
-      "weather_label": "🌧️ 雨 (小雨)",
+      "name": "ニース (南部・コートダジュール)",
+      "name_en": "Nice",
+      "is_capital": false,
+      "lat": 43.7102,
+      "lon": 7.262,
+      "temp": 15.3,
+      "apparent_temp": 16.1,
+      "humidity": 96,
+      "wind_speed": 5.1,
+      "wind_gusts": 9.4,
+      "precipitation": 0.0,
+      "weather_code": 45,
+      "weather_label": "🌫️ 霧",
       "forecast": [
         {
           "date": "11/10(火)",
-          "temp_max": 13.0,
-          "temp_min": 8.5,
-          "weather_code": 81,
-          "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 10.4
+          "temp_max": 16.6,
+          "temp_min": 13.6,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 9.1
         },
         {
           "date": "11/11(水)",
-          "temp_max": 16.1,
-          "temp_min": 11.4,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 18.0,
+          "temp_min": 13.5,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 0.6
         },
         {
           "date": "11/12(木)",
-          "temp_max": 11.4,
-          "temp_min": 5.3,
-          "weather_code": 45,
-          "weather_label": "🌫️ 霧",
-          "precipitation_mm": 0.0
+          "temp_max": 16.9,
+          "temp_min": 15.6,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 29.3
         }
       ],
       "alert": "気象注意",
@@ -1021,7 +976,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/11 03:24 JST"
+    "timestamp": "11/11 04:27 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1103,7 +1058,7 @@
         "details": "パリ・シャルル・ド・ゴール空港および主要ターミナル発着便は平常運行中"
       }
     ],
-    "timestamp": "11/11 03:24 JST"
+    "timestamp": "11/11 04:27 JST"
   },
   "lifeline": {
     "status": "NORMAL",

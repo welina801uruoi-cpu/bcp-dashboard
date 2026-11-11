@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 04:02:34",
-  "timestamp_local": "2026-11-12 03:02:34",
+  "timestamp": "2026-11-12 04:52:49",
+  "timestamp_local": "2026-11-12 03:52:49",
   "country": {
     "id": "singapore",
     "name": "シンガポール",
@@ -259,17 +259,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
-    "summary": "M5.1 (80 km W of Panguna, Papua New Guinea)",
+    "count_24h": 14,
+    "summary": "M5 (48 km NW of Ancud, Chile)",
     "latest": {
-      "mag": 5.1,
-      "place": "80 km W of Panguna, Papua New Guinea",
-      "time": "11/12 02:38 JST",
-      "depth_km": 58.822,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+      "mag": 5,
+      "place": "48 km NW of Ancud, Chile",
+      "time": "11/12 04:21 JST",
+      "depth_km": 34.893,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "48 km NW of Ancud, Chile",
+        "time": "11/12 04:21 JST",
+        "depth_km": 34.893,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "80 km W of Panguna, Papua New Guinea",
@@ -623,32 +631,32 @@
     "default_channel_id": "stream_cna_live"
   },
   "forex": {
-    "timestamp": "11/12 04:02 JST",
+    "timestamp": "11/12 04:52 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 159.87,
       "change": 1.89,
-      "change_pct": 1.2,
+      "change_pct": 1.19,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "SGD",
       "name": "シンガポールドル",
       "symbol": "S$",
-      "rate": 124.41,
-      "change": 0.93,
-      "change_pct": 0.75,
+      "rate": 124.43,
+      "change": 0.94,
+      "change_pct": 0.76,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.28,
-      "change": -0.01,
-      "change_pct": -0.01
+      "rate": 177.31,
+      "change": 0.01,
+      "change_pct": 0.01
     }
   },
   "airports": [
@@ -669,9 +677,99 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/12 04:02 JST"
+    "cities": [
+      {
+        "name": "シンガポール (全域)",
+        "name_en": "Singapore",
+        "is_capital": true,
+        "lat": 1.3521,
+        "lon": 103.8198,
+        "temp": 23.8,
+        "apparent_temp": 29.0,
+        "humidity": 100,
+        "wind_speed": 4.4,
+        "wind_gusts": 7.9,
+        "precipitation": 0.0,
+        "weather_code": 45,
+        "weather_label": "🌫️ 霧",
+        "forecast": [
+          {
+            "date": "11/12(木)",
+            "temp_max": 30.8,
+            "temp_min": 23.6,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 4.7
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 30.0,
+            "temp_min": 23.5,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 7.9
+          },
+          {
+            "date": "11/14(土)",
+            "temp_max": 31.3,
+            "temp_min": 23.2,
+            "weather_code": 82,
+            "weather_label": "⛈️ 激しいにわか雨",
+            "precipitation_mm": 21.5
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      }
+    ],
+    "capital": {
+      "name": "シンガポール (全域)",
+      "name_en": "Singapore",
+      "is_capital": true,
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "temp": 23.8,
+      "apparent_temp": 29.0,
+      "humidity": 100,
+      "wind_speed": 4.4,
+      "wind_gusts": 7.9,
+      "precipitation": 0.0,
+      "weather_code": 45,
+      "weather_label": "🌫️ 霧",
+      "forecast": [
+        {
+          "date": "11/12(木)",
+          "temp_max": 30.8,
+          "temp_min": 23.6,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 4.7
+        },
+        {
+          "date": "11/13(金)",
+          "temp_max": 30.0,
+          "temp_min": 23.5,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 7.9
+        },
+        {
+          "date": "11/14(土)",
+          "temp_max": 31.3,
+          "temp_min": 23.2,
+          "weather_code": 82,
+          "weather_label": "⛈️ 激しいにわか雨",
+          "precipitation_mm": 21.5
+        }
+      ],
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
+    },
+    "timestamp": "11/12 04:52 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -700,7 +798,7 @@
         "details": "MRT南北線・東西線・環状線など平常運行中"
       }
     ],
-    "timestamp": "11/12 04:02 JST"
+    "timestamp": "11/12 04:52 JST"
   },
   "lifeline": {
     "status": "NORMAL",

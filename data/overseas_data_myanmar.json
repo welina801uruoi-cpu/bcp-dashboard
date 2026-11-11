@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 04:02:21",
-  "timestamp_local": "2026-11-12 01:32:21",
+  "timestamp": "2026-11-12 04:52:35",
+  "timestamp_local": "2026-11-12 02:22:35",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -267,17 +267,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
-    "summary": "M5.1 (80 km W of Panguna, Papua New Guinea)",
+    "count_24h": 14,
+    "summary": "M5 (48 km NW of Ancud, Chile)",
     "latest": {
-      "mag": 5.1,
-      "place": "80 km W of Panguna, Papua New Guinea",
-      "time": "11/12 02:38 JST",
-      "depth_km": 58.822,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+      "mag": 5,
+      "place": "48 km NW of Ancud, Chile",
+      "time": "11/12 04:21 JST",
+      "depth_km": 34.893,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "48 km NW of Ancud, Chile",
+        "time": "11/12 04:21 JST",
+        "depth_km": 34.893,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "80 km W of Panguna, Papua New Guinea",
@@ -637,14 +645,14 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/12 04:02 JST",
+    "timestamp": "11/12 04:52 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 159.87,
       "change": 1.89,
-      "change_pct": 1.2,
+      "change_pct": 1.19,
       "direction": "up"
     },
     "local_jpy": {
@@ -660,9 +668,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.28,
-      "change": -0.01,
-      "change_pct": -0.01
+      "rate": 177.31,
+      "change": 0.01,
+      "change_pct": 0.01
     }
   },
   "airports": [
@@ -676,19 +684,19 @@
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
       "weather": {
-        "raw": "METAR VYYY 111830Z 04002KT 6000 BKN014 FEW018CB OVC090 22/22 Q1014 NOSIG",
-        "wind": "2kt",
-        "wind_speed": 2,
+        "raw": "METAR VYYY 111930Z 03003KT 6000 BKN014 FEW018CB OVC090 22/22 Q1013 NOSIG",
+        "wind": "3kt",
+        "wind_speed": 3,
         "wind_gust": 0,
         "visibility": "3.73マイル",
         "temp": 22,
         "fltcat": "VFR",
-        "report_time": "2026-11-11T18:30:00.000Z"
+        "report_time": "2026-11-11T19:30:00.000Z"
       },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "視程良好（3.73マイル）、風速安定（2kt）。順調に運航中"
+      "status_desc": "視程良好（3.73マイル）、風速安定（3kt）。順調に運航中"
     }
   ],
   "weather": {
@@ -699,10 +707,10 @@
         "is_capital": false,
         "lat": 16.8661,
         "lon": 96.1951,
-        "temp": 22.4,
-        "apparent_temp": 25.0,
+        "temp": 22.2,
+        "apparent_temp": 24.6,
         "humidity": 89,
-        "wind_speed": 10.9,
+        "wind_speed": 10.8,
         "wind_gusts": 21.2,
         "precipitation": 0.0,
         "weather_code": 1,
@@ -744,35 +752,35 @@
         "is_capital": true,
         "lat": 19.7633,
         "lon": 96.0785,
-        "temp": 19.4,
-        "apparent_temp": 21.2,
-        "humidity": 96,
-        "wind_speed": 9.4,
-        "wind_gusts": 15.8,
+        "temp": 19.8,
+        "apparent_temp": 21.7,
+        "humidity": 93,
+        "wind_speed": 8.6,
+        "wind_gusts": 19.4,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/12(木)",
-            "temp_max": 23.7,
-            "temp_min": 19.1,
+            "temp_max": 24.0,
+            "temp_min": 19.5,
             "weather_code": 81,
             "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 10.5
+            "precipitation_mm": 16.0
           },
           {
             "date": "11/13(金)",
-            "temp_max": 28.3,
-            "temp_min": 19.2,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
+            "temp_max": 28.2,
+            "temp_min": 19.6,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/14(土)",
-            "temp_max": 28.9,
-            "temp_min": 19.0,
+            "temp_max": 28.8,
+            "temp_min": 19.4,
             "weather_code": 0,
             "weather_label": "☀️ 快晴",
             "precipitation_mm": 0.0
@@ -789,10 +797,10 @@
         "is_capital": false,
         "lat": 21.9588,
         "lon": 96.0891,
-        "temp": 21.2,
-        "apparent_temp": 23.3,
-        "humidity": 84,
-        "wind_speed": 6.4,
+        "temp": 21.0,
+        "apparent_temp": 23.2,
+        "humidity": 85,
+        "wind_speed": 5.9,
         "wind_gusts": 13.0,
         "precipitation": 0.0,
         "weather_code": 1,
@@ -835,35 +843,35 @@
       "is_capital": true,
       "lat": 19.7633,
       "lon": 96.0785,
-      "temp": 19.4,
-      "apparent_temp": 21.2,
-      "humidity": 96,
-      "wind_speed": 9.4,
-      "wind_gusts": 15.8,
+      "temp": 19.8,
+      "apparent_temp": 21.7,
+      "humidity": 93,
+      "wind_speed": 8.6,
+      "wind_gusts": 19.4,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/12(木)",
-          "temp_max": 23.7,
-          "temp_min": 19.1,
+          "temp_max": 24.0,
+          "temp_min": 19.5,
           "weather_code": 81,
           "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 10.5
+          "precipitation_mm": 16.0
         },
         {
           "date": "11/13(金)",
-          "temp_max": 28.3,
-          "temp_min": 19.2,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
+          "temp_max": 28.2,
+          "temp_min": 19.6,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/14(土)",
-          "temp_max": 28.9,
-          "temp_min": 19.0,
+          "temp_max": 28.8,
+          "temp_min": 19.4,
           "weather_code": 0,
           "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
@@ -874,7 +882,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 04:02 JST"
+    "timestamp": "11/12 04:52 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -903,7 +911,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/12 04:02 JST"
+    "timestamp": "11/12 04:52 JST"
   },
   "lifeline": {
     "status": "NORMAL",

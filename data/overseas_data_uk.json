@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 04:03:27",
-  "timestamp_local": "2026-11-11 20:03:27",
+  "timestamp": "2026-11-12 04:53:48",
+  "timestamp_local": "2026-11-11 20:53:48",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -352,17 +352,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
-    "summary": "M5.1 (80 km W of Panguna, Papua New Guinea)",
+    "count_24h": 14,
+    "summary": "M5 (48 km NW of Ancud, Chile)",
     "latest": {
-      "mag": 5.1,
-      "place": "80 km W of Panguna, Papua New Guinea",
-      "time": "11/12 02:38 JST",
-      "depth_km": 58.822,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+      "mag": 5,
+      "place": "48 km NW of Ancud, Chile",
+      "time": "11/12 04:21 JST",
+      "depth_km": 34.893,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "48 km NW of Ancud, Chile",
+        "time": "11/12 04:21 JST",
+        "depth_km": 34.893,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "80 km W of Panguna, Papua New Guinea",
@@ -740,32 +748,32 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/12 04:03 JST",
+    "timestamp": "11/12 04:53 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 159.87,
       "change": 1.89,
-      "change_pct": 1.2,
+      "change_pct": 1.19,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "GBP",
       "name": "英ポンド",
       "symbol": "£",
-      "rate": 212.21,
-      "change": -0.14,
-      "change_pct": -0.06,
+      "rate": 212.26,
+      "change": -0.09,
+      "change_pct": -0.04,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.28,
-      "change": -0.01,
-      "change_pct": -0.01
+      "rate": 177.31,
+      "change": 0.01,
+      "change_pct": 0.01
     }
   },
   "airports": [
@@ -838,22 +846,22 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 9.5,
-        "apparent_temp": 7.7,
-        "humidity": 80,
-        "wind_speed": 6.5,
-        "wind_gusts": 14.0,
+        "temp": 9.0,
+        "apparent_temp": 7.0,
+        "humidity": 82,
+        "wind_speed": 7.2,
+        "wind_gusts": 16.6,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/11(水)",
-            "temp_max": 10.1,
+            "temp_max": 10.2,
             "temp_min": 8.2,
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 4.1
+            "precipitation_mm": 4.0
           },
           {
             "date": "11/12(木)",
@@ -865,56 +873,11 @@
           },
           {
             "date": "11/13(金)",
-            "temp_max": 6.9,
-            "temp_min": 2.7,
+            "temp_max": 7.3,
+            "temp_min": 2.5,
             "weather_code": 1,
             "weather_label": "🌤️ 晴れ",
             "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "マンチェスター (中部)",
-        "name_en": "Manchester",
-        "is_capital": false,
-        "lat": 53.4808,
-        "lon": -2.2426,
-        "temp": 9.0,
-        "apparent_temp": 7.2,
-        "humidity": 69,
-        "wind_speed": 2.5,
-        "wind_gusts": 5.8,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/11(水)",
-            "temp_max": 10.1,
-            "temp_min": 6.1,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/12(木)",
-            "temp_max": 7.0,
-            "temp_min": 1.5,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/13(金)",
-            "temp_max": 5.7,
-            "temp_min": -0.9,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.8
           }
         ],
         "alert": "平常",
@@ -929,22 +892,22 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 9.5,
-      "apparent_temp": 7.7,
-      "humidity": 80,
-      "wind_speed": 6.5,
-      "wind_gusts": 14.0,
+      "temp": 9.0,
+      "apparent_temp": 7.0,
+      "humidity": 82,
+      "wind_speed": 7.2,
+      "wind_gusts": 16.6,
       "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/11(水)",
-          "temp_max": 10.1,
+          "temp_max": 10.2,
           "temp_min": 8.2,
           "weather_code": 53,
           "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 4.1
+          "precipitation_mm": 4.0
         },
         {
           "date": "11/12(木)",
@@ -956,8 +919,8 @@
         },
         {
           "date": "11/13(金)",
-          "temp_max": 6.9,
-          "temp_min": 2.7,
+          "temp_max": 7.3,
+          "temp_min": 2.5,
           "weather_code": 1,
           "weather_label": "🌤️ 晴れ",
           "precipitation_mm": 0.0
@@ -968,7 +931,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 04:03 JST"
+    "timestamp": "11/12 04:53 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -986,7 +949,7 @@
         "mode": "tube",
         "status": "Severe Delays",
         "badge": "🟠 警戒",
-        "reason": "District Line: Severe delays between Tower Hill and Ealing Broadway / Richmond while we fix a faulty train at Gloucester"
+        "reason": "District Line: Severe delays while we fix a signal failure at Stamford Brook and due to train cancellations. Tickets are"
       },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1033,7 +996,7 @@
             "status_raw": "Minor Delays",
             "badge": "🟡 注意",
             "code": "minor",
-            "reason": "Circle Line: Minor delays anticlockwise due to an earlier faulty train at Gloucester Road. GOOD SERVICE clockwise.  "
+            "reason": "Circle Line: Minor delays clockwise due to an earlier faulty train at Gloucester Road. GOOD SERVICE anticlockwise.  "
           },
           {
             "name": "District",
@@ -1041,7 +1004,7 @@
             "status_raw": "Severe Delays",
             "badge": "🟠 警戒",
             "code": "warning",
-            "reason": "District Line: Severe delays between Tower Hill and Ealing Broadway / Richmond while we fix a faulty train at Gloucester"
+            "reason": "District Line: Severe delays while we fix a signal failure at Stamford Brook and due to train cancellations. Tickets are"
           },
           {
             "name": "DLR",
@@ -1113,7 +1076,7 @@
             "status_raw": "Minor Delays",
             "badge": "🟡 注意",
             "code": "minor",
-            "reason": "Northern Line: Minor delays between Camden Town and Kennington (via Charing Cross) southbound only while we fix a points"
+            "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross southbound only while we fix a points f"
           },
           {
             "name": "Piccadilly",
@@ -1134,10 +1097,10 @@
           {
             "name": "Victoria",
             "mode": "tube",
-            "status_raw": "Minor Delays",
-            "badge": "🟡 注意",
-            "code": "minor",
-            "reason": "Victoria Line: Minor delays due to train cancellations.  "
+            "status_raw": "Good Service",
+            "badge": "🟢 平常",
+            "code": "normal",
+            "reason": ""
           },
           {
             "name": "Waterloo & City",
@@ -1217,7 +1180,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/12 04:03 JST"
+    "timestamp": "11/12 04:53 JST"
   },
   "lifeline": {
     "status": "NORMAL",

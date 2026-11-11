@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 04:02:25",
-  "timestamp_local": "2026-11-12 03:02:25",
+  "timestamp": "2026-11-12 04:52:46",
+  "timestamp_local": "2026-11-12 03:52:46",
   "country": {
     "id": "taiwan",
     "name": "台湾",
@@ -306,17 +306,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
-    "summary": "M5.1 (80 km W of Panguna, Papua New Guinea)",
+    "count_24h": 14,
+    "summary": "M5 (48 km NW of Ancud, Chile)",
     "latest": {
-      "mag": 5.1,
-      "place": "80 km W of Panguna, Papua New Guinea",
-      "time": "11/12 02:38 JST",
-      "depth_km": 58.822,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+      "mag": 5,
+      "place": "48 km NW of Ancud, Chile",
+      "time": "11/12 04:21 JST",
+      "depth_km": 34.893,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "48 km NW of Ancud, Chile",
+        "time": "11/12 04:21 JST",
+        "depth_km": 34.893,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "80 km W of Panguna, Papua New Guinea",
@@ -694,32 +702,32 @@
     "default_channel_id": "stream_ftv_taiwan"
   },
   "forex": {
-    "timestamp": "11/12 04:02 JST",
+    "timestamp": "11/12 04:52 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 159.87,
       "change": 1.89,
-      "change_pct": 1.2,
+      "change_pct": 1.19,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "TWD",
       "name": "新台湾ドル",
       "symbol": "NT$",
-      "rate": 4.853,
-      "change": 0.037,
-      "change_pct": 0.77,
+      "rate": 4.852,
+      "change": 0.036,
+      "change_pct": 0.74,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.28,
-      "change": -0.01,
-      "change_pct": -0.01
+      "rate": 177.31,
+      "change": 0.01,
+      "change_pct": 0.01
     }
   },
   "airports": [
@@ -763,10 +771,10 @@
         "lat": 25.033,
         "lon": 121.5654,
         "temp": 19.9,
-        "apparent_temp": 21.1,
+        "apparent_temp": 21.2,
         "humidity": 88,
-        "wind_speed": 11.4,
-        "wind_gusts": 24.5,
+        "wind_speed": 10.5,
+        "wind_gusts": 23.4,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -802,88 +810,43 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
-        "name": "高雄 (南部主要港湾)",
-        "name_en": "Kaohsiung",
-        "is_capital": false,
-        "lat": 22.6273,
-        "lon": 120.3014,
-        "temp": 21.5,
-        "apparent_temp": 23.9,
-        "humidity": 81,
-        "wind_speed": 3.5,
-        "wind_gusts": 10.1,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/12(木)",
-            "temp_max": 27.6,
-            "temp_min": 21.3,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/13(金)",
-            "temp_max": 28.1,
-            "temp_min": 21.3,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/14(土)",
-            "temp_max": 30.8,
-            "temp_min": 22.9,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 22.4
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "台中 (中部ハイテク拠点)",
         "name_en": "Taichung",
         "is_capital": false,
         "lat": 24.1477,
         "lon": 120.6736,
-        "temp": 19.4,
-        "apparent_temp": 19.2,
-        "humidity": 68,
-        "wind_speed": 8.6,
-        "wind_gusts": 19.4,
+        "temp": 19.1,
+        "apparent_temp": 19.0,
+        "humidity": 69,
+        "wind_speed": 7.6,
+        "wind_gusts": 16.9,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/12(木)",
-            "temp_max": 28.6,
-            "temp_min": 17.8,
+            "temp_max": 28.8,
+            "temp_min": 17.9,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/13(金)",
-            "temp_max": 29.6,
-            "temp_min": 19.1,
+            "temp_max": 29.1,
+            "temp_min": 18.6,
             "weather_code": 45,
             "weather_label": "🌫️ 霧",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/14(土)",
-            "temp_max": 30.1,
-            "temp_min": 20.2,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 20.8
+            "temp_max": 29.7,
+            "temp_min": 20.4,
+            "weather_code": 82,
+            "weather_label": "⛈️ 激しいにわか雨",
+            "precipitation_mm": 42.7
           }
         ],
         "alert": "平常",
@@ -899,10 +862,10 @@
       "lat": 25.033,
       "lon": 121.5654,
       "temp": 19.9,
-      "apparent_temp": 21.1,
+      "apparent_temp": 21.2,
       "humidity": 88,
-      "wind_speed": 11.4,
-      "wind_gusts": 24.5,
+      "wind_speed": 10.5,
+      "wind_gusts": 23.4,
       "precipitation": 0.0,
       "weather_code": 2,
       "weather_label": "⛅ 晴れ時々曇り",
@@ -937,7 +900,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 04:02 JST"
+    "timestamp": "11/12 04:52 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -981,7 +944,7 @@
         "details": "台北メトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/12 04:02 JST"
+    "timestamp": "11/12 04:52 JST"
   },
   "lifeline": {
     "status": "NORMAL",

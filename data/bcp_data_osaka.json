@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11 19:00:42",
+  "timestamp": "2026-11-11 19:51:28",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -180,10 +180,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 1地域】和歌山（警報なし）",
+    "summary": "【注意報発表: 3地域】兵庫、京都、和歌山（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 1,
+    "notice_count": 3,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -201,22 +201,26 @@
         "code": "28",
         "name": "兵庫県",
         "short_name": "兵庫",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
         "code": "26",
         "name": "京都府",
         "short_name": "京都",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -346,7 +350,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/11 18:13",
@@ -434,21 +438,21 @@
     }
   ],
   "weather_overview": {
-    "status": "NORMAL",
+    "status": "ALERT",
     "office": "大阪管区気象台",
     "target_area": "大阪府",
-    "report_time": "11/11 16:36",
+    "report_time": "11/12 04:36",
     "headline": "",
-    "text": "　大阪府は、高気圧に覆われておおむね晴れています。\n\n　１１日の大阪府は、高気圧に覆われて晴れるでしょう。\n\n　１２日の大阪府は、高気圧に覆われて晴れる見込みです。\n\n【近畿地方】\n　近畿地方は、高気圧に覆われておおむね晴れています。\n\n　１１日の近畿地方は、高気圧に覆われておおむね晴れるでしょう。\n\n　１２日の近畿地方は、高気圧に覆われておおむね晴れる見込みです。",
+    "text": "　大阪府は、高気圧に覆われて晴れています。\n\n　１２日の大阪府は、高気圧に覆われて晴れるでしょう。\n\n　１３日の大阪府は、高気圧に覆われておおむね晴れる見込みです。\n\n【近畿地方】\n　近畿地方は、高気圧に覆われておおむね晴れています。\n\n　１２日の近畿地方は、高気圧に覆われておおむね晴れるでしょう。\n\n　１３日の近畿地方は、高気圧に覆われておおむね晴れますが、南部では湿った空気の影響でおおむね曇る見込みです。南部を中心に未明から朝は雨や雷雨となる所があるでしょう。明け方は激しい雨の降る所がある見込みです。",
     "paragraphs": [
-      "大阪府は、高気圧に覆われておおむね晴れています。",
-      "１１日の大阪府は、高気圧に覆われて晴れるでしょう。",
-      "１２日の大阪府は、高気圧に覆われて晴れる見込みです。",
+      "大阪府は、高気圧に覆われて晴れています。",
+      "１２日の大阪府は、高気圧に覆われて晴れるでしょう。",
+      "１３日の大阪府は、高気圧に覆われておおむね晴れる見込みです。",
       "【近畿地方】\n　近畿地方は、高気圧に覆われておおむね晴れています。",
-      "１１日の近畿地方は、高気圧に覆われておおむね晴れるでしょう。",
-      "１２日の近畿地方は、高気圧に覆われておおむね晴れる見込みです。"
+      "１２日の近畿地方は、高気圧に覆われておおむね晴れるでしょう。",
+      "１３日の近畿地方は、高気圧に覆われておおむね晴れますが、南部では湿った空気の影響でおおむね曇る見込みです。南部を中心に未明から朝は雨や雷雨となる所があるでしょう。明け方は激しい雨の降る所がある見込みです。"
     ],
-    "summary": "大阪府は、高気圧に覆われておおむね晴れています。...",
+    "summary": "大阪府は、高気圧に覆われて晴れています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=270000"
   },
   "disaster_news": {
@@ -576,7 +580,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-12 04:00:08 JST"
+    "last_updated": "2026-11-12 04:50:57 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -597,10 +601,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "m8HaKnm5v2E",
+        "video_id": "MG0Jey7V9bs",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/m8HaKnm5v2E?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=m8HaKnm5v2E"
+        "embed_url": "https://www.youtube.com/embed/MG0Jey7V9bs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=MG0Jey7V9bs"
       },
       {
         "id": "stream_tbsnews",
@@ -630,10 +634,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "u_ObpaSvJPQ",
+        "video_id": "snH9VPTsb7g",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/u_ObpaSvJPQ?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=u_ObpaSvJPQ"
+        "embed_url": "https://www.youtube.com/embed/snH9VPTsb7g?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=snH9VPTsb7g"
       },
       {
         "id": "stream_fnnnews",

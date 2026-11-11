@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 04:04:31",
-  "timestamp_local": "2026-11-11 23:04:31",
+  "timestamp": "2026-11-12 04:54:34",
+  "timestamp_local": "2026-11-11 23:54:34",
   "country": {
     "id": "uae",
     "name": "アラブ首長国連邦 (UAE)",
@@ -277,16 +277,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 13,
-    "summary": "M5.1 (80 km W of Panguna, Papua New Guinea)",
+    "summary": "M5 (48 km NW of Ancud, Chile)",
     "latest": {
-      "mag": 5.1,
-      "place": "80 km W of Panguna, Papua New Guinea",
-      "time": "11/12 02:38 JST",
-      "depth_km": 58.822,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+      "mag": 5,
+      "place": "48 km NW of Ancud, Chile",
+      "time": "11/12 04:21 JST",
+      "depth_km": 34.893,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "48 km NW of Ancud, Chile",
+        "time": "11/12 04:21 JST",
+        "depth_km": 34.893,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "80 km W of Panguna, Papua New Guinea",
@@ -382,14 +390,6 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txfz",
         "tsunami": 1
-      },
-      {
-        "mag": 4.9,
-        "place": "207 km NW of Port-Olry, Vanuatu",
-        "time": "11/11 04:54 JST",
-        "depth_km": 11.705,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txea",
-        "tsunami": 0
       }
     ]
   },
@@ -631,14 +631,14 @@
     "default_channel_id": "stream_dubai_live"
   },
   "forex": {
-    "timestamp": "11/12 04:04 JST",
+    "timestamp": "11/12 04:54 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.89,
-      "change": 1.9,
-      "change_pct": 1.21,
+      "rate": 159.87,
+      "change": 1.89,
+      "change_pct": 1.19,
       "direction": "up"
     },
     "local_jpy": {
@@ -646,17 +646,17 @@
       "name": "UAEディルハム",
       "symbol": "DH",
       "rate": 43.5,
-      "change": 0.51,
-      "change_pct": 1.18,
+      "change": 0.5,
+      "change_pct": 1.16,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.29,
-      "change": -0.0,
-      "change_pct": -0.0
+      "rate": 177.31,
+      "change": 0.01,
+      "change_pct": 0.01
     }
   },
   "airports": [
@@ -699,11 +699,11 @@
         "is_capital": true,
         "lat": 24.4539,
         "lon": 54.3773,
-        "temp": 27.4,
+        "temp": 27.1,
         "apparent_temp": 28.7,
-        "humidity": 60,
-        "wind_speed": 13.6,
-        "wind_gusts": 33.5,
+        "humidity": 63,
+        "wind_speed": 13.0,
+        "wind_gusts": 25.9,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -737,6 +737,51 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ドバイ (世界商業ハブ)",
+        "name_en": "Dubai",
+        "is_capital": false,
+        "lat": 25.2048,
+        "lon": 55.2708,
+        "temp": 28.4,
+        "apparent_temp": 28.9,
+        "humidity": 54,
+        "wind_speed": 17.4,
+        "wind_gusts": 31.3,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/11(水)",
+            "temp_max": 30.7,
+            "temp_min": 28.4,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/12(木)",
+            "temp_max": 28.8,
+            "temp_min": 26.8,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 28.6,
+            "temp_min": 26.5,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -745,11 +790,11 @@
       "is_capital": true,
       "lat": 24.4539,
       "lon": 54.3773,
-      "temp": 27.4,
+      "temp": 27.1,
       "apparent_temp": 28.7,
-      "humidity": 60,
-      "wind_speed": 13.6,
-      "wind_gusts": 33.5,
+      "humidity": 63,
+      "wind_speed": 13.0,
+      "wind_gusts": 25.9,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -784,7 +829,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 04:04 JST"
+    "timestamp": "11/12 04:54 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -813,7 +858,7 @@
         "details": "レッドライン・グリーンライン平常運行中"
       }
     ],
-    "timestamp": "11/12 04:04 JST"
+    "timestamp": "11/12 04:54 JST"
   },
   "lifeline": {
     "status": "NORMAL",

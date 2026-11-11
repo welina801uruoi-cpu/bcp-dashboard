@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11 19:01:46",
+  "timestamp": "2026-11-11 19:52:12",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -166,10 +166,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 4地域】秋田、宮城、山形、福島（警報なし）",
+    "summary": "【注意報発表: 5地域】岩手、秋田、宮城、山形、福島（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 4,
+    "notice_count": 5,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -187,11 +187,13 @@
         "code": "3",
         "name": "岩手県",
         "short_name": "岩手",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -229,10 +231,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、濃霧注意報",
+        "summary": "濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -243,10 +245,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、濃霧注意報",
+        "summary": "濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       }
     ]
@@ -355,7 +357,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/11 18:13",
@@ -586,7 +588,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-12 04:01:15 JST"
+    "last_updated": "2026-11-12 04:51:59 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -607,10 +609,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "m8HaKnm5v2E",
+        "video_id": "MG0Jey7V9bs",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/m8HaKnm5v2E?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=m8HaKnm5v2E"
+        "embed_url": "https://www.youtube.com/embed/MG0Jey7V9bs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=MG0Jey7V9bs"
       },
       {
         "id": "stream_tbsnews",
@@ -640,10 +642,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "u_ObpaSvJPQ",
+        "video_id": "snH9VPTsb7g",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/u_ObpaSvJPQ?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=u_ObpaSvJPQ"
+        "embed_url": "https://www.youtube.com/embed/snH9VPTsb7g?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=snH9VPTsb7g"
       },
       {
         "id": "stream_fnnnews",

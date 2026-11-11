@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 04:03:53",
-  "timestamp_local": "2026-11-11 21:03:53",
+  "timestamp": "2026-11-12 04:54:00",
+  "timestamp_local": "2026-11-11 21:54:00",
   "country": {
     "id": "belgium",
     "name": "ベルギー",
@@ -272,17 +272,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
-    "summary": "M5.1 (80 km W of Panguna, Papua New Guinea)",
+    "count_24h": 14,
+    "summary": "M5 (48 km NW of Ancud, Chile)",
     "latest": {
-      "mag": 5.1,
-      "place": "80 km W of Panguna, Papua New Guinea",
-      "time": "11/12 02:38 JST",
-      "depth_km": 58.822,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+      "mag": 5,
+      "place": "48 km NW of Ancud, Chile",
+      "time": "11/12 04:21 JST",
+      "depth_km": 34.893,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "48 km NW of Ancud, Chile",
+        "time": "11/12 04:21 JST",
+        "depth_km": 34.893,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "80 km W of Panguna, Papua New Guinea",
@@ -654,32 +662,32 @@
     "default_channel_id": "stream_rtbf_live"
   },
   "forex": {
-    "timestamp": "11/12 04:03 JST",
+    "timestamp": "11/12 04:53 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 159.87,
       "change": 1.89,
-      "change_pct": 1.2,
+      "change_pct": 1.19,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.28,
-      "change": -0.01,
-      "change_pct": -0.01,
-      "direction": "down"
+      "rate": 177.31,
+      "change": 0.01,
+      "change_pct": 0.01,
+      "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.28,
-      "change": -0.01,
-      "change_pct": -0.01
+      "rate": 177.31,
+      "change": 0.01,
+      "change_pct": 0.01
     }
   },
   "airports": [
@@ -707,11 +715,11 @@
         "is_capital": true,
         "lat": 50.8503,
         "lon": 4.3517,
-        "temp": 5.7,
-        "apparent_temp": 2.9,
-        "humidity": 91,
-        "wind_speed": 9.7,
-        "wind_gusts": 20.9,
+        "temp": 5.8,
+        "apparent_temp": 3.0,
+        "humidity": 92,
+        "wind_speed": 10.1,
+        "wind_gusts": 19.1,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -719,77 +727,32 @@
           {
             "date": "11/11(水)",
             "temp_max": 6.8,
-            "temp_min": 5.2,
+            "temp_min": 5.6,
             "weather_code": 63,
             "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 12.8
+            "precipitation_mm": 14.0
           },
           {
             "date": "11/12(木)",
-            "temp_max": 9.1,
-            "temp_min": 4.7,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.6
-          },
-          {
-            "date": "11/13(金)",
-            "temp_max": 9.9,
-            "temp_min": 3.8,
+            "temp_max": 9.8,
+            "temp_min": 4.5,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
             "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 9.6,
+            "temp_min": 4.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
           }
         ],
         "alert": "平常",
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "アントワープ (北部主要港湾)",
-        "name_en": "Antwerp",
-        "is_capital": false,
-        "lat": 51.2194,
-        "lon": 4.4025,
-        "temp": 5.3,
-        "apparent_temp": 2.2,
-        "humidity": 87,
-        "wind_speed": 10.4,
-        "wind_gusts": 19.8,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
-        "forecast": [
-          {
-            "date": "11/11(水)",
-            "temp_max": 6.0,
-            "temp_min": 5.1,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 7.8
-          },
-          {
-            "date": "11/12(木)",
-            "temp_max": 9.6,
-            "temp_min": 4.1,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.2
-          },
-          {
-            "date": "11/13(金)",
-            "temp_max": 10.4,
-            "temp_min": 5.4,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 0.9
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -798,11 +761,11 @@
       "is_capital": true,
       "lat": 50.8503,
       "lon": 4.3517,
-      "temp": 5.7,
-      "apparent_temp": 2.9,
-      "humidity": 91,
-      "wind_speed": 9.7,
-      "wind_gusts": 20.9,
+      "temp": 5.8,
+      "apparent_temp": 3.0,
+      "humidity": 92,
+      "wind_speed": 10.1,
+      "wind_gusts": 19.1,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -810,26 +773,26 @@
         {
           "date": "11/11(水)",
           "temp_max": 6.8,
-          "temp_min": 5.2,
+          "temp_min": 5.6,
           "weather_code": 63,
           "weather_label": "🌧️ 雨 (中雨)",
-          "precipitation_mm": 12.8
+          "precipitation_mm": 14.0
         },
         {
           "date": "11/12(木)",
-          "temp_max": 9.1,
-          "temp_min": 4.7,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.6
-        },
-        {
-          "date": "11/13(金)",
-          "temp_max": 9.9,
-          "temp_min": 3.8,
+          "temp_max": 9.8,
+          "temp_min": 4.5,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
           "precipitation_mm": 0.1
+        },
+        {
+          "date": "11/13(金)",
+          "temp_max": 9.6,
+          "temp_min": 4.6,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -837,7 +800,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 04:03 JST"
+    "timestamp": "11/12 04:54 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -866,7 +829,7 @@
         "details": "国鉄インターシティ線平常運行中"
       }
     ],
-    "timestamp": "11/12 04:03 JST"
+    "timestamp": "11/12 04:53 JST"
   },
   "lifeline": {
     "status": "NORMAL",

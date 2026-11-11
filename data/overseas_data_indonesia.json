@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 04:03:01",
-  "timestamp_local": "2026-11-12 02:03:01",
+  "timestamp": "2026-11-12 04:53:21",
+  "timestamp_local": "2026-11-12 02:53:21",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -283,17 +283,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
-    "summary": "M5.1 (80 km W of Panguna, Papua New Guinea)",
+    "count_24h": 14,
+    "summary": "M5 (48 km NW of Ancud, Chile)",
     "latest": {
-      "mag": 5.1,
-      "place": "80 km W of Panguna, Papua New Guinea",
-      "time": "11/12 02:38 JST",
-      "depth_km": 58.822,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+      "mag": 5,
+      "place": "48 km NW of Ancud, Chile",
+      "time": "11/12 04:21 JST",
+      "depth_km": 34.893,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "48 km NW of Ancud, Chile",
+        "time": "11/12 04:21 JST",
+        "depth_km": 34.893,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "80 km W of Panguna, Papua New Guinea",
@@ -659,14 +667,14 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/12 04:03 JST",
+    "timestamp": "11/12 04:53 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 159.87,
       "change": 1.89,
-      "change_pct": 1.2,
+      "change_pct": 1.19,
       "direction": "up"
     },
     "local_jpy": {
@@ -682,9 +690,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.28,
-      "change": -0.01,
-      "change_pct": -0.01
+      "rate": 177.31,
+      "change": 0.01,
+      "change_pct": 0.01
     }
   },
   "airports": [
@@ -727,11 +735,11 @@
         "is_capital": true,
         "lat": -6.2088,
         "lon": 106.8456,
-        "temp": 26.6,
-        "apparent_temp": 31.9,
-        "humidity": 84,
+        "temp": 26.4,
+        "apparent_temp": 31.7,
+        "humidity": 85,
         "wind_speed": 3.8,
-        "wind_gusts": 6.8,
+        "wind_gusts": 7.2,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -772,11 +780,11 @@
         "is_capital": false,
         "lat": -8.6705,
         "lon": 115.2126,
-        "temp": 24.9,
-        "apparent_temp": 30.6,
-        "humidity": 97,
-        "wind_speed": 3.9,
-        "wind_gusts": 6.8,
+        "temp": 24.7,
+        "apparent_temp": 30.2,
+        "humidity": 96,
+        "wind_speed": 4.3,
+        "wind_gusts": 6.5,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -817,14 +825,14 @@
         "is_capital": false,
         "lat": -7.2575,
         "lon": 112.7521,
-        "temp": 26.9,
-        "apparent_temp": 33.6,
-        "humidity": 93,
-        "wind_speed": 3.0,
-        "wind_gusts": 7.2,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 25.9,
+        "apparent_temp": 32.0,
+        "humidity": 95,
+        "wind_speed": 4.5,
+        "wind_gusts": 12.2,
+        "precipitation": 0.2,
+        "weather_code": 53,
+        "weather_label": "🌦️ 霧雨 (中)",
         "forecast": [
           {
             "date": "11/12(木)",
@@ -851,10 +859,10 @@
             "precipitation_mm": 2.1
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -863,11 +871,11 @@
       "is_capital": true,
       "lat": -6.2088,
       "lon": 106.8456,
-      "temp": 26.6,
-      "apparent_temp": 31.9,
-      "humidity": 84,
+      "temp": 26.4,
+      "apparent_temp": 31.7,
+      "humidity": 85,
       "wind_speed": 3.8,
-      "wind_gusts": 6.8,
+      "wind_gusts": 7.2,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -902,7 +910,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 04:03 JST"
+    "timestamp": "11/12 04:53 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -931,7 +939,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/12 04:03 JST"
+    "timestamp": "11/12 04:53 JST"
   },
   "lifeline": {
     "status": "NORMAL",

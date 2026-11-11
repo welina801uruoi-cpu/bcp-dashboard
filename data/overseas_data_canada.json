@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 04:04:20",
-  "timestamp_local": "2026-11-11 15:04:20",
+  "timestamp": "2026-11-12 04:54:29",
+  "timestamp_local": "2026-11-11 15:54:29",
   "country": {
     "id": "canada",
     "name": "カナダ",
@@ -141,17 +141,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
-    "summary": "M5.1 (80 km W of Panguna, Papua New Guinea)",
+    "count_24h": 14,
+    "summary": "M5 (48 km NW of Ancud, Chile)",
     "latest": {
-      "mag": 5.1,
-      "place": "80 km W of Panguna, Papua New Guinea",
-      "time": "11/12 02:38 JST",
-      "depth_km": 58.822,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+      "mag": 5,
+      "place": "48 km NW of Ancud, Chile",
+      "time": "11/12 04:21 JST",
+      "depth_km": 34.893,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "48 km NW of Ancud, Chile",
+        "time": "11/12 04:21 JST",
+        "depth_km": 34.893,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "80 km W of Panguna, Papua New Guinea",
@@ -500,32 +508,32 @@
     "default_channel_id": "stream_cbc_live"
   },
   "forex": {
-    "timestamp": "11/12 04:04 JST",
+    "timestamp": "11/12 04:54 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 159.87,
       "change": 1.89,
-      "change_pct": 1.2,
+      "change_pct": 1.19,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "CAD",
       "name": "カナダドル",
       "symbol": "C$",
-      "rate": 112.22,
-      "change": 0.33,
-      "change_pct": 0.29,
+      "rate": 112.21,
+      "change": 0.32,
+      "change_pct": 0.28,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.28,
-      "change": -0.01,
-      "change_pct": -0.01
+      "rate": 177.31,
+      "change": 0.01,
+      "change_pct": 0.01
     }
   },
   "airports": [
@@ -568,19 +576,19 @@
         "is_capital": true,
         "lat": 45.4215,
         "lon": -75.6972,
-        "temp": 6.6,
-        "apparent_temp": 3.3,
-        "humidity": 68,
+        "temp": 6.4,
+        "apparent_temp": 3.0,
+        "humidity": 66,
         "wind_speed": 9.0,
-        "wind_gusts": 19.8,
+        "wind_gusts": 15.1,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/11(水)",
-            "temp_max": 6.6,
-            "temp_min": 0.3,
+            "temp_max": 6.5,
+            "temp_min": 0.0,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -608,43 +616,43 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
-        "name": "バンクーバー (太平洋岸主要都市)",
-        "name_en": "Vancouver",
+        "name": "トロント (最大都市)",
+        "name_en": "Toronto",
         "is_capital": false,
-        "lat": 49.2827,
-        "lon": -123.1207,
-        "temp": 14.2,
-        "apparent_temp": 13.6,
-        "humidity": 83,
-        "wind_speed": 6.9,
-        "wind_gusts": 35.6,
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "temp": 10.9,
+        "apparent_temp": 8.6,
+        "humidity": 66,
+        "wind_speed": 7.1,
+        "wind_gusts": 8.3,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/11(水)",
-            "temp_max": 15.0,
-            "temp_min": 12.2,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 7.1
+            "temp_max": 11.5,
+            "temp_min": 2.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
           },
           {
             "date": "11/12(木)",
-            "temp_max": 14.9,
-            "temp_min": 11.9,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.1
+            "temp_max": 7.2,
+            "temp_min": 1.2,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 2.6
           },
           {
             "date": "11/13(金)",
-            "temp_max": 14.1,
-            "temp_min": 10.0,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 20.1
+            "temp_max": 5.3,
+            "temp_min": 1.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
           }
         ],
         "alert": "平常",
@@ -659,19 +667,19 @@
       "is_capital": true,
       "lat": 45.4215,
       "lon": -75.6972,
-      "temp": 6.6,
-      "apparent_temp": 3.3,
-      "humidity": 68,
+      "temp": 6.4,
+      "apparent_temp": 3.0,
+      "humidity": 66,
       "wind_speed": 9.0,
-      "wind_gusts": 19.8,
+      "wind_gusts": 15.1,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/11(水)",
-          "temp_max": 6.6,
-          "temp_min": 0.3,
+          "temp_max": 6.5,
+          "temp_min": 0.0,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -698,7 +706,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 04:04 JST"
+    "timestamp": "11/12 04:54 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -727,7 +735,7 @@
         "details": "VIA鉄道主要列車平常運行中"
       }
     ],
-    "timestamp": "11/12 04:04 JST"
+    "timestamp": "11/12 04:54 JST"
   },
   "lifeline": {
     "status": "NORMAL",

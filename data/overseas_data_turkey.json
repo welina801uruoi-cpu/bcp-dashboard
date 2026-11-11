@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 04:03:57",
-  "timestamp_local": "2026-11-11 22:03:57",
+  "timestamp": "2026-11-12 04:54:10",
+  "timestamp_local": "2026-11-11 22:54:10",
   "country": {
     "id": "turkey",
     "name": "トルコ",
@@ -283,17 +283,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
-    "summary": "M5.1 (80 km W of Panguna, Papua New Guinea)",
+    "count_24h": 14,
+    "summary": "M5 (48 km NW of Ancud, Chile)",
     "latest": {
-      "mag": 5.1,
-      "place": "80 km W of Panguna, Papua New Guinea",
-      "time": "11/12 02:38 JST",
-      "depth_km": 58.822,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+      "mag": 5,
+      "place": "48 km NW of Ancud, Chile",
+      "time": "11/12 04:21 JST",
+      "depth_km": 34.893,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "48 km NW of Ancud, Chile",
+        "time": "11/12 04:21 JST",
+        "depth_km": 34.893,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "80 km W of Panguna, Papua New Guinea",
@@ -646,14 +654,14 @@
     "default_channel_id": "stream_trt_live"
   },
   "forex": {
-    "timestamp": "11/12 04:03 JST",
+    "timestamp": "11/12 04:54 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 159.87,
       "change": 1.89,
-      "change_pct": 1.2,
+      "change_pct": 1.19,
       "direction": "up"
     },
     "local_jpy": {
@@ -669,9 +677,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.28,
-      "change": -0.01,
-      "change_pct": -0.01
+      "rate": 177.31,
+      "change": 0.01,
+      "change_pct": 0.01
     }
   },
   "airports": [
@@ -714,14 +722,14 @@
         "is_capital": true,
         "lat": 39.9334,
         "lon": 32.8597,
-        "temp": 5.9,
-        "apparent_temp": 4.0,
-        "humidity": 88,
-        "wind_speed": 3.6,
-        "wind_gusts": 6.5,
+        "temp": 5.0,
+        "apparent_temp": 2.9,
+        "humidity": 91,
+        "wind_speed": 4.4,
+        "wind_gusts": 8.3,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/11(水)",
@@ -759,14 +767,14 @@
         "is_capital": false,
         "lat": 41.0082,
         "lon": 28.9784,
-        "temp": 16.9,
-        "apparent_temp": 14.8,
-        "humidity": 78,
-        "wind_speed": 20.9,
-        "wind_gusts": 37.1,
+        "temp": 16.7,
+        "apparent_temp": 14.7,
+        "humidity": 80,
+        "wind_speed": 21.3,
+        "wind_gusts": 38.5,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/11(水)",
@@ -797,51 +805,6 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "イズミル (エーゲ海沿岸)",
-        "name_en": "Izmir",
-        "is_capital": false,
-        "lat": 38.4237,
-        "lon": 27.1428,
-        "temp": 17.5,
-        "apparent_temp": 18.2,
-        "humidity": 76,
-        "wind_speed": 1.8,
-        "wind_gusts": 4.0,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
-        "forecast": [
-          {
-            "date": "11/11(水)",
-            "temp_max": 18.7,
-            "temp_min": 10.0,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.3
-          },
-          {
-            "date": "11/12(木)",
-            "temp_max": 22.3,
-            "temp_min": 17.4,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.2
-          },
-          {
-            "date": "11/13(金)",
-            "temp_max": 22.3,
-            "temp_min": 18.1,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.3
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -850,14 +813,14 @@
       "is_capital": true,
       "lat": 39.9334,
       "lon": 32.8597,
-      "temp": 5.9,
-      "apparent_temp": 4.0,
-      "humidity": 88,
-      "wind_speed": 3.6,
-      "wind_gusts": 6.5,
+      "temp": 5.0,
+      "apparent_temp": 2.9,
+      "humidity": 91,
+      "wind_speed": 4.4,
+      "wind_gusts": 8.3,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/11(水)",
@@ -889,7 +852,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 04:03 JST"
+    "timestamp": "11/12 04:54 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -918,7 +881,7 @@
         "details": "YHT高速列車など主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/12 04:03 JST"
+    "timestamp": "11/12 04:54 JST"
   },
   "lifeline": {
     "status": "NORMAL",

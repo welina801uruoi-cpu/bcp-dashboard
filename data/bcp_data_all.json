@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11 06:03:04",
+  "timestamp": "2026-11-11 07:16:43",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -347,11 +347,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-11 12:57",
-    "place": "茨城県沖",
-    "magnitude": "4.6",
+    "time": "2026-11-11 15:21",
+    "place": "熊本県阿蘇地方",
+    "magnitude": "2.4",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-11 15:21",
+        "place": "熊本県阿蘇地方",
+        "shindo": "1",
+        "magnitude": "2.4",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-11 12:57",
         "place": "茨城県沖",
@@ -414,13 +421,6 @@
         "shindo": "2",
         "magnitude": "3.3",
         "maxScale": 20
-      },
-      {
-        "time": "2026-11-10 00:09",
-        "place": "瀬戸内海中部",
-        "shindo": "1",
-        "magnitude": "2.8",
-        "maxScale": 10
       }
     ]
   },
@@ -518,10 +518,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "霜注意報"
+          "霜注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、霜注意報",
+        "summary": "霜注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -611,13 +611,11 @@
         "code": "12",
         "name": "千葉県",
         "short_name": "千葉",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "波浪注意報"
-        ],
-        "summary": "波浪注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -663,11 +661,13 @@
         "code": "16",
         "name": "富山県",
         "short_name": "富山",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "霜注意報"
+        ],
+        "summary": "霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/16/"
       },
       {
@@ -888,10 +888,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "霜注意報"
+          "霜注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、霜注意報",
+        "summary": "霜注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -1028,10 +1028,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "乾燥注意報",
-          "霜注意報"
+          "霜注意報",
+          "乾燥注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報、霜注意報",
+        "summary": "波浪注意報、霜注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1058,20 +1058,19 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線33路線: 山陰本線、山陽本線、宇部線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線33路線: 宗谷本線、山陽本線、宇部線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山陰本線、山陽本線、宇部線、姫新線、呉線 等 計33路線）",
+    "line_text": "運行支障あり（宗谷本線、山陽本線、宇部線、姫新線、呉線 等 計33路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "山陰本線",
+      "宗谷本線",
       "山陽本線",
       "宇部線",
       "姫新線",
       "呉線",
       "美祢線",
-      "宗谷本線",
       "石巻線",
       "山田線",
       "大湊線",
@@ -1079,13 +1078,14 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "日豊本線",
       "長崎本線",
       "肥薩線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "大阪環状線",
       "関西本線",
-      "東海道本線",
+      "飯山線",
+      "福井鉄道線",
       "越後線",
       "九頭竜線",
       "しなの鉄道北しなの線",
@@ -1190,7 +1190,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】秋田・千葉・長野・広島で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・長野・広島で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1233,16 +1233,16 @@
       "summary": "直近1時間の投稿数は 11 件です。",
       "recent_posts": [
         {
-          "time": "11/11 06:02",
-          "text": "START au END なんだけどここ数日5G入らないっぽいんだよね 通信 START 障害 END なのかどうかは知らないけど スマホは一所懸命5G拾おうと..."
+          "time": "11/11 07:07",
+          "text": "通信 START 障害 END 、 START au END はＸの中の人の 対応が早いw START au END が繋がらないポストに すぐに返信してるw"
         },
         {
-          "time": "11/11 05:58",
-          "text": "最近ドコモで START 障害 END 多いけど START au END も契約してて良かったと最近思うことが多い。"
+          "time": "11/11 07:05",
+          "text": "ほんっっとに、ドコモの回線は、カス。がっかり。他社に行ける人はまじで行ったほうがいい。 START au END なんかいいんじゃないっすか。他社使ったことない..."
         },
         {
-          "time": "11/11 05:45",
-          "text": "ドコモさんまた START 障害 END してんの……？古巣（ START au END 回線）に戻るべき時が来たかな"
+          "time": "11/11 07:03",
+          "text": "docomoが通信 START 障害 END とか言ってるけどここ数日 START au END も変なんやけど"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1253,7 +1253,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/11 05:34",
@@ -1273,22 +1273,22 @@
     {
       "keyword": "au 繋がらない",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 7 件です。",
       "recent_posts": [
         {
-          "time": "11/11 05:40",
-          "text": "@yosakura00 突然失礼します、 START au END サポート石川です。「携帯 START 繋がらない END 」とのことですが、 START a..."
+          "time": "11/11 07:13",
+          "text": "@2525_sigmasan docomoで繋がったのに START au END で全く START 繋がらない END 場所も多々あるので、両方使うのが1番..."
         },
         {
-          "time": "11/11 05:33",
-          "text": "めっちゃ携帯繋がらなーい START au END もdocomoもソフトバンクも START 繋がらない END 感じ？"
+          "time": "11/11 07:12",
+          "text": "家の START au END ひかりが START 繋がらない END じゃが、かれこれ1時間。 START au END のサイト見ても復旧済のエリア情報し..."
         },
         {
-          "time": "11/11 05:13",
-          "text": "@USAGI221427 お仕事お疲れ様でした🍀お出かけのところ失礼します。 START au END サポート畑野です。通信に関する呟き拝見したのですが、スマ..."
+          "time": "11/11 07:09",
+          "text": "来週か再来週に楽天から START au END に戻さなきゃ 流石に蒲田、川崎、横浜、新宿の駅や近くのビル、高層階で電波が START 繋がらない END の..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -1299,19 +1299,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/11 06:00",
-          "text": "@RyonSmith_FIRE 元消防士の方の視点は説得力がありますね！😊 普段はあまり意識しませんが、災害や通信 START 障害 END に備えて複数回線を..."
+          "time": "11/11 07:06",
+          "text": "@NibeTomo @May_Roma 今回の START 障害 END は5G SA限定なので、端末を4G優先に切り替えれば繋がるケースが多いです。 物理破壊..."
         },
         {
-          "time": "11/11 05:48",
-          "text": "ドコモの通信 START 障害 END のポストを見たら普段出てこない START povo END の広告が出て来て手が早すぎる もうサブに契約してるっすよ ..."
+          "time": "11/11 07:05",
+          "text": "さすがにドコモの START 障害 END 多すぎるので、 START povo END 2.0をeSIMで契約した これで2回線スタイルになったので、外でアレ..."
         },
         {
-          "time": "11/11 05:23",
-          "text": "ドコモの START 障害 END は13:30現在で進展なし SAではない5Gは使える（GalaxyはSAのみ切れないので4G） START povo END..."
+          "time": "11/11 07:01",
+          "text": "@2525_sigmasan どちらかが START 障害 END でつながらない時のためにサブ回線契約が良いですよ わたしはau系の START povo E..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -1335,8 +1335,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 6,
+    "disaster_count": 4,
     "articles": [
+      {
+        "title": "国土交通省が「都市型水害」への対策方針を発表　千葉豪雨等を受け3つの柱で対策強化(日本気象協会tenki.jp)",
+        "summary": "国土交通省は11月10日、今年8月の千葉豪雨や9月の東海地方の大雨による被害を踏まえて、都市型水害への対策方針を発表しました。浸水リスクの周知や避難行動の支援など、3つの柱を中心に対策を強化する方針で",
+        "pub_date": "11/11 15:54 JST",
+        "link": "https://news.yahoo.co.jp/articles/43f0d2364491113dad079c96e182ab8750a8ba4b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "拉致解決へ「都の力計り知れない」　横田拓也さん東京都議会で講演　膠着打開へ訴え(産経新聞)",
+        "summary": "北朝鮮による拉致被害者の横田めぐみさん（62）＝拉致当時（13）＝の弟で、家族会代表の拓也さん（58）が11日、東京都議会の超党派拉致議連の勉強会に出席し、「都が大きな旗を振り国民、都民に啓発や啓蒙し",
+        "pub_date": "11/11 15:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/697f9b96f628d7782f1440e06cb8abe974ef2171?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "圏央道で5台絡む事故 1人が心肺停止(ABEMA TIMES)",
         "summary": "東京・青梅市を通る圏央道のトンネル付近で乗用車やトラックなど5台が絡む事故があり、1人が心肺停止の重体です。【映像】事故現場の様子（潰れた車など） 正午すぎ、青梅市友田町を通る圏央道外回りの友田トンネ",
@@ -1346,119 +1362,103 @@
         "is_disaster": true
       },
       {
-        "title": "放火・保険金詐取、火災調査に精通の「元エース調査員」に懲役10年の実刑判決(産経新聞)",
-        "summary": "全国4道県で古民家などに放火し、保険金など計約1億2800万円をだまし取ったとして、非現住建造物等放火や詐欺などの罪に問われた元保険調査員、深町優将（まさのぶ）被告（55）の判決公判が11日、岡山地裁",
-        "pub_date": "11/11 14:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/6c2ab0efcdff4f5b40ec7665bdac2c9c970012c5?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【交通情報】東海環状道 富加関IC〜美濃関JCT 内回り 通行止め解除(CBCテレビ)",
-        "summary": "東海環状道は、事故のため 富加関IC〜美濃関JCTの内回りで通行止めとなっていましたが、11日午後1時40分に解除されました。",
-        "pub_date": "11/11 13:56 JST",
-        "link": "https://news.yahoo.co.jp/articles/7de08e6fc2afe96397b1e6e60168131d7766b634?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "圏央道で5台絡む事故　1人が心肺停止　東京・青梅市(テレビ朝日系（ANN）)",
-        "summary": "東京・青梅市を通る圏央道のトンネル付近で乗用車やトラックなど5台が絡む事故があり、1人が心肺停止の重体です。 11日正午すぎ、青梅市友田町を通る圏央道外回りの友田トンネル付近で「全部で5台の事故」など",
-        "pub_date": "11/11 13:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/4eccee5e103d2e6f819f5240c274603b7373f16a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "圏央道で5台絡む事故  1人が心肺停止　東京・青梅市(テレビ朝日系（ANN）)",
-        "summary": "速報です。東京・青梅市を通る圏央道のトンネル付近で乗用車やトラックなど5台が絡む事故があり、1人が心肺停止の重体です。",
-        "pub_date": "11/11 13:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/78460e318a32011c5ad5beb263434add4a7375e7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "多重事故で12人死亡 ブルガリア",
+        "title": "圏央道で5台絡む事故 1人心肺停止",
         "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/11 14:11 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602168?source=rss",
+        "pub_date": "11/11 15:46 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6602177?source=rss",
         "category": "主要速報",
         "is_disaster": true
       },
       {
-        "title": "老舗うなぎ店4代目の挑戦＜前編＞ 「串打ち三年、裂き八年、焼き一生」『うなぎの蒲焼』ローマで披露【福岡発】 (FNNプライムオンライン)",
-        "summary": "寿司や天麩羅は、今や日本食の代名詞として世界の人々に愛されているが、古くから同じように日本人が愛してやまないのがウナギ。特に蒲焼だ。日本の食文化としてもっと世界に広げようと奮闘する北九州市の老舗ウナギ",
-        "pub_date": "11/11 15:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/fb1f8c0e2e94b9410192946873fa72a9a130d86e?source=rss",
+        "title": "M＆A装い、口座入手疑い　経営難の会社狙う、男逮捕(共同通信)",
+        "summary": "岐阜県警は11日、企業の合併・買収（M＆A）を装って法人の口座を入手し、特殊詐欺グループに提供したとして、犯罪収益移転防止法違反と詐欺ほう助の疑いで、千葉県柏市、自称コンサルタント業大久保孝弘容疑者（",
+        "pub_date": "11/11 16:13 JST",
+        "link": "https://news.yahoo.co.jp/articles/63935066102dd2a2c2eb766f09f159fd70ae6baa?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ドコモ 電話つながりにくく 不正アクセスではなく復旧未定(ABEMA TIMES)",
-        "summary": "NTTドコモで電話やデータ通信などが利用しにくくなっています。不正アクセスではないということです。【映像】NTT docomo一部のサービスが利用しづらく全国に影響 NTTドコモによりますと、午前10",
-        "pub_date": "11/11 14:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/3d5351f7062d303f3125f86ea55e2617ea34e1ca?source=rss",
+        "title": "《衆院選で“生ビール17杯”提供か》武部新農水相に公選法違反「運動員買収」疑惑　週刊文春が入手した領収書には…(文春オンライン)",
+        "summary": "武部新農水相（56）が、衆院選に際して運動員にビールを振る舞っていた疑いがあることが「 週刊文春 」の取材で分かった。公職選挙法違反の運動員買収に当たる可能性がある。【画像】武部新氏と妻の園子さん「週",
+        "pub_date": "11/11 16:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/fb1e584e13b7ded106d1850f948066950126ed92?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "狛江など7件の広域強盗事件 “ルフィ”Gトップ「手伝っただけ」(ABEMA TIMES)",
-        "summary": "ルフィなどと名乗るグループによる一連の事件をめぐり強盗致死の罪などに問われている男が初公判で、東京・狛江市の強盗致死事件について「共犯者を手伝っただけ」と主張しました。【映像】連行される渡邉優樹被告の",
-        "pub_date": "11/11 14:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/018c1f9e0d41e6dc3d13571cdcb8e2e061c7e8b9?source=rss",
+        "title": "《減税退席で戒告処分》石破茂前首相が語った“ショート動画政治”の問題点「『消費税を減税すると何が起こるか』なんぞということが1分で分かりますかね？」(文春オンライン)",
+        "summary": "消費減税関連法案の衆院採決直前に退席し、自民党から戒告処分を受けた石破茂前首相（69）が「週刊文春」の取材に応じ、高市政権の支持率が下がらない理由や、石破政権との差などについて見解を示した。【写真】こ",
+        "pub_date": "11/11 16:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/3d0a49502078803cadb1bacff4898a51a4601b7b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "京都府内の農場で鳥インフル疑い(共同通信)",
-        "summary": "京都府は11日、府内の農場で、高病原性鳥インフルエンザの疑い事例を確認したと発表した。今後、遺伝子検査を実施する。",
-        "pub_date": "11/11 14:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/7ba573672c6eda27edbd57dd0237999d6c0968bc?source=rss",
+        "title": "逮捕の男「気がついたら店を出ていた」　東京・中野区の高級腕時計窃盗(テレビ朝日系（ANN）)",
+        "summary": "東京の中野ブロードウェイで高級腕時計が盗まれた事件で、30歳の男が名古屋市内で逮捕されました。「気がついたら店を出ていた」などと話しています。自称・アマコン・マークリス・利哉容疑者（30）は、先月29",
+        "pub_date": "11/11 16:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/804962cb270fe5b180422b2b711670caace85ca3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "統一地方選の投票日決める特例法成立　大阪都構想住民投票と重複回避求める附帯決議も(テレビ朝日系（ANN）)",
-        "summary": "来年春に行われる統一地方選挙の投票日を定める特例法が参議院本会議で成立し、4月11日と25日に投票が行われることが決まりました。特例法の成立により、道府県と政令指定都市の首長や議員の選挙は来年の4月1",
-        "pub_date": "11/11 14:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/37a916e416c73361dfc2d77ce726c40df22f8c86?source=rss",
+        "title": "2026年の司法試験、合格者は1595人　最年少は20歳、最年長は71歳(弁護士ドットコムニュース)",
+        "summary": "法務省は11月11日、2026年の司法試験に1595人が合格したと発表した。前年より14人増え、合格率は前年と同じ41.20％（受験者数ベース）だった。全体の受験者数は前年より34人増えて3871人（",
+        "pub_date": "11/11 16:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/05a24135132abebd549cae5a8be5272b5d8dc3e9?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "横浜の4歳児死亡、無罪確定　アパート同居男性、検察上告せず(共同通信)",
-        "summary": "横浜市鶴見区のアパートで2018年、同居していた交際女性の長男＝当時（4）＝を虐待して死亡させたとして、傷害致死などの罪に問われた無職男性（34）を無罪とした一、二審判決が11日、確定した。検察側が期",
-        "pub_date": "11/11 14:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/e880866dc82106267918b4f222422d9c0be2ba3b?source=rss",
+        "title": "国際宇宙ステーションISS／きぼうを見よう　12日(木)午後6時前後に日本上空を通過　西・東日本で好条件(ウェザーマップ)",
+        "summary": "国際宇宙ステーションISS／きぼうが、12日(木)の日没後に日本の上空を通過します。12日(木)は条件が揃って、日本の広い範囲で見られるかもしれません。特に西・東日本を中心に観察に好条件になりそうです",
+        "pub_date": "11/11 16:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/6e852cbd1d7e63edae0cbd63d0289b244559f250?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "阪神大震災関連の負担1兆円残る　兵庫県、新たな検証結果を公表(共同通信)",
-        "summary": "兵庫県は11日、財政運営の検討会を開き、1995年の阪神大震災に関連する借金返済などの負担が現時点で約1兆600億円残っていると公表した。財政再建に向けて新たに検証した結果で、斎藤元彦知事は検討会終了",
-        "pub_date": "11/11 14:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/3008dcb35907ff67673b5c5e8dd1e6a064fe5a72?source=rss",
+        "title": "大阪地検特捜部、脱税容疑で自営業者逮捕(共同通信)",
+        "summary": "大阪地検特捜部は11日、売り上げの一部を除外するなどして所得税約8900万円を脱税したとして、所得税法違反の疑いで大阪府東大阪市の自営業の男（52）を逮捕した。",
+        "pub_date": "11/11 16:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/ae51b38edb39e0e30a468592a0edb727e7b8661e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "18日にかけて気圧の下がる日が多い　東京都心は17日と18日に影響度が「大」(日本気象協会tenki.jp)",
-        "summary": "この先1週間は気圧の下がる日が多く、影響度が「大」になる所もあるでしょう。東京都心は17日(火)と18日(水)に影響度が大きくなりそうです。気圧変化で頭痛やめまいなどの症状が出る方は、早めの対策を心が",
-        "pub_date": "11/11 14:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/f81290afc3aef44c572143075ef07c9cd48fb7c7?source=rss",
+        "title": "社説：コメ需給見直し　同じ失敗繰り返さぬか(京都新聞)",
+        "summary": "目先の価格維持に右往左往するばかりでは、主食の需給安定はおぼつかない。 農林水産省が2027年産の主食用米の需給見通しを発表した。生産量の目安を26年産の予想収穫量より48万トン（6・5％）少ない69",
+        "pub_date": "11/11 16:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/00df90935bd91d3e7bada7b0221848400cd4bd3e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "目撃情報が増えてきたクマ　空き家に放置された柿の木が狙われる(J-CASTニュース)",
-        "summary": "冬眠を目前に控え、全国各地でクマの目撃情報が増えてきた。2026年11月10日放送の「モーニングショー」(テレビ朝日系）に出演した岩手大学准教授の山内貴義さんは、冬眠前に体重を増やさなければいけないク",
-        "pub_date": "11/11 14:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/ef1cbd40909edb3d09aaf8e7c72be48b26aae99c?source=rss",
+        "title": "消費減税法案、高市早苗首相出席で13日の参院特別委審議入りで合意(産経新聞)",
+        "summary": "自民党の磯崎仁彦参院国対委員長と立憲民主党の斎藤嘉隆国対委員長は11日、国会内で会談し、消費税減税関連法案について、参院特別委員会で13日に実質審議入りする日程で合意した。同日は高市早苗首相が出席する",
+        "pub_date": "11/11 16:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/6c1a88d5a13e035ff51d7e1d913979aee731329a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "冬の味覚王フグ　てっさの由来　天然・養殖の違い　温暖化による新リスクも(ウェザーマップ)",
+        "summary": "風が冷たくなり冬の気配を感じる頃、ひときわ美味しくなるのが海の幸です。そのなかでも、白身の王様と称されるのがフグです。普段、魚料理に目がないというほどではなくても、この淡白でありながら奥深い旨味のフグ",
+        "pub_date": "11/11 16:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/057d12743cabe6e5e37d8df4c6b157b64b4a8ca6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "同居女性を脅し自身の唇を縫う事を“強要”　50歳女が初公判で起訴内容認める(テレビ朝日系（ANN）)",
+        "summary": "茨城県古河市で同居していた女性を脅し、自身の唇を縫うことを強要した罪などに問われている50歳の女が初公判で起訴内容を認めました。 古河市の無職・櫻井政恵被告は6月、自宅で同居していた女性（42）に糸を",
+        "pub_date": "11/11 16:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/fba4d9fe76bc46c3df77978a11ec4b4622041059?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-11 15:03:01 JST"
+    "last_updated": "2026-11-11 16:16:41 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1479,10 +1479,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "TGJeRMKdMeo",
+        "video_id": "cgP2kt6FTes",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/TGJeRMKdMeo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=TGJeRMKdMeo"
+        "embed_url": "https://www.youtube.com/embed/cgP2kt6FTes?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=cgP2kt6FTes"
       },
       {
         "id": "stream_tbsnews",
@@ -1501,10 +1501,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "wScOEmVnnG8",
+        "video_id": "PTbrw-rduqM",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/wScOEmVnnG8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=wScOEmVnnG8"
+        "embed_url": "https://www.youtube.com/embed/PTbrw-rduqM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=PTbrw-rduqM"
       },
       {
         "id": "stream_annnews",
@@ -1512,10 +1512,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "grax3wCD3SA",
+        "video_id": "HLxxhnwe_oQ",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/grax3wCD3SA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=grax3wCD3SA"
+        "embed_url": "https://www.youtube.com/embed/HLxxhnwe_oQ?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=HLxxhnwe_oQ"
       },
       {
         "id": "stream_fnnnews",

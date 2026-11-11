@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11 12:17:15",
+  "timestamp": "2026-11-11 13:39:23",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -90,11 +90,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-11 15:21",
-    "place": "熊本県阿蘇地方",
-    "magnitude": "2.4",
+    "time": "2026-11-11 21:13",
+    "place": "橘湾",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-11 21:13",
+        "place": "橘湾",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-11 15:21",
         "place": "熊本県阿蘇地方",
@@ -157,13 +164,6 @@
         "shindo": "1",
         "magnitude": "4.5",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-10 06:16",
-        "place": "橘湾",
-        "shindo": "2",
-        "magnitude": "3.3",
-        "maxScale": 20
       }
     ]
   },
@@ -232,11 +232,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "波浪注意報",
-          "霜注意報"
+          "霜注意報",
+          "波浪注意報"
         ],
-        "summary": "乾燥注意報、波浪注意報、霜注意報",
+        "summary": "霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -247,10 +246,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、濃霧注意報",
+        "summary": "濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -338,11 +337,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "九州電力送配電: 【停電発生中】宮崎で停電情報を検知",
+    "power_msg": "九州電力送配電: 停電情報なし（九州エリア管内正常）",
     "water_msg": "福岡市水道局: 供給安定（平常）",
     "gas_msg": "西部ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -382,19 +381,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/11 11:47",
-          "text": "先週 START au END に変えたんだけど以前はdocomo使っていたので今回耐えたすぎる 先日の通信 START 障害 END は喰らった"
+          "time": "11/11 13:08",
+          "text": "スマホの無制限プラン月7千円台、まだ払い続ける？ 楽天モバイルは無制限でも3,278円。 乗り換えで月約4,000円、年約5万円浮く。 しかも俺の紹介リンクから..."
         },
         {
-          "time": "11/11 11:19",
-          "text": "#通信 START 障害 END 今日DOCOMOで、午前中 通信 START 障害 END あったけど、 START au END の人に 聞きたいんやけど、..."
+          "time": "11/11 13:07",
+          "text": "通信回線は、やっぱり分散しておくと安心ですね📱📶 ドコモや START au END 、楽天モバイルなど、どのキャリアでも通信 START 障害 END や電波..."
         },
         {
-          "time": "11/11 11:18",
-          "text": "実は先月末にドコモから楽天にした。 ドコモ START 障害 END でまくりらしい。 何このわいの千里眼的なやつ？ くっだらないポイントじゃなくて株とか投信と..."
+          "time": "11/11 12:45",
+          "text": "何やらdocomoが電波 START 障害 END 起こしてたらしいけど、ここのところ、通勤時等、外でネットが全然繋がらない！！特に帰りの電車。 ソフトバンクも..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -405,7 +404,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/11 12:00",
@@ -428,8 +427,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/11 12:45",
+          "text": "何やらdocomoが電波障害起こしてたらしいけど、ここのところ、通勤時等、外でネットが全然 START 繋がらない END ！！特に帰りの電車。 ソフトバンクも..."
+        },
         {
           "time": "11/11 12:03",
           "text": "@ajigonomi @moshimoni_com 送電鉄塔や砂防堰堤、切り開いたばかりの林道など本当に山奥で電波がない山間部だと分かっている時は個人的にスター..."
@@ -437,10 +440,6 @@
         {
           "time": "11/11 11:46",
           "text": "北陸新幹線のトンネル区間、楽天モバイルは当然のように START 繋がらない END からもういいんだけど、povo( START au END )も STAR..."
-        },
-        {
-          "time": "11/11 11:36",
-          "text": "@docomo ドコモで START 繋がらない END の慣れてる人は 楽天モバイルへ（繋がりにくいが安い！） START 繋がらない END のがやっぱり気..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -451,7 +450,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/11 12:11",
@@ -486,8 +485,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "【速報】台風32号は温帯低気圧に変わる(日本気象協会tenki.jp)",
+        "summary": "台風32号(チャンパカ)は、11月11日(水)午後9時に南鳥島近海で温帯低気圧に変わりました。",
+        "pub_date": "11/11 22:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/8420e6186475dda6bb0d928da804c87b7a001cc6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "稲川会会長らに賠償命令　特殊詐欺で使用者責任認定(共同通信)",
+        "summary": "特殊詐欺被害に遭った高齢女性らが、指定暴力団稲川会内堀和雄会長と組員に損害賠償を求めた訴訟の判決で、京都地裁は11日、会長の使用者責任を認め、2人に計約5500万円の賠償を命じた。 判決によると、高齢",
+        "pub_date": "11/11 21:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/9ab3aabe7f257efe3004c9338600ecee944f6e58?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "海側プレート内での地震に注意を　愛知の震度5強、政府の調査委(共同通信)",
         "summary": "政府の地震調査委員会は11日の定例会合で、今月8日に愛知県で1997年以来となる最大震度5強を観測した地震を議論した。南海トラフ沿いでの状況の変化を示すものではないとした上で、小原一成委員長（防災科学",
@@ -537,12 +552,20 @@
         "is_disaster": true
       },
       {
-        "title": "愛知で最大震度5強 交通機関ストップ備えは 名鉄社長「代替輸送進める」改めて強調(CBCテレビ)",
-        "summary": "11月8日、愛知県で最大震度5強を観測した地震を受け、名鉄トップは鉄道網がまひした際の代替輸送を進めていく考えを改めて強調しました。【写真を見る】愛知で最大震度5強 交通機関ストップ備えは 名鉄社長「",
-        "pub_date": "11/11 19:19 JST",
-        "link": "https://news.yahoo.co.jp/articles/b72f1cbebd3c29e2eb96bd4b65b05161165d9179?source=rss",
+        "title": "2人死傷の連続発砲事件で元暴力団組長を起訴　神戸地検(産経新聞)",
+        "summary": "神戸市で9月、男性2人が死傷した連続発砲事件で、神戸地検は11日、殺人と殺人未遂、銃刀法違反（発射）の罪で元暴力団組長の無職、亀谷直人容疑者（79）＝住所不定＝を起訴した。【47都道府県別にみる】殺人",
+        "pub_date": "11/11 21:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/8f625fcb97189404cfb6e08fb36df601400e8874?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "国力研2度目の総会　加藤会長「高市総理を支える」　山中教授が講演(テレビ朝日系（ANN）)",
+        "summary": "高市政権の政策実現を後押しする自民党の議員連盟「国力研究会」が2回目の総会を開催し、会長を務める加藤前財務大臣は「高市総理を支える」と強調しました。自民 加藤勝信会長「高市総理・総裁を支えるとともに、",
+        "pub_date": "11/11 21:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/3d1d5052583c84c44c9d6417fc7ce415ea6fa0f4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "死後に遺体を医学教育へ提供する「献体」　解剖実習に臨む医学生が“沈黙の教師”から学ぶ命の責任と、体を託す人たちの思い(FNNプライムオンライン)",
@@ -583,33 +606,9 @@
         "link": "https://news.yahoo.co.jp/articles/8047ae3e759746ba517eeba428daa081970d81b6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "最高級カニ「極」290万円 “テーマパーク”に展示中(ABEMA TIMES)",
-        "summary": "最高級ブランドガニ「極」今シーズン第一号が、290万円で落札されました。 「極」は越前ガニの中でも、重さ1.3キログラム以上、甲羅の幅14.5センチ以上など、厳しい基準が設けられています。【映像】29",
-        "pub_date": "11/11 20:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/c21fadb340b1fe52a6368b8a92dffc0cf3845439?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "ごみ集積所に赤ちゃん 母親を殺人容疑で再逮捕(ABEMA TIMES)",
-        "summary": "横浜市にあるごみ集積所に、生後間もない男の赤ちゃんの遺体を捨てたとして母親が逮捕された事件で、赤ちゃんを窒息させて殺害した疑いで母親が再逮捕されました。【映像】赤ちゃん遺体遺棄の母親 殺人容疑で再逮捕",
-        "pub_date": "11/11 20:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/143f1f7de2165b355ea3a69becbabf5d4f821db3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "自民の議連「国力研究会」に129人参加　「高市1強」誇示も党運営には不安材料(産経新聞)",
-        "summary": "高市早苗首相（自民党総裁）を支える自民有志の議員連盟「国力研究会」の会合が11日、国会内で開かれた。首相は欠席したが、麻生太郎副総裁や萩生田光一幹事長代行ら党幹部を含め129人の議員が参加。党内の「高",
-        "pub_date": "11/11 20:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/2426b7985e1e26cce3d31b56e5b2355ceb0553d6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-11 21:17:12 JST"
+    "last_updated": "2026-11-11 22:39:20 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",

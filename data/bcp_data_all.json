@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11 04:02:39",
+  "timestamp": "2026-11-11 05:03:00",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -994,10 +994,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、波浪注意報",
+        "summary": "波浪注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -1049,18 +1049,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線34路線: 山陰本線、宇部線、姫新線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線30路線: 石巻線、山田線、大湊線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山陰本線、宇部線、姫新線、呉線、美祢線 等 計34路線）",
+    "line_text": "運行支障あり（石巻線、山田線、大湊線、米坂線、陸羽東線 等 計30路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "山陰本線",
-      "宇部線",
-      "姫新線",
-      "呉線",
-      "美祢線",
       "石巻線",
       "山田線",
       "大湊線",
@@ -1068,22 +1063,23 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "とさでん交通線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
-      "大阪環状線",
-      "阪和線",
-      "関西空港線",
+      "山陰本線",
+      "宇部線",
+      "姫新線",
+      "呉線",
+      "美祢線",
       "関西本線",
-      "日豊本線",
       "長崎本線",
       "肥薩線",
+      "東海道本線",
       "越後線",
       "九頭竜線",
       "しなの鉄道北しなの線",
       "大井川鉄道大井川本線",
       "万葉線",
-      "内房線",
+      "宇都宮線",
       "相鉄線",
       "成田線",
       "久留里線",
@@ -1167,7 +1163,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 34,
+    "target_lines_count": 30,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1182,7 +1178,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】秋田・千葉・東京・長野・京都・愛媛で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】秋田・千葉・長野で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1222,19 +1218,19 @@
       "trend": "UP",
       "trend_label": "📈 上昇傾向 (投稿急増・要警戒)",
       "trend_class": "red",
-      "summary": "直近1時間で 37 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
+      "summary": "直近1時間で 24 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
       "recent_posts": [
         {
-          "time": "11/11 04:02",
-          "text": "ドコモ通信 START 障害 END おおい？ 他人事やけど、高い料金払ってたら結構精神的にイラきそう START au END 系のがつよいんかな？"
+          "time": "11/11 04:57",
+          "text": "ここ数年、docomoは通信事業者って事を忘れているんじゃないかな。 通信 START 障害 END じゃなくても通信品質がクソなのに。 povoのトッピング買..."
         },
         {
-          "time": "11/11 04:02",
-          "text": "ドコモまた START 障害 END 、全国で通話・データ利用しづらく Xでは「5G SAがつながらない」の声【更新】(ITmedia NEWS) ドコモだめだ..."
+          "time": "11/11 04:55",
+          "text": "なんかドコモ回線側の電波が1本しか無いなと思ったらやっぱり START 障害 END だった。 START au END 回線ポチーとな"
         },
         {
-          "time": "11/11 04:02",
-          "text": "docomo最悪😣 電波基地局設置が START au END やソフトバンクよりも大幅に遅れた結果がこれ。 先週5G SAの電波 START 障害 END か..."
+          "time": "11/11 04:50",
+          "text": "@Ta2_Channel 関係がなかったら申し訳ないのですが、ドコモと START au END の通信 START 障害 END も原因のひとつになるかも知れ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1242,22 +1238,22 @@
     {
       "keyword": "KDDI 障害",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 7 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/11 03:40",
-          "text": "ドコモまた START 障害 END 、全国で通話・データ利用しづらく Xでは「5G SAがつながらない」 ドコモは5G基地局の整備がからきしダメってニュースが..."
+          "time": "11/11 04:45",
+          "text": "僕の場合、こー言うことがあるから、ドコモだけでなく、 START KDDI END 、ソフトバンク、楽天回線を契約してるし、Wi-Fiがあれば大丈夫なようにIP..."
         },
         {
-          "time": "11/11 03:36",
-          "text": "---- ドコモは全国規模の通信 START 障害 END で START KDDI END はモンゴル焼いてソフトバンクは子会社役員が逮捕。 なんだこの業界。..."
+          "time": "11/11 04:20",
+          "text": "@ririkukurikuku @Nn_nqr029 確かに半年で五件の大規模通信 START 障害 END 発生した START KDDI END にはまだ遠..."
         },
         {
-          "time": "11/11 03:31",
-          "text": "@spe_sense せっかく START KDDI END が覇権獲るチャンスなのにお家騒動みたいにバタバタしやがって、結局税金払わねえソフトバンクがシェア拡..."
+          "time": "11/11 04:16",
+          "text": "@ririkukurikuku @Nn_nqr029 お前全然返信しないくせに、何か出たらリプしてくるんだなw 俺も START KDDI END がまたやらか..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -1265,10 +1261,10 @@
     {
       "keyword": "au 繋がらない",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 7 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/11 03:46",
@@ -1287,23 +1283,23 @@
     },
     {
       "keyword": "povo 障害",
-      "status": "ALERT",
-      "trend": "UP",
-      "trend_label": "📈 上昇傾向 (投稿急増・要警戒)",
-      "trend_class": "red",
-      "summary": "直近1時間で 15 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
+      "status": "NORMAL",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 14 件です。",
       "recent_posts": [
         {
-          "time": "11/11 03:59",
-          "text": "またもMVNOは影響無し 自分はIIJだから繋がるけど、 START povo END もあるしな… ドコモオンリーの人は大変だ、早期復旧して欲しいね ドコモ、..."
+          "time": "11/11 04:57",
+          "text": "ここ数年、docomoは通信事業者って事を忘れているんじゃないかな。 通信 START 障害 END じゃなくても通信品質がクソなのに。 START povo ..."
         },
         {
-          "time": "11/11 03:57",
-          "text": "docomo、通信 START 障害 END って出てたけど使える時とそうでない時がある感じかな。サブで START povo END 入れててよかった"
+          "time": "11/11 04:51",
+          "text": "認証コードSMSこないと思ったらまた通信 START 障害 END おきてんの？？？ START povo END に乗り換えたい気持ちもなくはないけど、doc..."
         },
         {
-          "time": "11/11 03:52",
-          "text": "またdocomo5GSA START 障害 END かよ。。 START povo END のモバイルルータのWiFi繋げて生かしてる。。"
+          "time": "11/11 04:39",
+          "text": "ドコモの通信 START 障害 END がまたあってるけど、 前の日曜の神宮球場でも一瞬ドコモが不通になったのよね（通信 START 障害 END だったのか変..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -1330,6 +1326,30 @@
     "disaster_count": 6,
     "articles": [
       {
+        "title": "【交通情報】東海環状道 富加関IC〜美濃関JCT 内回り 通行止め解除(CBCテレビ)",
+        "summary": "東海環状道は、事故のため 富加関IC〜美濃関JCTの内回りで通行止めとなっていましたが、11日午後1時40分に解除されました。",
+        "pub_date": "11/11 13:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/7de08e6fc2afe96397b1e6e60168131d7766b634?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "圏央道で5台絡む事故　1人が心肺停止　東京・青梅市(テレビ朝日系（ANN）)",
+        "summary": "東京・青梅市を通る圏央道のトンネル付近で乗用車やトラックなど5台が絡む事故があり、1人が心肺停止の重体です。 11日正午すぎ、青梅市友田町を通る圏央道外回りの友田トンネル付近で「全部で5台の事故」など",
+        "pub_date": "11/11 13:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/4eccee5e103d2e6f819f5240c274603b7373f16a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "圏央道で5台絡む事故  1人が心肺停止　東京・青梅市(テレビ朝日系（ANN）)",
+        "summary": "速報です。東京・青梅市を通る圏央道のトンネル付近で乗用車やトラックなど5台が絡む事故があり、1人が心肺停止の重体です。正午すぎ、青梅市友田町を通る圏央道外回りの友田トンネル付近で「全部で5台の事故」な",
+        "pub_date": "11/11 13:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/78460e318a32011c5ad5beb263434add4a7375e7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "【速報】NTTドコモでまた通信障害　全国で通話・データ通信が利用しづらい状況　今月5日にも同様の通信障害　原因は「調査中」(読売テレビ)",
         "summary": "NTTドコモは11日、携帯電話サービスの一部で音声通話・データ通信・SMSで通信障害が発生していると発表しました。通信障害が発生したのは午前10時34分で、5Gの専用設備で通信を行うサービス「5G S",
         "pub_date": "11/11 12:58 JST",
@@ -1354,103 +1374,79 @@
         "is_disaster": true
       },
       {
-        "title": "横田めぐみさん拉致から今月15日で49年　新潟知事「政府はなんらかの成果を」(産経新聞)",
-        "summary": "横田めぐみさん（62）＝拉致当時（13）＝が新潟市内で北朝鮮に拉致されてから11月15日で49年になるのを前に、新潟県の花角英世知事は11日の定例記者会見で、「全ての拉致被害者の帰国がいまだに実現して",
-        "pub_date": "11/11 12:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/4db30ef5b0c2fa9e1d65b20bbdebfbce154272fa?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【交通情報】東海環状道 富加関IC〜美濃関JCT（内回り）事故のため通行止め(CBCテレビ)",
-        "summary": "東海環状道は、事故のため11日午前11時35分から、富加関IC〜美濃関JCTの内回りで通行止めとなっています（11日午前11時50分現在）。",
-        "pub_date": "11/11 11:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/043b46b04951a9df0c9827f4265cb1231a1b6c3d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "ダンプカー衝突 自転車の15歳死亡",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/11 11:22 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602142?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "全国的に今季一番の冷え込み　北海道幌加内で－20℃ 観測史上最速(テレビ朝日系（ANN）)",
-        "summary": "11日朝は全国的に今シーズン一番の寒さとなり、北海道では国内の観測史上最も早くマイナス20℃を下回りました。 上空の寒気と放射冷却の影響で、朝は強烈な冷え込みとなりました。 北海道の幌加内ではマイナス",
-        "pub_date": "11/11 12:46 JST",
-        "link": "https://news.yahoo.co.jp/articles/3f6858ae7037369fcdfafd3b23798b0bf68d81e1?source=rss",
+        "title": "「トランプ大統領と日米関係をゆるぎないものに」高市総理(テレビ朝日系（ANN）)",
+        "summary": "高市総理大臣は、参議院本会議でアメリカ中間選挙での共和党大敗を受けた対応について問われ「トランプ大統領と日米関係を揺るぎないものにする」と述べました。【国民民主・竹詰議員】「上下両院でトランプ政策が否",
+        "pub_date": "11/11 14:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/279f1de7704eb2ca572d86ead2736c2c794c2e13?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "石破前首相らに続く「反高市の乱」年末までに第2陣が動く？星浩氏は予想　すでに始まった次期総裁争い(J-CASTニュース)",
-        "summary": "消費税減税法の衆議院本会議採決を退席した石破茂前首相、小渕優子元経産相、古川禎久元法相、船田元・元経済企画庁長官の4議員を自民党が戒告処分にしたことで、反高市の第2陣が動き出す...TBSスペシャルコ",
-        "pub_date": "11/11 12:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/8479e9558142dfe3bbc5b1608b379f91efba15e0?source=rss",
+        "title": "最新の紅葉見頃予想～見頃の本番は東・西日本の平野部へ　12月にかけて楽しめそう(日本気象協会tenki.jp)",
+        "summary": "日本気象協会は今日11日(水)、最新の「2026紅葉見頃予想【第4報】」を発表しました。今年の紅葉は全国的に平年並みか遅くなる見込みです。既に見頃を迎えた所もありますが、この先も気温が高めに推移するた",
+        "pub_date": "11/11 14:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/64c619f0ee2ce4ff06fafc21ab4c2cae1445a176?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "統一選は来年4月11、25日　投票日定める特例法成立(共同通信)",
-        "summary": "来年春の統一地方選の投票日を定める臨時特例法が11日、参院本会議で可決、成立した。道府県と政令指定都市の首長、議員選を来年4月11日に、政令市以外の市、特別区、町村の首長、議員選を同25日に実施する。",
-        "pub_date": "11/11 12:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/3694410e537b24c630333eaa4d60364a1bbdcc34?source=rss",
+        "title": "支援金「年収53万円超」を「重く受け止める」　高市総理が公明党の求めに”前向き”答弁(テレビ朝日系（ANN）)",
+        "summary": "働く中低所得者向けの支援金制度をめぐり、高市総理大臣は、支給対象となる年収の下限を「53万円超」とする公明党の主張について、「重く受け止める」と応じました。【公明党・里見隆治参院議員】「衆議院の審議で",
+        "pub_date": "11/11 13:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/0ea009ed1875a0963be246c3d7477582b5c8f873?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "拉致問題でベトナム共産党に協力要請　自民・萩生田幹事長代行(テレビ朝日系（ANN）)",
-        "summary": "自民党の萩生田幹事長代行は来日しているベトナム共産党の要人と会談し、政党間交流の覚書を更新したうえで、拉致問題での協力などを呼び掛けました。自民党 萩生田幹事長代行「第1条の相互の理解と協力、共通の問",
-        "pub_date": "11/11 12:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/515599484e3dfe49fa1bb8600992d0abfc699dd5?source=rss",
+        "title": "支援金「年収53万円超」を「重く受け止める」高市総理　公明党の求めに“前向き”答弁(テレビ朝日系（ANN）)",
+        "summary": "働く中低所得者向けの支援金制度を巡り、高市総理大臣は、支給対象となる年収の下限を「53万円超」とする公明党の主張について、「重く受け止める」と応じました。公明党 里見隆治参院議員「衆議院の審議では、『",
+        "pub_date": "11/11 13:52 JST",
+        "link": "https://news.yahoo.co.jp/articles/bd63c306acc87fba0bb83a2c13a5e578bdbdb02b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "高級腕時計窃盗疑い男逮捕　中野ブロードウェイ(共同通信)",
-        "summary": "東京・中野の商業施設「中野ブロードウェイ」で10月、高級腕時計が盗まれた事件で、警視庁捜査3課は11日、窃盗容疑で30代の男を逮捕した。捜査関係者への取材で分かった。現場から逃げた男とみており、名古屋",
-        "pub_date": "11/11 12:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/ff9de516e9ada2e75f470883d69debf641e4a1b7?source=rss",
+        "title": "佐藤健さんとTWICEサナさんの写真、SNS拡散で物議…映画撮影中の芸能人、勝手に撮っていいの？(弁護士ドットコムニュース)",
+        "summary": "俳優の佐藤健さんと、韓国のガールズグループ「TWICE」のサナさん。2人が映画の撮影をしているとみられる写真がSNS上で拡散され、物議を醸している。【写真】タンクトップ姿のサナさんスポーツソウル日本版",
+        "pub_date": "11/11 13:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/3039c6f9ae0d30a8b49faaab13431a4ab4c1392f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "“闇バイト”連続強盗事件　横浜の事件実行役「暴力振るっていない」起訴内容否認(テレビ朝日系（ANN）)",
-        "summary": "おととし首都圏で相次いだ闇バイトによる連続強盗事件のうち、横浜市の事件で実行役を担ったとして強盗致死などに問われた男が、初公判で起訴内容を否認しました。 宝田真月被告（24）はおととし10月、横浜市青",
-        "pub_date": "11/11 12:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/0a402c9a165e65af3fcd5a96ac6aea5baa8be9d6?source=rss",
+        "title": "「トランプ大統領と日米関係をゆるぎないものに」高市総理、共和党大敗で対応問われ(テレビ朝日系（ANN）)",
+        "summary": "高市総理大臣は、参議院本会議でアメリカ中間選挙での共和党大敗を受けた対応について問われ「トランプ大統領と日米関係を揺るぎないものにする」と述べました。国民民主党 竹詰議員「上下両院でトランプ政策が否決",
+        "pub_date": "11/11 13:49 JST",
+        "link": "https://news.yahoo.co.jp/articles/3d856aaefc4714f3076b315e3ffaffeb1c945569?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "子どもの不登校で「もう会社にはいられない」 母親の約5人に1人が離職の現実 「不登校離職」に独自の休業制度を設ける企業も(AERA DIGITAL)",
-        "summary": "子どもの不登校をきっかけに、仕事を手放さざるを得ない保護者がいる。離職を防ぐため、独自の休業や短時間勤務の制度を設ける企業も現れている。AERA 2026年11月16日号より。【気になるデータ】小1の",
-        "pub_date": "11/11 12:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/adf8a324c4c3deed43fb2f4eb36b06cca50a6da5?source=rss",
+        "title": "チャイルドシートの使用義務　「身長が低い」子どもにも拡大か　検討会が始まる(テレビ朝日系（ANN）)",
+        "summary": "車に乗る6歳未満の子どもに使用が義務付けられているチャイルドシートについて、対象範囲の見直しを話し合う有識者の検討会が始まりました。 道路交通法では、6歳未満の子どもが車に乗る時はチャイルドシートの使",
+        "pub_date": "11/11 13:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/7d787814f43a88808e2172da26a65759c9692e5b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "中野区の高級腕時計窃盗 名古屋市で30代男を逮捕(ABEMA TIMES)",
-        "summary": "東京・中野ブロードウェイで高級腕時計が盗まれた事件で、警視庁は、先ほど30代の男を名古屋市内で逮捕しました。【映像】愛知県内に潜伏か 腕時計の窃盗で30代男を逮捕 先月29日、「中野ブロードウェイ」の",
-        "pub_date": "11/11 12:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/96404a033929b650db7c8ed62a9bf6dc8ddfb266?source=rss",
+        "title": "参議院野党「総理は進んで国会に出席すべき」　衆議院の委員会審議には1回、1時間出席(テレビ朝日系（ANN）)",
+        "summary": "高市総理大臣は、食料品の消費減税の法案を審議する特別委員会への出席を野党側から求められ、「国会から要請があれば出席する」と従来の答弁を繰り返しました。【立憲民主党・柴愼一参院議員】「総理は常々『国会で",
+        "pub_date": "11/11 13:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/02e5f27aa7a2c6992ea0b29ab52c585987222ca2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "統一選、来年4月11、25日実施法成立(共同通信)",
-        "summary": "来年春の統一地方選の投票日を定める臨時特例法が11日、参院本会議で可決、成立した。道府県と政令指定都市の首長、議員選を来年4月11日に、政令市以外の市、特別区、町村の首長、議員選を同25日に実施する。",
-        "pub_date": "11/11 12:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/5d48d380eaa61f0b69fbd0a55e7f63edc719e1c3?source=rss",
+        "title": "トランプ大統領のレガシーづくり、日本の頭越し...中国、ロシア、北朝鮮と協力関係築くおそれ(J-CASTニュース)",
+        "summary": "中国で開かれるAPEC にあわせて米トランプ大統領が史上初の米中ロ首脳会談開催に意欲を見せていると伝えられるが、2026年11月10日放送の「モーニングショー」(テレビ朝日系）が、会談実現の可能性とそ",
+        "pub_date": "11/11 13:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/6519c2451c66399b96449772562b1b5c7bdda533?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-11 13:02:36 JST"
+    "last_updated": "2026-11-11 14:02:57 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1471,10 +1467,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "JE26sgHnLRA",
+        "video_id": "TGJeRMKdMeo",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/JE26sgHnLRA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=JE26sgHnLRA"
+        "embed_url": "https://www.youtube.com/embed/TGJeRMKdMeo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=TGJeRMKdMeo"
       },
       {
         "id": "stream_tbsnews",

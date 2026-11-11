@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11 16:23:12",
+  "timestamp": "2026-11-11 17:24:48",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -89,12 +89,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-11 21:13",
-    "place": "橘湾",
-    "magnitude": "2.3",
+    "shindo": "2",
+    "time": "2026-11-12 02:15",
+    "place": "青森県東方沖",
+    "magnitude": "3.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-12 02:15",
+        "place": "青森県東方沖",
+        "shindo": "2",
+        "magnitude": "3.6",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-11 21:13",
         "place": "橘湾",
@@ -157,13 +164,6 @@
         "shindo": "2",
         "magnitude": "4.5",
         "maxScale": 20
-      },
-      {
-        "time": "2026-11-10 14:20",
-        "place": "茨城県沖",
-        "shindo": "1",
-        "magnitude": "4.5",
-        "maxScale": 10
       }
     ]
   },
@@ -219,9 +219,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "濃霧注意報",
           "霜注意報"
         ],
-        "summary": "霜注意報",
+        "summary": "濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/45/"
       },
       {
@@ -233,9 +234,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
+          "濃霧注意報",
           "霜注意報"
         ],
-        "summary": "波浪注意報、霜注意報",
+        "summary": "波浪注意報、濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -381,8 +383,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/11 16:46",
+          "text": "ドコモの緊急メンテナンスがぜんぜん終わらないけど、楽天とデュアルSimにしてるので、自分には影響ない。 START au END 通信 START 障害 END..."
+        },
         {
           "time": "11/11 15:50",
           "text": "@V_2yrr START au END 一回くらいしか通信 START 障害 END なってないかも！ 入場出来ない可能性あるなら流石に乗り換えよう笑"
@@ -390,10 +396,6 @@
         {
           "time": "11/11 15:48",
           "text": "@tomo_satoshi411 START au END はやっぱり強そうだなあ、docomo通信 START 障害 END 多いから本気で乗り換えたいよ笑笑..."
-        },
-        {
-          "time": "11/11 15:11",
-          "text": "START au END の光回線が突然繋がらなくなった。 お得意の通信 START 障害 END かしら。"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -427,8 +429,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/11 16:46",
+          "text": "ドコモの緊急メンテナンスがぜんぜん終わらないけど、楽天とデュアルSimにしてるので、自分には影響ない。 START au END 通信障害経験してるけど、通信障..."
+        },
         {
           "time": "11/11 14:27",
           "text": "START au END はね.... たまに START au END だけ START 繋がらない END エリアがあるのよ 電波目的ならSoftBank ..."
@@ -436,10 +442,6 @@
         {
           "time": "11/11 12:45",
           "text": "何やらdocomoが電波障害起こしてたらしいけど、ここのところ、通勤時等、外でネットが全然 START 繋がらない END ！！特に帰りの電車。 ソフトバンクも..."
-        },
-        {
-          "time": "11/11 12:03",
-          "text": "@ajigonomi @moshimoni_com 送電鉄塔や砂防堰堤、切り開いたばかりの林道など本当に山奥で電波がない山間部だと分かっている時は個人的にスター..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -450,8 +452,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/11 17:12",
+          "text": "サブ回線で START povo END のesim入れてる！ 出先でWi-Fi環境ないけど通信使いたい時（PCテザリング用とか）にデータ使い放題トッピングして..."
+        },
         {
           "time": "11/11 14:51",
           "text": "docomoが度々通信 START 障害 END になっても START povo END があるから大丈夫なんだけど、いつまで経ってもMydocomoが復活し..."
@@ -459,10 +465,6 @@
         {
           "time": "11/11 14:35",
           "text": "というわけで、 START 障害 END 対策も兼ねて、サブ回線の START povo END を導入しました。 いまのところいい感じ。 いつも圏外のセブンも..."
-        },
-        {
-          "time": "11/11 12:11",
-          "text": "通信 START 障害 END とか今後もあるだろうからドコモと限らずにデュアルSIMにしとくといいですよ START povo END を入れといてこういう時..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -485,8 +487,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 6,
+    "disaster_count": 7,
     "articles": [
+      {
+        "title": "ヤミ金疑い男5人再逮捕へ　福岡県警など、全国で被害か(共同通信)",
+        "summary": "福岡県警などが、違法な金利で現金を貸し付けたとして出資法違反などの疑いで、男5人を近く再逮捕する方針を固めたことが11日、捜査関係者への取材で分かった。関係先への家宅捜索で、現金数億円を押収した。全国",
+        "pub_date": "11/12 02:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/181db7a7c05111ae13aeabe870f3a4711bb83f7e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "NTTドコモの通信障害が11日午後7時すぎに復旧　原因は通信回線の許容量を超える「輻輳（ふくそう）」(読売テレビ)",
         "summary": "NTTドコモは11日午前から、携帯電話サービスの一部で音声通話・データ通信・SMSで発生していた通信障害が、午後7時17分に完全復旧し、サービスが正常に利用できることを確認したと発表しました。通信障害",
@@ -536,6 +546,22 @@
         "is_disaster": true
       },
       {
+        "title": "岐阜市のアパートで１２人が搬送される火事　火元の部屋の男が大麻使用で逮捕(メ〜テレ（名古屋テレビ）)",
+        "summary": "11日未明、岐阜市のアパートで12人が搬送される火事があり、火元となった部屋に住む男が大麻を使用した疑いで逮捕されました。 麻薬取締法違反の疑いで逮捕されたのは、トルコ国籍の無職コムル・ギョクハン容疑",
+        "pub_date": "11/12 02:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/708d4b29c98da793e098e3ca7644058c4ce9e271?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "天皇皇后両陛下　ベトナム国家主席夫妻と面会(テレビ朝日系（ANN）)",
+        "summary": "天皇皇后両陛下がベトナム国家主席夫妻と面会し、宮殿の日本庭園やベトナムを訪問された際の話などで交流されました。 両陛下は11日、ベトナムのトー・ラム国家主席夫妻を皇居で迎え、握手を交わされました。 宮",
+        "pub_date": "11/12 01:54 JST",
+        "link": "https://news.yahoo.co.jp/articles/03d56031b2d4499be70ababbe1eb35ef253c0882?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "官僚への圧が「一人っ子」促進　スタンフォード大、中国を分析(共同通信)",
         "summary": "中国が1979年に「一人っ子政策」を開始し、当初ほとんど下がらなかった合計特殊出生率は、10年以上後の90年代になって大きく低下した。その原因は、人口抑制の目標を達成しないと他の面で成績が良くても昇進",
         "pub_date": "11/12 01:00 JST",
@@ -582,33 +608,9 @@
         "link": "https://news.yahoo.co.jp/articles/dc1c7c510a3a8eeb587f1b131b726c2c99636e98?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "愛知県警が暴力団排除の”ローラー作戦”　名古屋駅西側の繁華街で店に呼びかけ(メ〜テレ（名古屋テレビ）)",
-        "summary": "愛知県警は11日夜、名古屋駅西側の繁華街で、暴力団の排除を呼びかける活動を行いました。 活動には愛知県警の警察官65人が参加し、県の「暴力団排除特別区域」に指定されている中村区椿町の飲食店や風俗店など",
-        "pub_date": "11/11 23:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/0218a717f5073701afb8d936700bf645d0939cc1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「自分の姿を鏡で見て」腕につけたまま名古屋へ…中野・腕時計窃盗で30歳の男逮捕(テレビ朝日系（ANN）)",
-        "summary": "中野ブロードウェイで高級腕時計が盗まれた事件で、11日、自称、アマコン・マークリス・利哉容疑者（30）が名古屋市内で逮捕されました。【画像】「自分の姿を鏡で見て」腕につけたまま名古屋へ…中野・腕時計窃",
-        "pub_date": "11/11 23:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/9764238b7ec2fc174f950ece4a1559635e5cf916?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "自民党小野寺税調会長が「増税反対」の鉢巻き　 自動車課税は「特定のエネルギーに負担が偏らないよう公平性を確保」(テレ東BIZ)",
-        "summary": "自民党の小野寺税調会長は11日、「石油増税反対総決起大会」に参加し、自動車の課税見直しについて、「特定のエネルギーに負担が偏ることのないよう、税負担の公平性を確保することが重要」との認識を示しました。",
-        "pub_date": "11/11 23:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/cb290ed4051b165835c58c62335f10b78f56e0f1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-12 01:23:08 JST"
+    "last_updated": "2026-11-12 02:24:45 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",

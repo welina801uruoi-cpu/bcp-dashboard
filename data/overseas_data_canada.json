@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 02:27:34",
-  "timestamp_local": "2026-11-11 13:27:34",
+  "timestamp": "2026-11-12 03:15:49",
+  "timestamp_local": "2026-11-11 14:15:49",
   "country": {
     "id": "canada",
     "name": "カナダ",
@@ -141,17 +141,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
-    "summary": "M5.1 (South Sandwich Islands region)",
+    "count_24h": 13,
+    "summary": "M5.1 (82 km W of Panguna, Papua New Guinea)",
     "latest": {
       "mag": 5.1,
-      "place": "South Sandwich Islands region",
-      "time": "11/12 00:39 JST",
-      "depth_km": 104.66,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txjg",
+      "place": "82 km W of Panguna, Papua New Guinea",
+      "time": "11/12 02:38 JST",
+      "depth_km": 71.547,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.1,
+        "place": "82 km W of Panguna, Papua New Guinea",
+        "time": "11/12 02:38 JST",
+        "depth_km": 71.547,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "South Sandwich Islands region",
@@ -246,22 +254,6 @@
         "time": "11/11 04:54 JST",
         "depth_km": 11.705,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txea",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.2,
-        "place": "21 km WNW of Popondetta, Papua New Guinea",
-        "time": "11/11 02:36 JST",
-        "depth_km": 124.245,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.2,
-        "place": "Mid-Indian Ridge",
-        "time": "11/11 02:36 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc3",
         "tsunami": 0
       }
     ]
@@ -508,30 +500,30 @@
     "default_channel_id": "stream_cbc_live"
   },
   "forex": {
-    "timestamp": "11/12 02:27 JST",
+    "timestamp": "11/12 03:15 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.86,
-      "change": 1.88,
-      "change_pct": 1.19,
+      "rate": 159.85,
+      "change": 1.86,
+      "change_pct": 1.18,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "CAD",
       "name": "カナダドル",
       "symbol": "C$",
-      "rate": 112.22,
-      "change": 0.33,
-      "change_pct": 0.29,
+      "rate": 112.21,
+      "change": 0.32,
+      "change_pct": 0.28,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.31,
+      "rate": 177.32,
       "change": 0.02,
       "change_pct": 0.01
     }
@@ -576,14 +568,14 @@
         "is_capital": true,
         "lat": 45.4215,
         "lon": -75.6972,
-        "temp": 6.3,
-        "apparent_temp": 3.0,
+        "temp": 6.7,
+        "apparent_temp": 3.4,
         "humidity": 68,
-        "wind_speed": 8.7,
-        "wind_gusts": 20.2,
+        "wind_speed": 9.0,
+        "wind_gusts": 18.7,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/11(水)",
@@ -621,18 +613,18 @@
         "is_capital": false,
         "lat": 43.6532,
         "lon": -79.3832,
-        "temp": 10.7,
-        "apparent_temp": 8.3,
-        "humidity": 72,
-        "wind_speed": 9.1,
-        "wind_gusts": 10.1,
+        "temp": 11.3,
+        "apparent_temp": 8.6,
+        "humidity": 67,
+        "wind_speed": 10.5,
+        "wind_gusts": 12.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/11(水)",
-            "temp_max": 11.0,
+            "temp_max": 11.5,
             "temp_min": 2.6,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -640,11 +632,11 @@
           },
           {
             "date": "11/12(木)",
-            "temp_max": 6.9,
+            "temp_max": 7.6,
             "temp_min": 1.2,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 1.8
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 1.6
           },
           {
             "date": "11/13(金)",
@@ -666,11 +658,11 @@
         "is_capital": false,
         "lat": 49.2827,
         "lon": -123.1207,
-        "temp": 13.9,
-        "apparent_temp": 12.3,
-        "humidity": 80,
-        "wind_speed": 12.2,
-        "wind_gusts": 22.0,
+        "temp": 13.7,
+        "apparent_temp": 12.4,
+        "humidity": 86,
+        "wind_speed": 11.4,
+        "wind_gusts": 14.4,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -689,7 +681,7 @@
             "temp_min": 11.9,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 2.0
+            "precipitation_mm": 2.4
           },
           {
             "date": "11/13(金)",
@@ -712,14 +704,14 @@
       "is_capital": true,
       "lat": 45.4215,
       "lon": -75.6972,
-      "temp": 6.3,
-      "apparent_temp": 3.0,
+      "temp": 6.7,
+      "apparent_temp": 3.4,
       "humidity": 68,
-      "wind_speed": 8.7,
-      "wind_gusts": 20.2,
+      "wind_speed": 9.0,
+      "wind_gusts": 18.7,
       "precipitation": 0.0,
-      "weather_code": 0,
-      "weather_label": "☀️ 快晴",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/11(水)",
@@ -751,7 +743,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 02:27 JST"
+    "timestamp": "11/12 03:15 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -780,7 +772,7 @@
         "details": "VIA鉄道主要列車平常運行中"
       }
     ],
-    "timestamp": "11/12 02:27 JST"
+    "timestamp": "11/12 03:15 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 02:26:06",
-  "timestamp_local": "2026-11-12 00:26:06",
+  "timestamp": "2026-11-12 03:13:57",
+  "timestamp_local": "2026-11-12 01:13:57",
   "country": {
     "id": "thailand",
     "name": "タイ",
@@ -295,17 +295,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
-    "summary": "M5.1 (South Sandwich Islands region)",
+    "count_24h": 13,
+    "summary": "M5.1 (82 km W of Panguna, Papua New Guinea)",
     "latest": {
       "mag": 5.1,
-      "place": "South Sandwich Islands region",
-      "time": "11/12 00:39 JST",
-      "depth_km": 104.66,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txjg",
+      "place": "82 km W of Panguna, Papua New Guinea",
+      "time": "11/12 02:38 JST",
+      "depth_km": 71.547,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.1,
+        "place": "82 km W of Panguna, Papua New Guinea",
+        "time": "11/12 02:38 JST",
+        "depth_km": 71.547,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "South Sandwich Islands region",
@@ -400,22 +408,6 @@
         "time": "11/11 04:54 JST",
         "depth_km": 11.705,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txea",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.2,
-        "place": "21 km WNW of Popondetta, Papua New Guinea",
-        "time": "11/11 02:36 JST",
-        "depth_km": 124.245,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.2,
-        "place": "Mid-Indian Ridge",
-        "time": "11/11 02:36 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc3",
         "tsunami": 0
       }
     ]
@@ -580,7 +572,7 @@
         },
         {
           "time": "10/27 01:03",
-          "text": "@yabadabadoo00 義弟はナコンパトム在住（ 冠水 エリア）。 バンコク 洪水 危機のとき..."
+          "text": "@yabadabadoo00 義弟はナコンパトム在住（ 冠水 エリア）。 バンコク洪水 危機のとき、「この辺は STAR..."
         },
         {
           "time": "10/26 22:53",
@@ -691,30 +683,30 @@
     "default_channel_id": "stream_thairath_live"
   },
   "forex": {
-    "timestamp": "11/12 02:26 JST",
+    "timestamp": "11/12 03:13 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.86,
-      "change": 1.88,
-      "change_pct": 1.19,
+      "rate": 159.85,
+      "change": 1.86,
+      "change_pct": 1.18,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "THB",
       "name": "タイバーツ",
       "symbol": "฿",
-      "rate": 4.732,
-      "change": 0.002,
-      "change_pct": 0.03,
+      "rate": 4.731,
+      "change": 0.001,
+      "change_pct": 0.01,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.31,
+      "rate": 177.32,
       "change": 0.02,
       "change_pct": 0.01
     }
@@ -729,20 +721,11 @@
       "departures_url": "https://suvarnabhumi.airportthai.co.th/en",
       "radar_url": "https://www.flightradar24.com/airport/bkk",
       "flightaware_url": "https://www.flightaware.com/live/airport/VTBS",
-      "weather": {
-        "raw": "METAR VTBS 111700Z 01008KT 9999 FEW020 25/20 Q1015 NOSIG",
-        "wind": "8kt",
-        "wind_speed": 8,
-        "wind_gust": 0,
-        "visibility": "6+マイル",
-        "temp": 25,
-        "fltcat": "VFR",
-        "report_time": "2026-11-11T17:00:00.000Z"
-      },
+      "weather": {},
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "視程良好（6+マイル）、風速安定（8kt）。順調に運航中"
+      "status_desc": "定常運航中（現在重大な気象警報なし）"
     },
     {
       "iata": "DMK",
@@ -753,35 +736,71 @@
       "departures_url": "https://donmueang.airportthai.co.th/en",
       "radar_url": "https://www.flightradar24.com/airport/dmk",
       "flightaware_url": "https://www.flightaware.com/live/airport/VTBD",
-      "weather": {
-        "raw": "METAR VTBD 111700Z 34008KT 9999 FEW020 26/20 Q1015 NOSIG",
-        "wind": "8kt",
-        "wind_speed": 8,
-        "wind_gust": 0,
-        "visibility": "6+マイル",
-        "temp": 26,
-        "fltcat": "VFR",
-        "report_time": "2026-11-11T17:00:00.000Z"
-      },
+      "weather": {},
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "視程良好（6+マイル）、風速安定（8kt）。順調に運航中"
+      "status_desc": "定常運航中（現在重大な気象警報なし）"
     }
   ],
   "weather": {
     "cities": [
+      {
+        "name": "バンコク (首都)",
+        "name_en": "Bangkok",
+        "is_capital": true,
+        "lat": 13.7563,
+        "lon": 100.5018,
+        "temp": 25.9,
+        "apparent_temp": 28.2,
+        "humidity": 68,
+        "wind_speed": 8.4,
+        "wind_gusts": 18.4,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/12(木)",
+            "temp_max": 32.9,
+            "temp_min": 24.1,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.6
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 33.6,
+            "temp_min": 24.7,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.2
+          },
+          {
+            "date": "11/14(土)",
+            "temp_max": 32.6,
+            "temp_min": 26.0,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.8
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
       {
         "name": "チェンマイ (北部拠点)",
         "name_en": "Chiang Mai",
         "is_capital": false,
         "lat": 18.7883,
         "lon": 98.9853,
-        "temp": 18.7,
-        "apparent_temp": 21.0,
+        "temp": 18.6,
+        "apparent_temp": 20.9,
         "humidity": 96,
-        "wind_speed": 4.0,
-        "wind_gusts": 9.0,
+        "wind_speed": 3.6,
+        "wind_gusts": 7.9,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -822,11 +841,11 @@
         "is_capital": false,
         "lat": 7.8804,
         "lon": 98.3923,
-        "temp": 26.5,
-        "apparent_temp": 30.5,
-        "humidity": 86,
-        "wind_speed": 13.3,
-        "wind_gusts": 25.6,
+        "temp": 26.4,
+        "apparent_temp": 30.3,
+        "humidity": 85,
+        "wind_speed": 13.8,
+        "wind_gusts": 27.0,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -863,43 +882,43 @@
       }
     ],
     "capital": {
-      "name": "チェンマイ (北部拠点)",
-      "name_en": "Chiang Mai",
-      "is_capital": false,
-      "lat": 18.7883,
-      "lon": 98.9853,
-      "temp": 18.7,
-      "apparent_temp": 21.0,
-      "humidity": 96,
-      "wind_speed": 4.0,
-      "wind_gusts": 9.0,
+      "name": "バンコク (首都)",
+      "name_en": "Bangkok",
+      "is_capital": true,
+      "lat": 13.7563,
+      "lon": 100.5018,
+      "temp": 25.9,
+      "apparent_temp": 28.2,
+      "humidity": 68,
+      "wind_speed": 8.4,
+      "wind_gusts": 18.4,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/12(木)",
-          "temp_max": 25.4,
-          "temp_min": 18.1,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.2
+          "temp_max": 32.9,
+          "temp_min": 24.1,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 1.6
         },
         {
           "date": "11/13(金)",
-          "temp_max": 28.0,
-          "temp_min": 19.6,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 33.6,
+          "temp_min": 24.7,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 1.2
         },
         {
           "date": "11/14(土)",
-          "temp_max": 28.7,
-          "temp_min": 19.8,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.1
+          "temp_max": 32.6,
+          "temp_min": 26.0,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 1.8
         }
       ],
       "alert": "平常",
@@ -907,7 +926,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 02:26 JST"
+    "timestamp": "11/12 03:13 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -936,7 +955,7 @@
         "details": "BTSスクムウィット線・MRTブルーライン平常運行中"
       }
     ],
-    "timestamp": "11/12 02:26 JST"
+    "timestamp": "11/12 03:13 JST"
   },
   "lifeline": {
     "status": "NORMAL",

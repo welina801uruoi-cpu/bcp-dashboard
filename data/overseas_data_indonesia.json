@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 02:26:48",
-  "timestamp_local": "2026-11-12 00:26:48",
+  "timestamp": "2026-11-12 03:14:40",
+  "timestamp_local": "2026-11-12 01:14:40",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -283,17 +283,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
-    "summary": "M5.1 (South Sandwich Islands region)",
+    "count_24h": 13,
+    "summary": "M5.1 (82 km W of Panguna, Papua New Guinea)",
     "latest": {
       "mag": 5.1,
-      "place": "South Sandwich Islands region",
-      "time": "11/12 00:39 JST",
-      "depth_km": 104.66,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txjg",
+      "place": "82 km W of Panguna, Papua New Guinea",
+      "time": "11/12 02:38 JST",
+      "depth_km": 71.547,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.1,
+        "place": "82 km W of Panguna, Papua New Guinea",
+        "time": "11/12 02:38 JST",
+        "depth_km": 71.547,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "South Sandwich Islands region",
@@ -388,22 +396,6 @@
         "time": "11/11 04:54 JST",
         "depth_km": 11.705,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txea",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.2,
-        "place": "21 km WNW of Popondetta, Papua New Guinea",
-        "time": "11/11 02:36 JST",
-        "depth_km": 124.245,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.2,
-        "place": "Mid-Indian Ridge",
-        "time": "11/11 02:36 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc3",
         "tsunami": 0
       }
     ]
@@ -667,14 +659,14 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/12 02:26 JST",
+    "timestamp": "11/12 03:14 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.86,
-      "change": 1.88,
-      "change_pct": 1.19,
+      "rate": 159.85,
+      "change": 1.86,
+      "change_pct": 1.18,
       "direction": "up"
     },
     "local_jpy": {
@@ -683,14 +675,14 @@
       "symbol": "Rp",
       "rate": 0.0089,
       "change": 0.0001,
-      "change_pct": 1.21,
+      "change_pct": 1.19,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.31,
+      "rate": 177.32,
       "change": 0.02,
       "change_pct": 0.01
     }
@@ -735,11 +727,11 @@
         "is_capital": true,
         "lat": -6.2088,
         "lon": 106.8456,
-        "temp": 27.0,
-        "apparent_temp": 32.3,
+        "temp": 26.9,
+        "apparent_temp": 32.4,
         "humidity": 83,
-        "wind_speed": 4.4,
-        "wind_gusts": 9.7,
+        "wind_speed": 2.1,
+        "wind_gusts": 9.0,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
@@ -780,11 +772,11 @@
         "is_capital": false,
         "lat": -8.6705,
         "lon": 115.2126,
-        "temp": 25.5,
-        "apparent_temp": 31.5,
+        "temp": 25.2,
+        "apparent_temp": 31.1,
         "humidity": 97,
-        "wind_speed": 4.0,
-        "wind_gusts": 7.9,
+        "wind_speed": 4.3,
+        "wind_gusts": 6.8,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -825,10 +817,10 @@
         "is_capital": false,
         "lat": -7.2575,
         "lon": 112.7521,
-        "temp": 27.6,
-        "apparent_temp": 33.5,
-        "humidity": 86,
-        "wind_speed": 5.7,
+        "temp": 27.5,
+        "apparent_temp": 33.9,
+        "humidity": 87,
+        "wind_speed": 3.0,
         "wind_gusts": 11.9,
         "precipitation": 0.0,
         "weather_code": 3,
@@ -871,11 +863,11 @@
       "is_capital": true,
       "lat": -6.2088,
       "lon": 106.8456,
-      "temp": 27.0,
-      "apparent_temp": 32.3,
+      "temp": 26.9,
+      "apparent_temp": 32.4,
       "humidity": 83,
-      "wind_speed": 4.4,
-      "wind_gusts": 9.7,
+      "wind_speed": 2.1,
+      "wind_gusts": 9.0,
       "precipitation": 0.1,
       "weather_code": 51,
       "weather_label": "🌦️ 霧雨 (弱)",
@@ -910,7 +902,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/12 02:26 JST"
+    "timestamp": "11/12 03:14 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -939,7 +931,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/12 02:26 JST"
+    "timestamp": "11/12 03:14 JST"
   },
   "lifeline": {
     "status": "NORMAL",

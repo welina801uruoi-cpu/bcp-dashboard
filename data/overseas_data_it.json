@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 02:27:09",
-  "timestamp_local": "2026-11-11 19:27:09",
+  "timestamp": "2026-11-12 03:15:13",
+  "timestamp_local": "2026-11-11 20:15:13",
   "country": {
     "id": "italy",
     "name": "イタリア",
@@ -346,17 +346,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
-    "summary": "M5.1 (South Sandwich Islands region)",
+    "count_24h": 13,
+    "summary": "M5.1 (82 km W of Panguna, Papua New Guinea)",
     "latest": {
       "mag": 5.1,
-      "place": "South Sandwich Islands region",
-      "time": "11/12 00:39 JST",
-      "depth_km": 104.66,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txjg",
+      "place": "82 km W of Panguna, Papua New Guinea",
+      "time": "11/12 02:38 JST",
+      "depth_km": 71.547,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.1,
+        "place": "82 km W of Panguna, Papua New Guinea",
+        "time": "11/12 02:38 JST",
+        "depth_km": 71.547,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "South Sandwich Islands region",
@@ -451,22 +459,6 @@
         "time": "11/11 04:54 JST",
         "depth_km": 11.705,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txea",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.2,
-        "place": "21 km WNW of Popondetta, Papua New Guinea",
-        "time": "11/11 02:36 JST",
-        "depth_km": 124.245,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.2,
-        "place": "Mid-Indian Ridge",
-        "time": "11/11 02:36 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc3",
         "tsunami": 0
       }
     ]
@@ -755,21 +747,21 @@
     "default_channel_id": "stream_euronews"
   },
   "forex": {
-    "timestamp": "11/12 02:27 JST",
+    "timestamp": "11/12 03:15 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.86,
-      "change": 1.88,
-      "change_pct": 1.19,
+      "rate": 159.85,
+      "change": 1.86,
+      "change_pct": 1.18,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.31,
+      "rate": 177.32,
       "change": 0.02,
       "change_pct": 0.01,
       "direction": "up"
@@ -778,7 +770,7 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.31,
+      "rate": 177.32,
       "change": 0.02,
       "change_pct": 0.01
     }
@@ -838,14 +830,14 @@
         "is_capital": true,
         "lat": 41.9028,
         "lon": 12.4964,
-        "temp": 18.3,
-        "apparent_temp": 19.1,
-        "humidity": 89,
-        "wind_speed": 9.7,
-        "wind_gusts": 22.0,
+        "temp": 17.8,
+        "apparent_temp": 18.8,
+        "humidity": 88,
+        "wind_speed": 7.0,
+        "wind_gusts": 16.2,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/11(水)",
@@ -857,11 +849,11 @@
           },
           {
             "date": "11/12(木)",
-            "temp_max": 21.3,
-            "temp_min": 17.4,
+            "temp_max": 21.2,
+            "temp_min": 16.8,
             "weather_code": 95,
             "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 5.6
+            "precipitation_mm": 8.4
           },
           {
             "date": "11/13(金)",
@@ -883,11 +875,11 @@
         "is_capital": false,
         "lat": 45.4642,
         "lon": 9.19,
-        "temp": 10.9,
-        "apparent_temp": 10.2,
+        "temp": 10.7,
+        "apparent_temp": 9.8,
         "humidity": 91,
-        "wind_speed": 3.6,
-        "wind_gusts": 11.2,
+        "wind_speed": 4.7,
+        "wind_gusts": 10.1,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -902,11 +894,11 @@
           },
           {
             "date": "11/12(木)",
-            "temp_max": 11.4,
+            "temp_max": 11.3,
             "temp_min": 9.8,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 31.4
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 32.7
           },
           {
             "date": "11/13(金)",
@@ -921,51 +913,6 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "ヴェネツィア (ヴェネト州)",
-        "name_en": "Venice",
-        "is_capital": false,
-        "lat": 45.4408,
-        "lon": 12.3155,
-        "temp": 11.4,
-        "apparent_temp": 11.1,
-        "humidity": 97,
-        "wind_speed": 4.1,
-        "wind_gusts": 10.4,
-        "precipitation": 0.3,
-        "weather_code": 61,
-        "weather_label": "🌧️ 雨 (小雨)",
-        "forecast": [
-          {
-            "date": "11/11(水)",
-            "temp_max": 11.8,
-            "temp_min": 10.5,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 3.6
-          },
-          {
-            "date": "11/12(木)",
-            "temp_max": 13.9,
-            "temp_min": 11.3,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 43.2
-          },
-          {
-            "date": "11/13(金)",
-            "temp_max": 13.7,
-            "temp_min": 7.3,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 7.9
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -974,14 +921,14 @@
       "is_capital": true,
       "lat": 41.9028,
       "lon": 12.4964,
-      "temp": 18.3,
-      "apparent_temp": 19.1,
-      "humidity": 89,
-      "wind_speed": 9.7,
-      "wind_gusts": 22.0,
+      "temp": 17.8,
+      "apparent_temp": 18.8,
+      "humidity": 88,
+      "wind_speed": 7.0,
+      "wind_gusts": 16.2,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/11(水)",
@@ -993,11 +940,11 @@
         },
         {
           "date": "11/12(木)",
-          "temp_max": 21.3,
-          "temp_min": 17.4,
+          "temp_max": 21.2,
+          "temp_min": 16.8,
           "weather_code": 95,
           "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 5.6
+          "precipitation_mm": 8.4
         },
         {
           "date": "11/13(金)",
@@ -1013,7 +960,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 02:27 JST"
+    "timestamp": "11/12 03:15 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1095,7 +1042,7 @@
         "details": "地下鉄M1〜M5号線およびマルペンサ空港連絡は平常運行中"
       }
     ],
-    "timestamp": "11/12 02:27 JST"
+    "timestamp": "11/12 03:15 JST"
   },
   "lifeline": {
     "status": "NORMAL",

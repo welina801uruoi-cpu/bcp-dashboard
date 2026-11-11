@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11 23:14:07",
+  "timestamp": "2026-11-11 23:55:14",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -311,7 +311,7 @@
     "status": "ALERT",
     "text": "運行支障あり（在来線: 湘南新宿ライン、東海道本線、宇都宮線 ／ 新幹線: 東北新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（湘南新宿ライン、東海道本線、宇都宮線、高崎線）",
+    "line_text": "運行支障あり（湘南新宿ライン、東海道本線、宇都宮線、高崎線、小田急小田原線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（東北新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
@@ -319,7 +319,10 @@
       "湘南新宿ライン",
       "東海道本線",
       "宇都宮線",
-      "高崎線"
+      "高崎線",
+      "小田急小田原線",
+      "小田急江ノ島線",
+      "東京メトロ千代田線"
     ],
     "troubled_shinkansen": [
       "東北新幹線（列車遅延）"
@@ -336,7 +339,7 @@
         "name": "東北新幹線",
         "status": "ALERT",
         "state": "列車遅延",
-        "detail": "作業遅延の影響で、上り線(東京方面行)の一部列車に遅れが出ています。（11月12日 7時30分掲載）",
+        "detail": "作業遅延の影響で、一部列車に遅れが出ています。（11月12日 8時30分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/1/0"
       },
       {
@@ -430,8 +433,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/11 23:18",
+          "text": "@sngsn2939 通信 START 障害 END 厄介だねっ🥲 ぼくの会社は START au END だから START 障害 END 気づかなかった💦"
+        },
         {
           "time": "11/11 23:07",
           "text": "ドコモ系やソフバン系の人はデュアルSIMでpovo2.0いれるといいです。 povo2.0は START au END の電波、ドコモやソフトバンクとはまた別の..."
@@ -439,10 +446,6 @@
         {
           "time": "11/11 22:07",
           "text": "10分くらい前にずっと圏外状態に START au障害 END 起きてたんかな"
-        },
-        {
-          "time": "11/11 21:38",
-          "text": "最近docomoが通信 START 障害 END って騒いでるけど 年中繋がりにくいから 全く気づかなかった いつも通りつながらないdocomo やっぱり ST..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -476,8 +479,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/11 23:27",
+          "text": "ﾓﾊﾞｲﾙﾙｰﾀｰ再起動したりSiM挿し直しやら諸々やってもWiFi START 繋がらない END …。困ったな…。 ｼｮｯﾌﾟ持ち込んだら何かしてくれるかな..."
+        },
         {
           "time": "11/11 22:03",
           "text": "最近、ドコモ回線が非常に START 繋がらない END 、繋がっても遅いので、ソフトバンク回線の使い切りeSIMを試しに購入して設定したんですよ。そしたらね…..."
@@ -485,10 +492,6 @@
         {
           "time": "11/11 16:46",
           "text": "ドコモの緊急メンテナンスがぜんぜん終わらないけど、楽天とデュアルSimにしてるので、自分には影響ない。 START au END 通信障害経験してるけど、通信障..."
-        },
-        {
-          "time": "11/11 14:27",
-          "text": "START au END はね.... たまに START au END だけ START 繋がらない END エリアがあるのよ 電波目的ならSoftBank ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -535,8 +538,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 6,
+    "disaster_count": 7,
     "articles": [
+      {
+        "title": "広島で住宅火災、3人と連絡取れず(共同通信)",
+        "summary": "広島県警や消防によると、11日午後11時55分ごろ、同県福山市の住宅が燃えていると119番があった。住宅には家族5人がいたとみられ、母と息子、娘の3人と連絡が取れていない。父ともう一人の息子は病院に搬",
+        "pub_date": "11/12 08:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/e11472f89e0dc34e834a90c76c2bb25f1e0c95f8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "火災予防を！関口メンディーさん一日署長(ABEMA TIMES)",
         "summary": "秋の火災予防運動に合わせて、関口メンディーさんが1日消防署長に就任し、歌舞伎町の商業ビルでの建物火災を想定した救出訓練などを実施しました。【映像】訓練に参加する関口メンディーさん 11月9日から15日",
@@ -586,6 +597,38 @@
         "is_disaster": true
       },
       {
+        "title": "京都で鳥インフル陽性、養鶏場は今季初(共同通信)",
+        "summary": "京都府は12日、亀岡市の採卵養鶏場で発生した高病原性鳥インフルエンザの疑い事例について、遺伝子検査の結果、陽性だったと発表した。飼育されている鶏の殺処分を始める。府によると、国内の養鶏場での感染確定は",
+        "pub_date": "11/12 08:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/f601521a24ecd6752ee0e418006ccf4f80217761?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "政治の世界に｢口利き｣はある…｢予算カット｣簗農水相の残念さ(プレジデントオンライン)",
+        "summary": "■法を作らず口を利く日本の国会議員の実態 簗和生(やなかずお)農林水産大臣(当時)の「道路予算カット」発言が話題になりました。簗氏は農相に就任する前の今年5月、地元・栃木県での自民党の会合で、同県の那",
+        "pub_date": "11/12 08:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/53dc3c4ab3e4212728b58dadd643d0bc2f6b3ce8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "外出しようと思ったら…隣の家のドアも「ガチャ」→玄関前で息を潜める“あるある行動“に「今朝の私ですw」「1分この姿勢のままいることも」共感多数(ABEMA TIMES)",
+        "summary": "外出する際の“あるある”を描いたイラストに、SNSでは「今朝の私ですw」「1分ぐらいこの姿勢のままいることも多々ある（笑）」など笑いと共感の声が上がっている。【映像】「外出のタイミング」が隣人と一緒（",
+        "pub_date": "11/12 08:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/7dd80388a70a4d14971251cf2de7df0ac3c2a23c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "｢死にましたか｣→｢いますか､いますか｣…中国の孤独な若者に大流行したアプリが\"独居老人\"に広まった背景(プレジデントオンライン)",
+        "summary": "2025年後半から、中国の若者たちの間で大流行したアプリがある。明治大学講師の近藤大介さんは「日本語で『死にましたか』という意味のアプリが若者のハートをつかんだ。48時間タッチが途絶えれば、事前に登録",
+        "pub_date": "11/12 08:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/99a2f841f60601e18b00e0018eb0dc4fd5660f36?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "両陛下がベトナム国家主席夫妻と面会(ABEMA TIMES)",
         "summary": "天皇皇后両陛下がベトナム国家主席夫妻と面会し、宮殿の日本庭園や、ベトナムを訪問された際の話などで交流されました。【映像】ベトナム国家主席夫妻と両陛下、交流の様子 両陛下は11日、ベトナムのトー・ラム国",
         "pub_date": "11/12 08:06 JST",
@@ -616,49 +659,9 @@
         "link": "https://news.yahoo.co.jp/articles/ce320b1df8114f8d5e313d6316612dbc8349ca49?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "富山市の住宅で火事　焼け跡から1人の身元不明の遺体　90歳の女性と連絡取れず(テレビ朝日系（ANN）)",
-        "summary": "富山市の住宅で火事があり、焼け跡から1人の身元不明の遺体が見つかりました。この家に住む90歳の女性と連絡が取れていないということです。 11日午後11時15分ごろ、富山市常盤台にある2階建ての住宅で「",
-        "pub_date": "11/12 07:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/bb518c9893a642dd9f362db9a79a793c920ec15d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【動画】12日の天気 - 昼間は日差し暖かく　小春日和　週末は天気下り坂へ（12日7時更新）(ウェザーマップ)",
-        "summary": "きょう(木)は、東日本と西日本を中心に晴れそうです。朝はヒンヤリとしても、日中は日差しが暖かく小春日和になるでしょう。カラッと晴れるところも多く、お洗濯も捗りそうです。週末は一転して天気が下り坂へと向",
-        "pub_date": "11/12 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/3625b1eec68c48b2454255eb0ee1837ac25601e7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【日本人記者拘束問題】鈴木宗男が明かす「非常に穏やか」な記者の素顔　即時解放を求めた政府には「頭ごなしに主張するリスク」を警告(AERA DIGITAL)",
-        "summary": "北海道新聞の記者がロシア連邦保安局（FSB）にスパイ容疑で拘束された件について、茂木敏充外相は10月30日にロシアのラブロフ外相と会談し、記者の即時解放を求めた。親ロ派で知られる自民党の鈴木宗男参議院",
-        "pub_date": "11/12 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/4801f37a35905cfe16a001bd27961588df62e780?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "夜型の人に「朝活」を強いるのはハラスメント？　センター試験に寝坊した医師が語る「早起きは三文の損」(AERA DIGITAL)",
-        "summary": "朝はつらい。それでも仕事や学校は朝から始まる。健康的とされる「朝活」も、夜型の人には不調を招きかねない。朝型と夜型を分けるものは何か。「早起きが当たり前」の社会は変えられるのか。AERA 2026年1",
-        "pub_date": "11/12 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/2d1ba088d1437cf3d4c9e3aff83a43558be6a75e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「合法の仮面をかぶった公金の収奪」企業版ふるさと納税から障害者福祉まで…制度をハックする事業者たち(集英社オンライン)",
-        "summary": "過疎地の再生を掲げた事業と、障害のある人たちを支える福祉。目的も現場も異なるはずの二つの分野で、いま税金を食いものにした“金儲け”が行われている。『過疎ビジネス』（集英社親書）の著者・横山勲氏と、『障",
-        "pub_date": "11/12 07:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/7db15ec3f83fbf4866b70c8b4460412bb4fdc9c3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-12 08:13:52 JST"
+    "last_updated": "2026-11-12 08:55:02 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -701,10 +704,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "wPN2JpT5yqE",
+        "video_id": "CPl2SyCL60Q",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/wPN2JpT5yqE?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=wPN2JpT5yqE"
+        "embed_url": "https://www.youtube.com/embed/CPl2SyCL60Q?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=CPl2SyCL60Q"
       },
       {
         "id": "stream_annnews",

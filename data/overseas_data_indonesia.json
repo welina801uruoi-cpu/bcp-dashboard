@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 04:53:21",
-  "timestamp_local": "2026-11-12 02:53:21",
+  "timestamp": "2026-11-12 06:19:45",
+  "timestamp_local": "2026-11-12 04:19:45",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -284,16 +284,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 14,
-    "summary": "M5 (48 km NW of Ancud, Chile)",
+    "summary": "M4.5 (south of the Fiji Islands)",
     "latest": {
-      "mag": 5,
-      "place": "48 km NW of Ancud, Chile",
-      "time": "11/12 04:21 JST",
-      "depth_km": 34.893,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq",
+      "mag": 4.5,
+      "place": "south of the Fiji Islands",
+      "time": "11/12 04:50 JST",
+      "depth_km": 527.582,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmx",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "time": "11/12 04:50 JST",
+        "depth_km": 527.582,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmx",
+        "tsunami": 0
+      },
       {
         "mag": 5,
         "place": "48 km NW of Ancud, Chile",
@@ -397,19 +405,88 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txfz",
         "tsunami": 1
-      },
-      {
-        "mag": 4.9,
-        "place": "207 km NW of Port-Olry, Vanuatu",
-        "time": "11/11 04:54 JST",
-        "depth_km": 11.705,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txea",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "米特使ら、ロシア大統領と会談へ　捕虜釈放へ最終調整(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/77720ec786850a9ac9f53753f44eb362c4b66bba?source=rss",
+        "description": "【モスクワ、キーウ共同】ウクライナ和平交渉を仲介する米国のウィットコフ和平交渉担当特使とトランプ米大統領の娘婿クシュナー氏は12日、モスクワで、ロシアのプーチン大統領と会談する。ロシアとウクライナ間で",
+        "pub_date": "11/12 06:14 JST",
+        "is_priority": false
+      },
+      {
+        "title": "メーガン妃の実父「児童性的虐待」画像所持容疑で訴追　米国・フィリピン・メキシコでの“ゾッとするような”押収物と日本で摘発されたいわくつき雑誌(デイリー新潮)",
+        "link": "https://news.yahoo.co.jp/articles/5e7c000f55eaddab42477aaf9fc16932fc5b8557?source=rss",
+        "description": "メーガン妃の実父が児童性的虐待画像を所持か――。これまで数々のゴシップでメディアを騒がせた人物だが、今回ばかりは“騒動”で済まない展開のようだ。【写真】若い女性を組み敷くようにしてカメラ目線…英王室も",
+        "pub_date": "11/12 06:07 JST",
+        "is_priority": false
+      },
+      {
+        "title": "中国人スパイのシンガポール本社の“驚きの実態”とは…「エヌビディア」CEOにハニトラを仕掛けた「女性工作員」の怪しすぎる素性(デイリー新潮)",
+        "link": "https://news.yahoo.co.jp/articles/b7be2cf9b0a9b20a02db338c99ee83c57949d413?source=rss",
+        "description": "アメリカに本社を置く半導体大手のエヌビディア（NVIDIA）は、時価総額がアップルに次ぐ世界2位。AI覇権争いのど真ん中にいるハイテク企業だ。その創業者かつ最高責任者（CEO）で台湾系アメリカ人のジェ",
+        "pub_date": "11/12 06:06 JST",
+        "is_priority": false
+      },
+      {
+        "title": "韓国大学入試、AI眼鏡の不正相次ぎ発覚　試験会場への持ち込み禁止に(北海道新聞)",
+        "link": "https://news.yahoo.co.jp/articles/ef2143d480c652dd54d65e26876904b6c6e96368?source=rss",
+        "description": "韓国の大学入試で、人工知能（AI）を搭載したスマートグラスによる不正行為が相次ぎ発覚し、社会問題になっている。日本の大学入学共通テストに当たる大学修学能力試験（修能（スヌン））を19日に控え、韓国教育",
+        "pub_date": "11/12 06:02 JST",
+        "is_priority": false
+      },
+      {
+        "title": "大敗後「トランプ氏」は野党を怒らせる対決路線へ…マスク氏らの調査、AI規制で波乱必至も国民の生活苦は継続か　軍に“就職”の若者も増加中(デイリー新潮)",
+        "link": "https://news.yahoo.co.jp/articles/b83757b22ccef8de42b1d579b7c441fe636ba716?source=rss",
+        "description": "中間選挙で大敗したトランプ米大統領は強硬路線を強める可能性が高い、との観測が出ている。選挙後に実施した人事がその証左だ。【写真】トランプ氏の新しい最側近は41歳「コワモテ」 前任69歳「氷の女」と8月",
+        "pub_date": "11/12 06:01 JST",
+        "is_priority": false
+      },
+      {
+        "title": "米ロ首脳会談、来週で調整中　中国でのAPECに合わせ(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/0cc863773449973e70c42eb68a2c99f58ff1e766?source=rss",
+        "description": "【モスクワ共同】ロシアのウシャコフ大統領補佐官は11日、今月18～19日の中国・深センでのアジア太平洋経済協力会議（APEC）首脳会議に合わせて、米ロ首脳会談の開催を関係ルートを通じて調整していると述",
+        "pub_date": "11/12 06:00 JST",
+        "is_priority": false
+      },
+      {
+        "title": "生ごみの分別回収に悩んでいた。正解は「蛇口下に挟むだけのコレ」だった(BUSINESS INSIDER JAPAN)",
+        "link": "https://news.yahoo.co.jp/articles/e184bdbe6c66d96fe189b39992482f28ac98d313?source=rss",
+        "description": "筆者の暮らす街では、最近になって生ごみの分別回収がスタートした。集めた生ごみは、微生物による発酵・分解により堆肥化される。これまで一緒にまとめていた「燃やすごみ」「生ごみ」をそれぞれ指定ごみ袋に入れて",
+        "pub_date": "11/12 06:00 JST",
+        "is_priority": false
+      },
+      {
+        "title": "台湾政府機関に米職員派遣へ　関係強化、制度を新設(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/6501dfa76588c6e14ba125976955a601b0c07de0?source=rss",
+        "description": "【ワシントン共同】米国の対台湾窓口機関、米在台協会（AIT）は11日、米政府職員を台湾の政府機関や民間団体に最大1年間派遣する制度を新設すると発表した。人的交流拡大を通じ、両政府の関係強化を図る。米政",
+        "pub_date": "11/12 05:50 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ドイツの日英伊戦闘機開発計画への「割り込み乗車」は成功するか？懸念される用兵思想の違い、独仏間の共同開発計画が失敗した理由(Wedge（ウェッジ）)",
+        "link": "https://news.yahoo.co.jp/articles/cffc26b82dd7966d1ae7b8a41b952291ed6fb9ba?source=rss",
+        "description": "ドイツが日本、英国、イタリアが進めている戦闘機開発計画への参加に意欲を見せている。その理由は、フランスとの共同開発計画が頓挫したからだ。欧州では用兵思想の違いなどから、兵器の共同開発はスムーズに進まな",
+        "pub_date": "11/12 05:00 JST",
+        "is_priority": true
+      },
+      {
+        "title": "再開された米・ウクライナ・ロシア三者協議、米中間選挙の影響は？うごめく互いの狙いと思惑(Wedge（ウェッジ）)",
+        "link": "https://news.yahoo.co.jp/articles/f4d9aa90fc0dd8762ddfb651e1e5407b6feb9eed?source=rss",
+        "description": "米中間選挙は、最も楽観的な事前予想をも上回って民主党の大勝利となった。息を凝らしてこの選挙を見つめていた二つの国―ウクライナとロシアはどう見たのか。【画像】再開された米・ウクライナ・ロシア三者協議、米",
+        "pub_date": "11/12 05:00 JST",
+        "is_priority": false
+      },
+      {
+        "title": "許してはならないプーチンの「人質地政学」、偽りの罪で拘束し交渉の駒に…日本が持つべきスタンス(Wedge（ウェッジ）)",
+        "link": "https://news.yahoo.co.jp/articles/3d02fb785b48928cce7a8e05d16f29ded72c0332?source=rss",
+        "description": "10月21日付ウォールストリート・ジャーナル紙（WSJ）は「プーチンの人質地政学」と題する社説を掲げ、最近のロシアによる米国人解放について、プーチンは見返りを要求しなかったが、それは既にトランプ大統領",
+        "pub_date": "11/12 05:00 JST",
+        "is_priority": false
+      },
       {
         "title": "史上初“米中ロ会談”実現は？中間選挙大敗で“外交成果”急ぐトランプ氏(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/69f294c1e6515635bfe8b66bfeb3947e8805360d?source=rss",
@@ -471,83 +548,6 @@
         "link": "https://news.yahoo.co.jp/articles/48e0592e647235ca0657526b2f3be6c0823ae084?source=rss",
         "description": "【キーウ、モスクワ共同】アラブ首長国連邦（UAE）の首都アブダビで10日に始まったロシアとウクライナ、米国の3カ国高官協議は11日、2日間の日程を経て終了した。トランプ米大統領の娘婿クシュナー氏は11",
         "pub_date": "11/11 22:22 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米仲介のウクライナ和平協議　捕虜交換で合意　米特使がロ・ウ両首脳に内容説明へ(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/7cc690e29dc6518b6ac5604d1f89cb2bcda1250b?source=rss",
-        "description": "ロシアとウクライナに仲介役のアメリカを交えての和平に向けた3者協議が終了し、協議の内容についてアメリカの特使が双方の首脳と直接話し合うことが明らかになりました。 協議終了後、ロシア側代表のメジンスキー",
-        "pub_date": "11/11 22:18 JST",
-        "is_priority": false
-      },
-      {
-        "title": "露ウクライナ、大規模な捕虜交換で合意　領土などでの進展は不明　2日間の和平協議終了(産経新聞)",
-        "link": "https://news.yahoo.co.jp/articles/f7c7c3374f5b8d73f806078bca019c207de7067d?source=rss",
-        "description": "ロシアによるウクライナ侵略の終結に向けた米露ウクライナ3カ国の高官協議は11日、アラブ首長国連邦（UAE）の首都アブダビで2日間の日程を終えた。露代表団のメジンスキー大統領補佐官は11日、協議終了後に",
-        "pub_date": "11/11 22:18 JST",
-        "is_priority": false
-      },
-      {
-        "title": "ヘルシンキでサーミ人の文化・アートを伝えるプログラム(みんなの経済新聞ネットワーク)",
-        "link": "https://news.yahoo.co.jp/articles/c12542489b792563e0546b39e31c60c3f585f822?source=rss",
-        "description": "サーミ人の文化や暮らしに焦点を当てた展覧会が現在、ヘルシンキ市立博物館（Aleksanterinkatu 16-18, Helsinki）とカルチャーセンター「カイサ」で開催されている。（ヘルシンキ経",
-        "pub_date": "11/11 22:00 JST",
-        "is_priority": false
-      },
-      {
-        "title": "韓国政府「韓米は合意事項履行の共通目標堅持」　安保協力巡る懸念払拭(聯合ニュース)",
-        "link": "https://news.yahoo.co.jp/articles/7c25818b0e7783dfbc2677ad0c794e8e792e8d14?source=rss",
-        "description": "【ソウル聯合ニュース】米中間選挙でトランプ大統領の与党・共和党が大敗し、韓米の安全保障協力が停滞する可能性があるとの見方が浮上したことを受け、韓国政府が懸念の払拭に乗り出した。 外交部当局者は11日、",
-        "pub_date": "11/11 21:54 JST",
-        "is_priority": false
-      },
-      {
-        "title": "中国の自動車輸出、5カ月連続100万台　新エネ車が好調、国内販売は低迷(産経新聞)",
-        "link": "https://news.yahoo.co.jp/articles/d873313282b6dd93d02531f163941d169794214f?source=rss",
-        "description": "【北京＝三塚聖平】中国自動車工業協会が11日発表した10月の新車販売台数（輸出含む）は前年同月比9.2％減の301万6000台だった。減少率は9月の8.4％から拡大した。国内販売で2割台の大幅な減少が",
-        "pub_date": "11/11 21:47 JST",
-        "is_priority": false
-      },
-      {
-        "title": "エプスティーン元被告の犯罪、米連邦当局が防げた可能性　議会報告書が指摘(BBC News)",
-        "link": "https://news.yahoo.co.jp/articles/e90728ee6691453ae751919e4a9123a44668f8f0?source=rss",
-        "description": "アイオニー・ウェルズ記者、ケイラ・エプスティーン記者、ナダ・トーフィク北米特派員性犯罪で有罪とされた投資家ジェフリー・エプスティーン元被告（故人）による犯罪について、アメリカ連邦議会は10日、最終的な",
-        "pub_date": "11/11 21:36 JST",
-        "is_priority": false
-      },
-      {
-        "title": "「人間を時速180キロで空中に射出」…高さ360メートルの巨大煙突で行われた前代未聞の衝撃映像(ニューズウィーク日本版)",
-        "link": "https://news.yahoo.co.jp/articles/e37d17c701cddef5a26cb90244adf455618de17e?source=rss",
-        "description": "巨大な煙突の内部から、1人の男性が猛烈な勢いで空へと飛び出していく。まるでロケットの打ち上げのような光景だ。【映像】人間が巨大煙突から「ロケットのように」飛び出した…時速180キロで空中に射出される衝",
-        "pub_date": "11/11 21:31 JST",
-        "is_priority": false
-      },
-      {
-        "title": "戦後の停戦監視や緊張緩和で「かなり進展」(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/937245cf0b48733a40cfdbf31422d1df5ad5c149?source=rss",
-        "description": "【キーウ共同】トランプ米大統領の娘婿クシュナー氏は11日、米ロ、ウクライナの高官がロシアとウクライナの戦後の安全保障を協議し、衝突回避や停戦監視の方法、緊張緩和に向けた理解で「かなりの進展を遂げた」と",
-        "pub_date": "11/11 21:29 JST",
-        "is_priority": false
-      },
-      {
-        "title": "ロ、ウクライナが最大規模の捕虜釈放で合意(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/a6ff3d3b239e21cee6c222949b88f57c1f0604a5?source=rss",
-        "description": "【キーウ共同】トランプ米大統領の娘婿クシュナー氏は11日、ロシアとウクライナが人道的な措置として、最大規模の捕虜釈放を実施することで合意したと発表した。人数は12日に最終決定するという。",
-        "pub_date": "11/11 21:24 JST",
-        "is_priority": false
-      },
-      {
-        "title": "アボカドの“断面に異変”。中から発見されたのは…→メキシコで最大52トン廃棄の事態に「もったいない」「また値上がりか」(BuzzFeed Japan)",
-        "link": "https://news.yahoo.co.jp/articles/b4993da41646a8c58e77811dd946d46ce75147da?source=rss",
-        "description": "メキシコで10月31日（現地時間）、海外に輸出される予定だった52トンのアボカドが廃棄された。原因は、害虫のアボカドゾウムシが検出されたことだ。SNSでは、食害に遭ったアボカドの断面が公開されている。",
-        "pub_date": "11/11 21:15 JST",
-        "is_priority": false
-      },
-      {
-        "title": "G7、ウクライナ和平への米国の努力を支持(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/189db7ca2ebd0e1ece942d59c4160505594dfb8b?source=rss",
-        "description": "【パリ共同】先進7カ国（G7）外相は11日に発表した共同声明で、ウクライナでの戦闘を巡り「交渉を通じて和平を実現しようとする米国の現在の取り組みを支持する」と強調した。",
-        "pub_date": "11/11 21:04 JST",
         "is_priority": false
       }
     ],
@@ -667,14 +667,14 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/12 04:53 JST",
+    "timestamp": "11/12 06:19 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.87,
-      "change": 1.89,
-      "change_pct": 1.19,
+      "rate": 159.85,
+      "change": 1.87,
+      "change_pct": 1.18,
       "direction": "up"
     },
     "local_jpy": {
@@ -690,9 +690,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 177.31,
-      "change": 0.01,
-      "change_pct": 0.01
+      "rate": 177.23,
+      "change": -0.07,
+      "change_pct": -0.04
     }
   },
   "airports": [
@@ -735,38 +735,38 @@
         "is_capital": true,
         "lat": -6.2088,
         "lon": 106.8456,
-        "temp": 26.4,
-        "apparent_temp": 31.7,
-        "humidity": 85,
-        "wind_speed": 3.8,
-        "wind_gusts": 7.2,
+        "temp": 25.5,
+        "apparent_temp": 30.3,
+        "humidity": 86,
+        "wind_speed": 4.1,
+        "wind_gusts": 8.6,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/12(木)",
-            "temp_max": 33.7,
-            "temp_min": 25.6,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 10.8
+            "temp_max": 33.8,
+            "temp_min": 25.4,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 3.6
           },
           {
             "date": "11/13(金)",
-            "temp_max": 32.8,
-            "temp_min": 25.3,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 5.6
+            "temp_max": 33.4,
+            "temp_min": 25.0,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.7
           },
           {
             "date": "11/14(土)",
-            "temp_max": 31.6,
+            "temp_max": 32.4,
             "temp_min": 25.9,
             "weather_code": 95,
             "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 6.2
+            "precipitation_mm": 4.9
           }
         ],
         "alert": "平常",
@@ -780,38 +780,38 @@
         "is_capital": false,
         "lat": -8.6705,
         "lon": 115.2126,
-        "temp": 24.7,
-        "apparent_temp": 30.2,
+        "temp": 25.4,
+        "apparent_temp": 31.4,
         "humidity": 96,
-        "wind_speed": 4.3,
-        "wind_gusts": 6.5,
+        "wind_speed": 3.4,
+        "wind_gusts": 6.8,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/12(木)",
-            "temp_max": 31.2,
-            "temp_min": 24.0,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 3.7
+            "temp_max": 31.0,
+            "temp_min": 25.4,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 10.4
           },
           {
             "date": "11/13(金)",
-            "temp_max": 31.3,
-            "temp_min": 24.8,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.6
+            "temp_max": 30.4,
+            "temp_min": 25.1,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.4
           },
           {
             "date": "11/14(土)",
-            "temp_max": 32.1,
+            "temp_max": 30.9,
             "temp_min": 25.0,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 1.9
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 4.2
           }
         ],
         "alert": "平常",
@@ -825,44 +825,44 @@
         "is_capital": false,
         "lat": -7.2575,
         "lon": 112.7521,
-        "temp": 25.9,
-        "apparent_temp": 32.0,
-        "humidity": 95,
-        "wind_speed": 4.5,
-        "wind_gusts": 12.2,
-        "precipitation": 0.2,
-        "weather_code": 53,
-        "weather_label": "🌦️ 霧雨 (中)",
+        "temp": 26.1,
+        "apparent_temp": 32.3,
+        "humidity": 96,
+        "wind_speed": 5.4,
+        "wind_gusts": 12.6,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/12(木)",
-            "temp_max": 32.3,
-            "temp_min": 25.2,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
+            "temp_max": 33.4,
+            "temp_min": 26.0,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
             "precipitation_mm": 3.1
           },
           {
             "date": "11/13(金)",
-            "temp_max": 34.2,
-            "temp_min": 26.8,
+            "temp_max": 33.6,
+            "temp_min": 25.9,
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 0.9
+            "precipitation_mm": 5.3
           },
           {
             "date": "11/14(土)",
-            "temp_max": 34.5,
-            "temp_min": 26.3,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 2.1
+            "temp_max": 33.4,
+            "temp_min": 26.2,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 3.8
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -871,38 +871,38 @@
       "is_capital": true,
       "lat": -6.2088,
       "lon": 106.8456,
-      "temp": 26.4,
-      "apparent_temp": 31.7,
-      "humidity": 85,
-      "wind_speed": 3.8,
-      "wind_gusts": 7.2,
+      "temp": 25.5,
+      "apparent_temp": 30.3,
+      "humidity": 86,
+      "wind_speed": 4.1,
+      "wind_gusts": 8.6,
       "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/12(木)",
-          "temp_max": 33.7,
-          "temp_min": 25.6,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 10.8
+          "temp_max": 33.8,
+          "temp_min": 25.4,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 3.6
         },
         {
           "date": "11/13(金)",
-          "temp_max": 32.8,
-          "temp_min": 25.3,
-          "weather_code": 81,
-          "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 5.6
+          "temp_max": 33.4,
+          "temp_min": 25.0,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 1.7
         },
         {
           "date": "11/14(土)",
-          "temp_max": 31.6,
+          "temp_max": 32.4,
           "temp_min": 25.9,
           "weather_code": 95,
           "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 6.2
+          "precipitation_mm": 4.9
         }
       ],
       "alert": "平常",
@@ -910,7 +910,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 04:53 JST"
+    "timestamp": "11/12 06:19 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -939,7 +939,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/12 04:53 JST"
+    "timestamp": "11/12 06:19 JST"
   },
   "lifeline": {
     "status": "NORMAL",

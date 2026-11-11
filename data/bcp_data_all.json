@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11 19:51:00",
+  "timestamp": "2026-11-11 21:16:47",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -524,10 +524,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
+          "濃霧注意報",
           "乾燥注意報"
         ],
-        "summary": "霜注意報、乾燥注意報",
+        "summary": "濃霧注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -551,10 +551,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "霜注意報"
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、霜注意報",
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -565,10 +564,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "霜注意報"
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、霜注意報",
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       },
       {
@@ -998,10 +996,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "霜注意報"
+          "霜注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、霜注意報",
+        "summary": "霜注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -1012,10 +1010,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "霜注意報"
+          "霜注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、霜注意報",
+        "summary": "霜注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -1026,10 +1024,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "霜注意報"
+          "霜注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、霜注意報",
+        "summary": "霜注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/45/"
       },
       {
@@ -1040,11 +1038,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
+          "波浪注意報",
           "霜注意報",
-          "波浪注意報"
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、霜注意報、波浪注意報",
+        "summary": "波浪注意報、霜注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1071,19 +1069,22 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線28路線: 長崎本線、肥薩線、宗谷本線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線29路線: 宗谷本線、肥薩線、吉都線等 ／ 新幹線: 山陽新幹線（その他）、東北新幹線（運転見合わせ））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（長崎本線、肥薩線、宗谷本線、姫新線、呉線 等 計28路線）",
+    "line_text": "運行支障あり（宗谷本線、肥薩線、吉都線、長崎本線、土佐くろしお鉄道ごめん・なはり線 等 計29路線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（その他）、東北新幹線（運転見合わせ）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "長崎本線",
-      "肥薩線",
       "宗谷本線",
+      "肥薩線",
+      "吉都線",
+      "長崎本線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "宇部線",
       "姫新線",
       "呉線",
-      "宇部線",
       "美祢線",
       "石巻線",
       "山田線",
@@ -1097,8 +1098,6 @@
       "しなの鉄道北しなの線",
       "大井川鉄道大井川本線",
       "万葉線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
       "関西本線",
       "烏山線",
       "成田線",
@@ -1109,6 +1108,7 @@
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
+      "東北新幹線（運転見合わせ）",
       "九州新幹線（その他）"
     ],
     "shinkansen_details": [
@@ -1123,14 +1123,14 @@
         "name": "山陽新幹線",
         "status": "ALERT",
         "state": "その他",
-        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月11日 5時0分掲載）",
+        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月12日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       },
       {
         "name": "東北新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "現在､事故･遅延に関する情報はありません。",
+        "status": "ALERT",
+        "state": "運転見合わせ",
+        "detail": "作業遅延の影響で、古川〜水沢江刺駅間の運転を見合わせています。運転区間の一部列車に遅れが出ています。（11月12日 6時10分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/1/0"
       },
       {
@@ -1151,7 +1151,7 @@
         "name": "九州新幹線",
         "status": "ALERT",
         "state": "その他",
-        "detail": "地震災害の影響で、一部列車に運休や運転変更が出ています。（11月11日 5時0分掲載）",
+        "detail": "地震災害の影響で、一部列車に運休や運転変更が出ています。（11月12日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/410/0"
       },
       {
@@ -1183,7 +1183,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 28,
+    "target_lines_count": 29,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1238,19 +1238,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/11 18:13",
-          "text": "なんか START au END 通信 START 障害 END なのか何処使っても圏外なんだけど"
+          "time": "11/11 21:13",
+          "text": "イボキンの墓の計算 サラリーマン用ですね START 障害 END 年金用ではない 高すぎるやろ 高杉君 お前やろ 神木隆之介 高杉君やん 西野七瀬 松本穂香 ..."
         },
         {
-          "time": "11/11 16:46",
-          "text": "ドコモの緊急メンテナンスがぜんぜん終わらないけど、楽天とデュアルSimにしてるので、自分には影響ない。 START au END 通信 START 障害 END..."
+          "time": "11/11 20:45",
+          "text": "そういえばドコモの通信 START 障害 END で START au END 乗り換えって書いてる人いたけど1番セキュリティあるのドコモだと思うからやめとけ ..."
         },
         {
-          "time": "11/11 15:50",
-          "text": "@V_2yrr START au END 一回くらいしか通信 START 障害 END なってないかも！ 入場出来ない可能性あるなら流石に乗り換えよう笑"
+          "time": "11/11 20:21",
+          "text": "@tokitamiki 自分の所も同じでだからホームWiFiに切り替えようかと思ってます💦 コンセント差すだけでいいから工事ないのでドコモならドコモの所で ST..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1261,8 +1261,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/11 21:15",
+          "text": "docomo 5G SAの START 障害 END 、あと1回ぐらい起きたらいつぞやの START KDDI END の時みたいに総務省の役人が本社に直接乗り..."
+        },
         {
           "time": "11/11 12:00",
           "text": "通信 START 障害 END でスマホが止まったとき、先に会社と決めること。 2022年7月の START KDDI END の START 障害 END は..."
@@ -1270,10 +1274,6 @@
         {
           "time": "11/11 08:17",
           "text": "もしかしたら、#ドコモ の通信 START 障害 END はこれ⬇️が原因かも。(冗談です。)#auもし模試 #au # START KDDI END #doc..."
-        },
-        {
-          "time": "11/11 05:34",
-          "text": "うーん、au START KDDI END に続き、NTT ドコモも START 障害 END 連発しやがったかー。両方税金投入されてんのに、おごりかよ！？これ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -1343,8 +1343,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 8,
+    "disaster_count": 6,
     "articles": [
+      {
+        "title": "【2030年代に南海トラフ巨大地震が来る？】｢大地変動の時代｣に入った日本、地学に学び大災害に備えよ(Wedge（ウェッジ）)",
+        "summary": "7月28日に熊本県で震度7の大地震が発生し多数の犠牲者が出た。この地域は10年前にも同様の激震に襲われ、その後も日本列島の各地で地震が頻発しているため人々の不安が増している。【画像】【2030年代に南",
+        "pub_date": "11/12 05:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/322150d619fc462a00a5b19a961ee883945c9f19?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "JR川越線と踏切内の車が衝突　車は逃走　警察が行方追う(テレビ朝日系（ANN）)",
         "summary": "埼玉県のJR川越線の踏切で列車と車が衝突しました。車は逃走し、警察が車の行方を追っています。 11日午後9時20分ごろ、川越市にあるJR川越線の武蔵高萩駅と笠幡駅の間の踏切で、上り普通列車と車が衝突し",
@@ -1386,87 +1394,79 @@
         "is_disaster": true
       },
       {
-        "title": "海側プレート内での地震に注意を　愛知の震度5強、政府の調査委(共同通信)",
-        "summary": "政府の地震調査委員会は11日の定例会合で、今月8日に愛知県で1997年以来となる最大震度5強を観測した地震を議論した。南海トラフ沿いでの状況の変化を示すものではないとした上で、小原一成委員長（防災科学",
-        "pub_date": "11/11 20:56 JST",
-        "link": "https://news.yahoo.co.jp/articles/b3c34cd84b495724447e8b0155d375e7a7c918fa?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "“恐怖のやりとり”音声を公開　唇縫わせた罪で女が初公判(テレビ朝日系（ANN）)",
-        "summary": "唇を自分で縫い付けさせた罪に問われている女の初公判。当時、被害を受けた同居女性との“恐怖のやり取り”を録音した音声が公開されました。【画像】検察側が明らかにした生々しいやり取り",
-        "pub_date": "11/11 20:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/da734106bf15e23c8ccaa48fd0b35cfd13f5eba4?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "警察官になりすまし現金詐取後、被害女性に「これは詐欺です」 裸の写真も撮影か(テレビ朝日系（ANN）)",
-        "summary": "10日再逮捕されたのは、警察官になりすまして電話をかけた大井拓実容疑者（31）と岡田翔容疑者（28）。 2人は20代女性にビデオ通話で…。「捜査をする中で女の写真が出てきた。あなたに似ている。女の体に",
-        "pub_date": "11/11 20:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/3039d9829d819b472d86bd22e98e1359c7cfa46d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "岐阜市のアパートで１２人が搬送される火事　火元の部屋の男が大麻使用で逮捕(メ〜テレ（名古屋テレビ）)",
-        "summary": "11日未明、岐阜市のアパートで12人が搬送される火事があり、火元となった部屋に住む男が大麻を使用した疑いで逮捕されました。 麻薬取締法違反の疑いで逮捕されたのは、トルコ国籍の無職コムル・ギョクハン容疑",
-        "pub_date": "11/12 02:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/708d4b29c98da793e098e3ca7644058c4ce9e271?source=rss",
+        "title": "「もみじの天ぷら」秋深く　紅葉の名所、大阪箕面の伝統菓子(共同通信)",
+        "summary": "紅葉の名所・箕面公園がある大阪府箕面市で、伝統の菓子「もみじの天ぷら」が観光客を楽しませている。葉をじっくりと揚げてパリッとした食感に仕上げ、黒糖やきな粉と味は多彩。1300年前に起源があるとされ、秋",
+        "pub_date": "11/12 06:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/cddf9d3d1eca9d13ed3c34ae00fafdb0b770e26d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "天皇皇后両陛下　ベトナム国家主席夫妻と面会(テレビ朝日系（ANN）)",
-        "summary": "天皇皇后両陛下がベトナム国家主席夫妻と面会し、宮殿の日本庭園やベトナムを訪問された際の話などで交流されました。 両陛下は11日、ベトナムのトー・ラム国家主席夫妻を皇居で迎え、握手を交わされました。 宮",
-        "pub_date": "11/12 01:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/03d56031b2d4499be70ababbe1eb35ef253c0882?source=rss",
+        "title": "「問題が長期化すれば“長男”は政界進出どころではなくなる」…麻生太郎氏（86）の後継問題に“生コン不正”がカゲを落とす理由(デイリー新潮)",
+        "summary": "麻生太郎自民党副総裁といえば、当選回数16回を誇り、2008年には内閣総理大臣も務めた、「政界のドン」の名に相応しい人物である。【写真】麻生氏が“ミシュラン３つ星鮨店”でデートしたお相手は そんな麻生",
+        "pub_date": "11/12 06:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/f6f8c034c0a684c3cfcd3a818fef94a877b8510c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "官僚への圧が「一人っ子」促進　スタンフォード大、中国を分析(共同通信)",
-        "summary": "中国が1979年に「一人っ子政策」を開始し、当初ほとんど下がらなかった合計特殊出生率は、10年以上後の90年代になって大きく低下した。その原因は、人口抑制の目標を達成しないと他の面で成績が良くても昇進",
-        "pub_date": "11/12 01:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/590e5a66d9d975f1b50e7c7bd9b27e3e66851387?source=rss",
+        "title": "「麻生太郎氏（86）」のままならない“終活”…新たな県連会長は“麻生派議員”に決まらず　ライバル「県政のドン」失脚も、懸念される地元での影響力低下(デイリー新潮)",
+        "summary": "麻生太郎自民党副総裁といえば、当選回数16回を誇り、2008年には内閣総理大臣も務めた、「政界のドン」の名に相応しい人物である。2023年末に表面化した、自民党最大派閥・清和会の議員による裏金問題を発",
+        "pub_date": "11/12 06:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/db34ab8f4233ae0ebff4e0e9de6cdcd416de4e3e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "北海道で“最も早い”-20度　強い寒気で全国的に冷え込み“光熱費”に悩む観光地(テレビ朝日系（ANN）)",
-        "summary": "強い寒気の影響で、11日朝は全国的に今シーズン一番の冷え込みとなり、北海道・幌加内町では観測史上最も早く、気温が-20度を下回りました。こうした中、閉山中の富士山に入った外国人観光客1人と連絡が取れな",
-        "pub_date": "11/12 00:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/5a2099d2bc27268cc5be787d4cb04778eaba2632?source=rss",
+        "title": "「愛子さま」のシンガポールご訪問が“事実上の特使”と囁かれる理由　「両国の絆は皇室が紡いだといっても過言ではない」「愛子さまは歴史的な背景を熟知されています」(デイリー新潮)",
+        "summary": "天皇皇后両陛下の長女・愛子さまが今月17日からシンガポールを訪問される（21日まで）。1965年の建国から60年余りという歴史の浅い国だが、皇室との結びつきは意外と深い。一方、10月の改正皇室典範施行",
+        "pub_date": "11/12 06:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/229d2341946970ef92b82614a7b1a37f65330e38?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "国民健康保険の年間保険料　2027年度から高所得者の上限3万円引き上げへ　厚労省(テレビ朝日系（ANN）)",
-        "summary": "収入により変動する国民健康保険の保険料を巡り、「医療分」の上限額が2027年度から3万円引き上げられることが決まりました。 自営業の人らが加入する国民健康保険の年間の保険料は、医療費などの給付に充てる",
-        "pub_date": "11/11 23:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/1c0ad414834cc82671581df58d240152cc7855f2?source=rss",
+        "title": "福岡市長選挙に立候補　荒牧 明楽（あらまき・あきら）氏の経歴・政策まとめ(選挙ドットコム)",
+        "summary": "任期満了に伴う福岡市長選挙が11月1日告示、11月15日投開票の日程で実施されています。今回の福岡市長選挙には届け出順に、政治団体「こころ党」新人の荒牧明楽（あらまき・あきら）氏（41）、日本保守党新",
+        "pub_date": "11/12 06:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/c6f0470cdcd99e8eedda2975c8f0395e5643508d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「手伝っただけ」強盗事件は否認“ルフィ事件”リーダー初公判(テレビ朝日系（ANN）)",
-        "summary": "東京・狛江市で90歳の女性が死亡するなど、全国で相次いだ“ルフィ”グループによる強盗事件。グループのリーダーで、強盗致死などの罪に問われている渡邉優樹被告（42）の初公判が行われ、強盗事件については起",
-        "pub_date": "11/11 23:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/b7e5a3b9ce2ce24dcd42305d25fc3e486e6a79ed?source=rss",
+        "title": "福岡市長選挙に立候補　森 健太郎（もり・けんたろう）氏の経歴・政策まとめ(選挙ドットコム)",
+        "summary": "任期満了に伴う福岡市長選挙が11月1日告示、11月15日投開票の日程で実施されています。今回の福岡市長選挙には届け出順に、政治団体「こころ党」新人の荒牧明楽（あらまき・あきら）氏（41）、日本保守党新",
+        "pub_date": "11/12 06:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/2550ca3edc06d4f128214b97dd332dd38269789a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "三重・四日市市の県道で女子大学生をひき逃げした疑い　20代の女を逮捕(メ〜テレ（名古屋テレビ）)",
-        "summary": "11日午前、三重県四日市市の県道で車で女子大学生をはねて大けがをさせたにもかかわらず、そのまま逃げたとして20代の女が逮捕されました。 過失運転致傷などの疑いで逮捕されたのは、東員町の介護士・栗田殊里",
-        "pub_date": "11/11 23:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/c5272ef5348ff77ad3012fd6215273added610f9?source=rss",
+        "title": "福岡市長選挙に立候補　西脇 寛樹（にしわき・ひろき）氏の経歴・政策まとめ(選挙ドットコム)",
+        "summary": "任期満了に伴う福岡市長選挙が11月1日告示、11月15日投開票の日程で実施されています。今回の福岡市長選挙には届け出順に、政治団体「こころ党」新人の荒牧明楽（あらまき・あきら）氏（41）、日本保守党新",
+        "pub_date": "11/12 06:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/cbb273528fada224e5209ef52010006c9524c0e1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "福岡市長選挙に立候補　渡辺 久也（わたなべ・ひさや）氏の経歴・政策まとめ(選挙ドットコム)",
+        "summary": "任期満了に伴う福岡市長選挙が11月1日告示、11月15日投開票の日程で実施されています。今回の福岡市長選挙には届け出順に、政治団体「こころ党」新人の荒牧明楽（あらまき・あきら）氏（41）、日本保守党新",
+        "pub_date": "11/12 06:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/0600777b5537d17668ede07a3c5683e4c97d4548?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "福岡市長選挙に立候補　片山 純子（かたやま・すみこ）氏の経歴・政策まとめ(選挙ドットコム)",
+        "summary": "任期満了に伴う福岡市長選挙が11月1日告示、11月15日投開票の日程で実施されています。今回の福岡市長選挙には届け出順に、政治団体「こころ党」新人の荒牧明楽（あらまき・あきら）氏（41）、日本保守党新",
+        "pub_date": "11/12 06:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/1025fa516c1716801597ca7303e8f9873338c18c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-12 04:50:57 JST"
+    "last_updated": "2026-11-12 06:16:44 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1498,10 +1498,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "_ugNEc5RTkM",
+        "video_id": "4HYfpyWpuo4",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/_ugNEc5RTkM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=_ugNEc5RTkM"
+        "embed_url": "https://www.youtube.com/embed/4HYfpyWpuo4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=4HYfpyWpuo4"
       },
       {
         "id": "stream_ntvnews",
@@ -1509,10 +1509,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "3ZIRwnjkKo0",
+        "video_id": "wPN2JpT5yqE",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/3ZIRwnjkKo0?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=3ZIRwnjkKo0"
+        "embed_url": "https://www.youtube.com/embed/wPN2JpT5yqE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=wPN2JpT5yqE"
       },
       {
         "id": "stream_annnews",
@@ -1520,10 +1520,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "snH9VPTsb7g",
+        "video_id": "TeJr7LJssgA",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/snH9VPTsb7g?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=snH9VPTsb7g"
+        "embed_url": "https://www.youtube.com/embed/TeJr7LJssgA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=TeJr7LJssgA"
       },
       {
         "id": "stream_fnnnews",

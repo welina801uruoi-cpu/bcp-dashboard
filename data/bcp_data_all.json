@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11 18:12:06",
+  "timestamp": "2026-11-11 19:00:11",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,32 +436,36 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 23地域】道北、宮城、秋田、山形、福島、茨城、東京、新潟、富山、福井、長野、和歌山、岡山、広島、山口、福岡、佐賀、長崎、熊本、大分、宮崎、鹿児島、沖縄（警報なし）",
+    "summary": "【注意報発表: 25地域】道央、道南、道北、宮城、秋田、山形、福島、茨城、東京、新潟、富山、福井、長野、和歌山、岡山、広島、山口、福岡、佐賀、長崎、熊本、大分、宮崎、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 23,
+    "notice_count": 25,
     "total_prefs": 50,
     "pref_details": [
       {
         "code": "1a",
         "name": "北海道(道央)",
         "short_name": "道央",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "なだれ注意報"
+        ],
+        "summary": "なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
         "code": "1b",
         "name": "北海道(道南)",
         "short_name": "道南",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "なだれ注意報"
+        ],
+        "summary": "なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -559,9 +563,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報"
+          "霜注意報",
+          "濃霧注意報"
         ],
-        "summary": "霜注意報",
+        "summary": "霜注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       },
       {
@@ -1072,26 +1077,26 @@
       "美祢線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
-      "宗谷本線",
-      "関西本線",
       "越後線",
       "九頭竜線",
       "しなの鉄道北しなの線",
       "大井川鉄道大井川本線",
       "万葉線",
-      "烏山線",
-      "成田線",
-      "久留里線",
-      "小湊鉄道線",
-      "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
+      "宗谷本線",
+      "関西本線",
       "石巻線",
       "山田線",
       "大湊線",
       "米坂線",
       "陸羽東線",
       "北上線",
-      "津軽線"
+      "津軽線",
+      "烏山線",
+      "成田線",
+      "久留里線",
+      "小湊鉄道線",
+      "いすみ鉄道線",
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1224,8 +1229,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/11 18:13",
+          "text": "なんか START au END 通信 START 障害 END なのか何処使っても圏外なんだけど"
+        },
         {
           "time": "11/11 16:46",
           "text": "ドコモの緊急メンテナンスがぜんぜん終わらないけど、楽天とデュアルSimにしてるので、自分には影響ない。 START au END 通信 START 障害 END..."
@@ -1233,10 +1242,6 @@
         {
           "time": "11/11 15:50",
           "text": "@V_2yrr START au END 一回くらいしか通信 START 障害 END なってないかも！ 入場出来ない可能性あるなら流石に乗り換えよう笑"
-        },
-        {
-          "time": "11/11 15:48",
-          "text": "@tomo_satoshi411 START au END はやっぱり強そうだなあ、docomo通信 START 障害 END 多いから本気で乗り換えたいよ笑笑..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1293,7 +1298,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/11 17:12",
@@ -1452,7 +1457,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-12 03:12:04 JST"
+    "last_updated": "2026-11-12 04:00:08 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11 03:16:06",
+  "timestamp": "2026-11-11 04:04:09",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -77,11 +77,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-11 08:33",
-    "place": "熊本県熊本地方",
-    "magnitude": "2.7",
+    "time": "2026-11-11 12:57",
+    "place": "茨城県沖",
+    "magnitude": "4.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-11 12:57",
+        "place": "茨城県沖",
+        "shindo": "1",
+        "magnitude": "4.6",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-11 08:33",
         "place": "熊本県熊本地方",
@@ -143,13 +150,6 @@
         "place": "瀬戸内海中部",
         "shindo": "1",
         "magnitude": "2.8",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-09 18:35",
-        "place": "長野県南部",
-        "shindo": "1",
-        "magnitude": "2.3",
         "maxScale": 10
       }
     ]
@@ -213,10 +213,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "霜注意報"
+          "霜注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、霜注意報",
+        "summary": "霜注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -307,11 +307,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東北電力NW: 停電情報なし（東北エリア管内正常）",
+    "power_msg": "東北電力NW: 【停電発生中】秋田で停電情報を検知",
     "water_msg": "仙台市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "仙台市ガス局: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -351,19 +351,19 @@
       "trend": "UP",
       "trend_label": "📈 上昇傾向 (投稿急増・要警戒)",
       "trend_class": "red",
-      "summary": "直近1時間で 28 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
+      "summary": "直近1時間で 39 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
       "recent_posts": [
         {
-          "time": "11/11 03:15",
-          "text": "ドコモ通信 START 障害 END なのかぁ。社用携帯は START au END にしてみたんだけどやはりリスク分散になりますね😌"
+          "time": "11/11 04:03",
+          "text": "なんでドコモばっかり通信 START 障害 END してるんや START au END だから良いんだけど"
         },
         {
-          "time": "11/11 03:15",
-          "text": "docomo 通信 START 障害 END の移転先は START au END が多いだろうから、 START au END の回線が逼迫する未来もあるのか..."
+          "time": "11/11 04:02",
+          "text": "どうやらドコモの通信 START 障害 END うけてて彼氏くんと連絡とれん。。。(彼氏くんドコモ民) 私は START ａｕ END 民なので問題ないのだが"
         },
         {
-          "time": "11/11 03:14",
-          "text": "かれこれ10年前から、メイン機とサブ機でドコモ回線と START au END 回線を使い分けてます。 数年前に START au END で通信 START ..."
+          "time": "11/11 04:02",
+          "text": "ドコモ通信 START 障害 END おおい？ 他人事やけど、高い料金払ってたら結構精神的にイラきそう START au END 系のがつよいんかな？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -374,19 +374,19 @@
       "trend": "DOWN",
       "trend_label": "📉 やや投稿あり (様子見)",
       "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 5 件です。",
+      "summary": "直近1時間の投稿数は 7 件です。",
       "recent_posts": [
         {
-          "time": "11/11 03:14",
-          "text": "短期連続と言えば START KDDI END 、と思ったらかなり古かった 総務省、2012年末からの大規模通信 START 障害 END で START KD..."
+          "time": "11/11 03:40",
+          "text": "ドコモまた START 障害 END 、全国で通話・データ利用しづらく Xでは「5G SAがつながらない」 ドコモは5G基地局の整備がからきしダメってニュースが..."
         },
         {
-          "time": "11/11 03:04",
-          "text": "よりSAユーザーが多いであろう START KDDI END やソフトバンクでは同じような START 障害 END 起こってないわけで、前回の会見で出てた話以..."
+          "time": "11/11 03:36",
+          "text": "---- ドコモは全国規模の通信 START 障害 END で START KDDI END はモンゴル焼いてソフトバンクは子会社役員が逮捕。 なんだこの業界。..."
         },
         {
-          "time": "11/11 02:44",
-          "text": "メイン回線→ START KDDI END 回線(IIJmio・JALモバイル) サブ回線→Iタイプ(docomo枠・IIJmio・JALモバイル) これ先週も..."
+          "time": "11/11 03:31",
+          "text": "@spe_sense せっかく START KDDI END が覇権獲るチャンスなのにお家騒動みたいにバタバタしやがって、結局税金払わねえソフトバンクがシェア拡..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -394,22 +394,22 @@
     {
       "keyword": "au 繋がらない",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 7 件です。",
       "recent_posts": [
         {
-          "time": "11/11 03:02",
-          "text": "ドコモさん通信品質も電波もクソになったよ。 START au END 繋がるのにドコモは START 繋がらない END って場所多いし。 https://t...."
+          "time": "11/11 03:46",
+          "text": "@moooooooodle_ お目覚めのところ、突然のお声かけ失礼します。 START au END サポート畑野です。呟き拝見しましたが、モバイルデータ通信が..."
         },
         {
-          "time": "11/11 02:53",
-          "text": "またdocomoで5G SA START 繋がらない END 障害発生してるの？ 俺もスマホ2台持ちだけど2台とも同じキャリアだから1台は別キャリアにした方がい..."
+          "time": "11/11 03:39",
+          "text": "@ruriasagi まじで変えたいんですが、我が家 START au END がピンポイントではいらなくて😿 都市部で START 繋がらない END のも致..."
         },
         {
-          "time": "11/11 02:38",
-          "text": "iPhoneを安く持てるのでahamoにしたがほんと人混み行くと START 繋がらない END 。早く START au END に戻したいわ。"
+          "time": "11/11 03:29",
+          "text": "ドコモが通信障害。これは START au END 、SoftBank、楽天でも起こりうる事。 START 繋がらない END と嘆くよりもドコモ以外のサブブラ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -420,19 +420,19 @@
       "trend": "UP",
       "trend_label": "📈 上昇傾向 (投稿急増・要警戒)",
       "trend_class": "red",
-      "summary": "直近1時間で 18 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
+      "summary": "直近1時間で 15 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
       "recent_posts": [
         {
-          "time": "11/11 03:14",
-          "text": "またドコモダケ START 障害 END なのか START povo END 人気になって繋がりにくくなったらどうしようかな"
+          "time": "11/11 03:59",
+          "text": "またもMVNOは影響無し 自分はIIJだから繋がるけど、 START povo END もあるしな… ドコモオンリーの人は大変だ、早期復旧して欲しいね ドコモ、..."
         },
         {
-          "time": "11/11 03:14",
-          "text": "普通に START povo END に乗り換えるかなぁ感。ドコモ遅いし、直近だと通信 START 障害 END 、個人情報流出とか色々しでかしすぎだし。"
+          "time": "11/11 03:57",
+          "text": "docomo、通信 START 障害 END って出てたけど使える時とそうでない時がある感じかな。サブで START povo END 入れててよかった"
         },
         {
-          "time": "11/11 03:09",
-          "text": "ドコモまた通信 START 障害 END 🤬 START povo END 第２回線で契約しといてよかった……"
+          "time": "11/11 03:52",
+          "text": "またdocomo5GSA START 障害 END かよ。。 START povo END のモバイルルータのWiFi繋げて生かしてる。。"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -459,8 +459,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 4,
+    "disaster_count": 6,
     "articles": [
+      {
+        "title": "【速報】NTTドコモでまた通信障害　全国で通話・データ通信が利用しづらい状況　今月5日にも同様の通信障害　原因は「調査中」(読売テレビ)",
+        "summary": "NTTドコモは11日、携帯電話サービスの一部で音声通話・データ通信・SMSで通信障害が発生していると発表しました。通信障害が発生したのは午前10時34分で、5Gの専用設備で通信を行うサービス「5G S",
+        "pub_date": "11/11 12:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/c26ec2f32fb80c575899bd25374702010bed83ef?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "前澤友作氏「2日以内に消せばいいではさすがに無理」　詐欺広告めぐるメタ訴訟、実損への賠償責任を主張(J-CASTニュース)",
+        "summary": "実業家の前澤友作氏が2026年11月11日、SNS上の「なりすまし詐欺広告」をめぐり、プラットフォーム事業者にも被害に対する一定の賠償責任を負わせるべきだとの考えをXで示した。前日には、米メタ側に詐欺",
+        "pub_date": "11/11 12:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/938ef534af7738d4af21828414ece0212263ba80?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "北海道で事故相次ぎ1人重体　今季一の冷え込みで路面がシャーベット状に(テレビ朝日系（ANN）)",
+        "summary": "11日朝、北海道では路面がシャーベット状になるなどして車の事故が相次ぎました。 11日午前8時半ごろ、北海道の長沼町でトラックがトレーラーに追突しました。 消防によりますと、この事故でトラックを運転し",
+        "pub_date": "11/11 12:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/9b817cd5028f98621947ee5e0837d066060a188c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "横田めぐみさん拉致から今月15日で49年　新潟知事「政府はなんらかの成果を」(産経新聞)",
         "summary": "横田めぐみさん（62）＝拉致当時（13）＝が新潟市内で北朝鮮に拉致されてから11月15日で49年になるのを前に、新潟県の花角英世知事は11日の定例記者会見で、「全ての拉致被害者の帰国がいまだに実現して",
@@ -478,14 +502,6 @@
         "is_disaster": true
       },
       {
-        "title": "「3回やられてガチキレ」弁当を同僚に無断で食べられた…“被害額数百円”でも「窃盗罪」になる理由【弁護士解説】(弁護士JPニュース)",
-        "summary": "「誰かが私のお弁当食べちゃったみたい」――。11月上旬、職場で注文していた昼食用の弁当を他の従業員に無断で食べられるトラブルがXで話題になった。【元の投稿】「私の金で食べる弁当は美味いか？」「3回目な",
-        "pub_date": "11/11 11:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/914f8be774da7171f47775b4f9a2d79b30d81f38?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "ダンプカー衝突 自転車の15歳死亡",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/11 11:22 JST",
@@ -494,95 +510,79 @@
         "is_disaster": true
       },
       {
-        "title": "消費減税法案 参議院で審議入り 少数与党に野党が攻勢へ　高市総理、意義強調(テレビ朝日系（ANN）)",
-        "summary": "国会では、11日から食料品の消費減税関連法案が参議院で審議入りし、高市総理大臣は減税の意義を強調しました。 国民民主党は、2年間に限った消費減税の妥当性を質しました。国民民主党 竹詰参院議員「2年後に",
-        "pub_date": "11/11 12:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/59795657976d8e119614058d639dddd404209d36?source=rss",
+        "title": "全国的に今季一番の冷え込み　北海道幌加内で－20℃ 観測史上最速(テレビ朝日系（ANN）)",
+        "summary": "11日朝は全国的に今シーズン一番の寒さとなり、北海道では国内の観測史上最も早くマイナス20℃を下回りました。 上空の寒気と放射冷却の影響で、朝は強烈な冷え込みとなりました。 北海道の幌加内ではマイナス",
+        "pub_date": "11/11 12:46 JST",
+        "link": "https://news.yahoo.co.jp/articles/3f6858ae7037369fcdfafd3b23798b0bf68d81e1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "中国人観光客が富士山で遭難か きょうも捜索　1人で雪山装備なし(テレビ朝日系（ANN）)",
-        "summary": "富士山で中国人観光客の20代の男性が遭難したとみられ、警察などが捜索しています。 警察によりますと、中国人の20代の男性は先週、友人と来日し、8日午前、富士山の吉田口5合目から1人で登山を開始しました",
-        "pub_date": "11/11 12:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/c78275808044fff4ff15c779c3314c21b1843771?source=rss",
+        "title": "石破前首相らに続く「反高市の乱」年末までに第2陣が動く？星浩氏は予想　すでに始まった次期総裁争い(J-CASTニュース)",
+        "summary": "消費税減税法の衆議院本会議採決を退席した石破茂前首相、小渕優子元経産相、古川禎久元法相、船田元・元経済企画庁長官の4議員を自民党が戒告処分にしたことで、反高市の第2陣が動き出す...TBSスペシャルコ",
+        "pub_date": "11/11 12:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/8479e9558142dfe3bbc5b1608b379f91efba15e0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "けさは各地で今季一番の冷え込み 最低気温は名古屋で6.0℃ 日中は過ごしやすい陽気に 愛知･岐阜･三重の天気予報（11/11 昼）(CBCテレビ)",
-        "summary": "けさは各地で今シーズン一番の冷え込みになりました。冷たい空気が流れ込み放射冷却が強まったため、けさの東海地方は各地で今シーズン最も気温が下がり、最低気温は名古屋で6.0℃、岐阜で5.7℃、津で7.3℃",
-        "pub_date": "11/11 12:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/a04a1f095aacc6aabb5a7b7da7bc850a6aae9c1c?source=rss",
+        "title": "統一選は来年4月11、25日　投票日定める特例法成立(共同通信)",
+        "summary": "来年春の統一地方選の投票日を定める臨時特例法が11日、参院本会議で可決、成立した。道府県と政令指定都市の首長、議員選を来年4月11日に、政令市以外の市、特別区、町村の首長、議員選を同25日に実施する。",
+        "pub_date": "11/11 12:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/3694410e537b24c630333eaa4d60364a1bbdcc34?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「朝起きるのがつらい」近畿各地で最低気温が10度下回る　今季一番の冷え込み(読売テレビ)",
-        "summary": "けさ（11日朝）の近畿地方は、上空に寒気が流れ込んだ影響で、今シーズン一番の冷え込みとなり、各地で最低気温が10度を下回りました。 （報告・切通大雅 記者） 「大阪市内は朝から非常に冷え込みました。手",
-        "pub_date": "11/11 12:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/f936a2b2d672c17d34d43432cde94b5eca6a9ab2?source=rss",
+        "title": "拉致問題でベトナム共産党に協力要請　自民・萩生田幹事長代行(テレビ朝日系（ANN）)",
+        "summary": "自民党の萩生田幹事長代行は来日しているベトナム共産党の要人と会談し、政党間交流の覚書を更新したうえで、拉致問題での協力などを呼び掛けました。自民党 萩生田幹事長代行「第1条の相互の理解と協力、共通の問",
+        "pub_date": "11/11 12:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/515599484e3dfe49fa1bb8600992d0abfc699dd5?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "国内唯一のラッコ「メイ」 11日から展示再開 相棒「キラ」の死を乗り越え… 元気に泳ぎ回る姿見せる 三重の鳥羽水族館(CBCテレビ)",
-        "summary": "三重県の鳥羽水族館で、ラッコの展示が再開されました。11月11日朝、鳥羽水族館でスイスイ泳いでいたのは、ラッコの「メイ」です。飼育していたラッコ2頭のうち、18歳のメス「キラ」が11月5日に死んだこと",
-        "pub_date": "11/11 12:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/39ef1312da033a749107279df988a43843ed73a5?source=rss",
+        "title": "高級腕時計窃盗疑い男逮捕　中野ブロードウェイ(共同通信)",
+        "summary": "東京・中野の商業施設「中野ブロードウェイ」で10月、高級腕時計が盗まれた事件で、警視庁捜査3課は11日、窃盗容疑で30代の男を逮捕した。捜査関係者への取材で分かった。現場から逃げた男とみており、名古屋",
+        "pub_date": "11/11 12:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/ff9de516e9ada2e75f470883d69debf641e4a1b7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "乳児殺害疑い母親再逮捕、神奈川県警(共同通信)",
-        "summary": "横浜市の自宅で出産後間もない男児を殺害したとして、神奈川県警は11日、殺人の疑いで、母親で団体職員牛尾あずき容疑者（24）を再逮捕した。容疑を認め「周囲に知られることを恐れた」という旨の話をしている。",
-        "pub_date": "11/11 12:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/5c03c2efbe171f832cd7b7ba7b719c0e62773fe8?source=rss",
+        "title": "“闇バイト”連続強盗事件　横浜の事件実行役「暴力振るっていない」起訴内容否認(テレビ朝日系（ANN）)",
+        "summary": "おととし首都圏で相次いだ闇バイトによる連続強盗事件のうち、横浜市の事件で実行役を担ったとして強盗致死などに問われた男が、初公判で起訴内容を否認しました。 宝田真月被告（24）はおととし10月、横浜市青",
+        "pub_date": "11/11 12:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/0a402c9a165e65af3fcd5a96ac6aea5baa8be9d6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "愛知県･大村秀章知事 5選目指して立候補の意向固める 来年2月7日投開票の知事選 県議会の12月議会で正式表明か(CBCテレビ)",
-        "summary": "愛知県の大村知事が、任期満了に伴う来年2月の知事選に、5選を目指して立候補する意向を固めたことがわかりました。【写真を見る】愛知県･大村秀章知事 5選目指して立候補の意向固める 来年2月7日投開票の知",
-        "pub_date": "11/11 12:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/46073e21b2a34240991a3cfb325bb70fd29c5cbf?source=rss",
+        "title": "子どもの不登校で「もう会社にはいられない」 母親の約5人に1人が離職の現実 「不登校離職」に独自の休業制度を設ける企業も(AERA DIGITAL)",
+        "summary": "子どもの不登校をきっかけに、仕事を手放さざるを得ない保護者がいる。離職を防ぐため、独自の休業や短時間勤務の制度を設ける企業も現れている。AERA 2026年11月16日号より。【気になるデータ】小1の",
+        "pub_date": "11/11 12:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/adf8a324c4c3deed43fb2f4eb36b06cca50a6da5?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「キラ」に感謝や別れのメッセージ…鳥羽水族館で国内唯一の飼育となったラッコ「メイ」の展示再開 元気に泳ぎ回る(東海テレビ)",
-        "summary": "三重県の鳥羽水族館で11日、国内唯一の飼育となったメスのラッコ「メイ」の展示が再開されました。 1頭になっても元気に泳ぎ回るメイ。ほっぺに手を添える愛らしい仕草も見せます。 鳥羽水族館では今月5日、1",
-        "pub_date": "11/11 12:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/ca9a091cfd3e994f07860756565bd39427479f72?source=rss",
+        "title": "中野区の高級腕時計窃盗 名古屋市で30代男を逮捕(ABEMA TIMES)",
+        "summary": "東京・中野ブロードウェイで高級腕時計が盗まれた事件で、警視庁は、先ほど30代の男を名古屋市内で逮捕しました。【映像】愛知県内に潜伏か 腕時計の窃盗で30代男を逮捕 先月29日、「中野ブロードウェイ」の",
+        "pub_date": "11/11 12:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/96404a033929b650db7c8ed62a9bf6dc8ddfb266?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "海外視察土産のバッグや水筒を女性党員に…井林国交相に新たな公選法違反疑惑　50人以上参加のランチ会で抽選会(デイリー新潮)",
-        "summary": "高市早苗内閣で国土交通相に就任した井林辰憲氏（50）といえば、政治資金パーティーの開催を巡る問題で謝罪したばかり。ところが今回、新たな疑惑が浮上した。“恫喝音声”に端を発する一連の問題で辞任した簗（や",
-        "pub_date": "11/11 12:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/bec68fb83a817663c87fed50c8b3717560fe3bfa?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "青学駅伝の強さの秘密は腸内に!?　キンコン西野も注目する「持久力菌」「痩せ菌」の正体(FRIDAY)",
-        "summary": "「腸活」という言葉がなんとなく暮らしに馴染んだ今、新たに注目を集めつつあるのが個々人が腸内にもつ「菌」の生かし方だ。8月放送の『ぐるぐるナインティナイン』(日本テレビ)で、キングコング西野亮廣が「痩せ",
-        "pub_date": "11/11 12:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/3c9ebb7510201ce7a4d9d09ec43a4213a48a214d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "猫用回し車でまさかの“アクシデント”!?→2回転後に“大技挑戦”も強制終了した子猫の姿に反響(ABEMA TIMES)",
-        "summary": "猫用の回し車を使って遊んでいた子猫たちに起きたアクシデントが、SNSで話題を集めている。【映像】「おい！どこまで回す…」回し車で遊ぶ2匹の子猫→その後強制終了 投稿したのは、保護猫の預かりボランティア",
-        "pub_date": "11/11 12:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/80c81f05f0f509d77f237807b85d89a20381c3b5?source=rss",
+        "title": "統一選、来年4月11、25日実施法成立(共同通信)",
+        "summary": "来年春の統一地方選の投票日を定める臨時特例法が11日、参院本会議で可決、成立した。道府県と政令指定都市の首長、議員選を来年4月11日に、政令市以外の市、特別区、町村の首長、議員選を同25日に実施する。",
+        "pub_date": "11/11 12:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/5d48d380eaa61f0b69fbd0a55e7f63edc719e1c3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-11 12:15:38 JST"
+    "last_updated": "2026-11-11 13:03:41 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -625,10 +625,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "TEts8nnPSnA",
+        "video_id": "x1KRmK2BMbk",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/TEts8nnPSnA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=TEts8nnPSnA"
+        "embed_url": "https://www.youtube.com/embed/x1KRmK2BMbk?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=x1KRmK2BMbk"
       },
       {
         "id": "stream_annnews",

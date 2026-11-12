@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 17:30:03",
+  "timestamp": "2026-11-12 18:15:41",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 20地域】道央、道南、道北、道東、宮城、秋田、山形、福島、茨城、千葉、東京、新潟、石川、長野、和歌山、島根、広島、徳島、長崎、沖縄（警報なし）",
+    "summary": "【注意報発表: 22地域】道央、道南、道北、道東、青森、宮城、秋田、山形、福島、茨城、千葉、東京、新潟、石川、長野、和歌山、島根、広島、徳島、長崎、熊本、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 20,
+    "notice_count": 22,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -450,10 +450,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
-          "強風注意報"
+          "強風注意報",
+          "なだれ注意報"
         ],
-        "summary": "なだれ注意報、強風注意報",
+        "summary": "強風注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -464,10 +464,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "なだれ注意報"
         ],
-        "summary": "なだれ注意報、濃霧注意報",
+        "summary": "濃霧注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -491,21 +491,23 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "強風注意報"
+          "強風注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、強風注意報",
+        "summary": "強風注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
         "code": "2",
         "name": "青森県",
         "short_name": "青森",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -987,11 +989,13 @@
         "code": "43",
         "name": "熊本県",
         "short_name": "熊本",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -1051,14 +1055,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線21路線: 美祢線、石巻線、山田線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線21路線: 石巻線、山田線、大湊線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（美祢線、石巻線、山田線、大湊線、米坂線 等 計21路線）",
+    "line_text": "運行支障あり（石巻線、山田線、大湊線、米坂線、陸羽東線 等 計21路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "美祢線",
       "石巻線",
       "山田線",
       "大湊線",
@@ -1066,9 +1069,10 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "肥薩線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
+      "肥薩線",
+      "美祢線",
       "越後線",
       "九頭竜線",
       "しなの鉄道北しなの線",
@@ -1211,7 +1215,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/12 17:11",
@@ -1257,7 +1261,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/12 17:11",
@@ -1439,7 +1443,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 02:30:00 JST"
+    "last_updated": "2026-11-13 03:15:38 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 09:36:47",
+  "timestamp": "2026-11-12 10:40:55",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -239,14 +239,16 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 山陰本線 ／ 新幹線: 山陽新幹線（その他））",
+    "text": "運行支障あり（在来線: 山陰本線、山陽本線、芸備線 ／ 新幹線: 山陽新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山陰本線）",
+    "line_text": "運行支障あり（山陰本線、山陽本線、芸備線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
     "troubled_lines": [
-      "山陰本線"
+      "山陰本線",
+      "山陽本線",
+      "芸備線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）"
@@ -315,8 +317,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/12 10:32",
+          "text": "START au END pay 接続 START 障害 END 、結局強制ログアウトされてたんか？、仕様がいまいち分らんなあ。残高も送受信額しか読み取れないか..."
+        },
         {
           "time": "11/12 09:29",
           "text": "昨日 START au END から電話で通信 START 障害 END がどーのこーのとあったらしい。050からの電話だったとかで。たまたま対応している余裕が..."
@@ -324,10 +330,6 @@
         {
           "time": "11/12 09:26",
           "text": "START au END でも通信 START 障害 END 起きてんのかな"
-        },
-        {
-          "time": "11/12 09:13",
-          "text": "「 START au END と同じなら安心」で、家族の連絡手段まで同じ回線にまとめてしまうから。 2022年7月、61時間25分に及んだKDDIの通信 STA..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -338,7 +340,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/12 09:13",
@@ -358,22 +360,22 @@
     {
       "keyword": "au 繋がらない",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 5 件です。",
       "recent_posts": [
         {
-          "time": "11/12 08:04",
-          "text": "START au END 回線3個使ってるけど不満なのは新幹線のトンネルで START 繋がらない END ことなんですが、逆に言えばそれぐらいしかない"
+          "time": "11/12 10:17",
+          "text": "なんかモバイル通信が START 繋がらない END 、、、 MVNOだけど回線がdocomoなのよね そのせいだろうか サブ回線の START au END ..."
         },
         {
-          "time": "11/12 07:32",
-          "text": "@enishi120713 START 繋がらない END …スマホが圏外といった状態でしょうか？💦 START au END サポート石川"
+          "time": "11/12 10:16",
+          "text": "よく START AU END は繋がるって言うけどドコモから START AU END に変えてからモバイル回線全然 START 繋がらない END しとんで..."
         },
         {
-          "time": "11/12 05:24",
-          "text": "@Rakuten_Mobile 楽天モバイルは START 繋がらない END のが前提です。 必ず START au END やdocomoの電波を使う格安S..."
+          "time": "11/12 10:12",
+          "text": "まーた START au END ひかり START 繋がらない END"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -419,130 +421,130 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 4,
+    "disaster_count": 5,
     "articles": [
       {
-        "title": "｢遅延時間平均1分の日本の新幹線｣は､やっぱり別格…ほぼ2回に1回遅延するドイツの\"悲惨すぎる鉄道事情\"(プレジデントオンライン)",
-        "summary": "几帳面なドイツ人の国なら、鉄道も時間に正確なはず……。そう考える日本人が多いのではないだろうか。40年以上ドイツで暮らす作家の川口マーン惠美さんは「確かに以前のドイツでは、日本ほどの正確さではないにし",
-        "pub_date": "11/12 18:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/49c7033ca9a606d8f329cfbd2dc82e671a887c27?source=rss",
+        "title": "東京・八王子市でツキノワグマ撮影される 同地域で3回目の出没 市が「箱わな」設置へ(ABEMA TIMES)",
+        "summary": "八王子市が小津町におけるツキノワグマの撮影について発表しました。「本日、小津町においてツキノワグマが撮影されていたことが分かりました。同地域で3回目の出没となることから、人身被害を未然に防ぐため、本日",
+        "pub_date": "11/12 19:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/5d285f59cf993ce30a235c61ce5d152c365140cd?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "新宿で訪日客ぼったくり相談3倍　警視庁、客引きに警戒強化(共同通信)",
-        "summary": "今年1～10月、東京・歌舞伎町を管轄する警視庁新宿署に寄せられた訪日客からのぼったくり被害の相談件数が約240件に上り、昨年同時期の約3倍に増えたことが12日、分かった。警視庁保安課は、相談内容などか",
-        "pub_date": "11/12 17:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/80801a7b7c088ad6026026fcae57e9858c67c14e?source=rss",
+        "title": "アラーム“放置”で障害　大学病院で医療事故(テレビ朝日系（ANN）)",
+        "summary": "入院患者のアラームを放置し重度の意識障害に陥る医療事故がありました。 愛媛大学附属病院によりますと、心臓に基礎疾患がある高齢の入院患者の心電図モニターの「緊急」アラームが鳴ったにもかかわらず、看護師が",
+        "pub_date": "11/12 19:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/92ddc410dce2e861789179ab60e2a36c26881158?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "首里城、高温で長時間燃焼　3D分析、初期消火不十分指摘(共同通信)",
-        "summary": "2019年の那覇市の首里城火災で、正殿内部が一般の火災よりも長時間にわたって高温にさらされていたことが12日分かった。共同通信が作成した高精細3次元（3D）画像を専門家が分析した。一般的な火災では黒く",
-        "pub_date": "11/12 17:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/d1d6e3c3523d67c7242cb7b810f9fa472cb4003f?source=rss",
+        "title": "【速報】東京・墨田区でマンション火災 1人けが(テレビ朝日系（ANN）)",
+        "summary": "都内のマンションの一室で火事があり、消火活動が続けられています。 12日午後5時すぎ、墨田区のマンションで火事が起きました。 警視庁などによりますと、ポンプ車など21台が出動し、火はおよそ1時間後にほ",
+        "pub_date": "11/12 19:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/7137d4346735cf209cbf977111035bcd47d00028?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "日赤「我慢重ねず自分大切に」　熊本地震、職員が心のケア(共同通信)",
-        "summary": "最大震度7を観測した7月の熊本地震で、現地で心のケア活動に当たった日本赤十字社の職員が12日までに取材に応じた。3カ月余りが過ぎ被災したストレスは徐々に和らぐとした一方、今後は生活再建に向けた悩みが出",
-        "pub_date": "11/12 17:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/f79c9fcd1c18a31a1213da63843ef53b0d357ac8?source=rss",
+        "title": "林野火災の延焼を防ぐ 国が来年1月の導入目指す新たな消火剤 愛知で初の検証 消防隊員らが手順や上空からの散布を確認 新城市(CBCテレビ)",
+        "summary": "林野火災が増える時期を前に、国が導入を目指す新たな消火剤について、愛知県では初の検証が行われました。【写真を見る】林野火災の延焼を防ぐ 国が来年1月の導入目指す新たな消火剤 愛知で初の検証 消防隊員ら",
+        "pub_date": "11/12 18:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/14dbd30835c88362e534297e4e2bc33ffd876335?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "千葉・旭市 約4万羽飼育する養鶏場で鳥インフル疑い 詳細な遺伝子検査を実施へ(ABEMA TIMES)",
-        "summary": "千葉県が高病原性鳥インフルエンザ「疑い事例」の発生について発表しました。「農林水産部畜産課【映像】千葉・旭市 約4万羽飼育する養鶏場で鳥インフル疑い旭市の養鶏農場において、高病原性鳥インフルエンザが疑",
-        "pub_date": "11/12 18:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/8bb0f5532f6fe4920d7483d7a8267f2112a74a36?source=rss",
+        "title": "広い範囲で空気が乾燥 火災相次ぐ",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/12 18:31 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6602329?source=rss",
+        "category": "主要速報",
+        "is_disaster": true
+      },
+      {
+        "title": "事業7年延期　品川駅周辺「開かずの踏切」いつ解消(テレビ朝日系（ANN）)",
+        "summary": "東京・品川駅周辺で進む鉄道の立体交差化事業で、完了が7年延期されることになりました。では、長年問題となっている「開かずの踏切」はいつ解消されるのか。現場を取材しました。【画像】延期の要因は?",
+        "pub_date": "11/12 19:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/6238209cde470808205d5938c239c70cb5a83639?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「フィジカルAI」６社が意見交換 　高市総理「２０４０年までに日本が２０兆円市場の獲得目指す」(テレ東BIZ)",
-        "summary": "高市総理大臣は12日、AI＝人工知能を搭載したロボットなどが現実世界で自律的に動く「フィジカルAI」の社会実装に向け、関連企業のトップらと意見交換を行いました。企業側からは製造や物流、家庭など幅広い現",
-        "pub_date": "11/12 18:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/34b0e1031640fdd915e28ceccaec360fe017b395?source=rss",
+        "title": "奥田交番襲撃事件の差し戻し審、検察が再び死刑を求刑　「強固な殺意に基づいた犯行」 前回公判で涙を見せた被告は一点を見つめ…(FNNプライムオンライン)",
+        "summary": "2018年に富山市で2人が殺害された奥田交番襲撃事件の差し戻し審が12日、富山地裁で開かれた。検察は論告求刑公判で「強固な殺意に基づいた犯行で生命軽視の度合いが大きい」と指摘し、元自衛官の島津慧大被告",
+        "pub_date": "11/12 19:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/2d12036f40718fb49b417995310345017706b717?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【近畿の天気】あす13日（金）大阪は晴れ時々曇り　最低・最高気温ともに12日より高めのところが多い予想(読売テレビ)",
-        "summary": "あす13日（金）の近畿地方の天気です。詳しくは天気動画をご覧ください。",
-        "pub_date": "11/12 18:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/d99bda592ef0dd4424cf9e57163832ff635eaa09?source=rss",
+        "title": "長崎の定員超過船に複数の小学生　壱岐沖、国が漁協を検査(共同通信)",
+        "summary": "長崎県・壱岐島沖で広島市から修学旅行で来た中学生を乗せた遊覧船が一時定員超えで運航した問題で、途中から乗船した人の中に複数の小学生がいたことが12日、国土交通省九州運輸局への取材で分かった。遊覧で寄っ",
+        "pub_date": "11/12 19:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/c39f50343e6df42492787ba730bd6e14e484ad79?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【速報】墨田区マンションの5階で火事　ポンプ車21台出動(テレビ朝日系（ANN）)",
-        "summary": "速報です。都内のマンションの一室で火事があり、消火活動が続けられています。午後5時すぎ、墨田区石原のマンションの5階の一室から火が出ました。ポンプ車など21台が出動し火はおよそ1時間後にほぼ消し止めら",
-        "pub_date": "11/12 18:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/c1ccb983d0daa7d5e6aa67852f8e9e611e359ed4?source=rss",
+        "title": "年末年始の新幹線 子連れ車両を増便(テレビ朝日系（ANN）)",
+        "summary": "年末年始に運行する新幹線の子連れ向け車両が過去最多の本数になります。 JR東海は、東京ー新大阪間を結ぶ東海道新幹線の「のぞみ」で、子連れの客を対象とした「お子さま連れ車両」を合わせて140本走行させる",
+        "pub_date": "11/12 19:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/b095c2ef96c7aec2983d81e4df7bda8f8550f92c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "明日13日は広く晴れて気温上昇　20℃超え続出　15日は広く雨(日本気象協会tenki.jp)",
-        "summary": "明日13日(金)は、広い範囲で晴れて、今日12日(木)より気温が上がる所が多いでしょう。仙台市では最高気温21℃と、今日より9℃高くなる予想です。14日(土)は西から天気が下り坂で、15日(日)は広い",
-        "pub_date": "11/12 18:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/4940ffb98cda23d723e63340749502403f45a5e8?source=rss",
+        "title": "店舗従業員が利用客に「侮辱的な発言」「中指を立てる行為」　雑貨ブランドが謝罪「不快で怖い思いをさせてしまい」(J-CASTニュース)",
+        "summary": "ファッションや雑貨を取り扱うブランド「PIXIUM」は2026年11月11日に公式SNSで、錦糸町PARCO内にある店舗でスタッフが、利用客に対し侮辱的な発言や中指を立てる行為があったことを確認したと",
+        "pub_date": "11/12 19:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/88e427a751f0c96019d5bf3c275c5f9c80bb1960?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「荒木さんのように長く活躍できる選手を目指して」 ドラゴンズの未来担う俊足強打の外野手へ 王子所属･ドラフト2位の柴﨑聖人選手（24）(CBCテレビ)",
-        "summary": "ドラゴンズの未来を担う俊足強打の外野手へ、球団から指名挨拶です。ドラゴンズから指名挨拶を受けたのは、地元・王子所属のドラフト2位ルーキー柴﨑聖人選手（24）。50メートル6秒0の俊足に、勝負どころで光",
-        "pub_date": "11/12 18:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/1d0452065471fe0387fa6970ae3d2152fdd5c1ec?source=rss",
+        "title": "“空室税”政府与党が検討 新築マンション転売対策(テレビ朝日系（ANN）)",
+        "summary": "新築マンションの転売対策として新たな案を検討です。 高騰が続く不動産価格への対策として政府与党は、新築マンションの購入者が1年以内に転売する際、居住実態がなく空室のままだった場合には「不動産取得税」の",
+        "pub_date": "11/12 19:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/f3cfd5a89bcba5c8cb8593fddd48612b0e34bc9a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ヤミ金疑いで男5人再逮捕　福岡、広島両県警(共同通信)",
-        "summary": "福岡、広島両県警と警視庁の合同捜査本部は12日、違法な金利で現金を貸し付けるなどしたとして出資法違反（高金利）などの疑いで、韓国籍の無職金臣俊容疑者（29）ら男5人を再逮捕した。捜査関係者によると、関",
-        "pub_date": "11/12 18:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/e1f18233b6198a0f9312d78280c4ce431e662812?source=rss",
+        "title": "健やかな成長を祈願する「七五三参り」 二見興玉神社に地元の5歳児が参拝 三重･伊勢市(CBCテレビ)",
+        "summary": "健やかな成長を祈願。七五三参りは、子どもたちの健やかな成長と長寿を祈るもので、三重県伊勢市の「二見興玉神社」では、50年以上前から地元の園児を招いてお祝いしています。【写真を見る】健やかな成長を祈願す",
+        "pub_date": "11/12 19:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/79e0f60061b2156c51edd9c7a59144340b26641c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "だから秋篠宮家では務まらない…島田裕巳｢愛子さまシンガポール訪問で期待される天皇の長子の存在感｣(プレジデントオンライン)",
-        "summary": "天皇皇后両陛下の長女・愛子さまは、17日から21日までの日程で、シンガポールを単独で公式訪問する。皇室史に詳しい島田裕巳さんは「注目すべき点は、この皇室外交が『秋篠宮さまというわけにはいかない』ところ",
-        "pub_date": "11/12 18:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/5c23411716c9a71d83a8f51ea43f117350fe4289?source=rss",
+        "title": "【動画】13日の天気 - 広く小春日和に　一日の気温差大　東北・北陸・近畿は不安定　強い雷雨の所も（12日19時更新）(ウェザーマップ)",
+        "summary": "13日(金)も広い範囲で穏やかな晴天となるでしょう。朝と日中の気温差が大きくなりますので体調管理などお気をつけください。 東北・北陸・近畿は大気の状態が不安定で、所々でにわか雨や雷雨がありそうです。落",
+        "pub_date": "11/12 19:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/7fd4d3584f033e73921f35481f6ddcd97a24f526?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "餅代に困る放浪生活→秀長に仕えて覚醒…豊臣兄弟にも徳川三代にも重用された｢190cmの築城名人｣のその後(プレジデントオンライン)",
-        "summary": "NHK大河ドラマ「豊臣兄弟！」では、弟の秀長を主人公にすることで、これまでスポットライトが当たりづらかった人物にも注目が集まっている。偉人研究家で著述家の真山知幸さんは「そのうちの一人が藤堂高虎だ。戦",
-        "pub_date": "11/12 18:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/79896f4b6baa070be561fc09e1c159175971eb00?source=rss",
+        "title": "シンガポール訪問前に 愛子さまが上皇ご夫妻にあいさつ(テレビ朝日系（ANN）)",
+        "summary": "シンガポールの訪問を前に愛子さまが上皇ご夫妻にあいさつされました。 愛子さまは12日午後4時半ごろ、上皇ご夫妻がお住まいの仙洞御所を訪れ、シンガポールを訪問することについて報告されました。 日程は17",
+        "pub_date": "11/12 19:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/fe37a1a1589b8421ea82b80ec787486c88a77107?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "玉木代表「改憲で合区解消を」　1票格差巡り「優先議論」(共同通信)",
-        "summary": "国民民主党の玉木雄一郎代表は12日の衆院憲法審査会で憲法改正を巡り、与党内で見解が割れる9条よりも、参院選で隣接県を一つの選挙区にする「合区」解消を急ぐべきだとの考えを重ねて示した。昨年の参院選の「1",
-        "pub_date": "11/12 18:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/2b1accd6f47d62ad2dcabb6ed476ff4a2e1fa960?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "環境省、釧路の生息地を保護区へ　サンショウウオを保全(共同通信)",
-        "summary": "環境省は12日、国の絶滅危惧種「キタサンショウウオ」を保全するため、北海道釧路市にある生息地を種の保存法に基づく「生息地等保護区」に指定する方針を示した。全国11例目で、北海道では初めて。建物の新築な",
-        "pub_date": "11/12 18:13 JST",
-        "link": "https://news.yahoo.co.jp/articles/9358e3cd9092325cfbe8bda36e78dcf1eb6ca129?source=rss",
+        "title": "新幹線車両に検査支援システム　自動判定へJR東海(共同通信)",
+        "summary": "JR東海は12日、東海道新幹線の車両検査を支援する自動判定システムを導入すると発表した。検査の数値や画像をシステムが自動で解析し、作業の良否を判断する。2027年度以降に本格導入する。 JR東海による",
+        "pub_date": "11/12 19:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/34ff024a31419fde72e228b5b0c73326b519279b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-12 18:36:05 JST"
+    "last_updated": "2026-11-12 19:40:15 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -596,10 +598,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "efWR7c8zMEs",
+        "video_id": "DKi8qXL2bVw",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/efWR7c8zMEs?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=efWR7c8zMEs"
+        "embed_url": "https://www.youtube.com/embed/DKi8qXL2bVw?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=DKi8qXL2bVw"
       },
       {
         "id": "stream_fnnnews",

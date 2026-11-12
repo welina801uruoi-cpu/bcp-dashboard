@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 19:07:13",
+  "timestamp": "2026-11-12 19:58:38",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 23地域】道央、道南、道北、道東、青森、岩手、宮城、秋田、山形、福島、茨城、千葉、東京、新潟、石川、長野、和歌山、島根、広島、徳島、長崎、熊本、沖縄（警報なし）",
+    "summary": "【注意報発表: 24地域】道央、道南、道北、道東、青森、岩手、宮城、秋田、山形、福島、茨城、千葉、東京、新潟、富山、石川、長野、和歌山、島根、広島、徳島、長崎、熊本、大分（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 23,
+    "notice_count": 24,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -463,10 +463,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "なだれ注意報"
         ],
-        "summary": "なだれ注意報、濃霧注意報",
+        "summary": "濃霧注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -529,9 +529,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "濃霧注意報",
           "乾燥注意報"
         ],
-        "summary": "乾燥注意報",
+        "summary": "濃霧注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -542,10 +543,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、濃霧注意報",
+        "summary": "濃霧注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
@@ -556,10 +557,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、濃霧注意報",
+        "summary": "濃霧注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -570,10 +571,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、濃霧注意報",
+        "summary": "濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       },
       {
@@ -584,10 +585,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、濃霧注意報",
+        "summary": "濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -678,11 +679,13 @@
         "code": "16",
         "name": "富山県",
         "short_name": "富山",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/16/"
       },
       {
@@ -889,10 +892,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、濃霧注意報",
+        "summary": "濃霧注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/34/"
       },
       {
@@ -1004,11 +1007,13 @@
         "code": "44",
         "name": "大分県",
         "short_name": "大分",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -1037,13 +1042,11 @@
         "code": "47",
         "name": "沖縄県",
         "short_name": "沖縄",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "波浪注意報"
-        ],
-        "summary": "波浪注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -1059,7 +1062,7 @@
     "status": "ALERT",
     "text": "運行支障あり（在来線21路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線、石巻線、山田線 等 計21路線）",
+    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線、肥薩線、石巻線 等 計21路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
@@ -1067,6 +1070,7 @@
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
       "美祢線",
+      "肥薩線",
       "石巻線",
       "山田線",
       "大湊線",
@@ -1074,7 +1078,6 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "肥薩線",
       "烏山線",
       "久留里線",
       "小湊鉄道線",
@@ -1177,7 +1180,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】北海道・千葉・東京・長野・京都で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】北海道・千葉・長野で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1308,16 +1311,16 @@
     "status": "NORMAL",
     "office": "気象庁",
     "target_area": "東京都",
-    "report_time": "11/12 16:35",
+    "report_time": "11/13 04:38",
     "headline": "",
-    "text": "　本州付近は高気圧に覆われていますが、関東甲信地方は湿った空気の影響を受けている所があります。\n\n　東京地方は、晴れています。\n\n　１２日は、高気圧に覆われる見込みです。このため、晴れるでしょう。\n\n　１３日は、高気圧に緩やかに覆われますが、上空の寒気や気圧の谷の影響を受ける見込みです。このため、曇りで昼前から晴れるでしょう。伊豆諸島では、雨で雷を伴う所がある見込みです。",
+    "text": "　本州付近は高気圧に覆われていますが、関東甲信地方は湿った空気の影響を受けています。\n\n　東京地方は、曇りとなっています。\n\n　１３日は、高気圧に緩やかに覆われますが、低気圧が東海道沖を東へ進む見込みです。このため、曇りで昼前から晴れるでしょう。伊豆諸島では、雨で雷を伴う所がある見込みです。\n\n　１４日は、高気圧に緩やかに覆われますが、低気圧が伊豆諸島付近から関東の東に進む見込みです。このため、晴れ時々曇りとなるでしょう。伊豆諸島では、雨で雷を伴う所がある見込みです。",
     "paragraphs": [
-      "本州付近は高気圧に覆われていますが、関東甲信地方は湿った空気の影響を受けている所があります。",
-      "東京地方は、晴れています。",
-      "１２日は、高気圧に覆われる見込みです。このため、晴れるでしょう。",
-      "１３日は、高気圧に緩やかに覆われますが、上空の寒気や気圧の谷の影響を受ける見込みです。このため、曇りで昼前から晴れるでしょう。伊豆諸島では、雨で雷を伴う所がある見込みです。"
+      "本州付近は高気圧に覆われていますが、関東甲信地方は湿った空気の影響を受けています。",
+      "東京地方は、曇りとなっています。",
+      "１３日は、高気圧に緩やかに覆われますが、低気圧が東海道沖を東へ進む見込みです。このため、曇りで昼前から晴れるでしょう。伊豆諸島では、雨で雷を伴う所がある見込みです。",
+      "１４日は、高気圧に緩やかに覆われますが、低気圧が伊豆諸島付近から関東の東に進む見込みです。このため、晴れ時々曇りとなるでしょう。伊豆諸島では、雨で雷を伴う所がある見込みです。"
     ],
-    "summary": "本州付近は高気圧に覆われていますが、関東甲信地方は湿った空気の影響を受けている所があります。...",
+    "summary": "本州付近は高気圧に覆われていますが、関東甲信地方は湿った空気の影響を受けています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=130000"
   },
   "disaster_news": {
@@ -1445,7 +1448,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 04:07:10 JST"
+    "last_updated": "2026-11-13 04:58:36 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1466,10 +1469,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "CmPqfbFLMv4",
+        "video_id": "MJLbtg0v6Uw",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/CmPqfbFLMv4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=CmPqfbFLMv4"
+        "embed_url": "https://www.youtube.com/embed/MJLbtg0v6Uw?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=MJLbtg0v6Uw"
       },
       {
         "id": "stream_tbsnews",
@@ -1499,10 +1502,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "MbDB6WPhuHU",
+        "video_id": "lWxpsCW8rsg",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/MbDB6WPhuHU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=MbDB6WPhuHU"
+        "embed_url": "https://www.youtube.com/embed/lWxpsCW8rsg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=lWxpsCW8rsg"
       },
       {
         "id": "stream_fnnnews",

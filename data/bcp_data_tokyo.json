@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 22:11:38",
+  "timestamp": "2026-11-12 22:52:09",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -216,10 +216,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -265,10 +265,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
           "濃霧注意報"
         ],
-        "summary": "霜注意報、濃霧注意報",
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -314,14 +313,16 @@
     "notice_items": []
   },
   "transit": {
-    "status": "NORMAL",
-    "text": "全線平常運行中",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "status": "ALERT",
+    "text": "運行支障あり（在来線: 武蔵野線）",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（武蔵野線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "武蔵野線"
+    ],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
@@ -429,19 +430,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/12 22:51",
+          "text": "しかも皮肉なことに前回の大規模通信 START 障害 END があった後にとられた対策という…↓ 2022年7月に発生したKDDI（ START au END ..."
+        },
+        {
+          "time": "11/12 22:40",
+          "text": "START au END 繋がらないな、 START 障害 END は出てないけど"
+        },
         {
           "time": "11/12 22:05",
           "text": "START au END くん通信 START 障害 END おきてなーい？"
-        },
-        {
-          "time": "11/12 17:11",
-          "text": "START au END ひかり START 障害 END ？今夜、繋がりにくい💦"
-        },
-        {
-          "time": "11/12 14:48",
-          "text": "@Nicotama222 確かにそうかも。全部同じキャリアだと START 障害 END のときに家族全員詰むの怖いよね。 START au END の品質はい..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -452,8 +453,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/12 22:51",
+          "text": "しかも皮肉なことに前回の大規模通信 START 障害 END があった後にとられた対策という…↓ 2022年7月に発生した START KDDI END （au..."
+        },
         {
           "time": "11/12 09:13",
           "text": "「auと同じなら安心」で、家族の連絡手段まで同じ回線にまとめてしまうから。 2022年7月、61時間25分に及んだ START KDDI END の通信 STA..."
@@ -461,10 +466,6 @@
         {
           "time": "11/12 03:55",
           "text": "ドコモは今の大規模通信 START 障害 END の前からずっと違和感のある回線だったんだ Wi-Fiもプツプツ切断されることもあったり変なんだよな 基地局は相..."
-        },
-        {
-          "time": "11/12 00:13",
-          "text": "@hiki5G 国営企業がそれに胡座かいて、今や基地数は START kddi END や後発のsbにも優に抜かれ、通信 START 障害 END 連発。惨めよ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -478,16 +479,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/12 22:40",
+          "text": "START au繋がらない END な、障害は出てないけど"
+        },
+        {
           "time": "11/12 21:50",
           "text": "ドコモ糞すぎる 都心部で START 繋がらない END の致命的すぎる 乗り換えたいけどSBと START au END はどっちがマシなんだろうか"
         },
         {
           "time": "11/12 20:35",
           "text": "START au END のWiFi、昨晩から START 繋がらない END んだが"
-        },
-        {
-          "time": "11/12 17:11",
-          "text": "START au END 月曜から START 繋がらない END よ。 繋がってもメチャ遅い。 今までこんな事なかったのにな。 何か起きてるのかな？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -537,6 +538,38 @@
     "disaster_count": 7,
     "articles": [
       {
+        "title": "「重いお言葉を…」愛子さま、犯罪被害者支援イベントにご臨席…災害支援から「心のケア」へ広げられた新たな一歩(週刊女性PRIME)",
+        "summary": "立冬を過ぎ、厳しい冷え込みのなか、愛子さまは凛としたご様子で会場へと足を進められた。11月9日、愛子さまがご臨席されたのは、警察庁などが主催する「こころをつなぐ国民イベント2026」だ。【写真】真剣な",
+        "pub_date": "11/13 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/67938fb66f0015847c2420266ac11513d96b596f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "京王線南平駅で人身事故、男性死亡　東京・日野市　1時間にわたって運転見合わせ(産経新聞)",
+        "summary": "13日午前0時20分ごろ、東京都日野市南平の京王線南平駅構内で、進入してきた新宿発京王八王子行きの普通電車に男性がはねられた。駆け付けた消防隊員がその場で死亡を確認した。警視庁日野署によると、男性は都",
+        "pub_date": "11/13 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/cc70a1448b97b8b2e656596ee5df84df5b236e0b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "山形で火災1人死亡、3人と連絡取れず(共同通信)",
+        "summary": "山形県警によると、13日午前2時半ごろ、同県寒河江市の建物から炎が出ていると、近隣住民から110番があった。建物内から1人の遺体が見つかった。3人暮らしで、いずれとも連絡が取れていない。",
+        "pub_date": "11/13 07:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/4f6466d71224bd86b9deec855bc9de0d6709e4bb?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "日産の救世主は会社を吸い尽くす｢独裁者｣に…350億円の被害を残して逃亡したゴーンが変貌した決定的な契機(プレジデントオンライン)",
+        "summary": "良い企業と、そうでない企業はどう見分ければいいのか。『独裁者の手口』(PHP新書)を書いた愛知大学の大澤傑准教授は「国家と同じく独裁者が率いる企業の末路も悲惨になることが多い。企業を見極めるには、組織",
+        "pub_date": "11/13 07:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/7ee31fef9097c939d37d706834563c469156dc27?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "〈「ウチの子いじめるな」と教室乱入ビンタ事件〉「当分学校に来られない」被害児童が欠席か…「侵入者が児童を不安にさせた」学校の通知に“暴行”の記載なしで戸惑う保護者も≪名古屋≫(集英社オンライン)",
         "summary": "名古屋市内の市立小学校で、40代の父親が息子の同級生2人を平手打ちした“事件”。集英社オンラインが報じた後、学校に子どもを通わせる保護者たちから匿名で情報が相次いで寄せられた。その中には、被害児童の事",
         "pub_date": "11/13 07:00 JST",
@@ -561,103 +594,71 @@
         "is_disaster": true
       },
       {
-        "title": "京王線で人身事故 運転再開(レスキューナウニュース)",
-        "summary": "南平駅で発生した人身事故の影響で、京王線は高幡不動～京王八王子駅間の運転を見合わせていましたが、01:25頃、運転を再開しました。なお、ダイヤが乱れています。",
-        "pub_date": "11/13 01:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/ed39a477a32c11a1641a37d1ebf6bc6c57e9d006?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "広島・福山市3人死亡火災　現住建造物等放火容疑で住人の32歳長男を逮捕　警察(テレビ朝日系（ANN）)",
-        "summary": "広島県福山市で3人が死亡した住宅火災で、この家に住む32歳の長男が放火の疑いで逮捕されました。 作業員の佐藤優容疑者（32）は11日午後11時55分ごろ、自宅の一室に火を付けて全焼させた疑いが持たれて",
-        "pub_date": "11/13 01:13 JST",
-        "link": "https://news.yahoo.co.jp/articles/06195d3a2d3a919771d2542e2ba9c927f5242102?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "京王線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "00:22頃、南平駅で発生した人身事故の影響で、京王線は高幡不動～京王八王子駅間の運転を見合わせています。",
-        "pub_date": "11/13 00:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/c6e94ce8188dfa2c033c2a13ea40a07b2f517b06?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "“アラーム放置”で意識障害に…愛媛大学病院が医療事故を発表(テレビ朝日系（ANN）)",
-        "summary": "愛媛大学医学部附属病院は、入院患者に適切な対応を取らず、重い意識障害に陥った医療事故があったとして陳謝しました。病院側は、心電図のアラームに対する不適切な対応が原因だとしています。【画像】“アラーム放",
-        "pub_date": "11/13 00:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/d02b74db8634020eecdd352f9a5be67da40bfc84?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【スクープ】『高田馬場ライバー殺人』婚約者の悲痛告白「最上あいとのささやかだけど幸せだった日々」(FRIDAY)",
-        "summary": "「すべてを終わらそう」としたあの日から事件当日の朝、ライバーの「最上あい」こと佐藤愛里さん(享年22)はいつものように自宅を出たという。【写真】愛里さんとの”3人家族”の一員だった愛犬を連れて事件現場",
-        "pub_date": "11/13 07:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/3b07d8bbba52b7588c37a9382a06a0235f9884d4?source=rss",
+        "title": "新宿区長選挙は新人3名と現職の戦い！11月15日投票　東京都(選挙ドットコム)",
+        "summary": "11月8日に告示された新宿区長選挙には、新人の山片賢一（やまがた・けんいち）氏（59）、新人の大門幸恵（だいもん・さちえ）氏（57）、日本共産党が推薦・社会民主党が支持する新人の黒田朝陽（くろだ・あさ",
+        "pub_date": "11/13 07:48 JST",
+        "link": "https://news.yahoo.co.jp/articles/8ba70209a926801ed9c3facae7efeeadba939e9d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "水原一平　いつでも、どこでも一緒だった…大谷翔平の相棒「裏切りのルーツ」(FRIDAY)",
-        "summary": "今年最後の試合で放ったホームランは、来季の復調の兆しを感じさせる一打だった。現地時間10月15日に行われたブルワーズとのナ・リーグ優勝決定シリーズ第4戦の2打席目。振り抜いた打球が柵越えを確信すると、",
-        "pub_date": "11/13 07:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/25e537a1ab99aa509c7b7fb0b1239192b42d6b3a?source=rss",
+        "title": "「暇つぶしでいたずらしてやろうと…」警察への迷惑通報で少年（17）を書類送致(CBCテレビ)",
+        "summary": "「ショウリンジだ、かかってこい」などと110番通報し、警察の業務を妨害したとして、岐阜県各務原市の少年（17）が、書類送致されました。【写真を見る】「暇つぶしでいたずらしてやろうと…」警察への迷惑通報",
+        "pub_date": "11/13 07:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/8910256bcc7aa39e6d27898f812d1d6de79d58c6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "関東でも広がるウチナーンチュの絆　食と祭りで次世代へ繋ぐ沖縄の誇り(FNNプライムオンライン)",
-        "summary": "10月31日、沖縄にルーツを持つ人や沖縄を愛する人たちが集うイベントが関東各地で開催された。東京都内の沖縄料理店では県産野菜の魅力を伝える食事会が、神奈川県横浜市鶴見区では地域に根差した大規模な祭りが",
-        "pub_date": "11/13 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/8a05af94a3fd0136974c61a6ee603e64292c60f4?source=rss",
+        "title": "「私をクビにしてください」小渕優子氏目を潤ませ…消費減税めぐる更迭の舞台裏“暴露” 小渕氏に党幹部激怒「まさか本人の口から」テレビ朝日政治部記者が解説(ABEMA TIMES)",
+        "summary": "消費減税法案をめぐり自民党内に亀裂が生じている。参議院で消費減税の関連法案の審議が始まる中、衆議院での採決時に石破茂前総理ら4人が採決を棄権し、戒告処分を受けた。さらに、小渕優子元経産大臣は更迭される",
+        "pub_date": "11/13 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/de965c360b819fc2392a9f429bc6fa4e8939a6e2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "《男児4人ひき逃げした中国籍の男》「日本の法律を知らない」「お父さんとしてのチャンスをください」執行猶予中に３度の無免許運転を繰り返し実刑判決…裁判所は「常習性が認められる」(集英社オンライン)",
-        "summary": "2025年5月、埼玉県三郷市で飲酒運転の末に男子児童4人をはね、逃走した鄧洪鵬（とう・こうほう）被告（44）。執行猶予付きの判決から約半年後、再び無免許運転を繰り返した男に実刑判決が下された。11月1",
-        "pub_date": "11/13 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/d38d17e6620e16d7934884a6b8753bf7af311b4b?source=rss",
+        "title": "また自民との連立に含み…右に行ったり左に行ったり「公明党」を創価学会員はどう思っているのか　中道惨敗には「私たちは何も悪くないのに…」(AERA DIGITAL)",
+        "summary": "2026年8月31日、中道改革連合、立憲民主党、公明党の3党は合流を断念することを確認し、中道は9月9日に党の分裂を正式決定した。その後、中道に所属していた公明党出身の衆院議員28人は全員が公明党に復",
+        "pub_date": "11/13 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/a982d22a95e847241f77fdc68f5f7889ea368d9a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "《茨城・唇縫いつけ》「オラ早くしろ」「やれっつってんの」同居女性に自分の唇を縫わせ“やり直し”もさせた50歳女の初公判…戦慄の暴行音声(集英社オンライン)",
-        "summary": "「お願いしますじゃねえよ。やれっつってんの」――。茨城県古河市で同居女性に自分の唇を縫うよう強要し、暴行を加えてけがを負わせたとして、強要と傷害の罪に問われた桜井政恵被告（50）。11月11日に水戸地",
-        "pub_date": "11/13 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/28ea2fe3c195614b13acba36ba5d51516d15c26e?source=rss",
+        "title": "AIで作業を効率化してもなぜ疲れる？　増え続ける「決断」、必要なのは短い仮眠(AERA DIGITAL)",
+        "summary": "AIに作業を任せれば、仕事は早く終わる。楽になり、自由な時間や睡眠も増えるはずだった。ところが、現実には「猛烈な疲れ」を感じる人がいる。作業が減る一方で、人間が担う「決断」は増えていた。AERA 20",
+        "pub_date": "11/13 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/cbe242dbe6b9a321e40ead19525de825f39934a2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「紙切れの条約」が世界を変えた　戦争を違法にした1928年の不戦条約、その本当の意味(AERA DIGITAL)",
-        "summary": "トランプ政権による国際刑事裁判所（ICC）への敵視と国際法を無視する言動、ロシアによるウクライナ侵攻。そうした現実に国際法の観点から鋭く切り込む米イエール大学教授のオーナ・ハサウェイは、現在、米国国際",
-        "pub_date": "11/13 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/17a4417725457f25d6b8b65f07c38ea185032bc6?source=rss",
+        "title": "“昭和の野党”共産党が若者に“ラブコール”　22年ぶりの綱領改定で「自由」掲げ、組織は変われるか(AERA DIGITAL)",
+        "summary": "日本共産党が22年ぶりの大幅な綱領改定に乗り出した。「自由」を前面に掲げ、若い世代の支持拡大をめざす。選挙での退潮が続くなか、党は生まれ変われるのか。『続・希望の共産党 再生を願って』（あけび書房）の",
+        "pub_date": "11/13 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/b20ab6d69a083477570f1140981c8ceb284f1eff?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "中道・小熊議員がSNSで離党報告も「普段の政治姿勢が見える」と有権者から不評の離党届の“文字”(週刊女性PRIME)",
-        "summary": "渡辺創衆院議員1人を残し、議員全員が離党した中道改革連合。同党の政党交付金の使途について世間から猛批判が巻き起こっている中、離党を報告した前衆議院議員に注目が集まっている。【写真】「相当酷いですよ」有",
-        "pub_date": "11/13 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/92de3da78962fd8b9f447a3e9c3c6fc2c554474c?source=rss",
+        "title": "【動画】13日の天気 - 日差し暖か 穏やかな小春日和　一日の気温差大　東北・北陸・近畿は雷雨に注意（13日7時更新）(ウェザーマップ)",
+        "summary": "きょう（金）は晴れる所が多く、関東から西を中心に日中の気温が20℃以上となるでしょう。日差しが暖かく、穏やかな小春日和になりそうです。一日の気温差が大きいので、服装選びにお気をつけください。ただ、東北",
+        "pub_date": "11/13 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/37dc4053eb18322506b15e602c527e7061ec76ba?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "14日の天気（西日本）(共同通信)",
-        "summary": "◆大阪 曇り◆京都 曇り◆広島 曇りのち雨◆高松 曇り◆福岡 雨◆鹿児島 曇りのち一時雨◆那覇 曇りのち一時雨",
-        "pub_date": "11/13 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/d5cb306bc36f63a94194677cd5c379a98c8ab007?source=rss",
+        "title": "79歳の母親を殺害、容疑で自称アルバイトの女を逮捕　兵庫・姫路(産経新聞)",
+        "summary": "母親を刃物のようなもので刺して殺害したとして、兵庫県警姫路署は12日、殺人容疑で同県姫路市夢前町の自称アルバイトの女（45）を逮捕した。「腹と首、腕を刺した」と話しているが、容疑については「分からない",
+        "pub_date": "11/13 07:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/ee01a31344e86ae6dda30d002946a26367369213?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 07:11:22 JST"
+    "last_updated": "2026-11-13 07:51:52 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -678,10 +679,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "MJLbtg0v6Uw",
+        "video_id": "5939bzDlieg",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/MJLbtg0v6Uw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=MJLbtg0v6Uw"
+        "embed_url": "https://www.youtube.com/embed/5939bzDlieg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=5939bzDlieg"
       },
       {
         "id": "stream_tbsnews",

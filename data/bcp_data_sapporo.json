@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 01:57:39",
+  "timestamp": "2026-11-12 02:40:10",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -191,10 +191,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "強風注意報"
+          "強風注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、強風注意報",
+        "summary": "強風注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -292,10 +292,10 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 5 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/12 01:41",
@@ -344,16 +344,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/12 02:24",
+          "text": "楽天モバイルは電波が START 繋がらない END のが前提で、スマホはDualSIMで、楽天はデータ通信OFF、mineoの START au END やd..."
+        },
+        {
           "time": "11/12 01:09",
           "text": "START au END の問い合わせの電話対応悪すぎて腹立つww電話だるいなら全部ネットでできるようにしろって感じ〜こっちは15分以上 START 繋がらない..."
         },
         {
           "time": "11/11 23:27",
           "text": "ﾓﾊﾞｲﾙﾙｰﾀｰ再起動したりSiM挿し直しやら諸々やってもWiFi START 繋がらない END …。困ったな…。 ｼｮｯﾌﾟ持ち込んだら何かしてくれるかな..."
-        },
-        {
-          "time": "11/11 22:03",
-          "text": "最近、ドコモ回線が非常に START 繋がらない END 、繋がっても遅いので、ソフトバンク回線の使い切りeSIMを試しに購入して設定したんですよ。そしたらね…..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -401,11 +401,35 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 13,
+    "disaster_count": 12,
     "articles": [
       {
-        "title": "【交通情報】JR中央線 高蔵寺〜土岐市 上限線で運転見合わせ 人身事故のため(CBCテレビ)",
-        "summary": "JR東海によりますと、「中央線」は人身事故のため、高蔵寺〜土岐市の間で運転を見合わせています（12日午前10時50分現在）。【写真を見る】【交通情報】JR中央線 高蔵寺〜土岐市 上限線で運転見合わせ",
+        "title": "「部下の生殺与奪権を握っていた」元大阪地検トップ性暴力事件、被害女性が法廷で語った上下関係と事件当夜(弁護士ドットコムニュース)",
+        "summary": "「検察は上意下達。検事正は部下の生殺与奪権を握っていた」大阪地検のトップだった元検事正から性的暴行を受けたと訴える女性元検事のAさんは、法廷でこう語った。元検事正の北川健太郎被告人（67）が、当時部下",
+        "pub_date": "11/12 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/510a7c46cd674452bea61f935a4d1db1bd04293c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「身を引き締メンディーして」関口メンディーさん一日消防署長(テレビ朝日系（ANN）)",
+        "summary": "秋の火災予防運動に合わせて関口メンディーさんが一日消防署長に就任し、歌舞伎町の商業ビルでの建物火災を想定した救出訓練などを実施しました。 11月9日から15日までの1週間は秋の火災予防運動週間です。",
+        "pub_date": "11/12 11:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/e878c090c965d024c74df69ae4aac500a54474a7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "〔JR東海〕中央本線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "多治見駅で発生した人身事故の影響で、中央本線は多治見～土岐市駅間の運転を見合わせていましたが、11:10頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/12 11:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/c82d96325c74ab5dc076ead4ce7256de1afac590?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【交通情報】JR中央線 高蔵寺〜土岐市 上下線で運転再開 人身事故のため 一時運転見合わせ(CBCテレビ)",
+        "summary": "JR東海によりますと、「中央線」は人身事故のため、高蔵寺〜土岐市の間で運転を見合わせていましたが、12日午前11時10分に運転を再開しました。【写真を見る】【交通情報】JR中央線 高蔵寺〜土岐市 上下",
         "pub_date": "11/12 10:54 JST",
         "link": "https://news.yahoo.co.jp/articles/10e31736acab4286434d45b4db1a04d8d9927fa2?source=rss",
         "category": "国内・気象防災",
@@ -421,15 +445,15 @@
       },
       {
         "title": "〔JR東海〕中央本線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "10:22頃、多治見駅で発生した人身事故の影響で、中央本線は高蔵寺～土岐市駅間の運転を見合わせています。",
+        "summary": "10:22頃、多治見駅で発生した人身事故の影響で、中央本線は多治見～土岐市駅間の運転を見合わせています。",
         "pub_date": "11/12 10:35 JST",
         "link": "https://news.yahoo.co.jp/articles/0f43e44881a590a0b15765aa043441c3859ba981?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "【交通情報】JR紀勢線 亀山駅〜津駅 上下線で運転見合わせ 線路の設備確認のため(CBCテレビ)",
-        "summary": "JR東海によりますと、線路の設備確認のため、紀勢線の亀山駅〜津駅の上下線で運転を見合わせています（12日午前10時30分現在）。【写真を見る】【交通情報】JR紀勢線 亀山駅〜津駅 上下線で運転見合わせ",
+        "title": "【交通情報】JR紀勢線 亀山駅〜津駅 上下線で運転再開 線路の設備確認のため一時運転見合わせ(CBCテレビ)",
+        "summary": "JR東海によりますと、線路の設備確認のため、紀勢線の亀山駅〜津駅の上下線で運転を見合わせていましたが、12日午前11時6分に運転を再開しました。【写真を見る】【交通情報】JR紀勢線 亀山駅〜津駅 上下",
         "pub_date": "11/12 10:33 JST",
         "link": "https://news.yahoo.co.jp/articles/200ab61647f14d35de135796707fcc54a9bdb971?source=rss",
         "category": "国内・気象防災",
@@ -476,55 +500,31 @@
         "is_disaster": true
       },
       {
-        "title": "広島で住宅火災、3人と連絡取れず(共同通信)",
-        "summary": "広島県警や消防によると、11日午後11時55分ごろ、同県福山市の住宅が燃えていると119番があった。住宅には家族5人がいたとみられ、母と息子、娘の3人と連絡が取れていない。父ともう一人の息子は病院に搬",
-        "pub_date": "11/12 08:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/e11472f89e0dc34e834a90c76c2bb25f1e0c95f8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "火災予防を！関口メンディーさん一日署長(ABEMA TIMES)",
-        "summary": "秋の火災予防運動に合わせて、関口メンディーさんが1日消防署長に就任し、歌舞伎町の商業ビルでの建物火災を想定した救出訓練などを実施しました。【映像】訓練に参加する関口メンディーさん 11月9日から15日",
-        "pub_date": "11/12 08:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/b4cd03932db599c2b52fe3cd0672097a560e473f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "富山市　住宅火災　焼け跡から1人の身元不明の遺体　住人の90歳の女性と連絡とれず(テレビ朝日系（ANN）)",
-        "summary": "富山市の住宅で火事があり、焼け跡から1人の身元不明の遺体が見つかりました。 この家に住む90歳の女性と連絡が取れていないということです。 11日午後11時15分ごろ富山市常盤台にある2階建ての住宅で｢",
-        "pub_date": "11/12 07:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/dd49ef824784bf82dabc712e2b1f7aedcb206a85?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「地元の人間か」に「そうだ」…湯河原放火殺人と6時間前の鉄パイプ襲撃 “手に靴下の男”は同一犯か、11年消えぬ住民の恐怖(ABEMA TIMES)",
-        "summary": "2015年4月、神奈川県湯河原町の住宅で火災が発生した。焼け跡から見つかったのは、住人の平井美江さん（当時66）の遺体。平井さんは寝室のベッドに横たわり、額には包丁が刺さっていた。頭部や顔には十数カ所",
-        "pub_date": "11/12 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/64fe5db618061676583cb59b9ad3fdb2c89c6425?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "人気漫画「キングダム」など窃盗か　32歳男逮捕　盗んですぐ買い取り店に持ち込んだか(テレビ朝日系（ANN）)",
-        "summary": "人気漫画｢キングダム｣などの漫画本を盗んだとして32歳の男が逮捕されました。 男は3000冊ほどを買い取り店に持ち込んでいたとみられています。 竹谷斗夢容疑者(32)は4月、東京・武蔵野市の書店で漫画",
-        "pub_date": "11/12 10:56 JST",
-        "link": "https://news.yahoo.co.jp/articles/a6115e4772741bd1492aec2080e20ba34492f100?source=rss",
+        "title": "【直撃取材】「故意ではなかった」鳥人間コンテスト7度優勝の東北大チームが危険飛行で失格…“執行猶予付き出場停止”の真相を当事者と主催者にきいた(集英社オンライン)",
+        "summary": "1977年に始まった「鳥人間コンテスト」。工夫を凝らしたさまざまな機体が琵琶湖の湖上を滑空する姿はテレビでも人気を博し、長年親しまれてきた。そうしたなか、7月25、26日に行なわれた2026年大会では",
+        "pub_date": "11/12 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/05957299599a7ecca11b59f053281b6fad71cf0c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "京都・亀岡市で今季初の鳥インフルエンザ(ABEMA TIMES)",
-        "summary": "京都府亀岡市の農場で鳥インフルエンザウイルスに感染した疑いのあるニワトリが確認された問題で、府はPCR検査の結果、陽性が確定したと発表しました。国内の農場での感染確定は今季初めてです。【映像】京都で今",
-        "pub_date": "11/12 10:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/a6dc38e925a272d685e490ba827d27daa47571bc?source=rss",
+        "title": "財務省が「直美」防止案を提言…美容クリニックからの“負担金徴収”で解決？若手医師の流出で起きる医療崩壊だけじゃない“深刻な問題”を識者が指摘「経験浅いまま人の体にメスを」(ABEMA TIMES)",
+        "summary": "2年間の臨床研修を修了したばかりの若い医師が、保険診療や地域の総合病院を経ずに直接美容医療の分野へと進む、いわゆる「直美」の増加が社会的な問題となっている。【映像】「直美」の問題点＆防止案の詳細 ニュ",
+        "pub_date": "11/12 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/93e2eb0915965ca5a54010830a87f3a3e2175f4c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "自慢のボディーがあだに…！ご当地キャラがフェンスに挟まり立ち往生→弱気な王様に「そのままがいい」「挟まっている王様もかわいい」と励ましの声(ABEMA TIMES)",
+        "summary": "ご当地キャラクターが、“自慢のボディー”ゆえにまさかの立ち往生してしまう姿がSNSで話題を集めている。【映像】フェンスに挟まり立ち往生するご当地キャラ 投稿したのは、富山県入善町のPRを日々頑張ってい",
+        "pub_date": "11/12 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/f6ddc20bab576c2af4e8ff3d1ce459954997d12b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-12 10:57:25 JST"
+    "last_updated": "2026-11-12 11:39:55 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -556,10 +556,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "4HYfpyWpuo4",
+        "video_id": "PDnJSpLml1A",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/4HYfpyWpuo4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=4HYfpyWpuo4"
+        "embed_url": "https://www.youtube.com/embed/PDnJSpLml1A?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=PDnJSpLml1A"
       },
       {
         "id": "stream_ntvnews",
@@ -567,10 +567,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "L5VN_-Hc68Q",
+        "video_id": "R1PD9Wgt0QA",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/L5VN_-Hc68Q?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=L5VN_-Hc68Q"
+        "embed_url": "https://www.youtube.com/embed/R1PD9Wgt0QA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=R1PD9Wgt0QA"
       },
       {
         "id": "stream_annnews",

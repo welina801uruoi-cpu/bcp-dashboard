@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 21:28:19",
+  "timestamp": "2026-11-12 22:12:30",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -179,10 +179,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 3地域】大分、熊本、長崎（警報なし）",
+    "summary": "【注意報発表: 2地域】大分、熊本（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 3,
+    "notice_count": 2,
     "total_prefs": 7,
     "pref_details": [
       {
@@ -248,13 +248,11 @@
         "code": "42",
         "name": "長崎県",
         "short_name": "長崎",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "強風注意報"
-        ],
-        "summary": "強風注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -370,8 +368,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/12 22:05",
+          "text": "START au END くん通信 START 障害 END おきてなーい？"
+        },
         {
           "time": "11/12 17:11",
           "text": "START au END ひかり START 障害 END ？今夜、繋がりにくい💦"
@@ -379,10 +381,6 @@
         {
           "time": "11/12 14:48",
           "text": "@Nicotama222 確かにそうかも。全部同じキャリアだと START 障害 END のときに家族全員詰むの怖いよね。 START au END の品質はい..."
-        },
-        {
-          "time": "11/12 14:13",
-          "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -419,16 +417,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/12 21:50",
+          "text": "ドコモ糞すぎる 都心部で START 繋がらない END の致命的すぎる 乗り換えたいけどSBと START au END はどっちがマシなんだろうか"
+        },
+        {
           "time": "11/12 20:35",
           "text": "START au END のWiFi、昨晩から START 繋がらない END んだが"
         },
         {
           "time": "11/12 17:11",
           "text": "START au END 月曜から START 繋がらない END よ。 繋がってもメチャ遅い。 今までこんな事なかったのにな。 何か起きてるのかな？"
-        },
-        {
-          "time": "11/12 16:08",
-          "text": "タイムアウトエラーか。私も人間チェックで経験あるわ。地下行くとpovoですらそうなる(池袋のメロブ)。 調べたらNURO Mobileは3キャリア全部のMVNO..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -477,6 +475,30 @@
     "disaster_count": 7,
     "articles": [
       {
+        "title": "〈「ウチの子いじめるな」と教室乱入ビンタ事件〉「当分学校に来られない」被害児童が欠席か…「侵入者が児童を不安にさせた」学校の通知に“暴行”の記載なしで戸惑う保護者も≪名古屋≫(集英社オンライン)",
+        "summary": "名古屋市内の市立小学校で、40代の父親が息子の同級生2人を平手打ちした“事件”。集英社オンラインが報じた後、学校に子どもを通わせる保護者たちから匿名で情報が相次いで寄せられた。その中には、被害児童の事",
+        "pub_date": "11/13 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/4ac81790720120b3bf51cec2a09c0a59b1cd6383?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "交差点を右折してきた軽自動車と衝突 バイクに乗っていた22歳の男性を搬送も死亡 三重・明和町(東海テレビ)",
+        "summary": "12日夜、三重県明和町の信号のある交差点でバイクと軽自動車が衝突する事故があり、バイクに乗っていた22歳の男性が死亡しました。 警察によりますと12日午後7時55分ごろ、明和町佐田の県道で交差点を北進",
+        "pub_date": "11/13 06:49 JST",
+        "link": "https://news.yahoo.co.jp/articles/6945e083f2a0f8b177ebe1a7fa619eeab4028ce4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "近畿や北陸、東北は昼ごろまで急な雨や落雷に注意　今日13日(金)の天気(日本気象協会tenki.jp)",
+        "summary": "今日13日(金)は高気圧に覆われて晴れる所が多いですが、近畿や北陸、東北の日本海側では昼ごろにかけてにわか雨の所があるでしょう。急な強い雨や落雷、竜巻などの激しい突風にご注意ください。",
+        "pub_date": "11/13 06:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/32627089e6eec4915f2ffe019c5932d962c8ddd3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "京王線で人身事故 運転再開(レスキューナウニュース)",
         "summary": "南平駅で発生した人身事故の影響で、京王線は高幡不動～京王八王子駅間の運転を見合わせていましたが、01:25頃、運転を再開しました。なお、ダイヤが乱れています。",
         "pub_date": "11/13 01:40 JST",
@@ -509,95 +531,71 @@
         "is_disaster": true
       },
       {
-        "title": "東京・墨田区 マンションの一室で火事　焼け跡から男性遺体(テレビ朝日系（ANN）)",
-        "summary": "東京・墨田区のマンションの一室で火事があり、焼け跡から男性の遺体が見つかりました。 12日午後5時すぎ、墨田区石原で「ガス警報機が鳴動中。焦げ臭い」とマンションの管理会社から通報がありました。 警視庁",
-        "pub_date": "11/12 23:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/25e9758bbb0f69180118dbc98d8300ee924583f1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "広島3人死亡火災で住人逮捕、寝たばこか(共同通信)",
-        "summary": "広島県福山市で3人の遺体が見つかった住宅火災で、県警は12日、現住建造物等放火の疑いで住人の作業員佐藤優容疑者（32）を逮捕した。県警は寝たばこが原因の可能性もあるとみて調べている。",
-        "pub_date": "11/12 23:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/229aae8294da08c393626f82ef797933ed75df90?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "兵庫・宍粟の住宅火災 遺体は住人女性と判明(産経新聞)",
-        "summary": "今月4日、宍粟市一宮町西深の住宅が全焼し、焼け跡から1人の遺体が見つかった火災で、兵庫県警宍粟署は12日、遺体の身元について住人の女性（77）と判明したと発表した。同署によると、現場は木造2階建て。住",
-        "pub_date": "11/12 22:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/da324a46a16facee8bd8c54847f6648fe6b1afe3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "福岡市長選挙は新人13名の戦い！11月15日投票　福岡県(選挙ドットコム)",
-        "summary": "11月1日に告示された福岡市長選挙には、政治団体「こころ党」の荒牧明楽（あらまき・あきら）氏（41）、日本保守党の森健太郎（もり・けんたろう）氏（48）、無所属の西脇寛樹（にしわき・ひろき）氏（35）",
-        "pub_date": "11/13 06:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/fbd5cc2819a33746c15418d6deca09d72c8dc1f9?source=rss",
+        "title": "コストコでソムリエが見つけた、おすすめワイン7選（海外）(BUSINESS INSIDER JAPAN)",
+        "summary": "認定ソムリエの私にとって、ワインは仕事そのもの。なかでも大好きなスパークリングワインを買うのに、コストコはおすすめの場所だ。コストコには、おいしいプロセッコやカバに加え、アンリオのような高級ヴィンテー",
+        "pub_date": "11/13 07:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/1292b3f33eef929eb3869daa5ccc031a51d51425?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "小説を書いて｢いきなり一等賞｣ではなかった…宇野千代が\"デビュー前\"に書いた原稿用紙4枚の｢未完の小説｣(プレジデントオンライン)",
-        "summary": "NHK「ブラッサム」では、珠(石橋静河)が新聞の募集記事を見て書いた小説が、一等賞に選ばれるシーンが描かれている。モデルとなった史実の宇野千代は、どのような経緯で応募することになったのか。ルポライター",
-        "pub_date": "11/13 06:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/e16e4dddb5cefd8d462842919a842acba5b9e54d?source=rss",
+        "title": "最低でも1000万円弱からの高級クルーズ船…カンボジアで突然下船を告げられた4組の夫婦たち（海外）(BUSINESS INSIDER JAPAN)",
+        "summary": "57歳のジョエル・グライフは、居住型クルーズ船「ヴィラ・ヴィ・オデッセイ（Villa Vie Odyssey）」に乗り始めたばかりだった。10月1日に乗船した際、荷物は必要最小限に抑えていた。【全画像",
+        "pub_date": "11/13 07:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/02a1dde8921bae90e7d799ae5bf754949a9761a7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「謝り方を指導したのに、ひどかった」就任早々に辞任した農水相・簗和生氏の悪評〈高市首相にこうして見限られた〉(文春オンライン)",
-        "summary": "政界の裏話を詳報する名物連載「赤坂太郎」。今回は、 前農水大臣の簗和生氏 が辞任に到るまでの経緯を辿った（文中敬称略）。【画像】国会で追及される簗農水相を見つめる高市首相◆◆◆",
-        "pub_date": "11/13 06:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/e5d7fc5ccce2c68d6ea504c8b97c6765c2535176?source=rss",
+        "title": "【スクープ】『高田馬場ライバー殺人』婚約者の悲痛告白「最上あいとのささやかだけど幸せだった日々」(FRIDAY)",
+        "summary": "「すべてを終わらそう」としたあの日から事件当日の朝、ライバーの「最上あい」こと佐藤愛里さん(享年22)はいつものように自宅を出たという。【写真】愛里さんとの”3人家族”の一員だった愛犬を連れて事件現場",
+        "pub_date": "11/13 07:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/3b07d8bbba52b7588c37a9382a06a0235f9884d4?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【公明党連立離脱から1年】「今の状態が続けば自民党との絆も薄れていく。そこに危機感を抱いている」連立のために今、公明党幹部が考えている“秘策”(デイリー新潮)",
-        "summary": "衆院選で中道改革連合が大敗を喫する一方、旧公明党系の議員は改選前の21人から28人へと議席を増やした。対照的に旧立民系は144人から21人へ激減。両党の合流協議が8月末に決裂し、公明党は独自の道を歩む",
-        "pub_date": "11/13 06:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/db46327f90a2d42ef891e0fc24e6f9b71938a023?source=rss",
+        "title": "水原一平　いつでも、どこでも一緒だった…大谷翔平の相棒「裏切りのルーツ」(FRIDAY)",
+        "summary": "今年最後の試合で放ったホームランは、来季の復調の兆しを感じさせる一打だった。現地時間10月15日に行われたブルワーズとのナ・リーグ優勝決定シリーズ第4戦の2打席目。振り抜いた打球が柵越えを確信すると、",
+        "pub_date": "11/13 07:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/25e537a1ab99aa509c7b7fb0b1239192b42d6b3a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "\"フツーの会社員\"が凶悪犯罪に加担!!　「副業トクリュウ」の衝撃(週プレNEWS)",
-        "summary": "面接の不採用者をトクリュウに紹介――。世も末のような犯罪が、今の日本では平然と行なわれている。規模拡大によってこれまで以上に一般人を巻き込み始めたトクリュウの脅威について、元闇バイトリーダーと組織犯罪",
-        "pub_date": "11/13 06:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/72b2f2b89fcebb66036828f0598043a0d95f0ba8?source=rss",
+        "title": "関東でも広がるウチナーンチュの絆　食と祭りで次世代へ繋ぐ沖縄の誇り(FNNプライムオンライン)",
+        "summary": "10月31日、沖縄にルーツを持つ人や沖縄を愛する人たちが集うイベントが関東各地で開催された。東京都内の沖縄料理店では県産野菜の魅力を伝える食事会が、神奈川県横浜市鶴見区では地域に根差した大規模な祭りが",
+        "pub_date": "11/13 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/8a05af94a3fd0136974c61a6ee603e64292c60f4?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「シャドーAI」は企業にとって爆弾…情報漏洩のトラブル続出にどう向き合うべきか(デイリー新潮)",
-        "summary": "GMOへのサイバー攻撃、タイムズカーの顧客データ流出と、ITをめぐるトラブルが後を絶たない昨今。次なる脅威は、我々の生活に浸透し始めたAIに潜んでいるようだ。中でも警戒すべきは“シャドーAI”だという",
-        "pub_date": "11/13 06:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/d3cd64f2ee4ceaef1710ac8cfb73fb3b8fc2c9dc?source=rss",
+        "title": "《男児4人ひき逃げした中国籍の男》「日本の法律を知らない」「お父さんとしてのチャンスをください」執行猶予中に３度の無免許運転を繰り返し実刑判決…裁判所は「常習性が認められる」(集英社オンライン)",
+        "summary": "2025年5月、埼玉県三郷市で飲酒運転の末に男子児童4人をはね、逃走した鄧洪鵬（とう・こうほう）被告（44）。執行猶予付きの判決から約半年後、再び無免許運転を繰り返した男に実刑判決が下された。11月1",
+        "pub_date": "11/13 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/d38d17e6620e16d7934884a6b8753bf7af311b4b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【「赤い羽根」感謝と葛藤と】”職員の私用車を使っていた”育児院は「募金で公用車を買うことができた」しかし”使途不明金問題”で募金額は4割減に 大規模修繕の時期を前に募る不安〈北海道〉(FNNプライムオンライン)",
-        "summary": "使途不明金問題に揺れる「赤い羽根共同募金」。その影響か、10月の北海道内の募金額は4割減った。ただ、赤い羽根のサポートを必要としている人は今もいる。",
-        "pub_date": "11/13 06:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/73bf5d028fd84491002cfcc5cfd8f098bb3c3c3c?source=rss",
+        "title": "《茨城・唇縫いつけ》「オラ早くしろ」「やれっつってんの」同居女性に自分の唇を縫わせ“やり直し”もさせた50歳女の初公判…戦慄の暴行音声(集英社オンライン)",
+        "summary": "「お願いしますじゃねえよ。やれっつってんの」――。茨城県古河市で同居女性に自分の唇を縫うよう強要し、暴行を加えてけがを負わせたとして、強要と傷害の罪に問われた桜井政恵被告（50）。11月11日に水戸地",
+        "pub_date": "11/13 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/28ea2fe3c195614b13acba36ba5d51516d15c26e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "望月衣塑子氏と高橋洋一氏 まったく違う二人のよく似た間違い(デイリー新潮)",
-        "summary": "東京新聞の有名記者、望月衣塑子氏と批評家・内田樹氏の対談本『常識なき世界を生き延びるために』（朝日新聞出版）が、事実誤認というか「嘘」を指摘されて、謝罪とHP上の修正を経て、結局、販売中止ということに",
-        "pub_date": "11/13 06:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/533fb752ee837bc2a3b94c4b3176dc7e4c5a96cc?source=rss",
+        "title": "「紙切れの条約」が世界を変えた　戦争を違法にした1928年の不戦条約、その本当の意味(AERA DIGITAL)",
+        "summary": "トランプ政権による国際刑事裁判所（ICC）への敵視と国際法を無視する言動、ロシアによるウクライナ侵攻。そうした現実に国際法の観点から鋭く切り込む米イエール大学教授のオーナ・ハサウェイは、現在、米国国際",
+        "pub_date": "11/13 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/17a4417725457f25d6b8b65f07c38ea185032bc6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 06:28:15 JST"
+    "last_updated": "2026-11-13 07:12:28 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -662,10 +660,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "kGG1CaeQ9oM",
+        "video_id": "h7dD2rVTH7E",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/kGG1CaeQ9oM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=kGG1CaeQ9oM"
+        "embed_url": "https://www.youtube.com/embed/h7dD2rVTH7E?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=h7dD2rVTH7E"
       }
     ],
     "cameras": [

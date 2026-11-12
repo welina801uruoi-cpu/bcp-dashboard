@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 00:43:02",
+  "timestamp": "2026-11-12 01:56:55",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -180,10 +180,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 2地域】京都、和歌山（警報なし）",
+    "summary": "【注意報発表: 1地域】和歌山（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 2,
+    "notice_count": 1,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -212,13 +212,11 @@
         "code": "26",
         "name": "京都府",
         "short_name": "京都",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "濃霧注意報"
-        ],
-        "summary": "濃霧注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -266,15 +264,17 @@
     "notice_items": []
   },
   "transit": {
-    "status": "NORMAL",
-    "text": "全線平常運行中",
+    "status": "ALERT",
+    "text": "運行支障あり（新幹線: 山陽新幹線（その他））",
     "line_status": "NORMAL",
     "line_text": "全線平常運行中",
-    "shinkansen_status": "NORMAL",
-    "shinkansen_text": "全線平常運行中",
+    "shinkansen_status": "ALERT",
+    "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [],
-    "troubled_shinkansen": [],
+    "troubled_shinkansen": [
+      "山陽新幹線（その他）"
+    ],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
@@ -285,9 +285,9 @@
       },
       {
         "name": "山陽新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "09:20現在、ほぼ平常通り運転しています。（11月12日 9時20分掲載）",
+        "status": "ALERT",
+        "state": "その他",
+        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月12日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       }
     ],
@@ -343,22 +343,22 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 6 件です。",
       "recent_posts": [
         {
-          "time": "11/12 00:13",
-          "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
+          "time": "11/12 01:41",
+          "text": "11/11(水)18:30頃から START au END スマホ📱とＵＱモバイルが使えなくなって電話📞も出来なかった？ START 障害 END のニュースも..."
         },
         {
-          "time": "11/11 23:18",
-          "text": "@sngsn2939 通信 START 障害 END 厄介だねっ🥲 ぼくの会社は START au END だから START 障害 END 気づかなかった💦"
+          "time": "11/12 01:41",
+          "text": "@ketsuizum 通信 START 障害 END による補償はないですよ。いつだったか START au END とかソフトバンクの通信 START 障害 ..."
         },
         {
-          "time": "11/11 23:07",
-          "text": "ドコモ系やソフバン系の人はデュアルSIMでpovo2.0いれるといいです。 povo2.0は START au END の電波、ドコモやソフトバンクとはまた別の..."
+          "time": "11/12 01:16",
+          "text": "@meguri_pan めぐりぱんさんおはようございます☀️ SB、 START au END 、楽天と通信 START 障害 END あまり聞かないのにドコモ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -369,7 +369,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/12 00:13",
@@ -392,8 +392,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/12 01:09",
+          "text": "START au END の問い合わせの電話対応悪すぎて腹立つww電話だるいなら全部ネットでできるようにしろって感じ〜こっちは15分以上 START 繋がらない..."
+        },
         {
           "time": "11/11 23:27",
           "text": "ﾓﾊﾞｲﾙﾙｰﾀｰ再起動したりSiM挿し直しやら諸々やってもWiFi START 繋がらない END …。困ったな…。 ｼｮｯﾌﾟ持ち込んだら何かしてくれるかな..."
@@ -401,10 +405,6 @@
         {
           "time": "11/11 22:03",
           "text": "最近、ドコモ回線が非常に START 繋がらない END 、繋がっても遅いので、ソフトバンク回線の使い切りeSIMを試しに購入して設定したんですよ。そしたらね…..."
-        },
-        {
-          "time": "11/11 16:46",
-          "text": "ドコモの緊急メンテナンスがぜんぜん終わらないけど、楽天とデュアルSimにしてるので、自分には影響ない。 START au END 通信障害経験してるけど、通信障..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -415,7 +415,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/12 00:13",
@@ -437,24 +437,80 @@
     "status": "ALERT",
     "office": "大阪管区気象台",
     "target_area": "大阪府",
-    "report_time": "11/12 04:36",
+    "report_time": "11/12 10:34",
     "headline": "",
-    "text": "　大阪府は、高気圧に覆われて晴れています。\n\n　１２日の大阪府は、高気圧に覆われて晴れるでしょう。\n\n　１３日の大阪府は、高気圧に覆われておおむね晴れる見込みです。\n\n【近畿地方】\n　近畿地方は、高気圧に覆われておおむね晴れています。\n\n　１２日の近畿地方は、高気圧に覆われておおむね晴れるでしょう。\n\n　１３日の近畿地方は、高気圧に覆われておおむね晴れますが、南部では湿った空気の影響でおおむね曇る見込みです。南部を中心に未明から朝は雨や雷雨となる所があるでしょう。明け方は激しい雨の降る所がある見込みです。",
+    "text": "　大阪府は、高気圧に覆われておおむね晴れています。\n\n　１２日の大阪府は、高気圧に覆われておおむね晴れるでしょう。\n\n　１３日の大阪府は、高気圧に覆われておおむね晴れる見込みです。\n\n【近畿地方】\n　近畿地方は、高気圧に覆われておおむね晴れています。\n\n　１２日の近畿地方は、高気圧に覆われておおむね晴れるでしょう。\n\n　１３日の近畿地方は、高気圧に覆われておおむね晴れますが、南部を中心に湿った空気の影響でおおむね曇り、未明から朝にかけて雨や雷雨となる所があり、明け方は激しい雨の降る所がある見込みです。",
     "paragraphs": [
-      "大阪府は、高気圧に覆われて晴れています。",
-      "１２日の大阪府は、高気圧に覆われて晴れるでしょう。",
+      "大阪府は、高気圧に覆われておおむね晴れています。",
+      "１２日の大阪府は、高気圧に覆われておおむね晴れるでしょう。",
       "１３日の大阪府は、高気圧に覆われておおむね晴れる見込みです。",
       "【近畿地方】\n　近畿地方は、高気圧に覆われておおむね晴れています。",
       "１２日の近畿地方は、高気圧に覆われておおむね晴れるでしょう。",
-      "１３日の近畿地方は、高気圧に覆われておおむね晴れますが、南部では湿った空気の影響でおおむね曇る見込みです。南部を中心に未明から朝は雨や雷雨となる所があるでしょう。明け方は激しい雨の降る所がある見込みです。"
+      "１３日の近畿地方は、高気圧に覆われておおむね晴れますが、南部を中心に湿った空気の影響でおおむね曇り、未明から朝にかけて雨や雷雨となる所があり、明け方は激しい雨の降る所がある見込みです。"
     ],
-    "summary": "大阪府は、高気圧に覆われて晴れています。...",
+    "summary": "大阪府は、高気圧に覆われておおむね晴れています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=270000"
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 13,
     "articles": [
+      {
+        "title": "【交通情報】JR中央線 高蔵寺〜土岐市 上限線で運転見合わせ 人身事故のため(CBCテレビ)",
+        "summary": "JR東海によりますと、「中央線」は人身事故のため、高蔵寺〜土岐市の間で運転を見合わせています（12日午前10時50分現在）。【写真を見る】【交通情報】JR中央線 高蔵寺〜土岐市 上限線で運転見合わせ",
+        "pub_date": "11/12 10:54 JST",
+        "link": "https://news.yahoo.co.jp/articles/10e31736acab4286434d45b4db1a04d8d9927fa2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "富山で住宅火災 1人の遺体 住人の90歳女性か(ABEMA TIMES)",
+        "summary": "富山市の住宅で火事があり、焼け跡から1人の身元不明の遺体が見つかりました。この家に住む90歳の女性と連絡が取れていないということです。【映像】火災があった現場付近の様子 きのう午後11時15分ごろ、富",
+        "pub_date": "11/12 10:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/c9473918cabe38ec92cd36d4b77b0e27cfbff494?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "〔JR東海〕中央本線で人身事故 一部運転見合わせ(レスキューナウニュース)",
+        "summary": "10:22頃、多治見駅で発生した人身事故の影響で、中央本線は高蔵寺～土岐市駅間の運転を見合わせています。",
+        "pub_date": "11/12 10:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/0f43e44881a590a0b15765aa043441c3859ba981?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【交通情報】JR紀勢線 亀山駅〜津駅 上下線で運転見合わせ 線路の設備確認のため(CBCテレビ)",
+        "summary": "JR東海によりますと、線路の設備確認のため、紀勢線の亀山駅〜津駅の上下線で運転を見合わせています（12日午前10時30分現在）。【写真を見る】【交通情報】JR紀勢線 亀山駅〜津駅 上下線で運転見合わせ",
+        "pub_date": "11/12 10:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/200ab61647f14d35de135796707fcc54a9bdb971?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "“富士山噴火警戒” 想定外の事態に備え訓練(ABEMA TIMES)",
+        "summary": "山梨県は、富士山の火山活動が活発になり始めた状況で、防災計画で想定していない事態に備えた訓練を行いました。【映像】想定外の事態に備えた訓練の様子 訓練は、富士山で火山性地震が増えたことを受けて、気象庁",
+        "pub_date": "11/12 10:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/a62916dd4a90d34be2b286673c8b04d1f2f9ed99?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "別の強盗事件の“被害者”らを逮捕　特殊詐欺の収益と知りながら現金50万円受け取りか(テレビ朝日系（ANN）)",
+        "summary": "ベトナム人のグエン・バン・フン容疑者（41）ら2人は、特殊詐欺の犯罪収益と知りながら、別のベトナム人の男から現金50万円を受け取った疑いが持たれています。 去年11月から今年1月にかけ、2人は同じ男か",
+        "pub_date": "11/12 10:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/c78ce90ac5cd514bb6e352c0f47805d541bc439c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "警察署に侵入　“バール兄弟”を逮捕　押収された車から「身分証奪還するため」供述(テレビ朝日系（ANN）)",
+        "summary": "逮捕されたのは、岩月嵩史容疑者（34）と弟の善史容疑者（29）です。 千葉県の松戸警察署に侵入し、車庫のガラスを割ろうとした疑いが持たれています。 警報音が鳴り、兄弟は複数のバールを残したまま逃走しま",
+        "pub_date": "11/12 10:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/3a1055df552ece2f3ebe34e8ba930567d74f609b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "富士山噴火前には「何が起きるか」　山梨県が“想定外”に備える訓練を実施(テレビ朝日系（ANN）)",
         "summary": "山梨県は富士山の火山活動が活発になり始めた状況で、防災計画で想定していない事態に備えた訓練を行いました。 訓練は、富士山で火山性地震が増えたことを受けて、気象庁から「入山規制」にあたる噴火警戒レベル3",
@@ -504,79 +560,23 @@
         "is_disaster": true
       },
       {
-        "title": "警備会社のライトバンとオートバイが衝突し1人死亡 警報器が鳴っていた建物に進入中に(CBCテレビ)",
-        "summary": "今月11日夜、三重県鈴鹿市で警備会社のライトバンとオートバイが衝突する事故があり、オートバイに乗っていた54歳の男性が死亡しました。警察によりますと、11日午後9時半ごろ、鈴鹿市安塚町の県道で警備会社",
-        "pub_date": "11/12 07:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/eca8fdb95e3d594c77c452e92156d166d42a72c6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "様子おかしく尿検査…12人が搬送されたアパート火災 火元の部屋に住むトルコ国籍の43歳男を大麻使用の疑いで逮捕(東海テレビ)",
-        "summary": "住人の男女12人が搬送された岐阜市のアパート火災で、火元の部屋の男が大麻を使用した疑いで逮捕されました。 警察によりますと、逮捕されたのはトルコ国籍の無職、コムル・ギョクハン容疑者(43)で、麻薬であ",
-        "pub_date": "11/12 06:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/e13197848a67596e820435a6b586b70f5b5699e1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "大麻使用の疑いで火元の住民逮捕 岐阜市12人搬送のアパート火災 火事との関連を捜査(CBCテレビ)",
-        "summary": "今月11日未明、岐阜市で12人が搬送されたアパート火災で、火元の部屋に住むトルコ国籍の男が大麻を使用したとして逮捕されました。逮捕されたのは岐阜市に住むトルコ国籍のコムル・ギョクハン容疑者（43）で、",
-        "pub_date": "11/12 06:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/c2f2a0a07213d54456bdb78166198718cf334634?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "富士山で捜索続く　中国人遭難　市長「無謀な登山で残念」　外国人への危険周知を訴え(テレビ朝日系（ANN）)",
-        "summary": "閉山中の富士山で8日、中国人の20代の男性が吉田口5合目から単独で登山を開始し遭難したとみられています。 警察などが10日から捜索していますが、今も見つかっておらず、12日も捜索する予定です。富士吉田",
-        "pub_date": "11/12 09:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/22a1f3ade096cf735da0ed44af626ea3fc48a63c?source=rss",
+        "title": "京都・亀岡市で今季初の鳥インフルエンザ(ABEMA TIMES)",
+        "summary": "京都府亀岡市の農場で鳥インフルエンザウイルスに感染した疑いのあるニワトリが確認された問題で、府はPCR検査の結果、陽性が確定したと発表しました。国内の農場での感染確定は今季初めてです。【映像】京都で今",
+        "pub_date": "11/12 10:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/a6dc38e925a272d685e490ba827d27daa47571bc?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "品川区長選挙に立候補した2氏の経歴・政策まとめ(選挙ドットコム)",
-        "summary": "任期満了に伴う品川区長選挙が11月8日告示、11月15日投開票の日程で実施されています。今回の品川区長選挙には届け出順に現職の森澤恭子（もりさわ・きょうこ）氏（48）、新人の浜田健太郎（はまだ・けんた",
-        "pub_date": "11/12 09:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/92bfa6ff357bae01175d47b2ea8145f3434373a3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【近畿の天気】12日（木）朝　大阪は晴れのちくもり　最高気温は大阪、和歌山は20℃、京都は19℃の予想(読売テレビ)",
-        "summary": "11月12日（木）朝の近畿地方の天気です。詳しくは天気動画をご覧ください。",
-        "pub_date": "11/12 09:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/9cfaa79288265ee706a8cf8a017503242fc28553?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "大阪・茨木でタクシー強盗　3人組が運転手にスプレー、ヘッドロックで現金奪う(産経新聞)",
-        "summary": "12日午前4時40分ごろ、大阪府茨木市豊川の路上で、タクシーに乗っていた男3人が男性運転手（45）にスプレーを吹き付けたりヘッドロックをしたりして「金出せ。刺すぞ」と脅した。3人は現金6～7万円を奪っ",
-        "pub_date": "11/12 09:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/1b585831d7407e091310b85c97dd8db40037bce2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【社説】安保3文書協議　平和と国是を貫くべきだ(西日本新聞me)",
-        "summary": "政府が12月に予定する安全保障関連3文書の改定に向けて、自民党、日本維新の会による与党協議が始まった。 日本の安保環境は厳しさを増す。だからといって、防衛装備や防衛費を無定見に拡充し、戦後貫いてきた専",
-        "pub_date": "11/12 09:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/6c9daa3b0a6a0c03ab0ba80987f3a9d08f56e0e6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「再犯しない自信があった」執行猶予中の元宮崎県職員の男　盗撮容疑の裁判で語った懲りない\"性癖\"(FRIDAY)",
-        "summary": "女性のスカート内にスマートフォンを差し入れて撮影したとして性的姿態等撮影の罪に問われている黒木勇希被告(29=逮捕時)の初公判が11月2日、東京地裁で開かれた。【画像】女子高生のスカートの中を盗撮した",
-        "pub_date": "11/12 09:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/3182050eda5a1d1e17abd56f24ae9a4e5f417c59?source=rss",
+        "title": "収容者が増加する少年院　ゴルゴ松本が“命の授業”…15年間で100回超「個性を肯定」(テレビ朝日系（ANN）)",
+        "summary": "闇バイトや特殊詐欺の「低年齢化」に伴い、少年院に収容される人数が増加している。そんななか、少年院で行われている「命の授業」を取材した。【画像】少年院で「命の授業」を行うゴルゴ松本",
+        "pub_date": "11/12 10:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/b4ac14df73ce5909a4440d700f5671e792209d28?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-12 09:42:26 JST"
+    "last_updated": "2026-11-12 10:56:17 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -597,10 +597,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "CmkujjBOyz4",
+        "video_id": "7lJpohP3Zgw",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/CmkujjBOyz4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=CmkujjBOyz4"
+        "embed_url": "https://www.youtube.com/embed/7lJpohP3Zgw?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=7lJpohP3Zgw"
       },
       {
         "id": "stream_tbsnews",
@@ -619,10 +619,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "R1PD9Wgt0QA",
+        "video_id": "L5VN_-Hc68Q",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/R1PD9Wgt0QA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=R1PD9Wgt0QA"
+        "embed_url": "https://www.youtube.com/embed/L5VN_-Hc68Q?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=L5VN_-Hc68Q"
       },
       {
         "id": "stream_annnews",
@@ -630,10 +630,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "TeJr7LJssgA",
+        "video_id": "l_bBKjKM4mk",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/TeJr7LJssgA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=TeJr7LJssgA"
+        "embed_url": "https://www.youtube.com/embed/l_bBKjKM4mk?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=l_bBKjKM4mk"
       },
       {
         "id": "stream_fnnnews",

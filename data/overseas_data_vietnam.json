@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-13 01:42:14",
-  "timestamp_local": "2026-11-12 23:42:14",
+  "timestamp": "2026-11-13 02:32:46",
+  "timestamp_local": "2026-11-13 00:32:46",
   "country": {
     "id": "vietnam",
     "name": "ベトナム",
@@ -393,6 +393,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "エヌビディアCEOの“スパイ不倫”疑惑 トランプ氏が習近平氏と直接議論？「『機密の流出はない』と言われるだけ」でも…トランプ氏に都合がいいワケ 国際政治学者が解説(ABEMA TIMES)",
+        "link": "https://news.yahoo.co.jp/articles/fff13956679c1e700170fa0419f94a4171cebed4?source=rss",
+        "description": "アメリカの半導体大手NVIDIA（エヌビディア）のCEOであるジェンスン・フアン氏と不倫関係にあり中国のスパイ疑惑が持たれている女性とのツーショット映像が波紋を広げている。【映像】ピンクドレスの女性の",
+        "pub_date": "11/13 02:27 JST",
+        "is_priority": false
+      },
+      {
         "title": "米首都銃撃で容疑者死亡(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/65b8ec30b83c6c4db0de0764f83e94f1a813bc93?source=rss",
         "description": "【ワシントン共同】米首都ワシントンで発生した銃撃事件で、複数の米メディアは12日、自らを撃った容疑者が死亡したと伝えた。",
@@ -524,13 +531,6 @@
         "description": "ウクライナ和平について話し合うためモスクワを訪れているアメリカの特使らとロシアのプーチン大統領との直接会談が始まりました。 アメリカのウィトコフ特使らはウクライナを交えた3者協議が行われた中東アブダビ",
         "pub_date": "11/12 22:02 JST",
         "is_priority": false
-      },
-      {
-        "title": "ガザ南部最大の病院攻撃で6人死亡　“ハマスが拠点にし武器保管”とイスラエル軍主張(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/fa2ea77012942180cf77ff8143b7db8b0bff9f96?source=rss",
-        "description": "イスラエル軍がパレスチナ・ガザ地区南部の病院を攻撃し、医師や子どもなど少なくとも6人が死亡しました。 イスラエル軍は12日、ガザ地区南部・ハンユニスにあるナセル病院を攻撃したと発表しました。 イスラム",
-        "pub_date": "11/12 21:48 JST",
-        "is_priority": true
       }
     ],
     "count": 20
@@ -629,14 +629,14 @@
     "default_channel_id": "stream_vtv_live"
   },
   "forex": {
-    "timestamp": "11/13 01:42 JST",
+    "timestamp": "11/13 02:32 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 160.04,
-      "change": 1.33,
-      "change_pct": 0.84,
+      "rate": 159.72,
+      "change": 1.02,
+      "change_pct": 0.64,
       "direction": "up"
     },
     "local_jpy": {
@@ -652,9 +652,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.93,
-      "change": -0.32,
-      "change_pct": -0.18
+      "rate": 176.55,
+      "change": -0.7,
+      "change_pct": -0.4
     }
   },
   "airports": [
@@ -697,23 +697,15 @@
         "is_capital": true,
         "lat": 21.0285,
         "lon": 105.8542,
-        "temp": 18.7,
-        "apparent_temp": 19.7,
-        "humidity": 87,
-        "wind_speed": 8.7,
-        "wind_gusts": 15.8,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 18.6,
+        "apparent_temp": 19.6,
+        "humidity": 90,
+        "wind_speed": 9.8,
+        "wind_gusts": 18.4,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
-          {
-            "date": "11/12(木)",
-            "temp_max": 22.8,
-            "temp_min": 17.7,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
           {
             "date": "11/13(金)",
             "temp_max": 24.6,
@@ -729,12 +721,20 @@
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 29.9,
+            "temp_min": 21.0,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.3
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "ホーチミン (最大経済都市)",
@@ -742,23 +742,15 @@
         "is_capital": false,
         "lat": 10.8231,
         "lon": 106.6297,
-        "temp": 25.4,
-        "apparent_temp": 31.5,
+        "temp": 25.1,
+        "apparent_temp": 31.1,
         "humidity": 98,
-        "wind_speed": 4.4,
-        "wind_gusts": 11.5,
+        "wind_speed": 4.1,
+        "wind_gusts": 10.4,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
-          {
-            "date": "11/12(木)",
-            "temp_max": 32.5,
-            "temp_min": 24.4,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 2.8
-          },
           {
             "date": "11/13(金)",
             "temp_max": 31.6,
@@ -774,6 +766,14 @@
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
             "precipitation_mm": 1.7
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 33.3,
+            "temp_min": 24.4,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 7.2
           }
         ],
         "alert": "平常",
@@ -788,22 +788,14 @@
         "lat": 16.0544,
         "lon": 108.2022,
         "temp": 23.7,
-        "apparent_temp": 28.6,
-        "humidity": 95,
-        "wind_speed": 3.0,
-        "wind_gusts": 7.6,
+        "apparent_temp": 28.7,
+        "humidity": 94,
+        "wind_speed": 1.8,
+        "wind_gusts": 5.8,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
-          {
-            "date": "11/12(木)",
-            "temp_max": 27.3,
-            "temp_min": 23.4,
-            "weather_code": 82,
-            "weather_label": "⛈️ 激しいにわか雨",
-            "precipitation_mm": 51.3
-          },
           {
             "date": "11/13(金)",
             "temp_max": 29.0,
@@ -819,6 +811,14 @@
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
             "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 29.4,
+            "temp_min": 24.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.7
           }
         ],
         "alert": "気象注意",
@@ -833,23 +833,15 @@
       "is_capital": true,
       "lat": 21.0285,
       "lon": 105.8542,
-      "temp": 18.7,
-      "apparent_temp": 19.7,
-      "humidity": 87,
-      "wind_speed": 8.7,
-      "wind_gusts": 15.8,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "temp": 18.6,
+      "apparent_temp": 19.6,
+      "humidity": 90,
+      "wind_speed": 9.8,
+      "wind_gusts": 18.4,
+      "precipitation": 0.1,
+      "weather_code": 51,
+      "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
-        {
-          "date": "11/12(木)",
-          "temp_max": 22.8,
-          "temp_min": 17.7,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
-        },
         {
           "date": "11/13(金)",
           "temp_max": 24.6,
@@ -865,14 +857,22 @@
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/15(日)",
+          "temp_max": 29.9,
+          "temp_min": 21.0,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.3
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/13 01:42 JST"
+    "timestamp": "11/13 02:32 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -901,7 +901,7 @@
         "details": "南北統一鉄道各便平常運行中"
       }
     ],
-    "timestamp": "11/13 01:42 JST"
+    "timestamp": "11/13 02:32 JST"
   },
   "lifeline": {
     "status": "NORMAL",

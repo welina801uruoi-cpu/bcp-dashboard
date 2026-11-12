@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 16:39:27",
+  "timestamp": "2026-11-12 17:30:03",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 19地域】道央、道南、道北、道東、宮城、秋田、山形、福島、茨城、千葉、東京、新潟、石川、長野、和歌山、島根、広島、徳島、沖縄（警報なし）",
+    "summary": "【注意報発表: 20地域】道央、道南、道北、道東、宮城、秋田、山形、福島、茨城、千葉、東京、新潟、石川、長野、和歌山、島根、広島、徳島、長崎、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 19,
+    "notice_count": 20,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -464,10 +464,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "なだれ注意報"
+          "なだれ注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、なだれ注意報",
+        "summary": "なだれ注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -554,9 +554,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報"
+          "雷注意報",
+          "濃霧注意報"
         ],
-        "summary": "雷注意報",
+        "summary": "雷注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -689,10 +690,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "雷注意報"
+          "雷注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、雷注意報",
+        "summary": "雷注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/17/"
       },
       {
@@ -973,11 +974,13 @@
         "code": "42",
         "name": "長崎県",
         "short_name": "長崎",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報"
+        ],
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -1048,20 +1051,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線35路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、日豊本線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線21路線: 美祢線、石巻線、山田線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、日豊本線、肥薩線、芸備線 等 計35路線）",
+    "line_text": "運行支障あり（美祢線、石巻線、山田線、大湊線、米坂線 等 計21路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "日豊本線",
-      "肥薩線",
-      "芸備線",
       "美祢線",
-      "磐越西線",
       "石巻線",
       "山田線",
       "大湊線",
@@ -1069,27 +1066,19 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "成田線",
-      "京王線",
-      "京王高尾線",
-      "烏山線",
-      "久留里線",
-      "小湊鉄道線",
-      "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
-      "東海道本線",
-      "身延線",
-      "紀勢本線",
-      "信越本線",
-      "弥彦線",
-      "上越線",
-      "北陸本線",
-      "IRいしかわ鉄道線",
+      "肥薩線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
       "越後線",
       "九頭竜線",
       "しなの鉄道北しなの線",
       "大井川鉄道大井川本線",
-      "万葉線"
+      "万葉線",
+      "烏山線",
+      "久留里線",
+      "小湊鉄道線",
+      "いすみ鉄道線",
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1167,7 +1156,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 35,
+    "target_lines_count": 21,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1182,7 +1171,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】北海道・山形・千葉・長野で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】北海道・千葉・長野で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1222,8 +1211,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/12 17:11",
+          "text": "START au END ひかり START 障害 END ？今夜、繋がりにくい💦"
+        },
         {
           "time": "11/12 14:48",
           "text": "@Nicotama222 確かにそうかも。全部同じキャリアだと START 障害 END のときに家族全員詰むの怖いよね。 START au END の品質はい..."
@@ -1231,10 +1224,6 @@
         {
           "time": "11/12 14:13",
           "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
-        },
-        {
-          "time": "11/12 14:02",
-          "text": "START au END を使ってる甥が普通に使えてdocomoを使ってる私と母親はWiFi繋がらないって昨日からの通信 START 障害 END のせいなのか..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1271,16 +1260,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/12 17:11",
+          "text": "START au END 月曜から START 繋がらない END よ。 繋がってもメチャ遅い。 今までこんな事なかったのにな。 何か起きてるのかな？"
+        },
+        {
           "time": "11/12 16:08",
           "text": "タイムアウトエラーか。私も人間チェックで経験あるわ。地下行くとpovoですらそうなる(池袋のメロブ)。 調べたらNURO Mobileは3キャリア全部のMVNO..."
         },
         {
           "time": "11/12 14:02",
           "text": "START au END を使ってる甥が普通に使えてdocomoを使ってる私と母親はWiFi START 繋がらない END って昨日からの通信障害のせいなのか..."
-        },
-        {
-          "time": "11/12 13:22",
-          "text": "先々月 START au END →ドコモにキャリア変更してから本当に電波 START 繋がらない END し、大規模通信障害起きるしもうドコモ嫌い😠"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -1327,8 +1316,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 10,
     "articles": [
+      {
+        "title": "京王線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "南平駅で発生した人身事故の影響で、京王線は高幡不動～京王八王子駅間の運転を見合わせていましたが、01:25頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/13 01:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/ed39a477a32c11a1641a37d1ebf6bc6c57e9d006?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "広島・福山市3人死亡火災　現住建造物等放火容疑で住人の32歳長男を逮捕　警察(テレビ朝日系（ANN）)",
         "summary": "広島県福山市で3人が死亡した住宅火災で、この家に住む32歳の長男が放火の疑いで逮捕されました。 作業員の佐藤優容疑者（32）は11日午後11時55分ごろ、自宅の一室に火を付けて全焼させた疑いが持たれて",
@@ -1440,17 +1437,9 @@
         "link": "https://news.yahoo.co.jp/articles/2c658f42c0c16ff9c8b7b87c8876c39c4ef6788c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "荒尾市長選挙は新人2名の戦い！11月15日投票　熊本県(選挙ドットコム)",
-        "summary": "11月8日に告示された荒尾市長選挙には、田川秀樹（たがわ・ひでき）氏（56）、廣川和也（ひろかわ・かずや）氏（50）の無所属新人2名が立候補しました。投開票は11月15日に行われます。前職の浅田敏彦氏",
-        "pub_date": "11/12 23:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/8a55e49f8b37ce8ee8121f2f9fdaebfd9db8b5d8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 01:39:23 JST"
+    "last_updated": "2026-11-13 02:30:00 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

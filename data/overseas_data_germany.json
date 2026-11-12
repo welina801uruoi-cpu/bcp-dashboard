@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12 12:32:09",
-  "timestamp_local": "2026-11-12 05:32:09",
+  "timestamp": "2026-11-12 13:29:57",
+  "timestamp_local": "2026-11-12 06:29:57",
   "country": {
     "id": "germany",
     "name": "ドイツ",
@@ -346,17 +346,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
-    "summary": "M4.8 (43 km SE of Severo-Kuril’sk, Russia)",
+    "count_24h": 18,
+    "summary": "M4.8 (155 km E of Noda, Japan)",
     "latest": {
       "mag": 4.8,
-      "place": "43 km SE of Severo-Kuril’sk, Russia",
-      "time": "11/12 10:18 JST",
-      "depth_km": 74.47,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqa",
+      "place": "155 km E of Noda, Japan",
+      "time": "11/12 13:07 JST",
+      "depth_km": 33.039,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqx",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.8,
+        "place": "155 km E of Noda, Japan",
+        "time": "11/12 13:07 JST",
+        "depth_km": 33.039,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqx",
+        "tsunami": 0
+      },
+      {
+        "mag": 5.4,
+        "place": "South Sandwich Islands region",
+        "time": "11/12 12:45 JST",
+        "depth_km": 121.557,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqr",
+        "tsunami": 0
+      },
       {
         "mag": 4.8,
         "place": "43 km SE of Severo-Kuril’sk, Russia",
@@ -460,27 +476,95 @@
         "depth_km": 137.374,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txi0",
         "tsunami": 0
-      },
-      {
-        "mag": 5.1,
-        "place": "Balleny Islands region",
-        "time": "11/11 15:21 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txhi",
-        "tsunami": 0
-      },
-      {
-        "mag": 5,
-        "place": "152 km SE of Kuril’sk, Russia",
-        "time": "11/11 14:26 JST",
-        "depth_km": 30.338,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txgv",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "イタリア・カプリ島沖に出現した双子の水上竜巻(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/40672c9f09f537df903fd2b88b9f351c7a23e02f?source=rss",
+        "description": "イタリアの有名リゾート地、カプリ島の沖合で2つの巨大な水上竜巻が同時に発生し、壮観な光景が広がった。【写真】中国江蘇省一帯を襲った竜巻で倒壊した建物8日（現地時間）、ユーロニュースによると、前日の7日",
+        "pub_date": "11/12 13:25 JST",
+        "is_priority": true
+      },
+      {
+        "title": "ウクライナ和平の3カ国協議が終了、突破口は開かれず(BBC News)",
+        "link": "https://news.yahoo.co.jp/articles/76a86642329f6ebc9fc0eb41cfa04a8efa01de50?source=rss",
+        "description": "ラウラ・ゴッツィ記者ウクライナでの戦争の終結を目指すウクライナ、ロシア、アメリカの3カ国による高官級協議は11日、アラブ首長国連邦（UAE）で2日間の日程を終了した。アメリカは「いくつかの好機」が見い",
+        "pub_date": "11/12 13:22 JST",
+        "is_priority": false
+      },
+      {
+        "title": "マカオがスイスとベルギーパスポート保有者へ自動化ゲート利用開放…対象11ヶ国まで増(マカオ新聞)",
+        "link": "https://news.yahoo.co.jp/articles/84c4c51bfed20e7b449feab7c95ead5179e11dea?source=rss",
+        "description": "マカオ治安警察局は11月10日、（2026年）11月12日から新たにスイスとベルギーのパスポート保有者に対し、マカオ出入境時の自動化ゲート（従来タイプのもの）利用を開放すると発表。 外国パスポート保有",
+        "pub_date": "11/12 13:20 JST",
+        "is_priority": false
+      },
+      {
+        "title": "スペインで14年ぶりゼネスト、住宅難など背景に　バルセロナでは警官隊と衝突(BBC News)",
+        "link": "https://news.yahoo.co.jp/articles/478d8b6a1458420c2134ec35f63b73860677a907?source=rss",
+        "description": "スペインで11日、住宅難と生活費上昇を背景に主要労働組合が呼びかけた、14年ぶりとなるゼネストがあった。首都マドリードでは約12万人がデモに参加。バルセロナでも参加者が5万人を超え、覆面をした集団と警",
+        "pub_date": "11/12 13:18 JST",
+        "is_priority": true
+      },
+      {
+        "title": "風邪薬で幻覚を楽しむ韓国の10代の「ODパーティー」…教育庁が注意呼び掛け(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/acecf8c11288b370c17a33e578ea92dc26859931?source=rss",
+        "description": "薬局で簡単に購入できる風邪薬や睡眠誘導剤などを過剰摂取する、いわゆる「ODパーティー」が韓国の青少年の間で広がり、ソウル市教育庁（教育委員会に相当）が保護者に注意を呼び掛ける家庭通信を配布した。「OD",
+        "pub_date": "11/12 13:17 JST",
+        "is_priority": false
+      },
+      {
+        "title": "トランプ氏「私が候補者なら勝っていた」大敗めぐり“戦犯探し” ヘグセス国防長官の処遇は？トランプ人事の狙いは？「民意を受け止めているのか疑問」国際政治学者が苦言(ABEMA TIMES)",
+        "link": "https://news.yahoo.co.jp/articles/b0e5e06a799de493c719f41f4a84fe7b819bf7be?source=rss",
+        "description": "アメリカ中間選挙における共和党の大敗を受け、トランプ政権内では早くも敗北の責任をめぐる“戦犯探し”や、トランプ流の人事刷新が始まっている。【映像】トランプ氏、敗北の責任を否定する瞬間 ニュース番組『わ",
+        "pub_date": "11/12 13:06 JST",
+        "is_priority": false
+      },
+      {
+        "title": "パランティアのカープCEO、2028年大統領選での「民主党支持」に前向きな姿勢(Forbes JAPAN)",
+        "link": "https://news.yahoo.co.jp/articles/3a9bbfd7b9399aa45481436930c6b4bd1fb8f313?source=rss",
+        "description": "パランティアのアレックス・カープCEOはPoliticoの取材に対し、2028年の大統領選挙で民主党を支持する用意があると語った。今年の中間選挙で民主党が躍進した「ブルーウェーブ」を受け、テック業界の",
+        "pub_date": "11/12 13:00 JST",
+        "is_priority": false
+      },
+      {
+        "title": "米 ヘグセス国防長官 無名戦士の墓で談笑　衛兵から大声で注意「静粛に」(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/1351c090af53b740e7ade7cbd73e0cdb1b386da3?source=rss",
+        "description": "アメリカのヘグセス国防長官らは「無名戦士の墓」の前で笑いながら写真撮影をしたところ、衛兵に大声で注意されました。衛兵「すべての来訪者はいかなる時も静粛と敬意を保たなければならない」 11日の「退役軍人",
+        "pub_date": "11/12 12:52 JST",
+        "is_priority": false
+      },
+      {
+        "title": "スパイ疑惑の不倫相手企業が半導体密輸か　ブラックリスト先送り報道も　エヌビディア(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/6b3ae3376eab3194aa8917f329a4d94e1d7b3bd6?source=rss",
+        "description": "エヌビディアのCEOの不倫相手で、中国のスパイ疑惑がある女性が幹部を務める企業が輸出規制を2カ月延期されていたと、イギリスのフィナンシャル・タイムズが報じました。【画像】不倫関係にあったと報道されるエ",
+        "pub_date": "11/12 12:48 JST",
+        "is_priority": false
+      },
+      {
+        "title": "「日本の自動車メーカーとは大違い」…中国EVにシフトしたタイの地元企業から悲鳴(クーリエ・ジャポン)",
+        "link": "https://news.yahoo.co.jp/articles/e3c0b55aca9211350570623c39d049635e66c55d?source=rss",
+        "description": "中国自動車メーカーが躍進するタイで、地元サプライヤーの相次ぐ倒産や失業といった問題が深刻化している。現地事情に配慮してきた日本企業と違い、閉鎖的な体質の中国企業が進出してきても地元産業への恩恵は少ない",
+        "pub_date": "11/12 12:40 JST",
+        "is_priority": false
+      },
+      {
+        "title": "イラン 核濃縮物質の搬出否定　米攻撃なら“遠方基地を標的”(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/2535f58c64202d226b18c6f6f425b61b4d7870ce?source=rss",
+        "description": "イラン高官はアメリカとの戦闘終結に向けた交渉が停滞するなか、「濃縮された核物質がイランから持ち出されることはない」と述べました。イラン 国家安全保障最高評議会レザイ事務局長「大事なのは核濃縮物質が1原",
+        "pub_date": "11/12 12:31 JST",
+        "is_priority": true
+      },
+      {
+        "title": "スペイン 家賃高騰などに抗議　数十万人参加 警察と衝突も(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/023041c634d6033ff4b3d092b597ffa872261b47?source=rss",
+        "description": "スペインで家賃高騰などに抗議するゼネストに少なくとも数十万人の労働者が参加し、一部が警察と衝突しました。 ロイター通信などによりますと、ゼネストは家賃の高騰や住宅不足などに抗議するもので、首都マドリー",
+        "pub_date": "11/12 12:29 JST",
+        "is_priority": true
+      },
       {
         "title": "米中、首脳会談へ地ならし　外相が電話、ロシアと3カ国も(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/5a5ccf9c838157546b6dd418d422dc1ed48697fd?source=rss",
@@ -535,90 +619,6 @@
         "link": "https://news.yahoo.co.jp/articles/5e18988bc44242d4e935b9e8eaff02532b02422d?source=rss",
         "description": "韓国が独自の技術で開発を進めている成層圏太陽光無人機が1週間以上にわたる飛行に成功した。世界で2番目の記録となる。宇宙航空庁は11日、成層圏太陽光無人機「EAV－4」が飛行試験で今年8月18日から25",
         "pub_date": "11/12 12:02 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米ニューヨークで3階建ての建物が崩壊…1人死亡、少なくとも12人負傷(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/ed5a21c5a88c7f3aee4814f30908fbaf06c8cb52?source=rss",
-        "description": "米ニューヨーク州ブルックリンで3階建ての建物が崩壊し、少なくとも1人が死亡、12人が負傷した。米CNNなどは11日（現地時間）、現地の消防当局関係者の話として、このように報じた。また、別の1人が崩壊し",
-        "pub_date": "11/12 12:00 JST",
-        "is_priority": false
-      },
-      {
-        "title": "トランプ氏イランとの戦争擁護　復員軍人称え凱旋門の建設を表明(AP通信)",
-        "link": "https://news.yahoo.co.jp/articles/d97ae3b1973b512ab401e36c8bcd8fb703173be2?source=rss",
-        "description": "アーリントン、バージニア州、11月12日 (AP) ー トランプ大統領は11日、首都ワシントン郊外のアーリントン国立墓地で演説し、米国の復員軍人に敬意を表し、国家としての｢最高の忠誠と献身｣を誓い、｢",
-        "pub_date": "11/12 11:57 JST",
-        "is_priority": false
-      },
-      {
-        "title": "カナダのチームを去った米国アイスホッケー界の英雄　「殺害予告に悩まされた」(朝鮮日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/a8ff5322883a5430dc84f937f2e37c4dee8b0554?source=rss",
-        "description": "「インターネット上で殺害予告を受けただけではない。家族にも到底容認できないことが起きた」【写真】韓国初、アイスホッケーのメダルを獲得したユース代表チーム ナショナルホッケーリーグ（NHL）ニュージャー",
-        "pub_date": "11/12 11:55 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米国防長官らに大声で注意喚起　国立墓地無名戦士の墓警備の衛兵(AP通信)",
-        "link": "https://news.yahoo.co.jp/articles/f145407aa34f465d5aae7385f97c519d4eb8f272?source=rss",
-        "description": "アーリントン、バージニア州、11月12日 (AP) ー 首都ワシントン郊外のアーリントン国立墓地での｢復員軍人の日｣の式典の後、無名戦士の墓を警備する衛兵が、ヘグセス国防長官の顧問およびスタッフのグル",
-        "pub_date": "11/12 11:54 JST",
-        "is_priority": false
-      },
-      {
-        "title": "美人女性記者を前に視線をそらしたNFLスター…ぎこちないインタビューの様子が話題に(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/628a22c510a46642eaf5cccd5031f90cc5f44f9a?source=rss",
-        "description": "米プロフットボールリーグ（NFL）のスタークォーターバック、ジョシュ・アレン（バッファロー・ビルズ）が、美人女性記者と目を合わせるのを避けているかのような姿を見せ、話題を集めた。【写真】美人記者を見な",
-        "pub_date": "11/12 11:45 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米国、日本との「対中けん制訓練」時に在日米軍戦力を群山基地へ(朝鮮日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/2670e5e46470db79860bfb6b324bbea4926f740a?source=rss",
-        "description": "米国が日本と共に、対中けん制の性格を帯びた2国間訓練「キーン・ソード」を実施する中、在日米軍の戦力を在韓米軍の群山基地に一時配備していたことが11日に分かった。米軍が「戦略的柔軟性」の観点から外部戦力",
-        "pub_date": "11/12 11:45 JST",
-        "is_priority": true
-      },
-      {
-        "title": "「済州高氏」のダン・コー氏、当選祝う横断幕を掲げた済州住民に「カムサハムニダ」(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/a622c0465f79fdedd7eb66d30f35dfc8d357f3fb?source=rss",
-        "description": "米中間選挙で連邦下院議員に当選した韓国系の民主党政治家ダン・コー氏（41、韓国名・コ・ウォンヨン）が、来年初めに下院議員に就任した後、韓国を訪問したいと語った。特に済州（チェジュ）住民に感謝の意を伝え",
-        "pub_date": "11/12 11:41 JST",
-        "is_priority": false
-      },
-      {
-        "title": "海外処方のマンジャロ、3カ月分まで韓国持ち込み可能に(朝鮮日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/2dfbf595ffc01fba74801eb9e6d89046eb3dbc3c?source=rss",
-        "description": "12日から、海外で正式な処方を受けて購入した肥満症・糖尿病治療薬などの医薬品を、最大3カ月分まで韓国国内に持ち込めるようになった。【写真】韓国関税庁、海外から持ち込まれる「偽物マンジャロ」に注意を喚起",
-        "pub_date": "11/12 11:36 JST",
-        "is_priority": false
-      },
-      {
-        "title": "軍の将校で医師でもあると偽った英国の男装女性…性的暴行の罪で有罪判決(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/940c1a5ffb7b8d0d6c8382aa7f524fee56d2ad1e?source=rss",
-        "description": "男装して女性をだまし、性行為に及んだ罪で服役していた英国人女性が、別の女性に対しても同様の手口で詐欺行為を働いていたことが明らかになり、有罪判決を受けた。【写真】男装したブレイド・シルバノ被告英紙ガー",
-        "pub_date": "11/12 11:33 JST",
-        "is_priority": false
-      },
-      {
-        "title": "高市首相「韓国はパートナーとして協力すべき重要な隣国」(朝鮮日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/7ee2430db2fb92953ebf1607f07e8351dcc54785?source=rss",
-        "description": "高市早苗首相が「韓国は国際社会のさまざまな課題にパートナーとして協力すべき重要な隣国だ」と述べた。【写真】2600万円のジュエリー着用し表彰式に出席した高市首相",
-        "pub_date": "11/12 11:32 JST",
-        "is_priority": false
-      },
-      {
-        "title": "不倫認めたジェンスン・フアンCEO、NVIDIA取締役会が解任を準備(朝鮮日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/64434808e12e52b47605388de23255b4c302ecf9?source=rss",
-        "description": "NVIDIA（エヌビディア）の取締役会が、創業者のジェンスン・フアン最高経営責任者（CEO）の解任を準備している、と米紙ウォール・ストリート・ジャーナルが11日（現地時間）報じた。【写真】ジェンスン・",
-        "pub_date": "11/12 11:26 JST",
-        "is_priority": false
-      },
-      {
-        "title": "【ヤフコメで話題】「生成AIによる宿題・課題の扱い」「教育現場でのAI活用の是非」 - 学校教育と生成AIの関係に多様な意見(Yahoo!ニュース オリジナル THE PAGE)",
-        "link": "https://news.yahoo.co.jp/articles/7576bc22bb40304086a1ec7aa3f951c19a448da8?source=rss",
-        "description": "生成AIの学校教育現場での利用について、Yahoo!ニュースのコメント欄で話題になっています。コメントでは、生成AIを授業や課題に積極的に取り入れる教員の実践例や、AIを使わせない選択肢は現実的でない",
-        "pub_date": "11/12 11:22 JST",
         "is_priority": false
       }
     ],
@@ -751,32 +751,32 @@
     "default_channel_id": "stream_dw"
   },
   "forex": {
-    "timestamp": "11/12 12:32 JST",
+    "timestamp": "11/12 13:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.73,
-      "change": 1.02,
-      "change_pct": 0.64,
+      "rate": 159.66,
+      "change": 0.96,
+      "change_pct": 0.6,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.89,
-      "change": -0.36,
-      "change_pct": -0.2,
+      "rate": 176.86,
+      "change": -0.4,
+      "change_pct": -0.22,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.89,
-      "change": -0.36,
-      "change_pct": -0.2
+      "rate": 176.86,
+      "change": -0.4,
+      "change_pct": -0.22
     }
   },
   "airports": [
@@ -829,42 +829,42 @@
   "weather": {
     "cities": [
       {
-        "name": "ベルリン (首都)",
-        "name_en": "Berlin",
-        "is_capital": true,
-        "lat": 52.52,
-        "lon": 13.405,
-        "temp": 4.6,
-        "apparent_temp": 2.8,
-        "humidity": 89,
-        "wind_speed": 0.8,
-        "wind_gusts": 6.1,
+        "name": "フランクフルト (金融・航空ハブ)",
+        "name_en": "Frankfurt",
+        "is_capital": false,
+        "lat": 50.1109,
+        "lon": 8.6821,
+        "temp": 10.0,
+        "apparent_temp": 9.1,
+        "humidity": 98,
+        "wind_speed": 6.2,
+        "wind_gusts": 14.4,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/12(木)",
-            "temp_max": 5.8,
-            "temp_min": 3.3,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.0
+            "temp_max": 10.1,
+            "temp_min": 3.8,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 0.4
           },
           {
             "date": "11/13(金)",
-            "temp_max": 7.7,
-            "temp_min": 2.6,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 0.2
+            "temp_max": 8.9,
+            "temp_min": 0.7,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
           },
           {
             "date": "11/14(土)",
-            "temp_max": 8.0,
-            "temp_min": 2.8,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
+            "temp_max": 8.6,
+            "temp_min": 0.5,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
             "precipitation_mm": 0.0
           }
         ],
@@ -874,87 +874,42 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
-        "name": "フランクフルト (金融・航空ハブ)",
-        "name_en": "Frankfurt",
-        "is_capital": false,
-        "lat": 50.1109,
-        "lon": 8.6821,
-        "temp": 9.9,
-        "apparent_temp": 9.0,
-        "humidity": 99,
-        "wind_speed": 6.1,
-        "wind_gusts": 15.1,
-        "precipitation": 0.0,
-        "weather_code": 61,
-        "weather_label": "🌧️ 雨 (小雨)",
-        "forecast": [
-          {
-            "date": "11/12(木)",
-            "temp_max": 10.1,
-            "temp_min": 3.7,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.4
-          },
-          {
-            "date": "11/13(金)",
-            "temp_max": 8.7,
-            "temp_min": 0.7,
-            "weather_code": 1,
-            "weather_label": "🌤️ 晴れ",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/14(土)",
-            "temp_max": 8.1,
-            "temp_min": 0.1,
-            "weather_code": 1,
-            "weather_label": "🌤️ 晴れ",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      },
-      {
         "name": "ミュンヘン (バイエルン)",
         "name_en": "Munich",
         "is_capital": false,
         "lat": 48.1351,
         "lon": 11.582,
-        "temp": 9.9,
-        "apparent_temp": 9.1,
-        "humidity": 94,
+        "temp": 9.5,
+        "apparent_temp": 8.7,
+        "humidity": 95,
         "wind_speed": 3.6,
-        "wind_gusts": 8.3,
+        "wind_gusts": 7.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/12(木)",
-            "temp_max": 13.7,
-            "temp_min": 6.7,
+            "temp_max": 13.6,
+            "temp_min": 6.4,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 7.2
+            "precipitation_mm": 6.9
           },
           {
             "date": "11/13(金)",
-            "temp_max": 6.7,
+            "temp_max": 6.4,
             "temp_min": 1.7,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 4.3
+            "precipitation_mm": 2.7
           },
           {
             "date": "11/14(土)",
-            "temp_max": 5.9,
+            "temp_max": 5.7,
             "temp_min": -0.6,
-            "weather_code": 1,
-            "weather_label": "🌤️ 晴れ",
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
             "precipitation_mm": 0.0
           }
         ],
@@ -965,42 +920,42 @@
       }
     ],
     "capital": {
-      "name": "ベルリン (首都)",
-      "name_en": "Berlin",
-      "is_capital": true,
-      "lat": 52.52,
-      "lon": 13.405,
-      "temp": 4.6,
-      "apparent_temp": 2.8,
-      "humidity": 89,
-      "wind_speed": 0.8,
-      "wind_gusts": 6.1,
+      "name": "フランクフルト (金融・航空ハブ)",
+      "name_en": "Frankfurt",
+      "is_capital": false,
+      "lat": 50.1109,
+      "lon": 8.6821,
+      "temp": 10.0,
+      "apparent_temp": 9.1,
+      "humidity": 98,
+      "wind_speed": 6.2,
+      "wind_gusts": 14.4,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/12(木)",
-          "temp_max": 5.8,
-          "temp_min": 3.3,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 0.0
+          "temp_max": 10.1,
+          "temp_min": 3.8,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 0.4
         },
         {
           "date": "11/13(金)",
-          "temp_max": 7.7,
-          "temp_min": 2.6,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 0.2
+          "temp_max": 8.9,
+          "temp_min": 0.7,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/14(土)",
-          "temp_max": 8.0,
-          "temp_min": 2.8,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
+          "temp_max": 8.6,
+          "temp_min": 0.5,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
           "precipitation_mm": 0.0
         }
       ],
@@ -1009,7 +964,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/12 12:32 JST"
+    "timestamp": "11/12 13:29 JST"
   },
   "transit": {
     "status": "ALERT",
@@ -1091,7 +1046,7 @@
         "details": "フランクフルト・ベルリン発着の長距離路線は概ね定常運行中"
       }
     ],
-    "timestamp": "11/12 12:32 JST"
+    "timestamp": "11/12 13:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

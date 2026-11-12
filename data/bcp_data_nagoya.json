@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 03:29:47",
+  "timestamp": "2026-11-12 04:27:16",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -83,12 +83,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-12 02:15",
-    "place": "青森県東方沖",
-    "magnitude": "3.6",
+    "shindo": "1",
+    "time": "2026-11-12 13:07",
+    "place": "三陸沖",
+    "magnitude": "4.7",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-12 13:07",
+        "place": "三陸沖",
+        "shindo": "1",
+        "magnitude": "4.7",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-12 02:15",
         "place": "青森県東方沖",
@@ -151,13 +158,6 @@
         "shindo": "1",
         "magnitude": "2.3",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-10 15:36",
-        "place": "房総半島南方沖",
-        "shindo": "2",
-        "magnitude": "4.5",
-        "maxScale": 20
       }
     ]
   },
@@ -256,13 +256,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 中央本線、越後線）",
+    "text": "運行支障あり（在来線: 東海道本線、中央本線、越後線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（中央本線、越後線）",
+    "line_text": "運行支障あり（東海道本線、中央本線、越後線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
+      "東海道本線",
       "中央本線",
       "越後線"
     ],
@@ -331,19 +332,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/12 03:01",
-          "text": "@sloneko777 UQ&ワイモバイルデュアル！ どっちか通信 START 障害 END おきても繋がるのと、どちらかの電波弱い地域はどちらか強い時多いです..."
+          "time": "11/12 04:16",
+          "text": "朝から START au END メールの受信ができない＆ウィーフィーの塩梅がよくない。昨日から通信が途切れ途切れになる。もしかして通信 START 障害 EN..."
         },
         {
-          "time": "11/12 03:01",
-          "text": "一昨日くらいからiPhone( START au END )が全然繋がらない📱💦 Wi-Fi🛜拾ったら大丈夫🆗なんだけど🤔5G📡も4G📡も安定しない🫨 検索🔍し..."
+          "time": "11/12 03:37",
+          "text": "START au END ってシステム START 障害 END 起きてる？ 料金の支払いは全て START au END カードにしてるのに謎の少額請求用紙届..."
         },
         {
-          "time": "11/12 01:41",
-          "text": "11/11(水)18:30頃から START au END スマホ📱とＵＱモバイルが使えなくなって電話📞も出来なかった？ START 障害 END のニュースも..."
+          "time": "11/12 03:31",
+          "text": "START au END も繋がりにくいんだけど何か通信 START 障害 END 起きてます？予約やら決済やらが途中で止まっちゃって出来てるのかダメなのか分か..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -354,8 +355,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/12 03:55",
+          "text": "ドコモは今の大規模通信 START 障害 END の前からずっと違和感のある回線だったんだ Wi-Fiもプツプツ切断されることもあったり変なんだよな 基地局は相..."
+        },
         {
           "time": "11/12 00:13",
           "text": "@hiki5G 国営企業がそれに胡座かいて、今や基地数は START kddi END や後発のsbにも優に抜かれ、通信 START 障害 END 連発。惨めよ..."
@@ -363,10 +368,6 @@
         {
           "time": "11/11 21:15",
           "text": "docomo 5G SAの START 障害 END 、あと1回ぐらい起きたらいつぞやの START KDDI END の時みたいに総務省の役人が本社に直接乗り..."
-        },
-        {
-          "time": "11/11 12:00",
-          "text": "通信 START 障害 END でスマホが止まったとき、先に会社と決めること。 2022年7月の START KDDI END の START 障害 END は..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -377,8 +378,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/12 03:37",
+          "text": "START au END ってシステム障害起きてる？ 料金の支払いは全て START au END カードにしてるのに謎の少額請求用紙届いてて、それに関して問い..."
+        },
         {
           "time": "11/12 03:24",
           "text": "@HumanTofu こんにちは🐹アイコンが無茶苦茶可愛くて、ホッコリしますね💑お使いのiPhoneが START 繋がらない END とのことですが、時間帯や..."
@@ -386,10 +391,6 @@
         {
           "time": "11/12 03:16",
           "text": "@kaisokukyu0193 えー！生田とか外なのに START 繋がらない END の🙀⁉️不便すぎる💦 地下エリアは START au END もダメかぁ..."
-        },
-        {
-          "time": "11/12 03:01",
-          "text": "一昨日くらいからiPhone( START au END )が全然 START 繋がらない END 📱💦 Wi-Fi🛜拾ったら大丈夫🆗なんだけど🤔5G📡も4G📡..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -439,6 +440,38 @@
     "disaster_count": 10,
     "articles": [
       {
+        "title": "広島で住宅火災、3人死亡　「寝たばこ」と通報(共同通信)",
+        "summary": "11日午後11時55分ごろ、広島県福山市新市町戸手で、住人から「1階寝室でベッドが寝たばこで燃えている」と119番があった。県警によると2階建て住宅が全焼し、焼け跡から3人の遺体が見つかった。いずれも",
+        "pub_date": "11/12 13:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/88384f14e939d62e41347396075f12d036ed3d5b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「5回も不合格、理由も教えてもらえない」運転免許“外免切替”に挑むアメリカ人夫の苦悩…専門家が指摘する“交通文化”3つの違いとは？(ABEMA TIMES)",
+        "summary": "警察庁によると、交通事故の件数全体は減少する一方で、外国人ドライバーによる交通事故は増加傾向にあるという。こうした中、議論になっているのが、外国の免許を日本のものに切り替える「外免切替」だ。基準が甘い",
+        "pub_date": "11/12 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/fa6f2a07833991db88bafe4e2114e3cd92fa8e4c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "広島の住宅火災、焼け跡から3遺体発見(共同通信)",
+        "summary": "広島県警によると、同県福山市の住宅火災で12日午前、焼け跡から3人の遺体が見つかった。",
+        "pub_date": "11/12 12:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/84266c41e23f5024341499507f235cfc8008aeaf?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "ぼったくり被害3.9億円 歌舞伎町で一斉取り締まり(テレビ朝日系（ANN）)",
+        "summary": "東京・歌舞伎町で許可なくカラオケバーを営業していたとして62歳の男が逮捕されました。悪質な客引きやぼったくりを受けて警視庁が一斉立ち入りを行い、これまでに5人が逮捕されています。 ナイジェリア国籍のエ",
+        "pub_date": "11/12 12:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/85b97dc20c421bd6f67c0cef61f34ee811a9cf53?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "今季一の冷え込み続出　小春日和は週末まで　越境台風発生か？(テレビ朝日系（ANN）)",
         "summary": "寒気や放射冷却の影響で、きょう12日（木）は東北を中心に今シーズン一番の冷え込みとなりました。岩手の薮川では-7.7℃まで下がり、今シーズン本州で最も低い気温となりました。また、東京は4日連続の一桁気",
         "pub_date": "11/12 12:12 JST",
@@ -487,79 +520,47 @@
         "is_disaster": true
       },
       {
-        "title": "「被害者の私は誰からも救われず、ひとりぼっち」元大阪地検トップ性暴力事件、被害女性が語った苦しみ(弁護士ドットコムニュース)",
-        "summary": "「検事としての尊厳だけではなく、母として妻としての尊厳も粉々に壊された」元大阪地検検事正から性的暴行を受けたと訴える女性元検事のAさんは、法廷でこう語った。大阪地検トップだった北川健太郎被告人（67）",
-        "pub_date": "11/12 12:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/7d2a7126f3284de28cb5553d94a453b94b89850b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "JR多治見駅近くの踏切で男性と貨物列車が接触 ケガの程度は不明も意識ある状態で救急搬送 一時運転見合わせに(東海テレビ)",
-        "summary": "岐阜県のJR中央線・多治見駅近くの踏切で、人と貨物列車が接触する事故があり、男性1人がケガをしました。 消防によりますと、午前10時20分ごろ、JR多治見駅近くの踏切で「46歳の男性が踏切内で列車と接",
-        "pub_date": "11/12 11:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/abed4bfa7578af5b579a8a8853f81b09370e0bb7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "愛媛大病院、アラーム放置で患者意識障害(共同通信)",
-        "summary": "愛媛大病院は12日、入院中の患者が心室細動を起こし、心電図モニターのアラームが鳴ったのに看護師が適切な対応を取らず放置し、蘇生処置が遅れたため、患者が重度の意識障害になる医療事故が起きたと発表した。",
-        "pub_date": "11/12 11:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/5dad41dbc5faa4d8e42f5a76fc581136518a75de?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "踏切内に車 列車と衝突し逃走",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/12 11:32 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602273?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "わずか4.6％の女性首長…後押しになった周囲の支え　鹿児島・姶良市長、品川区長ら経験語る(西日本新聞me)",
-        "summary": "日本初の女性首相が誕生して1年がたった。国政の「ガラスの天井」が破られたことで、地方政治や社会におけるジェンダー平等は進んだのか。10月17日に東京都内で「女性首長によるびじょんネットワーク」が開かれ",
-        "pub_date": "11/12 12:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/fb521bff59ef21188c9878179e3f1cf3ab083949?source=rss",
+        "title": "【ヤフコメで話題】「一重まぶたの価値観と美容整形」「流行や広告が与える影響」 - 外見と自己肯定感を巡る議論(Yahoo!ニュース オリジナル THE PAGE)",
+        "summary": "一重まぶたに対する価値観や美容整形の是非について、Yahoo!ニュースのコメント欄で話題になっています。コメントでは、日本人の多くが一重や奥二重であるにもかかわらず、SNSや広告の影響で二重まぶたが理",
+        "pub_date": "11/12 13:17 JST",
+        "link": "https://news.yahoo.co.jp/articles/9baa2397460911a9999c81451990f13835d889f6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "画像など約5000点を押収　男子児童盗撮か　教師を逮捕(テレビ朝日系（ANN）)",
-        "summary": "教室内で着替え中の男子児童を盗撮したなどとして、東京都の小学校の教師が逮捕されました。 柴田峻雅容疑者(26)はおととし7月、勤務先だった東京・足立区内の小学校の教室内で、低学年の男子児童が着替える様",
-        "pub_date": "11/12 12:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/6b0cf53260e98d1657a47d75760cc3b70c45d1fd?source=rss",
+        "title": "【動画解説】小春日和のち天気下り坂 　日曜は広く雨　北日本は週末から徐々に気温下がる(ウェザーマップ)",
+        "summary": "あす13日(金)も広く小春日和が続きますが、週末は天気が下り坂に向かう見込みです。14日(日)には全国的に本降りの雨となるでしょう。また、北日本では週末から徐々に気温が下がる傾向で、来週前半は北海道で",
+        "pub_date": "11/12 13:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/0b0a890d6471fb6bae71ed240a219ac67b131f6b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "朝は今季一番の冷え込み　日中は寒さ緩む 気温差大(テレビ朝日系（ANN）)",
-        "summary": "12日も全国的に冷え込みが強まり、盛岡では12日朝にかけて今シーズン初めての冬日となりました。 12日朝は岩手県薮川でマイナス7.7℃を観測し、本州の今シーズン最低気温を更新しています。 また、仙台、",
-        "pub_date": "11/12 12:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/e8d6bbe679a07c5b9eb29d13c6c7038c2ca4a49d?source=rss",
+        "title": "自民・西田昌司氏、参院で「造反ない」　石破氏ら「信念は立派」財政認識「間違っている」(産経新聞)",
+        "summary": "自民党の西田昌司参院議員は11日配信のユーチューブ番組「週刊西田」で、参院で審議が始まった消費税減税関連法案を巡り、衆院採決前に退席した石破茂前首相ら4人と同様の行動が参院でも起きる可能性について、「",
+        "pub_date": "11/12 13:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/cf905d906502d4b0696be9749955da466a55ee07?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "別店舗美容師にも「ご主人様」へ謝罪要求　容疑で男を再逮捕　「ストレスと将来不安で」(産経新聞)",
-        "summary": "フランチャイズ本部の人物を装い、美容室に電話で謝罪を要求するなど業務を妨害したとして男が逮捕された事件で、別店舗にも同様の電話をしたとして、警視庁捜査1課は11日、偽計業務妨害の疑いで、東京都豊島区南",
-        "pub_date": "11/12 12:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/f566b5c819d6a5f3c89b6a468008713094932d18?source=rss",
+        "title": "チャットの文面が硬くて「怒ってるんですかね」新人困惑→電話を提案すると「電話はちょっと…」と断られ…必要以上にこじれる職場のジレンマ描いた話題のマンガ(ABEMA TIMES)",
+        "summary": "職場におけるコミュニケーション手段が多様化する中、テキストチャットの文面の受け止め方や電話での対話に対する苦手意識といった世代間のギャップが、SNS上などでたびたび議論されている。そうした中、漫画家・",
+        "pub_date": "11/12 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/c49dd87785a698b3c2f8cdcf7ae953a30b0c5951?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "着替え中の男子児童を盗撮か 小学校教師の男を逮捕 画像など約5000点を押収(テレビ朝日系（ANN）)",
-        "summary": "教室内で着替え中の男子児童を盗撮したなどとして東京都の小学校の教師が逮捕されました。 柴田峻雅容疑者（26）はおととし7月、勤務先だった東京・足立区内の小学校の教室内で低学年の男子児童が着替える様子を",
-        "pub_date": "11/12 12:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/4be9b03b6f2be9a875f264ceac0d03acac415ddc?source=rss",
+        "title": "玉木雄一郎氏、高市政権に「対ロ宥和」警戒　日本人記者拘束めぐり(J-CASTニュース)",
+        "summary": "国民民主党の玉木雄一郎代表が2026年11月11日、日本人記者の拘束をめぐるロシア側の思惑を分析した東京大先端科学技術研究センター・小泉悠准教授の日本経済新聞の記事を引用し、高市早苗政権の対ロシア政策",
+        "pub_date": "11/12 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/7a9c2cd9e432c4584da26db98bbebed4e832a5d8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-12 12:29:07 JST"
+    "last_updated": "2026-11-12 13:26:31 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -591,10 +592,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "gvUi-FLEaIU",
+        "video_id": "xrfMrCjJDpI",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/gvUi-FLEaIU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=gvUi-FLEaIU"
+        "embed_url": "https://www.youtube.com/embed/xrfMrCjJDpI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=xrfMrCjJDpI"
       },
       {
         "id": "stream_ntvnews",

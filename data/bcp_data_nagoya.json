@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 06:26:36",
+  "timestamp": "2026-11-12 07:45:47",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -172,33 +172,37 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NORMAL",
-    "summary": "現在、東海・信越エリア全域（6地域）に警報・注意報の発表はありません。",
+    "status": "NOTICE",
+    "summary": "【注意報発表: 2地域】新潟、長野（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 0,
+    "notice_count": 2,
     "total_prefs": 6,
     "pref_details": [
       {
         "code": "15",
         "name": "新潟県",
         "short_name": "新潟",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
         "code": "20",
         "name": "長野県",
         "short_name": "長野",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -256,14 +260,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東海道本線、信越本線、上越線）",
+    "text": "運行支障あり（在来線: 信越本線、上越線、越後線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東海道本線、信越本線、上越線、越後線）",
+    "line_text": "運行支障あり（信越本線、上越線、越後線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
-      "東海道本線",
       "信越本線",
       "上越線",
       "越後線"
@@ -330,22 +333,22 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 6 件です。",
       "recent_posts": [
         {
-          "time": "11/12 04:51",
-          "text": "@mashiro3com メイン回線を楽天モバイル、サブ回線にpovoにしてからもう長いこと運用できてますよ✨ 通信 START 障害 END あっても楽天と ..."
+          "time": "11/12 07:40",
+          "text": "UQ 【 START au END 】モバイルさぁ～ん 今日の早朝四時すぎから START ａｕ END カスタマーセンターに ある極小特定地域内にての❗ 通信..."
         },
         {
-          "time": "11/12 04:16",
-          "text": "朝から START au END メールの受信ができない＆ウィーフィーの塩梅がよくない。昨日から通信が途切れ途切れになる。もしかして通信 START 障害 EN..."
+          "time": "11/12 07:27",
+          "text": "START au END 繋がらんのだが、私だけか？ 通信 START 障害 END ？"
         },
         {
-          "time": "11/12 03:37",
-          "text": "START au END ってシステム START 障害 END 起きてる？ 料金の支払いは全て START au END カードにしてるのに謎の少額請求用紙届..."
+          "time": "11/12 07:15",
+          "text": "📱 START au END の回線 通信 START 障害 END かな🤔"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -379,8 +382,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/12 07:32",
+          "text": "@enishi120713 START 繋がらない END …スマホが圏外といった状態でしょうか？💦 START au END サポート石川"
+        },
         {
           "time": "11/12 05:24",
           "text": "@Rakuten_Mobile 楽天モバイルは START 繋がらない END のが前提です。 必ず START au END やdocomoの電波を使う格安S..."
@@ -388,10 +395,6 @@
         {
           "time": "11/12 05:14",
           "text": "ソフトバンク、池袋サンシャインちょっとイベントあるとほんと全く START 繋がらない END docomo、 START au END と比較しても STAR..."
-        },
-        {
-          "time": "11/12 03:37",
-          "text": "START au END ってシステム障害起きてる？ 料金の支払いは全て START au END カードにしてるのに謎の少額請求用紙届いてて、それに関して問い..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -402,7 +405,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/12 05:56",
@@ -424,22 +427,94 @@
     "status": "NORMAL",
     "office": "名古屋地方気象台",
     "target_area": "愛知県",
-    "report_time": "11/12 10:42",
+    "report_time": "11/12 16:42",
     "headline": "",
-    "text": "　東海地方は、高気圧に覆われています。\n\n　東海地方は、おおむね晴れています。\n\n　１２日の東海地方は、高気圧に覆われるため晴れますが、湿った空気の影響で夜は曇りとなるでしょう。\n\n　１３日の東海地方は、気圧の谷や湿った空気の影響ではじめ曇りとなりますが、高気圧に覆われるため昼前から次第に晴れる見込みです。",
+    "text": "　東海地方は、高気圧に覆われていますが、湿った空気の影響を受けている所があります。\n\n　東海地方は、曇りまたは晴れとなっています。\n\n　１２日の東海地方は、高気圧に覆われるため晴れる所もありますが、湿った空気の影響でおおむね曇りとなるでしょう。\n\n　１３日の東海地方は、気圧の谷や湿った空気の影響ではじめ曇りとなりますが、高気圧に覆われるため昼前から次第に晴れる見込みです。三重県では、明け方から朝にかけて雨の降る所があるでしょう。",
     "paragraphs": [
-      "東海地方は、高気圧に覆われています。",
-      "東海地方は、おおむね晴れています。",
-      "１２日の東海地方は、高気圧に覆われるため晴れますが、湿った空気の影響で夜は曇りとなるでしょう。",
-      "１３日の東海地方は、気圧の谷や湿った空気の影響ではじめ曇りとなりますが、高気圧に覆われるため昼前から次第に晴れる見込みです。"
+      "東海地方は、高気圧に覆われていますが、湿った空気の影響を受けている所があります。",
+      "東海地方は、曇りまたは晴れとなっています。",
+      "１２日の東海地方は、高気圧に覆われるため晴れる所もありますが、湿った空気の影響でおおむね曇りとなるでしょう。",
+      "１３日の東海地方は、気圧の谷や湿った空気の影響ではじめ曇りとなりますが、高気圧に覆われるため昼前から次第に晴れる見込みです。三重県では、明け方から朝にかけて雨の降る所があるでしょう。"
     ],
-    "summary": "東海地方は、高気圧に覆われています。...",
+    "summary": "東海地方は、高気圧に覆われていますが、湿った空気の影響を受けている所があります。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=230000"
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 10,
     "articles": [
+      {
+        "title": "無許可でカラオケバーを営業か　新宿歌舞伎町でぼったくり被害相次ぎ警視庁が一斉摘発(テレビ朝日系（ANN）)",
+        "summary": "東京・歌舞伎町で許可なくカラオケバーを営業していたとして62歳の男が逮捕されました。悪質な客引きやぼったくりを受け、警視庁が一斉摘発をして、これまでに合わせて5人が逮捕されています。 ナイジェリア国籍",
+        "pub_date": "11/12 16:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/89d87f0200ee28ed02e286b51fbbcec1d35dc291?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "山道を車3台で猛スピードで走って事故起こし同乗男性を死亡させた疑い等 “走り屋仲間”の男性3人を書類送検(東海テレビ)",
+        "summary": "愛知県新城市の山道を車3台で猛スピードで走って事故を起こし、同乗していた男性を死亡させた疑いで、「走り屋仲間」が書類送検されました。 書類送検されたみよし市の会社員の男性(25)は、今年1月、新城市作",
+        "pub_date": "11/12 16:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/56111f09aecff1165bdbf98f6ad89af49525575b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "無許可でカラオケバーを営業か 新宿歌舞伎町でぼったくり被害相次ぎ警視庁が一斉摘発(テレビ朝日系（ANN）)",
+        "summary": "東京・歌舞伎町で許可なくカラオケバーを営業していたとして62歳の男が逮捕されました。悪質な客引きやぼったくりを受け警視庁が一斉摘発をして、これまでに合わせて5人が逮捕されています。ナイジェリア国籍のエ",
+        "pub_date": "11/12 16:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/b72c16412cca5124772a97a637d5984e36798f55?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "〔JR東海〕東海道本線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "垂井～関ケ原駅間で発生した人身事故の影響で、東海道本線は大垣～米原駅間の運転を見合わせていましたが、15:58頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/12 16:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/35879ae174b9113ff7986a657e44e4b19756de69?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "筑波大付属小児童のいじめ認定　第三者委「学校の対応不適切」(共同通信)",
+        "summary": "筑波大付属小（東京都文京区）で2023年度、6年生の児童がいじめ被害を訴えた問題で、筑波大付属学校教育局は12日までに、第三者委員会による調査報告書を公表した。報告書は4年生の時から断続的ないじめがあ",
+        "pub_date": "11/12 16:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/06e104a53207acf41a46b3d925d5ae65f6ab034d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "タマホーム「全店対象に調査中」 不正請求めぐり(ABEMA TIMES)",
+        "summary": "住宅メーカーのタマホームの社員が、火災保険の保険金を不正に請求していた問題をめぐり、タマホームが、全店を対象に調査を行っていることを明らかにしました。【映像】不正請求めぐり「全店対象に調査中」 関係者",
+        "pub_date": "11/12 15:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/5c065ee6ee6b1088541f3e95059bfd4ed6ddcfca?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "選手宿泊コンテナ、地震被災地へ　アジア大会施設、熊本で住宅に(共同通信)",
+        "summary": "愛知県を中心に開催されたアジア・アジアパラ大会で選手らが利用したコンテナ型宿泊施設が12日、名古屋市港区のガーデンふ頭から熊本県に向けて出発した。7月に発生した熊本地震の被災者向けに仮設住宅として活用",
+        "pub_date": "11/12 15:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/bc26d11ae9dd28979fddf3908b84a4c447044ad0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "奥田議員「ばっかなんじゃないんですか？」を連発 「自動車メーカーとか旧統一教会とかのための政策」「金と票による保身政治」環境委で批判(ABEMA TIMES)",
+        "summary": "12日の参院環境委員会で、いのちの党の奥田ふみよ議員が公害健康被害の補償等に関する法律の一部を改正する法律案について質疑を行った。過去の指定地域解除や自動車排ガス規制の遅れの背景に、自民党と自動車・燃",
+        "pub_date": "11/12 15:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/3479b76a6b36929f8766c061b9929db7e9556f34?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "インバウンド狙いのぼったくり増加、警視庁が歌舞伎町の飲食店一斉摘発　責任者ら5人逮捕(産経新聞)",
+        "summary": "訪日客（インバウンド）らを狙ったぼったくり被害が相次いでいることを受け、警視庁保安課は11日未明、東京・歌舞伎町のカラオケバーなど2店舗を立ち入り調査した。無許可で接待営業を行ったり、立ち入り調査を妨",
+        "pub_date": "11/12 15:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/8386a185e8de5d1e8d15d677103d048248a0f4f5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "高速度運転疑い、男性を書類送検　連なって走行した車にほう助適用(共同通信)",
         "summary": "愛知県新城市の国道301号で1月にスポーツカーが木に衝突し、助手席の男性＝当時（32）＝が死亡する事故があり、県警は12日、制御困難な高速度で運転したとして、自動車運転処罰法違反（危険運転致死）容疑で",
@@ -449,119 +524,47 @@
         "is_disaster": true
       },
       {
-        "title": "「寝室のベッドが燃えている」 5人暮らしの民家全焼、2階に3人の遺体(中国新聞デジタル)",
-        "summary": "11日午後11時55分ごろ、広島県福山市新市町の民家で「1階寝室のベッドが燃えている」と119番があった。消防車8台が消火活動に当たり、約3時間後に鎮火した。【画像】深夜の火災発生に現場は 県警福山北",
-        "pub_date": "11/12 14:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/0bb8f5527c7440197a0af339ee8506300aafa328?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "非核三原則見直し議論「分岐点」　被団協事務局長、危機感あらわ(共同通信)",
-        "summary": "日本原水爆被害者団体協議会（被団協）の浜住治郎事務局長（80）は12日、東京都内で記者会見し、年内に改定する安全保障関連3文書で非核三原則の見直しが取り沙汰されていることに触れ「日本は非常に大きな分岐",
-        "pub_date": "11/12 14:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/23f2a43c4f0f9e85b5e81b65c930cd973950edfe?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「近道したい」乱横断に潜む危険　11月が最多　魔の時間帯“薄暮時”の死亡事故(テレビ朝日系（ANN）)",
-        "summary": "歩行者が横断歩道以外の場所を横断する危険な“乱横断”による事故が相次いでいます。日没が早くなってくる11月の夕暮れ時の死亡事故が最も多くなるそうで、注意が必要です。【画像】対向車の陰から…突然、横断歩",
-        "pub_date": "11/12 14:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/1132700e6195f8583467d14d56fa722a16f0a827?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【交通情報】JR東海道線 大垣〜米原 人身事故のため上下線で運転見合わせ(CBCテレビ)",
-        "summary": "JR東海によりますと、東海道線は人身事故のため、大垣〜米原の上下線で運転を見合わせています（12日午後2時25分時点）。【写真を見る】【交通情報】JR東海道線 大垣〜米原 人身事故のため上下線で運転見",
-        "pub_date": "11/12 14:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/7afb328646971e33771aa1f8f86951892ca30446?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "〔JR東海〕東海道本線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "13:59頃、垂井～関ケ原駅間で発生した人身事故の影響で、東海道本線は大垣～米原駅間の運転を見合わせています。",
-        "pub_date": "11/12 14:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/8ab2215991680bb2c261bfe9bf04de24290dae2d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "広島で住宅火災、3人死亡　「寝たばこ」と通報(共同通信)",
-        "summary": "11日午後11時55分ごろ、広島県福山市新市町戸手で、住人から「1階寝室でベッドが寝たばこで燃えている」と119番があった。県警によると2階建て住宅が全焼し、焼け跡から3人の遺体が見つかった。いずれも",
-        "pub_date": "11/12 13:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/88384f14e939d62e41347396075f12d036ed3d5b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【ヤフコメで話題】「ポケモンGOイベントの経済効果に疑問」「高級グッズ化やコラボの方向性に賛否」 - ポケモン関連イベントと商品展開を巡る議論(Yahoo!ニュース オリジナル THE PAGE)",
-        "summary": "ポケモンGOの仙台イベントや高級グッズ化について、Yahoo!ニュースのコメント欄で話題になっています。仙台で開催されたポケモンGOイベントの集客や経済効果について、過去の鳥取イベントと比較し、実際の",
-        "pub_date": "11/12 15:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/985df6024678bfafd43ab6aeca382c2b04d48402?source=rss",
+        "title": "衆議院比例定数31減法案を提出　自維国3党共同で(テレビ朝日系（ANN）)",
+        "summary": "衆議院の議員定数削減を巡り、自民党と日本維新の会、国民民主党が比例代表で31議席を削減することなどを盛り込んだ法案を共同で提出しました。自民党 加藤勝信選挙制度改革本部長「私ども自民党、日本維新の会、",
+        "pub_date": "11/12 16:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/9d322c879fd9493a6d3f2683caaec66b6496b65d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "薬1700点無許可貯蔵か　ペット店経営者ら書類送検(共同通信)",
-        "summary": "犬猫に無資格注射をしたとしてペットショップ経営会社「Aペット」（堺市）の幹部が逮捕された事件で、大阪府警は12日、ペット用医薬品約1700点を無許可で貯蔵したとして、医薬品医療機器法違反容疑で同社の天",
-        "pub_date": "11/12 15:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/7a1402867e7fc2f3ebdbd858b9aa0284d22ab496?source=rss",
+        "title": "東洋大、「年内入試」の一部廃止　27年度実施の基礎学力テスト型(共同通信)",
+        "summary": "東洋大は12日までに、2027年度に実施する入試で、「年内入試」と呼ばれる総合型選抜のうち、学力試験や小論文を課す「基礎学力テスト型」を取りやめると発表した。文部科学省が5月、総合型選抜での面接実施を",
+        "pub_date": "11/12 16:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/6a8011c989c44934f85fedf344ce0e681255b975?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "エルニーニョ現象でも“ドカ雪”注意　理由は「北極振動」と「温かい日本海」　暖冬予想だった2018年には福井市で147cmの積雪を記録(FNNプライムオンライン)",
-        "summary": "気象庁は、この冬の北陸地方の天候について、気温が平年より高く降雪量も少ない暖冬傾向としている。ところが、大雪にならないとは言い切れない。2016年冬は暖冬予想の中、福井市で積雪が短時間に9cmから47",
-        "pub_date": "11/12 15:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/d3a0bb5dd97ed7c8910dcfb93372ba9cdda4f740?source=rss",
+        "title": "イコールラブに国税庁が感謝状　リーダー山本さん「税金は大切」(共同通信)",
+        "summary": "国税庁は12日、国税電子申告・納税システム（e―Tax）やスマートフォンを使った確定申告などの広報活動に貢献したとして、人気アイドルグループ「＝LOVE（イコールラブ、略称イコラブ）」に国税庁長官感謝",
+        "pub_date": "11/12 16:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/e882f2935feacf6aeaca3822db10d1418ffc503a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "横田早紀江さん居住マンションの住民、国会周辺で拉致問題解決訴え　15日で拉致49年(産経新聞)",
-        "summary": "横田めぐみさん（62）＝拉致当時（13）＝が北朝鮮に連れ去られてから今月15日で49年を迎えるのを前に、母の早紀江さん（90）が住むマンションの住民でつくる支援団体「あさがおの会」のメンバーら約30人",
-        "pub_date": "11/12 15:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/c94c57fa4c68933c65ced0c97001080460190ec4?source=rss",
+        "title": "非核三原則、例外明記案に抗議　広島県原水協など堅持訴え(共同通信)",
+        "summary": "政府が、安全保障関連3文書改定で「非核三原則」の例外を明記する案を検討していることを巡り、原水爆禁止広島県協議会（県原水協）などが12日、広島市の原爆ドーム前で抗議集会を開いた。参加した被爆者らは「核",
+        "pub_date": "11/12 16:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/2129fc8a3659e96a015206887ab1223ecda49556?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "千葉のアパートで女性絞殺疑い、男再逮捕(共同通信)",
-        "summary": "仙台市の駐車場で車内から女性（30）の遺体が見つかった事件で、千葉県警は12日、千葉県のアパートで女性の首をコードで絞めて殺害したとして、殺人の疑いで同県松戸市、無職中島遼太容疑者（28）を再逮捕した",
-        "pub_date": "11/12 15:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/9582792ad7dd53a62fb1dde329d67f86d97271d8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【速報】ダイハツ・トヨタ・スバルの3車種 17万6000台をリコール　電気装置の不具合でエンジンが始動できない恐れ(読売テレビ)",
-        "summary": "ダイハツ・トヨタ・スバルは、3つの車種で電気装置に不具合が見つかり、エンジンが始動できない恐れがあるなどとして、17万6683台をリコールすると発表しました。 リコール対象となるのは、ダイハツの「ロッ",
-        "pub_date": "11/12 15:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/349f1a910ab4c2aa686f06d470dd32a891dccb55?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "高市総理「ストレスがたまった」家族型ロボに愚痴こぼす(テレビ朝日系（ANN）)",
-        "summary": "高市総理大臣は人と心を通わせるという家族型ロボットを体験し、最近はストレスがたまっているんだと話しかけました。高市総理大臣「おばちゃんちょっとストレスたまったんだけどね、かわいいね、癒やされるね。ずっ",
-        "pub_date": "11/12 15:04 JST",
-        "link": "https://news.yahoo.co.jp/articles/4ef02b271547b01214ca82449261d6b2d77209e0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "外務省、中国の国連「東京裁判80年」写真展に申し入れ　「事実に反する」と国会答弁(産経新聞)",
-        "summary": "外務省は12日の参院外務防衛委員会で、中国の国連代表部が米ニューヨークの国連本部で開催した極東国際軍事裁判（東京裁判）の開廷80年を記念する写真展を巡り、中国側の主張に「事実に反する」内容があるとして",
-        "pub_date": "11/12 15:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/0b494e4f6740172fa34c0e69feacde32bd1f2219?source=rss",
+        "title": "二刀流再来の今シーズン回顧　大谷翔平記録集、岩手日報販売(共同通信)",
+        "summary": "米大リーグ、ドジャースの大谷翔平選手の今シーズンを振り返る報道記録集を地元の岩手日報社（盛岡市）が発売した。3季ぶりの投打「二刀流」が一時復活した今季のプレーを満載。全国の書店と同社のオンラインショッ",
+        "pub_date": "11/12 16:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/7baec76bfb1a2eb0d9d61aa8e4568f1f5b5df412?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-12 15:25:56 JST"
+    "last_updated": "2026-11-12 16:45:10 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -582,10 +585,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "QFCZ1GiaHzc",
+        "video_id": "R_3LGa1LnFY",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/QFCZ1GiaHzc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=QFCZ1GiaHzc"
+        "embed_url": "https://www.youtube.com/embed/R_3LGa1LnFY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=R_3LGa1LnFY"
       },
       {
         "id": "stream_tbsnews",
@@ -604,10 +607,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "NbnMAsYCAZ0",
+        "video_id": "lA-gMNwfWrc",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/NbnMAsYCAZ0?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=NbnMAsYCAZ0"
+        "embed_url": "https://www.youtube.com/embed/lA-gMNwfWrc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=lA-gMNwfWrc"
       },
       {
         "id": "stream_annnews",
@@ -615,10 +618,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "S3YdDyUtaOM",
+        "video_id": "lyEWlMH2gQg",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/S3YdDyUtaOM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=S3YdDyUtaOM"
+        "embed_url": "https://www.youtube.com/embed/lyEWlMH2gQg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=lyEWlMH2gQg"
       },
       {
         "id": "stream_fnnnews",

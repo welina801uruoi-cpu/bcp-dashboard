@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 18:15:41",
+  "timestamp": "2026-11-12 19:07:13",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -346,12 +346,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-12 22:27",
-    "place": "千葉県北東部",
-    "magnitude": "3.9",
+    "shindo": "1",
+    "time": "2026-11-13 03:48",
+    "place": "茨城県沖",
+    "magnitude": "3.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-13 03:48",
+        "place": "茨城県沖",
+        "shindo": "1",
+        "magnitude": "3.6",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-12 22:27",
         "place": "千葉県北東部",
@@ -414,13 +421,6 @@
         "shindo": "1",
         "magnitude": "4.6",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-11 08:33",
-        "place": "熊本県熊本地方",
-        "shindo": "1",
-        "magnitude": "2.7",
-        "maxScale": 10
       }
     ]
   },
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 22地域】道央、道南、道北、道東、青森、宮城、秋田、山形、福島、茨城、千葉、東京、新潟、石川、長野、和歌山、島根、広島、徳島、長崎、熊本、沖縄（警報なし）",
+    "summary": "【注意報発表: 23地域】道央、道南、道北、道東、青森、岩手、宮城、秋田、山形、福島、茨城、千葉、東京、新潟、石川、長野、和歌山、島根、広島、徳島、長崎、熊本、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 22,
+    "notice_count": 23,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -450,10 +450,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "なだれ注意報"
         ],
-        "summary": "強風注意報、なだれ注意報",
+        "summary": "なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -464,10 +463,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "なだれ注意報"
+          "なだれ注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、なだれ注意報",
+        "summary": "なだれ注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -491,10 +490,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "濃霧注意報"
         ],
-        "summary": "強風注意報、濃霧注意報",
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
@@ -514,11 +512,13 @@
         "code": "3",
         "name": "岩手県",
         "short_name": "岩手",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -570,10 +570,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "霜注意報"
+          "霜注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、霜注意報",
+        "summary": "霜注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       },
       {
@@ -584,10 +584,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "霜注意報"
+          "霜注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、霜注意報",
+        "summary": "霜注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -644,9 +644,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "波浪注意報"
         ],
-        "summary": "波浪注意報",
+        "summary": "雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -888,9 +889,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報"
+          "乾燥注意報",
+          "濃霧注意報"
         ],
-        "summary": "乾燥注意報",
+        "summary": "乾燥注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/34/"
       },
       {
@@ -1055,13 +1057,16 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線21路線: 石巻線、山田線、大湊線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線21路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（石巻線、山田線、大湊線、米坂線、陸羽東線 等 計21路線）",
+    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線、石巻線、山田線 等 計21路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "美祢線",
       "石巻線",
       "山田線",
       "大湊線",
@@ -1069,20 +1074,17 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
       "肥薩線",
-      "美祢線",
-      "越後線",
-      "九頭竜線",
-      "しなの鉄道北しなの線",
-      "大井川鉄道大井川本線",
-      "万葉線",
       "烏山線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線"
+      "わたらせ渓谷鐵道線",
+      "越後線",
+      "九頭竜線",
+      "しなの鉄道北しなの線",
+      "大井川鉄道大井川本線",
+      "万葉線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1175,7 +1177,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】北海道・千葉・長野で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】北海道・千葉・東京・長野・京都で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1443,7 +1445,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 03:15:38 JST"
+    "last_updated": "2026-11-13 04:07:10 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 18:15:54",
+  "timestamp": "2026-11-12 19:07:27",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -112,12 +112,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-12 22:27",
-    "place": "千葉県北東部",
-    "magnitude": "3.9",
+    "shindo": "1",
+    "time": "2026-11-13 03:48",
+    "place": "茨城県沖",
+    "magnitude": "3.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-13 03:48",
+        "place": "茨城県沖",
+        "shindo": "1",
+        "magnitude": "3.6",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-12 22:27",
         "place": "千葉県北東部",
@@ -180,13 +187,6 @@
         "shindo": "1",
         "magnitude": "4.6",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-11 08:33",
-        "place": "熊本県熊本地方",
-        "shindo": "1",
-        "magnitude": "2.7",
-        "maxScale": 10
       }
     ]
   },
@@ -216,9 +216,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "波浪注意報"
         ],
-        "summary": "波浪注意報",
+        "summary": "雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -264,10 +265,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "霜注意報"
+          "霜注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、霜注意報",
+        "summary": "霜注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -388,7 +389,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東京電力PG: 【停電発生中】千葉で停電情報を検知",
+    "power_msg": "東京電力PG: 【停電発生中】東京・千葉で停電情報を検知",
     "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東京ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -656,7 +657,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 03:15:38 JST"
+    "last_updated": "2026-11-13 04:07:10 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

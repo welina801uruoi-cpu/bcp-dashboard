@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-13 03:19:26",
-  "timestamp_local": "2026-11-12 14:19:26",
+  "timestamp": "2026-11-13 04:10:52",
+  "timestamp_local": "2026-11-12 15:10:52",
   "country": {
     "id": "usa",
     "name": "アメリカ (米国)",
@@ -265,6 +265,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "プーチン氏「新たな欧州安全保障」に理解か　米特使と会談「NATO不拡大」条件に(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/dea6afa9ffed4771108ab66dd0e0014cdabc3d8d?source=rss",
+        "description": "ロシアのプーチン大統領はアメリカの特使と会談し、ヨーロッパの新たな安全保障の枠組みを話し合うことで、ウクライナ問題の解決を図るというアメリカの提案に一定の理解を示しました。 中東アブダビでウクライナを",
+        "pub_date": "11/13 03:58 JST",
+        "is_priority": true
+      },
+      {
         "title": "ニューヨークで3階建ての建物倒壊　死者8人に　18人負傷　雨の中救助活動続く(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/b93a6c20797e3fde30b00b3177583d7b8586fbc3?source=rss",
         "description": "ニューヨークで3階建ての建物が倒壊した事故で、これまでの死者は子ども2人を含む8人に上っています。救助活動は雨のなか、現在も続いています。 ニューヨークのブルックリンで11日、3階建ての建物が隣接する",
@@ -396,13 +403,6 @@
         "description": "日ロ外交筋は12日までに、中国でのアジア太平洋経済協力会議（APEC）首脳会議に合わせた日ロ首脳の接触が実現した場合、ロシア側はウクライナ支援の見直しなどを求める方針だと明らかにした。（共同）",
         "pub_date": "11/12 22:27 JST",
         "is_priority": false
-      },
-      {
-        "title": "ロシア大統領がウクライナ東部での支援提案(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/90f5eea2d45154ab81c89851801286b0c5335a44?source=rss",
-        "description": "【モスクワ共同】タス通信によると、ロシアのプーチン大統領は12日、米国の特使との会談で、ウクライナ南部オレシュキで最近実施した人道支援と同様の措置を東部コンスタンチノフカでも行う用意があると述べた。",
-        "pub_date": "11/12 22:17 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -525,32 +525,32 @@
     "default_channel_id": "stream_nbc_live"
   },
   "forex": {
-    "timestamp": "11/13 03:19 JST",
+    "timestamp": "11/13 04:10 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.78,
-      "change": 1.08,
-      "change_pct": 0.68,
+      "rate": 159.88,
+      "change": 1.17,
+      "change_pct": 0.74,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.57,
-      "change": -0.68,
-      "change_pct": -0.39,
+      "rate": 176.67,
+      "change": -0.59,
+      "change_pct": -0.33,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.57,
-      "change": -0.68,
-      "change_pct": -0.39
+      "rate": 176.67,
+      "change": -0.59,
+      "change_pct": -0.33
     }
   },
   "airports": [
@@ -603,43 +603,133 @@
   "weather": {
     "cities": [
       {
+        "name": "ワシントンD.C. (首都)",
+        "name_en": "Washington, D.C.",
+        "is_capital": true,
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "temp": 16.0,
+        "apparent_temp": 14.4,
+        "humidity": 69,
+        "wind_speed": 12.1,
+        "wind_gusts": 26.6,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/12(木)",
+            "temp_max": 16.3,
+            "temp_min": 7.2,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 7.2,
+            "temp_min": 3.5,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/14(土)",
+            "temp_max": 9.5,
+            "temp_min": 2.2,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ニューヨーク (東部最大都市)",
         "name_en": "New York",
         "is_capital": false,
         "lat": 40.7128,
         "lon": -74.006,
-        "temp": 15.0,
-        "apparent_temp": 11.8,
-        "humidity": 74,
-        "wind_speed": 22.9,
-        "wind_gusts": 42.5,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 11.2,
+        "apparent_temp": 7.5,
+        "humidity": 90,
+        "wind_speed": 25.2,
+        "wind_gusts": 42.8,
+        "precipitation": 2.8,
+        "weather_code": 65,
+        "weather_label": "🌧️ 雨 (大雨)",
         "forecast": [
           {
             "date": "11/12(木)",
             "temp_max": 16.0,
             "temp_min": 9.0,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 23.9
+            "weather_code": 73,
+            "weather_label": "❄️ 降雪 (中雪)",
+            "precipitation_mm": 39.9
           },
           {
             "date": "11/13(金)",
-            "temp_max": 9.0,
+            "temp_max": 9.1,
             "temp_min": 2.7,
             "weather_code": 63,
             "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 10.6
+            "precipitation_mm": 12.8
           },
           {
             "date": "11/14(土)",
-            "temp_max": 7.4,
+            "temp_max": 6.6,
             "temp_min": 2.4,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "強風・大雨注意報",
+        "alert_badge": "🟠 気象注意報",
+        "alert_class": "orange",
+        "alert_desc": "強風（突風42.8km/h）または強い雨。移動・屋外行動に注意"
+      },
+      {
+        "name": "ロサンゼルス (西海岸最大都市)",
+        "name_en": "Los Angeles",
+        "is_capital": false,
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "temp": 24.8,
+        "apparent_temp": 24.6,
+        "humidity": 44,
+        "wind_speed": 8.0,
+        "wind_gusts": 15.5,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/12(木)",
+            "temp_max": 26.7,
+            "temp_min": 14.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/13(金)",
+            "temp_max": 20.2,
+            "temp_min": 15.1,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 15.7
+          },
+          {
+            "date": "11/14(土)",
+            "temp_max": 20.9,
+            "temp_min": 15.4,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 3.0
           }
         ],
         "alert": "平常",
@@ -653,34 +743,34 @@
         "is_capital": false,
         "lat": 41.8781,
         "lon": -87.6298,
-        "temp": 4.7,
-        "apparent_temp": -1.0,
-        "humidity": 77,
-        "wind_speed": 25.5,
-        "wind_gusts": 44.6,
+        "temp": 5.2,
+        "apparent_temp": -0.2,
+        "humidity": 74,
+        "wind_speed": 23.8,
+        "wind_gusts": 42.1,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/12(木)",
             "temp_max": 6.7,
-            "temp_min": 0.2,
+            "temp_min": 0.5,
             "weather_code": 75,
             "weather_label": "❄️ 降雪 (大雪)",
-            "precipitation_mm": 11.1
+            "precipitation_mm": 13.9
           },
           {
             "date": "11/13(金)",
             "temp_max": 4.1,
-            "temp_min": -0.2,
+            "temp_min": -0.3,
             "weather_code": 75,
             "weather_label": "❄️ 降雪 (大雪)",
-            "precipitation_mm": 45.0
+            "precipitation_mm": 40.8
           },
           {
             "date": "11/14(土)",
-            "temp_max": 7.4,
+            "temp_max": 7.6,
             "temp_min": 0.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -694,40 +784,40 @@
       }
     ],
     "capital": {
-      "name": "ニューヨーク (東部最大都市)",
-      "name_en": "New York",
-      "is_capital": false,
-      "lat": 40.7128,
-      "lon": -74.006,
-      "temp": 15.0,
-      "apparent_temp": 11.8,
-      "humidity": 74,
-      "wind_speed": 22.9,
-      "wind_gusts": 42.5,
+      "name": "ワシントンD.C. (首都)",
+      "name_en": "Washington, D.C.",
+      "is_capital": true,
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "temp": 16.0,
+      "apparent_temp": 14.4,
+      "humidity": 69,
+      "wind_speed": 12.1,
+      "wind_gusts": 26.6,
       "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/12(木)",
-          "temp_max": 16.0,
-          "temp_min": 9.0,
-          "weather_code": 63,
-          "weather_label": "🌧️ 雨 (中雨)",
-          "precipitation_mm": 23.9
+          "temp_max": 16.3,
+          "temp_min": 7.2,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/13(金)",
-          "temp_max": 9.0,
-          "temp_min": 2.7,
-          "weather_code": 63,
-          "weather_label": "🌧️ 雨 (中雨)",
-          "precipitation_mm": 10.6
+          "temp_max": 7.2,
+          "temp_min": 3.5,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/14(土)",
-          "temp_max": 7.4,
-          "temp_min": 2.4,
+          "temp_max": 9.5,
+          "temp_min": 2.2,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -738,7 +828,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/13 03:19 JST"
+    "timestamp": "11/13 04:10 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -782,7 +872,7 @@
         "details": "NY地下鉄各線平常運行中"
       }
     ],
-    "timestamp": "11/13 03:19 JST"
+    "timestamp": "11/13 04:10 JST"
   },
   "lifeline": {
     "status": "NORMAL",

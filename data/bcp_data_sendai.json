@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 22:53:28",
+  "timestamp": "2026-11-12 23:29:28",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -265,13 +265,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 北上線）",
+    "text": "運行支障あり（在来線: 羽越本線、北上線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（北上線）",
+    "line_text": "運行支障あり（羽越本線、北上線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/3",
     "troubled_lines": [
+      "羽越本線",
       "北上線"
     ],
     "troubled_shinkansen": [],
@@ -360,7 +361,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/12 22:51",
@@ -406,8 +407,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/12 23:06",
+          "text": "#日記 あの…私、 START au END 回線使っているのですけど…。 つ、 START 繋がらない END です…。 え？………え？ https://t...."
+        },
         {
           "time": "11/12 22:40",
           "text": "START au繋がらない END な、障害は出てないけど"
@@ -415,10 +420,6 @@
         {
           "time": "11/12 21:50",
           "text": "ドコモ糞すぎる 都心部で START 繋がらない END の致命的すぎる 乗り換えたいけどSBと START au END はどっちがマシなんだろうか"
-        },
-        {
-          "time": "11/12 20:35",
-          "text": "START au END のWiFi、昨晩から START 繋がらない END んだが"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -468,8 +469,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 9,
     "articles": [
+      {
+        "title": "山形の火災、死者3人に(共同通信)",
+        "summary": "山形県警によると、13日未明に山形県寒河江市で発生した建物火災で、さらに2人の遺体が見つかった。死者は計3人となった。",
+        "pub_date": "11/13 08:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/461cb7a3b72c8f0b51d8bb3f966b2e27103a2bab?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "ジャンボタニシ対策へ地域が一丸に　収穫後に殺貝効果ある石灰窒素散布　下関で実態調査も行い集落全体拡大(日本農業新聞)",
+        "summary": "水稲苗を食い荒らすスクミリンゴガイ（ジャンボタニシ）の被害を食い止めようと、JA山口県下関統括本部は今年、地域ぐるみでの対策に乗り出した。山口県下関市の王司地区では集落講習会を初開催。収穫後に地元農家",
+        "pub_date": "11/13 08:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/7871a4ec24e63ed676b3d32a6512a02aaf0fe466?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "「重いお言葉を…」愛子さま、犯罪被害者支援イベントにご臨席…災害支援から「心のケア」へ広げられた新たな一歩(週刊女性PRIME)",
         "summary": "立冬を過ぎ、厳しい冷え込みのなか、愛子さまは凛としたご様子で会場へと足を進められた。11月9日、愛子さまがご臨席されたのは、警察庁などが主催する「こころをつなぐ国民イベント2026」だ。【写真】真剣な",
@@ -527,71 +544,55 @@
         "is_disaster": true
       },
       {
-        "title": "新宿区長選挙は新人3名と現職の戦い！11月15日投票　東京都(選挙ドットコム)",
-        "summary": "11月8日に告示された新宿区長選挙には、新人の山片賢一（やまがた・けんいち）氏（59）、新人の大門幸恵（だいもん・さちえ）氏（57）、日本共産党が推薦・社会民主党が支持する新人の黒田朝陽（くろだ・あさ",
-        "pub_date": "11/13 07:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/8ba70209a926801ed9c3facae7efeeadba939e9d?source=rss",
+        "title": "雅子さまは落ち着いた“もみじ柄の着物”、愛子さまは“淡いピンクのスーツ”姿で…天皇ご一家が皇宮警察140周年の武道大会をご観戦(ABEMA TIMES)",
+        "summary": "11月11日、皇居にある皇宮警察の道場「済寧館」に、天皇皇后両陛下と長女の愛子さまが到着された。【映像】天皇ご一家が、武道大会を観戦される様子 雅子さまは落ち着いたもみじ柄のお着物を、愛子さまは淡いピ",
+        "pub_date": "11/13 08:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/c12ab7a1c5487c4688fd06021a98a648d02b5fda?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「暇つぶしでいたずらしてやろうと…」警察への迷惑通報で少年（17）を書類送致(CBCテレビ)",
-        "summary": "「ショウリンジだ、かかってこい」などと110番通報し、警察の業務を妨害したとして、岐阜県各務原市の少年（17）が、書類送致されました。【写真を見る】「暇つぶしでいたずらしてやろうと…」警察への迷惑通報",
-        "pub_date": "11/13 07:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/8910256bcc7aa39e6d27898f812d1d6de79d58c6?source=rss",
+        "title": "空自奈良基地の50代1等空尉　自転車酒気帯び運転で奈良署員に摘発され、停職15日処分(産経新聞)",
+        "summary": "航空自衛隊奈良基地は12日、酒気帯びの状態で自転車を運転したとして、幹部候補生学校の50代1等空尉を停職15日の懲戒処分としたと発表した。性別は非公表。同基地によると、昨年11月28日夜、奈良市内の飲",
+        "pub_date": "11/13 08:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/8dac4a7fd3bad3c684f95be1864ecec9df9c8a25?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「私をクビにしてください」小渕優子氏目を潤ませ…消費減税めぐる更迭の舞台裏“暴露” 小渕氏に党幹部激怒「まさか本人の口から」テレビ朝日政治部記者が解説(ABEMA TIMES)",
-        "summary": "消費減税法案をめぐり自民党内に亀裂が生じている。参議院で消費減税の関連法案の審議が始まる中、衆議院での採決時に石破茂前総理ら4人が採決を棄権し、戒告処分を受けた。さらに、小渕優子元経産大臣は更迭される",
-        "pub_date": "11/13 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/de965c360b819fc2392a9f429bc6fa4e8939a6e2?source=rss",
+        "title": "残業は月200時間を余裕で超える…元官僚芸人が明かす｢国会待機｣だけじゃない霞ヶ関で恐れられている仕事(プレジデントオンライン)",
+        "summary": "中央省庁が「ブラック」であることが広く知られ、霞ヶ関から人が流出しているという。元官僚で、現在はコンサルタント兼お笑い芸人の松本昌平さんは「官僚の仕事は想像を超えるほどブラック。国会待機以外にも、あま",
+        "pub_date": "11/13 08:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/053ef342113f9c8bd2f1922eaf2cba7bc916f364?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "また自民との連立に含み…右に行ったり左に行ったり「公明党」を創価学会員はどう思っているのか　中道惨敗には「私たちは何も悪くないのに…」(AERA DIGITAL)",
-        "summary": "2026年8月31日、中道改革連合、立憲民主党、公明党の3党は合流を断念することを確認し、中道は9月9日に党の分裂を正式決定した。その後、中道に所属していた公明党出身の衆院議員28人は全員が公明党に復",
-        "pub_date": "11/13 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/a982d22a95e847241f77fdc68f5f7889ea368d9a?source=rss",
+        "title": "中野だけでなく上野でも…高級品を“試着”したまま逃走する「割に合わなすぎる手口」が横行する理由(FRIDAY)",
+        "summary": "「泥棒！」貴金属店から飛び出してきた男を、店の警備員はそう叫びながら追いかけた。警備員が必死だったのも無理はない。逃げる男の首にはなんと約950万円分のネックレスなどが巻かれていたのだ。【大胆な犯行と",
+        "pub_date": "11/13 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/9cf0e448b6263b7ecdefb493b816a6cf3a580dcc?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "AIで作業を効率化してもなぜ疲れる？　増え続ける「決断」、必要なのは短い仮眠(AERA DIGITAL)",
-        "summary": "AIに作業を任せれば、仕事は早く終わる。楽になり、自由な時間や睡眠も増えるはずだった。ところが、現実には「猛烈な疲れ」を感じる人がいる。作業が減る一方で、人間が担う「決断」は増えていた。AERA 20",
-        "pub_date": "11/13 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/cbe242dbe6b9a321e40ead19525de825f39934a2?source=rss",
+        "title": "【ニュースto】｢勝手にくんでいくのは違う｣無料の温泉を“無断”で約120L持ち帰りはアリ？ナシ？“無料サービス”の持ち帰りの限度は？(読売テレビ)",
+        "summary": "栃木県にある老舗温泉旅館が、温泉を“無料”で提供していたところ、｢120Lを無断で持ち帰られた｣とSNSで投稿し、話題になりました。身の回りにある“無料サービス”をどこまで利用していいのか、街では意見",
+        "pub_date": "11/13 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/fe340ed06640d345c7e5dae357d743fc0f79d8a3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "“昭和の野党”共産党が若者に“ラブコール”　22年ぶりの綱領改定で「自由」掲げ、組織は変われるか(AERA DIGITAL)",
-        "summary": "日本共産党が22年ぶりの大幅な綱領改定に乗り出した。「自由」を前面に掲げ、若い世代の支持拡大をめざす。選挙での退潮が続くなか、党は生まれ変われるのか。『続・希望の共産党 再生を願って』（あけび書房）の",
-        "pub_date": "11/13 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/b20ab6d69a083477570f1140981c8ceb284f1eff?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【動画】13日の天気 - 日差し暖か 穏やかな小春日和　一日の気温差大　東北・北陸・近畿は雷雨に注意（13日7時更新）(ウェザーマップ)",
-        "summary": "きょう（金）は晴れる所が多く、関東から西を中心に日中の気温が20℃以上となるでしょう。日差しが暖かく、穏やかな小春日和になりそうです。一日の気温差が大きいので、服装選びにお気をつけください。ただ、東北",
-        "pub_date": "11/13 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/37dc4053eb18322506b15e602c527e7061ec76ba?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "79歳の母親を殺害、容疑で自称アルバイトの女を逮捕　兵庫・姫路(産経新聞)",
-        "summary": "母親を刃物のようなもので刺して殺害したとして、兵庫県警姫路署は12日、殺人容疑で同県姫路市夢前町の自称アルバイトの女（45）を逮捕した。「腹と首、腕を刺した」と話しているが、容疑については「分からない",
-        "pub_date": "11/13 07:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/ee01a31344e86ae6dda30d002946a26367369213?source=rss",
+        "title": "品川区長選挙は現職と新人の戦い！11月15日投票　東京都(選挙ドットコム)",
+        "summary": "11月8日に告示された品川区長選挙には、現職の森澤恭子（もりさわ・きょうこ）氏（48）、新人の浜田健太郎（はまだ・けんたろう）氏（27）の無所属2名が立候補しました。投開票は11月15日に行われます。",
+        "pub_date": "11/13 07:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/e6ae9052660d81313260b568e87d63ac4a486b82?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 07:52:58 JST"
+    "last_updated": "2026-11-13 08:29:01 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",

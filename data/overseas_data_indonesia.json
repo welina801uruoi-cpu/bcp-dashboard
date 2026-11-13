@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-14 01:17:04",
-  "timestamp_local": "2026-11-13 23:17:04",
+  "timestamp": "2026-11-14 02:06:28",
+  "timestamp_local": "2026-11-14 00:06:28",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -283,17 +283,41 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
-    "summary": "M5.2 (West Chile Rise)",
+    "count_24h": 17,
+    "summary": "M5.8 (79 km WSW of Changuillo, Peru)",
     "latest": {
-      "mag": 5.2,
-      "place": "West Chile Rise",
-      "time": "11/13 23:12 JST",
+      "mag": 5.8,
+      "place": "79 km WSW of Changuillo, Peru",
+      "time": "11/14 01:43 JST",
       "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty1a",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.8,
+        "place": "79 km WSW of Changuillo, Peru",
+        "time": "11/14 01:43 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty1a",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.8,
+        "place": "10 km SW of Guaymate, Dominican Republic",
+        "time": "11/14 01:35 JST",
+        "depth_km": 136.742,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty16",
+        "tsunami": 0
+      },
+      {
+        "mag": 5.2,
+        "place": "79 km NE of Kuqa, China",
+        "time": "11/14 01:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty14",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "West Chile Rise",
@@ -388,22 +412,6 @@
         "time": "11/13 06:53 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwi",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.1,
-        "place": "western Indian-Antarctic Ridge",
-        "time": "11/13 06:09 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txw9",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "41 km N of Weining, China",
-        "time": "11/13 05:03 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txvw",
         "tsunami": 0
       }
     ]
@@ -583,7 +591,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 15:18",
@@ -667,14 +675,14 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/14 01:17 JST",
+    "timestamp": "11/14 02:06 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.87,
-      "change": 0.14,
-      "change_pct": 0.09,
+      "rate": 159.91,
+      "change": 0.18,
+      "change_pct": 0.11,
       "direction": "up"
     },
     "local_jpy": {
@@ -690,9 +698,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.4,
-      "change": -0.82,
-      "change_pct": -0.46
+      "rate": 176.47,
+      "change": -0.76,
+      "change_pct": -0.43
     }
   },
   "airports": [
@@ -728,189 +736,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "ジャカルタ (首都)",
-        "name_en": "Jakarta",
-        "is_capital": true,
-        "lat": -6.2088,
-        "lon": 106.8456,
-        "temp": 27.2,
-        "apparent_temp": 33.2,
-        "humidity": 85,
-        "wind_speed": 3.1,
-        "wind_gusts": 14.8,
-        "precipitation": 0.3,
-        "weather_code": 55,
-        "weather_label": "🌦️ 霧雨 (強)",
-        "forecast": [
-          {
-            "date": "11/13(金)",
-            "temp_max": 34.8,
-            "temp_min": 26.3,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 1.5
-          },
-          {
-            "date": "11/14(土)",
-            "temp_max": 33.8,
-            "temp_min": 25.2,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 6.1
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 33.7,
-            "temp_min": 25.6,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 7.0
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      },
-      {
-        "name": "デンパサール (バリ島)",
-        "name_en": "Denpasar",
-        "is_capital": false,
-        "lat": -8.6705,
-        "lon": 115.2126,
-        "temp": 26.5,
-        "apparent_temp": 32.2,
-        "humidity": 91,
-        "wind_speed": 6.2,
-        "wind_gusts": 15.1,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
-        "forecast": [
-          {
-            "date": "11/14(土)",
-            "temp_max": 31.5,
-            "temp_min": 24.8,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 4.6
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 31.4,
-            "temp_min": 24.9,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 1.7
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 32.2,
-            "temp_min": 24.6,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 3.3
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "スラバヤ (東ジャワ)",
-        "name_en": "Surabaya",
-        "is_capital": false,
-        "lat": -7.2575,
-        "lon": 112.7521,
-        "temp": 27.5,
-        "apparent_temp": 33.0,
-        "humidity": 88,
-        "wind_speed": 10.3,
-        "wind_gusts": 22.0,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
-        "forecast": [
-          {
-            "date": "11/13(金)",
-            "temp_max": 35.7,
-            "temp_min": 27.2,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 2.6
-          },
-          {
-            "date": "11/14(土)",
-            "temp_max": 34.2,
-            "temp_min": 26.5,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 1.5
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 34.4,
-            "temp_min": 27.0,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 1.2
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      }
-    ],
-    "capital": {
-      "name": "ジャカルタ (首都)",
-      "name_en": "Jakarta",
-      "is_capital": true,
-      "lat": -6.2088,
-      "lon": 106.8456,
-      "temp": 27.2,
-      "apparent_temp": 33.2,
-      "humidity": 85,
-      "wind_speed": 3.1,
-      "wind_gusts": 14.8,
-      "precipitation": 0.3,
-      "weather_code": 55,
-      "weather_label": "🌦️ 霧雨 (強)",
-      "forecast": [
-        {
-          "date": "11/13(金)",
-          "temp_max": 34.8,
-          "temp_min": 26.3,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 1.5
-        },
-        {
-          "date": "11/14(土)",
-          "temp_max": 33.8,
-          "temp_min": 25.2,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 6.1
-        },
-        {
-          "date": "11/15(日)",
-          "temp_max": 33.7,
-          "temp_min": 25.6,
-          "weather_code": 81,
-          "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 7.0
-        }
-      ],
-      "alert": "気象注意",
-      "alert_badge": "🟡 気象注意",
-      "alert_class": "yellow",
-      "alert_desc": "降雨または視程低下あり。通常行動可能"
-    },
-    "timestamp": "11/14 01:17 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/14 02:06 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -939,7 +767,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/14 01:17 JST"
+    "timestamp": "11/14 02:06 JST"
   },
   "lifeline": {
     "status": "NORMAL",

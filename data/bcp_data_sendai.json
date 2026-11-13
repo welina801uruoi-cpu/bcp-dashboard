@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13 16:16:11",
+  "timestamp": "2026-11-13 17:03:38",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -166,10 +166,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 4地域】岩手、秋田、山形、福島（警報なし）",
+    "summary": "【注意報発表: 5地域】岩手、秋田、宮城、山形、福島（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 4,
+    "notice_count": 5,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -213,11 +213,13 @@
         "code": "4",
         "name": "宮城県",
         "short_name": "宮城",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -461,13 +463,29 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 13,
     "articles": [
+      {
+        "title": "総武線(快速)で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "稲毛駅で発生した人身事故の影響で、総武線(快速)は津田沼～千葉駅間の運転を見合わせていましたが、01:45頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/14 01:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/5418c3710a045bd1a9eec49795334ea343b4c5a3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "総武線(快速)で人身事故 一部運転見合わせ(レスキューナウニュース)",
         "summary": "稲毛駅で発生した人身事故の影響で、総武線(快速)は津田沼～千葉駅間の運転を見合わせています。",
         "pub_date": "11/14 00:30 JST",
         "link": "https://news.yahoo.co.jp/articles/8c0d136f241535db60c68944911d00fffb16ae53?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「性的ディープフェイク」中高生の被害増 友人間で被害 SNS投稿も 埼玉県警が注意喚起(テレビ朝日系（ANN）)",
+        "summary": "中高生の間で「性的ディープフェイク」の被害が増えていることを受け、埼玉県警などは中学校を訪れて被害の防止を呼び掛けました。 生成AIなどを利用して実在する人の画像を性的なものに加工する「性的ディープフ",
+        "pub_date": "11/13 23:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/153c5c265bac905be4d5070841d47a043662eb0e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
@@ -552,39 +570,23 @@
         "is_disaster": true
       },
       {
+        "title": "高市総理「働く人の5割以上に」支援金“対象拡大”を明言　公明党に“譲歩”か(テレビ朝日系（ANN）)",
+        "summary": "政府が消費減税と共に検討する新たな支援金制度をめぐり、高市総理は13日、支援の対象を働く人の“3割”から“5割以上”に大きく拡大する考えを示しました。総理の狙いは、どこにあるのでしょうか。【画像】高市",
+        "pub_date": "11/14 01:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/e9fec08c60d3198d37f4534e485291b8e6ab8cfe?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "野党 高市総理 財源は「心配ご無用」追及(ABEMA TIMES)",
         "summary": "消費税減税法案の国会質疑で高市総理大臣は、財源の確保を「心配ご無用」とした発言を追及され、税収の増加や基金の見直しなどで対応する考えを示しました。【映像】財源の確保「心配ご無用」発言 野党が追求 参議",
         "pub_date": "11/14 00:27 JST",
         "link": "https://news.yahoo.co.jp/articles/2339f3c229e6d1f9a31d68f951ad98cc12333e93?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "女性はねられ2人死亡 “逃走トラック”発見 海老名市(ABEMA TIMES)",
-        "summary": "神奈川県海老名市で、女性2人がトラックにひかれて死亡したひき逃げ事件で、警察は現場から逃走したとみられるトラックを発見し、関係者から話を聴いています。【映像】2人死亡のひき逃げ事件 逃走したとみられる",
-        "pub_date": "11/14 00:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/84702326a24df57a4bd494c793d4c67dd175ef7c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "柵の中で死亡の3歳女児に「歩行訓練」　うまくできずに立腹か、殺人容疑で逮捕の父親(産経新聞)",
-        "summary": "大阪府枚方市の自宅マンションで女児（3）を暴行して殺害したとして、大阪府警捜査1課は13日、殺人の疑いで父親の会社員、金尾健太郎容疑者（33）＝枚方市岡山手町＝を逮捕。保護責任者遺棄致死の疑いで母親の",
-        "pub_date": "11/14 00:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/8ca0b6cc17cfb1b727a006aad1e44e6c2fc118e3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「止まる気配なく立ち去った」海老名・ひき逃げ2人死亡　トラックの関係者聴取(テレビ朝日系（ANN）)",
-        "summary": "神奈川県海老名市で13日午後、横断歩道を渡っていた高齢女性2人がトラックにはねられて死亡しました。警察は、現場から走り去ったトラックを、相模原市の会社のものと特定し、関係者から事情を聴いています。【画",
-        "pub_date": "11/14 00:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/25e832cfc6168178f6871f3089765693ce808f99?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-14 01:15:43 JST"
+    "last_updated": "2026-11-14 02:03:10 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -627,10 +629,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "IYbGQOBfZBU",
+        "video_id": "VKe1NOhovh0",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/IYbGQOBfZBU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=IYbGQOBfZBU"
+        "embed_url": "https://www.youtube.com/embed/VKe1NOhovh0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=VKe1NOhovh0"
       },
       {
         "id": "stream_annnews",

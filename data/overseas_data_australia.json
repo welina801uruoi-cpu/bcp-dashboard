@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-13 22:53:59",
-  "timestamp_local": "2026-11-13 23:53:59",
+  "timestamp": "2026-11-13 23:46:46",
+  "timestamp_local": "2026-11-14 00:46:46",
   "country": {
     "id": "australia",
     "name": "オーストラリア (豪州)",
@@ -296,17 +296,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
-    "summary": "M4.8 (59 km WSW of Houma, Tonga)",
+    "count_24h": 15,
+    "summary": "M5.2 (West Chile Rise)",
     "latest": {
-      "mag": 4.8,
-      "place": "59 km WSW of Houma, Tonga",
-      "time": "11/13 20:18 JST",
-      "depth_km": 162.78,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txzd",
+      "mag": 5.2,
+      "place": "West Chile Rise",
+      "time": "11/13 23:12 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.2,
+        "place": "West Chile Rise",
+        "time": "11/13 23:12 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s",
+        "tsunami": 0
+      },
       {
         "mag": 4.8,
         "place": "59 km WSW of Houma, Tonga",
@@ -623,11 +631,11 @@
       "recent_posts": [
         {
           "time": "11/10 01:05",
-          "text": "@hirox246 やりすぎかな…😅 シドニー空港 （キングズフォード・スミス国際空港 人手不足や過密化による深刻なトラブルや混乱が相次いで..."
+          "text": "@hirox246 やりすぎかな…😅 シドニー 空港 （キングズフォード・スミス国際空港 人手不足や過密化による深刻なト..."
         },
         {
           "time": "10/30 06:47",
-          "text": "シドニー空港 ・ストライキ続報 午前5〜8時は、現地正午時点の集計で 欠航 なしで終了しましたが、まだ決着はせず、午後の..."
+          "text": "シドニー 空港 ・ストライキ続報 午前5〜8時は、現地正午時点の集計で 欠航 なしで終了しましたが、..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%B7%E3%83%89%E3%83%8B%E3%83%BC%20%E7%A9%BA%E6%B8%AF%20%E6%AC%A0%E8%88%AA"
@@ -688,32 +696,32 @@
     "default_channel_id": "stream_abc_news_au"
   },
   "forex": {
-    "timestamp": "11/13 22:53 JST",
+    "timestamp": "11/13 23:46 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.91,
-      "change": 0.17,
-      "change_pct": 0.11,
+      "rate": 159.88,
+      "change": 0.15,
+      "change_pct": 0.09,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "AUD",
       "name": "豪ドル",
       "symbol": "A$",
-      "rate": 108.62,
-      "change": -0.67,
-      "change_pct": -0.61,
+      "rate": 108.66,
+      "change": -0.64,
+      "change_pct": -0.58,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.77,
-      "change": -0.46,
-      "change_pct": -0.26
+      "rate": 176.74,
+      "change": -0.48,
+      "change_pct": -0.27
     }
   },
   "airports": [
@@ -726,11 +734,20 @@
       "departures_url": "https://www.sydneyairport.com.au/flights",
       "radar_url": "https://www.flightradar24.com/airport/syd",
       "flightaware_url": "https://www.flightaware.com/live/airport/YSSY",
-      "weather": {},
+      "weather": {
+        "raw": "METAR YSSY 131430Z AUTO 31007KT 9999 // NCD 22/20 Q1011",
+        "wind": "7kt",
+        "wind_speed": 7,
+        "wind_gust": 0,
+        "visibility": "6+マイル",
+        "temp": 22,
+        "fltcat": "VFR",
+        "report_time": "2026-11-13T14:30:00.000Z"
+      },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "定常運航中（現在重大な気象警報なし）"
+      "status_desc": "視程良好（6+マイル）、風速安定（7kt）。順調に運航中"
     },
     {
       "iata": "MEL",
@@ -741,197 +758,26 @@
       "departures_url": "https://www.melbourneairport.com.au/flights",
       "radar_url": "https://www.flightradar24.com/airport/mel",
       "flightaware_url": "https://www.flightaware.com/live/airport/YMML",
-      "weather": {},
-      "status": "平常運航",
-      "status_code": "normal",
-      "status_badge": "🟢 平常運航",
-      "status_desc": "定常運航中（現在重大な気象警報なし）"
+      "weather": {
+        "raw": "SPECI YMML 131430Z AUTO 21004KT 4300 -RA OVC002 14/14 Q1011",
+        "wind": "4kt",
+        "wind_speed": 4,
+        "wind_gust": 0,
+        "visibility": "2.67マイル",
+        "temp": 14,
+        "fltcat": "VFR",
+        "report_time": "2026-11-13T14:30:00.000Z"
+      },
+      "status": "気象注意",
+      "status_code": "advisory",
+      "status_badge": "🟡 気象注意",
+      "status_desc": "雨天または雲底低下あり。現在大きな乱れなし"
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "キャンベラ (首都)",
-        "name_en": "Canberra",
-        "is_capital": true,
-        "lat": -35.2809,
-        "lon": 149.13,
-        "temp": 15.9,
-        "apparent_temp": 16.0,
-        "humidity": 88,
-        "wind_speed": 7.4,
-        "wind_gusts": 16.6,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
-        "forecast": [
-          {
-            "date": "11/14(土)",
-            "temp_max": 23.3,
-            "temp_min": 13.8,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 6.9
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 22.4,
-            "temp_min": 12.8,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.8
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 18.1,
-            "temp_min": 10.5,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.3
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "シドニー (最大都市)",
-        "name_en": "Sydney",
-        "is_capital": false,
-        "lat": -33.8688,
-        "lon": 151.2093,
-        "temp": 20.5,
-        "apparent_temp": 23.3,
-        "humidity": 97,
-        "wind_speed": 6.7,
-        "wind_gusts": 12.2,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/14(土)",
-            "temp_max": 29.5,
-            "temp_min": 19.7,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 3.0
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 20.8,
-            "temp_min": 16.9,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 3.7
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 17.5,
-            "temp_min": 15.6,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 20.6
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "メルボルン (南部)",
-        "name_en": "Melbourne",
-        "is_capital": false,
-        "lat": -37.8136,
-        "lon": 144.9631,
-        "temp": 14.8,
-        "apparent_temp": 14.8,
-        "humidity": 90,
-        "wind_speed": 6.5,
-        "wind_gusts": 17.3,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/14(土)",
-            "temp_max": 16.7,
-            "temp_min": 13.4,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 5.4
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 15.5,
-            "temp_min": 10.2,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 3.7
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 14.4,
-            "temp_min": 10.0,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.2
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      }
-    ],
-    "capital": {
-      "name": "キャンベラ (首都)",
-      "name_en": "Canberra",
-      "is_capital": true,
-      "lat": -35.2809,
-      "lon": 149.13,
-      "temp": 15.9,
-      "apparent_temp": 16.0,
-      "humidity": 88,
-      "wind_speed": 7.4,
-      "wind_gusts": 16.6,
-      "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
-      "forecast": [
-        {
-          "date": "11/14(土)",
-          "temp_max": 23.3,
-          "temp_min": 13.8,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 6.9
-        },
-        {
-          "date": "11/15(日)",
-          "temp_max": 22.4,
-          "temp_min": 12.8,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.8
-        },
-        {
-          "date": "11/16(月)",
-          "temp_max": 18.1,
-          "temp_min": 10.5,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.3
-        }
-      ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-    },
-    "timestamp": "11/13 22:53 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/13 23:46 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -961,7 +807,7 @@
         "details": "シドニー首都圏鉄道網は概ね平常運行中"
       }
     ],
-    "timestamp": "11/13 22:53 JST"
+    "timestamp": "11/13 23:46 JST"
   },
   "lifeline": {
     "status": "NORMAL",

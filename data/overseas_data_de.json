@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-13 22:53:40",
-  "timestamp_local": "2026-11-13 15:53:40",
+  "timestamp": "2026-11-13 23:45:15",
+  "timestamp_local": "2026-11-13 16:45:15",
   "country": {
     "id": "germany",
     "name": "ドイツ",
@@ -346,17 +346,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
-    "summary": "M4.8 (59 km WSW of Houma, Tonga)",
+    "count_24h": 15,
+    "summary": "M5.2 (West Chile Rise)",
     "latest": {
-      "mag": 4.8,
-      "place": "59 km WSW of Houma, Tonga",
-      "time": "11/13 20:18 JST",
-      "depth_km": 162.78,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txzd",
+      "mag": 5.2,
+      "place": "West Chile Rise",
+      "time": "11/13 23:12 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.2,
+        "place": "West Chile Rise",
+        "time": "11/13 23:12 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s",
+        "tsunami": 0
+      },
       {
         "mag": 4.8,
         "place": "59 km WSW of Houma, Tonga",
@@ -623,11 +631,11 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 13:09",
-          "text": "ドイツ 鉄道 🇩🇪は、以前は ストライキ で電車がよく止まっていたのですが、今年の新しい労働協約など..."
+          "text": "ドイツ鉄道 🇩🇪は、以前は ストライキ で電車がよく止まっていたのですが、今年の新しい労働協約などの合意で、一定のストが..."
         },
         {
           "time": "11/02 23:18",
@@ -635,7 +643,7 @@
         },
         {
           "time": "10/21 11:12",
-          "text": "#primenews ドイツ 鉄道 がクソ過ぎるという理由の一つが、 鉄道 通信ケーブルが年に200..."
+          "text": "#primenews ドイツ鉄道 がクソ過ぎるという理由の一つが、 鉄道 通信ケーブルが年に2000件破壊されているとは..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%89%E3%82%A4%E3%83%84%20%E9%89%84%E9%81%93%20%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AD"
@@ -684,7 +692,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 13:35",
@@ -747,32 +755,32 @@
     "default_channel_id": "stream_dw"
   },
   "forex": {
-    "timestamp": "11/13 22:53 JST",
+    "timestamp": "11/13 23:44 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.91,
-      "change": 0.17,
-      "change_pct": 0.11,
+      "rate": 159.92,
+      "change": 0.18,
+      "change_pct": 0.12,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.77,
-      "change": -0.46,
-      "change_pct": -0.26,
+      "rate": 176.74,
+      "change": -0.48,
+      "change_pct": -0.27,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.77,
-      "change": -0.46,
-      "change_pct": -0.26
+      "rate": 176.74,
+      "change": -0.48,
+      "change_pct": -0.27
     }
   },
   "airports": [
@@ -823,189 +831,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "ベルリン (首都)",
-        "name_en": "Berlin",
-        "is_capital": true,
-        "lat": 52.52,
-        "lon": 13.405,
-        "temp": 8.3,
-        "apparent_temp": 3.2,
-        "humidity": 63,
-        "wind_speed": 22.0,
-        "wind_gusts": 47.5,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
-        "forecast": [
-          {
-            "date": "11/13(金)",
-            "temp_max": 8.4,
-            "temp_min": 3.1,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 0.2
-          },
-          {
-            "date": "11/14(土)",
-            "temp_max": 8.9,
-            "temp_min": 2.9,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 8.0,
-            "temp_min": 1.1,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.4
-          }
-        ],
-        "alert": "強風・大雨注意報",
-        "alert_badge": "🟠 気象注意報",
-        "alert_class": "orange",
-        "alert_desc": "強風（突風47.5km/h）または強い雨。移動・屋外行動に注意"
-      },
-      {
-        "name": "フランクフルト (金融・航空ハブ)",
-        "name_en": "Frankfurt",
-        "is_capital": false,
-        "lat": 50.1109,
-        "lon": 8.6821,
-        "temp": 9.2,
-        "apparent_temp": 6.0,
-        "humidity": 58,
-        "wind_speed": 9.1,
-        "wind_gusts": 23.8,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
-        "forecast": [
-          {
-            "date": "11/13(金)",
-            "temp_max": 9.2,
-            "temp_min": 1.1,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/14(土)",
-            "temp_max": 8.4,
-            "temp_min": 0.0,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 11.2,
-            "temp_min": 1.4,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 4.5
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "ミュンヘン (バイエルン)",
-        "name_en": "Munich",
-        "is_capital": false,
-        "lat": 48.1351,
-        "lon": 11.582,
-        "temp": 5.7,
-        "apparent_temp": 2.1,
-        "humidity": 61,
-        "wind_speed": 8.9,
-        "wind_gusts": 22.3,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
-        "forecast": [
-          {
-            "date": "11/13(金)",
-            "temp_max": 6.2,
-            "temp_min": 2.0,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 2.0
-          },
-          {
-            "date": "11/14(土)",
-            "temp_max": 6.5,
-            "temp_min": -0.1,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 8.9,
-            "temp_min": -0.6,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      }
-    ],
-    "capital": {
-      "name": "ベルリン (首都)",
-      "name_en": "Berlin",
-      "is_capital": true,
-      "lat": 52.52,
-      "lon": 13.405,
-      "temp": 8.3,
-      "apparent_temp": 3.2,
-      "humidity": 63,
-      "wind_speed": 22.0,
-      "wind_gusts": 47.5,
-      "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
-      "forecast": [
-        {
-          "date": "11/13(金)",
-          "temp_max": 8.4,
-          "temp_min": 3.1,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 0.2
-        },
-        {
-          "date": "11/14(土)",
-          "temp_max": 8.9,
-          "temp_min": 2.9,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
-        },
-        {
-          "date": "11/15(日)",
-          "temp_max": 8.0,
-          "temp_min": 1.1,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 0.4
-        }
-      ],
-      "alert": "強風・大雨注意報",
-      "alert_badge": "🟠 気象注意報",
-      "alert_class": "orange",
-      "alert_desc": "強風（突風47.5km/h）または強い雨。移動・屋外行動に注意"
-    },
-    "timestamp": "11/13 22:53 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/13 23:45 JST"
   },
   "transit": {
     "status": "ALERT",
@@ -1087,7 +915,7 @@
         "details": "フランクフルト・ベルリン発着の長距離路線は概ね定常運行中"
       }
     ],
-    "timestamp": "11/13 22:53 JST"
+    "timestamp": "11/13 23:44 JST"
   },
   "lifeline": {
     "status": "NORMAL",

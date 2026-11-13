@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-13 22:53:38",
-  "timestamp_local": "2026-11-13 14:53:38",
+  "timestamp": "2026-11-13 23:44:44",
+  "timestamp_local": "2026-11-13 15:44:44",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -352,17 +352,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
-    "summary": "M4.8 (59 km WSW of Houma, Tonga)",
+    "count_24h": 15,
+    "summary": "M5.2 (West Chile Rise)",
     "latest": {
-      "mag": 4.8,
-      "place": "59 km WSW of Houma, Tonga",
-      "time": "11/13 20:18 JST",
-      "depth_km": 162.78,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txzd",
+      "mag": 5.2,
+      "place": "West Chile Rise",
+      "time": "11/13 23:12 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.2,
+        "place": "West Chile Rise",
+        "time": "11/13 23:12 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s",
+        "tsunami": 0
+      },
       {
         "mag": 4.8,
         "place": "59 km WSW of Houma, Tonga",
@@ -690,7 +698,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 12:55",
@@ -713,7 +721,7 @@
       {
         "id": "stream_skynews",
         "name": "📺 Sky News LIVE (24h英国ニュース)",
-        "video_id": "umLWFz4izTM",
+        "video_id": "1hFrWMmPC20",
         "handle": "@SkyNews",
         "type": "stream"
       },
@@ -753,32 +761,32 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/13 22:53 JST",
+    "timestamp": "11/13 23:44 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.91,
-      "change": 0.17,
-      "change_pct": 0.11,
+      "rate": 159.92,
+      "change": 0.18,
+      "change_pct": 0.12,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "GBP",
       "name": "英ポンド",
       "symbol": "£",
-      "rate": 211.65,
-      "change": -0.42,
-      "change_pct": -0.2,
+      "rate": 211.72,
+      "change": -0.35,
+      "change_pct": -0.16,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.77,
-      "change": -0.46,
-      "change_pct": -0.26
+      "rate": 176.74,
+      "change": -0.48,
+      "change_pct": -0.27
     }
   },
   "airports": [
@@ -844,189 +852,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "ロンドン (首都)",
-        "name_en": "London",
-        "is_capital": true,
-        "lat": 51.5074,
-        "lon": -0.1278,
-        "temp": 7.0,
-        "apparent_temp": 3.5,
-        "humidity": 50,
-        "wind_speed": 6.8,
-        "wind_gusts": 16.2,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/13(金)",
-            "temp_max": 7.1,
-            "temp_min": 1.6,
-            "weather_code": 0,
-            "weather_label": "☀️ 快晴",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/14(土)",
-            "temp_max": 9.3,
-            "temp_min": 0.2,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 12.5,
-            "temp_min": 4.9,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 4.6
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "マンチェスター (中部)",
-        "name_en": "Manchester",
-        "is_capital": false,
-        "lat": 53.4808,
-        "lon": -2.2426,
-        "temp": 5.0,
-        "apparent_temp": 2.5,
-        "humidity": 68,
-        "wind_speed": 2.2,
-        "wind_gusts": 5.8,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/13(金)",
-            "temp_max": 5.6,
-            "temp_min": -0.5,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/14(土)",
-            "temp_max": 8.0,
-            "temp_min": 1.5,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 9.7,
-            "temp_min": 4.6,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 4.7
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "エディンバラ (スコットランド)",
-        "name_en": "Edinburgh",
-        "is_capital": false,
-        "lat": 55.9533,
-        "lon": -3.1883,
-        "temp": 6.7,
-        "apparent_temp": 2.7,
-        "humidity": 71,
-        "wind_speed": 15.1,
-        "wind_gusts": 31.7,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/13(金)",
-            "temp_max": 6.9,
-            "temp_min": 1.7,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/14(土)",
-            "temp_max": 9.2,
-            "temp_min": 4.9,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.4
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 7.7,
-            "temp_min": 1.4,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 12.3
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      }
-    ],
-    "capital": {
-      "name": "ロンドン (首都)",
-      "name_en": "London",
-      "is_capital": true,
-      "lat": 51.5074,
-      "lon": -0.1278,
-      "temp": 7.0,
-      "apparent_temp": 3.5,
-      "humidity": 50,
-      "wind_speed": 6.8,
-      "wind_gusts": 16.2,
-      "precipitation": 0.0,
-      "weather_code": 0,
-      "weather_label": "☀️ 快晴",
-      "forecast": [
-        {
-          "date": "11/13(金)",
-          "temp_max": 7.1,
-          "temp_min": 1.6,
-          "weather_code": 0,
-          "weather_label": "☀️ 快晴",
-          "precipitation_mm": 0.0
-        },
-        {
-          "date": "11/14(土)",
-          "temp_max": 9.3,
-          "temp_min": 0.2,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
-        },
-        {
-          "date": "11/15(日)",
-          "temp_max": 12.5,
-          "temp_min": 4.9,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 4.6
-        }
-      ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-    },
-    "timestamp": "11/13 22:53 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/13 23:44 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -1044,7 +872,7 @@
         "mode": "overground",
         "status": "Severe Delays",
         "badge": "🟠 警戒",
-        "reason": "Mildmay Line: No service between Clapham Junction and Shepherd's Bush while we fix a signal failure in the Clapham Junct"
+        "reason": "Mildmay Line: No service between Clapham Junction and Shepherd's Bush and SEVERE DELAYS between Willesden Junction  and "
       },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1080,10 +908,10 @@
           {
             "name": "Bakerloo",
             "mode": "tube",
-            "status_raw": "Minor Delays",
-            "badge": "🟡 注意",
-            "code": "minor",
-            "reason": "Bakerloo Line: Minor delays northbound only due to train cancellations. GOOD SERVICE southbound. "
+            "status_raw": "Good Service",
+            "badge": "🟢 平常",
+            "code": "normal",
+            "reason": ""
           },
           {
             "name": "Central",
@@ -1104,10 +932,10 @@
           {
             "name": "District",
             "mode": "tube",
-            "status_raw": "Good Service",
-            "badge": "🟢 平常",
-            "code": "normal",
-            "reason": ""
+            "status_raw": "Minor Delays",
+            "badge": "🟡 注意",
+            "code": "minor",
+            "reason": "District Line: Minor delays between Turnham Green and Richmond due to train cancellations. GOOD SERVICE on the rest of t"
           },
           {
             "name": "DLR",
@@ -1171,15 +999,15 @@
             "status_raw": "Severe Delays",
             "badge": "🟠 警戒",
             "code": "warning",
-            "reason": "Mildmay Line: No service between Clapham Junction and Shepherd's Bush while we fix a signal failure in the Clapham Junct"
+            "reason": "Mildmay Line: No service between Clapham Junction and Shepherd's Bush and SEVERE DELAYS between Willesden Junction  and "
           },
           {
             "name": "Northern",
             "mode": "tube",
-            "status_raw": "Minor Delays",
-            "badge": "🟡 注意",
-            "code": "minor",
-            "reason": "Northern Line: Minor delays between Kennington and Morden while we fix a points failure at Morden. GOOD SERVICE on the r"
+            "status_raw": "Good Service",
+            "badge": "🟢 平常",
+            "code": "normal",
+            "reason": ""
           },
           {
             "name": "Piccadilly",
@@ -1283,7 +1111,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/13 22:53 JST"
+    "timestamp": "11/13 23:44 JST"
   },
   "lifeline": {
     "status": "NORMAL",

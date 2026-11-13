@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-13 22:54:19",
-  "timestamp_local": "2026-11-13 10:54:19",
+  "timestamp": "2026-11-13 23:47:40",
+  "timestamp_local": "2026-11-13 11:47:40",
   "country": {
     "id": "brazil",
     "name": "ブラジル",
@@ -295,17 +295,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 14,
-    "summary": "M4.8 (59 km WSW of Houma, Tonga)",
+    "count_24h": 15,
+    "summary": "M5.2 (West Chile Rise)",
     "latest": {
-      "mag": 4.8,
-      "place": "59 km WSW of Houma, Tonga",
-      "time": "11/13 20:18 JST",
-      "depth_km": 162.78,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txzd",
+      "mag": 5.2,
+      "place": "West Chile Rise",
+      "time": "11/13 23:12 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.2,
+        "place": "West Chile Rise",
+        "time": "11/13 23:12 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s",
+        "tsunami": 0
+      },
       {
         "mag": 4.8,
         "place": "59 km WSW of Houma, Tonga",
@@ -572,8 +580,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/13 14:14",
+          "text": "🇨🇴ボゴタ到着です。 言わずとしれた 治安 が悪い大都市です。 8時以降はタクシー移動とかChatGPTはぬかすが、フロントの人に聞いたら1..."
+        },
         {
           "time": "11/13 01:57",
           "text": "ラテンアメリカ特にメキシコシティ、ブエノス・アイレスそしての上位互換の サンパウロ とリオデジャネイロとロンドン🇬🇧の違い ・普通にどんな場..."
@@ -581,10 +593,6 @@
         {
           "time": "11/12 01:22",
           "text": "サンパウロ 、南米まわった中で1番 治安 悪い。ここ通ったらまずい気がするスポットがたくさんある"
-        },
-        {
-          "time": "11/10 00:48",
-          "text": "🇦🇴アンゴラ｜ルアンダ市内における抗議デモ実施に関する注意喚起⚠️ サンパウロ 市場周辺で、11/14(土)10時頃から、大統領3期目への反..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%B5%E3%83%B3%E3%83%91%E3%82%A6%E3%83%AD%20%E6%B2%BB%E5%AE%89"
@@ -683,32 +691,32 @@
     "default_channel_id": "stream_band_live"
   },
   "forex": {
-    "timestamp": "11/13 22:54 JST",
+    "timestamp": "11/13 23:47 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.91,
-      "change": 0.17,
-      "change_pct": 0.11,
+      "rate": 159.85,
+      "change": 0.11,
+      "change_pct": 0.07,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "BRL",
       "name": "ブラジルレアル",
       "symbol": "R$",
-      "rate": 28.22,
-      "change": -0.38,
-      "change_pct": -1.34,
+      "rate": 28.28,
+      "change": -0.32,
+      "change_pct": -1.13,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.77,
-      "change": -0.46,
-      "change_pct": -0.26
+      "rate": 176.72,
+      "change": -0.5,
+      "change_pct": -0.28
     }
   },
   "airports": [
@@ -744,144 +752,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "サンパウロ (南米最大都市)",
-        "name_en": "São Paulo",
-        "is_capital": false,
-        "lat": -23.5505,
-        "lon": -46.6333,
-        "temp": 25.4,
-        "apparent_temp": 29.1,
-        "humidity": 67,
-        "wind_speed": 10.0,
-        "wind_gusts": 31.0,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/13(金)",
-            "temp_max": 26.4,
-            "temp_min": 17.0,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 3.8
-          },
-          {
-            "date": "11/14(土)",
-            "temp_max": 26.6,
-            "temp_min": 17.6,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.2
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 27.3,
-            "temp_min": 16.2,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 2.5
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "リオデジャネイロ (沿岸主要都市)",
-        "name_en": "Rio de Janeiro",
-        "is_capital": false,
-        "lat": -22.9068,
-        "lon": -43.1729,
-        "temp": 28.6,
-        "apparent_temp": 35.0,
-        "humidity": 75,
-        "wind_speed": 11.7,
-        "wind_gusts": 30.2,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
-        "forecast": [
-          {
-            "date": "11/13(金)",
-            "temp_max": 28.6,
-            "temp_min": 22.2,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.5
-          },
-          {
-            "date": "11/14(土)",
-            "temp_max": 25.8,
-            "temp_min": 21.5,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.9
-          },
-          {
-            "date": "11/15(日)",
-            "temp_max": 26.7,
-            "temp_min": 21.0,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 19.2
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      }
-    ],
-    "capital": {
-      "name": "サンパウロ (南米最大都市)",
-      "name_en": "São Paulo",
-      "is_capital": false,
-      "lat": -23.5505,
-      "lon": -46.6333,
-      "temp": 25.4,
-      "apparent_temp": 29.1,
-      "humidity": 67,
-      "wind_speed": 10.0,
-      "wind_gusts": 31.0,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
-      "forecast": [
-        {
-          "date": "11/13(金)",
-          "temp_max": 26.4,
-          "temp_min": 17.0,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 3.8
-        },
-        {
-          "date": "11/14(土)",
-          "temp_max": 26.6,
-          "temp_min": 17.6,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.2
-        },
-        {
-          "date": "11/15(日)",
-          "temp_max": 27.3,
-          "temp_min": 16.2,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 2.5
-        }
-      ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-    },
-    "timestamp": "11/13 22:54 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/13 23:47 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -910,7 +783,7 @@
         "details": "地下鉄各線平常運行中"
       }
     ],
-    "timestamp": "11/13 22:54 JST"
+    "timestamp": "11/13 23:47 JST"
   },
   "lifeline": {
     "status": "NORMAL",

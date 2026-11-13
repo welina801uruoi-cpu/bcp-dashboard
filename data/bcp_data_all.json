@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13 18:32:24",
+  "timestamp": "2026-11-13 19:35:25",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 20地域】道央、道南、道北、道東、岩手、宮城、秋田、山形、福島、茨城、東京、長野、兵庫、岡山、広島、山口、福岡、佐賀、長崎、沖縄（警報なし）",
+    "summary": "【注意報発表: 22地域】道央、道南、道北、道東、岩手、宮城、秋田、山形、福島、茨城、東京、長野、三重、京都、兵庫、岡山、広島、山口、福岡、佐賀、長崎、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 20,
+    "notice_count": 22,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -450,9 +450,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報"
+          "濃霧注意報",
+          "強風注意報"
         ],
-        "summary": "濃霧注意報",
+        "summary": "濃霧注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -476,10 +477,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
           "濃霧注意報"
         ],
-        "summary": "乾燥注意報、濃霧注意報",
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -566,10 +566,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、濃霧注意報",
+        "summary": "濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       },
       {
@@ -758,11 +758,13 @@
         "code": "24",
         "name": "三重県",
         "short_name": "三重",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -780,11 +782,13 @@
         "code": "26",
         "name": "京都府",
         "short_name": "京都",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -972,9 +976,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "強風注意報"
         ],
-        "summary": "強風注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -1045,30 +1050,30 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線17路線: 美祢線、肥薩線、山田線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線17路線: 肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（美祢線、肥薩線、山田線、米坂線、陸羽東線 等 計17路線）",
+    "line_text": "運行支障あり（肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線、山田線 等 計17路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "美祢線",
       "肥薩線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "美祢線",
       "山田線",
       "米坂線",
       "陸羽東線",
       "北上線",
       "津軽線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
+      "越後線",
+      "大井川鉄道大井川本線",
+      "万葉線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
       "千葉都市モノレール線",
-      "わたらせ渓谷鐵道線",
-      "越後線",
-      "大井川鉄道大井川本線",
-      "万葉線"
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1429,7 +1434,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-14 03:32:21 JST"
+    "last_updated": "2026-11-14 04:35:22 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1450,10 +1455,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "36BlvNSR7l8",
+        "video_id": "tB0MIk6qA8I",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/36BlvNSR7l8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=36BlvNSR7l8"
+        "embed_url": "https://www.youtube.com/embed/tB0MIk6qA8I?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=tB0MIk6qA8I"
       },
       {
         "id": "stream_tbsnews",
@@ -1483,10 +1488,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "Ooc0qsh3jAo",
+        "video_id": "2QzoKsO8uIc",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/Ooc0qsh3jAo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Ooc0qsh3jAo"
+        "embed_url": "https://www.youtube.com/embed/2QzoKsO8uIc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=2QzoKsO8uIc"
       },
       {
         "id": "stream_fnnnews",

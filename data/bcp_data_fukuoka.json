@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13 02:11:40",
+  "timestamp": "2026-11-13 02:53:40",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -320,11 +320,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "九州電力送配電: 停電情報なし（九州エリア管内正常）",
+    "power_msg": "九州電力送配電: 【停電発生中】宮崎で停電情報を検知",
     "water_msg": "福岡市水道局: 供給安定（平常）",
     "gas_msg": "西部ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -387,7 +387,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 01:47",
@@ -410,7 +410,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 01:29",
@@ -471,6 +471,38 @@
     "disaster_count": 6,
     "articles": [
       {
+        "title": "「着ている服も手提げ袋も被害者のもの？」防犯カメラに映る不審人物、被害者知人が語る“違和感” 11年未解決の湯河原町殺人放火事件(ABEMA TIMES)",
+        "summary": "2015年4月21日、神奈川県湯河原町で発生した殺人放火事件。焼け跡の寝室で仰向けに倒れた状態で見つかったのは、住人の平井美江さん（当時66歳）。額には包丁が深く突き刺さっており、頭部にも10カ所以上",
+        "pub_date": "11/13 11:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/728eee4f282b057921d986833d522b49778f3073?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「FAXでお届けする」長妻議員の“事務連絡”に国会笑いの瞬間…マイクロソフトの通信障害受け代替手段訴え(ABEMA TIMES)",
+        "summary": "13日の衆議院内閣委員会で、民主改革の会の長妻昭議員が、同日未明に発生したマイクロソフトの通信障害を取り上げ、政府内の被害状況や代替手段の確保について質した。質疑の冒頭、メールが使えないため委員会の開",
+        "pub_date": "11/13 11:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/e6a1b2983bf575337c22b53b635d08c5e9c90ab3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "心電図の緊急アラーム放置　入院患者が重度意識障害に　愛媛大学病院(テレビ朝日系（ANN）)",
+        "summary": "愛媛大学附属病院で、入院患者の異変を知らせるアラームを放置し、患者が重度の意識障害に陥った医療事故が起きました。■患者が重度意識障害に愛媛大学病院鈴木純副病院長「1時間以上にわたり、注意・警戒・緊急の",
+        "pub_date": "11/13 11:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/7a8b01a9450b0663c41a694e1a9219f1ce11e436?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "名阪国道のPA付近で停車中の大型トラックに追突したトラックが炎上 運転席から性別不明の1人の遺体見つかる(東海テレビ)",
+        "summary": "三重県伊賀市の名阪国道で13日未明、トラック同士の事故があり、炎上した車内から性別不明の1人の遺体が見つかりました。 警察と消防によりますと、13日午前3時すぎ、伊賀市の名阪国道下り・上野PA付近で、",
+        "pub_date": "11/13 11:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/c7d0320c09d5e947c55c2a07728b4411dac3bea4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "「嘘をつく口は縫っちゃお」食事を与えず同居女性を泥棒扱い…公判で明らかになった50歳女の異常な支配生活…「死んでしまうと思った」と被害女性《茨城・唇縫いつけ事件》(集英社オンライン)",
         "summary": "「一緒に住まわせることに一切のメリットはなかった」――。茨城県古河市で同居女性に、同居女性自身の唇を縫うよう強要し、暴行を加えたとして起訴された桜井政恵被告（50）。《画像多数》「モテたし歌もうまかっ",
         "pub_date": "11/13 11:00 JST",
@@ -487,111 +519,79 @@
         "is_disaster": true
       },
       {
-        "title": "全日空機事故「50人犠牲」も“原因不明”のまま60年…「乗員も機体も異常なし」なぜ“1200m滑走路”から夜の海へ突入したのか(弁護士JPニュース)",
-        "summary": "1966年11月13日の夜、大阪（伊丹）発松山行きの全日空533便が、松山空港の沖合に墜落した。乗客45人と乗員5人の50人全員が犠牲となった。機体は国産旅客機YS-11で、その年の5月に製造されたば",
-        "pub_date": "11/13 10:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/9577d07a3f490a3ad881a2145c421d515fa495ad?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "市長逮捕を受け阿波市が会見、組織的関与を否定　事故修理費を市の工事代金に上乗せか(テレビ朝日系（ANN）)",
-        "summary": "徳島県阿波市の市長・町田寿人容疑者（69）が詐欺容疑で逮捕された事件を受けて、阿波市が12日、初めて会見を開きました。徳島・阿波市安丸学副市長「あくまでも市長と特定の職員が、結託して金銭を出していった",
-        "pub_date": "11/13 09:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/a0ef6bf6f343fcb3f6812190cfabd1513024de5e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本復興基金に520億円　首相表明、特別交付税活用(共同通信)",
-        "summary": "高市早苗首相は13日、熊本地震の非常災害復旧復興本部の第2回会合で、熊本県が創設する「復興基金」の財源として特別交付税520億円を手当てする方針を表明した。「県などが行う多重被災者への支援や井戸の復旧",
-        "pub_date": "11/13 09:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/f44cf3383743c7bd6949db39a7295a940f191ca9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "秋田で住宅火災、焼け跡から2遺体(共同通信)",
-        "summary": "秋田県警によると、13日午前6時10分ごろ、同県湯沢市の住宅が燃えていると近隣住民から119番があった。焼け跡から2人の遺体が見つかった。",
-        "pub_date": "11/13 09:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/e375e57e9943305cb803542229d78bbfa97c85d0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "トクリュウGの指示役か　逮捕の会社経営の女に別の顔　警察に表彰された過去も(テレビ朝日系（ANN）)",
-        "summary": "警察によって未然に阻止されたトクリュウによる強盗計画。その指示役として逮捕された32歳の女は、経営する土木工事会社の求人を利用して海外の特殊詐欺の拠点に人を送り込んでいた疑いも持たれています。■トクリ",
-        "pub_date": "11/13 11:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/bb61c5c1a04d3a6bc6df338723738993eb66042b?source=rss",
+        "title": "3歳児暴行死「残念」　福島・いわき市長会見(共同通信)",
+        "summary": "福島県いわき市で認定こども園に通う奥寺陽ちゃん（3）が暴行を受けて死亡し、母親の交際相手の男が逮捕された事件で、内田広之市長は13日、記者会見を開き「こうした虐待死が生じたことを残念に思う。心からご冥",
+        "pub_date": "11/13 11:49 JST",
+        "link": "https://news.yahoo.co.jp/articles/ec23db93ef09231840a592cfcfeddf6fb3d83ed0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「命より大切な仕事はない」　過労自殺した高橋まつりさんの母、過労死根絶訴える　奈良(産経新聞)",
-        "summary": "「過労死等防止対策推進シンポジウム」（厚生労働省主催）が11日、奈良市登大路町の奈良公園バスターミナルで開かれた。平成27年に過労自殺した広告大手・電通の新入社員、高橋まつりさん＝当時（24）＝の母、",
-        "pub_date": "11/13 11:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/55aa332445304d1ca56f8d7f293fdb955a5ec7f9?source=rss",
+        "title": "おなかをこちょこちょ→“ぱっ！” 可愛いポーズを無限に繰り返す子猫がSNSで話題「何だこの可愛いの」「バンザイかわいい！」など反響(ABEMA TIMES)",
+        "summary": "おなかをなでられると、全力で可愛いポーズを繰り返す子猫の姿が、SNSで話題となっている。 【映像】おなかをこちょこちょ→両手を「ぱ！」っとする姿 生まれて間もない白黒ハチワレのゆめちゃん（生後1カ月半",
+        "pub_date": "11/13 11:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/5f5232c4a4be88d168a324764eea5421e56f7518?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "近鉄の観光列車「青の交響曲」１０年　飲食の注文は「むだ」駅までに(47NEWS)",
-        "summary": "【汐留鉄道倶楽部】今年９月に登場１０周年を迎えたのが、一目千本と呼ばれる桜の名所・奈良県吉野町へ向かう近畿日本鉄道南大阪線・吉野線の観光特急「青の交響曲（シンフォニー）」１６２００系だ。通勤形電車を改",
-        "pub_date": "11/13 11:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/3004fd5cdbcbc784e3638c4c18e283e39cb09b44?source=rss",
+        "title": "笹川環境相「総理の体は一つ。カバーするのが大臣の役割」化石賞巡り首相COP31欠席に(産経新聞)",
+        "summary": "笹川博義環境相は13日の閣議後記者会見で、高市早苗首相が国連気候変動枠組み条約第31回締約国会議（COP31）の首脳級会合を欠席したことについて、「総理の体は一つ。国内対応、国会対応を含めて、さまざま",
+        "pub_date": "11/13 11:43 JST",
+        "link": "https://news.yahoo.co.jp/articles/05afbacecfacb04bdb58e770426d8634eba14086?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「約7割が赤字」日本の病院の救世主は“医療インバウンド”？「地域医療を奪う」懸念も…推進派が主張する“もう1つのメリット”とは(ABEMA TIMES)",
-        "summary": "外国人が医療目的で日本を訪れ、治療や健康診断を受ける“医療インバウンド”をめぐり、厚生労働省が課題の取りまとめに向けた検証を進めている。【映像】超豪華！ フルコース150万円の“医療インバウンドツアー",
-        "pub_date": "11/13 11:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/2e191b6ad49bfcdbbe19abf3656b7e1f1adb3eb7?source=rss",
+        "title": "明日14日(土)は関東や東海・北陸などで晴れて紅葉狩り日和に　平野部も色づき進む(日本気象協会tenki.jp)",
+        "summary": "明日14日(土)は北日本・東日本を中心に晴れて、関東や東海、北陸などでは紅葉狩り日和となりそうです。一方、明後日15日(日)は広く雨となるでしょう。東日本・西日本の太平洋側では局地的に雨脚が強まるため",
+        "pub_date": "11/13 11:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/52a5cc0a4ea1160da338dda84e5f216290401a44?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "“マルハラ”だけじゃない！職場の“チャットが冷たい”問題…どう向き合う？話し方のプロが指摘する「軽くなってしまう」“絵文字コミュニケーション”の落とし穴(ABEMA TIMES)",
-        "summary": "昨今、職場におけるチャット上のメッセージが冷たいと感じる一方で、電話でのやり取りに対しても恐怖心を抱く人が増えているようだ。こうしたテキストコミュニケーションや電話におけるジレンマへの悩みはSNSでも",
-        "pub_date": "11/13 11:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/4b080e5168f20100bd18fb4d3823b9fd0468b092?source=rss",
+        "title": "横田めぐみさんの帰国を願い、母校・新潟小で全校集会　児童が家族との再会願うメッセージ(産経新聞)",
+        "summary": "横田めぐみさん（62）が13歳で北朝鮮に拉致されてから11月15日で49年になるのを前に、めぐみさんの母校の新潟市立新潟小で13日、早期帰国を願う全校集会が行われた。集会には約380人の児童が参加。め",
+        "pub_date": "11/13 11:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/8d67f48fe0241a0fd2b6990f933c91be29030db7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "宿泊税でのモノマネ芸人起用から、訪問看護30分ルールまで…調査報道記者が語る、税金の使途を国民が監視すべき理由(集英社オンライン)",
-        "summary": "過疎地の再生を長年取材してきたジャーナリストの横山勲氏と、障害者福祉に詳しい市川亨氏。異なる現場を取材してきた二人の記者が共通する問題としてあげるのが、制度や机上の理屈を優先するあまり、生身の人間や現",
-        "pub_date": "11/13 11:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/af9aa2c4652abc3a95f023af7389980c2c87d6a3?source=rss",
+        "title": "京都で今季初の鳥インフル発生確認　千葉でも疑い　高値続く卵の価格への影響は(テレビ朝日系（ANN）)",
+        "summary": "京都府亀岡市で今シーズン初となる鳥インフルエンザの感染が確認されました。千葉県旭市でも疑い事例が発生していて、感染拡大による卵の価格への影響が心配されています。■今季初 鳥インフル発生確認木原稔官房長",
+        "pub_date": "11/13 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/71e2187abc19ac985ed7972d8130e7f471fed7ee?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "首相、16日から比・中訪問　ASEANとAPEC出席(共同通信)",
-        "summary": "政府は13日、高市早苗首相が16～19日の日程でフィリピンと中国を訪問すると発表した。東南アジア諸国連合（ASEAN）関連首脳会議と、アジア太平洋経済協力会議（APEC）首脳会議にそれぞれ出席する。「",
-        "pub_date": "11/13 10:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/d8b5bafce0d60e18d511f2ebd310bdb9890ae12e?source=rss",
+        "title": "「全力で支える」小泉発言は吉か凶か？ “高市再選の先導役”を買って出た小泉防衛相が片足を踏み入れた「危うすぎる賭け」(東洋経済オンライン)",
+        "summary": "来秋の自民党総裁選について、高市早苗首相が再選を目指して出馬する場合は自らの出馬を見送り、高市首相を「全力で支える」と小泉進次郎防衛相が明言したことが、自民党内に複雑な波紋を広げている。【写真あり】お",
+        "pub_date": "11/13 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/11ed8c5f3f56962c921c0b4d27b74ff2df7533ca?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "15日(日)の近畿は雨で雷雨の所も　来週は標高の高い山で雪の可能性(日本気象協会tenki.jp)",
-        "summary": "近畿地方は、明日14日(土)は雨の降りだす所があり、明後日15日(日)には広く雨が降るでしょう。局地的に、雷を伴って雨脚が強まる恐れもあります。その後は次第に強い寒気が流れ込み、来週の後半には標高の高",
-        "pub_date": "11/13 10:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/c17c2d45e8ec98d895c796181847ad6c80bf5595?source=rss",
+        "title": "初めてゴボウを食べるヤマアラシ→迷いのない“前歯さばき“で咀嚼音ASMR！「つい見入ってしまう」「バリバリいった」と反響(ABEMA TIMES)",
+        "summary": "ゴボウを初めて与えられたヤマアラシの様子がSNSで話題を集めている。 【映像】心地いい咀嚼音…ゴボウ初体験のヤマアラシ（実際の様子） 投稿したのは、長野市茶臼山動物園の公式Xアカウント（＠chausu",
+        "pub_date": "11/13 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/6088af372420cf5f6b09ce2c2073f73400bdef66?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「民泊の適正運営強化月間」東京都が吉祥寺周辺の民泊の運営状況を点検(テレビ朝日系（ANN）)",
-        "summary": "都内で民泊施設のごみ出しや騒音に関するトラブルや苦情が問題化するなか、都が運営状況を確認しました。 現在「民泊の適正運営強化月間」として、11月末まで都内各地で民泊施設の運営状況の確認が行われています",
-        "pub_date": "11/13 10:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/fa7be4ae3fb21cc6c25d2c0355b9234f139ceca9?source=rss",
+        "title": "住宅2軒全焼 焼け跡から3人の遺体　山形・寒河江市(テレビ朝日系（ANN）)",
+        "summary": "山形県寒河江市で住宅2軒が全焼する火事がありました。焼け跡からは3人の遺体が見つかっています。 13日午前2時20分ごろ、寒河江市栄町の店舗を兼ねた住宅から火が出ているのを通行人が発見し、119番通報",
+        "pub_date": "11/13 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/b7c7319e16b53b2f9083db1a8ce137caeb1b6bc1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 11:11:37 JST"
+    "last_updated": "2026-11-13 11:53:36 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -645,10 +645,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "4-U8pX0bCCI",
+        "video_id": "9haYBBEXi8Q",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/4-U8pX0bCCI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=4-U8pX0bCCI"
+        "embed_url": "https://www.youtube.com/embed/9haYBBEXi8Q?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=9haYBBEXi8Q"
       },
       {
         "id": "stream_fnnnews",

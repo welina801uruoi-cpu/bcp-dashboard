@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13 05:37:25",
+  "timestamp": "2026-11-13 06:36:20",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -112,12 +112,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "3",
-    "time": "2026-11-13 10:52",
+    "shindo": "1",
+    "time": "2026-11-13 15:26",
     "place": "熊本県熊本地方",
-    "magnitude": "4",
+    "magnitude": "2.2",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-13 15:26",
+        "place": "熊本県熊本地方",
+        "shindo": "1",
+        "magnitude": "2.2",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-13 10:52",
         "place": "熊本県熊本地方",
@@ -180,13 +187,6 @@
         "shindo": "1",
         "magnitude": "4.7",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-12 02:15",
-        "place": "青森県東方沖",
-        "shindo": "2",
-        "magnitude": "3.6",
-        "maxScale": 20
       }
     ]
   },
@@ -202,10 +202,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 1地域】東京（警報なし）",
+    "summary": "【注意報発表: 2地域】東京、茨城（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 1,
+    "notice_count": 2,
     "total_prefs": 8,
     "pref_details": [
       {
@@ -258,11 +258,13 @@
         "code": "8",
         "name": "茨城県",
         "short_name": "茨城",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "霜注意報"
+        ],
+        "summary": "霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -308,16 +310,14 @@
     "notice_items": []
   },
   "transit": {
-    "status": "ALERT",
-    "text": "運行支障あり（在来線: 京成松戸線）",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（京成松戸線）",
+    "status": "NORMAL",
+    "text": "全線平常運行中",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [
-      "京成松戸線"
-    ],
+    "troubled_lines": [],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
@@ -422,22 +422,22 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 6 件です。",
       "recent_posts": [
         {
-          "time": "11/13 05:36",
-          "text": "強い妄想癖を持ったオンナだから、 システム START 障害 END が起きて早帰りになって早い時間から飲みに行く現代 START AU END とか妄想できち..."
+          "time": "11/13 06:28",
+          "text": "【システム START 障害 END のお知らせ（第2報 2026/11/13 15:20）】 2026年11月13日に発生したMicrosoft社サーバーの大..."
         },
         {
-          "time": "11/13 05:10",
-          "text": "mineo マイネオ 新規契約 友達紹介 もしもの通信 START 障害 END に備えて選べるdocomo/ START au END /softbank回線..."
+          "time": "11/13 06:27",
+          "text": "【システム START 障害 END のお知らせ（第2報 2026/11/13 15:20）】 2026年11月13日に発生したMicrosoft社サーバーの大..."
         },
         {
-          "time": "11/13 04:49",
-          "text": "START au END 通信 START 障害 END ？？ 繋がりにくい！ #iPhone14"
+          "time": "11/13 06:24",
+          "text": "実施した復旧策がうまくいかなかった マイクロソフト社がXに投稿 「365」の大規模 START 障害 END | START au END Webポータル ht..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -474,16 +474,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/13 05:51",
+          "text": "あれ……コンビニ行ったらPayPay START 繋がらない END し他のアプリもネット繋がらなくて、家に帰ってWi-Fi繋げても読み込みがめっちゃ遅いんだけ..."
+        },
+        {
           "time": "11/13 04:57",
           "text": "@aw11tribology START 繋がらない END …圏外になっているといった状態でしょうか？💦 START au END サポート石川"
         },
         {
           "time": "11/13 03:27",
           "text": "昨日も今朝も朝から START au END ひかり START 繋がらない END 昨日問い合わせして 折り返し来たのがさっき。 1日経ってから連絡来たけど、..."
-        },
-        {
-          "time": "11/13 03:22",
-          "text": "@NorainuYuuki START au END の5Gも一部の路線の一部の区間で START 繋がらない END ことはあるけど、そっちはそんなにやばいの..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -530,8 +530,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 5,
     "articles": [
+      {
+        "title": "【ヤフコメで話題】「クジラ漂着と地震の関連に不安の声」「科学的根拠と防災意識の両立を考える」 - 海洋異変と地震予兆説への反応(Yahoo!ニュース オリジナル THE PAGE)",
+        "summary": "クジラの漂着と地震の関連性について、Yahoo!ニュースのコメント欄で話題になっています。深海に生息する希少なクジラが海岸に漂着したことを受けて、『大地震の前兆ではないか』『最近この海域で地震が多い』",
+        "pub_date": "11/13 15:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/56e3817bfdb2e7b8aa3964d12b97902450c3e6e3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "広域消費者被害、国が対応　地方分権改革の方針案(共同通信)",
+        "summary": "内閣府は13日、地方分権改革に関する2026年の対応方針案を公表した。悪質商法などで消費者被害が広域化した場合の国と都道府県の役割分担を明確化。国が重点的に対応するなどして被害の拡大抑止につなげる。1",
+        "pub_date": "11/13 15:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/8265a2a9bd038b207bcb79a3c3efbada475843fe?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "Microsoft 365障害で“納期遅延”…「メールが見られなかった」で許されるか？　“法的責任”を問われる境界線【弁護士解説】(弁護士JPニュース)",
         "summary": "取引先からの返信期限が今日に迫っているのに、メールソフトの「Outlook」が使えない——。Microsoftは随時、事態の収束への取り組みについて情報を発信している。2026年11月13日未明（日本",
@@ -557,103 +573,87 @@
         "is_disaster": true
       },
       {
-        "title": "熊本地震　復興基金に520億円措置へ(テレビ朝日系（ANN）)",
-        "summary": "7月に発生した熊本地震を巡り高市総理大臣は、熊本県が設置する「復興基金」に対し、特別交付税で520億円を措置すると表明しました。高市総理大臣「熊本県が設置する復興基金に対しては、520億円を特別交付税",
-        "pub_date": "11/13 12:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/907714c1fda204452d7917aad0c36c5c3ef8adc8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "トラックが追突し2台炎上 追突したトラックから性別不明の遺体 名阪国道 三重･伊賀市(CBCテレビ)",
-        "summary": "13日未明、三重県伊賀市の名阪国道でトラックが追突して2台が炎上する事故があり、追突したトラックから1人が遺体で見つかりました。【写真を見る】トラックから真っ赤な炎が…事故があったのは、伊賀市の名阪国",
-        "pub_date": "11/13 12:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/b386fc3c5fddfd0ccc69d8a62fcb246f1139c159?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【雷を伴った激しい雨か】気になる週末の天気は?　大気の状態が不安定に…大雨となる所も　23日（月・祝）にかけての降水シミュレーション【気象庁13日発表】(BSS山陰放送)",
-        "summary": "気象庁が11月13日に発表した短期予報解説資料によりますと、15日にかけて日本列島は広い範囲で大気の状態が不安定になる見込みです。南西諸島から北日本にかけて、落雷や突風、急な強い雨に注意が必要となり、",
-        "pub_date": "11/13 12:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/7c736856d26d17b1ddab893c9617dc4bc5d981da?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "遺族補償費、夫の年齢要件を撤廃　男女格差解消、改正公健法が成立(共同通信)",
-        "summary": "遺族補償費支給における夫の年齢要件を撤廃する改正公害健康被害補償法が13日、参院本会議で賛成多数により可決、成立した。これまで自ら独立して生計を立てられるとし60歳未満の男性を除外してきたが、女性の就",
-        "pub_date": "11/13 12:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/5518995b3f091868cf84aa2727a0e082214fd6ef?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "主婦殺害事件発生から27年　被害者の夫が心境語る「動機の部分は聞きたいが、本人はしゃべらないと思う」(メ〜テレ（名古屋テレビ）)",
-        "summary": "名古屋市西区で発生した主婦殺害事件の発生から13日で27年です。被害者の夫が心境を語りました。「27年というと長いが、今振り返ってみれば、容疑者が捕まるまでが長かったので大変かなと思うが、捕まえてくれ",
-        "pub_date": "11/13 12:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/f197ae95801bf619f2b040f96369f3eeabe4a9f6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "“唇縫い付け”女の知人逮捕　被害女性に暴行を加えたか　被告女と交友関係(テレビ朝日系（ANN）)",
-        "summary": "茨城県古河市で、女性に自らの唇を縫うように強要した罪などに問われている女の知人が、同じ女性に暴行を加えたとして逮捕されました。 つくば市の会社員・山崎和博容疑者（49）は去年12月、古河市の無職の女性",
-        "pub_date": "11/13 12:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/2f087a87b3a9d4beb2729033a75c2afa8776122c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "山形と秋田で住宅火災が相次ぐ　合わせて5人死亡(テレビ朝日系（ANN）)",
-        "summary": "山形と秋田で住宅火災が相次ぎ、合わせて5人が死亡しました。 13日午前2時20分ごろ、山形県寒河江市で火事があり、木造一部2階建ての店舗兼住宅など、2軒が全焼しました。 火元とみられる住宅からは、身元",
-        "pub_date": "11/13 12:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/17191dafa754555791d63290c68ccabe62d6b57d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "ジェネリック医薬品メーカーの安定供給の取り組み評価を初公表　厚労省(テレビ朝日系（ANN）)",
-        "summary": "厚生労働省はジェネリック医薬品の安定供給に向けた取り組みの評価結果を初めて公表しました。【上野厚労大臣】「品質が確保された後発薬品を安定供給できる企業が市場で評価をされ、企業の安定供給に向けた取り組み",
-        "pub_date": "11/13 14:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/6c5027ffede47abdb379740fe79342c68461bcd1?source=rss",
+        "title": "就業者半数以上に現金給付の方針　対象3千万人超、最大2.5万円(共同通信)",
+        "summary": "高市早苗首相は13日の参院特別委員会で、所得連動型の新たな現金給付制度「就業者負担軽減支援金」の対象者について、就業者全体の半数以上とする方針を新たに示した。3千万人超に相当する。従来は「3割以上」と",
+        "pub_date": "11/13 15:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/a5404a8f7c4eb78d5186bd3b45edc6adbd270467?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "インフルエンザの患者数 1医療機関あたり「11人」前の週から微増(テレビ朝日系（ANN）)",
-        "summary": "インフルエンザの1医療機関あたりの患者報告数は「11人」で、前の週からわずかに増加しました。34の都道府県で前の週から患者数が増加しています。厚生労働省によりますと、8日までの1週間に報告されたインフ",
-        "pub_date": "11/13 14:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/0c69932ae23c922592a9965162681372f5654c44?source=rss",
+        "title": "ちょうつがい製造大手に公取委が勧告(共同通信)",
+        "summary": "公正取引委員会は13日、大阪府八尾市のちょうつがい製造販売大手のニシムラが、委託先業者への支払い代金を不当に減額したとして、下請法違反を認定し、再発防止を求めて勧告した。減額代金は約1108万円。",
+        "pub_date": "11/13 15:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/dc6cec6d18994148a93616c1a6e32dc8272f82bb?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "大阪市百万件超メアド流出　メール配信サービス利用者(共同通信)",
-        "summary": "大阪市は13日、市の行政オンラインシステムで使用しているメール配信サービスの利用者のメールアドレス約108万件が流出したと発表した。サービスを提供する「アララ」が不正アクセスを受けた。氏名やマイナンバ",
-        "pub_date": "11/13 14:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/e41958e8adb15ea6ce975b542fed6f478bcb73d9?source=rss",
+        "title": "【速報】“車椅子インフルエンサー”拘禁刑8年　娘殺害の罪　東京地裁(テレビ朝日系（ANN）)",
+        "summary": "東京・世田谷区の自宅で生後3カ月の娘を殺害した罪に問われている母親の裁判で、東京地裁は拘禁刑8年の判決を言い渡しました。 車いすのインフルエンサーとして活動していた内藤沙月被告（29）は、去年11月に",
+        "pub_date": "11/13 15:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/cd3b80774e3426ab50ed4a4fb5080291a5dfa7a9?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "裁判官に証拠提示「用意」　開示勧告で検察、菊池事件(共同通信)",
-        "summary": "ハンセン病患者とされた男性が隔離先の特別法廷で死刑判決を受け、1962年に執行された「菊池事件」の第4次再審請求即時抗告審で、福岡高検が福岡高裁から証拠目録の開示勧告を受け、目録ではなく、全ての未提出",
-        "pub_date": "11/13 14:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/9335952712ad4132f5d3ccf6561ab1a8ea4f5e9a?source=rss",
+        "title": "ボビーオロゴン被告初公判　起訴内容全面的に認める(テレビ朝日系（ANN）)",
+        "summary": "千葉県の住宅で、知人の女性に対して性的暴行をした罪に問われているタレントのボビー・オロゴン被告が13日、初公判で起訴内容を認めました。 タレントのボビー・オロゴンこと近田ボビー被告（60）は、今年4月",
+        "pub_date": "11/13 15:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/11cae9a9bd0a8dc8c33f50b256c4b20ebdc39a04?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "愛媛知事選、15日投開票　現新3人の争い(共同通信)",
-        "summary": "任期満了に伴う愛媛県知事選は15日投票、即日開票される。立候補しているのは、いずれも無所属で、元自民党衆院議員の新人宮沢博行氏（51）、自民、公明両党の県組織の推薦で5選を目指す現職中村時広氏（66）",
-        "pub_date": "11/13 14:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/fc00bd08f1470a2f28ba5b71c73b1e16cc6c5f6d?source=rss",
+        "title": "【速報】娘殺害の ”車椅子インフルエンサー” 拘禁刑8年の判決　東京地裁(テレビ朝日系（ANN）)",
+        "summary": "速報です。東京・世田谷区の自宅で生後3カ月の娘を殺害した罪に問われている母親の裁判で、東京地裁は拘禁刑8年の判決を言い渡しました。",
+        "pub_date": "11/13 15:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/17a5a6e6623c8d80954527294c4d277b714d6efa?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "井林国交大臣　週刊誌の報道受け「公職選挙法に則って適切に対応」と説明(テレビ朝日系（ANN）)",
+        "summary": "井林国土交通大臣が自身の選挙区内の有権者に公職選挙法で禁止されている寄付をした可能性があると週刊新潮が報道したことについて、井林大臣は「公職選挙法に則って適切に対応している」と説明しました。」【井林国",
+        "pub_date": "11/13 15:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/87f9e4414e6619807bf9384bca46c6ec43c6b486?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "マイクロソフト障害 佐川急便が一部サービス予約受付停止(ABEMA TIMES)",
+        "summary": "マイクロソフトのメールサービスなどに接続できない影響で、佐川急便は一部のサービスの予約受付を停止しています。【映像】一部サービスの予約受付を停止している佐川急便 佐川急便は現在、全国の駅や空港などで手",
+        "pub_date": "11/13 15:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/b2a9caec662ba526979a1a3dedb1d933932c6e79?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "トクリュウ“指示役”会社役員の女を強盗予備容疑で逮捕　勧誘に“自社の求人”使用か(テレビ朝日系（ANN）)",
+        "summary": "東京・新宿区の路上で仲間と共謀し、強盗の準備をした疑いでトクリュウ（匿名・流動型犯罪グループ）の指示役とみられる女が逮捕されました。この女は2年前に高齢女性を保護したとして、警察から感謝状が贈られてい",
+        "pub_date": "11/13 15:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/e4ada98fa84ec2507892fe5eab8d854ad2065fab?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【独自】大阪市ごみ処理施設「鶴見工場」建て替え工事が9カ月延長　2029年12月完了にずれ込む見通し　周辺4市の事務組合で共同運用　「予見できなかった工事増加」追加費用は約10億円(FNNプライムオンライン)",
+        "summary": "大阪市と周辺3市で共同運用しているごみ処理施設のひっ迫の一因となっている、鶴見工場の建て替え工事の工期について、想定外の工事の増加で9カ月延長されることが、複数の関係者への取材で分かった。大阪市・八尾",
+        "pub_date": "11/13 15:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/d4f8fca40663c657eaff852d3b34e0de12d26999?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "今日13日は東北～九州で20℃超　明日14日も小春日和に　来週後半は強烈寒波(日本気象協会tenki.jp)",
+        "summary": "今日13日は東北から九州にかけて気温が20℃を超えた所が多くなりました。明日14日も小春日和の所が多いですが、その先、気温の変化が目まぐるしいでしょう。来週後半は強い寒気が流れ込み、西日本の標高の高い",
+        "pub_date": "11/13 15:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/522c7eed34156cb8f4ffaeb8bc3e7d8e9e523130?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 14:37:07 JST"
+    "last_updated": "2026-11-13 15:36:08 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -685,10 +685,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "omB75JEbkbU",
+        "video_id": "1dydu7RGDeo",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/omB75JEbkbU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=omB75JEbkbU"
+        "embed_url": "https://www.youtube.com/embed/1dydu7RGDeo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=1dydu7RGDeo"
       },
       {
         "id": "stream_ntvnews",

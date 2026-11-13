@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13 11:31:58",
+  "timestamp": "2026-11-13 12:35:02",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 11地域】道央、道南、道北、道東、秋田、山形、福島、茨城、東京、長野、沖縄（警報なし）",
+    "summary": "【注意報発表: 12地域】道央、道南、道北、道東、秋田、山形、福島、茨城、東京、長野、長崎、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 11,
+    "notice_count": 12,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -450,10 +450,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
           "濃霧注意報"
         ],
-        "summary": "なだれ注意報、濃霧注意報",
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -563,10 +562,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、濃霧注意報",
+        "summary": "濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       },
       {
@@ -953,11 +952,13 @@
         "code": "42",
         "name": "長崎県",
         "short_name": "長崎",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報"
+        ],
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -1028,13 +1029,20 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線38路線: 山田線、米坂線、陸羽東線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線29路線: 山陽本線、福塩線、呉線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山田線、米坂線、陸羽東線、北上線、津軽線 等 計38路線）",
+    "line_text": "運行支障あり（山陽本線、福塩線、呉線、可部線、美祢線 等 計29路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
+      "山陽本線",
+      "福塩線",
+      "呉線",
+      "可部線",
+      "美祢線",
+      "日豊本線",
+      "肥薩線",
       "山田線",
       "米坂線",
       "陸羽東線",
@@ -1042,32 +1050,16 @@
       "津軽線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
-      "山陰本線",
-      "山陽本線",
-      "呉線",
-      "可部線",
-      "美祢線",
-      "日豊本線",
-      "鹿児島本線",
-      "西鉄天神大牟田線",
-      "西鉄甘木線",
-      "肥薩線",
-      "きのくに線",
-      "南海高野線",
-      "南海泉北線",
-      "東海道本線",
       "越後線",
       "大井川鉄道大井川本線",
       "万葉線",
+      "きのくに線",
+      "南海高野線",
+      "南海泉北線",
       "中央線",
+      "中央本線",
       "青梅線",
-      "成田線",
-      "京葉線",
-      "武蔵野線",
-      "鹿島線",
-      "東武東上線",
-      "西武新宿線",
-      "東京メトロ銀座線",
+      "東京メトロ有楽町線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
@@ -1150,7 +1142,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 38,
+    "target_lines_count": 29,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1205,7 +1197,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 10:33",
@@ -1251,7 +1243,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 10:38",
@@ -1277,16 +1269,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/13 12:08",
+          "text": "[Microsoft Outlook START 障害 END ] をっと! Outlookに約1日ぶり着信! 自分発自分着のOutlook発Outlook宛e..."
+        },
+        {
           "time": "11/13 11:26",
           "text": "携帯の副回線、2回線以上持つ人は7.3％という調査結果が出ていました。 副回線では START povo END や楽天モバイルの人気が高いそうです。 安さや、..."
         },
         {
           "time": "11/13 09:39",
           "text": "ドコモさん回線 START 障害 END が発生起こしてから、電波に制限かけてない？ 元々、お世辞にも良くなかった東京都内の速度が露骨に速度が低下してる。ネット..."
-        },
-        {
-          "time": "11/12 14:13",
-          "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -1310,10 +1302,34 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 8,
+    "disaster_count": 9,
     "articles": [
       {
-        "title": "【冬の嵐】18日（水）「台風並み」に発達する低気圧  大雨だけでなく「暴風と高波」にも警戒【3時間ごと雨風シミュレーション19日（木）まで/ 3連休まで天気予報（23日まで）】(MBC南日本放送)",
+        "title": "【免許返納ドキュメント】75歳女性が1日に2件の事故→道警の高齢運転者向け「SDSプログラム」参加→シミュレーターで「E」判定→返納決意までの一部始終〈札幌市〉(FNNプライムオンライン)",
+        "summary": "札幌で一人暮らしをしている75歳の女性。10月、運転免許証を返納することを決めた。車を手放すまでをカメラが追った。",
+        "pub_date": "11/13 21:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/baaeea9797b283354fedc9b7077a54525daebaef?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "金づちで車のガラスを次々と…フードの人物による犯行の一部始終が防犯カメラに　連続する被害で修理費は100万円ほどに　富山・高岡市(FNNプライムオンライン)",
+        "summary": "富山県高岡市で、自宅の駐車場にとめてある車が傷つけられる被害が相次いでいる。今月10日未明には、フードをかぶった人物が車の窓ガラスを割る様子が防犯カメラに映っていた。被害に遭った50代の男性は、2年の",
+        "pub_date": "11/13 20:48 JST",
+        "link": "https://news.yahoo.co.jp/articles/1def90e892732c3ffac833bf74b49c00dbaf4598?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "国民・足立議員が官僚を“あおった”？「頭入ってるよね？ 無理？ 無理？ 難しい？ やめたい？やめてほしかったらやめてもいいけど」除染の基準等めぐり議論(ABEMA TIMES)",
+        "summary": "13日の参議院災害対策及び東日本大震災復興特別委員会で、国民民主党の足立康史議員が2011年に発生した原発事故に伴う除染の基準などをめぐり質問した。その中で、事前通告のない質問にすぐには答弁に立てない",
+        "pub_date": "11/13 20:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/f6ab3d3032759a180ef949113348b33d0f21dc73?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【冬の嵐】18日（水）「台風並み」に発達する低気圧  大雨だけでなく「暴風と高波」にも警戒【3時間ごと雨風シミュレーション19日（木）まで/ 3連休まで天気予報（23日まで）】気象庁(MBC南日本放送)",
         "summary": "■【急速に発達する低気圧】台風並みの中心気圧964hpa予想18日（水）から19日（木）にかけて、低気圧が急速に発達しながら日本海を進むため「強い冬型」の気圧配置になり、全国的に大荒れの天気になりそう",
         "pub_date": "11/13 20:20 JST",
         "link": "https://news.yahoo.co.jp/articles/68d667369f15d7d9e768b9e9fe558b62e46316c8?source=rss",
@@ -1361,79 +1377,55 @@
         "is_disaster": true
       },
       {
-        "title": "熊本・八代で公費解体開始　地震で損壊、週明け本格化(共同通信)",
-        "summary": "7月の熊本地震で被災した熊本県八代市で13日、壊れた建物を所有者の申請で自治体が撤去する「公費解体」が始まった。市によると、この日は市中心部付近で1棟の取り壊しに着手。被災者の申請に基づいて順次業者に",
-        "pub_date": "11/13 18:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/95cf0ba20026ca6412ca736a307ef2e1c181ec4c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "過酷な環境でも使えるパソコン発表(ABEMA TIMES)",
-        "summary": "猛暑や豪雨など過酷な環境でも使える、屋外作業に特化したパソコンが発表されました。災害現場での活用も期待されています。【映像】実際にパソコン「FZ-G3」を落下させる様子 パナソニックコネクトが発表した",
-        "pub_date": "11/13 18:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/95b0044f8a78b853e880bb92939d4c23e8e59fc7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "雅子さまの“もみじ柄”着物に陛下がネクタイを合わせ… 天皇皇后両陛下が秋らしい“リンクコーデ”でベトナム国家主席夫妻をお出迎え 陛下がベトナム語で乾杯の挨拶も(ABEMA TIMES)",
-        "summary": "11月11日、天皇皇后両陛下は来日したベトナムのトー・ラム国家主席夫妻を出迎えられた。【映像】“秋の紅葉”リンクコーデで、ベトナム国家主席夫妻と握手を交わす両陛下 雅子さまは秋らしいもみじ柄の着物を着",
-        "pub_date": "11/13 20:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/828f599413fe426a5ef922e29d3fb51ba768dde5?source=rss",
+        "title": "日本・メキシコ、エネ協力を強化　有識者委で戦略的関係を議論(共同通信)",
+        "summary": "茂木敏充外相は13日、メキシコのベラスコ外相と東京都内で会談した。中東情勢の悪化を受けて日本がメキシコ産原油を輸入した経緯を踏まえ、エネルギー分野での協力強化を確認。戦略的な関係構築について有識者間で",
+        "pub_date": "11/13 21:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/a67cbb3147279b3bedeb4da485211f2603c398d8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "サイバー相、IT業界に協力要請　不正アクセス受け「情報必要」(共同通信)",
-        "summary": "古川俊治サイバー安全保障担当相は13日、相次ぐ不正アクセス事案を受け、都内でIT業界団体の代表らと面会し、サイバー攻撃に関する情報提供への協力を要請した。「対処を進める上で何よりも必要なのが情報だ。攻",
-        "pub_date": "11/13 20:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/19dce48183f2f42cea8e05fe0147acd473cbec08?source=rss",
+        "title": "男2人が男性を殴りカバン奪って逃走　神奈川・大和市(テレビ朝日系（ANN）)",
+        "summary": "神奈川県大和市で、帰宅中の男性が男2人に棒のようなもので殴られ、カバンを奪われました。男らはその後、逃走しています。 13日午後6時半ごろ、大和市下鶴間の路上で48歳の男性から「いわゆる“おやじ狩り”",
+        "pub_date": "11/13 21:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/21dc79d16f11b05ceac5a1e28013e20bd8af1d78?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "3歳娘に暴行加え殺害か　父親逮捕　暴行認識も保護せず…母親も逮捕(テレビ朝日系（ANN）)",
-        "summary": "今年8月、大阪府枚方市で3歳の娘に暴行を加え殺害した疑いで33歳の父親が13日に逮捕されました。33歳の母親は、保護責任者遺棄致死の疑いで逮捕されました。 枚方市の会社員・金尾健太郎容疑者は8月、当時",
-        "pub_date": "11/13 20:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/83d6ecad5ec38ef08ded010bee6247bdaa97e589?source=rss",
+        "title": "「衆院では安心して退席」国民・榛葉氏、石破氏らに皮肉　与野党拮抗の参院なら「大変」(産経新聞)",
+        "summary": "国民民主党の榛葉賀津也幹事長は13日の記者会見で、消費税減税関連法案の衆院採決前に退席した石破茂前首相ら自民党議員4人について、「衆院では(与党に)圧倒的に数があるから、安心して退席している」と述べた",
+        "pub_date": "11/13 21:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/4ec9fb33a91fbc021606bd18d907367f8fcf6396?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "東大、学長選で経緯説明の再回答を公表(共同通信)",
-        "summary": "東京大は13日、次期学長選考を巡り、教職員有志が経緯説明を求めた要望書への再回答を公表し、事前の学内投票で1位だった候補は「ガバナンス・リスク管理に対する積極性や向き合い方に課題があるなどの意見が出た",
-        "pub_date": "11/13 20:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/7055d0c3aac6c3cc99af58ddc32b073162f6e2d6?source=rss",
+        "title": "東大、学長選の再回答を公表　染谷副学長「リスク管理に課題」(共同通信)",
+        "summary": "東京大は13日、次期学長選考を巡り、教職員有志が選考会議に経緯の説明を求めた2回目の質問書への回答を公表した。事前の学内投票で1位だったものの、学長に選出されなかった染谷隆夫副学長について、選考会議の",
+        "pub_date": "11/13 21:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/f51acdb012feaae7928484391d4caaee2f7d8f79?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "奈良市もアララ　市民のアドレス1600件超漏洩　「不審メール閲覧しないで」呼びかけ(産経新聞)",
-        "summary": "奈良市は13日、今年7～10月にマイナンバーカードの受け取りを予約した市民らのメールアドレス1617件が流出したと発表した。市のマイナカードの予約管理システムで使われる「アララ」（東京）のシステムが不",
-        "pub_date": "11/13 20:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/26830b9ce55c966101ab98a5421ce0ff253081c8?source=rss",
+        "title": "遊び感覚のデジタル運動で脳と心を育てる　発達に特性のある子どもたちの可能性を広げる新しい療育の形(テレビ愛知)",
+        "summary": "近年、発達障害やその可能性があると診断される子どもが増えています。こうした子どもたちを運動で支援する名古屋のスタートアップ発の施設が全国に広がっています。その支援内容を取材しました。",
+        "pub_date": "11/13 21:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/c3a4d43477c8b9c4cdf02495a1ccbf0dc5d97b71?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "高市総理　各業界への影響把握などを指示　マイクロソフト大規模障害(テレビ朝日系（ANN）)",
-        "summary": "「マイクロソフト」のメールサービスなどで障害が発生したことを受け、高市総理大臣は、各業界への影響を把握し報告することなどを各府省庁に指示しました。【木原官房長官】「本日10時には、高市総理から各省庁に",
-        "pub_date": "11/13 20:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/95d7bbb65dbb29ff195d4d996da31508d9f85677?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "金など“1730円相当”盗んだ疑い 実行役逮捕(ABEMA TIMES)",
-        "summary": "東京・新宿区の貴金属店の事務所に侵入し、金などが入った金庫2台を盗んだとして実行役とされる21歳の男が逮捕されました。【映像】ドライバーのようなもので窓ガラス割ったか 容疑者連行の様子 宮嶋秀真容疑者",
-        "pub_date": "11/13 20:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/94a151843193a9ad113c5fc7ed52a94f6eb352cd?source=rss",
+        "title": "米側の思いやり予算増額要求報道巡り、嘉手納以南の土地返還は「別でしっかり求めていく」　沖縄・古謝玄太知事会見抄録(産経新聞)",
+        "summary": "沖縄県の古謝玄太知事は13日の定例記者会見で、在日米軍駐留経費負担（思いやり予算）の大幅な増額をトランプ米政権が求めているとの報道について、米軍嘉手納基地以南の土地を返還する統合計画は「別でしっかり求",
+        "pub_date": "11/13 20:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/dbde4b4de09ce5e1291d20ec5e339c2c92b0621b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 20:31:54 JST"
+    "last_updated": "2026-11-13 21:34:58 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1465,10 +1457,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "cJNmJAWmsrI",
+        "video_id": "sKOQnaT0rqI",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/cJNmJAWmsrI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=cJNmJAWmsrI"
+        "embed_url": "https://www.youtube.com/embed/sKOQnaT0rqI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=sKOQnaT0rqI"
       },
       {
         "id": "stream_ntvnews",
@@ -1498,10 +1490,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "Ht3LTy1buTw",
+        "video_id": "kGG1CaeQ9oM",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/Ht3LTy1buTw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Ht3LTy1buTw"
+        "embed_url": "https://www.youtube.com/embed/kGG1CaeQ9oM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=kGG1CaeQ9oM"
       }
     ],
     "cameras": [

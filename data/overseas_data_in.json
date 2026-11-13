@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-14 02:07:01",
-  "timestamp_local": "2026-11-13 22:37:01",
+  "timestamp": "2026-11-14 02:57:53",
+  "timestamp_local": "2026-11-13 23:27:53",
   "country": {
     "id": "india",
     "name": "インド",
@@ -653,14 +653,14 @@
       {
         "id": "stream_ndtv_live",
         "name": "📺 NDTV 24x7 (インド全国英語ニュース)",
-        "video_id": "u3R-ROX6tjg",
+        "video_id": "HdAe4mGZ3J0",
         "handle": "@NDTV",
         "type": "stream"
       },
       {
         "id": "stream_india_today",
         "name": "📺 India Today LIVE 24h",
-        "video_id": "4XElbQSJ-HQ",
+        "video_id": "bNaJP7t7lQ8",
         "handle": "@indiatoday",
         "type": "stream"
       },
@@ -687,14 +687,14 @@
     "default_channel_id": "stream_ndtv_live"
   },
   "forex": {
-    "timestamp": "11/14 02:06 JST",
+    "timestamp": "11/14 02:57 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.91,
-      "change": 0.18,
-      "change_pct": 0.11,
+      "rate": 159.92,
+      "change": 0.19,
+      "change_pct": 0.12,
       "direction": "up"
     },
     "local_jpy": {
@@ -710,9 +710,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.47,
-      "change": -0.76,
-      "change_pct": -0.43
+      "rate": 176.36,
+      "change": -0.86,
+      "change_pct": -0.49
     }
   },
   "airports": [
@@ -748,9 +748,189 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/14 02:07 JST"
+    "cities": [
+      {
+        "name": "ニューデリー (首都)",
+        "name_en": "New Delhi",
+        "is_capital": true,
+        "lat": 28.6139,
+        "lon": 77.209,
+        "temp": 22.2,
+        "apparent_temp": 23.6,
+        "humidity": 68,
+        "wind_speed": 4.6,
+        "wind_gusts": 7.6,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/13(金)",
+            "temp_max": 29.5,
+            "temp_min": 18.5,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/14(土)",
+            "temp_max": 28.7,
+            "temp_min": 18.8,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 24.3,
+            "temp_min": 18.6,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ムンバイ (商業都市)",
+        "name_en": "Mumbai",
+        "is_capital": false,
+        "lat": 19.076,
+        "lon": 72.8777,
+        "temp": 27.7,
+        "apparent_temp": 27.9,
+        "humidity": 44,
+        "wind_speed": 7.9,
+        "wind_gusts": 16.6,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/13(金)",
+            "temp_max": 34.9,
+            "temp_min": 23.4,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/14(土)",
+            "temp_max": 34.3,
+            "temp_min": 23.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 33.2,
+            "temp_min": 22.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ベンガルール (IT拠点)",
+        "name_en": "Bengaluru",
+        "is_capital": false,
+        "lat": 12.9716,
+        "lon": 77.5946,
+        "temp": 21.1,
+        "apparent_temp": 22.3,
+        "humidity": 83,
+        "wind_speed": 11.5,
+        "wind_gusts": 29.2,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/13(金)",
+            "temp_max": 28.7,
+            "temp_min": 17.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/14(土)",
+            "temp_max": 29.7,
+            "temp_min": 18.5,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 28.2,
+            "temp_min": 18.8,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "ニューデリー (首都)",
+      "name_en": "New Delhi",
+      "is_capital": true,
+      "lat": 28.6139,
+      "lon": 77.209,
+      "temp": 22.2,
+      "apparent_temp": 23.6,
+      "humidity": 68,
+      "wind_speed": 4.6,
+      "wind_gusts": 7.6,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
+      "forecast": [
+        {
+          "date": "11/13(金)",
+          "temp_max": 29.5,
+          "temp_min": 18.5,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/14(土)",
+          "temp_max": 28.7,
+          "temp_min": 18.8,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/15(日)",
+          "temp_max": 24.3,
+          "temp_min": 18.6,
+          "weather_code": 1,
+          "weather_label": "🌤️ 晴れ",
+          "precipitation_mm": 0.0
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/14 02:57 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -779,7 +959,7 @@
         "details": "デリーメトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/14 02:06 JST"
+    "timestamp": "11/14 02:57 JST"
   },
   "lifeline": {
     "status": "NORMAL",

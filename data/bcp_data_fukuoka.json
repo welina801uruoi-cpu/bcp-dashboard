@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13 17:03:13",
+  "timestamp": "2026-11-13 17:56:32",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -179,21 +179,23 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 2地域】長崎、佐賀（警報なし）",
+    "summary": "【注意報発表: 3地域】福岡、長崎、佐賀（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 2,
+    "notice_count": 3,
     "total_prefs": 7,
     "pref_details": [
       {
         "code": "40",
         "name": "福岡県",
         "short_name": "福岡",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報"
+        ],
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -414,8 +416,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/13 17:03",
+          "text": "@neteroo_index 電車の中で START 繋がらない END と困りますよね😢 私は START 繋がらない END 時だけ START au EN..."
+        },
         {
           "time": "11/13 10:38",
           "text": "楽天モバイルはプラチナバンド基地局がほぼ無く、 START 繋がらない END 。 スマホはDualSIMでmineoの START au END やdocom..."
@@ -423,10 +429,6 @@
         {
           "time": "11/13 09:33",
           "text": "京都駅はさすがに START au END でも厳しいが、でもギリ繋がる。docomoは START 繋がらない END 。"
-        },
-        {
-          "time": "11/13 09:00",
-          "text": "START au END ホームルーターが START 繋がらない END 原因9選！、設定自体はコンセント挿すだけだから手軽だけど、電波の掴み具合だけは環境次..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -595,7 +597,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-14 02:03:10 JST"
+    "last_updated": "2026-11-14 02:56:29 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",

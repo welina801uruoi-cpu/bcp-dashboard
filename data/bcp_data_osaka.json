@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13 14:39:55",
+  "timestamp": "2026-11-13 15:24:43",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -90,12 +90,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-13 19:42",
-    "place": "和歌山県北部",
-    "magnitude": "2.4",
+    "shindo": "2",
+    "time": "2026-11-14 00:03",
+    "place": "島根県西部",
+    "magnitude": "3.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-14 00:03",
+        "place": "島根県西部",
+        "shindo": "2",
+        "magnitude": "3.5",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-13 19:42",
         "place": "和歌山県北部",
@@ -157,13 +164,6 @@
         "place": "大分県中部",
         "shindo": "1",
         "magnitude": "2",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-12 13:46",
-        "place": "トカラ列島近海",
-        "shindo": "1",
-        "magnitude": "2.6",
         "maxScale": 10
       }
     ]
@@ -344,8 +344,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/13 14:49",
+          "text": "日本の場合DOCOMOとか START au END が大規模 START 障害 END 起こすと「インフラちゃんとせーや」って国にめちゃくちゃ怒られるんだけど..."
+        },
         {
           "time": "11/13 13:11",
           "text": "ぴあMM公演は START au END の通信 START 障害 END でほんと大変だった思い出がでかすぎて…w 3mの片足事件ほんと笑う"
@@ -353,10 +357,6 @@
         {
           "time": "11/13 12:53",
           "text": "START au END メール START 障害 END あってからメール来なかったけど、再設定でやっと復活させてあげられた🤦🏼‍♀️ 今はoutlook使え..."
-        },
-        {
-          "time": "11/13 10:33",
-          "text": "START au END の通信 START 障害 END なのかjcomの通信 START 障害 END なのかどっちもなのか、、、 まぁでもモバイルだと普通..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -367,7 +367,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 14:10",
@@ -413,7 +413,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 14:00",
@@ -451,8 +451,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 12,
+    "disaster_count": 11,
     "articles": [
+      {
+        "title": "「止まる気配なく立ち去った」海老名・ひき逃げ2人死亡　トラックの関係者聴取(テレビ朝日系（ANN）)",
+        "summary": "神奈川県海老名市で13日午後、横断歩道を渡っていた高齢女性2人がトラックにはねられて死亡しました。警察は、現場から走り去ったトラックを、相模原市の会社のものと特定し、関係者から事情を聴いています。事故",
+        "pub_date": "11/14 00:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/25e832cfc6168178f6871f3089765693ce808f99?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "消火活動困難な商店街が複数　三重県　8月の伊勢市の商店街火災を受け調査　防災計画見直しを(メ〜テレ（名古屋テレビ）)",
         "summary": "8月に起きた三重県伊勢市の商店街火災を受け、県が防火に対する状況を調査したところ、県内には他にも消火活動が困難な商店街があることがわかりました。 8月31日の午後に伊勢市の明倫商店街起きた火事では、被",
@@ -526,14 +534,6 @@
         "is_disaster": true
       },
       {
-        "title": "【蓬莱さんの天気】15（日）は強い雨と落雷に注意！来週後半は12月並みの寒さに…(読売テレビ)",
-        "summary": "「かんさい情報ネットten.」蓬莱さんのお天気コーナーです。詳しくは動画をご覧ください。（11月13日放送）",
-        "pub_date": "11/13 19:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/670f6a9268ff4db445ec38d1a28e496bf179a07c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "大雨被害の由利本荘市 災害死判断",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/13 21:44 JST",
@@ -542,12 +542,12 @@
         "is_disaster": true
       },
       {
-        "title": "1日2件の事故 免許返納した75歳",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/13 23:12 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602478?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
+        "title": "海老名市で高齢女性2人死亡ひき逃げ事件　逃走したとみられるトラック発見(テレビ朝日系（ANN）)",
+        "summary": "神奈川県海老名市で女性2人がトラックにひかれて死亡したひき逃げ事件で、警察は現場から逃走したとみられるトラックを発見し、関係者から話を聴いています。 13日午後3時すぎ、海老名市下今泉の交差点で、「ト",
+        "pub_date": "11/13 23:55 JST",
+        "link": "https://news.yahoo.co.jp/articles/22092a885be45616ca2b29e769c44df833576c6f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "50歳で出産・野田聖子議員（66）、障害のある15歳長男の成長した姿を公開「お兄ちゃんになったなー」(ABEMA TIMES)",
@@ -574,7 +574,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 23:39:25 JST"
+    "last_updated": "2026-11-14 00:24:09 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -617,10 +617,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "yBB7IIs5bIk",
+        "video_id": "IYbGQOBfZBU",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/yBB7IIs5bIk?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=yBB7IIs5bIk"
+        "embed_url": "https://www.youtube.com/embed/IYbGQOBfZBU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=IYbGQOBfZBU"
       },
       {
         "id": "stream_annnews",
@@ -628,10 +628,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "2QzoKsO8uIc",
+        "video_id": "Ooc0qsh3jAo",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/2QzoKsO8uIc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=2QzoKsO8uIc"
+        "embed_url": "https://www.youtube.com/embed/Ooc0qsh3jAo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Ooc0qsh3jAo"
       },
       {
         "id": "stream_fnnnews",

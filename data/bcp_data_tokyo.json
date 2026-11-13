@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13 07:54:24",
+  "timestamp": "2026-11-13 08:44:14",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -310,14 +310,18 @@
     "notice_items": []
   },
   "transit": {
-    "status": "NORMAL",
-    "text": "全線平常運行中",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "status": "ALERT",
+    "text": "運行支障あり（在来線: 湘南新宿ライン、横須賀線、埼京川越線）",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（湘南新宿ライン、横須賀線、埼京川越線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "湘南新宿ライン",
+      "横須賀線",
+      "埼京川越線"
+    ],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
@@ -425,7 +429,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 07:41",
@@ -448,8 +452,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/13 08:36",
+          "text": "世間はM365 START 障害 END で大変やけど、しれっとキャリアメール死んでる START KDDI END さんは何をされているのですか？ 今日の7時..."
+        },
         {
           "time": "11/13 01:47",
           "text": "先日は、 START KDDI END のデーターセンターのパス流出で、メールが約1週間使えなくて困って。今日はoutlookの START 障害 END だわ..."
@@ -457,10 +465,6 @@
         {
           "time": "11/13 01:46",
           "text": "先日は、 START KDDI END のデーターセンターのパス流出で、メールが約1週間使えなくて困って。今日はoutlookの START 障害 END だわ..."
-        },
-        {
-          "time": "11/12 23:51",
-          "text": "🆕【新着動画】【通信DX】 START 障害 END 対応が50%以上短縮！ドコモ・ START KDDI END ・ソフトバンクのAI事例 スマホがつながる裏..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -468,22 +472,22 @@
     {
       "keyword": "au 繋がらない",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 5 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/13 08:11",
+          "text": "@pizzaoftono 突然のお声掛け失礼します、povoサポートです。日常的に電波が START 繋がらない END のは困りますよね😥安定した START..."
+        },
+        {
+          "time": "11/13 08:01",
+          "text": "@takarark はじめまして。ポストを拝見し気になり、お声がけしました。スマホのモバイルデータ通信が START 繋がらない END でしょうか？よろしけれ..."
+        },
         {
           "time": "11/13 07:34",
           "text": "START au END 系電波がdocomoみたいになってない？ START 繋がらない END"
-        },
-        {
-          "time": "11/13 07:31",
-          "text": "副回線でmineo、 START au END 回線にしてみたけど12時〜13時すぎまで全く START 繋がらない END 。 地方都市。 動画はおろか、サブ..."
-        },
-        {
-          "time": "11/13 07:19",
-          "text": "@Bieberectioner0 はじめまして、 START au END サポート小野です。月曜から START 繋がらない END とお見掛けし…💦どのアプ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -530,13 +534,29 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 13,
     "articles": [
       {
-        "title": "歩行者2人はねられ死亡、トラック逃走か(共同通信)",
-        "summary": "神奈川県警などによると、13日午後3時10分ごろ、海老名市の交差点で「歩行者2人とトラックの事故があった」と110番があった。2人は高齢女性で、現場で死亡が確認された。トラックは走り去っており、県警が",
-        "pub_date": "11/13 16:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/909dfae5567da718962f3e036f02bb40fbbe5ef7?source=rss",
+        "title": "「睡眠時無呼吸症候群」の危険 居眠りで死亡事故も　息苦しさエベレスト並み 対策は？(テレビ朝日系（ANN）)",
+        "summary": "5人に1人がかかっているという「睡眠時無呼吸症候群」。脳卒中などのリスクが急増するといいます。睡眠中の無呼吸状態をどう気付けばいいのか、専門家に危険なサインを聞きました。■ 「睡眠時無呼吸症候群」の危",
+        "pub_date": "11/13 17:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/5beaee4179c449bcfcbcd08ca635555fc90db63b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "“寝たばこ”一転「火を付けた」　広島3人死亡住宅火災で長男を逮捕(テレビ朝日系（ANN）)",
+        "summary": "“寝たばこ”から一転、「火を付けた」と話したのは、この家に住む長男でした。住宅火災で家族とみられる3人が死亡しています。■“寝たばこ”一転「火を付けた」近隣住民「ここに14～15年住んでるが、何回かは",
+        "pub_date": "11/13 17:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/ca187a9328aa8bf2d713d8b21c12c8e258675c4a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "高齢女性2人はねられ死亡　トラック逃走、ひき逃げか(共同通信)",
+        "summary": "13日午後3時10分ごろ、神奈川県海老名市下今泉の交差点で「歩行者2人とトラックの事故があった」と110番があった。県警などによると2人は高齢女性で、現場で死亡が確認された。トラックはその場から走り去",
+        "pub_date": "11/13 17:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/a97cc267666b0d907715235e198edd1f44c9f747?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
@@ -545,6 +565,14 @@
         "summary": "防災庁が発足した11月2日、細野豪志防災大臣は水や食料の備蓄を国民に求める「緊急要請」を出しました。「税金を払っているのに、なぜ自腹なのか」と反発する人もいます。しかし、政府が想定する巨大地震の被害規",
         "pub_date": "11/13 16:51 JST",
         "link": "https://news.yahoo.co.jp/articles/17a597fea1916134338a6596732fe8a2b9d91805?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "歩行者2人はねられ死亡、トラック逃走か(共同通信)",
+        "summary": "神奈川県警などによると、13日午後3時10分ごろ、海老名市の交差点で「歩行者2人とトラックの事故があった」と110番があった。2人は高齢女性で、現場で死亡が確認された。トラックは走り去っており、県警が",
+        "pub_date": "11/13 16:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/909dfae5567da718962f3e036f02bb40fbbe5ef7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
@@ -574,7 +602,7 @@
       },
       {
         "title": "主婦殺害事件から27年　容疑者の刑事裁判が始まるめどが立たない中　被害者の夫が今の思いを語る　(メ〜テレ（名古屋テレビ）)",
-        "summary": "名古屋市西区で発生した主婦殺害事件の発生から13日で27年です。容疑者の刑事裁判が始まるめどが立たない中で、被害者の夫が今の思いを語りました。「27年というと長いが振り返ってみれば、犯人が捕まるまでが",
+        "summary": "名古屋市西区で発生した主婦殺害事件から13日で27年です。容疑者の刑事裁判が始まるめどが立たない中で、被害者の夫が今の思いを語りました。「27年というと長いが振り返ってみれば、犯人が捕まるまでが長かっ",
         "pub_date": "11/13 16:27 JST",
         "link": "https://news.yahoo.co.jp/articles/f18f3c8348e704033a5c8295f5dc5191057133b5?source=rss",
         "category": "国内・気象防災",
@@ -597,19 +625,11 @@
         "is_disaster": true
       },
       {
-        "title": "“唇縫い付け事件” 女の知人逮捕 被害女性に暴行か(ABEMA TIMES)",
-        "summary": "茨城県古河市で、女性に自らの唇を縫うように強要した罪などに問われている女の知人が、同じ女性に暴行を加えたとして逮捕されました。【映像】連行される容疑者の様子 つくば市の会社員・山﨑和博容疑者（49）は",
-        "pub_date": "11/13 15:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/9a81801dee7af133785dbec7fa7c2c3d824869db?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【ヤフコメで話題】「クジラ漂着と地震の関連に不安の声」「科学的根拠と防災意識の両立を考える」 - 海洋異変と地震予兆説への反応(Yahoo!ニュース オリジナル THE PAGE)",
-        "summary": "クジラの漂着と地震の関連性について、Yahoo!ニュースのコメント欄で話題になっています。深海に生息する希少なクジラが海岸に漂着したことを受けて、『大地震の前兆ではないか』『最近この海域で地震が多い』",
-        "pub_date": "11/13 15:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/56e3817bfdb2e7b8aa3964d12b97902450c3e6e3?source=rss",
-        "category": "国内・気象防災",
+        "title": "GMO攻撃 被害申告は29.9億円に",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/13 16:52 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6602430?source=rss",
+        "category": "主要速報",
         "is_disaster": true
       },
       {
@@ -621,39 +641,23 @@
         "is_disaster": true
       },
       {
-        "title": "虚偽情報に迅速対応を　宮城知事選巡り有識者(共同通信)",
-        "summary": "昨年の宮城県知事選で虚偽情報や誹謗中傷が交流サイト（SNS）で出回ったことを受け発足した県の有識者検討会は13日までに、今後の選挙での対策案をまとめた。平時から県政に関する情報発信を強化し、虚偽情報が",
-        "pub_date": "11/13 16:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/9cd7ddb3e35aba151b0d57c23934b9672c5aadbe?source=rss",
+        "title": "万博跡地に大屋根リング一望の記念館(共同通信)",
+        "summary": "大阪・関西万博会場の跡地開発を巡り、シンボル「大屋根リング」の一部を含む記念公園エリアの基本構想素案が13日、関係者への取材で判明した。新設する記念館は名称を「KOYANE」とし、屋上からリングが一望",
+        "pub_date": "11/13 17:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/607f96172636238817fbea77da0ee7c73919331f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ボビー被告、不同意性交罪認める　千葉地裁初公判、女性に性的暴行(共同通信)",
-        "summary": "千葉県内の住宅で女性に性的暴行を加えたとして、不同意性交などの罪に問われた会社役員ボビー・オロゴンこと近田ボビー被告（60）は13日、千葉地裁（日野浩一郎裁判長）での初公判で起訴内容を認めた。通訳を介",
-        "pub_date": "11/13 16:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/5d26c4dcfb8c55df01297e9d4af3ab23c86b4fda?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "野党「『心配ご無用』が心配だ」　高市総理の“財源は心配ご無用”発言を追及(テレビ朝日系（ANN）)",
-        "summary": "消費税減税法案の国会質疑で、高市総理大臣は財源の確保を「心配ご無用」とした発言を追及され、税収の増加や基金の見直しなどで対応する考えを示しました。国民民主党 上田清司参議院議員「総理の言う『ご心配無用",
-        "pub_date": "11/13 16:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/971df2c3d0e15a9f43882a03a460be5738baeb27?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "都構想移行8年必要、事務方が市幹部に提言(共同通信)",
-        "summary": "「大阪都構想」で大阪市から特別区に移行する際のシステム改修に8年必要と担当部署が市幹部に提言していたことが13日、市への取材で分かった。期間はその後3年9カ月で決定。日本維新の会が市長任期内の移行とい",
-        "pub_date": "11/13 16:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/3e89186cfda60da52df33f59389e547a331d3c61?source=rss",
+        "title": "予定をホワイトボードに手書きのIT企業も…『マイクロソフト365』世界的障害で東海地方にも影響「正直仕事が進まない」(東海テレビ)",
+        "summary": "「マイクロソフト365」に、日本時間の13日未明から大規模な障害が発生し、夕方になっても解消していません。東海地方でも企業や行政の活動に影響が及んでいます。【動画で見る】予定をホワイトボードに手書きの",
+        "pub_date": "11/13 17:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/1964cdbb319d5dc3ebca1f47a93abbb8ecba8e7a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 16:54:12 JST"
+    "last_updated": "2026-11-13 17:43:57 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -696,10 +700,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "DsBkmW8F2go",
+        "video_id": "WuoGoRkFVR4",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/DsBkmW8F2go?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=DsBkmW8F2go"
+        "embed_url": "https://www.youtube.com/embed/WuoGoRkFVR4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=WuoGoRkFVR4"
       },
       {
         "id": "stream_annnews",

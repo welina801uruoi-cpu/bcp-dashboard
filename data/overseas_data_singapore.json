@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-14 00:26:54",
-  "timestamp_local": "2026-11-13 23:26:54",
+  "timestamp": "2026-11-14 01:16:54",
+  "timestamp_local": "2026-11-14 00:16:54",
   "country": {
     "id": "singapore",
     "name": "シンガポール",
@@ -387,6 +387,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "マイクロソフト障害　滞留メール大幅減少　「通常の水準に近づいている」(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/46cda95a2a1d5f237b7671ce631c6b5b7398cd27?source=rss",
+        "description": "アメリカのIT大手「マイクロソフト」は、大規模な障害により滞留していた未処理のメールが大幅に減少し、「通常の水準に近付いている」と発表しました。日本時間の14日午後11時すぎにSNSで明らかにしたもの",
+        "pub_date": "11/14 01:04 JST",
+        "is_priority": false
+      },
+      {
         "title": "ラトニック商務長官“更迭”を協議…エヌビディア・フアンCEO辞任　世界に“激震”(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/8623694a1ebc2db7afdddd8ba8ebf70e2098a70c?source=rss",
         "description": "エヌビディアのフアンCEOの辞任が発表されてから一夜、業界に激震が走っています。スパイ容疑がかかる中国人女性との関係について、調査を始めると発表してから、わずか4日。33年にわたって会社を率いてきたカ",
@@ -518,13 +525,6 @@
         "description": "香港・中環のスペイン料理店「Ole Spanish Restaurant ＆ Wine Bar」（1／F, Shun Ho Tower, 24-30 Ice House Street, Central",
         "pub_date": "11/13 20:21 JST",
         "is_priority": true
-      },
-      {
-        "title": "1100年前の墓から剣と女性の装飾品…バイキングの「謎の埋葬」、貴重な出土品を映像で公開(ニューズウィーク日本版)",
-        "link": "https://news.yahoo.co.jp/articles/434a6db8e6fa1dc5d0b2c8431712cd767db442b9?source=rss",
-        "description": "緑青に覆われた青銅製の装飾品。表面には複雑な模様が刻まれ、1000年以上の時を経た今も、その形をとどめている。【映像】1100年前の墓から発見された剣と装飾品…マン島の文化財保護機関が公開した貴重な出",
-        "pub_date": "11/13 20:11 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -631,32 +631,32 @@
     "default_channel_id": "stream_cna_live"
   },
   "forex": {
-    "timestamp": "11/14 00:26 JST",
+    "timestamp": "11/14 01:16 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.8,
-      "change": 0.07,
-      "change_pct": 0.04,
+      "rate": 159.87,
+      "change": 0.14,
+      "change_pct": 0.09,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "SGD",
       "name": "シンガポールドル",
       "symbol": "S$",
-      "rate": 124.09,
-      "change": -0.25,
-      "change_pct": -0.2,
+      "rate": 124.11,
+      "change": -0.24,
+      "change_pct": -0.19,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.53,
-      "change": -0.69,
-      "change_pct": -0.39
+      "rate": 176.4,
+      "change": -0.82,
+      "change_pct": -0.46
     }
   },
   "airports": [
@@ -677,9 +677,99 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/14 00:26 JST"
+    "cities": [
+      {
+        "name": "シンガポール (全域)",
+        "name_en": "Singapore",
+        "is_capital": true,
+        "lat": 1.3521,
+        "lon": 103.8198,
+        "temp": 24.4,
+        "apparent_temp": 30.4,
+        "humidity": 100,
+        "wind_speed": 2.8,
+        "wind_gusts": 7.9,
+        "precipitation": 0.0,
+        "weather_code": 45,
+        "weather_label": "🌫️ 霧",
+        "forecast": [
+          {
+            "date": "11/14(土)",
+            "temp_max": 30.9,
+            "temp_min": 23.7,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 11.1
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 31.0,
+            "temp_min": 23.3,
+            "weather_code": 82,
+            "weather_label": "⛈️ 激しいにわか雨",
+            "precipitation_mm": 25.3
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 30.6,
+            "temp_min": 23.2,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 25.7
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      }
+    ],
+    "capital": {
+      "name": "シンガポール (全域)",
+      "name_en": "Singapore",
+      "is_capital": true,
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "temp": 24.4,
+      "apparent_temp": 30.4,
+      "humidity": 100,
+      "wind_speed": 2.8,
+      "wind_gusts": 7.9,
+      "precipitation": 0.0,
+      "weather_code": 45,
+      "weather_label": "🌫️ 霧",
+      "forecast": [
+        {
+          "date": "11/14(土)",
+          "temp_max": 30.9,
+          "temp_min": 23.7,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 11.1
+        },
+        {
+          "date": "11/15(日)",
+          "temp_max": 31.0,
+          "temp_min": 23.3,
+          "weather_code": 82,
+          "weather_label": "⛈️ 激しいにわか雨",
+          "precipitation_mm": 25.3
+        },
+        {
+          "date": "11/16(月)",
+          "temp_max": 30.6,
+          "temp_min": 23.2,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 25.7
+        }
+      ],
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
+    },
+    "timestamp": "11/14 01:16 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -708,7 +798,7 @@
         "details": "MRT南北線・東西線・環状線など平常運行中"
       }
     ],
-    "timestamp": "11/14 00:26 JST"
+    "timestamp": "11/14 01:16 JST"
   },
   "lifeline": {
     "status": "NORMAL",

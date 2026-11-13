@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-14 00:27:50",
-  "timestamp_local": "2026-11-13 22:27:50",
+  "timestamp": "2026-11-14 01:17:01",
+  "timestamp_local": "2026-11-13 23:17:01",
   "country": {
     "id": "vietnam",
     "name": "ベトナム",
@@ -417,6 +417,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "マイクロソフト障害　滞留メール大幅減少　「通常の水準に近づいている」(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/46cda95a2a1d5f237b7671ce631c6b5b7398cd27?source=rss",
+        "description": "アメリカのIT大手「マイクロソフト」は、大規模な障害により滞留していた未処理のメールが大幅に減少し、「通常の水準に近付いている」と発表しました。日本時間の14日午後11時すぎにSNSで明らかにしたもの",
+        "pub_date": "11/14 01:04 JST",
+        "is_priority": false
+      },
+      {
         "title": "ラトニック商務長官“更迭”を協議…エヌビディア・フアンCEO辞任　世界に“激震”(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/8623694a1ebc2db7afdddd8ba8ebf70e2098a70c?source=rss",
         "description": "エヌビディアのフアンCEOの辞任が発表されてから一夜、業界に激震が走っています。スパイ容疑がかかる中国人女性との関係について、調査を始めると発表してから、わずか4日。33年にわたって会社を率いてきたカ",
@@ -548,13 +555,6 @@
         "description": "香港・中環のスペイン料理店「Ole Spanish Restaurant ＆ Wine Bar」（1／F, Shun Ho Tower, 24-30 Ice House Street, Central",
         "pub_date": "11/13 20:21 JST",
         "is_priority": true
-      },
-      {
-        "title": "1100年前の墓から剣と女性の装飾品…バイキングの「謎の埋葬」、貴重な出土品を映像で公開(ニューズウィーク日本版)",
-        "link": "https://news.yahoo.co.jp/articles/434a6db8e6fa1dc5d0b2c8431712cd767db442b9?source=rss",
-        "description": "緑青に覆われた青銅製の装飾品。表面には複雑な模様が刻まれ、1000年以上の時を経た今も、その形をとどめている。【映像】1100年前の墓から発見された剣と装飾品…マン島の文化財保護機関が公開した貴重な出",
-        "pub_date": "11/13 20:11 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -653,14 +653,14 @@
     "default_channel_id": "stream_vtv_live"
   },
   "forex": {
-    "timestamp": "11/14 00:27 JST",
+    "timestamp": "11/14 01:17 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.8,
-      "change": 0.07,
-      "change_pct": 0.04,
+      "rate": 159.87,
+      "change": 0.14,
+      "change_pct": 0.09,
       "direction": "up"
     },
     "local_jpy": {
@@ -676,9 +676,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.53,
-      "change": -0.69,
-      "change_pct": -0.39
+      "rate": 176.4,
+      "change": -0.82,
+      "change_pct": -0.46
     }
   },
   "airports": [
@@ -714,9 +714,189 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/14 00:27 JST"
+    "cities": [
+      {
+        "name": "ハノイ (首都)",
+        "name_en": "Hanoi",
+        "is_capital": true,
+        "lat": 21.0285,
+        "lon": 105.8542,
+        "temp": 18.6,
+        "apparent_temp": 20.8,
+        "humidity": 92,
+        "wind_speed": 2.3,
+        "wind_gusts": 4.0,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/13(金)",
+            "temp_max": 23.1,
+            "temp_min": 16.9,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 11.9
+          },
+          {
+            "date": "11/14(土)",
+            "temp_max": 25.6,
+            "temp_min": 16.5,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 29.3,
+            "temp_min": 19.5,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.5
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ホーチミン (最大経済都市)",
+        "name_en": "Ho Chi Minh City",
+        "is_capital": false,
+        "lat": 10.8231,
+        "lon": 106.6297,
+        "temp": 24.8,
+        "apparent_temp": 30.2,
+        "humidity": 95,
+        "wind_speed": 4.9,
+        "wind_gusts": 11.9,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/13(金)",
+            "temp_max": 34.0,
+            "temp_min": 24.7,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 10.4
+          },
+          {
+            "date": "11/14(土)",
+            "temp_max": 33.3,
+            "temp_min": 24.2,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 1.7
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 33.5,
+            "temp_min": 25.0,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 2.9
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ダナン (中部主要港湾)",
+        "name_en": "Da Nang",
+        "is_capital": false,
+        "lat": 16.0544,
+        "lon": 108.2022,
+        "temp": 24.3,
+        "apparent_temp": 29.6,
+        "humidity": 91,
+        "wind_speed": 0.6,
+        "wind_gusts": 2.5,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/13(金)",
+            "temp_max": 28.4,
+            "temp_min": 23.3,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 4.6
+          },
+          {
+            "date": "11/14(土)",
+            "temp_max": 28.1,
+            "temp_min": 23.5,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 29.3,
+            "temp_min": 23.9,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "ハノイ (首都)",
+      "name_en": "Hanoi",
+      "is_capital": true,
+      "lat": 21.0285,
+      "lon": 105.8542,
+      "temp": 18.6,
+      "apparent_temp": 20.8,
+      "humidity": 92,
+      "wind_speed": 2.3,
+      "wind_gusts": 4.0,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
+      "forecast": [
+        {
+          "date": "11/13(金)",
+          "temp_max": 23.1,
+          "temp_min": 16.9,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 11.9
+        },
+        {
+          "date": "11/14(土)",
+          "temp_max": 25.6,
+          "temp_min": 16.5,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/15(日)",
+          "temp_max": 29.3,
+          "temp_min": 19.5,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.5
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/14 01:17 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -745,7 +925,7 @@
         "details": "南北統一鉄道各便平常運行中"
       }
     ],
-    "timestamp": "11/14 00:27 JST"
+    "timestamp": "11/14 01:17 JST"
   },
   "lifeline": {
     "status": "NORMAL",

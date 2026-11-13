@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-14 00:28:05",
-  "timestamp_local": "2026-11-13 22:28:05",
+  "timestamp": "2026-11-14 01:17:04",
+  "timestamp_local": "2026-11-13 23:17:04",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -411,6 +411,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "マイクロソフト障害　滞留メール大幅減少　「通常の水準に近づいている」(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/46cda95a2a1d5f237b7671ce631c6b5b7398cd27?source=rss",
+        "description": "アメリカのIT大手「マイクロソフト」は、大規模な障害により滞留していた未処理のメールが大幅に減少し、「通常の水準に近付いている」と発表しました。日本時間の14日午後11時すぎにSNSで明らかにしたもの",
+        "pub_date": "11/14 01:04 JST",
+        "is_priority": false
+      },
+      {
         "title": "ラトニック商務長官“更迭”を協議…エヌビディア・フアンCEO辞任　世界に“激震”(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/8623694a1ebc2db7afdddd8ba8ebf70e2098a70c?source=rss",
         "description": "エヌビディアのフアンCEOの辞任が発表されてから一夜、業界に激震が走っています。スパイ容疑がかかる中国人女性との関係について、調査を始めると発表してから、わずか4日。33年にわたって会社を率いてきたカ",
@@ -542,13 +549,6 @@
         "description": "香港・中環のスペイン料理店「Ole Spanish Restaurant ＆ Wine Bar」（1／F, Shun Ho Tower, 24-30 Ice House Street, Central",
         "pub_date": "11/13 20:21 JST",
         "is_priority": true
-      },
-      {
-        "title": "1100年前の墓から剣と女性の装飾品…バイキングの「謎の埋葬」、貴重な出土品を映像で公開(ニューズウィーク日本版)",
-        "link": "https://news.yahoo.co.jp/articles/434a6db8e6fa1dc5d0b2c8431712cd767db442b9?source=rss",
-        "description": "緑青に覆われた青銅製の装飾品。表面には複雑な模様が刻まれ、1000年以上の時を経た今も、その形をとどめている。【映像】1100年前の墓から発見された剣と装飾品…マン島の文化財保護機関が公開した貴重な出",
-        "pub_date": "11/13 20:11 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -583,7 +583,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 15:18",
@@ -653,7 +653,7 @@
       {
         "id": "stream_tvone_live",
         "name": "📺 tvOne News 24h 生配信",
-        "video_id": "749dqdbjQdY",
+        "video_id": "rQJoEpzKkNk",
         "handle": "@tvOneNews",
         "type": "stream"
       },
@@ -667,14 +667,14 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/14 00:28 JST",
+    "timestamp": "11/14 01:17 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.81,
-      "change": 0.07,
-      "change_pct": 0.05,
+      "rate": 159.87,
+      "change": 0.14,
+      "change_pct": 0.09,
       "direction": "up"
     },
     "local_jpy": {
@@ -690,9 +690,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.51,
-      "change": -0.71,
-      "change_pct": -0.4
+      "rate": 176.4,
+      "change": -0.82,
+      "change_pct": -0.46
     }
   },
   "airports": [
@@ -735,14 +735,14 @@
         "is_capital": true,
         "lat": -6.2088,
         "lon": 106.8456,
-        "temp": 27.6,
-        "apparent_temp": 33.1,
-        "humidity": 83,
-        "wind_speed": 5.6,
-        "wind_gusts": 15.5,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 27.2,
+        "apparent_temp": 33.2,
+        "humidity": 85,
+        "wind_speed": 3.1,
+        "wind_gusts": 14.8,
+        "precipitation": 0.3,
+        "weather_code": 55,
+        "weather_label": "🌦️ 霧雨 (強)",
         "forecast": [
           {
             "date": "11/13(金)",
@@ -769,10 +769,10 @@
             "precipitation_mm": 7.0
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "デンパサール (バリ島)",
@@ -780,23 +780,15 @@
         "is_capital": false,
         "lat": -8.6705,
         "lon": 115.2126,
-        "temp": 26.8,
+        "temp": 26.5,
         "apparent_temp": 32.2,
-        "humidity": 89,
-        "wind_speed": 8.4,
-        "wind_gusts": 20.5,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
+        "humidity": 91,
+        "wind_speed": 6.2,
+        "wind_gusts": 15.1,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
-          {
-            "date": "11/13(金)",
-            "temp_max": 31.5,
-            "temp_min": 24.9,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 0.9
-          },
           {
             "date": "11/14(土)",
             "temp_max": 31.5,
@@ -812,12 +804,20 @@
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
             "precipitation_mm": 1.7
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 32.2,
+            "temp_min": 24.6,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 3.3
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
         "name": "スラバヤ (東ジャワ)",
@@ -825,11 +825,11 @@
         "is_capital": false,
         "lat": -7.2575,
         "lon": 112.7521,
-        "temp": 27.1,
-        "apparent_temp": 32.8,
-        "humidity": 91,
-        "wind_speed": 9.3,
-        "wind_gusts": 24.8,
+        "temp": 27.5,
+        "apparent_temp": 33.0,
+        "humidity": 88,
+        "wind_speed": 10.3,
+        "wind_gusts": 22.0,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
@@ -871,14 +871,14 @@
       "is_capital": true,
       "lat": -6.2088,
       "lon": 106.8456,
-      "temp": 27.6,
-      "apparent_temp": 33.1,
-      "humidity": 83,
-      "wind_speed": 5.6,
-      "wind_gusts": 15.5,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "temp": 27.2,
+      "apparent_temp": 33.2,
+      "humidity": 85,
+      "wind_speed": 3.1,
+      "wind_gusts": 14.8,
+      "precipitation": 0.3,
+      "weather_code": 55,
+      "weather_label": "🌦️ 霧雨 (強)",
       "forecast": [
         {
           "date": "11/13(金)",
@@ -905,12 +905,12 @@
           "precipitation_mm": 7.0
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/14 00:28 JST"
+    "timestamp": "11/14 01:17 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -939,7 +939,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/14 00:28 JST"
+    "timestamp": "11/14 01:17 JST"
   },
   "lifeline": {
     "status": "NORMAL",

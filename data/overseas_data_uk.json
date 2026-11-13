@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-14 02:58:00",
-  "timestamp_local": "2026-11-13 18:58:00",
+  "timestamp": "2026-11-14 03:34:52",
+  "timestamp_local": "2026-11-13 19:34:52",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -352,7 +352,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
+    "count_24h": 18,
     "summary": "M5.8 (79 km WSW of Changuillo, Peru)",
     "latest": {
       "mag": 5.8,
@@ -401,6 +401,14 @@
         "time": "11/13 20:18 JST",
         "depth_km": 162.78,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txzd",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "86 km NNE of Lagunas, Peru",
+        "time": "11/13 19:55 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txza",
         "tsunami": 0
       },
       {
@@ -474,19 +482,18 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwp",
         "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "117 km S of Akureyri, Iceland",
-        "time": "11/13 06:53 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwi",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "欧州5カ国とEUがウクライナ和平交渉参加(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/c9e7ae136f63696a21eddbe7c1c2af80ddd0b7d5?source=rss",
+        "description": "【ダブリン共同】欧州連合（EU）のコスタ大統領は13日、米国が仲介し進めるロシアとウクライナの和平交渉の次回協議に、英国、フランス、ドイツ、イタリア、ポーランドとEUの代表者が参加すると明らかにした。",
+        "pub_date": "11/14 03:00 JST",
+        "is_priority": true
+      },
       {
         "title": "マイクロソフト障害　滞留メール大幅減少　「通常の水準に近づいている」(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/46cda95a2a1d5f237b7671ce631c6b5b7398cd27?source=rss",
@@ -619,13 +626,6 @@
         "description": "忍者テーマビレッジ「忍野 しのびの里」（山梨県忍野村）の「からくり屋敷〜忍術体験の巻〜」が11月7日、リニューアルオープンした。（富士山経済新聞） 忍者ショー、忍術体験、アスレチック、隠された仕掛けや",
         "pub_date": "11/13 20:22 JST",
         "is_priority": false
-      },
-      {
-        "title": "中環の老舗スペイン料理店「Ole」、7コースの週末ブランチを限定提供(みんなの経済新聞ネットワーク)",
-        "link": "https://news.yahoo.co.jp/articles/5d520bde9a66b3109e5b39833e9d6267cc09f194?source=rss",
-        "description": "香港・中環のスペイン料理店「Ole Spanish Restaurant ＆ Wine Bar」（1／F, Shun Ho Tower, 24-30 Ice House Street, Central",
-        "pub_date": "11/13 20:21 JST",
-        "is_priority": true
       }
     ],
     "count": 20
@@ -761,32 +761,32 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/14 02:57 JST",
+    "timestamp": "11/14 03:34 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.92,
-      "change": 0.19,
-      "change_pct": 0.12,
-      "direction": "up"
+      "rate": 159.65,
+      "change": -0.09,
+      "change_pct": -0.06,
+      "direction": "down"
     },
     "local_jpy": {
       "currency": "GBP",
       "name": "英ポンド",
       "symbol": "£",
-      "rate": 211.22,
-      "change": -0.84,
-      "change_pct": -0.4,
+      "rate": 210.91,
+      "change": -1.16,
+      "change_pct": -0.55,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.36,
-      "change": -0.86,
-      "change_pct": -0.49
+      "rate": 176.09,
+      "change": -1.13,
+      "change_pct": -0.64
     }
   },
   "airports": [
@@ -859,18 +859,18 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 6.0,
-        "apparent_temp": 3.2,
-        "humidity": 60,
-        "wind_speed": 3.2,
-        "wind_gusts": 7.2,
+        "temp": 5.1,
+        "apparent_temp": 2.4,
+        "humidity": 61,
+        "wind_speed": 2.2,
+        "wind_gusts": 4.7,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/13(金)",
-            "temp_max": 8.3,
+            "temp_max": 8.4,
             "temp_min": 1.6,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -904,18 +904,18 @@
         "is_capital": false,
         "lat": 53.4808,
         "lon": -2.2426,
-        "temp": 5.3,
-        "apparent_temp": 2.7,
-        "humidity": 75,
+        "temp": 5.0,
+        "apparent_temp": 2.3,
+        "humidity": 74,
         "wind_speed": 4.7,
-        "wind_gusts": 9.7,
+        "wind_gusts": 10.1,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/13(金)",
-            "temp_max": 6.6,
+            "temp_max": 6.8,
             "temp_min": -0.5,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -949,18 +949,18 @@
         "is_capital": false,
         "lat": 55.9533,
         "lon": -3.1883,
-        "temp": 7.0,
+        "temp": 6.9,
         "apparent_temp": 3.3,
-        "humidity": 80,
-        "wind_speed": 15.5,
-        "wind_gusts": 32.4,
+        "humidity": 79,
+        "wind_speed": 14.4,
+        "wind_gusts": 30.2,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/13(金)",
-            "temp_max": 7.6,
+            "temp_max": 7.5,
             "temp_min": 1.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -995,18 +995,18 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 6.0,
-      "apparent_temp": 3.2,
-      "humidity": 60,
-      "wind_speed": 3.2,
-      "wind_gusts": 7.2,
+      "temp": 5.1,
+      "apparent_temp": 2.4,
+      "humidity": 61,
+      "wind_speed": 2.2,
+      "wind_gusts": 4.7,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/13(金)",
-          "temp_max": 8.3,
+          "temp_max": 8.4,
           "temp_min": 1.6,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
@@ -1034,7 +1034,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/14 02:57 JST"
+    "timestamp": "11/14 03:34 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -1044,7 +1044,7 @@
     "overall_status": "大幅遅延・一部運休",
     "strike": false,
     "monitored_systems_count": 4,
-    "alert_lines_count": 3,
+    "alert_lines_count": 4,
     "alert_lines": [
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1053,6 +1053,14 @@
         "status": "Severe Delays",
         "badge": "🟠 警戒",
         "reason": "Central Line: Severe delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / H"
+      },
+      {
+        "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
+        "line": "Elizabeth line",
+        "mode": "elizabeth-line",
+        "status": "Severe Delays",
+        "badge": "🟠 警戒",
+        "reason": "Severe delays between Abbey Wood  and Heathrow Terminals / Reading  and MINOR DELAYS between Whitechapel and Shenfield w"
       },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1128,10 +1136,10 @@
           {
             "name": "Elizabeth line",
             "mode": "elizabeth-line",
-            "status_raw": "Minor Delays",
-            "badge": "🟡 注意",
-            "code": "minor",
-            "reason": "Severe delays between Paddington and Heathrow Terminals /Abbey Wood/Reading and MINOR DELAYS between Abbey Wood and Padd"
+            "status_raw": "Severe Delays",
+            "badge": "🟠 警戒",
+            "code": "warning",
+            "reason": "Severe delays between Abbey Wood  and Heathrow Terminals / Reading  and MINOR DELAYS between Whitechapel and Shenfield w"
           },
           {
             "name": "Hammersmith & City",
@@ -1224,10 +1232,10 @@
           {
             "name": "Weaver",
             "mode": "overground",
-            "status_raw": "Good Service",
-            "badge": "🟢 平常",
-            "code": "normal",
-            "reason": ""
+            "status_raw": "Minor Delays",
+            "badge": "🟡 注意",
+            "code": "minor",
+            "reason": "Weaver Line: Minor delays while we fix an electrical fault. "
           },
           {
             "name": "Windrush",
@@ -1291,7 +1299,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/14 02:57 JST"
+    "timestamp": "11/14 03:34 JST"
   },
   "lifeline": {
     "status": "NORMAL",

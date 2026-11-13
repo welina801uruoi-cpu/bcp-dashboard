@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-14 02:57:59",
-  "timestamp_local": "2026-11-14 01:57:59",
+  "timestamp": "2026-11-14 03:34:50",
+  "timestamp_local": "2026-11-14 02:34:50",
   "country": {
     "id": "mongolia",
     "name": "モンゴル",
@@ -259,7 +259,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
+    "count_24h": 18,
     "summary": "M5.8 (79 km WSW of Changuillo, Peru)",
     "latest": {
       "mag": 5.8,
@@ -308,6 +308,14 @@
         "time": "11/13 20:18 JST",
         "depth_km": 162.78,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txzd",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "86 km NNE of Lagunas, Peru",
+        "time": "11/13 19:55 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txza",
         "tsunami": 0
       },
       {
@@ -381,19 +389,18 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwp",
         "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "117 km S of Akureyri, Iceland",
-        "time": "11/13 06:53 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwi",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "欧州5カ国とEUがウクライナ和平交渉参加(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/c9e7ae136f63696a21eddbe7c1c2af80ddd0b7d5?source=rss",
+        "description": "【ダブリン共同】欧州連合（EU）のコスタ大統領は13日、米国が仲介し進めるロシアとウクライナの和平交渉の次回協議に、英国、フランス、ドイツ、イタリア、ポーランドとEUの代表者が参加すると明らかにした。",
+        "pub_date": "11/14 03:00 JST",
+        "is_priority": true
+      },
       {
         "title": "マイクロソフト障害　滞留メール大幅減少　「通常の水準に近づいている」(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/46cda95a2a1d5f237b7671ce631c6b5b7398cd27?source=rss",
@@ -526,13 +533,6 @@
         "description": "忍者テーマビレッジ「忍野 しのびの里」（山梨県忍野村）の「からくり屋敷〜忍術体験の巻〜」が11月7日、リニューアルオープンした。（富士山経済新聞） 忍者ショー、忍術体験、アスレチック、隠された仕掛けや",
         "pub_date": "11/13 20:22 JST",
         "is_priority": false
-      },
-      {
-        "title": "中環の老舗スペイン料理店「Ole」、7コースの週末ブランチを限定提供(みんなの経済新聞ネットワーク)",
-        "link": "https://news.yahoo.co.jp/articles/5d520bde9a66b3109e5b39833e9d6267cc09f194?source=rss",
-        "description": "香港・中環のスペイン料理店「Ole Spanish Restaurant ＆ Wine Bar」（1／F, Shun Ho Tower, 24-30 Ice House Street, Central",
-        "pub_date": "11/13 20:21 JST",
-        "is_priority": true
       }
     ],
     "count": 20
@@ -625,15 +625,15 @@
     "default_channel_id": "stream_mongol_news"
   },
   "forex": {
-    "timestamp": "11/14 02:57 JST",
+    "timestamp": "11/14 03:34 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.92,
-      "change": 0.19,
-      "change_pct": 0.12,
-      "direction": "up"
+      "rate": 159.65,
+      "change": -0.09,
+      "change_pct": -0.06,
+      "direction": "down"
     },
     "local_jpy": {
       "currency": "MNT",
@@ -648,9 +648,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.36,
-      "change": -0.86,
-      "change_pct": -0.49
+      "rate": 176.09,
+      "change": -1.13,
+      "change_pct": -0.64
     }
   },
   "airports": [
@@ -678,14 +678,14 @@
         "is_capital": true,
         "lat": 47.8864,
         "lon": 106.9057,
-        "temp": -2.4,
-        "apparent_temp": -5.7,
-        "humidity": 86,
-        "wind_speed": 3.8,
-        "wind_gusts": 12.2,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": -2.5,
+        "apparent_temp": -5.6,
+        "humidity": 87,
+        "wind_speed": 2.5,
+        "wind_gusts": 9.7,
+        "precipitation": 0.1,
+        "weather_code": 73,
+        "weather_label": "❄️ 降雪 (中雪)",
         "forecast": [
           {
             "date": "11/14(土)",
@@ -724,14 +724,14 @@
       "is_capital": true,
       "lat": 47.8864,
       "lon": 106.9057,
-      "temp": -2.4,
-      "apparent_temp": -5.7,
-      "humidity": 86,
-      "wind_speed": 3.8,
-      "wind_gusts": 12.2,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "temp": -2.5,
+      "apparent_temp": -5.6,
+      "humidity": 87,
+      "wind_speed": 2.5,
+      "wind_gusts": 9.7,
+      "precipitation": 0.1,
+      "weather_code": 73,
+      "weather_label": "❄️ 降雪 (中雪)",
       "forecast": [
         {
           "date": "11/14(土)",
@@ -763,7 +763,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/14 02:57 JST"
+    "timestamp": "11/14 03:34 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -792,7 +792,7 @@
         "details": "定期運行中"
       }
     ],
-    "timestamp": "11/14 02:57 JST"
+    "timestamp": "11/14 03:34 JST"
   },
   "lifeline": {
     "status": "NORMAL",

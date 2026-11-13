@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13 09:39:41",
+  "timestamp": "2026-11-13 10:38:05",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -166,10 +166,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 3地域】秋田、宮城、福島（警報なし）",
+    "summary": "【注意報発表: 4地域】秋田、宮城、山形、福島（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 3,
+    "notice_count": 4,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -224,11 +224,13 @@
         "code": "6",
         "name": "山形県",
         "short_name": "山形",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -239,10 +241,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、濃霧注意報",
+        "summary": "濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       }
     ]
@@ -354,16 +356,16 @@
       "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/13 10:33",
+          "text": "START au END の通信 START 障害 END なのかjcomの通信 START 障害 END なのかどっちもなのか、、、 まぁでもモバイルだと普通..."
+        },
+        {
           "time": "11/13 09:39",
           "text": "ドコモさん回線 START 障害 END が発生起こしてから、電波に制限かけてない？ 元々、お世辞にも良くなかった東京都内の速度が露骨に速度が低下してる。ネット..."
         },
         {
           "time": "11/13 09:15",
           "text": "強い妄想癖を持ったオンナだから、 システム START 障害 END が起きて早帰りになって早い時間から飲みに行く現代 START AU END とか妄想できち..."
-        },
-        {
-          "time": "11/13 07:41",
-          "text": "START au END 通信 START 障害 END 起きてる？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -397,7 +399,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/13 09:33",
@@ -462,50 +464,58 @@
     "disaster_count": 8,
     "articles": [
       {
+        "title": "GMO不正アクセス 被害額およそ30億円(ABEMA TIMES)",
+        "summary": "GMOインターネットグループは、利用者のFX口座が乗っ取られ、不正に操作されたことによる被害額がおよそ30億円に上ると発表しました。【映像】GMO不正アクセス 被害額およそ30億円 GMOでは不正アク",
+        "pub_date": "11/13 19:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/81ac93be98af8bec11d2c89bcb85bf8a20254886?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「早く元の生活に」千葉豪雨3カ月、浸水被害受けた大網白里の洋菓子店が再開へ急ピッチ(産経新聞)",
+        "summary": "千葉県内に甚大な被害をもたらした8月の千葉豪雨から、13日で3カ月。多くの店舗や住宅が浸水被害を受けた大網白里市では、店舗を立て直し、営業再開の目前までようやくこぎつけた洋菓子店の代表が「早くこれまで",
+        "pub_date": "11/13 19:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/e9345e9f50072603fd1f8b0f31ac576b61868431?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【蓬莱さんの天気】15（日）は強い雨と落雷に注意！来週後半は12月並みの寒さに…(読売テレビ)",
+        "summary": "「かんさい情報ネットten.」蓬莱さんのお天気コーナーです。詳しくは動画をご覧ください。（11月13日放送）",
+        "pub_date": "11/13 19:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/670f6a9268ff4db445ec38d1a28e496bf179a07c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "熊本・八代で公費解体開始　地震で損壊、週明け本格化(共同通信)",
+        "summary": "7月の熊本地震で被災した熊本県八代市で13日、壊れた建物を所有者の申請で自治体が撤去する「公費解体」が始まった。市によると、この日は市中心部付近で1棟の取り壊しに着手。被災者の申請に基づいて順次業者に",
+        "pub_date": "11/13 18:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/95cf0ba20026ca6412ca736a307ef2e1c181ec4c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "過酷な環境でも使えるパソコン発表(ABEMA TIMES)",
+        "summary": "猛暑や豪雨など過酷な環境でも使える、屋外作業に特化したパソコンが発表されました。災害現場での活用も期待されています。【映像】実際にパソコン「FZ-G3」を落下させる様子 パナソニックコネクトが発表した",
+        "pub_date": "11/13 18:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/95b0044f8a78b853e880bb92939d4c23e8e59fc7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "輪島朝市、跡地に店舗兼住宅完成　能登半島地震後初、来春オープン(共同通信)",
+        "summary": "2024年元日の能登半島地震による火災で焼失した石川県輪島市の「朝市通り」周辺で13日、店舗兼住宅が完成し所有者に引き渡された。更地となった一帯で建物ができるのは初めて。多くの観光客でにぎわった朝市通",
+        "pub_date": "11/13 18:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/2050572060bb814442ca8e68240c743af66412d0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "内閣府、個人情報漏えいか　沖縄広報事業、約6千人(共同通信)",
         "summary": "内閣府は13日、沖縄県の魅力を発信する広報事業で使用していたレンタルサーバーに不正アクセスがあり、5973人分のメールアドレスや電話番号が漏えいした恐れがあると発表した。現時点で具体的な被害は確認して",
         "pub_date": "11/13 18:27 JST",
         "link": "https://news.yahoo.co.jp/articles/ee0563c4904f7cd28cc7b163dd2bee4c1cef03d1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "拉致解決へ「議連の考え、動きと一に」　完全解決掲げる条例案で東京都の小池百合子知事(産経新聞)",
-        "summary": "東京都議会の超党派議員連盟が、北朝鮮による拉致被害者の早期帰国や、完全解決を掲げた条例案を12月の定例会に議員提案することを受け、東京都の小池百合子知事は13日の定例記者会見で、「1日も早い拉致問題の",
-        "pub_date": "11/13 18:13 JST",
-        "link": "https://news.yahoo.co.jp/articles/dc5c2a88a77a0892da603ff6349e371132aa709d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "巨大地震を想定し…都市ガス大手3社が合同訓練 仕様が異なる配管のつなぎ方など早期復旧の手順を確認 名古屋･熱田区(CBCテレビ)",
-        "summary": "いざという時に重要なのが生活インフラ。企業側も備えを強化しています。（竹澤満咲記者）「東京や大阪のガス会社の職員による、ガス管の修繕作業の訓練が行われています」【写真を見る】巨大地震を想定し…都市ガス",
-        "pub_date": "11/13 17:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/409bd9189c0edd7327ea630172ec5a3825bc034e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【解説】農作物の被害額が大阪府で1位に…身近に迫る「アライグマ」の脅威　かわいい見た目でも凶暴、関西の都市部で目撃増加(読売テレビ)",
-        "summary": "大阪府で昨年度、農作物の被害額がイノシシやシカを上回り、1位となったのがアライグマ。その目撃情報が大阪市内でも増えています。身近に迫るアライグマの脅威について解説します。 （中谷しのぶキャスター） は",
-        "pub_date": "11/13 17:46 JST",
-        "link": "https://news.yahoo.co.jp/articles/494ac1ee60e48176dcf92e710ac06febd6ce213a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「睡眠時無呼吸症候群」の危険 居眠りで死亡事故も　息苦しさエベレスト並み 対策は？(テレビ朝日系（ANN）)",
-        "summary": "5人に1人がかかっているという「睡眠時無呼吸症候群」。脳卒中などのリスクが急増するといいます。睡眠中の無呼吸状態をどう気付けばいいのか、専門家に危険なサインを聞きました。■ 「睡眠時無呼吸症候群」の危",
-        "pub_date": "11/13 17:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/5beaee4179c449bcfcbcd08ca635555fc90db63b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "“寝たばこ”一転「火を付けた」　広島3人死亡住宅火災で長男を逮捕(テレビ朝日系（ANN）)",
-        "summary": "“寝たばこ”から一転、「火を付けた」と話したのは、この家に住む長男でした。住宅火災で家族とみられる3人が死亡しています。■“寝たばこ”一転「火を付けた」近隣住民「ここに14～15年住んでるが、何回かは",
-        "pub_date": "11/13 17:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/ca187a9328aa8bf2d713d8b21c12c8e258675c4a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
@@ -518,71 +528,63 @@
         "is_disaster": true
       },
       {
-        "title": "メール障害で納期遅延 法的扱いは",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/13 15:48 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602424?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "3歳娘死亡で両親逮捕、大阪　殺人や遺棄致死疑い(共同通信)",
-        "summary": "大阪府枚方市の集合住宅で娘＝当時（3）＝を暴行して殺害したとして、府警は13日、殺人容疑で父親の会社員金尾健太郎容疑者（33）＝同市＝を逮捕した。保護責任者遺棄致死容疑で母親の無職莉代容疑者（33）＝",
-        "pub_date": "11/13 18:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/19f67239feaaf345cff352cb738b82f2e2aa8881?source=rss",
+        "title": "死亡女児虐待相談、警察に情報共有されず(共同通信)",
+        "summary": "大阪府枚方市で女児（3）が死亡し、両親が殺人容疑などで逮捕された事件で、府警は13日、児童相談所や、虐待を疑う相談を受けていた枚方市からは府警に情報が共有されていなかったと説明した。",
+        "pub_date": "11/13 19:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/412c10024da2f4f5d581cb81af90ab2b1e92dd87?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "大阪市、行政システムでメアド108万件漏洩　アララ不正アクセス影響　商品券事業でも(産経新聞)",
-        "summary": "大阪市は13日、行政オンラインシステムの利用者のメールアドレス約108万件が流出したと発表した。市が委託する事業者が不正アクセスを受けたメール配信サービス会社「アララ」（東京）のサービスを利用しており",
-        "pub_date": "11/13 18:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/44a837b38acfaaf8db2fa7e7ac270de7ae2236ad?source=rss",
+        "title": "死亡の3歳女児、暴行で食道が破裂し息ができなくなったか　殺人容疑で父親を逮捕(産経新聞)",
+        "summary": "大阪府枚方市のマンション一室で8月、女児（3）が死亡し、両親が逮捕された事件で、司法解剖の結果、女児は腹部に強い圧力が加わって食道が破裂し、肺に穴が開いて息ができなくなっていたとみられることが13日、",
+        "pub_date": "11/13 19:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/6d6b2af65a2c2ce7155a6673ba3899c87f150241?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "同意なく不倫相手女性と性交、男性巡査部長を書類送検　兵庫県警　少女へのわいせつも判明(産経新聞)",
-        "summary": "同意なく女性と性行為をし性的な画像を撮影したとして、兵庫県警は13日、不同意性交と性的姿態撮影処罰法違反（撮影）の疑いで、阪神方面の警察署に勤務する男性巡査部長（56）を書類送検し、停職3カ月の懲戒処",
-        "pub_date": "11/13 18:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/ddb2527135a9566e734cc2bc579fe33b3eb78891?source=rss",
+        "title": "支援金対象者「半数以上」に拡大　高市総理が方針示す　最大2.5万円 10兆円財源は(テレビ朝日系（ANN）)",
+        "summary": "中低所得者向けの支援金制度を巡り、高市総理は対象者をこれまでの「3割以上」から「半数以上」に拡大する方針を新たに示しました。■支援金対象者「半数以上」の方針高市総理大臣「現役勤労者の5割以上が対象とな",
+        "pub_date": "11/13 19:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/2a70fc5dd0a2427af864ccc3ad46eeb5a5ad0499?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "待機児童数「国調査の32倍」　3万9千人、民間団体が独自集計(共同通信)",
-        "summary": "民間団体「保育園を考える親の会」は13日、全国の政令指定都市や首都圏自治体の計100市区で、認可保育施設に申し込んだのに入れなかった「待機児童数」が、4月1日時点で3万9273人だったとの独自集計の結",
-        "pub_date": "11/13 18:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/d1a78e502dca7acb9b435ce5c79e18c899eb2ee1?source=rss",
+        "title": "“アジア・アジアパラ大会の課題” 名古屋市が調査 「開会式や閉会式で空席が目立った」などの声も(CBCテレビ)",
+        "summary": "アジア・アジアパラ大会の課題を、名古屋市が調査します。（藤田和秀名古屋市議）「シビアに堅実に、責任を持った検証を議員連盟として進めていく」【写真を見る】“アジア・アジアパラ大会の課題” 名古屋市が調査",
+        "pub_date": "11/13 19:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/4d9987e476051b14f7a82adba0794b34ded28f97?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "防衛基盤強化へ司令塔を新設　政府、技術革新と輸出を推進(共同通信)",
-        "summary": "政府は安全保障関連3文書の年内改定を巡り、防衛装備品の海外輸出や技術革新、生産基盤強化を推進する司令塔として「防衛装備移転・防衛産業基盤タスクフォース」を新設する方針を固めた。経済産業、防衛、外務各省",
-        "pub_date": "11/13 18:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/d5df8c0eaddbf7b6b4c4da5720fc94cda84e30f2?source=rss",
+        "title": "所有者はゴミでないと主張…愛知県豊橋市で大量のプラスチックが野積みされている問題 産廃処理業者を住民が刑事告発(東海テレビ)",
+        "summary": "愛知県豊橋市で、大量のプラスチックが野積みされている問題。所有する産廃処理業者らを、地元の住民たちが刑事告発しました。 豊橋市内では、少なくとも8カ所で大量のプラスチック類が山積みになっていますが、所",
+        "pub_date": "11/13 19:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/c14fd000aa61f3a396ece8ca9a395bff83db2b88?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "3歳女児を暴行死、父親を殺人容疑で逮捕　母親も保護責任者遺棄致死容疑で 大阪府警(産経新聞)",
-        "summary": "大阪府枚方市の当時住んでいたマンション一室で娘（3）を暴行して死亡させたとして、大阪府警捜査1課は13日、殺人の疑いで父親で会社員、金尾健太郎容疑者（33）＝枚方市＝を逮捕した。また、保護責任者遺棄致",
-        "pub_date": "11/13 18:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/cab56d5d24ff7655d8b1d079f24cd45397694a00?source=rss",
+        "title": "18〜19日は「冬の嵐」に？ 北海道で暴風雪、交通機関に影響も 気象予報士が週末の雨と来週にかけての天気の見通しについて解説(ABEMA TIMES)",
+        "summary": "13日、週末から来週にかけての天気の見通しについて、気象予報士の竹内青空氏が解説した。【映像】18〜19日は「冬の嵐」に？ 気象予報士の解説 15日（日）は全国的に雨となり、18日（水）から19日（木",
+        "pub_date": "11/13 19:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/b9583de3261aae814890dec40393fe458039ed61?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "基金ルール、年内見直しへ　行革相、事業点検踏まえ(共同通信)",
-        "summary": "中司宏行政改革担当相は13日、予算執行の無駄や事業効果を有識者が公開で検証する「秋の行政事業レビュー」の結果を踏まえ、国の基金のルールを年内に見直す方針を表明した。東京都内で記者会見を開き「有識者の提",
-        "pub_date": "11/13 18:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/18e1193ebc472c48b5c0297c2c0685e4f7d30466?source=rss",
+        "title": "乗馬クラブ代表が“カルガモ”走行か 「馬の世話が…」58歳男逮捕(テレビ朝日系（ANN）)",
+        "summary": "カルガモの親子のように、隙間なく後ろに続く様子から「カルガモ走行」と呼ばれる手口で首都高速の料金を払わなかったとして警視庁が逮捕したのは、鯨岡啓昌容疑者（58）です。 カルガモ走行を650回以上繰り返",
+        "pub_date": "11/13 19:17 JST",
+        "link": "https://news.yahoo.co.jp/articles/b5c0bdd858f298b12f662440fc0faf4679c71c0a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-13 18:39:15 JST"
+    "last_updated": "2026-11-13 19:37:52 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -603,10 +605,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "yCu64AY2rVI",
+        "video_id": "WddB6a0lIC4",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/yCu64AY2rVI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=yCu64AY2rVI"
+        "embed_url": "https://www.youtube.com/embed/WddB6a0lIC4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=WddB6a0lIC4"
       },
       {
         "id": "stream_tbsnews",
@@ -625,10 +627,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "-XknwGdbTeI",
+        "video_id": "U8R7qVEW1gM",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/-XknwGdbTeI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=-XknwGdbTeI"
+        "embed_url": "https://www.youtube.com/embed/U8R7qVEW1gM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=U8R7qVEW1gM"
       },
       {
         "id": "stream_annnews",
@@ -636,10 +638,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "RBgNMGtuLaI",
+        "video_id": "2QzoKsO8uIc",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/RBgNMGtuLaI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=RBgNMGtuLaI"
+        "embed_url": "https://www.youtube.com/embed/2QzoKsO8uIc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=2QzoKsO8uIc"
       },
       {
         "id": "stream_fnnnews",

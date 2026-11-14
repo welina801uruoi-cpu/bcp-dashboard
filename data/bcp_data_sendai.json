@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 01:45:56",
+  "timestamp": "2026-11-14 02:29:46",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -76,12 +76,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-14 09:02",
-    "place": "浦河沖",
-    "magnitude": "3.3",
+    "shindo": "2",
+    "time": "2026-11-14 11:16",
+    "place": "富山県西部",
+    "magnitude": "3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-14 11:16",
+        "place": "富山県西部",
+        "shindo": "2",
+        "magnitude": "3",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-14 09:02",
         "place": "浦河沖",
@@ -144,13 +151,6 @@
         "shindo": "2",
         "magnitude": "3.9",
         "maxScale": 20
-      },
-      {
-        "time": "2026-11-12 21:43",
-        "place": "熊本県熊本地方",
-        "shindo": "1",
-        "magnitude": "2.1",
-        "maxScale": 10
       }
     ]
   },
@@ -390,19 +390,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/13 17:03",
-          "text": "@neteroo_index 電車の中で START 繋がらない END と困りますよね😢 私は START 繋がらない END 時だけ START au EN..."
+          "time": "11/14 02:26",
+          "text": "START au END 経由ではLINEに START 繋がらない END 。 通知だけは来るみたいやけど、、、 START au END もなんか起きてる？"
         },
         {
-          "time": "11/13 10:38",
-          "text": "楽天モバイルはプラチナバンド基地局がほぼ無く、 START 繋がらない END 。 スマホはDualSIMでmineoの START au END やdocom..."
+          "time": "11/14 02:22",
+          "text": "@joullyn joullynさま、はじめまして！突然失礼します、povoサポートです。電波が START 繋がらない END のは困りますよね💦安定した S..."
         },
         {
-          "time": "11/13 09:33",
-          "text": "京都駅はさすがに START au END でも厳しいが、でもギリ繋がる。docomoは START 繋がらない END 。"
+          "time": "11/14 02:14",
+          "text": "@shima410000 突然失礼します、povoサポートです。電波が START 繋がらない END のは困りますね💧安定した START au END 回線..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -452,8 +452,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 13,
+    "disaster_count": 12,
     "articles": [
+      {
+        "title": "【速報】西武新宿線が倒木の影響で一部区間で運転見合わせ(テレビ朝日系（ANN）)",
+        "summary": "西武新宿線は倒木の影響により、一部区間で運転を見合わせています。運転再開は14日午後0時半ごろの予定です。 西武鉄道によりますと、西武新宿線は午前9時前に新所沢駅と入曽駅の間で発生した倒木の影響により",
+        "pub_date": "11/14 11:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/dfca97bf604c6270e1909e6364610165116117b8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "住宅火災で1人死亡、群馬　高崎の繁華街(共同通信)",
+        "summary": "14日午前3時20分ごろ、群馬県高崎市鞘町、無職鹿野隆春さん（87）宅で「建物から煙が出ている」と通行人から110番があった。高崎署によると、鉄筋コンクリート2階建て住宅が全焼し、1人の遺体が見つかっ",
+        "pub_date": "11/14 11:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/cb116273e4770cba88b0bfeab4571dc4e4c7add3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "クマを検知すると自動で現場へ　威嚇音とパトランプで追い払い　農園のクマ対策はロボットの時代に　2027年度実用化目指す四足歩行ロボット開発の最前線(FNNプライムオンライン)",
+        "summary": "秋田・鹿角市で、収穫期を迎えたリンゴ畑でのクマの食害が相次いでいる。農家から不安の声が上がる中、被害軽減と地域の安全確保に向けた新たな取り組みとして、四足歩行ロボットを活用した国内初の実証実験が行われ",
+        "pub_date": "11/14 11:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/f348292a30931ece3418e5a9d1fd19d7744cd408?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "粗品さん「タクシー暴行被害」も被害届を出さなかったワケ　なぜ刑事事件にならない？　弁護士が解説(弁護士ドットコムニュース)",
         "summary": "タクシーの行き先が違うと指摘したところ、運転手から左頬を殴られ、髪を引っ張られた──。お笑いコンビ「霜降り明星」の粗品さんが、東京都内でタクシーの運転手から暴行を受けていたと「週刊新潮」が報じた。【説",
@@ -527,55 +551,31 @@
         "is_disaster": true
       },
       {
-        "title": "「シャーッと車輪の回る音、見回すと仲間がいなくなっていた」…88年のJR中央本線作業員4人死亡事故　悲劇を生んだ「思い込み」と「確認漏れ」(デイリー新潮)",
-        "summary": "2026年8月20日午前、東武鉄道日光線で除草作業中の作業員4人が特急列車と接触し、命を落とした。東武鉄道が国土交通省に提出した中間報告書によれば、退避先などに関する連絡の不行き届きや指揮系統の混乱が",
-        "pub_date": "11/14 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/52405fbe89276ba90c34c1e6eb9ef5338c98a67e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...(週プレNEWS)",
-        "summary": "米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが、永田町ではひそかに「首相のドタキャン」が心配されているらしい。【写真】トランプ大統領の前で全力の笑顔",
-        "pub_date": "11/14 07:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/7244d0a7f5aebc73fd103ca25c98787fb7e35313?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "千葉県までミサイルの飛来に備え出したのは「相当危ない」? 2022年以降、定期的に投稿【ファクトチェック】(日本ファクトチェックセンター)",
-        "summary": "千葉県が弾道ミサイルの飛来に備えて避難施設を指定しているという投稿を引用して、「つまり相当危ない」と主張する投稿が拡散しましたが、ミスリードで不正確です。県公式アカウントによる避難施設の告知は、202",
-        "pub_date": "11/14 07:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/d13d5a1234b4962856a90e5ccac67a7c015efc7b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "米でタンカーがクルーズ船に衝突",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/14 09:20 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602509?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "「アメトーーク！」から「クレヨンしんちゃん」まで　戯曲賞も受賞した蓮見翔とは何者か？　「ダウ90000」主宰・脚本家・蓮見翔(AERA DIGITAL)",
-        "summary": "「ダウ90000」主宰、脚本家の蓮見翔。ライブをやれば、チケットは即完売。今年2月には「ロマンス」で第70回岸田國士戯曲賞を受賞した。大学時代の仲間と、ダウ90000を結成。コロナ禍で、いち早く動画配",
-        "pub_date": "11/14 10:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/22d8021ede9d13cb61af91b2a5279cdbab977667?source=rss",
+        "title": "逮捕の父親「歩行訓練をやめたので殴った」　３歳女児虐待死事件　大阪・枚方市(ABCニュース)",
+        "summary": "大阪府枚方市で３歳の娘を虐待し殺害したとして逮捕された父親が、「歩行訓練をやめたので殴った」と話していることが分かりました。「３団体から５回程度通告があった」大阪・枚方市が会見 ３歳娘に暴行加え殺害し",
+        "pub_date": "11/14 11:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/7fc6c6a2c9891c8b56a760c65a894b59c10d48f7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "徳川慶喜が政敵を「天下の大愚物」と罵倒…頭が切れるのに鳥羽・伏見で大敗した「致命的な欠点」(ダイヤモンド・オンライン)",
-        "summary": "徳川慶喜は自分の持論を曲げてまで政敵を追いつめ、最後の将軍になってからも大政奉還という奇策を打った。その狙いは単に政権を手放すことではなく、新たな政治体制で実権を握り続けることだった。実際、その目論見",
-        "pub_date": "11/14 10:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/b237f57dce805745e65412814c9114c3bb9fecb0?source=rss",
+        "title": "【土日の天気】東・北日本はきょうの日ざし有効に　あすは朝から雨具の出番　来週半ばは広範囲で大荒れの天気に(ウェザーマップ)",
+        "summary": "きょう14日(土)は沖縄から西日本を中心に曇りや雨となり、東・北日本はおおむね晴れて快適な陽気となる見込みです。ただ、あす15日(日)は朝から東日本から東北でも雨が降り、北海道は夕方以降に雨や雪が降る",
+        "pub_date": "11/14 11:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/495c3bc884091e902db5cf1254a33195744d0a44?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "15日以降は気圧変化が大きい　関東～近畿などで影響大　頭痛・めまい・寒暖差に注意(日本気象協会tenki.jp)",
+        "summary": "向こう一週間は、低気圧と高気圧が日本列島をたびたび通過するため、気圧の変化が大きい見込みです。15日(日)は東京や名古屋、大阪で影響度が「大」の予想で、18日(水)は全国的に気圧が大きく下降するでしょ",
+        "pub_date": "11/14 11:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/e2f77be942bfc93f7790901ec0a3624aa0a2bbd1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-14 10:45:26 JST"
+    "last_updated": "2026-11-14 11:29:32 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -618,10 +618,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "_YMPcH25XCc",
+        "video_id": "mwuokqV8l-8",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/_YMPcH25XCc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=_YMPcH25XCc"
+        "embed_url": "https://www.youtube.com/embed/mwuokqV8l-8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=mwuokqV8l-8"
       },
       {
         "id": "stream_annnews",
@@ -629,10 +629,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "AAcFw382Vls",
+        "video_id": "IyXPZtAqO0U",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/AAcFw382Vls?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=AAcFw382Vls"
+        "embed_url": "https://www.youtube.com/embed/IyXPZtAqO0U?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=IyXPZtAqO0U"
       },
       {
         "id": "stream_fnnnews",

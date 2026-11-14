@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-14 23:11:44",
-  "timestamp_local": "2026-11-14 21:11:44",
+  "timestamp": "2026-11-14 23:49:47",
+  "timestamp_local": "2026-11-14 21:49:47",
   "country": {
     "id": "vietnam",
     "name": "ベトナム",
@@ -289,7 +289,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 22,
+    "count_24h": 21,
     "summary": "M4.5 (137 km SE of Petropavlovsk-Kamchatsky, Russia)",
     "latest": {
       "mag": 4.5,
@@ -425,6 +425,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "JFA田嶋名誉会長がFIFA会長と対面へ　出馬表明後初の直接対峙「冷静に話せると思う」(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/743825b4c9b571009bf82974bfc9b557a81cf9dc?source=rss",
+        "description": "FIFA会長選挙に出馬表明した日本サッカー協会の田嶋幸三名誉会長がASEANサッカー連盟の総会が開かれるフィリピンに到着しました。表明後、初めてインファンティーノ会長と対面することになります。 15日",
+        "pub_date": "11/14 23:21 JST",
+        "is_priority": false
+      },
+      {
         "title": "ミャンマー問題、次期議長に委ねたと比外相(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/236b6c0b657599d028c8332325bde6b0c6871aec?source=rss",
         "description": "【マニラ共同】東南アジア諸国連合（ASEAN）の議長国フィリピンのラザロ外相は14日、共同通信の取材に、ミャンマーの主要会議復帰問題を「（来年の議長国）シンガポールに委ねた」と述べた。",
@@ -556,13 +563,6 @@
         "description": "アメリカですべての空港を対象に航空機の地上待機命令が出され、1万2000便以上が欠航になりました。また、日本を含め各国にも影響が出ています。■アメリカ全航空機に一時地上待機命令 アメリカで空の移動が閉",
         "pub_date": "11/14 17:51 JST",
         "is_priority": true
-      },
-      {
-        "title": "シニア向け食品市場規模、30年に3千億円超か　食品・コンビニ各社、取り込み狙う／台湾(中央社フォーカス台湾)",
-        "link": "https://news.yahoo.co.jp/articles/08d07514bbe7bed2091f54e97d11ffeb7345afbe?source=rss",
-        "description": "（台北中央社）台湾は昨年12月、65歳以上の人口が総人口の20％を超え、台湾が定義する「超高齢社会」に突入した。食品工業発展研究所は、2030年に台湾のシニア向け食品市場規模が600億台湾元（約3千億",
-        "pub_date": "11/14 17:33 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -661,7 +661,7 @@
     "default_channel_id": "stream_vtv_live"
   },
   "forex": {
-    "timestamp": "11/14 23:11 JST",
+    "timestamp": "11/14 23:49 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -724,16 +724,106 @@
   "weather": {
     "cities": [
       {
+        "name": "ハノイ (首都)",
+        "name_en": "Hanoi",
+        "is_capital": true,
+        "lat": 21.0285,
+        "lon": 105.8542,
+        "temp": 21.0,
+        "apparent_temp": 22.7,
+        "humidity": 86,
+        "wind_speed": 9.3,
+        "wind_gusts": 18.0,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/14(土)",
+            "temp_max": 25.9,
+            "temp_min": 17.7,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 29.4,
+            "temp_min": 19.5,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.6
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 30.4,
+            "temp_min": 22.4,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.9
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ホーチミン (最大経済都市)",
+        "name_en": "Ho Chi Minh City",
+        "is_capital": false,
+        "lat": 10.8231,
+        "lon": 106.6297,
+        "temp": 27.4,
+        "apparent_temp": 32.5,
+        "humidity": 81,
+        "wind_speed": 6.0,
+        "wind_gusts": 13.3,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/14(土)",
+            "temp_max": 33.4,
+            "temp_min": 24.7,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.8
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 33.7,
+            "temp_min": 25.1,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 7.9
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 32.6,
+            "temp_min": 24.5,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.3
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ダナン (中部主要港湾)",
         "name_en": "Da Nang",
         "is_capital": false,
         "lat": 16.0544,
         "lon": 108.2022,
-        "temp": 25.5,
-        "apparent_temp": 31.3,
-        "humidity": 91,
-        "wind_speed": 1.9,
-        "wind_gusts": 7.6,
+        "temp": 25.3,
+        "apparent_temp": 31.1,
+        "humidity": 93,
+        "wind_speed": 2.6,
+        "wind_gusts": 5.8,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -770,43 +860,43 @@
       }
     ],
     "capital": {
-      "name": "ダナン (中部主要港湾)",
-      "name_en": "Da Nang",
-      "is_capital": false,
-      "lat": 16.0544,
-      "lon": 108.2022,
-      "temp": 25.5,
-      "apparent_temp": 31.3,
-      "humidity": 91,
-      "wind_speed": 1.9,
-      "wind_gusts": 7.6,
+      "name": "ハノイ (首都)",
+      "name_en": "Hanoi",
+      "is_capital": true,
+      "lat": 21.0285,
+      "lon": 105.8542,
+      "temp": 21.0,
+      "apparent_temp": 22.7,
+      "humidity": 86,
+      "wind_speed": 9.3,
+      "wind_gusts": 18.0,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/14(土)",
-          "temp_max": 28.3,
-          "temp_min": 23.8,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 1.3
+          "temp_max": 25.9,
+          "temp_min": 17.7,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/15(日)",
-          "temp_max": 29.5,
-          "temp_min": 23.9,
+          "temp_max": 29.4,
+          "temp_min": 19.5,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.2
+          "precipitation_mm": 0.6
         },
         {
           "date": "11/16(月)",
-          "temp_max": 29.9,
-          "temp_min": 25.0,
+          "temp_max": 30.4,
+          "temp_min": 22.4,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.4
+          "precipitation_mm": 0.9
         }
       ],
       "alert": "平常",
@@ -814,7 +904,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/14 23:11 JST"
+    "timestamp": "11/14 23:49 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -843,7 +933,7 @@
         "details": "南北統一鉄道各便平常運行中"
       }
     ],
-    "timestamp": "11/14 23:11 JST"
+    "timestamp": "11/14 23:49 JST"
   },
   "lifeline": {
     "status": "NORMAL",

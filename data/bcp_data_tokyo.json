@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 07:34:15",
+  "timestamp": "2026-11-14 08:26:31",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -306,14 +306,20 @@
     "notice_items": []
   },
   "transit": {
-    "status": "NORMAL",
-    "text": "全線平常運行中",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "status": "ALERT",
+    "text": "運行支障あり（在来線: 京浜東北根岸線、湘南新宿ライン、横須賀線）",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（京浜東北根岸線、湘南新宿ライン、横須賀線、宇都宮線、総武線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "京浜東北根岸線",
+      "湘南新宿ライン",
+      "横須賀線",
+      "宇都宮線",
+      "総武線"
+    ],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
@@ -421,8 +427,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/14 08:07",
+          "text": "丸一日通信 START 障害 END のせいなのか携帯使えなかったんだけど START au END だけ？？"
+        },
         {
           "time": "11/14 07:29",
           "text": "START au END さん、 通信 START 障害 END 起きてる？"
@@ -430,10 +440,6 @@
         {
           "time": "11/14 06:59",
           "text": "え？今度は START au障害 END 起きてたりする？"
-        },
-        {
-          "time": "11/14 06:49",
-          "text": "@ciel37 謎肉トッピングが気になりすぎます…🐙💭こんにちは、 START au END サポート古山です。通信 START 障害 END とお見かけしたの..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -467,19 +473,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/14 07:15",
-          "text": "@deceased404 突然失礼します、povoサポートです。電波が START 繋がらない END のは困ってしまいますね📡安定した START au EN..."
+          "time": "11/14 08:00",
+          "text": "START au END は糞って改めてはっきり分かんだね 今日画面が映らなくなったけどまだ Wifiは使えてた機器を持って 料金を支払いに行った で、戻ってき..."
         },
         {
-          "time": "11/14 06:25",
-          "text": "DOCOMO回線のほうが早いけどこのあいだの災害時とか START 繋がらない END 場所だと START au END 回線の方が繋がるから2枚刺しが最強な..."
+          "time": "11/14 07:56",
+          "text": "@hikage_komiya ポスト拝見しました！ START au END サポート岡野です。 いつもは問題なくご利用できている場所で START 繋がらない..."
         },
         {
-          "time": "11/14 06:25",
-          "text": "@ START au END _support 確認しましたが、メンテナンス工事はしていないようです。知り合いの START au END ユーザーの方も ST..."
+          "time": "11/14 07:39",
+          "text": "@mikkomisa0313 でもド◯モは基本ずっと電波死んでるからあまり変わらないですよ！！ 僕も悩んでます（）帰るなら START au END ですね ド..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -509,25 +515,49 @@
     }
   ],
   "weather_overview": {
-    "status": "ALERT",
+    "status": "NORMAL",
     "office": "気象庁",
     "target_area": "東京都",
-    "report_time": "11/14 10:37",
+    "report_time": "11/14 16:35",
     "headline": "",
-    "text": "　本州付近は高気圧に緩やかに覆われていますが、湿った空気の影響を受けています。また、低気圧が関東の東を東北東へ進んでいます。\n\n　東京地方は、おおむね晴れています。\n\n　１４日は、高気圧に緩やかに覆われますが、低気圧や湿った空気の影響を受ける見込みです。このため、曇り時々晴れとなるでしょう。伊豆諸島では、雨や雷雨となる所がある見込みです。\n\n　１５日は、前線を伴った低気圧が四国の南から伊豆諸島付近へ進む見込みです。このため、雨で朝晩は曇りとなるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。",
+    "text": "　本州付近は高気圧に緩やかに覆われていますが、湿った空気の影響を受けています。また、低気圧が日本の東を東北東へ進んでいます。\n\n　東京地方は、曇りとなっています。\n\n　１４日は、低気圧や湿った空気の影響を受ける見込みです。このため、曇りとなるでしょう。\n\n　１５日は、前線を伴った低気圧が四国の南から伊豆諸島付近へ進む見込みです。このため、雨で朝晩は曇りとなるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。",
     "paragraphs": [
-      "本州付近は高気圧に緩やかに覆われていますが、湿った空気の影響を受けています。また、低気圧が関東の東を東北東へ進んでいます。",
-      "東京地方は、おおむね晴れています。",
-      "１４日は、高気圧に緩やかに覆われますが、低気圧や湿った空気の影響を受ける見込みです。このため、曇り時々晴れとなるでしょう。伊豆諸島では、雨や雷雨となる所がある見込みです。",
+      "本州付近は高気圧に緩やかに覆われていますが、湿った空気の影響を受けています。また、低気圧が日本の東を東北東へ進んでいます。",
+      "東京地方は、曇りとなっています。",
+      "１４日は、低気圧や湿った空気の影響を受ける見込みです。このため、曇りとなるでしょう。",
       "１５日は、前線を伴った低気圧が四国の南から伊豆諸島付近へ進む見込みです。このため、雨で朝晩は曇りとなるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。"
     ],
-    "summary": "本州付近は高気圧に緩やかに覆われていますが、湿った空気の影響を受けています。また、低気圧が関東の東を東北東へ進んでいます。...",
+    "summary": "本州付近は高気圧に緩やかに覆われていますが、湿った空気の影響を受けています。また、低気圧が日本の東を東北東へ進んでいます。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=130000"
   },
   "disaster_news": {
     "count": 15,
     "disaster_count": 11,
     "articles": [
+      {
+        "title": "横田早紀江さん、早期解決訴え　15日でめぐみさん拉致49年(共同通信)",
+        "summary": "北朝鮮による拉致被害者の横田めぐみさん＝失踪当時（13）＝が連れ去られてから15日で49年となるのを前に、新潟市で「忘れるな拉致 県民集会」が開かれた。オンラインで参加した母早紀江さん（90）は「考え",
+        "pub_date": "11/14 17:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/6a83eed5dc040e0dd7a55675baf1e632fc76a00d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「下半身に麻痺が残って…」「最後までできない」“障がい者の性事情”を赤裸々に発信…19歳で交通事故→脊髄損傷を負った男性（31）が明かす、妻と交際中に直面した“現実”(文春オンライン)",
+        "summary": "妻の桃子さん（32）とともに「すけにい夫婦」としてSNSで発信活動をしている上野遥介さん（31）。19歳の時に交通事故で脊髄を損傷して全身まひとなり、「一生、車いすになる」と宣告された。しかし、懸命な",
+        "pub_date": "11/14 17:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/7377b9bfb42e49a6a784f7c4e1818be9ab40177a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "東関東道でトレーラー横転 3人が軽傷 千葉・四街道市(ABEMA TIMES)",
+        "summary": "千葉県・四街道市を通る東関東道の下りで、トレーラー1台と乗用車2台の事故があり3人が軽傷です。トレーラーは横転しています。【映像】中央分離帯に衝突し横転したトレーラー（現場の様子） 14日正午ごろ、東",
+        "pub_date": "11/14 16:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/7d6e27bb0ef743c01b73e98e93e102dfbd785c37?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "【雷伴う激しい雨か】週明けにかけて全国的に大気の状態不安定…広範囲で落雷・突風・強風・高波に注意　非常に激しい雨となる所も　今後の雨風シミュレーション【気象庁14日発表】(BSS山陰放送)",
         "summary": "気象庁が11月14日15時40分に発表した情報によりますと、15日から16日にかけて、低気圧や前線の影響で全国的に大気の状態が非常に不安定になる見込みです。九州や南西諸島、伊豆諸島では大雨による土砂災",
@@ -585,30 +615,6 @@
         "is_disaster": true
       },
       {
-        "title": "来春、田んぼに水来るのか　印旛沼　ポンプ場故障で田975ha不透明　千葉県成田市や栄町で農家懸念(日本農業新聞)",
-        "summary": "「稲作に水は不可欠だが、来年自分の田に十分に来るのか」－－。台風25号による千葉県の印旛沼の決壊で基幹機場（ポンプ場）が故障し、同県成田市や栄町の農家から心配の声が上がっている。最大975ヘクタールに",
-        "pub_date": "11/14 12:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/2a19c9286f4257bea38ff673913f72daa458461b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「イノシシに襲われた、足折れていると思う」イノシシに襲われ重傷負った女性の夫が“被害状況”語る　各地で出没相次ぐ　行動範囲の拡大や“規格外”150キロに巨大化も　過去に目撃なかったエリアでも…(FNNプライムオンライン)",
-        "summary": "今、関西の各地で相次ぐイノシシの出没。今週、兵庫県西宮市で散歩中の女性がイノシシに襲われ重傷を負った。【動画で見る】イノシシの出没相次ぐ 背景に何が?ドングリの不作による行動範囲の拡大、食生活の変化で",
-        "pub_date": "11/14 12:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/7e12810767fe04b6a310e91c911d81d0c2faf8ee?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "沖縄・飲酒事故率全国ワースト5年連続　飲酒ドライバーの過信はなぜ起きる?体験講習会で見えた認識の甘さ(FNNプライムオンライン)",
-        "summary": "沖縄県内の飲酒事故率は全国平均の約3.1倍に上り、5年連続で全国ワーストを記録している。事態を重く見た警察や関係機関が撲滅に向けた取り組みを続ける中、飲酒運転の危険性を身をもって知るための体験型講習会",
-        "pub_date": "11/14 12:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/f69260bc3601abde3d53e8c16f4ad429fe57406c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "急逝したFWと衝突のGK処分 欧州",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/14 15:53 JST",
@@ -617,39 +623,39 @@
         "is_disaster": true
       },
       {
-        "title": "資産運用会社かたったか 170万円詐取疑い“受け子”逮捕(ABEMA TIMES)",
-        "summary": "実在する海外の資産運用会社の担当者を名乗り、都内の70代の女性から現金170万円をだまし取ったとして男が逮捕されました。【映像】連行される小野公久容疑者の様子 小野公久容疑者（60）は、9月から先月に",
-        "pub_date": "11/14 16:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/0b531b10cd61626cc0b6603f7bca0c80ed792665?source=rss",
+        "title": "「幸せにするはずだったのに」スピードの出しすぎで妻が死亡…絶望する元ヤクザを救った【娘の愛にあふれた一言】(文春オンライン)",
+        "summary": "新潟刑務所での過酷な服役を終え、愛する妻と娘が待つ自宅へ戻った元極道の佐藤智明氏。堅気として生き直すと誓った矢先、人生最大の悲劇が彼を襲った。 佐藤氏は30歳のころ、同業者とのトラブルから恐喝未遂で逮",
+        "pub_date": "11/14 17:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/ea6beaafbd97ab15aee944d53bb97dea8c6d2b03?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "横浜駅近くの交差点で女性はねられ死亡　トラック運転手の男逮捕(テレビ朝日系（ANN）)",
-        "summary": "横浜駅近くの交差点で、横断歩道を渡っていた女性がトラックにはねられ死亡しました。警察は、トラックを運転していた男を現行犯逮捕しました。 警察によりますと、14日午前8時すぎ、横浜市西区の交差点で、青信",
-        "pub_date": "11/14 16:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/625618e07a900bd1611ff9f2c4e296fe3fef2993?source=rss",
+        "title": "《ギタリストCharの息子》「もう手を出さない」法廷での誓いも空しく…46歳になった“不肖のやんちゃ息子”JESSE、二度目の薬物逮捕(文春オンライン)",
+        "summary": "JESSEの名前で活動しているマック・ファーデン・ジェシー・ソラト容疑者（46）が11月4日、麻薬取締法違反（コカインの使用）の疑いで警視庁に逮捕された。ロックバンド「RIZE」や「The BONEZ",
+        "pub_date": "11/14 17:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/a0e9f432d1cc0480b78eaeadcaa9d56863e670b0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "非核三原則「持ち込ませず」の例外明記に波紋　官邸が先行し自民は「困ったものだ」と反発(西日本新聞me)",
-        "summary": "安全保障関連3文書の改定を巡り、首相官邸と自民党、日本維新の会の間でさや当てが始まっている。焦点の一つとなっている非核三原則の「持ち込ませず」の扱いに関し、政府高官が10日、例外として緊急時に核兵器の",
-        "pub_date": "11/14 16:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/ab2ce944de7492a1b22c9a36994c7dfeb5fecaa3?source=rss",
+        "title": "国民・榛葉氏、前原氏主導の希望の党合流で「参議院黙ってろ」と回顧　中道も「同じこと」(産経新聞)",
+        "summary": "国民民主党の榛葉賀津也幹事長は13日の記者会見で、野党の多党化を招いた要因に衆院比例代表の復活当選を認める選挙制度などを挙げた。政治的な転機の一つとなったのは、平成29年の民進党の希望の党への合流騒動",
+        "pub_date": "11/14 17:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/31138efbcbc7a3019047605500d43ca90a6ea926?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "衆院定数減審議入りへ攻防　与党、今国会での通過目指す(共同通信)",
-        "summary": "与野党は、衆院比例代表定数の31削減を柱とする法案を巡る攻防を続けている。今国会での成立に向け、早期審議入りを目指す与党に対し、野党は企業・団体献金の禁止など政治資金を巡る議論の充実を要求。まだ審議入",
-        "pub_date": "11/14 16:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/981caae000e8ce8f72a97d1a8d8903f1a250369f?source=rss",
+        "title": "秋の風物詩「鮎やな」架設　宮崎・延岡、国内最大級(共同通信)",
+        "summary": "宮崎県延岡市を流れる大瀬川に、アユを取るための巨大な仕掛け「鮎やな」が設置された。江戸時代から続く300年以上の歴史を持つ伝統漁法で、川幅が100メートルを超える大瀬川に架けられる「水郷延岡鮎やな」は",
+        "pub_date": "11/14 17:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/63167e6241c215ba1dd077c1e72897a8be618697?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-14 16:34:03 JST"
+    "last_updated": "2026-11-14 17:26:19 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -670,10 +676,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "lQISdOLnqdc",
+        "video_id": "DNcFitRH2-8",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/lQISdOLnqdc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=lQISdOLnqdc"
+        "embed_url": "https://www.youtube.com/embed/DNcFitRH2-8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=DNcFitRH2-8"
       },
       {
         "id": "stream_tbsnews",
@@ -692,10 +698,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "F2qYfHLrA5c",
+        "video_id": "rElE457Dq0o",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/F2qYfHLrA5c?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=F2qYfHLrA5c"
+        "embed_url": "https://www.youtube.com/embed/rElE457Dq0o?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=rElE457Dq0o"
       },
       {
         "id": "stream_annnews",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 00:01:12",
+  "timestamp": "2026-11-14 00:41:46",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -73,12 +73,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-14 00:03",
-    "place": "島根県西部",
-    "magnitude": "3.5",
+    "shindo": "1",
+    "time": "2026-11-14 09:02",
+    "place": "浦河沖",
+    "magnitude": "3.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-14 09:02",
+        "place": "浦河沖",
+        "shindo": "1",
+        "magnitude": "3.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-14 00:03",
         "place": "島根県西部",
@@ -141,13 +148,6 @@
         "shindo": "1",
         "magnitude": "2.1",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-12 21:34",
-        "place": "大分県中部",
-        "shindo": "1",
-        "magnitude": "2",
-        "maxScale": 10
       }
     ]
   },
@@ -163,10 +163,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 2地域】山口、岡山（警報なし）",
+    "summary": "【注意報発表: 1地域】山口（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 2,
+    "notice_count": 1,
     "total_prefs": 5,
     "pref_details": [
       {
@@ -219,13 +219,11 @@
         "code": "33",
         "name": "岡山県",
         "short_name": "岡山",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "濃霧注意報"
-        ],
-        "summary": "濃霧注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/33/"
       }
     ]
@@ -417,8 +415,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 11,
     "articles": [
+      {
+        "title": "イ草に集中力を高める効果　九大、熊本の農家も期待(共同通信)",
+        "summary": "畳表の材料となるイ草に集中力を高める効果がある―。九州大などのグループが9月、研究結果を国際学術誌に発表した。7月の熊本地震で震度6強だった熊本県八代市が国内有数の産地。同市のイ草農家は「消費拡大につ",
+        "pub_date": "11/14 09:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/a835cadf13bdd9ebf7dca96c8aac175abe3b727a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「通報されないと思った」保険外交員の女性2人にわいせつ行為、50代被告人が語った犯行理由は「寂しさ」(弁護士ドットコムニュース)",
+        "summary": "性犯罪の被害に遭っても、すぐに声を上げられるとは限らない。人に話すことへの抵抗感やフラッシュバック、加害者から報復されることへの恐怖など、被害を申告できない事情はさまざまだ。【図解】刑事手続きの流れそ",
+        "pub_date": "11/14 09:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/3fb9b4311e550abcdafcf059ba30c096f31638d9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "首里城復元式控え消火訓練　正殿内で初期手順確認(共同通信)",
+        "summary": "2019年に火災があり再建中の首里城（那覇市）の正殿で14日、消火訓練が行われた。当時の教訓を踏まえ、内閣府沖縄総合事務局や市消防局などが毎年、合同で訓練を実施。初めて正殿内で初期消火の手順を確認した",
+        "pub_date": "11/14 09:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/4cdb9781f86eabc7c763dfa26d49797a3af0feb2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "緊急消防援助隊、合同訓練で連携　巨大地震と津波想定し手順確認(共同通信)",
         "summary": "災害時に全国から派遣される「緊急消防援助隊」の全国合同訓練が14日、宮城県石巻市で始まった。日本海溝・千島海溝沿いを震源とする巨大地震と津波を想定。35府県の消防や自衛隊、警察、災害派遣医療チーム（D",
@@ -468,22 +490,6 @@
         "is_disaster": true
       },
       {
-        "title": "神奈川の2人死亡ひき逃げ、男を逮捕(共同通信)",
-        "summary": "神奈川県海老名市で高齢女性2人がはねられ死亡した事故で、県警は14日、自動車運転処罰法違反と道交法違反の疑いで、相模原市緑区の男（49）を逮捕した。",
-        "pub_date": "11/14 06:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/4011f0f0eadfd9da197825f461c13f3010ddee5f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「お母さん、ひなはずっと元気にしているよ」6歳の愛娘を交通事故で亡くした母親が警察官に伝えた「当たり前の日々は奇跡の連続」【第1話】(RSK山陽放送)",
-        "summary": "■「当たり前の日々は奇跡の連続」「陽菜の事故を通して私たち家族が気づいたこと、それから生き方が変わりました」【写真を見る】「お母さん、バイバイ」スマホにメッセージを残す陽菜さん今から10年前、福岡県北",
-        "pub_date": "11/14 06:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/972a9467dad223ae34f2508ececd2846f97f3463?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "全米空港で地上待機命令 通信障害",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/14 08:42 JST",
@@ -500,47 +506,39 @@
         "is_disaster": true
       },
       {
-        "title": "日中首相の接触機会は限定的　ASEAN会議すれ違いか(共同通信)",
-        "summary": "【上海共同】高市早苗首相と中国の李強首相は15日以降、東南アジア諸国連合（ASEAN）関連首脳会議出席のためフィリピンの首都マニラをそれぞれ訪問する。両国関係悪化が続く中で接触に注目が集まるが、両政府",
-        "pub_date": "11/14 08:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/a991a6dc5a4041b252e8977d0c9a49503a3cb7a1?source=rss",
+        "title": "フードコートで「水をくみたい…」一瞬だけ離席する際の“正解”が判明!?子どもを待たせるパパが放った“魔法の一言”に「勉強になる〜」「制限より使命感」称賛の声(ABEMA TIMES)",
+        "summary": "多くの人が行き交うフードコートで、幼い子どもを席で待たせるために父親が放った“魔法の一言”に、SNSでは「制限より使命感」「勉強になる〜」など称賛の声が上がっている。【映像】パパが離席前に使った“正解",
+        "pub_date": "11/14 09:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/685ce8cbea7d9c2bfb65ca3fead2d7c83e6e69cb?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "｢欲を言えば､助けてほしい｣…ものまね芸人ホリさんが病の母を自宅に引き取って痛感した介護という\"大洪水\"(プレジデントオンライン)",
-        "summary": "ものまね芸人のホリさん(49)は、現在、母親を都内の自宅に迎え介護を続けている。同居しながらの介護で生活はどのように変化したのか。仕事と介護の両立は可能なのか。ホリさんに、ライターの市岡ひかりさんが聞",
-        "pub_date": "11/14 08:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/c356be0095a261f6285794251b4c5b8cd2d255ad?source=rss",
+        "title": "パンサー菅良太郎、いびきは「バイクの音」級　眠ることさえ怖かった日々、最新手術で「人生が変わった」(AERA DIGITAL)",
+        "summary": "重度の睡眠時無呼吸症候群に苦しんできた、お笑いトリオ・パンサーの菅良太郎さん（44）。朝起きても疲れが取れず、仕事中には強烈な眠気に襲われた。やがて眠ること自体が怖くなり、治療を始めたものの、今度はそ",
+        "pub_date": "11/14 09:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/ff6c47cc9fcd593fc3e37d86dad63e2cb1b0dbc6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "九州北部で夜遅くに非常に激しい雨　気温は高めで20℃超えの所も　今日14日の天気(日本気象協会tenki.jp)",
-        "summary": "今日14日(土)は、西から雨雲が広がり、雨脚が強まる所もあるでしょう。九州北部では夜遅くに局地的に非常に激しい雨が降る恐れがあります。東海から北海道は広く日差しが届くでしょう。最高気温は10月中旬から",
-        "pub_date": "11/14 08:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/4a288d5544c73c4611a709617285d5819f22f9b5?source=rss",
+        "title": "雅子さま、見送りの最後に小さな「会釈」　ベトナム国家主席夫妻には見えない“おもてなし”(AERA DIGITAL)",
+        "summary": "天皇、皇后両陛下が11日、皇居・宮殿でベトナムの最高指導者トー・ラム共産党書記長兼国家主席夫妻と会見し、昼食を共にされた際の振る舞いについて、マナーアナリストの西出ひろ子さんは「深いおもてなしの心」を",
+        "pub_date": "11/14 09:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/99d5a4c4bf287b08733ec3be18052f6275a20646?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "｢実家で一人暮らす母親｣の介護は無理ゲー…見守りカメラ3台に週1の帰省｢万全の体制｣が崩壊した早朝の電話(プレジデントオンライン)",
-        "summary": "ものまね芸人のホリさん(49)は、数年前から仕事の傍ら実家で一人暮らしをする母親の介護を続けてきた。万全の体制を敷いてきたが、ある出来事をきっかけに「回らなくなってきた」と話す。高齢者の一人暮らしを介",
-        "pub_date": "11/14 08:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/adb4b47009f147f36cf1607b04071f08759d4f98?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "自衛隊員5000人以上を1カ月も拘束していた…防衛省が安全保障を優先してやめた\"毎年恒例の伝統行事\"(プレジデントオンライン)",
-        "summary": "不毛な激務を減らすには、どうしたらいいのか。元官僚で、現在はコンサルタント兼芸人の松本昌平さんは「まず、何かをやめるという重い判断が必要となる。その手本となるのが、伝統行事をやめた防衛省だ」という――",
-        "pub_date": "11/14 08:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/9ec8f569f27ff5207b4618f7ba9c7a7ba2f44763?source=rss",
+        "title": "わずか4人の造反に自民党内がピリピリ…石破茂と小渕優子があぶり出した｢高市1強｣のほころび(プレジデントオンライン)",
+        "summary": "■造反した4人への共感 「自民党は1年前まで『財源なき消費減税はあってはならない』と言い続けてきた。1年でくるくる変わるような税制は、慎まなければならない。高市早苗首相は『12月までにはちゃんとする』",
+        "pub_date": "11/14 09:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/0d2598ee3967944ed99f16e487ab60adb2752933?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-14 09:00:31 JST"
+    "last_updated": "2026-11-14 09:41:22 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -561,10 +559,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "FYEduSXRlMc",
+        "video_id": "saf53wHVtB4",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/FYEduSXRlMc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=FYEduSXRlMc"
+        "embed_url": "https://www.youtube.com/embed/saf53wHVtB4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=saf53wHVtB4"
       },
       {
         "id": "stream_tbsnews",
@@ -583,10 +581,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "ckbMx1MgY-k",
+        "video_id": "fC2KdgR_Mag",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/ckbMx1MgY-k?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=ckbMx1MgY-k"
+        "embed_url": "https://www.youtube.com/embed/fC2KdgR_Mag?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=fC2KdgR_Mag"
       },
       {
         "id": "stream_annnews",
@@ -605,10 +603,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "kGG1CaeQ9oM",
+        "video_id": "UR4R3WQvt9A",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/kGG1CaeQ9oM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=kGG1CaeQ9oM"
+        "embed_url": "https://www.youtube.com/embed/UR4R3WQvt9A?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=UR4R3WQvt9A"
       }
     ],
     "cameras": [

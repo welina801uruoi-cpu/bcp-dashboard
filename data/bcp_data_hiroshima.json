@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 20:05:35",
+  "timestamp": "2026-11-14 20:44:46",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -190,10 +190,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -272,11 +272,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中国電力NW: 【停電発生中】島根で停電情報を検知",
+    "power_msg": "中国電力NW: 停電情報なし（中国エリア管内正常）",
     "water_msg": "広島市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "広島ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -543,7 +543,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 05:04:55 JST"
+    "last_updated": "2026-11-15 05:44:34 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

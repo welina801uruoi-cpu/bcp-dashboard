@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-15 04:32:18",
-  "timestamp_local": "2026-11-15 01:02:18",
+  "timestamp": "2026-11-15 05:06:17",
+  "timestamp_local": "2026-11-15 01:36:17",
   "country": {
     "id": "india",
     "name": "インド",
@@ -289,7 +289,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 21,
+    "count_24h": 19,
     "summary": "M4.7 (24 km S of Yacuiba, Bolivia)",
     "latest": {
       "mag": 4.7,
@@ -425,6 +425,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "全米、14日の欠航・遅延が1万便超に(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/324cc9df76bedfa89363ab29959925a165ebb23b?source=rss",
+        "description": "【ワシントン共同】航空情報サイト「フライトアウェア」によると、全米の空港で14日の欠航・遅延が計1万便超になった。",
+        "pub_date": "11/15 04:50 JST",
+        "is_priority": false
+      },
+      {
         "title": "ウクライナ東部撤退を米が打診　NATO加盟と引き換え　ゼレンスキー氏明らかに(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/d7903db426cd06988f112db127f947db91e2a4e9?source=rss",
         "description": "アメリカの交渉団がウクライナに対し、NATO（北大西洋条約機構）への加盟と引き換えに東部からの撤退を打診したとロイター通信が報じました。 ロイター通信によりますと、ウクライナのゼレンスキー大統領は14",
@@ -556,13 +563,6 @@
         "description": "（台北中央社）今月28日に投開票される台北市長選のテレビ政見発表会が14日行われ、現職である最大野党・国民党の蒋万安（しょうばんあん）氏や与党・民進党の沈伯洋（しんはくよう）氏ら6人が支持を訴えた。沈",
         "pub_date": "11/14 19:34 JST",
         "is_priority": false
-      },
-      {
-        "title": "「ミシシッピ川の奇跡だ」タンカーが遊覧船に衝突  転落した乗客ら全員の安否確認(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/7c94a075ca53666fc2aa9749e90815338aed44fa?source=rss",
-        "description": "アメリカのミシシッピ川に停泊していた遊覧船にタンカーが衝突しました。 AP通信などによりますと、アメリカ南部のニューオーリンズで13日、乗客乗員合わせて197人が乗っていた大型遊覧船にタンカーが衝突し",
-        "pub_date": "11/14 19:33 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -683,7 +683,7 @@
     "default_channel_id": "stream_ndtv_live"
   },
   "forex": {
-    "timestamp": "11/15 04:32 JST",
+    "timestamp": "11/15 05:06 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -752,36 +752,81 @@
         "lat": 28.6139,
         "lon": 77.209,
         "temp": 20.8,
-        "apparent_temp": 21.5,
-        "humidity": 66,
-        "wind_speed": 4.2,
-        "wind_gusts": 9.0,
+        "apparent_temp": 22.1,
+        "humidity": 71,
+        "wind_speed": 4.0,
+        "wind_gusts": 7.9,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/15(日)",
-            "temp_max": 26.3,
-            "temp_min": 18.6,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 2.0
+            "temp_max": 27.0,
+            "temp_min": 19.3,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.7
           },
           {
             "date": "11/16(月)",
             "temp_max": 26.0,
-            "temp_min": 16.1,
+            "temp_min": 16.3,
             "weather_code": 0,
             "weather_label": "☀️ 快晴",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/17(火)",
-            "temp_max": 24.9,
+            "temp_max": 25.0,
             "temp_min": 13.7,
             "weather_code": 0,
             "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ムンバイ (商業都市)",
+        "name_en": "Mumbai",
+        "is_capital": false,
+        "lat": 19.076,
+        "lon": 72.8777,
+        "temp": 25.5,
+        "apparent_temp": 28.5,
+        "humidity": 69,
+        "wind_speed": 4.2,
+        "wind_gusts": 11.5,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 33.5,
+            "temp_min": 23.1,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 33.1,
+            "temp_min": 22.9,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 34.3,
+            "temp_min": 22.4,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
             "precipitation_mm": 0.0
           }
         ],
@@ -796,26 +841,26 @@
         "is_capital": false,
         "lat": 12.9716,
         "lon": 77.5946,
-        "temp": 21.6,
-        "apparent_temp": 22.3,
-        "humidity": 71,
-        "wind_speed": 8.7,
-        "wind_gusts": 20.2,
+        "temp": 20.8,
+        "apparent_temp": 21.5,
+        "humidity": 73,
+        "wind_speed": 8.8,
+        "wind_gusts": 18.4,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/15(日)",
-            "temp_max": 29.5,
-            "temp_min": 19.4,
+            "temp_max": 28.7,
+            "temp_min": 19.3,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/16(月)",
-            "temp_max": 30.7,
+            "temp_max": 29.7,
             "temp_min": 19.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -823,8 +868,8 @@
           },
           {
             "date": "11/17(火)",
-            "temp_max": 30.2,
-            "temp_min": 19.1,
+            "temp_max": 29.9,
+            "temp_min": 18.9,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -843,33 +888,33 @@
       "lat": 28.6139,
       "lon": 77.209,
       "temp": 20.8,
-      "apparent_temp": 21.5,
-      "humidity": 66,
-      "wind_speed": 4.2,
-      "wind_gusts": 9.0,
+      "apparent_temp": 22.1,
+      "humidity": 71,
+      "wind_speed": 4.0,
+      "wind_gusts": 7.9,
       "precipitation": 0.0,
-      "weather_code": 0,
-      "weather_label": "☀️ 快晴",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/15(日)",
-          "temp_max": 26.3,
-          "temp_min": 18.6,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 2.0
+          "temp_max": 27.0,
+          "temp_min": 19.3,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.7
         },
         {
           "date": "11/16(月)",
           "temp_max": 26.0,
-          "temp_min": 16.1,
+          "temp_min": 16.3,
           "weather_code": 0,
           "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/17(火)",
-          "temp_max": 24.9,
+          "temp_max": 25.0,
           "temp_min": 13.7,
           "weather_code": 0,
           "weather_label": "☀️ 快晴",
@@ -881,7 +926,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/15 04:32 JST"
+    "timestamp": "11/15 05:06 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -910,7 +955,7 @@
         "details": "デリーメトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/15 04:32 JST"
+    "timestamp": "11/15 05:06 JST"
   },
   "lifeline": {
     "status": "NORMAL",

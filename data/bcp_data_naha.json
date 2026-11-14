@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 16:31:56",
+  "timestamp": "2026-11-14 17:09:55",
   "location": {
     "name": "那覇",
     "region_name": "沖縄エリア",
@@ -31,12 +31,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "3",
-    "time": "2026-11-15 00:05",
-    "place": "熊本県熊本地方",
-    "magnitude": "3.9",
+    "shindo": "1",
+    "time": "2026-11-15 01:50",
+    "place": "茨城県沖",
+    "magnitude": "3.7",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-15 01:50",
+        "place": "茨城県沖",
+        "shindo": "1",
+        "magnitude": "3.7",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-15 00:05",
         "place": "熊本県熊本地方",
@@ -98,13 +105,6 @@
         "place": "和歌山県北部",
         "shindo": "1",
         "magnitude": "2.4",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-13 15:26",
-        "place": "熊本県熊本地方",
-        "shindo": "1",
-        "magnitude": "2.2",
         "maxScale": 10
       }
     ]
@@ -174,11 +174,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "沖縄電力: 【停電発生中】沖縄で停電情報を検知",
+    "power_msg": "沖縄電力: 停電情報なし（沖縄エリア管内正常）",
     "water_msg": "那覇市上下水道局: 供給安定（平常）",
     "gas_msg": "沖縄ガス: 供給安定（遮断等なし）",
     "power_url": "https://www.okiden.co.jp/",
@@ -450,7 +450,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 01:31:20 JST"
+    "last_updated": "2026-11-15 02:09:30 JST"
   },
   "live_media": {
     "default_camera_id": "cam_naha_kokusai",
@@ -471,10 +471,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "18babMvpdLw",
+        "video_id": "fKTgTcrHxZE",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/18babMvpdLw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=18babMvpdLw"
+        "embed_url": "https://www.youtube.com/embed/fKTgTcrHxZE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=fKTgTcrHxZE"
       },
       {
         "id": "stream_tbsnews",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 16:30:20",
+  "timestamp": "2026-11-14 17:08:25",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -346,12 +346,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "3",
-    "time": "2026-11-15 00:05",
-    "place": "熊本県熊本地方",
-    "magnitude": "3.9",
+    "shindo": "1",
+    "time": "2026-11-15 01:50",
+    "place": "茨城県沖",
+    "magnitude": "3.7",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-15 01:50",
+        "place": "茨城県沖",
+        "shindo": "1",
+        "magnitude": "3.7",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-15 00:05",
         "place": "熊本県熊本地方",
@@ -413,13 +420,6 @@
         "place": "和歌山県北部",
         "shindo": "1",
         "magnitude": "2.4",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-13 15:26",
-        "place": "熊本県熊本地方",
-        "shindo": "1",
-        "magnitude": "2.2",
         "maxScale": 10
       }
     ]
@@ -873,10 +873,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -914,10 +914,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/38/"
       },
       {
@@ -941,10 +941,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -955,10 +955,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       },
       {
@@ -970,10 +970,10 @@
         "warns": [],
         "notices": [
           "大雨注意報",
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "大雨注意報、強風注意報、雷注意報",
+        "summary": "大雨注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -984,10 +984,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -1024,10 +1024,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1057,61 +1057,40 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線35路線: 山陽本線、呉線、美祢線等 ／ 新幹線: 東海道新幹線（列車遅延）、山陽新幹線（その他））",
+    "text": "運行支障あり（在来線16路線: 肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山陽本線、呉線、美祢線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線 等 計35路線）",
+    "line_text": "運行支障あり（肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線、山田線 等 計16路線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延）、山陽新幹線（その他）、九州新幹線（その他）、西九州新幹線（列車遅延））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "山陽本線",
-      "呉線",
-      "美祢線",
+      "肥薩線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
+      "美祢線",
       "山田線",
       "米坂線",
       "陸羽東線",
       "北上線",
       "津軽線",
-      "東海道本線",
-      "中央本線",
-      "紀勢本線",
       "越後線",
       "大井川鉄道大井川本線",
       "万葉線",
-      "鹿児島本線",
-      "日豊本線",
-      "福北ゆたか線",
-      "唐津線",
-      "長崎本線",
-      "佐世保線",
-      "久大本線",
-      "豊肥本線",
-      "肥薩線",
-      "学研都市線",
-      "阪和線",
-      "奈良線",
-      "内房線",
-      "外房線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "千葉都市モノレール線",
       "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
-      "東海道新幹線（列車遅延）",
       "山陽新幹線（その他）",
-      "九州新幹線（その他）",
-      "西九州新幹線（列車遅延）"
+      "九州新幹線（その他）"
     ],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "静岡駅構内での線路内点検の影響で、列車に遅れが出ています。（11月14日 23時5分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       },
       {
@@ -1158,9 +1137,9 @@
       },
       {
         "name": "西九州新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "鹿児島本線内での線路内点検の影響で、一部列車に遅れが出ています。（11月14日 21時5分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/640/0"
       },
       {
@@ -1178,7 +1157,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 35,
+    "target_lines_count": 16,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1193,7 +1172,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・長野・沖縄で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・長野で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1461,7 +1440,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 01:30:17 JST"
+    "last_updated": "2026-11-15 02:08:23 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1482,10 +1461,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "18babMvpdLw",
+        "video_id": "fKTgTcrHxZE",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/18babMvpdLw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=18babMvpdLw"
+        "embed_url": "https://www.youtube.com/embed/fKTgTcrHxZE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=fKTgTcrHxZE"
       },
       {
         "id": "stream_tbsnews",

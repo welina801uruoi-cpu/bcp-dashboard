@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 16:30:57",
+  "timestamp": "2026-11-14 17:09:00",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -83,12 +83,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "3",
-    "time": "2026-11-15 00:05",
-    "place": "熊本県熊本地方",
-    "magnitude": "3.9",
+    "shindo": "1",
+    "time": "2026-11-15 01:50",
+    "place": "茨城県沖",
+    "magnitude": "3.7",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-15 01:50",
+        "place": "茨城県沖",
+        "shindo": "1",
+        "magnitude": "3.7",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-15 00:05",
         "place": "熊本県熊本地方",
@@ -150,13 +157,6 @@
         "place": "和歌山県北部",
         "shindo": "1",
         "magnitude": "2.4",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-13 15:26",
-        "place": "熊本県熊本地方",
-        "shindo": "1",
-        "magnitude": "2.2",
         "maxScale": 10
       }
     ]
@@ -256,26 +256,22 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東海道本線、中央本線、越後線 ／ 新幹線: 東海道新幹線（列車遅延））",
+    "text": "運行支障あり（在来線: 越後線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東海道本線、中央本線、越後線）",
-    "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延））",
+    "line_text": "運行支障あり（越後線）",
+    "shinkansen_status": "NORMAL",
+    "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
-      "東海道本線",
-      "中央本線",
       "越後線"
     ],
-    "troubled_shinkansen": [
-      "東海道新幹線（列車遅延）"
-    ],
+    "troubled_shinkansen": [],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "静岡駅構内での線路内点検の影響で、列車に遅れが出ています。（11月14日 23時5分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       }
     ],
@@ -562,7 +558,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 01:30:17 JST"
+    "last_updated": "2026-11-15 02:08:23 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -583,10 +579,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "18babMvpdLw",
+        "video_id": "fKTgTcrHxZE",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/18babMvpdLw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=18babMvpdLw"
+        "embed_url": "https://www.youtube.com/embed/fKTgTcrHxZE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=fKTgTcrHxZE"
       },
       {
         "id": "stream_tbsnews",

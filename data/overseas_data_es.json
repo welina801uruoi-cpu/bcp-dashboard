@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-15 01:33:14",
-  "timestamp_local": "2026-11-14 18:33:14",
+  "timestamp": "2026-11-15 02:10:45",
+  "timestamp_local": "2026-11-14 19:10:45",
   "country": {
     "id": "spain",
     "name": "スペイン",
@@ -352,13 +352,13 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 22,
+    "count_24h": 20,
     "summary": "M4.9 (7 km SE of Tagbina, Philippines)",
     "latest": {
       "mag": 4.9,
       "place": "7 km SE of Tagbina, Philippines",
       "time": "11/15 01:04 JST",
-      "depth_km": 147.186,
+      "depth_km": 154.123,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l",
       "tsunami": 0
     },
@@ -367,7 +367,7 @@
         "mag": 4.9,
         "place": "7 km SE of Tagbina, Philippines",
         "time": "11/15 01:04 JST",
-        "depth_km": 147.186,
+        "depth_km": 154.123,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l",
         "tsunami": 0
       },
@@ -637,12 +637,8 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
-        {
-          "time": "11/14 16:20",
-          "text": "バルセロナ で スリ 被害にあった 自分が情けない よく日本人のイメージを外人に聞いたら95%が「優しい」と言う意味がわ..."
-        },
         {
           "time": "11/10 22:33",
           "text": "ちなみに バルセロナ は「 スリ の首都」と聞いてかなり身構えていたのですが、実際に歩いてみると想像したよりずっと穏やか..."
@@ -650,6 +646,10 @@
         {
           "time": "11/09 12:41",
           "text": "@SkyscannerJapan バルセロナ 🇪🇸 スリ が多いから気をつけて‼️ 沢山の人から スリ EN..."
+        },
+        {
+          "time": "11/09 04:58",
+          "text": "確かに高齢で働いている人は少ないように見えた。 でも街のあちこちで物乞いをする人、シケモクを拾う老人。コンビニなどの店員はほぼ移民、逃げる準備をしながらコピー商..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%90%E3%83%AB%E3%82%BB%E3%83%AD%E3%83%8A%20%E3%82%B9%E3%83%AA"
@@ -771,7 +771,7 @@
     "default_channel_id": "stream_rtve"
   },
   "forex": {
-    "timestamp": "11/15 01:33 JST",
+    "timestamp": "11/15 02:10 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -854,10 +854,10 @@
         "is_capital": true,
         "lat": 40.4168,
         "lon": -3.7038,
-        "temp": 13.4,
-        "apparent_temp": 12.0,
-        "humidity": 84,
-        "wind_speed": 11.7,
+        "temp": 13.1,
+        "apparent_temp": 11.7,
+        "humidity": 85,
+        "wind_speed": 11.0,
         "wind_gusts": 32.0,
         "precipitation": 0.0,
         "weather_code": 3,
@@ -894,15 +894,60 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
+        "name": "バルセロナ (カタルーニャ)",
+        "name_en": "Barcelona",
+        "is_capital": false,
+        "lat": 41.3879,
+        "lon": 2.1699,
+        "temp": 17.1,
+        "apparent_temp": 17.6,
+        "humidity": 79,
+        "wind_speed": 3.7,
+        "wind_gusts": 6.1,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/14(土)",
+            "temp_max": 17.2,
+            "temp_min": 15.2,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 19.3,
+            "temp_min": 14.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 21.0,
+            "temp_min": 14.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "セビリア (アンダルシア)",
         "name_en": "Seville",
         "is_capital": false,
         "lat": 37.3891,
         "lon": -5.9845,
-        "temp": 19.8,
-        "apparent_temp": 19.7,
-        "humidity": 72,
-        "wind_speed": 11.0,
+        "temp": 19.3,
+        "apparent_temp": 19.5,
+        "humidity": 75,
+        "wind_speed": 9.7,
         "wind_gusts": 31.7,
         "precipitation": 0.0,
         "weather_code": 1,
@@ -945,10 +990,10 @@
       "is_capital": true,
       "lat": 40.4168,
       "lon": -3.7038,
-      "temp": 13.4,
-      "apparent_temp": 12.0,
-      "humidity": 84,
-      "wind_speed": 11.7,
+      "temp": 13.1,
+      "apparent_temp": 11.7,
+      "humidity": 85,
+      "wind_speed": 11.0,
       "wind_gusts": 32.0,
       "precipitation": 0.0,
       "weather_code": 3,
@@ -984,7 +1029,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/15 01:33 JST"
+    "timestamp": "11/15 02:10 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1066,7 +1111,7 @@
         "details": "全国主要都市間ルートは定常運行中"
       }
     ],
-    "timestamp": "11/15 01:33 JST"
+    "timestamp": "11/15 02:10 JST"
   },
   "lifeline": {
     "status": "NORMAL",

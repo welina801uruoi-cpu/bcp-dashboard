@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 15:25:28",
+  "timestamp": "2026-11-14 16:01:42",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -293,11 +293,11 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 鹿児島本線、日豊本線、長崎本線 ／ 新幹線: 九州新幹線（その他）、西九州新幹線（列車遅延））",
+    "text": "運行支障あり（在来線: 鹿児島本線、日豊本線、長崎本線 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
     "line_text": "運行支障あり（鹿児島本線、日豊本線、長崎本線、佐世保線、久大本線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（九州新幹線（その他）、西九州新幹線（列車遅延））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他）、西九州新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [
       "鹿児島本線",
@@ -309,15 +309,16 @@
       "肥薩線"
     ],
     "troubled_shinkansen": [
+      "山陽新幹線（その他）",
       "九州新幹線（その他）",
       "西九州新幹線（列車遅延）"
     ],
     "shinkansen_details": [
       {
         "name": "山陽新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "23:25現在、ほぼ平常通り運転しています。（11月14日 23時25分掲載）",
+        "status": "ALERT",
+        "state": "その他",
+        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月14日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       },
       {
@@ -617,7 +618,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 00:25:25 JST"
+    "last_updated": "2026-11-15 01:01:39 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",

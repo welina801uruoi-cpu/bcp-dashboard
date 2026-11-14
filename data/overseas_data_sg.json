@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-15 00:26:35",
-  "timestamp_local": "2026-11-14 23:26:35",
+  "timestamp": "2026-11-15 01:02:54",
+  "timestamp_local": "2026-11-15 00:02:54",
   "country": {
     "id": "singapore",
     "name": "シンガポール",
@@ -639,7 +639,7 @@
     "default_channel_id": "stream_cna_live"
   },
   "forex": {
-    "timestamp": "11/15 00:26 JST",
+    "timestamp": "11/15 01:02 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -692,23 +692,15 @@
         "is_capital": true,
         "lat": 1.3521,
         "lon": 103.8198,
-        "temp": 24.8,
-        "apparent_temp": 30.7,
+        "temp": 24.5,
+        "apparent_temp": 30.2,
         "humidity": 99,
-        "wind_speed": 4.1,
+        "wind_speed": 4.3,
         "wind_gusts": 7.6,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 45,
+        "weather_label": "🌫️ 霧",
         "forecast": [
-          {
-            "date": "11/14(土)",
-            "temp_max": 31.2,
-            "temp_min": 24.4,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 4.6
-          },
           {
             "date": "11/15(日)",
             "temp_max": 30.3,
@@ -724,12 +716,20 @@
             "weather_code": 95,
             "weather_label": "⛈️ 雷雨 (弱〜中)",
             "precipitation_mm": 21.7
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 31.6,
+            "temp_min": 23.4,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 13.0
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -738,23 +738,15 @@
       "is_capital": true,
       "lat": 1.3521,
       "lon": 103.8198,
-      "temp": 24.8,
-      "apparent_temp": 30.7,
+      "temp": 24.5,
+      "apparent_temp": 30.2,
       "humidity": 99,
-      "wind_speed": 4.1,
+      "wind_speed": 4.3,
       "wind_gusts": 7.6,
       "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "weather_code": 45,
+      "weather_label": "🌫️ 霧",
       "forecast": [
-        {
-          "date": "11/14(土)",
-          "temp_max": 31.2,
-          "temp_min": 24.4,
-          "weather_code": 55,
-          "weather_label": "🌦️ 霧雨 (強)",
-          "precipitation_mm": 4.6
-        },
         {
           "date": "11/15(日)",
           "temp_max": 30.3,
@@ -770,14 +762,22 @@
           "weather_code": 95,
           "weather_label": "⛈️ 雷雨 (弱〜中)",
           "precipitation_mm": 21.7
+        },
+        {
+          "date": "11/17(火)",
+          "temp_max": 31.6,
+          "temp_min": 23.4,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 13.0
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/15 00:26 JST"
+    "timestamp": "11/15 01:02 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -806,7 +806,7 @@
         "details": "MRT南北線・東西線・環状線など平常運行中"
       }
     ],
-    "timestamp": "11/15 00:26 JST"
+    "timestamp": "11/15 01:02 JST"
   },
   "lifeline": {
     "status": "NORMAL",

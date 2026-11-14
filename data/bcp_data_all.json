@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 09:51:25",
+  "timestamp": "2026-11-14 10:26:45",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -1025,28 +1025,31 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線29路線: 山口線、美祢線、山田線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線32路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、山陰本線等 ／ 新幹線: 山陽新幹線（列車遅延）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山口線、美祢線、山田線、米坂線、陸羽東線 等 計29路線）",
+    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、山陰本線、山陽本線、山口線 等 計32路線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "山口線",
-      "美祢線",
-      "山田線",
-      "米坂線",
-      "陸羽東線",
-      "北上線",
-      "津軽線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
+      "山陰本線",
+      "山陽本線",
+      "山口線",
+      "美祢線",
       "鹿児島本線",
       "日豊本線",
       "福北ゆたか線",
       "長崎本線",
       "佐世保線",
       "肥薩線",
+      "山田線",
+      "米坂線",
+      "陸羽東線",
+      "北上線",
+      "津軽線",
+      "小浜線",
       "大阪モノレール線",
       "東海道本線",
       "関西本線",
@@ -1054,7 +1057,7 @@
       "大井川鉄道大井川本線",
       "万葉線",
       "湘南新宿ライン",
-      "横須賀線",
+      "総武線",
       "成田線",
       "久留里線",
       "小湊鉄道線",
@@ -1063,7 +1066,7 @@
       "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
-      "山陽新幹線（その他）",
+      "山陽新幹線（列車遅延）",
       "九州新幹線（その他）"
     ],
     "shinkansen_details": [
@@ -1077,8 +1080,8 @@
       {
         "name": "山陽新幹線",
         "status": "ALERT",
-        "state": "その他",
-        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月14日 5時0分掲載）",
+        "state": "列車遅延",
+        "detail": "岡山駅での車両点検の影響で、上り線(新大阪方面行)の一部列車に遅れが出ています。（11月14日 19時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       },
       {
@@ -1138,7 +1141,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 29,
+    "target_lines_count": 32,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1153,7 +1156,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・長野で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・長野・福岡で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1193,7 +1196,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/14 09:48",
@@ -1239,7 +1242,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/14 09:49",
@@ -1298,7 +1301,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 12,
+    "disaster_count": 11,
     "articles": [
       {
         "title": "原爆投下は「ジェノサイド」　韓国で被団協の田中重光氏が訴え(共同通信)",
@@ -1389,12 +1392,20 @@
         "is_disaster": true
       },
       {
-        "title": "急逝したFWと衝突のGK処分 欧州",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/14 15:53 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602553?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
+        "title": "犯罪ジャーナリスト小川泰平氏に訊く！　「パウチが破裂し…うわっ…夢か…」人工肛門生活のリアル(FRIDAY)",
+        "summary": "「夜、寝ていて、ストーマ(人工肛門)のパウチ(便やガスを受け止めて溜めておく専用の蓄便袋)が破裂する夢を見るんです。毎回、『あっ！』て驚いて飛び起きて、『夢か……』って。その話を主治医にしたら、”患者",
+        "pub_date": "11/14 19:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/9b2ac5d0eb345162d6484df5f6eeef5e92a64583?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【静かに迫る「日本売り」の危機】「ありえないほどの価格変動」…米財務長官が警告した日本の「異常事態」(クーリエ・ジャポン)",
+        "summary": "なぜ異次元緩和は11年にも及んだのか？ 過酷な出口戦略がもたらす巨大なツケとは？日銀の金融政策を徹底的に追い続けた元朝日新聞編集委員・原真人が著書『異次元緩和 経済敗戦と背徳者たち』で15年・1500",
+        "pub_date": "11/14 19:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/ce610d0ef5c8833f2a629df885a024a891d721d9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "両陛下、大阪を訪問　全国海づくり大会臨席へ(共同通信)",
@@ -1411,17 +1422,9 @@
         "link": "https://news.yahoo.co.jp/articles/e7b37309b2bd853718e9410f2f9213ba7ea9db07?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "大阪・枚方3歳女児虐待死　3月にも女児の顔にあざ　8月の死亡時には数十カ所確認(産経新聞)",
-        "summary": "大阪府枚方市で金尾英怜奈（えれな）ちゃん（3）が8月に死亡し、両親が逮捕された事件で、3月に英怜奈ちゃんの顔にあざが確認されていたことが14日、関係者への取材で分かった。司法解剖で英怜奈ちゃんの全身に",
-        "pub_date": "11/14 18:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/76190128683c268582658c7d460a93bb0935c536?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-14 18:51:21 JST"
+    "last_updated": "2026-11-14 19:26:41 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1464,10 +1467,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "rElE457Dq0o",
+        "video_id": "o_Pxapyk93I",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/rElE457Dq0o?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=rElE457Dq0o"
+        "embed_url": "https://www.youtube.com/embed/o_Pxapyk93I?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=o_Pxapyk93I"
       },
       {
         "id": "stream_annnews",

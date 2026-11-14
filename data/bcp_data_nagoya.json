@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 00:40:59",
+  "timestamp": "2026-11-14 01:45:08",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -172,11 +172,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NOTICE",
-    "summary": "【注意報発表: 2地域】長野、三重（警報なし）",
+    "status": "NORMAL",
+    "summary": "現在、東海・信越エリア全域（6地域）に警報・注意報の発表はありません。",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 2,
+    "notice_count": 0,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -194,13 +194,11 @@
         "code": "20",
         "name": "長野県",
         "short_name": "長野",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "濃霧注意報"
-        ],
-        "summary": "濃霧注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -229,13 +227,11 @@
         "code": "24",
         "name": "三重県",
         "short_name": "三重",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "濃霧注意報"
-        ],
-        "summary": "濃霧注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -260,13 +256,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 越後線）",
+    "text": "運行支障あり（在来線: 東海道本線、越後線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（越後線）",
+    "line_text": "運行支障あり（東海道本線、越後線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
+      "東海道本線",
       "越後線"
     ],
     "troubled_shinkansen": [],
@@ -337,16 +334,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/14 01:30",
+          "text": "ドコモやソフトバンクを使っている人が、通信 START 障害 END に備えてサブ回線を持つならpovoも候補です。 povoは START au END 回線..."
+        },
+        {
           "time": "11/13 23:53",
           "text": "南海地震研究所の闇 地震予測のネタ切れ😅 だからどうした ドコモの通信 START 障害 END と地震関係あるかい？ START au END やSoftba..."
         },
         {
           "time": "11/13 22:40",
           "text": "もう家でも普通に回線 START 障害 END が出るようになったらいよいよかな START au END とかSoftBankは家ではどうなんだろう 楽天は？..."
-        },
-        {
-          "time": "11/13 22:23",
-          "text": "docomoの通信 START 障害 END ココ最近ずっとだね、、 料金も高いし😅 START au END かソフトバンクがいいね。"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -403,8 +400,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/14 01:30",
+          "text": "ドコモやソフトバンクを使っている人が、通信 START 障害 END に備えてサブ回線を持つなら START povo END も候補です。 START pov..."
+        },
         {
           "time": "11/13 14:00",
           "text": "デュアルSIMで失敗しない考え方は、主回線と副回線の役割を分けること。 番号と本人確認は主回線に残し、副回線は START povo END やIIJmio e..."
@@ -412,10 +413,6 @@
         {
           "time": "11/13 12:08",
           "text": "[Microsoft Outlook START 障害 END ] をっと! Outlookに約1日ぶり着信! 自分発自分着のOutlook発Outlook宛e..."
-        },
-        {
-          "time": "11/13 11:26",
-          "text": "携帯の副回線、2回線以上持つ人は7.3％という調査結果が出ていました。 副回線では START povo END や楽天モバイルの人気が高いそうです。 安さや、..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -425,13 +422,13 @@
     "status": "NORMAL",
     "office": "名古屋地方気象台",
     "target_area": "愛知県",
-    "report_time": "11/14 04:39",
+    "report_time": "11/14 10:35",
     "headline": "",
-    "text": "　東海地方は、高気圧に緩やかに覆われていますが、湿った空気の影響を受けています。\n\n　東海地方は、曇りまたは晴れとなっています。\n\n　１４日の東海地方は、高気圧に緩やかに覆われるため昼過ぎまで晴れる所がありますが、湿った空気の影響でおおむね曇りとなり、夜遅くは雨の降る所があるでしょう。\n\n　１５日の東海地方は、低気圧や前線の影響で雨や曇りとなり、昼前から夕方にかけて雷を伴って激しく降る所がある見込みです。",
+    "text": "　東海地方は、高気圧に緩やかに覆われていますが、湿った空気の影響を受けています。\n\n　東海地方は、曇りまたは晴れとなっています。\n\n　１４日の東海地方は、高気圧に緩やかに覆われるため昼過ぎまで晴れる所がありますが、湿った空気の影響で曇りとなり、夜遅くは雨の降る所があるでしょう。\n\n　１５日の東海地方は、低気圧や前線の影響で雨や曇りとなり、昼前から夕方にかけて雷を伴って激しく降る所がある見込みです。",
     "paragraphs": [
       "東海地方は、高気圧に緩やかに覆われていますが、湿った空気の影響を受けています。",
       "東海地方は、曇りまたは晴れとなっています。",
-      "１４日の東海地方は、高気圧に緩やかに覆われるため昼過ぎまで晴れる所がありますが、湿った空気の影響でおおむね曇りとなり、夜遅くは雨の降る所があるでしょう。",
+      "１４日の東海地方は、高気圧に緩やかに覆われるため昼過ぎまで晴れる所がありますが、湿った空気の影響で曇りとなり、夜遅くは雨の降る所があるでしょう。",
       "１５日の東海地方は、低気圧や前線の影響で雨や曇りとなり、昼前から夕方にかけて雷を伴って激しく降る所がある見込みです。"
     ],
     "summary": "東海地方は、高気圧に緩やかに覆われていますが、湿った空気の影響を受けています。...",
@@ -439,8 +436,48 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 13,
     "articles": [
+      {
+        "title": "粗品さん「タクシー暴行被害」も被害届を出さなかったワケ　なぜ刑事事件にならない？　弁護士が解説(弁護士ドットコムニュース)",
+        "summary": "タクシーの行き先が違うと指摘したところ、運転手から左頬を殴られ、髪を引っ張られた──。お笑いコンビ「霜降り明星」の粗品さんが、東京都内でタクシーの運転手から暴行を受けていたと「週刊新潮」が報じた。【説",
+        "pub_date": "11/14 10:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/5df2a0b566b99236d7097f06455974ebe31a9631?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "日本で“約8万円”の虫垂炎手術がハワイで“約315万円”　年末年始の海外旅行前に知っておきたい“クレカ付帯保険”の落とし穴…どう備えるか(弁護士JPニュース)",
+        "summary": "海外での日本人が関わる事故や事件の報道が続くなか、年末年始の長期休暇を控え、海外旅行を計画しているという人も多いだろう。環境の違う海外では、予期せぬ病気やケガ、盗難などのトラブルに遭遇する可能性も否定",
+        "pub_date": "11/14 10:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/9ef66838d78c97a08c669eea4fe2dd91e9e8b045?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "大手損保 タマホームでの新規販売停止の方向(ABEMA TIMES)",
+        "summary": "タマホームの社員による火災保険金の不正請求問題をうけ、大手損害保険3社は、タマホームによる火災保険の新規販売を停止させる方向で検討に入ったことがわかりました。【映像】大手損保3社 火災保険の新規販売停",
+        "pub_date": "11/14 10:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/651626a3f452126cf322677fb17fabdca7816a0b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "パトカー追跡の車が衝突事故　運転手は車を置いて逃走　名古屋・南区(メ〜テレ（名古屋テレビ）)",
+        "summary": "13日午後、名古屋市南区の交差点で、パトカーに追跡されていた車が、別の車に衝突する事故がありました。運転手は逃走しています。 警察によりますと、13日午後5時40分ごろ、名古屋市南区天白町の交差点で、",
+        "pub_date": "11/14 09:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/26f08ab98ab425b5d2cdaee86326b9e6ff9ada97?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "ひき逃げで女性2人死亡 逃走のトラック運転手逮捕(ABEMA TIMES)",
+        "summary": "神奈川県海老名市で、女性2人がトラックにひかれて死亡したひき逃げ事件で、トラックを運転していた49歳の男が逮捕されました。【映像】警察署へと運ばれる事故を起こしたトラック加藤聖也記者「時刻は午前2時前",
+        "pub_date": "11/14 09:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/1050e3ba4841d11f27a138daf298671a2bfafd38?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "イ草に集中力を高める効果　九大、熊本の農家も期待(共同通信)",
         "summary": "畳表の材料となるイ草に集中力を高める効果がある―。九州大などのグループが9月、研究結果を国際学術誌に発表した。7月の熊本地震で震度6強だった熊本県八代市が国内有数の産地。同市のイ草農家は「消費拡大につ",
@@ -498,71 +535,31 @@
         "is_disaster": true
       },
       {
-        "title": "首里城復興の節目、街に踊る当蔵町の「旗頭」　伝統文化に託す地元青年会の特別な思い(FNNプライムオンライン)",
-        "summary": "7年前の火災で焼失した首里城正殿の完成を控え、期待感が高まるなかで「首里城復興祭」が開催された。毎年文化の日に催される古式行列では、焼失した国王・王妃の衣装も復元され、王国の栄華を今に伝えた。首里城を",
-        "pub_date": "11/14 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/0f7aa50314d42e15b8d31a4789bc634a12fa437d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "2人死亡ひき逃げ容疑　神奈川、トラックの男逮捕(共同通信)",
-        "summary": "神奈川県海老名市で高齢女性2人がはねられ死亡した事故で、県警は14日、自動車運転処罰法違反（過失致死）と道交法違反（ひき逃げ）の疑いで、相模原市緑区中野、会社員会田誠容疑者（49）を逮捕した。 逮捕容",
-        "pub_date": "11/14 06:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/c8da3b2f2cf321c155f328e9c470ecce5bd40909?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "全米空港で地上待機命令 通信障害",
+        "title": "米でタンカーがクルーズ船に衝突",
         "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/14 08:42 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602503?source=rss",
+        "pub_date": "11/14 09:20 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6602509?source=rss",
         "category": "主要速報",
         "is_disaster": true
       },
       {
-        "title": "2人死亡ひき逃げ事故 49歳を逮捕",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/14 07:48 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602496?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "フードコートで「水をくみたい…」一瞬だけ離席する際の“正解”が判明!?子どもを待たせるパパが放った“魔法の一言”に「勉強になる〜」「制限より使命感」称賛の声(ABEMA TIMES)",
-        "summary": "多くの人が行き交うフードコートで、幼い子どもを席で待たせるために父親が放った“魔法の一言”に、SNSでは「制限より使命感」「勉強になる〜」など称賛の声が上がっている。【映像】パパが離席前に使った“正解",
-        "pub_date": "11/14 09:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/685ce8cbea7d9c2bfb65ca3fead2d7c83e6e69cb?source=rss",
+        "title": "「アメトーーク！」から「クレヨンしんちゃん」まで　戯曲賞も受賞した蓮見翔とは何者か？　「ダウ90000」主宰・脚本家・蓮見翔(AERA DIGITAL)",
+        "summary": "「ダウ90000」主宰、脚本家の蓮見翔。ライブをやれば、チケットは即完売。今年2月には「ロマンス」で第70回岸田國士戯曲賞を受賞した。大学時代の仲間と、ダウ90000を結成。コロナ禍で、いち早く動画配",
+        "pub_date": "11/14 10:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/22d8021ede9d13cb61af91b2a5279cdbab977667?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "パンサー菅良太郎、いびきは「バイクの音」級　眠ることさえ怖かった日々、最新手術で「人生が変わった」(AERA DIGITAL)",
-        "summary": "重度の睡眠時無呼吸症候群に苦しんできた、お笑いトリオ・パンサーの菅良太郎さん（44）。朝起きても疲れが取れず、仕事中には強烈な眠気に襲われた。やがて眠ること自体が怖くなり、治療を始めたものの、今度はそ",
-        "pub_date": "11/14 09:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/ff6c47cc9fcd593fc3e37d86dad63e2cb1b0dbc6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "雅子さま、見送りの最後に小さな「会釈」　ベトナム国家主席夫妻には見えない“おもてなし”(AERA DIGITAL)",
-        "summary": "天皇、皇后両陛下が11日、皇居・宮殿でベトナムの最高指導者トー・ラム共産党書記長兼国家主席夫妻と会見し、昼食を共にされた際の振る舞いについて、マナーアナリストの西出ひろ子さんは「深いおもてなしの心」を",
-        "pub_date": "11/14 09:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/99d5a4c4bf287b08733ec3be18052f6275a20646?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "わずか4人の造反に自民党内がピリピリ…石破茂と小渕優子があぶり出した｢高市1強｣のほころび(プレジデントオンライン)",
-        "summary": "■造反した4人への共感 「自民党は1年前まで『財源なき消費減税はあってはならない』と言い続けてきた。1年でくるくる変わるような税制は、慎まなければならない。高市早苗首相は『12月までにはちゃんとする』",
-        "pub_date": "11/14 09:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/0d2598ee3967944ed99f16e487ab60adb2752933?source=rss",
+        "title": "徳川慶喜が政敵を「天下の大愚物」と罵倒…頭が切れるのに鳥羽・伏見で大敗した「致命的な欠点」(ダイヤモンド・オンライン)",
+        "summary": "徳川慶喜は自分の持論を曲げてまで政敵を追いつめ、最後の将軍になってからも大政奉還という奇策を打った。その狙いは単に政権を手放すことではなく、新たな政治体制で実権を握り続けることだった。実際、その目論見",
+        "pub_date": "11/14 10:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/b237f57dce805745e65412814c9114c3bb9fecb0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-14 09:40:19 JST"
+    "last_updated": "2026-11-14 10:44:17 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -583,10 +580,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "saf53wHVtB4",
+        "video_id": "HQPrfvXZkYQ",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/saf53wHVtB4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=saf53wHVtB4"
+        "embed_url": "https://www.youtube.com/embed/HQPrfvXZkYQ?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=HQPrfvXZkYQ"
       },
       {
         "id": "stream_tbsnews",
@@ -605,10 +602,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "fC2KdgR_Mag",
+        "video_id": "_YMPcH25XCc",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/fC2KdgR_Mag?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=fC2KdgR_Mag"
+        "embed_url": "https://www.youtube.com/embed/_YMPcH25XCc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=_YMPcH25XCc"
       },
       {
         "id": "stream_annnews",
@@ -616,10 +613,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "ZTiIPoM_IWY",
+        "video_id": "AAcFw382Vls",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/ZTiIPoM_IWY?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=ZTiIPoM_IWY"
+        "embed_url": "https://www.youtube.com/embed/AAcFw382Vls?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=AAcFw382Vls"
       },
       {
         "id": "stream_fnnnews",

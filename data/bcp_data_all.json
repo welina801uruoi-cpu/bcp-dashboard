@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 18:51:53",
+  "timestamp": "2026-11-14 19:30:08",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -435,11 +435,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "ALERT",
-    "summary": "【警報発表: 1地域】沖縄（大雨警報） ／ 他20地域で注意報",
+    "status": "NOTICE",
+    "summary": "【注意報発表: 24地域】栃木、群馬、静岡、愛知、三重、京都、大阪、兵庫、和歌山、島根、広島、山口、徳島、香川、愛媛、高知、福岡、佐賀、長崎、熊本、大分、宮崎、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
-    "alert_count": 1,
-    "notice_count": 20,
+    "alert_count": 0,
+    "notice_count": 24,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -714,33 +714,39 @@
         "code": "22",
         "name": "静岡県",
         "short_name": "静岡",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
         "code": "23",
         "name": "愛知県",
         "short_name": "愛知",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/23/"
       },
       {
         "code": "24",
         "name": "三重県",
         "short_name": "三重",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -812,9 +818,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "雷注意報"
         ],
-        "summary": "雷注意報",
+        "summary": "強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       },
       {
@@ -913,11 +920,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
+          "波浪注意報",
           "雷注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/38/"
       },
       {
@@ -970,10 +977,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "大雨注意報",
-          "雷注意報"
+          "雷注意報",
+          "大雨注意報"
         ],
-        "summary": "強風注意報、大雨注意報、雷注意報",
+        "summary": "強風注意報、雷注意報、大雨注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -998,9 +1005,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "雷注意報"
         ],
-        "summary": "雷注意報",
+        "summary": "強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -1034,16 +1042,13 @@
         "code": "47",
         "name": "沖縄県",
         "short_name": "沖縄",
-        "status": "ALERT",
+        "status": "NOTICE",
         "emg_warns": [],
-        "warns": [
-          "大雨警報"
-        ],
+        "warns": [],
         "notices": [
-          "大雨注意報",
           "雷注意報"
         ],
-        "summary": "大雨警報、大雨注意報、雷注意報",
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -1057,16 +1062,20 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線16路線: 肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線16路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、肥薩線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線、越後線 等 計16路線）",
+    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、肥薩線、久留里線、小湊鉄道線 等 計16路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "肥薩線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
+      "肥薩線",
+      "久留里線",
+      "小湊鉄道線",
+      "いすみ鉄道線",
+      "わたらせ渓谷鐵道線",
       "美祢線",
       "越後線",
       "大井川鉄道大井川本線",
@@ -1075,11 +1084,7 @@
       "米坂線",
       "陸羽東線",
       "北上線",
-      "津軽線",
-      "久留里線",
-      "小湊鉄道線",
-      "いすみ鉄道線",
-      "わたらせ渓谷鐵道線"
+      "津軽線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1440,7 +1445,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 03:51:50 JST"
+    "last_updated": "2026-11-15 04:30:05 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

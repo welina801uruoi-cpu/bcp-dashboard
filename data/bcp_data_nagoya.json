@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 18:52:45",
+  "timestamp": "2026-11-14 19:30:43",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -172,11 +172,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NORMAL",
-    "summary": "現在、東海・信越エリア全域（6地域）に警報・注意報の発表はありません。",
+    "status": "NOTICE",
+    "summary": "【注意報発表: 3地域】静岡、三重、愛知（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 0,
+    "notice_count": 3,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -216,33 +216,39 @@
         "code": "22",
         "name": "静岡県",
         "short_name": "静岡",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
         "code": "24",
         "name": "三重県",
         "short_name": "三重",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
         "code": "23",
         "name": "愛知県",
         "short_name": "愛知",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/23/"
       }
     ]
@@ -558,7 +564,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 03:51:50 JST"
+    "last_updated": "2026-11-15 04:30:05 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",

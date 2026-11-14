@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 12:20:28",
+  "timestamp": "2026-11-14 13:20:30",
   "location": {
     "name": "那覇",
     "region_name": "沖縄エリア",
@@ -31,12 +31,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-14 15:39",
-    "place": "根室半島南東沖",
-    "magnitude": "4.2",
+    "shindo": "2",
+    "time": "2026-11-14 22:02",
+    "place": "和歌山県北部",
+    "magnitude": "2.9",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-14 22:02",
+        "place": "和歌山県北部",
+        "shindo": "2",
+        "magnitude": "2.9",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-14 15:39",
         "place": "根室半島南東沖",
@@ -99,13 +106,6 @@
         "shindo": "3",
         "magnitude": "-",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-13 03:48",
-        "place": "茨城県沖",
-        "shindo": "1",
-        "magnitude": "3.6",
-        "maxScale": 10
       }
     ]
   },
@@ -135,10 +135,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "大雨注意報",
-          "雷注意報"
+          "雷注意報",
+          "大雨注意報"
         ],
-        "summary": "大雨注意報、雷注意報",
+        "summary": "雷注意報、大雨注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -216,19 +216,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/14 12:36",
+          "text": "23年の7月くらいのKDDI大規模 START 障害 END までは START au END もなんとか1だけど繋がってたのがそこからほぼ圏外になったんだよな..."
+        },
+        {
+          "time": "11/14 12:35",
+          "text": "米マイクロソフトが大規模 START 障害 END の全面復旧を発表、原因は「設備増強作業の不備」…サイバー攻撃やＡＩ暴走は否定 | START au END ..."
+        },
         {
           "time": "11/14 10:33",
           "text": "ローミング縮小でも楽天モバイルからユーザーが流出しない理由 一方で浮上する「副回線化とARPU低下」の懸念 https://t.co/Unf8jZfza1 いや..."
-        },
-        {
-          "time": "11/14 10:31",
-          "text": "え、うちの家族まとめて携帯使えんくなってんけど通信 START 障害 END きてるんとちゃうのこれ？ どうなってる START au END ？"
-        },
-        {
-          "time": "11/14 09:48",
-          "text": "【いざという時のネット環境に💻】 楽天モバイルのWiFi Pocketが1円キャンペーン中📶 停電・通信 START 障害 END ・出張・在宅でも使える備えと..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -239,8 +239,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/14 12:36",
+          "text": "23年の7月くらいの START KDDI END 大規模 START 障害 END まではauもなんとか1だけど繋がってたのがそこからほぼ圏外になったんだよな..."
+        },
         {
           "time": "11/13 14:10",
           "text": "今回の件、4年前の START KDDI END の大規模通信 START 障害 END も確か週末だった。 今回のMicrosoftといい週末に起きてるのは不..."
@@ -248,10 +252,6 @@
         {
           "time": "11/13 13:40",
           "text": "START KDDI END の START 障害 END のときに似た感じの説明だな #報道ステーション"
-        },
-        {
-          "time": "11/13 08:36",
-          "text": "世間はM365 START 障害 END で大変やけど、しれっとキャリアメール死んでる START KDDI END さんは何をされているのですか？ 今日の7時..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -328,6 +328,14 @@
     "disaster_count": 10,
     "articles": [
       {
+        "title": "「2名が車の下敷きに…」神社の参道付近で夫婦が車にひかれ妻が意識不明の重体 アクセルとブレーキの踏み間違えか(東海テレビ)",
+        "summary": "14日夕方、岐阜市にある伊奈波神社の参道付近で、軽ワゴン車が歩行者2人に衝突すし、1人が意識不明の重体です。 警察によりますと、14日午後4時すぎ、岐阜市伊奈波通1丁目にある伊奈波神社の参道付近で、通",
+        "pub_date": "11/14 21:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/e46a338ad94cb8a3421a96f5606762a9b5f011bf?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "原爆投下は「ジェノサイド」　韓国で被団協の田中重光氏が訴え(共同通信)",
         "summary": "【ソウル共同】13日からソウルで開かれている在韓被爆者が米国の原爆投下責任を問う「原爆国際民衆法廷」で14日、日本の被爆者と世界の核実験被害者らが証言した。日本原水爆被害者団体協議会（被団協）の田中重",
         "pub_date": "11/14 18:44 JST",
@@ -400,14 +408,6 @@
         "is_disaster": true
       },
       {
-        "title": "東関東道でトレーラー横転 3人が軽傷 千葉・四街道市(ABEMA TIMES)",
-        "summary": "千葉県・四街道市を通る東関東道の下りで、トレーラー1台と乗用車2台の事故があり3人が軽傷です。トレーラーは横転しています。【映像】中央分離帯に衝突し横転したトレーラー（現場の様子） 14日正午ごろ、東",
-        "pub_date": "11/14 16:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/7d6e27bb0ef743c01b73e98e93e102dfbd785c37?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "AI悪用の攻撃拠点、千台発見　サイトの弱点探索、不正侵入疑い(共同通信)",
         "summary": "高性能な人工知能（AI）を悪用したサイバー攻撃の拠点と疑われるサーバーが10月以降、世界のインターネット上に少なくとも千台前後存在していることが14日、分かった。日本の情報セキュリティー専門機関が海外",
         "pub_date": "11/14 21:00 JST",
@@ -448,7 +448,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-14 21:20:25 JST"
+    "last_updated": "2026-11-14 22:20:07 JST"
   },
   "live_media": {
     "default_camera_id": "cam_naha_kokusai",
@@ -480,10 +480,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "m1EV4M9GoVk",
+        "video_id": "u7kCTaCX_J4",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/m1EV4M9GoVk?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=m1EV4M9GoVk"
+        "embed_url": "https://www.youtube.com/embed/u7kCTaCX_J4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=u7kCTaCX_J4"
       },
       {
         "id": "stream_ntvnews",
@@ -491,10 +491,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "o_Pxapyk93I",
+        "video_id": "33tHrsziExs",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/o_Pxapyk93I?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=o_Pxapyk93I"
+        "embed_url": "https://www.youtube.com/embed/33tHrsziExs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=33tHrsziExs"
       },
       {
         "id": "stream_annnews",

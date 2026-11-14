@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-14 21:20:58",
-  "timestamp_local": "2026-11-14 20:20:58",
+  "timestamp": "2026-11-14 22:20:37",
+  "timestamp_local": "2026-11-14 21:20:37",
   "country": {
     "id": "taiwan",
     "name": "台湾",
@@ -306,17 +306,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 21,
-    "summary": "M5.5 (northern Mid-Atlantic Ridge)",
+    "count_24h": 22,
+    "summary": "M4.5 (137 km SE of Petropavlovsk-Kamchatsky, Russia)",
     "latest": {
-      "mag": 5.5,
-      "place": "northern Mid-Atlantic Ridge",
-      "time": "11/14 18:26 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty84",
+      "mag": 4.5,
+      "place": "137 km SE of Petropavlovsk-Kamchatsky, Russia",
+      "time": "11/14 21:28 JST",
+      "depth_km": 17.439,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty8u",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.5,
+        "place": "137 km SE of Petropavlovsk-Kamchatsky, Russia",
+        "time": "11/14 21:28 JST",
+        "depth_km": 17.439,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty8u",
+        "tsunami": 0
+      },
       {
         "mag": 5.5,
         "place": "northern Mid-Atlantic Ridge",
@@ -428,19 +436,18 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty43",
         "tsunami": 0
-      },
-      {
-        "mag": 4.5,
-        "place": "9 km WSW of Chaparral, Colombia",
-        "time": "11/14 04:43 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty3x",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "数多くのボサノヴァも歌ったクラウデッチ・ソアーリス、死去、91歳(MEGABRASIL)",
+        "link": "https://news.yahoo.co.jp/articles/0454f205679472122fbc4d5636a976cf13ef8071?source=rss",
+        "description": "【ブラジリア発 11月13日 18:16】 リオデジャネイロ出身の歌手クラウデッチ・ソアーリスが13日未明、急病のため死去した。91歳だった。クラウデッチ・ソアーリスは、バイアォンの巨匠ルイス・ゴンザ",
+        "pub_date": "11/14 21:53 JST",
+        "is_priority": false
+      },
       {
         "title": "ヴィクトリアズ・シークレットの金髪エンジェル復活…「セクシーで何が悪い」は単なる懐古趣味ではない(ニューズウィーク日本版)",
         "link": "https://news.yahoo.co.jp/articles/21d24c08923fb0a2321dce2952b30fb3700bec62?source=rss",
@@ -573,13 +580,6 @@
         "description": "（CNN） トランプ米大統領が、数百万人に上る非正規移民の合法化政策を正式に承認する日は来るのか。その可能性は依然として低い。【映像】トランプ氏、女性記者に「ブタ、静かに」だが中間選挙での無残な共和党",
         "pub_date": "11/14 16:50 JST",
         "is_priority": false
-      },
-      {
-        "title": "パリ同時多発テロから11年 劇場で追悼式典(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/4bf01d2937402f3971cb4724f55b7f4728528d97?source=rss",
-        "description": "132人が犠牲となったフランスのパリ同時多発テロ事件から13日で11年となり、事件のあった劇場で追悼式典が行われました。【映像】パリ同時多発テロの追悼式典（実際の様子） 2015年に起きた「パリ同時多",
-        "pub_date": "11/14 16:30 JST",
-        "is_priority": true
       }
     ],
     "count": 20
@@ -670,21 +670,21 @@
       {
         "id": "stream_ftv_news",
         "name": "📺 民視新聞 FTV News (台湾24h生配信)",
-        "video_id": "2kb0AAWOYkA",
+        "video_id": "xwxu5E6Z46U",
         "handle": "@FTV_News",
         "type": "stream"
       },
       {
         "id": "stream_set_news",
         "name": "📺 三立LIVE新聞 SET News 24h",
-        "video_id": "CYrmnQpSlsY",
+        "video_id": "nOMAOCNc6Wc",
         "handle": "@setn",
         "type": "stream"
       },
       {
         "id": "stream_tvbs_news",
         "name": "📺 TVBS NEWS 55頻道 24h生配信",
-        "video_id": "Za_iFN-00CE",
+        "video_id": "USzEUsT2R9Q",
         "handle": "@TVBSNEWS01",
         "type": "stream"
       },
@@ -710,7 +710,7 @@
     "default_channel_id": "stream_ftv_taiwan"
   },
   "forex": {
-    "timestamp": "11/14 21:20 JST",
+    "timestamp": "11/14 22:20 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -773,97 +773,187 @@
   "weather": {
     "cities": [
       {
+        "name": "台北 (北部主要都市)",
+        "name_en": "Taipei",
+        "is_capital": true,
+        "lat": 25.033,
+        "lon": 121.5654,
+        "temp": 20.9,
+        "apparent_temp": 24.1,
+        "humidity": 96,
+        "wind_speed": 4.8,
+        "wind_gusts": 8.6,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/14(土)",
+            "temp_max": 28.8,
+            "temp_min": 20.2,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 8.3
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 24.5,
+            "temp_min": 20.1,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 4.0
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 24.8,
+            "temp_min": 20.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.7
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "高雄 (南部主要港湾)",
+        "name_en": "Kaohsiung",
+        "is_capital": false,
+        "lat": 22.6273,
+        "lon": 120.3014,
+        "temp": 24.3,
+        "apparent_temp": 27.9,
+        "humidity": 96,
+        "wind_speed": 15.2,
+        "wind_gusts": 36.7,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
+        "forecast": [
+          {
+            "date": "11/14(土)",
+            "temp_max": 27.1,
+            "temp_min": 22.7,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 16.6
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 27.5,
+            "temp_min": 22.9,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 3.4
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 26.8,
+            "temp_min": 22.5,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      },
+      {
         "name": "台中 (中部ハイテク拠点)",
         "name_en": "Taichung",
         "is_capital": false,
         "lat": 24.1477,
         "lon": 120.6736,
-        "temp": 21.0,
-        "apparent_temp": 24.4,
-        "humidity": 99,
-        "wind_speed": 6.4,
-        "wind_gusts": 46.8,
-        "precipitation": 0.3,
-        "weather_code": 55,
-        "weather_label": "🌦️ 霧雨 (強)",
+        "temp": 20.9,
+        "apparent_temp": 24.3,
+        "humidity": 96,
+        "wind_speed": 3.6,
+        "wind_gusts": 32.0,
+        "precipitation": 1.9,
+        "weather_code": 82,
+        "weather_label": "⛈️ 激しいにわか雨",
         "forecast": [
           {
             "date": "11/14(土)",
             "temp_max": 29.0,
             "temp_min": 19.3,
-            "weather_code": 82,
-            "weather_label": "⛈️ 激しいにわか雨",
-            "precipitation_mm": 28.8
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 54.6
           },
           {
             "date": "11/15(日)",
-            "temp_max": 27.6,
-            "temp_min": 20.7,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 5.8
+            "temp_max": 27.3,
+            "temp_min": 20.3,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 3.1
           },
           {
             "date": "11/16(月)",
-            "temp_max": 27.6,
-            "temp_min": 19.8,
+            "temp_max": 27.4,
+            "temp_min": 19.5,
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 4.5
+            "precipitation_mm": 3.6
           }
         ],
         "alert": "強風・大雨注意報",
         "alert_badge": "🟠 気象注意報",
         "alert_class": "orange",
-        "alert_desc": "強風（突風46.8km/h）または強い雨。移動・屋外行動に注意"
+        "alert_desc": "強風（突風32.0km/h）または強い雨。移動・屋外行動に注意"
       }
     ],
     "capital": {
-      "name": "台中 (中部ハイテク拠点)",
-      "name_en": "Taichung",
-      "is_capital": false,
-      "lat": 24.1477,
-      "lon": 120.6736,
-      "temp": 21.0,
-      "apparent_temp": 24.4,
-      "humidity": 99,
-      "wind_speed": 6.4,
-      "wind_gusts": 46.8,
-      "precipitation": 0.3,
-      "weather_code": 55,
-      "weather_label": "🌦️ 霧雨 (強)",
+      "name": "台北 (北部主要都市)",
+      "name_en": "Taipei",
+      "is_capital": true,
+      "lat": 25.033,
+      "lon": 121.5654,
+      "temp": 20.9,
+      "apparent_temp": 24.1,
+      "humidity": 96,
+      "wind_speed": 4.8,
+      "wind_gusts": 8.6,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/14(土)",
-          "temp_max": 29.0,
-          "temp_min": 19.3,
-          "weather_code": 82,
-          "weather_label": "⛈️ 激しいにわか雨",
-          "precipitation_mm": 28.8
+          "temp_max": 28.8,
+          "temp_min": 20.2,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
+          "precipitation_mm": 8.3
         },
         {
           "date": "11/15(日)",
-          "temp_max": 27.6,
-          "temp_min": 20.7,
+          "temp_max": 24.5,
+          "temp_min": 20.1,
           "weather_code": 80,
           "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 5.8
+          "precipitation_mm": 4.0
         },
         {
           "date": "11/16(月)",
-          "temp_max": 27.6,
-          "temp_min": 19.8,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 4.5
+          "temp_max": 24.8,
+          "temp_min": 20.6,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.7
         }
       ],
-      "alert": "強風・大雨注意報",
-      "alert_badge": "🟠 気象注意報",
-      "alert_class": "orange",
-      "alert_desc": "強風（突風46.8km/h）または強い雨。移動・屋外行動に注意"
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/14 21:20 JST"
+    "timestamp": "11/14 22:20 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -907,7 +997,7 @@
         "details": "台北メトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/14 21:20 JST"
+    "timestamp": "11/14 22:20 JST"
   },
   "lifeline": {
     "status": "NORMAL",

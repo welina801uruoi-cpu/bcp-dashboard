@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-15 07:29:11",
-  "timestamp_local": "2026-11-15 06:29:11",
+  "timestamp": "2026-11-15 08:00:04",
+  "timestamp_local": "2026-11-15 07:00:04",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -289,7 +289,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 18,
+    "count_24h": 19,
     "summary": "M4.5 (25 km N of Ruteng, Indonesia)",
     "latest": {
       "mag": 4.5,
@@ -425,6 +425,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "ジョージ王子が「カワセミ」を描くとこうなる⇨世界が絶賛「12歳の作品とは思えない」「驚くべき画力」(ハフポスト日本版)",
+        "link": "https://news.yahoo.co.jp/articles/a226a9b18d695cb11cacd0d42e33ada735c97014?source=rss",
+        "description": "イギリス王室のジョージ王子が描いた「カワセミ」の絵が11月10日に公開され、その画力の高さに反響が広がっている。【画像】 これが12歳の絵…？ジョージ王子が描いた「カワセミ」の絵に驚き走る絵は、父であ",
+        "pub_date": "11/15 07:50 JST",
+        "is_priority": false
+      },
+      {
         "title": "《ぴたぴたスーツのファスナーをズリ下ろし…》カニエ・ウェストの18歳年下妻がまた“ほぼむき出し”ファッション　「私がやりたくないことはしない」　今年2月に“洗脳説”を否定(NEWSポストセブン)",
         "link": "https://news.yahoo.co.jp/articles/742a320c267a27719fc617d9079c2f3df839b269?source=rss",
         "description": "ボディラインにぴったり沿ったタイトなキャットスーツ。そのファスナーはへその下まで引き下げられ、上半身が半分むき出しになっている──。アメリカの大物ラッパー、イェことカニエ・ウェスト（49）の妻、ビアン",
@@ -556,13 +563,6 @@
         "description": "【ロンドン共同】日本と英国、イタリアが進める次期戦闘機開発計画「グローバル戦闘航空プログラム（GCAP）」を巡り、英紙フィナンシャル・タイムズ（FT）は14日、新たにドイツが参画することにイタリアが反",
         "pub_date": "11/14 22:28 JST",
         "is_priority": false
-      },
-      {
-        "title": "数多くのボサノヴァも歌ったクラウデッチ・ソアーリス、死去、91歳(MEGABRASIL)",
-        "link": "https://news.yahoo.co.jp/articles/0454f205679472122fbc4d5636a976cf13ef8071?source=rss",
-        "description": "【ブラジリア発 11月13日 18:16】 リオデジャネイロ出身の歌手クラウデッチ・ソアーリスが13日未明、急病のため死去した。91歳だった。クラウデッチ・ソアーリスは、バイアォンの巨匠ルイス・ゴンザ",
-        "pub_date": "11/14 21:53 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -670,7 +670,7 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/15 07:29 JST",
+    "timestamp": "11/15 08:00 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -733,19 +733,64 @@
   "weather": {
     "cities": [
       {
+        "name": "マニラ (首都)",
+        "name_en": "Manila",
+        "is_capital": true,
+        "lat": 14.5995,
+        "lon": 120.9842,
+        "temp": 26.7,
+        "apparent_temp": 32.0,
+        "humidity": 80,
+        "wind_speed": 1.0,
+        "wind_gusts": 6.1,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 32.6,
+            "temp_min": 26.0,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 34.2,
+            "temp_min": 25.7,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 33.6,
+            "temp_min": 23.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "セブ (中部拠点都市)",
         "name_en": "Cebu",
         "is_capital": false,
         "lat": 10.3157,
         "lon": 123.8854,
-        "temp": 25.8,
-        "apparent_temp": 30.7,
-        "humidity": 90,
-        "wind_speed": 9.0,
-        "wind_gusts": 18.0,
+        "temp": 27.5,
+        "apparent_temp": 32.4,
+        "humidity": 83,
+        "wind_speed": 9.2,
+        "wind_gusts": 21.2,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/15(日)",
@@ -783,11 +828,11 @@
         "is_capital": false,
         "lat": 7.1907,
         "lon": 125.4578,
-        "temp": 24.2,
-        "apparent_temp": 28.4,
-        "humidity": 93,
-        "wind_speed": 8.8,
-        "wind_gusts": 21.2,
+        "temp": 25.6,
+        "apparent_temp": 30.6,
+        "humidity": 90,
+        "wind_speed": 6.7,
+        "wind_gusts": 18.0,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -824,43 +869,43 @@
       }
     ],
     "capital": {
-      "name": "セブ (中部拠点都市)",
-      "name_en": "Cebu",
-      "is_capital": false,
-      "lat": 10.3157,
-      "lon": 123.8854,
-      "temp": 25.8,
-      "apparent_temp": 30.7,
-      "humidity": 90,
-      "wind_speed": 9.0,
-      "wind_gusts": 18.0,
+      "name": "マニラ (首都)",
+      "name_en": "Manila",
+      "is_capital": true,
+      "lat": 14.5995,
+      "lon": 120.9842,
+      "temp": 26.7,
+      "apparent_temp": 32.0,
+      "humidity": 80,
+      "wind_speed": 1.0,
+      "wind_gusts": 6.1,
       "precipitation": 0.0,
       "weather_code": 1,
       "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/15(日)",
-          "temp_max": 32.0,
-          "temp_min": 25.4,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.2
+          "temp_max": 32.6,
+          "temp_min": 26.0,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/16(月)",
-          "temp_max": 32.4,
-          "temp_min": 25.1,
-          "weather_code": 45,
-          "weather_label": "🌫️ 霧",
+          "temp_max": 34.2,
+          "temp_min": 25.7,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/17(火)",
-          "temp_max": 33.3,
-          "temp_min": 25.2,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.2
+          "temp_max": 33.6,
+          "temp_min": 23.4,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -868,7 +913,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/15 07:29 JST"
+    "timestamp": "11/15 08:00 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -897,7 +942,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/15 07:29 JST"
+    "timestamp": "11/15 08:00 JST"
   },
   "lifeline": {
     "status": "NORMAL",

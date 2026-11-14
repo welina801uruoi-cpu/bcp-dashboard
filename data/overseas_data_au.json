@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-15 07:30:17",
-  "timestamp_local": "2026-11-15 08:30:17",
+  "timestamp": "2026-11-15 08:00:30",
+  "timestamp_local": "2026-11-15 09:00:30",
   "country": {
     "id": "australia",
     "name": "オーストラリア (豪州)",
@@ -296,7 +296,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 18,
+    "count_24h": 19,
     "summary": "M4.5 (25 km N of Ruteng, Indonesia)",
     "latest": {
       "mag": 4.5,
@@ -432,6 +432,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "ジョージ王子が「カワセミ」を描くとこうなる⇨世界が絶賛「12歳の作品とは思えない」「驚くべき画力」(ハフポスト日本版)",
+        "link": "https://news.yahoo.co.jp/articles/a226a9b18d695cb11cacd0d42e33ada735c97014?source=rss",
+        "description": "イギリス王室のジョージ王子が描いた「カワセミ」の絵が11月10日に公開され、その画力の高さに反響が広がっている。【画像】 これが12歳の絵…？ジョージ王子が描いた「カワセミ」の絵に驚き走る絵は、父であ",
+        "pub_date": "11/15 07:50 JST",
+        "is_priority": false
+      },
+      {
         "title": "《ぴたぴたスーツのファスナーをズリ下ろし…》カニエ・ウェストの18歳年下妻がまた“ほぼむき出し”ファッション　「私がやりたくないことはしない」　今年2月に“洗脳説”を否定(NEWSポストセブン)",
         "link": "https://news.yahoo.co.jp/articles/742a320c267a27719fc617d9079c2f3df839b269?source=rss",
         "description": "ボディラインにぴったり沿ったタイトなキャットスーツ。そのファスナーはへその下まで引き下げられ、上半身が半分むき出しになっている──。アメリカの大物ラッパー、イェことカニエ・ウェスト（49）の妻、ビアン",
@@ -563,13 +570,6 @@
         "description": "【ロンドン共同】日本と英国、イタリアが進める次期戦闘機開発計画「グローバル戦闘航空プログラム（GCAP）」を巡り、英紙フィナンシャル・タイムズ（FT）は14日、新たにドイツが参画することにイタリアが反",
         "pub_date": "11/14 22:28 JST",
         "is_priority": false
-      },
-      {
-        "title": "数多くのボサノヴァも歌ったクラウデッチ・ソアーリス、死去、91歳(MEGABRASIL)",
-        "link": "https://news.yahoo.co.jp/articles/0454f205679472122fbc4d5636a976cf13ef8071?source=rss",
-        "description": "【ブラジリア発 11月13日 18:16】 リオデジャネイロ出身の歌手クラウデッチ・ソアーリスが13日未明、急病のため死去した。91歳だった。クラウデッチ・ソアーリスは、バイアォンの巨匠ルイス・ゴンザ",
-        "pub_date": "11/14 21:53 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -700,7 +700,7 @@
     "default_channel_id": "stream_abc_news_au"
   },
   "forex": {
-    "timestamp": "11/15 07:30 JST",
+    "timestamp": "11/15 08:00 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -763,16 +763,106 @@
   "weather": {
     "cities": [
       {
+        "name": "キャンベラ (首都)",
+        "name_en": "Canberra",
+        "is_capital": true,
+        "lat": -35.2809,
+        "lon": 149.13,
+        "temp": 17.7,
+        "apparent_temp": 17.1,
+        "humidity": 73,
+        "wind_speed": 10.7,
+        "wind_gusts": 27.4,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 22.1,
+            "temp_min": 12.3,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 5.5
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 16.5,
+            "temp_min": 9.4,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.9
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 22.4,
+            "temp_min": 6.9,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "シドニー (最大都市)",
+        "name_en": "Sydney",
+        "is_capital": false,
+        "lat": -33.8688,
+        "lon": 151.2093,
+        "temp": 20.7,
+        "apparent_temp": 20.5,
+        "humidity": 76,
+        "wind_speed": 15.7,
+        "wind_gusts": 37.8,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 21.8,
+            "temp_min": 17.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 1.5
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 17.8,
+            "temp_min": 15.9,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 6.8
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 20.4,
+            "temp_min": 14.3,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.2
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "メルボルン (南部)",
         "name_en": "Melbourne",
         "is_capital": false,
         "lat": -37.8136,
         "lon": 144.9631,
-        "temp": 13.9,
-        "apparent_temp": 12.5,
-        "humidity": 75,
-        "wind_speed": 8.7,
-        "wind_gusts": 24.8,
+        "temp": 14.4,
+        "apparent_temp": 12.9,
+        "humidity": 71,
+        "wind_speed": 10.2,
+        "wind_gusts": 28.4,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -809,40 +899,40 @@
       }
     ],
     "capital": {
-      "name": "メルボルン (南部)",
-      "name_en": "Melbourne",
-      "is_capital": false,
-      "lat": -37.8136,
-      "lon": 144.9631,
-      "temp": 13.9,
-      "apparent_temp": 12.5,
-      "humidity": 75,
-      "wind_speed": 8.7,
-      "wind_gusts": 24.8,
+      "name": "キャンベラ (首都)",
+      "name_en": "Canberra",
+      "is_capital": true,
+      "lat": -35.2809,
+      "lon": 149.13,
+      "temp": 17.7,
+      "apparent_temp": 17.1,
+      "humidity": 73,
+      "wind_speed": 10.7,
+      "wind_gusts": 27.4,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/15(日)",
-          "temp_max": 16.8,
-          "temp_min": 10.2,
-          "weather_code": 55,
-          "weather_label": "🌦️ 霧雨 (強)",
-          "precipitation_mm": 3.9
+          "temp_max": 22.1,
+          "temp_min": 12.3,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 5.5
         },
         {
           "date": "11/16(月)",
-          "temp_max": 14.1,
-          "temp_min": 9.9,
+          "temp_max": 16.5,
+          "temp_min": 9.4,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.7
+          "precipitation_mm": 0.9
         },
         {
           "date": "11/17(火)",
-          "temp_max": 16.0,
-          "temp_min": 7.2,
+          "temp_max": 22.4,
+          "temp_min": 6.9,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -853,7 +943,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/15 07:30 JST"
+    "timestamp": "11/15 08:00 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -883,7 +973,7 @@
         "details": "シドニー首都圏鉄道網は概ね平常運行中"
       }
     ],
-    "timestamp": "11/15 07:30 JST"
+    "timestamp": "11/15 08:00 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 13:19:01",
+  "timestamp": "2026-11-14 14:09:11",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -435,11 +435,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NOTICE",
-    "summary": "【注意報発表: 19地域】京都、大阪、兵庫、和歌山、島根、広島、山口、徳島、香川、愛媛、高知、福岡、佐賀、長崎、熊本、大分、宮崎、鹿児島、沖縄（警報なし）",
+    "status": "ALERT",
+    "summary": "【警報発表: 1地域】沖縄（大雨警報） ／ 他18地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
-    "alert_count": 0,
-    "notice_count": 19,
+    "alert_count": 1,
+    "notice_count": 18,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -910,10 +910,10 @@
         "warns": [],
         "notices": [
           "雷注意報",
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/38/"
       },
       {
@@ -966,9 +966,10 @@
         "warns": [],
         "notices": [
           "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "大雨注意報"
         ],
-        "summary": "雷注意報、強風注意報",
+        "summary": "雷注意報、強風注意報、大雨注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -1029,14 +1030,16 @@
         "code": "47",
         "name": "沖縄県",
         "short_name": "沖縄",
-        "status": "NOTICE",
+        "status": "ALERT",
         "emg_warns": [],
-        "warns": [],
+        "warns": [
+          "大雨警報"
+        ],
         "notices": [
           "雷注意報",
           "大雨注意報"
         ],
-        "summary": "雷注意報、大雨注意報",
+        "summary": "大雨警報、雷注意報、大雨注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -1050,23 +1053,22 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線26路線: 山田線、米坂線、陸羽東線等 ／ 新幹線: 東海道新幹線（列車遅延）、山陽新幹線（その他））",
+    "text": "運行支障あり（在来線26路線: 山陽本線、美祢線、土佐くろしお鉄道ごめん・なはり線等 ／ 新幹線: 東海道新幹線（列車遅延）、山陽新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山田線、米坂線、陸羽東線、北上線、津軽線 等 計26路線）",
+    "line_text": "運行支障あり（山陽本線、美祢線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、山田線 等 計26路線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延）、山陽新幹線（その他）、九州新幹線（その他）、西九州新幹線（列車遅延））",
+    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延）、山陽新幹線（列車遅延）、九州新幹線（その他）、西九州新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
+      "山陽本線",
+      "美祢線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
       "山田線",
       "米坂線",
       "陸羽東線",
       "北上線",
       "津軽線",
-      "山陽本線",
-      "美祢線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "奈良線",
       "鹿児島本線",
       "日豊本線",
       "福北ゆたか線",
@@ -1074,6 +1076,7 @@
       "長崎本線",
       "佐世保線",
       "肥薩線",
+      "奈良線",
       "紀勢本線",
       "越後線",
       "大井川鉄道大井川本線",
@@ -1086,7 +1089,7 @@
     ],
     "troubled_shinkansen": [
       "東海道新幹線（列車遅延）",
-      "山陽新幹線（その他）",
+      "山陽新幹線（列車遅延）",
       "九州新幹線（その他）",
       "西九州新幹線（列車遅延）"
     ],
@@ -1095,14 +1098,14 @@
         "name": "東海道新幹線",
         "status": "ALERT",
         "state": "列車遅延",
-        "detail": "山陽新幹線内での車両点検の影響で、上り線(東京方面行)の一部列車に遅れが出ています。（11月14日 19時30分掲載）",
+        "detail": "静岡駅構内での線路内点検の影響で、列車に遅れが出ています。（11月14日 23時5分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       },
       {
         "name": "山陽新幹線",
         "status": "ALERT",
-        "state": "その他",
-        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月14日 5時0分掲載）",
+        "state": "列車遅延",
+        "detail": "小倉駅での救護活動の影響などで、上り線(新大阪方面行)の一部列車に遅れが出ています。（11月14日 22時30分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       },
       {
@@ -1177,7 +1180,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・長野で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・長野・沖縄で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1217,7 +1220,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/14 12:36",
@@ -1240,7 +1243,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/14 12:36",
@@ -1263,8 +1266,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/14 13:29",
+          "text": "START au END とソフトバンクは知らんけどdocomoユーザーで明日ZOZOマリンスタジアムに行く方、電波が全然 START 繋がらない END ので..."
+        },
         {
           "time": "11/14 11:05",
           "text": "START au END iPhone 昨日の午後から START 繋がらない END 。電波たってるのにオフライン。SNSもオフライン。exも予約できず。 昨..."
@@ -1272,10 +1279,6 @@
         {
           "time": "11/14 10:42",
           "text": "@pancho_minnie 慣れてないと難しいですよね😓 入口全然電波 START 繋がらない END ですよね、、 ディズニーは START au END ..."
-        },
-        {
-          "time": "11/14 09:49",
-          "text": "@80EiXdQeVe15397 楽天モバイルへの苦情は、9月までは繋がっていたのに10月以降はいながらなくなったということを忘れずに！ なぜなら9月までは通信..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -1405,6 +1408,14 @@
         "is_disaster": true
       },
       {
+        "title": "住宅が点在する山あいで…ツキノワグマの爪痕やフンが見つかる 愛知・豊田市(CBCテレビ)",
+        "summary": "愛知県豊田市の住宅が点在する山あいで、ツキノワグマの爪痕などの痕跡が見つかりました。【写真を見る】住宅が点在する山あいで…ツキノワグマの爪痕やフンが見つかる 愛知・豊田市豊田市によりますと、きょう14",
+        "pub_date": "11/14 22:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/b8bd6f92094611a01a824623559e653259ff9280?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "AI悪用の攻撃拠点、千台発見　サイトの弱点探索、不正侵入疑い(共同通信)",
         "summary": "高性能な人工知能（AI）を悪用したサイバー攻撃の拠点と疑われるサーバーが10月以降、世界のインターネット上に少なくとも千台前後存在していることが14日、分かった。日本の情報セキュリティー専門機関が海外",
         "pub_date": "11/14 21:00 JST",
@@ -1435,17 +1446,9 @@
         "link": "https://news.yahoo.co.jp/articles/9fea0d969ce388afb0798ecc1ab80059575cea1c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "細野復興大臣が福島第一原発を視察「総力をあげないと約束は果たせない」(テレビ朝日系（ANN）)",
-        "summary": "細野復興大臣は就任後初めて福島第一原発を視察し、2051年までの廃炉に向けて「総力を挙げないと約束は果たせない」と述べ、東京電力とともに責任を果たす考えを示しました。細野復興大臣「最終的に廃炉をするに",
-        "pub_date": "11/14 20:04 JST",
-        "link": "https://news.yahoo.co.jp/articles/c5268294c9a9d9a70d1970aa679b3fcfab8ebcdb?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-14 22:18:58 JST"
+    "last_updated": "2026-11-14 23:09:09 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1466,10 +1469,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "A-XVc1Lfucw",
+        "video_id": "18babMvpdLw",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/A-XVc1Lfucw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=A-XVc1Lfucw"
+        "embed_url": "https://www.youtube.com/embed/18babMvpdLw?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=18babMvpdLw"
       },
       {
         "id": "stream_tbsnews",

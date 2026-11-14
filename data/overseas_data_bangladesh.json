@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-15 02:44:14",
-  "timestamp_local": "2026-11-14 23:44:14",
+  "timestamp": "2026-11-15 03:16:28",
+  "timestamp_local": "2026-11-15 00:16:28",
   "country": {
     "id": "bangladesh",
     "name": "バングラデシュ",
@@ -260,17 +260,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 20,
-    "summary": "M4.9 (7 km SE of Tagbina, Philippines)",
+    "count_24h": 22,
+    "summary": "M4.6 (96 km SSE of Pondaguitan, Philippines)",
     "latest": {
-      "mag": 4.9,
-      "place": "7 km SE of Tagbina, Philippines",
-      "time": "11/15 01:04 JST",
-      "depth_km": 154.123,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l",
+      "mag": 4.6,
+      "place": "96 km SSE of Pondaguitan, Philippines",
+      "time": "11/15 01:56 JST",
+      "depth_km": 65.399,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "96 km SSE of Pondaguitan, Philippines",
+        "time": "11/15 01:56 JST",
+        "depth_km": 65.399,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.6,
+        "place": "62 km WNW of San Antonio de los Cobres, Argentina",
+        "time": "11/15 01:36 JST",
+        "depth_km": 197.571,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9n",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "7 km SE of Tagbina, Philippines",
@@ -373,22 +389,6 @@
         "time": "11/14 08:30 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty56",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "74 km S of Yudomari, Japan",
-        "time": "11/14 08:22 JST",
-        "depth_km": 40.852,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty53",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "south of the Kermadec Islands",
-        "time": "11/14 07:10 JST",
-        "depth_km": 36.931,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty4w",
         "tsunami": 0
       }
     ]
@@ -638,7 +638,7 @@
     "default_channel_id": "stream_euronews_bd"
   },
   "forex": {
-    "timestamp": "11/15 02:44 JST",
+    "timestamp": "11/15 03:16 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -691,23 +691,15 @@
         "is_capital": true,
         "lat": 23.8103,
         "lon": 90.4125,
-        "temp": 23.2,
-        "apparent_temp": 25.1,
-        "humidity": 70,
-        "wind_speed": 4.8,
-        "wind_gusts": 9.7,
+        "temp": 22.6,
+        "apparent_temp": 24.4,
+        "humidity": 73,
+        "wind_speed": 5.5,
+        "wind_gusts": 11.5,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
-          {
-            "date": "11/14(土)",
-            "temp_max": 29.7,
-            "temp_min": 20.8,
-            "weather_code": 0,
-            "weather_label": "☀️ 快晴",
-            "precipitation_mm": 0.0
-          },
           {
             "date": "11/15(日)",
             "temp_max": 29.6,
@@ -723,6 +715,14 @@
             "weather_code": 2,
             "weather_label": "⛅ 晴れ時々曇り",
             "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 30.7,
+            "temp_min": 21.7,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
           }
         ],
         "alert": "平常",
@@ -736,23 +736,15 @@
         "is_capital": false,
         "lat": 22.3569,
         "lon": 91.7832,
-        "temp": 24.1,
-        "apparent_temp": 26.7,
+        "temp": 23.8,
+        "apparent_temp": 26.3,
         "humidity": 74,
-        "wind_speed": 6.0,
+        "wind_speed": 5.6,
         "wind_gusts": 11.5,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
-          {
-            "date": "11/14(土)",
-            "temp_max": 30.1,
-            "temp_min": 22.0,
-            "weather_code": 0,
-            "weather_label": "☀️ 快晴",
-            "precipitation_mm": 0.0
-          },
           {
             "date": "11/15(日)",
             "temp_max": 29.4,
@@ -768,6 +760,14 @@
             "weather_code": 2,
             "weather_label": "⛅ 晴れ時々曇り",
             "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 31.0,
+            "temp_min": 20.8,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
           }
         ],
         "alert": "平常",
@@ -782,23 +782,15 @@
       "is_capital": true,
       "lat": 23.8103,
       "lon": 90.4125,
-      "temp": 23.2,
-      "apparent_temp": 25.1,
-      "humidity": 70,
-      "wind_speed": 4.8,
-      "wind_gusts": 9.7,
+      "temp": 22.6,
+      "apparent_temp": 24.4,
+      "humidity": 73,
+      "wind_speed": 5.5,
+      "wind_gusts": 11.5,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
-        {
-          "date": "11/14(土)",
-          "temp_max": 29.7,
-          "temp_min": 20.8,
-          "weather_code": 0,
-          "weather_label": "☀️ 快晴",
-          "precipitation_mm": 0.0
-        },
         {
           "date": "11/15(日)",
           "temp_max": 29.6,
@@ -814,6 +806,14 @@
           "weather_code": 2,
           "weather_label": "⛅ 晴れ時々曇り",
           "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/17(火)",
+          "temp_max": 30.7,
+          "temp_min": 21.7,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -821,7 +821,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/15 02:44 JST"
+    "timestamp": "11/15 03:16 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -850,7 +850,7 @@
         "details": "MRTライン6号線定期運行中"
       }
     ],
-    "timestamp": "11/15 02:44 JST"
+    "timestamp": "11/15 03:16 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-15 02:43:50",
-  "timestamp_local": "2026-11-15 01:43:50",
+  "timestamp": "2026-11-15 03:16:17",
+  "timestamp_local": "2026-11-15 02:16:17",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -289,17 +289,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 20,
-    "summary": "M4.9 (7 km SE of Tagbina, Philippines)",
+    "count_24h": 22,
+    "summary": "M4.6 (96 km SSE of Pondaguitan, Philippines)",
     "latest": {
-      "mag": 4.9,
-      "place": "7 km SE of Tagbina, Philippines",
-      "time": "11/15 01:04 JST",
-      "depth_km": 154.123,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l",
+      "mag": 4.6,
+      "place": "96 km SSE of Pondaguitan, Philippines",
+      "time": "11/15 01:56 JST",
+      "depth_km": 65.399,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "96 km SSE of Pondaguitan, Philippines",
+        "time": "11/15 01:56 JST",
+        "depth_km": 65.399,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.6,
+        "place": "62 km WNW of San Antonio de los Cobres, Argentina",
+        "time": "11/15 01:36 JST",
+        "depth_km": 197.571,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9n",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "7 km SE of Tagbina, Philippines",
@@ -402,22 +418,6 @@
         "time": "11/14 08:30 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty56",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "74 km S of Yudomari, Japan",
-        "time": "11/14 08:22 JST",
-        "depth_km": 40.852,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty53",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "south of the Kermadec Islands",
-        "time": "11/14 07:10 JST",
-        "depth_km": 36.931,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty4w",
         "tsunami": 0
       }
     ]
@@ -584,7 +584,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/14 16:54",
@@ -670,7 +670,7 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/15 02:43 JST",
+    "timestamp": "11/15 03:16 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -738,11 +738,11 @@
         "is_capital": true,
         "lat": 14.5995,
         "lon": 120.9842,
-        "temp": 26.5,
-        "apparent_temp": 30.6,
-        "humidity": 79,
-        "wind_speed": 7.9,
-        "wind_gusts": 19.4,
+        "temp": 26.3,
+        "apparent_temp": 30.5,
+        "humidity": 81,
+        "wind_speed": 7.5,
+        "wind_gusts": 18.4,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -778,19 +778,64 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
+        "name": "セブ (中部拠点都市)",
+        "name_en": "Cebu",
+        "is_capital": false,
+        "lat": 10.3157,
+        "lon": 123.8854,
+        "temp": 25.3,
+        "apparent_temp": 30.8,
+        "humidity": 94,
+        "wind_speed": 5.3,
+        "wind_gusts": 13.0,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 31.3,
+            "temp_min": 24.7,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 1.1
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 32.0,
+            "temp_min": 24.5,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 32.9,
+            "temp_min": 25.3,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.2
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ダバオ (南部主要都市)",
         "name_en": "Davao",
         "is_capital": false,
         "lat": 7.1907,
         "lon": 125.4578,
-        "temp": 24.5,
-        "apparent_temp": 28.4,
-        "humidity": 89,
-        "wind_speed": 8.7,
-        "wind_gusts": 15.1,
+        "temp": 24.3,
+        "apparent_temp": 28.2,
+        "humidity": 90,
+        "wind_speed": 9.1,
+        "wind_gusts": 15.8,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/15(日)",
@@ -829,11 +874,11 @@
       "is_capital": true,
       "lat": 14.5995,
       "lon": 120.9842,
-      "temp": 26.5,
-      "apparent_temp": 30.6,
-      "humidity": 79,
-      "wind_speed": 7.9,
-      "wind_gusts": 19.4,
+      "temp": 26.3,
+      "apparent_temp": 30.5,
+      "humidity": 81,
+      "wind_speed": 7.5,
+      "wind_gusts": 18.4,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
@@ -868,7 +913,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/15 02:43 JST"
+    "timestamp": "11/15 03:16 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -897,7 +942,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/15 02:43 JST"
+    "timestamp": "11/15 03:16 JST"
   },
   "lifeline": {
     "status": "NORMAL",

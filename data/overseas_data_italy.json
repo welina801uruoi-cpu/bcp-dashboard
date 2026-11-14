@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-15 02:44:32",
-  "timestamp_local": "2026-11-14 19:44:32",
+  "timestamp": "2026-11-15 03:16:33",
+  "timestamp_local": "2026-11-14 20:16:33",
   "country": {
     "id": "italy",
     "name": "イタリア",
@@ -346,17 +346,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 20,
-    "summary": "M4.9 (7 km SE of Tagbina, Philippines)",
+    "count_24h": 22,
+    "summary": "M4.6 (96 km SSE of Pondaguitan, Philippines)",
     "latest": {
-      "mag": 4.9,
-      "place": "7 km SE of Tagbina, Philippines",
-      "time": "11/15 01:04 JST",
-      "depth_km": 154.123,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l",
+      "mag": 4.6,
+      "place": "96 km SSE of Pondaguitan, Philippines",
+      "time": "11/15 01:56 JST",
+      "depth_km": 65.399,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "96 km SSE of Pondaguitan, Philippines",
+        "time": "11/15 01:56 JST",
+        "depth_km": 65.399,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.6,
+        "place": "62 km WNW of San Antonio de los Cobres, Argentina",
+        "time": "11/15 01:36 JST",
+        "depth_km": 197.571,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9n",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "7 km SE of Tagbina, Philippines",
@@ -459,22 +475,6 @@
         "time": "11/14 08:30 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty56",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "74 km S of Yudomari, Japan",
-        "time": "11/14 08:22 JST",
-        "depth_km": 40.852,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty53",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "south of the Kermadec Islands",
-        "time": "11/14 07:10 JST",
-        "depth_km": 36.931,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty4w",
         "tsunami": 0
       }
     ]
@@ -763,7 +763,7 @@
     "default_channel_id": "stream_euronews"
   },
   "forex": {
-    "timestamp": "11/15 02:44 JST",
+    "timestamp": "11/15 03:16 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -846,11 +846,11 @@
         "is_capital": true,
         "lat": 41.9028,
         "lon": 12.4964,
-        "temp": 15.5,
-        "apparent_temp": 15.7,
-        "humidity": 80,
-        "wind_speed": 3.1,
-        "wind_gusts": 9.0,
+        "temp": 15.1,
+        "apparent_temp": 15.3,
+        "humidity": 81,
+        "wind_speed": 2.0,
+        "wind_gusts": 4.3,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -858,18 +858,18 @@
           {
             "date": "11/14(土)",
             "temp_max": 18.1,
-            "temp_min": 13.7,
+            "temp_min": 13.6,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/15(日)",
-            "temp_max": 18.4,
-            "temp_min": 14.1,
+            "temp_max": 18.3,
+            "temp_min": 13.7,
             "weather_code": 95,
             "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 17.8
+            "precipitation_mm": 13.0
           },
           {
             "date": "11/16(月)",
@@ -886,35 +886,80 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
-        "name": "ヴェネツィア (ヴェネト州)",
-        "name_en": "Venice",
+        "name": "ミラノ (北部経済中心)",
+        "name_en": "Milan",
         "is_capital": false,
-        "lat": 45.4408,
-        "lon": 12.3155,
-        "temp": 10.0,
-        "apparent_temp": 6.6,
-        "humidity": 58,
-        "wind_speed": 11.2,
-        "wind_gusts": 19.1,
+        "lat": 45.4642,
+        "lon": 9.19,
+        "temp": 9.4,
+        "apparent_temp": 7.2,
+        "humidity": 70,
+        "wind_speed": 6.0,
+        "wind_gusts": 11.2,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/14(土)",
-            "temp_max": 11.9,
-            "temp_min": 6.9,
+            "temp_max": 11.3,
+            "temp_min": 7.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/15(日)",
-            "temp_max": 9.8,
-            "temp_min": 6.2,
+            "temp_max": 10.9,
+            "temp_min": 5.8,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 11.7,
+            "temp_min": 5.5,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.9
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ヴェネツィア (ヴェネト州)",
+        "name_en": "Venice",
+        "is_capital": false,
+        "lat": 45.4408,
+        "lon": 12.3155,
+        "temp": 9.7,
+        "apparent_temp": 6.4,
+        "humidity": 62,
+        "wind_speed": 11.4,
+        "wind_gusts": 19.8,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/14(土)",
+            "temp_max": 11.9,
+            "temp_min": 6.9,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
             "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/15(日)",
+            "temp_max": 9.6,
+            "temp_min": 6.0,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.1
           },
           {
             "date": "11/16(月)",
@@ -937,11 +982,11 @@
       "is_capital": true,
       "lat": 41.9028,
       "lon": 12.4964,
-      "temp": 15.5,
-      "apparent_temp": 15.7,
-      "humidity": 80,
-      "wind_speed": 3.1,
-      "wind_gusts": 9.0,
+      "temp": 15.1,
+      "apparent_temp": 15.3,
+      "humidity": 81,
+      "wind_speed": 2.0,
+      "wind_gusts": 4.3,
       "precipitation": 0.0,
       "weather_code": 2,
       "weather_label": "⛅ 晴れ時々曇り",
@@ -949,18 +994,18 @@
         {
           "date": "11/14(土)",
           "temp_max": 18.1,
-          "temp_min": 13.7,
+          "temp_min": 13.6,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/15(日)",
-          "temp_max": 18.4,
-          "temp_min": 14.1,
+          "temp_max": 18.3,
+          "temp_min": 13.7,
           "weather_code": 95,
           "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 17.8
+          "precipitation_mm": 13.0
         },
         {
           "date": "11/16(月)",
@@ -976,7 +1021,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/15 02:44 JST"
+    "timestamp": "11/15 03:16 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1058,7 +1103,7 @@
         "details": "地下鉄M1〜M5号線およびマルペンサ空港連絡は平常運行中"
       }
     ],
-    "timestamp": "11/15 02:44 JST"
+    "timestamp": "11/15 03:16 JST"
   },
   "lifeline": {
     "status": "NORMAL",

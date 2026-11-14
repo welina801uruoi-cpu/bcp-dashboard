@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-15 01:02:54",
-  "timestamp_local": "2026-11-15 00:02:54",
+  "timestamp": "2026-11-15 01:32:08",
+  "timestamp_local": "2026-11-15 00:32:08",
   "country": {
     "id": "singapore",
     "name": "シンガポール",
@@ -260,16 +260,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 22,
-    "summary": "M4.9 (south of the Kermadec Islands)",
+    "summary": "M4.9 (7 km SE of Tagbina, Philippines)",
     "latest": {
       "mag": 4.9,
-      "place": "south of the Kermadec Islands",
-      "time": "11/14 22:17 JST",
-      "depth_km": 12.019,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty90",
+      "place": "7 km SE of Tagbina, Philippines",
+      "time": "11/15 01:04 JST",
+      "depth_km": 147.186,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.9,
+        "place": "7 km SE of Tagbina, Philippines",
+        "time": "11/15 01:04 JST",
+        "depth_km": 147.186,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "south of the Kermadec Islands",
@@ -380,14 +388,6 @@
         "time": "11/14 07:10 JST",
         "depth_km": 36.931,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty4w",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "33 km SSW of La Libertad, El Salvador",
-        "time": "11/14 06:19 JST",
-        "depth_km": 59.125,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty4n",
         "tsunami": 0
       }
     ]
@@ -639,7 +639,7 @@
     "default_channel_id": "stream_cna_live"
   },
   "forex": {
-    "timestamp": "11/15 01:02 JST",
+    "timestamp": "11/15 01:32 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -685,99 +685,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "シンガポール (全域)",
-        "name_en": "Singapore",
-        "is_capital": true,
-        "lat": 1.3521,
-        "lon": 103.8198,
-        "temp": 24.5,
-        "apparent_temp": 30.2,
-        "humidity": 99,
-        "wind_speed": 4.3,
-        "wind_gusts": 7.6,
-        "precipitation": 0.0,
-        "weather_code": 45,
-        "weather_label": "🌫️ 霧",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 30.3,
-            "temp_min": 23.7,
-            "weather_code": 82,
-            "weather_label": "⛈️ 激しいにわか雨",
-            "precipitation_mm": 23.9
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 30.3,
-            "temp_min": 23.0,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 21.7
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 31.6,
-            "temp_min": 23.4,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 13.0
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      }
-    ],
-    "capital": {
-      "name": "シンガポール (全域)",
-      "name_en": "Singapore",
-      "is_capital": true,
-      "lat": 1.3521,
-      "lon": 103.8198,
-      "temp": 24.5,
-      "apparent_temp": 30.2,
-      "humidity": 99,
-      "wind_speed": 4.3,
-      "wind_gusts": 7.6,
-      "precipitation": 0.0,
-      "weather_code": 45,
-      "weather_label": "🌫️ 霧",
-      "forecast": [
-        {
-          "date": "11/15(日)",
-          "temp_max": 30.3,
-          "temp_min": 23.7,
-          "weather_code": 82,
-          "weather_label": "⛈️ 激しいにわか雨",
-          "precipitation_mm": 23.9
-        },
-        {
-          "date": "11/16(月)",
-          "temp_max": 30.3,
-          "temp_min": 23.0,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 21.7
-        },
-        {
-          "date": "11/17(火)",
-          "temp_max": 31.6,
-          "temp_min": 23.4,
-          "weather_code": 81,
-          "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 13.0
-        }
-      ],
-      "alert": "気象注意",
-      "alert_badge": "🟡 気象注意",
-      "alert_class": "yellow",
-      "alert_desc": "降雨または視程低下あり。通常行動可能"
-    },
-    "timestamp": "11/15 01:02 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/15 01:32 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -806,7 +716,7 @@
         "details": "MRT南北線・東西線・環状線など平常運行中"
       }
     ],
-    "timestamp": "11/15 01:02 JST"
+    "timestamp": "11/15 01:32 JST"
   },
   "lifeline": {
     "status": "NORMAL",

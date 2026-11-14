@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 21:18:57",
+  "timestamp": "2026-11-14 21:59:56",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -77,11 +77,39 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-15 01:50",
-    "place": "茨城県沖",
-    "magnitude": "3.7",
+    "time": "2026-11-15 06:31",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-15 06:31",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-15 06:17",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "3",
+        "magnitude": "3.8",
+        "maxScale": 30
+      },
+      {
+        "time": "2026-11-15 06:17",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "-",
+        "magnitude": "3.8",
+        "maxScale": -1
+      },
+      {
+        "time": "2026-11-15 06:17",
+        "place": "震源情報なし",
+        "shindo": "3",
+        "magnitude": "-",
+        "maxScale": 30
+      },
       {
         "time": "2026-11-15 01:50",
         "place": "茨城県沖",
@@ -123,34 +151,6 @@
         "shindo": "1",
         "magnitude": "4.2",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-14 11:16",
-        "place": "富山県西部",
-        "shindo": "2",
-        "magnitude": "3",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-14 09:02",
-        "place": "浦河沖",
-        "shindo": "1",
-        "magnitude": "3.3",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-14 00:03",
-        "place": "島根県西部",
-        "shindo": "2",
-        "magnitude": "3.5",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-13 19:42",
-        "place": "和歌山県北部",
-        "shindo": "1",
-        "magnitude": "2.4",
-        "maxScale": 10
       }
     ]
   },
@@ -165,11 +165,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NORMAL",
-    "summary": "現在、東北エリア全域（6地域）に警報・注意報の発表はありません。",
+    "status": "NOTICE",
+    "summary": "【注意報発表: 1地域】岩手（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 0,
+    "notice_count": 1,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -187,11 +187,13 @@
         "code": "3",
         "name": "岩手県",
         "short_name": "岩手",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -455,6 +457,22 @@
     "disaster_count": 11,
     "articles": [
       {
+        "title": "今日15日は近畿や東海で激しい雨　夕方まで落雷、突風に注意　関東は午後に本降り(日本気象協会tenki.jp)",
+        "summary": "今日15日(日)は太平洋側を中心に発達した雨雲や雷雲がかかるでしょう。九州や四国は昼前にかけて、近畿は昼過ぎにかけて激しい雨や雷雨になる所がありそうです。東海は昼前から夕方にかけて局地的に激しい雨が降",
+        "pub_date": "11/15 06:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/9268c334ed46fd5799c5622a2082d6e6527f0137?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "沖縄・首里城焼失から7年　火災想定の訓練　今月一般公開へ(テレビ朝日系（ANN）)",
+        "summary": "今月、一般公開を迎える首里城正殿で職員や消防が合同で未明の火災を想定した訓練を行いました。 訓練は7年前に起きた首里城の火災を教訓に毎年行われていて、夜間に正殿1階の床下から出火したことを想定し、消防",
+        "pub_date": "11/15 06:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/18daea0e0c9f99fa3933b6d3d2db34410d13da9c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "「気をつけてね」と見送った10分後、担任から電話が...6歳の愛娘を交通事故で亡くした母親が伝えたい「当たり前の日々は奇跡の連続」【第2話】(RSK山陽放送)",
         "summary": "■「当たり前の日々は奇跡の連続」10年前、小学1年生の愛娘を交通事故で亡くした母親がいます。【写真をみる】弟を抱っこする笑顔の陽菜さん福岡県北九州市の池田かおりさんです。2016年12月、池田さんの娘",
         "pub_date": "11/15 06:00 JST",
@@ -527,20 +545,28 @@
         "is_disaster": true
       },
       {
-        "title": "横田早紀江さん、早期解決訴え　15日でめぐみさん拉致49年(共同通信)",
-        "summary": "北朝鮮による拉致被害者の横田めぐみさん＝失踪当時（13）＝が連れ去られてから15日で49年となるのを前に、新潟市で「忘れるな拉致 県民集会」が開かれた。オンラインで参加した母早紀江さん（90）は「考え",
-        "pub_date": "11/14 17:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/6a83eed5dc040e0dd7a55675baf1e632fc76a00d?source=rss",
+        "title": "目を覚ますとそばに3〜4人の男…住人の女性が寝ていた家に複数の男が押し入る 女性の背中を棒状のもので殴り逃走(東海テレビ)",
+        "summary": "15日未明、愛知県小牧市の住宅に複数の男が押し入り、住人の高齢女性を棒状のもので殴り逃走しました。 警察によりますと、15日午前1時前小牧市小針の住宅で寝ていた女性(82)が電気がついて目を覚ましたと",
+        "pub_date": "11/15 06:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/d295668a11ff5f9f41e2dbf5ba0a916de7f7d582?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "「下半身に麻痺が残って…」「最後までできない」“障がい者の性事情”を赤裸々に発信…19歳で交通事故→脊髄損傷を負った男性（31）が明かす、妻と交際中に直面した“現実”(文春オンライン)",
-        "summary": "妻の桃子さん（32）とともに「すけにい夫婦」としてSNSで発信活動をしている上野遥介さん（31）。19歳の時に交通事故で脊髄を損傷して全身まひとなり、「一生、車いすになる」と宣告された。しかし、懸命な",
-        "pub_date": "11/14 17:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/7377b9bfb42e49a6a784f7c4e1818be9ab40177a?source=rss",
+        "title": "両陛下 大阪で漁業関係者と懇談　「豊かな海づくり大会」出席へ(テレビ朝日系（ANN）)",
+        "summary": "天皇皇后両陛下は「全国豊かな海づくり大会」に出席するため、大阪府を訪問されています。 天皇皇后両陛下は14日に伊丹空港に到着し、大阪府の吉村知事らの出迎えを受けられました。 夜は大阪市内のホテルで漁業",
+        "pub_date": "11/15 06:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/3818c85e08460c1b74c8e540b3b1fe89747c18a1?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "いのちの党・奥田ふみよ氏、国会で「ばっか」連発と過激発言に批判殺到…指摘され続ける〈品位の欠如〉(週刊女性PRIME)",
+        "summary": "「ばっかなんじゃないんですか?」 国会の委員会という公の場で、耳を疑うような言葉が連発され、ネット上で大きな波紋を呼んでいる。物議を醸しているのは、11月12日に行われた参議院環境委員会での質疑の一幕",
+        "pub_date": "11/15 06:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/7b35b3296087b839b1f0c3d961fabe856d7d9c86?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "「本当に悪いお兄さんでした」秋篠宮さまが天皇陛下と妹・黒田清子さんを泣かせた日…返ってきた“健気な一言”(文春オンライン)",
@@ -549,33 +575,9 @@
         "link": "https://news.yahoo.co.jp/articles/0e948541a2f765b09ba1b657ca23863c6c199a65?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "安保政策PR、政府広報の夫婦漫才　40代以上の女性狙いのわけは　世論調査基にターゲット絞る(北海道新聞)",
-        "summary": "男女のキャラクターが夫婦漫才で安全保障の重要性を訴える政府公式サイトの特集ページが波紋を広げている。政府は世論調査を基に防衛力強化に抵抗感の強い階層として「40代以上の女性」をターゲットに広報戦略を展",
-        "pub_date": "11/15 06:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/a0b715449bdf80f2391f8714662f1e8d938749a7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「男女2人が車の下敷きになっている」岐阜市の伊奈波神社参道で軽ワゴン車に夫婦はねられ妻が重体(CBCテレビ)",
-        "summary": "14日夕方、岐阜市の伊奈波神社の参道で、夫婦がバックしてきた軽ワゴン車にはねられ、妻が意識不明の重体、夫が重傷を負いました。【写真を見る】「男女2人が車の下敷きになっている」岐阜市の伊奈波神社参道で軽",
-        "pub_date": "11/15 01:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/26feefd083e19c3e55b92b54fc5de7dc41871a7e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "七五三シーズン 穏やか陽気で“ハレの日”　冬のレジャーは“暖冬”との戦い(テレビ朝日系（ANN）)",
-        "summary": "穏やかな陽気となった14日。15日の七五三を前に神社は晴れ着姿の子どもたちでにぎわいました。一方で、この暖かさが悩みの種となるのが、冬のレジャーです。オープンを迎えたスキー場では、早くも“暖冬”との戦",
-        "pub_date": "11/15 00:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/c95bf1854592c8f378db2dea69556154dbb8b527?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 06:18:30 JST"
+    "last_updated": "2026-11-15 06:59:30 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",

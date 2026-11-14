@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 14:46:57",
+  "timestamp": "2026-11-14 15:24:25",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -346,12 +346,33 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-14 22:02",
-    "place": "和歌山県北部",
-    "magnitude": "2.9",
+    "shindo": "3",
+    "time": "2026-11-15 00:05",
+    "place": "熊本県熊本地方",
+    "magnitude": "3.9",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-15 00:05",
+        "place": "熊本県熊本地方",
+        "shindo": "3",
+        "magnitude": "3.9",
+        "maxScale": 30
+      },
+      {
+        "time": "2026-11-15 00:05",
+        "place": "熊本県熊本地方",
+        "shindo": "-",
+        "magnitude": "3.9",
+        "maxScale": -1
+      },
+      {
+        "time": "2026-11-15 00:05",
+        "place": "震源情報なし",
+        "shindo": "3",
+        "magnitude": "-",
+        "maxScale": 30
+      },
       {
         "time": "2026-11-14 22:02",
         "place": "和歌山県北部",
@@ -400,27 +421,6 @@
         "shindo": "1",
         "magnitude": "2.2",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-13 10:52",
-        "place": "熊本県熊本地方",
-        "shindo": "3",
-        "magnitude": "4",
-        "maxScale": 30
-      },
-      {
-        "time": "2026-11-13 10:52",
-        "place": "熊本県熊本地方",
-        "shindo": "-",
-        "magnitude": "4",
-        "maxScale": -1
-      },
-      {
-        "time": "2026-11-13 10:52",
-        "place": "震源情報なし",
-        "shindo": "3",
-        "magnitude": "-",
-        "maxScale": 30
       }
     ]
   },
@@ -869,10 +869,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -909,11 +909,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "雷注意報",
           "強風注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/38/"
       },
       {
@@ -937,10 +937,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -951,10 +951,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       },
       {
@@ -965,11 +965,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "大雨注意報",
+          "雷注意報",
           "強風注意報",
-          "雷注意報"
+          "大雨注意報"
         ],
-        "summary": "大雨注意報、強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報、大雨注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -980,10 +980,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -1020,10 +1020,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1036,10 +1036,10 @@
           "大雨警報"
         ],
         "notices": [
-          "大雨注意報",
-          "雷注意報"
+          "雷注意報",
+          "大雨注意報"
         ],
-        "summary": "大雨警報、大雨注意報、雷注意報",
+        "summary": "大雨警報、雷注意報、大雨注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -1053,13 +1053,16 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線31路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、山田線等 ／ 新幹線: 東海道新幹線（列車遅延）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線34路線: 山陽本線、呉線、美祢線等 ／ 新幹線: 東海道新幹線（列車遅延）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、山田線、米坂線、陸羽東線 等 計31路線）",
+    "line_text": "運行支障あり（山陽本線、呉線、美祢線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線 等 計34路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延）、九州新幹線（その他）、西九州新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
+      "山陽本線",
+      "呉線",
+      "美祢線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
       "山田線",
@@ -1067,7 +1070,12 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "奈良線",
+      "東海道本線",
+      "中央本線",
+      "紀勢本線",
+      "越後線",
+      "大井川鉄道大井川本線",
+      "万葉線",
       "鹿児島本線",
       "日豊本線",
       "福北ゆたか線",
@@ -1077,20 +1085,15 @@
       "久大本線",
       "豊肥本線",
       "肥薩線",
-      "東海道本線",
-      "紀勢本線",
-      "越後線",
-      "大井川鉄道大井川本線",
-      "万葉線",
+      "学研都市線",
+      "奈良線",
+      "内房線",
       "外房線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
       "千葉都市モノレール線",
-      "わたらせ渓谷鐵道線",
-      "山陽本線",
-      "呉線",
-      "美祢線"
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "東海道新幹線（列車遅延）",
@@ -1169,7 +1172,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 31,
+    "target_lines_count": 34,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1412,6 +1415,14 @@
         "is_disaster": true
       },
       {
+        "title": "七五三シーズン 穏やか陽気で“ハレの日”　冬のレジャーは“暖冬”との戦い(テレビ朝日系（ANN）)",
+        "summary": "穏やかな陽気となった14日。15日の七五三を前に神社は晴れ着姿の子どもたちでにぎわいました。一方で、この暖かさが悩みの種となるのが、冬のレジャーです。オープンを迎えたスキー場では、早くも“暖冬”との戦",
+        "pub_date": "11/15 00:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/c95bf1854592c8f378db2dea69556154dbb8b527?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "住宅が点在する山あいでツキノワグマの痕跡…爪痕やフンが見つかる 市が周辺に注意を呼びかけ 愛知・豊田市北小田町(CBCテレビ)",
         "summary": "愛知県豊田市の住宅が点在する山あいで、ツキノワグマの爪痕などの痕跡が見つかりました。【写真を見る】住宅が点在する山あいでツキノワグマの痕跡…爪痕やフンが見つかる 市が周辺に注意を呼びかけ 愛知・豊田市",
         "pub_date": "11/14 22:30 JST",
@@ -1442,17 +1453,9 @@
         "link": "https://news.yahoo.co.jp/articles/d3a4a3cfabf80955d1007a5c412387cd9c3cc033?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "TRON生みの親が語るAI革命の本質／坂村健氏（東洋大学INIAD cHUB機構長）(ビデオニュース・ドットコム)",
-        "summary": "世界中の家電や自動車に組み込まれている日本発のOS「TRON」の生みの親で、今日のIoTを40年前に構想していたコンピューター界のレジェンドは、昨今のAIをめぐる狂騒をどう見ているのだろうか。 202",
-        "pub_date": "11/14 20:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/9fea0d969ce388afb0798ecc1ab80059575cea1c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-14 23:46:54 JST"
+    "last_updated": "2026-11-15 00:24:22 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1506,10 +1509,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "36nfxSaVJM0",
+        "video_id": "q71spwbhfbI",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/36nfxSaVJM0?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=36nfxSaVJM0"
+        "embed_url": "https://www.youtube.com/embed/q71spwbhfbI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=q71spwbhfbI"
       },
       {
         "id": "stream_fnnnews",

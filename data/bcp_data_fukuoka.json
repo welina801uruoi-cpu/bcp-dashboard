@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 13:22:55",
+  "timestamp": "2026-11-15 14:12:28",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -277,19 +277,21 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 肥薩線、指宿枕崎線 ／ 新幹線: 山陽新幹線（列車遅延）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線: 鹿児島本線、日豊本線、肥薩線 ／ 新幹線: 山陽新幹線（列車遅延）、九州新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（肥薩線、指宿枕崎線）",
+    "line_text": "運行支障あり（鹿児島本線、日豊本線、肥薩線、指宿枕崎線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延）、九州新幹線（その他））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延）、九州新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [
+      "鹿児島本線",
+      "日豊本線",
       "肥薩線",
       "指宿枕崎線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（列車遅延）",
-      "九州新幹線（その他）"
+      "九州新幹線（列車遅延）"
     ],
     "shinkansen_details": [
       {
@@ -302,8 +304,8 @@
       {
         "name": "九州新幹線",
         "status": "ALERT",
-        "state": "その他",
-        "detail": "地震災害の影響で、一部列車に運休や運転変更が出ています。（11月15日 5時0分掲載）",
+        "state": "列車遅延",
+        "detail": "東海道新幹線内での車両点検の影響で、博多〜熊本駅間の下り線(熊本方面行)の一部列車に遅れが出ています。（11月15日 22時55分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/410/0"
       },
       {
@@ -372,16 +374,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/15 14:04",
+          "text": "なんか START AU END 光 START 障害 END とか起きてんの？ ダウンロード28Mしか出ないんだけど"
+        },
+        {
           "time": "11/15 13:02",
           "text": "START au END 通信 START 障害 END 起きてる？ 1日家にこもっててさっき家出たけどWi-fiないとネット繋がらない🥺"
         },
         {
           "time": "11/15 12:13",
           "text": "Outlook365の世界的 START 障害 END 、 会社でもOutlookや保存メールが開かなくて仕事にならないのだけれど、 START au END ..."
-        },
-        {
-          "time": "11/15 11:30",
-          "text": "START au END やUQモバイルを使っている人が、通信 START 障害 END 対策でpovoを追加するのは少し待って✋️ どちらも START au..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -418,16 +420,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/15 14:00",
+          "text": "@axtuxtuxtu 他のキャリア(docomo, START au END , SB)は繋がってるのに俺だけ START 繋がらない END 、みたいなこと..."
+        },
+        {
           "time": "11/15 13:02",
           "text": "START au END 通信障害起きてる？ 1日家にこもっててさっき家出たけどWi-fiないとネット START 繋がらない END 🥺"
         },
         {
           "time": "11/15 12:14",
           "text": "真面目に久々に声を大にして言う。 docomo電波📡カスやん。 普通に5Gにならない場所クソ多い。 人多いと START 繋がらない END 。 マジで震災とか..."
-        },
-        {
-          "time": "11/15 10:52",
-          "text": "ここ数年楽天モバイルを使っているが最近になって人混みで極端に繋がらなくなる。 ターミナル駅とかいくと全然ネットが START 繋がらない END 。 これが S..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -438,7 +440,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/15 13:04",
@@ -473,8 +475,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 5,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "〔国内〕2026年10月の災害を振り返る(レスキューナウニュース)",
+        "summary": "2026年10月に発生した国内での大規模な災害、事故・事件の案件について振り返ります。※被害の内訳については、原則的にレスキューナウによる情報取りまとめ時のものです。それぞれの記事の最終更新日以降の状",
+        "pub_date": "11/15 22:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/4e1179d03ec095bad544d176b38ec17beed5da8a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "「スピッツ」ドラマー崎山さん事故で入院　来年の全国ツアー「慎重に判断」所属事務所(テレビ朝日系（ANN）)",
         "summary": "ロックバンド「スピッツ」のドラマー、崎山龍男さんが、都内の路上で交通事故に遭っていたことが分かりました。 警視庁によりますと、崎山さん（59）は12日午後5時ごろ、渋谷区の代々木上原駅近くの路上を中型",
@@ -516,87 +526,79 @@
         "is_disaster": true
       },
       {
+        "title": "特急と衝突し車火災 1人安否不明",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/15 22:10 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6602725?source=rss",
+        "category": "主要速報",
+        "is_disaster": true
+      },
+      {
+        "title": "スピッツ 事故受け今後の活動言及",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/15 22:24 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6602728?source=rss",
+        "category": "主要速報",
+        "is_disaster": true
+      },
+      {
+        "title": "JR山陰「スーパーおき」車と接触　乗客にけがなし　車の持ち主を捜索中　島根県警(テレビ朝日系（ANN）)",
+        "summary": "島根県出雲市の踏切で、JR山陰線の特急列車「スーパーおき」と軽乗用車が接触しました。乗客らにけがはありませんでした。警察は軽乗用車の持ち主の行方を捜しています。 15日午後8時前、出雲市東神西町の踏切",
+        "pub_date": "11/15 22:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/9c7d2596cf99732fe241668a560424aacac2b5c7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "東京・新宿区長選、現職の吉住健一氏が4選　3期12年の実績訴え(産経新聞)",
+        "summary": "任期満了に伴う東京都新宿区長選は15日、投開票が行われ、無所属で現職の吉住健一氏（54）＝自民、公明推薦＝が新人3人を抑え、4選を果たした。投票率は28.89％（前回は28.05％）だった。吉住氏は3",
+        "pub_date": "11/15 22:54 JST",
+        "link": "https://news.yahoo.co.jp/articles/6b1b19b7ec49f2cf9e5cfdd0c2daf4ddd81df4ff?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "東京・品川区長選、現職の森沢恭子氏が再選　「誰もが生きがいを感じ、自分らしく」(産経新聞)",
+        "summary": "任期満了に伴う東京都品川区長選の投票が15日に行われ、即日開票の結果、無所属で現職の森沢恭子氏（48）が、無所属新人で広告業経営の浜田健太郎氏（27）を破り、再選を果たした。投票率は34.39％（前回",
+        "pub_date": "11/15 22:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/0406b768ba87f358f0405bcca5df6e72a5886078?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【独自】高市総理が新構想「ブリッジ・アジア・イニシアティブ」提唱へ　AI・量子など先端技術の共同研究開発プロジェクトを推進(テレ東BIZ)",
+        "summary": "高市総理大臣は、17日にフィリピン・マニラで開かれる「AZEC＝アジア・ゼロエミッション共同体」首脳会合において、AI＝人工知能や量子技術など次世代先端分野でアジア各国との共同研究開発を推進する新構想",
+        "pub_date": "11/15 22:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/8a6a881847f2dbc0889501b40f893b69d7092a73?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "山形・長井市長に遠藤氏初当選「市をどう変えるかで頭がいっぱい」　6選目指した現職破る(産経新聞)",
+        "summary": "任期満了に伴う山形県長井市長選が15日投開票され、新人で元長井市職員の遠藤健志氏（51）が、新人で元県議の五十嵐智洋氏（71）と6選を目指す現職の内谷重治氏（70）を破り、初当選を果たした。投票率は6",
+        "pub_date": "11/15 22:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/c825123652cb39239666392864aa6d4e578f9b55?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "せんだみつおの長男、せんだ雄太氏が千葉・いすみ市議選で2期目当選「若い世代の雇用機会も増やしたい」(サンケイスポーツ)",
+        "summary": "太平洋に面した千葉・いすみ市議選の投開票が15日、行われ、タレント、せんだみつお（79）の長男で無所属の前職、せんだ雄太氏（46）が2期目の当選を果たした。午後9時過ぎに当選確実の報を受け、選対事務所",
+        "pub_date": "11/15 22:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/676c7e52edca2a565ef4c13823099681e5364101?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "三重県立高教員、みだらな行為か　愛知県警逮捕(共同通信)",
         "summary": "愛知県警は15日、当時17歳の少女にみだらな行為をしたとして、児童買春・ポルノ禁止法違反（買春）の疑いで三重県立久居農林高教員氏本敦之容疑者（39）＝同県津市＝を逮捕した。「性的欲求を満たしたかった」",
         "pub_date": "11/15 22:15 JST",
         "link": "https://news.yahoo.co.jp/articles/9f3d751eeed5b8846f211f41a3b3b8d1a345446a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "福岡市長選、投票率は45.58％(共同通信)",
-        "summary": "福岡市選挙管理委員会によると、15日投開票の市長選の投票率は45.58％で、前回選を11.27ポイント上回った。",
-        "pub_date": "11/15 22:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/40527f20350457f06d94afb09d98c379e965eb8f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "福岡市長選、固唾のんで結果待つ　「再選挙は厳しい」陣営も(共同通信)",
-        "summary": "戦後最多の13人が立候補した15日の福岡市長選は、再選挙の可能性がちらつく中、各陣営はそれぞれ固唾をのんで開票結果を待った。仮に再選挙となれば、事務所費や人件費といった経費がかさむのは避けられない。個",
-        "pub_date": "11/15 21:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/9e20f5b8c52aaac08eb329e59ab832470c627ae9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "スピッツドラマー崎山さん重傷か　バイク運転中追突される(共同通信)",
-        "summary": "ロックバンド「スピッツ」のドラマー崎山龍男さんが12日、東京都渋谷区の路上でバイクを運転中に乗用車に追突され入院していたことが15日、警視庁への取材で分かった。意識のある状態で搬送され、重傷とみられる",
-        "pub_date": "11/15 21:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/db95e9d21102e2fe521ab30eae943848a0220dac?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「誰もが選択肢を持てる社会に」佳子さまの願いは実現するのか…改正皇室典範施行で見えた課題(週刊女性PRIME)",
-        "summary": "「中途失聴や難聴について多くの人が知り、考えることは、当事者にとって不可欠な情報保障を充実させることはもちろん、社会全体において、情報のやりとりの選択肢を増やしたり、組織の運営を改善したりすることにも",
-        "pub_date": "11/15 21:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/ed9812642608c659966d4f91e54f7d5d0f1c217b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【独自】軍事転用工場に財政支援　長期戦備え「予備生産力」明記(共同通信)",
-        "summary": "政府が年末の安全保障関連3文書改定に合わせて取りまとめる「防衛産業基盤戦略」の概要が判明した。長期戦に備えた「継戦能力」強化のため、平時は民生品を製造する工場を有事には防衛装備品向けに転用する「予備生",
-        "pub_date": "11/15 21:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/4e685cb91e8af170db70f3afe271fa741b52d1c3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "”トクリュウ”の犯行とみて警察が捜査 愛知・小牧市の強盗殺人未遂事件　82歳の女性が重傷(CBCテレビ)",
-        "summary": "愛知県小牧市の住宅に複数人の男が押し入り、82歳の女性が殴られて重傷を負った事件で、警察はトクリュウによる犯行とみて全容解明を進めています。【写真を見る】”トクリュウ”の犯行とみて警察が捜査 愛知・小",
-        "pub_date": "11/15 20:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/32ff3ed6c51d7ef566d0c345724af869e1d0ee97?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "深海魚を愛する人が集い開催「がまごおり深海魚まつり」家族連れでにぎわう(CBCテレビ)",
-        "summary": "愛知県蒲郡市では14・15日「がまごおり深海魚まつり」が行われました。これは、地元水産物で地域を盛り上げようと、深海魚を愛する地元の人たちが集まり開いたものです。【写真を見る】深海魚を愛する人が集い開",
-        "pub_date": "11/15 20:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/4b2b3da4c00ab063d0a31628c8c38761c645a20b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "”日本一のクリスマス”目指す 名古屋・栄でライトアップのセレモニー開催(CBCテレビ)",
-        "summary": "ことし、”日本一のクリスマス”を目指す企画が、名古屋の栄エリアで始まり、14日夜、オープニングセレモニーが開かれました。【写真を見る】”日本一のクリスマス”目指す 名古屋・栄でライトアップのセレモニー",
-        "pub_date": "11/15 20:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/7e8ee56a26852fefbc82e66c63a4a82866b4a15b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "福岡市長選、13人出馬で票分散　投票締め切り、戦後最多(共同通信)",
-        "summary": "任期満了に伴う福岡市長選は15日夜、投票が締め切られた。共同通信の出口調査などによると、元衆院議員稲富修二氏（56）ら4人を軸とした接戦。ただ、戦後最多計13人の立候補で投票先が分散しており、いずれの",
-        "pub_date": "11/15 20:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/5ebd69ddd1b3b4e695e440264bc667aa461a92ab?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 22:22:52 JST"
+    "last_updated": "2026-11-15 23:12:26 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -617,10 +619,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "DzYR0DNeR4U",
+        "video_id": "B6AirFHHb9I",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/DzYR0DNeR4U?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=DzYR0DNeR4U"
+        "embed_url": "https://www.youtube.com/embed/B6AirFHHb9I?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=B6AirFHHb9I"
       },
       {
         "id": "stream_tbsnews",

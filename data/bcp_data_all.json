@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 04:19:14",
+  "timestamp": "2026-11-15 05:18:47",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -347,11 +347,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-15 13:16",
-    "place": "渡島地方東部",
-    "magnitude": "2.6",
+    "time": "2026-11-15 14:00",
+    "place": "茨城県沖",
+    "magnitude": "3.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-15 14:00",
+        "place": "茨城県沖",
+        "shindo": "1",
+        "magnitude": "3.6",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-15 13:16",
         "place": "渡島地方東部",
@@ -414,13 +421,6 @@
         "shindo": "3",
         "magnitude": "-",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-14 22:02",
-        "place": "和歌山県北部",
-        "shindo": "2",
-        "magnitude": "2.9",
-        "maxScale": 20
       }
     ]
   },
@@ -484,10 +484,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
@@ -499,10 +499,10 @@
         "warns": [],
         "notices": [
           "濃霧注意報",
-          "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "濃霧注意報、波浪注意報、雷注意報",
+        "summary": "濃霧注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -632,10 +632,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -799,10 +799,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "大雨注意報"
+          "雷注意報"
         ],
-        "summary": "雷注意報、大雨注意報",
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/27/"
       },
       {
@@ -837,11 +836,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
+          "大雨注意報",
           "雷注意報",
-          "大雨注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報、大雨注意報",
+        "summary": "大雨注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       },
       {
@@ -909,10 +908,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/36/"
       },
       {
@@ -950,10 +949,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/39/"
       },
       {
@@ -1069,9 +1068,9 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線20路線: 山田線、米坂線、陸羽東線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線18路線: 山田線、米坂線、陸羽東線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山田線、米坂線、陸羽東線、北上線、津軽線 等 計20路線）",
+    "line_text": "運行支障あり（山田線、米坂線、陸羽東線、北上線、津軽線 等 計18路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
@@ -1081,21 +1080,19 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "呉線",
       "美祢線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
       "鹿児島本線",
       "肥薩線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "大井川鉄道大井川本線",
+      "越後線",
+      "万葉線",
+      "中央線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
-      "東海道本線",
-      "大井川鉄道大井川本線",
-      "天竜浜名湖鉄道線",
-      "越後線",
-      "万葉線"
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1173,7 +1170,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 20,
+    "target_lines_count": 18,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1188,7 +1185,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・長野・静岡・三重・奈良・島根で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】秋田・千葉・長野・静岡・島根で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1274,7 +1271,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/15 03:54",
@@ -1333,8 +1330,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 6,
+    "disaster_count": 5,
     "articles": [
+      {
+        "title": "島根原発、異常想定で訓練　島根、鳥取の2県6市合同(共同通信)",
+        "summary": "中国電力島根原発（松江市）で異常が発生したとの想定で、島根、鳥取両県と30キロ圏内にある両県の6市は15日、合同で住民の避難訓練を実施した。一部地域では複合災害で集落が孤立したとのシミュレーションで、",
+        "pub_date": "11/15 14:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/68d398597361a6bd06fa977fdea68c45615a33f0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "今日15日午後　関東・東海など太平洋側を中心に激しい雨　北海道では夜は雪に変わる(日本気象協会tenki.jp)",
         "summary": "今日15日は全国的に雨となっており、午後は、太平洋側を中心に発達した雨雲がかかりやすいでしょう。関東や東海で激しい雨の降る所があり、関東では雨がピークとなる見込みです。落雷や突風に注意してください。明",
@@ -1368,20 +1373,60 @@
         "is_disaster": true
       },
       {
-        "title": "「10年前に墓じまいした」一方的に寺院に遺骨・墓石放置→“音信不通”に…「年間19万件」改葬ブームの裏で急増する“トラブル”(弁護士JPニュース)",
-        "summary": "近年、社会の流れや家族観の多様化を背景に、「墓じまい」への関心が高まっている。墓じまいとは、今ある墓から遺骨を取り出して別の墓や納骨堂へ移し、墓石を撤去して墓地を管理者に返還する手続きを指す。遺骨を別",
-        "pub_date": "11/15 10:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/46d2ea46d21aa0e8cdfd6d8019257d8008844f42?source=rss",
+        "title": "米軍嘉手納基地でF15後継機の配備開始(共同通信)",
+        "summary": "米軍は15日、沖縄県嘉手納町などにある嘉手納基地に、F15戦闘機の後継となるF15EXが到着し、配備が始まったと発表した。米空軍の海外拠点でF15EXが配備されるのは初めて。",
+        "pub_date": "11/15 14:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/1261eeb9996eb912d8b296345be3ff7b355cbf4f?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "【戦後最大の“大スパイ”時代】FBI長官「10時間ごとに中国がらみのスパイ案件発生」米半導体大手でも“ハニトラ”被害?暗躍の舞台は軍事から経済分野へ　元公安捜査官が語る日本での対策は(MBSニュース)",
-        "summary": "アメリカの大手半導体メーカー「エヌビディア」のジェンスン・フアンCEOがスパイのターゲットにされたのではないかという疑惑が浮上しています。【画像を見る】中国スパイ疑惑 アリス・フアン氏の人物像ニューヨ",
-        "pub_date": "11/15 10:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/677de0247abc1ca33effc0cb4d0a595c7c44c724?source=rss",
+        "title": "【動画解説】週の中ごろから大荒れに 暴風に警戒　週後半は強い寒気　真冬並みの寒さも(ウェザーマップ)",
+        "summary": "水曜日から金曜日ごろにかけて、発達する低気圧の影響で全国的に風が強まり大荒れとなりそうです。次第に強い寒気が流れ込むため、日本海側で雪の範囲が広がって、北日本や北陸では雪の強まる所もありそうです。西日",
+        "pub_date": "11/15 14:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/11d1f08e6fa41df38b68260057968c1c0b66372e?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "自己負担約7倍の差 補助ゼロの自治体も「“接種はやめて”と即答します」 新型コロナワクチンの現在地【大石邦彦解説】(CBCテレビ)",
+        "summary": "あなたは、コロナワクチンを何回接種しましたか?新型コロナワクチンの接種から5年「ワクチン接種の現在地」をお伝えする。今年も10月から高齢者らを中心とした定期接種が始まった。2021年にスタートした特例",
+        "pub_date": "11/15 14:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/cae1c7903271cc5710db394649db9626c609c80e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【再生】廃寺寸前の住職が見出した新たな供養の形「樹木葬」　『人々の心を癒やす場』としての再出発(読売テレビ)",
+        "summary": "檀家離れなどによって全国の過疎地で相次ぐ「廃寺」。その寺の衰退の波はいま大阪市内にも及んでいます。寺の存続をかけて、大阪の住職が打ち出した一手とは。（読売テレビ 報道局：藤本治男）※情報・年齢等は取材",
+        "pub_date": "11/15 14:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/026b3774b53b130e1106360b0c50132d5091a53d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "遅刻が激減した「ミニゲーム」、現在も通用するジャック・スタック流の組織改革術(Forbes JAPAN)",
+        "summary": "ある火曜日の朝、私の家族が経営する店の正面入口には客が列をなしていた。通常であれば午前8時30分までに8人の従業員が出勤しているはずなのに、来ていたのはわずか4人だった。私たちは全員、開店準備に追われ",
+        "pub_date": "11/15 14:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/fd4e32f09a60a7629e835cffefda225678c43d17?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "国内外の警察音楽隊、銀座に集結　金管とドラムの音、街に響く(共同通信)",
+        "summary": "国内外の警察音楽隊が参加する「世界のお巡りさんコンサート」が15日、東京・銀座で開かれた。ベトナムやシンガポール、オーストラリアの3カ国と、警視庁、埼玉県警など国内9隊の計12の音楽隊がパレードした。",
+        "pub_date": "11/15 13:48 JST",
+        "link": "https://news.yahoo.co.jp/articles/b5e6c00178efb8e76e80d80e12c1282b4a447788?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "出産後殺害疑い26歳母親再逮捕　タオルで首絞めたか、岡山(共同通信)",
+        "summary": "自宅で出産後間もない女児の首をタオルで締め付けるなどして殺害したとして、岡山県警は15日、殺人の疑いで、母親の会社員山内香奈容疑者（26）＝岡山県倉敷市＝を再逮捕した。容疑を認めているという。 再逮捕",
+        "pub_date": "11/15 13:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/a3b82b2102744916a92e4ad58b3b77f9140e3225?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "飲酒し路上で居眠り　28歳男性が財布を奪われる　2人組が逃走か、大阪(産経新聞)",
@@ -1406,57 +1451,9 @@
         "link": "https://news.yahoo.co.jp/articles/b24ba78cceabd354b82684ecd519b5596916e389?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "年収が増えてもキャリアは停滞、複数の仕事を持つ「ポリワーキング」で陥る意外な罠(Forbes JAPAN)",
-        "summary": "米国の調査会社The Harris Pollの調査によると、複数の仕事を持つ人の43％は、たとえ1つの仕事で十分な収入が得られたとしても、さまざまな仕事を経験したいと考えている。また同調査では、回答者",
-        "pub_date": "11/15 13:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/2e9fc512de24c79d32f0a1f26c4c5fb211b1f18b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "インフルエンサー「あっすん」逮捕 無許可で接待を伴う飲食店営業か(CBCテレビ)",
-        "summary": "「あっすん」の名前で活動していたキャバクラ店経営の女ら男女3人が、無許可で接待を伴う飲食店を営業したとして逮捕されました。【写真を見る】インフルエンサー「あっすん」逮捕 無許可で接待を伴う飲食店営業か",
-        "pub_date": "11/15 12:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/de3b622e2a84808dcf3c16dac132265d45f10ef1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "季節外れの陽気アイス盛況　紅葉見頃も「寒暖差」注意　きょう気温急降下“師走並み”(テレビ朝日系（ANN）)",
-        "summary": "11月中旬とは思えない暖かさとなった14日の関東。半袖でアイスを楽しむ人がいる一方、日没後の冷え込みに戸惑う人の姿もありました。【画像】“ご当地アイス”が一堂に集まる、アイスイベント「冬のあいぱく P",
-        "pub_date": "11/15 12:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/bfc07612985e961a7e756e9b58c1a580dc76094a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「全国豊かな海づくり大会」 大阪訪問中の両陛下が出席(テレビ朝日系（ANN）)",
-        "summary": "大阪府を訪問中の天皇皇后両陛下が「全国豊かな海づくり大会」の式典に出席されました。天皇陛下「全国各地において日頃から豊かな海づくりに取り組んでいる皆さんの活動が、今後とも多くの人々によって支えられ、さ",
-        "pub_date": "11/15 12:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/03855a0fc6aefda2f8dca64291b1f3ca3c22a7c7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "女性2人死亡“ひき逃げ”逮捕の男　アルコールや薬物の検出なし(テレビ朝日系（ANN）)",
-        "summary": "神奈川県海老名市で女性2人が死亡したひき逃げ事件で、逮捕されたトラック運転手の男からアルコールなどは検出されていないことが分かりました。 会田誠容疑者（49）は13日、海老名市下今泉の交差点で大型トラ",
-        "pub_date": "11/15 12:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/66d67f4be75658054c7e37ce78da4844eab3d6d1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "深夜に住宅強盗か 就寝中だった82歳女性重傷　別件逮捕の少年ら事件に関与か　愛知(テレビ朝日系（ANN）)",
-        "summary": "15日未明、愛知県小牧市の住宅に男らが押し入りました。就寝中だった住人の女性が殴られ重傷です。 警察によりますと、午前1時ごろ、小牧市小針の住宅で82歳の女性が寝ていたところ、3、4人の男らが押し入り",
-        "pub_date": "11/15 12:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/35ed905fd122ccf4597d1a1255775006a00e85d6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 13:19:12 JST"
+    "last_updated": "2026-11-15 14:18:44 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1477,10 +1474,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "MR7zVdaPEX4",
+        "video_id": "asfCYMIBJec",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/MR7zVdaPEX4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=MR7zVdaPEX4"
+        "embed_url": "https://www.youtube.com/embed/asfCYMIBJec?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=asfCYMIBJec"
       },
       {
         "id": "stream_tbsnews",
@@ -1499,10 +1496,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "Lg6XvI68JsM",
+        "video_id": "WaIl6dz8S0E",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/Lg6XvI68JsM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Lg6XvI68JsM"
+        "embed_url": "https://www.youtube.com/embed/WaIl6dz8S0E?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=WaIl6dz8S0E"
       },
       {
         "id": "stream_annnews",

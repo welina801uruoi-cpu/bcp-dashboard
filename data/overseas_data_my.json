@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 00:28:27",
-  "timestamp_local": "2026-11-15 23:28:27",
+  "timestamp": "2026-11-16 01:04:39",
+  "timestamp_local": "2026-11-16 00:04:39",
   "country": {
     "id": "malaysia",
     "name": "マレーシア",
@@ -274,16 +274,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 10,
-    "summary": "M5.5 (9 km E of Union, Philippines)",
+    "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
     "latest": {
-      "mag": 5.5,
-      "place": "9 km E of Union, Philippines",
-      "time": "11/15 22:41 JST",
-      "depth_km": 9.971,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyek",
+      "mag": 5.1,
+      "place": "169 km NW of Gorontalo, Indonesia",
+      "time": "11/16 00:41 JST",
+      "depth_km": 487.384,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.1,
+        "place": "169 km NW of Gorontalo, Indonesia",
+        "time": "11/16 00:41 JST",
+        "depth_km": 487.384,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+        "tsunami": 0
+      },
       {
         "mag": 5.5,
         "place": "9 km E of Union, Philippines",
@@ -355,19 +363,18 @@
         "depth_km": 197.571,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9n",
         "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "7 km SE of Tagbina, Philippines",
-        "time": "11/15 01:04 JST",
-        "depth_km": 154.123,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "【独自】中国スパイ疑惑 最先端半導体を迂回輸出で入手か 疑惑マレーシア企業を追跡(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/e566a5bd815e71e4fba85b2e083a73f54a903e5e?source=rss",
+        "description": "黄色のワンピースに身を包んだ女性。エヌビディアのCEOフアン氏と不倫関係にあり、中国のスパイ疑惑もあるアリス・フアン氏です。番組では、公開されているデータや中国、シンガポール、台湾、アメリカなど世界各",
+        "pub_date": "11/16 01:03 JST",
+        "is_priority": false
+      },
       {
         "title": "今日の歴史（11月16日）(聯合ニュース)",
         "link": "https://news.yahoo.co.jp/articles/7479f32ace432f2cb014f7ac5b14540e4ce7b9f6?source=rss",
@@ -500,13 +507,6 @@
         "description": "（台北中央社）野球の台湾代表と日本代表が来年3月6、7両日、台北市の台北ドームで交流試合を行うことが決まった。中華職業棒球大聯盟（台湾プロ野球リーグ、CPBL）と日本野球機構（NPB）が14日、東京ド",
         "pub_date": "11/15 18:53 JST",
         "is_priority": false
-      },
-      {
-        "title": "中国に米国の半導体が流れ込む抜け穴、エヌビディアのスキャンダルで露呈(CNN.co.jp)",
-        "link": "https://news.yahoo.co.jp/articles/64ac7a34c4ff60f7161df5291b9f8c347190e24b?source=rss",
-        "description": "（CNN） シンガポールのマリーナ・ベイ地区を一望できる曲線的なガラス張りの超高層ビルに本社を置く「メガスピード・インターナショナル」。成長著しいこのハイテク・スタートアップ企業は、アジアの富裕な都市",
-        "pub_date": "11/15 18:50 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -599,7 +599,7 @@
     "default_channel_id": "stream_bernama_live"
   },
   "forex": {
-    "timestamp": "11/16 00:28 JST",
+    "timestamp": "11/16 01:04 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -647,28 +647,65 @@
   "weather": {
     "cities": [
       {
+        "name": "クアラルンプール (首都)",
+        "name_en": "Kuala Lumpur",
+        "is_capital": true,
+        "lat": 3.139,
+        "lon": 101.6869,
+        "temp": 25.3,
+        "apparent_temp": 31.4,
+        "humidity": 97,
+        "wind_speed": 3.6,
+        "wind_gusts": 7.2,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/16(月)",
+            "temp_max": 29.7,
+            "temp_min": 24.3,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 12.3
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 30.4,
+            "temp_min": 24.1,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 12.1
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 30.6,
+            "temp_min": 23.0,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 8.1
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ペナン (ジョージタウン)",
         "name_en": "Penang",
         "is_capital": false,
         "lat": 5.4141,
         "lon": 100.3288,
-        "temp": 25.2,
-        "apparent_temp": 30.6,
+        "temp": 24.8,
+        "apparent_temp": 29.9,
         "humidity": 97,
-        "wind_speed": 8.6,
-        "wind_gusts": 25.2,
+        "wind_speed": 7.9,
+        "wind_gusts": 27.7,
         "precipitation": 0.4,
         "weather_code": 80,
         "weather_label": "🌧️ にわか雨 (弱)",
         "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 28.9,
-            "temp_min": 24.8,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 20.7
-          },
           {
             "date": "11/16(月)",
             "temp_max": 30.3,
@@ -684,6 +721,14 @@
             "weather_code": 95,
             "weather_label": "⛈️ 雷雨 (弱〜中)",
             "precipitation_mm": 14.1
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 30.9,
+            "temp_min": 24.9,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 17.9
           }
         ],
         "alert": "気象注意",
@@ -697,23 +742,15 @@
         "is_capital": false,
         "lat": 1.4927,
         "lon": 103.7414,
-        "temp": 25.9,
-        "apparent_temp": 32.4,
+        "temp": 25.7,
+        "apparent_temp": 32.0,
         "humidity": 95,
-        "wind_speed": 1.4,
-        "wind_gusts": 2.5,
+        "wind_speed": 2.7,
+        "wind_gusts": 4.7,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 29.3,
-            "temp_min": 24.5,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 20.5
-          },
           {
             "date": "11/16(月)",
             "temp_max": 29.6,
@@ -729,6 +766,14 @@
             "weather_code": 95,
             "weather_label": "⛈️ 雷雨 (弱〜中)",
             "precipitation_mm": 24.2
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 29.1,
+            "temp_min": 23.2,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 33.2
           }
         ],
         "alert": "平常",
@@ -738,51 +783,51 @@
       }
     ],
     "capital": {
-      "name": "ペナン (ジョージタウン)",
-      "name_en": "Penang",
-      "is_capital": false,
-      "lat": 5.4141,
-      "lon": 100.3288,
-      "temp": 25.2,
-      "apparent_temp": 30.6,
+      "name": "クアラルンプール (首都)",
+      "name_en": "Kuala Lumpur",
+      "is_capital": true,
+      "lat": 3.139,
+      "lon": 101.6869,
+      "temp": 25.3,
+      "apparent_temp": 31.4,
       "humidity": 97,
-      "wind_speed": 8.6,
-      "wind_gusts": 25.2,
-      "precipitation": 0.4,
-      "weather_code": 80,
-      "weather_label": "🌧️ にわか雨 (弱)",
+      "wind_speed": 3.6,
+      "wind_gusts": 7.2,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
-          "date": "11/15(日)",
-          "temp_max": 28.9,
-          "temp_min": 24.8,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 20.7
-        },
-        {
           "date": "11/16(月)",
-          "temp_max": 30.3,
-          "temp_min": 24.7,
+          "temp_max": 29.7,
+          "temp_min": 24.3,
           "weather_code": 81,
           "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 9.6
+          "precipitation_mm": 12.3
         },
         {
           "date": "11/17(火)",
-          "temp_max": 31.4,
-          "temp_min": 24.9,
+          "temp_max": 30.4,
+          "temp_min": 24.1,
           "weather_code": 95,
           "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 14.1
+          "precipitation_mm": 12.1
+        },
+        {
+          "date": "11/18(水)",
+          "temp_max": 30.6,
+          "temp_min": 23.0,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 8.1
         }
       ],
-      "alert": "気象注意",
-      "alert_badge": "🟡 気象注意",
-      "alert_class": "yellow",
-      "alert_desc": "降雨または視程低下あり。通常行動可能"
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/16 00:28 JST"
+    "timestamp": "11/16 01:04 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -811,7 +856,7 @@
         "details": "LRTクラナジャヤ線・MRT各線平常運行中"
       }
     ],
-    "timestamp": "11/16 00:28 JST"
+    "timestamp": "11/16 01:04 JST"
   },
   "lifeline": {
     "status": "NORMAL",

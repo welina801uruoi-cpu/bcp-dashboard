@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 00:28:46",
-  "timestamp_local": "2026-11-15 17:28:46",
+  "timestamp": "2026-11-16 01:04:53",
+  "timestamp_local": "2026-11-15 18:04:53",
   "country": {
     "id": "spain",
     "name": "スペイン",
@@ -353,16 +353,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 10,
-    "summary": "M5.5 (9 km E of Union, Philippines)",
+    "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
     "latest": {
-      "mag": 5.5,
-      "place": "9 km E of Union, Philippines",
-      "time": "11/15 22:41 JST",
-      "depth_km": 9.971,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyek",
+      "mag": 5.1,
+      "place": "169 km NW of Gorontalo, Indonesia",
+      "time": "11/16 00:41 JST",
+      "depth_km": 487.384,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.1,
+        "place": "169 km NW of Gorontalo, Indonesia",
+        "time": "11/16 00:41 JST",
+        "depth_km": 487.384,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+        "tsunami": 0
+      },
       {
         "mag": 5.5,
         "place": "9 km E of Union, Philippines",
@@ -434,19 +442,18 @@
         "depth_km": 197.571,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9n",
         "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "7 km SE of Tagbina, Philippines",
-        "time": "11/15 01:04 JST",
-        "depth_km": 154.123,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "【独自】中国スパイ疑惑 最先端半導体を迂回輸出で入手か 疑惑マレーシア企業を追跡(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/e566a5bd815e71e4fba85b2e083a73f54a903e5e?source=rss",
+        "description": "黄色のワンピースに身を包んだ女性。エヌビディアのCEOフアン氏と不倫関係にあり、中国のスパイ疑惑もあるアリス・フアン氏です。番組では、公開されているデータや中国、シンガポール、台湾、アメリカなど世界各",
+        "pub_date": "11/16 01:03 JST",
+        "is_priority": false
+      },
       {
         "title": "今日の歴史（11月16日）(聯合ニュース)",
         "link": "https://news.yahoo.co.jp/articles/7479f32ace432f2cb014f7ac5b14540e4ce7b9f6?source=rss",
@@ -578,13 +585,6 @@
         "link": "https://news.yahoo.co.jp/articles/1efa516d3914ca5b933c7d409e91f388085438be?source=rss",
         "description": "（台北中央社）野球の台湾代表と日本代表が来年3月6、7両日、台北市の台北ドームで交流試合を行うことが決まった。中華職業棒球大聯盟（台湾プロ野球リーグ、CPBL）と日本野球機構（NPB）が14日、東京ド",
         "pub_date": "11/15 18:53 JST",
-        "is_priority": false
-      },
-      {
-        "title": "中国に米国の半導体が流れ込む抜け穴、エヌビディアのスキャンダルで露呈(CNN.co.jp)",
-        "link": "https://news.yahoo.co.jp/articles/64ac7a34c4ff60f7161df5291b9f8c347190e24b?source=rss",
-        "description": "（CNN） シンガポールのマリーナ・ベイ地区を一望できる曲線的なガラス張りの超高層ビルに本社を置く「メガスピード・インターナショナル」。成長著しいこのハイテク・スタートアップ企業は、アジアの富裕な都市",
-        "pub_date": "11/15 18:50 JST",
         "is_priority": false
       }
     ],
@@ -731,7 +731,7 @@
     "default_channel_id": "stream_rtve"
   },
   "forex": {
-    "timestamp": "11/16 00:28 JST",
+    "timestamp": "11/16 01:04 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -809,23 +809,68 @@
   "weather": {
     "cities": [
       {
+        "name": "マドリード (首都)",
+        "name_en": "Madrid",
+        "is_capital": true,
+        "lat": 40.4168,
+        "lon": -3.7038,
+        "temp": 13.1,
+        "apparent_temp": 11.2,
+        "humidity": 85,
+        "wind_speed": 14.1,
+        "wind_gusts": 45.4,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 13.3,
+            "temp_min": 10.3,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.3
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 15.4,
+            "temp_min": 10.8,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 15.1,
+            "temp_min": 10.8,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.4
+          }
+        ],
+        "alert": "強風・大雨注意報",
+        "alert_badge": "🟠 気象注意報",
+        "alert_class": "orange",
+        "alert_desc": "強風（突風45.4km/h）または強い雨。移動・屋外行動に注意"
+      },
+      {
         "name": "バルセロナ (カタルーニャ)",
         "name_en": "Barcelona",
         "is_capital": false,
         "lat": 41.3879,
         "lon": 2.1699,
-        "temp": 20.2,
-        "apparent_temp": 17.4,
-        "humidity": 50,
-        "wind_speed": 18.3,
-        "wind_gusts": 29.9,
+        "temp": 19.6,
+        "apparent_temp": 17.3,
+        "humidity": 53,
+        "wind_speed": 15.9,
+        "wind_gusts": 30.6,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/15(日)",
-            "temp_max": 20.6,
+            "temp_max": 20.3,
             "temp_min": 15.2,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -833,15 +878,15 @@
           },
           {
             "date": "11/16(月)",
-            "temp_max": 20.8,
-            "temp_min": 13.5,
+            "temp_max": 21.0,
+            "temp_min": 13.0,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/17(火)",
-            "temp_max": 21.2,
+            "temp_max": 20.9,
             "temp_min": 15.6,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -859,26 +904,26 @@
         "is_capital": false,
         "lat": 37.3891,
         "lon": -5.9845,
-        "temp": 19.5,
-        "apparent_temp": 19.2,
-        "humidity": 64,
-        "wind_speed": 7.2,
-        "wind_gusts": 18.4,
+        "temp": 19.7,
+        "apparent_temp": 19.6,
+        "humidity": 63,
+        "wind_speed": 5.9,
+        "wind_gusts": 17.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/15(日)",
-            "temp_max": 19.6,
-            "temp_min": 13.1,
+            "temp_max": 19.9,
+            "temp_min": 13.0,
             "weather_code": 45,
             "weather_label": "🌫️ 霧",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/16(月)",
-            "temp_max": 22.1,
+            "temp_max": 21.9,
             "temp_min": 9.6,
             "weather_code": 45,
             "weather_label": "🌫️ 霧",
@@ -886,11 +931,11 @@
           },
           {
             "date": "11/17(火)",
-            "temp_max": 19.9,
-            "temp_min": 12.9,
+            "temp_max": 20.0,
+            "temp_min": 13.5,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.1
+            "precipitation_mm": 0.5
           }
         ],
         "alert": "平常",
@@ -900,51 +945,51 @@
       }
     ],
     "capital": {
-      "name": "バルセロナ (カタルーニャ)",
-      "name_en": "Barcelona",
-      "is_capital": false,
-      "lat": 41.3879,
-      "lon": 2.1699,
-      "temp": 20.2,
-      "apparent_temp": 17.4,
-      "humidity": 50,
-      "wind_speed": 18.3,
-      "wind_gusts": 29.9,
+      "name": "マドリード (首都)",
+      "name_en": "Madrid",
+      "is_capital": true,
+      "lat": 40.4168,
+      "lon": -3.7038,
+      "temp": 13.1,
+      "apparent_temp": 11.2,
+      "humidity": 85,
+      "wind_speed": 14.1,
+      "wind_gusts": 45.4,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/15(日)",
-          "temp_max": 20.6,
-          "temp_min": 15.2,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 13.3,
+          "temp_min": 10.3,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
+          "precipitation_mm": 0.3
         },
         {
           "date": "11/16(月)",
-          "temp_max": 20.8,
-          "temp_min": 13.5,
+          "temp_max": 15.4,
+          "temp_min": 10.8,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/17(火)",
-          "temp_max": 21.2,
-          "temp_min": 15.6,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 15.1,
+          "temp_min": 10.8,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
+          "precipitation_mm": 0.4
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "強風・大雨注意報",
+      "alert_badge": "🟠 気象注意報",
+      "alert_class": "orange",
+      "alert_desc": "強風（突風45.4km/h）または強い雨。移動・屋外行動に注意"
     },
-    "timestamp": "11/16 00:28 JST"
+    "timestamp": "11/16 01:04 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1026,7 +1071,7 @@
         "details": "全国主要都市間ルートは定常運行中"
       }
     ],
-    "timestamp": "11/16 00:28 JST"
+    "timestamp": "11/16 01:04 JST"
   },
   "lifeline": {
     "status": "NORMAL",

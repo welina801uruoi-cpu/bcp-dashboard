@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 00:27:46",
-  "timestamp_local": "2026-11-15 21:57:46",
+  "timestamp": "2026-11-16 01:04:18",
+  "timestamp_local": "2026-11-15 22:34:18",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -267,17 +267,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 10,
-    "summary": "M5.5 (9 km E of Union, Philippines)",
+    "count_24h": 11,
+    "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
     "latest": {
-      "mag": 5.5,
-      "place": "9 km E of Union, Philippines",
-      "time": "11/15 22:41 JST",
-      "depth_km": 9.971,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyek",
+      "mag": 5.1,
+      "place": "169 km NW of Gorontalo, Indonesia",
+      "time": "11/16 00:41 JST",
+      "depth_km": 487.384,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.1,
+        "place": "169 km NW of Gorontalo, Indonesia",
+        "time": "11/16 00:41 JST",
+        "depth_km": 487.384,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+        "tsunami": 0
+      },
       {
         "mag": 5.5,
         "place": "9 km E of Union, Philippines",
@@ -362,6 +370,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "【独自】中国スパイ疑惑 最先端半導体を迂回輸出で入手か 疑惑マレーシア企業を追跡(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/e566a5bd815e71e4fba85b2e083a73f54a903e5e?source=rss",
+        "description": "黄色のワンピースに身を包んだ女性。エヌビディアのCEOフアン氏と不倫関係にあり、中国のスパイ疑惑もあるアリス・フアン氏です。番組では、公開されているデータや中国、シンガポール、台湾、アメリカなど世界各",
+        "pub_date": "11/16 01:03 JST",
+        "is_priority": false
+      },
       {
         "title": "今日の歴史（11月16日）(聯合ニュース)",
         "link": "https://news.yahoo.co.jp/articles/7479f32ace432f2cb014f7ac5b14540e4ce7b9f6?source=rss",
@@ -494,13 +509,6 @@
         "description": "（台北中央社）野球の台湾代表と日本代表が来年3月6、7両日、台北市の台北ドームで交流試合を行うことが決まった。中華職業棒球大聯盟（台湾プロ野球リーグ、CPBL）と日本野球機構（NPB）が14日、東京ド",
         "pub_date": "11/15 18:53 JST",
         "is_priority": false
-      },
-      {
-        "title": "中国に米国の半導体が流れ込む抜け穴、エヌビディアのスキャンダルで露呈(CNN.co.jp)",
-        "link": "https://news.yahoo.co.jp/articles/64ac7a34c4ff60f7161df5291b9f8c347190e24b?source=rss",
-        "description": "（CNN） シンガポールのマリーナ・ベイ地区を一望できる曲線的なガラス張りの超高層ビルに本社を置く「メガスピード・インターナショナル」。成長著しいこのハイテク・スタートアップ企業は、アジアの富裕な都市",
-        "pub_date": "11/15 18:50 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -613,7 +621,7 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/16 00:27 JST",
+    "timestamp": "11/16 01:04 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -652,14 +660,14 @@
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
       "weather": {
-        "raw": "METAR VYYY 151500Z 22002KT 6000 SCT015 28/25 Q1013 NOSIG",
+        "raw": "METAR VYYY 151530Z 26002KT 6000 SCT015 27/24 Q1013 NOSIG",
         "wind": "2kt",
         "wind_speed": 2,
         "wind_gust": 0,
         "visibility": "3.73マイル",
-        "temp": 28,
+        "temp": 27,
         "fltcat": "VFR",
-        "report_time": "2026-11-15T15:00:00.000Z"
+        "report_time": "2026-11-15T15:30:00.000Z"
       },
       "status": "平常運航",
       "status_code": "normal",
@@ -668,9 +676,189 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/16 00:27 JST"
+    "cities": [
+      {
+        "name": "ヤンゴン (旧首都・商業中心)",
+        "name_en": "Yangon",
+        "is_capital": false,
+        "lat": 16.8661,
+        "lon": 96.1951,
+        "temp": 26.0,
+        "apparent_temp": 31.1,
+        "humidity": 87,
+        "wind_speed": 5.5,
+        "wind_gusts": 10.8,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 31.7,
+            "temp_min": 23.8,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 31.8,
+            "temp_min": 24.1,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.5
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 31.3,
+            "temp_min": 24.6,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 5.1
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ネピドー (行政首都)",
+        "name_en": "Naypyidaw",
+        "is_capital": true,
+        "lat": 19.7633,
+        "lon": 96.0785,
+        "temp": 23.7,
+        "apparent_temp": 27.0,
+        "humidity": 84,
+        "wind_speed": 5.8,
+        "wind_gusts": 10.1,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 30.2,
+            "temp_min": 20.5,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 30.2,
+            "temp_min": 21.0,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 29.0,
+            "temp_min": 21.5,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "マンダレー (北部拠点)",
+        "name_en": "Mandalay",
+        "is_capital": false,
+        "lat": 21.9588,
+        "lon": 96.0891,
+        "temp": 22.1,
+        "apparent_temp": 25.4,
+        "humidity": 86,
+        "wind_speed": 2.4,
+        "wind_gusts": 7.2,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 29.4,
+            "temp_min": 21.3,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 29.1,
+            "temp_min": 21.2,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 29.6,
+            "temp_min": 21.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "ネピドー (行政首都)",
+      "name_en": "Naypyidaw",
+      "is_capital": true,
+      "lat": 19.7633,
+      "lon": 96.0785,
+      "temp": 23.7,
+      "apparent_temp": 27.0,
+      "humidity": 84,
+      "wind_speed": 5.8,
+      "wind_gusts": 10.1,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
+      "forecast": [
+        {
+          "date": "11/15(日)",
+          "temp_max": 30.2,
+          "temp_min": 20.5,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
+        },
+        {
+          "date": "11/16(月)",
+          "temp_max": 30.2,
+          "temp_min": 21.0,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
+        },
+        {
+          "date": "11/17(火)",
+          "temp_max": 29.0,
+          "temp_min": 21.5,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/16 01:04 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -699,7 +887,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/16 00:27 JST"
+    "timestamp": "11/16 01:04 JST"
   },
   "lifeline": {
     "status": "NORMAL",

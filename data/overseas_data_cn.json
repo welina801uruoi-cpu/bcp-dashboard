@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 00:28:14",
-  "timestamp_local": "2026-11-15 23:28:14",
+  "timestamp": "2026-11-16 01:04:30",
+  "timestamp_local": "2026-11-16 00:04:30",
   "country": {
     "id": "china",
     "name": "中国 (中華人民共和国)",
@@ -287,17 +287,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 10,
-    "summary": "M5.5 (9 km E of Union, Philippines)",
+    "count_24h": 11,
+    "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
     "latest": {
-      "mag": 5.5,
-      "place": "9 km E of Union, Philippines",
-      "time": "11/15 22:41 JST",
-      "depth_km": 9.971,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyek",
+      "mag": 5.1,
+      "place": "169 km NW of Gorontalo, Indonesia",
+      "time": "11/16 00:41 JST",
+      "depth_km": 487.384,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.1,
+        "place": "169 km NW of Gorontalo, Indonesia",
+        "time": "11/16 00:41 JST",
+        "depth_km": 487.384,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+        "tsunami": 0
+      },
       {
         "mag": 5.5,
         "place": "9 km E of Union, Philippines",
@@ -382,6 +390,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "【独自】中国スパイ疑惑 最先端半導体を迂回輸出で入手か 疑惑マレーシア企業を追跡(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/e566a5bd815e71e4fba85b2e083a73f54a903e5e?source=rss",
+        "description": "黄色のワンピースに身を包んだ女性。エヌビディアのCEOフアン氏と不倫関係にあり、中国のスパイ疑惑もあるアリス・フアン氏です。番組では、公開されているデータや中国、シンガポール、台湾、アメリカなど世界各",
+        "pub_date": "11/16 01:03 JST",
+        "is_priority": false
+      },
       {
         "title": "今日の歴史（11月16日）(聯合ニュース)",
         "link": "https://news.yahoo.co.jp/articles/7479f32ace432f2cb014f7ac5b14540e4ce7b9f6?source=rss",
@@ -514,13 +529,6 @@
         "description": "（台北中央社）野球の台湾代表と日本代表が来年3月6、7両日、台北市の台北ドームで交流試合を行うことが決まった。中華職業棒球大聯盟（台湾プロ野球リーグ、CPBL）と日本野球機構（NPB）が14日、東京ド",
         "pub_date": "11/15 18:53 JST",
         "is_priority": false
-      },
-      {
-        "title": "中国に米国の半導体が流れ込む抜け穴、エヌビディアのスキャンダルで露呈(CNN.co.jp)",
-        "link": "https://news.yahoo.co.jp/articles/64ac7a34c4ff60f7161df5291b9f8c347190e24b?source=rss",
-        "description": "（CNN） シンガポールのマリーナ・ベイ地区を一望できる曲線的なガラス張りの超高層ビルに本社を置く「メガスピード・インターナショナル」。成長著しいこのハイテク・スタートアップ企業は、アジアの富裕な都市",
-        "pub_date": "11/15 18:50 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -643,7 +651,7 @@
     "default_channel_id": "stream_cctv_live"
   },
   "forex": {
-    "timestamp": "11/16 00:28 JST",
+    "timestamp": "11/16 01:04 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -711,23 +719,15 @@
         "is_capital": true,
         "lat": 39.9042,
         "lon": 116.4074,
-        "temp": 6.8,
-        "apparent_temp": 4.0,
-        "humidity": 69,
-        "wind_speed": 6.5,
-        "wind_gusts": 13.0,
+        "temp": 6.5,
+        "apparent_temp": 3.4,
+        "humidity": 64,
+        "wind_speed": 6.6,
+        "wind_gusts": 13.7,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 11.2,
-            "temp_min": 4.1,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
           {
             "date": "11/16(月)",
             "temp_max": 6.9,
@@ -743,6 +743,14 @@
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
             "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 5.3,
+            "temp_min": 0.0,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
           }
         ],
         "alert": "平常",
@@ -756,23 +764,15 @@
         "is_capital": false,
         "lat": 31.2304,
         "lon": 121.4737,
-        "temp": 13.4,
-        "apparent_temp": 13.3,
-        "humidity": 93,
-        "wind_speed": 5.5,
-        "wind_gusts": 9.4,
+        "temp": 13.2,
+        "apparent_temp": 12.9,
+        "humidity": 94,
+        "wind_speed": 6.3,
+        "wind_gusts": 11.5,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 19.0,
-            "temp_min": 12.9,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
           {
             "date": "11/16(月)",
             "temp_max": 18.7,
@@ -788,6 +788,14 @@
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 15.4,
+            "temp_min": 7.2,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.2
           }
         ],
         "alert": "平常",
@@ -801,23 +809,15 @@
         "is_capital": false,
         "lat": 23.1291,
         "lon": 113.2644,
-        "temp": 19.7,
-        "apparent_temp": 21.1,
-        "humidity": 80,
+        "temp": 19.5,
+        "apparent_temp": 20.9,
+        "humidity": 81,
         "wind_speed": 5.1,
-        "wind_gusts": 10.8,
+        "wind_gusts": 10.1,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 25.6,
-            "temp_min": 18.1,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.3
-          },
           {
             "date": "11/16(月)",
             "temp_max": 26.2,
@@ -833,6 +833,14 @@
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
             "precipitation_mm": 1.4
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 24.8,
+            "temp_min": 16.6,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 1.8
           }
         ],
         "alert": "平常",
@@ -847,23 +855,15 @@
       "is_capital": true,
       "lat": 39.9042,
       "lon": 116.4074,
-      "temp": 6.8,
-      "apparent_temp": 4.0,
-      "humidity": 69,
-      "wind_speed": 6.5,
-      "wind_gusts": 13.0,
+      "temp": 6.5,
+      "apparent_temp": 3.4,
+      "humidity": 64,
+      "wind_speed": 6.6,
+      "wind_gusts": 13.7,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
       "forecast": [
-        {
-          "date": "11/15(日)",
-          "temp_max": 11.2,
-          "temp_min": 4.1,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
-        },
         {
           "date": "11/16(月)",
           "temp_max": 6.9,
@@ -879,6 +879,14 @@
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
           "precipitation_mm": 0.1
+        },
+        {
+          "date": "11/18(水)",
+          "temp_max": 5.3,
+          "temp_min": 0.0,
+          "weather_code": 1,
+          "weather_label": "🌤️ 晴れ",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -886,7 +894,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/16 00:28 JST"
+    "timestamp": "11/16 01:04 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -915,7 +923,7 @@
         "details": "京滬高速鉄道ほか主要幹線は平常運行中"
       }
     ],
-    "timestamp": "11/16 00:28 JST"
+    "timestamp": "11/16 01:04 JST"
   },
   "lifeline": {
     "status": "NORMAL",

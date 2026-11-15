@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 02:59:04",
-  "timestamp_local": "2026-11-15 19:59:04",
+  "timestamp": "2026-11-16 03:28:22",
+  "timestamp_local": "2026-11-15 20:28:22",
   "country": {
     "id": "belgium",
     "name": "ベルギー",
@@ -273,16 +273,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 8,
-    "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
+    "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
-      "mag": 5.1,
-      "place": "169 km NW of Gorontalo, Indonesia",
-      "time": "11/16 00:41 JST",
-      "depth_km": 487.384,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+      "mag": 5,
+      "place": "74 km N of Pārūn, Afghanistan",
+      "time": "11/16 02:48 JST",
+      "depth_km": 100.728,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyfh",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "74 km N of Pārūn, Afghanistan",
+        "time": "11/16 02:48 JST",
+        "depth_km": 100.728,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyfh",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "169 km NW of Gorontalo, Indonesia",
@@ -337,14 +345,6 @@
         "time": "11/15 06:24 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyan",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "24 km S of Yacuiba, Bolivia",
-        "time": "11/15 03:04 JST",
-        "depth_km": 506.268,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
         "tsunami": 0
       }
     ]
@@ -619,32 +619,32 @@
     "default_channel_id": "stream_rtbf_live"
   },
   "forex": {
-    "timestamp": "11/16 02:59 JST",
+    "timestamp": "11/16 03:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.88,
-      "change": 0.14,
-      "change_pct": 0.09,
-      "direction": "up"
+      "rate": 159.6,
+      "change": -0.27,
+      "change_pct": -0.17,
+      "direction": "down"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.66,
-      "change": -0.56,
-      "change_pct": -0.32,
+      "rate": 176.07,
+      "change": -0.59,
+      "change_pct": -0.33,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.66,
-      "change": -0.56,
-      "change_pct": -0.32
+      "rate": 176.07,
+      "change": -0.59,
+      "change_pct": -0.33
     }
   },
   "airports": [
@@ -673,13 +673,13 @@
         "lat": 50.8503,
         "lon": 4.3517,
         "temp": 11.0,
-        "apparent_temp": 8.0,
+        "apparent_temp": 8.1,
         "humidity": 92,
-        "wind_speed": 20.5,
-        "wind_gusts": 48.6,
-        "precipitation": 0.2,
-        "weather_code": 53,
-        "weather_label": "🌦️ 霧雨 (中)",
+        "wind_speed": 19.4,
+        "wind_gusts": 46.4,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/15(日)",
@@ -709,7 +709,7 @@
         "alert": "強風・大雨注意報",
         "alert_badge": "🟠 気象注意報",
         "alert_class": "orange",
-        "alert_desc": "強風（突風48.6km/h）または強い雨。移動・屋外行動に注意"
+        "alert_desc": "強風（突風46.4km/h）または強い雨。移動・屋外行動に注意"
       },
       {
         "name": "アントワープ (北部主要港湾)",
@@ -717,14 +717,14 @@
         "is_capital": false,
         "lat": 51.2194,
         "lon": 4.4025,
-        "temp": 9.9,
-        "apparent_temp": 7.6,
+        "temp": 10.0,
+        "apparent_temp": 7.7,
         "humidity": 94,
-        "wind_speed": 13.7,
-        "wind_gusts": 26.6,
-        "precipitation": 0.3,
-        "weather_code": 55,
-        "weather_label": "🌦️ 霧雨 (強)",
+        "wind_speed": 14.4,
+        "wind_gusts": 28.1,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/15(日)",
@@ -751,10 +751,10 @@
             "precipitation_mm": 33.5
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -764,13 +764,13 @@
       "lat": 50.8503,
       "lon": 4.3517,
       "temp": 11.0,
-      "apparent_temp": 8.0,
+      "apparent_temp": 8.1,
       "humidity": 92,
-      "wind_speed": 20.5,
-      "wind_gusts": 48.6,
-      "precipitation": 0.2,
-      "weather_code": 53,
-      "weather_label": "🌦️ 霧雨 (中)",
+      "wind_speed": 19.4,
+      "wind_gusts": 46.4,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/15(日)",
@@ -800,9 +800,9 @@
       "alert": "強風・大雨注意報",
       "alert_badge": "🟠 気象注意報",
       "alert_class": "orange",
-      "alert_desc": "強風（突風48.6km/h）または強い雨。移動・屋外行動に注意"
+      "alert_desc": "強風（突風46.4km/h）または強い雨。移動・屋外行動に注意"
     },
-    "timestamp": "11/16 02:59 JST"
+    "timestamp": "11/16 03:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -831,7 +831,7 @@
         "details": "国鉄インターシティ線平常運行中"
       }
     ],
-    "timestamp": "11/16 02:59 JST"
+    "timestamp": "11/16 03:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

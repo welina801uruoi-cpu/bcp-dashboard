@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 02:58:59",
-  "timestamp_local": "2026-11-15 18:58:59",
+  "timestamp": "2026-11-16 03:28:16",
+  "timestamp_local": "2026-11-15 19:28:16",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -353,16 +353,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 8,
-    "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
+    "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
-      "mag": 5.1,
-      "place": "169 km NW of Gorontalo, Indonesia",
-      "time": "11/16 00:41 JST",
-      "depth_km": 487.384,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+      "mag": 5,
+      "place": "74 km N of Pārūn, Afghanistan",
+      "time": "11/16 02:48 JST",
+      "depth_km": 100.728,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyfh",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "74 km N of Pārūn, Afghanistan",
+        "time": "11/16 02:48 JST",
+        "depth_km": 100.728,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyfh",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "169 km NW of Gorontalo, Indonesia",
@@ -417,14 +425,6 @@
         "time": "11/15 06:24 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyan",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "24 km S of Yacuiba, Bolivia",
-        "time": "11/15 03:04 JST",
-        "depth_km": 506.268,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
         "tsunami": 0
       }
     ]
@@ -705,22 +705,22 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/16 02:58 JST",
+    "timestamp": "11/16 03:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.88,
-      "change": 0.14,
-      "change_pct": 0.09,
-      "direction": "up"
+      "rate": 159.6,
+      "change": -0.27,
+      "change_pct": -0.17,
+      "direction": "down"
     },
     "local_jpy": {
       "currency": "GBP",
       "name": "英ポンド",
       "symbol": "£",
-      "rate": 211.54,
-      "change": -0.53,
+      "rate": 211.0,
+      "change": -0.54,
       "change_pct": -0.25,
       "direction": "down"
     },
@@ -728,9 +728,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.66,
-      "change": -0.56,
-      "change_pct": -0.32
+      "rate": 176.07,
+      "change": -0.59,
+      "change_pct": -0.33
     }
   },
   "airports": [
@@ -803,22 +803,22 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 9.4,
+        "temp": 9.6,
         "apparent_temp": 7.2,
-        "humidity": 89,
-        "wind_speed": 11.2,
-        "wind_gusts": 24.1,
+        "humidity": 86,
+        "wind_speed": 11.9,
+        "wind_gusts": 25.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/15(日)",
-            "temp_max": 10.4,
+            "temp_max": 10.6,
             "temp_min": 3.3,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 3.6
+            "precipitation_mm": 3.5
           },
           {
             "date": "11/16(月)",
@@ -826,7 +826,7 @@
             "temp_min": 4.4,
             "weather_code": 55,
             "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 2.1
+            "precipitation_mm": 2.2
           },
           {
             "date": "11/17(火)",
@@ -849,17 +849,17 @@
         "lat": 53.4808,
         "lon": -2.2426,
         "temp": 6.6,
-        "apparent_temp": 4.9,
-        "humidity": 95,
-        "wind_speed": 4.3,
-        "wind_gusts": 8.3,
+        "apparent_temp": 4.7,
+        "humidity": 96,
+        "wind_speed": 6.1,
+        "wind_gusts": 12.6,
         "precipitation": 0.4,
         "weather_code": 61,
         "weather_label": "🌧️ 雨 (小雨)",
         "forecast": [
           {
             "date": "11/15(日)",
-            "temp_max": 7.1,
+            "temp_max": 7.2,
             "temp_min": 3.0,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
@@ -867,11 +867,11 @@
           },
           {
             "date": "11/16(月)",
-            "temp_max": 5.6,
+            "temp_max": 5.7,
             "temp_min": 2.9,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 0.8
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
           },
           {
             "date": "11/17(火)",
@@ -894,21 +894,21 @@
         "lat": 55.9533,
         "lon": -3.1883,
         "temp": 6.5,
-        "apparent_temp": 4.0,
-        "humidity": 84,
-        "wind_speed": 7.9,
-        "wind_gusts": 18.4,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
+        "apparent_temp": 3.6,
+        "humidity": 78,
+        "wind_speed": 8.6,
+        "wind_gusts": 20.9,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/15(日)",
             "temp_max": 9.5,
             "temp_min": 4.3,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 5.1
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 4.4
           },
           {
             "date": "11/16(月)",
@@ -927,10 +927,10 @@
             "precipitation_mm": 2.8
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -939,22 +939,22 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 9.4,
+      "temp": 9.6,
       "apparent_temp": 7.2,
-      "humidity": 89,
-      "wind_speed": 11.2,
-      "wind_gusts": 24.1,
+      "humidity": 86,
+      "wind_speed": 11.9,
+      "wind_gusts": 25.6,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/15(日)",
-          "temp_max": 10.4,
+          "temp_max": 10.6,
           "temp_min": 3.3,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 3.6
+          "precipitation_mm": 3.5
         },
         {
           "date": "11/16(月)",
@@ -962,7 +962,7 @@
           "temp_min": 4.4,
           "weather_code": 55,
           "weather_label": "🌦️ 霧雨 (強)",
-          "precipitation_mm": 2.1
+          "precipitation_mm": 2.2
         },
         {
           "date": "11/17(火)",
@@ -978,26 +978,18 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/16 02:58 JST"
+    "timestamp": "11/16 03:28 JST"
   },
   "transit": {
     "status": "CAUTION",
     "status_code": "warning",
     "status_badge": "🟠 大幅遅延・運行注意",
-    "status_text": "⚠️ Bakerloo線: 大幅遅延・一部運休",
+    "status_text": "⚠️ Waterloo & City線: 大幅遅延・一部運休",
     "overall_status": "大幅遅延・一部運休",
     "strike": false,
     "monitored_systems_count": 4,
-    "alert_lines_count": 2,
+    "alert_lines_count": 1,
     "alert_lines": [
-      {
-        "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
-        "line": "Bakerloo",
-        "mode": "tube",
-        "status": "Part Suspended",
-        "badge": "🔴 運休/見合せ",
-        "reason": "Bakerloo Line: No service between Stonebridge Park and Harrow & Wealdstone while we fix a signal failure at Kenton. Plea"
-      },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
         "line": "Waterloo & City",
@@ -1024,10 +1016,10 @@
           {
             "name": "Bakerloo",
             "mode": "tube",
-            "status_raw": "Part Suspended",
-            "badge": "🔴 運休/見合せ",
-            "code": "severe",
-            "reason": "Bakerloo Line: No service between Stonebridge Park and Harrow & Wealdstone while we fix a signal failure at Kenton. Plea"
+            "status_raw": "Good Service",
+            "badge": "🟢 平常",
+            "code": "normal",
+            "reason": ""
           },
           {
             "name": "Central",
@@ -1072,10 +1064,10 @@
           {
             "name": "Hammersmith & City",
             "mode": "tube",
-            "status_raw": "Part Closure",
-            "badge": "🟡 注意",
-            "code": "minor",
-            "reason": "HAMMERSMITH & CITY LINE: Sunday 15 November, between 1000 and 1800, no service between Plaistow and Barking. Please use "
+            "status_raw": "Good Service",
+            "badge": "🟢 平常",
+            "code": "normal",
+            "reason": ""
           },
           {
             "name": "Jubilee",
@@ -1227,7 +1219,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/16 02:58 JST"
+    "timestamp": "11/16 03:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

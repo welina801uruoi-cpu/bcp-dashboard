@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 02:59:02",
-  "timestamp_local": "2026-11-15 19:59:02",
+  "timestamp": "2026-11-16 03:28:20",
+  "timestamp_local": "2026-11-15 20:28:20",
   "country": {
     "id": "spain",
     "name": "スペイン",
@@ -353,16 +353,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 8,
-    "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
+    "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
-      "mag": 5.1,
-      "place": "169 km NW of Gorontalo, Indonesia",
-      "time": "11/16 00:41 JST",
-      "depth_km": 487.384,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+      "mag": 5,
+      "place": "74 km N of Pārūn, Afghanistan",
+      "time": "11/16 02:48 JST",
+      "depth_km": 100.728,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyfh",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "74 km N of Pārūn, Afghanistan",
+        "time": "11/16 02:48 JST",
+        "depth_km": 100.728,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyfh",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "169 km NW of Gorontalo, Indonesia",
@@ -417,14 +425,6 @@
         "time": "11/15 06:24 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyan",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "24 km S of Yacuiba, Bolivia",
-        "time": "11/15 03:04 JST",
-        "depth_km": 506.268,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
         "tsunami": 0
       }
     ]
@@ -715,32 +715,32 @@
     "default_channel_id": "stream_rtve"
   },
   "forex": {
-    "timestamp": "11/16 02:59 JST",
+    "timestamp": "11/16 03:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.88,
-      "change": 0.14,
-      "change_pct": 0.09,
-      "direction": "up"
+      "rate": 159.6,
+      "change": -0.27,
+      "change_pct": -0.17,
+      "direction": "down"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.66,
-      "change": -0.56,
-      "change_pct": -0.32,
+      "rate": 176.07,
+      "change": -0.59,
+      "change_pct": -0.33,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.66,
-      "change": -0.56,
-      "change_pct": -0.32
+      "rate": 176.07,
+      "change": -0.59,
+      "change_pct": -0.33
     }
   },
   "airports": [
@@ -799,17 +799,17 @@
         "lat": 40.4168,
         "lon": -3.7038,
         "temp": 12.4,
-        "apparent_temp": 11.2,
+        "apparent_temp": 11.4,
         "humidity": 91,
-        "wind_speed": 9.9,
-        "wind_gusts": 28.1,
+        "wind_speed": 9.4,
+        "wind_gusts": 25.2,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/15(日)",
-            "temp_max": 13.3,
+            "temp_max": 13.2,
             "temp_min": 10.3,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
@@ -817,8 +817,8 @@
           },
           {
             "date": "11/16(月)",
-            "temp_max": 15.4,
-            "temp_min": 10.8,
+            "temp_max": 15.8,
+            "temp_min": 10.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -843,18 +843,18 @@
         "is_capital": false,
         "lat": 41.3879,
         "lon": 2.1699,
-        "temp": 18.5,
-        "apparent_temp": 17.2,
-        "humidity": 60,
-        "wind_speed": 10.0,
-        "wind_gusts": 18.0,
+        "temp": 18.4,
+        "apparent_temp": 17.4,
+        "humidity": 65,
+        "wind_speed": 10.5,
+        "wind_gusts": 16.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/15(日)",
-            "temp_max": 20.3,
+            "temp_max": 20.4,
             "temp_min": 15.2,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -862,8 +862,8 @@
           },
           {
             "date": "11/16(月)",
-            "temp_max": 21.0,
-            "temp_min": 13.0,
+            "temp_max": 20.7,
+            "temp_min": 13.8,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -888,27 +888,27 @@
         "is_capital": false,
         "lat": 37.3891,
         "lon": -5.9845,
-        "temp": 18.3,
-        "apparent_temp": 18.8,
-        "humidity": 69,
-        "wind_speed": 2.2,
-        "wind_gusts": 9.4,
+        "temp": 17.8,
+        "apparent_temp": 18.4,
+        "humidity": 73,
+        "wind_speed": 1.4,
+        "wind_gusts": 4.3,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/15(日)",
-            "temp_max": 19.9,
-            "temp_min": 13.0,
+            "temp_max": 20.0,
+            "temp_min": 12.9,
             "weather_code": 45,
             "weather_label": "🌫️ 霧",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/16(月)",
-            "temp_max": 21.9,
-            "temp_min": 9.6,
+            "temp_max": 21.7,
+            "temp_min": 9.4,
             "weather_code": 45,
             "weather_label": "🌫️ 霧",
             "precipitation_mm": 0.0
@@ -935,17 +935,17 @@
       "lat": 40.4168,
       "lon": -3.7038,
       "temp": 12.4,
-      "apparent_temp": 11.2,
+      "apparent_temp": 11.4,
       "humidity": 91,
-      "wind_speed": 9.9,
-      "wind_gusts": 28.1,
+      "wind_speed": 9.4,
+      "wind_gusts": 25.2,
       "precipitation": 0.0,
       "weather_code": 2,
       "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
           "date": "11/15(日)",
-          "temp_max": 13.3,
+          "temp_max": 13.2,
           "temp_min": 10.3,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
@@ -953,8 +953,8 @@
         },
         {
           "date": "11/16(月)",
-          "temp_max": 15.4,
-          "temp_min": 10.8,
+          "temp_max": 15.8,
+          "temp_min": 10.7,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -973,7 +973,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/16 02:59 JST"
+    "timestamp": "11/16 03:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1055,7 +1055,7 @@
         "details": "全国主要都市間ルートは定常運行中"
       }
     ],
-    "timestamp": "11/16 02:59 JST"
+    "timestamp": "11/16 03:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

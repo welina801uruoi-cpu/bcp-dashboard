@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 02:58:28",
-  "timestamp_local": "2026-11-16 00:28:28",
+  "timestamp": "2026-11-16 03:27:47",
+  "timestamp_local": "2026-11-16 00:57:47",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -268,16 +268,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 8,
-    "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
+    "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
-      "mag": 5.1,
-      "place": "169 km NW of Gorontalo, Indonesia",
-      "time": "11/16 00:41 JST",
-      "depth_km": 487.384,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+      "mag": 5,
+      "place": "74 km N of Pārūn, Afghanistan",
+      "time": "11/16 02:48 JST",
+      "depth_km": 100.728,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyfh",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "74 km N of Pārūn, Afghanistan",
+        "time": "11/16 02:48 JST",
+        "depth_km": 100.728,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyfh",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "169 km NW of Gorontalo, Indonesia",
@@ -332,14 +340,6 @@
         "time": "11/15 06:24 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyan",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "24 km S of Yacuiba, Bolivia",
-        "time": "11/15 03:04 JST",
-        "depth_km": 506.268,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
         "tsunami": 0
       }
     ]
@@ -597,15 +597,15 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/16 02:58 JST",
+    "timestamp": "11/16 03:27 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.88,
-      "change": 0.14,
-      "change_pct": 0.09,
-      "direction": "up"
+      "rate": 159.6,
+      "change": -0.27,
+      "change_pct": -0.17,
+      "direction": "down"
     },
     "local_jpy": {
       "currency": "MMK",
@@ -620,9 +620,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.66,
-      "change": -0.56,
-      "change_pct": -0.32
+      "rate": 176.07,
+      "change": -0.59,
+      "change_pct": -0.33
     }
   },
   "airports": [
@@ -636,14 +636,14 @@
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
       "weather": {
-        "raw": "METAR VYYY 151730Z 22002KT 6000 SCT015 26/25 Q1013 NOSIG",
+        "raw": "METAR VYYY 151800Z 24002KT 6000 SCT015 26/25 Q1013 NOSIG",
         "wind": "2kt",
         "wind_speed": 2,
         "wind_gust": 0,
         "visibility": "3.73マイル",
         "temp": 26,
         "fltcat": "VFR",
-        "report_time": "2026-11-15T17:30:00.000Z"
+        "report_time": "2026-11-15T18:00:00.000Z"
       },
       "status": "平常運航",
       "status_code": "normal",
@@ -659,23 +659,15 @@
         "is_capital": false,
         "lat": 16.8661,
         "lon": 96.1951,
-        "temp": 25.4,
+        "temp": 25.3,
         "apparent_temp": 30.5,
         "humidity": 90,
-        "wind_speed": 4.9,
-        "wind_gusts": 11.9,
+        "wind_speed": 4.6,
+        "wind_gusts": 10.8,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 31.7,
-            "temp_min": 23.8,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.1
-          },
           {
             "date": "11/16(月)",
             "temp_max": 31.8,
@@ -691,6 +683,14 @@
             "weather_code": 55,
             "weather_label": "🌦️ 霧雨 (強)",
             "precipitation_mm": 5.1
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 32.1,
+            "temp_min": 24.4,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 9.6
           }
         ],
         "alert": "平常",
@@ -704,23 +704,15 @@
         "is_capital": true,
         "lat": 19.7633,
         "lon": 96.0785,
-        "temp": 22.7,
-        "apparent_temp": 26.7,
-        "humidity": 90,
-        "wind_speed": 2.4,
-        "wind_gusts": 6.5,
+        "temp": 22.5,
+        "apparent_temp": 26.6,
+        "humidity": 91,
+        "wind_speed": 2.0,
+        "wind_gusts": 5.0,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
         "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 30.2,
-            "temp_min": 20.5,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.1
-          },
           {
             "date": "11/16(月)",
             "temp_max": 30.2,
@@ -733,6 +725,14 @@
             "date": "11/17(火)",
             "temp_max": 29.0,
             "temp_min": 21.5,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 29.6,
+            "temp_min": 22.6,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -751,21 +751,13 @@
         "lon": 96.0891,
         "temp": 22.3,
         "apparent_temp": 25.5,
-        "humidity": 82,
-        "wind_speed": 1.1,
-        "wind_gusts": 4.0,
+        "humidity": 81,
+        "wind_speed": 1.0,
+        "wind_gusts": 3.2,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 29.4,
-            "temp_min": 21.3,
-            "weather_code": 2,
-            "weather_label": "⛅ 晴れ時々曇り",
-            "precipitation_mm": 0.0
-          },
           {
             "date": "11/16(月)",
             "temp_max": 29.1,
@@ -778,6 +770,14 @@
             "date": "11/17(火)",
             "temp_max": 29.6,
             "temp_min": 21.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 27.4,
+            "temp_min": 22.6,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -795,23 +795,15 @@
       "is_capital": true,
       "lat": 19.7633,
       "lon": 96.0785,
-      "temp": 22.7,
-      "apparent_temp": 26.7,
-      "humidity": 90,
-      "wind_speed": 2.4,
-      "wind_gusts": 6.5,
+      "temp": 22.5,
+      "apparent_temp": 26.6,
+      "humidity": 91,
+      "wind_speed": 2.0,
+      "wind_gusts": 5.0,
       "precipitation": 0.0,
       "weather_code": 1,
       "weather_label": "🌤️ 晴れ",
       "forecast": [
-        {
-          "date": "11/15(日)",
-          "temp_max": 30.2,
-          "temp_min": 20.5,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.1
-        },
         {
           "date": "11/16(月)",
           "temp_max": 30.2,
@@ -827,6 +819,14 @@
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/18(水)",
+          "temp_max": 29.6,
+          "temp_min": 22.6,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -834,7 +834,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/16 02:58 JST"
+    "timestamp": "11/16 03:27 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -863,7 +863,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/16 02:58 JST"
+    "timestamp": "11/16 03:27 JST"
   },
   "lifeline": {
     "status": "NORMAL",

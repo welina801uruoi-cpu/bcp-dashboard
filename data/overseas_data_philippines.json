@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 02:58:44",
-  "timestamp_local": "2026-11-16 01:58:44",
+  "timestamp": "2026-11-16 03:28:03",
+  "timestamp_local": "2026-11-16 02:28:03",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -290,16 +290,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 8,
-    "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
+    "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
-      "mag": 5.1,
-      "place": "169 km NW of Gorontalo, Indonesia",
-      "time": "11/16 00:41 JST",
-      "depth_km": 487.384,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+      "mag": 5,
+      "place": "74 km N of Pārūn, Afghanistan",
+      "time": "11/16 02:48 JST",
+      "depth_km": 100.728,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyfh",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "74 km N of Pārūn, Afghanistan",
+        "time": "11/16 02:48 JST",
+        "depth_km": 100.728,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyfh",
+        "tsunami": 0
+      },
       {
         "mag": 5.1,
         "place": "169 km NW of Gorontalo, Indonesia",
@@ -354,14 +362,6 @@
         "time": "11/15 06:24 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyan",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "24 km S of Yacuiba, Bolivia",
-        "time": "11/15 03:04 JST",
-        "depth_km": 506.268,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
         "tsunami": 0
       }
     ]
@@ -614,32 +614,32 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/16 02:58 JST",
+    "timestamp": "11/16 03:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.88,
-      "change": 0.14,
-      "change_pct": 0.09,
-      "direction": "up"
+      "rate": 159.6,
+      "change": -0.27,
+      "change_pct": -0.17,
+      "direction": "down"
     },
     "local_jpy": {
       "currency": "PHP",
       "name": "フィリピンペソ",
       "symbol": "₱",
-      "rate": 2.47,
-      "change": -0.049,
-      "change_pct": -1.95,
-      "direction": "down"
+      "rate": 2.5,
+      "change": 0.029,
+      "change_pct": 1.19,
+      "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 176.66,
-      "change": -0.56,
-      "change_pct": -0.32
+      "rate": 176.07,
+      "change": -0.59,
+      "change_pct": -0.33
     }
   },
   "airports": [
@@ -682,11 +682,11 @@
         "is_capital": true,
         "lat": 14.5995,
         "lon": 120.9842,
-        "temp": 26.4,
-        "apparent_temp": 30.5,
+        "temp": 26.3,
+        "apparent_temp": 30.4,
         "humidity": 76,
-        "wind_speed": 4.3,
-        "wind_gusts": 12.6,
+        "wind_speed": 4.6,
+        "wind_gusts": 11.5,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -727,11 +727,11 @@
         "is_capital": false,
         "lat": 10.3157,
         "lon": 123.8854,
-        "temp": 25.8,
-        "apparent_temp": 30.5,
-        "humidity": 89,
-        "wind_speed": 9.6,
-        "wind_gusts": 18.7,
+        "temp": 25.7,
+        "apparent_temp": 30.3,
+        "humidity": 90,
+        "wind_speed": 9.7,
+        "wind_gusts": 18.4,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -772,10 +772,10 @@
         "is_capital": false,
         "lat": 7.1907,
         "lon": 125.4578,
-        "temp": 24.4,
-        "apparent_temp": 28.8,
-        "humidity": 88,
-        "wind_speed": 4.2,
+        "temp": 24.3,
+        "apparent_temp": 28.7,
+        "humidity": 89,
+        "wind_speed": 4.6,
         "wind_gusts": 7.9,
         "precipitation": 0.0,
         "weather_code": 3,
@@ -818,11 +818,11 @@
       "is_capital": true,
       "lat": 14.5995,
       "lon": 120.9842,
-      "temp": 26.4,
-      "apparent_temp": 30.5,
+      "temp": 26.3,
+      "apparent_temp": 30.4,
       "humidity": 76,
-      "wind_speed": 4.3,
-      "wind_gusts": 12.6,
+      "wind_speed": 4.6,
+      "wind_gusts": 11.5,
       "precipitation": 0.0,
       "weather_code": 1,
       "weather_label": "🌤️ 晴れ",
@@ -857,7 +857,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/16 02:58 JST"
+    "timestamp": "11/16 03:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -886,7 +886,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/16 02:58 JST"
+    "timestamp": "11/16 03:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 01:49:35",
-  "timestamp_local": "2026-11-15 19:49:35",
+  "timestamp": "2026-11-16 02:27:48",
+  "timestamp_local": "2026-11-15 20:27:48",
   "country": {
     "id": "turkey",
     "name": "トルコ",
@@ -283,7 +283,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 9,
+    "count_24h": 8,
     "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
     "latest": {
       "mag": 5.1,
@@ -356,14 +356,6 @@
         "time": "11/15 03:04 JST",
         "depth_km": 506.268,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "96 km SSE of Pondaguitan, Philippines",
-        "time": "11/15 01:56 JST",
-        "depth_km": 65.399,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
         "tsunami": 0
       }
     ]
@@ -614,14 +606,14 @@
     "default_channel_id": "stream_trt_live"
   },
   "forex": {
-    "timestamp": "11/16 01:49 JST",
+    "timestamp": "11/16 02:27 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.78,
-      "change": 5.93,
-      "change_pct": 3.85,
+      "rate": 159.88,
+      "change": 0.14,
+      "change_pct": 0.09,
       "direction": "up"
     },
     "local_jpy": {
@@ -675,9 +667,189 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/16 01:49 JST"
+    "cities": [
+      {
+        "name": "アンカラ (首都)",
+        "name_en": "Ankara",
+        "is_capital": true,
+        "lat": 39.9334,
+        "lon": 32.8597,
+        "temp": 10.1,
+        "apparent_temp": 8.7,
+        "humidity": 84,
+        "wind_speed": 5.4,
+        "wind_gusts": 14.8,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 14.0,
+            "temp_min": 8.8,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 1.6
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 12.1,
+            "temp_min": 5.1,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.8
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 11.9,
+            "temp_min": 4.2,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 2.5
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "イスタンブール (最大都市)",
+        "name_en": "Istanbul",
+        "is_capital": false,
+        "lat": 41.0082,
+        "lon": 28.9784,
+        "temp": 11.4,
+        "apparent_temp": 9.1,
+        "humidity": 77,
+        "wind_speed": 11.0,
+        "wind_gusts": 21.2,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 13.3,
+            "temp_min": 10.7,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 1.2
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 14.8,
+            "temp_min": 10.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 16.6,
+            "temp_min": 11.9,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 12.1
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "イズミル (エーゲ海沿岸)",
+        "name_en": "Izmir",
+        "is_capital": false,
+        "lat": 38.4237,
+        "lon": 27.1428,
+        "temp": 16.8,
+        "apparent_temp": 17.7,
+        "humidity": 84,
+        "wind_speed": 2.6,
+        "wind_gusts": 5.4,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 21.8,
+            "temp_min": 13.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.3
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 20.6,
+            "temp_min": 10.4,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 21.0,
+            "temp_min": 13.3,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 0.6
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "アンカラ (首都)",
+      "name_en": "Ankara",
+      "is_capital": true,
+      "lat": 39.9334,
+      "lon": 32.8597,
+      "temp": 10.1,
+      "apparent_temp": 8.7,
+      "humidity": 84,
+      "wind_speed": 5.4,
+      "wind_gusts": 14.8,
+      "precipitation": 0.0,
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
+      "forecast": [
+        {
+          "date": "11/15(日)",
+          "temp_max": 14.0,
+          "temp_min": 8.8,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 1.6
+        },
+        {
+          "date": "11/16(月)",
+          "temp_max": 12.1,
+          "temp_min": 5.1,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
+          "precipitation_mm": 0.8
+        },
+        {
+          "date": "11/17(火)",
+          "temp_max": 11.9,
+          "temp_min": 4.2,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 2.5
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/16 02:27 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -706,7 +878,7 @@
         "details": "YHT高速列車など主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/16 01:49 JST"
+    "timestamp": "11/16 02:27 JST"
   },
   "lifeline": {
     "status": "NORMAL",

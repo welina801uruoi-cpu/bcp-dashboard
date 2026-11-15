@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 16:48:26",
+  "timestamp": "2026-11-15 17:26:45",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -237,27 +237,24 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 山陰本線、山陽本線、津山線 ／ 新幹線: 山陽新幹線（列車遅延））",
+    "text": "運行支障あり（在来線: 山陽本線 ／ 新幹線: 山陽新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山陰本線、山陽本線、津山線、可部線）",
+    "line_text": "運行支障あり（山陽本線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
     "troubled_lines": [
-      "山陰本線",
-      "山陽本線",
-      "津山線",
-      "可部線"
+      "山陽本線"
     ],
     "troubled_shinkansen": [
-      "山陽新幹線（列車遅延）"
+      "山陽新幹線（その他）"
     ],
     "shinkansen_details": [
       {
         "name": "山陽新幹線",
         "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "東海道新幹線内での車両点検の影響で、下り線(博多方面行)の一部列車に遅れが出ています。（11月15日 19時50分掲載）",
+        "state": "その他",
+        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月15日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       }
     ],
@@ -316,7 +313,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/15 15:52",
@@ -543,7 +540,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-16 01:47:53 JST"
+    "last_updated": "2026-11-16 02:26:04 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

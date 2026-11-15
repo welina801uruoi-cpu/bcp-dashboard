@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 01:49:01",
-  "timestamp_local": "2026-11-16 00:49:01",
+  "timestamp": "2026-11-16 02:27:14",
+  "timestamp_local": "2026-11-16 01:27:14",
   "country": {
     "id": "singapore",
     "name": "シンガポール",
@@ -259,7 +259,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 9,
+    "count_24h": 8,
     "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
     "latest": {
       "mag": 5.1,
@@ -332,14 +332,6 @@
         "time": "11/15 03:04 JST",
         "depth_km": 506.268,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "96 km SSE of Pondaguitan, Philippines",
-        "time": "11/15 01:56 JST",
-        "depth_km": 65.399,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
         "tsunami": 0
       }
     ]
@@ -591,14 +583,14 @@
     "default_channel_id": "stream_cna_live"
   },
   "forex": {
-    "timestamp": "11/16 01:49 JST",
+    "timestamp": "11/16 02:27 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.78,
-      "change": 5.93,
-      "change_pct": 3.85,
+      "rate": 159.88,
+      "change": 0.14,
+      "change_pct": 0.09,
       "direction": "up"
     },
     "local_jpy": {
@@ -637,9 +629,99 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/16 01:49 JST"
+    "cities": [
+      {
+        "name": "シンガポール (全域)",
+        "name_en": "Singapore",
+        "is_capital": true,
+        "lat": 1.3521,
+        "lon": 103.8198,
+        "temp": 24.2,
+        "apparent_temp": 29.6,
+        "humidity": 100,
+        "wind_speed": 4.8,
+        "wind_gusts": 9.7,
+        "precipitation": 0.0,
+        "weather_code": 45,
+        "weather_label": "🌫️ 霧",
+        "forecast": [
+          {
+            "date": "11/16(月)",
+            "temp_max": 30.5,
+            "temp_min": 23.7,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 7.7
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 31.5,
+            "temp_min": 23.4,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 17.0
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 30.7,
+            "temp_min": 22.3,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 22.1
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      }
+    ],
+    "capital": {
+      "name": "シンガポール (全域)",
+      "name_en": "Singapore",
+      "is_capital": true,
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "temp": 24.2,
+      "apparent_temp": 29.6,
+      "humidity": 100,
+      "wind_speed": 4.8,
+      "wind_gusts": 9.7,
+      "precipitation": 0.0,
+      "weather_code": 45,
+      "weather_label": "🌫️ 霧",
+      "forecast": [
+        {
+          "date": "11/16(月)",
+          "temp_max": 30.5,
+          "temp_min": 23.7,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 7.7
+        },
+        {
+          "date": "11/17(火)",
+          "temp_max": 31.5,
+          "temp_min": 23.4,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 17.0
+        },
+        {
+          "date": "11/18(水)",
+          "temp_max": 30.7,
+          "temp_min": 22.3,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 22.1
+        }
+      ],
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
+    },
+    "timestamp": "11/16 02:27 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -668,7 +750,7 @@
         "details": "MRT南北線・東西線・環状線など平常運行中"
       }
     ],
-    "timestamp": "11/16 01:49 JST"
+    "timestamp": "11/16 02:27 JST"
   },
   "lifeline": {
     "status": "NORMAL",

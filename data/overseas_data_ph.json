@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 01:49:11",
-  "timestamp_local": "2026-11-16 00:49:11",
+  "timestamp": "2026-11-16 02:27:24",
+  "timestamp_local": "2026-11-16 01:27:24",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -289,7 +289,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 9,
+    "count_24h": 8,
     "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
     "latest": {
       "mag": 5.1,
@@ -362,14 +362,6 @@
         "time": "11/15 03:04 JST",
         "depth_km": 506.268,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "96 km SSE of Pondaguitan, Philippines",
-        "time": "11/15 01:56 JST",
-        "depth_km": 65.399,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
         "tsunami": 0
       }
     ]
@@ -548,7 +540,7 @@
         },
         {
           "time": "11/15 03:36",
-          "text": "全てのヒーローがシャツを着てるわけではありません。2025年9月30日の フィリピン 地震 中、インターネットカフェで友..."
+          "text": "全てのヒーローがシャツを着てるわけではありません。2025年9月30日の フィリピン地震 中、インターネットカフェで友人を救出したシャツを着..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%95%E3%82%A3%E3%83%AA%E3%83%94%E3%83%B3%20%E5%9C%B0%E9%9C%87"
@@ -622,14 +614,14 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/16 01:49 JST",
+    "timestamp": "11/16 02:27 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.78,
-      "change": 5.93,
-      "change_pct": 3.85,
+      "rate": 159.88,
+      "change": 0.14,
+      "change_pct": 0.09,
       "direction": "up"
     },
     "local_jpy": {
@@ -683,9 +675,189 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/16 01:49 JST"
+    "cities": [
+      {
+        "name": "マニラ (首都)",
+        "name_en": "Manila",
+        "is_capital": true,
+        "lat": 14.5995,
+        "lon": 120.9842,
+        "temp": 26.5,
+        "apparent_temp": 30.6,
+        "humidity": 75,
+        "wind_speed": 4.5,
+        "wind_gusts": 14.8,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/16(月)",
+            "temp_max": 33.8,
+            "temp_min": 25.9,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 34.2,
+            "temp_min": 23.1,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 34.0,
+            "temp_min": 26.7,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.9
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "セブ (中部拠点都市)",
+        "name_en": "Cebu",
+        "is_capital": false,
+        "lat": 10.3157,
+        "lon": 123.8854,
+        "temp": 26.0,
+        "apparent_temp": 30.6,
+        "humidity": 88,
+        "wind_speed": 9.9,
+        "wind_gusts": 19.1,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/16(月)",
+            "temp_max": 32.2,
+            "temp_min": 25.1,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 32.8,
+            "temp_min": 24.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.5
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 32.6,
+            "temp_min": 25.7,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 4.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ダバオ (南部主要都市)",
+        "name_en": "Davao",
+        "is_capital": false,
+        "lat": 7.1907,
+        "lon": 125.4578,
+        "temp": 24.4,
+        "apparent_temp": 28.9,
+        "humidity": 88,
+        "wind_speed": 3.9,
+        "wind_gusts": 7.6,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/16(月)",
+            "temp_max": 30.2,
+            "temp_min": 23.9,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 4.8
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 31.7,
+            "temp_min": 23.2,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 2.6
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 30.5,
+            "temp_min": 22.4,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 5.6
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "マニラ (首都)",
+      "name_en": "Manila",
+      "is_capital": true,
+      "lat": 14.5995,
+      "lon": 120.9842,
+      "temp": 26.5,
+      "apparent_temp": 30.6,
+      "humidity": 75,
+      "wind_speed": 4.5,
+      "wind_gusts": 14.8,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
+      "forecast": [
+        {
+          "date": "11/16(月)",
+          "temp_max": 33.8,
+          "temp_min": 25.9,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/17(火)",
+          "temp_max": 34.2,
+          "temp_min": 23.1,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/18(水)",
+          "temp_max": 34.0,
+          "temp_min": 26.7,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 1.9
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/16 02:27 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -714,7 +886,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/16 01:49 JST"
+    "timestamp": "11/16 02:27 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 01:49:26",
-  "timestamp_local": "2026-11-15 18:49:26",
+  "timestamp": "2026-11-16 02:27:40",
+  "timestamp_local": "2026-11-15 19:27:40",
   "country": {
     "id": "france",
     "name": "フランス",
@@ -346,7 +346,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 9,
+    "count_24h": 8,
     "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
     "latest": {
       "mag": 5.1,
@@ -419,14 +419,6 @@
         "time": "11/15 03:04 JST",
         "depth_km": 506.268,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "96 km SSE of Pondaguitan, Philippines",
-        "time": "11/15 01:56 JST",
-        "depth_km": 65.399,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
         "tsunami": 0
       }
     ]
@@ -583,7 +575,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/15 15:58",
@@ -715,14 +707,14 @@
     "default_channel_id": "stream_france24_fr"
   },
   "forex": {
-    "timestamp": "11/16 01:49 JST",
+    "timestamp": "11/16 02:27 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.78,
-      "change": 5.93,
-      "change_pct": 3.85,
+      "rate": 159.88,
+      "change": 0.14,
+      "change_pct": 0.09,
       "direction": "up"
     },
     "local_jpy": {
@@ -791,9 +783,189 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/16 01:49 JST"
+    "cities": [
+      {
+        "name": "パリ (首都)",
+        "name_en": "Paris",
+        "is_capital": true,
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "temp": 12.0,
+        "apparent_temp": 9.5,
+        "humidity": 85,
+        "wind_speed": 16.5,
+        "wind_gusts": 35.6,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 13.0,
+            "temp_min": 5.8,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 4.7
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 13.6,
+            "temp_min": 10.2,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 8.7
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 16.4,
+            "temp_min": 12.8,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 5.9
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ニース (南部・コートダジュール)",
+        "name_en": "Nice",
+        "is_capital": false,
+        "lat": 43.7102,
+        "lon": 7.262,
+        "temp": 13.0,
+        "apparent_temp": 12.5,
+        "humidity": 83,
+        "wind_speed": 4.1,
+        "wind_gusts": 9.0,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 14.7,
+            "temp_min": 11.9,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 0.5
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 16.5,
+            "temp_min": 8.4,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 17.5,
+            "temp_min": 9.5,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 0.3
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "リヨン (中東部ハブ)",
+        "name_en": "Lyon",
+        "is_capital": false,
+        "lat": 45.764,
+        "lon": 4.8357,
+        "temp": 13.3,
+        "apparent_temp": 10.1,
+        "humidity": 75,
+        "wind_speed": 20.3,
+        "wind_gusts": 43.6,
+        "precipitation": 0.0,
+        "weather_code": 61,
+        "weather_label": "🌧️ 雨 (小雨)",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 15.9,
+            "temp_min": 9.6,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 1.6
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 15.4,
+            "temp_min": 10.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 18.1,
+            "temp_min": 12.7,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 4.1
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      }
+    ],
+    "capital": {
+      "name": "パリ (首都)",
+      "name_en": "Paris",
+      "is_capital": true,
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "temp": 12.0,
+      "apparent_temp": 9.5,
+      "humidity": 85,
+      "wind_speed": 16.5,
+      "wind_gusts": 35.6,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
+      "forecast": [
+        {
+          "date": "11/15(日)",
+          "temp_max": 13.0,
+          "temp_min": 5.8,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 4.7
+        },
+        {
+          "date": "11/16(月)",
+          "temp_max": 13.6,
+          "temp_min": 10.2,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
+          "precipitation_mm": 8.7
+        },
+        {
+          "date": "11/17(火)",
+          "temp_max": 16.4,
+          "temp_min": 12.8,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 5.9
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/16 02:27 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -875,7 +1047,7 @@
         "details": "パリ・シャルル・ド・ゴール空港および主要ターミナル発着便は平常運行中"
       }
     ],
-    "timestamp": "11/16 01:49 JST"
+    "timestamp": "11/16 02:27 JST"
   },
   "lifeline": {
     "status": "NORMAL",

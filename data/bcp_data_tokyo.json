@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 16:46:57",
+  "timestamp": "2026-11-15 17:25:15",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -216,10 +216,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -230,11 +230,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "濃霧注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、濃霧注意報、強風注意報",
+        "summary": "濃霧注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -272,10 +272,10 @@
         "warns": [],
         "notices": [
           "濃霧注意報",
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "濃霧注意報、波浪注意報、強風注意報",
+        "summary": "濃霧注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -327,23 +327,21 @@
     "notice_items": []
   },
   "transit": {
-    "status": "ALERT",
-    "text": "運行支障あり（新幹線: 東海道新幹線（列車遅延））",
+    "status": "NORMAL",
+    "text": "全線平常運行中",
     "line_status": "NORMAL",
     "line_text": "全線平常運行中",
-    "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延））",
+    "shinkansen_status": "NORMAL",
+    "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [],
-    "troubled_shinkansen": [
-      "東海道新幹線（列車遅延）"
-    ],
+    "troubled_shinkansen": [],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "京都駅での車両点検の影響で、一部列車に遅れが出ています。（11月15日 20時50分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       },
       {
@@ -444,7 +442,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/15 15:52",
@@ -672,7 +670,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-16 01:46:42 JST"
+    "last_updated": "2026-11-16 02:24:59 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

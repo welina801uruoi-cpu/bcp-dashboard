@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 01:49:16",
-  "timestamp_local": "2026-11-16 00:49:16",
+  "timestamp": "2026-11-16 02:27:29",
+  "timestamp_local": "2026-11-16 01:27:29",
   "country": {
     "id": "malaysia",
     "name": "マレーシア",
@@ -273,7 +273,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 9,
+    "count_24h": 8,
     "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
     "latest": {
       "mag": 5.1,
@@ -346,14 +346,6 @@
         "time": "11/15 03:04 JST",
         "depth_km": 506.268,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "96 km SSE of Pondaguitan, Philippines",
-        "time": "11/15 01:56 JST",
-        "depth_km": 65.399,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
         "tsunami": 0
       }
     ]
@@ -591,14 +583,14 @@
     "default_channel_id": "stream_bernama_live"
   },
   "forex": {
-    "timestamp": "11/16 01:49 JST",
+    "timestamp": "11/16 02:27 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.78,
-      "change": 5.93,
-      "change_pct": 3.85,
+      "rate": 159.88,
+      "change": 0.14,
+      "change_pct": 0.09,
       "direction": "up"
     },
     "local_jpy": {
@@ -637,9 +629,189 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/16 01:49 JST"
+    "cities": [
+      {
+        "name": "クアラルンプール (首都)",
+        "name_en": "Kuala Lumpur",
+        "is_capital": true,
+        "lat": 3.139,
+        "lon": 101.6869,
+        "temp": 25.1,
+        "apparent_temp": 31.0,
+        "humidity": 97,
+        "wind_speed": 3.9,
+        "wind_gusts": 8.3,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/16(月)",
+            "temp_max": 29.7,
+            "temp_min": 24.3,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 12.3
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 30.4,
+            "temp_min": 24.1,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 12.1
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 30.6,
+            "temp_min": 23.0,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 8.1
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ペナン (ジョージタウン)",
+        "name_en": "Penang",
+        "is_capital": false,
+        "lat": 5.4141,
+        "lon": 100.3288,
+        "temp": 25.2,
+        "apparent_temp": 30.5,
+        "humidity": 96,
+        "wind_speed": 8.3,
+        "wind_gusts": 25.9,
+        "precipitation": 0.3,
+        "weather_code": 55,
+        "weather_label": "🌦️ 霧雨 (強)",
+        "forecast": [
+          {
+            "date": "11/16(月)",
+            "temp_max": 30.3,
+            "temp_min": 24.7,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 9.6
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 31.4,
+            "temp_min": 24.9,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 14.1
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 30.9,
+            "temp_min": 24.9,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 17.9
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
+      },
+      {
+        "name": "ジョホールバル (南部経済圏)",
+        "name_en": "Johor Bahru",
+        "is_capital": false,
+        "lat": 1.4927,
+        "lon": 103.7414,
+        "temp": 25.2,
+        "apparent_temp": 31.2,
+        "humidity": 98,
+        "wind_speed": 3.7,
+        "wind_gusts": 7.6,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/16(月)",
+            "temp_max": 29.6,
+            "temp_min": 24.2,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 8.7
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 30.6,
+            "temp_min": 23.7,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 24.2
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 29.1,
+            "temp_min": 23.2,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 33.2
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "クアラルンプール (首都)",
+      "name_en": "Kuala Lumpur",
+      "is_capital": true,
+      "lat": 3.139,
+      "lon": 101.6869,
+      "temp": 25.1,
+      "apparent_temp": 31.0,
+      "humidity": 97,
+      "wind_speed": 3.9,
+      "wind_gusts": 8.3,
+      "precipitation": 0.0,
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
+      "forecast": [
+        {
+          "date": "11/16(月)",
+          "temp_max": 29.7,
+          "temp_min": 24.3,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 12.3
+        },
+        {
+          "date": "11/17(火)",
+          "temp_max": 30.4,
+          "temp_min": 24.1,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 12.1
+        },
+        {
+          "date": "11/18(水)",
+          "temp_max": 30.6,
+          "temp_min": 23.0,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 8.1
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/16 02:27 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -668,7 +840,7 @@
         "details": "LRTクラナジャヤ線・MRT各線平常運行中"
       }
     ],
-    "timestamp": "11/16 01:49 JST"
+    "timestamp": "11/16 02:27 JST"
   },
   "lifeline": {
     "status": "NORMAL",

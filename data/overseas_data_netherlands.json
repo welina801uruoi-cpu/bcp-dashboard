@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 01:49:33",
-  "timestamp_local": "2026-11-15 18:49:33",
+  "timestamp": "2026-11-16 02:27:46",
+  "timestamp_local": "2026-11-15 19:27:46",
   "country": {
     "id": "netherlands",
     "name": "オランダ",
@@ -285,7 +285,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 9,
+    "count_24h": 8,
     "summary": "M5.1 (169 km NW of Gorontalo, Indonesia)",
     "latest": {
       "mag": 5.1,
@@ -358,14 +358,6 @@
         "time": "11/15 03:04 JST",
         "depth_km": 506.268,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.6,
-        "place": "96 km SSE of Pondaguitan, Philippines",
-        "time": "11/15 01:56 JST",
-        "depth_km": 65.399,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
         "tsunami": 0
       }
     ]
@@ -616,14 +608,14 @@
     "default_channel_id": "stream_nos_live"
   },
   "forex": {
-    "timestamp": "11/16 01:49 JST",
+    "timestamp": "11/16 02:27 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.78,
-      "change": 5.93,
-      "change_pct": 3.85,
+      "rate": 159.88,
+      "change": 0.14,
+      "change_pct": 0.09,
       "direction": "up"
     },
     "local_jpy": {
@@ -662,9 +654,189 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/16 01:49 JST"
+    "cities": [
+      {
+        "name": "アムステルダム (最大都市・首都)",
+        "name_en": "Amsterdam",
+        "is_capital": true,
+        "lat": 52.3676,
+        "lon": 4.9041,
+        "temp": 7.5,
+        "apparent_temp": 3.7,
+        "humidity": 90,
+        "wind_speed": 19.1,
+        "wind_gusts": 34.9,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 9.5,
+            "temp_min": 1.8,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 10.5,
+            "temp_min": 2.9,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 9.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 10.8,
+            "temp_min": 2.8,
+            "weather_code": 65,
+            "weather_label": "🌧️ 雨 (大雨)",
+            "precipitation_mm": 13.4
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ハーグ (政府機関・国際司法)",
+        "name_en": "The Hague",
+        "is_capital": false,
+        "lat": 52.0705,
+        "lon": 4.3007,
+        "temp": 8.1,
+        "apparent_temp": 4.9,
+        "humidity": 95,
+        "wind_speed": 17.6,
+        "wind_gusts": 33.1,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 9.9,
+            "temp_min": 0.8,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 0.9
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 10.3,
+            "temp_min": 3.9,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 5.0
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 12.0,
+            "temp_min": 3.2,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 6.7
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ロッテルダム (世界屈指の港湾)",
+        "name_en": "Rotterdam",
+        "is_capital": false,
+        "lat": 51.9244,
+        "lon": 4.4777,
+        "temp": 8.6,
+        "apparent_temp": 4.9,
+        "humidity": 93,
+        "wind_speed": 21.2,
+        "wind_gusts": 39.2,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/15(日)",
+            "temp_max": 10.1,
+            "temp_min": 2.5,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.6
+          },
+          {
+            "date": "11/16(月)",
+            "temp_max": 10.1,
+            "temp_min": 5.1,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 4.7
+          },
+          {
+            "date": "11/17(火)",
+            "temp_max": 12.2,
+            "temp_min": 3.9,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 9.5
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "アムステルダム (最大都市・首都)",
+      "name_en": "Amsterdam",
+      "is_capital": true,
+      "lat": 52.3676,
+      "lon": 4.9041,
+      "temp": 7.5,
+      "apparent_temp": 3.7,
+      "humidity": 90,
+      "wind_speed": 19.1,
+      "wind_gusts": 34.9,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
+      "forecast": [
+        {
+          "date": "11/15(日)",
+          "temp_max": 9.5,
+          "temp_min": 1.8,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
+        },
+        {
+          "date": "11/16(月)",
+          "temp_max": 10.5,
+          "temp_min": 2.9,
+          "weather_code": 63,
+          "weather_label": "🌧️ 雨 (中雨)",
+          "precipitation_mm": 9.0
+        },
+        {
+          "date": "11/17(火)",
+          "temp_max": 10.8,
+          "temp_min": 2.8,
+          "weather_code": 65,
+          "weather_label": "🌧️ 雨 (大雨)",
+          "precipitation_mm": 13.4
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/16 02:27 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -693,7 +865,7 @@
         "details": "主要インターシティ平常運行中"
       }
     ],
-    "timestamp": "11/16 01:49 JST"
+    "timestamp": "11/16 02:27 JST"
   },
   "lifeline": {
     "status": "NORMAL",

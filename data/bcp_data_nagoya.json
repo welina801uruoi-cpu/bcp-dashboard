@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 16:47:28",
+  "timestamp": "2026-11-15 17:25:48",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -187,10 +187,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -267,25 +267,22 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東海道本線、越後線 ／ 新幹線: 東海道新幹線（列車遅延））",
+    "text": "運行支障あり（在来線: 越後線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東海道本線、越後線）",
-    "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延））",
+    "line_text": "運行支障あり（越後線）",
+    "shinkansen_status": "NORMAL",
+    "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
-      "東海道本線",
       "越後線"
     ],
-    "troubled_shinkansen": [
-      "東海道新幹線（列車遅延）"
-    ],
+    "troubled_shinkansen": [],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "京都駅での車両点検の影響で、一部列車に遅れが出ています。（11月15日 20時50分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       }
     ],
@@ -344,7 +341,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/15 15:52",
@@ -572,7 +569,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-16 01:46:42 JST"
+    "last_updated": "2026-11-16 02:24:59 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",

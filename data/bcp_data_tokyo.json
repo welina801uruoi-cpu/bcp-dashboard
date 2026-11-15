@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14 23:56:01",
+  "timestamp": "2026-11-15 00:25:22",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -312,14 +312,16 @@
     "notice_items": []
   },
   "transit": {
-    "status": "NORMAL",
-    "text": "全線平常運行中",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "status": "ALERT",
+    "text": "運行支障あり（在来線: 東急東横線）",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（東急東横線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "東急東横線"
+    ],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
@@ -427,8 +429,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/15 00:11",
+          "text": "START au END ひかり、通信 START 障害 END か？？？ ホームゲートウェイ周り再起動しまくって、LANケーブル全部挿し直してしっかり挿さって..."
+        },
         {
           "time": "11/14 18:45",
           "text": "START au END 通信 START 障害 END 起きてる？"
@@ -436,10 +442,6 @@
         {
           "time": "11/14 12:35",
           "text": "米マイクロソフトが大規模 START 障害 END の全面復旧を発表、原因は「設備増強作業の不備」…サイバー攻撃やＡＩ暴走は否定 | START au END ..."
-        },
-        {
-          "time": "11/14 10:33",
-          "text": "ローミング縮小でも楽天モバイルからユーザーが流出しない理由 一方で浮上する「副回線化とARPU低下」の懸念 https://t.co/Unf8jZfza1 いや..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -532,8 +534,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "時効直前「岡山主婦強殺」で逮捕された“優秀な営業マン”　上司が明かした最後の日「警察はソファを飛び越え、彼の前に立った」(デイリー新潮)",
+        "summary": "昭和50（1975）年12月26日、岡山市内のマンションで強盗殺人事件が発生した。被害者は55歳の女性。岡山県警は大規模な捜査態勢を敷いたが初動捜査に失敗し、犯人の背中を見失った。当時は刑事訴訟法の改",
+        "pub_date": "11/15 09:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/ec040884277e17d186c09230e8375cc37f237801?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「ひき逃げ」で32歳男逮捕　路上の男性に衝突か 　男性は死亡　埼玉・越谷市(テレビ朝日系（ANN）)",
+        "summary": "14日の未明、埼玉県越谷市の路上で男性が頭から血を流して倒れているのが見つかり、その後、死亡しました。警察はひき逃げなどの疑いで30代の男を逮捕しました。 14日午前3時半すぎ、越谷市下間久里の路上で",
+        "pub_date": "11/15 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/e0918621f3244c7ec9dfa4a0c25caf0ca4a0385d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "都内で増加する住宅火災、死者の約8割が高齢者に…「29秒に1件」の119番通報から見える課題(TOKYO MX)",
         "summary": "TOKYO MX（地上波9ch）の報道・情報生番組「堀潤 Live Junction」（毎週月～金曜19:57～）。番組では、都内の住宅火災の増加と救急出動件数について取り上げました。◆都内の住宅火災",
@@ -583,79 +601,63 @@
         "is_disaster": true
       },
       {
-        "title": "「2名が車の下敷きに…」神社の参道で夫婦が車にひかれ妻が意識不明の重体 アクセルとブレーキの踏み間違えか(東海テレビ)",
-        "summary": "14日夕方、岐阜市にある伊奈波神社の参道で、軽ワゴン車が歩行者2人に衝突し、1人が意識不明の重体です。 警察によりますと、14日午後4時すぎ、岐阜市伊奈波通1丁目にある伊奈波神社の参道で、通行人の女性",
-        "pub_date": "11/14 21:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/e46a338ad94cb8a3421a96f5606762a9b5f011bf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "直径3.5メートル“関東一”巨大鍋で芋煮会(ABEMA TIMES)",
-        "summary": "茨城県・常陸大宮市で、関東一の大きさを誇る巨大鍋で調理された芋煮を味わうイベントが開催されました。【映像】直径3.5mの巨大鍋での芋煮会（実際の様子） 芋煮は、直径3.5メートルの巨大鍋の中で、里芋や",
-        "pub_date": "11/15 08:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/6673376379ce01b922d28bff130e44a3f21480e2?source=rss",
+        "title": "「雅子妃の涙を見て、美智子さまが…」　即位直前、上皇后に“ご指導”を受けた「雅子さま」　なぜ「平成流」公務に抗ったのか(デイリー新潮)",
+        "summary": "今から7年前、令和元年の11月に、雅子皇后は、国民の前で、異例とも言える、2度の涙を流された。【写真を見る】自然と目から涙が…雅子さまが感極まった決定的瞬間",
+        "pub_date": "11/15 09:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/4f0f1654d67ade9951e408f86d8bf4fc74717cca?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "細野大臣「福島の復興は原発の廃炉が大前提」(ABEMA TIMES)",
-        "summary": "細野復興大臣は就任後初めて福島第一原発を視察し、2051年までの廃炉に向けて「総力を挙げないと約束は果たせない」と述べ、東京電力とともに責任を果たす考えを示しました。【映像】細野大臣「廃炉には技術的な",
-        "pub_date": "11/15 08:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/5dfae1d22af788f07738585570f956402a934f02?source=rss",
+        "title": "感極まって「私は国民から…」　「即位パレード」から7年　雅子さまはなぜ2度も人前で涙を見せられたのか　苦しめられた“長年の重圧”の正体(デイリー新潮)",
+        "summary": "雅子さまが皇后になられて7年半が過ぎた。2004年に公表された「適応障害」が完治していないこともあり、当初は体調面を案じる声も聞こえていたが、令和の御世では、皇后として国民の敬愛を集めているお姿が常々",
+        "pub_date": "11/15 09:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/4eae16dcdd57741a7368ba60003ced8a9245fc9d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "住宅に強盗、82歳女性重傷　愛知・小牧、男ら数人(共同通信)",
-        "summary": "15日午前0時55分ごろ、愛知県小牧市小針2丁目の住宅に男ら数人が侵入し、住人の女性（82）に「金はないか」と言って背中を殴るなどの暴行を加えた。女性は病院に搬送され、肋骨を複数本折るなど重傷。室内に",
-        "pub_date": "11/15 08:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/6fd3a082fcefc23646cc0e79de817879dcaca35c?source=rss",
+        "title": "迷宮入りを阻止した「3分の1だけの指紋」…時効直前に逮捕「岡山主婦強殺」　15年間の逃亡期間中に向上していた「捜査技術」とは(デイリー新潮)",
+        "summary": "第1回【時効直前「岡山主婦強殺」で逮捕された“優秀な営業マン” 上司が明かした最後の日「警察はソファを飛び越え、彼の前に立った」】を読む【写真】2カ月で女性8人殺害…昭和46年逮捕、忘れられぬ凶悪事件",
+        "pub_date": "11/15 09:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/953ad66e8c632f9afc61238a51de9aa37e208d0a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "インフルエンサー「あっすん」逮捕　経営するバーで無許可接待か(テレビ朝日系（ANN）)",
-        "summary": "「あっすん」の名前で活動し、恋愛リアリティ番組にも出演していたインフルエンサーの女が自身の経営するバーで無許可で接待したとして逮捕されました。 風営法違反の疑いで逮捕されたのは、名古屋市中区のキャバク",
-        "pub_date": "11/15 08:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/4ae466221d961abaa2069f5d64e8cef626484264?source=rss",
+        "title": "【社説】陸自の情報収集　人権侵害の実態検証せよ(西日本新聞me)",
+        "summary": "自衛隊への信頼が失墜しかねない重大な人権侵害事案である。小泉進次郎防衛相は実態の解明を指揮すべきだ。 陸上自衛隊の「現地情報隊」（朝霞駐屯地）が、市民と接触して集めた個人情報を報告書にまとめ、組織的に",
+        "pub_date": "11/15 09:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/e63658f0da8066fa7b0b91177f31e46e1608b1ad?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「ラヴ上等」出演の女ら逮捕　風営法違反疑い、名古屋(共同通信)",
-        "summary": "名古屋市中心部の繁華街で無許可で接待営業をしたとして、愛知県警は15日、風営法違反（無許可営業）の疑いで名古屋市中区、小栗彩朱佳容疑者（31）ら男女3人を逮捕した。小栗容疑者は「あっすん」の名で知られ",
-        "pub_date": "11/15 08:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/d1b067e0afbcc03e00438faf401f0e453fd36bfc?source=rss",
+        "title": "〈女子高生への性的暴行容疑〉「明日殺すからな」内部LINEで暴言連発のアイドル運営者は元トップオタク…パワハラ三昧で所属アイドルには「家行っていい？」〈秋葉原〉(集英社オンライン)",
+        "summary": "東京・秋葉原のコンセプトカフェ（コンカフェ）にアルバイトの面接に来た女子高校生に性的暴行を加えたとして逮捕された平木彰一容疑者（50）。「ジュリオ」の通称で知られ、過激な接触サービスで物議を醸したアイ",
+        "pub_date": "11/15 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/6ccb0a8ce1b25673d4b70670c0bcd809675d30a5?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "教師が現場でスグ使える！　生成AIのスゴ技！　AIでクラス全員の所見文を30分で作成！(教員養成セミナー)",
-        "summary": "AIでクラス全員の所見文を30分で作成！",
-        "pub_date": "11/15 08:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/5e8d6cf3f340f0125c341c6b44aa9a14116a717b?source=rss",
+        "title": "〈女子高生への性的暴行容疑〉「指チュー」「濃厚接触チェキ」過激サービスで物議の逮捕されたアイドル運営者（50）は“伝説のトップオタク”…「自分は国民的アイドルの運営元幹部」と自称(集英社オンライン)",
+        "summary": "東京・秋葉原のコンセプトカフェ（コンカフェ）にアルバイトの面接に来た10代の女子高校生に性的暴行を加えたとして、警視庁は11月11日、平木彰一容疑者（50）を不同意性交等の疑いで逮捕した。【画像】「A",
+        "pub_date": "11/15 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/e8bf3f6cfe2b0ac842ecc72c8b2d48dbc9bf3347?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "住宅に3〜4人の強盗、82歳女性殴られ肋骨折る大けが　強盗傷害事件として捜査　愛知・小牧市(CBCテレビ)",
-        "summary": "15日未明、愛知県小牧市の住宅に3、4人の強盗が押し入り、住人の82歳の女性を殴って、肋骨を折るなどの大けがをさせ、逃走しました。【写真を見る】住宅に3〜4人の強盗、82歳女性殴られ肋骨折る大けが 強",
-        "pub_date": "11/15 08:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/5816d310698ddcf2878bf141fbca9d078ffb3a09?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【全文】美容室大手『アースグループ』 FCオーナーたちが告発！「僕ら″タダ働き″状態です」(FRIDAY)",
-        "summary": "「美容業界は材料費や人件費が高騰し、経営環境は年々厳しくなっています。そんななか、私たちアースグループには、『赤字店舗のフランチャイズ(以下FC)オーナーには給料を一切支払わない』という信じがたいルー",
-        "pub_date": "11/15 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/9ffcfcd66cc191dc84e10e767de8f2e544a8e331?source=rss",
+        "title": "「社会正義感」で合否が決定？ 東大“約70年ぶりの新学部”で生まれるのは薄っぺらな偽善ロボットか…経済誌元編集長が警鐘「私は反対だ」(集英社オンライン)",
+        "summary": "2027年9月に開設される東京大学「価値創造学部」は、高校教員の評価書や面接を通じて、受験生の「社会正義感」や「包摂性」を合否判定に用いる。しかし、高校教員が評価書を書く際に読む設問には、何をもって「",
+        "pub_date": "11/15 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/4fd4fa2635f712512182317d3b5de5859b5fbc3f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 08:55:49 JST"
+    "last_updated": "2026-11-15 09:25:05 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

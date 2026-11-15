@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 21:29:50",
+  "timestamp": "2026-11-15 22:04:50",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -216,11 +216,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
+          "波浪注意報",
           "雷注意報",
-          "波浪注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -231,11 +231,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "波浪注意報",
           "濃霧注意報",
-          "強風注意報",
-          "波浪注意報"
+          "強風注意報"
         ],
-        "summary": "濃霧注意報、強風注意報、波浪注意報",
+        "summary": "波浪注意報、濃霧注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -272,11 +272,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
           "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、強風注意報、波浪注意報",
+        "summary": "強風注意報、波浪注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -328,16 +328,14 @@
     "notice_items": []
   },
   "transit": {
-    "status": "ALERT",
-    "text": "運行支障あり（在来線: 京葉線）",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（京葉線）",
+    "status": "NORMAL",
+    "text": "全線平常運行中",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [
-      "京葉線"
-    ],
+    "troubled_lines": [],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
@@ -550,8 +548,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 8,
+    "disaster_count": 7,
     "articles": [
+      {
+        "title": "「目をやってやろう」と言われた…“恐怖の口縫い女”櫻井政恵被告の共犯男が語った深夜の暴行、孫の手で何度も殴打「皮膚が紫色になりやりすぎだと思った」(NEWSポストセブン)",
+        "summary": "同居していたAさん（当時42）を脅し、針と糸を使って被害者自身の唇を縫わせたとして、強要罪などに問われている櫻井政恵被告（50）。11月11日、水戸地裁下妻支部で開かれた初公判で、櫻井被告は起訴内容を",
+        "pub_date": "11/16 06:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/b7c555be710e12d3db5c6f41208ad8e4e33c2924?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「スピッツ」ドラマー崎山さん事故で入院　来年の全国ツアー「慎重に判断」所属事務所(テレビ朝日系（ANN）)",
+        "summary": "ロックバンド「スピッツ」のドラマー、崎山龍男さんが都内の路上で交通事故に遭っていたことが分かりました。 警視庁によりますと、崎山さん（59）は12日午後5時ごろ、渋谷区の代々木上原駅近くの路上を中型バ",
+        "pub_date": "11/16 05:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/c873276a11d1da96d260976695cc86f419d073f1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "〔沖縄電力〕沖縄県宮古島市での停電は復旧(16日06時10分現在)(レスキューナウニュース)",
         "summary": "沖縄電力の発表によると、沖縄県宮古島市で停電が発生していましたが、16日06:10現在、復旧しています。■影響地域宮古島市：約7380軒(下地字上地、下地字与那覇、下地字嘉手苅、下地字川満、下地字来間",
@@ -585,30 +599,6 @@
         "is_disaster": true
       },
       {
-        "title": "浸水で取り残された人をボートやヘリコプターで救助する「ゼロメートル地帯広域防災活動拠点」愛知・弥富市に整備(CBCテレビ)",
-        "summary": "浸水被害から県民を守るため、愛知県弥富市に防災拠点が整備されました。海抜ゼロメートル以下に位置する弥富市は、南海トラフ巨大地震で堤防が決壊した場合などに、最大およそ2メートルの浸水が予想されています。",
-        "pub_date": "11/15 21:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/8684d723b8a38e519038290deb0bdfcc89173e72?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「スピッツ」ドラマーが交通事故で入院(共同通信)",
-        "summary": "ロックバンド「スピッツ」のドラマー崎山龍男さんが12日に交通事故に遭い、入院していたことが15日、警視庁への取材で分かった。崎山さんはバイクに乗っており、乗用車に追突された。意識のある状態で搬送され、",
-        "pub_date": "11/15 21:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/b6eeb4e1da52f139c31835c0f5aafe57261c6a07?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "漁船同士が衝突し1隻が沈没 8人が搬送(ABEMA TIMES)",
-        "summary": "島根県出雲市の沖合で漁船同士が衝突し、一隻が沈没しました。 油が混じった海水を飲んだなどとして、8人が搬送されています。【映像】漁船同士が衝突し1隻が沈没 浜田海上保安部によりますと、きょう午前0時す",
-        "pub_date": "11/15 20:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/239db53dd22142322bf50266aad6c2fe9346c59b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "特急と衝突し車火災 遺体を発見",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/16 06:14 JST",
@@ -617,63 +607,71 @@
         "is_disaster": true
       },
       {
-        "title": "17歳少女に現金渡しみだらな行為か 三重の県立高校教師を逮捕 別の事件で逮捕された男のスマホ解析で発覚(東海テレビ)",
-        "summary": "当時17歳の少女に現金を渡してみだらな行為をしたとして三重県の県立高校の教師が逮捕されました。 逮捕されたのは、三重県立久居農林高校の教師・氏本敦之容疑者(39)で、ことし9月、愛知県内に駐車した車の",
-        "pub_date": "11/16 06:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/f01381fa6023d5892d33cdb5328957e766789424?source=rss",
+        "title": "【全文公開】いまどき？「詫び入れろ、逃げんじゃねえ」茨城発・超パワハラ町長の暴言音声を入手！(FRIDAY)",
+        "summary": "「俺、選挙終わったら許さないからね。選挙中は我慢してっけど、(中略)黙ってねぇからな。日本青年社だったら、本部から言わせっから」【画像】「皆、恐怖で萎縮している」佐々木喜章 前町長が嘆く…「ぶっ潰して",
+        "pub_date": "11/16 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/9988f78aa53fe22281826a50598cd5a91400e07b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "札幌の夫を捨てるほど惚れ込み､そのまま結婚…宇野千代が｢いちばん好き｣と話した3番目の夫との意外なその後(プレジデントオンライン)",
-        "summary": "NHK朝の連続テレビ小説「ブラッサム」では、宇野千代をモデルにしたヒロイン・珠が作家の西尾一路と出会うシーンが描かれた。歴史評論家の香原斗志さんは「宇野が恋多き女だったのは間違いない。だが、不思議と泥",
-        "pub_date": "11/16 06:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/f5fb63740332d67e2082694cbd1d6e38252081ed?source=rss",
+        "title": "父と違うスーツ姿の銀行時代　次々にできた「水源」　レゾナック・ホールディングス・髙橋秀仁社長(AERA DIGITAL)",
+        "summary": "日本を代表する企業や組織のトップで活躍する人たちが歩んできた道のり、ビジネスパーソンとしての「源流」を探ります。AERA 2026年11月16日号では、レゾナック・ホールディングス・髙橋秀仁社長が登場",
+        "pub_date": "11/16 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/538623ee5188a2a8bc1062de467452fc46cb4216?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「16歳未満はSNS禁止」で本当に子どもは守れるのか…先行する豪・仏の例から見えた「年齢一律規制」の“死角”(デイリー新潮)",
-        "summary": "オーストラリアが16歳未満のSNS利用を事実上禁止したのは昨年末のこと。これを皮切りにイギリスやフランスでも子どものSNS規制が進み、この9月には欧州委員会が13歳未満のSNSアカウント保有を認めない",
-        "pub_date": "11/16 06:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/5951874813763de0af4b3b8ba09af2e11d1ff780?source=rss",
+        "title": "「ロシア人とウクライナ人は一つの民族」　侵攻7カ月前にプーチンが論文に記していた“世界観”(AERA DIGITAL)",
+        "summary": "ウクライナ侵攻の7カ月前、プーチンは長大な論文を発表していた。「ロシア人とウクライナ人は、一つの民族」。その言葉をたどると、侵攻へ向かうロシアの世界観が浮かび上がる。山崎雅弘著『新時代の戦争 －ウクラ",
+        "pub_date": "11/16 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/92f21dc7e976a3355939639c6542672b48f66c96?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「私と結婚して下さいませんか」黒田清子さんが36歳で皇室を離れるまで　夫との出会いの“キッカケ”、「質素なものだった」結婚式の様子は…(文春オンライン)",
-        "summary": "天皇陛下の妹で、神宮（三重県伊勢市）祭主の黒田清子さん（57）。2005年11月15日に黒田慶樹さんと結婚し、皇室を離れてから21年が経つ。【実際の写真】清子さんは上品な和装で…黒田夫妻の結婚披露宴の",
-        "pub_date": "11/16 06:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/81524811766b201b8271ac11a285f559370d208d?source=rss",
+        "title": "17日の天気（東日本）(共同通信)",
+        "summary": "◆札幌 曇りのち時々晴れ◆秋田 曇りのち晴れ◆仙台 晴れのち一時雨◆新潟 曇り◆東京 曇りのち雨◆名古屋 曇りのち一時雨",
+        "pub_date": "11/16 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/353c506e063840eca812b1ffbea8471a5422a98f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「合計で1億円以上の金が…」　総資産4000億円　糸山英太郎元代議士が「まるで結婚詐欺にあったようだ」と怒りの告発(デイリー新潮)",
-        "summary": "【全2回（前編/後編）の後編】 誰しも齢（よわい）を重ねれば、先々の“承継”に思いをはせることだろう。まして総資産4000億円ともなればなおさらである。国内屈指の資産家である糸山英太郎元代議士（84）",
-        "pub_date": "11/16 05:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/77aa12d847340748b3e8849461df6d6a667fb211?source=rss",
+        "title": "「痛いのはやめて！殺される！」妻を殺害した被告（36）は完全黙秘、共犯者は自死…「遺体なき事件」どう立証？大阪市・傷害致死事件の裁判記録(ABEMA TIMES)",
+        "summary": "被告は完全黙秘、弁護側は無罪を主張。共犯とされる男も死亡、死体も見つかっていない——。そんな遺体なき傷害致死死体遺棄事件が、大阪で起きた。判決では、黒木佳史被告（36）が、妻のいずみさん（当時52）に",
+        "pub_date": "11/16 06:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/7fd1be878678d2f141a3b676239c6c9509b74273?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "総資産は約4000億円　糸山英太郎元代議士が「『集団結婚詐欺』に遭った」と怒りの告発　仲介したのは現役議員で…(デイリー新潮)",
-        "summary": "【全2回（前編/後編）の前編】 誰しも齢（よわい）を重ねれば、先々の“承継”に思いをはせることだろう。まして総資産4000億円ともなればなおさらである。国内屈指の資産家である糸山英太郎元代議士（84）",
-        "pub_date": "11/16 05:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/c3b5332293dd7866d19cde6b8c219d392fdf12c2?source=rss",
+        "title": "日本海側は雨や雪　晴れる太平洋側も一部で雨　風が強い　今日16日(月)の天気(日本気象協会tenki.jp)",
+        "summary": "今日16日(月)は、北海道では日本海側を中心に雪や雨が降るでしょう。東北や北陸から山陰も雨の降る所がありそうです。関東から西の太平洋側と九州は晴れる所が多いですが、一部でにわか雨の可能性があります。午",
+        "pub_date": "11/16 06:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/0ce2148434e9b6d3515bbb093e75e34485ea8efb?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "今日16日の服装指数　全国的に夜は朝より寒くなる　重ね着や厚手の上着を(日本気象協会tenki.jp)",
-        "summary": "今日16日(月)は次第に寒気が流れ込むため、夜は寒くなるでしょう。朝、それほど冷え込んでいない所も、重ね着をするか、暖かい上着があるとよさそうです。",
-        "pub_date": "11/16 05:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/47a3090ad4a6808ec2348f30ff70199bb104d07f?source=rss",
+        "title": "17歳の少女にみだらな行為をした疑いで三重県の高校の教員を逮捕 「性的欲求を満たすため」(CBCテレビ)",
+        "summary": "17歳の少女にみだらな行為をしたとして三重県の県立高校の教員が逮捕されました。逮捕されたのは三重県立久居農林高校の教員・氏本敦之容疑者（39）です。【写真を見る】17歳の少女にみだらな行為をした疑いで",
+        "pub_date": "11/16 06:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/f730dc1600779d2dbb261294b9afe9ee1af91b4f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "もう食べるのに無我夢中……　レッサーパンダも大満足の“おやつタイム”(朝日新聞デジタルマガジン＆［and］)",
+        "summary": "上野動物園で暮らす2頭のレッサーパンダ、「カリン」と「ルカ」。母娘の仲むつまじい日常を、ブログ「毎日パンダ」で知られる“パンダ写真家”の高氏貴博さんが綴（つづ）ります。レッサーパンダの愛らしい写真を掲",
+        "pub_date": "11/16 06:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/5e0f25d9327543d8487145751a8adb25c658aca2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-16 06:29:38 JST"
+    "last_updated": "2026-11-16 07:04:35 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -738,10 +736,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "UR4R3WQvt9A",
+        "video_id": "yKC3lraRRKE",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/UR4R3WQvt9A?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=UR4R3WQvt9A"
+        "embed_url": "https://www.youtube.com/embed/yKC3lraRRKE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=yKC3lraRRKE"
       }
     ],
     "cameras": [

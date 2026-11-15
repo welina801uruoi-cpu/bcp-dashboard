@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 05:20:30",
+  "timestamp": "2026-11-15 06:16:07",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -237,13 +237,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（新幹線: 山陽新幹線（その他））",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "text": "運行支障あり（在来線: 山陽本線 ／ 新幹線: 山陽新幹線（その他））",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（山陽本線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "山陽本線"
+    ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）"
     ],
@@ -267,11 +269,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中国電力NW: 【停電発生中】島根で停電情報を検知",
+    "power_msg": "中国電力NW: 停電情報なし（中国エリア管内正常）",
     "water_msg": "広島市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "広島ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -311,8 +313,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/15 05:36",
+          "text": "通信 START 障害 END 等に関するお知らせ│スマートフォン・携帯電話をご利用のお客さま│ START au END https://t.co/bF5ug..."
+        },
         {
           "time": "11/15 02:50",
           "text": "[役立つかも情報共有]iPhoneの通信 START 障害 END 、セキュリティアプリが原因だったみたい。 START au END サポートセンターは基本チ..."
@@ -320,10 +326,6 @@
         {
           "time": "11/15 01:37",
           "text": "ん？また START au END 通信 START 障害 END 出てる？？"
-        },
-        {
-          "time": "11/15 01:04",
-          "text": "「ドコモの予備にahamo」は START 障害 END 対策として効果が薄め。 サブ回線は\"ブランド\"より\"回線網\"で選ぶのが基本。 ・ドコモ網：ahamo、..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -357,19 +359,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/15 06:09",
+          "text": "@niwakarock311 突然失礼します💦 START au END の通信でお困りのご様子ですが、どこか特定の場所で電波が START 繋がらない END..."
+        },
+        {
+          "time": "11/15 05:42",
+          "text": "@Lamyeyes1115 SoftBank→高い START au END →高い docomo→電話番号流出、高い UQ→新規受付終了プラン安い、現在のプラ..."
+        },
         {
           "time": "11/15 03:54",
           "text": "DOCOMO自宅で通信 START 繋がらない END 通話もできない最悪終わってる。 START au END に乗り換えようかな。使いたい時に使えない不満続..."
-        },
-        {
-          "time": "11/15 02:49",
-          "text": "昨日無券で現地行ってわかったこと Docomo(ahamo)→全く START 繋がらない END サブのpovo( START au END )→普通に使える..."
-        },
-        {
-          "time": "11/15 02:49",
-          "text": "#Wifi 今週もまたあった家のWi-Fi START au END スマホは繋がるのに docomoは START 繋がらない END 😅 朝の時点では問題な..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -415,8 +417,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 5,
+    "disaster_count": 6,
     "articles": [
+      {
+        "title": "漁船同士が衝突し沈没 「油が混じった海水を飲んだ」8人搬送　島根・出雲市の沖合(テレビ朝日系（ANN）)",
+        "summary": "15日、島根県出雲市の沖合で漁船同士が衝突し、1隻が沈没しました。沈没した船に乗っていた乗組員10人は全員救助され、命に別状はありません。 浜田海上保安部によりますと、午前0時すぎ、出雲市の出雲日御碕",
+        "pub_date": "11/15 15:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/1c2cbfeceec0bc63e7e9722b39d7cd0247996591?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "島根原発、異常想定で訓練　島根、鳥取の2県6市合同(共同通信)",
         "summary": "中国電力島根原発（松江市）で異常が発生したとの想定で、島根、鳥取両県と30キロ圏内にある両県の6市は15日、合同で住民の避難訓練を実施した。一部地域では複合災害で集落が孤立したとのシミュレーションで、",
@@ -458,6 +468,62 @@
         "is_disaster": true
       },
       {
+        "title": "仕事ができる人ほど陥るキャリアの罠、「過去の成功」から抜け出す方法(Forbes JAPAN)",
+        "summary": "何かに秀でるようになることの奇妙な点の1つは、それによって別のことに取り組むのが難しくなる場合があることだ。難しいプロジェクトを解決すると、別のプロジェクトが行き詰まるたびに呼ばれる人になる。扱いにく",
+        "pub_date": "11/15 15:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/75276c293576d82bda3c75ced1ab5bf540e510e9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "小泉防衛大臣　防衛省・自衛隊のAI活用方針を見直し(テレビ朝日系（ANN）)",
+        "summary": "小泉防衛大臣は今月中に防衛省・自衛隊のAIの活用に関する基本方針を見直す考えを示しました。【小泉防衛大臣】「今回の見直しでは単にAIをどこで使うかというだけではなくて、AIとデータを実際の防衛力の強化",
+        "pub_date": "11/15 14:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/07973175ccd45bf224f331ee22f6464082420864?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【来週の天気】冬型強まり週後半は暴風・大雪のおそれ　西日本の山地でも雪か(ウェザーマップ)",
+        "summary": "来週は一気に季節が進みそうです。発達する低気圧が日本海を進み、18日(水)は全国的に荒れた天気となるでしょう。低気圧が通過した後は冬型の気圧配置となる見込みです。このため、日本海側では暴風となるおそれ",
+        "pub_date": "11/15 14:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/0feb8b64f23f09da7d6bff6509e208e4551a2e0a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "嘉手納、F15EX配備開始　米空軍、海外拠点で初(共同通信)",
+        "summary": "米軍は15日、嘉手納基地（沖縄県嘉手納町など）にF15戦闘機の後継となるF15EXが到着し、配備が始まったと発表した。米空軍の海外拠点でF15EXが配備されるのは初めて。F15EXは、高度な航空電子機",
+        "pub_date": "11/15 14:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/e7f2363e38c0a8185919659090a24a7667cdd985?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "収穫したダイコンが〝モチーフ〟　味わい、描く「畑の学校」(日本農業新聞)",
+        "summary": "親子で農業を学ぶ「畑の学校」の「野菜でアート作品を作ろう」が、横浜市戸塚区のフジイファームで開かれた。11組24人が参加し、自身で収穫したダイコンを観察し、触れ、香りや味を確かめながら美術作品を制作し",
+        "pub_date": "11/15 14:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/fc71514ecc5911177163a298d211fce1da484fa0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "スペースX、宇宙船回収に初成功　「スターシップ」完全再利用に道(共同通信)",
+        "summary": "【ワシントン共同】米スペースXは米南部テキサス州の拠点施設から13日に打ち上げ、22時間以上飛行して14日に施設に戻った大型宇宙船「スターシップ」を専用設備でキャッチし、機体を回収することに初めて成功",
+        "pub_date": "11/15 14:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/a6c66fc134bcb13bc24edcd1bf1d321a3eb9c32d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "火星と木星が大接近　最も近づくのは明日16日　太平洋側を中心に観測チャンス(日本気象協会tenki.jp)",
+        "summary": "11月は火星と木星が接近しているのを見ることができ、最も接近して見えるのは明日16日です。東の空に昇り始めるのが午後11時過ぎのため、最接近が観察できるのは今日15日深夜から明日16日明け方になります",
+        "pub_date": "11/15 14:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/faa16e3d94a48fc2ef9869baa1868bdd670624b0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "米軍嘉手納基地でF15後継機の配備開始(共同通信)",
         "summary": "米軍は15日、沖縄県嘉手納町などにある嘉手納基地に、F15戦闘機の後継となるF15EXが到着し、配備が始まったと発表した。米空軍の海外拠点でF15EXが配備されるのは初めて。",
         "pub_date": "11/15 14:12 JST",
@@ -467,78 +533,14 @@
       },
       {
         "title": "【動画解説】週の中ごろから大荒れに 暴風に警戒　週後半は強い寒気　真冬並みの寒さも(ウェザーマップ)",
-        "summary": "水曜日から金曜日ごろにかけて、発達する低気圧の影響で全国的に風が強まり大荒れとなりそうです。次第に強い寒気が流れ込むため、日本海側で雪の範囲が広がって、北日本や北陸では雪の強まる所もありそうです。西日",
+        "summary": "水曜日から金曜日ごろにかけて、発達する低気圧の影響で全国的に風が強まり大荒れとなりそうです。次第に強い寒気が流れ込むため、日本海側で雪の範囲が広がって、北日本や北陸では雪の強まる所もあるでしょう。西日",
         "pub_date": "11/15 14:12 JST",
         "link": "https://news.yahoo.co.jp/articles/11d1f08e6fa41df38b68260057968c1c0b66372e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "自己負担約7倍の差 補助ゼロの自治体も「“接種はやめて”と即答します」 新型コロナワクチンの現在地【大石邦彦解説】(CBCテレビ)",
-        "summary": "あなたは、コロナワクチンを何回接種しましたか?新型コロナワクチンの接種から5年「ワクチン接種の現在地」をお伝えする。今年も10月から高齢者らを中心とした定期接種が始まった。2021年にスタートした特例",
-        "pub_date": "11/15 14:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/cae1c7903271cc5710db394649db9626c609c80e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【再生】廃寺寸前の住職が見出した新たな供養の形「樹木葬」　『人々の心を癒やす場』としての再出発(読売テレビ)",
-        "summary": "檀家離れなどによって全国の過疎地で相次ぐ「廃寺」。その寺の衰退の波はいま大阪市内にも及んでいます。寺の存続をかけて、大阪の住職が打ち出した一手とは。（読売テレビ 報道局：藤本治男）※情報・年齢等は取材",
-        "pub_date": "11/15 14:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/026b3774b53b130e1106360b0c50132d5091a53d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "遅刻が激減した「ミニゲーム」、現在も通用するジャック・スタック流の組織改革術(Forbes JAPAN)",
-        "summary": "ある火曜日の朝、私の家族が経営する店の正面入口には客が列をなしていた。通常であれば午前8時30分までに8人の従業員が出勤しているはずなのに、来ていたのはわずか4人だった。私たちは全員、開店準備に追われ",
-        "pub_date": "11/15 14:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/fd4e32f09a60a7629e835cffefda225678c43d17?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "国内外の警察音楽隊、銀座に集結　金管とドラムの音、街に響く(共同通信)",
-        "summary": "国内外の警察音楽隊が参加する「世界のお巡りさんコンサート」が15日、東京・銀座で開かれた。ベトナムやシンガポール、オーストラリアの3カ国と、警視庁、埼玉県警など国内9隊の計12の音楽隊がパレードした。",
-        "pub_date": "11/15 13:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/b5e6c00178efb8e76e80d80e12c1282b4a447788?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "出産後殺害疑い26歳母親再逮捕　タオルで首絞めたか、岡山(共同通信)",
-        "summary": "自宅で出産後間もない女児の首をタオルで締め付けるなどして殺害したとして、岡山県警は15日、殺人の疑いで、母親の会社員山内香奈容疑者（26）＝岡山県倉敷市＝を再逮捕した。容疑を認めているという。 再逮捕",
-        "pub_date": "11/15 13:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/a3b82b2102744916a92e4ad58b3b77f9140e3225?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "飲酒し路上で居眠り　28歳男性が財布を奪われる　2人組が逃走か、大阪(産経新聞)",
-        "summary": "15日午前4時20分ごろ、大阪市都島区東野田町の路上で、大阪府大東市の男性会社員（28）が「路上で寝ていたらかばんを引っ張られた。抵抗したら顔面を殴られた」と110番した。大阪府警都島署によると、男性",
-        "pub_date": "11/15 13:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/a405540bd2401e32f889cf89f3612dd476587928?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "20代の男1人と少年4人を逮捕 盗難車を運転し保管した疑い 82歳の女性が大けがをした強盗傷害事件への関与もほのめかす(CBCテレビ)",
-        "summary": "ブラジル国籍の20代の男と少年4人が、盗難車に乗っていた疑いで逮捕されました。5人は、愛知県小牧市の強盗傷害事件への関与をほのめかしているということです。【写真を見る】20代の男1人と少年4人を逮捕",
-        "pub_date": "11/15 13:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/18458178c57a36218cca44d118b5b2025f87863c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "“みんな一緒に”は古い?2030年度から本格実施“新しい授業” 児童の「なぜ?」「やりたい」を追求 授業の15％を学校の裁量で(CBCテレビ)",
-        "summary": "「同じ内容を同じペースで」教えることが大前提となってきた学校教育を、国が大きく変えようとしています。【写真を見る】“みんな一緒に”は古い?2030年度から本格実施“新しい授業” 児童の「なぜ?」「やり",
-        "pub_date": "11/15 13:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/b24ba78cceabd354b82684ecd519b5596916e389?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 14:19:48 JST"
+    "last_updated": "2026-11-15 15:15:54 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -592,10 +594,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "QYMEHQAoUPk",
+        "video_id": "OpT7PRNUhFw",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/QYMEHQAoUPk?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=QYMEHQAoUPk"
+        "embed_url": "https://www.youtube.com/embed/OpT7PRNUhFw?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=OpT7PRNUhFw"
       },
       {
         "id": "stream_fnnnews",

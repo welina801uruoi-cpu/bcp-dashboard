@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 07:13:51",
+  "timestamp": "2026-11-15 08:15:19",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -346,12 +346,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-15 14:00",
-    "place": "茨城県沖",
-    "magnitude": "3.6",
+    "shindo": "2",
+    "time": "2026-11-15 16:23",
+    "place": "熊本県熊本地方",
+    "magnitude": "3.1",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-15 16:23",
+        "place": "熊本県熊本地方",
+        "shindo": "2",
+        "magnitude": "3.1",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-15 14:00",
         "place": "茨城県沖",
@@ -414,13 +421,6 @@
         "shindo": "-",
         "magnitude": "3.9",
         "maxScale": -1
-      },
-      {
-        "time": "2026-11-15 00:05",
-        "place": "震源情報なし",
-        "shindo": "3",
-        "magnitude": "-",
-        "maxScale": 30
       }
     ]
   },
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 33地域】道央、道南、道北、道東、青森、岩手、宮城、秋田、山形、福島、茨城、栃木、群馬、千葉、東京、神奈川、福井、長野、静岡、愛知、三重、滋賀、和歌山、山口、徳島、愛媛、高知、福岡、佐賀、長崎、熊本、大分、沖縄（警報なし）",
+    "summary": "【注意報発表: 36地域】道央、道南、道北、道東、青森、岩手、宮城、秋田、山形、福島、茨城、栃木、群馬、千葉、東京、神奈川、新潟、富山、福井、山梨、長野、静岡、愛知、三重、滋賀、和歌山、山口、徳島、愛媛、高知、福岡、佐賀、長崎、熊本、大分、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 33,
+    "notice_count": 36,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -489,13 +489,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "濃霧注意報",
           "強風注意報",
+          "濃霧注意報",
           "雷注意報",
+          "波浪注意報",
           "着雪注意報"
         ],
-        "summary": "波浪注意報、濃霧注意報、強風注意報、雷注意報、着雪注意報",
+        "summary": "強風注意報、濃霧注意報、雷注意報、波浪注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
@@ -506,11 +506,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "波浪注意報",
-          "濃霧注意報",
-          "雷注意報"
+          "雷注意報",
+          "濃霧注意報"
         ],
-        "summary": "波浪注意報、濃霧注意報、雷注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -548,11 +549,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
+          "波浪注意報",
           "雷注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
@@ -563,10 +564,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -590,11 +591,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報、濃霧注意報",
+        "summary": "強風注意報、濃霧注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -642,12 +643,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
-          "濃霧注意報",
-          "雷注意報"
+          "波浪注意報",
+          "雷注意報",
+          "濃霧注意報"
         ],
-        "summary": "波浪注意報、強風注意報、濃霧注意報、雷注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -658,11 +659,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
+          "波浪注意報",
           "雷注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -682,22 +683,27 @@
         "code": "15",
         "name": "新潟県",
         "short_name": "新潟",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報",
+          "波浪注意報"
+        ],
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
         "code": "16",
         "name": "富山県",
         "short_name": "富山",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "波浪注意報"
+        ],
+        "summary": "波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/16/"
       },
       {
@@ -728,11 +734,13 @@
         "code": "19",
         "name": "山梨県",
         "short_name": "山梨",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/19/"
       },
       {
@@ -767,9 +775,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "雷注意報"
         ],
-        "summary": "雷注意報",
+        "summary": "強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -865,10 +874,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       },
       {
@@ -936,10 +944,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/36/"
       },
       {
@@ -961,10 +968,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/38/"
       },
       {
@@ -975,10 +982,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/39/"
       },
       {
@@ -1092,31 +1098,31 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線22路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、鹿児島本線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線22路線: 山田線、米坂線、左沢線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、鹿児島本線、肥薩線、指宿枕崎線 等 計22路線）",
+    "line_text": "運行支障あり（山田線、米坂線、左沢線、陸羽東線、北上線 等 計22路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "鹿児島本線",
-      "肥薩線",
-      "指宿枕崎線",
       "山田線",
       "米坂線",
       "左沢線",
       "陸羽東線",
       "北上線",
       "津軽線",
+      "肥薩線",
+      "指宿枕崎線",
       "山陽本線",
       "姫新線",
       "美祢線",
+      "身延線",
       "大井川鉄道大井川本線",
       "天竜浜名湖鉄道線",
       "越後線",
       "万葉線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
@@ -1213,7 +1219,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】茨城・千葉・山梨・長野・和歌山・愛媛で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】福島・茨城・千葉・山梨・長野・滋賀・兵庫で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1276,8 +1282,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/15 07:28",
+          "text": "あと、万が一の災害時とか大規模トラブルに対する危機管理能力、低すぎません？「自分の使ってるキャリアが通信 START 障害 END になったらどうしよう」って怯..."
+        },
         {
           "time": "11/13 14:10",
           "text": "今回の件、4年前の START KDDI END の大規模通信 START 障害 END も確か週末だった。 今回のMicrosoftといい週末に起きてるのは不..."
@@ -1285,10 +1295,6 @@
         {
           "time": "11/13 13:40",
           "text": "START KDDI END の START 障害 END のときに似た感じの説明だな #報道ステーション"
-        },
-        {
-          "time": "11/13 08:36",
-          "text": "世間はM365 START 障害 END で大変やけど、しれっとキャリアメール死んでる START KDDI END さんは何をされているのですか？ 今日の7時..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -1299,7 +1305,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/15 06:36",
@@ -1322,19 +1328,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/15 07:50",
+          "text": "docomoの通信不可、半年前とか株主総会で話題だった時はそれほどでもなかったのに、先日の通信 START 障害 END 以降、MVNO(IIJmio, doc..."
+        },
+        {
+          "time": "11/15 07:28",
+          "text": "あと、万が一の災害時とか大規模トラブルに対する危機管理能力、低すぎません？「自分の使ってるキャリアが通信 START 障害 END になったらどうしよう」って怯..."
+        },
         {
           "time": "11/15 07:03",
           "text": "ドコモユーザーのみなさん… START povo END を... START povo END をサブとして使うのです...ほぼ無料で持てるし、今みたいな通信..."
-        },
-        {
-          "time": "11/15 01:04",
-          "text": "「ドコモの予備にahamo」は START 障害 END 対策として効果が薄め。 サブ回線は\"ブランド\"より\"回線網\"で選ぶのが基本。 ・ドコモ網：ahamo、..."
-        },
-        {
-          "time": "11/14 09:48",
-          "text": "【いざという時のネット環境に💻】 楽天モバイルのWiFi Pocketが1円キャンペーン中📶 停電・通信 START 障害 END ・出張・在宅でも使える備えと..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -1344,22 +1350,30 @@
     "status": "NORMAL",
     "office": "気象庁",
     "target_area": "東京都",
-    "report_time": "11/15 10:41",
+    "report_time": "11/15 16:40",
     "headline": "",
-    "text": "　前線が房総半島付近から日本の東にのびています。また、前線を伴った低気圧が九州付近にあって、東北東へ進んでいます。\n\n　東京地方は、曇りで、雨の降っている所があります。\n\n　１５日は、前線を伴った低気圧が本州南岸を東北東へ進み、夜には伊豆諸島付近に達する見込みです。このため、雨時々曇りとなるでしょう。伊豆諸島では、雨で雷を伴い非常に激しく降る所がある見込みです。\n\n　１６日は、西高東低の気圧配置となりますが、東海道沖の気圧の谷の影響を受ける見込みです。このため、晴れで夕方から曇りとなるでしょう。",
+    "text": "　前線を伴った低気圧が四国の南にあって、東北東へ進んでいます。\n\n　東京地方は、雨や曇りとなっています。\n\n　１５日は、前線を伴った低気圧が東海道沖から伊豆諸島付近へ進む見込みです。このため、雨で夜遅くは曇りとなるでしょう。伊豆諸島では、雨で雷を伴い非常に激しく降る所がある見込みです。\n\n　１６日は、西高東低の気圧配置となりますが、東海道沖の気圧の谷の影響を受ける見込みです。このため、晴れで夕方から曇りとなるでしょう。",
     "paragraphs": [
-      "前線が房総半島付近から日本の東にのびています。また、前線を伴った低気圧が九州付近にあって、東北東へ進んでいます。",
-      "東京地方は、曇りで、雨の降っている所があります。",
-      "１５日は、前線を伴った低気圧が本州南岸を東北東へ進み、夜には伊豆諸島付近に達する見込みです。このため、雨時々曇りとなるでしょう。伊豆諸島では、雨で雷を伴い非常に激しく降る所がある見込みです。",
+      "前線を伴った低気圧が四国の南にあって、東北東へ進んでいます。",
+      "東京地方は、雨や曇りとなっています。",
+      "１５日は、前線を伴った低気圧が東海道沖から伊豆諸島付近へ進む見込みです。このため、雨で夜遅くは曇りとなるでしょう。伊豆諸島では、雨で雷を伴い非常に激しく降る所がある見込みです。",
       "１６日は、西高東低の気圧配置となりますが、東海道沖の気圧の谷の影響を受ける見込みです。このため、晴れで夕方から曇りとなるでしょう。"
     ],
-    "summary": "前線が房総半島付近から日本の東にのびています。また、前線を伴った低気圧が九州付近にあって、東北東へ進んでいます。...",
+    "summary": "前線を伴った低気圧が四国の南にあって、東北東へ進んでいます。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=130000"
   },
   "disaster_news": {
     "count": 15,
     "disaster_count": 4,
     "articles": [
+      {
+        "title": "19日(木)頃は暴風や高波に警戒　大雨や大雪のおそれも　北海道(日本気象協会tenki.jp)",
+        "summary": "発達する低気圧の接近に伴い、北海道では18日(水)には広く雨が降る見込みです。その後は強い冬型の気圧配置と上空の寒気の影響で21日(土)頃にかけて日本海側を中心に雪が降り、ふぶいたり局地的な大雪となる",
+        "pub_date": "11/15 16:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/8801009b5ee46bcdf7dc252f2c04c6eb27d96fc3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "漁船同士が衝突し沈没 「油が混じった海水を飲んだ」8人搬送　島根・出雲市の沖合(テレビ朝日系（ANN）)",
         "summary": "15日、島根県出雲市の沖合で漁船同士が衝突し、1隻が沈没しました。沈没した船に乗っていた乗組員10人は全員救助され、命に別状はありません。 浜田海上保安部によりますと、午前0時すぎ、出雲市の出雲日御碕",
@@ -1385,103 +1399,95 @@
         "is_disaster": true
       },
       {
-        "title": "関東は冷たい雨　東京は15℃届かず12月上旬並み　伊豆諸島では警報級大雨のおそれ(ウェザーマップ)",
-        "summary": "低気圧や前線の影響で、きょう(日)は関東で広く雨が降っています。冷たい北風が吹き、昼でも15℃に届かない所が多くなりそうです。午後から夜にかけては、千葉県や伊豆諸島で雨が強まる見通しです。伊豆諸島では",
-        "pub_date": "11/15 11:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/11632f1b0f89fff5f09ffdb96c1901ac9ffb6e20?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "2人死亡“ひき逃げ” 逮捕の男 アルコールなど検出なし(ABEMA TIMES)",
-        "summary": "神奈川県海老名市で女性2人が死亡したひき逃げ事件で、逮捕されたトラック運転手の男からアルコールなどは検出されていないことが分かりました。【映像】現場付近の様子 会田誠容疑者（49）はおととい、海老名市",
-        "pub_date": "11/15 16:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/3cf6a492dd77f91b2bce468aa56a43ae71c8e0d5?source=rss",
+        "title": "消費減税、効果小さい63％　財源、支援金説明必要85％(共同通信)",
+        "summary": "共同通信社は14、15両日、全国電話世論調査を実施した。参院で関連法案が審議中の消費税減税について、物価高対策としての効果が「小さい」は63.5％で、「大きい」の30.9％を上回った。減税の財源や新た",
+        "pub_date": "11/15 17:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/6f9179a9a41edd71949c3f2c8fda936fc271505e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "防衛省、新たなAI活用基本方針を策定へ(共同通信)",
-        "summary": "小泉進次郎防衛相は15日、防衛省の人工知能（AI）活用推進基本方針を見直し、新たな「ディフェンスAIビジョン」を今月末にも策定する方針を表明した。",
-        "pub_date": "11/15 15:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/46538b0d708caec14f5820d3dcbea8fb74ea8523?source=rss",
+        "title": "イチゴ王国の土台支える、唯一の公的研究所　新品種開発から生産者サポートまで、栃木(共同通信)",
+        "summary": "57年連続でイチゴ収穫量日本一を誇る栃木県。同県栃木市にある日本唯一の公的なイチゴ専門研究機関「県農業総合研究センターいちご研究所」が、その土台を支えている。新品種の開発から栽培技術の研究、消費者調査",
+        "pub_date": "11/15 17:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/575ac9637f7ddd837884246878ea25ab5a76e5c2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ハンズ渋谷店、営業終了へ　来店客らから惜しむ声(共同通信)",
-        "summary": "生活雑貨店「ハンズ渋谷店」（東京・渋谷）は15日、営業を終了する。美容や文具などの雑貨のほか、DIYの用具もそろい、渋谷の「顔」として48年余りにわたり親しまれてきた。来店客らから惜しむ声が上がった。",
-        "pub_date": "11/15 15:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/ab9674edd8dbb9de9086d93719d5c32f5a2a6c1f?source=rss",
+        "title": "大阪3歳女児虐待死　全身のあざは50カ所以上　暴行後は別室で1人寝かせたか(産経新聞)",
+        "summary": "大阪府枚方市で金尾英怜奈（かなおえれな）ちゃん（3）が死亡し、両親が逮捕された事件で、全身に新旧混ざる50カ所以上のあざがあったことが15日、捜査関係者への取材で分かった。殺人容疑で逮捕された父親の会",
+        "pub_date": "11/15 16:55 JST",
+        "link": "https://news.yahoo.co.jp/articles/f6b7a8e11e9aff7d5ef8fc2105776f2e7e2f21a3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ガス噴出の詳細構造、世界初観測　ブラックホールの謎解明に一歩(共同通信)",
-        "summary": "大量の物質を急速に吸い込む巨大なブラックホールが、「ジェット」と呼ばれるガスの流れを噴き出す詳細な構造を、世界で初めて観測することに成功したと東北大などの研究チームが15日までに、米科学誌に発表した。",
-        "pub_date": "11/15 15:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/a15186ecabd473dc08f218e6c8965ba0dab7dbdc?source=rss",
+        "title": "日中改善へ対話実現が焦点　首相、16日から比と中国を訪問(共同通信)",
+        "summary": "高市早苗首相は16日から東南アジア諸国連合（ASEAN）関連首脳会議やアジア太平洋経済協力会議（APEC）首脳会議に出席するためフィリピン、中国を訪れる。米中、米中ロ3カ国首脳会談が見込まれる中、日米",
+        "pub_date": "11/15 16:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/7d31f1ecbcb5a78e5386ea02e02cb08069e6440e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "仕事ができる人ほど陥るキャリアの罠、「過去の成功」から抜け出す方法(Forbes JAPAN)",
-        "summary": "何かに秀でるようになることの奇妙な点の1つは、それによって別のことに取り組むのが難しくなる場合があることだ。難しいプロジェクトを解決すると、別のプロジェクトが行き詰まるたびに呼ばれる人になる。扱いにく",
-        "pub_date": "11/15 15:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/75276c293576d82bda3c75ced1ab5bf540e510e9?source=rss",
+        "title": "玉木氏、主張確約で賛成も　減税法案の参院採決(共同通信)",
+        "summary": "国民民主党の玉木雄一郎代表は15日、参院で審議中の飲食料品の消費税減税関連法案を巡り、同党が主張する2029年度からの住民税減税の実施が確約されれば、参院採決で賛成に転じる可能性を示した。「賛否を決め",
+        "pub_date": "11/15 16:46 JST",
+        "link": "https://news.yahoo.co.jp/articles/1f4e106a9109f1f9a31e260e6975ce573c5d9ac3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "小泉防衛大臣　防衛省・自衛隊のAI活用方針を見直し(テレビ朝日系（ANN）)",
-        "summary": "小泉防衛大臣は今月中に防衛省・自衛隊のAIの活用に関する基本方針を見直す考えを示しました。【小泉防衛大臣】「今回の見直しでは単にAIをどこで使うかというだけではなくて、AIとデータを実際の防衛力の強化",
-        "pub_date": "11/15 14:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/07973175ccd45bf224f331ee22f6464082420864?source=rss",
+        "title": "高市内閣支持率50％で横ばい(共同通信)",
+        "summary": "共同通信世論調査で、高市内閣の支持率は50.4％となり、10月の前回調査より1.3ポイント増えた。不支持率は34.4％だった。",
+        "pub_date": "11/15 16:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/7617e7633aa1eb2591cc9fa04de87f57183f1f29?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【来週の天気】冬型強まり週後半は暴風・大雪のおそれ　西日本の山地でも雪か(ウェザーマップ)",
-        "summary": "来週は一気に季節が進みそうです。発達する低気圧が日本海を進み、18日(水)は全国的に荒れた天気となるでしょう。低気圧が通過した後は冬型の気圧配置となる見込みです。このため、日本海側では暴風となるおそれ",
-        "pub_date": "11/15 14:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/0feb8b64f23f09da7d6bff6509e208e4551a2e0a?source=rss",
+        "title": "サイバー攻撃への政府対応「遅い」59％(共同通信)",
+        "summary": "共同通信世論調査で、相次ぐ企業へのサイバー攻撃を受けた政府対応への評価を尋ねたところ「遅い」との回答は59.0％で、「迅速だ」の32.7％を上回った。",
+        "pub_date": "11/15 16:44 JST",
+        "link": "https://news.yahoo.co.jp/articles/e24b68ad8339940b8364b14406dccf72707d30e7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "嘉手納、F15EX配備開始　米空軍、海外拠点で初(共同通信)",
-        "summary": "米軍は15日、嘉手納基地（沖縄県嘉手納町など）にF15戦闘機の後継となるF15EXが到着し、配備が始まったと発表した。米空軍の海外拠点でF15EXが配備されるのは初めて。F15EXは、高度な航空電子機",
-        "pub_date": "11/15 14:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/e7f2363e38c0a8185919659090a24a7667cdd985?source=rss",
+        "title": "政治資金の規制強化優先を67％(共同通信)",
+        "summary": "共同通信世論調査で「政治とカネ」問題を巡り、衆院定数削減と政治資金の規制強化のどちらをより優先すべきか尋ねたところ、政治資金の規制強化が67.1％に上った。",
+        "pub_date": "11/15 16:43 JST",
+        "link": "https://news.yahoo.co.jp/articles/fbd754c4d39b0a2694f1a79a927fac94729f656f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "収穫したダイコンが〝モチーフ〟　味わい、描く「畑の学校」(日本農業新聞)",
-        "summary": "親子で農業を学ぶ「畑の学校」の「野菜でアート作品を作ろう」が、横浜市戸塚区のフジイファームで開かれた。11組24人が参加し、自身で収穫したダイコンを観察し、触れ、香りや味を確かめながら美術作品を制作し",
-        "pub_date": "11/15 14:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/fc71514ecc5911177163a298d211fce1da484fa0?source=rss",
+        "title": "消費減税、財政への不安感じる68％(共同通信)",
+        "summary": "共同通信世論調査で、消費税減税による財政への不安を感じるかどうかを尋ねたところ「感じる」「ある程度感じる」が計68.6％となった。",
+        "pub_date": "11/15 16:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/fd7184020a0c0c8eef2c94055204e52a2928e1ae?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "スペースX、宇宙船回収に初成功　「スターシップ」完全再利用に道(共同通信)",
-        "summary": "【ワシントン共同】米スペースXは米南部テキサス州の拠点施設から13日に打ち上げ、22時間以上飛行して14日に施設に戻った大型宇宙船「スターシップ」を専用設備でキャッチし、機体を回収することに初めて成功",
-        "pub_date": "11/15 14:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/a6c66fc134bcb13bc24edcd1bf1d321a3eb9c32d?source=rss",
+        "title": "減税財源や支援金制度で説明必要85％(共同通信)",
+        "summary": "共同通信世論調査で、高市早苗首相は消費税減税の具体的な財源や新たな支援金制度の詳細を「説明する必要がある」との回答は85.6％、「必要はない」は12.3％だった。",
+        "pub_date": "11/15 16:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/71434c384915a518187f1aded61c428312d50a95?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "火星と木星が大接近　最も近づくのは明日16日　太平洋側を中心に観測チャンス(日本気象協会tenki.jp)",
-        "summary": "11月は火星と木星が接近しているのを見ることができ、最も接近して見えるのは明日16日です。東の空に昇り始めるのが午後11時過ぎのため、最接近が観察できるのは今日15日深夜から明日16日明け方になります",
-        "pub_date": "11/15 14:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/faa16e3d94a48fc2ef9869baa1868bdd670624b0?source=rss",
+        "title": "消費減税、物価高対策の効果小さい63％(共同通信)",
+        "summary": "共同通信社が14、15日に実施した全国電話世論調査によると、飲食料品の消費税減税に関し、物価高対策としての効果が「小さい」との回答は63.5％で、「大きい」の30.9％を上回った。",
+        "pub_date": "11/15 16:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/f72043e8370b3614f82a588730481ad8eb1ee555?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 16:13:47 JST"
+    "last_updated": "2026-11-15 17:15:17 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1502,10 +1508,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "asfCYMIBJec",
+        "video_id": "G20x_7lWykQ",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/asfCYMIBJec?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=asfCYMIBJec"
+        "embed_url": "https://www.youtube.com/embed/G20x_7lWykQ?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=G20x_7lWykQ"
       },
       {
         "id": "stream_tbsnews",

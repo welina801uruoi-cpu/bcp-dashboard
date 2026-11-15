@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 19:14:03",
+  "timestamp": "2026-11-15 19:50:24",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -77,11 +77,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-16 02:43",
-    "place": "薩摩半島西方沖",
-    "magnitude": "2.5",
+    "time": "2026-11-16 04:34",
+    "place": "愛知県東部",
+    "magnitude": "2.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-16 04:34",
+        "place": "愛知県東部",
+        "shindo": "1",
+        "magnitude": "2.6",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-16 02:43",
         "place": "薩摩半島西方沖",
@@ -144,13 +151,6 @@
         "shindo": "3",
         "magnitude": "-",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-15 01:50",
-        "place": "茨城県沖",
-        "shindo": "1",
-        "magnitude": "3.7",
-        "maxScale": 10
       }
     ]
   },
@@ -180,11 +180,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "波浪注意報",
           "強風注意報",
-          "濃霧注意報",
-          "波浪注意報"
+          "濃霧注意報"
         ],
-        "summary": "強風注意報、濃霧注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -195,11 +195,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -210,11 +210,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "波浪注意報",
           "強風注意報",
-          "濃霧注意報",
-          "波浪注意報"
+          "濃霧注意報"
         ],
-        "summary": "強風注意報、濃霧注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
@@ -239,11 +239,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -254,10 +254,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "強風注意報"
+          "強風注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、強風注意報",
+        "summary": "強風注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       }
     ]
@@ -457,19 +457,19 @@
     "status": "NORMAL",
     "office": "仙台管区気象台",
     "target_area": "宮城県",
-    "report_time": "11/15 16:31",
+    "report_time": "11/16 04:37",
     "headline": "",
-    "text": "低気圧が日本海にあって、東北東へ進んでいます。\n\n【宮城県】\n宮城県は、雨となっています。\n\n１５日夜は、低気圧や湿った空気の影響により、雨や曇りでしょう。\n\n１６日は、西高東低の気圧配置となるため、曇りや晴れで、西部では、はじめ雨の降る所がある見込みです。\n\n【東北地方】\n東北地方は、雨となっています。\n\n１５日夜は、低気圧や湿った空気の影響により、雨の降る所が多く、北部で雷を伴う所もあるでしょう。\n\n１６日は、低気圧の影響により、雨の降る所が多く、北部で雷を伴う所もある見込みです。次第に西高東低の気圧配置となるため、曇りで、太平洋側では、晴れる所もあるでしょう。",
+    "text": "低気圧が日本の東にあって、東北東へ進んでいます。北日本は気圧の谷となっています。\n\n【宮城県】\n宮城県は、曇りで、雨の降っている所があります。\n\n１６日は、気圧の谷や西高東低の気圧配置の影響により、曇りで、雨の降る所があるでしょう。東部では、晴れる所もある見込みです。\n\n１７日は、高気圧に覆われるため、はじめ晴れますが、湿った空気や気圧の谷の影響により、次第に曇りで、夜遅くには雨の降る所が多くなるでしょう。\n\n【東北地方】\n東北地方は、曇りで、雨の降っている所があります。\n\n１６日は、気圧の谷や西高東低の気圧配置の影響により、北部や日本海側を中心に、曇りで、雨の降る所があるでしょう。太平洋側では、晴れる所もある見込みです。\n\n１７日は、高気圧に覆われるため、北部を中心に晴れますが、寒気や湿った空気、気圧の谷の影響により、朝晩は曇る所が多く、夜遅くには南部で雨の降る所が多くなるでしょう。",
     "paragraphs": [
-      "低気圧が日本海にあって、東北東へ進んでいます。",
-      "【宮城県】\n宮城県は、雨となっています。",
-      "１５日夜は、低気圧や湿った空気の影響により、雨や曇りでしょう。",
-      "１６日は、西高東低の気圧配置となるため、曇りや晴れで、西部では、はじめ雨の降る所がある見込みです。",
-      "【東北地方】\n東北地方は、雨となっています。",
-      "１５日夜は、低気圧や湿った空気の影響により、雨の降る所が多く、北部で雷を伴う所もあるでしょう。",
-      "１６日は、低気圧の影響により、雨の降る所が多く、北部で雷を伴う所もある見込みです。次第に西高東低の気圧配置となるため、曇りで、太平洋側では、晴れる所もあるでしょう。"
+      "低気圧が日本の東にあって、東北東へ進んでいます。北日本は気圧の谷となっています。",
+      "【宮城県】\n宮城県は、曇りで、雨の降っている所があります。",
+      "１６日は、気圧の谷や西高東低の気圧配置の影響により、曇りで、雨の降る所があるでしょう。東部では、晴れる所もある見込みです。",
+      "１７日は、高気圧に覆われるため、はじめ晴れますが、湿った空気や気圧の谷の影響により、次第に曇りで、夜遅くには雨の降る所が多くなるでしょう。",
+      "【東北地方】\n東北地方は、曇りで、雨の降っている所があります。",
+      "１６日は、気圧の谷や西高東低の気圧配置の影響により、北部や日本海側を中心に、曇りで、雨の降る所があるでしょう。太平洋側では、晴れる所もある見込みです。",
+      "１７日は、高気圧に覆われるため、北部を中心に晴れますが、寒気や湿った空気、気圧の谷の影響により、朝晩は曇る所が多く、夜遅くには南部で雨の降る所が多くなるでしょう。"
     ],
-    "summary": "低気圧が日本海にあって、東北東へ進んでいます。...",
+    "summary": "低気圧が日本の東にあって、東北東へ進んでいます。北日本は気圧の谷となっています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=040000"
   },
   "disaster_news": {
@@ -597,7 +597,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-16 04:13:51 JST"
+    "last_updated": "2026-11-16 04:49:57 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -618,10 +618,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "nIdaETdIdhI",
+        "video_id": "IfBklvlgbyY",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/nIdaETdIdhI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=nIdaETdIdhI"
+        "embed_url": "https://www.youtube.com/embed/IfBklvlgbyY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=IfBklvlgbyY"
       },
       {
         "id": "stream_tbsnews",
@@ -651,10 +651,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "Mf3z62JDses",
+        "video_id": "MRCr1LS0Jvo",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/Mf3z62JDses?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Mf3z62JDses"
+        "embed_url": "https://www.youtube.com/embed/MRCr1LS0Jvo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=MRCr1LS0Jvo"
       },
       {
         "id": "stream_fnnnews",

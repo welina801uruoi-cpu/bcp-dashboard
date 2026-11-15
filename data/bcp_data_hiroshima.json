@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 19:14:13",
+  "timestamp": "2026-11-15 19:50:38",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -74,11 +74,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-16 02:43",
-    "place": "薩摩半島西方沖",
-    "magnitude": "2.5",
+    "time": "2026-11-16 04:34",
+    "place": "愛知県東部",
+    "magnitude": "2.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-16 04:34",
+        "place": "愛知県東部",
+        "shindo": "1",
+        "magnitude": "2.6",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-16 02:43",
         "place": "薩摩半島西方沖",
@@ -141,13 +148,6 @@
         "shindo": "3",
         "magnitude": "-",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-15 01:50",
-        "place": "茨城県沖",
-        "shindo": "1",
-        "magnitude": "3.7",
-        "maxScale": 10
       }
     ]
   },
@@ -188,9 +188,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "波浪注意報",
           "強風注意報"
         ],
-        "summary": "強風注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -404,15 +405,15 @@
     "status": "NORMAL",
     "office": "広島地方気象台",
     "target_area": "広島県",
-    "report_time": "11/15 16:33",
+    "report_time": "11/16 04:33",
     "headline": "",
-    "text": "　中国地方は、気圧の谷や湿った空気の影響で曇り、雨の降っている所があります。\n\n　１５日夜の広島県は、北部では湿った空気の影響で曇り、雨の降る所があるでしょう。南部では、高気圧に覆われて晴れる見込みです。\n\n　１６日は、北部では寒気や湿った空気の影響でおおむね曇るでしょう。南部では、高気圧に覆われておおむね晴れる見込みです。",
+    "text": "　中国地方は、寒気や湿った空気の影響でおおむね曇り、雨の降っている所があります。\n\n　１６日の広島県は、北部では寒気や湿った空気の影響でおおむね曇り、朝まで雨の降る所があるでしょう。南部では高気圧に覆われておおむね晴れる見込みです。\n\n　１７日は、はじめ高気圧に覆われて晴れますが、低気圧や湿った空気の影響で次第に曇り、夕方からは雨が降るでしょう。",
     "paragraphs": [
-      "中国地方は、気圧の谷や湿った空気の影響で曇り、雨の降っている所があります。",
-      "１５日夜の広島県は、北部では湿った空気の影響で曇り、雨の降る所があるでしょう。南部では、高気圧に覆われて晴れる見込みです。",
-      "１６日は、北部では寒気や湿った空気の影響でおおむね曇るでしょう。南部では、高気圧に覆われておおむね晴れる見込みです。"
+      "中国地方は、寒気や湿った空気の影響でおおむね曇り、雨の降っている所があります。",
+      "１６日の広島県は、北部では寒気や湿った空気の影響でおおむね曇り、朝まで雨の降る所があるでしょう。南部では高気圧に覆われておおむね晴れる見込みです。",
+      "１７日は、はじめ高気圧に覆われて晴れますが、低気圧や湿った空気の影響で次第に曇り、夕方からは雨が降るでしょう。"
     ],
-    "summary": "中国地方は、気圧の谷や湿った空気の影響で曇り、雨の降っている所があります。...",
+    "summary": "中国地方は、寒気や湿った空気の影響でおおむね曇り、雨の降っている所があります。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=340000"
   },
   "disaster_news": {
@@ -540,7 +541,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-16 04:13:51 JST"
+    "last_updated": "2026-11-16 04:49:57 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -561,10 +562,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "nIdaETdIdhI",
+        "video_id": "IfBklvlgbyY",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/nIdaETdIdhI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=nIdaETdIdhI"
+        "embed_url": "https://www.youtube.com/embed/IfBklvlgbyY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=IfBklvlgbyY"
       },
       {
         "id": "stream_tbsnews",
@@ -594,10 +595,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "Mf3z62JDses",
+        "video_id": "MRCr1LS0Jvo",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/Mf3z62JDses?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Mf3z62JDses"
+        "embed_url": "https://www.youtube.com/embed/MRCr1LS0Jvo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=MRCr1LS0Jvo"
       },
       {
         "id": "stream_fnnnews",

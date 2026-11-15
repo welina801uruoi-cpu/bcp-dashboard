@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 04:14:28",
-  "timestamp_local": "2026-11-16 02:14:28",
+  "timestamp": "2026-11-16 04:51:06",
+  "timestamp_local": "2026-11-16 02:51:06",
   "country": {
     "id": "thailand",
     "name": "タイ",
@@ -295,7 +295,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
+    "count_24h": 9,
     "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
       "mag": 5,
@@ -320,6 +320,14 @@
         "time": "11/16 00:41 JST",
         "depth_km": 487.384,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.6,
+        "place": "27 km ESE of Union, Philippines",
+        "time": "11/15 23:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyes",
         "tsunami": 0
       },
       {
@@ -532,7 +540,7 @@
         },
         {
           "time": "10/27 01:03",
-          "text": "@yabadabadoo00 義弟はナコンパトム在住（ 冠水 エリア）。 バンコク洪水 危機のとき、「この辺は STAR..."
+          "text": "@yabadabadoo00 義弟はナコンパトム在住（ 冠水 エリア）。 バンコク 洪水 危機のとき..."
         },
         {
           "time": "10/26 22:53",
@@ -643,13 +651,13 @@
     "default_channel_id": "stream_thairath_live"
   },
   "forex": {
-    "timestamp": "11/16 04:14 JST",
+    "timestamp": "11/16 04:51 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.57,
-      "change": -0.31,
+      "rate": 159.58,
+      "change": -0.3,
       "change_pct": -0.19,
       "direction": "down"
     },
@@ -657,18 +665,18 @@
       "currency": "THB",
       "name": "タイバーツ",
       "symbol": "฿",
-      "rate": 4.707,
-      "change": -0.009,
-      "change_pct": -0.19,
+      "rate": 4.708,
+      "change": -0.008,
+      "change_pct": -0.18,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.84,
-      "change": -0.82,
-      "change_pct": -0.46
+      "rate": 175.94,
+      "change": -0.72,
+      "change_pct": -0.41
     }
   },
   "airports": [
@@ -704,189 +712,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "バンコク (首都)",
-        "name_en": "Bangkok",
-        "is_capital": true,
-        "lat": 13.7563,
-        "lon": 100.5018,
-        "temp": 26.4,
-        "apparent_temp": 32.5,
-        "humidity": 92,
-        "wind_speed": 3.7,
-        "wind_gusts": 9.7,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/16(月)",
-            "temp_max": 33.2,
-            "temp_min": 25.8,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.5
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 32.7,
-            "temp_min": 25.4,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 6.1
-          },
-          {
-            "date": "11/18(水)",
-            "temp_max": 32.7,
-            "temp_min": 24.6,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 2.7
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "チェンマイ (北部拠点)",
-        "name_en": "Chiang Mai",
-        "is_capital": false,
-        "lat": 18.7883,
-        "lon": 98.9853,
-        "temp": 22.5,
-        "apparent_temp": 26.4,
-        "humidity": 90,
-        "wind_speed": 2.2,
-        "wind_gusts": 4.0,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/16(月)",
-            "temp_max": 29.5,
-            "temp_min": 21.1,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.1
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 29.6,
-            "temp_min": 21.5,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.5
-          },
-          {
-            "date": "11/18(水)",
-            "temp_max": 29.9,
-            "temp_min": 22.5,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 3.1
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "プーケット (南部リゾート)",
-        "name_en": "Phuket",
-        "is_capital": false,
-        "lat": 7.8804,
-        "lon": 98.3923,
-        "temp": 25.0,
-        "apparent_temp": 30.8,
-        "humidity": 93,
-        "wind_speed": 0.9,
-        "wind_gusts": 4.3,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
-        "forecast": [
-          {
-            "date": "11/16(月)",
-            "temp_max": 29.9,
-            "temp_min": 24.6,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 2.4
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 30.5,
-            "temp_min": 24.9,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 4.9
-          },
-          {
-            "date": "11/18(水)",
-            "temp_max": 30.0,
-            "temp_min": 25.2,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 7.4
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      }
-    ],
-    "capital": {
-      "name": "バンコク (首都)",
-      "name_en": "Bangkok",
-      "is_capital": true,
-      "lat": 13.7563,
-      "lon": 100.5018,
-      "temp": 26.4,
-      "apparent_temp": 32.5,
-      "humidity": 92,
-      "wind_speed": 3.7,
-      "wind_gusts": 9.7,
-      "precipitation": 0.0,
-      "weather_code": 0,
-      "weather_label": "☀️ 快晴",
-      "forecast": [
-        {
-          "date": "11/16(月)",
-          "temp_max": 33.2,
-          "temp_min": 25.8,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.5
-        },
-        {
-          "date": "11/17(火)",
-          "temp_max": 32.7,
-          "temp_min": 25.4,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 6.1
-        },
-        {
-          "date": "11/18(水)",
-          "temp_max": 32.7,
-          "temp_min": 24.6,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 2.7
-        }
-      ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-    },
-    "timestamp": "11/16 04:14 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/16 04:51 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -915,7 +743,7 @@
         "details": "BTSスクムウィット線・MRTブルーライン平常運行中"
       }
     ],
-    "timestamp": "11/16 04:14 JST"
+    "timestamp": "11/16 04:51 JST"
   },
   "lifeline": {
     "status": "NORMAL",

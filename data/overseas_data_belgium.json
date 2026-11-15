@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 04:15:20",
-  "timestamp_local": "2026-11-15 21:15:20",
+  "timestamp": "2026-11-16 04:51:40",
+  "timestamp_local": "2026-11-15 21:51:40",
   "country": {
     "id": "belgium",
     "name": "ベルギー",
@@ -272,7 +272,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
+    "count_24h": 9,
     "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
       "mag": 5,
@@ -297,6 +297,14 @@
         "time": "11/16 00:41 JST",
         "depth_km": 487.384,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.6,
+        "place": "27 km ESE of Union, Philippines",
+        "time": "11/15 23:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyes",
         "tsunami": 0
       },
       {
@@ -619,13 +627,13 @@
     "default_channel_id": "stream_rtbf_live"
   },
   "forex": {
-    "timestamp": "11/16 04:15 JST",
+    "timestamp": "11/16 04:51 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.57,
-      "change": -0.31,
+      "rate": 159.58,
+      "change": -0.3,
       "change_pct": -0.19,
       "direction": "down"
     },
@@ -633,18 +641,18 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.84,
-      "change": -0.82,
-      "change_pct": -0.46,
+      "rate": 175.94,
+      "change": -0.72,
+      "change_pct": -0.41,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.84,
-      "change": -0.82,
-      "change_pct": -0.46
+      "rate": 175.94,
+      "change": -0.72,
+      "change_pct": -0.41
     }
   },
   "airports": [
@@ -665,144 +673,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "ブリュッセル (首都・EU本部)",
-        "name_en": "Brussels",
-        "is_capital": true,
-        "lat": 50.8503,
-        "lon": 4.3517,
-        "temp": 11.2,
-        "apparent_temp": 8.1,
-        "humidity": 89,
-        "wind_speed": 19.8,
-        "wind_gusts": 40.3,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 11.3,
-            "temp_min": 3.7,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 2.9
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 10.3,
-            "temp_min": 4.5,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 3.7
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 14.2,
-            "temp_min": 4.8,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 23.8
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "アントワープ (北部主要港湾)",
-        "name_en": "Antwerp",
-        "is_capital": false,
-        "lat": 51.2194,
-        "lon": 4.4025,
-        "temp": 10.7,
-        "apparent_temp": 7.9,
-        "humidity": 93,
-        "wind_speed": 18.0,
-        "wind_gusts": 36.7,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 10.7,
-            "temp_min": 1.9,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 5.5
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 9.9,
-            "temp_min": 4.4,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 3.2
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 13.6,
-            "temp_min": 3.9,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 31.3
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      }
-    ],
-    "capital": {
-      "name": "ブリュッセル (首都・EU本部)",
-      "name_en": "Brussels",
-      "is_capital": true,
-      "lat": 50.8503,
-      "lon": 4.3517,
-      "temp": 11.2,
-      "apparent_temp": 8.1,
-      "humidity": 89,
-      "wind_speed": 19.8,
-      "wind_gusts": 40.3,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
-      "forecast": [
-        {
-          "date": "11/15(日)",
-          "temp_max": 11.3,
-          "temp_min": 3.7,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 2.9
-        },
-        {
-          "date": "11/16(月)",
-          "temp_max": 10.3,
-          "temp_min": 4.5,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 3.7
-        },
-        {
-          "date": "11/17(火)",
-          "temp_max": 14.2,
-          "temp_min": 4.8,
-          "weather_code": 63,
-          "weather_label": "🌧️ 雨 (中雨)",
-          "precipitation_mm": 23.8
-        }
-      ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-    },
-    "timestamp": "11/16 04:15 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/16 04:51 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -831,7 +704,7 @@
         "details": "国鉄インターシティ線平常運行中"
       }
     ],
-    "timestamp": "11/16 04:15 JST"
+    "timestamp": "11/16 04:51 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 04:14:40",
-  "timestamp_local": "2026-11-16 03:14:40",
+  "timestamp": "2026-11-16 04:51:15",
+  "timestamp_local": "2026-11-16 03:51:15",
   "country": {
     "id": "china",
     "name": "中国 (中華人民共和国)",
@@ -287,7 +287,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
+    "count_24h": 9,
     "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
       "mag": 5,
@@ -312,6 +312,14 @@
         "time": "11/16 00:41 JST",
         "depth_km": 487.384,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.6,
+        "place": "27 km ESE of Union, Philippines",
+        "time": "11/15 23:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyes",
         "tsunami": 0
       },
       {
@@ -627,13 +635,13 @@
     "default_channel_id": "stream_cctv_live"
   },
   "forex": {
-    "timestamp": "11/16 04:14 JST",
+    "timestamp": "11/16 04:51 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.57,
-      "change": -0.31,
+      "rate": 159.58,
+      "change": -0.3,
       "change_pct": -0.19,
       "direction": "down"
     },
@@ -650,9 +658,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.84,
-      "change": -0.82,
-      "change_pct": -0.46
+      "rate": 175.94,
+      "change": -0.72,
+      "change_pct": -0.41
     }
   },
   "airports": [
@@ -688,189 +696,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "北京 (首都)",
-        "name_en": "Beijing",
-        "is_capital": true,
-        "lat": 39.9042,
-        "lon": 116.4074,
-        "temp": 5.3,
-        "apparent_temp": 2.0,
-        "humidity": 65,
-        "wind_speed": 6.7,
-        "wind_gusts": 12.6,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/16(月)",
-            "temp_max": 6.9,
-            "temp_min": 4.4,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.5
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 7.9,
-            "temp_min": 2.6,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.1
-          },
-          {
-            "date": "11/18(水)",
-            "temp_max": 5.3,
-            "temp_min": 0.0,
-            "weather_code": 1,
-            "weather_label": "🌤️ 晴れ",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "上海 (最大経済都市)",
-        "name_en": "Shanghai",
-        "is_capital": false,
-        "lat": 31.2304,
-        "lon": 121.4737,
-        "temp": 13.3,
-        "apparent_temp": 12.6,
-        "humidity": 88,
-        "wind_speed": 6.8,
-        "wind_gusts": 15.5,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
-        "forecast": [
-          {
-            "date": "11/16(月)",
-            "temp_max": 18.7,
-            "temp_min": 12.0,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 17.5,
-            "temp_min": 11.4,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/18(水)",
-            "temp_max": 15.4,
-            "temp_min": 7.2,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.2
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "広州 (南部主要都市)",
-        "name_en": "Guangzhou",
-        "is_capital": false,
-        "lat": 23.1291,
-        "lon": 113.2644,
-        "temp": 18.8,
-        "apparent_temp": 19.7,
-        "humidity": 81,
-        "wind_speed": 5.9,
-        "wind_gusts": 11.2,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
-        "forecast": [
-          {
-            "date": "11/16(月)",
-            "temp_max": 26.2,
-            "temp_min": 18.3,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 28.2,
-            "temp_min": 20.6,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 1.4
-          },
-          {
-            "date": "11/18(水)",
-            "temp_max": 24.8,
-            "temp_min": 16.6,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 1.8
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      }
-    ],
-    "capital": {
-      "name": "北京 (首都)",
-      "name_en": "Beijing",
-      "is_capital": true,
-      "lat": 39.9042,
-      "lon": 116.4074,
-      "temp": 5.3,
-      "apparent_temp": 2.0,
-      "humidity": 65,
-      "wind_speed": 6.7,
-      "wind_gusts": 12.6,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
-      "forecast": [
-        {
-          "date": "11/16(月)",
-          "temp_max": 6.9,
-          "temp_min": 4.4,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.5
-        },
-        {
-          "date": "11/17(火)",
-          "temp_max": 7.9,
-          "temp_min": 2.6,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.1
-        },
-        {
-          "date": "11/18(水)",
-          "temp_max": 5.3,
-          "temp_min": 0.0,
-          "weather_code": 1,
-          "weather_label": "🌤️ 晴れ",
-          "precipitation_mm": 0.0
-        }
-      ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-    },
-    "timestamp": "11/16 04:14 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/16 04:51 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -899,7 +727,7 @@
         "details": "京滬高速鉄道ほか主要幹線は平常運行中"
       }
     ],
-    "timestamp": "11/16 04:14 JST"
+    "timestamp": "11/16 04:51 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 04:15:19",
-  "timestamp_local": "2026-11-15 21:15:19",
+  "timestamp": "2026-11-16 04:51:38",
+  "timestamp_local": "2026-11-15 21:51:38",
   "country": {
     "id": "spain",
     "name": "スペイン",
@@ -352,7 +352,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
+    "count_24h": 9,
     "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
       "mag": 5,
@@ -377,6 +377,14 @@
         "time": "11/16 00:41 JST",
         "depth_km": 487.384,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.6,
+        "place": "27 km ESE of Union, Philippines",
+        "time": "11/15 23:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyes",
         "tsunami": 0
       },
       {
@@ -715,13 +723,13 @@
     "default_channel_id": "stream_rtve"
   },
   "forex": {
-    "timestamp": "11/16 04:15 JST",
+    "timestamp": "11/16 04:51 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.57,
-      "change": -0.31,
+      "rate": 159.58,
+      "change": -0.3,
       "change_pct": -0.19,
       "direction": "down"
     },
@@ -729,18 +737,18 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.84,
-      "change": -0.82,
-      "change_pct": -0.46,
+      "rate": 175.94,
+      "change": -0.72,
+      "change_pct": -0.41,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.84,
-      "change": -0.82,
-      "change_pct": -0.46
+      "rate": 175.94,
+      "change": -0.72,
+      "change_pct": -0.41
     }
   },
   "airports": [
@@ -791,189 +799,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "マドリード (首都)",
-        "name_en": "Madrid",
-        "is_capital": true,
-        "lat": 40.4168,
-        "lon": -3.7038,
-        "temp": 12.0,
-        "apparent_temp": 11.2,
-        "humidity": 94,
-        "wind_speed": 7.8,
-        "wind_gusts": 19.8,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 13.2,
-            "temp_min": 10.3,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.3
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 15.8,
-            "temp_min": 10.7,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 15.1,
-            "temp_min": 10.8,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.4
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "バルセロナ (カタルーニャ)",
-        "name_en": "Barcelona",
-        "is_capital": false,
-        "lat": 41.3879,
-        "lon": 2.1699,
-        "temp": 18.1,
-        "apparent_temp": 17.0,
-        "humidity": 65,
-        "wind_speed": 10.6,
-        "wind_gusts": 17.6,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 20.4,
-            "temp_min": 15.2,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 20.7,
-            "temp_min": 13.8,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 20.9,
-            "temp_min": 15.6,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "セビリア (アンダルシア)",
-        "name_en": "Seville",
-        "is_capital": false,
-        "lat": 37.3891,
-        "lon": -5.9845,
-        "temp": 17.0,
-        "apparent_temp": 17.5,
-        "humidity": 76,
-        "wind_speed": 1.8,
-        "wind_gusts": 2.2,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 20.0,
-            "temp_min": 12.9,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 21.7,
-            "temp_min": 9.4,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 20.0,
-            "temp_min": 13.5,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.5
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      }
-    ],
-    "capital": {
-      "name": "マドリード (首都)",
-      "name_en": "Madrid",
-      "is_capital": true,
-      "lat": 40.4168,
-      "lon": -3.7038,
-      "temp": 12.0,
-      "apparent_temp": 11.2,
-      "humidity": 94,
-      "wind_speed": 7.8,
-      "wind_gusts": 19.8,
-      "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
-      "forecast": [
-        {
-          "date": "11/15(日)",
-          "temp_max": 13.2,
-          "temp_min": 10.3,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 0.3
-        },
-        {
-          "date": "11/16(月)",
-          "temp_max": 15.8,
-          "temp_min": 10.7,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
-        },
-        {
-          "date": "11/17(火)",
-          "temp_max": 15.1,
-          "temp_min": 10.8,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 0.4
-        }
-      ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-    },
-    "timestamp": "11/16 04:15 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/16 04:51 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1055,7 +883,7 @@
         "details": "全国主要都市間ルートは定常運行中"
       }
     ],
-    "timestamp": "11/16 04:15 JST"
+    "timestamp": "11/16 04:51 JST"
   },
   "lifeline": {
     "status": "NORMAL",

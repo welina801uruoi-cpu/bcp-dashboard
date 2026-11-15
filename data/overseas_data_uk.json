@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 04:15:07",
-  "timestamp_local": "2026-11-15 20:15:07",
+  "timestamp": "2026-11-16 04:51:35",
+  "timestamp_local": "2026-11-15 20:51:35",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -352,7 +352,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
+    "count_24h": 9,
     "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
       "mag": 5,
@@ -377,6 +377,14 @@
         "time": "11/16 00:41 JST",
         "depth_km": 487.384,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.6,
+        "place": "27 km ESE of Union, Philippines",
+        "time": "11/15 23:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyes",
         "tsunami": 0
       },
       {
@@ -705,13 +713,13 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/16 04:15 JST",
+    "timestamp": "11/16 04:51 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.57,
-      "change": -0.31,
+      "rate": 159.58,
+      "change": -0.3,
       "change_pct": -0.19,
       "direction": "down"
     },
@@ -719,18 +727,18 @@
       "currency": "GBP",
       "name": "英ポンド",
       "symbol": "£",
-      "rate": 210.72,
-      "change": -0.82,
-      "change_pct": -0.39,
+      "rate": 211.05,
+      "change": -0.48,
+      "change_pct": -0.23,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.84,
-      "change": -0.82,
-      "change_pct": -0.46
+      "rate": 175.94,
+      "change": -0.72,
+      "change_pct": -0.41
     }
   },
   "airports": [
@@ -796,189 +804,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "ロンドン (首都)",
-        "name_en": "London",
-        "is_capital": true,
-        "lat": 51.5074,
-        "lon": -0.1278,
-        "temp": 9.3,
-        "apparent_temp": 6.9,
-        "humidity": 86,
-        "wind_speed": 11.2,
-        "wind_gusts": 23.8,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 10.6,
-            "temp_min": 3.3,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 3.5
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 7.9,
-            "temp_min": 4.4,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 2.2
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 12.5,
-            "temp_min": 5.6,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 5.8
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      },
-      {
-        "name": "マンチェスター (中部)",
-        "name_en": "Manchester",
-        "is_capital": false,
-        "lat": 53.4808,
-        "lon": -2.2426,
-        "temp": 6.4,
-        "apparent_temp": 4.2,
-        "humidity": 96,
-        "wind_speed": 8.3,
-        "wind_gusts": 16.9,
-        "precipitation": 0.2,
-        "weather_code": 53,
-        "weather_label": "🌦️ 霧雨 (中)",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 7.2,
-            "temp_min": 3.0,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 4.4
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 5.7,
-            "temp_min": 2.9,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 8.0,
-            "temp_min": 3.3,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 22.1
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      },
-      {
-        "name": "エディンバラ (スコットランド)",
-        "name_en": "Edinburgh",
-        "is_capital": false,
-        "lat": 55.9533,
-        "lon": -3.1883,
-        "temp": 5.8,
-        "apparent_temp": 2.5,
-        "humidity": 75,
-        "wind_speed": 9.7,
-        "wind_gusts": 22.0,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 9.5,
-            "temp_min": 4.3,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 4.4
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 4.3,
-            "temp_min": 0.4,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.2
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 7.1,
-            "temp_min": 3.7,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 2.8
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      }
-    ],
-    "capital": {
-      "name": "ロンドン (首都)",
-      "name_en": "London",
-      "is_capital": true,
-      "lat": 51.5074,
-      "lon": -0.1278,
-      "temp": 9.3,
-      "apparent_temp": 6.9,
-      "humidity": 86,
-      "wind_speed": 11.2,
-      "wind_gusts": 23.8,
-      "precipitation": 0.1,
-      "weather_code": 51,
-      "weather_label": "🌦️ 霧雨 (弱)",
-      "forecast": [
-        {
-          "date": "11/15(日)",
-          "temp_max": 10.6,
-          "temp_min": 3.3,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 3.5
-        },
-        {
-          "date": "11/16(月)",
-          "temp_max": 7.9,
-          "temp_min": 4.4,
-          "weather_code": 55,
-          "weather_label": "🌦️ 霧雨 (強)",
-          "precipitation_mm": 2.2
-        },
-        {
-          "date": "11/17(火)",
-          "temp_max": 12.5,
-          "temp_min": 5.6,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 5.8
-        }
-      ],
-      "alert": "気象注意",
-      "alert_badge": "🟡 気象注意",
-      "alert_class": "yellow",
-      "alert_desc": "降雨または視程低下あり。通常行動可能"
-    },
-    "timestamp": "11/16 04:15 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/16 04:51 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -1004,7 +832,7 @@
         "mode": "tube",
         "status": "Severe Delays",
         "badge": "🟠 警戒",
-        "reason": "Victoria Line: No service between Walthamstow Central and Highbury & Islington while respond to a fire alert at Seven Si"
+        "reason": "Victoria Line: Severe delays due to an earlier fire alert at Seven Sisters. Tickets are being accepted on London Buses, "
       },
       {
         "system": "ロンドン交通局 (TfL Underground / Elizabeth / Overground)",
@@ -1115,7 +943,7 @@
             "status_raw": "Minor Delays",
             "badge": "🟡 注意",
             "code": "minor",
-            "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge / Watford / Chesham / Amersham due to train canc"
+            "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the "
           },
           {
             "name": "Mildmay",
@@ -1155,7 +983,7 @@
             "status_raw": "Severe Delays",
             "badge": "🟠 警戒",
             "code": "warning",
-            "reason": "Victoria Line: No service between Walthamstow Central and Highbury & Islington while respond to a fire alert at Seven Si"
+            "reason": "Victoria Line: Severe delays due to an earlier fire alert at Seven Sisters. Tickets are being accepted on London Buses, "
           },
           {
             "name": "Waterloo & City",
@@ -1235,7 +1063,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/16 04:15 JST"
+    "timestamp": "11/16 04:51 JST"
   },
   "lifeline": {
     "status": "NORMAL",

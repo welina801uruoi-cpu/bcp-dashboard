@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 19:13:20",
+  "timestamp": "2026-11-15 19:49:29",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -91,11 +91,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-16 02:43",
-    "place": "薩摩半島西方沖",
-    "magnitude": "2.5",
+    "time": "2026-11-16 04:34",
+    "place": "愛知県東部",
+    "magnitude": "2.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-16 04:34",
+        "place": "愛知県東部",
+        "shindo": "1",
+        "magnitude": "2.6",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-16 02:43",
         "place": "薩摩半島西方沖",
@@ -158,13 +165,6 @@
         "shindo": "3",
         "magnitude": "-",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-15 01:50",
-        "place": "茨城県沖",
-        "shindo": "1",
-        "magnitude": "3.7",
-        "maxScale": 10
       }
     ]
   },
@@ -437,18 +437,18 @@
     "status": "NORMAL",
     "office": "大阪管区気象台",
     "target_area": "大阪府",
-    "report_time": "11/15 16:36",
+    "report_time": "11/16 04:33",
     "headline": "",
-    "text": "　大阪府は、低気圧や湿った空気の影響で雨が降っています。\n\n　１５日の大阪府は、低気圧や湿った空気の影響で曇り、夜のはじめ頃にかけて雨の降る所がある見込みです。\n\n　１６日の大阪府は、寒気や湿った空気の影響でおおむね曇るでしょう。\n\n【近畿地方】\n　近畿地方は、低気圧や湿った空気の影響で雨が降っています。\n\n　１５日の近畿地方は、低気圧や湿った空気の影響でおおむね曇り、北部では断続的に雨が降る見込みです。\n\n　１６日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、北部では未明は雨が降るでしょう。",
+    "text": "　大阪府は、高気圧に覆われて晴れています。\n\n　１６日の大阪府は、高気圧に覆われておおむね晴れる見込みです。\n\n　１７日の大阪府は、高気圧に覆われて晴れますが、午後は気圧の谷や湿った空気の影響で曇り、夜は雨が降るでしょう。\n\n【近畿地方】\n　近畿地方は、寒気や湿った空気の影響でおおむね曇り、雨の降っている所があります。\n\n　１６日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、夕方まで雨の降る所があるでしょう。南部では、高気圧に覆われておおむね晴れる見込みです。\n\n　１７日の近畿地方は、高気圧に覆われておおむね晴れますが、気圧の谷や湿った空気の影響で次第に曇り、夜は雨が降るでしょう。",
     "paragraphs": [
-      "大阪府は、低気圧や湿った空気の影響で雨が降っています。",
-      "１５日の大阪府は、低気圧や湿った空気の影響で曇り、夜のはじめ頃にかけて雨の降る所がある見込みです。",
-      "１６日の大阪府は、寒気や湿った空気の影響でおおむね曇るでしょう。",
-      "【近畿地方】\n　近畿地方は、低気圧や湿った空気の影響で雨が降っています。",
-      "１５日の近畿地方は、低気圧や湿った空気の影響でおおむね曇り、北部では断続的に雨が降る見込みです。",
-      "１６日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、北部では未明は雨が降るでしょう。"
+      "大阪府は、高気圧に覆われて晴れています。",
+      "１６日の大阪府は、高気圧に覆われておおむね晴れる見込みです。",
+      "１７日の大阪府は、高気圧に覆われて晴れますが、午後は気圧の谷や湿った空気の影響で曇り、夜は雨が降るでしょう。",
+      "【近畿地方】\n　近畿地方は、寒気や湿った空気の影響でおおむね曇り、雨の降っている所があります。",
+      "１６日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、夕方まで雨の降る所があるでしょう。南部では、高気圧に覆われておおむね晴れる見込みです。",
+      "１７日の近畿地方は、高気圧に覆われておおむね晴れますが、気圧の谷や湿った空気の影響で次第に曇り、夜は雨が降るでしょう。"
     ],
-    "summary": "大阪府は、低気圧や湿った空気の影響で雨が降っています。...",
+    "summary": "大阪府は、高気圧に覆われて晴れています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=270000"
   },
   "disaster_news": {
@@ -576,7 +576,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-16 04:12:50 JST"
+    "last_updated": "2026-11-16 04:48:56 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -597,10 +597,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "nIdaETdIdhI",
+        "video_id": "IfBklvlgbyY",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/nIdaETdIdhI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=nIdaETdIdhI"
+        "embed_url": "https://www.youtube.com/embed/IfBklvlgbyY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=IfBklvlgbyY"
       },
       {
         "id": "stream_tbsnews",
@@ -630,10 +630,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "Mf3z62JDses",
+        "video_id": "MRCr1LS0Jvo",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/Mf3z62JDses?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Mf3z62JDses"
+        "embed_url": "https://www.youtube.com/embed/MRCr1LS0Jvo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=MRCr1LS0Jvo"
       },
       {
         "id": "stream_fnnnews",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 04:15:06",
-  "timestamp_local": "2026-11-16 03:15:06",
+  "timestamp": "2026-11-16 04:51:34",
+  "timestamp_local": "2026-11-16 03:51:34",
   "country": {
     "id": "mongolia",
     "name": "モンゴル",
@@ -259,7 +259,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
+    "count_24h": 9,
     "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
       "mag": 5,
@@ -284,6 +284,14 @@
         "time": "11/16 00:41 JST",
         "depth_km": 487.384,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.6,
+        "place": "27 km ESE of Union, Philippines",
+        "time": "11/15 23:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyes",
         "tsunami": 0
       },
       {
@@ -569,13 +577,13 @@
     "default_channel_id": "stream_mongol_news"
   },
   "forex": {
-    "timestamp": "11/16 04:15 JST",
+    "timestamp": "11/16 04:51 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.57,
-      "change": -0.31,
+      "rate": 159.58,
+      "change": -0.3,
       "change_pct": -0.19,
       "direction": "down"
     },
@@ -592,9 +600,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.84,
-      "change": -0.82,
-      "change_pct": -0.46
+      "rate": 175.94,
+      "change": -0.72,
+      "change_pct": -0.41
     }
   },
   "airports": [
@@ -615,99 +623,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "ウランバートル (首都)",
-        "name_en": "Ulaanbaatar",
-        "is_capital": true,
-        "lat": 47.8864,
-        "lon": 106.9057,
-        "temp": -12.1,
-        "apparent_temp": -16.6,
-        "humidity": 78,
-        "wind_speed": 6.4,
-        "wind_gusts": 13.0,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/16(月)",
-            "temp_max": -5.6,
-            "temp_min": -14.4,
-            "weather_code": 73,
-            "weather_label": "❄️ 降雪 (中雪)",
-            "precipitation_mm": 1.8
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": -8.9,
-            "temp_min": -15.5,
-            "weather_code": 71,
-            "weather_label": "❄️ 降雪 (小雪)",
-            "precipitation_mm": 0.8
-          },
-          {
-            "date": "11/18(水)",
-            "temp_max": -7.1,
-            "temp_min": -15.7,
-            "weather_code": 71,
-            "weather_label": "❄️ 降雪 (小雪)",
-            "precipitation_mm": 0.2
-          }
-        ],
-        "alert": "厳寒・凍結警戒",
-        "alert_badge": "🟠 凍結警戒",
-        "alert_class": "orange",
-        "alert_desc": "気温-12.1℃。路面凍結・交通遅延に注意"
-      }
-    ],
-    "capital": {
-      "name": "ウランバートル (首都)",
-      "name_en": "Ulaanbaatar",
-      "is_capital": true,
-      "lat": 47.8864,
-      "lon": 106.9057,
-      "temp": -12.1,
-      "apparent_temp": -16.6,
-      "humidity": 78,
-      "wind_speed": 6.4,
-      "wind_gusts": 13.0,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
-      "forecast": [
-        {
-          "date": "11/16(月)",
-          "temp_max": -5.6,
-          "temp_min": -14.4,
-          "weather_code": 73,
-          "weather_label": "❄️ 降雪 (中雪)",
-          "precipitation_mm": 1.8
-        },
-        {
-          "date": "11/17(火)",
-          "temp_max": -8.9,
-          "temp_min": -15.5,
-          "weather_code": 71,
-          "weather_label": "❄️ 降雪 (小雪)",
-          "precipitation_mm": 0.8
-        },
-        {
-          "date": "11/18(水)",
-          "temp_max": -7.1,
-          "temp_min": -15.7,
-          "weather_code": 71,
-          "weather_label": "❄️ 降雪 (小雪)",
-          "precipitation_mm": 0.2
-        }
-      ],
-      "alert": "厳寒・凍結警戒",
-      "alert_badge": "🟠 凍結警戒",
-      "alert_class": "orange",
-      "alert_desc": "気温-12.1℃。路面凍結・交通遅延に注意"
-    },
-    "timestamp": "11/16 04:15 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/16 04:51 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -736,7 +654,7 @@
         "details": "定期運行中"
       }
     ],
-    "timestamp": "11/16 04:15 JST"
+    "timestamp": "11/16 04:51 JST"
   },
   "lifeline": {
     "status": "NORMAL",

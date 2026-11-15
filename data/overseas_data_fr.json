@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 04:15:07",
-  "timestamp_local": "2026-11-15 21:15:07",
+  "timestamp": "2026-11-16 04:51:36",
+  "timestamp_local": "2026-11-15 21:51:36",
   "country": {
     "id": "france",
     "name": "フランス",
@@ -346,7 +346,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
+    "count_24h": 9,
     "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
       "mag": 5,
@@ -371,6 +371,14 @@
         "time": "11/16 00:41 JST",
         "depth_km": 487.384,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.6,
+        "place": "27 km ESE of Union, Philippines",
+        "time": "11/15 23:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyes",
         "tsunami": 0
       },
       {
@@ -575,8 +583,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/15 19:27",
+          "text": "デモ 規制の警官の武器使用反対 数千人が パリ 市内で抗議の デモ （AP通信） https://t..."
+        },
         {
           "time": "11/15 15:58",
           "text": "昨日の デモ 動画を見た パリ の友達数名から『お前がそれを楽しんでたのは知っている』とか『もう立派な デモ..."
@@ -584,10 +596,6 @@
         {
           "time": "11/15 15:51",
           "text": "フランスで現在も続く デモ の発端は、9月17日に パリ 郊外クレテイユのサンテグジュペリ高校で、教育環境に怒りを抱いた..."
-        },
-        {
-          "time": "11/15 14:53",
-          "text": "先日のフランス学生 デモ (暴動)でグレタが パリ に来たって喜んでた在仏邦人の皆さん(見てたよ) ←気候変動を憂うグレ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%91%E3%83%AA%20%E3%83%87%E3%83%A2"
@@ -707,13 +715,13 @@
     "default_channel_id": "stream_france24_fr"
   },
   "forex": {
-    "timestamp": "11/16 04:15 JST",
+    "timestamp": "11/16 04:51 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.57,
-      "change": -0.31,
+      "rate": 159.58,
+      "change": -0.3,
       "change_pct": -0.19,
       "direction": "down"
     },
@@ -721,18 +729,18 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.84,
-      "change": -0.82,
-      "change_pct": -0.46,
+      "rate": 175.94,
+      "change": -0.72,
+      "change_pct": -0.41,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.84,
-      "change": -0.82,
-      "change_pct": -0.46
+      "rate": 175.94,
+      "change": -0.72,
+      "change_pct": -0.41
     }
   },
   "airports": [
@@ -783,189 +791,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "パリ (首都)",
-        "name_en": "Paris",
-        "is_capital": true,
-        "lat": 48.8566,
-        "lon": 2.3522,
-        "temp": 12.0,
-        "apparent_temp": 9.2,
-        "humidity": 82,
-        "wind_speed": 17.9,
-        "wind_gusts": 38.9,
-        "precipitation": 0.0,
-        "weather_code": 61,
-        "weather_label": "🌧️ 雨 (小雨)",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 13.0,
-            "temp_min": 5.8,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 5.7
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 13.9,
-            "temp_min": 10.3,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 8.0
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 16.9,
-            "temp_min": 12.8,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 12.9
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      },
-      {
-        "name": "ニース (南部・コートダジュール)",
-        "name_en": "Nice",
-        "is_capital": false,
-        "lat": 43.7102,
-        "lon": 7.262,
-        "temp": 12.4,
-        "apparent_temp": 12.1,
-        "humidity": 91,
-        "wind_speed": 4.1,
-        "wind_gusts": 8.3,
-        "precipitation": 0.0,
-        "weather_code": 61,
-        "weather_label": "🌧️ 雨 (小雨)",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 14.7,
-            "temp_min": 11.9,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.5
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 16.5,
-            "temp_min": 8.5,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 18.2,
-            "temp_min": 9.7,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      },
-      {
-        "name": "リヨン (中東部ハブ)",
-        "name_en": "Lyon",
-        "is_capital": false,
-        "lat": 45.764,
-        "lon": 4.8357,
-        "temp": 13.2,
-        "apparent_temp": 10.4,
-        "humidity": 79,
-        "wind_speed": 18.4,
-        "wind_gusts": 41.4,
-        "precipitation": 0.4,
-        "weather_code": 61,
-        "weather_label": "🌧️ 雨 (小雨)",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 15.9,
-            "temp_min": 9.6,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 1.0
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 15.5,
-            "temp_min": 10.4,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 16.9,
-            "temp_min": 12.6,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 4.3
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      }
-    ],
-    "capital": {
-      "name": "パリ (首都)",
-      "name_en": "Paris",
-      "is_capital": true,
-      "lat": 48.8566,
-      "lon": 2.3522,
-      "temp": 12.0,
-      "apparent_temp": 9.2,
-      "humidity": 82,
-      "wind_speed": 17.9,
-      "wind_gusts": 38.9,
-      "precipitation": 0.0,
-      "weather_code": 61,
-      "weather_label": "🌧️ 雨 (小雨)",
-      "forecast": [
-        {
-          "date": "11/15(日)",
-          "temp_max": 13.0,
-          "temp_min": 5.8,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 5.7
-        },
-        {
-          "date": "11/16(月)",
-          "temp_max": 13.9,
-          "temp_min": 10.3,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 8.0
-        },
-        {
-          "date": "11/17(火)",
-          "temp_max": 16.9,
-          "temp_min": 12.8,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 12.9
-        }
-      ],
-      "alert": "気象注意",
-      "alert_badge": "🟡 気象注意",
-      "alert_class": "yellow",
-      "alert_desc": "降雨または視程低下あり。通常行動可能"
-    },
-    "timestamp": "11/16 04:15 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/16 04:51 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1047,7 +875,7 @@
         "details": "パリ・シャルル・ド・ゴール空港および主要ターミナル発着便は平常運行中"
       }
     ],
-    "timestamp": "11/16 04:15 JST"
+    "timestamp": "11/16 04:51 JST"
   },
   "lifeline": {
     "status": "NORMAL",

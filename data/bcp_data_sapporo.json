@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 19:13:53",
+  "timestamp": "2026-11-15 19:50:11",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -62,11 +62,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-16 02:43",
-    "place": "薩摩半島西方沖",
-    "magnitude": "2.5",
+    "time": "2026-11-16 04:34",
+    "place": "愛知県東部",
+    "magnitude": "2.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-16 04:34",
+        "place": "愛知県東部",
+        "shindo": "1",
+        "magnitude": "2.6",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-16 02:43",
         "place": "薩摩半島西方沖",
@@ -129,13 +136,6 @@
         "shindo": "3",
         "magnitude": "-",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-15 01:50",
-        "place": "茨城県沖",
-        "shindo": "1",
-        "magnitude": "3.7",
-        "maxScale": 10
       }
     ]
   },
@@ -165,9 +165,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "着雪注意報"
         ],
-        "summary": "着雪注意報",
+        "summary": "強風注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -178,9 +179,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "着雪注意報"
         ],
-        "summary": "着雪注意報",
+        "summary": "強風注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -202,12 +204,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "波浪注意報",
           "強風注意報",
-          "着雪注意報"
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、波浪注意報、強風注意報、着雪注意報",
+        "summary": "強風注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -384,17 +384,17 @@
     "status": "NORMAL",
     "office": "札幌管区気象台",
     "target_area": "石狩・空知・後志地方",
-    "report_time": "11/15 16:41",
+    "report_time": "11/16 04:38",
     "headline": "",
-    "text": "　北海道付近は、１５日夜は日本海にある低気圧を含む気圧の谷の中でしょう。１６日はオホーツク海の低気圧が夜にかけて千島近海へ進む見込みです。このため、気圧の傾きが大きく、大気の状態が不安定でしょう。\n\n　石狩・空知・後志地方の１５日１５時の天気は、曇りまたは雨となっています。\n\n　１５日夜は、雨でしょう。\n\n　１６日は、曇り時々雨か雪の見込みです。\n\n　海の波の高さは、１５日夜は１メートルでしょう。１６日は１．５メートルのち３メートルと高くなる見込みです。",
+    "text": "　北海道付近は、１６日はオホーツク海に発生する低気圧が夜にかけて発達しながら千島近海へ進み、１７日は次第に高気圧の張り出しの中となる見込みです。このため、１６日は大気の状態が不安定となり、１７日にかけて気圧の傾きが大きくなるでしょう。\n\n　石狩・空知・後志地方の１６日３時の天気は、曇りで雨や雪の降っている所があります。\n\n　１６日は、曇りのち雪か雨でしょう。\n\n　１７日は、曇りのち時々晴れで雪の降る所がある見込みです。\n\n　海の波の高さは、１６日は１．５メートルのち３メートルと高くなるでしょう。１７日は３メートルと高く、のち１メートルの見込みです。",
     "paragraphs": [
-      "北海道付近は、１５日夜は日本海にある低気圧を含む気圧の谷の中でしょう。１６日はオホーツク海の低気圧が夜にかけて千島近海へ進む見込みです。このため、気圧の傾きが大きく、大気の状態が不安定でしょう。",
-      "石狩・空知・後志地方の１５日１５時の天気は、曇りまたは雨となっています。",
-      "１５日夜は、雨でしょう。",
-      "１６日は、曇り時々雨か雪の見込みです。",
-      "海の波の高さは、１５日夜は１メートルでしょう。１６日は１．５メートルのち３メートルと高くなる見込みです。"
+      "北海道付近は、１６日はオホーツク海に発生する低気圧が夜にかけて発達しながら千島近海へ進み、１７日は次第に高気圧の張り出しの中となる見込みです。このため、１６日は大気の状態が不安定となり、１７日にかけて気圧の傾きが大きくなるでしょう。",
+      "石狩・空知・後志地方の１６日３時の天気は、曇りで雨や雪の降っている所があります。",
+      "１６日は、曇りのち雪か雨でしょう。",
+      "１７日は、曇りのち時々晴れで雪の降る所がある見込みです。",
+      "海の波の高さは、１６日は１．５メートルのち３メートルと高くなるでしょう。１７日は３メートルと高く、のち１メートルの見込みです。"
     ],
-    "summary": "北海道付近は、１５日夜は日本海にある低気圧を含む気圧の谷の中でしょう。１６日はオホーツク海の低気圧が夜にかけて千島近海へ進む見込みです。このため、気圧の傾きが大...",
+    "summary": "北海道付近は、１６日はオホーツク海に発生する低気圧が夜にかけて発達しながら千島近海へ進み、１７日は次第に高気圧の張り出しの中となる見込みです。このため、１６日は...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=016000"
   },
   "disaster_news": {
@@ -522,7 +522,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-16 04:13:51 JST"
+    "last_updated": "2026-11-16 04:49:57 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -543,10 +543,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "nIdaETdIdhI",
+        "video_id": "IfBklvlgbyY",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/nIdaETdIdhI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=nIdaETdIdhI"
+        "embed_url": "https://www.youtube.com/embed/IfBklvlgbyY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=IfBklvlgbyY"
       },
       {
         "id": "stream_tbsnews",
@@ -576,10 +576,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "Mf3z62JDses",
+        "video_id": "MRCr1LS0Jvo",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/Mf3z62JDses?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Mf3z62JDses"
+        "embed_url": "https://www.youtube.com/embed/MRCr1LS0Jvo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=MRCr1LS0Jvo"
       },
       {
         "id": "stream_fnnnews",

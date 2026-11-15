@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16 04:15:35",
-  "timestamp_local": "2026-11-15 15:15:35",
+  "timestamp": "2026-11-16 04:51:51",
+  "timestamp_local": "2026-11-15 15:51:51",
   "country": {
     "id": "canada",
     "name": "カナダ",
@@ -141,7 +141,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
+    "count_24h": 9,
     "summary": "M5 (74 km N of Pārūn, Afghanistan)",
     "latest": {
       "mag": 5,
@@ -166,6 +166,14 @@
         "time": "11/16 00:41 JST",
         "depth_km": 487.384,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.6,
+        "place": "27 km ESE of Union, Philippines",
+        "time": "11/15 23:17 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyes",
         "tsunami": 0
       },
       {
@@ -455,13 +463,13 @@
     "default_channel_id": "stream_cbc_live"
   },
   "forex": {
-    "timestamp": "11/16 04:15 JST",
+    "timestamp": "11/16 04:51 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.57,
-      "change": -0.31,
+      "rate": 159.58,
+      "change": -0.3,
       "change_pct": -0.19,
       "direction": "down"
     },
@@ -469,18 +477,18 @@
       "currency": "CAD",
       "name": "カナダドル",
       "symbol": "C$",
-      "rate": 111.65,
-      "change": -0.44,
-      "change_pct": -0.39,
+      "rate": 111.77,
+      "change": -0.32,
+      "change_pct": -0.28,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.84,
-      "change": -0.82,
-      "change_pct": -0.46
+      "rate": 175.94,
+      "change": -0.72,
+      "change_pct": -0.41
     }
   },
   "airports": [
@@ -516,189 +524,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "オタワ (首都)",
-        "name_en": "Ottawa",
-        "is_capital": true,
-        "lat": 45.4215,
-        "lon": -75.6972,
-        "temp": 5.9,
-        "apparent_temp": 1.4,
-        "humidity": 67,
-        "wind_speed": 16.4,
-        "wind_gusts": 28.4,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 6.4,
-            "temp_min": 1.1,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 3.9,
-            "temp_min": -0.1,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 12.3,
-            "temp_min": -0.0,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "トロント (最大都市)",
-        "name_en": "Toronto",
-        "is_capital": false,
-        "lat": 43.6532,
-        "lon": -79.3832,
-        "temp": 6.8,
-        "apparent_temp": 2.1,
-        "humidity": 63,
-        "wind_speed": 17.4,
-        "wind_gusts": 27.0,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 7.4,
-            "temp_min": 1.3,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 7.6,
-            "temp_min": 3.0,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 13.5,
-            "temp_min": 2.4,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "バンクーバー (太平洋岸主要都市)",
-        "name_en": "Vancouver",
-        "is_capital": false,
-        "lat": 49.2827,
-        "lon": -123.1207,
-        "temp": 11.5,
-        "apparent_temp": 8.8,
-        "humidity": 78,
-        "wind_speed": 14.4,
-        "wind_gusts": 27.7,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/15(日)",
-            "temp_max": 11.6,
-            "temp_min": 7.3,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 6.6
-          },
-          {
-            "date": "11/16(月)",
-            "temp_max": 9.0,
-            "temp_min": 6.3,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 2.0
-          },
-          {
-            "date": "11/17(火)",
-            "temp_max": 8.9,
-            "temp_min": 4.9,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      }
-    ],
-    "capital": {
-      "name": "オタワ (首都)",
-      "name_en": "Ottawa",
-      "is_capital": true,
-      "lat": 45.4215,
-      "lon": -75.6972,
-      "temp": 5.9,
-      "apparent_temp": 1.4,
-      "humidity": 67,
-      "wind_speed": 16.4,
-      "wind_gusts": 28.4,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
-      "forecast": [
-        {
-          "date": "11/15(日)",
-          "temp_max": 6.4,
-          "temp_min": 1.1,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
-        },
-        {
-          "date": "11/16(月)",
-          "temp_max": 3.9,
-          "temp_min": -0.1,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
-        },
-        {
-          "date": "11/17(火)",
-          "temp_max": 12.3,
-          "temp_min": -0.0,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
-        }
-      ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-    },
-    "timestamp": "11/16 04:15 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/16 04:51 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -727,7 +555,7 @@
         "details": "VIA鉄道主要列車平常運行中"
       }
     ],
-    "timestamp": "11/16 04:15 JST"
+    "timestamp": "11/16 04:51 JST"
   },
   "lifeline": {
     "status": "NORMAL",

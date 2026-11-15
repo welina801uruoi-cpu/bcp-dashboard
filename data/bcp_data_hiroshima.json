@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 21:02:14",
+  "timestamp": "2026-11-15 21:31:00",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -74,11 +74,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-16 04:34",
+    "time": "2026-11-16 06:08",
     "place": "愛知県東部",
-    "magnitude": "2.6",
+    "magnitude": "3.4",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-16 06:08",
+        "place": "愛知県東部",
+        "shindo": "1",
+        "magnitude": "3.4",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-16 04:34",
         "place": "愛知県東部",
@@ -141,13 +148,6 @@
         "shindo": "-",
         "magnitude": "3.8",
         "maxScale": -1
-      },
-      {
-        "time": "2026-11-15 06:17",
-        "place": "震源情報なし",
-        "shindo": "3",
-        "magnitude": "-",
-        "maxScale": 30
       }
     ]
   },
@@ -418,11 +418,11 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 8,
     "articles": [
       {
-        "title": "〔沖縄電力〕沖縄県宮古島市で停電(16日05時45分現在)(レスキューナウニュース)",
-        "summary": "沖縄電力の発表によると、16日05:45現在、沖縄県宮古島市で停電が発生しています。現在、復旧作業が行われています。■影響地域宮古島市：約7380軒(下地字上地、下地字与那覇、下地字嘉手苅、下地字川満",
+        "title": "〔沖縄電力〕沖縄県宮古島市での停電は復旧(16日06時10分現在)(レスキューナウニュース)",
+        "summary": "沖縄電力の発表によると、沖縄県宮古島市で停電が発生していましたが、16日06:10現在、復旧しています。■影響地域宮古島市：約7380軒(下地字上地、下地字与那覇、下地字嘉手苅、下地字川満、下地字来間",
         "pub_date": "11/16 05:45 JST",
         "link": "https://news.yahoo.co.jp/articles/022e8fb370bafa1a7d92558a1c27614b07b1cde7?source=rss",
         "category": "国内・気象防災",
@@ -453,14 +453,6 @@
         "is_disaster": true
       },
       {
-        "title": "「スピッツ」ドラマー崎山さん事故で入院　来年の全国ツアー「慎重に判断」所属事務所(テレビ朝日系（ANN）)",
-        "summary": "ロックバンド「スピッツ」のドラマー、崎山龍男さんが、都内の路上で交通事故に遭っていたことが分かりました。 警視庁によりますと、崎山さん（59）は12日午後5時ごろ、渋谷区の代々木上原駅近くの路上を中型",
-        "pub_date": "11/15 21:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/edefa4392b273801f7148beb6456b88d264722e8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "浸水で取り残された人をボートやヘリコプターで救助する「ゼロメートル地帯広域防災活動拠点」愛知・弥富市に整備(CBCテレビ)",
         "summary": "浸水被害から県民を守るため、愛知県弥富市に防災拠点が整備されました。海抜ゼロメートル以下に位置する弥富市は、南海トラフ巨大地震で堤防が決壊した場合などに、最大およそ2メートルの浸水が予想されています。",
         "pub_date": "11/15 21:09 JST",
@@ -485,12 +477,60 @@
         "is_disaster": true
       },
       {
-        "title": "特急と衝突し車火災 1人安否不明",
+        "title": "特急と衝突し車火災 遺体を発見",
         "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/15 22:10 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602725?source=rss",
+        "pub_date": "11/16 06:14 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6602737?source=rss",
         "category": "主要速報",
         "is_disaster": true
+      },
+      {
+        "title": "17歳少女に現金渡しみだらな行為か 三重の県立高校教師を逮捕 別の事件で逮捕された男のスマホ解析で発覚(東海テレビ)",
+        "summary": "当時17歳の少女に現金を渡してみだらな行為をしたとして三重県の県立高校の教師が逮捕されました。 逮捕されたのは、三重県立久居農林高校の教師・氏本敦之容疑者(39)で、ことし9月、愛知県内に駐車した車の",
+        "pub_date": "11/16 06:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/f01381fa6023d5892d33cdb5328957e766789424?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "札幌の夫を捨てるほど惚れ込み､そのまま結婚…宇野千代が｢いちばん好き｣と話した3番目の夫との意外なその後(プレジデントオンライン)",
+        "summary": "NHK朝の連続テレビ小説「ブラッサム」では、宇野千代をモデルにしたヒロイン・珠が作家の西尾一路と出会うシーンが描かれた。歴史評論家の香原斗志さんは「宇野が恋多き女だったのは間違いない。だが、不思議と泥",
+        "pub_date": "11/16 06:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/f5fb63740332d67e2082694cbd1d6e38252081ed?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「16歳未満はSNS禁止」で本当に子どもは守れるのか…先行する豪・仏の例から見えた「年齢一律規制」の“死角”(デイリー新潮)",
+        "summary": "オーストラリアが16歳未満のSNS利用を事実上禁止したのは昨年末のこと。これを皮切りにイギリスやフランスでも子どものSNS規制が進み、この9月には欧州委員会が13歳未満のSNSアカウント保有を認めない",
+        "pub_date": "11/16 06:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/5951874813763de0af4b3b8ba09af2e11d1ff780?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「私と結婚して下さいませんか」黒田清子さんが36歳で皇室を離れるまで　夫との出会いの“キッカケ”、「質素なものだった」結婚式の様子は…(文春オンライン)",
+        "summary": "天皇陛下の妹で、神宮（三重県伊勢市）祭主の黒田清子さん（57）。2005年11月15日に黒田慶樹さんと結婚し、皇室を離れてから21年が経つ。【実際の写真】清子さんは上品な和装で…黒田夫妻の結婚披露宴の",
+        "pub_date": "11/16 06:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/81524811766b201b8271ac11a285f559370d208d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「合計で1億円以上の金が…」　総資産4000億円　糸山英太郎元代議士が「まるで結婚詐欺にあったようだ」と怒りの告発(デイリー新潮)",
+        "summary": "【全2回（前編/後編）の後編】 誰しも齢（よわい）を重ねれば、先々の“承継”に思いをはせることだろう。まして総資産4000億円ともなればなおさらである。国内屈指の資産家である糸山英太郎元代議士（84）",
+        "pub_date": "11/16 05:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/77aa12d847340748b3e8849461df6d6a667fb211?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "総資産は約4000億円　糸山英太郎元代議士が「『集団結婚詐欺』に遭った」と怒りの告発　仲介したのは現役議員で…(デイリー新潮)",
+        "summary": "【全2回（前編/後編）の前編】 誰しも齢（よわい）を重ねれば、先々の“承継”に思いをはせることだろう。まして総資産4000億円ともなればなおさらである。国内屈指の資産家である糸山英太郎元代議士（84）",
+        "pub_date": "11/16 05:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/c3b5332293dd7866d19cde6b8c219d392fdf12c2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "今日16日の服装指数　全国的に夜は朝より寒くなる　重ね着や厚手の上着を(日本気象協会tenki.jp)",
@@ -499,49 +539,9 @@
         "link": "https://news.yahoo.co.jp/articles/47a3090ad4a6808ec2348f30ff70199bb104d07f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "“コカイン逮捕でもピースサイン”ヤマトリノ被告のタワマンを訪ねてみると　捜査幹部が見せた余裕のワケ(デイリー新潮)",
-        "summary": "逮捕直後の「カメラ目線でピースサイン」が注目を集めた六本木の有名高級店「ジャングル」のトップキャスト、ヤマトリノこと田沢梨乃被告（27）がコカインの所持や使用の罪などで起訴されて約2ヶ月。初公判が近づ",
-        "pub_date": "11/16 05:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/e329e88e4ac158ccf6a5e6913a245a2361a137ba?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "“コカイン逮捕”でもピース「ヤマトリノ」と「女性取り調べ官」の生々しいやり取り　「スマホのロック、解除してくれませんか？」(デイリー新潮)",
-        "summary": "六本木の有名高級店「ジャングル」のトップキャスト、ヤマトリノこと田沢梨乃被告が（27）がコカインの所持や使用などの罪で起訴された事件。逮捕後に連行されて原宿警察署に車で入る際や検察庁に送検される時に、",
-        "pub_date": "11/16 05:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/8647a6b7fbf224d04b03f6e2ac5396666602ad4b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "東京ど真ん中にヤギが“勤務”　JR四ツ谷駅の“メェ～物”に　業務は除草、空き地でモグモグ(スポニチアネックス)",
-        "summary": "東京・JR四ツ谷駅に突如現れた“癒やしスポット”が話題になっている。10月9日から2頭のヤギが駅前の空き地に放牧され、生い茂る草をモグモグ…。時折「メェ～」という鳴き声も聞こえ「可愛い！」と足を止める",
-        "pub_date": "11/16 05:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/258f79ce8f722085385ae707efeea3d08fce9405?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「どうすれば生きられたのか」　京都ALS嘱託殺人主題に映画(共同通信)",
-        "summary": "全身の筋肉が動かなくなり、歩行や呼吸、食事が困難になる筋萎縮性側索硬化症（ALS）の女性の依頼に応じて殺害したとして、医師2人が嘱託殺人罪などに問われた事件を追ったドキュメンタリー映画「京都ALS患者",
-        "pub_date": "11/16 05:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/b3d0cedb1813ab8f8a3c04e2979a58f32fa6c970?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "今年3回通告受理も母に面会せず　大阪・枚方市、女児のあざは確認(共同通信)",
-        "summary": "大阪府枚方市で8月、金尾英怜奈ちゃん＝当時（3）＝が死亡し、両親が逮捕された事件で、市が昨年12月を最後に母親と面会していなかったことが16日、市への取材で分かった。今年に入り虐待疑いの通告を3回受理",
-        "pub_date": "11/16 05:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/57dc33fa638a4d4af7c567b301ba2d190a17bd72?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-16 06:01:32 JST"
+    "last_updated": "2026-11-16 06:30:47 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

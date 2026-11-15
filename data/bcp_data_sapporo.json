@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 03:17:37",
+  "timestamp": "2026-11-15 04:20:21",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -62,11 +62,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-15 06:31",
-    "place": "熊本県天草・芦北地方",
-    "magnitude": "2.3",
+    "time": "2026-11-15 13:16",
+    "place": "渡島地方東部",
+    "magnitude": "2.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-15 13:16",
+        "place": "渡島地方東部",
+        "shindo": "1",
+        "magnitude": "2.6",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-15 06:31",
         "place": "熊本県天草・芦北地方",
@@ -129,13 +136,6 @@
         "shindo": "2",
         "magnitude": "2.9",
         "maxScale": 20
-      },
-      {
-        "time": "2026-11-14 15:39",
-        "place": "根室半島南東沖",
-        "shindo": "1",
-        "magnitude": "4.2",
-        "maxScale": 10
       }
     ]
   },
@@ -198,11 +198,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報",
+          "強風注意報",
           "雷注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -288,7 +288,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/15 02:50",
@@ -334,8 +334,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/15 03:54",
+          "text": "DOCOMO自宅で通信 START 繋がらない END 通話もできない最悪終わってる。 START au END に乗り換えようかな。使いたい時に使えない不満続..."
+        },
         {
           "time": "11/15 02:49",
           "text": "昨日無券で現地行ってわかったこと Docomo(ahamo)→全く START 繋がらない END サブのpovo( START au END )→普通に使える..."
@@ -343,10 +347,6 @@
         {
           "time": "11/15 02:49",
           "text": "#Wifi 今週もまたあった家のWi-Fi START au END スマホは繋がるのに docomoは START 繋がらない END 😅 朝の時点では問題な..."
-        },
-        {
-          "time": "11/15 02:33",
-          "text": "@InnaAcil 初めまして(❁´◡`❁) START au END サポート加藤です。アイコンの可愛いイラストが目に止まりました💕 START au END..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -397,6 +397,14 @@
     "disaster_count": 6,
     "articles": [
       {
+        "title": "今日15日午後　関東・東海など太平洋側を中心に激しい雨　北海道では夜は雪に変わる(日本気象協会tenki.jp)",
+        "summary": "今日15日は全国的に雨となっており、午後は、太平洋側を中心に発達した雨雲がかかりやすいでしょう。関東や東海で激しい雨の降る所があり、関東では雨がピークとなる見込みです。落雷や突風に注意してください。明",
+        "pub_date": "11/15 12:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/ff7ab94b0f2c0665a20cb0d0084dbbb47870d748?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "関東は冷たい雨　東京は15℃届かず12月上旬並み　伊豆諸島では警報級大雨のおそれ(ウェザーマップ)",
         "summary": "低気圧や前線の影響で、きょう(日)は関東で広く雨が降っています。冷たい北風が吹き、昼でも15℃に届かない所が多くなりそうです。午後から夜にかけては、千葉県や伊豆諸島で雨が強まる見通しです。伊豆諸島では",
         "pub_date": "11/15 11:08 JST",
@@ -437,87 +445,79 @@
         "is_disaster": true
       },
       {
-        "title": "時効直前「岡山主婦強殺」で逮捕された“優秀な営業マン”　上司が明かした最後の日「警察はソファを飛び越え、彼の前に立った」(デイリー新潮)",
-        "summary": "昭和50（1975）年12月26日、岡山市内のマンションで強盗殺人事件が発生した。被害者は55歳の女性。岡山県警は大規模な捜査態勢を敷いたが初動捜査に失敗し、犯人の背中を見失った。当時は刑事訴訟法の改",
-        "pub_date": "11/15 09:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/ec040884277e17d186c09230e8375cc37f237801?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "Netflix『ラヴ上等』に出演…無許可で風俗営業の店舗を経営した疑い インフルエンサーの31歳女ら3人逮捕(東海テレビ)",
-        "summary": "名古屋の歓楽街「錦三」で、無許可で風俗営業の店舗を経営したとして、インフルエンサーの女が逮捕されました。 警察によりますと、逮捕されたのは名古屋市中区・風俗店経営の小栗彩朱佳容疑者(31)ら3人で、今",
-        "pub_date": "11/15 12:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/16bd9000fddc9f571d98d2410221c03d461c437b?source=rss",
+        "title": "飲酒し路上で居眠り　28歳男性が財布を奪われる　2人組が逃走か、大阪(産経新聞)",
+        "summary": "15日午前4時20分ごろ、大阪市都島区東野田町の路上で、大阪府大東市の男性会社員（28）が「路上で寝ていたらかばんを引っ張られた。抵抗したら顔面を殴られた」と110番した。大阪府警都島署によると、男性",
+        "pub_date": "11/15 13:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/a405540bd2401e32f889cf89f3612dd476587928?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "死亡女児「以前から夫が殴った」　妻が説明、50カ所以上あざ(共同通信)",
-        "summary": "大阪府枚方市で8月、金尾英怜奈ちゃん＝当時（3）＝が死亡し両親が逮捕された事件で、母親が逮捕前に「以前から夫が娘の頭を殴るなどするところを複数回見た」と説明していたことが15日、捜査関係者への取材で分",
-        "pub_date": "11/15 12:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/3638d6207d2d64992940c12a17738b91ebdbfd47?source=rss",
+        "title": "20代の男1人と少年4人を逮捕 盗難車を運転し保管した疑い 82歳の女性が大けがをした強盗傷害事件への関与もほのめかす(CBCテレビ)",
+        "summary": "ブラジル国籍の20代の男と少年4人が、盗難車に乗っていた疑いで逮捕されました。5人は、愛知県小牧市の強盗傷害事件への関与をほのめかしているということです。【写真を見る】20代の男1人と少年4人を逮捕",
+        "pub_date": "11/15 13:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/18458178c57a36218cca44d118b5b2025f87863c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "大阪・枚方市 3歳女児死亡　母親「以前から夫が娘を暴行」(テレビ朝日系（ANN）)",
-        "summary": "大阪府枚方市で、夫から3歳の娘への虐待を放置したとして逮捕された母親が「夫が娘の頭を殴るところなどを複数回見たことがある」と話していたことが分かりました。 金尾健太郎容疑者（33）は8月、娘の英怜奈ち",
-        "pub_date": "11/15 12:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/e721d6025767d358467a4526890f05fca898fa70?source=rss",
+        "title": "“みんな一緒に”は古い?2030年度から本格実施“新しい授業” 児童の「なぜ?」「やりたい」を追求 授業の15％を学校の裁量で(CBCテレビ)",
+        "summary": "「同じ内容を同じペースで」教えることが大前提となってきた学校教育を、国が大きく変えようとしています。【写真を見る】“みんな一緒に”は古い?2030年度から本格実施“新しい授業” 児童の「なぜ?」「やり",
+        "pub_date": "11/15 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/b24ba78cceabd354b82684ecd519b5596916e389?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ブラジル国籍の男5人が関与ほのめかす…未明の住宅に複数の男が押し入り「金はないか」82歳女性が棒のような物で殴られ重傷(東海テレビ)",
-        "summary": "15日未明、愛知県小牧市の住宅に複数の男が押し入り、住人の高齢女性が殴られ、肋骨を折るなど大ケガをしました。 警察によりますと、15日午前1時前、小牧市小針の住宅で寝ていた住人の女性(82)が、侵入し",
-        "pub_date": "11/15 12:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/1ba6940b9c732bc37d94dbd0ce12e1e978b278bb?source=rss",
+        "title": "年収が増えてもキャリアは停滞、複数の仕事を持つ「ポリワーキング」で陥る意外な罠(Forbes JAPAN)",
+        "summary": "米国の調査会社The Harris Pollの調査によると、複数の仕事を持つ人の43％は、たとえ1つの仕事で十分な収入が得られたとしても、さまざまな仕事を経験したいと考えている。また同調査では、回答者",
+        "pub_date": "11/15 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/2e9fc512de24c79d32f0a1f26c4c5fb211b1f18b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "雨にも負けず、2万人力走　神戸マラソン、感謝胸に(共同通信)",
-        "summary": "1995年に発生した阪神大震災の復興支援に対する「感謝と友情」をテーマにした神戸マラソンが15日、神戸市を中心としたコースで開かれた。今年で14回目。降りしきる雨の中、約2万人のランナーが街を駆け抜け",
-        "pub_date": "11/15 12:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/ce08134d677854fdd8da969d890c3d0a77d7882f?source=rss",
+        "title": "インフルエンサー「あっすん」逮捕 無許可で接待を伴う飲食店営業か(CBCテレビ)",
+        "summary": "「あっすん」の名前で活動していたキャバクラ店経営の女ら男女3人が、無許可で接待を伴う飲食店を営業したとして逮捕されました。【写真を見る】インフルエンサー「あっすん」逮捕 無許可で接待を伴う飲食店営業か",
+        "pub_date": "11/15 12:48 JST",
+        "link": "https://news.yahoo.co.jp/articles/de3b622e2a84808dcf3c16dac132265d45f10ef1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "大阪訪問中の天皇皇后両陛下　全国豊かな海づくり大会に出席(テレビ朝日系（ANN）)",
-        "summary": "大阪府を訪問中の天皇皇后両陛下が「全国豊かな海づくり大会」の式典に出席されました。【天皇陛下】「全国各地において日ごろから豊かな海づくりに取り組んでいる皆さんの活動が、今後とも多くの人々によって支えら",
-        "pub_date": "11/15 12:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/571ecb115efd0120568007f8b185a3740e67c4a2?source=rss",
+        "title": "季節外れの陽気アイス盛況　紅葉見頃も「寒暖差」注意　きょう気温急降下“師走並み”(テレビ朝日系（ANN）)",
+        "summary": "11月中旬とは思えない暖かさとなった14日の関東。半袖でアイスを楽しむ人がいる一方、日没後の冷え込みに戸惑う人の姿もありました。【画像】“ご当地アイス”が一堂に集まる、アイスイベント「冬のあいぱく P",
+        "pub_date": "11/15 12:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/bfc07612985e961a7e756e9b58c1a580dc76094a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "公然わいせつ疑い米兵逮捕　飲酒絡む事件相次ぐ、沖縄(共同通信)",
-        "summary": "沖縄県警沖縄署は15日までに、商業施設敷地内で陰部を露出したとして、公然わいせつの疑いで、米軍嘉手納基地所属の兵長ハンター・エドリントン容疑者（25）を現行犯逮捕した。署によると、泥酔し、聴取に応じら",
-        "pub_date": "11/15 11:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/a6f8dc58aa310abb707de57e6b6e0d3384f5bafc?source=rss",
+        "title": "「全国豊かな海づくり大会」 大阪訪問中の両陛下が出席(テレビ朝日系（ANN）)",
+        "summary": "大阪府を訪問中の天皇皇后両陛下が「全国豊かな海づくり大会」の式典に出席されました。天皇陛下「全国各地において日頃から豊かな海づくりに取り組んでいる皆さんの活動が、今後とも多くの人々によって支えられ、さ",
+        "pub_date": "11/15 12:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/03855a0fc6aefda2f8dca64291b1f3ca3c22a7c7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "《お手元に違和感…》佳子さま「独特すぎる」と話題になった“持ち方”を修正、左利きも完全封印の徹底ぶりに「無理しなくても」と心配の声(NEWSポストセブン)",
-        "summary": "11月8日、秋篠宮家の佳子さまは神奈川県横浜市で開催されている「KOUGEI EXPO in KANAGAWA」（伝統的工芸品月間国民会議全国大会）を視察された。皇室担当記者は言う。【画像を見る】昨年",
-        "pub_date": "11/15 11:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/459e59108f2a21e65788af8a541748a9b38fea19?source=rss",
+        "title": "女性2人死亡“ひき逃げ”逮捕の男　アルコールや薬物の検出なし(テレビ朝日系（ANN）)",
+        "summary": "神奈川県海老名市で女性2人が死亡したひき逃げ事件で、逮捕されたトラック運転手の男からアルコールなどは検出されていないことが分かりました。 会田誠容疑者（49）は13日、海老名市下今泉の交差点で大型トラ",
+        "pub_date": "11/15 12:17 JST",
+        "link": "https://news.yahoo.co.jp/articles/66d67f4be75658054c7e37ce78da4844eab3d6d1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "アメリカのX世代は、ゆとりある引退生活を送れるとは思っていない（海外）(BUSINESS INSIDER JAPAN)",
-        "summary": "60代に入ったX世代は、老後資金の不足や経済的な不安を抱えている。トランスアメリカ老後研究センターの調査によると、X世代の労働者の貯蓄額は中央値で11万3000ドル（約1780万円）にとどまる。失業や",
-        "pub_date": "11/15 11:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/5dbac3e5bbd15b293eb02b6a95b25674e9dce178?source=rss",
+        "title": "深夜に住宅強盗か 就寝中だった82歳女性重傷　別件逮捕の少年ら事件に関与か　愛知(テレビ朝日系（ANN）)",
+        "summary": "15日未明、愛知県小牧市の住宅に男らが押し入りました。就寝中だった住人の女性が殴られ重傷です。 警察によりますと、午前1時ごろ、小牧市小針の住宅で82歳の女性が寝ていたところ、3、4人の男らが押し入り",
+        "pub_date": "11/15 12:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/35ed905fd122ccf4597d1a1255775006a00e85d6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 12:17:23 JST"
+    "last_updated": "2026-11-15 13:20:19 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -571,10 +571,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "C_eV6qp_B8o",
+        "video_id": "QYMEHQAoUPk",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/C_eV6qp_B8o?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=C_eV6qp_B8o"
+        "embed_url": "https://www.youtube.com/embed/QYMEHQAoUPk?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=QYMEHQAoUPk"
       },
       {
         "id": "stream_fnnnews",

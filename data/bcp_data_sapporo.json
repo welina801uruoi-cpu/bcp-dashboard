@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 10:25:31",
+  "timestamp": "2026-11-15 11:06:57",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -205,12 +205,12 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "濃霧注意報",
           "強風注意報",
           "雷注意報",
-          "着雪注意報"
+          "着雪注意報",
+          "濃霧注意報"
         ],
-        "summary": "波浪注意報、濃霧注意報、強風注意報、雷注意報、着雪注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報、着雪注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -252,11 +252,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "ほくでんNW: 停電情報なし（北海道エリア管内正常）",
+    "power_msg": "ほくでんNW: 【停電発生中】北海道で停電情報を検知",
     "water_msg": "札幌市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "北海道ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -296,7 +296,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/15 10:10",
@@ -342,19 +342,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/15 10:52",
+          "text": "ここ数年楽天モバイルを使っているが最近になって人混みで極端に繋がらなくなる。 ターミナル駅とかいくと全然ネットが START 繋がらない END 。 これが S..."
+        },
+        {
+          "time": "11/15 10:43",
+          "text": "かと言って START au END もソフトバンクも楽天も微妙 微妙というか人多いところで START 繋がらない END とかあるから嫌なんだよな あと普通..."
+        },
         {
           "time": "11/15 09:43",
           "text": "電話だと詐欺もあるから休みの日に START au END ショップで聞いてくるって言ったら黙って切られたからフリーダイヤル折かえしても START 繋がらない..."
-        },
-        {
-          "time": "11/15 06:36",
-          "text": "START au END 電話だけできない 電波はある。だけど電話は START 繋がらない END"
-        },
-        {
-          "time": "11/15 06:09",
-          "text": "@niwakarock311 突然失礼します💦 START au END の通信でお困りのご様子ですが、どこか特定の場所で電波が START 繋がらない END..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -365,7 +365,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/15 09:48",
@@ -402,7 +402,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 4,
+    "disaster_count": 3,
     "articles": [
       {
         "title": "被災地の特産かんきつ類、収穫へ　熊本、晩白柚が来月に店頭(共同通信)",
@@ -421,20 +421,68 @@
         "is_disaster": true
       },
       {
-        "title": "漁船同士が衝突し沈没 「油が混じった海水を飲んだ」8人搬送　島根・出雲市の沖合(テレビ朝日系（ANN）)",
-        "summary": "15日、島根県出雲市の沖合で漁船同士が衝突し、1隻が沈没しました。沈没した船に乗っていた乗組員10人は全員救助され、命に別状はありません。 浜田海上保安部によりますと、午前0時すぎ、出雲市の出雲日御碕",
-        "pub_date": "11/15 15:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/1c2cbfeceec0bc63e7e9722b39d7cd0247996591?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "スピッツ﨑山さん 交通事故で搬送",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/15 18:40 JST",
         "link": "https://news.yahoo.co.jp/pickup/6602703?source=rss",
         "category": "主要速報",
         "is_disaster": true
+      },
+      {
+        "title": "福岡市長選は接戦、13人出馬で投票先分散(共同通信)",
+        "summary": "福岡市長選は15日午後8時に投票が締め切られた。共同通信の出口調査などによると、元衆院議員稲富修二氏ら4人による接戦。ただ計13人の出馬で投票先が分散しており、いずれの候補も法定得票数に届かず再選挙と",
+        "pub_date": "11/15 20:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/4aab348474f0ffa473b9467546839da5fc3f7b80?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "熊本市長に現職大西氏の4選確実(共同通信)",
+        "summary": "熊本市長選は15日、現職大西一史氏の4回目の当選が確実となった。",
+        "pub_date": "11/15 20:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/98061ab7090f159d03750fa73ec2f60ace03cc4e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "横田めぐみさん拉致から49年　拉致前日にめぐみさんが送った“くし”とともに帰りを待つ母「一回でもいいから会いたい」(FNNプライムオンライン)",
+        "summary": "新潟市の中学1年生だった横田めぐみさんが北朝鮮に拉致されて、2026年11月15日で49年となる。母・早紀江さん（90）は「一回でもいいから会いたい」とめぐみさんへの思いを吐露した。【画像で見る】13",
+        "pub_date": "11/15 20:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/dc5f2a9460edfb1cfcc0fa6f1d16765492fd3e81?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "愛媛県知事選で中村氏の5選確実(共同通信)",
+        "summary": "愛媛県知事選は15日、無所属現職中村時広氏の5回目の当選が確実となった。",
+        "pub_date": "11/15 20:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/40c456e6fc9477cd1848388483a36ad2c7db32ba?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "＜独自＞高市首相、先端技術で「アジア共通市場」創出　AZECで提唱へ、FOIPを進化(産経新聞)",
+        "summary": "高市早苗首相は17日にフィリピン・マニラで開かれる東南アジア諸国連合（ASEAN）関連首脳会議で、AI（人工知能）や量子技術といった先端技術分野に関する「アジア共通市場」の創出を提唱する。国際共同研究",
+        "pub_date": "11/15 19:52 JST",
+        "link": "https://news.yahoo.co.jp/articles/d2a13c8d843641674c85ab55bedc06c0c96ad4f3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "斎藤知事「質問は端的に」「一時間過ぎております」　記者はヒートアップ「くだらないことを...本当にやめて」(J-CASTニュース)",
+        "summary": "斎藤元彦兵庫県知事は2026年11月12日の定例記者会見で、フリーランスの記者とのやりとりの際に「質問は端的にお願いします」「円滑な進行のためにご協力いただきたい」「あとの公務がございます」などと発言",
+        "pub_date": "11/15 19:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/f66fbe5213883735fc8b7e356a0a8cb27ec37cde?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "ハンズ渋谷店公式Ｘが営業終了後に感謝の投稿「48年間ありがとうございました」(日刊スポーツ)",
+        "summary": "ハンズ渋谷店の公式Xが15日、19時過ぎに更新され、48年間の営業を終了したことを報告した。【写真】看板が「THANKS」に 公式は「本日、2026年11月15日(日)をもちまして、ハンズ渋谷店は48",
+        "pub_date": "11/15 19:43 JST",
+        "link": "https://news.yahoo.co.jp/articles/ffac93b1755d777946b6b97747c9e93d1711f7f6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "東京都庁で階段レース初開催　展望室まで984段を駆け上がる(テレビ朝日系（ANN）)",
@@ -475,57 +523,9 @@
         "link": "https://news.yahoo.co.jp/articles/9799218839c92da7370fc7dda8be8b961b4f49e2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "【動画】16日の天気 - 太平洋側は晴れ間戻る　日本海側を中心に北風冷たく（15日19時更新）(ウェザーマップ)",
-        "summary": "月曜日は冬型の気圧配置となって、太平洋側を中心に晴れる所が多くなりそうです。全国的に北風が強まり、日本海側や北日本は日中も風が冷たく感じられるでしょう。週の後半は全国的に荒れた天気となり、晴れる太平洋",
-        "pub_date": "11/15 18:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/797b8ef315a5cb9bcd3c3515c1452888c5940c86?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "19日～20日頃　北海道や東北は暴風・高波に警戒　北陸から山陰も荒れた天気に(日本気象協会tenki.jp)",
-        "summary": "18日(水)から20日(金)にかけて、低気圧が急速に発達しながら、日本海からオホーツク海に進む見込みです。このため、東北の日本海側や北海道では、19日(木)から20日(金)頃、非常に強い風が吹き、海上",
-        "pub_date": "11/15 18:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/91f9760cb40708708261e91772e2704fb4e4e019?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "京都・西京高、生け花甲子園優勝　京都市で全国大会(共同通信)",
-        "summary": "高校生が3人一組で生け花の腕前を競う「Ikenobo 花の甲子園」の全国大会が15日、京都市中京区で開かれ、同市立西京高のチーム「花咲姉さんズ」が優勝した。準優勝は岐阜県立岐阜商業高、3位は同県立大垣",
-        "pub_date": "11/15 18:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/744d9a41c68600ec06dc405ad87062d4910978dc?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "新潟・新発田市長選で現職が無投票5選　新人の立候補予定者が持病悪化で出馬断念(産経新聞)",
-        "summary": "任期満了に伴う新潟県新発田市長選は15日告示され、無所属現職の二階堂馨氏（74）以外に立候補の届け出がなく、二階堂氏が無投票で5選を決めた。同市長選での無投票は令和4年の前回選挙に続き2回連続。午後5",
-        "pub_date": "11/15 18:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/b5f68360dc7d4680f96317e8ce6ee72beb056196?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "乳がん啓発の模型「リアルだと触りにくい」 かわいくすれば…高校生が新発想デザイン(高校生新聞)",
-        "summary": "乳がんは、日本人女性の8人に1人がかかるとされています。「リアルで、ちょっと触りにくい……」。啓発活動で使われる乳房模型を見た時の気づきから、高校生たちが動物やパンをかたどった触診体験モデルを作ろうと",
-        "pub_date": "11/15 18:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/7698db401d416fc5a5dc38a6288da2ced17906f3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「評定平均4.9なのに」推薦入試で不合格　進路を考え直し気づいた新しい目標(高校生新聞)",
-        "summary": "ももさん（大学1年）は、ずっと憧れていた第一志望校に推薦入試で挑戦しました。成績も高いレベルを維持し、満を持して挑戦しましたが、不合格の結果に。どうやってそこから切り替えていったのか、聞きました。",
-        "pub_date": "11/15 18:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/2575c7b84fddfbc1e20bb3eb53c704c6ed3dc1ad?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 19:25:29 JST"
+    "last_updated": "2026-11-15 20:06:55 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -546,10 +546,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "G20x_7lWykQ",
+        "video_id": "DzYR0DNeR4U",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/G20x_7lWykQ?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=G20x_7lWykQ"
+        "embed_url": "https://www.youtube.com/embed/DzYR0DNeR4U?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=DzYR0DNeR4U"
       },
       {
         "id": "stream_tbsnews",
@@ -568,10 +568,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "WaIl6dz8S0E",
+        "video_id": "kTg5oUW8kyU",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/WaIl6dz8S0E?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=WaIl6dz8S0E"
+        "embed_url": "https://www.youtube.com/embed/kTg5oUW8kyU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=kTg5oUW8kyU"
       },
       {
         "id": "stream_annnews",

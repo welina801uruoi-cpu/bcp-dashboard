@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 11:45:34",
+  "timestamp": "2026-11-15 12:21:08",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -187,10 +187,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -287,7 +287,7 @@
         "name": "東海道新幹線",
         "status": "ALERT",
         "state": "列車遅延",
-        "detail": "京都駅での車両点検の影響で、下り線(新大阪方面行)の一部列車に遅れが出ています。（11月15日 19時40分掲載）",
+        "detail": "京都駅での車両点検の影響で、一部列車に遅れが出ています。（11月15日 20時50分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       }
     ],
@@ -346,8 +346,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/15 12:13",
+          "text": "Outlook365の世界的 START 障害 END 、 会社でもOutlookや保存メールが開かなくて仕事にならないのだけれど、 START au END ..."
+        },
         {
           "time": "11/15 11:30",
           "text": "START au END やUQモバイルを使っている人が、通信 START 障害 END 対策でpovoを追加するのは少し待って✋️ どちらも START au..."
@@ -355,10 +359,6 @@
         {
           "time": "11/15 10:10",
           "text": "mineo マイネオ 新規契約 友達紹介 もしもの通信 START 障害 END に備えて選べるdocomo/ START au END /softbank回線..."
-        },
-        {
-          "time": "11/15 09:48",
-          "text": "【過去に楽天モバイルを解約した方へ】 社員紹介キャンペーン経由なら、楽天ポイント特典あり🎁 停電・通信 START 障害 END ・出張・在宅でも使える、サブ回..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -395,16 +395,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/15 12:14",
+          "text": "真面目に久々に声を大にして言う。 docomo電波📡カスやん。 普通に5Gにならない場所クソ多い。 人多いと START 繋がらない END 。 マジで震災とか..."
+        },
+        {
           "time": "11/15 10:52",
           "text": "ここ数年楽天モバイルを使っているが最近になって人混みで極端に繋がらなくなる。 ターミナル駅とかいくと全然ネットが START 繋がらない END 。 これが S..."
         },
         {
           "time": "11/15 10:43",
           "text": "かと言って START au END もソフトバンクも楽天も微妙 微妙というか人多いところで START 繋がらない END とかあるから嫌なんだよな あと普通..."
-        },
-        {
-          "time": "11/15 09:43",
-          "text": "電話だと詐欺もあるから休みの日に START au END ショップで聞いてくるって言ったら黙って切られたからフリーダイヤル折かえしても START 繋がらない..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -451,8 +451,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 3,
+    "disaster_count": 5,
     "articles": [
+      {
+        "title": "浸水で取り残された人をボートやヘリコプターで救助する「ゼロメートル地帯広域防災活動拠点」愛知・弥富市に整備(CBCテレビ)",
+        "summary": "浸水被害から県民を守るため、愛知県弥富市に防災拠点が整備されました。海抜ゼロメートル以下に位置する弥富市は、南海トラフ巨大地震で堤防が決壊した場合などに、最大およそ2メートルの浸水が予想されています。",
+        "pub_date": "11/15 21:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/8684d723b8a38e519038290deb0bdfcc89173e72?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「スピッツ」ドラマーが交通事故で入院(共同通信)",
+        "summary": "ロックバンド「スピッツ」のドラマー崎山龍男さんが12日に交通事故に遭い、入院していたことが15日、警視庁への取材で分かった。崎山さんはバイクに乗っており、乗用車に追突された。意識のある状態で搬送され、",
+        "pub_date": "11/15 21:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/b6eeb4e1da52f139c31835c0f5aafe57261c6a07?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "漁船同士が衝突し1隻が沈没 8人が搬送(ABEMA TIMES)",
         "summary": "島根県出雲市の沖合で漁船同士が衝突し、一隻が沈没しました。 油が混じった海水を飲んだなどとして、8人が搬送されています。【映像】漁船同士が衝突し1隻が沈没 浜田海上保安部によりますと、きょう午前0時す",
@@ -470,12 +486,44 @@
         "is_disaster": true
       },
       {
-        "title": "19日(木)頃は暴風や高波に警戒　大雨や大雪のおそれも　北海道(日本気象協会tenki.jp)",
-        "summary": "発達する低気圧の接近に伴い、北海道では18日(水)には広く雨が降る見込みです。その後は強い冬型の気圧配置と上空の寒気の影響で21日(土)頃にかけて日本海側を中心に雪が降り、ふぶいたり局地的な大雪となる",
-        "pub_date": "11/15 16:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/8801009b5ee46bcdf7dc252f2c04c6eb27d96fc3?source=rss",
-        "category": "国内・気象防災",
+        "title": "漁船同士が衝突し1隻沈没 8人搬送",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/15 20:37 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6602713?source=rss",
+        "category": "主要速報",
         "is_disaster": true
+      },
+      {
+        "title": "「誰もが選択肢を持てる社会に」佳子さまの願いは実現するのか…改正皇室典範施行で見えた課題(週刊女性PRIME)",
+        "summary": "「中途失聴や難聴について多くの人が知り、考えることは、当事者にとって不可欠な情報保障を充実させることはもちろん、社会全体において、情報のやりとりの選択肢を増やしたり、組織の運営を改善したりすることにも",
+        "pub_date": "11/15 21:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/ed9812642608c659966d4f91e54f7d5d0f1c217b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【独自】軍事転用工場に財政支援　長期戦備え「予備生産力」明記(共同通信)",
+        "summary": "政府が年末の安全保障関連3文書改定に合わせて取りまとめる「防衛産業基盤戦略」の概要が判明した。長期戦に備えた「継戦能力」強化のため、平時は民生品を製造する工場を有事には防衛装備品向けに転用する「予備生",
+        "pub_date": "11/15 21:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/4e685cb91e8af170db70f3afe271fa741b52d1c3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "”トクリュウ”の犯行とみて警察が捜査 愛知・小牧市の強盗殺人未遂事件　82歳の女性が重傷(CBCテレビ)",
+        "summary": "愛知県小牧市の住宅に複数人の男が押し入り、82歳の女性が殴られて重傷を負った事件で、警察はトクリュウによる犯行とみて全容解明を進めています。【写真を見る】”トクリュウ”の犯行とみて警察が捜査 愛知・小",
+        "pub_date": "11/15 20:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/32ff3ed6c51d7ef566d0c345724af869e1d0ee97?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "深海魚を愛する人が集い開催「がまごおり深海魚まつり」家族連れでにぎわう(CBCテレビ)",
+        "summary": "愛知県蒲郡市では14・15日「がまごおり深海魚まつり」が行われました。これは、地元水産物で地域を盛り上げようと、深海魚を愛する地元の人たちが集まり開いたものです。【写真を見る】深海魚を愛する人が集い開",
+        "pub_date": "11/15 20:49 JST",
+        "link": "https://news.yahoo.co.jp/articles/4b2b3da4c00ab063d0a31628c8c38761c645a20b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "”日本一のクリスマス”目指す 名古屋・栄でライトアップのセレモニー開催(CBCテレビ)",
@@ -524,57 +572,9 @@
         "link": "https://news.yahoo.co.jp/articles/4aab348474f0ffa473b9467546839da5fc3f7b80?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "熊本市長に現職大西氏の4選確実(共同通信)",
-        "summary": "熊本市長選は15日、現職大西一史氏の4回目の当選が確実となった。",
-        "pub_date": "11/15 20:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/98061ab7090f159d03750fa73ec2f60ace03cc4e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "横田めぐみさん拉致から49年　拉致前日にめぐみさんが送った“くし”とともに帰りを待つ母「一回でもいいから会いたい」(FNNプライムオンライン)",
-        "summary": "新潟市の中学1年生だった横田めぐみさんが北朝鮮に拉致されて、2026年11月15日で49年となる。母・早紀江さん（90）は「一回でもいいから会いたい」とめぐみさんへの思いを吐露した。【画像で見る】13",
-        "pub_date": "11/15 20:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/dc5f2a9460edfb1cfcc0fa6f1d16765492fd3e81?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "愛媛県知事選で中村氏の5選確実(共同通信)",
-        "summary": "愛媛県知事選は15日、無所属現職中村時広氏の5回目の当選が確実となった。",
-        "pub_date": "11/15 20:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/40c456e6fc9477cd1848388483a36ad2c7db32ba?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "＜独自＞高市首相、先端技術で「アジア共通市場」創出　AZECで提唱へ、FOIPを進化(産経新聞)",
-        "summary": "高市早苗首相は17日にフィリピン・マニラで開かれる東南アジア諸国連合（ASEAN）関連首脳会議で、AI（人工知能）や量子技術といった先端技術分野に関する「アジア共通市場」の創出を提唱する。国際共同研究",
-        "pub_date": "11/15 19:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/d2a13c8d843641674c85ab55bedc06c0c96ad4f3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "斎藤知事「質問は端的に」「一時間過ぎております」　記者はヒートアップ「くだらないことを...本当にやめて」(J-CASTニュース)",
-        "summary": "斎藤元彦兵庫県知事は2026年11月12日の定例記者会見で、フリーランスの記者とのやりとりの際に「質問は端的にお願いします」「円滑な進行のためにご協力いただきたい」「あとの公務がございます」などと発言",
-        "pub_date": "11/15 19:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/f66fbe5213883735fc8b7e356a0a8cb27ec37cde?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "ハンズ渋谷店公式Ｘが営業終了後に感謝の投稿「48年間ありがとうございました」(日刊スポーツ)",
-        "summary": "ハンズ渋谷店の公式Xが15日、19時過ぎに更新され、48年間の営業を終了したことを報告した。【写真】看板が「THANKS」に 公式は「本日、2026年11月15日(日)をもちまして、ハンズ渋谷店は48",
-        "pub_date": "11/15 19:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/ffac93b1755d777946b6b97747c9e93d1711f7f6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-15 20:44:46 JST"
+    "last_updated": "2026-11-15 21:20:30 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -606,10 +606,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "wnJ93Fk_VUQ",
+        "video_id": "oKKa9FDXWyE",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/wnJ93Fk_VUQ?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=wnJ93Fk_VUQ"
+        "embed_url": "https://www.youtube.com/embed/oKKa9FDXWyE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=oKKa9FDXWyE"
       },
       {
         "id": "stream_ntvnews",
@@ -617,10 +617,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "iDwoJcNEgs4",
+        "video_id": "qg_ZAPCwP-I",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/iDwoJcNEgs4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=iDwoJcNEgs4"
+        "embed_url": "https://www.youtube.com/embed/qg_ZAPCwP-I?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=qg_ZAPCwP-I"
       },
       {
         "id": "stream_annnews",

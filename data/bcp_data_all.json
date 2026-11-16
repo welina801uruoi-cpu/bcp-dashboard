@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16 19:28:10",
+  "timestamp": "2026-11-16 20:15:14",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,7 +436,7 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 24地域】道央、道北、福島、茨城、千葉、東京、新潟、富山、長野、静岡、愛知、京都、兵庫、岡山、広島、山口、福岡、佐賀、長崎、熊本、大分、宮崎、鹿児島、沖縄（警報なし）",
+    "summary": "【注意報発表: 24地域】道北、福島、茨城、千葉、東京、新潟、富山、長野、静岡、愛知、三重、京都、兵庫、岡山、広島、山口、福岡、佐賀、長崎、熊本、大分、宮崎、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
     "notice_count": 24,
@@ -446,13 +446,11 @@
         "code": "1a",
         "name": "北海道(道央)",
         "short_name": "道央",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "波浪注意報"
-        ],
-        "summary": "波浪注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -474,10 +472,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -626,11 +623,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
+          "波浪注意報",
           "雷注意報",
-          "波浪注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -736,10 +733,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -750,21 +747,24 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/23/"
       },
       {
         "code": "24",
         "name": "三重県",
         "short_name": "三重",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "波浪注意報",
+          "強風注意報"
+        ],
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -950,10 +950,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -977,11 +977,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
+          "雷注意報",
           "強風注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -1045,10 +1045,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、濃霧注意報",
+        "summary": "濃霧注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -1062,37 +1062,37 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線24路線: 姫新線、美祢線、肥薩線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線24路線: 山田線、米坂線、左沢線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（姫新線、美祢線、肥薩線、指宿枕崎線、土佐くろしお鉄道ごめん・なはり線 等 計24路線）",
+    "line_text": "運行支障あり（山田線、米坂線、左沢線、陸羽東線、北上線 等 計24路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "姫新線",
-      "美祢線",
-      "肥薩線",
-      "指宿枕崎線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
       "山田線",
       "米坂線",
       "左沢線",
       "陸羽東線",
       "北上線",
       "津軽線",
-      "小海線",
-      "越後線",
-      "大井川鉄道大井川本線",
-      "万葉線",
+      "姫新線",
+      "美祢線",
+      "肥薩線",
+      "指宿枕崎線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "草津線",
+      "関西本線",
+      "小浜線",
+      "京阪京津線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
       "わたらせ渓谷鐵道線",
-      "草津線",
-      "関西本線",
-      "小浜線",
-      "京阪京津線"
+      "小海線",
+      "越後線",
+      "大井川鉄道大井川本線",
+      "万葉線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1110,7 +1110,7 @@
         "name": "山陽新幹線",
         "status": "ALERT",
         "state": "その他",
-        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月16日 5時0分掲載）",
+        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月17日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       },
       {
@@ -1138,7 +1138,7 @@
         "name": "九州新幹線",
         "status": "ALERT",
         "state": "その他",
-        "detail": "地震災害の影響で、一部列車に運休や運転変更が出ています。（11月16日 5時0分掲載）",
+        "detail": "地震災害の影響で、一部列車に運休や運転変更が出ています。（11月17日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/410/0"
       },
       {
@@ -1225,19 +1225,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/16 16:21",
-          "text": "START 障害 END が出る都度、娘の START au END 回線を借りて職場へ連絡…… 昨日も職場に平謝りでしたにゃん😰 そろそろきちんと原因特定・完..."
+          "time": "11/16 20:11",
+          "text": "ドコモが結構通信 START 障害 END があって、少し前にahamoが電波が弱いと話して 日によりましたが 電波が悪いならご迷惑かけたらいけませんから ah..."
         },
         {
-          "time": "11/16 16:12",
-          "text": "連日、ドコモがこれだけ通信 START 障害 END を起こしてると自分がドコモユーザーじゃなくて良かったなってつくづく思う START au END とソフト..."
+          "time": "11/16 19:44",
+          "text": "@Deresuke_no1 数年前起きた START au END の通信 START 障害 END での保証が一律200円だったからほんとに期待しない方がいい..."
         },
         {
-          "time": "11/16 16:07",
-          "text": "@gonnosukesaka 自分は START au END なので助かっていますがフーデリバリーの配達中に START au END も通信 START 障..."
+          "time": "11/16 19:37",
+          "text": "おはようございます！ docomoの通信 START 障害 END が頻発してるが、それは５Gの設備が少ないからでは？ START au END の方が５Gは繋..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1316,22 +1316,30 @@
     "status": "NORMAL",
     "office": "気象庁",
     "target_area": "東京都",
-    "report_time": "11/16 16:37",
+    "report_time": "11/17 04:42",
     "headline": "",
-    "text": "　日本付近は西高東低の気圧配置となっており、湿った空気や寒気の影響を受けています。\n\n　東京地方は、おおむね曇りとなっています。\n\n　１６日は、西高東低の気圧配置は次第に緩みますが、気圧の谷の影響を受ける見込みです。このため、曇りとなるでしょう。\n\n　１７日は、気圧の谷や湿った空気の影響を受ける見込みです。このため、曇りで夕方から雨となるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。",
+    "text": "　関東甲信地方は、東海道沖の気圧の谷や湿った空気の影響を受けています。\n\n　東京地方は、曇りとなっています。\n\n　１７日は、気圧の谷や湿った空気の影響を受ける見込みです。このため、曇りで昼過ぎから雨となるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。\n\n　１８日は、引き続き気圧の谷や湿った空気の影響を受けますが、次第に高気圧に緩やかに覆われる見込みです。このため、晴れ時々曇りで明け方まで雨となるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。",
     "paragraphs": [
-      "日本付近は西高東低の気圧配置となっており、湿った空気や寒気の影響を受けています。",
-      "東京地方は、おおむね曇りとなっています。",
-      "１６日は、西高東低の気圧配置は次第に緩みますが、気圧の谷の影響を受ける見込みです。このため、曇りとなるでしょう。",
-      "１７日は、気圧の谷や湿った空気の影響を受ける見込みです。このため、曇りで夕方から雨となるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。"
+      "関東甲信地方は、東海道沖の気圧の谷や湿った空気の影響を受けています。",
+      "東京地方は、曇りとなっています。",
+      "１７日は、気圧の谷や湿った空気の影響を受ける見込みです。このため、曇りで昼過ぎから雨となるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。",
+      "１８日は、引き続き気圧の谷や湿った空気の影響を受けますが、次第に高気圧に緩やかに覆われる見込みです。このため、晴れ時々曇りで明け方まで雨となるでしょう。伊豆諸島では、雨で雷を伴い激しく降る所がある見込みです。"
     ],
-    "summary": "日本付近は西高東低の気圧配置となっており、湿った空気や寒気の影響を受けています。...",
+    "summary": "関東甲信地方は、東海道沖の気圧の谷や湿った空気の影響を受けています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=130000"
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 4,
+    "disaster_count": 5,
     "articles": [
+      {
+        "title": "冬本番前に暖房チェック　古い灯油を使うと危険(共同通信)",
+        "summary": "本格的な冬の到来を前に、暖房器具の状態や使い方をあらためて確認するよう、製品評価技術基盤機構（NITE）が注意喚起している。断線した電源コードや、昨シーズンに余った灯油を使うと火災などの危険性があると",
+        "pub_date": "11/17 05:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/0eaa14fb56c89b3d6186b98936c342b6fed1bfbe?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "東海第二原発で火災発生　放射性物質の漏洩なし　日本原子力発電(テレビ朝日系（ANN）)",
         "summary": "茨城県東海村の東海第二原発でプロパンガスを発生させる電気ヒーターの一部が焦げているのが見つかりました。火災が起こったということです。 日本原子力発電によりますと、東海村にある東海第二原発で16日午後2",
@@ -1363,6 +1371,38 @@
         "link": "https://news.yahoo.co.jp/articles/e154149a2148796aeffc5f09d88b29661a8028c7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
+      },
+      {
+        "title": "今日17日～18日は全国で頭痛に要注意　東京は影響「大」　症状が出た時の対策は(日本気象協会tenki.jp)",
+        "summary": "今日17日(火)から明日18日(水)にかけては気圧の下がる所が多いでしょう。東京や仙台は今日、明日ともに影響度が「大」となっています。気圧低下に伴う頭痛、首や肩のこり、めまい、全身倦怠感、関節痛、低血",
+        "pub_date": "11/17 05:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/06f72df1b3199999132f57739a23e215c4de774b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "国債価格下落でも生保の減損は不要に…真の問題は国債の買い手でなく、政府の財政運営(Wedge（ウェッジ）)",
+        "summary": "金利が上昇すれば、すでに発行されている国債の価格は下落する。市場金利が上がれば、低い金利で発行された国債の魅力が相対的に低下するからだ。 この価格下落は、国債を大量に保有する金融機関の財務を圧迫する。",
+        "pub_date": "11/17 05:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/b8144385255889f44d1cd5ba941a7d9eff58bfd2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「地域銀行」で相次ぐ合併・経営統合、山積する課題をどう乗り越えるのか？(Wedge（ウェッジ）)",
+        "summary": "2027年から地域銀行の経営統合の動きが加速しそうだ。27年1月の荘内銀行と北都銀行の合併による「フィデア銀行」の誕生を振り出しに、全国各地で合併・経営統合が相次ぐ。人口減少・高齢化や地元経済の衰退、",
+        "pub_date": "11/17 05:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/6f54bfc991287e8c82da2c70950ecbaef88f9c24?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "ノーベル化学賞の硤合憲三氏が自民党本部に　講演と質疑応答、出席者からは「謙虚さに感銘」(日刊スポーツ)",
+        "summary": "2026年のノーベル化学賞を受賞した東京理科大の硤合（そあい）憲三・栄誉教授（76）は16日、東京・永田町の自民党本部を訪れ、文部科学部会、科学技術・イノベーション戦略調査会の合同会議で講演した。 会",
+        "pub_date": "11/17 04:55 JST",
+        "link": "https://news.yahoo.co.jp/articles/80a6a137bae6e26d3f139855fe2e150d80d4c117?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "石油調達で新枠組み提唱へ　高市首相、ASEAN連携を強化(共同通信)",
@@ -1411,49 +1451,9 @@
         "link": "https://news.yahoo.co.jp/articles/7e9cc6b3e1d9e7ce4c1ee779a8e4818759db741d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "「雑に扱われ腹が立った」と逮捕の男 東京・中野区の路上で刺された女性が死亡(テレビ朝日系（ANN）)",
-        "summary": "東京・中野区の路上で20代とみられる女性が刺され、死亡しました。警視庁は現場から逃走していた男を東中野駅で確保し、緊急逮捕しました。 16日午後7時半ごろ、東京都中野区中野の路上で「女性が刺されて倒れ",
-        "pub_date": "11/16 23:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/e69d1d729f8448fcd1690d3b9096ad970428e1eb?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「ドラッグロス」解消へ緊急調査を開始　早期の開発要請など検討へ(テレビ朝日系（ANN）)",
-        "summary": "厚生労働省は海外の薬が日本では使えない状態を指す「ドラッグロス」に対応するため、緊急で実態調査を開始したと明らかにしました。上野厚労大臣「2023年4月から2026年3月までの間に欧米で承認をされた医",
-        "pub_date": "11/16 23:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/0dcd5b89e7c0ab6f7888da75fec74b26301cc7f5?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "東京・中野で切りつけ…女性死亡　かばんを奪って逃走していた男を逮捕(テレビ朝日系（ANN）)",
-        "summary": "16日午後7時半ごろ、東京・中野区の路上で、20代とみられる女性が刃物で刺されて死亡しました。【画像】中野で切りつけ…女性死亡警視庁は事件発生から約1時間半後、逃走していた男を緊急逮捕しました。現場は",
-        "pub_date": "11/16 23:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/ffc14ed95c83a8c92f03f517c1fb60740124b170?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "女性刺され死亡 逮捕の男「雑に扱われ腹立った」(ABEMA TIMES)",
-        "summary": "東京・中野区の路上で20代とみられる女性が刺され、死亡しました。 警視庁は現場から逃走していた男を東中野駅で確保し、緊急逮捕しました。【映像】緊急逮捕の男「雑に扱われて腹が立った」 16日午後7時半ご",
-        "pub_date": "11/16 23:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/bd61a3bacc31a1c892de0b7f8fde65f2c764fa54?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "知人を複数回殴り死なせたか　名古屋・南区の会社員の男（23）の初公判(メ〜テレ（名古屋テレビ）)",
-        "summary": "去年8月、知人男性を酒瓶で複数回殴るなどして死亡させたとして、傷害致死の罪に問われている男の初公判が開かれました。 傷害致死の罪に問われているのは、名古屋市南区の会社員・木山隼人被告（23）です。 起",
-        "pub_date": "11/16 23:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/824025419e989ad7afe78bfe3e969824e18eb789?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-17 04:28:06 JST"
+    "last_updated": "2026-11-17 05:15:12 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1474,10 +1474,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "PfdECiY0hes",
+        "video_id": "zoJc-_JJEHQ",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/PfdECiY0hes?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=PfdECiY0hes"
+        "embed_url": "https://www.youtube.com/embed/zoJc-_JJEHQ?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=zoJc-_JJEHQ"
       },
       {
         "id": "stream_tbsnews",
@@ -1485,10 +1485,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "Jb7TeBBsR48",
+        "video_id": "k2mB6oK91Pg",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/Jb7TeBBsR48?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Jb7TeBBsR48"
+        "embed_url": "https://www.youtube.com/embed/k2mB6oK91Pg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=k2mB6oK91Pg"
       },
       {
         "id": "stream_ntvnews",
@@ -1496,10 +1496,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "mS5d858V8nI",
+        "video_id": "rZLkQsso998",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/mS5d858V8nI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=mS5d858V8nI"
+        "embed_url": "https://www.youtube.com/embed/rZLkQsso998?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=rZLkQsso998"
       },
       {
         "id": "stream_annnews",
@@ -1507,10 +1507,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "ox3ZqePGHrM",
+        "video_id": "7dt9JDKgoPg",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/ox3ZqePGHrM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=ox3ZqePGHrM"
+        "embed_url": "https://www.youtube.com/embed/7dt9JDKgoPg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=7dt9JDKgoPg"
       },
       {
         "id": "stream_fnnnews",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16 10:43:37",
+  "timestamp": "2026-11-16 11:49:23",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 23地域】道央、道南、道北、道東、青森、秋田、山形、福島、茨城、千葉、東京、新潟、富山、長野、山口、徳島、高知、福岡、佐賀、長崎、大分、鹿児島、沖縄（警報なし）",
+    "summary": "【注意報発表: 25地域】道央、道南、道北、道東、青森、秋田、山形、福島、茨城、千葉、東京、新潟、富山、長野、岡山、広島、山口、徳島、高知、福岡、佐賀、長崎、大分、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 23,
+    "notice_count": 25,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -450,11 +450,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
+          "雷注意報",
           "強風注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -664,11 +664,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "波浪注意報",
           "霜注意報",
-          "濃霧注意報",
-          "波浪注意報"
+          "濃霧注意報"
         ],
-        "summary": "霜注意報、濃霧注意報、波浪注意報",
+        "summary": "波浪注意報、霜注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -866,22 +866,26 @@
         "code": "33",
         "name": "岡山県",
         "short_name": "岡山",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/33/"
       },
       {
         "code": "34",
         "name": "広島県",
         "short_name": "広島",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/34/"
       },
       {
@@ -1061,31 +1065,27 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線36路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、姫新線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線35路線: 山陽本線、姫新線、美祢線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、姫新線、美祢線、肥薩線 等 計36路線）",
+    "line_text": "運行支障あり（山陽本線、姫新線、美祢線、只見線、山田線 等 計35路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
+      "山陽本線",
       "姫新線",
       "美祢線",
-      "肥薩線",
-      "指宿枕崎線",
+      "只見線",
       "山田線",
       "米坂線",
       "左沢線",
       "陸羽東線",
       "北上線",
       "津軽線",
-      "御殿場線",
-      "遠州鉄道線",
-      "小海線",
-      "越後線",
-      "大井川鉄道大井川本線",
-      "万葉線",
+      "肥薩線",
+      "指宿枕崎線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
       "JR宝塚線",
       "琵琶湖線",
       "JR京都線",
@@ -1095,11 +1095,14 @@
       "関西本線",
       "小浜線",
       "京阪京津線",
-      "埼京川越線",
-      "水郡線",
-      "都営三田線",
-      "都電荒川線",
+      "北陸本線",
+      "小海線",
+      "越後線",
+      "大井川鉄道大井川本線",
+      "万葉線",
+      "山手線",
       "東京メトロ丸ノ内線",
+      "富士急行線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
@@ -1181,7 +1184,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 36,
+    "target_lines_count": 35,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1196,7 +1199,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・長野で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】北海道・千葉・長野で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1233,22 +1236,22 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 6 件です。",
       "recent_posts": [
         {
-          "time": "11/16 10:42",
-          "text": "ドコモって今 電波 START 障害 END 起きてるのかな❓ 僕だけ START au END なのだが、家族の誰1人 繋がらないッ‼️😱"
+          "time": "11/16 11:37",
+          "text": "START au END 通信 START 障害 END 起きてる？昨日からずっとWiFi繋がらない"
         },
         {
-          "time": "11/16 10:01",
-          "text": "度重なる START 障害 END 以前に普段からろくに繋がらないクソ電波だったから週末に START au END に変えたわ。利用者のことをなんも考えてない..."
+          "time": "11/16 11:37",
+          "text": "@tani_yan0122 前に、 START au END に変えてすぐ通信 START 障害 END 起きたし、私は、普通にスマホ使えるからdocomoでい..."
         },
         {
-          "time": "11/16 09:50",
-          "text": "自分は START au END だから、気にしてなかったけどニュース見て えっ(;ﾟДﾟ)!また⁉️この間もなったよね？ ドコモ「5G SA」今月3度目の S..."
+          "time": "11/16 11:13",
+          "text": "docomoの通信 START 障害 END の件、特に拘りがないなら START au END 傘下のpovoかSoftBank傘下のLINEMOに乗り換えが..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1285,16 +1288,16 @@
       "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/16 10:42",
-          "text": "ドコモって今 電波障害 起きてるのかな❓ 僕だけ START au END なのだが、家族の誰1人 START 繋がらない END ッ‼️😱"
+          "time": "11/16 11:42",
+          "text": "楽天モバイルが私の行くそこら中の店舗が START au END ローミング終了から電波が繋がらくなった事がホントにストレスだし、 START 繋がらない EN..."
         },
         {
-          "time": "11/16 10:03",
-          "text": "田園都市線 START au END の電波悪すぎてクソ 5G4G共に START 繋がらない END し何が繋がりやすさなのか考え直してくれ"
+          "time": "11/16 11:37",
+          "text": "START au END 通信障害起きてる？昨日からずっとWiFi START 繋がらない END"
         },
         {
-          "time": "11/16 10:01",
-          "text": "度重なる障害以前に普段からろくに START 繋がらない END クソ電波だったから週末に START au END に変えたわ。利用者のことをなんも考えてない..."
+          "time": "11/16 11:33",
+          "text": "追加情報。調べたら、せせらぎ街道の一部で START 繋がらない END のは電波状態が悪いというより、そもそもその部分はサービスエリアに入ってなかった。しかも..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -1308,16 +1311,16 @@
       "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/16 11:13",
+          "text": "docomoの通信 START 障害 END の件、特に拘りがないならau傘下の START povo END かSoftBank傘下のLINEMOに乗り換えが..."
+        },
+        {
+          "time": "11/16 10:52",
+          "text": "新幹線のってる時にドコモつながらねーとぼやいてたけどまーた通信 START 障害 END 起こしてたのか。何か嫌な感じがしたので3日分 START povo E..."
+        },
+        {
           "time": "11/16 09:56",
           "text": "iPhone18に買い換えるときにahamoにMNPしよかなと思ってたけど、オンラインショップ停止してるし、通信 START 障害 END もしばしばなので S..."
-        },
-        {
-          "time": "11/16 09:49",
-          "text": "某通信会社、今のとこいつも繋がらんとこ以外では繋がってるぽいので通信 START 障害 END の影響なさそうだけど念の為 START povo END のSI..."
-        },
-        {
-          "time": "11/16 09:15",
-          "text": "緊急地震速報も入らずで月3回も START 障害 END あってまだdocomo使ってる人なんで怒らないんか意味わからん START povo END 安いし繋..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -1344,6 +1347,22 @@
     "disaster_count": 9,
     "articles": [
       {
+        "title": "【寒波到来】発達する低気圧　北日本「警報級大雪おそれ」　九州でも「雪か」【3時間ごと雨雪と風シミュレーション22日（日）まで/ 3連休まで天気予報（23日まで）】気象庁「気象解説情報」(MBC南日本放送)",
+        "summary": "■【低気圧 急速に発達】気象庁 警戒を呼びかけ発達する低気圧の影響で、18日（水）から21日（土）頃にかけて、北日本から西日本にかけて荒れた天気となり、低気圧の発達の程度等によっては、大荒れや大しけ、",
+        "pub_date": "11/16 20:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/8718f04d099c64bfad86e70ff121f34f3faf7bbd?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「娘が元に戻るなら賠償なんかなくていい」父親の願い…札幌市西区の不正改造車タイヤ脱落事故から3年_受刑者は「改造が事故の直接原因とはいえない」と主張を一転(FNNプライムオンライン)",
+        "summary": "札幌市西区で改造車からタイヤが脱落し女の子に直撃した事故は、11月14日で発生から3年。女の子の意識は戻らないままだ。車を改造した受刑者の男はその後、損害賠償に応じない姿勢を示した。",
+        "pub_date": "11/16 20:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/b41b1c7a64328bda243fb8bfe583bb55759c96ba?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "大規模火災で被災した「明倫商店街」 地元住民らが復興を目指すチャリティーイベント 募金や収益はがれき撤去費用に 三重･伊勢市(CBCテレビ)",
         "summary": "ことし8月の大規模火災で被災した三重県伊勢市の「明倫商店街」の復興を目指したチャリティーイベントが、11月14日に開かれました。【写真を見る】大規模火災で被災した「明倫商店街」 地元住民らが復興を目指",
         "pub_date": "11/16 19:24 JST",
@@ -1353,7 +1372,7 @@
       },
       {
         "title": "【速報】ＪＲ神戸線・京都線・琵琶湖線など広い範囲で列車遅れ　橋桁の確認作業をした影響(ABCニュース)",
-        "summary": "ＪＲ西日本によりますと、１６日午後６時５０分現在、京阪神の広い範囲で列車に遅れが発生しています。新快速の有料座席「Ａシート」を約３倍に 通勤時間帯に増設、日中も１時間に１本程度へ 来春からＪＲ西 遅延",
+        "summary": "ＪＲ西日本によりますと、１６日午後８時現在、京阪神の広い範囲で列車に遅れが発生しています。新快速の有料座席「Ａシート」を約３倍に 通勤時間帯に増設、日中も１時間に１本程度へ 来春からＪＲ西 遅延が生じ",
         "pub_date": "11/16 19:16 JST",
         "link": "https://news.yahoo.co.jp/articles/13d0f05a6bda40630d3e855f3617c98150d3fe0c?source=rss",
         "category": "国内・気象防災",
@@ -1400,71 +1419,55 @@
         "is_disaster": true
       },
       {
-        "title": "【速報】イギリス大使館前でクレーン車がバイクに衝突　バイクの男性が意識不明(テレビ朝日系（ANN）)",
-        "summary": "東京・千代田区のイギリス大使館前の道路でクレーン車がバイクに追突する事故がありました。 16日午後4時半ごろ、千代田区一番町のイギリス大使館前の道路でクレーン車がバイクに追突しました。 この事故でバイ",
-        "pub_date": "11/16 18:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/1005b53793e8f39825d5130ebff3fe2735fb9e94?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "常磐道で車7台が絡む事故　男性2人がけが1人は重傷(テレビ朝日系（ANN）)",
-        "summary": "茨城県かすみがうら市の常磐道下りで車7台が絡む玉突き事故があり、男性2人がけがをし、このうち1人は重傷です。 16日午前9時ごろ、かすみがうら市の常磐道下り千代田石岡インターチェンジ付近で「車7台の玉",
-        "pub_date": "11/16 18:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/d96574f10339e607eac091ba9af5516e9874a421?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「あげぽよ」広めた元「egg」モデル殺害か 顔や頭を何度も殴った痕跡、酔って捜査員に抗議も…42歳男逮捕(ABEMA TIMES)",
-        "summary": "東京・池袋のマンションで交際相手の元モデルの女性に殴るなどの暴行を加えて殺害したとして、42歳の男が逮捕された。事件発覚翌日の家宅捜索では、男が酒に酔った状態で捜査員に激しく抗議する様子があったほか、",
-        "pub_date": "11/16 19:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/74d473ce88d94d96aa1500da296e562adcd9c1f5?source=rss",
+        "title": "東京・中野で女性刺されたか、男が逃走(共同通信)",
+        "summary": "捜査関係者によると、16日午後7時半ごろ、東京都中野区の路上で、20代ぐらいの女性が血を流して倒れていると通報があった。刃物で刺されたとみられ、意識不明の重体。現場から男が逃走したといい、警視庁が行方",
+        "pub_date": "11/16 20:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/ebdc617fecc85814200192886fec952a34b25751?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "偽サイトでAppleギフトカード詐取、サイトは生成AIで作成　42歳男逮捕　京都府警(産経新聞)",
-        "summary": "生成AIを使って電子ギフトカードの高額買い取りをうたう偽サイトをつくり、利用コードを入力させ、利用権をだまし取ったとして、京都府警は16日、詐欺の疑いで、東京都目黒区青葉台の自称ミュージシャン、巣立（",
-        "pub_date": "11/16 19:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/5f34afe81a63e5f7757caa94f3b1f0a551e7f7a9?source=rss",
+        "title": "生成AIで偽サイト作成か　ギフトカード詐欺疑い逮捕(共同通信)",
+        "summary": "京都府警は16日、対話型生成AI「チャットGPT」を活用して偽の電子ギフトカード買い取りサイトを作成し、カードの利用権をだまし取ったとして、詐欺容疑で、東京都目黒区、無職巣立義昭容疑者（42）を逮捕し",
+        "pub_date": "11/16 20:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/aa3fbdb676ad6cd999d9efbdf3306dcd91e42d09?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "NHK 福岡放送局の30代職員を停職3ヶ月の懲戒処分 単身赴任手当など不正受給(ABEMA TIMES)",
-        "summary": "NHKが「職員の懲戒処分について」発表しました。「1.被処分者福岡放送局職員（30代）【映像】不正受給のNHK職員を懲戒処分 NHKコメント全文2.処分内容停職3か月3.決定日2026年11月16日（",
-        "pub_date": "11/16 19:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/ed2a93fe93bb5c93706d1beb393f9bb07da5fee9?source=rss",
+        "title": "宜野湾市長、米軍オスプレイ配備に反対強調(共同通信)",
+        "summary": "沖縄県宜野湾市の佐喜真淳市長は16日、記者団の取材に、米軍輸送機MV22オスプレイの普天間飛行場配備に関し「市のスタンスは基本的に配備撤回」と述べ、反対を改めて強調した。古謝玄太知事は配備を容認してい",
+        "pub_date": "11/16 20:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/41783c672fff69d3262088e3ce34a5e8b78e80e4?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "人気インフルエンサー「あっすん」逮捕　7年前から無許可で接待営業か(テレビ朝日系（ANN）)",
-        "summary": "SNSのフォロワー数は80万人超。「あっすん」の愛称で知られ、人気のネット番組にも出演していた女が逮捕された事件で新たな疑いが浮上しています。【画像】赤裸々に半生を語る「あっすん」",
-        "pub_date": "11/16 19:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/3c4abc91028f49ae1366e4a560c927af2c64d10c?source=rss",
+        "title": "《ガリガリになった姿を刺青びっしりの腕でバックハグ》「『日常的にDVを受けている』と相談を…」殺害された元「egg」モデル・川端かなこさんにあった暴力の影　(NEWSポストセブン)",
+        "summary": "「かなこは親友に『彼氏から日常的にDVを受けている』と相談していました。殺人と知って本当にショックで……」──\"あげぽよ\"といった若者言葉の火付け役になった元「egg」人気モデル・川端かなこさん。彼女",
+        "pub_date": "11/16 20:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/a06cdc373a3702f7ea733e923d7f6756af053b73?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "給食の食器に“金属片とみられる異物”が張り付く 児童が発見 調理設備の点検を行うも異常なし 異物の成分分析などを実施へ 愛知･豊田市(CBCテレビ)",
-        "summary": "愛知県豊田市は、市内の小学校で提供された給食に金属片とみられる異物が混入していたと発表しました。児童にけがはありませんでした。【写真を見る】混入していた“金属片とみられる異物”豊田市によりますと、市内",
-        "pub_date": "11/16 19:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/cdc6536cd3a86a4619cbd0957e723be932b01ea9?source=rss",
+        "title": "支援金　本格導入時には「相当大きな規模に」　片山財務大臣(テレビ朝日系（ANN）)",
+        "summary": "働く中低所得者向けの支援金制度を巡り、片山財務大臣は2029年度からの本格導入時には大幅に規模を拡充する方針を示しました。公明党 上田勇参議院議員「恒久的な財源、それがどれだけ確保できたかによって、2",
+        "pub_date": "11/16 20:13 JST",
+        "link": "https://news.yahoo.co.jp/articles/6fee3d4e57c51d5a425f84cc5fb3405726f9dcc6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "庭や駐車場の工事めぐり代金100万円をだまし取った疑い　37歳の男を逮捕　岐阜・可児市(メ〜テレ（名古屋テレビ）)",
-        "summary": "庭や駐車場などの工事の見積もりを依頼した女性から代金をだまし取ったとして、37歳の男が逮捕されました。 詐欺などの疑いで逮捕されたのは、岐阜県可児市の自営業・長岡マウイ容疑者(37)です。 警察により",
-        "pub_date": "11/16 19:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/4d7555f4809a6bd50f0ea66c6b4be8d7cf741ffc?source=rss",
+        "title": "【速報】東京・中野区の路上で20代とみられる女性が刺され重体　男が逃走中　警視庁(テレビ朝日系（ANN）)",
+        "summary": "東京・中野区の路上で20代とみられる女性が刃物で刺され意識不明の重体です。男は現場から逃走中です。午後7時半ごろ中野区・中野の路上で「女性が刺されて倒れている」と110番通報がありました。警視庁などに",
+        "pub_date": "11/16 20:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/24707ecb167f2d54d88353e4e64973917426db1e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-16 19:43:34 JST"
+    "last_updated": "2026-11-16 20:49:19 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1518,10 +1521,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "YypnXRjEFYM",
+        "video_id": "lBdqC9tVweY",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/YypnXRjEFYM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=YypnXRjEFYM"
+        "embed_url": "https://www.youtube.com/embed/lBdqC9tVweY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=lBdqC9tVweY"
       },
       {
         "id": "stream_fnnnews",

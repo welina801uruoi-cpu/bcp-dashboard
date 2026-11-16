@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16 00:04:26",
+  "timestamp": "2026-11-16 01:29:26",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -163,23 +163,21 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 2地域】広島、山口（警報なし）",
+    "summary": "【注意報発表: 1地域】山口（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 2,
+    "notice_count": 1,
     "total_prefs": 5,
     "pref_details": [
       {
         "code": "34",
         "name": "広島県",
         "short_name": "広島",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "濃霧注意報"
-        ],
-        "summary": "濃霧注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/34/"
       },
       {
@@ -240,14 +238,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 伯備線、山陽本線 ／ 新幹線: 山陽新幹線（その他））",
+    "text": "運行支障あり（在来線: 山陽本線 ／ 新幹線: 山陽新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（伯備線、山陽本線）",
+    "line_text": "運行支障あり（山陽本線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
     "troubled_lines": [
-      "伯備線",
       "山陽本線"
     ],
     "troubled_shinkansen": [
@@ -273,11 +270,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中国電力NW: 【停電発生中】島根で停電情報を検知",
+    "power_msg": "中国電力NW: 停電情報なし（中国エリア管内正常）",
     "water_msg": "広島市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "広島ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -317,8 +314,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/16 00:14",
+          "text": "サブ回線は、メインと違うキャリアの回線を選ぶのがコツ。mineoはドコモ・ START au END ・ソフトバンクから選べるので、通信 START 障害 EN..."
+        },
         {
           "time": "11/15 23:26",
           "text": "ドコモさん回線 START 障害 END が発生起こしてから、電波に制限かけてない？ 元々、お世辞にも良くなかった東京都内の速度が露骨に速度が低下してる。ネット..."
@@ -326,10 +327,6 @@
         {
           "time": "11/15 23:13",
           "text": "駅ナカのセルフレジで START au END PAYバーコードエラーになった…。有人レジでも使えるか確認して読み取りしたらこのバーコードは使用できませんって音..."
-        },
-        {
-          "time": "11/15 22:47",
-          "text": "【備蓄とスマホ回線】 自分はですが複数回線にしているのは意味があります 現在の構成は次のようになっています。(自分) 端末 通信回線 スマホA➡️ドコモ＋ソフト..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -366,16 +363,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/16 01:17",
+          "text": "@13_13_kk 🌺 ヵゝ†ょゐ 🌺さま、こんにちは！povoサポートです。全然 START 繋がらない END のは困ってしまいますね🥲もしよければ、安定し..."
+        },
+        {
           "time": "11/15 23:34",
           "text": "楽天モバイル 💢 START 繋がらない END ゾ💢💢💢 START AU END に見捨てられユーザーに見放され 廃業か？ オイ 三木谷‼️ カネ返せ‼️"
         },
         {
           "time": "11/15 15:13",
           "text": "副回線でmineo、 START au END 回線にしてみたけど12時〜13時すぎまで全く START 繋がらない END 。 地方都市。 動画はおろか、サブ..."
-        },
-        {
-          "time": "11/15 15:13",
-          "text": "川越の埼玉医大の2階って何でこんなに電波悪いや(笑) ドコモの回線もソフトバンクの回線も START au END もマジで START 繋がらない END か..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -386,19 +383,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/16 01:27",
+          "text": "docomoまた通信 START 障害 END かよ！ この前 START povo END を副回線で契約しといてよかった"
+        },
+        {
+          "time": "11/16 01:14",
+          "text": "docomoいきなり電波なくなってサブの START povo END に切り替えた また START 障害 END か？"
+        },
         {
           "time": "11/15 23:26",
           "text": "ドコモさん回線 START 障害 END が発生起こしてから、電波に制限かけてない？ 元々、お世辞にも良くなかった東京都内の速度が露骨に速度が低下してる。ネット..."
-        },
-        {
-          "time": "11/15 13:04",
-          "text": "【2026年最新】月額440円で通信 START 障害 END に備える！最強の予備スマホ設定ガイド（ START povo END ＋IIJmio） http..."
-        },
-        {
-          "time": "11/15 11:30",
-          "text": "auやUQモバイルを使っている人が、通信 START 障害 END 対策で START povo END を追加するのは少し待って✋️ どちらもau回線なので、..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -421,8 +418,56 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 8,
+    "disaster_count": 10,
     "articles": [
+      {
+        "title": "やす子運営の子ども食堂でガスメーター「勝手に閉められる」被害…“いたずら”では済まない重大な法的責任とは(弁護士JPニュース)",
+        "summary": "お笑いタレントのやす子さんが運営する子ども食堂「やすまったり」で、屋外のガス設備に何者かがイタズラをし、一時的にガスが使用できなくなる被害が発生したという。【投稿】やす子さん「イタズラしないようお願い",
+        "pub_date": "11/16 10:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/8ce4509b8363e7ebc6cdb4219d534f936814d73a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【速報】常磐道 車7台事故で10人以上けが(テレビ朝日系（ANN）)",
+        "summary": "茨城県の常磐自動車道下りで車7台が絡む事故があり、10人以上がけがをしているということです。午前9時ごろ、茨城県かすみがうら市の常磐道下り千代田石岡インターチェンジ付近で、車を運転していた男性から｢車",
+        "pub_date": "11/16 10:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/d8491b9f356a78b255d2c113adee3b7873f8a5da?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "占いサイト特殊詐欺　「金運逃す」繰り返し多額の送金指示　2380万円被害　74歳女性(テレビ朝日系（ANN）)",
+        "summary": "滋賀県長浜市に住む女性（74）が占いサイトのポイントを購入する名目で、およそ2380万円をだまし取られる特殊詐欺事件があったことが分かりました。 滋賀県警によると、女性は去年11月、携帯電話に表示され",
+        "pub_date": "11/16 10:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/3aceb3b89d97b5c914f265b84f0a0b27008c0c53?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "都営三田線の線路上で火事　一部区間で運転見合わせ(テレビ朝日系（ANN）)",
+        "summary": "都営三田線の線路上で火事があり、一部区間で運転を見合わせています。 警視庁や東京都などによりますと、16日午前8時40分ごろ、都営三田線の新板橋駅のホームからおよそ100メートルの線路上で火事があり、",
+        "pub_date": "11/16 10:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/7d25a28c68eb91dc5f92ab4ae8d299718f8ec2ac?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【速報】茨城・かすみがうら市の常磐道で7台絡む多重事故 十数人がけがとの情報 消防(テレビ朝日系（ANN）)",
+        "summary": "茨城県の常磐自動車道下りで車7台が絡む事故があり、10人以上がけがをしているということです。 16日午前9時ごろ、茨城県かすみがうら市の常磐道下り千代田石岡インターチェンジ付近で、車を運転していた男性",
+        "pub_date": "11/16 10:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/29c17207120aef206e1da79b8ec6ce6bcef62d10?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "踏切内で車が動けなくなったら?まず避難「非常ボタン」がなければ「発炎筒」で　事故発生のJR土讃線は約3割がボタンなし(FNNプライムオンライン)",
+        "summary": "2026年6月、高知県日高村の踏切内で動けなくなった車に列車が衝突する事故が発生した。【画像で見る】踏切内から出られなくなった時の対処法この事態を受け、高知市布師田にあるJR四国の車両基地では、警察や",
+        "pub_date": "11/16 10:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/74e5b6da1455d3e982f68758a424f023362ebeda?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "「スピッツ」崎山さん バイク運転中に追突されけが(ABEMA TIMES)",
         "summary": "ロックバンド「スピッツ」のドラマー、崎山龍男さんが、都内の路上で交通事故に遭っていたことが分かりました。【映像】「スピッツ」崎山さんが事故にあった現場付近の様子 警視庁によりますと、崎山さん（59）は",
@@ -456,95 +501,47 @@
         "is_disaster": true
       },
       {
-        "title": "「目をやってやろう」と言われた…“恐怖の口縫い女”櫻井政恵被告の共犯男が語った深夜の暴行、孫の手で何度も殴打「皮膚が紫色になりやりすぎだと思った」(NEWSポストセブン)",
-        "summary": "同居していたAさん（当時42）を脅し、針と糸を使って被害者自身の唇を縫わせたとして、強要罪などに問われている櫻井政恵被告（50）。11月11日、水戸地裁下妻支部で開かれた初公判で、櫻井被告は起訴内容を",
-        "pub_date": "11/16 06:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/b7c555be710e12d3db5c6f41208ad8e4e33c2924?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「スピッツ」ドラマー崎山さん事故で入院　来年の全国ツアー「慎重に判断」所属事務所(テレビ朝日系（ANN）)",
-        "summary": "ロックバンド「スピッツ」のドラマー、崎山龍男さんが都内の路上で交通事故に遭っていたことが分かりました。 警視庁によりますと、崎山さん（59）は12日午後5時ごろ、渋谷区の代々木上原駅近くの路上を中型バ",
-        "pub_date": "11/16 05:56 JST",
-        "link": "https://news.yahoo.co.jp/articles/c873276a11d1da96d260976695cc86f419d073f1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "〔沖縄電力〕沖縄県宮古島市での停電は復旧(16日06時10分現在)(レスキューナウニュース)",
-        "summary": "沖縄電力の発表によると、沖縄県宮古島市で停電が発生していましたが、16日06:10現在、復旧しています。■影響地域宮古島市：約7380軒(下地字上地、下地字与那覇、下地字嘉手苅、下地字川満、下地字来間",
-        "pub_date": "11/16 05:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/022e8fb370bafa1a7d92558a1c27614b07b1cde7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "特急と衝突し車火災 遺体を発見",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/16 06:14 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602737?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "愛子さまと佳子さま、秋の園遊会で見せた「姉妹のような振袖姿」に隠された“着こなしの違い”をプロが解説(週刊女性PRIME)",
-        "summary": "10月29日、秋の園遊会が赤坂御苑で開催された。女性皇族方は和装でお出ましとなり、なかでも、愛子さまと佳子さまの息の合った“おそろい”のコーディネートが、まるで姉妹のようだと話題を呼んだ。【写真】令和",
-        "pub_date": "11/16 09:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/8f603f898ba2526efd2591f0a417e9178e7acb4f?source=rss",
+        "title": "【速報】「すべて間違っています」6歳の甥を死亡させ遺体をキャリーケースに入れ草むらに遺棄した罪などに問われた男　初公判で起訴内容を否認　“共犯”の姉妹3人は「男のマインドコントロール下にあった」と認定　神戸地裁(関西テレビ)",
+        "summary": "2023年6月、神戸市西区で当時6歳の甥に暴行を加え死亡させ、遺体を草むらに遺棄した罪などに問われている男の裁判が始まり、男は起訴内容を否認しました。神戸市西区の無職・穂坂大地被告（35）は、2023",
+        "pub_date": "11/16 10:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/6dd092ccba91bd0a45012c079408cc9573392ca9?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "介護事業所の38％超が赤字に　25年度、物価高や人件費上昇で(共同通信)",
-        "summary": "厚生労働省は16日、全国の介護事業所の2025年度経営実態調査結果を公表した。25年度決算で赤字だった割合は38.3％に上り、前年度と比べ0.8ポイント増えた。収入に対する利益の割合を示す利益率（収支",
-        "pub_date": "11/16 08:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/dc66c9c3dd073707ff09f6b3f2eb224cc6faf5f1?source=rss",
+        "title": "トクリュウの犯行か　82歳女性襲われ重傷　盗難車運転容疑でブラジル籍ら5人逮捕(テレビ朝日系（ANN）)",
+        "summary": "15日未明、愛知県小牧市の住宅で82歳の女性が寝ていたところ、男らが押し入りました。 男らは女性に「金はないか」と聞き、女性が「ない」と答えるとバールなどで殴ったうえ顔にスプレーをかけ、財布を奪って逃",
+        "pub_date": "11/16 10:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/bf4d8e5ce1da836bb2881fe9df86eef89eced890?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "福岡市長選は再選挙、過去7例で首位6勝　唯一の逆転は3位から…わずか6票差での決着も(産経新聞)",
-        "summary": "再選挙の実施が確実となった15日投開票の福岡市長選。最多得票の稲富修二氏も得票率は23・23％にとどまり、法定得票数に届かなかった。総務省によれば、法定得票数に届かず、再選挙となった首長選は過去に少な",
-        "pub_date": "11/16 08:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/1c3f63926bbace01e3f5fb1c7190e6722a36b5c1?source=rss",
+        "title": "｢女性が働くから少子化になる｣は大間違い…データが示す女性が｢子どもを産みたくない｣本当の理由(プレジデントオンライン)",
+        "summary": "出生率が下がり続けているのはなぜなのか。人口統計学者のディーン・スピアーズと経済人工学者のマイケル・ジェルーソさんは「ジェンダー平等が進み、女性が働くと少子化になると考えられがちだが、女性の雇用機会と",
+        "pub_date": "11/16 10:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/09653117e3b1b25891ecc5b18e7ca03a64763392?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「ハンズ渋谷店」 48年の歴史に幕(ABEMA TIMES)",
-        "summary": "生活雑貨店の「ハンズ渋谷店」がきのう、48年の歴史に幕を下ろしました。 閉店したのは、工作用品や生活雑貨を扱う「ハンズ渋谷店」です。1978年、「東急ハンズ渋谷店」として開店し、高さの異なる売り場を短",
-        "pub_date": "11/16 08:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/9026123ba1a361ba05e82e625bd4f950ac07db66?source=rss",
+        "title": "ちばてつやさん死去　講談社「ちばてつや賞」は今後も継続　ヤンマガ発表　第95回は編集部内で先行実施(スポニチアネックス)",
+        "summary": "漫画家ちばてつやさん（享年87）の訃報を受け、講談社「週刊ヤングマガジン」編集部は、同誌が主催する新人漫画賞「ちばてつや賞」について、今後も継続する方針を明らかにした。 編集部は公式Xを通じ「長きにわ",
+        "pub_date": "11/16 10:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/ae1b4ea55bf3547c568ef503aa68ca9aa7517d84?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「寿司といえば、富山」 水族館の展示が人気(ABEMA TIMES)",
-        "summary": "富山県にある魚津水族館では、一風変わった展示が人気となっています。 魚たちが優雅に泳ぐ水槽の前に並んでいるのは、ブリやベニズワイガニなど、リアルなお寿司の食品サンプルです。【映像】水槽の前に並ぶ“リア",
-        "pub_date": "11/16 08:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/0cbaacad8f4e42848bb964eb1c1c1e579e58f191?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "命じられて材木2万本を売り､代金を上納していたのに斬首…秀吉が山奉行･吉川平助に厳罰を下した意図(プレジデントオンライン)",
-        "summary": "NHK「豊臣兄弟！」では、吉川平助が“不正に利を得た”として秀吉に斬首を命じられ、秀長が食い下がるシーンが描かれた。なぜ秀吉は厳しい処分を下したのか。ルポライターの昼間たかしさんが、史料などを基に実像",
-        "pub_date": "11/16 08:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/dd9ddb338406ba66ff12fe9847c46e937396b5e0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "高市内閣支持率、朝日の世論調査「初めて50％切る」49％…読売58％、共同50.4％横ばい［新聞ウォッチ］(レスポンス)",
-        "summary": "大手メディアが“月イチ”で実施している全国世論調査のうち、きょうは読売と朝日、そして共同通信が、週末（11月13～15日）に行った集計結果を1面のトップ記事などで取り上げている。このうち、読売は、流出",
-        "pub_date": "11/16 08:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/e293f3337853aae5663a1efea97a3883c24ed48a?source=rss",
+        "title": "恋リア出演「あっすん」逮捕　風営法違反の疑い　押収品に売上含む現金1600万円(テレビ朝日系（ANN）)",
+        "summary": "風営法違反の疑いで逮捕されたのは、キャバクラ店従業員の小栗彩朱佳容疑者（31）ら3人です。 「あっすん」として恋愛リアリティー番組にも出演していた小栗容疑者が経営する店が摘発されました。 押収品の中に",
+        "pub_date": "11/16 10:13 JST",
+        "link": "https://news.yahoo.co.jp/articles/8fde1ddccad31cee43a30b673ac19bbe690b1dd2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-16 09:04:14 JST"
+    "last_updated": "2026-11-16 10:28:48 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -576,10 +573,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "1Dy3L_LPl_U",
+        "video_id": "wxk4VBqFA4s",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/1Dy3L_LPl_U?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=1Dy3L_LPl_U"
+        "embed_url": "https://www.youtube.com/embed/wxk4VBqFA4s?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=wxk4VBqFA4s"
       },
       {
         "id": "stream_ntvnews",
@@ -587,10 +584,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "NkqZlrfg84Q",
+        "video_id": "ixURRZ5-u1c",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/NkqZlrfg84Q?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=NkqZlrfg84Q"
+        "embed_url": "https://www.youtube.com/embed/ixURRZ5-u1c?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=ixURRZ5-u1c"
       },
       {
         "id": "stream_annnews",
@@ -598,10 +595,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "fnaWMKDhTzY",
+        "video_id": "OpT7PRNUhFw",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/fnaWMKDhTzY?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=fnaWMKDhTzY"
+        "embed_url": "https://www.youtube.com/embed/OpT7PRNUhFw?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=OpT7PRNUhFw"
       },
       {
         "id": "stream_fnnnews",

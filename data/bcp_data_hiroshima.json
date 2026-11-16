@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16 23:12:32",
+  "timestamp": "2026-11-16 23:48:41",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -74,11 +74,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-17 01:45",
-    "place": "宮古島近海",
-    "magnitude": "3.9",
+    "time": "2026-11-17 08:27",
+    "place": "島根県東部",
+    "magnitude": "2.8",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-17 08:27",
+        "place": "島根県東部",
+        "shindo": "1",
+        "magnitude": "2.8",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-17 01:45",
         "place": "宮古島近海",
@@ -140,13 +147,6 @@
         "place": "茨城県沖",
         "shindo": "1",
         "magnitude": "3.6",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-15 13:16",
-        "place": "渡島地方東部",
-        "shindo": "1",
-        "magnitude": "2.6",
         "maxScale": 10
       }
     ]
@@ -241,13 +241,17 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（新幹線: 山陽新幹線（その他））",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "text": "運行支障あり（在来線: 山陽本線、呉線、可部線 ／ 新幹線: 山陽新幹線（その他））",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（山陽本線、呉線、可部線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "山陽本線",
+      "呉線",
+      "可部線"
+    ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）"
     ],
@@ -312,22 +316,22 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 5 件です。",
       "recent_posts": [
+        {
+          "time": "11/16 23:22",
+          "text": "@qq_nemu 災害時とか通信 START 障害 END のこととかを考えて2回線いれてる！私はメインがahamo(docomo回線)、サブ回線でpovo( ..."
+        },
+        {
+          "time": "11/16 23:17",
+          "text": "一度一時的に START au END にしたから分かる。 ドコモはね、もうだめだよ。通信クソです。比べ物にならない。 値上げするのも客離れが増えてるせいとかな..."
+        },
         {
           "time": "11/16 23:11",
           "text": "通信 START 障害 END ドコモ テレビで言ってたけど😥 根本的な改善がされてなければ ４回目も有るとか 勘弁してよ〜 やっぱり START au END..."
-        },
-        {
-          "time": "11/16 22:58",
-          "text": "これ START au END も通信 START 障害 END 起きてるだろっつーくらい常磐線つながらない"
-        },
-        {
-          "time": "11/16 22:50",
-          "text": "またNTTドコモ 通信 START 障害 END 最近3回目 START au END は今の所大丈夫そうだ どうしたんだろう？ 最大手 何が起こってんだろう？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -361,8 +365,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/16 23:31",
+          "text": "@remimoezou 困っています〜💦 でも親戚のおうち（お山のなか、複数のお宅）は、DOCOMOしか START 繋がらない END のでDOCOMOは維持..."
+        },
         {
           "time": "11/16 13:48",
           "text": "Docomoについてはマジで夕方の梅田駅 START 繋がらない END し新幹線も一定区間で繋がらなくて、 START AU END はつながるけど値段が上が..."
@@ -370,10 +378,6 @@
         {
           "time": "11/16 13:22",
           "text": "千葉水害のとき docomoはマジで通じなかった。 酷いパケ詰まり。夜中にしか START 繋がらない END 。 家族でdocomoにまとめた直後で被災したけ..."
-        },
-        {
-          "time": "11/16 12:58",
-          "text": "START au END ひかりのｶｽﾀﾏｰｾﾝﾀｰって２人くらいで電話受けてるのかしら…😟ってくらい START 繋がらない END んだけど…( ⌯᷄ὢ⌯᷅..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -387,16 +391,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/16 23:22",
+          "text": "@qq_nemu 災害時とか通信 START 障害 END のこととかを考えて2回線いれてる！私はメインがahamo(docomo回線)、サブ回線で START..."
+        },
+        {
           "time": "11/16 22:19",
           "text": "ドコモの START 障害 END からなのか、 START povo END の広告めっちゃ見るしラジオでもめっちゃ流れてて草"
         },
         {
           "time": "11/16 21:46",
           "text": "最近ドコモの通信 START 障害 END の影響か、 START povo END 2.0の記事がよく読まれるので全面的にリライトしてnoteへ移行しました。..."
-        },
-        {
-          "time": "11/16 16:20",
-          "text": "デュアルSIMで失敗しない考え方は、主回線と副回線の役割を分けること。 番号と本人確認は主回線に残し、副回線は START povo END やIIJmio e..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -419,7 +423,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 2,
+    "disaster_count": 1,
     "articles": [
       {
         "title": "「おじアタック」被害者が明かす体験談と撃退法…5人に1人が「超年上からのアプローチはきつい」と回答(デイリー新潮)",
@@ -430,12 +434,28 @@
         "is_disaster": true
       },
       {
-        "title": "冬本番前に暖房チェック　古い灯油を使うと危険(共同通信)",
-        "summary": "本格的な冬の到来を前に、暖房器具の状態や使い方をあらためて確認するよう、製品評価技術基盤機構（NITE）が注意喚起している。断線した電源コードや、昨シーズンに余った灯油を使うと火災などの危険性があると",
-        "pub_date": "11/17 05:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/0eaa14fb56c89b3d6186b98936c342b6fed1bfbe?source=rss",
+        "title": "“詐欺G立ち上げ中国組織が契機” 謝罪の言葉も(ABEMA TIMES)",
+        "summary": "“ルフィ”などと名乗るグループによる一連の事件を巡る、グループトップの裁判で被告人質問が行われ、特殊詐欺グループ立ち上げの経緯が明らかにされました。【映像】連行される容疑者の様子 渡邉優樹被告（42）",
+        "pub_date": "11/17 08:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/4f7dbf3c9aa75953d103769b8216ae78e7ca1d0d?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "サツマイモのつるで作った塔　伝統のシンボル　秋晴れの空に高く、永く(日本農業新聞)",
+        "summary": "香川県の小豆島で11月、「芋づるの塔」がお目見えした。サツマイモのつるを積み上げたもので、昔は多く見られたが、今では一カ所だけ。地域農業の歴史や文化を伝えるシンボルとして、秋晴れの空にそびえ立つ。▶動",
+        "pub_date": "11/17 08:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/c135ec188ab937650c6ad5a4c8d843a49c49fe97?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "日米豪印首脳会合 中ロへ対抗 4カ国連携がカギに(ABEMA TIMES)",
+        "summary": "中国が日本へのけん制に動く中、政府は日本、アメリカ、オーストラリア、そしてインドの4カ国による連携で対抗しようとしています。【映像】日米豪印の首脳会合 高市総理が出席へ フィリピンを訪問中の高市総理大",
+        "pub_date": "11/17 08:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/40e66b4f08e4773675130f95b5bc9af988fe9528?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "山間部のカフェ出店や移住がしやすく　奈良県などが土地利用規制を緩和へ　9年度運用開始(産経新聞)",
@@ -524,25 +544,9 @@
         "link": "https://news.yahoo.co.jp/articles/ed971080b2675ae14c8f4775621cd04f90bc9ef9?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "「走る爆弾娘」と呼ばれた17年　無罪になっても居場所はなかった　菊地直子さんが自伝に託した「再生」(AERA DIGITAL)",
-        "summary": "指名手配されたまま、身分を偽って生きた17年。菊地直子さん（54）は逮捕のあと、裁かれた事件では無罪が確定した。それでも「走る爆弾娘」の名は剥がれず、ネットの言葉が彼女を追い詰めた。寝込みながらも、手",
-        "pub_date": "11/17 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/b80f7cc5a946547d2cf3682cc19ea7d77286f417?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「愛子に大変丁寧にご説明くださり、ありがとうございました」天皇陛下の“献身サポート”…愛子さまが描く“新たな女性皇族像”(週刊女性PRIME)",
-        "summary": "11月8日に行われた「第81回天皇賜杯・皇后賜杯 全日本ソフトテニス選手権大会」を、天皇陛下と長女の愛子さまが観戦された。【写真】ソフトテニスの大会を観戦しながら、愛子さまに真剣に説明をされる天皇陛下",
-        "pub_date": "11/17 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/ec5c301d562dc71f5f54493300851c6ab00c5c8e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-17 08:11:52 JST"
+    "last_updated": "2026-11-17 08:48:15 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

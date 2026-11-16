@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16 03:42:57",
+  "timestamp": "2026-11-16 05:05:01",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -113,11 +113,25 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-16 06:08",
-    "place": "愛知県東部",
-    "magnitude": "3.4",
+    "time": "2026-11-16 13:28",
+    "place": "静岡県東部",
+    "magnitude": "2.8",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-16 13:28",
+        "place": "静岡県東部",
+        "shindo": "1",
+        "magnitude": "2.8",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-16 13:24",
+        "place": "石川県能登地方",
+        "shindo": "1",
+        "magnitude": "5.1",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-16 06:08",
         "place": "愛知県東部",
@@ -173,20 +187,6 @@
         "shindo": "1",
         "magnitude": "2.3",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-15 06:17",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "3",
-        "magnitude": "3.8",
-        "maxScale": 30
-      },
-      {
-        "time": "2026-11-15 06:17",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "-",
-        "magnitude": "3.8",
-        "maxScale": -1
       }
     ]
   },
@@ -216,11 +216,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "強風注意報",
-          "波浪注意報"
+          "雷注意報"
         ],
-        "summary": "雷注意報、強風注意報、波浪注意報",
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -231,10 +229,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -318,15 +315,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 湘南新宿ライン、東海道本線、東急目黒線）",
+    "text": "運行支障あり（在来線: 東急目黒線、東急新横浜線、相鉄線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（湘南新宿ライン、東海道本線、東急目黒線、東急新横浜線、相鉄線）",
+    "line_text": "運行支障あり（東急目黒線、東急新横浜線、相鉄線、都営浅草線、都営三田線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [
-      "湘南新宿ライン",
-      "東海道本線",
       "東急目黒線",
       "東急新横浜線",
       "相鉄線",
@@ -441,19 +436,19 @@
       "trend": "UP",
       "trend_label": "📈 上昇傾向 (投稿急増・要警戒)",
       "trend_class": "red",
-      "summary": "直近1時間で 34 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
+      "summary": "直近1時間で 17 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
       "recent_posts": [
         {
-          "time": "11/16 03:41",
-          "text": "ドコモの通信 START 障害 END 、最近多いですね、、、 いざというときに「サブ回線」持っておくと安心です おすすめは基本料0円のpovoですが、 STA..."
+          "time": "11/16 05:01",
+          "text": "UQからdocomoに乗り換えたタイミングで通信 START 障害 END 3回って… 繋がり悪いし…すでにUQ( START au END )に戻りたい"
         },
         {
-          "time": "11/16 03:40",
-          "text": "ドコモの通常契約。 通信 START 障害 END もあるし、高いし、自分はMVNOのIIJmioで良かったーと思ってたら DプランじゃなくてAプラン（ STA..."
+          "time": "11/16 04:58",
+          "text": "まーたdocomoのやつ、通信 START 障害 END 起こしてやがるんだよな。役所や税務署、郵便局と盥回しにされていたけど、電波の悪い START au E..."
         },
         {
-          "time": "11/16 03:38",
-          "text": "@itmedia_news @chiba_shunin_v2 START au END は過去に50時間以上の通信 START 障害 END 、そして今年草原炎..."
+          "time": "11/16 04:55",
+          "text": "病院行ってきたがコロナインフル陰性で普通の風邪やった 病院から帰ってくるときに圏外になり焦ったが再起動したら復活したものの4Gになってた START au EN..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -461,22 +456,22 @@
     {
       "keyword": "KDDI 障害",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 6 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/16 04:06",
+          "text": "ドコモ、11月で3回 START 障害 END とは。ahamoとmineo（ START KDDI END ）の2回線有るので切り替えりゃ良いんですが、12～..."
+        },
+        {
+          "time": "11/16 03:54",
+          "text": "ドコモの5G SA連続 START 障害 END は ・NECのコア装置がダメなのか ・運用とか設計とか手順がダメなのか どっちなんだろう？ 後者だったらSBと..."
+        },
         {
           "time": "11/16 03:26",
           "text": "@3323stpai いつかその通信 START 障害 END の件で行政指導されそうではある 実際22年に START KDDI END で起きた、3日間の通..."
-        },
-        {
-          "time": "11/16 03:21",
-          "text": "@YahooNewsTopics docomoの5Gの基地局も設備も 利用者に対し貧弱ですぐに容量オーバーしてしまうのが通信 START 障害 END 頻発の原..."
-        },
-        {
-          "time": "11/16 03:16",
-          "text": "START KDDI END なんか5GSAを全国のsub6エリアで対応してたりするけども、ドコモの5GSAって三大都市のごく一部しか対応してない上に今月に入っ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -484,22 +479,22 @@
     {
       "keyword": "au 繋がらない",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 9 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/16 03:35",
-          "text": "docomoの人はもう乗り換えた方がいいだろ 人多いところ行くとdocomo1番 START 繋がらない END し大変だぞ START au END ＞＞＞ソ..."
+          "time": "11/16 04:53",
+          "text": "@TRICITYFULLPANI 繋がる START au END 、 START 繋がらない END DOCOMO🤤"
         },
         {
-          "time": "11/16 03:33",
-          "text": "@Funky_you ありがとうございます！ START au END って電波環境どうなのでしょうか？ どこか START 繋がらない END ところや繋がり..."
+          "time": "11/16 04:43",
+          "text": "START au END ひかりマンションタイプなのだけど、 START 繋がらない END 。障害情報に、掲載ない、ぜんぶはのせてないのかも。"
         },
         {
-          "time": "11/16 03:20",
-          "text": "@Chirori20090913 NTTは通信会社で昔は最強...今はそうでもないのかな...株ちょっとだけ持ってて回線が良くないとお客さん離れて配当減っちゃう..."
+          "time": "11/16 04:41",
+          "text": "@chitosejet docomoも詰まるし START au END は定期的に障害するし Softはそもそも START 繋がらない END し つまり…..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -510,19 +505,19 @@
       "trend": "DOWN",
       "trend_label": "📉 やや投稿あり (様子見)",
       "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 11 件です。",
+      "summary": "直近1時間の投稿数は 9 件です。",
       "recent_posts": [
         {
-          "time": "11/16 03:42",
-          "text": "まさかの通信会社のシステムメンテナンスで稼働できない時間が😂22時〜とかめっち稼働してる時間やのに😂 通信 START 障害 END もそうやけど、こういうリス..."
+          "time": "11/16 05:02",
+          "text": "ahamoなんだが、こうも電波 START 障害 END されるといい加減変えたくなるな… START povo END にしたいんだけど、1ヶ月30ギガだとた..."
         },
         {
-          "time": "11/16 03:41",
-          "text": "ドコモの通信 START 障害 END 、最近多いですね、、、 いざというときに「サブ回線」持っておくと安心です おすすめは基本料0円の START povo ..."
+          "time": "11/16 04:50",
+          "text": "docomoの通信 START 障害 END が続いているこのタイミングで START povo END への乗り換えを促すCMを流すau笑他社の弱みを自社の強..."
         },
         {
-          "time": "11/16 03:37",
-          "text": "docomoまた START 障害 END ？ やっぱり副回線で START povo END 入れよっかなぁ 入れた娘曰く「スタジアムでもサクサク繋がるし快適..."
+          "time": "11/16 04:41",
+          "text": "またdocomoの通信 START 障害 END ぽいから、 START povo END の紹介コード貼っておきますか…🫶3日間、100GBお試しでつかえるよ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -546,8 +541,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 11,
     "articles": [
+      {
+        "title": "常磐道7台絡む事故で2人搬送 50代男性が重傷　茨城・かすみがうら市(テレビ朝日系（ANN）)",
+        "summary": "茨城県の常磐道下りで車7台が絡む事故があり、男性2人が搬送され、そのうち1人が重傷です。16日午前9時ごろ、かすみがうら市の常磐道下り千代田石岡インターチェンジ付近で、｢車7台の玉突き事故｣と119番",
+        "pub_date": "11/16 13:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/3bc8abe8d22bf0fd9ad18c198816d98560201138?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【速報】池袋モデル女性殺人事件 同棲していた男逮捕　被害者は元「エッグ」モデル 「あげぽよ」で人気(テレビ朝日系（ANN）)",
+        "summary": "東京・池袋のマンションで交際相手の元モデルの女性を殴るなどの暴行を加えて殺害したとして、42歳の男が逮捕されました。北原誠容疑者は、7月、豊島区池袋のマンションの一室で、交際相手の川端かな子さん(当時",
+        "pub_date": "11/16 13:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/a91863f868ea034357a1c3d38a14ae6080627282?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "拉致問題シンポ、12月開催　被害者家族が早期帰国訴え(共同通信)",
+        "summary": "木原稔官房長官は16日の記者会見で、北朝鮮による日本人拉致問題に関する政府主催のシンポジウムを12月12日に開くと発表した。横田めぐみさん＝失踪当時（13）＝の弟で、被害者家族会の横田拓也代表らが出席",
+        "pub_date": "11/16 12:43 JST",
+        "link": "https://news.yahoo.co.jp/articles/c3f305baa856e631979b4785ad67e27ea06243d5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "常磐道事故、12人けがは2人搬送と消防(共同通信)",
         "summary": "茨城県かすみがうら市の常磐自動車道で16日午前に発生した多重事故で、地元消防は当初12人けがとしていた情報に関し、病院に搬送されたのは2人と明らかにした。7台に計12人が乗っていた。",
@@ -589,34 +608,18 @@
         "is_disaster": true
       },
       {
+        "title": "【速報】「土砂崩れみたいな音がして…」 名古屋･東区で火事 出火当時火元の店には5人いるも全員無事 4軒に延焼(CBCテレビ)",
+        "summary": "16日午前、名古屋市の中心部にある飲食店から火が出て、4軒に延焼しました。けが人はいないというこです。【写真を見る】真っ赤な炎も… 名古屋で火事警察や消防によりますと16日午前11時半すぎ、名古屋市東",
+        "pub_date": "11/16 12:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/84162a8968d53301ac7ccc14ba70ecf3b5b92278?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "【独自】アジアに気象警戒の新枠組み　環境相、COP31で表明へ(共同通信)",
         "summary": "【アンタルヤ共同】地球温暖化で深刻化する大雨や洪水などの気象災害による被害を最小化するため、アジアの開発途上国で早期警戒システム（EWS）の構築加速に向け日本が新たな枠組みを立ち上げることが16日、政",
         "pub_date": "11/16 12:00 JST",
         "link": "https://news.yahoo.co.jp/articles/52210741829614ae14be67b6cecb2043715dffb9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "都営三田線 全線で再開(ABEMA TIMES)",
-        "summary": "線路上で火事があり、一部区間で運転を見合わせていた都営三田線が全線で再開しました。【映像】都営三田線 全線で再開 警視庁や東京都などによりますと、午前8時40分ごろ、都営三田線の新板橋駅のホームからお",
-        "pub_date": "11/16 11:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/c2143c2bd886d95b7d0dd95c16bf617efe117c1a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "双葉町、校舎着工へ祈願祭　幼小中再編の「遊学舎」(共同通信)",
-        "summary": "東京電力福島第1原発事故で約11年半、全町避難を強いられた福島県双葉町は16日、認定こども園を併設した義務教育学校の校舎着工を前に、町内の建設予定地で安全祈願祭を開いた。同県いわき市に避難している幼稚",
-        "pub_date": "11/16 11:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/0817e884313afac593738e2ebecfe06dab2d20fe?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "茨城の常磐道7台絡む事故　かすみがうら、12人けがか(共同通信)",
-        "summary": "16日午前9時5分ごろ、茨城県かすみがうら市の常磐自動車道で「多重玉突き事故が起きた」と事故車両の関係者から119番があった。地元消防によると、乗用車や大型ダンプなど計7台が絡んでおり、12人がけがを",
-        "pub_date": "11/16 11:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/64e485ba0f3f8c9427a5e9321e9030b316c30228?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
@@ -629,47 +632,39 @@
         "is_disaster": true
       },
       {
-        "title": "愛知・豊田市の愛され食堂　名物「でかすぎる唐揚げ」誕生の意外な裏側を店主が告白【マチ10】(メ〜テレ（名古屋テレビ）)",
-        "summary": "東海3県の街の魅力をランキング形式で紹介する「マチ10」。今回は愛知県豊田市の中心エリアを調査した。ウルフィアプリで募集した情報をもとに作成された「豊田市自慢ランキング」で7位にランクインしたのは、地",
-        "pub_date": "11/16 12:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/b5e78fe07002baafd153621449f32200d5afff0b?source=rss",
+        "title": "栃木・那須塩原市でクマ2頭の目撃情報 市が注意呼びかけ(ABEMA TIMES)",
+        "summary": "栃木県那須塩原市がメール配信サービスで熊の出没について発表しました。「本日（11月16日）午前7時ころ、那須塩原市金沢地内（金沢上集落センターから北西方約820メートル先）の山林内において、体長約50",
+        "pub_date": "11/16 13:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/b184b4136a030083632816a9b7b0122b33cbebca?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "アジアの石油共同備蓄を支援　高市総理あすAZECで提唱へ(テレビ朝日系（ANN）)",
-        "summary": "高市総理大臣は、あすフィリピンで開かれる国際会議で、石油の安定供給に向けてアジア各国が連携する「アジア版IEA」の創設を提唱する方針です。 高市総理はあす、フィリピンのマニラで開かれるAZEC＝アジア",
-        "pub_date": "11/16 12:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/08b21ea3f730c6f415c17f316e62cf4479713984?source=rss",
+        "title": "高市総理 ASEAN・APECへ 中国との首脳会談予定なし(ABEMA TIMES)",
+        "summary": "高市総理大臣はさきほど、ASEAN関連首脳会議が行われるフィリピンに向けて出発しました。日中首脳会談の実現は困難な見通しです。【映像】フィリピンに向けて出発する高市総理大臣 中国との首脳会談を模索した",
+        "pub_date": "11/16 13:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/a8881667442654816a678ce2ede05fb96810c63c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "木原氏、米兵事件「遺憾」　沖縄で飲酒絡む逮捕相次ぐ(共同通信)",
-        "summary": "木原稔官房長官は16日の記者会見で、飲酒が絡む米兵の逮捕事案が沖縄県内で相次いでいることを受け「地元に大きな不安を与えるもので、あってはならず遺憾だ」と述べた。米側に遺憾の意を伝達し、綱紀粛正や再発防",
-        "pub_date": "11/16 12:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/26ee3c07f0a10f0692028e3146b5fd4a8f0722aa?source=rss",
+        "title": "元ジャンポケ斉藤被告が即日控訴(共同通信)",
+        "summary": "不同意性交などの罪に問われたお笑いトリオ「ジャングルポケット」の元メンバー斉藤慎二被告（44）側は、懲役4年とした東京地裁判決を不服として即日控訴した。",
+        "pub_date": "11/16 13:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/e185fb1e509f48e5974bbd77ad41c8073d316076?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "米山隆一氏、立憲の希望退職めぐり反論　「給与未払いや、突然の破綻より、遥かに誠実」(J-CASTニュース)",
-        "summary": "前衆院議員の米山隆一氏が2026年11月15日、財政難に陥った立憲民主党が職員の希望退職を募ったことへの批判にXで反論した。「給与未払いや、突然の破綻より、遥かに誠実です」とし、資金状況が厳しい中で事",
-        "pub_date": "11/16 12:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/8ac066f45d5483fdd55bfc17e7ebef9775ae906c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "5億円超を無申告で脱税か　不動産会社代表を刑事告発(テレビ朝日系（ANN）)",
-        "summary": "5億円余りの所得を申告せず、脱税したとして、千葉県柏市の不動産会社と代表が東京国税局に刑事告発されました。 「アベックスミー」と阿部郁澄代表（59）は、およそ5億1800万円の所得について、確定申告書",
-        "pub_date": "11/16 12:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/bfadd4dfd273bcbe629ede56ebe8cf0d4e6ee4f7?source=rss",
+        "title": "橋下徹氏、国民民主に政治資金規制強化を迫る　「定数削減賛成を人質に実現」か「口だけ番長の仲間入り」か(J-CASTニュース)",
+        "summary": "元大阪府知事の橋下徹氏が2026年11月15日、共同通信の世論調査で「政治とカネ」をめぐり、衆院議員定数の削減より政治資金の規制強化を優先すべきだと答えた人が67.1％に上ったとの記事を引用し、国民民",
+        "pub_date": "11/16 13:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/bb315e8db8686ed8238850bbf3c5a1ff7ebdb57f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-16 12:42:40 JST"
+    "last_updated": "2026-11-16 14:04:45 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -690,10 +685,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "-ijFRlRtHOU",
+        "video_id": "zZojc8ev4EM",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/-ijFRlRtHOU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=-ijFRlRtHOU"
+        "embed_url": "https://www.youtube.com/embed/zZojc8ev4EM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=zZojc8ev4EM"
       },
       {
         "id": "stream_tbsnews",
@@ -712,10 +707,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "GguWz5R7M00",
+        "video_id": "8SzKOdqqQFs",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/GguWz5R7M00?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=GguWz5R7M00"
+        "embed_url": "https://www.youtube.com/embed/8SzKOdqqQFs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=8SzKOdqqQFs"
       },
       {
         "id": "stream_annnews",
@@ -723,10 +718,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "rIrXokfFTAw",
+        "video_id": "MWd9AaVzPTE",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/rIrXokfFTAw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=rIrXokfFTAw"
+        "embed_url": "https://www.youtube.com/embed/MWd9AaVzPTE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=MWd9AaVzPTE"
       },
       {
         "id": "stream_fnnnews",

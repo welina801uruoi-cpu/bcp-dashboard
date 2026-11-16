@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16 17:37:01",
+  "timestamp": "2026-11-16 18:29:46",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -476,10 +476,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -887,10 +887,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -949,10 +949,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -963,10 +963,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       },
       {
@@ -977,11 +977,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "雷注意報",
-          "波浪注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -1031,10 +1031,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、強風注意報",
+        "summary": "強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1045,10 +1045,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、濃霧注意報",
+        "summary": "濃霧注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -1062,17 +1062,29 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線24路線: 肥薩線、指宿枕崎線、土佐くろしお鉄道ごめん・なはり線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線24路線: 山田線、米坂線、左沢線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（肥薩線、指宿枕崎線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、小海線 等 計24路線）",
+    "line_text": "運行支障あり（山田線、米坂線、左沢線、陸羽東線、北上線 等 計24路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "肥薩線",
-      "指宿枕崎線",
+      "山田線",
+      "米坂線",
+      "左沢線",
+      "陸羽東線",
+      "北上線",
+      "津軽線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
+      "肥薩線",
+      "指宿枕崎線",
+      "姫新線",
+      "美祢線",
+      "草津線",
+      "関西本線",
+      "小浜線",
+      "京阪京津線",
       "小海線",
       "越後線",
       "大井川鉄道大井川本線",
@@ -1080,19 +1092,7 @@
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
-      "山田線",
-      "米坂線",
-      "左沢線",
-      "陸羽東線",
-      "北上線",
-      "津軽線",
-      "姫新線",
-      "美祢線",
-      "草津線",
-      "関西本線",
-      "小浜線",
-      "京阪京津線"
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1453,7 +1453,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-17 02:36:58 JST"
+    "last_updated": "2026-11-17 03:29:43 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

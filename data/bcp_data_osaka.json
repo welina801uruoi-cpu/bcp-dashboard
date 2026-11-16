@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16 16:20:32",
+  "timestamp": "2026-11-16 17:37:29",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -91,11 +91,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-16 13:28",
-    "place": "静岡県東部",
-    "magnitude": "2.8",
+    "time": "2026-11-17 01:45",
+    "place": "宮古島近海",
+    "magnitude": "3.9",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-17 01:45",
+        "place": "宮古島近海",
+        "shindo": "1",
+        "magnitude": "3.9",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-16 13:28",
         "place": "静岡県東部",
@@ -158,13 +165,6 @@
         "shindo": "1",
         "magnitude": "2.6",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-15 06:31",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.3",
-        "maxScale": 10
       }
     ]
   },
@@ -179,11 +179,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NORMAL",
-    "summary": "現在、近畿エリア全域（6地域）に警報・注意報の発表はありません。",
+    "status": "NOTICE",
+    "summary": "【注意報発表: 1地域】兵庫（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 0,
+    "notice_count": 1,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -201,11 +201,13 @@
         "code": "28",
         "name": "兵庫県",
         "short_name": "兵庫",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -300,11 +302,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "関西電力送配電: 【停電発生中】兵庫で停電情報を検知",
+    "power_msg": "関西電力送配電: 停電情報なし（近畿エリア管内正常）",
     "water_msg": "大阪市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "大阪ガス: 供給安定（平常）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -344,8 +346,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/16 16:21",
+          "text": "START 障害 END が出る都度、娘の START au END 回線を借りて職場へ連絡…… 昨日も職場に平謝りでしたにゃん😰 そろそろきちんと原因特定・完..."
+        },
         {
           "time": "11/16 16:12",
           "text": "連日、ドコモがこれだけ通信 START 障害 END を起こしてると自分がドコモユーザーじゃなくて良かったなってつくづく思う START au END とソフト..."
@@ -353,10 +359,6 @@
         {
           "time": "11/16 16:07",
           "text": "@gonnosukesaka 自分は START au END なので助かっていますがフーデリバリーの配達中に START au END も通信 START 障..."
-        },
-        {
-          "time": "11/16 16:06",
-          "text": "今月入って3回も長時間の START 障害 END 起こすとか…さすがに酷すぎない？ 通信品質を比較してたのが馬鹿みたい。 START au END 、ソフトバ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -413,7 +415,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/16 16:20",
@@ -486,8 +488,16 @@
         "is_disaster": true
       },
       {
+        "title": "“ギャル文化のカリスマ”元『egg』モデル殺害か…同棲していた男逮捕(テレビ朝日系（ANN）)",
+        "summary": "雑誌『egg』の元専属モデルを殺害したとして、42歳の男が逮捕されました。同棲していた2人の間に何があったのでしょうか。【画像】“ギャル文化のカリスマ”元『egg』モデル殺害か…同棲していた男逮捕",
+        "pub_date": "11/17 01:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/b3566e1b55aa8272ee2b841a7799a5af28aee977?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "野党追及へ…官僚“講師”に議員会館パーティー　関文科大臣に新たな問題(テレビ朝日系（ANN）)",
-        "summary": "16日の参院特別委員会で、関芳弘文部科学大臣が野党の追及を受けました。自民党旧安倍派の裏金事件で、党から戒告処分を受けた2カ月後。2024年6月、関大臣は、自身が力を入れていたバイオ産業に関する政治資",
+        "summary": "16日の参院特別委員会で、関芳弘文部科学大臣が野党の追及を受けました。自民党旧安倍派の裏金事件で、党から戒告処分を受けた2カ月後。【画像】関文科大臣に新たな問題2024年6月、関大臣は、自身が力を入れ",
         "pub_date": "11/17 00:27 JST",
         "link": "https://news.yahoo.co.jp/articles/4aa150b2c785baf429a335ab5a62668a587ac19a?source=rss",
         "category": "国内・気象防災",
@@ -503,7 +513,7 @@
       },
       {
         "title": "少年「SNSで闇バイトに応募」中学生3人が関与か　愛知・強盗殺人未遂事件(テレビ朝日系（ANN）)",
-        "summary": "15日午前1時ごろ、愛知県小牧市で、夫と死別し一人で暮らす、82歳の女性の家に男らが押し入りました。「金はないか」と聞かれた女性は「ない」と答えると、男らはバールなどで殴り掛かり、顔面にスプレーのよう",
+        "summary": "15日午前1時ごろ、愛知県小牧市で、夫と死別し一人で暮らす、82歳の女性の家に男らが押し入りました。【画像】中学生3人関与か 強盗殺人未遂事件「金はないか」と聞かれた女性は「ない」と答えると、男らはバ",
         "pub_date": "11/17 00:18 JST",
         "link": "https://news.yahoo.co.jp/articles/5f4bf0c2d738ba2b26290ab3b7537492b7d2e392?source=rss",
         "category": "国内・気象防災",
@@ -564,17 +574,9 @@
         "link": "https://news.yahoo.co.jp/articles/650e37e91634a5cbc7cbf1a51210fa35fbeb80d2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "有識者会議で防衛財源の確保求める意見(共同通信)",
-        "summary": "政府は16日、安全保障関連3文書改定に向けた有識者会議の議事要旨を公開した。防衛費増額を巡り「増税も選択肢として排除すべきではない」などと安定財源の確保を求める意見が相次いだ。",
-        "pub_date": "11/16 23:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/688d595be8896ba95668580be71ea0c86c037368?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-17 01:20:00 JST"
+    "last_updated": "2026-11-17 02:36:58 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",

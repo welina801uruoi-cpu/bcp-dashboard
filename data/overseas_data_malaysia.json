@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-17 03:33:21",
-  "timestamp_local": "2026-11-17 02:33:21",
+  "timestamp": "2026-11-17 04:31:00",
+  "timestamp_local": "2026-11-17 03:31:00",
   "country": {
     "id": "malaysia",
     "name": "マレーシア",
@@ -369,6 +369,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "韓国税理士試験　首席合格者が不正　AI使用を告白(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/24679774f78f92083b361064a0677cf865acdb84?source=rss",
+        "description": "韓国で税理士試験をトップ成績で合格した男性が「AIを使った不正行為だった」と認めました。 男性は15日、代理人弁護士のYouTubeチャンネルに出演し、今年行われた税理士試験での不正行為を認め、警察に",
+        "pub_date": "11/17 03:38 JST",
+        "is_priority": false
+      },
+      {
         "title": "トランプ氏「金正恩氏と会うかも」　米中ロ首脳会談ではウクライナ情勢も協議へ(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/d81d658fb8561c3ba80d90f57a12e982b5250c34?source=rss",
         "description": "アメリカのトランプ大統領は訪問先の中国で北朝鮮の金正恩総書記と「会うかもしれない」と述べました。アメリカ トランプ大統領「金正恩氏とも会うかもしれない。多くの成果をあげる機会になる」 トランプ大統領は",
@@ -500,13 +507,6 @@
         "description": "マカオ司法警察局は11月13日、同月11日にマカオ市中における違法薬物の密売事案1件を摘発し、タンザニア人の女（20代）を逮捕したと発表。 同局によれば、同局薬物犯罪調査処が複数の情報を総合し、タンザ",
         "pub_date": "11/16 22:10 JST",
         "is_priority": false
-      },
-      {
-        "title": "仏海軍コカイン「半潜水艇」摘発　大西洋上で初乗組員4人拘束も船体は沈没(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/5f071ec9960956a2954431d167df52d5866a0d05?source=rss",
-        "description": "フランス海軍は大西洋上で大量のコカインを積んだ「半潜水艇」を初めて摘発したと発表しました。 フランス軍事省などの発表によりますと、12日、大西洋上で国籍不明の半潜水艇を摘発し、少なくとも146キロのコ",
-        "pub_date": "11/16 22:08 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -599,14 +599,14 @@
     "default_channel_id": "stream_bernama_live"
   },
   "forex": {
-    "timestamp": "11/17 03:33 JST",
+    "timestamp": "11/17 04:30 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 159.42,
-      "change": -0.46,
-      "change_pct": -0.29,
+      "change": -0.45,
+      "change_pct": -0.28,
       "direction": "down"
     },
     "local_jpy": {
@@ -622,9 +622,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.29,
-      "change": -1.37,
-      "change_pct": -0.77
+      "rate": 175.46,
+      "change": -1.19,
+      "change_pct": -0.68
     }
   },
   "airports": [
@@ -647,64 +647,19 @@
   "weather": {
     "cities": [
       {
-        "name": "クアラルンプール (首都)",
-        "name_en": "Kuala Lumpur",
-        "is_capital": true,
-        "lat": 3.139,
-        "lon": 101.6869,
-        "temp": 24.4,
-        "apparent_temp": 29.9,
-        "humidity": 97,
-        "wind_speed": 3.7,
-        "wind_gusts": 10.1,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/17(火)",
-            "temp_max": 30.6,
-            "temp_min": 24.0,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 24.2
-          },
-          {
-            "date": "11/18(水)",
-            "temp_max": 31.4,
-            "temp_min": 22.9,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 8.7
-          },
-          {
-            "date": "11/19(木)",
-            "temp_max": 31.6,
-            "temp_min": 23.4,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 5.1
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "ペナン (ジョージタウン)",
         "name_en": "Penang",
         "is_capital": false,
         "lat": 5.4141,
         "lon": 100.3288,
         "temp": 26.3,
-        "apparent_temp": 33.3,
-        "humidity": 95,
-        "wind_speed": 0.9,
-        "wind_gusts": 9.0,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "apparent_temp": 32.7,
+        "humidity": 91,
+        "wind_speed": 0.7,
+        "wind_gusts": 8.6,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/17(火)",
@@ -731,10 +686,10 @@
             "precipitation_mm": 17.4
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "ジョホールバル (南部経済圏)",
@@ -743,10 +698,10 @@
         "lat": 1.4927,
         "lon": 103.7414,
         "temp": 25.0,
-        "apparent_temp": 31.1,
-        "humidity": 99,
-        "wind_speed": 3.2,
-        "wind_gusts": 7.6,
+        "apparent_temp": 30.9,
+        "humidity": 98,
+        "wind_speed": 3.8,
+        "wind_gusts": 9.0,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -783,51 +738,51 @@
       }
     ],
     "capital": {
-      "name": "クアラルンプール (首都)",
-      "name_en": "Kuala Lumpur",
-      "is_capital": true,
-      "lat": 3.139,
-      "lon": 101.6869,
-      "temp": 24.4,
-      "apparent_temp": 29.9,
-      "humidity": 97,
-      "wind_speed": 3.7,
-      "wind_gusts": 10.1,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "name": "ペナン (ジョージタウン)",
+      "name_en": "Penang",
+      "is_capital": false,
+      "lat": 5.4141,
+      "lon": 100.3288,
+      "temp": 26.3,
+      "apparent_temp": 32.7,
+      "humidity": 91,
+      "wind_speed": 0.7,
+      "wind_gusts": 8.6,
+      "precipitation": 0.1,
+      "weather_code": 51,
+      "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
         {
           "date": "11/17(火)",
-          "temp_max": 30.6,
-          "temp_min": 24.0,
+          "temp_max": 30.8,
+          "temp_min": 25.1,
           "weather_code": 95,
           "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 24.2
+          "precipitation_mm": 23.5
         },
         {
           "date": "11/18(水)",
-          "temp_max": 31.4,
-          "temp_min": 22.9,
+          "temp_max": 31.2,
+          "temp_min": 24.6,
           "weather_code": 81,
           "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 8.7
+          "precipitation_mm": 9.5
         },
         {
           "date": "11/19(木)",
-          "temp_max": 31.6,
-          "temp_min": 23.4,
-          "weather_code": 81,
-          "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 5.1
+          "temp_max": 30.6,
+          "temp_min": 24.8,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 17.4
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/17 03:33 JST"
+    "timestamp": "11/17 04:31 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -856,7 +811,7 @@
         "details": "LRTクラナジャヤ線・MRT各線平常運行中"
       }
     ],
-    "timestamp": "11/17 03:33 JST"
+    "timestamp": "11/17 04:30 JST"
   },
   "lifeline": {
     "status": "NORMAL",

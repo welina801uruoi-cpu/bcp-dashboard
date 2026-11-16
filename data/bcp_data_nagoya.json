@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16 18:30:35",
+  "timestamp": "2026-11-16 19:28:57",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -173,10 +173,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 3地域】新潟、長野、静岡（警報なし）",
+    "summary": "【注意報発表: 4地域】新潟、長野、静岡、愛知（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 3,
+    "notice_count": 4,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -187,10 +187,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、濃霧注意報",
+        "summary": "濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -225,9 +225,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -245,11 +246,14 @@
         "code": "23",
         "name": "愛知県",
         "short_name": "愛知",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報",
+          "波浪注意報"
+        ],
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/23/"
       }
     ]
@@ -477,6 +481,14 @@
         "is_disaster": true
       },
       {
+        "title": "石油調達で新枠組み提唱へ　高市首相、ASEAN連携を強化(共同通信)",
+        "summary": "【マニラ共同】高市早苗首相は17日にフィリピン・マニラで開く日本や東南アジアによる脱炭素連携枠組み「アジア・ゼロエミッション共同体（AZEC）」首脳会合で、危機時の石油調達で協力する新枠組みの創設を提",
+        "pub_date": "11/17 04:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/e5f69b9d941d170384bf6d6b773a53185f4b25c1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "“ギャル文化のカリスマ”元『egg』モデル殺害か…同棲していた男逮捕(テレビ朝日系（ANN）)",
         "summary": "雑誌『egg』の元専属モデルを殺害したとして、42歳の男が逮捕されました。同棲していた2人の間に何があったのでしょうか。【画像】“ギャル文化のカリスマ”元『egg』モデル殺害か…同棲していた男逮捕",
         "pub_date": "11/17 01:21 JST",
@@ -555,17 +567,9 @@
         "link": "https://news.yahoo.co.jp/articles/824025419e989ad7afe78bfe3e969824e18eb789?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "有識者、防衛財源の確保を要請　安保3文書議事要旨、増税言及も(共同通信)",
-        "summary": "政府は16日、安全保障関連3文書の年内改定に向けて10月に開いた第5回有識者会議の議事要旨を公開した。防衛費増額の必要性を訴える識者がいる一方で、「国債発行を前提とすべきではない」「国民全体で広く負担",
-        "pub_date": "11/16 23:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/650e37e91634a5cbc7cbf1a51210fa35fbeb80d2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-17 03:29:43 JST"
+    "last_updated": "2026-11-17 04:28:06 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",

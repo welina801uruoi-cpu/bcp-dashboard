@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17 12:15:34",
+  "timestamp": "2026-11-17 13:21:31",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -346,12 +346,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-17 19:33",
-    "place": "三陸沖",
-    "magnitude": "4.5",
+    "shindo": "2",
+    "time": "2026-11-17 21:22",
+    "place": "熊本県熊本地方",
+    "magnitude": "2.8",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-17 21:22",
+        "place": "熊本県熊本地方",
+        "shindo": "2",
+        "magnitude": "2.8",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-17 19:33",
         "place": "三陸沖",
@@ -414,13 +421,6 @@
         "shindo": "1",
         "magnitude": "2.6",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-16 02:43",
-        "place": "薩摩半島西方沖",
-        "shindo": "1",
-        "magnitude": "2.5",
-        "maxScale": 10
       }
     ]
   },
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 20地域】青森、岩手、宮城、福島、茨城、栃木、群馬、埼玉、千葉、東京、神奈川、長野、静岡、愛知、三重、和歌山、高知、長崎、熊本、沖縄（警報なし）",
+    "summary": "【注意報発表: 19地域】青森、岩手、宮城、福島、茨城、栃木、群馬、埼玉、千葉、東京、神奈川、長野、静岡、和歌山、高知、長崎、熊本、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 20,
+    "notice_count": 19,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -521,11 +521,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "濃霧注意報",
           "強風注意報",
-          "濃霧注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報、濃霧注意報",
+        "summary": "濃霧注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -573,11 +573,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
+          "波浪注意報",
           "強風注意報",
-          "波浪注意報"
+          "雷注意報"
         ],
-        "summary": "雷注意報、強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -627,12 +627,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "大雨注意報",
-          "雷注意報",
           "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "大雨注意報",
+          "雷注意報"
         ],
-        "summary": "大雨注意報、雷注意報、強風注意報、波浪注意報",
+        "summary": "強風注意報、波浪注意報、大雨注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -644,10 +644,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -658,10 +658,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/14/"
       },
       {
@@ -752,38 +752,31 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報",
           "雷注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
         "code": "23",
         "name": "愛知県",
         "short_name": "愛知",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "波浪注意報",
-          "強風注意報",
-          "雷注意報"
-        ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/23/"
       },
       {
         "code": "24",
         "name": "三重県",
         "short_name": "三重",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "強風注意報"
-        ],
-        "summary": "強風注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -986,10 +979,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -1000,9 +993,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "濃霧注意報",
           "強風注意報"
         ],
-        "summary": "強風注意報",
+        "summary": "濃霧注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -1031,11 +1025,14 @@
         "code": "46",
         "name": "鹿児島県",
         "short_name": "鹿児島",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報",
+          "波浪注意報"
+        ],
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1062,23 +1059,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線41路線: 赤穂線、山陽本線、福塩線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線39路線: 釜石線、山田線、米坂線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（赤穂線、山陽本線、福塩線、呉線、姫新線 等 計41路線）",
+    "line_text": "運行支障あり（釜石線、山田線、米坂線、左沢線、陸羽東線 等 計39路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "赤穂線",
-      "山陽本線",
-      "福塩線",
-      "呉線",
-      "姫新線",
-      "美祢線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "肥薩線",
-      "指宿枕崎線",
       "釜石線",
       "山田線",
       "米坂線",
@@ -1086,17 +1073,30 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "御殿場線",
+      "山陰本線",
+      "山陽本線",
+      "呉線",
+      "姫新線",
+      "美祢線",
+      "肥薩線",
+      "指宿枕崎線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "関西本線",
+      "小浜線",
+      "京阪京津線",
+      "東海道本線",
       "中央本線",
-      "小海線",
+      "紀勢本線",
       "しなの鉄道線",
       "越後線",
       "大井川鉄道大井川本線",
       "万葉線",
+      "京浜東北根岸線",
       "中央線",
-      "中央総武線",
-      "青梅線",
       "東武スカイツリーライン",
+      "東武日光線",
+      "東武伊勢崎線",
       "東急田園都市線",
       "東京メトロ丸ノ内線",
       "東京メトロ日比谷線",
@@ -1104,12 +1104,7 @@
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
-      "草津線",
-      "阪和線",
-      "関西本線",
-      "小浜線",
-      "京阪京津線"
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1187,7 +1182,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 41,
+    "target_lines_count": 39,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1245,16 +1240,16 @@
       "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/17 11:56",
-          "text": "多分 START au END また通信 START 障害 END ホームルーターもスマホも電波途切れ途切れ"
+          "time": "11/17 13:14",
+          "text": "藤井総務相「短期間に3度、大変遺憾」 ドコモ START 障害 END に再発防止求める(朝日新聞) 「またこれ START au END やったら、どうなって..."
         },
         {
-          "time": "11/17 11:50",
-          "text": "私の紹介リンクからたくさんの方のお申し込みありがとうございます🙇‍♂️ Docomoや START au END を使いつつ、楽天モバイルをサブ回線で持つ人が増..."
+          "time": "11/17 13:13",
+          "text": "START au END ひかりが突然繋がらない…💦 そんなとき、慌ててルーターを初期化する前に確認したいことがあります。 ✅ 通信 START 障害 END ..."
         },
         {
-          "time": "11/17 11:42",
-          "text": "@Hachi_desu46 最近 START au END からdocomoに乗り換えたんですけど数日で通信 START 障害 END 多発しててわろてますw ..."
+          "time": "11/17 12:33",
+          "text": "@ukidarumadayo 携帯会社変更も考えてもいいと思いますがどこの会社でも起こりうる可能性ありますしねー 去年だったか START au END も通信..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1291,16 +1286,16 @@
       "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/17 12:13",
-          "text": "母親のスマホ（楽天モバイル）が、病院とか地下でLINEが送れないらしく、万が一の緊急時に困るので、IIJmioの START au END 回線データ専用eSI..."
+          "time": "11/17 13:13",
+          "text": "START au END ひかりが突然 START 繋がらない END …💦 そんなとき、慌ててルーターを初期化する前に確認したいことがあります。 ✅ 通信障害..."
         },
         {
-          "time": "11/17 12:08",
-          "text": "昔は START 繋がらない END と言われていたけど、、、 今やこの価格でしっかりつながる #楽天モバイル がコスパ最強！ 今年中に節約したい人にはおすすめ..."
+          "time": "11/17 12:57",
+          "text": "START au END メンテナンス工事っぽくてうちの地域 START 繋がらない END けど、9-21時の間2時間なのにまだ繋がんない"
         },
         {
-          "time": "11/17 11:51",
-          "text": "東ドほんとに電波悪いよなー START au END だけど閉園後とかマジで降りてプリズムホールの前辺りまで行かないと START 繋がらない END"
+          "time": "11/17 12:39",
+          "text": "ahamoは12月から値上げするのか。人が多いところだと START 繋がらない END くせに。 長くお世話になってて良くなると思って続けてたけど改善しないし..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -1311,19 +1306,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/17 12:31",
+          "text": "通信 START 障害 END の時はデュアルSiMが安心 START povo END は維持費安いし https://t.co/krDS0KnxtL"
+        },
+        {
+          "time": "11/17 12:29",
+          "text": "実際、楽天モバイルから START Povo END 2.0に変更したり、ワイモバイルを3ヶ月お試し利用しても、楽天モバイル比で良くなった気がしないので、このた..."
+        },
         {
           "time": "11/17 11:00",
           "text": "「通信 START 障害 END で1人だけ連絡途絶えて冷や汗かいた…」という方へ。 START povo END と組み合わせれば、年間たったの約500円で2..."
-        },
-        {
-          "time": "11/17 09:22",
-          "text": "投稿は出来たみたいだねー 皆の投稿も画像も一切見れないー #ahamo # START povo END # START 障害 END"
-        },
-        {
-          "time": "11/17 09:20",
-          "text": "15:30位から電波死んでる...全然ネット繋がらない(コレ投稿出来るかな？) #ahamo # START povo END # START 障害 END"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -1347,7 +1342,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 10,
     "articles": [
       {
         "title": "関連死、全死者の7割以上　能登地震、3人認定へ(共同通信)",
@@ -1430,12 +1425,36 @@
         "is_disaster": true
       },
       {
-        "title": "関東 明け方にかけ警報級大雨恐れ",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/17 18:41 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6602933?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
+        "title": "クマの出没件数　過去最多に　山梨県(テレビ朝日系（ANN）)",
+        "summary": "山梨県で今年に入ってからのクマの出没件数が過去最多となったことが明らかになりました。 山梨県は17日、今年に入ってからの県内でのクマの出没件数が17日時点で354件となり、過去最多を更新したと発表しま",
+        "pub_date": "11/17 21:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/f2e4d5bc985516733033dff0c46bb56cac1db5ce?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "タクシー乗客に性的暴行を加えた疑いで逮捕の男性を不起訴処分　東京地検(テレビ朝日系（ANN）)",
+        "summary": "タクシーの女性客の自宅に侵入し、性的暴行を加えた疑いで逮捕された40代の男性について、東京地検は不起訴処分にしました。 44歳の男性は、運転していたタクシーに乗車した20代の女性客の自宅に侵入し、性的",
+        "pub_date": "11/17 21:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/5873a7407e0418f2a3f3c18f1bc279c01cc16bfb?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "日韓首脳、シャトル外交継続確認　李氏「来年1月訪日」明言　タイとは宇宙協力進展で一致(産経新聞)",
+        "summary": "【マニラ＝千田恒弥】高市早苗首相は17日、訪問先のフィリピン・マニラで韓国の李在明（イジェミョン）大統領と会談し、首脳同士の相互往来「シャトル外交」の継続を確認した。冒頭、首相が5月に韓国の慶尚北道安",
+        "pub_date": "11/17 21:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/ce6cf68f5789bd5447e0111a29051cd1e8f19c37?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「近畿の警察官」に滋賀県警捜査支援分析課・豊田徹警部補　難事件解決「世の中のために」(産経新聞)",
+        "summary": "近畿2府4県の優秀な警察官をたたえる第140回「近畿の警察官」（産経新聞社提唱、滋賀県信用金庫協会など協賛）に、滋賀県警からは県警本部捜査支援分析課の豊田徹（あきら）警部補（49）が選ばれた。26年8",
+        "pub_date": "11/17 21:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/3641f9c8651dec16deacd74e2ac2a7881b335d70?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "〈中野24歳コンカフェ店員刺殺〉「神推しは癒し、天使」39歳自称コンサル・元スロプロの容疑者がSNSに綴った異様な執着…「飲み代は毎月100万円超」の豪遊生活と“彼女をつくるため”の転職(集英社オンライン)",
@@ -1444,33 +1463,9 @@
         "link": "https://news.yahoo.co.jp/articles/3b4c282eb67315c343b2b22b874c7b7a5efd6716?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "愛子さまシンガポール到着　ホテルで花束の出迎え(テレビ朝日系（ANN）)",
-        "summary": "天皇皇后両陛下の長女愛子さまが公式訪問先のシンガポールに到着し、滞在先のホテルで出迎えを受けられました。 愛子さまは17日夕方、シンガポールのチャンギ国際空港に到着されました。 その後、滞在するホテル",
-        "pub_date": "11/17 21:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/b7d626d5a6791185b291c0dced50b00eeda9f98e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "住宅街に“親子グマ”　川をすいすい泳ぐ姿に騒然(テレビ朝日系（ANN）)",
-        "summary": "住宅街に親子グマが出没。母グマと思われるクマはまだ捕獲されず、警戒が続いています。【画像】ボンネットに覆いかぶさるようにして攻撃してくるクマ",
-        "pub_date": "11/17 21:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/736f0a4fdc1fce4536b184eab2af71f831e5402c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【独自】非核三原則、前文から削除　防衛装備品の輸出ルール改定案(共同通信)",
-        "summary": "政府は防衛装備品の輸出ルールを定めた防衛装備移転三原則の前文を改定する検討に入った。核政策の基本方針「非核三原則を守るとの基本原則を堅持してきた」との記述について装備輸出とは直結しないなどとして削除。",
-        "pub_date": "11/17 21:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/2760200075f406efc10fa29cf598492464ddd7df?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-17 21:15:32 JST"
+    "last_updated": "2026-11-17 22:21:28 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

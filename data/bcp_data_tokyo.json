@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17 13:21:41",
+  "timestamp": "2026-11-17 14:31:07",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -201,11 +201,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NOTICE",
-    "summary": "【注意報発表: 7地域】東京、千葉、神奈川、埼玉、茨城、栃木、群馬（警報なし）",
+    "status": "ALERT",
+    "summary": "【警報発表: 1地域】千葉（大雨警報） ／ 他6地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
-    "alert_count": 0,
-    "notice_count": 7,
+    "alert_count": 1,
+    "notice_count": 6,
     "total_prefs": 8,
     "pref_details": [
       {
@@ -217,26 +217,28 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
         "code": "12",
         "name": "千葉県",
         "short_name": "千葉",
-        "status": "NOTICE",
+        "status": "ALERT",
         "emg_warns": [],
-        "warns": [],
-        "notices": [
-          "強風注意報",
-          "波浪注意報",
-          "大雨注意報",
-          "雷注意報"
+        "warns": [
+          "大雨警報"
         ],
-        "summary": "強風注意報、波浪注意報、大雨注意報、雷注意報",
+        "notices": [
+          "大雨注意報",
+          "雷注意報",
+          "強風注意報",
+          "波浪注意報"
+        ],
+        "summary": "大雨警報、大雨注意報、雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -247,10 +249,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/14/"
       },
       {
@@ -275,10 +277,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -329,15 +331,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 京浜東北根岸線、中央線、東武スカイツリーライン）",
+    "text": "運行支障あり（在来線: 京浜東北根岸線、東武スカイツリーライン、東武日光線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（京浜東北根岸線、中央線、東武スカイツリーライン、東武日光線、東武伊勢崎線）",
+    "line_text": "運行支障あり（京浜東北根岸線、東武スカイツリーライン、東武日光線、東武伊勢崎線、東急田園都市線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [
       "京浜東北根岸線",
-      "中央線",
       "東武スカイツリーライン",
       "東武日光線",
       "東武伊勢崎線",
@@ -413,7 +414,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東京電力PG: 【停電発生中】千葉・神奈川で停電情報を検知",
+    "power_msg": "東京電力PG: 【停電発生中】千葉・神奈川・茨城で停電情報を検知",
     "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東京ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -456,16 +457,16 @@
       "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/17 13:14",
-          "text": "藤井総務相「短期間に3度、大変遺憾」 ドコモ START 障害 END に再発防止求める(朝日新聞) 「またこれ START au END やったら、どうなって..."
+          "time": "11/17 14:12",
+          "text": "@dartsjunkie0626 START au END の製品なんですね 通信 START 障害 END ではないのですね"
         },
         {
-          "time": "11/17 13:13",
-          "text": "START au END ひかりが突然繋がらない…💦 そんなとき、慌ててルーターを初期化する前に確認したいことがあります。 ✅ 通信 START 障害 END ..."
+          "time": "11/17 14:11",
+          "text": "ドコモ通信 START 障害 END 起こしまくりらしいな 半年前にドコモから START au END に変えたワイ高みの見物"
         },
         {
-          "time": "11/17 12:33",
-          "text": "@ukidarumadayo 携帯会社変更も考えてもいいと思いますがどこの会社でも起こりうる可能性ありますしねー 去年だったか START au END も通信..."
+          "time": "11/17 13:44",
+          "text": "電気屋でiPhone見てたら案の定店員が寄ってくるんだけど START au END しか眼中にないのにドコモに引き抜こうとあれこれ言われるけどドコモは通信 S..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -499,19 +500,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/17 13:52",
+          "text": "@cocaineicecream あのさ START au END にしたらストレスが完全に0になった。楽天とか辞めた方がいい。特に電車乗ったら半分の時間は S..."
+        },
+        {
+          "time": "11/17 13:24",
+          "text": "昔は START 繋がらない END と言われていたけど、、、 今やこの価格でしっかりつながる #楽天モバイル がコスパ最強！ 今年中に節約したい人にはおすすめ..."
+        },
         {
           "time": "11/17 13:13",
           "text": "START au END ひかりが突然 START 繋がらない END …💦 そんなとき、慌ててルーターを初期化する前に確認したいことがあります。 ✅ 通信障害..."
-        },
-        {
-          "time": "11/17 12:57",
-          "text": "START au END メンテナンス工事っぽくてうちの地域 START 繋がらない END けど、9-21時の間2時間なのにまだ繋がんない"
-        },
-        {
-          "time": "11/17 12:39",
-          "text": "ahamoは12月から値上げするのか。人が多いところだと START 繋がらない END くせに。 長くお世話になってて良くなると思って続けてたけど改善しないし..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -522,7 +523,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/17 12:31",
@@ -558,7 +559,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 8,
     "articles": [
       {
         "title": "関連死、全死者の7割以上　能登地震、3人認定へ(共同通信)",
@@ -570,7 +571,7 @@
       },
       {
         "title": "激しい雨に気温急降下　“爆弾低気圧”台風並み　影響は広範囲　いつ？どこで？(テレビ朝日系（ANN）)",
-        "summary": "17日は各地で激しい雨が降り気温が急降下しました。この後“爆弾低気圧”の影響で台風並みの強風に警戒が必要です。■台風並み“爆弾低気圧”いつ？ 番組が向かったのは、神奈川県箱根町の観光地・大涌谷。広がっ",
+        "summary": "17日は各地で激しい雨が降り気温が急降下しました。“爆弾低気圧”の影響で台風並みの強風に警戒が必要です。■台風並み“爆弾低気圧”いつ？ 番組が向かったのは神奈川県箱根町の観光地・大涌谷。広がっていたの",
         "pub_date": "11/17 20:08 JST",
         "link": "https://news.yahoo.co.jp/articles/6fea9415a9f8c906d4f12f28c9e17543d517223a?source=rss",
         "category": "国内・気象防災",
@@ -625,63 +626,63 @@
         "is_disaster": true
       },
       {
-        "title": "東武スカイツリーラインで人身事故 運転再開(レスキューナウニュース)",
-        "summary": "一ノ割駅構内で発生した人身事故の影響で、東武スカイツリーラインは北越谷～春日部駅間の運転を見合わせていましたが、19:00頃、運転を再開しました。なお、ダイヤが乱れています。",
-        "pub_date": "11/17 19:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/b40f93250263c9ee7635c83eefec22d1650b0487?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "19日から冬の嵐　20～21日は北日本や北陸で警報級の大雪や暴風雪　広く積雪注意(日本気象協会tenki.jp)",
-        "summary": "明日18日(水)から低気圧が急速に発達し、19日(木)から20日(金)頃にかけて北海道から北陸にかけての日本海側を中心に風や波が強まるでしょう。その後は強い冬型の気圧配置となり、今季一番の寒気が流れ込",
-        "pub_date": "11/17 18:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/288306d15a03c9d3c418bfba374c60ad64426530?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "クマの出没件数　過去最多に　山梨県(テレビ朝日系（ANN）)",
-        "summary": "山梨県で今年に入ってからのクマの出没件数が過去最多となったことが明らかになりました。 山梨県は17日、今年に入ってからの県内でのクマの出没件数が17日時点で354件となり、過去最多を更新したと発表しま",
-        "pub_date": "11/17 21:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/f2e4d5bc985516733033dff0c46bb56cac1db5ce?source=rss",
+        "title": "園児送迎車3時間足止めか　威力業務妨害疑い男再逮捕(共同通信)",
+        "summary": "オーナーを務める札幌市のコンビニ駐車場で保育施設の送迎車を約3時間足止めさせ、園児6人の送迎を妨げたとして、札幌・東署は17日、威力業務妨害の疑いで、会社役員大湯昌幸容疑者（61）＝同市北区篠路7条2",
+        "pub_date": "11/17 23:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/4227669825b8b93df59125048f65fe16f69881a0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "タクシー乗客に性的暴行を加えた疑いで逮捕の男性を不起訴処分　東京地検(テレビ朝日系（ANN）)",
-        "summary": "タクシーの女性客の自宅に侵入し、性的暴行を加えた疑いで逮捕された40代の男性について、東京地検は不起訴処分にしました。 44歳の男性は、運転していたタクシーに乗車した20代の女性客の自宅に侵入し、性的",
-        "pub_date": "11/17 21:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/5873a7407e0418f2a3f3c18f1bc279c01cc16bfb?source=rss",
+        "title": "大阪メトロ株は4特別区で均等割り「大阪市民が築き上げた財産」　都構想の法定協で了承(産経新聞)",
+        "summary": "17日の法定協議会では大阪市が保有する大阪メトロの株式について、特別区に移行する際は原則として各区に均等に承継する方針を決めた。大阪維新の会の委員が「大阪市民が築き上げた株式は市民の貴重な財産」として",
+        "pub_date": "11/17 23:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/e808c81e0e854c881167d28aa3281909aa3b43e1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "日韓首脳、シャトル外交継続確認　李氏「来年1月訪日」明言　タイとは宇宙協力進展で一致(産経新聞)",
-        "summary": "【マニラ＝千田恒弥】高市早苗首相は17日、訪問先のフィリピン・マニラで韓国の李在明（イジェミョン）大統領と会談し、首脳同士の相互往来「シャトル外交」の継続を確認した。冒頭、首相が5月に韓国の慶尚北道安",
-        "pub_date": "11/17 21:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/ce6cf68f5789bd5447e0111a29051cd1e8f19c37?source=rss",
+        "title": "法定協試算「大阪市存続なら赤字、特別区にすれば黒字」〝皮算用〟と維新以外から批判噴出(産経新聞)",
+        "summary": "大阪市を廃止して複数の特別区に再編する「大阪都構想」を巡り、制度設計を担う大阪府市の法定協議会の第14回会合が17日、開かれた。特別区に移行した場合と大阪市が存続した場合の双方の財政収支見通しを事務局",
+        "pub_date": "11/17 23:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/e6ab7b6eadf84a204cc4a46c4ebf274298eccf77?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「近畿の警察官」に滋賀県警捜査支援分析課・豊田徹警部補　難事件解決「世の中のために」(産経新聞)",
-        "summary": "近畿2府4県の優秀な警察官をたたえる第140回「近畿の警察官」（産経新聞社提唱、滋賀県信用金庫協会など協賛）に、滋賀県警からは県警本部捜査支援分析課の豊田徹（あきら）警部補（49）が選ばれた。26年8",
-        "pub_date": "11/17 21:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/3641f9c8651dec16deacd74e2ac2a7881b335d70?source=rss",
+        "title": "【爆弾低気圧】2つの低気圧が急速に発達　さらに、強烈な寒波も...東日本や西日本の山沿いを中心に積雪の可能性…22日（日）にかけて雪・雨・風のシミュレーション【気象庁17日発表】(RSK山陽放送)",
+        "summary": "■「爆弾低気圧」と「強烈な寒波」気象庁によりますと、急速に発達する低気圧の影響で、北日本から東日本の日本海側を中心に19日から20日頃にかけて強風や高波に注意・警戒が必要だということです。【画像でみる",
+        "pub_date": "11/17 23:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/653b3a8e16414cc9cf4e360b86dbde68552c7b10?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "〈中野24歳コンカフェ店員刺殺〉「神推しは癒し、天使」39歳自称コンサル・元スロプロの容疑者がSNSに綴った異様な執着…「飲み代は毎月100万円超」の豪遊生活と“彼女をつくるため”の転職(集英社オンライン)",
-        "summary": "11月16日夜、東京都中野区の住宅街で青木七海さん（24）が刺され死亡した事件。逮捕された清武一則容疑者（39）は、青木さんが勤務していたコンセプトカフェの客だったとみられる。≪画像≫メイド服やコスチ",
-        "pub_date": "11/17 21:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/3b4c282eb67315c343b2b22b874c7b7a5efd6716?source=rss",
+        "title": "来春の大阪市長選、自民市議の太田勝己氏が立候補の意向固める「都構想に反対」(産経新聞)",
+        "summary": "任期満了に伴う来春の大阪市長選に、自民党の太田勝己市議（54）＝福島区選挙区＝が無所属で立候補する意向を固めたことが17日、分かった。同日、自民市議団などに出馬の意向を伝えた。自民大阪府連の対応を踏ま",
+        "pub_date": "11/17 23:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/7f34b5a449151f822b59383f6c09e87ca62ba64e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "クアッド首脳会合、共同文書発表　海洋監視へ共同飛行訓練、経済的威圧に「深刻な懸念」(産経新聞)",
+        "summary": "【マニラ＝千田恒弥】日本、米国、オーストラリア、インドは17日、4カ国の協力枠組み「クアッド」の首脳会合をフィリピンの首都マニラで開催した。会合後に発表した共同文書で「自由で開かれたインド太平洋（FO",
+        "pub_date": "11/17 23:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/bff03da457bf1d239b79ba168afa61349dfc7cf1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "日米豪印首脳会合　2年ぶりに開催　中国念頭に現状変更の試みに反対を確認(テレビ朝日系（ANN）)",
+        "summary": "日米豪印4カ国の枠組み「クアッド」の首脳会合が2年ぶりに開かれ、中国を念頭に力や威圧による一方的な現状変更の試みに反対する方針などを確認しました。高市総理大臣「幅広い分野で域内各国の自律性と強靭性を強",
+        "pub_date": "11/17 22:43 JST",
+        "link": "https://news.yahoo.co.jp/articles/8703c471f71a442f66ff63e9555b643ef42f777e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-17 22:21:28 JST"
+    "last_updated": "2026-11-17 23:30:45 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -702,10 +703,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "MV96gxtZH7M",
+        "video_id": "DPTH2iXD6T0",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/MV96gxtZH7M?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=MV96gxtZH7M"
+        "embed_url": "https://www.youtube.com/embed/DPTH2iXD6T0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=DPTH2iXD6T0"
       },
       {
         "id": "stream_tbsnews",
@@ -724,10 +725,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "Vn689u_LlW4",
+        "video_id": "kx8lpMvOiHw",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/Vn689u_LlW4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Vn689u_LlW4"
+        "embed_url": "https://www.youtube.com/embed/kx8lpMvOiHw?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=kx8lpMvOiHw"
       },
       {
         "id": "stream_annnews",
@@ -735,10 +736,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "Oihw0ZX4onc",
+        "video_id": "EkPpD2mS0xk",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/Oihw0ZX4onc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Oihw0ZX4onc"
+        "embed_url": "https://www.youtube.com/embed/EkPpD2mS0xk?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=EkPpD2mS0xk"
       },
       {
         "id": "stream_fnnnews",

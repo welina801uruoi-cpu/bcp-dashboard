@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17 20:23:10",
+  "timestamp": "2026-11-17 21:16:57",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -173,10 +173,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 1地域】長野（警報なし）",
+    "summary": "【注意報発表: 2地域】長野、静岡（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 1,
+    "notice_count": 2,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -218,11 +218,13 @@
         "code": "22",
         "name": "静岡県",
         "short_name": "静岡",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -335,16 +337,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/17 21:01",
+          "text": "楽天とYahoo!と START au END にNTTは4社携帯事業は統合されてない中でそれぞれの携帯の付加価値考えてただけだから私が統合失調してるだけで私だ..."
+        },
+        {
           "time": "11/17 19:50",
           "text": "ドコモの5G SAの通信 START 障害 END って 前に START au END でやらかした大規模 START 障害 END みたいにHSSでの不具合..."
         },
         {
           "time": "11/17 14:56",
           "text": "START au END ひかり通信 START 障害 END なんで今起きんだよ。。。"
-        },
-        {
-          "time": "11/17 14:12",
-          "text": "@dartsjunkie0626 START au END の製品なんですね 通信 START 障害 END ではないのですね"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -437,7 +439,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 6,
+    "disaster_count": 3,
     "articles": [
       {
         "title": "千葉・いすみ市に「レベル4」土砂災害危険警報(テレビ朝日系（ANN）)",
@@ -464,28 +466,84 @@
         "is_disaster": true
       },
       {
-        "title": "関連死、全死者の7割以上　能登地震、3人認定へ(共同通信)",
-        "summary": "石川県は17日、2024年の能登半島地震の災害関連死に関する審査で、新たに3人の認定が決まったと発表した。関連死は新潟、富山両県の14人を含め533人となる見通し。建物倒壊などによる直接死228人と合",
-        "pub_date": "11/17 20:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/b9138e531a530cfde0322fc58d743ece63309786?source=rss",
+        "title": "農水相が相次ぎ失速…「また『鬼門』と呼ばれかねない」農水官僚が恐れる“暗黒時代”再来の予感(文春オンライン)",
+        "summary": "日本を動かす官僚の街・霞が関から“マル秘”情報をお伝えする『文藝春秋』の名物コラム「 霞が関コンフィデンシャル 」。最新号から、ダイジェストで紹介します。 【画像】武部新氏◆◆◆",
+        "pub_date": "11/18 06:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/ab350e4a8311e5488a06af4c71edaac9054108f8?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "激しい雨に気温急降下　“爆弾低気圧”台風並み　影響は広範囲　いつ？どこで？(テレビ朝日系（ANN）)",
-        "summary": "17日は各地で激しい雨が降り気温が急降下しました。“爆弾低気圧”の影響で台風並みの強風に警戒が必要です。■台風並み“爆弾低気圧”いつ？ 番組が向かったのは神奈川県箱根町の観光地・大涌谷。広がっていたの",
-        "pub_date": "11/17 20:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/6fea9415a9f8c906d4f12f28c9e17543d517223a?source=rss",
+        "title": "トランプ政権による「ICC赤根所長」制裁で注目を集める“女性皇族”…「名誉法学博士号」を授与されたご両親をお持ちの“プリンセス”の思いとは(デイリー新潮)",
+        "summary": "高円宮ご夫妻の長女で、日本ユニセフ協会に勤める承子さまが「意外なことに関心をお持ちのようだとお聞きしました」と、宮内庁OBが語る。その“意外なこと”とは、国際刑事裁判所（ICC）の赤根智子所長（70）",
+        "pub_date": "11/18 06:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/597db2dcdbc6b4463969ee89d33d3f0c07768e11?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "三幸製菓火災、12月初公判　元CEOら4人業過致死罪(共同通信)",
-        "summary": "新潟地裁は17日、新潟県村上市の「三幸製菓」荒川工場で2022年、従業員6人が死亡した火災で、業務上過失致死罪で在宅起訴された同社元CEO佐藤元保氏ら幹部4人の初公判を12月16日に開くと明らかにした",
-        "pub_date": "11/17 20:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/4eabe203eae2c6114840e52208d3ebd1a0c5f0d3?source=rss",
+        "title": "団地の管理組合の口座から300万円を引き出して着服した疑い 元理事長の76歳男を逮捕 容疑を否認も余罪捜査(東海テレビ)",
+        "summary": "三重県四日市市にある団地で、管理組合の口座から300万円を横領したとして元理事長の男(76)が逮捕されました。 逮捕されたのは、四日市市の無職・川森博容疑者(76)で、市内の笹川団地にある管理組合の理",
+        "pub_date": "11/18 06:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/cbe5552dbf184bb4b60b6b528ddaa5bc261579f6?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "“世界の真ん中で咲き誇る高市外交”と「安倍外交」との決定的な違い…「米中露首脳会談」で蚊帳の外に置かれた日本が“世界の片隅”に追いやられる危険性(デイリー新潮)",
+        "summary": "前編【「米中露会談」で同床異夢の3首脳が“日本にとって最悪のシナリオ”で一致するリスク…21世紀の「ヤルタ会談」は何をもたらすのか】からの続き──。高市早苗首相が衆院予算委員会で台湾有事に関して「存立",
+        "pub_date": "11/18 06:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/93e735754cdb44443c29df99307af2dfb182edc9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「米中露会談」で同床異夢の3首脳が“日本にとって最悪のシナリオ”で一致するリスク…21世紀の「ヤルタ会談」は何をもたらすのか(デイリー新潮)",
+        "summary": "政治アナリストの伊藤惇夫氏は「日本外交の危機と言っても過言ではありません」と警鐘を鳴らす──。米中首脳会談が19日午後1時45分から、米中露首脳会談は午後3時半から開かれる見通しだ。場所は共に中国の深",
+        "pub_date": "11/18 06:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/c6b4c2212c270205875be0ff7dc74c29c7f8f65a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "1日約3000キロカロリー 航空自衛隊の「現場メシ」 パイロット限定の\"おやつ\"も 過酷な職務・訓練支える工夫(CBCテレビ)",
+        "summary": "過酷な職務や訓練に日々従事する航空自衛隊員の食事は、どんなものなのか。「現場メシ」に密着しました。【動画】「ご飯がすすむ！むちゃくちゃおいしい」航空自衛隊の“現場メシ”で人気の一品はこちら【2分26秒",
+        "pub_date": "11/18 06:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/b50625dbbf60368b82f3d3682a98c40118864a04?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "仙台から来た少年らが関与か…愛知で発生した強盗殺人未遂事件 元刑事が典型的なトクリュウ事件との「違い」を指摘(FNNプライムオンライン)",
+        "summary": "愛知県小牧市の住宅に男らが押し入り、高齢の女性が襲われた事件から2日。徐々に事件の背景が見えてきました。【動画で見る】仙台から来た少年らが関与か…愛知で発生した強盗殺人未遂事件 元刑事が典型的なトクリ",
+        "pub_date": "11/18 06:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/40b8579b57c1700f78a68d325e4bd4a400e39497?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "GMOの高級クルーザーから「熊マーク」が消えた…熊谷代表が語るのを避けてきた“出会い系ビジネス”という原点(デイリー新潮)",
+        "summary": "GMOインターネットグループ代表の熊谷正寿氏（63）は、11月2日の記者会見で“事業で儲けを考えたことなどない”と涙した。それは本当なのか。その足跡をたどると“出会い系ビジネス”に行き当たる……。【写",
+        "pub_date": "11/18 05:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/4fa34292d22c9d780b2e0b26778b16b2499a7ee4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "米「はしか排除」を取り消し　WHO、感染者増加受け(共同通信)",
+        "summary": "【ワシントン共同】世界保健機関（WHO）の米州地域事務局である汎米保健機構（PAHO）は17日、米国のはしか「排除」の認定を取り消したと発表した。今年は過去35年で最多の感染者が確認されているほか、感",
+        "pub_date": "11/18 05:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/982d29f9c95404b18034485d1e636b4694a9a7ee?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "自宅から包丁持参と容疑者　中野女性死亡、事件準備か(共同通信)",
+        "summary": "東京都中野区の路上で女性が刃物で刺され死亡した事件で、強盗殺人未遂容疑で逮捕された職業不詳清武一則容疑者（39）が使用したとみられる刃物は刃渡り約15センチの包丁で「自宅にあったものを持ってきた」と供",
+        "pub_date": "11/18 05:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/8197ff4a0d43fea37be4e2613e386b62b08d8160?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "日米首脳が短時間懇談　中ロ政策擦り合わせか(共同通信)",
@@ -502,65 +560,9 @@
         "link": "https://news.yahoo.co.jp/articles/f3294ce7dafa8f2f17e672d185ff0cae99719738?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "看護師や米作りもこなす3児の母が営む駄菓子屋「子どもたちの居場所に」　障害のある息子と共に駆け抜ける日々(FNNプライムオンライン)",
-        "summary": "宮崎県新富町ののどかな住宅街に、子どもたちの笑い声が響く小さな駄菓子屋があります。店を営むのは、看護師やボランティア、米作りなど多方面で活躍する3児の母・武田秋穂さん。障害のある息子との向き合い方や、",
-        "pub_date": "11/18 05:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/4bdba02f0fcb8b57fa8fb6ac1d1267163200e509?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "JTBは訪日客誘致を目的に設立　ビアホールと間違われることも【経済トレンド／わが社のあの時】(共同通信)",
-        "summary": "旅行会社最大手のJTB。海外からの旅行客の誘致を目的に1912年に設立された「ジャパン・ツーリスト・ビューロー」に起源がある。政府が設置した鉄道院の協力を得て船舶や鉄道、ホテルなど旅行関連の各社が出資",
-        "pub_date": "11/18 05:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/0db5b04424ea3fdc257b3762fefd46f331ba8370?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "高市総理　トランプ大統領と短時間の懇談　米中ロ首脳会談を前に連携を確認(テレビ朝日系（ANN）)",
-        "summary": "高市総理はアメリカのトランプ大統領と短時間の懇談を行い、中国などを念頭に今後も緊密に連携していくことを確認しました。 トランプ大統領は19日、APEC（アジア太平洋経済協力会議）が行われる中国の深セン",
-        "pub_date": "11/18 02:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/6f273ea2e051d870e70d21349a59d054e4ee5a42?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "高市首相とトランプ大統領が懇談(共同通信)",
-        "summary": "【マニラ共同】高市早苗首相は17日、トランプ米大統領と訪問先のフィリピンで懇談した。日本政府が18日発表した。米国、中国、ロシアの3カ国首脳会談を前に、対中ロ政策に関する認識を擦り合わせたとみられる。",
-        "pub_date": "11/18 01:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/031470b4260bd596fbb3a7b96233307d76148309?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "いぶりがっこ作り最盛期で急ぐ収穫・タイヤ交換相次ぐ　週末にかけ今季初寒波襲来へ(テレビ朝日系（ANN）)",
-        "summary": "今シーズン初めての寒波を前に、東北では“備え”が始まっています。【画像】いぶりがっこ作り最盛期で急ぐ収穫・タイヤ交換相次ぐ 週末にかけ今季初寒波襲来へ",
-        "pub_date": "11/18 00:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/6ff6c545a11ebe564349fb570f6f7b1051d577c0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "栄養士がアレルギー確認怠り生徒が体調不良　書類の改ざんも　東京・板橋区(テレビ朝日系（ANN）)",
-        "summary": "東京・板橋区の中学校で栄養士が食物アレルギーに関する記載の確認を怠り、生徒が体調不良を起こしていたことが分かりました。さらに、栄養士は資料を改ざんし、保護者に嘘の説明をしていたということです。 板橋区",
-        "pub_date": "11/18 00:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/ebc873c925b0646e636addf3f0758a08b2cd19a8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "親グマどこへ？“一斉休校”に…白昼の住宅街にクマ2頭出没　男性1人けが(テレビ朝日系（ANN）)",
-        "summary": "群馬県前橋市の住宅街で、親子とみられるクマ2頭が出没しました。目撃者によりますと、体長60センチほどの小グマと親グマとみられる2頭で、親グマは体長140センチほどあったといいます。【画像】親グマどこへ",
-        "pub_date": "11/18 00:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/fd7c7e23bc06b90ae203cc6dda51ffea0a219272?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-18 05:22:23 JST"
+    "last_updated": "2026-11-18 06:16:05 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -592,10 +594,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "VbS2eMmbs9A",
+        "video_id": "A0ayWQOEOHQ",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/VbS2eMmbs9A?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=VbS2eMmbs9A"
+        "embed_url": "https://www.youtube.com/embed/A0ayWQOEOHQ?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=A0ayWQOEOHQ"
       },
       {
         "id": "stream_ntvnews",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17 08:46:56",
+  "timestamp": "2026-11-17 09:43:49",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -235,13 +235,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（新幹線: 山陽新幹線（その他））",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "text": "運行支障あり（在来線: 福塩線 ／ 新幹線: 山陽新幹線（その他））",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（福塩線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "福塩線"
+    ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）"
     ],
@@ -306,11 +308,15 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 7 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/17 09:18",
+          "text": "ドコモ3度の通信 START 障害 END 「大変遺憾」と総務相 「構造的な課題、洗い出し求める」 - ITmedia NEWS https://t.co/Ak..."
+        },
         {
           "time": "11/17 08:45",
           "text": "@inoueyusuke あしたもトットも START 障害 END 文化とさくらんぼ相談します 千絵と田代トットも吉本興業井上裕介一緒いるから大丈夫トットが法..."
@@ -318,10 +324,6 @@
         {
           "time": "11/17 08:42",
           "text": "ドコモ START 障害 END 再発防止求める 総務相 #Yahooニュース https://t.co/2qpFi2838Q ワイもドニーチョウの時からドコモ..."
-        },
-        {
-          "time": "11/17 08:18",
-          "text": "そもそも顧客の掌返しがヤバイのよ これでSoftBankとか START AU END でまた大規模な通信 START 障害 END が起きたら 「やっぱりdo..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -332,8 +334,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/17 09:05",
+          "text": "思い出す2022年 START KDDI END 大規模通信 START 障害 END 後の決算発表の時に「うちは安定的に大きな START 障害 END を回..."
+        },
         {
           "time": "11/17 00:12",
           "text": "今日は地獄のような全面安か… いや通信株の3兄弟がいた〜〜･:*+.\\ (( °ω° ))/.:+ 通信 START 障害 END をものともしないNTT、 S..."
@@ -341,10 +347,6 @@
         {
           "time": "11/16 12:41",
           "text": "ドコモ通信 START 障害 END 起こしすぎだろ やっぱ三大キャリアの中じゃ START KDDI END が一番まともだな"
-        },
-        {
-          "time": "11/16 12:27",
-          "text": "docomo通信 START 障害 END 直前に START KDDI END に乗り換えたのは大正解だったか"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -358,16 +360,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/17 09:18",
+          "text": "ドコモ3度の通信障害「大変遺憾」と総務相 「構造的な課題、洗い出し求める」 - ITmedia NEWS https://t.co/Ak8eDGw9xx どうせ..."
+        },
+        {
           "time": "11/17 07:51",
           "text": "昔は START 繋がらない END と言われていたけど、、、 今やこの価格でしっかりつながる #楽天モバイル がコスパ最強！ 今年中に節約したい人にはおすすめ..."
         },
         {
           "time": "11/17 06:39",
           "text": "@noobaquarist 突然失礼します、povoサポートです。 START 繋がらない END 場所が多いのは困りますね😣もしよろしければ、安定の STAR..."
-        },
-        {
-          "time": "11/17 06:22",
-          "text": "@zen1xoxo こんにちは、突然失礼します、povoサポートです。 START 繋がらない END ことが増えているのは困りますね📡もしよろしければ、安定の..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -378,19 +380,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/17 08:15",
-          "text": "どうしても通信したい時にdocomoの START 障害 END があって繋がらなくて困った。 START povo END の長期プラン導入しておこうかなー"
+          "time": "11/17 09:22",
+          "text": "投稿は出来たみたいだねー 皆の投稿も画像も一切見れないー #ahamo # START povo END # START 障害 END"
         },
         {
-          "time": "11/17 07:58",
-          "text": "START 障害 END も多いしさすがに乗り換えるか START povo END とかでいいんかな https://t.co/LiUzCax4Yj"
+          "time": "11/17 09:20",
+          "text": "15:30位から電波死んでる...全然ネット繋がらない(コレ投稿出来るかな？) #ahamo # START povo END # START 障害 END"
         },
         {
-          "time": "11/17 06:10",
-          "text": "楽天がやらかしたりローミング縮小したりとするとここぞとばかりにうちのいかがっすかって言ってる卵 ドコモの通信 START 障害 END には無反応⋯？ STAR..."
+          "time": "11/17 09:04",
+          "text": "@romusukachan 通信 START 障害 END 対策用で2台持ち。 予備機のSIMは START POVO END"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -413,130 +415,130 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 5,
+    "disaster_count": 8,
     "articles": [
       {
-        "title": "横浜であわや強盗、事前に避難　匿流標的か、男2人住居侵入疑い(共同通信)",
-        "summary": "神奈川県警は17日、横浜市の集合住宅に侵入し金庫を盗んだとして住居侵入と窃盗の疑いで男2人を再逮捕した。2人は侵入しようとしたところを目撃されていったん退散。県警は匿名・流動型犯罪グループによる強盗事",
-        "pub_date": "11/17 17:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/df0abff9a3a87a84c412600ae4d535c4dd31908b?source=rss",
+        "title": "交差点でひき逃げか 暴力団員逮捕　2020年から無免許運転繰り返したか　警視庁(テレビ朝日系（ANN）)",
+        "summary": "東京・品川区の交差点で乗用車2台に衝突し、2人に重傷を負わせたうえ、必要な措置を取らずに現場から立ち去ったとして暴力団組員の男が逮捕されました。 6代目山口組傘下組織の組員山本大貴容疑者（37）は4月",
+        "pub_date": "11/17 18:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/31c951d14f55680917d6dd2546fdaf53cb164a90?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "今夜の関東は警報級大雨のおそれ　小笠原で猛烈な雨　明日18日は一転、東京20℃超(日本気象協会tenki.jp)",
-        "summary": "今日17日(火)、小笠原諸島の母島では1時間に80.5ミリの猛烈な雨が降り、11月として記録的な大雨となっています。このあと今夜は関東でも広く雨脚が強まるでしょう。伊豆諸島では非常に激しい雨が降り、千",
-        "pub_date": "11/17 17:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/9aab299944d0c21f60527ac5df9d3b632ef3ee20?source=rss",
+        "title": "二つの不具合で誤報　「震度7」緊急地震速報(共同通信)",
+        "summary": "気象庁は17日、最大震度7の地震が起きるとした10月の緊急地震速報の誤報について、プログラム内に二つの不具合が生じ、地震のマグニチュード（M）と震度を過大に推定したと発表した。いずれの不具合も対策を講",
+        "pub_date": "11/17 18:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/7e7a3611739af5230178778cb691b2b5e5a86b7b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "東武スカイツリーラインで人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "17:10頃、一ノ割駅構内で発生した人身事故の影響で、東武スカイツリーラインは北越谷～春日部駅間の運転を見合わせています。振替輸送を行っています。",
-        "pub_date": "11/17 17:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/30e107a7756c245a4c6c39d5e04d219c7a11b63c?source=rss",
+        "title": "誤った緊急地震速報　原因は2つのエラー　気象庁(テレビ朝日系（ANN）)",
+        "summary": "気象庁は先月16日に緊急地震速報を誤って発表した原因について、プログラム上で2つのエラーを確認したことを明らかにしました。 先月16日、カムチャツカ半島付近でマグニチュード6.9の地震が発生しました。",
+        "pub_date": "11/17 18:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/ce0ce3df165f5928d1605b0fa02fc3be645d2f23?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "NTTドコモ「半月に3度」の通信障害にユーザー怒り　5G SAの「4G切り替え」案内が裏目、料金値上げにも批判が(J-CASTニュース)",
-        "summary": "NTTドコモの「5G SAサービス」で2026年11月16日、通信障害が発生した。11月5日以降、12日間で3度目の障害となる。【画像】きちんとしたサービスを提供すべき…ユーザーが向けた怒りの矛先 同",
-        "pub_date": "11/17 17:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/b1c8782d67954e499a9ef4fc8c2e798c1da1693c?source=rss",
+        "title": "帰還居住区域、初解除へ　12月21日、双葉町2地区で(共同通信)",
+        "summary": "東京電力福島第1原発事故に伴う帰還困難区域のうち、帰還を希望する人の生活圏を国が除染する「特定帰還居住区域」を巡り、福島県双葉町の2地区の避難指示が12月21日に解除されることになった。伊沢史朗町長と",
+        "pub_date": "11/17 18:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/f487237f77776ec0cd9ebe569bb1d801f47b067b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "【警報級の大雪か】気象庁の週間天気予報（11月18日〜24日）北日本〜西日本で荒天のおそれ…広い範囲で雪の降る日が多くなりそう　今後の降水シミュレーションは?【気象庁17日発表】(BSS山陰放送)",
-        "summary": "気象庁が11月17日に発表した週間天気予報（11月18日〜24日）によりますと、20日から21日にかけて発達する低気圧の影響で、北日本から西日本にかけて荒れた天気になる恐れがあります。特に北日本では警",
-        "pub_date": "11/17 17:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/993737b5228f255fb8159a1f609a2a4d0fe65b94?source=rss",
+        "title": "焼失した輪島朝市を視察　警察庁長官、能登被災地(共同通信)",
+        "summary": "警察庁の楠芳伸長官は17日、2024年の能登半島地震による大規模火災で焼失した石川県輪島市の「朝市通り」を視察した。自衛隊や消防と一緒に行方不明者の捜索に当たった県警の寺崎雅之警部が、火災の範囲が広く",
+        "pub_date": "11/17 18:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/a68ce4773cecd1e00d8b5153a88d7847e4a92e13?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "淡いラベンダー色の装いに輝くパール…愛子さまがシンガポールへご出発 両陛下ゆかりの植物園やマーライオンも訪問へ(ABEMA TIMES)",
-        "summary": "11月17日午前、羽田空港に到着された愛子さま。淡いラベンダー色の装いで、首元にはパールのネックレスが輝いていた。【映像】淡いラベンダー色の装いの愛子さま（全身ショット） 関係者に見送られながら、午前",
-        "pub_date": "11/17 17:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/2291c0f5c491a7ce6030cd6af65d2570d30f89b5?source=rss",
+        "title": "「葛シカ区？」東京・葛飾の住宅街にシカ出没、麻酔銃で捕獲…自宅の庭に現れたら、自分で捕まえていい？(弁護士ドットコムニュース)",
+        "summary": "東京・葛飾の住宅街に現れた野生とみられるシカが11月17日午後3時ごろ、区民農園で捕獲された。区の要請を受けた専門業者が麻酔銃を使った。区によると、人や物への被害は確認されていない。捕獲したシカを今後",
+        "pub_date": "11/17 18:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/29dcb53346957c7194f1c80be5fb5bc6329630b8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "10代女性に性的暴行した疑いで警察官を逮捕　犯行の様子を携帯電話で撮影した疑いも 「自分の性的な欲求を満たす目的で」(FNNプライムオンライン)",
+        "summary": "富山県警は、10代の女性に性的暴行を加え、その様子を撮影した疑いで、県西部在住で県内の警察署に勤務する21歳の男性巡査を逮捕した。男性巡査は「自分の性的な欲求を満たす目的でやりました。被害者には申し訳",
+        "pub_date": "11/17 18:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/1c5f382ac9b13ab844262013e48163af896034c3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "原発事故の帰還居住区域、12月21日初解除へ(共同通信)",
+        "summary": "東京電力福島第1原発事故に伴う帰還困難区域のうち、帰還希望者の生活圏を国が除染する「特定帰還居住区域」を巡り、福島県双葉町の2地区の避難指示が12月21日に初めて解除されることになった。国、県、町が1",
+        "pub_date": "11/17 17:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/b9f3565628a16a07fb672b27f83308c784252344?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【速報】74歳女性 車にはねられ重体　横断歩道ない道路ではねられる 東京・港区(テレビ朝日系（ANN）)",
+        "summary": "東京・港区で74歳の女性がワゴン車にはねられ、意識不明の重体です。 17日午後4時ごろ、港区北青山で道路を歩いていた74歳の女性がワゴン車にはねられました。 警視庁などによりますと、横断歩道のない道路",
+        "pub_date": "11/17 18:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/4d57dc3c26f01885f9c40113788e4ca267747459?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "なぜ韓国文化は名古屋に根付いた?専門家が指摘する名古屋駅西側の“オールドコリアンタウン”の存在 「戦後名古屋の街と融合しながら維持されてきた」(CBCテレビ)",
-        "summary": "11月18日、愛知県知多市に韓国発の“没入型”のアートミュージアム「アルテミュージアムナゴヤ」がオープンします。【写真を見る】なぜ韓国文化は名古屋に根付いた?専門家が指摘する名古屋駅西側の“オールドコ",
-        "pub_date": "11/17 17:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/dc5c3a3a756f5b70a43daed61691fb2a6906ce15?source=rss",
+        "title": "政府広報にユーチューバー起用(テレビ朝日系（ANN）)",
+        "summary": "政府が公開した安全保障の広報サイトに、都市伝説などを紹介するユーチューバーが起用され、木原官房長官は、若い世代に関心を持ってもらうための工夫だと説明しました。【木原官房長官】「安全保障への興味であった",
+        "pub_date": "11/17 18:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/34a14f30ec6f8cb1cad95dabdc748f8ae9301e4c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "仙台から来た少年らが関与か…愛知で発生した強盗殺人未遂事件 元刑事が典型的なトクリュウ事件との「違い」を指摘(東海テレビ)",
-        "summary": "愛知県小牧市の住宅に男らが押し入り、高齢の女性が襲われた事件から2日。徐々に事件の背景が見えてきました。【動画で見る】仙台から来た少年らが関与か…愛知で発生した強盗殺人未遂事件 元刑事が典型的なトクリ",
-        "pub_date": "11/17 17:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/52d4fc75ac06bebf0ecfe42f6d81643099f0e62b?source=rss",
+        "title": "絶滅危惧種のオウムなどを違法取引か　種の保存法違反疑いで会社役員逮捕(テレビ朝日系（ANN）)",
+        "summary": "茨城県つくば市で商業取引が禁止されている絶滅危惧種のオウムなどを取引相手に譲渡した種の保存法違反の疑いで会社役員の男が逮捕されました。 鈴木良一容疑者（57）は2024年、つくば市内で商業取引が禁止さ",
+        "pub_date": "11/17 18:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/8c723add3c9d0cf9fbfad7750738ef3755ba09df?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "小沢一郎氏、新党めぐり「党派は関係ない、極端に言えば」リベラル保守勢力への期待拡大に望み(日刊スポーツ)",
-        "summary": "前衆院議員の小沢一郎氏は17日、自身が率いるグループ「一清会」の会合後に報道陣の取材に応じ、今後の政治のあり方をめぐり「『リベラル保守』という勢力がきちんと政権をつくるべきという意識に、国民がなってく",
-        "pub_date": "11/17 17:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/07a35cfc4c2a492303439d2e57a56d354ddb5e8b?source=rss",
+        "title": "市営住宅を勝手に増改築 「庭」や「風呂」を作った事例も 家賃滞納は最長36年間… “3か月滞納”で明け渡し請求可能なのになぜ?不適切管理が次々明らかに 三重･伊賀市(CBCテレビ)",
+        "summary": "三重県伊賀市で長年にわたる「市営住宅」の不適切な管理が明らかに。滞納された家賃は、総額1億円以上にのぼることが分かりました。【写真を見る】市営住宅を勝手に増改築 「庭」や「風呂」を作った事例も 家賃滞",
+        "pub_date": "11/17 18:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/b48bed1393048ed9742b9eb61a67593dcdd1a9f0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "拳銃1丁と実弾7発を所持、容疑で山口組系組員を逮捕　所持情報入手し家宅捜索(産経新聞)",
-        "summary": "自宅で拳銃と実弾を所持したとして、大阪府警捜査4課は17日、銃刀法違反の疑いで、特定抗争指定暴力団山口組系組員、秋月忠志容疑者（63）＝大阪市浪速区桜川＝を逮捕したと発表した。同課は認否を明らかにして",
-        "pub_date": "11/17 17:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/27b519ed0dc342658fea2dd4e9852955d9887225?source=rss",
+        "title": "愛子さま、シンガポールに到着(共同通信)",
+        "summary": "【シンガポール共同】天皇、皇后両陛下の長女愛子さまは17日午後、民間機でシンガポールのチャンギ国際空港に到着された。日本との外交関係樹立60周年に際した公式訪問。",
+        "pub_date": "11/17 18:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/f83f84f3976ed6dbec9ccc6100f443bfdc2e4e48?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "不同意性交など疑いで巡査逮捕　10代女性に、富山県警(共同通信)",
-        "summary": "富山県警は17日、10代の女性に性的暴行を加え、その様子を撮影したとして、不同意性交と性的姿態撮影処罰法違反（撮影）の疑いで、県内の警察署に勤務する巡査（21）を逮捕した。「性的な欲求を満たすためにや",
-        "pub_date": "11/17 17:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/210b125bf958a5ef982a362a99f014d88d09b10b?source=rss",
+        "title": "前橋市クマ出没　あす終日休校に　1頭見つからず…　市立学校・幼稚園「安全最優先」(テレビ朝日系（ANN）)",
+        "summary": "前橋市の住宅街で親子とみられるクマが見つかり、このうち子グマ1頭が捕獲されました。母親とみられるクマは見つかっておらず、前橋市は18日、小中学校など70校を休校にすることを決めました。 市などによりま",
+        "pub_date": "11/17 18:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/f03df8d72fbc8de4833a3be51fcf24246c5a559d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "東京・中野の刺殺事件、死亡は24歳女性(共同通信)",
-        "summary": "東京都中野区の路上で女性が刺され死亡した事件で、警視庁は17日、亡くなったのは東京都杉並区の職業不詳の女性（24）だと明らかにした。",
-        "pub_date": "11/17 17:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/7ef64397e861227c98d88c3df81d856b156034fe?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "予算の「口利き」疑惑が波及!?　不可解な沖縄予算の変遷に疑念が噴出(週プレNEWS)",
-        "summary": "われわれ庶民が汗水垂らして納めた税金は果たして適正に使われているのか――。こんな疑念を抱かせたのが簗（やな）和生元農水相の「予算カット」発言だった。【写真】自民党も推した古謝玄太沖縄県知事簗氏は在任わ",
-        "pub_date": "11/17 17:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/64344a284ec23aa01e3fb3eabe25b77a4610015a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "『超調査チューズデイ』を打ち切り説から救った「グルメロケ」の“コスパ最強”布陣…KEY TO LIT・佐々木大光も活躍(週刊女性PRIME)",
-        "summary": "11月10日に放送された『超調査チューズデイ〜気になる答え今夜出します〜』（フジテレビ系）の視聴率が時間帯2位になる瞬間があり、SNSで話題になっている。【写真】佐々木に負けないバラエティー力! ショ",
-        "pub_date": "11/17 17:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/ca74a4553b1a88d4e8899c4bf0b5aab831277ce7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "被後見人の訴訟制限で控訴　大阪の女性「違憲」(共同通信)",
-        "summary": "成年被後見人は法定代理人によらなければ訴訟行為をできない、とする民事訴訟法31条の規定は「裁判を受ける権利や、法の下の平等を保障した憲法に違反する」として、大阪市の被後見人の女性（57）が、自身の訴訟",
-        "pub_date": "11/17 17:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/48aa56f97ffdf5e53c2540df3ab6253cac3c0ec3?source=rss",
+        "title": "専門家に聞くと…その答えは 食欲の秋“別腹”本当にある?(テレビ朝日系（ANN）)",
+        "summary": "旬を迎えたサケにプリプリの牡蠣（かき）。ほっくりした焼き芋。 食欲の秋。お腹いっぱい食べても甘いものは「別腹」だといいますが本当でしょうか。ノートルダム清心女子大学 小林謙一教授「別腹はあります。幸せ",
+        "pub_date": "11/17 18:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/127e64367261e065a2e74fda215ca4a4828ebec4?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-17 17:46:43 JST"
+    "last_updated": "2026-11-17 18:43:10 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -568,10 +570,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "vpKhES6xl8A",
+        "video_id": "p31FkA0-bdQ",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/vpKhES6xl8A?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=vpKhES6xl8A"
+        "embed_url": "https://www.youtube.com/embed/p31FkA0-bdQ?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=p31FkA0-bdQ"
       },
       {
         "id": "stream_ntvnews",
@@ -579,10 +581,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "TxbSH7h4_2M",
+        "video_id": "Ka1RYVZQsEU",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/TxbSH7h4_2M?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=TxbSH7h4_2M"
+        "embed_url": "https://www.youtube.com/embed/Ka1RYVZQsEU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Ka1RYVZQsEU"
       },
       {
         "id": "stream_annnews",
@@ -590,10 +592,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "sftlHrAMDPI",
+        "video_id": "Oihw0ZX4onc",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/sftlHrAMDPI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=sftlHrAMDPI"
+        "embed_url": "https://www.youtube.com/embed/Oihw0ZX4onc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Oihw0ZX4onc"
       },
       {
         "id": "stream_fnnnews",
@@ -601,10 +603,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "XMAFwXHSBLc",
+        "video_id": "UR4R3WQvt9A",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/XMAFwXHSBLc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=XMAFwXHSBLc"
+        "embed_url": "https://www.youtube.com/embed/UR4R3WQvt9A?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=UR4R3WQvt9A"
       }
     ],
     "cameras": [

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17 18:18:34",
+  "timestamp": "2026-11-17 19:29:41",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -150,11 +150,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NORMAL",
-    "summary": "現在、北海道エリア全域（4地域）に警報・注意報の発表はありません。",
+    "status": "NOTICE",
+    "summary": "【注意報発表: 2地域】道北、道東（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 0,
+    "notice_count": 2,
     "total_prefs": 4,
     "pref_details": [
       {
@@ -183,22 +183,26 @@
         "code": "1c",
         "name": "道北",
         "short_name": "道北",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報"
+        ],
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
         "code": "1d",
         "name": "道東",
         "short_name": "道東",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報"
+        ],
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -513,7 +517,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-18 03:17:38 JST"
+    "last_updated": "2026-11-18 04:29:39 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -534,10 +538,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "j4EpBMgO1ag",
+        "video_id": "fK-ujT70yFg",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/j4EpBMgO1ag?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=j4EpBMgO1ag"
+        "embed_url": "https://www.youtube.com/embed/fK-ujT70yFg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=fK-ujT70yFg"
       },
       {
         "id": "stream_tbsnews",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-18 03:19:48",
-  "timestamp_local": "2026-11-17 20:19:48",
+  "timestamp": "2026-11-18 04:30:47",
+  "timestamp_local": "2026-11-17 21:30:47",
   "country": {
     "id": "italy",
     "name": "イタリア",
@@ -346,7 +346,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
+    "count_24h": 12,
     "summary": "M4.9 (135 km S of Vilyuchinsk, Russia)",
     "latest": {
       "mag": 4.9,
@@ -452,19 +452,18 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymc",
         "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "77 km WSW of Changuillo, Peru",
-        "time": "11/17 04:26 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tym8",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "ゲシュム島で爆発音…米軍の攻撃か　イラン側はドローン2機撃墜も被害なしと発表(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/a44605566061f5b755a58f60ffa885616efcdc2a?source=rss",
+        "description": "イランはホルムズ海峡にあるゲシュム島がアメリカによる攻撃を受けたと明らかにしました。イランが中東のアメリカ軍施設を標的にしたばかりで、事態の悪化が懸念されます。 革命防衛隊に近いイランメディアは17日",
+        "pub_date": "11/18 04:20 JST",
+        "is_priority": true
+      },
       {
         "title": "ロ大統領が中国・深セン入り(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/7a2080ca5bb514a348e0dcbaad35714511a5ff46?source=rss",
@@ -596,13 +595,6 @@
         "link": "https://news.yahoo.co.jp/articles/3e30bbdec0f9fdf47f1120e9e95dc6fb8fad44d8?source=rss",
         "description": "APEC（アジア太平洋経済協力会議）のビジネスリーダーサミットが中国・深センで開幕し、中国ハイテク企業のトップらがロボットやAI（人工知能）の未来について意見を交わしました。 APECビジネスリーダー",
         "pub_date": "11/17 22:13 JST",
-        "is_priority": false
-      },
-      {
-        "title": "〔海外〕2026年10月の災害を振り返る(レスキューナウニュース)",
-        "link": "https://news.yahoo.co.jp/articles/fc54eb40af697f2046392bfaa9dd7e59e91f75a2?source=rss",
-        "description": "2026年10月に発生した海外での大規模な災害、事故・事件の案件について振り返ります。※被害の内訳については、原則的にレスキューナウによる情報取りまとめ時のものです。それぞれの記事の最終更新日以降の状",
-        "pub_date": "11/17 22:00 JST",
         "is_priority": false
       }
     ],
@@ -747,32 +739,32 @@
     "default_channel_id": "stream_euronews"
   },
   "forex": {
-    "timestamp": "11/18 03:19 JST",
+    "timestamp": "11/18 04:30 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.24,
-      "change": -0.54,
-      "change_pct": -0.34,
+      "rate": 159.33,
+      "change": -0.45,
+      "change_pct": -0.28,
       "direction": "down"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.48,
-      "change": -0.68,
-      "change_pct": -0.39,
+      "rate": 175.43,
+      "change": -0.73,
+      "change_pct": -0.41,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.48,
-      "change": -0.68,
-      "change_pct": -0.39
+      "rate": 175.43,
+      "change": -0.73,
+      "change_pct": -0.41
     }
   },
   "airports": [
@@ -830,14 +822,14 @@
         "is_capital": true,
         "lat": 41.9028,
         "lon": 12.4964,
-        "temp": 17.8,
-        "apparent_temp": 17.6,
-        "humidity": 87,
-        "wind_speed": 14.8,
-        "wind_gusts": 34.2,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 18.0,
+        "apparent_temp": 18.2,
+        "humidity": 90,
+        "wind_speed": 13.4,
+        "wind_gusts": 33.5,
+        "precipitation": 0.1,
+        "weather_code": 61,
+        "weather_label": "🌧️ 雨 (小雨)",
         "forecast": [
           {
             "date": "11/17(火)",
@@ -864,10 +856,10 @@
             "precipitation_mm": 24.0
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "ミラノ (北部経済中心)",
@@ -875,14 +867,14 @@
         "is_capital": false,
         "lat": 45.4642,
         "lon": 9.19,
-        "temp": 7.8,
-        "apparent_temp": 6.0,
-        "humidity": 93,
-        "wind_speed": 6.8,
-        "wind_gusts": 14.0,
+        "temp": 7.3,
+        "apparent_temp": 5.3,
+        "humidity": 94,
+        "wind_speed": 7.6,
+        "wind_gusts": 15.5,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/17(火)",
@@ -902,11 +894,11 @@
           },
           {
             "date": "11/19(木)",
-            "temp_max": 12.4,
+            "temp_max": 12.0,
             "temp_min": 7.0,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 6.4
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 5.2
           }
         ],
         "alert": "平常",
@@ -920,11 +912,11 @@
         "is_capital": false,
         "lat": 45.4408,
         "lon": 12.3155,
-        "temp": 8.8,
-        "apparent_temp": 7.2,
+        "temp": 8.7,
+        "apparent_temp": 7.5,
         "humidity": 96,
-        "wind_speed": 7.4,
-        "wind_gusts": 17.3,
+        "wind_speed": 5.2,
+        "wind_gusts": 13.0,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -947,11 +939,11 @@
           },
           {
             "date": "11/19(木)",
-            "temp_max": 11.7,
+            "temp_max": 11.8,
             "temp_min": 7.2,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 17.7
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 14.2
           }
         ],
         "alert": "平常",
@@ -966,14 +958,14 @@
       "is_capital": true,
       "lat": 41.9028,
       "lon": 12.4964,
-      "temp": 17.8,
-      "apparent_temp": 17.6,
-      "humidity": 87,
-      "wind_speed": 14.8,
-      "wind_gusts": 34.2,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "temp": 18.0,
+      "apparent_temp": 18.2,
+      "humidity": 90,
+      "wind_speed": 13.4,
+      "wind_gusts": 33.5,
+      "precipitation": 0.1,
+      "weather_code": 61,
+      "weather_label": "🌧️ 雨 (小雨)",
       "forecast": [
         {
           "date": "11/17(火)",
@@ -1000,12 +992,12 @@
           "precipitation_mm": 24.0
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/18 03:19 JST"
+    "timestamp": "11/18 04:30 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1087,7 +1079,7 @@
         "details": "地下鉄M1〜M5号線およびマルペンサ空港連絡は平常運行中"
       }
     ],
-    "timestamp": "11/18 03:19 JST"
+    "timestamp": "11/18 04:30 JST"
   },
   "lifeline": {
     "status": "NORMAL",

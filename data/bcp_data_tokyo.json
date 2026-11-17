@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17 18:17:50",
+  "timestamp": "2026-11-17 19:28:47",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -202,10 +202,10 @@
   },
   "weather": {
     "status": "ALERT",
-    "summary": "【警報発表: 1地域】千葉（大雨警報） ／ 他6地域で注意報",
+    "summary": "【警報発表: 2地域】千葉（大雨警報）、茨城（大雨警報） ／ 他5地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
-    "alert_count": 1,
-    "notice_count": 6,
+    "alert_count": 2,
+    "notice_count": 5,
     "total_prefs": 8,
     "pref_details": [
       {
@@ -216,11 +216,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "雷注意報",
-          "波浪注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -233,12 +233,12 @@
           "大雨警報"
         ],
         "notices": [
-          "大雨注意報",
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "大雨注意報",
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "大雨警報、大雨注意報、雷注意報、波浪注意報、強風注意報",
+        "summary": "大雨警報、波浪注意報、大雨注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -271,16 +271,17 @@
         "code": "8",
         "name": "茨城県",
         "short_name": "茨城",
-        "status": "NOTICE",
+        "status": "ALERT",
         "emg_warns": [],
-        "warns": [],
-        "notices": [
-          "大雨注意報",
-          "雷注意報",
-          "波浪注意報",
-          "強風注意報"
+        "warns": [
+          "大雨警報"
         ],
-        "summary": "大雨注意報、雷注意報、波浪注意報、強風注意報",
+        "notices": [
+          "強風注意報",
+          "雷注意報",
+          "波浪注意報"
+        ],
+        "summary": "大雨警報、強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -405,7 +406,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東京電力PG: 【停電発生中】千葉・神奈川・群馬で停電情報を検知",
+    "power_msg": "東京電力PG: 【停電発生中】千葉・神奈川で停電情報を検知",
     "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東京ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -673,7 +674,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-18 03:17:38 JST"
+    "last_updated": "2026-11-18 04:28:34 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -694,10 +695,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "j4EpBMgO1ag",
+        "video_id": "fK-ujT70yFg",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/j4EpBMgO1ag?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=j4EpBMgO1ag"
+        "embed_url": "https://www.youtube.com/embed/fK-ujT70yFg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=fK-ujT70yFg"
       },
       {
         "id": "stream_tbsnews",

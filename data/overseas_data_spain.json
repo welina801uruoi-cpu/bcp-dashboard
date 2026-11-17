@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-18 01:30:08",
-  "timestamp_local": "2026-11-17 18:30:08",
+  "timestamp": "2026-11-18 02:29:45",
+  "timestamp_local": "2026-11-17 19:29:45",
   "country": {
     "id": "spain",
     "name": "スペイン",
@@ -352,17 +352,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M5.2 (south of the Kermadec Islands)",
+    "count_24h": 13,
+    "summary": "M4.9 (135 km S of Vilyuchinsk, Russia)",
     "latest": {
-      "mag": 5.2,
-      "place": "south of the Kermadec Islands",
-      "time": "11/17 23:20 JST",
-      "depth_km": 337.077,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tysq",
+      "mag": 4.9,
+      "place": "135 km S of Vilyuchinsk, Russia",
+      "time": "11/18 00:49 JST",
+      "depth_km": 83.167,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt4",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.9,
+        "place": "135 km S of Vilyuchinsk, Russia",
+        "time": "11/18 00:49 JST",
+        "depth_km": 83.167,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt4",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.9,
+        "place": "102 km ENE of Ozernovskiy, Russia",
+        "time": "11/18 00:48 JST",
+        "depth_km": 87.3,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt3",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "south of the Kermadec Islands",
@@ -455,6 +471,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "FIFA会長選　仏連盟会長立候補　現職に対抗へ　日本の田嶋幸三氏と「連携」に意欲(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/714d8370a2ee1ebbc1fb802aa7766f388f8d9691?source=rss",
+        "description": "FIFA（国際サッカー連盟）の会長選に立候補を表明したフランスサッカー連盟の会長は17日、同じく立候補している日本の田嶋幸三氏との「連携」に意欲を示しました。 来年3月のFIFA会長選への立候補を正式",
+        "pub_date": "11/18 01:56 JST",
+        "is_priority": false
+      },
       {
         "title": "米国家安全保障局の機密通信網に障害と報道(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/7025acad16cbdd1f95a2b6f0d74605c36c208a8d?source=rss",
@@ -586,13 +609,6 @@
         "link": "https://news.yahoo.co.jp/articles/281de59ec0e371854d5368c0b6d1c0ca8d0b31ee?source=rss",
         "description": "川の上空を低空飛行する1機のヘリコプター。機体からつり下げた大型のバケツで水をくみ上げようとしている。【映像】水をくみ上げた直後、ヘリが機首を下げて急降下…川へ真っ逆さまに墜落する瞬間ところが次の瞬間",
         "pub_date": "11/17 21:40 JST",
-        "is_priority": false
-      },
-      {
-        "title": "大学入試のAI不正対策「不十分」　受験生が延期求め仮処分申請＝韓国(聯合ニュース)",
-        "link": "https://news.yahoo.co.jp/articles/b098ce7a127e44accd625312aacbeeab772176fc?source=rss",
-        "description": "【ソウル聯合ニュース】韓国で19日に実施される大学修学能力試験（日本の大学入学共通テストに相当）の受験生が17日、人工知能（AI）などを使った不正行為への懸念が高まっているにもかかわらず試験を予定通り",
-        "pub_date": "11/17 21:36 JST",
         "is_priority": false
       }
     ],
@@ -743,14 +759,14 @@
     "default_channel_id": "stream_rtve"
   },
   "forex": {
-    "timestamp": "11/18 01:30 JST",
+    "timestamp": "11/18 02:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": -0.49,
-      "change_pct": -0.31,
+      "rate": 159.22,
+      "change": -0.56,
+      "change_pct": -0.35,
       "direction": "down"
     },
     "local_jpy": {
@@ -821,16 +837,61 @@
   "weather": {
     "cities": [
       {
+        "name": "マドリード (首都)",
+        "name_en": "Madrid",
+        "is_capital": true,
+        "lat": 40.4168,
+        "lon": -3.7038,
+        "temp": 16.0,
+        "apparent_temp": 14.6,
+        "humidity": 84,
+        "wind_speed": 16.8,
+        "wind_gusts": 43.6,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/17(火)",
+            "temp_max": 16.4,
+            "temp_min": 11.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 16.7,
+            "temp_min": 14.8,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 5.0
+          },
+          {
+            "date": "11/19(木)",
+            "temp_max": 16.0,
+            "temp_min": 8.3,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.6
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "バルセロナ (カタルーニャ)",
         "name_en": "Barcelona",
         "is_capital": false,
         "lat": 41.3879,
         "lon": 2.1699,
-        "temp": 20.0,
+        "temp": 19.6,
         "apparent_temp": 19.1,
-        "humidity": 63,
-        "wind_speed": 11.9,
-        "wind_gusts": 19.8,
+        "humidity": 66,
+        "wind_speed": 10.2,
+        "wind_gusts": 16.9,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -871,11 +932,11 @@
         "is_capital": false,
         "lat": 37.3891,
         "lon": -5.9845,
-        "temp": 19.0,
-        "apparent_temp": 19.1,
-        "humidity": 86,
-        "wind_speed": 14.8,
-        "wind_gusts": 33.5,
+        "temp": 19.1,
+        "apparent_temp": 19.5,
+        "humidity": 88,
+        "wind_speed": 13.7,
+        "wind_gusts": 32.0,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -912,43 +973,43 @@
       }
     ],
     "capital": {
-      "name": "バルセロナ (カタルーニャ)",
-      "name_en": "Barcelona",
-      "is_capital": false,
-      "lat": 41.3879,
-      "lon": 2.1699,
-      "temp": 20.0,
-      "apparent_temp": 19.1,
-      "humidity": 63,
-      "wind_speed": 11.9,
-      "wind_gusts": 19.8,
+      "name": "マドリード (首都)",
+      "name_en": "Madrid",
+      "is_capital": true,
+      "lat": 40.4168,
+      "lon": -3.7038,
+      "temp": 16.0,
+      "apparent_temp": 14.6,
+      "humidity": 84,
+      "wind_speed": 16.8,
+      "wind_gusts": 43.6,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/17(火)",
-          "temp_max": 21.5,
-          "temp_min": 17.0,
+          "temp_max": 16.4,
+          "temp_min": 11.3,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/18(水)",
-          "temp_max": 24.5,
-          "temp_min": 18.2,
+          "temp_max": 16.7,
+          "temp_min": 14.8,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 0.1
+          "precipitation_mm": 5.0
         },
         {
           "date": "11/19(木)",
-          "temp_max": 21.1,
-          "temp_min": 15.5,
+          "temp_max": 16.0,
+          "temp_min": 8.3,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 2.0
+          "precipitation_mm": 0.6
         }
       ],
       "alert": "平常",
@@ -956,7 +1017,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/18 01:30 JST"
+    "timestamp": "11/18 02:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1038,7 +1099,7 @@
         "details": "全国主要都市間ルートは定常運行中"
       }
     ],
-    "timestamp": "11/18 01:30 JST"
+    "timestamp": "11/18 02:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

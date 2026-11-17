@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-18 01:30:22",
-  "timestamp_local": "2026-11-17 18:30:22",
+  "timestamp": "2026-11-18 02:29:46",
+  "timestamp_local": "2026-11-17 19:29:46",
   "country": {
     "id": "belgium",
     "name": "ベルギー",
@@ -272,17 +272,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M5.2 (south of the Kermadec Islands)",
+    "count_24h": 13,
+    "summary": "M4.9 (135 km S of Vilyuchinsk, Russia)",
     "latest": {
-      "mag": 5.2,
-      "place": "south of the Kermadec Islands",
-      "time": "11/17 23:20 JST",
-      "depth_km": 337.077,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tysq",
+      "mag": 4.9,
+      "place": "135 km S of Vilyuchinsk, Russia",
+      "time": "11/18 00:49 JST",
+      "depth_km": 83.167,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt4",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.9,
+        "place": "135 km S of Vilyuchinsk, Russia",
+        "time": "11/18 00:49 JST",
+        "depth_km": 83.167,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt4",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.9,
+        "place": "102 km ENE of Ozernovskiy, Russia",
+        "time": "11/18 00:48 JST",
+        "depth_km": 87.3,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt3",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "south of the Kermadec Islands",
@@ -375,6 +391,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "FIFA会長選　仏連盟会長立候補　現職に対抗へ　日本の田嶋幸三氏と「連携」に意欲(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/714d8370a2ee1ebbc1fb802aa7766f388f8d9691?source=rss",
+        "description": "FIFA（国際サッカー連盟）の会長選に立候補を表明したフランスサッカー連盟の会長は17日、同じく立候補している日本の田嶋幸三氏との「連携」に意欲を示しました。 来年3月のFIFA会長選への立候補を正式",
+        "pub_date": "11/18 01:56 JST",
+        "is_priority": false
+      },
       {
         "title": "米国家安全保障局の機密通信網に障害と報道(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/7025acad16cbdd1f95a2b6f0d74605c36c208a8d?source=rss",
@@ -507,13 +530,6 @@
         "description": "川の上空を低空飛行する1機のヘリコプター。機体からつり下げた大型のバケツで水をくみ上げようとしている。【映像】水をくみ上げた直後、ヘリが機首を下げて急降下…川へ真っ逆さまに墜落する瞬間ところが次の瞬間",
         "pub_date": "11/17 21:40 JST",
         "is_priority": false
-      },
-      {
-        "title": "大学入試のAI不正対策「不十分」　受験生が延期求め仮処分申請＝韓国(聯合ニュース)",
-        "link": "https://news.yahoo.co.jp/articles/b098ce7a127e44accd625312aacbeeab772176fc?source=rss",
-        "description": "【ソウル聯合ニュース】韓国で19日に実施される大学修学能力試験（日本の大学入学共通テストに相当）の受験生が17日、人工知能（AI）などを使った不正行為への懸念が高まっているにもかかわらず試験を予定通り",
-        "pub_date": "11/17 21:36 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -643,14 +659,14 @@
     "default_channel_id": "stream_rtbf_live"
   },
   "forex": {
-    "timestamp": "11/18 01:30 JST",
+    "timestamp": "11/18 02:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": -0.49,
-      "change_pct": -0.31,
+      "rate": 159.22,
+      "change": -0.56,
+      "change_pct": -0.35,
       "direction": "down"
     },
     "local_jpy": {
@@ -689,9 +705,144 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/18 01:30 JST"
+    "cities": [
+      {
+        "name": "ブリュッセル (首都・EU本部)",
+        "name_en": "Brussels",
+        "is_capital": true,
+        "lat": 50.8503,
+        "lon": 4.3517,
+        "temp": 12.5,
+        "apparent_temp": 8.5,
+        "humidity": 86,
+        "wind_speed": 27.7,
+        "wind_gusts": 58.3,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
+        "forecast": [
+          {
+            "date": "11/17(火)",
+            "temp_max": 14.7,
+            "temp_min": 5.0,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 19.4
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 11.7,
+            "temp_min": 9.0,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 5.4
+          },
+          {
+            "date": "11/19(木)",
+            "temp_max": 11.2,
+            "temp_min": 9.3,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 7.2
+          }
+        ],
+        "alert": "強風・大雨注意報",
+        "alert_badge": "🟠 気象注意報",
+        "alert_class": "orange",
+        "alert_desc": "強風（突風58.3km/h）または強い雨。移動・屋外行動に注意"
+      },
+      {
+        "name": "アントワープ (北部主要港湾)",
+        "name_en": "Antwerp",
+        "is_capital": false,
+        "lat": 51.2194,
+        "lon": 4.4025,
+        "temp": 11.9,
+        "apparent_temp": 7.8,
+        "humidity": 89,
+        "wind_speed": 28.1,
+        "wind_gusts": 61.2,
+        "precipitation": 0.4,
+        "weather_code": 61,
+        "weather_label": "🌧️ 雨 (小雨)",
+        "forecast": [
+          {
+            "date": "11/17(火)",
+            "temp_max": 14.5,
+            "temp_min": 3.8,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 15.6
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 12.0,
+            "temp_min": 9.6,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 2.7
+          },
+          {
+            "date": "11/19(木)",
+            "temp_max": 11.2,
+            "temp_min": 8.3,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 4.0
+          }
+        ],
+        "alert": "強風・大雨注意報",
+        "alert_badge": "🟠 気象注意報",
+        "alert_class": "orange",
+        "alert_desc": "強風（突風61.2km/h）または強い雨。移動・屋外行動に注意"
+      }
+    ],
+    "capital": {
+      "name": "ブリュッセル (首都・EU本部)",
+      "name_en": "Brussels",
+      "is_capital": true,
+      "lat": 50.8503,
+      "lon": 4.3517,
+      "temp": 12.5,
+      "apparent_temp": 8.5,
+      "humidity": 86,
+      "wind_speed": 27.7,
+      "wind_gusts": 58.3,
+      "precipitation": 0.1,
+      "weather_code": 51,
+      "weather_label": "🌦️ 霧雨 (弱)",
+      "forecast": [
+        {
+          "date": "11/17(火)",
+          "temp_max": 14.7,
+          "temp_min": 5.0,
+          "weather_code": 63,
+          "weather_label": "🌧️ 雨 (中雨)",
+          "precipitation_mm": 19.4
+        },
+        {
+          "date": "11/18(水)",
+          "temp_max": 11.7,
+          "temp_min": 9.0,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
+          "precipitation_mm": 5.4
+        },
+        {
+          "date": "11/19(木)",
+          "temp_max": 11.2,
+          "temp_min": 9.3,
+          "weather_code": 55,
+          "weather_label": "🌦️ 霧雨 (強)",
+          "precipitation_mm": 7.2
+        }
+      ],
+      "alert": "強風・大雨注意報",
+      "alert_badge": "🟠 気象注意報",
+      "alert_class": "orange",
+      "alert_desc": "強風（突風58.3km/h）または強い雨。移動・屋外行動に注意"
+    },
+    "timestamp": "11/18 02:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -720,7 +871,7 @@
         "details": "国鉄インターシティ線平常運行中"
       }
     ],
-    "timestamp": "11/18 01:30 JST"
+    "timestamp": "11/18 02:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

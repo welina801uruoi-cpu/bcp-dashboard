@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-18 01:31:09",
-  "timestamp_local": "2026-11-17 20:31:09",
+  "timestamp": "2026-11-18 02:30:00",
+  "timestamp_local": "2026-11-17 21:30:00",
   "country": {
     "id": "uae",
     "name": "アラブ首長国連邦 (UAE)",
@@ -276,17 +276,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M5.2 (south of the Kermadec Islands)",
+    "count_24h": 13,
+    "summary": "M4.9 (135 km S of Vilyuchinsk, Russia)",
     "latest": {
-      "mag": 5.2,
-      "place": "south of the Kermadec Islands",
-      "time": "11/17 23:20 JST",
-      "depth_km": 337.077,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tysq",
+      "mag": 4.9,
+      "place": "135 km S of Vilyuchinsk, Russia",
+      "time": "11/18 00:49 JST",
+      "depth_km": 83.167,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt4",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.9,
+        "place": "135 km S of Vilyuchinsk, Russia",
+        "time": "11/18 00:49 JST",
+        "depth_km": 83.167,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt4",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.9,
+        "place": "102 km ENE of Ozernovskiy, Russia",
+        "time": "11/18 00:48 JST",
+        "depth_km": 87.3,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt3",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "south of the Kermadec Islands",
@@ -379,6 +395,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "FIFA会長選　仏連盟会長立候補　現職に対抗へ　日本の田嶋幸三氏と「連携」に意欲(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/714d8370a2ee1ebbc1fb802aa7766f388f8d9691?source=rss",
+        "description": "FIFA（国際サッカー連盟）の会長選に立候補を表明したフランスサッカー連盟の会長は17日、同じく立候補している日本の田嶋幸三氏との「連携」に意欲を示しました。 来年3月のFIFA会長選への立候補を正式",
+        "pub_date": "11/18 01:56 JST",
+        "is_priority": false
+      },
       {
         "title": "米国家安全保障局の機密通信網に障害と報道(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/7025acad16cbdd1f95a2b6f0d74605c36c208a8d?source=rss",
@@ -511,13 +534,6 @@
         "description": "川の上空を低空飛行する1機のヘリコプター。機体からつり下げた大型のバケツで水をくみ上げようとしている。【映像】水をくみ上げた直後、ヘリが機首を下げて急降下…川へ真っ逆さまに墜落する瞬間ところが次の瞬間",
         "pub_date": "11/17 21:40 JST",
         "is_priority": false
-      },
-      {
-        "title": "大学入試のAI不正対策「不十分」　受験生が延期求め仮処分申請＝韓国(聯合ニュース)",
-        "link": "https://news.yahoo.co.jp/articles/b098ce7a127e44accd625312aacbeeab772176fc?source=rss",
-        "description": "【ソウル聯合ニュース】韓国で19日に実施される大学修学能力試験（日本の大学入学共通テストに相当）の受験生が17日、人工知能（AI）などを使った不正行為への懸念が高まっているにもかかわらず試験を予定通り",
-        "pub_date": "11/17 21:36 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -610,14 +626,14 @@
     "default_channel_id": "stream_dubai_live"
   },
   "forex": {
-    "timestamp": "11/18 01:31 JST",
+    "timestamp": "11/18 02:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.26,
-      "change": -0.52,
-      "change_pct": -0.33,
+      "rate": 159.22,
+      "change": -0.56,
+      "change_pct": -0.35,
       "direction": "down"
     },
     "local_jpy": {
@@ -626,16 +642,16 @@
       "symbol": "DH",
       "rate": 43.33,
       "change": -0.17,
-      "change_pct": -0.38,
+      "change_pct": -0.4,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.39,
-      "change": -0.77,
-      "change_pct": -0.43
+      "rate": 175.42,
+      "change": -0.74,
+      "change_pct": -0.42
     }
   },
   "airports": [
@@ -673,16 +689,61 @@
   "weather": {
     "cities": [
       {
+        "name": "アブダビ (連邦首都)",
+        "name_en": "Abu Dhabi",
+        "is_capital": true,
+        "lat": 24.4539,
+        "lon": 54.3773,
+        "temp": 25.7,
+        "apparent_temp": 26.8,
+        "humidity": 60,
+        "wind_speed": 10.4,
+        "wind_gusts": 19.8,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/17(火)",
+            "temp_max": 28.8,
+            "temp_min": 24.7,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/18(水)",
+            "temp_max": 29.6,
+            "temp_min": 24.1,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/19(木)",
+            "temp_max": 29.2,
+            "temp_min": 24.0,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ドバイ (世界商業ハブ)",
         "name_en": "Dubai",
         "is_capital": false,
         "lat": 25.2048,
         "lon": 55.2708,
         "temp": 27.1,
-        "apparent_temp": 28.8,
-        "humidity": 55,
-        "wind_speed": 5.6,
-        "wind_gusts": 10.1,
+        "apparent_temp": 29.1,
+        "humidity": 56,
+        "wind_speed": 4.8,
+        "wind_gusts": 8.6,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -719,40 +780,40 @@
       }
     ],
     "capital": {
-      "name": "ドバイ (世界商業ハブ)",
-      "name_en": "Dubai",
-      "is_capital": false,
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "temp": 27.1,
-      "apparent_temp": 28.8,
-      "humidity": 55,
-      "wind_speed": 5.6,
-      "wind_gusts": 10.1,
+      "name": "アブダビ (連邦首都)",
+      "name_en": "Abu Dhabi",
+      "is_capital": true,
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "temp": 25.7,
+      "apparent_temp": 26.8,
+      "humidity": 60,
+      "wind_speed": 10.4,
+      "wind_gusts": 19.8,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/17(火)",
-          "temp_max": 28.6,
+          "temp_max": 28.8,
+          "temp_min": 24.7,
+          "weather_code": 1,
+          "weather_label": "🌤️ 晴れ",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/18(水)",
+          "temp_max": 29.6,
           "temp_min": 24.1,
           "weather_code": 0,
           "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
         },
         {
-          "date": "11/18(水)",
-          "temp_max": 29.6,
-          "temp_min": 24.0,
-          "weather_code": 0,
-          "weather_label": "☀️ 快晴",
-          "precipitation_mm": 0.0
-        },
-        {
           "date": "11/19(木)",
-          "temp_max": 28.6,
-          "temp_min": 25.3,
+          "temp_max": 29.2,
+          "temp_min": 24.0,
           "weather_code": 0,
           "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
@@ -763,7 +824,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/18 01:31 JST"
+    "timestamp": "11/18 02:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -792,7 +853,7 @@
         "details": "レッドライン・グリーンライン平常運行中"
       }
     ],
-    "timestamp": "11/18 01:31 JST"
+    "timestamp": "11/18 02:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17 16:29:00",
+  "timestamp": "2026-11-17 17:29:11",
   "location": {
     "name": "那覇",
     "region_name": "沖縄エリア",
@@ -31,12 +31,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-17 21:22",
-    "place": "熊本県熊本地方",
-    "magnitude": "2.8",
+    "shindo": "1",
+    "time": "2026-11-18 01:29",
+    "place": "熊本県阿蘇地方",
+    "magnitude": "2.4",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-18 01:29",
+        "place": "熊本県阿蘇地方",
+        "shindo": "1",
+        "magnitude": "2.4",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-17 21:22",
         "place": "熊本県熊本地方",
@@ -98,13 +105,6 @@
         "place": "愛知県東部",
         "shindo": "1",
         "magnitude": "3.4",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-16 04:34",
-        "place": "愛知県東部",
-        "shindo": "1",
-        "magnitude": "2.6",
         "maxScale": 10
       }
     ]
@@ -261,8 +261,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/17 16:33",
+          "text": "楽天モバイル START 繋がらない END 問題 START AU END バフが切れたとたんスマホが文鎮と化した ネットワークエラーで 音声通話もできん 改..."
+        },
         {
           "time": "11/17 14:46",
           "text": "START 繋がらない END が安いahamoを使い続けるか、繋がるがahamoより高い START au END を使うかずっと悩んでる！！その差額ドコモが..."
@@ -270,10 +274,6 @@
         {
           "time": "11/17 13:52",
           "text": "@cocaineicecream あのさ START au END にしたらストレスが完全に0になった。楽天とか辞めた方がいい。特に電車乗ったら半分の時間は S..."
-        },
-        {
-          "time": "11/17 13:24",
-          "text": "昔は START 繋がらない END と言われていたけど、、、 今やこの価格でしっかりつながる #楽天モバイル がコスパ最強！ 今年中に節約したい人にはおすすめ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -284,7 +284,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/17 16:20",
@@ -324,8 +324,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "千葉・いすみ市に「レベル4」土砂災害危険警報(テレビ朝日系（ANN）)",
+        "summary": "気象庁は千葉県のいすみ市に「レベル4土砂災害危険警報」を発表しました。 命に危険を及ぼす土砂災害の恐れが高まっています。厳重な警戒が必要です。 レベル4の危険警報は自治体が避難指示を発令する目安となる",
+        "pub_date": "11/18 02:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/df2fb96bb3863d57eb5b2580212fcffb14c6e1ba?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "小田急小田原線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "栢山駅で発生した人身事故の影響で、小田急小田原線は新松田～小田原駅間の運転を見合わせていましたが、02:10頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/18 02:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/fc2b0bb7048ddd90499cdc2a7614e9ebad304a6c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "小田急小田原線で人身事故 一部運転見合わせ(レスキューナウニュース)",
         "summary": "00:10頃、栢山駅で発生した人身事故の影響で、小田急小田原線は新松田～小田原駅間の運転を見合わせています。",
@@ -371,14 +387,6 @@
         "summary": "石川県は17日、2024年の能登半島地震の災害関連死に関する審査で、新たに3人の認定が決まったと発表した。関連死は新潟、富山両県の14人を含め計533人になり、直接死を含めた死者数の7割以上となる見通",
         "pub_date": "11/17 19:40 JST",
         "link": "https://news.yahoo.co.jp/articles/98126cf30ef1d59d504812d32cf05fbed9055de7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "内水氾濫対策で骨子　道路機能の早期回復目指す(共同通信)",
-        "summary": "雨水が市街地にあふれる「内水氾濫」の被害軽減策を協議している政府の有識者検討会は17日の会合で、論点の骨子をまとめた。8月の千葉豪雨では多数の車両が道路上で水没して動けなくなったことから、道路機能を早",
-        "pub_date": "11/17 19:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/a8acd93c209f77dd248a7df2b7340300409ab1ce?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
@@ -437,17 +445,9 @@
         "link": "https://news.yahoo.co.jp/articles/775463f86962bd0fac621f5db1f59b06990b29e3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "「付き合えなかったら殺して、自分も死のうと…」 東京・中野区 強盗殺人(テレビ朝日系（ANN）)",
-        "summary": "東京・中野区の路上で女性が刺されて死亡した事件で、逮捕された男が「女性と付き合えなかったら女性を殺して自分も死のうと考えていた」などと話ていることが分かりました。 清武一則容疑者（39）は16日、中野",
-        "pub_date": "11/17 23:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/94080d4482bb090041efd3629679a7a7806f66a7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-18 01:28:00 JST"
+    "last_updated": "2026-11-18 02:28:48 JST"
   },
   "live_media": {
     "default_camera_id": "cam_naha_kokusai",
@@ -468,10 +468,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "DPTH2iXD6T0",
+        "video_id": "j4EpBMgO1ag",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/DPTH2iXD6T0?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=DPTH2iXD6T0"
+        "embed_url": "https://www.youtube.com/embed/j4EpBMgO1ag?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=j4EpBMgO1ag"
       },
       {
         "id": "stream_tbsnews",

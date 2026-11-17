@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17 15:30:24",
+  "timestamp": "2026-11-17 16:27:10",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -216,11 +216,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -233,12 +233,12 @@
           "大雨警報"
         ],
         "notices": [
-          "強風注意報",
           "波浪注意報",
+          "強風注意報",
           "雷注意報",
           "大雨注意報"
         ],
-        "summary": "大雨警報、強風注意報、波浪注意報、雷注意報、大雨注意報",
+        "summary": "大雨警報、波浪注意報、強風注意報、雷注意報、大雨注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -249,10 +249,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/14/"
       },
       {
@@ -276,11 +276,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "波浪注意報",
           "強風注意報",
-          "雷注意報",
-          "波浪注意報"
+          "雷注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -333,7 +333,7 @@
     "status": "ALERT",
     "text": "運行支障あり（在来線: 東武スカイツリーライン、東武日光線、東武伊勢崎線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東武スカイツリーライン、東武日光線、東武伊勢崎線、東急田園都市線、東京メトロ丸ノ内線）",
+    "line_text": "運行支障あり（東武スカイツリーライン、東武日光線、東武伊勢崎線、小田急小田原線、東急田園都市線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
@@ -341,6 +341,7 @@
       "東武スカイツリーライン",
       "東武日光線",
       "東武伊勢崎線",
+      "小田急小田原線",
       "東急田園都市線",
       "東京メトロ丸ノ内線",
       "東京メトロ日比谷線",
@@ -413,7 +414,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東京電力PG: 【停電発生中】千葉・神奈川・茨城で停電情報を検知",
+    "power_msg": "東京電力PG: 【停電発生中】千葉・神奈川・茨城・群馬で停電情報を検知",
     "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東京ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -453,7 +454,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/17 14:56",
@@ -499,7 +500,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/17 14:46",
@@ -522,8 +523,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/17 16:20",
+          "text": "ドームではdocomoが本当に繋がらなさそうなので(ここ最近都会での電波 START 障害 END も多いので) START povo END を副回線で入れて..."
+        },
         {
           "time": "11/17 12:31",
           "text": "通信 START 障害 END の時はデュアルSiMが安心 START povo END は維持費安いし https://t.co/krDS0KnxtL"
@@ -531,10 +536,6 @@
         {
           "time": "11/17 12:29",
           "text": "実際、楽天モバイルから START Povo END 2.0に変更したり、ワイモバイルを3ヶ月お試し利用しても、楽天モバイル比で良くなった気がしないので、このた..."
-        },
-        {
-          "time": "11/17 11:00",
-          "text": "「通信 START 障害 END で1人だけ連絡途絶えて冷や汗かいた…」という方へ。 START povo END と組み合わせれば、年間たったの約500円で2..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -560,6 +561,14 @@
     "count": 15,
     "disaster_count": 7,
     "articles": [
+      {
+        "title": "小田急小田原線で人身事故 一部運転見合わせ(レスキューナウニュース)",
+        "summary": "00:10頃、栢山駅で発生した人身事故の影響で、小田急小田原線は新松田～小田原駅間の運転を見合わせています。",
+        "pub_date": "11/18 00:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/cccb4543318d3d5ba76a41f3ff889a8068ffc19b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "関連死、全死者の7割以上　能登地震、3人認定へ(共同通信)",
         "summary": "石川県は17日、2024年の能登半島地震の災害関連死に関する審査で、新たに3人の認定が決まったと発表した。関連死は新潟、富山両県の14人を含め533人となる見通し。建物倒壊などによる直接死228人と合",
@@ -609,16 +618,16 @@
         "is_disaster": true
       },
       {
-        "title": "“危険な交差点”で車が突入・衝突　別の交差点でもドラレコに…(テレビ朝日系（ANN）)",
-        "summary": "14日午後5時前、交通量の多い交差点で、反対車線を走ってきた車が突っ込んできました。ぶつかられた車は、前の車に続いて右折しようとした瞬間でした。【画像】トラックと衝突し前部が大破した車",
-        "pub_date": "11/17 19:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/cef806bf5dc8fbcb30138ac8b3ed7ee66718aa03?source=rss",
+        "title": "高市首相とトランプ大統領が懇談(共同通信)",
+        "summary": "【マニラ共同】高市早苗首相は17日、トランプ米大統領と訪問先のフィリピンで懇談した。日本政府が18日発表した。米国、中国、ロシアの3カ国首脳会談を前に、対中ロ政策に関する認識を擦り合わせたとみられる。",
+        "pub_date": "11/18 01:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/031470b4260bd596fbb3a7b96233307d76148309?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
         "title": "いぶりがっこ作り最盛期で急ぐ収穫・タイヤ交換相次ぐ　週末にかけ今季初寒波襲来へ(テレビ朝日系（ANN）)",
-        "summary": "今シーズン初めての寒波を前に、東北では“備え”が始まっています。",
+        "summary": "今シーズン初めての寒波を前に、東北では“備え”が始まっています。【画像】いぶりがっこ作り最盛期で急ぐ収穫・タイヤ交換相次ぐ 週末にかけ今季初寒波襲来へ",
         "pub_date": "11/18 00:15 JST",
         "link": "https://news.yahoo.co.jp/articles/6ff6c545a11ebe564349fb570f6f7b1051d577c0?source=rss",
         "category": "国内・気象防災",
@@ -634,7 +643,7 @@
       },
       {
         "title": "親グマどこへ？“一斉休校”に…白昼の住宅街にクマ2頭出没　男性1人けが(テレビ朝日系（ANN）)",
-        "summary": "群馬県前橋市の住宅街で、親子とみられるクマ2頭が出没しました。目撃者によりますと、体長60センチほどの小グマと親グマとみられる2頭で、親グマは体長140センチほどあったといいます。クマが出没したのは、",
+        "summary": "群馬県前橋市の住宅街で、親子とみられるクマ2頭が出没しました。目撃者によりますと、体長60センチほどの小グマと親グマとみられる2頭で、親グマは体長140センチほどあったといいます。【画像】親グマどこへ",
         "pub_date": "11/18 00:12 JST",
         "link": "https://news.yahoo.co.jp/articles/fd7c7e23bc06b90ae203cc6dda51ffea0a219272?source=rss",
         "category": "国内・気象防災",
@@ -665,23 +674,15 @@
         "is_disaster": false
       },
       {
-        "title": "富山県警の警察官逮捕　当時10代女性に性的暴行などの疑い「欲求満たすためにやった」(テレビ朝日系（ANN）)",
-        "summary": "富山県警の警察官が当時10代の顔見知りの女性に性的暴行を加えたうえ、その様子をスマートフォンで撮影したとして逮捕されました。 富山県警の巡査の男（21）は19歳だった2024年12月29日ごろ、富山県",
-        "pub_date": "11/17 23:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/89eeeda6119c7bc74ecdc753fc79df4e42dc6e90?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "園児送迎車3時間足止めか　威力業務妨害疑い男再逮捕(共同通信)",
-        "summary": "オーナーを務める札幌市のコンビニ駐車場で保育施設の送迎車を約3時間足止めさせ、園児6人の送迎を妨げたとして、札幌・東署は17日、威力業務妨害の疑いで、会社役員大湯昌幸容疑者（61）＝同市北区篠路7条2",
-        "pub_date": "11/17 23:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/4227669825b8b93df59125048f65fe16f69881a0?source=rss",
+        "title": "「付き合えなかったら殺して、自分も死のうと…」 東京・中野区 強盗殺人(テレビ朝日系（ANN）)",
+        "summary": "東京・中野区の路上で女性が刺されて死亡した事件で、逮捕された男が「女性と付き合えなかったら女性を殺して自分も死のうと考えていた」などと話ていることが分かりました。 清武一則容疑者（39）は16日、中野",
+        "pub_date": "11/17 23:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/94080d4482bb090041efd3629679a7a7806f66a7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-18 00:30:10 JST"
+    "last_updated": "2026-11-18 01:26:52 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -724,10 +725,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "Kox3RxBJpVo",
+        "video_id": "0emIeoI4DGU",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/Kox3RxBJpVo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Kox3RxBJpVo"
+        "embed_url": "https://www.youtube.com/embed/0emIeoI4DGU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=0emIeoI4DGU"
       },
       {
         "id": "stream_annnews",
@@ -735,10 +736,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "uBgknKq8CAE",
+        "video_id": "ZtB2x668G-k",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/uBgknKq8CAE?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=uBgknKq8CAE"
+        "embed_url": "https://www.youtube.com/embed/ZtB2x668G-k?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=ZtB2x668G-k"
       },
       {
         "id": "stream_fnnnews",

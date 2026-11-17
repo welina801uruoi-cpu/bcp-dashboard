@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16 23:48:41",
+  "timestamp": "2026-11-17 00:34:44",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -241,17 +241,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 山陽本線、呉線、可部線 ／ 新幹線: 山陽新幹線（その他））",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（山陽本線、呉線、可部線）",
+    "text": "運行支障あり（新幹線: 山陽新幹線（その他））",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
-    "troubled_lines": [
-      "山陽本線",
-      "呉線",
-      "可部線"
-    ],
+    "troubled_lines": [],
     "troubled_shinkansen": [
       "山陽新幹線（その他）"
     ],
@@ -316,22 +312,22 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 5 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/17 00:16",
+          "text": "＠ START au END SHINJUKU START 障害 END 文化弁護士いる START au END 新宿警察も START au END 彼女逮..."
+        },
+        {
+          "time": "11/17 00:06",
+          "text": "DOCOMO最近 START 障害 END 多いよなー。パケ止まりも多いらしいし… START au END にしたいけど親がなぁー https://t.co/..."
+        },
         {
           "time": "11/16 23:22",
           "text": "@qq_nemu 災害時とか通信 START 障害 END のこととかを考えて2回線いれてる！私はメインがahamo(docomo回線)、サブ回線でpovo( ..."
-        },
-        {
-          "time": "11/16 23:17",
-          "text": "一度一時的に START au END にしたから分かる。 ドコモはね、もうだめだよ。通信クソです。比べ物にならない。 値上げするのも客離れが増えてるせいとかな..."
-        },
-        {
-          "time": "11/16 23:11",
-          "text": "通信 START 障害 END ドコモ テレビで言ってたけど😥 根本的な改善がされてなければ ４回目も有るとか 勘弁してよ〜 やっぱり START au END..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -342,8 +338,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/17 00:12",
+          "text": "今日は地獄のような全面安か… いや通信株の3兄弟がいた〜〜･:*+.\\ (( °ω° ))/.:+ 通信 START 障害 END をものともしないNTT、 S..."
+        },
         {
           "time": "11/16 12:41",
           "text": "ドコモ通信 START 障害 END 起こしすぎだろ やっぱ三大キャリアの中じゃ START KDDI END が一番まともだな"
@@ -351,10 +351,6 @@
         {
           "time": "11/16 12:27",
           "text": "docomo通信 START 障害 END 直前に START KDDI END に乗り換えたのは大正解だったか"
-        },
-        {
-          "time": "11/16 12:13",
-          "text": "START KDDI END 爆上げしてた！ ドコモの通信 START 障害 END 連発のおかげ？？？ https://t.co/Nv3BqqkkXa"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -368,16 +364,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/16 23:50",
+          "text": "次の春需要期は START au END とかソフバン（＋楽天）の営業は楽だろうな。 「docomo？ START 繋がらない END しいざという時不安ですよ..."
+        },
+        {
           "time": "11/16 23:31",
           "text": "@remimoezou 困っています〜💦 でも親戚のおうち（お山のなか、複数のお宅）は、DOCOMOしか START 繋がらない END のでDOCOMOは維持..."
         },
         {
           "time": "11/16 13:48",
           "text": "Docomoについてはマジで夕方の梅田駅 START 繋がらない END し新幹線も一定区間で繋がらなくて、 START AU END はつながるけど値段が上が..."
-        },
-        {
-          "time": "11/16 13:22",
-          "text": "千葉水害のとき docomoはマジで通じなかった。 酷いパケ詰まり。夜中にしか START 繋がらない END 。 家族でdocomoにまとめた直後で被災したけ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -388,7 +384,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/16 23:22",
@@ -426,12 +422,92 @@
     "disaster_count": 1,
     "articles": [
       {
-        "title": "「おじアタック」被害者が明かす体験談と撃退法…5人に1人が「超年上からのアプローチはきつい」と回答(デイリー新潮)",
-        "summary": "10月下旬、Xでは“年上の男性からの困ったアプローチ”、通称「おじアタック」についてさまざまな体験談が寄せられていた。きっかけの一つとなったのは、漫画に描かれた「女子高校生に恋をするアラフォー男性」を",
-        "pub_date": "11/17 05:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/fd69c5a38c75347ff770f95eae25a71c6c254ca1?source=rss",
+        "title": "不正アクセスに要する時間は「771日」から「0秒」へ。AIの悪用で素人でもハッカーになれてしまう“超情報漏洩社会”の恐怖(SPA!)",
+        "summary": "毎日のように報じられている個人情報流出事件。AIの進化に伴い急増するハッキング被害と情報流出に、どう備えればいいのか？ 身を守るためのNG行為や知っておくべき情報流出のカラクリ、ツールを総まくり！",
+        "pub_date": "11/17 08:52 JST",
+        "link": "https://news.yahoo.co.jp/articles/3ad8b19cf17409466b9537401919f1a8a31b76c7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
+      },
+      {
+        "title": "秋の園遊会、愛子さまの振り袖に映える「ナチュラルメイク」の秘密　“暖色の目元”と“マット肌”(AERA DIGITAL)",
+        "summary": "10月29日に開かれた秋の園遊会で、天皇、皇后両陛下の長女、愛子さま（24）は、淡いクリーム色の地に紅葉などの文様をあしらった振り袖姿で出席された。メイクは和装が映えるナチュラルなもので大人びた印象を",
+        "pub_date": "11/17 09:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/d9bf0aeeb81a4325d956238715a5c996899b75bd?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "しし座流星群が今日17日の深夜～18日の明け方に見ごろ　雨上がりに観察チャンス(日本気象協会tenki.jp)",
+        "summary": "しし座流星群が今日17日の深夜～18日の明け方に見ごろを迎えます。月明かりの影響が少なく、好条件です。今夜遅くから明日の明け方にかけては曇りや雨の所が多いですが、近畿や関東など一部では雨上がりに晴れて",
+        "pub_date": "11/17 09:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/3791a82b40f93f103791dbb57934fa942409dd7b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【速報】前橋市でクマ2頭出没　50代男性けが　車のボンネットひっかき逃げる(テレビ朝日系（ANN）)",
+        "summary": "前橋市でクマ2頭出没。50代男性けが。車のボンネットひっかき逃げる。",
+        "pub_date": "11/17 09:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/92fa170a3e5589060eb5aaa712367cc559482538?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【近畿の天気】17日（火）あさ　大阪は晴れのち雨　最高気温は16日と同じぐらいのところが多い予想(読売テレビ)",
+        "summary": "17日（火）の近畿地方の天気です。詳しくは天気動画をご覧ください。",
+        "pub_date": "11/17 09:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/906853f48b9eabab3d3f34c21173f6fb5fef8e40?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "議会民主党がトランプ大統領に仕掛ける「政治的ジレンマの罠」とは？(Wedge（ウェッジ）)",
+        "summary": "11月3日に行われた米中間選挙の結果を見て、ドナルド・トランプ大統領（以下、初出以外人物に付される敬称および官職名略）は、早々と歴史的大勝を果たした民主党に対して祝意のメッセージを送った。その祝福の言",
+        "pub_date": "11/17 09:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/2f7d248411bcad4deef56d3fafb7d90a1cc5b3d8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "せり鍋VS芋煮の頂上決戦　宮城と山形の郷土料理対決、勝ったのは…！？？？？(日本農業新聞)",
+        "summary": "【宮城・仙台】宮城の「仙台せり鍋」と山形の「芋煮」が頂上決戦――。仙台市の一番町四丁目商店街で1日、第6回Omoshe（おもしぇ）秋マルシェが行われ、目玉企画の山形と宮城の郷土料理対決が開かれた。「仙",
+        "pub_date": "11/17 09:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/eb0f998f175a4e399a6dcb76fed8d95e78603d50?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "天皇陛下と雅子さま、バケツ手に取り“すべり台式”の装置でヒラメの赤ちゃんを海へ…笑顔で見守られた「ご放流」の瞬間　約100隻の海上の漁船パレードに手を振り合われる場面も(ABEMA TIMES)",
+        "summary": "11月15日、大阪で行われた「全国豊かな海づくり大会」の式典に出席された天皇陛下と雅子さま。【映像】放流した稚魚を笑顔で見守られるお2人 穏やかな表情で手を振られるお2人に手渡されたのは、これから放流",
+        "pub_date": "11/17 09:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/5eedaee6f017e091dbf093d8d950b94ff5250017?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【社説】福岡市長再選挙　関心を深める好機を得た(西日本新聞me)",
+        "summary": "福岡市民は市政のリーダーを選ぶ権利をもう一度得た。再選挙は異例だが、市政に対する関心をもっと深める好機と受け止めたい。 過去最多の13人が立候補した福岡市長選は当選に必要な法定得票数に誰も届かず、選挙",
+        "pub_date": "11/17 09:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/6b2bf415dc9e93e32de034a9c840d01f83b8f026?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【速報】ネット調査で内閣不支持が上回り！比例投票先は支持傾向が分かれる結果に／2026年11月電話×ネット意識調査(選挙ドットコム)",
+        "summary": "選挙ドットコムはJX通信社と共同で、2026年11月14日（土）、15日（日）に日本国内の18歳以上の方を対象としたハイブリッド調査（電話調査とインターネット調査を同じ設問で同時に行う方式）による全国",
+        "pub_date": "11/17 08:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/9d8d17bccd84503b6fe49b19f356a67c0bfd13d3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "鳥刺し、鳥のたたきは「正直グレー」…食中毒リスクがあっても“生食文化”がなくならない理由、宮崎・鹿児島で聞いた店と客の本音(SPA!)",
+        "summary": "「正直、生で出すのはグレーなんですけどね」 居酒屋の店主はそう言って、筆者の前に鳥刺しの盛り合わせを置いた。部位は鳥のもも肉、ささみ、砂肝、レバー。明らかに鮮度の良い鶏肉はつやつやと輝き、青ネギやミョ",
+        "pub_date": "11/17 08:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/a5236bd3fbd7e96d910891d21f756737c83a9ab4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "“詐欺G立ち上げ中国組織が契機” 謝罪の言葉も(ABEMA TIMES)",
@@ -464,89 +540,9 @@
         "link": "https://news.yahoo.co.jp/articles/4e100ff6a61e5f42f606016480bf8d9645b40359?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "スパコン「富岳」に不正アクセス　利用者の氏名やメールアドレスが漏えいした可能性(テレビ朝日系（ANN）)",
-        "summary": "スーパーコンピュータ「富岳」の運用システムが不正アクセスを受けた問題で、理化学研究所は利用者最大4222人の氏名やメールアドレスが漏洩（ろうえい）した可能性があると発表しました。 理化学研究所によりま",
-        "pub_date": "11/17 08:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/278e9f456fb52a2f817ba33eb6688f931b4bd05f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「シャドウドクターは実在します」モノ言う美容外科医 ″ドラゴン細井″の告白(FRIDAY)",
-        "summary": "SNSに並ぶ症例写真を何度も見比べ、口コミを調べて、ようやく決めた人気の美容外科医。料金が高くても「この先生ならば」と指名。ところが、麻酔で眠っている間に執刀していたのが別のドクターだったとしたら——",
-        "pub_date": "11/17 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/59884443a1ff692602dc13d10eb120ba42cbdd1a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "322gで産まれた長女　母親が抱いた罪悪感と家族に支えられた日々　いま伝えたいのは「お母さんが悪いということは全くない」　11月15日は世界早産児デー(ABCニュース)",
-        "summary": "日本では17人に1人が早産児です。クラスに2人か3人はいる計算になります。それなのに、社会の理解はまだ進んでいません。和歌山と徳島を結ぶ南海フェリーが存続の危機 「なんとしても残したい」両県知事が協議",
-        "pub_date": "11/17 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/4989135fce8fd1f8829bc047805bc37a95999696?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【ニュースto】町内会に入らないとゴミが出せない？任意加入で「ゴミを捨てる権利ある」はずが…訴訟になったケースも！(読売テレビ)",
-        "summary": "町内会の未加入者によるゴミ捨て場の利用をめぐり、SNS上で「町内会に入らないとゴミ出しすらできないのはおかしい」「入らないのに利用したいというのは虫がよすぎる」などと賛否が巻き起こっています。【ニュー",
-        "pub_date": "11/17 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/6fd7aaf7ae91ea558177c2fa286b663a2e1e8ccc?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「飲食店で客と従業員として知り合った」　東京・中野女性刺殺、逮捕の男供述(産経新聞)",
-        "summary": "東京都中野区の路上で16日夜、女性が刺殺され、男が強盗殺人未遂容疑で逮捕された事件で、男が女性について「飲食店で客と従業員として知り合った」と供述していることが17日、捜査関係者への取材で分かった。男",
-        "pub_date": "11/17 07:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/34b4e2b8dac3d7054eb693b7c0eb0f9ca8ffdb1d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "防災庁発足「特別な備え」を「いつもの暮らし」に　関西大教授　小山倫史　防災コラム(産経新聞)",
-        "summary": "令和8年11月2日、「防災庁」が発足しました。災害が頻発化・激甚化する中、政府が掲げる「事前防災の徹底」は、私たちの命と暮らしを守るために欠かせない取り組みです。しかし、「防災」と聞くと、非常食や水を",
-        "pub_date": "11/17 07:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/6baa105bdac6d93da36e7166f50ad9c0b43f3398?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「悲しみや喪失感消えることない」奈良小1女児殺害事件から22年　楓ちゃんの父親が手記(産経新聞)",
-        "summary": "奈良市立富雄北小学校1年の有山楓（かえで）ちゃん＝当時（7）＝が誘拐、殺害された事件の発生から17日で22年となるのに合わせ、楓ちゃんの父、茂樹さん（52）が現在の心境について、奈良県警を通じて手記を",
-        "pub_date": "11/17 07:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/8a492d0f2c682656e88875a754e838c650f6daf8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【大人の教養】なぜイスラム世界は「ジハード」で団結したのか？ 十字軍の知られざる歴史(ダイヤモンド・オンライン)",
-        "summary": "「ジハード」と聞いて、何を思い浮かべるだろうか。多くの日本人は「聖戦」や「異教徒との戦争」を連想するかもしれない。しかし、その理解だけでは、イスラム世界の歴史を見誤ってしまう。1099年、十字軍がエル",
-        "pub_date": "11/17 07:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/c7481f3114794fd077bb2d0acb104d51817b85e5?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "フェイクニュースが広がるのは「人が愚かだから」だけではない。では、なぜ？(ダイヤモンド・オンライン)",
-        "summary": "SNSを見ていると、明らかに怪しそうな情報が、驚くほど多くの人に拡散されていることがある。「どうしてこんな情報を信じてしまうのだろう」「少し調べれば、間違いだとわかるのに」そんなふうに感じたことはない",
-        "pub_date": "11/17 07:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/a634eeab5d2f634e99e893e11af1664ef92f7c42?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「遺体なし・完全黙秘・共犯者自死」の難事件…それでも「求刑超え実刑」が下った大阪・妻傷害致死事件の“決定打”(ABEMA TIMES)",
-        "summary": "2024年5月、大阪市で遺体なき傷害致死死体遺棄事件が発生。妻に暴行を加えて死亡させ、遺体を遺棄したとして傷害致死や死体遺棄などの罪に問われたのは黒木佳史被告（36）だ。【映像】法廷での黒木被告（36",
-        "pub_date": "11/17 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/ed971080b2675ae14c8f4775621cd04f90bc9ef9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-17 08:48:15 JST"
+    "last_updated": "2026-11-17 09:34:01 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

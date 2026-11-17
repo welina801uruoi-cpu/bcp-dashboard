@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17 14:32:36",
+  "timestamp": "2026-11-17 15:31:50",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -235,16 +235,16 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 山陰本線、呉線、可部線 ／ 新幹線: 山陽新幹線（その他））",
+    "text": "運行支障あり（在来線: 山陰本線、山陽本線、呉線 ／ 新幹線: 山陽新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山陰本線、呉線、可部線）",
+    "line_text": "運行支障あり（山陰本線、山陽本線、呉線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
     "troubled_lines": [
       "山陰本線",
-      "呉線",
-      "可部線"
+      "山陽本線",
+      "呉線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）"
@@ -269,11 +269,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中国電力NW: 【停電発生中】山口で停電情報を検知",
+    "power_msg": "中国電力NW: 停電情報なし（中国エリア管内正常）",
     "water_msg": "広島市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "広島ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -313,8 +313,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/17 14:56",
+          "text": "START au END ひかり通信 START 障害 END なんで今起きんだよ。。。"
+        },
         {
           "time": "11/17 14:12",
           "text": "@dartsjunkie0626 START au END の製品なんですね 通信 START 障害 END ではないのですね"
@@ -322,10 +326,6 @@
         {
           "time": "11/17 14:11",
           "text": "ドコモ通信 START 障害 END 起こしまくりらしいな 半年前にドコモから START au END に変えたワイ高みの見物"
-        },
-        {
-          "time": "11/17 13:44",
-          "text": "電気屋でiPhone見てたら案の定店員が寄ってくるんだけど START au END しか眼中にないのにドコモに引き抜こうとあれこれ言われるけどドコモは通信 S..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -362,16 +362,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/17 14:46",
+          "text": "START 繋がらない END が安いahamoを使い続けるか、繋がるがahamoより高い START au END を使うかずっと悩んでる！！その差額ドコモが..."
+        },
+        {
           "time": "11/17 13:52",
           "text": "@cocaineicecream あのさ START au END にしたらストレスが完全に0になった。楽天とか辞めた方がいい。特に電車乗ったら半分の時間は S..."
         },
         {
           "time": "11/17 13:24",
           "text": "昔は START 繋がらない END と言われていたけど、、、 今やこの価格でしっかりつながる #楽天モバイル がコスパ最強！ 今年中に節約したい人にはおすすめ..."
-        },
-        {
-          "time": "11/17 13:13",
-          "text": "START au END ひかりが突然 START 繋がらない END …💦 そんなとき、慌ててルーターを初期化する前に確認したいことがあります。 ✅ 通信障害..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -417,7 +417,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 8,
+    "disaster_count": 7,
     "articles": [
       {
         "title": "関連死、全死者の7割以上　能登地震、3人認定へ(共同通信)",
@@ -476,12 +476,60 @@
         "is_disaster": true
       },
       {
-        "title": "「風に向かって歩けないぐらい」“爆弾低気圧”で台風並みの暴風か 今シーズン初の寒波も…3連休の天気に注意(ABEMA TIMES)",
-        "summary": "17日、竹内青空気象予報士が今後の天気について解説した。 西日本から東日本にかけて雨雲が広がり、関東では局地的に激しい雨が降る恐れがある。竹内気象予報士は「関東の沿岸部では局地的に激しい雨が降る恐れが",
-        "pub_date": "11/17 19:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/7a1c824fcc7101103d33e2b393f430cdda1443b1?source=rss",
+        "title": "いぶりがっこ作り最盛期で急ぐ収穫・タイヤ交換相次ぐ　週末にかけ今季初寒波襲来へ(テレビ朝日系（ANN）)",
+        "summary": "今シーズン初めての寒波を前に、東北では“備え”が始まっています。",
+        "pub_date": "11/18 00:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/6ff6c545a11ebe564349fb570f6f7b1051d577c0?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "栄養士がアレルギー確認怠り生徒が体調不良　書類の改ざんも　東京・板橋区(テレビ朝日系（ANN）)",
+        "summary": "東京・板橋区の中学校で栄養士が食物アレルギーに関する記載の確認を怠り、生徒が体調不良を起こしていたことが分かりました。さらに、栄養士は資料を改ざんし、保護者に嘘の説明をしていたということです。 板橋区",
+        "pub_date": "11/18 00:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/ebc873c925b0646e636addf3f0758a08b2cd19a8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "親グマどこへ？“一斉休校”に…白昼の住宅街にクマ2頭出没　男性1人けが(テレビ朝日系（ANN）)",
+        "summary": "群馬県前橋市の住宅街で、親子とみられるクマ2頭が出没しました。目撃者によりますと、体長60センチほどの小グマと親グマとみられる2頭で、親グマは体長140センチほどあったといいます。クマが出没したのは、",
+        "pub_date": "11/18 00:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/fd7c7e23bc06b90ae203cc6dda51ffea0a219272?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "開園から60年以上…大高緑地リニューアル構想　愛知県　３エリアで自然を感じられる場所やにぎわい創出(メ〜テレ（名古屋テレビ）)",
+        "summary": "愛知県はきのう、名古屋市の大高緑地をリニューアルする構想を発表しました。 名古屋市緑区の大高緑地は1963年に開園し、野球場やテニスコートなどが整備され多くの人に親しまれています。 一方で、開園から6",
+        "pub_date": "11/18 00:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/932acfe22712a3e954691f26e5c090ac4ac22725?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "愛子さま シンガポールに到着(ABEMA TIMES)",
+        "summary": "天皇皇后両陛下の長女・愛子さまが公式訪問先のシンガポールに到着し、滞在先のホテルで出迎えを受けられました。【映像】愛子さまが公式訪問先のシンガポールに到着 愛子さまはきょう夕方、シンガポールのチャンギ",
+        "pub_date": "11/18 00:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/9b5b20a53ab699211e6f6f66ea0268ce27a534fa?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「女性殺して自分も死のうと」東京・中野区 強盗殺人(ABEMA TIMES)",
+        "summary": "東京・中野区の路上で女性が刺され死亡した事件で、逮捕された男が「女性と付き合えなかったら、女性を殺して自分も死のうと考えていた」などと話していることが分かりました。【映像】逮捕の男「付き合えなかったら",
+        "pub_date": "11/18 00:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/775463f86962bd0fac621f5db1f59b06990b29e3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "富山県警の警察官逮捕　当時10代女性に性的暴行などの疑い「欲求満たすためにやった」(テレビ朝日系（ANN）)",
+        "summary": "富山県警の警察官が当時10代の顔見知りの女性に性的暴行を加えたうえ、その様子をスマートフォンで撮影したとして逮捕されました。 富山県警の巡査の男（21）は19歳だった2024年12月29日ごろ、富山県",
+        "pub_date": "11/17 23:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/89eeeda6119c7bc74ecdc753fc79df4e42dc6e90?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "園児送迎車3時間足止めか　威力業務妨害疑い男再逮捕(共同通信)",
@@ -490,57 +538,9 @@
         "link": "https://news.yahoo.co.jp/articles/4227669825b8b93df59125048f65fe16f69881a0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "大阪メトロ株は4特別区で均等割り「大阪市民が築き上げた財産」　都構想の法定協で了承(産経新聞)",
-        "summary": "17日の法定協議会では大阪市が保有する大阪メトロの株式について、特別区に移行する際は原則として各区に均等に承継する方針を決めた。大阪維新の会の委員が「大阪市民が築き上げた株式は市民の貴重な財産」として",
-        "pub_date": "11/17 23:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/e808c81e0e854c881167d28aa3281909aa3b43e1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "法定協試算「大阪市存続なら赤字、特別区にすれば黒字」〝皮算用〟と維新以外から批判噴出(産経新聞)",
-        "summary": "大阪市を廃止して複数の特別区に再編する「大阪都構想」を巡り、制度設計を担う大阪府市の法定協議会の第14回会合が17日、開かれた。特別区に移行した場合と大阪市が存続した場合の双方の財政収支見通しを事務局",
-        "pub_date": "11/17 23:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/e6ab7b6eadf84a204cc4a46c4ebf274298eccf77?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【爆弾低気圧】2つの低気圧が急速に発達　さらに、強烈な寒波も...東日本や西日本の山沿いを中心に積雪の可能性…22日（日）にかけて雪・雨・風のシミュレーション【気象庁17日発表】(RSK山陽放送)",
-        "summary": "■「爆弾低気圧」と「強烈な寒波」気象庁によりますと、急速に発達する低気圧の影響で、北日本から東日本の日本海側を中心に19日から20日頃にかけて強風や高波に注意・警戒が必要だということです。【画像でみる",
-        "pub_date": "11/17 23:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/653b3a8e16414cc9cf4e360b86dbde68552c7b10?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "来春の大阪市長選、自民市議の太田勝己氏が立候補の意向固める「都構想に反対」(産経新聞)",
-        "summary": "任期満了に伴う来春の大阪市長選に、自民党の太田勝己市議（54）＝福島区選挙区＝が無所属で立候補する意向を固めたことが17日、分かった。同日、自民市議団などに出馬の意向を伝えた。自民大阪府連の対応を踏ま",
-        "pub_date": "11/17 23:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/7f34b5a449151f822b59383f6c09e87ca62ba64e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "クアッド首脳会合、共同文書発表　海洋監視へ共同飛行訓練、経済的威圧に「深刻な懸念」(産経新聞)",
-        "summary": "【マニラ＝千田恒弥】日本、米国、オーストラリア、インドは17日、4カ国の協力枠組み「クアッド」の首脳会合をフィリピンの首都マニラで開催した。会合後に発表した共同文書で「自由で開かれたインド太平洋（FO",
-        "pub_date": "11/17 23:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/bff03da457bf1d239b79ba168afa61349dfc7cf1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "日米豪印首脳会合　2年ぶりに開催　中国念頭に現状変更の試みに反対を確認(テレビ朝日系（ANN）)",
-        "summary": "日米豪印4カ国の枠組み「クアッド」の首脳会合が2年ぶりに開かれ、中国を念頭に力や威圧による一方的な現状変更の試みに反対する方針などを確認しました。高市総理大臣「幅広い分野で域内各国の自律性と強靭性を強",
-        "pub_date": "11/17 22:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/8703c471f71a442f66ff63e9555b643ef42f777e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-17 23:31:56 JST"
+    "last_updated": "2026-11-18 00:31:10 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -583,10 +583,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "kx8lpMvOiHw",
+        "video_id": "Kox3RxBJpVo",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/kx8lpMvOiHw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=kx8lpMvOiHw"
+        "embed_url": "https://www.youtube.com/embed/Kox3RxBJpVo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Kox3RxBJpVo"
       },
       {
         "id": "stream_annnews",
@@ -594,10 +594,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "EkPpD2mS0xk",
+        "video_id": "uBgknKq8CAE",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/EkPpD2mS0xk?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=EkPpD2mS0xk"
+        "embed_url": "https://www.youtube.com/embed/uBgknKq8CAE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=uBgknKq8CAE"
       },
       {
         "id": "stream_fnnnews",

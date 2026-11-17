@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17 21:16:42",
+  "timestamp": "2026-11-17 22:17:58",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -179,11 +179,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NORMAL",
-    "summary": "現在、近畿エリア全域（6地域）に警報・注意報の発表はありません。",
+    "status": "NOTICE",
+    "summary": "【注意報発表: 1地域】兵庫（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 0,
+    "notice_count": 1,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -201,11 +201,13 @@
         "code": "28",
         "name": "兵庫県",
         "short_name": "兵庫",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -344,19 +346,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/17 21:56",
+          "text": "【通信 START 障害 END への備えに、もう1回線📱】 普段と違う回線を予備に。 通信 START 障害 END が発生すると大事な時に使えなくなるかも。..."
+        },
+        {
+          "time": "11/17 21:23",
+          "text": "START au END で通信 START 障害 END 起きてないか？"
+        },
         {
           "time": "11/17 21:01",
           "text": "楽天とYahoo!と START au END にNTTは4社携帯事業は統合されてない中でそれぞれの携帯の付加価値考えてただけだから私が統合失調してるだけで私だ..."
-        },
-        {
-          "time": "11/17 19:50",
-          "text": "ドコモの5G SAの通信 START 障害 END って 前に START au END でやらかした大規模 START 障害 END みたいにHSSでの不具合..."
-        },
-        {
-          "time": "11/17 14:56",
-          "text": "START au END ひかり通信 START 障害 END なんで今起きんだよ。。。"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -413,8 +415,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/17 21:56",
+          "text": "【通信 START 障害 END への備えに、もう1回線📱】 普段と違う回線を予備に。 通信 START 障害 END が発生すると大事な時に使えなくなるかも。..."
+        },
         {
           "time": "11/17 16:20",
           "text": "ドームではdocomoが本当に繋がらなさそうなので(ここ最近都会での電波 START 障害 END も多いので) START povo END を副回線で入れて..."
@@ -422,10 +428,6 @@
         {
           "time": "11/17 12:31",
           "text": "通信 START 障害 END の時はデュアルSiMが安心 START povo END は維持費安いし https://t.co/krDS0KnxtL"
-        },
-        {
-          "time": "11/17 12:29",
-          "text": "実際、楽天モバイルから START Povo END 2.0に変更したり、ワイモバイルを3ヶ月お試し利用しても、楽天モバイル比で良くなった気がしないので、このた..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -451,8 +453,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 3,
+    "disaster_count": 6,
     "articles": [
+      {
+        "title": "復縁を拒まれた男が殺したのは、ストーカー被害者の父だった。元警視庁幹部が語る、刃が「家族」に向かうとき(ハフポスト日本版)",
+        "summary": "1998年6月、東京都内の飲食店。朝、店主の男性が開店準備のために出勤してきた。店の中には、ひとりの男が潜んでいた。男は店主に襲いかかり、首や胸をアイスピックで複数回刺した。店主は命を落とした。犯人は",
+        "pub_date": "11/18 07:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/606537f1986da76a4a26e3742b9db6322ee1a38a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "ワンボックスカーと原付バイクが衝突 バイクの16歳男子高校生が意識不明の重体 国道と市道が交わる見通しの良い信号交差点(東海テレビ)",
+        "summary": "17日夜遅く、愛知県犬山市の交差点でワンボックスカーと原付バイクが衝突し、原付バイクに乗っていた16歳の男子高校生が意識不明の重体となっています。 警察によりますと、17日午後10時50分ごろ、犬山市",
+        "pub_date": "11/18 06:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/7c5fce791eca043f435d229eacfcf708ea1a4d44?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "福島・双葉町の2行政区で来月21日　「特定帰還居住区域」初の解除へ(テレビ朝日系（ANN）)",
+        "summary": "福島県双葉町の「特定帰還居住区域」の一部で、来月21日に震災後初めて避難指示が解除される見通しとなりました。 「特定帰還居住区域」は福島第一原発の事故に伴う帰還困難区域のうち復興拠点以外が対象で、希望",
+        "pub_date": "11/18 05:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/e075c4e16e566c6d5c09240f71b230b00def39c3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "千葉・いすみ市に「レベル4」土砂災害危険警報(テレビ朝日系（ANN）)",
         "summary": "気象庁は千葉県のいすみ市に「レベル4土砂災害危険警報」を発表しました。 命に危険を及ぼす土砂災害の恐れが高まっています。厳重な警戒が必要です。 レベル4の危険警報は自治体が避難指示を発令する目安となる",
@@ -478,103 +504,79 @@
         "is_disaster": true
       },
       {
-        "title": "農水相が相次ぎ失速…「また『鬼門』と呼ばれかねない」農水官僚が恐れる“暗黒時代”再来の予感(文春オンライン)",
-        "summary": "日本を動かす官僚の街・霞が関から“マル秘”情報をお伝えする『文藝春秋』の名物コラム「 霞が関コンフィデンシャル 」。最新号から、ダイジェストで紹介します。 【画像】武部新氏◆◆◆",
-        "pub_date": "11/18 06:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/ab350e4a8311e5488a06af4c71edaac9054108f8?source=rss",
+        "title": "《海外王室ファンも“自信に満ちた輝くスター”愛子さまに注目》シンガポール訪問で懸念される“佳子さまのスヤスヤ寝顔動画”の拡散アクシデントとは(NEWSポストセブン)",
+        "summary": "天皇皇后両陛下の長女・愛子さまが11月17日、シンガポールに出発された。ターマン・シャンムガラトナム大統領への表敬訪問や食事会などに出席され、帰国は21日となる予定だ。【写真】シンガポール訪問前、仙洞",
+        "pub_date": "11/18 07:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/d09e9c3b7c367f9ed758fe471364e0efb5d7be00?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "トランプ政権による「ICC赤根所長」制裁で注目を集める“女性皇族”…「名誉法学博士号」を授与されたご両親をお持ちの“プリンセス”の思いとは(デイリー新潮)",
-        "summary": "高円宮ご夫妻の長女で、日本ユニセフ協会に勤める承子さまが「意外なことに関心をお持ちのようだとお聞きしました」と、宮内庁OBが語る。その“意外なこと”とは、国際刑事裁判所（ICC）の赤根智子所長（70）",
-        "pub_date": "11/18 06:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/597db2dcdbc6b4463969ee89d33d3f0c07768e11?source=rss",
+        "title": "《元オウム真理教信徒・菊地直子氏が独占告白》私が手記『逃亡犯』を執筆した理由「間違った報道をそのままにしておけない」「事件を起こした教団に身を置いていた過去は消えない」(NEWSポストセブン)",
+        "summary": "地下鉄サリン事件（1995年）に関与したとして特別指名手配され、17年間にわたり逃亡を続けた元オウム真理教信徒の菊地直子氏（54）。その彼女が、手記『逃亡犯 「走る爆弾娘」と呼ばれて』（講談社・11月",
+        "pub_date": "11/18 07:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/0d06ebf1e3e8a225619cecd6a42f26ee9c545b07?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "団地の管理組合の口座から300万円を引き出して着服した疑い 元理事長の76歳男を逮捕 容疑を否認も余罪捜査(東海テレビ)",
-        "summary": "三重県四日市市にある団地で、管理組合の口座から300万円を横領したとして元理事長の男(76)が逮捕されました。 逮捕されたのは、四日市市の無職・川森博容疑者(76)で、市内の笹川団地にある管理組合の理",
-        "pub_date": "11/18 06:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/cbe5552dbf184bb4b60b6b528ddaa5bc261579f6?source=rss",
+        "title": "パリ育ちの私が教える、後悔しないフランス旅行12のヒント（海外）(BUSINESS INSIDER JAPAN)",
+        "summary": "パリで育った私は、観光客がこの街にある私のお気に入りの場所を見逃しているのをよく目にする。有名な観光名所を訪れる価値は十分にあるが、フランスの首都にある落ち着いたエリアも同様に魅力的だ。もっと多くの観",
+        "pub_date": "11/18 07:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/4b46d6e039b0932b302d54434020c2f88a1739f7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "“世界の真ん中で咲き誇る高市外交”と「安倍外交」との決定的な違い…「米中露首脳会談」で蚊帳の外に置かれた日本が“世界の片隅”に追いやられる危険性(デイリー新潮)",
-        "summary": "前編【「米中露会談」で同床異夢の3首脳が“日本にとって最悪のシナリオ”で一致するリスク…21世紀の「ヤルタ会談」は何をもたらすのか】からの続き──。高市早苗首相が衆院予算委員会で台湾有事に関して「存立",
-        "pub_date": "11/18 06:04 JST",
-        "link": "https://news.yahoo.co.jp/articles/93e735754cdb44443c29df99307af2dfb182edc9?source=rss",
+        "title": "男たちは手軽にテストステロン測定ができるデバイスに列を作っている（海外）(BUSINESS INSIDER JAPAN)",
+        "summary": "近年、アメリカの若年層を中心に疲労感や活力の改善、筋肉量の維持を目的とした「テストステロン補充療法」を利用する人が増えている。そこでテストステロン値の測定が注目を集めている。通常は採血のために医療機関",
+        "pub_date": "11/18 07:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/9dd21ad61f4f1729b5178d1bf31b3a84c0d5f425?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「米中露会談」で同床異夢の3首脳が“日本にとって最悪のシナリオ”で一致するリスク…21世紀の「ヤルタ会談」は何をもたらすのか(デイリー新潮)",
-        "summary": "政治アナリストの伊藤惇夫氏は「日本外交の危機と言っても過言ではありません」と警鐘を鳴らす──。米中首脳会談が19日午後1時45分から、米中露首脳会談は午後3時半から開かれる見通しだ。場所は共に中国の深",
-        "pub_date": "11/18 06:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/c6b4c2212c270205875be0ff7dc74c29c7f8f65a?source=rss",
+        "title": "『JPドラゴン』ナンバー2 山本好孝容疑者「拘束の瞬間」現場写真(FRIDAY)",
+        "summary": "「もうボスも終わりだ。俺は捕まりたくねぇよ……」長らくフィリピンの闇社会を牛耳ってきた日本人犯罪組織『JPドラゴン』のトップ、吉岡竜司容疑者(56)が逮捕されたとき、男はこう漏らした。逃亡生活を続けて",
+        "pub_date": "11/18 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/8cab6f2cf57224babda3146b7710ea608312b776?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "1日約3000キロカロリー 航空自衛隊の「現場メシ」 パイロット限定の\"おやつ\"も 過酷な職務・訓練支える工夫(CBCテレビ)",
-        "summary": "過酷な職務や訓練に日々従事する航空自衛隊員の食事は、どんなものなのか。「現場メシ」に密着しました。【動画】「ご飯がすすむ！むちゃくちゃおいしい」航空自衛隊の“現場メシ”で人気の一品はこちら【2分26秒",
-        "pub_date": "11/18 06:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/b50625dbbf60368b82f3d3682a98c40118864a04?source=rss",
+        "title": "なぜロシア軍はキーウを攻略できなかったのか　戦車を次々と残骸に変えた「ジャベリン」の威力(AERA DIGITAL)",
+        "summary": "圧倒的な戦力を持つとみられていたロシア軍は、なぜウクライナの首都・キーウを攻略できなかったのか。侵攻初期、ロシア軍の戦車部隊に立ちはだかったのは、少人数の対戦車チームと携帯型ミサイル「ジャベリン」だっ",
+        "pub_date": "11/18 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/19b5ea82fe2e4ed468b5fc037a55ecbeb815a686?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "仙台から来た少年らが関与か…愛知で発生した強盗殺人未遂事件 元刑事が典型的なトクリュウ事件との「違い」を指摘(FNNプライムオンライン)",
-        "summary": "愛知県小牧市の住宅に男らが押し入り、高齢の女性が襲われた事件から2日。徐々に事件の背景が見えてきました。【動画で見る】仙台から来た少年らが関与か…愛知で発生した強盗殺人未遂事件 元刑事が典型的なトクリ",
-        "pub_date": "11/18 06:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/40b8579b57c1700f78a68d325e4bd4a400e39497?source=rss",
+        "title": "「高市首相の天皇末裔説」配信の“都市伝説系”YouTuberを政府広報が起用し安全保障をPR…「税金でやるな」と批判殺到(週刊女性PRIME)",
+        "summary": "11月16日、内閣府大臣官房政府広報室が運営するサイト『政府広報オンライン』で、ある“特集”が公開された。その内容をめぐって、世間からは懐疑的な声が多数寄せられる事態となっている。【写真】都市伝説系Y",
+        "pub_date": "11/18 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/1e816bcb4441d85034d403e51f22d7423cdb36cb?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "GMOの高級クルーザーから「熊マーク」が消えた…熊谷代表が語るのを避けてきた“出会い系ビジネス”という原点(デイリー新潮)",
-        "summary": "GMOインターネットグループ代表の熊谷正寿氏（63）は、11月2日の記者会見で“事業で儲けを考えたことなどない”と涙した。それは本当なのか。その足跡をたどると“出会い系ビジネス”に行き当たる……。【写",
-        "pub_date": "11/18 05:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/4fa34292d22c9d780b2e0b26778b16b2499a7ee4?source=rss",
+        "title": "19日の天気（西日本）(共同通信)",
+        "summary": "◆大阪 曇り時々晴れ◆京都 曇り時々晴れ◆広島 曇り時々晴れ◆高松 曇り時々晴れ◆福岡 曇りのち雨◆鹿児島 晴れ時々曇り◆那覇 曇り一時雨",
+        "pub_date": "11/18 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/aee10abac2cc1961d74748ac827b5e0d96ba6da9?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "米「はしか排除」を取り消し　WHO、感染者増加受け(共同通信)",
-        "summary": "【ワシントン共同】世界保健機関（WHO）の米州地域事務局である汎米保健機構（PAHO）は17日、米国のはしか「排除」の認定を取り消したと発表した。今年は過去35年で最多の感染者が確認されているほか、感",
-        "pub_date": "11/18 05:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/982d29f9c95404b18034485d1e636b4694a9a7ee?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "自宅から包丁持参と容疑者　中野女性死亡、事件準備か(共同通信)",
-        "summary": "東京都中野区の路上で女性が刃物で刺され死亡した事件で、強盗殺人未遂容疑で逮捕された職業不詳清武一則容疑者（39）が使用したとみられる刃物は刃渡り約15センチの包丁で「自宅にあったものを持ってきた」と供",
-        "pub_date": "11/18 05:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/8197ff4a0d43fea37be4e2613e386b62b08d8160?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "日米首脳が短時間懇談　中ロ政策擦り合わせか(共同通信)",
-        "summary": "【マニラ共同】高市早苗首相は17日、トランプ米大統領と訪問先のフィリピン・マニラで短時間懇談した。日本政府が18日未明に発表した。中国・深センで19日に開かれる米国、中国、ロシア3カ国首脳会談を前に、",
-        "pub_date": "11/18 05:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/06c6d6d1074992c8ead1dd9b42b6ead0840104b2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "APEC、AI普及で協力深化　声明公表へ、首脳外交ピークに(共同通信)",
-        "summary": "【深セン共同】アジア太平洋経済協力会議（APEC）の首脳会議は18日午後、中国・深センで開幕する。多角的貿易体制の強化やデジタルトランスフォーメーション（DX）の加速、エネルギー供給の安定化を議論。首",
-        "pub_date": "11/18 05:04 JST",
-        "link": "https://news.yahoo.co.jp/articles/f3294ce7dafa8f2f17e672d185ff0cae99719738?source=rss",
+        "title": "19日の天気（東日本）(共同通信)",
+        "summary": "◆札幌 曇り時々雪か雨◆秋田 雨時々止む◆仙台 曇り時々雨◆新潟 雨時々止む◆東京 晴れ◆名古屋 晴れ時々曇り",
+        "pub_date": "11/18 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/69c7514e4ffb8150221ec477035bd65a0952aac3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-18 06:16:05 JST"
+    "last_updated": "2026-11-18 07:17:29 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -639,10 +641,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "UR4R3WQvt9A",
+        "video_id": "R0BlIOH7830",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/UR4R3WQvt9A?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=UR4R3WQvt9A"
+        "embed_url": "https://www.youtube.com/embed/R0BlIOH7830?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=R0BlIOH7830"
       }
     ],
     "cameras": [

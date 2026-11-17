@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17 17:27:40",
+  "timestamp": "2026-11-17 18:17:40",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -346,12 +346,40 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-18 01:29",
-    "place": "熊本県阿蘇地方",
-    "magnitude": "2.4",
+    "shindo": "3",
+    "time": "2026-11-18 02:54",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "3.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-18 02:54",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "3",
+        "magnitude": "3.3",
+        "maxScale": 30
+      },
+      {
+        "time": "2026-11-18 02:54",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "-",
+        "magnitude": "3.3",
+        "maxScale": -1
+      },
+      {
+        "time": "2026-11-18 02:54",
+        "place": "震源情報なし",
+        "shindo": "3",
+        "magnitude": "-",
+        "maxScale": 30
+      },
+      {
+        "time": "2026-11-18 02:35",
+        "place": "島根県西部",
+        "shindo": "1",
+        "magnitude": "3.2",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-18 01:29",
         "place": "熊本県阿蘇地方",
@@ -393,34 +421,6 @@
         "shindo": "1",
         "magnitude": "2.8",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-17 01:45",
-        "place": "宮古島近海",
-        "shindo": "1",
-        "magnitude": "3.9",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-16 13:28",
-        "place": "静岡県東部",
-        "shindo": "1",
-        "magnitude": "2.8",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-16 13:24",
-        "place": "石川県能登地方",
-        "shindo": "1",
-        "magnitude": "5.1",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-16 06:08",
-        "place": "愛知県東部",
-        "shindo": "1",
-        "magnitude": "3.4",
-        "maxScale": 10
       }
     ]
   },
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "ALERT",
-    "summary": "【警報発表: 1地域】千葉（大雨警報） ／ 他21地域で注意報",
+    "summary": "【警報発表: 1地域】千葉（大雨警報） ／ 他22地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 1,
-    "notice_count": 21,
+    "notice_count": 22,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -507,10 +507,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、濃霧注意報",
+        "summary": "濃霧注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -521,11 +521,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "濃霧注意報",
           "波浪注意報",
-          "強風注意報",
-          "濃霧注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、濃霧注意報",
+        "summary": "濃霧注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -558,11 +558,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
+          "波浪注意報",
           "濃霧注意報"
         ],
-        "summary": "波浪注意報、強風注意報、濃霧注意報",
+        "summary": "強風注意報、波浪注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       },
       {
@@ -573,12 +573,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報",
           "大雨注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、大雨注意報、雷注意報",
+        "summary": "大雨注意報、雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -630,12 +630,12 @@
           "大雨警報"
         ],
         "notices": [
-          "波浪注意報",
-          "強風注意報",
           "大雨注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "大雨警報、波浪注意報、強風注意報、大雨注意報、雷注意報",
+        "summary": "大雨警報、大雨注意報、雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -646,11 +646,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -661,10 +661,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/14/"
       },
       {
@@ -754,10 +753,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -876,11 +875,13 @@
         "code": "33",
         "name": "岡山県",
         "short_name": "岡山",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/33/"
       },
       {
@@ -983,11 +984,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -1038,11 +1039,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "濃霧注意報",
           "波浪注意報",
-          "強風注意報",
-          "濃霧注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、濃霧注意報",
+        "summary": "濃霧注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1069,15 +1070,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線24路線: 姫新線、美祢線、釜石線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線24路線: 釜石線、山田線、米坂線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（姫新線、美祢線、釜石線、山田線、米坂線 等 計24路線）",
+    "line_text": "運行支障あり（釜石線、山田線、米坂線、左沢線、陸羽東線 等 計24路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "姫新線",
-      "美祢線",
       "釜石線",
       "山田線",
       "米坂線",
@@ -1085,21 +1084,23 @@
       "陸羽東線",
       "北上線",
       "津軽線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "肥薩線",
+      "指宿枕崎線",
       "小海線",
       "越後線",
       "大井川鉄道大井川本線",
       "万葉線",
-      "草津線",
-      "関西本線",
-      "小浜線",
+      "姫新線",
+      "美祢線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
       "わたらせ渓谷鐵道線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "肥薩線",
-      "指宿枕崎線"
+      "草津線",
+      "関西本線",
+      "小浜線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1192,7 +1193,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】宮城・群馬・千葉・神奈川・長野・三重で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】宮城・群馬・千葉・神奈川・長野で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1278,7 +1279,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/17 16:33",
@@ -1337,7 +1338,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 8,
+    "disaster_count": 7,
     "articles": [
       {
         "title": "千葉・いすみ市に「レベル4」土砂災害危険警報(テレビ朝日系（ANN）)",
@@ -1396,12 +1397,12 @@
         "is_disaster": true
       },
       {
-        "title": "能登地震の関連死、全死者数の7割以上に(共同通信)",
-        "summary": "石川県は17日、2024年の能登半島地震の災害関連死に関する審査で、新たに3人の認定が決まったと発表した。関連死は新潟、富山両県の14人を含め計533人になり、直接死を含めた死者数の7割以上となる見通",
-        "pub_date": "11/17 19:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/98126cf30ef1d59d504812d32cf05fbed9055de7?source=rss",
+        "title": "高市総理　トランプ大統領と短時間の懇談　米中ロ首脳会談を前に連携を確認(テレビ朝日系（ANN）)",
+        "summary": "高市総理はアメリカのトランプ大統領と短時間の懇談を行い、中国などを念頭に今後も緊密に連携していくことを確認しました。 トランプ大統領は19日、APEC（アジア太平洋経済協力会議）が行われる中国の深セン",
+        "pub_date": "11/18 02:52 JST",
+        "link": "https://news.yahoo.co.jp/articles/6f273ea2e051d870e70d21349a59d054e4ee5a42?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
         "title": "高市首相とトランプ大統領が懇談(共同通信)",
@@ -1460,7 +1461,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-18 02:27:38 JST"
+    "last_updated": "2026-11-18 03:17:38 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

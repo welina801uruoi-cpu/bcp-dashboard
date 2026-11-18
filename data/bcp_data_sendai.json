@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18 03:44:49",
+  "timestamp": "2026-11-18 04:42:21",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -180,9 +180,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報",
+        "summary": "波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -193,10 +194,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -218,10 +219,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -232,10 +232,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -313,11 +313,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東北電力NW: 停電情報なし（東北エリア管内正常）",
+    "power_msg": "東北電力NW: 【停電発生中】岩手・福島で停電情報を検知",
     "water_msg": "仙台市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "仙台市ガス局: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -357,8 +357,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/18 03:54",
+          "text": "会社の携帯ソフトバンクなんだけど通信 START 障害 END すぎて途切れる 自分のスマホは START au END だけど室内だと電波悪いから外出て会話よ..."
+        },
         {
           "time": "11/18 03:42",
           "text": "START au END 通信 START 障害 END ？ なんか数時間前から急に繋がらないぞ"
@@ -366,10 +370,6 @@
         {
           "time": "11/18 03:21",
           "text": "START au END で通信 START 障害 END が起きている気がする"
-        },
-        {
-          "time": "11/18 03:05",
-          "text": "START au END 繋がらんぞ😓 機内モードON/OFFもあかん。 wifi繋がっててもアプリの起動もできん…。 メシ注文できんじゃないかｗ 家の回線は繋..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -380,8 +380,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/18 04:04",
+          "text": "START KDDI END NTTドコモ通信 START 障害 END 3回続いてるタイミングでこの機種発表するの凄すぎるだろ！ https://t.co/o..."
+        },
         {
           "time": "11/17 09:59",
           "text": "３回分の START 障害 END を START KDDI END みたいに連続した長期間の1回の START 障害 END ということにすればよかったのにね..."
@@ -389,10 +393,6 @@
         {
           "time": "11/17 09:05",
           "text": "思い出す2022年 START KDDI END 大規模通信 START 障害 END 後の決算発表の時に「うちは安定的に大きな START 障害 END を回..."
-        },
-        {
-          "time": "11/17 00:12",
-          "text": "今日は地獄のような全面安か… いや通信株の3兄弟がいた〜〜･:*+.\\ (( °ω° ))/.:+ 通信 START 障害 END をものともしないNTT、 S..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -403,19 +403,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/18 03:42",
-          "text": "START au END 通信障害？ なんか数時間前から急に START 繋がらない END ぞ"
+          "time": "11/18 04:13",
+          "text": "START au END が START 繋がらない END # START au END #通信障害"
         },
         {
-          "time": "11/18 01:24",
-          "text": "INFOBAR ZERO ネットに START 繋がらない END 、ダムフォン 音声通話＋SMSを基本として、 ２００万がそのカメラと限定音楽機能。 # ST..."
+          "time": "11/18 03:59",
+          "text": "@Hituj79 こんにちは、 START au END サポート皆川です。 START 繋がらない END 症状でお困りとのこと…再起動をしても改善されないご..."
         },
         {
-          "time": "11/17 16:33",
-          "text": "楽天モバイル START 繋がらない END 問題 START AU END バフが切れたとたんスマホが文鎮と化した ネットワークエラーで 音声通話もできん 改..."
+          "time": "11/18 03:52",
+          "text": "START au END ショップの店員が外国人だらけだし、危うく契約だけさせられてインターネットが START 繋がらない END 状態で帰されるところだった..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -468,8 +468,24 @@
     "disaster_count": 7,
     "articles": [
       {
+        "title": "救助困難ベルト設備「数十基」　消費者事故調、各地のスキー場(共同通信)",
+        "summary": "北海道小樽市のスキー場で昨年12月、男児がベルトコンベヤー式エスカレーターに巻き込まれて死亡した事故を受け、消費者安全調査委員会（消費者事故調）が各地のスキー場の同種設備を調べたところ、手足などが巻き",
+        "pub_date": "11/18 13:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/61e61518b8846638a5838fa7e146d7143213e84c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "硫黄島付近で噴火活動で新たな陸地　航空機で観測し確認　海上保安庁(テレビ朝日系（ANN）)",
+        "summary": "東京・小笠原諸島にある硫黄島の付近で火山の噴火があり、新たな陸地が形成されていることが確認されました。気象庁によりますと、硫黄島の南の海岸からおよそ700メートルの場所で、先月27日から噴火が確認され",
+        "pub_date": "11/18 12:44 JST",
+        "link": "https://news.yahoo.co.jp/articles/cf039e523a245b80da3e18f6d6864eaed25b6026?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "元eggモデルを殺害か「自分で頭を打ち付けていた」(テレビ朝日系（ANN）)",
-        "summary": "雑誌の元モデルの女性が殺害された事件で逮捕された交際相手の男が、事件後に、周囲の知人らに「被害者が自分で頭を打ちつけてた。様子がおかしいから救急車呼んだ」などと説明していたことが分かりました。 北原誠",
+        "summary": "雑誌の元モデルの女性が殺害された事件で逮捕された交際相手の男が、事件後に、周囲の知人らに「被害者が自分で頭を打ち付けてた。様子がおかしいから救急車呼んだ」などと説明していたことが分かりました。 北原誠",
         "pub_date": "11/18 12:38 JST",
         "link": "https://news.yahoo.co.jp/articles/629321f56d081b7a17adc53c86f1babcce94f100?source=rss",
         "category": "国内・気象防災",
@@ -477,7 +493,7 @@
       },
       {
         "title": "飲酒運転で女性はね皮膚移植必要な重傷負わせた「危険運転致傷罪」問われた女　弁護側「危険運転」の成立争う主張　被害者は苦しみ訴え「痛みでまともに寝られない。紫外線が傷痕によくないので日中は外に出られず」　(FNNプライムオンライン)",
-        "summary": "飲酒により正常な運転ができない状態で、自転車に乗っていた女性をはね、重傷を負わせた危険運転致傷の罪に問われている女の裁判で、弁護側が「危険運転」の成立を争う主張をした。被害者の女性は関西テレビの取材に",
+        "summary": "飲酒により正常な運転ができない状態で、自転車に乗っていた女性をはね、重傷を負わせた危険運転致傷の罪に問われている女の裁判で、弁護側が「危険運転」の成立を争う主張をした。【写真で見る】飲酒運転で女性はね",
         "pub_date": "11/18 12:33 JST",
         "link": "https://news.yahoo.co.jp/articles/36e33e2fdd77bc66aeb293b3053dcbfc0ec2e7a5?source=rss",
         "category": "国内・気象防災",
@@ -500,22 +516,6 @@
         "is_disaster": true
       },
       {
-        "title": "東京・新橋の複合ビルで火災 消火活動(ABEMA TIMES)",
-        "summary": "東京・新橋のビルで火事があり、現在も消火活動が行われています。 午前10時50分ごろ、港区新橋のビルの1階にある店舗から出火しました。【映像】東京・新橋で火災 消火活動の様子 現在、東京消防庁による消",
-        "pub_date": "11/18 11:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/a1429735fbbe96b6e43f59eab477495f19b07049?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "元eggモデルを殺害か 　逮捕の男｢自分で頭を打ち付けていた｣と知人に説明(テレビ朝日系（ANN）)",
-        "summary": "雑誌の元モデルの女性が殺害された事件で逮捕された交際相手の男が、事件後に周囲の知人らに「被害者が自分で頭を打ちつけてた。様子がおかしいから救急車呼んだ」などと説明していたことが分かりました。北原誠容疑",
-        "pub_date": "11/18 11:55 JST",
-        "link": "https://news.yahoo.co.jp/articles/aa3e5b1b3d5a104e4359c9d323181ad29d59e13b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "ミセス 20日のMステ出演見合わせ",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/18 12:05 JST",
@@ -524,71 +524,71 @@
         "is_disaster": true
       },
       {
-        "title": "栃木・鹿沼市でイノシシ1頭の目撃情報 市が注意呼びかけ(ABEMA TIMES)",
-        "summary": "栃木県鹿沼市が公式Xでイノシシの目撃情報を発表しました。「環境保全課からのお知らせです。【映像】栃木・鹿沼市でイノシシの目撃情報 11/17 19:30頃に茂呂地内（西茂呂近隣公園南東150m付近）で",
-        "pub_date": "11/18 12:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/c422e808e14a188ae57ec06cee1269f4acb61379?source=rss",
+        "title": "区保健所内の一室を勝手に「たばこ部屋に」職員6人懲戒処分、東京・中野区　管理責任者も(産経新聞)",
+        "summary": "東京都中野区は、区保健所内の一室を施設管理者の許可なく「喫煙場所」として使用していた31～63歳の職員6人を17日付で戒告の懲戒処分にしたと発表した。健康増進法では行政機関の庁舎内での喫煙が禁止されて",
+        "pub_date": "11/18 13:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/30111749107e426d76ba36631607781f3c882ac2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "埼玉・熊谷市でイノシシの出没情報 県警が注意呼びかけ(ABEMA TIMES)",
-        "summary": "埼玉県警察本部生活安全総務課が公式Xで熊谷市でイノシシが出没したことを発表しました。【映像】埼玉・熊谷市にイノシシの出没情報「11月18日（水）午前8時40分ころ、平戸地内で、イノシシ（体長1メートル",
-        "pub_date": "11/18 12:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/613985fd3480d9536efdfe6c3b0bbd56867b312d?source=rss",
+        "title": "衆院議員定数31議席削減法案　各党が意見表明　与党　今国会での成立目指す(テレビ朝日系（ANN）)",
+        "summary": "衆議院の政治改革特別委員会で、衆議院議員の定数を比例代表のみで31議席削減することを柱とする法案について、与野党が意見表明を行いました。自由民主党 長谷川淳二衆院議員「議員定数につきましては、我が党は",
+        "pub_date": "11/18 13:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/48447746524ab2ca0e3e87de9d0160894e0a7004?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "3歳娘に暴行、死なせた疑いで父親逮捕(共同通信)",
-        "summary": "兵庫県伊丹市で3歳の娘に暴行を加えて死亡させたとして、県警が傷害致死の疑いで、父親を逮捕したことが18日、捜査関係者への取材で分かった。",
-        "pub_date": "11/18 12:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/ee805bb7b6ebbf39546cd343cef69c0ec6b7d731?source=rss",
+        "title": "食料品消費減税で物価高「改善する」は3割！減税に対する冷静な民意とは？11月電話×ネット意識調査結果【JX米重克洋氏解説】(選挙ドットコム)",
+        "summary": "2026年11月18日公開の「選挙ドットコムちゃんねる」では、選挙ドットコムとJX通信社による2026年11月の最新意識調査結果をJX通信社代表の米重克洋氏が解説します！臨時国会の重要テーマとなってい",
+        "pub_date": "11/18 13:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/581fa0906ddc31dd6e6288f72372fd8b0dfdffd3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "比例31削減法案巡り意見表明　与野党、衆院政治改革特別委(共同通信)",
-        "summary": "与野党は18日の衆院政治改革特別委員会で、自民、日本維新の会、国民民主の3党が共同提出した選挙制度改革法案に対する意見表明を実施した。衆院比例代表定数の31削減が柱で、国民民主を除く野党は反対する姿勢",
-        "pub_date": "11/18 12:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/cdba88e448625b119dc135ff1c74756be136bb02?source=rss",
+        "title": "3歳娘暴行し死なせた疑い、兵庫　県警が父親を逮捕(共同通信)",
+        "summary": "兵庫県伊丹市で3歳の娘に暴行を加えて死亡させたとして、傷害致死の疑いで、県警が父親の男を逮捕したことが18日、捜査関係者への取材で分かった。 捜査関係者によると、頭に強い衝撃が加わり死亡したとみられ、",
+        "pub_date": "11/18 13:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/9b91fc54002c5bf2273db1ff36bb1195ab6b9d6e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「大変申し訳ない」と文科相(共同通信)",
-        "summary": "関芳弘文部科学相は、経済産業省側に政治資金パーティーに該当する会合だと伝わっていなかったとして「大変申し訳なく思う」と陳謝した。違法性については「法令に従って開催している」と否定した。",
-        "pub_date": "11/18 12:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/1d2e1ee2ca1ddbf29576351b53a45c8b86bd6abc?source=rss",
+        "title": "木原長官「日ロ間の問題解決に取り組む」　18日夜にも日ロ首脳が接触(テレビ朝日系（ANN）)",
+        "summary": "木原官房長官は中国・深センでの日ロ首脳の接触について「何ら決まっているものはない」としたうえで、2国間の問題についてロシア側と意思疎通して解決に取り組んでいく姿勢を示しました。木原官房長官「ロシアは我",
+        "pub_date": "11/18 13:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/cb0979cdcfe4c36d77236e4437d9dea78520a6cd?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "指輪など2500万円相当盗んだか ショッピングモール閉店まで潜み…(テレビ朝日系（ANN）)",
-        "summary": "茨城県守谷市のショッピングモールで閉店まで身を隠し、指輪などおよそ2500万円相当を盗んだとして31歳の男が逮捕されました。 小林翔吾容疑者（31）は9月、守谷市のショッピングモールに侵入し、貴金属販",
-        "pub_date": "11/18 12:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/026a659e51758ece39ec083150c3a60fc1971b3a?source=rss",
+        "title": "パーティーに経産省課長も　関文科相、事務説明で陳謝(共同通信)",
+        "summary": "関芳弘文部科学相は18日の参院特別委員会で、2024年3月に東京都内のホテルで開いた自身の政治資金パーティーに経済産業省の課長を呼び、事務説明をさせていたと明らかにした。バイオ医薬品などの企業関係者が",
+        "pub_date": "11/18 13:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/c9acfcc3bb93f514de70232976f415a1908730b9?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "自民･萩生田幹事長代行「次はそういうわけにいかない」 市長選再選挙で広がる余波 構図は不透明 【福岡発】(FNNプライムオンライン)",
-        "summary": "11月15日に投開票が行われた福岡市長選挙。どの候補も法定得票数を獲得できず、再選挙となった。その余波が広がっている。【画像】自民･萩生田幹事長代行「次はそういうわけにいかない…」 市長選再選挙で広が",
-        "pub_date": "11/18 12:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/1732866f26ef36defd96cbe4f703fb2a081959a5?source=rss",
+        "title": "「楓、生まれてきてくれて本当にありがとう」　22年前に7歳で命を奪われた有山楓ちゃん　父親が手記を公表　幼かった友達は“教師”として子供たちに思い伝える「頑張っていることが幸せなこと」(FNNプライムオンライン)",
+        "summary": "22年前の11月17日、奈良市で小学1年の有山楓ちゃんが下校途中に誘拐され、命を奪われた。【関連記事】元捜査一課長が語る真相 防カメに映った1台の車 GPS機能ない中での携帯解析父親の茂樹さんが手記を",
+        "pub_date": "11/18 13:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/cfc961a3065c47c87a7f165fe885fc379d27bd05?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "愛子さま、大統領を表敬　シンガポール(共同通信)",
-        "summary": "【シンガポール共同】天皇、皇后両陛下の長女愛子さまは18日、シンガポールの大統領府を訪れ、シャンムガラトナム大統領を表敬訪問された。 日本とシンガポールの外交関係樹立60周年に際した公式訪問で、愛子さ",
-        "pub_date": "11/18 12:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/8e1b0c59376b47a503274a3cba4eaedeeffba6d5?source=rss",
+        "title": "「陛下は必ず『反省』という言葉を口になさる」　石破茂前首相、天皇陛下の「おことば」なき式典に「悲しくて残念」(J-CASTニュース)",
+        "summary": "石破茂前首相が2026年11月17日、早稲田大学（東京都新宿区）で講演し、4月29日に政府主催で行われた「昭和100年記念式典」で天皇陛下の「おことば」がなかったことについて、「本当に悲しくて残念なこ",
+        "pub_date": "11/18 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/4758a6a1acb561afe883098173d2708767c17874?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-18 12:44:22 JST"
+    "last_updated": "2026-11-18 13:41:52 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -609,10 +609,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "GTQNhhDtC0o",
+        "video_id": "V7Pj4z6tk9A",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/GTQNhhDtC0o?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=GTQNhhDtC0o"
+        "embed_url": "https://www.youtube.com/embed/V7Pj4z6tk9A?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=V7Pj4z6tk9A"
       },
       {
         "id": "stream_tbsnews",

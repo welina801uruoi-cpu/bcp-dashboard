@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 07:02:37",
-  "timestamp_local": "2026-11-19 03:32:37",
+  "timestamp": "2026-11-19 07:46:59",
+  "timestamp_local": "2026-11-19 04:16:59",
   "country": {
     "id": "india",
     "name": "インド",
@@ -289,7 +289,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 20,
+    "count_24h": 21,
     "summary": "M5.1 (157 km S of Attu Station, Alaska)",
     "latest": {
       "mag": 5.1,
@@ -306,6 +306,14 @@
         "time": "11/19 06:28 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubw3",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.7,
+        "place": "134 km SW of Lorengau, Papua New Guinea",
+        "time": "11/19 05:38 JST",
+        "depth_km": 16.856,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubvu",
         "tsunami": 0
       },
       {
@@ -411,19 +419,95 @@
         "depth_km": 52.291,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyx2",
         "tsunami": 0
-      },
-      {
-        "mag": 4.8,
-        "place": "134 km ENE of Nabire, Indonesia",
-        "time": "11/18 12:23 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywx",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "1年ぶりの短い握手…習主席・高市首相の首脳会談は見送りか(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/49e97778b72f257444a121a8fa82a8577a49c38d?source=rss",
+        "description": "高市早苗首相と中国の習近平国家主席が18日、約1年ぶりに握手を交わした。両国関係を冷え込ませた「台湾有事介入」発言の余波がまだ収まらない中、中国広東省深圳で開かれたアジア太平洋経済協力会議（APEC）",
+        "pub_date": "11/19 07:33 JST",
+        "is_priority": false
+      },
+      {
+        "title": "李大統領と対面の習近平主席「朝米対話など朝鮮半島の緊張緩和の努力支持」(ハンギョレ新聞)",
+        "link": "https://news.yahoo.co.jp/articles/d1ae9b4a7ef6efefbbe9ec453fd1c6cfd1592712?source=rss",
+        "description": "中国の習近平国家主席は18日（現地時間）、李在明（イ・ジェミョン）大統領に対し、朝米対話などの朝鮮半島の緊張緩和に向けた様々な取り組みを支持するとの立場を表明した。李大統領に南北の緊張緩和と平和共存の",
+        "pub_date": "11/19 07:29 JST",
+        "is_priority": false
+      },
+      {
+        "title": "韓中、サービス・投資FTA妥結（2）(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/ac1c8ccc6bbc1e5391284d319853c99d98262d83?source=rss",
+        "description": "李大統領は現在両国が実施している出入国利便化措置を持続し、人的交流の規模も限韓令以前の水準に復元しようと提案した。李大統領は「韓中関係が全面復元を超えさらに成熟した戦略的協力パートナー関係に発展するこ",
+        "pub_date": "11/19 07:20 JST",
+        "is_priority": false
+      },
+      {
+        "title": "韓中、サービス・投資FTA妥結（1）(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/503a0c14f0a31774cd7574eac23425b91f1e7b66?source=rss",
+        "description": "韓国の李在明大統領と中国の習近平国家主席が18日、韓中自由貿易協定（FTA）サービス・投資後続交渉の実質的な妥結を宣言した。2015年12月に本協定が発効されてから約11年ぶりで、2018年3月に後続",
+        "pub_date": "11/19 07:20 JST",
+        "is_priority": false
+      },
+      {
+        "title": "エヌビディアのカリスマ会長を籠絡した「中国人女スパイ」の素顔　大学院の同級生は「笑顔を見るだけで心を奪われた」　騒動後は姿をくらます(NEWSポストセブン)",
+        "link": "https://news.yahoo.co.jp/articles/033d6ce5887d25d4009521ad5c1ec33d4e95d841?source=rss",
+        "description": "いまや日本人の日常生活にも溶け込みつつある生成AI技術。その開発に欠かせないAI半導体の世界シェア約8割を握る米巨大企業「エヌビディア」で、前代未聞の大スキャンダルが持ち上がっている。【写真】昨年5月",
+        "pub_date": "11/19 07:15 JST",
+        "is_priority": false
+      },
+      {
+        "title": "中国、ステルス無人攻撃機「GJ-11」の鮮明な映像を初公開…米露との違いは？（海外）(BUSINESS INSIDER JAPAN)",
+        "link": "https://news.yahoo.co.jp/articles/2539b09049661ee42d3fe84f1474c70cd5219fd6?source=rss",
+        "description": "中国は、敵陣の奥深くにある目標を攻撃する大型無人機「GJ-11（攻撃11）」の新たな映像を公開した。中国政府は、GJ-11は地上の目標を攻撃するためのステルス無人攻撃機で、戦闘機と連携した任務も遂行で",
+        "pub_date": "11/19 07:10 JST",
+        "is_priority": true
+      },
+      {
+        "title": "アリス・ファン氏、日本にもデータセンター企業を設立…「半導体輸出の迂回ルートとの疑い」(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/1a3a571e817b2cd199784ceb26ca9878c027492c?source=rss",
+        "description": "エヌビディアの最先端半導体を中国に持ち出した疑惑が浮上し、中国のスパイと指摘されたアリス・ファン氏（中国名・黄楽）が、日本にもデータセンター企業を設立していたと報じられた。これについて日本メディアは、",
+        "pub_date": "11/19 07:04 JST",
+        "is_priority": false
+      },
+      {
+        "title": "エヌビディアCEOを陥れた中国の「ハニートラップ」疑惑…米情報機関が警告する恐るべき工作の実態(ニューズウィーク日本版)",
+        "link": "https://news.yahoo.co.jp/articles/736bcdc6d61faad2b16b30b3654968b077bd3413?source=rss",
+        "description": "CIAの北京支局長を務めた後、キース・リギンはアメリカ企業に中国情報機関の脅威について助言をしてきた。北京で接近してくる美女については、単純明快にこうアドバイスするという。「中国に行ったからといって、",
+        "pub_date": "11/19 07:04 JST",
+        "is_priority": false
+      },
+      {
+        "title": "既婚と未婚の男性の収入格差「結婚ジニ係数」で見えてくる、地域によって違う男性の経済力への期待値(ニューズウィーク日本版)",
+        "link": "https://news.yahoo.co.jp/articles/e927aade6e92d26ce87a8cd9ee321f4cff054ad2?source=rss",
+        "description": "未婚化が止まらない。結婚期である25～34歳の男性既婚者数は2007年では349万人だったが、2022年では226万人に減少している（総務省「就業構造基本調査」）。123万人の減だが、このうちの95万",
+        "pub_date": "11/19 07:03 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ブラジル柔道の「扉」開いた戦後移民＝石井千秋氏が遺した日伯の絆とメダル＝異国の地に刻まれた偉大な足跡(ブラジル日報)",
+        "link": "https://news.yahoo.co.jp/articles/19317892b2ce95fdff9adc16011986f89111dcfa?source=rss",
+        "description": "85歳でこの世を去ったブラジル柔道界の先駆者、石井千秋氏の35日法要が11月14日、サンパウロ市でしめやかに執り行われた。浄土真宗の飯田放光（ほうこう）導師によるこの法要には、約120人が集まった。ハ",
+        "pub_date": "11/19 07:02 JST",
+        "is_priority": false
+      },
+      {
+        "title": "国際秩序の主導権握ろうとする習近平氏、トランプ氏に見せつけるように多国間主義を訴えた(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/e19fcb234a1cfaea6173a115f4225f6a2b7d5cf7?source=rss",
+        "description": "中国の習近平国家主席は18日、同国深圳で開かれたアジア太平洋経済協力（APEC）最高経営責任者（CEO）サミットの基調演説で、新たな国際秩序を主導する中国の役割を強調した。米中ロ首脳が史上初めて顔を合",
+        "pub_date": "11/19 07:02 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ロシア本土と結ぶクリミア橋、車道のアーチと一部区間が崩落　ウクライナが無人機とミサイルで集中打撃(Forbes JAPAN)",
+        "link": "https://news.yahoo.co.jp/articles/9d2c98505ac1337822979b4965f851f6b8ebd998?source=rss",
+        "description": "ウクライナからの報告。1728日目■ウクライナの攻撃でケルチ橋が崩落するウクライナは11月16日から17日にかけての夜、ロシア本土とロシア占領下のウクライナ南部クリミア半島を結ぶケルチ（クリミア）橋を",
+        "pub_date": "11/19 07:00 JST",
+        "is_priority": false
+      },
       {
         "title": "《ブラジル》女性起業家集う「GEMA FAIR」＝12月5、6日にリベルダーデで(ブラジル日報)",
         "link": "https://news.yahoo.co.jp/articles/cc64ccac6058eebfb4b85929f1c5995c4e639554?source=rss",
@@ -478,90 +562,6 @@
         "link": "https://news.yahoo.co.jp/articles/04d59a30cb2588f5df94bec92f94d3f2d64c723d?source=rss",
         "description": "ロシアのウラジーミル・プーチン大統領は、米中ロ3カ国首脳会談を翌日に控えた18日、中国・深圳でロシアの影響力を誇示するとともに、欧州を露骨におとしめた。「第2のヤルタ会談」を懸念する欧州で不安が高まる",
         "pub_date": "11/19 06:42 JST",
-        "is_priority": false
-      },
-      {
-        "title": "ロシア「報道の自由」の最後の砦が消えた…ノーベル平和賞受賞者が率いた独立系新聞、33年の歴史に幕(ニューズウィーク日本版)",
-        "link": "https://news.yahoo.co.jp/articles/74edd5b05400c088e07a947beb379a9b0197a022?source=rss",
-        "description": "ロシアの独立系新聞ノーバヤ・ガゼータが廃刊した。「ロシアにまだわずかに残る報道の自由にとって極めて悪い兆候だ」と、同紙に16年勤続したジャーナリスト、エレナ・ラチェワは本誌に語る。廃刊当日、ノーバヤ・",
-        "pub_date": "11/19 06:40 JST",
-        "is_priority": false
-      },
-      {
-        "title": "ウクライナ排除に警戒感表明　ゼレンスキー氏、米中ロ会談前に(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/997721937a562304e07a7508600f0ca9d812a630?source=rss",
-        "description": "【キーウ、ベルリン共同】ロシアの侵攻を受けるウクライナのゼレンスキー大統領は18日のビデオ演説で「ウクライナの問題はウクライナの参加によって解決されなければならない」と述べ、和平交渉から当事国を排除し",
-        "pub_date": "11/19 06:26 JST",
-        "is_priority": false
-      },
-      {
-        "title": "ガザで作戦、住民退避　イスラエル軍、戦車投入(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/492139ce45288c55567415c964c4c949e27cbfb0?source=rss",
-        "description": "【エルサレム共同】イスラエル軍は18日、パレスチナ自治区ガザの一部地域で作戦を開始したと発表した。イスラム組織ハマスの地下トンネルが標的だとしている。軍は昨年10月の停戦発効後も局地的に攻撃を続けてい",
-        "pub_date": "11/19 06:21 JST",
-        "is_priority": false
-      },
-      {
-        "title": "ロシア旅客機に爆破予告　COP31開催のトルコ南部(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/a1534f9c1774d13c1ace24756115c30574ac3563?source=rss",
-        "description": "【イスタンブール共同】ロシア南部スタブロポリ地方からトルコ南部アンタルヤに向かっていた旅客機に18日、爆破予告があり、アンタルヤの空港に着陸後、治安当局が機内を捜索する騒ぎがあった。アンタルヤ県知事府",
-        "pub_date": "11/19 06:16 JST",
-        "is_priority": false
-      },
-      {
-        "title": "《国営テレビ元エースが“命がけ”で告発》公式支持率68％の裏で「不安」を訴える国民が57％…余裕をなくしつつある“ウラジーミル・プーチンのリアル”(文春オンライン)",
-        "link": "https://news.yahoo.co.jp/articles/8929aca7ce96f1caf4985beb6727a1a0b60b2877?source=rss",
-        "description": "表向きの支持率は約7割。だが、ロシア国民は本当にプーチンを信じているのか――。いま日本で公開される2本のドキュメンタリー映画が、鉄のカーテンの奥にある「沈黙の反乱」を暴き出している。地方の学校で愛国教",
-        "pub_date": "11/19 06:12 JST",
-        "is_priority": false
-      },
-      {
-        "title": "トランプ氏「国民に失望」…惨敗後の“殊勝な態度”は終了し、進む民主党対策　与野党が手を組めるのは「エヌビディア前CEO」で盛り上がる対中強硬策のみ(デイリー新潮)",
-        "link": "https://news.yahoo.co.jp/articles/634421f7656d24f87c0f2e5fe591a562b0151d9a?source=rss",
-        "description": "中間選挙の敗北直後は殊勝な態度を示していたトランプ米大統領だが、このところは本来の言動に戻った感がある。【写真】エヌビディア前CEOの「謎のお相手女性」…米与野党が共闘する「唯一の理由」に？",
-        "pub_date": "11/19 06:00 JST",
-        "is_priority": false
-      },
-      {
-        "title": "コクヨの「研究所向けのペン」がキッチンで大活躍。ストレスなく食品ロスを防げた(BUSINESS INSIDER JAPAN)",
-        "link": "https://news.yahoo.co.jp/articles/2bebd52d6b2d77d697277570b5c309ca80954e88?source=rss",
-        "description": "消えてほしくない文字を書く場合、油性ペンを使うことが多い。しかし、油性ペンも消えてしまうことは多々ある。とくにアルコールスプレーを日常的に使うキッチンでは、間違ってかかってしまうとこするだけで消えてし",
-        "pub_date": "11/19 06:00 JST",
-        "is_priority": false
-      },
-      {
-        "title": "APEC首脳会議 晩餐会で習主席があいさつ　午後には米中ロ首脳会談も(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/63699d8dc1ea7e43c8bfa7a63e33f77aadff5e09?source=rss",
-        "description": "中国・深圳でAPEC首脳会議の歓迎晩餐（ばんさん）会が開かれ、ホストを務める習近平国家主席は「アジア太平洋共同体」を構築していこうと呼び掛けました。中国 習近平国家主席「みなさんとともにアジア太平洋協",
-        "pub_date": "11/19 05:50 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米中ロ3カ国首脳、午後初会談へ　国際情勢担う地位誇示(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/6523bd601ef1ef0014c6452472f2bf51368426dd?source=rss",
-        "description": "【深セン共同】トランプ米大統領と中国の習近平国家主席、ロシアのプーチン大統領は19日午後、中国・深センで史上初の米中ロ首脳会談を開催する。核軍縮や地域紛争を巡り協議。国際情勢を取り仕切る主要国の地位に",
-        "pub_date": "11/19 05:39 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米国防長官がベネズエラ訪問　マドゥロ大統領拘束後、初(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/65222053c344893ab06b4503dea8687f14ce7004?source=rss",
-        "description": "【ワシントン共同】AP通信によると、ヘグセス米国防長官は18日、ベネズエラの首都カラカスで、ロドリゲス暫定大統領と会談した。トランプ米政権が1月に同国の反米左派マドゥロ大統領を拘束して以降、国防長官の",
-        "pub_date": "11/19 05:31 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米、黒人初の下院議長誕生へ　1月、民主ジェフリーズ氏(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/469dbf33ac818590a13d894fc964df80eb3636d7?source=rss",
-        "description": "【ワシントン共同】米中間選挙で勝利した民主党は18日、来年1月招集の新議会の議長候補に下院党トップで黒人のハキーム・ジェフリーズ院内総務（56）を選出した。新議会で民主党は多数派を握るため、米史上初め",
-        "pub_date": "11/19 05:28 JST",
-        "is_priority": false
-      },
-      {
-        "title": "オブザーバー参加に意欲　ポーランド、日英伊戦闘機計画(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/e29dc630d4fd98c22ce5d10482c6434fa3f7242d?source=rss",
-        "description": "ポーランドのシコルスキ外相は18日、日本と英国、イタリアが進める次期戦闘機開発計画「グローバル戦闘航空プログラム（GCAP）」について「オブザーバーとしての参加に関心を持っている」と表明し、参画に意欲",
-        "pub_date": "11/19 05:17 JST",
         "is_priority": false
       }
     ],
@@ -679,7 +679,7 @@
     "default_channel_id": "stream_ndtv_live"
   },
   "forex": {
-    "timestamp": "11/19 07:02 JST",
+    "timestamp": "11/19 07:46 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -702,9 +702,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.81,
-      "change": -0.63,
-      "change_pct": -0.36
+      "rate": 174.82,
+      "change": -0.62,
+      "change_pct": -0.35
     }
   },
   "airports": [
@@ -747,11 +747,11 @@
         "is_capital": true,
         "lat": 28.6139,
         "lon": 77.209,
-        "temp": 15.4,
-        "apparent_temp": 15.1,
-        "humidity": 72,
-        "wind_speed": 2.3,
-        "wind_gusts": 4.0,
+        "temp": 15.1,
+        "apparent_temp": 14.8,
+        "humidity": 74,
+        "wind_speed": 2.4,
+        "wind_gusts": 5.0,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -792,11 +792,11 @@
         "is_capital": false,
         "lat": 19.076,
         "lon": 72.8777,
-        "temp": 25.4,
-        "apparent_temp": 24.8,
+        "temp": 25.1,
+        "apparent_temp": 24.3,
         "humidity": 47,
-        "wind_speed": 10.5,
-        "wind_gusts": 21.6,
+        "wind_speed": 11.2,
+        "wind_gusts": 23.0,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -837,11 +837,11 @@
         "is_capital": false,
         "lat": 12.9716,
         "lon": 77.5946,
-        "temp": 19.4,
-        "apparent_temp": 19.0,
-        "humidity": 59,
-        "wind_speed": 5.6,
-        "wind_gusts": 12.2,
+        "temp": 19.2,
+        "apparent_temp": 18.7,
+        "humidity": 61,
+        "wind_speed": 6.2,
+        "wind_gusts": 12.6,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -883,11 +883,11 @@
       "is_capital": true,
       "lat": 28.6139,
       "lon": 77.209,
-      "temp": 15.4,
-      "apparent_temp": 15.1,
-      "humidity": 72,
-      "wind_speed": 2.3,
-      "wind_gusts": 4.0,
+      "temp": 15.1,
+      "apparent_temp": 14.8,
+      "humidity": 74,
+      "wind_speed": 2.4,
+      "wind_gusts": 5.0,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
@@ -922,7 +922,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/19 07:02 JST"
+    "timestamp": "11/19 07:46 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -951,7 +951,7 @@
         "details": "デリーメトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/19 07:02 JST"
+    "timestamp": "11/19 07:46 JST"
   },
   "lifeline": {
     "status": "NORMAL",

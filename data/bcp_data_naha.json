@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18 22:02:08",
+  "timestamp": "2026-11-18 22:46:25",
   "location": {
     "name": "那覇",
     "region_name": "沖縄エリア",
@@ -32,11 +32,25 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-19 06:54",
+    "time": "2026-11-19 07:14",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.8",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-19 07:14",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-19 07:10",
+        "place": "熊本県熊本地方",
+        "shindo": "1",
+        "magnitude": "2.5",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-19 06:54",
         "place": "熊本県天草・芦北地方",
@@ -92,20 +106,6 @@
         "shindo": "1",
         "magnitude": "2.5",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 04:37",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "2.9",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-19 04:30",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "3.1",
-        "maxScale": 20
       }
     ]
   },
@@ -135,10 +135,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -324,8 +324,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 12,
+    "disaster_count": 4,
     "articles": [
+      {
+        "title": "「徳重地区会館の体育室」で天井がはがれ落ち 現在も利用中止　愛知震度5強の地震で　名古屋・緑区(中京テレビＮＥＷＳ)",
+        "summary": "名古屋市によりますと11月8日午前、緑区にある「徳重地区会館」の体育室で、ステージの天井から縦90センチほど・横21センチほどの、石こうボードがはがれ落ちているのが見つかりました。【画像】天井などの破",
+        "pub_date": "11/19 07:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/b046dacdf6abe437114cbf191c76bcfe5e167f72?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "地震の影響で…体育室の天井の一部がはがれ落ちる 点検のため利用中止に 名古屋・緑区(CBCテレビ)",
         "summary": "今月8日に起きた地震の影響で、名古屋市緑区の徳重地区会館の体育室の天井の一部がはがれ落ちる被害がありました。【写真を見る】地震の影響で…体育室の天井の一部がはがれ落ちる 点検のため利用中止に 名古屋・",
@@ -343,78 +351,6 @@
         "is_disaster": true
       },
       {
-        "title": "熊本で未明に震度5弱　M5.7、津波の心配なし(共同通信)",
-        "summary": "19日午前2時22分ごろ、熊本県の水俣市や芦北町などで震度5弱の地震があった。気象庁によると、震源は熊本県天草・芦北地方で深さは約10キロ。マグニチュード（M）は5.7と推定される。この地震による津波",
-        "pub_date": "11/19 05:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/5c034c73523d3ece9fe25d96b51ae98eccd395a2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本で震度5弱 1人が気分不良で搬送 高速道路で一部通行止めも(テレビ朝日系（ANN）)",
-        "summary": "熊本県の天草・芦北地方で最大震度5弱を観測した地震で、震度5弱を観測した水俣市など5つの市町村では19日午前3時5分現在、被害に関する情報は入っておらず、引き続き情報収集にあたっています。 消防により",
-        "pub_date": "11/19 03:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/d5bb329d476e08015cef100d9d9d390fb7b31747?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本県で震度5弱を観測　マグニチュード5.7、津波の心配なし(産経新聞)",
-        "summary": "10月19日午前2時22分ごろ、熊本県で震度5弱の地震があった。気象庁によると、震源地は熊本県天草・芦北地方、震源の深さは約10キロ。地震の規模を示すマグニチュード（M）5.7と推定される。この地震に",
-        "pub_date": "11/19 03:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/50f608f270a253ecda428bf4f5a68c44aba12f1e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本で震度5弱(共同通信)",
-        "summary": "気象庁によると、19日午前2時22分ごろ、熊本県の水俣市、芦北町、津奈木町、球磨村、あさぎり町で震度5弱の地震があった。マグニチュードは5.7と推定される。この地震による津波の心配はない。",
-        "pub_date": "11/19 03:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/99a46de367b0b28ec7b75756755757c2c57f757c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本県でマグニチュード5.7の地震　長周期地震動「階級2」を観測(MBC南日本放送)",
-        "summary": "19日午前2時22分ころ、地震がありました。震源地は、熊本県天草・芦北地方で、震源の深さは約10km、地震の規模を示すマグニチュードは5.7と推定されます。熊本県内で最大震度5弱、鹿児島県、宮崎県で最",
-        "pub_date": "11/19 02:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/ca7760cc34e983e9bf3b052e01b9a66cf6d9e672?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【速報】熊本・天草 芦北地方で震度5弱 午前2時22分ごろ 津波の心配なし(テレビ朝日系（ANN）)",
-        "summary": "19日午前2時22分ごろ、熊本県天草・芦北地方を震源とする最大震度5弱の地震がありました。 地震の規模を示すマグニチュードは5.7、深さはおよそ10キロで、この地震による津波の心配はありません。 各地",
-        "pub_date": "11/19 02:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/504344ec26e89a2032ba9f2efd0b1b7caebcf139?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本県天草・芦北地方でマグニチュード5.7の地震　熊本で最大震度5弱(MBC南日本放送)",
-        "summary": "19日午前2時22分ころ、地震がありました。震源地は、熊本県天草・芦北地方（北緯32.3度、東経130.4度）で、震源の深さは約10km、地震の規模を示すマグニチュードは5.7と推定されています。津波",
-        "pub_date": "11/19 02:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/1b609533bd35e2a34ed32e6c217cc29ca4c38e17?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "〔地震〕熊本県水俣市などで震度5弱 津波の心配なし(11/19)(レスキューナウニュース)",
-        "summary": "気象庁によると、19日02:22頃に地震があり、熊本県水俣市などで震度5弱の揺れを観測しました。津波の心配はありません。■発生事象・発生日時 ：11月19日02:22頃・震源地 ：熊本県天草・芦北地方",
-        "pub_date": "11/19 02:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/dba61d349e3cec69b9392c9a2d21bf4333db8ae5?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本県で震度5弱の地震　津波の心配なし(日本気象協会tenki.jp)",
-        "summary": "19日午前2時22分頃、熊本県天草・芦北地方を震源とするマグニチュード5.7の地震が発生し、熊本県で最大震度5弱を観測しました。この地震による津波の心配はありません。",
-        "pub_date": "11/19 02:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/5b40346f2fd1b1d54825569ce8ddc00706782033?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "熊本県で震度5弱 津波の心配なし",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/19 02:27 JST",
@@ -423,31 +359,95 @@
         "is_disaster": true
       },
       {
-        "title": "「日本が巨大な戦艦の建造を準備中」――いち早く「大和」の情報を掴んだ有名な外国人武官とは？(デイリー新潮)",
-        "summary": "新兵器の情報などの軍事機密は、同盟国であっても軽々に漏らしてはいけない。たとえ仮想敵国でなくても、情報が洩れるリスクがあるからだ。しかし、戦前の大日本帝国海軍は親独的な軍人が多く、ドイツの駐在武官は日",
-        "pub_date": "11/19 06:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/c54c934ac7374f6fe4be496e49bef1b6f4273a1e?source=rss",
+        "title": "一度は不起訴も…遺族の申し立てきっかけに起訴　“てんかん”発作で車暴走・22歳の女性を死亡させたなど危険運転致死傷罪で女に懲役5年の実刑判決　遺骨はまだ自宅に…遺族が迎えた「区切り」(FNNプライムオンライン)",
+        "summary": "和歌山市で、持病のてんかんによる発作で車を暴走させ、3人を死傷させた罪に問われた女に懲役5年の実刑判決が言い渡された。女は一度不起訴となったものの、遺族が検察審査会に申し立て、検察の再捜査を経て起訴さ",
+        "pub_date": "11/19 07:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/2835ffbd4a7ea4fb3dc1f7a27dea551bf21f44f8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「店に牛乳はあるけれどお出しできません」　融通のきかない対応にアメリカ人起業家が取った行動は？　日本人の美徳を忘れるなと語る意味(デイリー新潮)",
-        "summary": "「ジャパン・アズ・ナンバーワン」などというフレーズを覚えているのはもはや中高年以上の世代だろう。いまうかつにそんなことを口にしたら、ちょっと変わった人だと思われるかもしれない。【写真を見る】「深夜3時",
-        "pub_date": "11/19 06:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/392eac23f7b8b732672e15015d49121436d6d27e?source=rss",
+        "title": "ルフィ事件裁判　グループトップが実行役を勧誘(テレビ朝日系（ANN）)",
+        "summary": "“ルフィ”などと名乗るグループによる事件の裁判で、検察側はグループトップの男が強盗致死事件で実行役にアプリで勧誘などの連絡をしていたと明らかにしました。 「ルフィグループ」のトップ・渡邉優樹被告（42",
+        "pub_date": "11/19 07:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/d347ec0f67eb339980ac08856fef9468f0cfc499?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「映画館でなくした財布が無傷で見つかる日本の奇跡」　アメリカ人CEOが語る「日本らしさ」の強み(デイリー新潮)",
-        "summary": "国際通貨基金（IMF）が2026年10月に発表した「世界経済見通し」によれば、日本のGDPの国際順位は来年にはインドと英国に抜かれて6位になるという。【写真を見る】「深夜3時、その光景は衝撃でした――",
-        "pub_date": "11/19 06:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/94fcf98c32f583ec40b83fccc3fdb95234e0ed39?source=rss",
+        "title": "北海道の農業系ユーチューバー人気　農家目線で「大型農機を使ってみた」(日本農業新聞)",
+        "summary": "北海道音更町の畑作農家・杉山智省さん（45）は、「農業系ユーチューバー」として、さまざまな農業機械や作業機を使う様子を動画で発信している。「杉山農場」のチャンネルを2007年に開設し、累計投稿本数は7",
+        "pub_date": "11/19 07:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/96fb5513b26f6653e1451918eade6eba8efc8cae?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【動画】19日の天気 - 日本海側で荒天へ　雪エリア拡大　東京は20℃予想で日中は気温高め（19日7時更新）(ウェザーマップ)",
+        "summary": "きょう(木)は日本海側を中心に非常に強い風が吹きそうです。日本海側では、雪が吹雪いたり、雨が横なぐりに降ったりしそうで、荒れた天気になるでしょう。また、冬の厳しい寒さになるところが多い一方で、関東はカ",
+        "pub_date": "11/19 07:17 JST",
+        "link": "https://news.yahoo.co.jp/articles/98f177b1219d19049f65ffa45e941f2b909ea88c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "成功の証でも見栄でもない…宇野千代が\"億単位の豪邸\"を建てた背景に｢夫の浮気と隠し子｣という屈辱(プレジデントオンライン)",
+        "summary": "戦後、雑誌『スタイル』で成功した宇野千代は、昼は働き、夜は酒と密着ダンスで享楽する日々を送っていた。そんなある日、銀座木挽町に日本一といわれる豪邸を建てる。その動機は心に生じた大きな空白を埋めるためだ",
+        "pub_date": "11/19 07:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/b8b97c9132d01b0cd0b54ec498e9de2f5c201e24?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "《独自》京都維新の会府議が身内の維新候補に「街宣車貸し出しで政治資金還流」疑惑 “常態化”していたのではないかとの指摘も　党本部は「法令は遵守すべき」と回答(NEWSポストセブン)",
+        "summary": "「週刊ポスト」が11月6日発売号で報じた、京都維新の会（日本維新の会京都府総支部）の複数の府議が選挙カーのレンタルを利用して公金を身内に還流させていた問題。そこに新事実が発覚した。維新の府議が維新候補",
+        "pub_date": "11/19 07:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/da7ed7ed77273f945b0178708f4473fc4a514ecb?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "《白い歯を見せるほどの笑顔に「めちゃくちゃ話が弾んでいる」の声》武道大会で愛子さまが信子さまと「おそろい」を選んだワケ…「実は仲良し」46歳差の意外な関係性(NEWSポストセブン)",
+        "summary": "愛子さまと仲良しの皇族といえば、年も近く、従姉妹の佳子さまを思い浮かべる人が多いのではないだろうか。だが、11月11日に皇居内で行われた皇宮警察の武道大会では意外な組み合わせのツーショットが話題となっ",
+        "pub_date": "11/19 07:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/55423aa428a2d482aaa3db8967b57824733438c7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "日本海側は雨や雪　冬の冷たい風が吹きつける　晴れる所も寒く　19日(木)の天気(日本気象協会tenki.jp)",
+        "summary": "今日19日は冬型の気圧配置が強まり、全国的に風が強く吹くでしょう。日本海側は雨や雷雨で、北日本を中心に雪の範囲が広がりそうです。太平洋側は晴れますが、空気の乾燥や急な寒さにご注意ください。",
+        "pub_date": "11/19 07:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/ac4b5a7531a08e8da42ce10b0b0dace20b3d905a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "道路を横断中に走ってきた車にはねられる 女性（80）が意識不明の重体 愛知・新城市(CBCテレビ)",
+        "summary": "18日午後、愛知県新城市で道路を横断していた女性（80）が軽乗用車にはねられ、意識不明の重体です。警察によりますと18日午後6時半ごろ、新城市屋敷の県道で横断歩道を渡っていた近くに住む女性（80）が、",
+        "pub_date": "11/19 07:13 JST",
+        "link": "https://news.yahoo.co.jp/articles/5cac70c4f6a3a960ee5d253732d2d1da5361437a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "1人旅には慣れているつもりだった…。ヨーロッパ旅行で学んだ「9つの教訓」（海外）(BUSINESS INSIDER JAPAN)",
+        "summary": "ドイツとオーストリアを訪れる前から、私は1人旅の経験を十分に積んでいた。しかし、ヨーロッパでの1人旅はこれまでとは勝手が違った。今回の旅を通じてそのコツを学んだ。どんな旅になるのかは分かっているつもり",
+        "pub_date": "11/19 07:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/4d7cd3e41b69264f4a4da7c12b47d01041bdfb1e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "部屋数は110室。「アメリカ最後のベルサイユ」と呼ばれた大邸宅を見てみよう（海外）(BUSINESS INSIDER JAPAN)",
+        "summary": "ペンシルベニア州にある110室の邸宅、リンウッド・ホール（Lynnewood Hall）は1899年に完成した。相続人のうち2人がタイタニック号の沈没で命を落とし、その後30年間にわたって空き家になっ",
+        "pub_date": "11/19 07:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/e5181fbd86781312b73259ccafd208183a862291?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 07:02:04 JST"
+    "last_updated": "2026-11-19 07:45:50 JST"
   },
   "live_media": {
     "default_camera_id": "cam_naha_kokusai",
@@ -468,10 +468,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "hyYRxTGICv4",
+        "video_id": "lLSt5jaCoK0",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/hyYRxTGICv4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=hyYRxTGICv4"
+        "embed_url": "https://www.youtube.com/embed/lLSt5jaCoK0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=lLSt5jaCoK0"
       },
       {
         "id": "stream_tbsnews",

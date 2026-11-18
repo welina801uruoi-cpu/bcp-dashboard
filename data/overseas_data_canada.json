@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-18 13:43:37",
-  "timestamp_local": "2026-11-18 00:43:37",
+  "timestamp": "2026-11-18 14:44:26",
+  "timestamp_local": "2026-11-18 01:44:26",
   "country": {
     "id": "canada",
     "name": "カナダ",
@@ -141,17 +141,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 15,
-    "summary": "M5.2 (54 km NNE of Ruteng, Indonesia)",
+    "count_24h": 18,
+    "summary": "M5.2 (Galapagos Triple Junction region)",
     "latest": {
       "mag": 5.2,
-      "place": "54 km NNE of Ruteng, Indonesia",
-      "time": "11/18 13:21 JST",
+      "place": "Galapagos Triple Junction region",
+      "time": "11/18 14:25 JST",
       "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxc",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxz",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.2,
+        "place": "Galapagos Triple Junction region",
+        "time": "11/18 14:25 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxz",
+        "tsunami": 0
+      },
+      {
+        "mag": 5.8,
+        "place": "40 km N of Ruteng, Indonesia",
+        "time": "11/18 13:41 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxi",
+        "tsunami": 0
+      },
       {
         "mag": 5.2,
         "place": "54 km NNE of Ruteng, Indonesia",
@@ -186,10 +202,18 @@
       },
       {
         "mag": 5.3,
-        "place": "16 km W of Nereju Mic, Romania",
+        "place": "16 km ESE of Comandău, Romania",
         "time": "11/18 09:48 JST",
-        "depth_km": 130.755,
+        "depth_km": 130.266,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyw8",
+        "tsunami": 0
+      },
+      {
+        "mag": 5.3,
+        "place": "7 km SE of Karakenja, Tajikistan",
+        "time": "11/18 09:46 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyw6",
         "tsunami": 0
       },
       {
@@ -247,40 +271,121 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tysa",
         "tsunami": 0
-      },
-      {
-        "mag": 4.5,
-        "place": "8 km WNW of Piti Village, Guam",
-        "time": "11/17 20:12 JST",
-        "depth_km": 106.835,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tysm",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "173 km ENE of Noda, Japan",
-        "time": "11/17 19:32 JST",
-        "depth_km": 26.644,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyrw",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "43 km NW of Oxford, New Zealand",
-        "time": "11/17 19:30 JST",
-        "depth_km": 14.237,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyrv",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
       {
+        "title": "湖南半導体工場の用地配分問題、「南がサムスン、北がハイニックス」に決定【独自】(朝鮮日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/2d1906c1ad5b5c3245ad6a2c34e9386d83f0d799?source=rss",
+        "description": "光州軍空港の敷地に建設される湖南（全羅道地方）半導体ファブ（Fab。半導体生産工場）の配置が、南側にサムスン電子、北側にSKハイニックスが入居する「南電北ニック」に決まった。これにより、7月初めの事業",
+        "pub_date": "11/18 14:37 JST",
+        "is_priority": false
+      },
+      {
+        "title": "李大統領　習主席と会談＝「朝鮮半島の平和は韓中の共通利益」(聯合ニュース)",
+        "link": "https://news.yahoo.co.jp/articles/f1f88813084c8a742bb3e9a655d5062adf1b7388?source=rss",
+        "description": "【ソウル聯合ニュース】韓国の李在明（イ・ジェミョン）大統領は18日午前、中国・深圳で習近平国家主席と会談し、「韓中の戦略的協力パートナー関係が成熟した形で発展していくためには、朝鮮半島の平和と安定が支",
+        "pub_date": "11/18 14:36 JST",
+        "is_priority": false
+      },
+      {
+        "title": "<最新写真報告>北朝鮮―ロシア国境を行く　開通した新自動車橋と北側の変化とは　(12枚)(アジアプレス・ネットワーク)",
+        "link": "https://news.yahoo.co.jp/articles/537ea01d6091fa2ad5cceb1f971f9e71ce8af642?source=rss",
+        "description": "アジアプレスは10月下旬、朝中ロの三国の国境が接する中国吉林省琿春市の防川を訪れ、朝ロ国境地帯を取材した。9月7日に開通した朝ロを結ぶ豆満江自動車橋と、その両端に出入国及び税関施設と思われる建物が建設",
+        "pub_date": "11/18 14:15 JST",
+        "is_priority": false
+      },
+      {
+        "title": "アイルランドの空港で米軍機に侵入し破壊行為、男を起訴　米司法省(CNN.co.jp)",
+        "link": "https://news.yahoo.co.jp/articles/f47773c0e60ccdfc671d16bac2c543f82429662f?source=rss",
+        "description": "（CNN） 米ニューヨークの大陪審は、アイルランドの空港で米軍機に侵入し、機体を破壊したとして、アイルランド国籍の男を起訴した。男は機内の配線を切断したほか、燃料タンクにベアリングを投入したり、爆発に",
+        "pub_date": "11/18 14:15 JST",
+        "is_priority": true
+      },
+      {
+        "title": "ルビオ米国務長官「米朝首脳会談の日程はまだ…トランプ大統領は真摯な立場」(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/cbfb0e4239cb3d3882f299e2b6c5390608e523bc?source=rss",
+        "description": "トランプ米大統領は北朝鮮の金正恩（キム・ジョンウン）国務委員長との対話に依然として意欲を持っていると、ルビオ米国務長官が明らかにした。ただ、朝米首脳会談の日程が具体的に決まったわけではないと強調した。",
+        "pub_date": "11/18 14:13 JST",
+        "is_priority": false
+      },
+      {
+        "title": "トランプ氏の“最後の球”？ 金正恩総書記との電撃会談を匂わせる思惑とは…専門家「北朝鮮は中ロと二股、アメリカと会う必要がない」「飛行機に乗らない」(ABEMA TIMES)",
+        "link": "https://news.yahoo.co.jp/articles/1c926868b9e819d5ad78f8b6c744b4d3b138fd7b?source=rss",
+        "description": "中国・深圳で開かれるAPEC（アジア太平洋経済協力）首脳会議に合わせ、アメリカのトランプ大統領が北朝鮮の金正恩総書記と会談する可能性に言及し、波紋を広げている。さらに滞在先のマニラでは「金正恩氏が深圳",
+        "pub_date": "11/18 14:06 JST",
+        "is_priority": false
+      },
+      {
+        "title": "プーチン大統領が中国入り 習主席と会談(ABEMA TIMES)",
+        "link": "https://news.yahoo.co.jp/articles/6ea060a8896bdea5c1e935491e78a77bf98a3560?source=rss",
+        "description": "ロシアのプーチン大統領がAPEC首脳会議に参加するため、中国深センに到着し、さきほど、習主席と会談を行いました。【映像】中国・深センに到着したプーチン大統領（実際の様子） プーチン大統領は、けさ早く専",
+        "pub_date": "11/18 14:06 JST",
+        "is_priority": false
+      },
+      {
+        "title": "習氏「真の多国間主義を実践」APEC関連行事で演説　プーチン氏は3カ国首脳会談に期待(産経新聞)",
+        "link": "https://news.yahoo.co.jp/articles/6304ff37fb1f08f19d1b1837846a8700647e9ce9?source=rss",
+        "description": "【深圳＝三塚聖平】中国の習近平国家主席は18日、広東省深圳（しんせん）でのアジア太平洋経済協力会議（APEC）関連行事の最高経営責任者（CEO）サミットで演説し、「一国主義や保護主義の衝撃に直面する中",
+        "pub_date": "11/18 14:05 JST",
+        "is_priority": false
+      },
+      {
+        "title": "李大統領と習主席が会談　3回目＝APECに合わせ(聯合ニュース)",
+        "link": "https://news.yahoo.co.jp/articles/e70c947973c9aa47b5c58f863e9914be512576fe?source=rss",
+        "description": "【ソウル聯合ニュース】韓国の李在明（イ・ジェミョン）大統領は18日午前、中国・深圳で習近平国家主席と会談した。李大統領はアジア太平洋経済協力会議（APEC）首脳会議に出席するため訪中した。 両首脳の会",
+        "pub_date": "11/18 14:02 JST",
+        "is_priority": false
+      },
+      {
+        "title": "史上初の米中ロ首脳会談、狙いは「写真撮影」だけ？ ヤルタ会談の再来にはならず日本が最大の敗者に？ 専門家と議論(ABEMA TIMES)",
+        "link": "https://news.yahoo.co.jp/articles/bde4cdd113919960fd27f5e35c9d01118a380563?source=rss",
+        "description": "中国・深圳で開かれるAPEC（アジア太平洋経済協力）首脳会議に合わせ、アメリカのトランプ大統領、中国の習近平国家主席、ロシアのプーチン大統領による史上初の「米中ロ首脳会談」が予定されている。大国3カ国",
+        "pub_date": "11/18 14:00 JST",
+        "is_priority": false
+      },
+      {
+        "title": "どの政権にも実力者が必要だ【コラム】＝韓国(ハンギョレ新聞)",
+        "link": "https://news.yahoo.co.jp/articles/49c3326c574f562af7821fdb9fbf244698debf40?source=rss",
+        "description": "李在明（イ・ジェミョン）大統領のSNSへの投稿はかなり落ち着いてきた。抑えた表現でメッセージの要だけを伝えている。真夜中に投稿することもない。管理システムが働いているようだ。 李在明大統領のユーチュー",
+        "pub_date": "11/18 13:48 JST",
+        "is_priority": false
+      },
+      {
+        "title": "当局は急増する移民対応に苦慮　大西洋のスペイン領カナリア諸島(AP通信)",
+        "link": "https://news.yahoo.co.jp/articles/013d3b2b71379cb706b532d3b9cfde13369da111?source=rss",
+        "description": "レスティンガ、スペイン、11月18日 (AP) ー アフリカ沖の大西洋に浮かぶスペインのカナリア諸島に11月の前半だけで1万1000人を超える移民が到着し、当局が対応に苦慮する中、受け入れ施設や緊急サ",
+        "pub_date": "11/18 13:48 JST",
+        "is_priority": true
+      },
+      {
+        "title": "ゼレンスキー大統領「ロシアは北朝鮮のミサイルに依存…ウクライナにも武器・技術支援が必要」(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/58e81f99315367d5067d00037d759c969796348e?source=rss",
+        "description": "ウクライナのウォロディミル・ゼレンスキー大統領が、ロシアに対する北朝鮮の弾道ミサイル支援を連日批判し、西側同盟国に武器支援を改めて求めた。北朝鮮の武器がウクライナ戦争で使用されている以上、欧州と米国も",
+        "pub_date": "11/18 13:43 JST",
+        "is_priority": false
+      },
+      {
         "title": "ギリシャの学生蜂起50年を記念　2万5000人以上の市民がデオ行進(AP通信)",
         "link": "https://news.yahoo.co.jp/articles/9ac75e66c21a69659dcf0b30ec7f61c1e5828263?source=rss",
         "description": "アテネ、ギリシャ、11月18日 (AP) ー 1973年にギリシャを統治していた軍事独裁政権によって武力弾圧された民主化を求める学生蜂起から50年を記念し、2万5000人以上の市民が17日、アテネ中心",
         "pub_date": "11/18 13:42 JST",
+        "is_priority": false
+      },
+      {
+        "title": "韓国政府、大学修能試験のAI対策は「ボタンの穴にステッカー」(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/26e495c1f8b45b6faee3129f7f6e3d1a0bccd424?source=rss",
+        "description": "「受験生全員の眼鏡・ボタン・襟を検査」「災害メールで未提出の携帯電話を確認」「摘発された場合は大学進学10年間不可」…。17日、韓国政府が発表した大学修学能力試験（修能）不正行為対策の一部だ。翌日に迫",
+        "pub_date": "11/18 13:42 JST",
+        "is_priority": false
+      },
+      {
+        "title": "自然が作りだした氷の美――2026年自然写真コンテスト、優勝作品発表(CNN.co.jp)",
+        "link": "https://news.yahoo.co.jp/articles/195038c0ac2926007d1965660f432ed2f45f77d2?source=rss",
+        "description": "（CNN） 自然界の美しさをテーマとする写真コンテスト「ネイチャー・フォトグラファー・オブ・ザ・イヤー2026」の最優秀作品に、スイレンの葉と同じ形をした氷が並ぶ光景をとらえたフィンランドの写真家ハン",
+        "pub_date": "11/18 13:41 JST",
         "is_priority": false
       },
       {
@@ -309,111 +414,6 @@
         "link": "https://news.yahoo.co.jp/articles/2837e81ae984f6940f607ab5cf26f5b3221afc27?source=rss",
         "description": "【深セン共同】中国の習近平国家主席とロシアのプーチン大統領は18日、中国・深センで会談した。新華社が伝えた。19日に予定される米中ロ3カ国の首脳会談について意見交換したとみられる。",
         "pub_date": "11/18 13:16 JST",
-        "is_priority": false
-      },
-      {
-        "title": "「非核化」に言及したのは日本だけ…トランプ氏初参加のクアッド共同声明に「韓半島」も「北朝鮮」もなし（1）(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/28374a763a7e7427e7402224ffcdf0b293e01029?source=rss",
-        "description": "ドナルド・トランプ米大統領が初めて参加したクアッド（米国・日本・オーストラリア・インドの4カ国による安全保障協議の枠組み）首脳会議の成果文書では、中国をけん制するメッセージばかりが強調され、「韓半島（",
-        "pub_date": "11/18 13:16 JST",
-        "is_priority": false
-      },
-      {
-        "title": "家賃負担が月給の20％…韓国の新婚夫婦が出産をためらう理由(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/1c56a5798f3d434abdb02a13a9a6f4598b73872c?source=rss",
-        "description": "昨年ソウルの所得比住宅費用負担が5年ぶりの水準に下がった。韓国国土交通部が17日に発表した「2025年住居実態調査」によると、昨年ソウルの持ち家世帯の住宅価格所得倍率（PIR）は中位数基準で11．7倍",
-        "pub_date": "11/18 13:15 JST",
-        "is_priority": false
-      },
-      {
-        "title": "クーパン問題にまで言及…韓国のネット利用料を批判する米国「6G協力に真っ向から反する」（2）(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/7fe04565b59009c15e4825d2d4e3fd3af2b52f23?source=rss",
-        "description": "これに先立ちUSTRが今年4月、韓国をネット利用料を課している唯一の国と指摘した際、青瓦台（チョンワデ、韓国大統領府）は「米国企業がネット利用料やプラットフォーム規制などで差別を受けているという主張は",
-        "pub_date": "11/18 13:15 JST",
-        "is_priority": false
-      },
-      {
-        "title": "クーパン問題にまで言及…韓国のネット利用料を批判する米国「6G協力に真っ向から反する」（1）(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/66a866831492098130808349cd7d7a2324af7daa?source=rss",
-        "description": "米商務省は、国内の通信網を利用するコンテンツ事業者にネット利用料を支払わせる韓国の方式が韓米間の「次世代6G（第6世代）協力」構想に「真っ向から反する（directly against）」とし、強い懸",
-        "pub_date": "11/18 13:14 JST",
-        "is_priority": false
-      },
-      {
-        "title": "「ＡＩカンニング」を防ぐため、試験用紙に「ＡＩの罠」を…逆発想研究に注目＝韓国(ハンギョレ新聞)",
-        "link": "https://news.yahoo.co.jp/articles/a372520245b179eba50a7a45f45fc649af31ee83?source=rss",
-        "description": "人工知能（AI）を活用した試験の不正行為が相次ぐ中、AIに試験問題を誤読させたり、誤答を出させたりする研究が注目を集めている。肉眼では識別しにくい超小型の不正行為機器を見つけ出すのではなく、試験用紙自",
-        "pub_date": "11/18 13:09 JST",
-        "is_priority": false
-      },
-      {
-        "title": "税理士試験AIカンニング事件の容疑者、13時間の事情聴取…「電卓改造は1人で」(朝鮮日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/49b599ebdec04f345aa4a729b2dfda6e514735ad?source=rss",
-        "description": "人工知能（AI）を使った不正行為により、今年の第63回税務士（税理士）試験で首席になったハン容疑者（34）が17日、14時間近く韓国警察の取り調べを受けた。ハン容疑者が警察に自首書を提出してから二日後",
-        "pub_date": "11/18 13:01 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米大統領、比との防衛協力拡大に意欲(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/f59cf17d555eed6ca2f9095381fa0924516259b3?source=rss",
-        "description": "【深セン共同】トランプ米大統領は18日、マニラで行われたフィリピンのマルコス大統領との会談で、両国の防衛協力は「地域の安全保障の重要な柱だ」と述べ、協力拡大に意欲を見せた。",
-        "pub_date": "11/18 12:57 JST",
-        "is_priority": false
-      },
-      {
-        "title": "プーチン大統領が中国に到着　習主席と会談　高市総理との会談実現かも焦点に(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/52ca6f4f92d31ca34b4c190f5daf6a07a7c06b58?source=rss",
-        "description": "ロシアのプーチン大統領がAPEC（アジア太平洋経済協力）首脳会議に参加するため中国深センに到着し、習主席と会談を行いました。 プーチン大統領はけさ早く、専用機で深センに到着しました。 空港では中国共産",
-        "pub_date": "11/18 12:57 JST",
-        "is_priority": false
-      },
-      {
-        "title": "プーチン大統領が中国・深圳に到着　習主席と会談(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/4acbceaf1f30abf1bec380ea1eae56fd70aec6b3?source=rss",
-        "description": "ロシアのプーチン大統領がAPEC首脳会議に参加するため、中国深センに到着し、習主席と会談を行いました。プーチン大統領は、けさ早く、専用機で深センに到着しました。空港では中国共産党・政治局常務委員の蔡奇",
-        "pub_date": "11/18 12:56 JST",
-        "is_priority": false
-      },
-      {
-        "title": "南シナ海の状況「懸念せず」と米大統領(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/d1c4c5746b976dcadecad1e777ed0710332a5710?source=rss",
-        "description": "【マニラ共同】トランプ米大統領は18日、マニラで行われたフィリピンのマルコス大統領との会談で、中国とフィリピンが領有権を争う南シナ海の状況について「懸念はしていない」と述べた。",
-        "pub_date": "11/18 12:56 JST",
-        "is_priority": false
-      },
-      {
-        "title": "中国・習主席　新たな経済協力の枠組み設立を支持(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/d8c415297469cd5aaf6ca4a97e6b6282e487993d?source=rss",
-        "description": "中国の習近平国家主席はAPEC（アジア太平洋経済協力）首脳会議の関連行事で演説し、新たな枠組みとなる「世界港湾地区経済協力連盟」の設立を支持する考えを示しました。 習主席は演説のなかで「アジア太平洋地",
-        "pub_date": "11/18 12:55 JST",
-        "is_priority": false
-      },
-      {
-        "title": "プーチン大統領が中国・深センに到着　習主席と会談へ(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/d42bc376607004d26a5f000f208c93e20e472483?source=rss",
-        "description": "ロシアのプーチン大統領がAPEC首脳会議に参加するため、中国・深センに到着しました。この後、習近平国家主席と会談します。 プーチン大統領は18日朝早く、専用機で深センに到着しました。 空港では中国共産",
-        "pub_date": "11/18 12:54 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米国土安全保障長官、アメフト観戦での飛行機移動を擁護　運航停止の影響残る中(CNN.co.jp)",
-        "link": "https://news.yahoo.co.jp/articles/288cbe844e056eb67e28fb39a9fadc1ad16a482d?source=rss",
-        "description": "（CNN） 米国のマリン国土安全保障長官は17日、14日に行われた大学のアメリカンフットボールの試合を観戦するために航空機で移動した自身の判断を擁護した。その日は前日に取られた全米規模の航空便運航停止",
-        "pub_date": "11/18 12:48 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米大統領、比にエネルギー安保で連携訴え(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/820fc362e059bd6c14ab336e2690c44a1b317f71?source=rss",
-        "description": "【深セン共同】トランプ米大統領は18日、フィリピンのマニラでマルコス大統領と会談し、経済や安全保障など「協力を強化できる分野は数多くある」と連携を訴えた。",
-        "pub_date": "11/18 12:47 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米アラスカ州上院選で民主候補勝利(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/caa5f451a1dec62f1370abd37ad5552853af2721?source=rss",
-        "description": "【ワシントン共同】米主要メディアによると、中間選挙のアラスカ州の連邦上院選で野党民主党のメアリー・ペルトラ氏が勝利を確実にした。上院は全結果が出そろい、非改選を合わせた議席数は無所属を含む民主党系56",
-        "pub_date": "11/18 12:44 JST",
         "is_priority": false
       }
     ],
@@ -511,32 +511,32 @@
     "default_channel_id": "stream_cbc_live"
   },
   "forex": {
-    "timestamp": "11/18 13:43 JST",
+    "timestamp": "11/18 14:44 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.25,
-      "change": -0.27,
-      "change_pct": -0.17,
+      "rate": 159.3,
+      "change": -0.22,
+      "change_pct": -0.14,
       "direction": "down"
     },
     "local_jpy": {
       "currency": "CAD",
       "name": "カナダドル",
       "symbol": "C$",
-      "rate": 111.29,
-      "change": -0.28,
-      "change_pct": -0.25,
+      "rate": 111.31,
+      "change": -0.26,
+      "change_pct": -0.23,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.98,
-      "change": -0.46,
-      "change_pct": -0.26
+      "rate": 175.01,
+      "change": -0.42,
+      "change_pct": -0.24
     }
   },
   "airports": [
@@ -579,27 +579,19 @@
         "is_capital": true,
         "lat": 45.4215,
         "lon": -75.6972,
-        "temp": 4.3,
-        "apparent_temp": 1.3,
-        "humidity": 78,
-        "wind_speed": 6.9,
-        "wind_gusts": 14.8,
+        "temp": 4.0,
+        "apparent_temp": 0.8,
+        "humidity": 79,
+        "wind_speed": 7.5,
+        "wind_gusts": 11.2,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
-            "date": "11/17(火)",
-            "temp_max": 12.0,
-            "temp_min": -3.7,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
             "date": "11/18(水)",
-            "temp_max": 12.9,
-            "temp_min": 1.4,
+            "temp_max": 12.6,
+            "temp_min": 1.5,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -608,6 +600,14 @@
             "date": "11/19(木)",
             "temp_max": 12.0,
             "temp_min": 0.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/20(金)",
+            "temp_max": 12.8,
+            "temp_min": 6.8,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -624,27 +624,19 @@
         "is_capital": false,
         "lat": 43.6532,
         "lon": -79.3832,
-        "temp": 5.7,
-        "apparent_temp": 2.6,
-        "humidity": 85,
-        "wind_speed": 10.5,
-        "wind_gusts": 23.0,
+        "temp": 5.3,
+        "apparent_temp": 2.2,
+        "humidity": 84,
+        "wind_speed": 9.8,
+        "wind_gusts": 19.4,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
-            "date": "11/17(火)",
-            "temp_max": 13.5,
-            "temp_min": 2.5,
-            "weather_code": 45,
-            "weather_label": "🌫️ 霧",
-            "precipitation_mm": 0.0
-          },
-          {
             "date": "11/18(水)",
-            "temp_max": 13.8,
-            "temp_min": 2.9,
+            "temp_max": 13.9,
+            "temp_min": 2.8,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -653,6 +645,14 @@
             "date": "11/19(木)",
             "temp_max": 15.3,
             "temp_min": 5.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/20(金)",
+            "temp_max": 14.3,
+            "temp_min": 8.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -669,11 +669,11 @@
         "is_capital": false,
         "lat": 49.2827,
         "lon": -123.1207,
-        "temp": 5.4,
-        "apparent_temp": 2.5,
-        "humidity": 78,
-        "wind_speed": 7.8,
-        "wind_gusts": 9.7,
+        "temp": 5.1,
+        "apparent_temp": 2.3,
+        "humidity": 72,
+        "wind_speed": 5.6,
+        "wind_gusts": 7.9,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -688,8 +688,8 @@
           },
           {
             "date": "11/18(水)",
-            "temp_max": 10.8,
-            "temp_min": 4.1,
+            "temp_max": 10.7,
+            "temp_min": 4.3,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -715,27 +715,19 @@
       "is_capital": true,
       "lat": 45.4215,
       "lon": -75.6972,
-      "temp": 4.3,
-      "apparent_temp": 1.3,
-      "humidity": 78,
-      "wind_speed": 6.9,
-      "wind_gusts": 14.8,
+      "temp": 4.0,
+      "apparent_temp": 0.8,
+      "humidity": 79,
+      "wind_speed": 7.5,
+      "wind_gusts": 11.2,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
-          "date": "11/17(火)",
-          "temp_max": 12.0,
-          "temp_min": -3.7,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
-        },
-        {
           "date": "11/18(水)",
-          "temp_max": 12.9,
-          "temp_min": 1.4,
+          "temp_max": 12.6,
+          "temp_min": 1.5,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -747,6 +739,14 @@
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/20(金)",
+          "temp_max": 12.8,
+          "temp_min": 6.8,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -754,7 +754,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/18 13:43 JST"
+    "timestamp": "11/18 14:44 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -783,7 +783,7 @@
         "details": "VIA鉄道主要列車平常運行中"
       }
     ],
-    "timestamp": "11/18 13:43 JST"
+    "timestamp": "11/18 14:44 JST"
   },
   "lifeline": {
     "status": "NORMAL",

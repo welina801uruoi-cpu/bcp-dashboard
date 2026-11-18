@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18 21:16:18",
+  "timestamp": "2026-11-18 22:00:47",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -84,11 +84,32 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-19 05:25",
+    "time": "2026-11-19 06:54",
     "place": "熊本県天草・芦北地方",
     "magnitude": "2.8",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-19 06:54",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.8",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-19 06:41",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "2",
+        "magnitude": "2.8",
+        "maxScale": 20
+      },
+      {
+        "time": "2026-11-19 06:16",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.4",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-19 05:25",
         "place": "熊本県天草・芦北地方",
@@ -137,27 +158,6 @@
         "shindo": "2",
         "magnitude": "3.1",
         "maxScale": 20
-      },
-      {
-        "time": "2026-11-19 04:25",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "3.2",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-19 04:24",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "3.4",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-19 04:20",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.3",
-        "maxScale": 10
       }
     ]
   },
@@ -187,11 +187,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "強風注意報",
-          "波浪注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -202,10 +202,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、濃霧注意報",
+        "summary": "濃霧注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -347,12 +347,8 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
-        {
-          "time": "11/18 21:00",
-          "text": "千葉県松戸市付近で START au END ひかりご利用の方、 ネットとひかり電話使えてますか？ 我が家では多分 START 障害 END 起きてるっぽく ・..."
-        },
         {
           "time": "11/18 14:08",
           "text": "ドコモを卒業したい🍄電波悪い上に通信 START 障害 END 多すぎて、いざってときに助からない気がしてる。 START au END とソフトバンクならどち..."
@@ -360,6 +356,10 @@
         {
           "time": "11/18 12:54",
           "text": "21:53 START au END 電波 START 障害 END ？ いきなり📶無くなって文字消えて 通信アプリ落ちた(>_>)"
+        },
+        {
+          "time": "11/18 12:25",
+          "text": "身内に発達 START 障害 END 持ちで、ネット無理、スマホ無理、アプリとかわからんストレス、SNSやろうものなら確実にトラブルに巻き込まれる。でも電話と簡..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -452,8 +452,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 14,
+    "disaster_count": 12,
     "articles": [
+      {
+        "title": "地震の影響で…体育室の天井の一部がはがれ落ちる 点検のため利用中止に 名古屋・緑区(CBCテレビ)",
+        "summary": "今月8日に起きた地震の影響で、名古屋市緑区の徳重地区会館の体育室の天井の一部がはがれ落ちる被害がありました。【写真を見る】地震の影響で…体育室の天井の一部がはがれ落ちる 点検のため利用中止に 名古屋・",
+        "pub_date": "11/19 06:54 JST",
+        "link": "https://news.yahoo.co.jp/articles/c2bd266241acfcbde7ccad00ca23108fa1898b49?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "熊本県で最大震度5弱　避難指示や一部通行止めも(テレビ朝日系（ANN）)",
+        "summary": "19日午前2時半前、熊本県で最大震度5弱を観測する強い地震がありました。震源は天草・芦北地方で深さは約10キロ、地震の規模を示すマグニチュードは5.7と推定されています。 この地震による大きな被害は今",
+        "pub_date": "11/19 05:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/eaeccd5bd09adee8bacfbc8c46c12947f65e04f2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "熊本で未明に震度5弱　M5.7、津波の心配なし(共同通信)",
         "summary": "19日午前2時22分ごろ、熊本県の水俣市や芦北町などで震度5弱の地震があった。気象庁によると、震源は熊本県天草・芦北地方で深さは約10キロ。マグニチュード（M）は5.7と推定される。この地震による津波",
@@ -527,38 +543,6 @@
         "is_disaster": true
       },
       {
-        "title": "意識障害で死傷事故の被告に懲役5年　実刑判決を求めていた遺族、悔しさにじませる(産経新聞)",
-        "summary": "てんかん発作の意識障害で運転に支障が生じ得るのに車を運転し、事故で3人を死傷させた西馬淳子被告（56）に懲役5年を言い渡した18日の和歌山地裁判決。事故に巻き込まれ死亡した和歌山市の竹田汐里さん＝当時",
-        "pub_date": "11/18 23:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/a65ebf1d3471ee0394b79fe21a48c1e2eff9c627?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "会社のトラックでタイヤホイール運び去る　防犯カメラが捉えた大胆犯行　岩手の建設会社で被害約250万円(FNNプライムオンライン)",
-        "summary": "建設会社の事務所に侵入し、会社のトラックまで使ってタイヤホイールを運び去る。そんな大胆な盗難事件が岩手県滝沢市で発生した。被害に遭った会社は防犯カメラを増設していたが、わずか20日後に再び被害を受け、",
-        "pub_date": "11/18 22:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/60b4e2d2f8228d065bcd7ad82af80041762250d0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "理研が警察に被害報告　「富岳」への不正アクセス(共同通信)",
-        "summary": "理化学研究所のスーパーコンピューター「富岳」が不正アクセスを受けた問題で、理研が警察当局に被害を報告したことが18日、理研などへの取材で分かった。富岳は神戸市にある理研計算科学研究センターが運用。捜査",
-        "pub_date": "11/18 21:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/64236b45c2c3a415d913cdbf7136b1164b792c87?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "酒気帯び運転の疑いで警察官逮捕　ガードレールに衝突　栃木県警(テレビ朝日系（ANN）)",
-        "summary": "酒気を帯びた状態で乗用車を運転し、ガードレールに衝突したとして23歳の栃木県警の警察官が逮捕されました。 栃木県警機動捜査隊の巡査・大関功次朗容疑者は18日午前6時前、栃木県茂木町の道路で酒気を帯びた",
-        "pub_date": "11/18 21:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/567e790ad5747851bba5074d4c79df7d8b270ecf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "熊本県で震度5弱 津波の心配なし",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/19 02:27 JST",
@@ -567,15 +551,31 @@
         "is_disaster": true
       },
       {
-        "title": "武部新農相「ビールパーティー」だけじゃない、週刊文春が報じた8つの重大疑惑とは？「3000万円裏金」「ホタテ違法寄附」(文春オンライン)",
-        "summary": "10月15日、高市早苗首相のもとで初入閣を果たした武部新（あらた）農林水産相（56）。就任から1カ月足らずの間に「 週刊文春 」の報道で、公職選挙法違反や政治資金規正法違反など少なくとも8つの疑惑が浮",
-        "pub_date": "11/19 06:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/fb3d3428e8cb0d63a0e86bf4b06691f086449438?source=rss",
+        "title": "「日本が巨大な戦艦の建造を準備中」――いち早く「大和」の情報を掴んだ有名な外国人武官とは？(デイリー新潮)",
+        "summary": "新兵器の情報などの軍事機密は、同盟国であっても軽々に漏らしてはいけない。たとえ仮想敵国でなくても、情報が洩れるリスクがあるからだ。しかし、戦前の大日本帝国海軍は親独的な軍人が多く、ドイツの駐在武官は日",
+        "pub_date": "11/19 06:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/c54c934ac7374f6fe4be496e49bef1b6f4273a1e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「店に牛乳はあるけれどお出しできません」　融通のきかない対応にアメリカ人起業家が取った行動は？　日本人の美徳を忘れるなと語る意味(デイリー新潮)",
+        "summary": "「ジャパン・アズ・ナンバーワン」などというフレーズを覚えているのはもはや中高年以上の世代だろう。いまうかつにそんなことを口にしたら、ちょっと変わった人だと思われるかもしれない。【写真を見る】「深夜3時",
+        "pub_date": "11/19 06:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/392eac23f7b8b732672e15015d49121436d6d27e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「映画館でなくした財布が無傷で見つかる日本の奇跡」　アメリカ人CEOが語る「日本らしさ」の強み(デイリー新潮)",
+        "summary": "国際通貨基金（IMF）が2026年10月に発表した「世界経済見通し」によれば、日本のGDPの国際順位は来年にはインドと英国に抜かれて6位になるという。【写真を見る】「深夜3時、その光景は衝撃でした――",
+        "pub_date": "11/19 06:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/94fcf98c32f583ec40b83fccc3fdb95234e0ed39?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 06:15:29 JST"
+    "last_updated": "2026-11-19 07:00:00 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -640,10 +640,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "4pl_lslHA7U",
+        "video_id": "QzlYdTW6B8k",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/4pl_lslHA7U?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=4pl_lslHA7U"
+        "embed_url": "https://www.youtube.com/embed/QzlYdTW6B8k?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=QzlYdTW6B8k"
       }
     ],
     "cameras": [

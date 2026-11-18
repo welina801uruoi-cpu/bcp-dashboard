@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18 09:46:12",
+  "timestamp": "2026-11-18 10:41:44",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -181,9 +181,10 @@
         "warns": [],
         "notices": [
           "雷注意報",
+          "濃霧注意報",
           "波浪注意報"
         ],
-        "summary": "雷注意報、波浪注意報",
+        "summary": "雷注意報、濃霧注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -194,9 +195,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "濃霧注意報",
           "波浪注意報"
         ],
-        "summary": "波浪注意報",
+        "summary": "濃霧注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -362,19 +364,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/18 10:14",
+          "text": "ドコモは完全に捨てて正解だったわ ソフトバンクと START au END のデュアル運用で何ら問題は無い START au END は数年前の大規模 STAR..."
+        },
+        {
+          "time": "11/18 09:58",
+          "text": "スマホ、docomoから START au END に変えようかな……通信 START 障害 END ありすぎだし、駅とか混んでるとこだと全然繋がらないし……"
+        },
         {
           "time": "11/18 08:52",
           "text": "NTT OCN START au END jcom あたり通信 START 障害 END 多発中なので そのへんならそのうち復旧チャンス"
-        },
-        {
-          "time": "11/18 08:18",
-          "text": "@SoftBank #スマホデビューはソフトバンクがおトク 通信品質では START au END と並び2強。 今月3回も START 障害 END が発生し..."
-        },
-        {
-          "time": "11/18 07:59",
-          "text": "うーむ START au END 通信 START 障害 END か？ 5Gにならんし、繋がらん"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -405,22 +407,22 @@
     {
       "keyword": "au 繋がらない",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 7 件です。",
       "recent_posts": [
         {
-          "time": "11/18 09:44",
-          "text": "START au END ？のネット START 繋がらない END ケータイ 地味にシェアが増え出したらまずカメラつけて、音楽聴けるようになり、Wi-Fiに繋..."
+          "time": "11/18 10:34",
+          "text": "今日から START au END で懐かしのINFOBARさん予約開始ですって……良いなぁ変えたいなぁ……とか思ったけど、ネット START 繋がらない EN..."
         },
         {
-          "time": "11/18 07:48",
-          "text": "@38koinosuke8 突然失礼します、povoサポートです。 START 繋がらない END のはやはり不便ですよね💦よろしければ、安心の START a..."
+          "time": "11/18 10:32",
+          "text": "楽天証券はお漏らしするし楽天モバイルは START 繋がらない END (茨城の田舎だからかもだけど)し楽天銀行もなんだか怪しい噂が飛び交っているしで楽天も終わ..."
         },
         {
-          "time": "11/18 07:15",
-          "text": "@HiromiSunset 突然失礼します、povoサポートです。 START 繋がらない END のは不便ですよね💧もしよろしければ、安心の START au..."
+          "time": "11/18 10:26",
+          "text": "【来月新携帯電話発売開始】 START au END KDDIは来月 新しい「INFOBAR ZERO」はダムフォン！を発売する ネットに START 繋がらな..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -431,7 +433,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/18 09:28",
@@ -470,13 +472,69 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 11,
     "articles": [
+      {
+        "title": "武力事態想定し避難訓練　新潟から長野へ、手順確認(共同通信)",
+        "summary": "新潟、長野両県と国は18日、国民保護法に基づき武力攻撃予測事態が認定されたとの想定で、新潟からの避難者を長野が受け入れる手順などを確認する合同の実働・図上訓練を実施した。「某国と日本の関係悪化により、",
+        "pub_date": "11/18 19:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/9b4654b7bba301b5540c68a59e14fd399ec4a389?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「一分一秒でも早く救出を」　拉致被害者の曽我ひとみさん訴え(共同通信)",
+        "summary": "北朝鮮による拉致被害者の曽我ひとみさん（67）が18日、宮城県議会の拉致問題に関する条例の検討会に参考人として出席し、拉致被害者や家族の高齢化が進んでいることに触れ「一分一秒でも早く救出してほしい」と",
+        "pub_date": "11/18 19:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/cac58b09c8e33153d7848aebf824572f758b6fc3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "隣家の壁にも延焼…三重県松阪市で住宅1棟が全焼する火事 1人暮らしとみられる78歳男性は避難して無事(東海テレビ)",
+        "summary": "18日夕方、三重県松阪市で住宅1棟が全焼する火事がありました。 警察と消防によりますと、午後4時過ぎ、松阪市大黒田町で「建物が燃えている」などと通報が相次ぎました。 消防車など7台が出動し、火は30分",
+        "pub_date": "11/18 18:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/6da9e8dea75979d1a922204a3a476d1e95506306?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "“危険な踏切”車が「出られず」 列車と衝突相次ぐ…原因は(テレビ朝日系（ANN）)",
+        "summary": "■“危険な踏切”車が「出られず」 鹿児島県にある“危険な踏切”。 特急きりしまとダンプカーの衝突事故が発生。2年前にも列車とごみ収集車が衝突する事故が起きていました。 なぜ、この踏切での事故が多発して",
+        "pub_date": "11/18 18:55 JST",
+        "link": "https://news.yahoo.co.jp/articles/be97662fe417421a905abebbfc99eecbe3a8885c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "ネイルサロンに家宅捜索 ベトナム国籍の男女2人を逮捕 不正に他人名義のキャッシュカード1枚を譲り受けたか 他県で起きた特殊詐欺事件の被害金がこのサロンに… 名古屋(CBCテレビ)",
+        "summary": "特殊詐欺の拠点とみられる場所が名古屋にも。11月16日、愛知県警は東区のネイルサロンを家宅捜索し、ベトナム国籍の男女2人を逮捕しました。【画像を見る】名古屋・東区のネイルサロンや押収された札束やクレジ",
+        "pub_date": "11/18 18:49 JST",
+        "link": "https://news.yahoo.co.jp/articles/6c4a4d7b2f0e8aa87a63786287c560b7292d35a4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "硫黄島付近で噴火 新たな陸地を確認(ABEMA TIMES)",
+        "summary": "東京・小笠原諸島にある硫黄島の付近で火山の噴火があり、新たな陸地が形成されていることが確認されました。【映像】硫黄島付近の噴火の様子 気象庁によりますと、硫黄島の南の海岸からおよそ700メートルの場所",
+        "pub_date": "11/18 18:48 JST",
+        "link": "https://news.yahoo.co.jp/articles/bf2616f680db49ace30b5e235c326b9bc6965a4b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "旦過市場の大規模火災で店は全焼 跡地の商業施設は‟家賃3倍” 悩みに悩んで夫婦が出店を決めた思い【福岡発】(FNNプライムオンライン)",
         "summary": "2度の大火に見舞われ再整備が進んでいた北九州市の旦過市場。再整備された商業施設のオープンを前に、高い家賃を払ってでも移転すべきかどうか。苦悩する夫婦を取材した。【画像】旦過市場の火災跡に新商業施設",
         "pub_date": "11/18 18:42 JST",
         "link": "https://news.yahoo.co.jp/articles/e8e834f4c689459c621742005f5521a13ac193ca?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "小学校教諭がうがい用洗口液とアルコール消毒液を取り違え児童にうがいさせる　京都・八幡(産経新聞)",
+        "summary": "京都府八幡市は18日、市立八幡小学校で虫歯予防用のうがい液とアルコール消毒液を取り違え、児童14人にうがいをさせたと発表した。複数の児童が口内の違和感や腹痛を訴えたが、児童への健康被害は確認されていな",
+        "pub_date": "11/18 18:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/ca42652a105b7a96336fc9f4b96447a6bfb3b405?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
@@ -497,30 +555,6 @@
         "is_disaster": true
       },
       {
-        "title": "和歌山の3人死傷事故、懲役5年　持病で意識障害、「想定できた」(共同通信)",
-        "summary": "和歌山市で2021年、てんかん発作の意識障害で運転に支障が生じ得るのに車を運転し、事故で3人を死傷させたとして、自動車運転処罰法違反（危険運転致死傷）の罪に問われた西馬淳子被告（56）に和歌山地裁は1",
-        "pub_date": "11/18 18:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/11384a5f19dffd4ad4e74eb872786ea2ebdc9712?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "≪24歳コンカフェ女性殺害≫「女の子に貢ぎすぎて…」中野の“ニキ”と呼ばれていた39歳容疑者は出禁だらけ「一言多い、空気が読めない人」被害女性には「800万円使った」と供述(集英社オンライン)",
-        "summary": "東京都中野区の路上で青木七海さん（24）が首を刺され死亡した事件。強盗・殺人容疑で送検された清武一則容疑者（39）は、青木さんに「4年間で800万円くらい使った」と供述しているという。≪画像≫ツインテ",
-        "pub_date": "11/18 17:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/9579fbac649a0c0a428399cc4ea8edfd58112bd1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【警報級の大雨か】気象庁の週間天気予報（11月19日〜11月25日）　東日本日本海側で大しけ・大雨のおそれ…今後の降水シミュレーションも(BSS山陰放送)",
-        "summary": "気象庁が11月18日に発表した週間天気予報（11月19日〜11月25日）によりますと、東日本日本海側では22日頃にかけて波が高まり、大しけや警報級の大雨となる恐れがあります。【画像を見る】11月28日",
-        "pub_date": "11/18 17:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/2f074b3b7083d77350ea9d97b8f499e0cbeeb28d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "佐賀関火災1年 揺らぐ再建の思い",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/18 13:22 JST",
@@ -529,71 +563,39 @@
         "is_disaster": true
       },
       {
-        "title": "【動画】19日の天気 - 寒気流入　全国的に冷たい風強まり気温ダウン 日本海側は次第に雪の範囲広がる（18日18時更新）(ウェザーマップ)",
-        "summary": "19日(木)は次第に冬型の気圧配置が強まり、上空にこの時季としては強い寒気が流れ込んできます。北日本や日本海側は広い範囲で雨が降り、次第に雪の範囲が広がるでしょう。西日本や東日本の太平洋側は広い範囲で",
-        "pub_date": "11/18 18:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/dcfd8277daab573f71af0dee8fcf41bf12a10942?source=rss",
+        "title": "偶然？それとも…猫がおやつ柄ブランケットをペロッ！ →SNSをザワつかせた“愛らしくも切ない行動“に反響(ABEMA TIMES)",
+        "summary": "人気のおやつがプリントされたブランケットを本物と間違えたかのようにペロッと舐める猫。愛らしくも切ない姿に、SNSでは「まさに絵に描いたチュール」「それは食べられへんで！」などの反響を呼んでいる。【映像",
+        "pub_date": "11/18 19:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/391e254bc96b3acb95b302c916e3bea40d6c8ac1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "親はどう関わるべき?子どものSNS利用 平日の利用時間は? 世界で進む利用制限(CBCテレビ)",
-        "summary": "子どものSNSなどとの付き合い方は、非常に悩ましい問題になっています。使い方次第では日常生活に悪影響を与えてしまうこともある一方で、人によっては居場所になっている側面もあります。【写真を見る】親はどう",
-        "pub_date": "11/18 18:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/d6c8464acc0f29d727d57f058d4b97ba8d889b59?source=rss",
+        "title": "木原長官　ユーチューバー起用は広告会社の提案　政府の安全保障の広報サイト(テレビ朝日系（ANN）)",
+        "summary": "政府の安全保障の広報サイトに都市伝説などを紹介するユーチューバーを起用したことについて、木原官房長官は広告会社からの提案を内閣府が採用したと経緯を説明しました。木原官房長官「ユーチューバーの方の起用に",
+        "pub_date": "11/18 19:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/65f00c1e916ff48f1e4a16bd9ec1f9b06b0c7bd7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【近畿の天気】あす19日（木）　大阪は晴れのち曇り　最低・最高気温ともに18日より低めのところが多い予想(読売テレビ)",
-        "summary": "あす19日（木）の近畿地方の天気です。詳しくは天気動画をご覧ください。",
-        "pub_date": "11/18 18:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/d7a455856fa2e4ebfc985857770f551bf25278f3?source=rss",
+        "title": "「1億5千万円投入か？」『高市早苗天皇末裔説』の陰謀論系YouTuber起用の政府広報が“都市伝説より恐ろしい“ワケ(ハフポスト日本版)",
+        "summary": "内閣府が運営する「政府広報オンライン」が11月16日に公開した安全保障に関する特集「これは都市伝説ではない ―世界を消した主婦―」をめぐり、出演者の都市伝説・陰謀論系と言われるYouTuberの起用に",
+        "pub_date": "11/18 19:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/6113253f9998c0eac37046eead4ea7f10733cfce?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「本物の私のアカウントは...」小野田紀美大臣が明かした驚きの事実　Threadsに偽アカ登場「騙されないよう」(J-CASTニュース)",
-        "summary": "小野田紀美経済安全保障担当相が2026年11月17日、 SNS「Threads（スレッズ）」に出現した自身の「偽アカウント」をめぐる注意喚起を行った。【画像】「身分証画像まで証拠で送ったのに」。小野田",
-        "pub_date": "11/18 18:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/17e6bf6aeb056048732ef37d9488a454fb3dc4ff?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "DBSシステム稼働時期、明言せず(共同通信)",
-        "summary": "中司こども政策担当相は、日本版DBSに関するシステムの稼働見通しについて「今のところ、いつとは申し上げられない」と述べた。",
-        "pub_date": "11/18 18:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/82897384a6772946f7282477153f2da1c6a8a14e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "医薬品企業の情報漏えいか　厚労省委託先不正アクセス(共同通信)",
-        "summary": "厚生労働省は18日、医療用医薬品の供給状況に関する情報を製造販売業者から集約し、公表するシステムが不正アクセスを受け、システムの運用を17日から停止したと発表した。関連企業の担当者名や連絡先が漏えいし",
-        "pub_date": "11/18 18:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/e33d276dc07bdecad802642f208b24b7f1acdc4c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "NHK「節度のある飲酒を」　相次ぐ不祥事受け全役職員に通達(テレビ朝日系（ANN）)",
-        "summary": "NHKは仕事の延長での飲み会などをきっかけとした不祥事が相次いだことを受け、飲酒の際には適切な行動を徹底するようにすべての役職員に通達しました。NHK 井上会長「職場や業務の延長線上のリスクを改めて見",
-        "pub_date": "11/18 18:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/c4baeef3eaa0cf0fd9d94bb7dc5b84bb35c281c4?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「危機感を感じて捨てた」デザフェスの2100円牛肉丼、「凍っている」との投稿が大拡散…店は“解凍不足の可能性”に言及　マフィン騒動から３年、主催者の反応は…(集英社オンライン)",
-        "summary": "3年前にマフィンによる食中毒が起きた「デザフェス」。今年は牛肉丼の肉が「凍っていた」という投稿がなされ、900万回以上表示された。肉はどんな状態で出されたのか。会場で食べた来場者の話を聞き、出店者と主",
-        "pub_date": "11/18 18:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/986e921b5b757439028848426d64852c19e442ac?source=rss",
+        "title": "「日本版DBS」システムに深刻な脆弱性多数見つかる　稼働開始延期へ　こども家庭庁(テレビ朝日系（ANN）)",
+        "summary": "人事の手続きに使用するシステムで脆弱（ぜいじゃく）性が見つかりました。法律の施行日でのシステムの稼働を断念し、代替手段を検討しています。中司大臣「（『日本版DBS』のシステムで）深刻な脆弱性が多数、発",
+        "pub_date": "11/18 19:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/96cef756234fdc400472f3ccbaec5a149ae4e9fd?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-18 18:45:44 JST"
+    "last_updated": "2026-11-18 19:41:15 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -636,10 +638,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "VuJWjawYGqw",
+        "video_id": "e12CWjohCBc",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/VuJWjawYGqw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=VuJWjawYGqw"
+        "embed_url": "https://www.youtube.com/embed/e12CWjohCBc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=e12CWjohCBc"
       },
       {
         "id": "stream_annnews",
@@ -647,10 +649,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "2ZrckfF4e3k",
+        "video_id": "xSNcr7mt21Y",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/2ZrckfF4e3k?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=2ZrckfF4e3k"
+        "embed_url": "https://www.youtube.com/embed/xSNcr7mt21Y?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=xSNcr7mt21Y"
       },
       {
         "id": "stream_fnnnews",
@@ -658,10 +660,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "Yi9zAbwPAuo",
+        "video_id": "4pl_lslHA7U",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/Yi9zAbwPAuo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Yi9zAbwPAuo"
+        "embed_url": "https://www.youtube.com/embed/4pl_lslHA7U?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=4pl_lslHA7U"
       }
     ],
     "cameras": [

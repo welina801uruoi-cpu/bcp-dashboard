@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 02:37:21",
-  "timestamp_local": "2026-11-19 01:37:21",
+  "timestamp": "2026-11-19 03:29:21",
+  "timestamp_local": "2026-11-19 02:29:21",
   "country": {
     "id": "hongkong",
     "name": "香港 (中国香港特別行政区)",
@@ -266,16 +266,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 15,
-    "summary": "M5.3 (149 km SSW of Merizo Village, Guam)",
+    "summary": "M5.3 (4 km NNW of Tsunagi, Japan)",
     "latest": {
       "mag": 5.3,
-      "place": "149 km SSW of Merizo Village, Guam",
-      "time": "11/19 01:06 JST",
+      "place": "4 km NNW of Tsunagi, Japan",
+      "time": "11/19 02:22 JST",
       "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.3,
+        "place": "4 km NNW of Tsunagi, Japan",
+        "time": "11/19 02:22 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n",
+        "tsunami": 0
+      },
       {
         "mag": 5.3,
         "place": "149 km SSW of Merizo Village, Guam",
@@ -387,19 +395,18 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyvt",
         "tsunami": 0
-      },
-      {
-        "mag": 4.5,
-        "place": "26 km NW of Port-Vila, Vanuatu",
-        "time": "11/18 03:15 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytz",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "米史上初の黒人の下院議長誕生が確実に(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/f3efbb5daad60c5abdd1d48f3d3ddfe71b578f88?source=rss",
+        "description": "【ワシントン共同】米中間選挙で勝利した民主党は18日、来年1月招集の新議会の議長候補に黒人のハキーム・ジェフリーズ院内総務（56）を選出した。米史上初めて黒人の下院議長が誕生することが確実になった。",
+        "pub_date": "11/19 03:18 JST",
+        "is_priority": false
+      },
       {
         "title": "トランプ氏、中国でのAPEC歓迎晩餐会に出席　プーチン氏と握手(CNN.co.jp)",
         "link": "https://news.yahoo.co.jp/articles/bd14e3619230016e32dc95865a76d69b7e5a5f6a?source=rss",
@@ -532,13 +539,6 @@
         "description": "【深セン共同】中国の習近平国家主席は18日、トランプ米大統領を深センの空港で出迎えた際「米中関係や太平洋地域の協力、世界情勢に関わる重要な問題について意見交換したい」と述べた。新華社が伝えた。",
         "pub_date": "11/18 20:13 JST",
         "is_priority": false
-      },
-      {
-        "title": "米アラスカ州上院選 民主党候補が勝利(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/d4e63be76baca8c5d7918a0ff620c84d3907984f?source=rss",
-        "description": "アメリカ中間選挙の上院選で、最後まで決着がついていなかったアラスカ州で17日、民主党候補の勝利が確実となったとCNNが報じました。共和党が優位とされる州で、またしても民主党が議席を奪いました。【映像】",
-        "pub_date": "11/18 20:12 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -650,12 +650,12 @@
     "default_channel_id": "cam_victoria_harbour"
   },
   "forex": {
-    "timestamp": "11/19 02:37 JST",
+    "timestamp": "11/19 03:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.3,
+      "rate": 159.29,
       "change": -0.23,
       "change_pct": -0.14,
       "direction": "down"
@@ -666,16 +666,16 @@
       "symbol": "HK$",
       "rate": 20.3,
       "change": -0.03,
-      "change_pct": -0.13,
+      "change_pct": -0.14,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.8,
-      "change": -0.63,
-      "change_pct": -0.36
+      "rate": 174.89,
+      "change": -0.55,
+      "change_pct": -0.31
     }
   },
   "airports": [
@@ -703,11 +703,11 @@
         "is_capital": true,
         "lat": 22.3193,
         "lon": 114.1694,
-        "temp": 16.7,
-        "apparent_temp": 14.8,
+        "temp": 16.5,
+        "apparent_temp": 14.5,
         "humidity": 71,
-        "wind_speed": 16.2,
-        "wind_gusts": 38.2,
+        "wind_speed": 16.1,
+        "wind_gusts": 36.4,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -749,11 +749,11 @@
       "is_capital": true,
       "lat": 22.3193,
       "lon": 114.1694,
-      "temp": 16.7,
-      "apparent_temp": 14.8,
+      "temp": 16.5,
+      "apparent_temp": 14.5,
       "humidity": 71,
-      "wind_speed": 16.2,
-      "wind_gusts": 38.2,
+      "wind_speed": 16.1,
+      "wind_gusts": 36.4,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -788,7 +788,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/19 02:37 JST"
+    "timestamp": "11/19 03:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -817,7 +817,7 @@
         "details": "MTR全線・機場快線平常運行中"
       }
     ],
-    "timestamp": "11/19 02:37 JST"
+    "timestamp": "11/19 03:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

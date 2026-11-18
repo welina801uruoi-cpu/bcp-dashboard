@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 00:37:44",
-  "timestamp_local": "2026-11-18 11:37:44",
+  "timestamp": "2026-11-19 01:45:07",
+  "timestamp_local": "2026-11-18 12:45:07",
   "country": {
     "id": "usa",
     "name": "アメリカ (米国)",
@@ -169,17 +169,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
-    "summary": "M4.9 (West Chile Rise)",
+    "count_24h": 15,
+    "summary": "M5.3 (149 km SSW of Merizo Village, Guam)",
     "latest": {
-      "mag": 4.9,
-      "place": "West Chile Rise",
-      "time": "11/18 20:10 JST",
+      "mag": 5.3,
+      "place": "149 km SSW of Merizo Village, Guam",
+      "time": "11/19 01:06 JST",
       "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyza",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.3,
+        "place": "149 km SSW of Merizo Village, Guam",
+        "time": "11/19 01:06 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "West Chile Rise",
@@ -290,14 +298,6 @@
         "time": "11/18 03:15 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytz",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.8,
-        "place": "141 km NW of Kavieng, Papua New Guinea",
-        "time": "11/18 01:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt9",
         "tsunami": 0
       }
     ]
@@ -532,7 +532,7 @@
       {
         "id": "stream_abc_news",
         "name": "📺 ABC News Live (米ABC公式24h)",
-        "video_id": "2REykWyNNCY",
+        "video_id": "L4nfI0pmKy4",
         "handle": "@ABCNews",
         "type": "stream"
       },
@@ -565,32 +565,32 @@
     "default_channel_id": "stream_nbc_live"
   },
   "forex": {
-    "timestamp": "11/19 00:37 JST",
+    "timestamp": "11/19 01:45 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": -0.24,
-      "change_pct": -0.15,
+      "rate": 159.3,
+      "change": -0.22,
+      "change_pct": -0.14,
       "direction": "down"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.65,
-      "change": -0.79,
-      "change_pct": -0.45,
+      "rate": 175.31,
+      "change": -3.54,
+      "change_pct": -1.98,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.65,
-      "change": -0.79,
-      "change_pct": -0.45
+      "rate": 175.31,
+      "change": -3.54,
+      "change_pct": -1.98
     }
   },
   "airports": [
@@ -648,11 +648,11 @@
         "is_capital": true,
         "lat": 38.9072,
         "lon": -77.0369,
-        "temp": 11.5,
-        "apparent_temp": 9.0,
-        "humidity": 56,
-        "wind_speed": 6.8,
-        "wind_gusts": 14.8,
+        "temp": 14.4,
+        "apparent_temp": 11.8,
+        "humidity": 44,
+        "wind_speed": 6.5,
+        "wind_gusts": 13.0,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -693,11 +693,11 @@
         "is_capital": false,
         "lat": 40.7128,
         "lon": -74.006,
-        "temp": 11.3,
-        "apparent_temp": 9.3,
-        "humidity": 64,
-        "wind_speed": 5.1,
-        "wind_gusts": 14.4,
+        "temp": 13.5,
+        "apparent_temp": 11.3,
+        "humidity": 56,
+        "wind_speed": 6.6,
+        "wind_gusts": 12.6,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -738,11 +738,11 @@
         "is_capital": false,
         "lat": 34.0522,
         "lon": -118.2437,
-        "temp": 11.4,
-        "apparent_temp": 8.2,
-        "humidity": 50,
-        "wind_speed": 8.8,
-        "wind_gusts": 25.2,
+        "temp": 15.5,
+        "apparent_temp": 12.5,
+        "humidity": 47,
+        "wind_speed": 11.4,
+        "wind_gusts": 17.3,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -757,7 +757,7 @@
           },
           {
             "date": "11/19(木)",
-            "temp_max": 15.4,
+            "temp_max": 15.6,
             "temp_min": 9.9,
             "weather_code": 65,
             "weather_label": "🌧️ 雨 (大雨)",
@@ -783,11 +783,11 @@
         "is_capital": false,
         "lat": 41.8781,
         "lon": -87.6298,
-        "temp": 8.3,
-        "apparent_temp": 4.9,
-        "humidity": 69,
-        "wind_speed": 12.3,
-        "wind_gusts": 30.6,
+        "temp": 11.7,
+        "apparent_temp": 8.4,
+        "humidity": 60,
+        "wind_speed": 13.8,
+        "wind_gusts": 36.4,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -829,11 +829,11 @@
       "is_capital": true,
       "lat": 38.9072,
       "lon": -77.0369,
-      "temp": 11.5,
-      "apparent_temp": 9.0,
-      "humidity": 56,
-      "wind_speed": 6.8,
-      "wind_gusts": 14.8,
+      "temp": 14.4,
+      "apparent_temp": 11.8,
+      "humidity": 44,
+      "wind_speed": 6.5,
+      "wind_gusts": 13.0,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
@@ -868,7 +868,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:45 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -912,7 +912,7 @@
         "details": "NY地下鉄各線平常運行中"
       }
     ],
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:45 JST"
   },
   "lifeline": {
     "status": "NORMAL",

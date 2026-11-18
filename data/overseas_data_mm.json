@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 00:36:58",
-  "timestamp_local": "2026-11-18 22:06:58",
+  "timestamp": "2026-11-19 01:43:36",
+  "timestamp_local": "2026-11-18 23:13:36",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -267,17 +267,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
-    "summary": "M4.9 (West Chile Rise)",
+    "count_24h": 15,
+    "summary": "M5.3 (149 km SSW of Merizo Village, Guam)",
     "latest": {
-      "mag": 4.9,
-      "place": "West Chile Rise",
-      "time": "11/18 20:10 JST",
+      "mag": 5.3,
+      "place": "149 km SSW of Merizo Village, Guam",
+      "time": "11/19 01:06 JST",
       "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyza",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.3,
+        "place": "149 km SSW of Merizo Village, Guam",
+        "time": "11/19 01:06 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "West Chile Rise",
@@ -388,14 +396,6 @@
         "time": "11/18 03:15 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytz",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.8,
-        "place": "141 km NW of Kavieng, Papua New Guinea",
-        "time": "11/18 01:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt9",
         "tsunami": 0
       }
     ]
@@ -658,14 +658,14 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/19 00:36 JST",
+    "timestamp": "11/19 01:43 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": -0.24,
-      "change_pct": -0.15,
+      "rate": 159.3,
+      "change": -0.22,
+      "change_pct": -0.14,
       "direction": "down"
     },
     "local_jpy": {
@@ -681,9 +681,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.65,
-      "change": -0.79,
-      "change_pct": -0.45
+      "rate": 175.31,
+      "change": -3.54,
+      "change_pct": -1.98
     }
   },
   "airports": [
@@ -697,19 +697,19 @@
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
       "weather": {
-        "raw": "METAR VYYY 181530Z 33003KT 6000 FEW018 SCT110 27/24 Q1015 NOSIG",
-        "wind": "3kt",
-        "wind_speed": 3,
+        "raw": "METAR VYYY 181630Z 00000KT 6000 FEW018 SCT110 27/24 Q1015 NOSIG",
+        "wind": "0kt",
+        "wind_speed": 0,
         "wind_gust": 0,
         "visibility": "3.73マイル",
         "temp": 27,
         "fltcat": "VFR",
-        "report_time": "2026-11-18T15:30:00.000Z"
+        "report_time": "2026-11-18T16:30:00.000Z"
       },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "視程良好（3.73マイル）、風速安定（3kt）。順調に運航中"
+      "status_desc": "視程良好（3.73マイル）、風速安定（0kt）。順調に運航中"
     }
   ],
   "weather": {
@@ -721,13 +721,13 @@
         "lat": 16.8661,
         "lon": 96.1951,
         "temp": 26.3,
-        "apparent_temp": 31.3,
+        "apparent_temp": 31.2,
         "humidity": 87,
-        "wind_speed": 7.4,
-        "wind_gusts": 16.9,
+        "wind_speed": 7.6,
+        "wind_gusts": 15.1,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/18(水)",
@@ -765,11 +765,11 @@
         "is_capital": true,
         "lat": 19.7633,
         "lon": 96.0785,
-        "temp": 24.3,
-        "apparent_temp": 26.5,
-        "humidity": 82,
-        "wind_speed": 14.5,
-        "wind_gusts": 24.8,
+        "temp": 23.8,
+        "apparent_temp": 25.8,
+        "humidity": 84,
+        "wind_speed": 14.9,
+        "wind_gusts": 25.2,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -810,11 +810,11 @@
         "is_capital": false,
         "lat": 21.9588,
         "lon": 96.0891,
-        "temp": 22.6,
-        "apparent_temp": 25.9,
+        "temp": 22.4,
+        "apparent_temp": 25.6,
         "humidity": 88,
-        "wind_speed": 5.7,
-        "wind_gusts": 11.2,
+        "wind_speed": 5.0,
+        "wind_gusts": 10.1,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -856,11 +856,11 @@
       "is_capital": true,
       "lat": 19.7633,
       "lon": 96.0785,
-      "temp": 24.3,
-      "apparent_temp": 26.5,
-      "humidity": 82,
-      "wind_speed": 14.5,
-      "wind_gusts": 24.8,
+      "temp": 23.8,
+      "apparent_temp": 25.8,
+      "humidity": 84,
+      "wind_speed": 14.9,
+      "wind_gusts": 25.2,
       "precipitation": 0.0,
       "weather_code": 2,
       "weather_label": "⛅ 晴れ時々曇り",
@@ -895,7 +895,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/19 00:36 JST"
+    "timestamp": "11/19 01:43 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -924,7 +924,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/19 00:36 JST"
+    "timestamp": "11/19 01:43 JST"
   },
   "lifeline": {
     "status": "NORMAL",

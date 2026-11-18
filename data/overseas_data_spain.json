@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 00:37:34",
-  "timestamp_local": "2026-11-18 17:37:34",
+  "timestamp": "2026-11-19 01:44:53",
+  "timestamp_local": "2026-11-18 18:44:53",
   "country": {
     "id": "spain",
     "name": "スペイン",
@@ -352,17 +352,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
-    "summary": "M4.9 (West Chile Rise)",
+    "count_24h": 15,
+    "summary": "M5.3 (149 km SSW of Merizo Village, Guam)",
     "latest": {
-      "mag": 4.9,
-      "place": "West Chile Rise",
-      "time": "11/18 20:10 JST",
+      "mag": 5.3,
+      "place": "149 km SSW of Merizo Village, Guam",
+      "time": "11/19 01:06 JST",
       "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyza",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.3,
+        "place": "149 km SSW of Merizo Village, Guam",
+        "time": "11/19 01:06 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "West Chile Rise",
@@ -473,14 +481,6 @@
         "time": "11/18 03:15 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytz",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.8,
-        "place": "141 km NW of Kavieng, Papua New Guinea",
-        "time": "11/18 01:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt9",
         "tsunami": 0
       }
     ]
@@ -775,32 +775,32 @@
     "default_channel_id": "stream_rtve"
   },
   "forex": {
-    "timestamp": "11/19 00:37 JST",
+    "timestamp": "11/19 01:44 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": -0.24,
-      "change_pct": -0.15,
+      "rate": 159.3,
+      "change": -0.22,
+      "change_pct": -0.14,
       "direction": "down"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.65,
-      "change": -0.79,
-      "change_pct": -0.45,
+      "rate": 175.31,
+      "change": -3.54,
+      "change_pct": -1.98,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.65,
-      "change": -0.79,
-      "change_pct": -0.45
+      "rate": 175.31,
+      "change": -3.54,
+      "change_pct": -1.98
     }
   },
   "airports": [
@@ -858,12 +858,12 @@
         "is_capital": true,
         "lat": 40.4168,
         "lon": -3.7038,
-        "temp": 15.5,
-        "apparent_temp": 14.3,
-        "humidity": 84,
-        "wind_speed": 14.3,
-        "wind_gusts": 36.4,
-        "precipitation": 0.1,
+        "temp": 15.1,
+        "apparent_temp": 14.1,
+        "humidity": 86,
+        "wind_speed": 13.3,
+        "wind_gusts": 38.5,
+        "precipitation": 0.5,
         "weather_code": 61,
         "weather_label": "🌧️ 雨 (小雨)",
         "forecast": [
@@ -898,61 +898,16 @@
         "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
-        "name": "バルセロナ (カタルーニャ)",
-        "name_en": "Barcelona",
-        "is_capital": false,
-        "lat": 41.3879,
-        "lon": 2.1699,
-        "temp": 22.8,
-        "apparent_temp": 22.8,
-        "humidity": 59,
-        "wind_speed": 9.8,
-        "wind_gusts": 19.1,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/18(水)",
-            "temp_max": 23.7,
-            "temp_min": 17.0,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.8
-          },
-          {
-            "date": "11/19(木)",
-            "temp_max": 19.6,
-            "temp_min": 15.2,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 2.7
-          },
-          {
-            "date": "11/20(金)",
-            "temp_max": 18.6,
-            "temp_min": 13.6,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "セビリア (アンダルシア)",
         "name_en": "Seville",
         "is_capital": false,
         "lat": 37.3891,
         "lon": -5.9845,
-        "temp": 22.4,
-        "apparent_temp": 23.1,
-        "humidity": 84,
-        "wind_speed": 20.1,
-        "wind_gusts": 46.8,
+        "temp": 21.8,
+        "apparent_temp": 22.7,
+        "humidity": 88,
+        "wind_speed": 18.6,
+        "wind_gusts": 45.7,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -985,7 +940,7 @@
         "alert": "強風・大雨注意報",
         "alert_badge": "🟠 気象注意報",
         "alert_class": "orange",
-        "alert_desc": "強風（突風46.8km/h）または強い雨。移動・屋外行動に注意"
+        "alert_desc": "強風（突風45.7km/h）または強い雨。移動・屋外行動に注意"
       }
     ],
     "capital": {
@@ -994,12 +949,12 @@
       "is_capital": true,
       "lat": 40.4168,
       "lon": -3.7038,
-      "temp": 15.5,
-      "apparent_temp": 14.3,
-      "humidity": 84,
-      "wind_speed": 14.3,
-      "wind_gusts": 36.4,
-      "precipitation": 0.1,
+      "temp": 15.1,
+      "apparent_temp": 14.1,
+      "humidity": 86,
+      "wind_speed": 13.3,
+      "wind_gusts": 38.5,
+      "precipitation": 0.5,
       "weather_code": 61,
       "weather_label": "🌧️ 雨 (小雨)",
       "forecast": [
@@ -1033,7 +988,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:44 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1115,7 +1070,7 @@
         "details": "全国主要都市間ルートは定常運行中"
       }
     ],
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:44 JST"
   },
   "lifeline": {
     "status": "NORMAL",

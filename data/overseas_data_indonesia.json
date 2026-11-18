@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 00:37:17",
-  "timestamp_local": "2026-11-18 22:37:17",
+  "timestamp": "2026-11-19 01:44:14",
+  "timestamp_local": "2026-11-18 23:44:14",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -283,17 +283,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
-    "summary": "M4.9 (West Chile Rise)",
+    "count_24h": 15,
+    "summary": "M5.3 (149 km SSW of Merizo Village, Guam)",
     "latest": {
-      "mag": 4.9,
-      "place": "West Chile Rise",
-      "time": "11/18 20:10 JST",
+      "mag": 5.3,
+      "place": "149 km SSW of Merizo Village, Guam",
+      "time": "11/19 01:06 JST",
       "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyza",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.3,
+        "place": "149 km SSW of Merizo Village, Guam",
+        "time": "11/19 01:06 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "West Chile Rise",
@@ -404,14 +412,6 @@
         "time": "11/18 03:15 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytz",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.8,
-        "place": "141 km NW of Kavieng, Papua New Guinea",
-        "time": "11/18 01:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt9",
         "tsunami": 0
       }
     ]
@@ -591,7 +591,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/18 15:37",
@@ -661,7 +661,7 @@
       {
         "id": "stream_tvone_live",
         "name": "📺 tvOne News 24h 生配信",
-        "video_id": "opDQYO0muBU",
+        "video_id": "rQJoEpzKkNk",
         "handle": "@tvOneNews",
         "type": "stream"
       },
@@ -675,14 +675,14 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/19 00:37 JST",
+    "timestamp": "11/19 01:44 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": -0.24,
-      "change_pct": -0.15,
+      "rate": 159.3,
+      "change": -0.22,
+      "change_pct": -0.14,
       "direction": "down"
     },
     "local_jpy": {
@@ -698,9 +698,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.65,
-      "change": -0.79,
-      "change_pct": -0.45
+      "rate": 175.31,
+      "change": -3.54,
+      "change_pct": -1.98
     }
   },
   "airports": [
@@ -743,14 +743,14 @@
         "is_capital": true,
         "lat": -6.2088,
         "lon": 106.8456,
-        "temp": 26.0,
-        "apparent_temp": 31.8,
-        "humidity": 90,
-        "wind_speed": 2.2,
-        "wind_gusts": 10.8,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "temp": 25.4,
+        "apparent_temp": 31.1,
+        "humidity": 93,
+        "wind_speed": 2.7,
+        "wind_gusts": 10.1,
+        "precipitation": 0.3,
+        "weather_code": 55,
+        "weather_label": "🌦️ 霧雨 (強)",
         "forecast": [
           {
             "date": "11/18(水)",
@@ -777,10 +777,10 @@
             "precipitation_mm": 10.3
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "デンパサール (バリ島)",
@@ -788,23 +788,15 @@
         "is_capital": false,
         "lat": -8.6705,
         "lon": 115.2126,
-        "temp": 25.0,
+        "temp": 24.9,
         "apparent_temp": 30.9,
-        "humidity": 93,
-        "wind_speed": 0.5,
-        "wind_gusts": 4.0,
+        "humidity": 94,
+        "wind_speed": 0.3,
+        "wind_gusts": 1.8,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
         "forecast": [
-          {
-            "date": "11/18(水)",
-            "temp_max": 31.0,
-            "temp_min": 24.4,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 10.2
-          },
           {
             "date": "11/19(木)",
             "temp_max": 29.6,
@@ -820,57 +812,20 @@
             "weather_code": 55,
             "weather_label": "🌦️ 霧雨 (強)",
             "precipitation_mm": 6.1
+          },
+          {
+            "date": "11/21(土)",
+            "temp_max": 29.0,
+            "temp_min": 24.0,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 14.0
           }
         ],
         "alert": "平常",
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "スラバヤ (東ジャワ)",
-        "name_en": "Surabaya",
-        "is_capital": false,
-        "lat": -7.2575,
-        "lon": 112.7521,
-        "temp": 26.0,
-        "apparent_temp": 32.3,
-        "humidity": 95,
-        "wind_speed": 3.2,
-        "wind_gusts": 14.0,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
-        "forecast": [
-          {
-            "date": "11/18(水)",
-            "temp_max": 33.3,
-            "temp_min": 25.8,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 9.0
-          },
-          {
-            "date": "11/19(木)",
-            "temp_max": 31.4,
-            "temp_min": 24.5,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 9.9
-          },
-          {
-            "date": "11/20(金)",
-            "temp_max": 31.1,
-            "temp_min": 24.4,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 10.1
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -879,14 +834,14 @@
       "is_capital": true,
       "lat": -6.2088,
       "lon": 106.8456,
-      "temp": 26.0,
-      "apparent_temp": 31.8,
-      "humidity": 90,
-      "wind_speed": 2.2,
-      "wind_gusts": 10.8,
-      "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "temp": 25.4,
+      "apparent_temp": 31.1,
+      "humidity": 93,
+      "wind_speed": 2.7,
+      "wind_gusts": 10.1,
+      "precipitation": 0.3,
+      "weather_code": 55,
+      "weather_label": "🌦️ 霧雨 (強)",
       "forecast": [
         {
           "date": "11/18(水)",
@@ -913,12 +868,12 @@
           "precipitation_mm": 10.3
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:44 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -947,7 +902,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:44 JST"
   },
   "lifeline": {
     "status": "NORMAL",

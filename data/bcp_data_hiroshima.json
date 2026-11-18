@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18 15:36:38",
+  "timestamp": "2026-11-18 16:43:09",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -73,12 +73,26 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "3",
-    "time": "2026-11-18 18:37",
-    "place": "日本海中部",
-    "magnitude": "5",
+    "shindo": "2",
+    "time": "2026-11-19 01:39",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "2.7",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-19 01:39",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "2",
+        "magnitude": "2.7",
+        "maxScale": 20
+      },
+      {
+        "time": "2026-11-19 01:17",
+        "place": "熊本県熊本地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-18 18:37",
         "place": "日本海中部",
@@ -134,20 +148,6 @@
         "shindo": "3",
         "magnitude": "-",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-18 02:35",
-        "place": "島根県西部",
-        "shindo": "1",
-        "magnitude": "3.2",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-18 01:29",
-        "place": "熊本県阿蘇地方",
-        "shindo": "1",
-        "magnitude": "2.4",
-        "maxScale": 10
       }
     ]
   },
@@ -374,8 +374,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/18 16:09",
+          "text": "楽天モバイル持っているんだが、 START au END とのローミングが一部地域で無くなり、回線がクソになってる。 自宅ではポケットWi-Fi普通に使えてはい..."
+        },
         {
           "time": "11/18 13:37",
           "text": "あらやだ、懐かしい！ スマートフォンが完全普及した2026年末に、あえて電話専用機（4Gガラケー相当）を展開するとは思い切ったね。 SIMフリー端末としての販売..."
@@ -383,10 +387,6 @@
         {
           "time": "11/18 12:32",
           "text": "インターネット START 繋がらない END 携帯、 懐かしのウォークマンみたいだなぁ… Bluetooth接続して充電持ちそうだったら START au E..."
-        },
-        {
-          "time": "11/18 11:39",
-          "text": "INFOBER ZERO が欲しくなる SUNANEKO にしたいけど、 START au END のページが504出て START 繋がらない END のでど..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -432,7 +432,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 10,
     "articles": [
       {
         "title": "意識障害で死傷事故の被告に懲役5年　実刑判決を求めていた遺族、悔しさにじませる(産経新聞)",
@@ -515,47 +515,47 @@
         "is_disaster": true
       },
       {
-        "title": "〈コンカフェ店員刺殺〉「言葉にできないほど悲しい」被害女性の元交際相手が涙…女性は何度も「気持ち悪い」と知人に漏らしていた「ガチ恋になると厄介なタイプ」(集英社オンライン)",
-        "summary": "東京都中野区の路上で青木七海さん（24）が首を刺され死亡した事件。警視庁は11月16日夜、強盗殺人未遂容疑で職業不詳の清武一則容疑者（39）を緊急逮捕した。≪画像≫「優しい子」ツインテールでアイドル衣",
-        "pub_date": "11/18 19:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/dd8f9c6261d6b13620f395f06063c2d3cb42a0c0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "3年保護、自宅に戻り1カ月で　兵庫・伊丹の3歳死亡　一時保護の児相「適切と判断」(産経新聞)",
-        "summary": "大阪府枚方市で当時3歳の娘を殺害した容疑で父親が逮捕された事件に続き、またも幼い命が失われる事件が発覚した。兵庫県伊丹市の自宅で3歳の次女に暴行を加え死亡させたとして傷害致死の疑いで、同市大野の内装業",
-        "pub_date": "11/19 00:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/f8887124ade80877e66a80d7357b1ada73b79570?source=rss",
+        "title": "【速報】高市総理がロシアのプーチン大統領と約30分間接触　記者拘束など立場伝える(テレビ朝日系（ANN）)",
+        "summary": "APEC（アジア太平洋経済協力会議）に出席するため中国を訪問中の高市総理大臣は、ロシアのプーチン大統領とおよそ30分面会し、記者拘束などについて日本の立場を伝えました。 外務省の発表によりますと、高市",
+        "pub_date": "11/19 01:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/7a8a666e112891c2f6e706a52cc2fcbae7a61361?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "過去に2回、虐待疑いで捜査　3歳娘暴行死疑いで父を逮捕　「事実ではない」と否認　兵庫・伊丹(産経新聞)",
-        "summary": "自宅で3歳の次女に暴行を加え死亡させたとして、兵庫県警捜査1課は18日、傷害致死の疑いで兵庫県伊丹市大野の内装業、有元慎哉容疑者（29）を逮捕した。「事実ではありません」と容疑を否認している。県警は次",
-        "pub_date": "11/19 00:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/b8de65582cc2ae5289ba269e611e85c6a34da6db?source=rss",
+        "title": "高市早苗首相、ロシアのプーチン大統領と対話　道新記者拘束などで日本の立場伝える(産経新聞)",
+        "summary": "【深圳＝千田恒弥】高市早苗首相は18日、ロシアのプーチン大統領と訪問先の中国・深圳で対話した。日本政府関係者が明らかにした。日本政府関係者によると、意見交換はアジア太平洋経済協力会議（ＡＰＥＣ）の夕食",
+        "pub_date": "11/19 00:54 JST",
+        "link": "https://news.yahoo.co.jp/articles/5912fc68f043bf8d14296a3856cd23d410725e07?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "フランス産「ボージョレ」解禁　価格維持も、市場は縮小(共同通信)",
-        "summary": "フランス産ワインの新酒「ボージョレ・ヌーボー」が19日午前0時に解禁された。サントリーは円安や生産コストの上昇を輸送費の低減などで吸収し、昨年から価格を据え置いた。アサヒビール傘下のエノテカも昨年に続",
-        "pub_date": "11/19 00:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/7860eed0d646051ccb2a2c20ade65c32e379c0e4?source=rss",
+        "title": "首相、記者拘束を踏まえ日本の立場伝達(共同通信)",
+        "summary": "【深セン共同】日本政府関係者によると、高市首相は、プーチン大統領との対話で、ロシアによる北海道新聞記者の拘束などを踏まえ、日本側の立場を伝達した。",
+        "pub_date": "11/19 00:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/eefff4ab072157f2a0f1df89d0085b34920c8e3b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「木綿のハンカチーフ」が大ヒット　歌手の太田裕美さん（71）死去(テレビ朝日系（ANN）)",
-        "summary": "大ヒット曲「木綿のハンカチーフ」で知られる歌手の太田裕美さんが亡くなったことが分かりました。71歳でした。 関係者によりますと、太田さんは今月12日に亡くなったということです。 太田さんは1974年に",
-        "pub_date": "11/18 23:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/d83f4e412ea7564e9e890c0cb7a24a7ce6c31c67?source=rss",
+        "title": "日ロ首脳の対話は約30分間と日本政府関係者(共同通信)",
+        "summary": "【深セン共同】日本政府関係者は、高市首相とプーチン大統領の対話時間は約30分間だったと明らかにした。",
+        "pub_date": "11/19 00:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/0fee89d6554a78725ca38f1b91d1839da5b2c885?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "『木綿のハンカチーフ』歌手・太田裕美さん（71）死去　乳がん公表も精力的に活動(テレビ朝日系（ANN）)",
+        "summary": "『木綿のハンカチーフ』で知られる、歌手の太田裕美さんが亡くなりました。71歳でした。太田さんは、2019年に乳がんを公表した後も全国でコンサートを開くなど、精力的に活動を続けていました。1975年に発",
+        "pub_date": "11/19 00:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/ed8a2af6054cc40c61979401126bc0b86ca7d01c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 00:36:35 JST"
+    "last_updated": "2026-11-19 01:42:20 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -576,10 +576,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "aYyCivhSL8Y",
+        "video_id": "c0a2AKH9iUE",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/aYyCivhSL8Y?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=aYyCivhSL8Y"
+        "embed_url": "https://www.youtube.com/embed/c0a2AKH9iUE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=c0a2AKH9iUE"
       },
       {
         "id": "stream_tbsnews",
@@ -598,10 +598,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "DhABGP43F8k",
+        "video_id": "81PD4fCU0Ag",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/DhABGP43F8k?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=DhABGP43F8k"
+        "embed_url": "https://www.youtube.com/embed/81PD4fCU0Ag?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=81PD4fCU0Ag"
       },
       {
         "id": "stream_annnews",

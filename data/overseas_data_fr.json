@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 00:37:30",
-  "timestamp_local": "2026-11-18 17:37:30",
+  "timestamp": "2026-11-19 01:44:41",
+  "timestamp_local": "2026-11-18 18:44:41",
   "country": {
     "id": "france",
     "name": "フランス",
@@ -346,17 +346,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
-    "summary": "M4.9 (West Chile Rise)",
+    "count_24h": 15,
+    "summary": "M5.3 (149 km SSW of Merizo Village, Guam)",
     "latest": {
-      "mag": 4.9,
-      "place": "West Chile Rise",
-      "time": "11/18 20:10 JST",
+      "mag": 5.3,
+      "place": "149 km SSW of Merizo Village, Guam",
+      "time": "11/19 01:06 JST",
       "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyza",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.3,
+        "place": "149 km SSW of Merizo Village, Guam",
+        "time": "11/19 01:06 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "West Chile Rise",
@@ -467,14 +475,6 @@
         "time": "11/18 03:15 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytz",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.8,
-        "place": "141 km NW of Kavieng, Papua New Guinea",
-        "time": "11/18 01:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt9",
         "tsunami": 0
       }
     ]
@@ -631,8 +631,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/18 15:37",
+          "text": "パリ の警察が抗議 デモ の警備のためにもっと給料を払えと要求 水曜日、エリゼ宮殿のすぐ隣にある内務省に向かって、全国か..."
+        },
         {
           "time": "11/18 15:21",
           "text": "@tv_asahi_news パリ の デモ は流す。国会前の デモ は流さない。 テレビが外国の ..."
@@ -640,10 +644,6 @@
         {
           "time": "11/18 14:50",
           "text": "@Kokuryukai1936 僕の パリ が好きな理由は デモ とドブ川とサッカー(最悪)"
-        },
-        {
-          "time": "11/18 14:40",
-          "text": "@sergo_1917 パリ わかる！！！ おしゃれだしたまに デモ も見れるし()"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%91%E3%83%AA%20%E3%83%87%E3%83%A2"
@@ -654,7 +654,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/18 14:59",
@@ -755,32 +755,32 @@
     "default_channel_id": "stream_france24_fr"
   },
   "forex": {
-    "timestamp": "11/19 00:37 JST",
+    "timestamp": "11/19 01:44 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": -0.24,
-      "change_pct": -0.15,
+      "rate": 159.3,
+      "change": -0.22,
+      "change_pct": -0.14,
       "direction": "down"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.65,
-      "change": -0.79,
-      "change_pct": -0.45,
+      "rate": 175.31,
+      "change": -3.54,
+      "change_pct": -1.98,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.65,
-      "change": -0.79,
-      "change_pct": -0.45
+      "rate": 175.31,
+      "change": -3.54,
+      "change_pct": -1.98
     }
   },
   "airports": [
@@ -838,14 +838,14 @@
         "is_capital": true,
         "lat": 48.8566,
         "lon": 2.3522,
-        "temp": 14.8,
-        "apparent_temp": 11.7,
-        "humidity": 60,
-        "wind_speed": 16.0,
-        "wind_gusts": 32.8,
+        "temp": 13.9,
+        "apparent_temp": 11.1,
+        "humidity": 66,
+        "wind_speed": 15.3,
+        "wind_gusts": 32.4,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/18(水)",
@@ -858,14 +858,14 @@
           {
             "date": "11/19(木)",
             "temp_max": 14.0,
-            "temp_min": 10.9,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 8.2
+            "temp_min": 10.8,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 5.1
           },
           {
             "date": "11/20(金)",
-            "temp_max": 13.2,
+            "temp_max": 13.7,
             "temp_min": 9.7,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
@@ -883,11 +883,11 @@
         "is_capital": false,
         "lat": 43.7102,
         "lon": 7.262,
-        "temp": 19.0,
-        "apparent_temp": 16.9,
-        "humidity": 47,
-        "wind_speed": 10.3,
-        "wind_gusts": 20.9,
+        "temp": 18.0,
+        "apparent_temp": 16.0,
+        "humidity": 48,
+        "wind_speed": 8.0,
+        "wind_gusts": 15.1,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -895,23 +895,23 @@
           {
             "date": "11/18(水)",
             "temp_max": 21.7,
-            "temp_min": 11.2,
+            "temp_min": 11.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/19(木)",
-            "temp_max": 21.0,
-            "temp_min": 11.5,
+            "temp_max": 20.9,
+            "temp_min": 11.7,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 5.2
+            "precipitation_mm": 1.9
           },
           {
             "date": "11/20(金)",
-            "temp_max": 19.3,
-            "temp_min": 14.0,
+            "temp_max": 19.6,
+            "temp_min": 13.9,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -928,11 +928,11 @@
         "is_capital": false,
         "lat": 45.764,
         "lon": 4.8357,
-        "temp": 15.4,
-        "apparent_temp": 12.8,
+        "temp": 14.9,
+        "apparent_temp": 12.4,
         "humidity": 52,
-        "wind_speed": 10.1,
-        "wind_gusts": 21.2,
+        "wind_speed": 9.1,
+        "wind_gusts": 19.8,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -948,18 +948,18 @@
           {
             "date": "11/19(木)",
             "temp_max": 17.1,
-            "temp_min": 11.0,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 7.6
+            "temp_min": 10.9,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 9.3
           },
           {
             "date": "11/20(金)",
-            "temp_max": 13.5,
+            "temp_max": 13.8,
             "temp_min": 8.6,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 0.3
+            "precipitation_mm": 0.5
           }
         ],
         "alert": "平常",
@@ -974,14 +974,14 @@
       "is_capital": true,
       "lat": 48.8566,
       "lon": 2.3522,
-      "temp": 14.8,
-      "apparent_temp": 11.7,
-      "humidity": 60,
-      "wind_speed": 16.0,
-      "wind_gusts": 32.8,
+      "temp": 13.9,
+      "apparent_temp": 11.1,
+      "humidity": 66,
+      "wind_speed": 15.3,
+      "wind_gusts": 32.4,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/18(水)",
@@ -994,14 +994,14 @@
         {
           "date": "11/19(木)",
           "temp_max": 14.0,
-          "temp_min": 10.9,
-          "weather_code": 63,
-          "weather_label": "🌧️ 雨 (中雨)",
-          "precipitation_mm": 8.2
+          "temp_min": 10.8,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 5.1
         },
         {
           "date": "11/20(金)",
-          "temp_max": 13.2,
+          "temp_max": 13.7,
           "temp_min": 9.7,
           "weather_code": 80,
           "weather_label": "🌧️ にわか雨 (弱)",
@@ -1013,7 +1013,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:44 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1095,7 +1095,7 @@
         "details": "パリ・シャルル・ド・ゴール空港および主要ターミナル発着便は平常運行中"
       }
     ],
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:44 JST"
   },
   "lifeline": {
     "status": "NORMAL",

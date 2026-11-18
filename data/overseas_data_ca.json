@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 00:37:47",
-  "timestamp_local": "2026-11-18 11:37:47",
+  "timestamp": "2026-11-19 01:45:10",
+  "timestamp_local": "2026-11-18 12:45:10",
   "country": {
     "id": "canada",
     "name": "カナダ",
@@ -141,17 +141,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
-    "summary": "M4.9 (West Chile Rise)",
+    "count_24h": 15,
+    "summary": "M5.3 (149 km SSW of Merizo Village, Guam)",
     "latest": {
-      "mag": 4.9,
-      "place": "West Chile Rise",
-      "time": "11/18 20:10 JST",
+      "mag": 5.3,
+      "place": "149 km SSW of Merizo Village, Guam",
+      "time": "11/19 01:06 JST",
       "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyza",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.3,
+        "place": "149 km SSW of Merizo Village, Guam",
+        "time": "11/19 01:06 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "West Chile Rise",
@@ -262,14 +270,6 @@
         "time": "11/18 03:15 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytz",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.8,
-        "place": "141 km NW of Kavieng, Papua New Guinea",
-        "time": "11/18 01:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt9",
         "tsunami": 0
       }
     ]
@@ -511,22 +511,22 @@
     "default_channel_id": "stream_cbc_live"
   },
   "forex": {
-    "timestamp": "11/19 00:37 JST",
+    "timestamp": "11/19 01:45 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": -0.24,
-      "change_pct": -0.15,
+      "rate": 159.3,
+      "change": -0.22,
+      "change_pct": -0.14,
       "direction": "down"
     },
     "local_jpy": {
       "currency": "CAD",
       "name": "カナダドル",
       "symbol": "C$",
-      "rate": 111.12,
-      "change": -0.45,
+      "rate": 111.11,
+      "change": -0.46,
       "change_pct": -0.41,
       "direction": "down"
     },
@@ -534,9 +534,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.65,
-      "change": -0.79,
-      "change_pct": -0.45
+      "rate": 175.31,
+      "change": -3.54,
+      "change_pct": -1.98
     }
   },
   "airports": [
@@ -579,14 +579,14 @@
         "is_capital": true,
         "lat": 45.4215,
         "lon": -75.6972,
-        "temp": 8.6,
-        "apparent_temp": 5.4,
-        "humidity": 74,
-        "wind_speed": 12.3,
+        "temp": 10.7,
+        "apparent_temp": 7.9,
+        "humidity": 69,
+        "wind_speed": 11.1,
         "wind_gusts": 26.3,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/18(水)",
@@ -624,11 +624,11 @@
         "is_capital": false,
         "lat": 43.6532,
         "lon": -79.3832,
-        "temp": 8.8,
-        "apparent_temp": 5.9,
-        "humidity": 74,
-        "wind_speed": 11.2,
-        "wind_gusts": 25.9,
+        "temp": 11.2,
+        "apparent_temp": 7.7,
+        "humidity": 65,
+        "wind_speed": 15.9,
+        "wind_gusts": 30.2,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -669,14 +669,14 @@
         "is_capital": false,
         "lat": 49.2827,
         "lon": -123.1207,
-        "temp": 2.6,
-        "apparent_temp": 0.1,
-        "humidity": 75,
-        "wind_speed": 0.8,
-        "wind_gusts": 5.4,
+        "temp": 3.8,
+        "apparent_temp": 0.9,
+        "humidity": 71,
+        "wind_speed": 4.2,
+        "wind_gusts": 5.8,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/18(水)",
@@ -715,14 +715,14 @@
       "is_capital": true,
       "lat": 45.4215,
       "lon": -75.6972,
-      "temp": 8.6,
-      "apparent_temp": 5.4,
-      "humidity": 74,
-      "wind_speed": 12.3,
+      "temp": 10.7,
+      "apparent_temp": 7.9,
+      "humidity": 69,
+      "wind_speed": 11.1,
       "wind_gusts": 26.3,
       "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/18(水)",
@@ -754,7 +754,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:45 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -783,7 +783,7 @@
         "details": "VIA鉄道主要列車平常運行中"
       }
     ],
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:45 JST"
   },
   "lifeline": {
     "status": "NORMAL",

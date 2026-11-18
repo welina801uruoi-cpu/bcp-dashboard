@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 00:37:26",
-  "timestamp_local": "2026-11-18 22:37:26",
+  "timestamp": "2026-11-19 01:44:36",
+  "timestamp_local": "2026-11-18 23:44:36",
   "country": {
     "id": "cambodia",
     "name": "カンボジア",
@@ -260,17 +260,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
-    "summary": "M4.9 (West Chile Rise)",
+    "count_24h": 15,
+    "summary": "M5.3 (149 km SSW of Merizo Village, Guam)",
     "latest": {
-      "mag": 4.9,
-      "place": "West Chile Rise",
-      "time": "11/18 20:10 JST",
+      "mag": 5.3,
+      "place": "149 km SSW of Merizo Village, Guam",
+      "time": "11/19 01:06 JST",
       "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyza",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.3,
+        "place": "149 km SSW of Merizo Village, Guam",
+        "time": "11/19 01:06 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "West Chile Rise",
@@ -381,14 +389,6 @@
         "time": "11/18 03:15 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytz",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.8,
-        "place": "141 km NW of Kavieng, Papua New Guinea",
-        "time": "11/18 01:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt9",
         "tsunami": 0
       }
     ]
@@ -633,14 +633,14 @@
     "default_channel_id": "stream_euronews_asia"
   },
   "forex": {
-    "timestamp": "11/19 00:37 JST",
+    "timestamp": "11/19 01:44 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": -0.24,
-      "change_pct": -0.15,
+      "rate": 159.3,
+      "change": -0.22,
+      "change_pct": -0.14,
       "direction": "down"
     },
     "local_jpy": {
@@ -656,9 +656,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.65,
-      "change": -0.79,
-      "change_pct": -0.45
+      "rate": 175.31,
+      "change": -3.54,
+      "change_pct": -1.98
     }
   },
   "airports": [
@@ -679,144 +679,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "プノンペン (首都)",
-        "name_en": "Phnom Penh",
-        "is_capital": true,
-        "lat": 11.5564,
-        "lon": 104.9282,
-        "temp": 27.8,
-        "apparent_temp": 33.9,
-        "humidity": 81,
-        "wind_speed": 0.7,
-        "wind_gusts": 3.6,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
-        "forecast": [
-          {
-            "date": "11/18(水)",
-            "temp_max": 32.5,
-            "temp_min": 23.4,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 6.1
-          },
-          {
-            "date": "11/19(木)",
-            "temp_max": 32.5,
-            "temp_min": 24.4,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/20(金)",
-            "temp_max": 32.1,
-            "temp_min": 25.0,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 2.1
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
-        "name": "シェムリアップ (北西部)",
-        "name_en": "Siem Reap",
-        "is_capital": false,
-        "lat": 13.3671,
-        "lon": 103.8448,
-        "temp": 26.2,
-        "apparent_temp": 31.2,
-        "humidity": 85,
-        "wind_speed": 4.9,
-        "wind_gusts": 6.1,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/18(水)",
-            "temp_max": 32.9,
-            "temp_min": 24.6,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/19(木)",
-            "temp_max": 32.9,
-            "temp_min": 24.2,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/20(金)",
-            "temp_max": 32.3,
-            "temp_min": 24.3,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.1
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      }
-    ],
-    "capital": {
-      "name": "プノンペン (首都)",
-      "name_en": "Phnom Penh",
-      "is_capital": true,
-      "lat": 11.5564,
-      "lon": 104.9282,
-      "temp": 27.8,
-      "apparent_temp": 33.9,
-      "humidity": 81,
-      "wind_speed": 0.7,
-      "wind_gusts": 3.6,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
-      "forecast": [
-        {
-          "date": "11/18(水)",
-          "temp_max": 32.5,
-          "temp_min": 23.4,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 6.1
-        },
-        {
-          "date": "11/19(木)",
-          "temp_max": 32.5,
-          "temp_min": 24.4,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
-        },
-        {
-          "date": "11/20(金)",
-          "temp_max": 32.1,
-          "temp_min": 25.0,
-          "weather_code": 55,
-          "weather_label": "🌦️ 霧雨 (強)",
-          "precipitation_mm": 2.1
-        }
-      ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-    },
-    "timestamp": "11/19 00:37 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/19 01:44 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -845,7 +710,7 @@
         "details": "旅客定期便運行中"
       }
     ],
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:44 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 00:37:06",
-  "timestamp_local": "2026-11-18 23:37:06",
+  "timestamp": "2026-11-19 01:43:49",
+  "timestamp_local": "2026-11-19 00:43:49",
   "country": {
     "id": "singapore",
     "name": "シンガポール",
@@ -259,17 +259,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
-    "summary": "M4.9 (West Chile Rise)",
+    "count_24h": 15,
+    "summary": "M5.3 (149 km SSW of Merizo Village, Guam)",
     "latest": {
-      "mag": 4.9,
-      "place": "West Chile Rise",
-      "time": "11/18 20:10 JST",
+      "mag": 5.3,
+      "place": "149 km SSW of Merizo Village, Guam",
+      "time": "11/19 01:06 JST",
       "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyza",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.3,
+        "place": "149 km SSW of Merizo Village, Guam",
+        "time": "11/19 01:06 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "West Chile Rise",
@@ -380,14 +388,6 @@
         "time": "11/18 03:15 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytz",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.8,
-        "place": "141 km NW of Kavieng, Papua New Guinea",
-        "time": "11/18 01:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt9",
         "tsunami": 0
       }
     ]
@@ -643,14 +643,14 @@
     "default_channel_id": "stream_cna_live"
   },
   "forex": {
-    "timestamp": "11/19 00:37 JST",
+    "timestamp": "11/19 01:43 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": -0.24,
-      "change_pct": -0.15,
+      "rate": 159.3,
+      "change": -0.22,
+      "change_pct": -0.14,
       "direction": "down"
     },
     "local_jpy": {
@@ -658,7 +658,7 @@
       "name": "シンガポールドル",
       "symbol": "S$",
       "rate": 123.49,
-      "change": -0.25,
+      "change": -0.26,
       "change_pct": -0.21,
       "direction": "down"
     },
@@ -666,9 +666,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.65,
-      "change": -0.79,
-      "change_pct": -0.45
+      "rate": 175.31,
+      "change": -3.54,
+      "change_pct": -1.98
     }
   },
   "airports": [
@@ -689,99 +689,9 @@
     }
   ],
   "weather": {
-    "cities": [
-      {
-        "name": "シンガポール (全域)",
-        "name_en": "Singapore",
-        "is_capital": true,
-        "lat": 1.3521,
-        "lon": 103.8198,
-        "temp": 24.1,
-        "apparent_temp": 29.4,
-        "humidity": 100,
-        "wind_speed": 5.6,
-        "wind_gusts": 15.1,
-        "precipitation": 0.3,
-        "weather_code": 55,
-        "weather_label": "🌦️ 霧雨 (強)",
-        "forecast": [
-          {
-            "date": "11/18(水)",
-            "temp_max": 33.0,
-            "temp_min": 23.3,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 24.5
-          },
-          {
-            "date": "11/19(木)",
-            "temp_max": 29.9,
-            "temp_min": 23.4,
-            "weather_code": 82,
-            "weather_label": "⛈️ 激しいにわか雨",
-            "precipitation_mm": 13.3
-          },
-          {
-            "date": "11/20(金)",
-            "temp_max": 30.9,
-            "temp_min": 24.1,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 11.8
-          }
-        ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
-      }
-    ],
-    "capital": {
-      "name": "シンガポール (全域)",
-      "name_en": "Singapore",
-      "is_capital": true,
-      "lat": 1.3521,
-      "lon": 103.8198,
-      "temp": 24.1,
-      "apparent_temp": 29.4,
-      "humidity": 100,
-      "wind_speed": 5.6,
-      "wind_gusts": 15.1,
-      "precipitation": 0.3,
-      "weather_code": 55,
-      "weather_label": "🌦️ 霧雨 (強)",
-      "forecast": [
-        {
-          "date": "11/18(水)",
-          "temp_max": 33.0,
-          "temp_min": 23.3,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 24.5
-        },
-        {
-          "date": "11/19(木)",
-          "temp_max": 29.9,
-          "temp_min": 23.4,
-          "weather_code": 82,
-          "weather_label": "⛈️ 激しいにわか雨",
-          "precipitation_mm": 13.3
-        },
-        {
-          "date": "11/20(金)",
-          "temp_max": 30.9,
-          "temp_min": 24.1,
-          "weather_code": 95,
-          "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 11.8
-        }
-      ],
-      "alert": "気象注意",
-      "alert_badge": "🟡 気象注意",
-      "alert_class": "yellow",
-      "alert_desc": "降雨または視程低下あり。通常行動可能"
-    },
-    "timestamp": "11/19 00:37 JST"
+    "cities": [],
+    "capital": null,
+    "timestamp": "11/19 01:43 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -810,7 +720,7 @@
         "details": "MRT南北線・東西線・環状線など平常運行中"
       }
     ],
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:43 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 00:37:22",
-  "timestamp_local": "2026-11-18 21:07:22",
+  "timestamp": "2026-11-19 01:44:23",
+  "timestamp_local": "2026-11-18 22:14:23",
   "country": {
     "id": "india",
     "name": "インド",
@@ -289,17 +289,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 17,
-    "summary": "M4.9 (West Chile Rise)",
+    "count_24h": 15,
+    "summary": "M5.3 (149 km SSW of Merizo Village, Guam)",
     "latest": {
-      "mag": 4.9,
-      "place": "West Chile Rise",
-      "time": "11/18 20:10 JST",
+      "mag": 5.3,
+      "place": "149 km SSW of Merizo Village, Guam",
+      "time": "11/19 01:06 JST",
       "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyza",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.3,
+        "place": "149 km SSW of Merizo Village, Guam",
+        "time": "11/19 01:06 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "West Chile Rise",
@@ -410,14 +418,6 @@
         "time": "11/18 03:15 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytz",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.8,
-        "place": "141 km NW of Kavieng, Papua New Guinea",
-        "time": "11/18 01:35 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt9",
         "tsunami": 0
       }
     ]
@@ -645,21 +645,21 @@
       {
         "id": "stream_ndtv_live",
         "name": "📺 NDTV 24x7 (インド全国英語ニュース)",
-        "video_id": "648B2gjP9QI",
+        "video_id": "YxGbwFe36oU",
         "handle": "@NDTV",
         "type": "stream"
       },
       {
         "id": "stream_india_today",
         "name": "📺 India Today LIVE 24h",
-        "video_id": "H6Yl_eeLFvQ",
+        "video_id": "5HhfmkrEvw0",
         "handle": "@indiatoday",
         "type": "stream"
       },
       {
         "id": "stream_wion_live",
         "name": "📺 WION (World Is One News インド国際放送)",
-        "video_id": "QTDoBZMjJDg",
+        "video_id": "lwMGcyVckpc",
         "handle": "@WION",
         "type": "stream"
       },
@@ -679,14 +679,14 @@
     "default_channel_id": "stream_ndtv_live"
   },
   "forex": {
-    "timestamp": "11/19 00:37 JST",
+    "timestamp": "11/19 01:44 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": -0.24,
-      "change_pct": -0.15,
+      "rate": 159.3,
+      "change": -0.22,
+      "change_pct": -0.14,
       "direction": "down"
     },
     "local_jpy": {
@@ -702,9 +702,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.65,
-      "change": -0.79,
-      "change_pct": -0.45
+      "rate": 175.31,
+      "change": -3.54,
+      "change_pct": -1.98
     }
   },
   "airports": [
@@ -747,11 +747,11 @@
         "is_capital": true,
         "lat": 28.6139,
         "lon": 77.209,
-        "temp": 18.2,
-        "apparent_temp": 17.6,
-        "humidity": 62,
-        "wind_speed": 5.8,
-        "wind_gusts": 11.5,
+        "temp": 17.6,
+        "apparent_temp": 17.2,
+        "humidity": 64,
+        "wind_speed": 4.8,
+        "wind_gusts": 9.7,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -792,11 +792,11 @@
         "is_capital": false,
         "lat": 19.076,
         "lon": 72.8777,
-        "temp": 28.8,
-        "apparent_temp": 29.3,
-        "humidity": 51,
-        "wind_speed": 15.7,
-        "wind_gusts": 34.2,
+        "temp": 28.4,
+        "apparent_temp": 28.9,
+        "humidity": 52,
+        "wind_speed": 15.2,
+        "wind_gusts": 34.6,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -837,11 +837,11 @@
         "is_capital": false,
         "lat": 12.9716,
         "lon": 77.5946,
-        "temp": 22.1,
-        "apparent_temp": 20.8,
-        "humidity": 47,
-        "wind_speed": 9.5,
-        "wind_gusts": 21.6,
+        "temp": 21.3,
+        "apparent_temp": 20.1,
+        "humidity": 49,
+        "wind_speed": 8.8,
+        "wind_gusts": 21.2,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -883,11 +883,11 @@
       "is_capital": true,
       "lat": 28.6139,
       "lon": 77.209,
-      "temp": 18.2,
-      "apparent_temp": 17.6,
-      "humidity": 62,
-      "wind_speed": 5.8,
-      "wind_gusts": 11.5,
+      "temp": 17.6,
+      "apparent_temp": 17.2,
+      "humidity": 64,
+      "wind_speed": 4.8,
+      "wind_gusts": 9.7,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
@@ -922,7 +922,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:44 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -951,7 +951,7 @@
         "details": "デリーメトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/19 00:37 JST"
+    "timestamp": "11/19 01:44 JST"
   },
   "lifeline": {
     "status": "NORMAL",

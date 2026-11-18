@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18 10:40:59",
+  "timestamp": "2026-11-18 11:34:46",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -172,27 +172,29 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NOTICE",
-    "summary": "【注意報発表: 6地域】新潟、長野、岐阜、静岡、三重、愛知（警報なし）",
+    "status": "ALERT",
+    "summary": "【警報発表: 1地域】新潟（暴風警報） ／ 他5地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
-    "alert_count": 0,
-    "notice_count": 6,
+    "alert_count": 1,
+    "notice_count": 5,
     "total_prefs": 6,
     "pref_details": [
       {
         "code": "15",
         "name": "新潟県",
         "short_name": "新潟",
-        "status": "NOTICE",
+        "status": "ALERT",
         "emg_warns": [],
-        "warns": [],
-        "notices": [
-          "大雨注意報",
-          "強風注意報",
-          "波浪注意報",
-          "雷注意報"
+        "warns": [
+          "暴風警報"
         ],
-        "summary": "大雨注意報、強風注意報、波浪注意報、雷注意報",
+        "notices": [
+          "強風注意報",
+          "雷注意報",
+          "波浪注意報",
+          "大雨注意報"
+        ],
+        "summary": "暴風警報、強風注意報、雷注意報、波浪注意報、大雨注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -243,10 +245,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、強風注意報",
+        "summary": "強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -257,10 +259,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、強風注意報",
+        "summary": "強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/23/"
       }
     ]
@@ -274,13 +276,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 越後線）",
+    "text": "運行支障あり（在来線: 高山本線、越後線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（越後線）",
+    "line_text": "運行支障あり（高山本線、越後線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
+      "高山本線",
       "越後線"
     ],
     "troubled_shinkansen": [],
@@ -348,8 +351,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/18 10:52",
+          "text": "@po_ker_IVE START au END なら違うか 最近ドコモ回線通信 START 障害 END めちゃ多い"
+        },
         {
           "time": "11/18 10:14",
           "text": "ドコモは完全に捨てて正解だったわ ソフトバンクと START au END のデュアル運用で何ら問題は無い START au END は数年前の大規模 STAR..."
@@ -357,10 +364,6 @@
         {
           "time": "11/18 09:58",
           "text": "スマホ、docomoから START au END に変えようかな……通信 START 障害 END ありすぎだし、駅とか混んでるとこだと全然繋がらないし……"
-        },
-        {
-          "time": "11/18 08:52",
-          "text": "NTT OCN START au END jcom あたり通信 START 障害 END 多発中なので そのへんならそのうち復旧チャンス"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -371,8 +374,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/18 11:04",
+          "text": "ドコモの5G基地局は約5.9万局。 START KDDI END の半分以下だ。通信 START 障害 END も相次ぐ。2020年の完全子会社化で何が変わった..."
+        },
         {
           "time": "11/18 04:04",
           "text": "START KDDI END NTTドコモ通信 START 障害 END 3回続いてるタイミングでこの機種発表するの凄すぎるだろ！ https://t.co/o..."
@@ -380,10 +387,6 @@
         {
           "time": "11/17 09:59",
           "text": "３回分の START 障害 END を START KDDI END みたいに連続した長期間の1回の START 障害 END ということにすればよかったのにね..."
-        },
-        {
-          "time": "11/17 09:05",
-          "text": "思い出す2022年 START KDDI END 大規模通信 START 障害 END 後の決算発表の時に「うちは安定的に大きな START 障害 END を回..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -391,22 +394,22 @@
     {
       "keyword": "au 繋がらない",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 7 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/18 10:48",
+          "text": "キャリア横断して 昔のガラケーデザインを ラインアップ化出来るなら docomo/ソニーのリボルバー携帯SO505iSを復刻すれば 異世界おじさんファンは飛びつ..."
+        },
+        {
+          "time": "11/18 10:44",
+          "text": "ドコモも出しているね。 ネットに START 繋がらない END 携帯電話。5Gに START 繋がらない END だけだけど。それもたまにネットに繋がる。みた..."
+        },
         {
           "time": "11/18 10:34",
           "text": "今日から START au END で懐かしのINFOBARさん予約開始ですって……良いなぁ変えたいなぁ……とか思ったけど、ネット START 繋がらない EN..."
-        },
-        {
-          "time": "11/18 10:32",
-          "text": "楽天証券はお漏らしするし楽天モバイルは START 繋がらない END (茨城の田舎だからかもだけど)し楽天銀行もなんだか怪しい噂が飛び交っているしで楽天も終わ..."
-        },
-        {
-          "time": "11/18 10:26",
-          "text": "【来月新携帯電話発売開始】 START au END KDDIは来月 新しい「INFOBAR ZERO」はダムフォン！を発売する ネットに START 繋がらな..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -453,8 +456,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "女性かばい出退勤打刻、停職無効　セクハラ防止のためと地裁認定(共同通信)",
+        "summary": "自動車販売ホンダモビリティ南関東の千葉市内の店舗で、店長からセクハラ被害を受けた女性従業員をかばって出退勤の打刻をした男性に対する停職処分は無効だとして、男性が同社に処分の撤回などを求めた訴訟で、千葉",
+        "pub_date": "11/18 20:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/36bdb12f22a0ba6e8df7332f8dfc27760bcf4c72?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "〈コンカフェ店員刺殺〉「言葉にできないほど悲しい」被害女性の元交際相手が涙…女性は何度も「気持ち悪い」と知人に漏らしていた「ガチ恋になると厄介なタイプ」(集英社オンライン)",
+        "summary": "東京都中野区の路上で青木七海さん（24）が首を刺され死亡した事件。警視庁は11月16日夜、強盗殺人未遂容疑で職業不詳の清武一則容疑者（39）を緊急逮捕した。≪画像≫「優しい子」ツインテールでアイドル衣",
+        "pub_date": "11/18 19:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/dd8f9c6261d6b13620f395f06063c2d3cb42a0c0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "震度7想定の救助訓練を視察　石川訪問中、警察庁長官(共同通信)",
+        "summary": "石川県を訪れている警察庁の楠芳伸長官は18日、金沢市内で、震度7の地震を想定した中部管区警察局管内の広域緊急援助隊らによる救助訓練を視察した。長官は隊員らに、現場では関係機関との被害状況の共有が必要だ",
+        "pub_date": "11/18 19:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/4e679feb00b50f3649993f14a778a527f19e3878?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "武力事態想定し避難訓練　新潟から長野へ、手順確認(共同通信)",
         "summary": "新潟、長野両県と国は18日、国民保護法に基づき武力攻撃予測事態が認定されたとの想定で、新潟からの避難者を長野が受け入れる手順などを確認する合同の実働・図上訓練を実施した。「某国と日本の関係悪化により、",
@@ -488,54 +515,6 @@
         "is_disaster": true
       },
       {
-        "title": "ネイルサロンに家宅捜索 ベトナム国籍の男女2人を逮捕 不正に他人名義のキャッシュカード1枚を譲り受けたか 他県で起きた特殊詐欺事件の被害金がこのサロンに… 名古屋(CBCテレビ)",
-        "summary": "特殊詐欺の拠点とみられる場所が名古屋にも。11月16日、愛知県警は東区のネイルサロンを家宅捜索し、ベトナム国籍の男女2人を逮捕しました。【画像を見る】名古屋・東区のネイルサロンや押収された札束やクレジ",
-        "pub_date": "11/18 18:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/6c4a4d7b2f0e8aa87a63786287c560b7292d35a4?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "硫黄島付近で噴火 新たな陸地を確認(ABEMA TIMES)",
-        "summary": "東京・小笠原諸島にある硫黄島の付近で火山の噴火があり、新たな陸地が形成されていることが確認されました。【映像】硫黄島付近の噴火の様子 気象庁によりますと、硫黄島の南の海岸からおよそ700メートルの場所",
-        "pub_date": "11/18 18:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/bf2616f680db49ace30b5e235c326b9bc6965a4b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "旦過市場の大規模火災で店は全焼 跡地の商業施設は‟家賃3倍” 悩みに悩んで夫婦が出店を決めた思い【福岡発】(FNNプライムオンライン)",
-        "summary": "2度の大火に見舞われ再整備が進んでいた北九州市の旦過市場。再整備された商業施設のオープンを前に、高い家賃を払ってでも移転すべきかどうか。苦悩する夫婦を取材した。【画像】旦過市場の火災跡に新商業施設",
-        "pub_date": "11/18 18:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/e8e834f4c689459c621742005f5521a13ac193ca?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "小学校教諭がうがい用洗口液とアルコール消毒液を取り違え児童にうがいさせる　京都・八幡(産経新聞)",
-        "summary": "京都府八幡市は18日、市立八幡小学校で虫歯予防用のうがい液とアルコール消毒液を取り違え、児童14人にうがいをさせたと発表した。複数の児童が口内の違和感や腹痛を訴えたが、児童への健康被害は確認されていな",
-        "pub_date": "11/18 18:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/ca42652a105b7a96336fc9f4b96447a6bfb3b405?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "名古屋市東区で見つかった不発弾　12月6日の処理作業に伴い地下鉄の一時運休など交通規制を実施(メ〜テレ（名古屋テレビ）)",
-        "summary": "名古屋市東区で見つかった不発弾の処理作業が12月6日に行われ、作業に伴い交通規制などが行われます。 10月22日、東区葵 1丁目のマンションの建設現場でアメリカ製の250キロの普通爆弾の不発弾が見つか",
-        "pub_date": "11/18 18:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/8be457bcb634a8ddbe926c37c90ede66c79a52fc?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「聖闘士星矢」作者・車田正美さん横領被害　被告側は争う姿勢　初弁論(テレビ朝日系（ANN）)",
-        "summary": "人気漫画「聖闘士星矢」などの作者・車田正美さんの会社が46億円以上を横領されるなどしたとして元マネージャーの男性らに賠償を求めている裁判で、元マネージャーらは争う姿勢を示しました。 訴状などによります",
-        "pub_date": "11/18 18:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/1fc21bf69a09a7b16629011b41ea7597236058d0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "佐賀関火災1年 揺らぐ再建の思い",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/18 13:22 JST",
@@ -544,39 +523,63 @@
         "is_disaster": true
       },
       {
-        "title": "偶然？それとも…猫がおやつ柄ブランケットをペロッ！ →SNSをザワつかせた“愛らしくも切ない行動“に反響(ABEMA TIMES)",
-        "summary": "人気のおやつがプリントされたブランケットを本物と間違えたかのようにペロッと舐める猫。愛らしくも切ない姿に、SNSでは「まさに絵に描いたチュール」「それは食べられへんで！」などの反響を呼んでいる。【映像",
-        "pub_date": "11/18 19:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/391e254bc96b3acb95b302c916e3bea40d6c8ac1?source=rss",
+        "title": "米中露首脳が初会談！習近平国家主席「4期目への実績作り」と米国の思惑とは？産経・水内記者×元朝日・鈴木記者が解説(選挙ドットコム)",
+        "summary": "2026年11月17日公開の「選挙ドットコムちゃんねる」では、APEC（アジア太平洋経済協力会議）首脳会議に合わせて行われた史上初の米中露の3カ国の首脳会談を徹底分析。核軍縮交渉を警戒していた中国が一",
+        "pub_date": "11/18 20:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/5069ea04e44aa35294e389b84caa3a15429add85?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "木原長官　ユーチューバー起用は広告会社の提案　政府の安全保障の広報サイト(テレビ朝日系（ANN）)",
-        "summary": "政府の安全保障の広報サイトに都市伝説などを紹介するユーチューバーを起用したことについて、木原官房長官は広告会社からの提案を内閣府が採用したと経緯を説明しました。木原官房長官「ユーチューバーの方の起用に",
-        "pub_date": "11/18 19:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/65f00c1e916ff48f1e4a16bd9ec1f9b06b0c7bd7?source=rss",
+        "title": "消えない流れ星？正体は　願い事をしやすそうですが…(テレビ朝日系（ANN）)",
+        "summary": "1秒、2秒…長い尾をひいた光はなかなか消えません。別の角度でも…。すぐに消えないこの光は深夜、静岡県富士市で撮影されました。【画像】“地球をかすめる”という名前の「アースグレイジング流星」",
+        "pub_date": "11/18 20:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/fcffe081fe9cb28a3d576affcc98dae069f9358f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「1億5千万円投入か？」『高市早苗天皇末裔説』の陰謀論系YouTuber起用の政府広報が“都市伝説より恐ろしい“ワケ(ハフポスト日本版)",
-        "summary": "内閣府が運営する「政府広報オンライン」が11月16日に公開した安全保障に関する特集「これは都市伝説ではない ―世界を消した主婦―」をめぐり、出演者の都市伝説・陰謀論系と言われるYouTuberの起用に",
-        "pub_date": "11/18 19:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/6113253f9998c0eac37046eead4ea7f10733cfce?source=rss",
+        "title": "お魚“詰め放題”どれだけお得？ 物価高の中…700人が行列(テレビ朝日系（ANN）)",
+        "summary": "■お魚“詰め放題”どれだけお得？買い物客「いつも箱で買う、台車を家から持って来ている」「結構、争奪戦という感じ。頑張るぞという感じ」 物価高騰のなか、静岡市の市場に700人以上の大行列ができました。詰",
+        "pub_date": "11/18 20:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/9c686118aaef790c068ddeef8beb0924e5a75b66?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「日本版DBS」システムに深刻な脆弱性多数見つかる　稼働開始延期へ　こども家庭庁(テレビ朝日系（ANN）)",
-        "summary": "人事の手続きに使用するシステムで脆弱（ぜいじゃく）性が見つかりました。法律の施行日でのシステムの稼働を断念し、代替手段を検討しています。中司大臣「（『日本版DBS』のシステムで）深刻な脆弱性が多数、発",
-        "pub_date": "11/18 19:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/96cef756234fdc400472f3ccbaec5a149ae4e9fd?source=rss",
+        "title": "【写真まとめ】愛子さま　プラナカン博物館へは透明感あふれる青色ワンピースに召し替えられて　多くの人が歓声で出迎える中　上皇ご夫妻が「ソテツ」を植えられた日本庭園視察の予定も【シンガポール訪問】(テレビ朝日系（ANN）)",
+        "summary": "天皇皇后両陛下の長女・愛子さまは、シンガポールを初めて公式訪問されています。【写真特集】和から洋へお召し替え やわらかな笑顔で手を振られ 大統領府では漢字で 「愛子」と記帳",
+        "pub_date": "11/18 20:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/adb45932b235cdf86945b803bc0abefcc3c6dbee?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "中司大臣が自動運転を体験「車が自動で走っていることがあたりまえの風景に」(テレビ朝日系（ANN）)",
+        "summary": "中司規制改革担当大臣は日産自動車が開発する自動運転を体験し、実用化に向けた規制改革を進める考えを示しました。中司規制改革担当大臣「車が自動で走っているということが当たり前の風景になるような、そういう社",
+        "pub_date": "11/18 20:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/6204fc0180bd403bb159ba7c060f0182dac58d21?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "KDDI、機能最小の携帯発売へ　平成レトロ、SNSなしに(共同通信)",
+        "summary": "KDDIは18日、電話やショートメッセージサービス（SMS）など必要最小限の機能にあえて絞り込んだ携帯電話「INFOBAR ZERO（インフォバーゼロ）」を発売すると発表した。インターネットやSNSは",
+        "pub_date": "11/18 20:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/6f04a977a344c64c40a75a91c576062ae2472a51?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "“空き缶”持ち去り　名古屋で「禁止条例」罰則化で抑止効果は？「罰則あってもやる」当事者の主張(メ〜テレ（名古屋テレビ）)",
+        "summary": "自治体の財源になるはずの”資源”が、無断で持ち去られる。失われた額は年間で少なくとも5000万円にのぼります。歯止めをかけようと、名古屋市が今年施行した禁止条例。10月からは、悪質な違反者に罰金も適用",
+        "pub_date": "11/18 20:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/aab2d75b273da0ee5dfac2cb7a3f042c04da1781?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-18 19:40:07 JST"
+    "last_updated": "2026-11-18 20:33:58 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -597,10 +600,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "uPBR6JBxcNc",
+        "video_id": "N5t1qFLIUqI",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/uPBR6JBxcNc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=uPBR6JBxcNc"
+        "embed_url": "https://www.youtube.com/embed/N5t1qFLIUqI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=N5t1qFLIUqI"
       },
       {
         "id": "stream_tbsnews",
@@ -608,10 +611,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "W8kimD5HNQQ",
+        "video_id": "eFXYc3DYwu8",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/W8kimD5HNQQ?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=W8kimD5HNQQ"
+        "embed_url": "https://www.youtube.com/embed/eFXYc3DYwu8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=eFXYc3DYwu8"
       },
       {
         "id": "stream_ntvnews",
@@ -619,10 +622,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "e12CWjohCBc",
+        "video_id": "IcToUsu2mWA",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/e12CWjohCBc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=e12CWjohCBc"
+        "embed_url": "https://www.youtube.com/embed/IcToUsu2mWA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=IcToUsu2mWA"
       },
       {
         "id": "stream_annnews",

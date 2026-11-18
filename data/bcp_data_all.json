@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18 14:41:11",
+  "timestamp": "2026-11-18 15:34:33",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -479,11 +479,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "濃霧注意報",
           "波浪注意報",
-          "強風注意報",
-          "濃霧注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、濃霧注意報",
+        "summary": "濃霧注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -496,12 +496,12 @@
           "暴風警報"
         ],
         "notices": [
-          "濃霧注意報",
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報",
+          "濃霧注意報"
         ],
-        "summary": "暴風警報、濃霧注意報、雷注意報、波浪注意報、強風注意報",
+        "summary": "暴風警報、波浪注意報、強風注意報、雷注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
@@ -513,10 +513,10 @@
         "warns": [],
         "notices": [
           "雷注意報",
-          "波浪注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "波浪注意報"
         ],
-        "summary": "雷注意報、波浪注意報、濃霧注意報",
+        "summary": "雷注意報、濃霧注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -527,10 +527,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、濃霧注意報",
+        "summary": "濃霧注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -694,11 +694,11 @@
         "warns": [],
         "notices": [
           "雷注意報",
+          "大雨注意報",
           "波浪注意報",
-          "強風注意報",
-          "大雨注意報"
+          "強風注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報、大雨注意報",
+        "summary": "雷注意報、大雨注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -821,10 +821,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "強風注意報"
         ],
-        "summary": "雷注意報、強風注意報",
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -1131,10 +1130,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1162,19 +1161,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線37路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、鹿児島本線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線34路線: 八戸線、羽越本線、三陸鉄道リアス線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、鹿児島本線、日豊本線、肥薩線 等 計37路線）",
+    "line_text": "運行支障あり（八戸線、羽越本線、三陸鉄道リアス線、山田線、米坂線 等 計34路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
-      "鹿児島本線",
-      "日豊本線",
-      "肥薩線",
-      "指宿枕崎線",
       "八戸線",
       "羽越本線",
       "三陸鉄道リアス線",
@@ -1185,27 +1178,30 @@
       "北上線",
       "五能線",
       "津軽線",
-      "山陽本線",
-      "芸備線",
       "姫新線",
       "美祢線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "鹿児島本線",
+      "肥薩線",
+      "指宿枕崎線",
+      "大井川鉄道大井川本線",
+      "篠ノ井線",
+      "小海線",
+      "越後線",
+      "万葉線",
       "舞鶴線",
       "小浜線",
       "草津線",
       "関西本線",
       "加古川線",
       "宇都宮線",
+      "高崎線",
       "鹿島線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
-      "東海道本線",
-      "大井川鉄道大井川本線",
-      "篠ノ井線",
-      "小海線",
-      "越後線",
-      "万葉線"
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1283,7 +1279,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 37,
+    "target_lines_count": 34,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1298,7 +1294,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・新潟・長野・三重・滋賀・和歌山・鹿児島で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・新潟・長野・三重・滋賀で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1338,7 +1334,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/18 14:08",
@@ -1443,8 +1439,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 12,
+    "disaster_count": 11,
     "articles": [
+      {
+        "title": "意識障害で死傷事故の被告に懲役5年　実刑判決を求めていた遺族、悔しさにじませる(産経新聞)",
+        "summary": "てんかん発作の意識障害で運転に支障が生じ得るのに車を運転し、事故で3人を死傷させた西馬淳子被告（56）に懲役5年を言い渡した18日の和歌山地裁判決。事故に巻き込まれ死亡した和歌山市の竹田汐里さん＝当時",
+        "pub_date": "11/18 23:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/a65ebf1d3471ee0394b79fe21a48c1e2eff9c627?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "会社のトラックでタイヤホイール運び去る　防犯カメラが捉えた大胆犯行　岩手の建設会社で被害約250万円(FNNプライムオンライン)",
         "summary": "建設会社の事務所に侵入し、会社のトラックまで使ってタイヤホイールを運び去る。そんな大胆な盗難事件が岩手県滝沢市で発生した。被害に遭った会社は防犯カメラを増設していたが、わずか20日後に再び被害を受け、",
@@ -1526,47 +1530,39 @@
         "is_disaster": true
       },
       {
-        "title": "震度7想定の救助訓練を視察　石川訪問中、警察庁長官(共同通信)",
-        "summary": "石川県を訪れている警察庁の楠芳伸長官は18日、金沢市内で、震度7の地震を想定した中部管区警察局管内の広域緊急援助隊らによる救助訓練を視察した。長官は隊員らに、現場では関係機関との被害状況の共有が必要だ",
-        "pub_date": "11/18 19:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/4e679feb00b50f3649993f14a778a527f19e3878?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "武力事態想定し避難訓練　新潟から長野へ、手順確認(共同通信)",
-        "summary": "新潟、長野両県と国は18日、国民保護法に基づき武力攻撃予測事態が認定されたとの想定で、新潟からの避難者を長野が受け入れる手順などを確認する合同の実働・図上訓練を実施した。「某国と日本の関係悪化により、",
-        "pub_date": "11/18 19:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/9b4654b7bba301b5540c68a59e14fd399ec4a389?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "就業者支援金、年収下限56万円　支給対象、有力案に(共同通信)",
-        "summary": "政府が2027年度に導入予定の所得連動型の現金給付制度「就業者負担軽減支援金」を巡り、支給対象となる年収の下限を56万円程度とする案が有力となったことが18日分かった。雇用保険の適用基準に当たり、公明",
-        "pub_date": "11/18 23:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/017fc5d3cff7afb7a85d5ee192c4445d7cbc0329?source=rss",
+        "title": "3年保護、自宅に戻り1カ月で　兵庫・伊丹の3歳死亡　一時保護の児相「適切と判断」(産経新聞)",
+        "summary": "大阪府枚方市で当時3歳の娘を殺害した容疑で父親が逮捕された事件に続き、またも幼い命が失われる事件が発覚した。兵庫県伊丹市の自宅で3歳の次女に暴行を加え死亡させたとして傷害致死の疑いで、同市大野の内装業",
+        "pub_date": "11/19 00:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/f8887124ade80877e66a80d7357b1ada73b79570?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "高市早苗首相、初訪中も冷遇　習近平氏と握手し声かけも返答なし、首脳会談は困難か(産経新聞)",
-        "summary": "【深圳＝千田恒弥】高市早苗首相は18日、アジア太平洋経済協力会議（APEC）の首脳会議に出席するため、訪問先のフィリピンから中国・深圳に到着した。首相の訪中は令和元年の安倍晋三首相以来約7年ぶり。 中",
-        "pub_date": "11/18 22:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/81b7dd30c4ace05fc03754498564de553cd212db?source=rss",
+        "title": "過去に2回、虐待疑いで捜査　3歳娘暴行死疑いで父を逮捕　「事実ではない」と否認　兵庫・伊丹(産経新聞)",
+        "summary": "自宅で3歳の次女に暴行を加え死亡させたとして、兵庫県警捜査1課は18日、傷害致死の疑いで兵庫県伊丹市大野の内装業、有元慎哉容疑者（29）を逮捕した。「事実ではありません」と容疑を否認している。県警は次",
+        "pub_date": "11/19 00:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/b8de65582cc2ae5289ba269e611e85c6a34da6db?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "知人生徒刺した疑いで中3逮捕　包丁で複数回、命別条なし(共同通信)",
-        "summary": "岡山県警は18日、同県美咲町で中学3年の男子生徒（15）を包丁で複数回刺して殺害しようとしたとして、殺人未遂の疑いで県内の中学3年の少年（15）を逮捕した。刺された生徒は自ら110番し、病院に搬送され",
-        "pub_date": "11/18 22:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/6a587630e67eb8b14b8b2ae21e28af026c772481?source=rss",
+        "title": "フランス産「ボージョレ」解禁　価格維持も、市場は縮小(共同通信)",
+        "summary": "フランス産ワインの新酒「ボージョレ・ヌーボー」が19日午前0時に解禁された。サントリーは円安や生産コストの上昇を輸送費の低減などで吸収し、昨年から価格を据え置いた。アサヒビール傘下のエノテカも昨年に続",
+        "pub_date": "11/19 00:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/7860eed0d646051ccb2a2c20ade65c32e379c0e4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「木綿のハンカチーフ」が大ヒット　歌手の太田裕美さん（71）死去(テレビ朝日系（ANN）)",
+        "summary": "大ヒット曲「木綿のハンカチーフ」で知られる歌手の太田裕美さんが亡くなったことが分かりました。71歳でした。 関係者によりますと、太田さんは今月12日に亡くなったということです。 太田さんは1974年に",
+        "pub_date": "11/18 23:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/d83f4e412ea7564e9e890c0cb7a24a7ce6c31c67?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-18 23:41:08 JST"
+    "last_updated": "2026-11-19 00:34:30 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1620,10 +1616,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "OkcwkHK73dY",
+        "video_id": "FulNIhfsBjQ",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/OkcwkHK73dY?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=OkcwkHK73dY"
+        "embed_url": "https://www.youtube.com/embed/FulNIhfsBjQ?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=FulNIhfsBjQ"
       },
       {
         "id": "stream_fnnnews",

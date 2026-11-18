@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18 20:19:58",
+  "timestamp": "2026-11-18 21:16:18",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -83,12 +83,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-19 05:03",
+    "shindo": "1",
+    "time": "2026-11-19 05:25",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "3.1",
+    "magnitude": "2.8",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-19 05:25",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.8",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-19 05:03",
         "place": "熊本県天草・芦北地方",
@@ -151,13 +158,6 @@
         "shindo": "1",
         "magnitude": "2.3",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 04:19",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "3.3",
-        "maxScale": 20
       }
     ]
   },
@@ -188,10 +188,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "雷注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -272,13 +272,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 越後線）",
+    "text": "運行支障あり（在来線: 飯田線、越後線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（越後線）",
+    "line_text": "運行支障あり（飯田線、越後線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
+      "飯田線",
       "越後線"
     ],
     "troubled_shinkansen": [],
@@ -306,7 +307,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】新潟・長野で停電情報を検知",
+    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野で停電情報を検知",
     "water_msg": "名古屋市上下水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東邦ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -346,8 +347,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/18 21:00",
+          "text": "千葉県松戸市付近で START au END ひかりご利用の方、 ネットとひかり電話使えてますか？ 我が家では多分 START 障害 END 起きてるっぽく ・..."
+        },
         {
           "time": "11/18 14:08",
           "text": "ドコモを卒業したい🍄電波悪い上に通信 START 障害 END 多すぎて、いざってときに助からない気がしてる。 START au END とソフトバンクならどち..."
@@ -355,10 +360,6 @@
         {
           "time": "11/18 12:54",
           "text": "21:53 START au END 電波 START 障害 END ？ いきなり📶無くなって文字消えて 通信アプリ落ちた(>_>)"
-        },
-        {
-          "time": "11/18 12:25",
-          "text": "身内に発達 START 障害 END 持ちで、ネット無理、スマホ無理、アプリとかわからんストレス、SNSやろうものなら確実にトラブルに巻き込まれる。でも電話と簡..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -451,8 +452,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 18,
+    "disaster_count": 14,
     "articles": [
+      {
+        "title": "熊本で未明に震度5弱　M5.7、津波の心配なし(共同通信)",
+        "summary": "19日午前2時22分ごろ、熊本県の水俣市や芦北町などで震度5弱の地震があった。気象庁によると、震源は熊本県天草・芦北地方で深さは約10キロ。マグニチュード（M）は5.7と推定される。この地震による津波",
+        "pub_date": "11/19 05:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/5c034c73523d3ece9fe25d96b51ae98eccd395a2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "熊本で震度5弱 1人が気分不良で搬送 高速道路で一部通行止めも(テレビ朝日系（ANN）)",
         "summary": "熊本県の天草・芦北地方で最大震度5弱を観測した地震で、震度5弱を観測した水俣市など5つの市町村では19日午前3時5分現在、被害に関する情報は入っておらず、引き続き情報収集にあたっています。 消防により",
@@ -550,31 +559,23 @@
         "is_disaster": true
       },
       {
-        "title": "「富岳」不正アクセスで警察当局に被害報告(共同通信)",
-        "summary": "理化学研究所のスーパーコンピューター「富岳」が不正アクセスを受けた問題で、理研が警察当局に被害を報告したことが18日、理研などへの取材で分かった。",
-        "pub_date": "11/18 21:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/b752625fe1cdae9551adc6859ff1c67e4bb2d932?source=rss",
-        "category": "国内・気象防災",
+        "title": "熊本県で震度5弱 津波の心配なし",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/19 02:27 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6603094?source=rss",
+        "category": "主要速報",
         "is_disaster": true
       },
       {
-        "title": "ストーカーによる事件の増加を受けて国で議論が進む”GPS装着”　被害防止について被害者・加害者が語る(メ〜テレ（名古屋テレビ）)",
-        "summary": "後を絶たないストーカーによる凶悪事件。国で議論が進む「GPS装着」は被害を防げるのでしょうか。その効果と課題は。【動画でみる】ストーカー対策「GPS装着」効果と課題は？国で義務化の検討進む「すごい思い",
-        "pub_date": "11/18 21:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/d2d26e994e58be3548d8e8f02c8372f1a74e41fe?source=rss",
+        "title": "武部新農相「ビールパーティー」だけじゃない、週刊文春が報じた8つの重大疑惑とは？「3000万円裏金」「ホタテ違法寄附」(文春オンライン)",
+        "summary": "10月15日、高市早苗首相のもとで初入閣を果たした武部新（あらた）農林水産相（56）。就任から1カ月足らずの間に「 週刊文春 」の報道で、公職選挙法違反や政治資金規正法違反など少なくとも8つの疑惑が浮",
+        "pub_date": "11/19 06:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/fb3d3428e8cb0d63a0e86bf4b06691f086449438?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "いじめ被害の男子高校生が自殺　岩手県教委、因果関係を調査(共同通信)",
-        "summary": "岩手県教育委員会は18日、県立高校の男子生徒（16）が今月中旬に自殺したと明らかにした。学校は7月に男子生徒がいじめを受けていたとして「重大事態」と認定していた。県教委は今後、いじめと自殺の因果関係な",
-        "pub_date": "11/18 21:19 JST",
-        "link": "https://news.yahoo.co.jp/articles/458ad83344218ffa2f483f9db98212e70d473e86?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 05:19:20 JST"
+    "last_updated": "2026-11-19 06:15:29 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18 07:55:47",
+  "timestamp": "2026-11-18 08:48:39",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -193,11 +193,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "波浪注意報",
           "雷注意報",
-          "強風注意報",
-          "波浪注意報"
+          "強風注意報"
         ],
-        "summary": "雷注意報、強風注意報、波浪注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -208,10 +208,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -235,10 +235,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -249,10 +249,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -263,10 +263,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -277,10 +277,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       }
     ]
@@ -294,13 +294,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 肥薩線、指宿枕崎線 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線: 鹿児島本線、肥薩線、指宿枕崎線 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（肥薩線、指宿枕崎線）",
+    "line_text": "運行支障あり（鹿児島本線、肥薩線、指宿枕崎線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [
+      "鹿児島本線",
       "肥薩線",
       "指宿枕崎線"
     ],
@@ -386,19 +387,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/18 08:18",
+          "text": "@SoftBank #スマホデビューはソフトバンクがおトク 通信品質では START au END と並び2強。 今月3回も START 障害 END が発生し..."
+        },
+        {
+          "time": "11/18 07:59",
+          "text": "うーむ START au END 通信 START 障害 END か？ 5Gにならんし、繋がらん"
+        },
         {
           "time": "11/18 07:02",
           "text": "昨日の午前中から START au END ひかりでネット繋がらん。通信 START 障害 END でも出てんの？よくわからん"
-        },
-        {
-          "time": "11/18 06:44",
-          "text": "宝塚のいつもの店でお昼＆🍺頂いてきました。 ちょっと仮眠して、夜は大国町のどっかで焼き鳥つまみながらR-1の結果を聞くとします… と言いたいところですが、 ST..."
-        },
-        {
-          "time": "11/18 06:30",
-          "text": "a.m.6:50 起床 電波のマーク…グレー インターネットに接続できません 💦 💦 💦 機内モードON→OFF 繰り返して、 再起動したら大丈夫でしたが、 S..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -432,7 +433,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/18 07:48",
@@ -455,8 +456,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/18 08:26",
+          "text": "docomoの START 障害 END とかをみてると、リスク回避のために START povo END とかでdual SIMにしといた方が良いのかしらと思..."
+        },
         {
           "time": "11/18 01:14",
           "text": "【通信 START 障害 END への備えに、もう1回線📱】 普段と違う回線を予備に。 通信 START 障害 END が発生すると大事な時に使えなくなるかも。..."
@@ -464,10 +469,6 @@
         {
           "time": "11/18 00:36",
           "text": "START 障害 END かと思ったら START povo END の有効期限切れだったわ"
-        },
-        {
-          "time": "11/17 23:44",
-          "text": "接続 START 障害 END でキャリアメールが使えなくなって２週間ぐらい経過したけど何も問題無くて草 もう START povo END でもええんちゃうか..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -490,8 +491,40 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 3,
+    "disaster_count": 6,
     "articles": [
+      {
+        "title": "≪24歳コンカフェ女性殺害≫「女の子に貢ぎすぎて…」中野の“ニキ”と呼ばれていた39歳容疑者は出禁だらけ「一言多い、空気が読めない人」被害女性には「800万円使った」と供述(集英社オンライン)",
+        "summary": "東京都中野区の路上で青木七海さん（24）が首を刺され死亡した事件。強盗・殺人容疑で送検された清武一則容疑者（39）は、青木さんに「4年間で800万円くらい使った」と供述しているという。≪画像≫ツインテ",
+        "pub_date": "11/18 17:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/9579fbac649a0c0a428399cc4ea8edfd58112bd1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【警報級の大雨か】気象庁の週間天気予報（11月19日〜11月25日）　東日本日本海側で大しけ・大雨のおそれ…今後の降水シミュレーションも(BSS山陰放送)",
+        "summary": "気象庁が11月18日に発表した週間天気予報（11月19日〜11月25日）によりますと、東日本日本海側では22日頃にかけて波が高まり、大しけや警報級の大雨となる恐れがあります。【画像を見る】11月28日",
+        "pub_date": "11/18 17:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/2f074b3b7083d77350ea9d97b8f499e0cbeeb28d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "災害関連死審査の弁護士数に懸念　熊本地震、指針満たさず(共同通信)",
+        "summary": "7月に起きた熊本地震の災害関連死を認定する熊本県八代市と宇城市で、審査委員会の構成が日弁連の求める弁護士数を満たしておらず、懸念の声がある。日弁連指針は「医師2人、弁護士3人を含む構成が望ましい」とし",
+        "pub_date": "11/18 17:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/ff9dde055416ec74a543fc5c6515dd8477df5eb2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "硫黄島付近で火山の噴火 新たな陸地を確認 海上保安庁(テレビ朝日系（ANN）)",
+        "summary": "東京・小笠原諸島にある硫黄島の付近で火山の噴火があり、新たな陸地が形成されていることが確認されました。 気象庁によりますと、硫黄島の南の海岸から約700メートルの場所で先月27日から噴火が確認されてい",
+        "pub_date": "11/18 17:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/43cc6da591285548099e680a8ea5ea6c049bc4ff?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "名古屋で見つかった不発弾 撤去作業は12月6日（日）  地下鉄は一部運休 市営バスも4路線で迂回運行(CBCテレビ)",
         "summary": "名古屋市東区のマンションの建設現場で見つかった不発弾の撤去作業が、12月6日午前10時から行われます。【写真を見る】名古屋で見つかった不発弾 現場周辺当日は東区の葵学区と中区の新栄学区の住民に避難を求",
@@ -509,111 +542,79 @@
         "is_disaster": true
       },
       {
-        "title": "元マネジャー、横領巡り争う姿勢　「聖闘士星矢」の漫画家被害訴訟(共同通信)",
-        "summary": "「聖闘士星矢」で知られる漫画家の車田正美さん（72）が代表を務める「車田プロダクション」など3社が、横領被害に遭ったとして、元マネジャーの男性らに計約28億9千万円の損害賠償を求めた訴訟の第1回口頭弁",
-        "pub_date": "11/18 15:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/a895a7fe99b3735b207141900d4efc2a77664a1d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「仕事でストレスが…」政党ポスターやごみ箱に火をつけた疑い　35歳男逮捕　警視庁(テレビ朝日系（ANN）)",
-        "summary": "東京・大田区で政党ポスターやアパートのごみ箱にライターで火を付けたとして35歳の男が逮捕されました。 谷本一平容疑者は9月、東京・大田区の住宅の壁に貼ってあった政党ポスターやアパートのごみ箱に火を付け",
-        "pub_date": "11/18 16:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/6b6030d58d450418d810ee3026fe416879078073?source=rss",
+        "title": "紙は補充されず、シンクはビショビショ…職場の“惨状“への不満を一瞬で解決した先輩の“逆転発想の助言“に「目から鱗」驚きと感心の声(ABEMA TIMES)",
+        "summary": "職場の共用スペースでのマナーに対する愚痴をこぼした際、先輩から返ってきた“意外な助言”に、「確かに〜！目から鱗」「大人になってから身につけるのって難しいんだな」など驚きと感心の声が上がっている。【映像",
+        "pub_date": "11/18 17:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/89186357fde04cbab78b1c1f0dab245c186b0af5?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "AI時代「データセンター」東海地方にも　「データを自動車産業や製造業つなげて」経済界も必要性を強調(メ〜テレ（名古屋テレビ）)",
-        "summary": "インターネットやAIの進化に伴い、世界でやり取りされる情報は膨大な量になっています。こうした情報を処理する「データセンター」。東海地方にも、整備ラッシュが来るかもしれません。 ちょっとした相談から、専",
-        "pub_date": "11/18 16:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/52d49b5595d37c0664a41c39ca06223e133019d4?source=rss",
+        "title": "政府の陰謀論系配信者起用を非難　野党「発信の信頼失墜」(共同通信)",
+        "summary": "国民民主党の玉木雄一郎代表は18日の党会合で、日本の安全保障に関する広報に陰謀論や都市伝説を扱うユーチューバーを起用した政府対応を非難した。「政府の発信に対する信頼を落とす」と述べた。社民党の福島瑞穂",
+        "pub_date": "11/18 17:44 JST",
+        "link": "https://news.yahoo.co.jp/articles/2a848f9bf30200db25afcdd8c54511da0070626c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "入学金の「二重払い」、返還・納付猶予の明記は都内私大119校中12校…団体「受験機会の不平等」(弁護士ドットコムニュース)",
-        "summary": "入学しない大学にも入学金を払う「二重払い」をめぐり、返還や納付期限の猶予を2027年度入試の募集要項に明記したのは、東京都内の私立大119校のうち12校（約10％）だった。前年調査の4校から3倍に増え",
-        "pub_date": "11/18 16:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/16f3602ec9661e4bddae73f3ead3f1cf49c74e49?source=rss",
+        "title": "求刑ミス、懲役6月を6年に訂正　金沢地裁、住居侵入や盗撮で実刑(共同通信)",
+        "summary": "女性のアパートに侵入したり盗撮を繰り返したりしたとして、住居侵入や性的姿態撮影処罰法違反などの罪に問われた無職山田寛哉被告（38）に金沢地裁は18日、懲役3年6月の判決を言い渡した。前回5日の公判で検",
+        "pub_date": "11/18 17:43 JST",
+        "link": "https://news.yahoo.co.jp/articles/b2b7093ce61247f93996ddf778c347372ccc87c3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "“AI選挙ポスター”は「制度の乱用」とノンフィクションライター石戸諭氏　「有権者の良識によって、『こういう手段を使っても落選しますよ』ともっと訴える必要がある」　兵庫・尼崎市議補選で物議(FNNプライムオンライン)",
-        "summary": "兵庫県尼崎市の市議会議員補欠選挙で、4人の候補者が掲示したポスターが「AIで作成されたものに見える」と有権者やSNSで物議を醸した。【写真で見る】選挙ポスターを“AIで作成”?関西テレビが取材したとこ",
-        "pub_date": "11/18 16:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/48cf708375b84cdd8f34886a99e3585067cfd825?source=rss",
+        "title": "監視委、28年春までに設置　政治資金巡り与野党合意(共同通信)",
+        "summary": "与野党は18日、政治資金の透明性を確保するための第三者機関「政治資金監視委員会」に関する実務者協議を国会内で開き、2028年4月までの設置を目指す方針で合意した。政治資金収支報告書のデータベースが本格",
+        "pub_date": "11/18 17:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/d739d2fc106efe47db53eecac61f42be2e0f5c4e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「仕事でストレスが…」政党ポスターやごみ箱に火をつけた疑い　35歳の男を逮捕　警視庁(テレビ朝日系（ANN）)",
-        "summary": "東京・大田区で政党ポスターやアパートのゴミ箱にライターで火をつけたとして35歳の男が逮捕されました。谷本一平容疑者（35）は9月、東京・大田区の住宅の壁に貼ってあった政党ポスターやアパートのゴミ箱に火",
-        "pub_date": "11/18 16:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/5c7bee004409c1af6edf0643a510b489e7287ff6?source=rss",
+        "title": "少年4人は住宅に押し入る実行役 仙台駅から新幹線で名古屋駅に…運転役の23歳男とは名古屋市内で合流か 愛知･小牧市の強盗殺人未遂(CBCテレビ)",
+        "summary": "愛知県小牧市の住宅で、女性が殴られるなどして重傷を負った事件で、別の容疑で逮捕された少年4人が、住宅に押し入る実行役だったとみられることがわかりました。【写真を見る】少年4人は住宅に押し入る実行役 仙",
+        "pub_date": "11/18 17:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/794f739d2a8c22f1e5276882119bf88929d82ead?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "関与疑いの少年「楽しそうだったし金が欲しかった」住宅で女性が襲われた強盗殺人未遂事件 “実行役”は新幹線で仙台から愛知へ(東海テレビ)",
-        "summary": "小牧市で起きた強盗殺人未遂事件。関与が疑われる少年が、「楽しそうだったし、金が欲しかった」と供述していることが分かりました。 今月15日未明、小牧市小針の住宅で複数の男が押し入り、住人の82歳の女性を",
-        "pub_date": "11/18 16:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/778b896b40376652d7af48bc9ab9918e3077161f?source=rss",
+        "title": "「勉強ばかりしているとお嫁のもらい手なくなる」　違和感をバネに霞が関で働く女性幹部職の素顔(AERA DIGITAL)",
+        "summary": "霞が関の「キャリア官僚」は、早ければ30歳前後で就く。民間に比べ早く、影響力の大きい国の政策という重責を担う。実際にその中で働いてきた女性が築いてきたキャリアについて聞いた。AERA 2026年11月",
+        "pub_date": "11/18 17:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/58667face2f54912478fec451e9a5bc6199ecb12?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "防衛費“5年50兆円”　自民党内は大幅増求める声(テレビ朝日系（ANN）)",
-        "summary": "安保3文書の改定に向けて焦点となっている防衛費の規模を巡り、自民党の会合では、2027年からの5年間で50兆円台とする案では「全然足りない」などと大幅な増額を求める意見が相次ぎました。自民党 大塚拓衆",
-        "pub_date": "11/18 16:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/c0d96736b4b7977f21f518f9ad3725d42b03d5c8?source=rss",
+        "title": "リニア開業の提示延期「残念」と愛知県知事(共同通信)",
+        "summary": "リニア中央新幹線東京・品川―名古屋間の開業時期の提示延期に関し、愛知県の大村秀章知事は18日「大変残念」とのコメントを出した。沿線自治体が開業を見据えたまちづくりなどを計画的に進めるため、年内の提示を",
+        "pub_date": "11/18 17:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/27112c1665b333cc11e524a67773273399b6ce61?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "10月訪日客391万人、単月で最多　前年比0.4％増、中国客は減少(共同通信)",
-        "summary": "政府観光局は18日、10月に日本を訪れた外国人客は前年同月比0.4％増の推計391万2500人だったと発表した。単月として過去最多となった。高市早苗首相の「台湾有事」を巡る発言を受け、中国客の減少が続",
-        "pub_date": "11/18 16:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/c9b0be95aa1e95f768b5abd0a425a1573f77a44e?source=rss",
+        "title": "高市首相初訪中、関係改善を模索　習主席と接触か、台湾答弁以来(共同通信)",
+        "summary": "【深セン共同】高市早苗首相は18日、中国・深センでのアジア太平洋経済協力会議（APEC）首脳会議に出席するため、就任後初めて中国を訪問した。中国の習近平国家主席と接触すれば、昨年11月の台湾有事を巡る",
+        "pub_date": "11/18 17:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/4d000a294c13464d90c9c4c53c87da89b990138b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "若見えするCEO、GMO・熊谷氏とNVIDIA・フアン氏の共通点　謝罪会見に日本社会の「命の砂時計」を感じてしまうワケ　北原みのり(AERA DIGITAL)",
-        "summary": "GMOインターネットグループの謝罪記者会見を見た。3回も見てしまった。CEOの熊谷正寿氏がゆっくり明確に話すので、2倍速でもちょうどよいテンポで聞けた。これまでとは違うレベルの「何か」を見せられている",
-        "pub_date": "11/18 16:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/9313f28aac4b1bfc42eb6e0b209126a2468cdde8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "リニア中央新幹線の品川～名古屋間の開業時期　年内公表を断念　課題山積み…夢の超特急の開業はいつ？(メ〜テレ（名古屋テレビ）)",
-        "summary": "リニア中央新幹線の品川～名古屋間の開業時期について、JR東海は目指していた年内の公表を断念しました。 名古屋と東京の品川を40分でつなぐ夢の超特急・リニア中央新幹線。 注目が集まる開業時期の見通しにつ",
-        "pub_date": "11/18 16:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/8ef30887565f83e7dfeaaa2ecd29869fbb6e6ef1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "玉木雄一郎代表、支援金拡大を「バナナの叩き売り」と批判　「これ一体何なんだ、この制度は」(J-CASTニュース)",
-        "summary": "国民民主党の玉木雄一郎代表が2026年11月17日、政府が検討する「就業者負担軽減支援金」をめぐり、対象拡大を「まるでバナナの叩き売り」とXで批判した。同日の定例記者会見でも冒頭から「またバナナの叩き",
-        "pub_date": "11/18 16:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/d0d372fe405654514f9874a9fa5e0fe1e06c41aa?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "14県の特産品300点以上が名古屋に集結 鳥取の長いもや長野のりんごなど 「ふるさとフェア」 初日から賑わう 栄の中日ビルで11月21日（土）まで(CBCテレビ)",
-        "summary": "全国各地の特産品が名古屋に集結です。11月18日から始まった「ふるさとフェア 全国センタ-合同物産観光展」には、名古屋・栄の中日ビル5階の「全国物産観光センター」に事務所を置く14の県が出展し、それぞ",
-        "pub_date": "11/18 16:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/bc55beb78edd86a61a8f16f38892df99213d65ba?source=rss",
+        "title": "NHKが飲み会に「午後10時まで」「3時間以内」ルールか、会社は「勤務時間外」にどこまで口を出せる？(弁護士ドットコムニュース)",
+        "summary": "会社の飲み会は「午後10時まで」「3時間以内」──。NHKが職員に対し、飲酒を伴う会食について、こうしたルールを盛り込んだ通達を出したと報じられ、注目を集めている。共同通信（11月17日付）によると、",
+        "pub_date": "11/18 17:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/78ec598f257c49be2674afa8fcec3204b4b80984?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-18 16:55:29 JST"
+    "last_updated": "2026-11-18 17:48:36 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -667,10 +668,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "RVDi86H3EsA",
+        "video_id": "464AVc2Nj64",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/RVDi86H3EsA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=RVDi86H3EsA"
+        "embed_url": "https://www.youtube.com/embed/464AVc2Nj64?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=464AVc2Nj64"
       },
       {
         "id": "stream_fnnnews",

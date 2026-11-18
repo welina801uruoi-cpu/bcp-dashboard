@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 01:44:47",
-  "timestamp_local": "2026-11-18 18:44:47",
+  "timestamp": "2026-11-19 02:37:42",
+  "timestamp_local": "2026-11-18 19:37:42",
   "country": {
     "id": "italy",
     "name": "イタリア",
@@ -631,7 +631,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/18 16:26",
@@ -763,13 +763,13 @@
     "default_channel_id": "stream_euronews"
   },
   "forex": {
-    "timestamp": "11/19 01:44 JST",
+    "timestamp": "11/19 02:37 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 159.3,
-      "change": -0.22,
+      "change": -0.23,
       "change_pct": -0.14,
       "direction": "down"
     },
@@ -777,18 +777,18 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.31,
-      "change": -3.54,
-      "change_pct": -1.98,
+      "rate": 174.8,
+      "change": -0.63,
+      "change_pct": -0.36,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.31,
-      "change": -3.54,
-      "change_pct": -1.98
+      "rate": 174.8,
+      "change": -0.63,
+      "change_pct": -0.36
     }
   },
   "airports": [
@@ -846,11 +846,11 @@
         "is_capital": true,
         "lat": 41.9028,
         "lon": 12.4964,
-        "temp": 18.3,
-        "apparent_temp": 19.3,
-        "humidity": 82,
-        "wind_speed": 4.3,
-        "wind_gusts": 14.0,
+        "temp": 17.6,
+        "apparent_temp": 18.6,
+        "humidity": 86,
+        "wind_speed": 5.1,
+        "wind_gusts": 11.2,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -858,26 +858,26 @@
           {
             "date": "11/18(水)",
             "temp_max": 20.6,
-            "temp_min": 16.2,
+            "temp_min": 16.7,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
             "precipitation_mm": 1.8
           },
           {
             "date": "11/19(木)",
-            "temp_max": 22.1,
-            "temp_min": 14.4,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 13.1
+            "temp_max": 21.2,
+            "temp_min": 13.5,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 14.2
           },
           {
             "date": "11/20(金)",
-            "temp_max": 19.1,
-            "temp_min": 12.8,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 0.4
+            "temp_max": 19.8,
+            "temp_min": 12.7,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
           }
         ],
         "alert": "平常",
@@ -891,14 +891,14 @@
         "is_capital": false,
         "lat": 45.4642,
         "lon": 9.19,
-        "temp": 8.3,
-        "apparent_temp": 6.4,
-        "humidity": 93,
-        "wind_speed": 8.0,
-        "wind_gusts": 15.5,
+        "temp": 8.0,
+        "apparent_temp": 6.2,
+        "humidity": 94,
+        "wind_speed": 6.7,
+        "wind_gusts": 11.9,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/18(水)",
@@ -910,15 +910,15 @@
           },
           {
             "date": "11/19(木)",
-            "temp_max": 11.2,
-            "temp_min": 6.2,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 1.9
+            "temp_max": 11.3,
+            "temp_min": 6.0,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 2.2
           },
           {
             "date": "11/20(金)",
-            "temp_max": 13.7,
+            "temp_max": 13.5,
             "temp_min": 4.0,
             "weather_code": 45,
             "weather_label": "🌫️ 霧",
@@ -929,6 +929,51 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ヴェネツィア (ヴェネト州)",
+        "name_en": "Venice",
+        "is_capital": false,
+        "lat": 45.4408,
+        "lon": 12.3155,
+        "temp": 9.6,
+        "apparent_temp": 8.2,
+        "humidity": 96,
+        "wind_speed": 7.7,
+        "wind_gusts": 14.0,
+        "precipitation": 0.0,
+        "weather_code": 45,
+        "weather_label": "🌫️ 霧",
+        "forecast": [
+          {
+            "date": "11/18(水)",
+            "temp_max": 9.8,
+            "temp_min": 8.5,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/19(木)",
+            "temp_max": 11.2,
+            "temp_min": 8.1,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 19.4
+          },
+          {
+            "date": "11/20(金)",
+            "temp_max": 13.5,
+            "temp_min": 7.6,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -937,11 +982,11 @@
       "is_capital": true,
       "lat": 41.9028,
       "lon": 12.4964,
-      "temp": 18.3,
-      "apparent_temp": 19.3,
-      "humidity": 82,
-      "wind_speed": 4.3,
-      "wind_gusts": 14.0,
+      "temp": 17.6,
+      "apparent_temp": 18.6,
+      "humidity": 86,
+      "wind_speed": 5.1,
+      "wind_gusts": 11.2,
       "precipitation": 0.0,
       "weather_code": 2,
       "weather_label": "⛅ 晴れ時々曇り",
@@ -949,26 +994,26 @@
         {
           "date": "11/18(水)",
           "temp_max": 20.6,
-          "temp_min": 16.2,
+          "temp_min": 16.7,
           "weather_code": 80,
           "weather_label": "🌧️ にわか雨 (弱)",
           "precipitation_mm": 1.8
         },
         {
           "date": "11/19(木)",
-          "temp_max": 22.1,
-          "temp_min": 14.4,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 13.1
+          "temp_max": 21.2,
+          "temp_min": 13.5,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 14.2
         },
         {
           "date": "11/20(金)",
-          "temp_max": 19.1,
-          "temp_min": 12.8,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 0.4
+          "temp_max": 19.8,
+          "temp_min": 12.7,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -976,7 +1021,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/19 01:44 JST"
+    "timestamp": "11/19 02:37 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1058,7 +1103,7 @@
         "details": "地下鉄M1〜M5号線およびマルペンサ空港連絡は平常運行中"
       }
     ],
-    "timestamp": "11/19 01:44 JST"
+    "timestamp": "11/19 02:37 JST"
   },
   "lifeline": {
     "status": "NORMAL",

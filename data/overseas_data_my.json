@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 01:44:22",
-  "timestamp_local": "2026-11-19 00:44:22",
+  "timestamp": "2026-11-19 02:37:30",
+  "timestamp_local": "2026-11-19 01:37:30",
   "country": {
     "id": "malaysia",
     "name": "マレーシア",
@@ -639,13 +639,13 @@
     "default_channel_id": "stream_bernama_live"
   },
   "forex": {
-    "timestamp": "11/19 01:44 JST",
+    "timestamp": "11/19 02:37 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 159.3,
-      "change": -0.22,
+      "change": -0.23,
       "change_pct": -0.14,
       "direction": "down"
     },
@@ -662,9 +662,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.31,
-      "change": -3.54,
-      "change_pct": -1.98
+      "rate": 174.8,
+      "change": -0.63,
+      "change_pct": -0.36
     }
   },
   "airports": [
@@ -693,10 +693,10 @@
         "lat": 3.139,
         "lon": 101.6869,
         "temp": 24.6,
-        "apparent_temp": 30.0,
-        "humidity": 97,
-        "wind_speed": 4.7,
-        "wind_gusts": 10.4,
+        "apparent_temp": 30.2,
+        "humidity": 96,
+        "wind_speed": 3.1,
+        "wind_gusts": 8.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -732,19 +732,64 @@
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
+        "name": "ペナン (ジョージタウン)",
+        "name_en": "Penang",
+        "is_capital": false,
+        "lat": 5.4141,
+        "lon": 100.3288,
+        "temp": 25.8,
+        "apparent_temp": 32.1,
+        "humidity": 96,
+        "wind_speed": 3.0,
+        "wind_gusts": 12.2,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/19(木)",
+            "temp_max": 30.4,
+            "temp_min": 24.3,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 26.0
+          },
+          {
+            "date": "11/20(金)",
+            "temp_max": 31.5,
+            "temp_min": 24.8,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 12.6
+          },
+          {
+            "date": "11/21(土)",
+            "temp_max": 31.1,
+            "temp_min": 24.7,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 13.3
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ジョホールバル (南部経済圏)",
         "name_en": "Johor Bahru",
         "is_capital": false,
         "lat": 1.4927,
         "lon": 103.7414,
-        "temp": 24.6,
-        "apparent_temp": 30.3,
+        "temp": 24.5,
+        "apparent_temp": 30.0,
         "humidity": 97,
-        "wind_speed": 3.3,
-        "wind_gusts": 12.6,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
+        "wind_speed": 3.9,
+        "wind_gusts": 11.5,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/19(木)",
@@ -771,10 +816,10 @@
             "precipitation_mm": 10.7
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -784,10 +829,10 @@
       "lat": 3.139,
       "lon": 101.6869,
       "temp": 24.6,
-      "apparent_temp": 30.0,
-      "humidity": 97,
-      "wind_speed": 4.7,
-      "wind_gusts": 10.4,
+      "apparent_temp": 30.2,
+      "humidity": 96,
+      "wind_speed": 3.1,
+      "wind_gusts": 8.6,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -822,7 +867,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/19 01:44 JST"
+    "timestamp": "11/19 02:37 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -851,7 +896,7 @@
         "details": "LRTクラナジャヤ線・MRT各線平常運行中"
       }
     ],
-    "timestamp": "11/19 01:44 JST"
+    "timestamp": "11/19 02:37 JST"
   },
   "lifeline": {
     "status": "NORMAL",

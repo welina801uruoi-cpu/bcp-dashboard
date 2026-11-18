@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19 01:44:36",
-  "timestamp_local": "2026-11-18 23:44:36",
+  "timestamp": "2026-11-19 02:37:36",
+  "timestamp_local": "2026-11-19 00:37:36",
   "country": {
     "id": "cambodia",
     "name": "カンボジア",
@@ -633,13 +633,13 @@
     "default_channel_id": "stream_euronews_asia"
   },
   "forex": {
-    "timestamp": "11/19 01:44 JST",
+    "timestamp": "11/19 02:37 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 159.3,
-      "change": -0.22,
+      "change": -0.23,
       "change_pct": -0.14,
       "direction": "down"
     },
@@ -656,9 +656,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.31,
-      "change": -3.54,
-      "change_pct": -1.98
+      "rate": 174.8,
+      "change": -0.63,
+      "change_pct": -0.36
     }
   },
   "airports": [
@@ -679,9 +679,144 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/19 01:44 JST"
+    "cities": [
+      {
+        "name": "プノンペン (首都)",
+        "name_en": "Phnom Penh",
+        "is_capital": true,
+        "lat": 11.5564,
+        "lon": 104.9282,
+        "temp": 26.6,
+        "apparent_temp": 32.5,
+        "humidity": 89,
+        "wind_speed": 3.7,
+        "wind_gusts": 7.9,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/19(木)",
+            "temp_max": 32.5,
+            "temp_min": 24.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/20(金)",
+            "temp_max": 32.1,
+            "temp_min": 25.0,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 2.1
+          },
+          {
+            "date": "11/21(土)",
+            "temp_max": 32.1,
+            "temp_min": 24.3,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 1.8
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "シェムリアップ (北西部)",
+        "name_en": "Siem Reap",
+        "is_capital": false,
+        "lat": 13.3671,
+        "lon": 103.8448,
+        "temp": 25.7,
+        "apparent_temp": 31.5,
+        "humidity": 89,
+        "wind_speed": 0.5,
+        "wind_gusts": 3.2,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/19(木)",
+            "temp_max": 32.9,
+            "temp_min": 24.2,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/20(金)",
+            "temp_max": 32.3,
+            "temp_min": 24.3,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/21(土)",
+            "temp_max": 31.7,
+            "temp_min": 23.8,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.3
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "プノンペン (首都)",
+      "name_en": "Phnom Penh",
+      "is_capital": true,
+      "lat": 11.5564,
+      "lon": 104.9282,
+      "temp": 26.6,
+      "apparent_temp": 32.5,
+      "humidity": 89,
+      "wind_speed": 3.7,
+      "wind_gusts": 7.9,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
+      "forecast": [
+        {
+          "date": "11/19(木)",
+          "temp_max": 32.5,
+          "temp_min": 24.4,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/20(金)",
+          "temp_max": 32.1,
+          "temp_min": 25.0,
+          "weather_code": 55,
+          "weather_label": "🌦️ 霧雨 (強)",
+          "precipitation_mm": 2.1
+        },
+        {
+          "date": "11/21(土)",
+          "temp_max": 32.1,
+          "temp_min": 24.3,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 1.8
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/19 02:37 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -710,7 +845,7 @@
         "details": "旅客定期便運行中"
       }
     ],
-    "timestamp": "11/19 01:44 JST"
+    "timestamp": "11/19 02:37 JST"
   },
   "lifeline": {
     "status": "NORMAL",

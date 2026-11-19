@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 18:32:42",
+  "timestamp": "2026-11-19 19:42:24",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -91,11 +91,32 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-19 21:29",
+    "time": "2026-11-20 04:10",
     "place": "熊本県天草・芦北地方",
     "magnitude": "2.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-20 04:10",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.5",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-20 04:04",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.7",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-20 03:43",
+        "place": "新潟県上越地方",
+        "shindo": "2",
+        "magnitude": "2.4",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-19 21:29",
         "place": "熊本県天草・芦北地方",
@@ -143,27 +164,6 @@
         "place": "熊本県天草・芦北地方",
         "shindo": "1",
         "magnitude": "2.3",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 17:47",
-        "place": "和歌山県北部",
-        "shindo": "1",
-        "magnitude": "2.3",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 17:16",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "2.7",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-19 17:05",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.6",
         "maxScale": 10
       }
     ]
@@ -224,11 +224,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
+          "雷注意報",
           "強風注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -266,11 +266,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
+          "雷注意報",
           "強風注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       }
     ]
@@ -321,11 +321,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "関西電力送配電: 停電情報なし（近畿エリア管内正常）",
+    "power_msg": "関西電力送配電: 【停電発生中】和歌山で停電情報を検知",
     "water_msg": "大阪市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "大阪ガス: 供給安定（平常）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -453,21 +453,21 @@
     }
   ],
   "weather_overview": {
-    "status": "NORMAL",
+    "status": "ALERT",
     "office": "大阪管区気象台",
     "target_area": "大阪府",
-    "report_time": "11/19 16:37",
+    "report_time": "11/20 04:37",
     "headline": "",
-    "text": "　大阪府は、高気圧に覆われておおむね晴れています。\n\n　１９日の大阪府は、寒気や湿った空気の影響で、おおむね曇るでしょう。夜遅くは雨の降る所がある見込みです。\n\n　２０日の大阪府は、寒気や湿った空気の影響で曇り、明け方から朝は雨が降るでしょう。昼過ぎまで雷を伴う所がある見込みです。\n\n【近畿地方】　\n　近畿地方は、寒気や湿った空気の影響でおおむね曇り、雨の降っている所があります。\n\n　１９日の近畿地方は、寒気や湿った空気の影響で、おおむね曇るでしょう。北部では、夜は雨が降り、雷を伴う所がある見込みです。\n\n　２０日の近畿地方は、寒気や湿った空気の影響で曇り、明け方から朝は雨が降るでしょう。北部では断続的に雨や雪が降る見込みです。雷を伴う所があるでしょう。",
+    "text": "　大阪府は、寒気や湿った空気の影響で曇り、雨の降っている所があります。\n\n　２０日の大阪府は、寒気や湿った空気の影響でおおむね曇り、夕方にかけて雨の降る所がある見込みです。雷を伴う所があるでしょう。\n\n　２１日の大阪府は、高気圧に覆われて晴れますが、夕方からは寒気や湿った空気の影響で曇り、夜のはじめ頃は雨が降る見込みです。\n\n【近畿地方】　\n　近畿地方は、寒気や湿った空気の影響でおおむね曇り、雨や雷雨となっている所があります。\n\n　２０日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、明け方は雨が降るでしょう。北部では断続的に雨や雪が降る見込みです。雷を伴う所があるでしょう。\n\n　２１日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、北部を中心に断続的に雨や雪が降る見込みです。雷を伴う所があるでしょう。",
     "paragraphs": [
-      "大阪府は、高気圧に覆われておおむね晴れています。",
-      "１９日の大阪府は、寒気や湿った空気の影響で、おおむね曇るでしょう。夜遅くは雨の降る所がある見込みです。",
-      "２０日の大阪府は、寒気や湿った空気の影響で曇り、明け方から朝は雨が降るでしょう。昼過ぎまで雷を伴う所がある見込みです。",
-      "【近畿地方】　\n　近畿地方は、寒気や湿った空気の影響でおおむね曇り、雨の降っている所があります。",
-      "１９日の近畿地方は、寒気や湿った空気の影響で、おおむね曇るでしょう。北部では、夜は雨が降り、雷を伴う所がある見込みです。",
-      "２０日の近畿地方は、寒気や湿った空気の影響で曇り、明け方から朝は雨が降るでしょう。北部では断続的に雨や雪が降る見込みです。雷を伴う所があるでしょう。"
+      "大阪府は、寒気や湿った空気の影響で曇り、雨の降っている所があります。",
+      "２０日の大阪府は、寒気や湿った空気の影響でおおむね曇り、夕方にかけて雨の降る所がある見込みです。雷を伴う所があるでしょう。",
+      "２１日の大阪府は、高気圧に覆われて晴れますが、夕方からは寒気や湿った空気の影響で曇り、夜のはじめ頃は雨が降る見込みです。",
+      "【近畿地方】　\n　近畿地方は、寒気や湿った空気の影響でおおむね曇り、雨や雷雨となっている所があります。",
+      "２０日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、明け方は雨が降るでしょう。北部では断続的に雨や雪が降る見込みです。雷を伴う所があるでしょう。",
+      "２１日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、北部を中心に断続的に雨や雪が降る見込みです。雷を伴う所があるでしょう。"
     ],
-    "summary": "大阪府は、高気圧に覆われておおむね晴れています。...",
+    "summary": "大阪府は、寒気や湿った空気の影響で曇り、雨の降っている所があります。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=270000"
   },
   "disaster_news": {
@@ -595,7 +595,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-20 03:32:13 JST"
+    "last_updated": "2026-11-20 04:41:50 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -616,10 +616,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "3-TuFc_i6lo",
+        "video_id": "ncoBtasb5b4",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/3-TuFc_i6lo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=3-TuFc_i6lo"
+        "embed_url": "https://www.youtube.com/embed/ncoBtasb5b4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=ncoBtasb5b4"
       },
       {
         "id": "stream_tbsnews",
@@ -649,10 +649,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "WolEwxklv3A",
+        "video_id": "f4Nz59C9n-A",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/WolEwxklv3A?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=WolEwxklv3A"
+        "embed_url": "https://www.youtube.com/embed/f4Nz59C9n-A?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=f4Nz59C9n-A"
       },
       {
         "id": "stream_fnnnews",

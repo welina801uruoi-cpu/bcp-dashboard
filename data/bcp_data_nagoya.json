@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 18:32:52",
+  "timestamp": "2026-11-19 19:42:36",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -84,11 +84,32 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-19 21:29",
+    "time": "2026-11-20 04:10",
     "place": "熊本県天草・芦北地方",
     "magnitude": "2.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-20 04:10",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.5",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-20 04:04",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.7",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-20 03:43",
+        "place": "新潟県上越地方",
+        "shindo": "2",
+        "magnitude": "2.4",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-19 21:29",
         "place": "熊本県天草・芦北地方",
@@ -137,27 +158,6 @@
         "shindo": "1",
         "magnitude": "2.3",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 17:47",
-        "place": "和歌山県北部",
-        "shindo": "1",
-        "magnitude": "2.3",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 17:16",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "2.7",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-19 17:05",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.6",
-        "maxScale": 10
       }
     ]
   },
@@ -189,11 +189,12 @@
           "波浪警報"
         ],
         "notices": [
-          "波浪注意報",
           "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報",
+          "大雨注意報"
         ],
-        "summary": "波浪警報、波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪警報、雷注意報、強風注意報、波浪注意報、大雨注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -204,11 +205,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "大雪注意報",
-          "着雪注意報"
+          "雷注意報",
+          "着雪注意報",
+          "強風注意報"
         ],
-        "summary": "雷注意報、大雪注意報、着雪注意報",
+        "summary": "大雪注意報、雷注意報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -246,9 +248,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報"
+          "強風注意報",
+          "乾燥注意報"
         ],
-        "summary": "強風注意報",
+        "summary": "強風注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -577,7 +580,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-20 03:32:13 JST"
+    "last_updated": "2026-11-20 04:41:50 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -598,10 +601,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "3-TuFc_i6lo",
+        "video_id": "ncoBtasb5b4",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/3-TuFc_i6lo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=3-TuFc_i6lo"
+        "embed_url": "https://www.youtube.com/embed/ncoBtasb5b4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=ncoBtasb5b4"
       },
       {
         "id": "stream_tbsnews",
@@ -631,10 +634,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "WolEwxklv3A",
+        "video_id": "f4Nz59C9n-A",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/WolEwxklv3A?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=WolEwxklv3A"
+        "embed_url": "https://www.youtube.com/embed/f4Nz59C9n-A?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=f4Nz59C9n-A"
       },
       {
         "id": "stream_fnnnews",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 18:32:15",
+  "timestamp": "2026-11-19 19:41:53",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -347,11 +347,32 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-19 21:29",
+    "time": "2026-11-20 04:10",
     "place": "熊本県天草・芦北地方",
     "magnitude": "2.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-20 04:10",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.5",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-20 04:04",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.7",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-20 03:43",
+        "place": "新潟県上越地方",
+        "shindo": "2",
+        "magnitude": "2.4",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-19 21:29",
         "place": "熊本県天草・芦北地方",
@@ -400,27 +421,6 @@
         "shindo": "1",
         "magnitude": "2.3",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 17:47",
-        "place": "和歌山県北部",
-        "shindo": "1",
-        "magnitude": "2.3",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 17:16",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "2.7",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-19 17:05",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.6",
-        "maxScale": 10
       }
     ]
   },
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "ALERT",
-    "summary": "【警報発表: 6地域】道南（暴風警報）、道東（暴風警報）、新潟（波浪警報）、富山（暴風警報）、石川（波浪警報）、福井（波浪警報） ／ 他41地域で注意報",
+    "summary": "【警報発表: 6地域】道南（暴風警報）、道東（暴風警報）、新潟（波浪警報）、富山（暴風警報）、石川（波浪警報）、福井（波浪警報） ／ 他43地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 6,
-    "notice_count": 41,
+    "notice_count": 43,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -450,14 +450,14 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "風雪注意報",
-          "着雪注意報",
-          "強風注意報",
-          "雷注意報",
+          "大雪注意報",
           "波浪注意報",
-          "大雪注意報"
+          "着雪注意報",
+          "風雪注意報",
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "風雪注意報、着雪注意報、強風注意報、雷注意報、波浪注意報、大雪注意報",
+        "summary": "大雪注意報、波浪注意報、着雪注意報、風雪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -470,14 +470,14 @@
           "暴風警報"
         ],
         "notices": [
-          "風雪注意報",
-          "着雪注意報",
-          "強風注意報",
-          "雷注意報",
+          "大雪注意報",
           "波浪注意報",
-          "大雪注意報"
+          "着雪注意報",
+          "風雪注意報",
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "暴風警報、風雪注意報、着雪注意報、強風注意報、雷注意報、波浪注意報、大雪注意報",
+        "summary": "暴風警報、大雪注意報、波浪注意報、着雪注意報、風雪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -504,13 +504,12 @@
           "暴風警報"
         ],
         "notices": [
-          "風雪注意報",
           "着雪注意報",
-          "強風注意報",
           "雷注意報",
+          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "暴風警報、風雪注意報、着雪注意報、強風注意報、雷注意報、波浪注意報",
+        "summary": "暴風警報、着雪注意報、雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       },
       {
@@ -521,11 +520,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "波浪注意報",
-          "風雪注意報",
-          "雷注意報"
+          "風雪注意報"
         ],
-        "summary": "波浪注意報、風雪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -564,11 +563,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "波浪注意報",
-          "風雪注意報",
-          "雷注意報"
+          "風雪注意報"
         ],
-        "summary": "波浪注意報、風雪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
@@ -579,11 +578,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
+          "雷注意報",
           "強風注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -609,10 +608,11 @@
         "warns": [],
         "notices": [
           "波浪注意報",
+          "濃霧注意報",
           "霜注意報",
           "強風注意報"
         ],
-        "summary": "波浪注意報、霜注意報、強風注意報",
+        "summary": "波浪注意報、濃霧注意報、霜注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -632,11 +632,13 @@
         "code": "10",
         "name": "群馬県",
         "short_name": "群馬",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/10/"
       },
       {
@@ -659,9 +661,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "乾燥注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -703,11 +706,12 @@
           "波浪警報"
         ],
         "notices": [
-          "波浪注意報",
           "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報",
+          "大雨注意報"
         ],
-        "summary": "波浪警報、波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪警報、雷注意報、強風注意報、波浪注意報、大雨注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -720,12 +724,12 @@
           "暴風警報"
         ],
         "notices": [
-          "強風注意報",
-          "雷注意報",
           "霜注意報",
+          "雷注意報",
+          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "暴風警報、強風注意報、雷注意報、霜注意報、波浪注意報",
+        "summary": "暴風警報、霜注意報、雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/16/"
       },
       {
@@ -738,11 +742,11 @@
           "波浪警報"
         ],
         "notices": [
-          "雷注意報",
           "波浪注意報",
+          "雷注意報",
           "強風注意報"
         ],
-        "summary": "波浪警報、雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪警報、波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/17/"
       },
       {
@@ -765,11 +769,13 @@
         "code": "19",
         "name": "山梨県",
         "short_name": "山梨",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報"
+        ],
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/19/"
       },
       {
@@ -780,11 +786,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "大雪注意報",
-          "着雪注意報"
+          "雷注意報",
+          "着雪注意報",
+          "強風注意報"
         ],
-        "summary": "雷注意報、大雪注意報、着雪注意報",
+        "summary": "大雪注意報、雷注意報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -835,9 +842,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報"
+          "強風注意報",
+          "乾燥注意報"
         ],
-        "summary": "強風注意報",
+        "summary": "強風注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -862,11 +870,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
+          "雷注意報",
           "強風注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -920,11 +928,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
+          "雷注意報",
           "強風注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       },
       {
@@ -1080,11 +1088,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
+          "雷注意報",
           "強風注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       },
       {
@@ -1111,11 +1119,11 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "霜注意報",
           "雷注意報",
+          "霜注意報",
           "強風注意報"
         ],
-        "summary": "波浪注意報、霜注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、雷注意報、霜注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -1154,11 +1162,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "雷注意報",
+          "波浪注意報",
           "強風注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1185,14 +1193,17 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線24路線: 美祢線、山田線、米坂線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線24路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、肥薩線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（美祢線、山田線、米坂線、左沢線、陸羽東線 等 計24路線）",
+    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、肥薩線、指宿枕崎線、山田線 等 計24路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "美祢線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "肥薩線",
+      "指宿枕崎線",
       "山田線",
       "米坂線",
       "左沢線",
@@ -1200,22 +1211,19 @@
       "北上線",
       "五能線",
       "津軽線",
-      "肥薩線",
-      "指宿枕崎線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
+      "美祢線",
       "加古川線",
       "小浜線",
+      "久留里線",
+      "小湊鉄道線",
+      "いすみ鉄道線",
+      "わたらせ渓谷鐵道線",
       "越後線",
       "弥彦線",
       "七尾線",
       "大井川鉄道大井川本線",
       "のと鉄道線",
-      "万葉線",
-      "久留里線",
-      "小湊鉄道線",
-      "いすみ鉄道線",
-      "わたらせ渓谷鐵道線"
+      "万葉線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1308,7 +1316,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・石川・長野で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】千葉・石川・長野・和歌山で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1439,14 +1447,14 @@
     "status": "NORMAL",
     "office": "気象庁",
     "target_area": "東京都",
-    "report_time": "11/19 16:37",
+    "report_time": "11/20 04:37",
     "headline": "",
-    "text": "　関東甲信地方は、冬型の気圧配置となっています。\n\n　東京地方は、晴れています。\n\n　１９日は、冬型の気圧配置となる見込みです。このため、晴れるでしょう。\n\n　２０日は、引き続き、冬型の気圧配置となりますが、気圧の谷や湿った空気の影響を受ける見込みです。このため、晴れるでしょう。伊豆諸島では、雨で雷を伴う所がある見込みです。",
+    "text": "　関東甲信地方は、冬型の気圧配置となっています。\n\n　東京地方は、晴れとなっています。\n\n　２０日は、冬型の気圧配置となる見込みです。このため、晴れとなるでしょう。伊豆諸島では、雨で雷を伴う所がある見込みです。\n\n　２１日は、引き続き冬型の気圧配置となる見込みです。このため、晴れとなるでしょう。",
     "paragraphs": [
       "関東甲信地方は、冬型の気圧配置となっています。",
-      "東京地方は、晴れています。",
-      "１９日は、冬型の気圧配置となる見込みです。このため、晴れるでしょう。",
-      "２０日は、引き続き、冬型の気圧配置となりますが、気圧の谷や湿った空気の影響を受ける見込みです。このため、晴れるでしょう。伊豆諸島では、雨で雷を伴う所がある見込みです。"
+      "東京地方は、晴れとなっています。",
+      "２０日は、冬型の気圧配置となる見込みです。このため、晴れとなるでしょう。伊豆諸島では、雨で雷を伴う所がある見込みです。",
+      "２１日は、引き続き冬型の気圧配置となる見込みです。このため、晴れとなるでしょう。"
     ],
     "summary": "関東甲信地方は、冬型の気圧配置となっています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=130000"
@@ -1576,7 +1584,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-20 03:32:13 JST"
+    "last_updated": "2026-11-20 04:41:50 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1597,10 +1605,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "3-TuFc_i6lo",
+        "video_id": "ncoBtasb5b4",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/3-TuFc_i6lo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=3-TuFc_i6lo"
+        "embed_url": "https://www.youtube.com/embed/ncoBtasb5b4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=ncoBtasb5b4"
       },
       {
         "id": "stream_tbsnews",
@@ -1630,10 +1638,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "WolEwxklv3A",
+        "video_id": "f4Nz59C9n-A",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/WolEwxklv3A?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=WolEwxklv3A"
+        "embed_url": "https://www.youtube.com/embed/f4Nz59C9n-A?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=f4Nz59C9n-A"
       },
       {
         "id": "stream_fnnnews",

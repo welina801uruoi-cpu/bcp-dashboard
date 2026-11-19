@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 02:42:15",
+  "timestamp": "2026-11-19 03:32:48",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -76,12 +76,26 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-19 11:27",
+    "shindo": "2",
+    "time": "2026-11-19 12:06",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.3",
+    "magnitude": "3.2",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-19 12:06",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "2",
+        "magnitude": "3.2",
+        "maxScale": 20
+      },
+      {
+        "time": "2026-11-19 11:57",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.5",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-19 11:27",
         "place": "熊本県天草・芦北地方",
@@ -137,20 +151,6 @@
         "shindo": "1",
         "magnitude": "2.5",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 07:14",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.3",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 07:10",
-        "place": "熊本県熊本地方",
-        "shindo": "1",
-        "magnitude": "2.5",
-        "maxScale": 10
       }
     ]
   },
@@ -180,11 +180,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -195,11 +195,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -210,11 +210,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
@@ -225,11 +225,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -240,11 +240,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -255,10 +255,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       }
     ]
@@ -368,7 +368,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/19 02:15",
@@ -414,7 +414,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/19 01:57",
@@ -476,130 +476,130 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 4,
     "articles": [
       {
-        "title": "熊本で最大震度5弱 一部の建物に被害も　住民からは不安の声(テレビ朝日系（ANN）)",
-        "summary": "19日未明、熊本県で最大震度5弱を観測する地震がありました。これまでのところ、この地震による大きな被害は確認されていません。 震度5弱を観測したのは水俣市、芦北町などです。 震源の深さはおよそ10キロ",
-        "pub_date": "11/19 10:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/e8e754d2863f2ae4fada3ea5dea63a34f5b8073b?source=rss",
+        "title": "阪急宝塚本線で人身事故 運転見合わせ(レスキューナウニュース)",
+        "summary": "12:13頃、蛍池～石橋阪大前駅間で発生した人身事故の影響で、阪急宝塚本線は運転を見合わせています。",
+        "pub_date": "11/19 12:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/e9dce4ee596b5397c1ce32a10b8e2cb0c9adef27?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "サイバー捜査、攻めの姿勢　被害続発、警察庁臨時会議(共同通信)",
-        "summary": "各地で不正アクセスが相次ぎ、政府が緊急対策を決定したことを受けて、警察庁は19日、全国警察のサイバー担当者らを集めた臨時の会議を開いた。小野寺健一サイバー警察局長は「未曽有の情勢だ。事業者からの情報提",
-        "pub_date": "11/19 10:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/3dde691b8d2418532ebf8f160a2454ead66ccf0c?source=rss",
+        "title": "熊本で最大震度5弱 一部の建物に被害も(テレビ朝日系（ANN）)",
+        "summary": "19日未明、熊本県で強い地震がありました。震度5弱を観測した津奈木町から報告です。 津奈木町ではこれまでにけがをした人は確認されていませんが、こちらの住宅では2階の屋根瓦が落ちる被害を受けました。 住",
+        "pub_date": "11/19 12:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/a1c337c409935f52438b5d4f44738660177aaa6a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "海保無人機接触、事故時は手動　北九州空港、運輸安全委経過報告(共同通信)",
-        "summary": "運輸安全委員会は19日、海上保安庁の大型無人航空機「シーガーディアン」が昨年11月に北九州空港で滑走路に接触した事故について経過報告を公表した。事故前に自動離着陸機能による着陸を11回試みたがうまくい",
-        "pub_date": "11/19 10:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/068768df68846d10fccb57008a39a6fc3af34473?source=rss",
+        "title": "五輪マークに「絶対反対」と落書き　長野オリンピックでスキージャンプ団体「金メダル」歓喜に沸いた表彰式の会場　市民「ひどい」「憤り」　荻原健司市長「大変残念で悲しい」　市が警察に被害届(FNNプライムオンライン)",
+        "summary": "1998年の長野オリンピックの表彰式会場だった長野市のセントラルスクゥエアにある五輪マークのモニュメントに落書きが見つかった。市は、警察に被害届を出し、警察は器物損壊容疑の可能性もあるとみて捜査してい",
+        "pub_date": "11/19 11:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/cdc5ee850e85d2dc673ec1b7f9df8b18d33b69f8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "20日・21日を中心に暴風や大雨・雪による道路への影響「大」　雪道は冬用装備で(日本気象協会tenki.jp)",
-        "summary": "19日(木)から風や雨・雪による道路への影響が出始め、20日(金)と21日(土)を中心に九州から北海道まで影響度が大きくなるでしょう。積雪や凍結などによる路面状況の悪化に注意が必要です。",
-        "pub_date": "11/19 10:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/20bb56f3fa10d89d3d89c9ff39057d85115c4305?source=rss",
+        "title": "寒波襲来　台風並み暴風も　東北～九州でも積雪の恐れ(テレビ朝日系（ANN）)",
+        "summary": "日本列島に寒波が襲来しています。週末にかけて北日本では冬の嵐となり、東北から九州でも雪が積もる見込みです。 急速に発達中の低気圧の影響で、19日は北日本や北陸で台風並みの暴風が予想されています。 北海",
+        "pub_date": "11/19 11:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/c655b572e1d95974218fc882db30acefe24c56d0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "2人死亡ひき逃げで家宅捜索　トラック運転手の勤務先、神奈川(共同通信)",
-        "summary": "神奈川県海老名市で高齢女性2人がはねられ死亡した事故で、県警は19日、道交法違反（ひき逃げ）などの疑いで逮捕したトラック運転手の相模原市緑区にある勤務先を家宅捜索した。捜査関係者への取材で分かった。既",
-        "pub_date": "11/19 10:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/99bf6ebeda64425112b404547cb9c327a7564661?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本県で震度5弱 津波の心配なし　高速道路で通行止めも　気象庁「今後1週間警戒を」(テレビ朝日系（ANN）)",
-        "summary": "19日未明、熊本県で最大震度5弱の地震がありました。九州地方の広い範囲で強い揺れが観測されました。■熊本で震度5弱 地震直後の熊本県人吉市内の映像です。天井から吊り下げられたライトが大きく揺れているこ",
-        "pub_date": "11/19 10:04 JST",
-        "link": "https://news.yahoo.co.jp/articles/cdba62f81391660902280d3de381385ce29d65c7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "2人死亡事故 容疑者勤務先を捜索",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/19 10:37 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6603123?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "【気象情報】日本海側で非常に強い風や大しけおそれ…平年より10度低い強い寒気も流入...積雪や路面の凍結による交通障害にも留意【気象庁19日発表】24日（火）にかけて雨風雪のシミュレーション(RSK山陽放送)",
-        "summary": "■北日本から西日本では21日にかけて、山地を中心に積雪のおそれ気象庁によりますと、北海道地方では20日にかけて暴風に警戒してください。北陸地方では、21日にかけて高波に警戒してください。北日本から東日",
-        "pub_date": "11/19 11:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/88cab2045cc66bf2dda65dafbb4479fa58e88194?source=rss",
+        "title": "年収56万円程度から新たな支援金制度の対象に　自民が公明に伝える(テレビ朝日系（ANN）)",
+        "summary": "来年度から始まる中・低所得者への新たな支援金制度を巡り、自民党幹部が公明党に対し、年収56万円程度から支給される案を伝えていたことが分かりました。 食料品の消費税1％への引き下げと合わせ、残る1％分で",
+        "pub_date": "11/19 12:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/9f13c758e28c508bac66c8b8076830a6ad0c5db6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "群馬・前橋市でクマが出没と通報 市は周辺住民に外出控えるよう要請(ABEMA TIMES)",
-        "summary": "群馬県前橋市が、公式ホームページでクマの出没情報について発表しました。「11月19日、朝8時頃、天川大島町のマルハン、ホンダカーズ付近で、クマが出没していると通報がありました。【映像】クマの出没情報に",
-        "pub_date": "11/19 11:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/5a6f58465dfc737006b030660ec3901906ee8249?source=rss",
+        "title": "訪問介護先に放火し殺人未遂疑い、男逮捕(共同通信)",
+        "summary": "訪問介護先の障害がある男性が住む東京都内の集合住宅に放火し、殺害しようとしたとして、警視庁は19日までに、現住建造物等放火と殺人未遂の疑いで、会社員矢島隆容疑者（38）を逮捕した。",
+        "pub_date": "11/19 12:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/a733fe2a25ad126dff299720071c6d896a172c70?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【独自】”訪問介護”男性宅付近に放火し殺害しようとした疑い　介護職員 逮捕　警視庁(テレビ朝日系（ANN）)",
-        "summary": "都内で訪問介護をしていた50代の男性の自宅付近に火を放ち殺害しようとしたとして、38歳の介護職員の男が逮捕されました。男性は足に障害があり身動きがとれない状態でした。福田雄大記者「午前8時すぎです。警",
-        "pub_date": "11/19 11:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/4c4d3203c10c6289795ee06b03c40e0e76cc90fe?source=rss",
+        "title": "3連休は季節先取りの寒さに きょうは岐阜山間部を中心に雨や雪 夜は冷え込み強まる  愛知･名古屋･岐阜･三重の天気予報（11/19 昼）(CBCテレビ)",
+        "summary": "きょうは風が強く、夜は冷え込みが強まるでしょう。きょうは冬型の気圧配置が強まり、岐阜県高山市の奥飛騨温泉郷など、標高が高い地域には雪雲が流れ込んでいます。【写真を見る】3連休は季節先取りの寒さに きょ",
+        "pub_date": "11/19 12:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/8190730caf55703d6b2e181ca6e64c1e12146bea?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【独自】“訪問介護”男性宅付近に放火し殺害しようとした疑い　介護職員逮捕　警視庁(テレビ朝日系（ANN）)",
-        "summary": "都内で訪問介護をしていた50代の男性の自宅付近に火を放ち殺害しようとしたとして、38歳の介護職員男が逮捕されました。男性は足に障害があり、身動きがとれない状態でした。 介護職員の矢島隆容疑者は10月1",
-        "pub_date": "11/19 11:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/8f46dcdccd436d7035f816c61871ecdd01472758?source=rss",
+        "title": "千葉・柏市　夫婦殺害放火事件　被告の男「金貸した自分が悪い」(テレビ朝日系（ANN）)",
+        "summary": "千葉県柏市の住宅で夫婦を牛刀で刺して殺害し、自宅などに放火して8棟を全焼させたとして起訴された男が、裁判で「金を貸した自分が一番悪い」と後悔を口にしました。 酒巻馨被告（79）はおととし、柏市の住宅で",
+        "pub_date": "11/19 12:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/da6c220e0b53c832e003cc0b4b0cf5f247daaef7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "栃木強殺、勧誘役高校生に有罪　逮捕者判決は初、執行猶予付き(共同通信)",
-        "summary": "栃木県上三川町の強盗殺人事件で、実行役とされる少年4人のうち1人を勧誘したとして、職業安定法違反（有害業務目的紹介）の罪に問われた相模原市の高校生の男（18）に、宇都宮地裁（高島由美子裁判長）は19日",
-        "pub_date": "11/19 11:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/5eedabd624aafed56a15b6230710590d13ca1bf0?source=rss",
+        "title": "東日本大震災の不明者　岩手の90歳男性と判明(テレビ朝日系（ANN）)",
+        "summary": "東日本大震災で犠牲となった1人の遺体について、岩手・大槌町の当時90歳の男性と判明しました。 岩手県警によりますと、身元が特定されたのは大槌町の上野儀一さんです。 親族とのDNA型鑑定などで判明しまし",
+        "pub_date": "11/19 12:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/52466b4a9505bb526d813be66c9cdbd8e639aae1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "日本保守党が党大会　百田代表、衆院選惨敗を謝罪「高市旋風」も…「根はやられていない」(産経新聞)",
-        "summary": "日本保守党は18日、東京都内で第2回党大会を開いた。百田尚樹代表は、島田洋一前衆院議員を落選させ、議席ゼロに終わった2月の衆院選について、「高市旋風が吹き荒れ、われわれも暴風に巻き込まれ、残念ながら、",
-        "pub_date": "11/19 11:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/1249fa12e815de3ec09c6f7f5550b194cd13d195?source=rss",
+        "title": "栃木・上三川町の強盗殺人事件　リクルーター役の男に有罪判決(テレビ朝日系（ANN）)",
+        "summary": "栃木県上三川町で起きた強盗殺人事件で、リクルーター役とされる18歳の男に対し、宇都宮地裁は拘禁刑1年6カ月、執行猶予4年の判決を言い渡しました。 相模原市の男は5月、栃木県上三川町で強盗などをすると知",
+        "pub_date": "11/19 12:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/fcdcaa9af7e4a2c6b45b54b8028850ad018a2ff3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【生出演】広島初の女性知事・横田美香氏は何を語る!? 就任1年　カキ大量死、転出超過、新アリーナ… 課題にどう向き合うか…(FNNプライムオンライン)",
-        "summary": "去年11月。【湯崎前知事】「新たな知事の誕生であります」16年ぶりのトップ交代。県政史上初の女性知事が誕生しました。【横田美香知事】「もっともっと魅力ある広島県に、人を引き付けるような広島県にしていき",
-        "pub_date": "11/19 11:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/9bf3472444f568dfccd315cb11a6c90e1716039c?source=rss",
+        "title": "女児死亡 内臓に損傷 外部から強い力か 　兵庫・伊丹市(テレビ朝日系（ANN）)",
+        "summary": "兵庫県伊丹市で、3歳の娘に暴行を加え死亡させたとして父親が逮捕された事件で、女の子の内臓に損傷があったことが分かりました。 有元慎哉容疑者（29）は1月、自宅で次女の徠音ちゃんの頭や腹に暴行を加え、死",
+        "pub_date": "11/19 12:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/775d8a7bf2f86b019c03a0667dcedf29967ed9cc?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "首都圏連続強盗、無期懲役を求刑　横浜の実行役、住人男性死亡(共同通信)",
-        "summary": "首都圏連続強盗のうち、横浜市青葉区の住宅で2024年、住人の70代男性を暴行して死亡させ現金を奪った実行役として、強盗致死などの罪に問われた宝田真月被告（24）の裁判員裁判が19日、横浜地裁で開かれ、",
-        "pub_date": "11/19 11:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/c0cb0b31601f9b55c6b1d317d135fb401458fe5a?source=rss",
+        "title": "高市総理 トランプ氏と電話会談調整 首脳会談を受け　出迎え待遇格差に政府は(テレビ朝日系（ANN）)",
+        "summary": "高市総理大臣は、米中ロ首脳会談の終了後にトランプ大統領との電話会談を調整しています。 高市総理は19日夜、一連の日程を終え帰国する予定で、政府関係者によりますと、19日中にもトランプ大統領との電話会談",
+        "pub_date": "11/19 12:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/ff1363c8cddbad650cdb6274b92a6633bacfbc98?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「楽しそうだった」小牧市の強盗殺人未遂事件で関与少年が闇バイトへの参加動機を供述か(メ〜テレ（名古屋テレビ）)",
+        "summary": "愛知県小牧市で女性が襲われた強盗殺人未遂事件で、関与が疑われる少年が「楽しそうだった」と供述していることが分かりました。 15日、小牧市の住宅に男らが押し入り、住人の女性（82）をバールで殴って金品を",
+        "pub_date": "11/19 12:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/3ed642e68b6af00c379f5ea2134fb06d011aead7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "男性を暴行し車のトランクに監禁…現金など奪った強盗傷害などの疑いで暴力団組員の男ら6人を逮捕 グループ内で金銭トラブルか 名古屋(CBCテレビ)",
+        "summary": "男性を車内に監禁し、暴行を加えたうえ、現金などを奪ったとして、暴力団組員の男ら6人が逮捕されました。【写真を見る】男性を暴行し車のトランクに監禁…現金など奪った強盗傷害などの疑いで暴力団組員の男ら6人",
+        "pub_date": "11/19 12:17 JST",
+        "link": "https://news.yahoo.co.jp/articles/d75694aa33c093532f54b5fb440c4e2f98791b0b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "年収56万円程度から新たな支援金制度の対象に(テレビ朝日系（ANN）)",
+        "summary": "来年度から始まる中・低所得者への新たな支援金制度をめぐり、自民党幹部が公明党に対し、年収56万円程度から支給される案を伝えていたことがわかりました。食料品の消費税1％への引き下げと合わせ、残る1％分で",
+        "pub_date": "11/19 12:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/5118c13146dd8e92d6b9f3d3e6af7ca95003e0ac?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 11:41:44 JST"
+    "last_updated": "2026-11-19 12:32:45 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -642,10 +642,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "4QW-4BAoSig",
+        "video_id": "73na7Ut7TAU",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/4QW-4BAoSig?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=4QW-4BAoSig"
+        "embed_url": "https://www.youtube.com/embed/73na7Ut7TAU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=73na7Ut7TAU"
       },
       {
         "id": "stream_annnews",
@@ -664,10 +664,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "QzlYdTW6B8k",
+        "video_id": "5_KKUQqwX0Q",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/QzlYdTW6B8k?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=QzlYdTW6B8k"
+        "embed_url": "https://www.youtube.com/embed/5_KKUQqwX0Q?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=5_KKUQqwX0Q"
       }
     ],
     "cameras": [

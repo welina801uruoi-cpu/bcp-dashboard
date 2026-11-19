@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 15:36:34",
+  "timestamp": "2026-11-19 16:41:35",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -194,11 +194,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "強風注意報",
           "雷注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/27/"
       },
       {
@@ -209,11 +209,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "強風注意報",
           "雷注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -224,11 +224,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "雷注意報",
+          "波浪注意報",
           "強風注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -239,10 +239,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、強風注意報",
+        "summary": "強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/25/"
       },
       {
@@ -266,11 +266,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "強風注意報",
           "雷注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       }
     ]
@@ -362,22 +362,22 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 5 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/19 15:30",
-          "text": "突然 START au END ひかりが使えなくなったのだが START 障害 END か？"
+          "time": "11/19 15:43",
+          "text": "切替申し込みをしたdカードゴールドが先日到着。 12月になったらirumoからmini2へ切り替えだが、5G SAの START 障害 END を再度起こして新..."
         },
         {
-          "time": "11/19 15:27",
-          "text": "START au END 通信 START 障害 END ？ctcはいきてるから家の中では耐えてるけど、無制限にしてるのに使えないと意味ないかも〜"
+          "time": "11/19 15:40",
+          "text": "あれ？ START au END 通信 START 障害 END おきてる？"
         },
         {
-          "time": "11/19 15:22",
-          "text": "START AU END 光回線のWiFiでも通信 START 障害 END なの?"
+          "time": "11/19 15:38",
+          "text": "START au END 通信 START 障害 END か？ 昨日に引き続き特に夜"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -411,7 +411,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/19 14:53",
@@ -472,11 +472,19 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 10,
     "articles": [
       {
+        "title": "JR京都線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "茨木駅で発生した人身事故の影響で、JR京都線は下り線(大阪方面行)の新快速の運転を見合わせていましたが、01:28頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/20 01:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/b24874d4101448b42b941203bd962d0748c9abe3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "JR京都線で人身事故 運転見合わせ(レスキューナウニュース)",
-        "summary": "23:16頃、茨木駅で発生した人身事故の影響で、JR京都線は快速・普通の運転を見合わせています。下り線(大阪方面行)の新快速の運転を見合わせています。",
+        "summary": "23:16頃、茨木駅で発生した人身事故の影響で、JR京都線は下り線(大阪方面行)の新快速の運転を見合わせています。",
         "pub_date": "11/19 23:30 JST",
         "link": "https://news.yahoo.co.jp/articles/cc718bbf076c81c9806ccda4456e26a4324d0ea0?source=rss",
         "category": "国内・気象防災",
@@ -585,17 +593,9 @@
         "link": "https://news.yahoo.co.jp/articles/e0807268c9c361ed92037ab6bf5d52de2b11d148?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "宇都宮のコンビニに車突っ込み小学生2人巻き込む(テレビ朝日系（ANN）)",
-        "summary": "宇都宮市のコンビニ店に70代くらいの女性が運転する車が突っ込み、小学生2人が巻き込まれました。 19日午後3時すぎ、宇都宮市西原のコンビニ店の敷地内で、駐車場と店の間にある柵に70代くらいの女性が運転",
-        "pub_date": "11/19 23:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/44125bc0bfaaa2544306274904d3dfeda49ec4b5?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-20 00:35:56 JST"
+    "last_updated": "2026-11-20 01:41:02 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",

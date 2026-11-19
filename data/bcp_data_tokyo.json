@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 04:39:53",
+  "timestamp": "2026-11-19 05:38:58",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -113,11 +113,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "2",
-    "time": "2026-11-19 12:06",
+    "time": "2026-11-19 14:33",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "3.2",
+    "magnitude": "2.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-19 14:33",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "2",
+        "magnitude": "2.6",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-19 12:06",
         "place": "熊本県天草・芦北地方",
@@ -180,13 +187,6 @@
         "shindo": "3",
         "magnitude": "-",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-19 09:05",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.5",
-        "maxScale": 10
       }
     ]
   },
@@ -321,14 +321,17 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 湘南新宿ライン、宇都宮ライトレール線）",
+    "text": "運行支障あり（在来線: 京浜東北根岸線、湘南新宿ライン、東海道本線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（湘南新宿ライン、宇都宮ライトレール線）",
+    "line_text": "運行支障あり（京浜東北根岸線、湘南新宿ライン、東海道本線、宇都宮線、宇都宮ライトレール線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [
+      "京浜東北根岸線",
       "湘南新宿ライン",
+      "東海道本線",
+      "宇都宮線",
       "宇都宮ライトレール線"
     ],
     "troubled_shinkansen": [],
@@ -438,19 +441,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/19 05:12",
+          "text": "@johncyan 不満があって切り替えようと思っても、顧客側に思い切りスイッチングコストがかかりますからね。 docomoは最近、通信 START 障害 EN..."
+        },
+        {
+          "time": "11/19 05:06",
+          "text": "今日 START au END 朝から通信 START 障害 END でグダグダですわね"
+        },
         {
           "time": "11/19 03:33",
           "text": "なんか職場の人間 START au END だけ通信 START 障害 END いうてるけど、職場だけなんやろか🤔"
-        },
-        {
-          "time": "11/19 03:33",
-          "text": "エリアなんかなー さっきまでスマホ繋がらんかった START au END とかKDDI通信 START 障害 END ないってなってたけど 繋がらんかったんぢ..."
-        },
-        {
-          "time": "11/19 02:15",
-          "text": "職場が電波終わってる() 絶対通信 START 障害 END やろってレベルやのに START au END ッパリが認めない"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -484,8 +487,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/19 04:45",
+          "text": "色々あって（ポイント欲しさ）で START au END からドコモに乗り換えたんですけどこんなに START 繋がらない END んですか？狂う！！"
+        },
         {
           "time": "11/19 03:52",
           "text": "ネットに START 繋がらない END ガラケー INFOBARじゃなくても簡単に用意出来る START au END のKYF3orKYF4から始まる型番の..."
@@ -493,10 +500,6 @@
         {
           "time": "11/19 03:47",
           "text": "そろそろ START 繋がらない END ドコモから乗り換えを検討し始める START au END ?SB?UQ?YM?"
-        },
-        {
-          "time": "11/19 01:57",
-          "text": "START au END 光契約したのに、 START 繋がらない END と思ったら 開通工事されてないって言われたんだけどwwwww は？？？ 俺の１週間返..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -543,8 +546,64 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 12,
     "articles": [
+      {
+        "title": "陸上自衛隊　4人死傷の戦車事故　原因を特定 調査結果を公表(テレビ朝日系（ANN）)",
+        "summary": "陸上自衛隊は、4月に大分県の演習場で訓練中の隊員4人が死傷した戦車の事故の調査結果を公表し、砲身内に残った砲弾の破片の熱によって次の砲弾が破裂したことが原因だと特定しました。【荒井陸上幕僚長】「陸上自",
+        "pub_date": "11/19 14:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/894f61ec75ee2a12e07e55987aecc892d692d1de?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "4人死傷戦車事故　陸上自衛隊が調査結果を公表・原因特定(テレビ朝日系（ANN）)",
+        "summary": "陸上自衛隊は、4月に大分県の演習場で訓練中の隊員4人が死傷した戦車の事故の調査結果を公表し、砲身内に残った砲弾の破片の熱によって次の砲弾が破裂したことが原因だと特定しました。荒井陸上幕僚長「陸上自衛隊",
+        "pub_date": "11/19 14:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/1f68b9a634ef2755b0dd99bc4834f747bc836829?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "住宅の壁に車が衝突　運転の男性が意識不明　北海道(テレビ朝日系（ANN）)",
+        "summary": "北海道恵庭市の住宅の壁に車が衝突し、運転していた男性が意識不明の重体です。 19日午前7時すぎ、恵庭市で「住宅に車が衝突した」とこの家に住む人から消防に通報がありました。 警察によりますと、車は前の部",
+        "pub_date": "11/19 14:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/82422ed963a17af02070bb75e2c1b52bb378cdcc?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "阪急宝塚本線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "蛍池～石橋阪大前駅間で発生した人身事故の影響で、阪急宝塚本線は豊中～宝塚駅間の運転を見合わせていましたが、13:50頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/19 14:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/d726ed355455a748f441540e776172674571cd34?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "高温の砲弾破片が暴発招く、陸自　戦車内へ爆風、4人死傷事故調査(共同通信)",
+        "summary": "大分県の日出生台演習場で4月、戦車の射撃訓練中に砲弾が破裂し、隊員4人が死傷した事故で、陸上自衛隊は19日、直前に撃った砲弾の破片が高温のまま砲身内に残ったことが原因となり、次に撃つ砲弾の暴発を引き起",
+        "pub_date": "11/19 13:52 JST",
+        "link": "https://news.yahoo.co.jp/articles/4aadad3a507189499fd69792b62cfcec13bfad42?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "阪急宝塚線の踏切で人身事故、豊中―宝塚間で運転見合わせ(産経新聞)",
+        "summary": "阪急電鉄によると、19日午後0時15分ごろ、大阪府豊中市の宝塚線蛍池－石橋阪大前間の踏切で人身事故が発生した。この事故の影響で、豊中－宝塚間で運転を見合わせている。",
+        "pub_date": "11/19 13:46 JST",
+        "link": "https://news.yahoo.co.jp/articles/59dc78ac8461c42f7cb92ec9a8da3f39bddb3c48?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "陸自、戦車事故の調査結果公表(共同通信)",
+        "summary": "陸上自衛隊トップの荒井正芳陸上幕僚長は19日、臨時の記者会見を開き、大分県の演習場で4月、4人が死傷した戦車事故の調査結果を公表した。荒井氏は「同種の事故を二度と起こすことがないよう安全確保に万全を期",
+        "pub_date": "11/19 13:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/db394d2ae519c8d7e0406364e7471ec26bef01cc?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "【警報級大雨のおそれ】気象庁の週間天気予報（11月20日〜26日）東日本日本海側で雨や雪の日が多くなりそう…今後の降水シミュレーションも(BSS山陰放送)",
         "summary": "気象庁が11月19日に発表した週間天気予報（11月20日〜26日）によりますと、期間中は北日本や日本海側で曇りや雨、または雪の日が多くなる見込みです。一方、太平洋側では晴れる日が多いものの、週の半ばに",
@@ -570,8 +629,8 @@
         "is_disaster": true
       },
       {
-        "title": "【速報】阪急宝塚線　人身事故の影響で豊中～宝塚駅の間で運転見合わせ 　再開見込みは午後1時半ごろ(読売テレビ)",
-        "summary": "阪急電鉄などによりますと、19日午後0時13分ごろ、宝塚線の蛍池駅に近い『蛍池上り入駅踏切』で大阪梅田駅行きの列車と人が接触する事故がありました。 事故の影響で、宝塚線は豊中駅から宝塚駅の間で運転を見",
+        "title": "【速報】阪急宝塚線　人身事故の影響で豊中～宝塚間で一時運転見合わせ　午後1時50分頃に運転再開(読売テレビ)",
+        "summary": "阪急電鉄などによりますと、19日午後0時13分ごろ、宝塚線の蛍池駅に近い『蛍池上り入駅踏切』で大阪梅田駅行きの列車と人が接触する事故がありました。 事故の影響で、阪急宝塚線は豊中駅から宝塚駅の間で上下",
         "pub_date": "11/19 12:58 JST",
         "link": "https://news.yahoo.co.jp/articles/1465e776abc69ea666a81ef852fb53cb5f58cd21?source=rss",
         "category": "国内・気象防災",
@@ -586,87 +645,31 @@
         "is_disaster": true
       },
       {
-        "title": "阪急宝塚本線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "12:13頃、蛍池～石橋阪大前駅間で発生した人身事故の影響で、阪急宝塚本線は豊中～宝塚駅間の運転を見合わせています。振替輸送を行っています。",
-        "pub_date": "11/19 12:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/e9dce4ee596b5397c1ce32a10b8e2cb0c9adef27?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本で最大震度5弱 一部の建物に被害も(テレビ朝日系（ANN）)",
-        "summary": "19日未明、熊本県で強い地震がありました。震度5弱を観測した津奈木町から報告です。 津奈木町ではこれまでにけがをした人は確認されていませんが、こちらの住宅では2階の屋根瓦が落ちる被害を受けました。 住",
-        "pub_date": "11/19 12:04 JST",
-        "link": "https://news.yahoo.co.jp/articles/a1c337c409935f52438b5d4f44738660177aaa6a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「憧れるのはやめてほしい」アレン様も苦言…病院が人材不足 初期研修⇒美容医療へ「直美」増加で地域医療崩壊の危機？(ABEMA TIMES)",
-        "summary": "医師免許を取得し、2年間の初期臨床研修を終えた直後に、美容医療の分野へ直接就職する、いわゆる「直美（ちょくび）」が増加している。【映像】「美容外科医になりたくて医学部へ入った」総額5000万円使った“",
-        "pub_date": "11/19 13:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/4a0288fc4d5d17d163decf960d28277e775a151d?source=rss",
+        "title": "学習管理システム「Schoo Swing」に不正アクセス 教員ら86名分の情報漏えい 原因はサービスの一部の機能の脆弱性(ABEMA TIMES)",
+        "summary": "株式会社Schooが、「Schoo Swing」への不正アクセスに関するお詫びとお知らせについて発表しました。【映像】学習管理システムに不正アクセス 教員らの情報漏えい「当社が提供するデータ活用型LM",
+        "pub_date": "11/19 14:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/3f4e510c3ebcc21c3e5a36afe6ffa94a7dfba636?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "玉木雄一郎氏、政府広報の陰謀論系YouTuber起用に「失策」　矢追純一氏ら引き合いに(J-CASTニュース)",
-        "summary": "国民民主党の玉木雄一郎代表が2026年11月18日、政府が安全保障に関する広報に、陰謀論や都市伝説を扱ってきたYouTuberを起用したことをXで批判した。玉木氏は、陰謀論やオカルトそのものを否定する",
-        "pub_date": "11/19 13:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/2e294fedfd82db6bd02ffcd371cc454254dc0ab8?source=rss",
+        "title": "橋下徹氏、高市首相の「冷遇」に持論　「タラップを降りずに帰国すればいい」(J-CASTニュース)",
+        "summary": "前大阪府知事で弁護士の橋下徹氏が2026年11月18日にXを更新し、高市早苗首相の外交について持論を展開。中国から「冷遇」されたことに対し、「情けない姿を世界に発信された」と批判した。【画像】トランプ",
+        "pub_date": "11/19 14:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/ac4a6602b057c6889101c1edf8d1cc0cdea25a6e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "《セーラー服姿の“神推し”に再会し…》困窮しながら清武一則容疑者が続けた“金持ちアピール”、「50万程度は客じゃないらしい腹たつ」と恨み節も【中野コンカフェ嬢刺殺】(NEWSポストセブン)",
-        "summary": "東京・中野区の路上で青木七海さん（24）が首を包丁で刺されて死亡した事件で、徐々に犯行の詳しい経緯がわかってきた。警視庁は11月18日、強盗殺人未遂の疑いで逮捕した知人の清武一則容疑者（39）を送検す",
-        "pub_date": "11/19 13:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/be954556052f9416f9100c37314f8a8047cba5f8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "死は増えているのに、それを引き受ける人たちの負担はまだ見えていない(Meiji.net)",
-        "summary": "早川 佐知子（明治大学 経営学部 准教授）2024年の日本の死亡者数は160万5378人で、調査開始以来最多となりました。今後も死亡者数は増加すると見込まれており、2040年ごろには年間167万人に達",
-        "pub_date": "11/19 13:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/c2494b178c2e8aebe4bf4a528d3bec55c93d61af?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "議席を減らした野党は国会でどう戦う？民主改革の会・後藤祐一国対委員長が語る勝ち筋とは(選挙ドットコム)",
-        "summary": "2026年11月6日公開の「選挙ドットコムちゃんねる」では、民主改革の会の国会対策委員長を務める後藤祐一衆院議員に、朝日新聞・DEEPPOLITICS編集長の林尚行記者が話を伺います。後藤氏は、不祥事",
-        "pub_date": "11/19 13:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/4fb9161ed1714e8feeac15880764c68aa6ac6d21?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "近畿　22日にかけて最高気温12℃前後で12月頃の寒さ　標高の高い所は積雪に注意(日本気象協会tenki.jp)",
-        "summary": "寒気の流れ込みが強まる影響で、近畿では22日(日)頃にかけて12月並み(師走並み)の寒さとなる所が多い見込みです。また、標高の高い所を中心に雪が降り、積雪となるおそれがあります。服装や車のタイヤなど、",
-        "pub_date": "11/19 13:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/0fe8bfb981dbd14424c72b512ace00176c6e286f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "中国・深圳に到着の高市首相　タラップの段差に中山泰秀氏「説明を求めるべき」(J-CASTニュース)",
-        "summary": "防衛副大臣や外務副大臣を歴任した自民党の中山泰秀衆院議員が2026年11月19日、中国・深圳で開かれるアジア太平洋経済協力会議（APEC）首脳会議に出席するため現地入りした高市早苗首相の到着時の様子を",
-        "pub_date": "11/19 13:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/cb35c8f6b35334094c79fda4ec818fccebec3402?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "日中改善「一朝一夕にいかない」　自民小林政調会長(共同通信)",
-        "summary": "自民党の小林鷹之政調会長は19日の記者会見で、中国を訪問した高市早苗首相への中国側の対応を踏まえ、両国の関係改善は難航する可能性があるとの認識を示した。「一朝一夕にどうなるか、というものではないかもし",
-        "pub_date": "11/19 12:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/1ebc3bbedb1bbf8c9586ca552188d533fe1ea71b?source=rss",
+        "title": "2027年、生き残るための8つの「職場スキル」　AIを使いこなすだけでは不十分な理由(Forbes JAPAN)",
+        "summary": "2027年に一歩先を行くためには、AIの使い方を知っているだけでは不十分になる。ツールが一般化するにつれ、優位性は、AIが誤っていると見抜き、的確な判断を下し、プロンプトでは補えない専門性を発揮できる",
+        "pub_date": "11/19 14:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/2d6d3e79ffa2387176c7c99a560d33f68c2eb7db?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 13:39:38 JST"
+    "last_updated": "2026-11-19 14:38:40 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -687,10 +690,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "V6vHPctaK_E",
+        "video_id": "vQI9futV1b4",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/V6vHPctaK_E?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=V6vHPctaK_E"
+        "embed_url": "https://www.youtube.com/embed/vQI9futV1b4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=vQI9futV1b4"
       },
       {
         "id": "stream_tbsnews",
@@ -698,10 +701,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "xzwMJvk9dGo",
+        "video_id": "W7CdSSJQIs8",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/xzwMJvk9dGo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=xzwMJvk9dGo"
+        "embed_url": "https://www.youtube.com/embed/W7CdSSJQIs8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=W7CdSSJQIs8"
       },
       {
         "id": "stream_ntvnews",
@@ -709,10 +712,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "73na7Ut7TAU",
+        "video_id": "LNn6ExA3I1c",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/73na7Ut7TAU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=73na7Ut7TAU"
+        "embed_url": "https://www.youtube.com/embed/LNn6ExA3I1c?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=LNn6ExA3I1c"
       },
       {
         "id": "stream_annnews",
@@ -720,10 +723,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "qVzBuFMrW7U",
+        "video_id": "6gAs3s6cysk",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/qVzBuFMrW7U?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=qVzBuFMrW7U"
+        "embed_url": "https://www.youtube.com/embed/6gAs3s6cysk?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=6gAs3s6cysk"
       },
       {
         "id": "stream_fnnnews",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 11:44:00",
+  "timestamp": "2026-11-19 12:42:10",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -91,11 +91,39 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-19 20:30",
+    "time": "2026-11-19 21:29",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.8",
+    "magnitude": "2.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-19 21:29",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.5",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-19 21:18",
+        "place": "山梨県東部・富士五湖",
+        "shindo": "1",
+        "magnitude": "2.2",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-19 20:58",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.5",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-19 20:41",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "2",
+        "magnitude": "3.3",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-19 20:30",
         "place": "熊本県天草・芦北地方",
@@ -137,34 +165,6 @@
         "shindo": "1",
         "magnitude": "2.6",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 16:53",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.5",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 14:42",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.9",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 14:33",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "2.6",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-19 12:06",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "3.2",
-        "maxScale": 20
       }
     ]
   },
@@ -194,11 +194,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/27/"
       },
       {
@@ -209,11 +209,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -224,11 +224,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -239,10 +239,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、強風注意報",
+        "summary": "強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/25/"
       },
       {
@@ -266,11 +266,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "雷注意報",
-          "波浪注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       }
     ]
@@ -284,15 +284,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（新幹線: 山陽新幹線（その他））",
+    "text": "運行支障あり（新幹線: 山陽新幹線（列車遅延））",
     "line_status": "NORMAL",
     "line_text": "全線平常運行中",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [],
     "troubled_shinkansen": [
-      "山陽新幹線（その他）"
+      "山陽新幹線（列車遅延）"
     ],
     "shinkansen_details": [
       {
@@ -305,8 +305,8 @@
       {
         "name": "山陽新幹線",
         "status": "ALERT",
-        "state": "その他",
-        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月19日 5時0分掲載）",
+        "state": "列車遅延",
+        "detail": "博多駅での接続待ちの影響で、上り線(新大阪方面行)の一部列車に遅れが出ています。（11月19日 20時55分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       }
     ],
@@ -365,8 +365,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/19 11:56",
+          "text": "START au END 回線なんだけど。午後に通信 START 障害 END あったよね？ 待ち合わせで相手の「どこかわからん地図送って」メールの初めだけ読め..."
+        },
         {
           "time": "11/19 10:02",
           "text": "mineo マイネオ 新規契約 友達紹介 もしもの通信 START 障害 END に備えて選べるdocomo/ START au END /softbank回線..."
@@ -374,10 +378,6 @@
         {
           "time": "11/19 09:04",
           "text": "@docomo 大規模通信 START 障害 END が月に3回と個人情報流出したのに12/1から値上げする内容のSMSが着てビックリだわ。 どういう神経してる..."
-        },
-        {
-          "time": "11/19 09:00",
-          "text": "普通のポストはラフにしていきますね！ ちなみに直近ドコモの情報漏洩と5GSA START 障害 END はなんだったんだろうか…🧐 START au END と..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -411,19 +411,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/19 11:19",
-          "text": "( ｽﾏﾎで突っ走って来た START au END 。今から\"ダムフォン\"というｹｲﾀｲとは、何を考えているのだろう。ｽﾏﾎ人口が上限に達し飽和して来たという..."
+          "time": "11/19 12:24",
+          "text": "中国へ旅行する時にネット START 繋がらない END とか料金高い云々をよく耳にするんやけど、 START au END やUQやったら START au ..."
         },
         {
-          "time": "11/19 11:01",
-          "text": "ドコモ「つなごう。驚きを。幸せを。」 START au END 「おもしろいほうの未来へ。」 infobar復活でスローガンに恥じない評判の START au ..."
+          "time": "11/19 12:17",
+          "text": "やば LINEから会員ログインしたら大変なことになっとる どーしよ、、 START Au END 2万きりそうなんだが？ みんな売ってるのか？ だからネット S..."
         },
         {
-          "time": "11/19 09:25",
-          "text": "@evolve_develop そうだったんですね😱キャンプするのでちょと START 繋がらない END のは困るから悩んでました😳 調べたら START a..."
+          "time": "11/19 11:46",
+          "text": "@ry____osa7 うん笑電波悪い笑 人が増えてくると繋がらなくなってくる笑 私 START au END なんだけどそれでも会場の中とか START 繋が..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -434,7 +434,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/19 11:30",
@@ -472,8 +472,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "直径10cm程の穴が…公園の多目的トイレで石が投げられ便器が破損 被害額は約55万円で警察が器物損壊容疑で捜査(東海テレビ)",
+        "summary": "愛知県豊田市の公園の多目的トイレで、石が投げられ便器が破損する被害があり、警察が器物損壊容疑で捜査しています。 豊田市によりますと、18日午後4時ごろ、住吉町の厳島公園で多目的トイレを利用しようとした",
+        "pub_date": "11/19 21:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/0daaef47f4666bedd77f5399b5b2576dcc33eb69?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【暴風・高波情報】20〜21日にかけて北日本や北陸で暴風・大しけに警戒...北海道・北陸では最大瞬間風速35m予想...土砂災害や積雪にも注意【気象庁19日17時11分発表】(RSK山陽放送)",
+        "summary": "■暴風・高波に警戒気象庁によりますと北海道地方と北陸地方では20日にかけて、暴風に警戒してください。近畿地方では20日は、北陸地方では21日にかけて、高波に警戒してください。【画像で見る】24日（火）",
+        "pub_date": "11/19 21:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/7ff6c430fead7ac5a6eb083a35e713158ecf224a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "「一番大事なのはハート」距離感無視の“告白ハラスメント”原因は男性の恋愛カルチャー？桃山商事・清田隆之氏が解説「告ハラされた相手は事故にあったみたいな感覚に」(ABEMA TIMES)",
         "summary": "近年SNSなどで話題になる「メロい」という言葉。11月17日放送のニュース番組『わたしとニュース』では、「メロい」という言葉の定義や背景について特集した。【映像】一途なだけだと怖い？距離感無視の“告ハ",
@@ -523,79 +539,63 @@
         "is_disaster": true
       },
       {
-        "title": "3連休に「150センチの積雪」になるエリアは？ 「雪の線状降水帯」JPCZ発生へ…気象予報士が呼びかける備えとは(ABEMA TIMES)",
-        "summary": "19日、気象予報士の竹内青空氏が、週末の3連休にかけて日本海側を中心に襲来する強い寒波について解説した。いわゆる「雪の線状降水帯」とも呼ばれるJPCZの影響で、山沿いでは150センチ以上の大雪となる恐",
-        "pub_date": "11/19 19:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/c385f9fd5aa26b09bc4420f2c34ceb92bec4dc67?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "陸自 4人死傷戦車事故で調査結果公表(ABEMA TIMES)",
-        "summary": "陸上自衛隊は、4月に大分県の演習場で訓練中の隊員4人が死傷した戦車の事故の調査結果を公表し、砲身内に残った砲弾の破片の熱によって、次の砲弾が破裂したことが原因だと特定しました。【映像】陸自戦車の訓練中",
-        "pub_date": "11/19 19:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/355c95bec041bcd4e95249503f4d13a527e49a6e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "同僚の警察官6人も同席…50代巡査部長が4時間半飲酒した後に車を運転し縁石に衝突か 書類送検され懲戒免職(東海テレビ)",
-        "summary": "ビールや焼酎、ワインなどを飲んだあと車で事故を起こした岐阜県警の巡査部長が19日、懲戒免職処分を受けました。 岐阜県警によりますと、県内の署に所属する50代の巡査部長は先月17日夜、下呂市で開かれた懇",
-        "pub_date": "11/19 19:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/99c73f0d7c145a0acae1712fca0bd000421396f7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「バッグの中を確認」供述　中野、女性刺殺の容疑者(共同通信)",
-        "summary": "東京都中野区の路上で女性が刺され死亡した事件で、逮捕された職業不詳清武一則容疑者（39）が女性のバッグを持ち去った後に、男がいるかどうか「確かめるために中身を見た」という趣旨の供述をしていることが19",
-        "pub_date": "11/19 20:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/093bc9b4a9a27c0a35eef14b5a05fbcd69f0b25a?source=rss",
+        "title": "東京、IR申請しない方針　来年追加期間、調査は継続(共同通信)",
+        "summary": "来年に予定されているカジノを含む統合型リゾート施設（IR）の整備地域の国への追加申請を巡り、東京都は19日、申請しない方針を明らかにした。2027年度予算に必要な経費を盛り込まない見通し。一方で誘致の",
+        "pub_date": "11/19 21:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/88773a5b2bc90b404d68832061eb37ee2d3db753?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "身近な社食で復興応援　TOTOが三陸・常磐もの消費拡大へマルシェ(産経新聞)",
-        "summary": "TOTOは19日、東日本大震災の被災地である三陸・常磐地域の復興を応援しようと、東京汐留事業所（東京都港区）の社員食堂FLATO（フラット）で、「三陸・常磐もの」の水産物などを使ったメニューを提供し特",
-        "pub_date": "11/19 20:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/0c4d8c83c45d76ff22a8e85cb9e88c33a663a3c3?source=rss",
+        "title": "東京・町田の貴金属店でネックレス奪われる　店員2人が目の痛み訴え　強盗傷害容疑で捜査(産経新聞)",
+        "summary": "19日午後4時10分ごろ、東京都町田市の貴金属店で、「強盗です」と警備会社から110番通報があった。警視庁町田署によると、男が店員にスプレーのようなものを噴射し、ネックレス1本を奪って逃走した。50～",
+        "pub_date": "11/19 21:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/3a9bab555bb948909c89775cd7a841f95aca3ff1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "相次ぐサイバー攻撃受け都が臨時委員会　小池知事「開発段階からセキュリティ重視を」(テレビ朝日系（ANN）)",
-        "summary": "相次ぐサイバー攻撃を受けて東京都は臨時の委員会を開き、サイバー攻撃の対策について確認しました。 19日に開かれた臨時のサイバーセキュリティ委員会には、各局の局長らが出席し、都が保有する全庁のシステムサ",
-        "pub_date": "11/19 20:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/29fd622c03f7fdca5ac93559f9b22c535e66283a?source=rss",
+        "title": "高市首相が帰国(共同通信)",
+        "summary": "高市早苗首相は19日、フィリピン、中国訪問を終え、政府専用機で羽田空港に到着した。",
+        "pub_date": "11/19 21:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/2d7b92ca822cda3e65d79938bc2d1e5f7c5fdeb0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "相次ぐサイバー攻撃受け都が臨時の委員会　小池知事「開発段階からセキュリティ重視を」(テレビ朝日系（ANN）)",
-        "summary": "相次ぐサイバー攻撃を受け、東京都は臨時の委員会を開きサイバー攻撃の対策について確認しました。19日に開かれた臨時のサイバーセキュリティ委員会には、各局の局長らが出席し、都が保有する全庁のシステムサービ",
-        "pub_date": "11/19 20:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/3ebfaba8c45578cd50a0eac55d756565b23adbfe?source=rss",
+        "title": "東京都、来年のIR追加申請せず(共同通信)",
+        "summary": "来年に予定されているカジノを含む統合型リゾート施設（IR）の整備地域の国への追加申請を巡り、東京都は19日、申請しない方針を明らかにした。誘致の完全な断念ではないとし、来年度予算に調査費は計上するとし",
+        "pub_date": "11/19 21:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/4e2202cf17ebed19f6cc1f7677b80b42891d062b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "米軍オスプレイが沖縄の石垣空港に緊急着陸(共同通信)",
-        "summary": "沖縄県石垣市の石垣空港管理事務所によると、19日午後6時50分ごろ、米軍のオスプレイ1機が同空港に緊急着陸した。けが人は確認されていないという。",
-        "pub_date": "11/19 20:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/778dead4ff65660ee1592008a0b571d31bc81494?source=rss",
+        "title": "35歳が辿り着いた“逆転の人生観”→「何の意味があるの？」なんて愚の骨頂？「心と生活に余裕がないと出来ない」「のちのち意外なところで生きてくる」と共感の嵐(ABEMA TIMES)",
+        "summary": "受験やキャリアなど“意味がある”と思ったことを追い求めてきた投稿者。30歳を過ぎたときのある経験をきっかけに辿り着いた“逆転の人生観”に、SNSでは「心と生活に余裕がないと出来ない」「のちのち意外なと",
+        "pub_date": "11/19 21:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/80893edf81d25b0ff5333ac14de0e6c54a604c31?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【Yahoo!ニュース 世論調査】2026年11月18日の内閣や政党の支持率に関する調査結果(Yahoo!ニュース 世論調査)",
-        "summary": "Yahoo!ニュースは2026年11月18日、全国の18歳以上のYahoo! JAPAN IDを持つユーザーにインターネットで世論調査を実施し、Yahoo!クラウドソーシングを利用して1000人の回答",
-        "pub_date": "11/19 20:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/6b63fe121918342d4f11ac784764ba0c22a984de?source=rss",
+        "title": "立民、公明で献金規制法案提出へ　参院、国民との協議不調(共同通信)",
+        "summary": "立憲民主、公明両党は、企業・団体献金の規制を強化する政治資金規正法改正案を近く参院へ共同提出する調整に入った。公明は、先の特別国会で同様の改正案を参院に提出した国民民主党と調整を進めたものの協議が不調",
+        "pub_date": "11/19 21:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/506456a47899f6ddf23a44550c902d5f4963c323?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "高市総理の訪中「現地メディアは“ほぼ報じず”」　握手だけでは埋まらない日中の距離感　米中露首脳会談は“並び順に差はない”とされる“円卓”「3人が議論に集中したら誰も止められない」【APEC現地報告】(FNNプライムオンライン)",
+        "summary": "18日から中国・深センで開かれているAPEC首脳会議。19日は史上初となる米中露首脳会談が行われる予定だ。一方、日本の高市総理はプーチン大統領、そして習近平国家主席と接触したが、難しい立場にも立たされ",
+        "pub_date": "11/19 21:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/8a7b5770396d23bfd97a6930e794e19fa506cc50?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 20:43:27 JST"
+    "last_updated": "2026-11-19 21:41:36 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -627,10 +627,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "QMB0qahjcOI",
+        "video_id": "cK_aKbDPALU",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/QMB0qahjcOI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=QMB0qahjcOI"
+        "embed_url": "https://www.youtube.com/embed/cK_aKbDPALU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=cK_aKbDPALU"
       },
       {
         "id": "stream_ntvnews",
@@ -649,10 +649,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "VkQe6ahuMFY",
+        "video_id": "f4Nz59C9n-A",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/VkQe6ahuMFY?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=VkQe6ahuMFY"
+        "embed_url": "https://www.youtube.com/embed/f4Nz59C9n-A?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=f4Nz59C9n-A"
       },
       {
         "id": "stream_fnnnews",
@@ -660,10 +660,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "tBSVxgbXF_A",
+        "video_id": "4pl_lslHA7U",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/tBSVxgbXF_A?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=tBSVxgbXF_A"
+        "embed_url": "https://www.youtube.com/embed/4pl_lslHA7U?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=4pl_lslHA7U"
       }
     ],
     "cameras": [

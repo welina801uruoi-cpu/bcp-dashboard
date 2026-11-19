@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 19:42:36",
+  "timestamp": "2026-11-19 20:32:35",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -84,11 +84,25 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-20 04:10",
+    "time": "2026-11-20 05:02",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.5",
+    "magnitude": "2.7",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-20 05:02",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.7",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-20 04:42",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.5",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-20 04:10",
         "place": "熊本県天草・芦北地方",
@@ -144,20 +158,6 @@
         "shindo": "1",
         "magnitude": "2.8",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 20:08",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.7",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 18:12",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.3",
-        "maxScale": 10
       }
     ]
   },
@@ -189,12 +189,12 @@
           "波浪警報"
         ],
         "notices": [
-          "雷注意報",
-          "強風注意報",
           "波浪注意報",
-          "大雨注意報"
+          "大雨注意報",
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "波浪警報、雷注意報、強風注意報、波浪注意報、大雨注意報",
+        "summary": "波浪警報、波浪注意報、大雨注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -205,12 +205,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "大雪注意報",
+          "強風注意報",
           "雷注意報",
-          "着雪注意報",
-          "強風注意報"
+          "大雪注意報",
+          "着雪注意報"
         ],
-        "summary": "大雪注意報、雷注意報、着雪注意報、強風注意報",
+        "summary": "強風注意報、雷注意報、大雪注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -248,10 +248,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、乾燥注意報",
+        "summary": "乾燥注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -312,7 +312,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野で停電情報を検知",
+    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】新潟・長野で停電情報を検知",
     "water_msg": "名古屋市上下水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東邦ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -443,16 +443,16 @@
     "status": "NORMAL",
     "office": "名古屋地方気象台",
     "target_area": "愛知県",
-    "report_time": "11/19 16:48",
+    "report_time": "11/20 04:48",
     "headline": "",
-    "text": "　東海地方は、冬型の気圧配置となっています。\n\n　東海地方は、晴れまたは曇りで、岐阜県では雨や雪の降っている所があります。\n\n　１９日の東海地方は、冬型の気圧配置となるためおおむね晴れますが、寒気や気圧の谷の影響で雲が広がりやすく、岐阜県では雷を伴って雨や雪の降る所があるでしょう。\n\n　２０日の東海地方は、引き続き冬型の気圧配置となるためおおむね晴れますが、寒気や気圧の谷の影響で雲が広がりやすく、雨の降る所がある見込みです。岐阜県では、雷を伴って雪や雨の降る所があるでしょう。",
+    "text": "　東海地方は、冬型の気圧配置となっており、寒気や気圧の谷の影響を受けています。\n\n　東海地方は、曇りまたは晴れで、雨や雪の降っている所があります。\n\n　２０日の東海地方は、冬型の気圧配置となるためおおむね晴れますが、寒気や気圧の谷の影響で雲が広がりやすく、雨の降る所があるでしょう。岐阜県では雪や雨となり、雷を伴う所がある見込みです。\n\n　２１日の東海地方は、引き続き冬型の気圧配置となるためおおむね晴れますが、寒気や気圧の谷の影響で雲が広がりやすいでしょう。岐阜県では、雪や雨となり、雷を伴う所がある見込みです。",
     "paragraphs": [
-      "東海地方は、冬型の気圧配置となっています。",
-      "東海地方は、晴れまたは曇りで、岐阜県では雨や雪の降っている所があります。",
-      "１９日の東海地方は、冬型の気圧配置となるためおおむね晴れますが、寒気や気圧の谷の影響で雲が広がりやすく、岐阜県では雷を伴って雨や雪の降る所があるでしょう。",
-      "２０日の東海地方は、引き続き冬型の気圧配置となるためおおむね晴れますが、寒気や気圧の谷の影響で雲が広がりやすく、雨の降る所がある見込みです。岐阜県では、雷を伴って雪や雨の降る所があるでしょう。"
+      "東海地方は、冬型の気圧配置となっており、寒気や気圧の谷の影響を受けています。",
+      "東海地方は、曇りまたは晴れで、雨や雪の降っている所があります。",
+      "２０日の東海地方は、冬型の気圧配置となるためおおむね晴れますが、寒気や気圧の谷の影響で雲が広がりやすく、雨の降る所があるでしょう。岐阜県では雪や雨となり、雷を伴う所がある見込みです。",
+      "２１日の東海地方は、引き続き冬型の気圧配置となるためおおむね晴れますが、寒気や気圧の谷の影響で雲が広がりやすいでしょう。岐阜県では、雪や雨となり、雷を伴う所がある見込みです。"
     ],
-    "summary": "東海地方は、冬型の気圧配置となっています。...",
+    "summary": "東海地方は、冬型の気圧配置となっており、寒気や気圧の谷の影響を受けています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=230000"
   },
   "disaster_news": {
@@ -532,6 +532,14 @@
         "is_disaster": true
       },
       {
+        "title": "一粒でシャリッ、ふわふわ「キラふわグミ」が人気　星形、食感競争に新提案【経済トレンド／ヒットのヒント】(共同通信)",
+        "summary": "ノーベル製菓（大阪市）が2024年9月に発売した「キラふわグミ」が人気だ。商品企画を担当した高見綾（たかみ・あや）さんにヒットのヒントを聞いた。（共同通信＝出井隆裕記者） 星形の外観で外側はシャリッ、",
+        "pub_date": "11/20 05:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/32317d5a1caf379e0be3c5bf89b59e2567480f13?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "海鳥にも「時差ぼけ」？　長距離移動で方向にずれ(共同通信)",
         "summary": "海鳥が東西方向に長距離移動すると、人間の時差ぼけのように体内時計と現地時間に誤差が生じ、飛行方向にずれが発生するとの研究を、英オックスフォード大などの国際研究チームが20日までに米科学誌サイエンスに発",
         "pub_date": "11/20 03:26 JST",
@@ -570,17 +578,9 @@
         "link": "https://news.yahoo.co.jp/articles/77d2296060123ecb6399503b51a4b6779fe7bad7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "「TOKYO DREAM PARK」来場者 200万人突破(ABEMA TIMES)",
-        "summary": "「TOKYO DREAM PARK」の来場者が、200万人を超えました。 今年3月に、東京・有明にオープンした複合型エンターテインメント施設「TOKYO DREAM PARK」は、開業から238日目と",
-        "pub_date": "11/20 00:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/c766868290d18639d32e5cbfbf53656c69a35ec2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-20 04:41:50 JST"
+    "last_updated": "2026-11-20 05:31:47 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -612,10 +612,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "cK_aKbDPALU",
+        "video_id": "Q58845BIa8U",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/cK_aKbDPALU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=cK_aKbDPALU"
+        "embed_url": "https://www.youtube.com/embed/Q58845BIa8U?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Q58845BIa8U"
       },
       {
         "id": "stream_ntvnews",
@@ -623,10 +623,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "hVGc7DOXxi4",
+        "video_id": "C2Hid9C5ZnU",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/hVGc7DOXxi4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=hVGc7DOXxi4"
+        "embed_url": "https://www.youtube.com/embed/C2Hid9C5ZnU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=C2Hid9C5ZnU"
       },
       {
         "id": "stream_annnews",
@@ -634,10 +634,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "f4Nz59C9n-A",
+        "video_id": "-M7RaEI2f0c",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/f4Nz59C9n-A?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=f4Nz59C9n-A"
+        "embed_url": "https://www.youtube.com/embed/-M7RaEI2f0c?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=-M7RaEI2f0c"
       },
       {
         "id": "stream_fnnnews",

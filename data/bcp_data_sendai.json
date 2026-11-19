@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 13:56:58",
+  "timestamp": "2026-11-19 14:41:44",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -180,11 +180,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "風雪注意報",
+          "波浪注意報",
           "雷注意報",
-          "波浪注意報"
+          "風雪注意報"
         ],
-        "summary": "風雪注意報、雷注意報、波浪注意報",
+        "summary": "波浪注意報、雷注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -195,10 +195,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "大雪注意報",
-          "着雪注意報"
+          "着雪注意報",
+          "大雪注意報"
         ],
-        "summary": "大雪注意報、着雪注意報",
+        "summary": "着雪注意報、大雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -209,11 +209,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "風雪注意報",
+          "波浪注意報",
           "雷注意報",
-          "波浪注意報"
+          "風雪注意報"
         ],
-        "summary": "風雪注意報、雷注意報、波浪注意報",
+        "summary": "波浪注意報、雷注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
@@ -224,10 +224,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -238,11 +238,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -253,10 +253,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       }
     ]
@@ -270,14 +270,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 磐越西線、羽越本線、北上線）",
+    "text": "運行支障あり（在来線: 羽越本線、北上線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（磐越西線、羽越本線、北上線）",
+    "line_text": "運行支障あり（羽越本線、北上線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/3",
     "troubled_lines": [
-      "磐越西線",
       "羽越本線",
       "北上線"
     ],
@@ -367,7 +366,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/19 13:04",
@@ -413,8 +412,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/19 14:36",
+          "text": "この時間だと START au END の方も START 繋がらない END しもうやだ Amazonのカスタマーセンターのやつもたどり着けないしもうヤダ 助..."
+        },
         {
           "time": "11/19 13:29",
           "text": "新しいあの START au END のやつ、やっぱり可愛いなあ！学生の頃憧れてたし、欲しかったし…でもネットが START 繋がらない END のがなあ〜"
@@ -422,10 +425,6 @@
         {
           "time": "11/19 13:17",
           "text": "@ichienkatsuhiko START AU END で広島-博多間ならX位なら見れます。(新幹線wifiはすぐ切れて使いものにならないので使いません) ..."
-        },
-        {
-          "time": "11/19 12:24",
-          "text": "中国へ旅行する時にネット START 繋がらない END とか料金高い云々をよく耳にするんやけど、 START au END やUQやったら START au ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -475,8 +474,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 11,
     "articles": [
+      {
+        "title": "JR京都線で人身事故 運転見合わせ(レスキューナウニュース)",
+        "summary": "23:16頃、茨木駅で発生した人身事故の影響で、JR京都線は運転を見合わせています。",
+        "pub_date": "11/19 23:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/cc718bbf076c81c9806ccda4456e26a4324d0ea0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "豚舎の一部が焼け子豚約100頭が被害　茨城・鉾田市(テレビ朝日系（ANN）)",
+        "summary": "茨城県鉾田市で豚舎の一部が焼ける火事があり、飼育されていた子豚およそ100頭が被害に遭いました。 19日午後6時40分ごろ、鉾田市の平屋建ての豚舎から、「小屋が燃えている」と近所の男性から119番通報",
+        "pub_date": "11/19 23:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/0e34f5857647a3fb72b54a4e7b72c68a0ea3177b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "【警報級大雨のおそれ】気象庁の週間天気予報（20⽇〜26⽇）東⽇本の⽇本海側では「警報級の大雨」の可能性...上空寒気の影響で⼤気の状態が不安定に【19日発表】　24日（火）にかけての雨と風のシミュレーション(RSK山陽放送)",
         "summary": "■22日ごろにかけて「警報級大雨のおそれ」気象庁がきょう（19日）発表した11⽉20⽇〜26⽇にかけての週間天気予報によりますと、北⽇本と、東⽇本から⻄⽇本にかけての⽇本海側は、曇りや⾬または雪の降る",
@@ -550,55 +565,39 @@
         "is_disaster": true
       },
       {
-        "title": "警察官かたる特殊詐欺の被害金を資金洗浄　ベトナム人の男4人逮捕　10億円以上洗浄関与か(産経新聞)",
-        "summary": "特殊詐欺の被害金をマネーロンダリング（資金洗浄）したなどとして、警視庁特別捜査課は、詐欺などの疑いで、埼玉県蕨市中央の専門学校生、ファム・アイン・トゥアン容疑者（21）らベトナム国籍の男計4人を逮捕し",
-        "pub_date": "11/19 19:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/203e18485cd50e3dce7d0e7f4531b23671a2611c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "日米首脳が電話会談　対中ロ政策擦り合わせか(共同通信)",
-        "summary": "高市早苗首相は19日夜、トランプ米大統領と電話会談した。日本政府関係者が明らかにした。米国、中国、ロシア3カ国首脳会談の結果などについて説明を受け、対中ロ政策の認識を擦り合わせるとみられる。 首相は1",
-        "pub_date": "11/19 22:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/2d4624f3de59a7a119d79736918531c63ad86f91?source=rss",
+        "title": "東京との税の格差是正を　埼玉、千葉、神奈川3県が要望(テレビ朝日系（ANN）)",
+        "summary": "埼玉、千葉、神奈川の3つの県は、東京都との間で拡大している税収の格差を和らげる措置を確実に講じるよう藤井総務大臣に要望しました。大野埼玉県知事「保育士がいないとか、あるいは教育等での格差が生まれるとか",
+        "pub_date": "11/19 23:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/bc78a2e8e98110b0a1a25d1ce018ede2a556f2d5?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【速報】高市総理が帰国　日米首脳電話会談始まる(テレビ朝日系（ANN）)",
-        "summary": "高市総理大臣は一連の外交日程を終えて帰国し、総理公邸でアメリカのトランプ大統領との電話会談を始めました。 高市総理はフィリピンのマニラと中国・深圳で行われた一連の外交日程を終え、19日午後9時半すぎに",
-        "pub_date": "11/19 22:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/4d5ccc33aad10c9b53e6e64f2ae2f66d54c23258?source=rss",
+        "title": "関係国と協力し法の支配強化すると首相(共同通信)",
+        "summary": "高市首相は、国際刑事裁判所（ICC）を巡り「関係国と協力しながら、法の支配を強化していく。日本の立場は、私からトランプ氏に伝えており、トランプ氏もお分かりだと思う」と記者団に述べた。",
+        "pub_date": "11/19 23:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/cfa81122acfdc3ec52af52a9280b49c78edc2478?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "日米首脳が電話会談(共同通信)",
-        "summary": "高市早苗首相は19日夜、トランプ米大統領と電話会談した。日本政府関係者が明らかにした。米国、中国、ロシア3カ国首脳会談の結果などについて説明を受けるとみられる。",
-        "pub_date": "11/19 22:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/1dcfa213fe5056c94415f61643a6151e1379685c?source=rss",
+        "title": "米中、米中ロ会談の説明あったと首相(共同通信)",
+        "summary": "高市首相はトランプ米大統領との電話会談で、米中、米中ロ首脳会談について詳細に説明があったと述べた。会談後、記者団に明らかにした。",
+        "pub_date": "11/19 23:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/8b976d94ebabe9158e2bb50097019c4a3143f9d7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "合意草案、電化目標を維持　COP31、脱化石言及なし(共同通信)",
-        "summary": "【アンタルヤ共同】国連気候変動枠組み条約第31回締約国会議（COP31）議長国トルコと交渉議長のオーストラリアは19日、成果文書の新たな草案を公表した。トルコが提案する電化割合を2035年までに世界で",
-        "pub_date": "11/19 22:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/98b5fa523955ce835efa55c64ef6032182a7f29b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【強い冬型の気圧配置】20日から師走並みの寒さ　伊吹山・比良山で初冠雪か　山道は積雪・凍結に注意(読売テレビ)",
-        "summary": "近畿地方は、強い冬型の気圧配置の影響で、20日金曜日から週末の3連休にかけて師走並みの寒さとなりそうです。山沿いでは雪となり、伊吹山や比良山では初冠雪となる可能性もあります。 近畿北部や紀伊山地の山道",
-        "pub_date": "11/19 22:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/a59851e1f79e7cd824c61ef8e35c047da506c1d9?source=rss",
+        "title": "首都圏3県知事　小池知事を猛批判「税収の偏在是正、絶対譲れない」(西日本新聞me)",
+        "summary": "埼玉、千葉、神奈川の首都圏3県の知事が19日、木原稔官房長官と藤井比早之総務相のそれぞれと面会し、東京と地方の税収格差問題について具体的な是正の取り組みを講ずるように要望した。3県知事は記者団の取材に",
+        "pub_date": "11/19 22:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/2debf0d90f451d0bb1d27f485bae998e9ef670a3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 22:56:56 JST"
+    "last_updated": "2026-11-19 23:41:41 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -619,10 +618,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "YIzKIvVAwA0",
+        "video_id": "Y0R951O2_28",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/YIzKIvVAwA0?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=YIzKIvVAwA0"
+        "embed_url": "https://www.youtube.com/embed/Y0R951O2_28?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Y0R951O2_28"
       },
       {
         "id": "stream_tbsnews",
@@ -630,10 +629,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "cK_aKbDPALU",
+        "video_id": "UffftjudTTA",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/cK_aKbDPALU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=cK_aKbDPALU"
+        "embed_url": "https://www.youtube.com/embed/UffftjudTTA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=UffftjudTTA"
       },
       {
         "id": "stream_ntvnews",
@@ -641,10 +640,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "P0fD9tDtWw4",
+        "video_id": "ezMN0F3hsqs",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/P0fD9tDtWw4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=P0fD9tDtWw4"
+        "embed_url": "https://www.youtube.com/embed/ezMN0F3hsqs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=ezMN0F3hsqs"
       },
       {
         "id": "stream_annnews",
@@ -652,10 +651,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "f4Nz59C9n-A",
+        "video_id": "kyG9LAOfwYI",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/f4Nz59C9n-A?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=f4Nz59C9n-A"
+        "embed_url": "https://www.youtube.com/embed/kyG9LAOfwYI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=kyG9LAOfwYI"
       },
       {
         "id": "stream_fnnnews",

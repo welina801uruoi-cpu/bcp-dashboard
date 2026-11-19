@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-20 05:34:26",
-  "timestamp_local": "2026-11-20 03:34:26",
+  "timestamp": "2026-11-20 06:30:23",
+  "timestamp_local": "2026-11-20 04:30:23",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -283,7 +283,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
+    "count_24h": 12,
     "summary": "M5.3 (South Georgia Island region)",
     "latest": {
       "mag": 5.3,
@@ -308,6 +308,14 @@
         "time": "11/20 05:07 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc2t",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.9,
+        "place": "13 km WNW of Xichang, China",
+        "time": "11/20 03:41 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc26",
         "tsunami": 0
       },
       {
@@ -381,27 +389,74 @@
         "depth_km": 35,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubwa",
         "tsunami": 0
-      },
-      {
-        "mag": 5.2,
-        "place": "169 km S of Attu Station, Alaska",
-        "time": "11/19 06:28 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubw3",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "134 km SW of Lorengau, Papua New Guinea",
-        "time": "11/19 05:38 JST",
-        "depth_km": 16.856,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubvu",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "民主の前運輸長官出馬観測　28年大統領選、上院議員も(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/d100f69fbe5ddd32bf805b4368cc5557ccb56d65?source=rss",
+        "description": "【ワシントン共同】米ニュースサイト、ポリティコは19日、2028年の次期大統領選を巡り、民主党のピート・ブティジェッジ前運輸長官（44）の出馬に向け側近らが準備を進めていると報じた。西部アリゾナ州選出",
+        "pub_date": "11/20 06:22 JST",
+        "is_priority": false
+      },
+      {
+        "title": "「正義実現への転機」期待　ロヒンギャ巡るICJ判決(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/74cb6dac64352f7b0cd4b0652420cccf1f84a6e1?source=rss",
+        "description": "【ジュネーブ、ニューヨーク共同】国際司法裁判所（ICJ）がミャンマーによるイスラム教徒少数民族ロヒンギャ迫害をジェノサイド（集団殺害）と認定する判決を出したことを受け、国際社会では19日、評価する声が",
+        "pub_date": "11/20 06:21 JST",
+        "is_priority": false
+      },
+      {
+        "title": "米中ロシア「戦略的安定」促進　王毅氏、大国外交誇示(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/52eabb44c99b40bc62148f7cad6517cd56012b65?source=rss",
+        "description": "【深セン共同】中国の王毅外相は19日夜、深センで記者会見し、同日開かれた史上初の米中ロ首脳会談について「世界平和を共同で維持し、大国間の関係の戦略的安定を促進するものだ」と述べ、意義を強調した。米中ロ",
+        "pub_date": "11/20 06:18 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ソウル地下鉄労組　20日から「順法闘争」＝25日全面スト予告(聯合ニュース)",
+        "link": "https://news.yahoo.co.jp/articles/fbb82700f52d93781923ccd9d99cf548ae0db4e8?source=rss",
+        "description": "【ソウル聯合ニュース】韓国のソウル地下鉄を運営・管理するソウル交通公社の労働組合、「ソウル交通公社労働組合」は20日、人員削減計画の撤回と安全要員の拡充などを求め、順法闘争を開始した。 同闘争は安全確",
+        "pub_date": "11/20 06:10 JST",
+        "is_priority": false
+      },
+      {
+        "title": "米、頭越しの終戦議論否定　ウクライナ巡る有志国会合(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/e6795558defe818fc7923e573ca99983fef5daac?source=rss",
+        "description": "【ベルリン、キーウ共同】ロシアの侵攻が続くウクライナを支援する有志国連合は19日、ドイツの首都ベルリンで首脳級会合を開いた。トランプ米大統領の娘婿クシュナー氏は会合後の記者会見で「トランプ氏には一方的",
+        "pub_date": "11/20 06:03 JST",
+        "is_priority": false
+      },
+      {
+        "title": "イラン対応、年内判断せず　トランプ氏「急がない」(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/ab0940c8e60c3b68225e036861f3e37edea036a5?source=rss",
+        "description": "【ワシントン共同】トランプ米大統領は19日、ニュースサイトのアクシオスのインタビューで、イランへの対応に関し、今年中には判断しない考えを示した。「いかなる決断も急いでいない。年が明けた後にどうなるか見",
+        "pub_date": "11/20 05:57 JST",
+        "is_priority": false
+      },
+      {
+        "title": "なぜ韓国で「竹島」観光が不人気に？　「ただの白身魚の刺身が1万2000円」　中継の島が「ぼったくりの島」になっていた(デイリー新潮)",
+        "link": "https://news.yahoo.co.jp/articles/26a30498bcc9e421ead77148a4f741be176817f8?source=rss",
+        "description": "遊覧船が竹島の岸壁に着くと、韓国人観光客がどっと降り立った。その中に日本人が一人いた。以下は、その日本人による現地レポートだ。【写真を見る】「これで1万2000円？」 ぼったくり島で提供される白身魚の",
+        "pub_date": "11/20 05:53 JST",
+        "is_priority": false
+      },
+      {
+        "title": "米中ロシア会談の定期開催なし　プーチン氏「合意せず」(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/b0aa496be90f8f29b82e254927c24ef95a81d2f5?source=rss",
+        "description": "【深セン共同】ロシアのプーチン大統領は19日、同日開催された史上初の米中ロ首脳会談について、今後も継続される可能性はあるとした上で「この形式で定期的に集まる合意はない」と述べた。アジア太平洋経済協力会",
+        "pub_date": "11/20 05:50 JST",
+        "is_priority": false
+      },
+      {
+        "title": "トランプ氏　イランへの対応は年内に判断しない考え　大規模攻撃検討との報道も(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/540278737d3576c68677565134eaaaeade1c550e?source=rss",
+        "description": "アメリカのトランプ大統領は戦闘終結に向けた交渉が膠着（こうちゃく）するイランへの対応について、今年中には判断しない考えだとメディアのインタビューで答えました。 トランプ大統領は19日、中国から帰国する",
+        "pub_date": "11/20 05:37 JST",
+        "is_priority": true
+      },
       {
         "title": "〈明治大学・海野素央教授現地ルポ〉中間選挙で起きた〝チェンジ〟 次期米大統領選挙への道(Wedge（ウェッジ）)",
         "link": "https://news.yahoo.co.jp/articles/1d2356f3bb6e80051f17404c966ac921f4b0f139?source=rss",
@@ -477,69 +532,6 @@
         "link": "https://news.yahoo.co.jp/articles/d2df14026a7654a956549b351f18909b0df50328?source=rss",
         "description": "史上初めてアメリカ、中国、ロシアが集った首脳会談。会談の舞台となったのは、中国・深センにある政府の迎賓施設『麒麟山荘』です。【画像】3大国が描く『国際秩序』“核軍縮”の必要性に言及…“史上初”米中ロ首",
         "pub_date": "11/20 01:48 JST",
-        "is_priority": false
-      },
-      {
-        "title": "田嶋氏　会長選の立候補受理　「FIFAを良くしていきたい」　推薦を自ら依頼(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/8a5d7e3690ce1c126dfbacc5219325d31d1c7d06?source=rss",
-        "description": "FIFA会長選挙への立候補が受理された日本サッカー協会の田嶋幸三名誉会長が取材に応じ、「FIFAをよくしていく」と選挙戦に向けた抱負を述べました。田嶋名誉会長「この選挙に勝つっていうことはもちろん、F",
-        "pub_date": "11/20 01:27 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米中露3カ国史上初の首脳会談　中露は「戦勝国」強調　トランプ氏は核兵器削減など提起(産経新聞)",
-        "link": "https://news.yahoo.co.jp/articles/92de83e1ae857e9a647b473ebe8e01d4997ac70d?source=rss",
-        "description": "【深圳＝三塚聖平、本間英士】トランプ米大統領、中国の習近平国家主席、ロシアのプーチン大統領は19日、中国・深圳で史上初の米中露首脳会談を行った。権威主義大国の中露に、自由主義陣営の盟主を自任してきた米",
-        "pub_date": "11/20 00:38 JST",
-        "is_priority": false
-      },
-      {
-        "title": "EUの欧州委員会にサイバー攻撃　AIツール悪用か「職員の情報流出は未確認」と説明(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/3c603dbe5cc265b094e2824dab195ddf1b9a0554?source=rss",
-        "description": "EU（ヨーロッパ連合）の行政の中枢を担う欧州委員会が、サイバー攻撃を受けていたことが分かりました。 欧州委員会によりますと、先月22日にサイバー攻撃の兆候があり、26日に複数の内部システムで攻撃の事実",
-        "pub_date": "11/20 00:34 JST",
-        "is_priority": true
-      },
-      {
-        "title": "仏デモ便乗暴動　被害360億円に　仏保険連盟が発表　95％以上が店舗や企業に集中(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/09dde09a0625f64255d187e88ecbf56ff1116022?source=rss",
-        "description": "先月17日に国内各地で発生した抗議デモに便乗した暴動や略奪による被害について、フランス保険連盟は損害額が約360億円に達する見通しだと発表しました。 先月17日から18日にかけてフランス各地で抗議デモ",
-        "pub_date": "11/20 00:17 JST",
-        "is_priority": false
-      },
-      {
-        "title": "プーチン氏「ヤルタ合意で世界は破局を回避した」　大国による世界主導を正当化(産経新聞)",
-        "link": "https://news.yahoo.co.jp/articles/e2f02503ac3845a6e6b19ec762430043c7d3eacd?source=rss",
-        "description": "ロシアのプーチン大統領は19日、中国・深圳で同日開かれた初の米中露首脳会談を巡り、米国・英国・ソ連の首脳が第二次大戦の戦後処理やソ連の対日参戦などを取り決めた1945年のヤルタ会談になぞらえて「新ヤル",
-        "pub_date": "11/20 00:12 JST",
-        "is_priority": false
-      },
-      {
-        "title": "JT子会社「ロシア企業と協業始めている」(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/8898fcb902b04e43ab997467693185415f3fe421?source=rss",
-        "description": "JT＝日本たばこ産業のロシア事業の経営権が移管された問題で、JTのロシア子会社が、ロシア企業との「協業を始めている」と明らかにしました。【映像】JTロシア子会社「ロシア企業との協業を始めている」 JT",
-        "pub_date": "11/20 00:09 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米中ロ首脳会談後に共同で平和宣言(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/622f1750e12d5074b4dbec26f64b4288c690fbe1?source=rss",
-        "description": "中国・深センで行われた3カ国首脳会談のあと、アメリカ、中国、ロシアは、世界平和維持の使命を果たすとして、平和宣言を発表しました。【映像】米中ロ首脳会談後に平和宣言「世界平和維持の使命を果たす」 平和宣",
-        "pub_date": "11/20 00:09 JST",
-        "is_priority": false
-      },
-      {
-        "title": "“AI不正”防止に厳戒態勢も不正摘発相次ぐ　人生が決まる…韓国大学入試(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/75d75a329097a8a9474e045d7536d63c9599dde9?source=rss",
-        "description": "超学歴社会とされる韓国で、19日、大学進学のための共通試験が行われました。人生が決まる一日。韓国の若者にとっては、そう言っても過言ではありません。【画像】“AI不正”防止に厳戒態勢も不正摘発相次ぐ 人",
-        "pub_date": "11/20 00:03 JST",
-        "is_priority": false
-      },
-      {
-        "title": "今日の歴史（11月20日）(聯合ニュース)",
-        "link": "https://news.yahoo.co.jp/articles/ce6b059c8788f949e9715d727642af38d7ddbfca?source=rss",
-        "description": "1897年：漢城（現ソウル）に独立門が完成1948年：国家保安法を制定1995年：欧州連合（EU）外相らが韓米日合同の対北朝鮮軽水炉建設支援で合意1996年：金泳三（キム・ヨンサム）大統領がベトナムを",
-        "pub_date": "11/20 00:00 JST",
         "is_priority": false
       }
     ],
@@ -659,32 +651,32 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/20 05:34 JST",
+    "timestamp": "11/20 06:30 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.68,
-      "change": 0.18,
-      "change_pct": 0.11,
+      "rate": 159.7,
+      "change": 0.19,
+      "change_pct": 0.12,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "IDR",
       "name": "インドネシアルピア",
       "symbol": "Rp",
-      "rate": 0.0088,
-      "change": 0.0,
-      "change_pct": 0.39,
+      "rate": 0.0087,
+      "change": -0.0,
+      "change_pct": -0.1,
       "direction": "even"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 175.26,
-      "change": -0.08,
-      "change_pct": -0.05
+      "rate": 175.17,
+      "change": -0.17,
+      "change_pct": -0.1
     }
   },
   "airports": [
@@ -727,11 +719,11 @@
         "is_capital": true,
         "lat": -6.2088,
         "lon": 106.8456,
-        "temp": 25.6,
-        "apparent_temp": 31.7,
-        "humidity": 94,
-        "wind_speed": 2.7,
-        "wind_gusts": 9.4,
+        "temp": 25.5,
+        "apparent_temp": 31.6,
+        "humidity": 95,
+        "wind_speed": 2.1,
+        "wind_gusts": 6.8,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -772,11 +764,11 @@
         "is_capital": false,
         "lat": -8.6705,
         "lon": 115.2126,
-        "temp": 24.5,
-        "apparent_temp": 30.2,
-        "humidity": 97,
-        "wind_speed": 3.1,
-        "wind_gusts": 7.2,
+        "temp": 24.6,
+        "apparent_temp": 30.4,
+        "humidity": 96,
+        "wind_speed": 2.3,
+        "wind_gusts": 5.8,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -817,11 +809,11 @@
         "is_capital": false,
         "lat": -7.2575,
         "lon": 112.7521,
-        "temp": 26.1,
-        "apparent_temp": 32.6,
+        "temp": 26.0,
+        "apparent_temp": 32.3,
         "humidity": 94,
-        "wind_speed": 2.2,
-        "wind_gusts": 6.5,
+        "wind_speed": 2.8,
+        "wind_gusts": 5.8,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -863,11 +855,11 @@
       "is_capital": true,
       "lat": -6.2088,
       "lon": 106.8456,
-      "temp": 25.6,
-      "apparent_temp": 31.7,
-      "humidity": 94,
-      "wind_speed": 2.7,
-      "wind_gusts": 9.4,
+      "temp": 25.5,
+      "apparent_temp": 31.6,
+      "humidity": 95,
+      "wind_speed": 2.1,
+      "wind_gusts": 6.8,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -902,7 +894,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/20 05:34 JST"
+    "timestamp": "11/20 06:30 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -931,7 +923,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/20 05:34 JST"
+    "timestamp": "11/20 06:30 JST"
   },
   "lifeline": {
     "status": "NORMAL",

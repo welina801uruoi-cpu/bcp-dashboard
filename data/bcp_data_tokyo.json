@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 08:51:47",
+  "timestamp": "2026-11-19 09:48:05",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -112,12 +112,26 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-19 17:16",
+    "shindo": "1",
+    "time": "2026-11-19 18:12",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.7",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-19 18:12",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-19 17:47",
+        "place": "和歌山県北部",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-19 17:16",
         "place": "熊本県天草・芦北地方",
@@ -173,20 +187,6 @@
         "shindo": "1",
         "magnitude": "2.3",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 11:15",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.4",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 10:34",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.8",
-        "maxScale": 10
       }
     ]
   },
@@ -217,10 +217,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -271,10 +271,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "霜注意報"
+          "霜注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、霜注意報",
+        "summary": "波浪注意報、霜注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -322,14 +322,17 @@
     "notice_items": []
   },
   "transit": {
-    "status": "NORMAL",
-    "text": "全線平常運行中",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "status": "ALERT",
+    "text": "運行支障あり（在来線: 京成押上線、都営浅草線）",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（京成押上線、都営浅草線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "京成押上線",
+      "都営浅草線"
+    ],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
@@ -437,19 +440,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/19 09:04",
+          "text": "@docomo 大規模通信 START 障害 END が月に3回と個人情報流出したのに12/1から値上げする内容のSMSが着てビックリだわ。 どういう神経してる..."
+        },
+        {
+          "time": "11/19 09:00",
+          "text": "普通のポストはラフにしていきますね！ ちなみに直近ドコモの情報漏洩と5GSA START 障害 END はなんだったんだろうか…🧐 START au END と..."
+        },
         {
           "time": "11/19 06:25",
           "text": "START au END じぶん銀行 新デザインがクソすぎて何か START 障害 END が起きてるかと思ったわ。 改悪すぎひん？"
-        },
-        {
-          "time": "11/19 05:58",
-          "text": "会社生命かかってる不祥事に社長がすぐさま会見しないのがこの会社の全てを物語ってるよね。よりによって普段は声でかいトップがダンマリって。熊本地震でイオンが倒壊した..."
-        },
-        {
-          "time": "11/19 05:12",
-          "text": "@johncyan 不満があって切り替えようと思っても、顧客側に思い切りスイッチングコストがかかりますからね。 docomoは最近、通信 START 障害 EN..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -483,19 +486,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/19 09:25",
+          "text": "@evolve_develop そうだったんですね😱キャンプするのでちょと START 繋がらない END のは困るから悩んでました😳 調べたら START a..."
+        },
+        {
+          "time": "11/19 09:20",
+          "text": "やっぱり START au END って電波ひどいよね。知り合いが何人か変更したけど今まで繋がってたところで START 繋がらない END とか言ってるし。都..."
+        },
         {
           "time": "11/19 08:29",
           "text": "@Rosarosaff14 ゲームがお好きなようで🎮✨でしたら、 START 繋がらない END のは困りますよね💦突然失礼します、 START au END ..."
-        },
-        {
-          "time": "11/19 07:35",
-          "text": "@DDG_konkon 「INFOBAR ZERO」にご興味が…！ありがとうございます😌こんにちは、こんにゃ〜さん✨ START au END サポート石川です..."
-        },
-        {
-          "time": "11/19 07:15",
-          "text": "Wi-Fiが START 繋がらない END 時の対処法で Xで教えてもらった電源を一度抜くと言うのは START au END の公式な対処法なんですね 電話..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -509,16 +512,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/19 08:52",
+          "text": "ahamo通信 START 障害 END 直すより前に値上げしてきて草 START povo END にするか"
+        },
+        {
           "time": "11/19 08:24",
           "text": "→最近通信 START 障害 END 多発させてるドコモ、デュアルSIMとして START povo END を持っておけばドコモが死んだとき切り替えれば復旧ま..."
         },
         {
           "time": "11/19 00:57",
           "text": "ドコモ START 障害 END 起きててキレそう とりあえず START povo END で凌ぐか"
-        },
-        {
-          "time": "11/18 09:28",
-          "text": "START povo END がこの2週間くらいかな？一気に重たくなった。 ドコモの START 障害 END による回避策、安いがゆえの乗り換えによる混雑かな..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -542,8 +545,40 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 4,
+    "disaster_count": 7,
     "articles": [
+      {
+        "title": "21日にかけて冬の嵐　警報級の大雪や暴風も　関東から九州の山沿いで積雪のおそれ(日本気象協会tenki.jp)",
+        "summary": "今日19日(木)は日本海側を中心に風が強まり、金沢市では最大瞬間風速30メートルを超える暴風を観測しました。3連休初日の21日(土)にかけては、北日本や北陸を中心に警報級の大雪や暴風、高波となるおそれ",
+        "pub_date": "11/19 18:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/f97f54520d2c4a419d90a3768e77e04ec8748ba6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "バイクの17歳高校生が死亡 大型トラックと出合い頭に衝突…三重･四日市市の信号交差点(CBCテレビ)",
+        "summary": "三重県四日市市で大型トラックと衝突。バイクの高校生が死亡しました。事故があったのは四日市市蔵町の信号交差点で、19日午前3時40分ごろ、国道23号を走行中のバイクと脇道から進入してきた大型トラックが、",
+        "pub_date": "11/19 18:13 JST",
+        "link": "https://news.yahoo.co.jp/articles/c930b9d5f9463f862a919c8500235bf0edd5583b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "熊本で最大震度5弱　2人けが　4軒の住宅に被害も(テレビ朝日系（ANN）)",
+        "summary": "19日未明、熊本県で最大震度5弱を観測する地震がありました。 気象庁によりますと、午前2時22分ごろ、熊本県天草・芦北地方の深さおよそ10キロを震源とする地震がありました。 地震の規模を示すマグニチュ",
+        "pub_date": "11/19 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/a15f093fa8e4bbec9c6ebe3a360ba08d15733c6f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "福島・広野でミカン狩り　高校生は果汁でサイダー(共同通信)",
+        "summary": "東京電力福島第1原発事故で住民が一時避難した福島県広野町で19日、地元の小学生や高校生ら約20人がミカン狩りを楽しんだ。参加者は暖かな日差しを浴びながら、町営の畑でオレンジ色の実約150キロを収穫した",
+        "pub_date": "11/19 17:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/d65cf9ae79822d8e9c120bfb051c4637ecd83698?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "熊本の被災図書館「文化体験を」　宇城市、復旧急ぐ(共同通信)",
         "summary": "7月の熊本地震で被災した熊本県内の図書館の一部で休館や利用制限が続いている。年間約43万人が訪れていた宇城市の不知火美術館・図書館は、本が散乱した館内がほぼ手つかずのまま。市が復旧を急いでいる。酒井俊",
@@ -569,103 +604,71 @@
         "is_disaster": true
       },
       {
-        "title": "富士山噴火に備え、山梨県が新たな火山防災へ(テレビ朝日系（ANN）)",
-        "summary": "山梨県は、富士山の噴火に備えた新たな火山防災拠点のあり方について検討を進めるための委員会を設置しました。山梨県は、富士山の噴火に関する観測や調査研究、防災対応や人材育成などの充実・強化を進めていますが",
-        "pub_date": "11/19 16:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/7bd39aa5b0a16a45f329b7fb415b6fd49083f7e2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "市のいじめ調査対応「重篤」　大阪・泉南、中1死亡(共同通信)",
-        "summary": "大阪府泉南市で2022年、市立中学1年の松波翔さん＝当時（13）＝がいじめを背景に自殺した問題を巡り、市の「子どもの権利救済委員会」は19日、調査報告書の内容や遺族への開示手続きに関する市の対応を「極",
-        "pub_date": "11/19 17:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/202cb2da36a04455b534efae59a9775d244b40cf?source=rss",
+        "title": "運転手がつり革なめる行為　動画拡散、京急バス謝罪(共同通信)",
+        "summary": "京浜急行バス（横浜市）は19日、運転手が営業運行終了後のバス車内でつり革や手すりをなめるなどの不適切な行為をし、動画配信サイトで公開されたと明らかにした。SNSで拡散され批判が上がっており、同社は18",
+        "pub_date": "11/19 18:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/32b89fd9810cd215fbead25111d2f5abec49236c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "都内インフル定点報告数　前週比増 - 9－15日(医療介護ＣＢニュース)",
-        "summary": "東京都が19日まとめた第46週（9－15日）のインフルエンザ定点当たり報告数によると、7.72人で前週より3.8％増えた。 定点当たり報告数が最も多いのは「島しょ」で28.00人。次いで「八王子市」（",
-        "pub_date": "11/19 17:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/0706e42f06d67087b5c1206f7dd813f683e811b5?source=rss",
+        "title": "部屋からは真っ赤な炎 県営住宅で火事 出火した部屋の住人は外出中だった 愛知･東浦町(CBCテレビ)",
+        "summary": "19日夕方、愛知県東浦町の県営住宅で火事があり、現在も消火活動が続いています。19日午後4時ごろ、東浦町石浜の県営東浦住宅で「窓から煙が出ている」と消防に通報がありました。【写真を見る】部屋からは真っ",
+        "pub_date": "11/19 18:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/dd5827259a35886ed0fece2c59e6b17baec450fe?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "首相、習氏と会談できず　日中正常化へ模索継続(共同通信)",
-        "summary": "【深セン共同】高市早苗首相は、中国・深センでのアジア太平洋経済協力会議（APEC）首脳会議に合わせた習近平国家主席との会談を実施できなかった。木原稔官房長官が19日の記者会見で、首脳会談は開催されてい",
-        "pub_date": "11/19 17:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/fed1647fa595e98712cf56f42b317b96e3308dae?source=rss",
+        "title": "西日本新聞販売所を表彰　新聞協会、地域貢献大賞(共同通信)",
+        "summary": "日本新聞協会は19日、地域貢献に優れた活動をした新聞販売所に贈る「地域貢献大賞」の表彰式を東京都内で開いた。「市民医療講座」で大賞に選ばれた、西日本新聞エリアグループ北福岡の奥永英幸会長に、記念の盾を",
+        "pub_date": "11/19 18:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/85b75db15dc508f18024e1804d447688e7083421?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "高市首相、“握手外交”で習近平氏に伝えた内容＆プーチン大統領と30分以上会談の中身明かす(日刊スポーツ)",
-        "summary": "高市早苗首相は19日、アジア太平洋経済協力会議（APEC）首脳会議のため滞在している中国・深圳で記者会見し、直接首脳会談の機会を持てなかった中国の習近平・国家主席との間で取ったコミュニケーションの内容",
-        "pub_date": "11/19 17:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/6f3caf3c2ebdc3b9c987f35ed28c5f729dfa650c?source=rss",
+        "title": "全小中学校に製氷機を一斉導入 児童生徒の熱中症対策やけがのアイシングなどに活用 来年6月末までの設置完了目指す 愛知･豊田市(CBCテレビ)",
+        "summary": "愛知県豊田市は、市内全ての小中学校に製氷機を導入することを決めました。11月19日、豊田市の太田稔彦市長は会見を開き、児童生徒の熱中症対策として市内103の全ての小中学校に製氷機を導入すると表明しまし",
+        "pub_date": "11/19 18:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/826fb7ae191253a751a3fedebedb37505b465e19?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "会社社長装い現金詐取疑い　ベトナム人4人を逮捕、警視庁(共同通信)",
-        "summary": "東京都港区の会社社長を装ったLINE（ライン）で従業員に指示し、現金を詐取したなどとして、警視庁特別捜査課は19日までに、詐欺などの疑いで、別の会社の役員チャン・バン・チュオン容疑者（28）＝東京都豊",
-        "pub_date": "11/19 17:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/71116c12f8a4106dd4f2be521c2d644b5e3e243a?source=rss",
+        "title": "「吐き気がするほどの激しい嫌悪感」　アーティスト作品の「政治利用」に株式会社嵐の代表が意見、嵐ファンも反応(J-CASTニュース)",
+        "summary": "「長年の血と涙と汗の結晶であるアーティストの名声や作品を、体制・反体制にかかわらず同意もなく政治的な活動に利用しようとする行為に対しては、吐き気がするほどの激しい嫌悪感を抱きます。あくまでも個人的な見",
+        "pub_date": "11/19 18:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/4afa2c97688582dcbf057968bc7ed94f10b38130?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "滋賀・高島市の県道で　市職員が軽ワゴン車にはねられ死亡　緊急水道工事の交通整理中(産経新聞)",
-        "summary": "18日午後8時20分ごろ、滋賀県高島市新旭町安井川の県道で、同市マキノ町の同市職員、松井正則さん（59）が、同市の男性会社員（48）の運転する軽ワゴン車にはねられた。松井さんは搬送先で死亡が確認された",
-        "pub_date": "11/19 17:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/d5c1ee7695b6dcd6a0db864fcf864b87e73a3eab?source=rss",
+        "title": "消費減税法案で公明が修正項目を提示へ　政府に対応求める方針　激変緩和措置など盛り込む(産経新聞)",
+        "summary": "公明党は19日の党会合で、消費税減税関連法案について修正項目をとりまとめ、近く提示する方針を決めた。詳細な内容は中野洋昌政調会長に一任した。これまでの審議を踏まえた修正項目を重ねて明示することで、政府",
+        "pub_date": "11/19 18:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/13e7d03fb9ae74931408424ba3de9638c2388ee5?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "防衛費の規模・財源は未定　高市総理「金額ありきではなく必要な能力を積み上げる」(テレビ朝日系（ANN）)",
-        "summary": "高市総理大臣は、年末に予定する安保3文書の改定に伴う防衛費の規模や財源について、現段階で決まったことはないとしたうえで財政の持続可能性にも配慮する考えを示しました。高市総理大臣「私は金額ありきではなく",
-        "pub_date": "11/19 17:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/ccfa9ec6a846c69ec8cb8f8acfe8db3f51bb4d85?source=rss",
+        "title": "三重･津市の前葉市長（64）が5期目を目指し出馬表明 駅前交通ターミナルの整備“バスタプロジェクト”推進を訴える 来年4月25日投開票の津市長選挙(CBCテレビ)",
+        "summary": "三重県津市の前葉泰幸市長が、5期目を目指し出馬表明です。前葉市長は11月19日の会見で、来年春の統一地方選挙で実施される津市長選挙への立候補を正式に表明しました。【写真を見る】三重･津市の前葉市長（6",
+        "pub_date": "11/19 18:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/8c7551a1694fb05f2830c3eb423bf8f1c0cc82a1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "上司「忙しいのは当たり前」45歳夫がタイムカードなし勤務で過労死…“残業月200時間”のケースも　海外駐在員の“法の空白”厚労省が実態調査へ(弁護士JPニュース)",
-        "summary": "「駐在員には住居費や子どもの教育費など、会社がお金をかけている。だから忙しいのは当たり前だ」パワハラの多い会社の特徴とは？2018年、アラブ首長国連邦のドバイで駐在員として働いていた夫を45歳で亡くし",
-        "pub_date": "11/19 17:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/bcfbcb69186805d6fbef154e5bbf5400f53133f6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "富山空港から高山へ タクシー料金を最大3万5000円補助する方針　利用者は最低1万円の負担　27日から開始　「きときと」から「すし高山」へ看板の掛け替え工事も始まる(FNNプライムオンライン)",
-        "summary": "富山県は、富山空港を利用して高山へ向かう人を対象としたタクシー料金の補助を、今月27日から始めると発表しました。利用者の負担は最低1万円で、補助額の上限は3万5000円とする方針です。空港の愛称が「富",
-        "pub_date": "11/19 17:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/d3683d025ed6298b5da37c876b63bbf2eed604b7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "住基データ、北海道新得町でも漏えいの恐れ(共同通信)",
-        "summary": "北海道新得町は19日、過去の住民基本台帳データ6001件と要支援者のデータ986件が漏えいした可能性があると発表した。北海道留萌市と同じ業務委託先の協力会社の端末がマルウエアに感染したのが原因。",
-        "pub_date": "11/19 17:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/9635ad7cc2003b59b881adc8a54e456001947848?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "住基データ7万件漏えいか　北海道留萌市、障害者情報も(共同通信)",
-        "summary": "北海道留萌市は19日、住民基本台帳データ最大7万1002件と、災害発生時の要支援者の精神障害などに関するデータ最大4503件が流出した可能性があると発表した。いずれも2022年時点のデータで、業務委託",
-        "pub_date": "11/19 17:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/c88c44eff6eed00e3d0c67c91123cb68a1acef91?source=rss",
+        "title": "≪コンカフェ店員殺害≫嫉妬して包丁の写真を送りつけ…生活保護受給しながら飲み歩いた“中野のニキ”「シャンパンいれたから家行っていい？」過去にも警察から警告か(集英社オンライン)",
+        "summary": "11月16日夜、東京都中野区の路上で青木七海さん（24）が包丁で首を刺されて死亡した事件。警視庁は18日、強盗殺人未遂容疑で緊急逮捕していた清武一則容疑者（39）について、容疑を強盗殺人に切り替えた。",
+        "pub_date": "11/19 18:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/4380c283e1cd35d55828e1872991880292c23574?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 17:51:32 JST"
+    "last_updated": "2026-11-19 18:47:53 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -697,10 +700,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "tYAQqv_8bjY",
+        "video_id": "Q74S2oZ12n8",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/tYAQqv_8bjY?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=tYAQqv_8bjY"
+        "embed_url": "https://www.youtube.com/embed/Q74S2oZ12n8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Q74S2oZ12n8"
       },
       {
         "id": "stream_ntvnews",
@@ -708,10 +711,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "6TM-iVQ6_-Q",
+        "video_id": "OTw-sRQbexA",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/6TM-iVQ6_-Q?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=6TM-iVQ6_-Q"
+        "embed_url": "https://www.youtube.com/embed/OTw-sRQbexA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=OTw-sRQbexA"
       },
       {
         "id": "stream_annnews",
@@ -719,10 +722,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "JfVaF7eaP_w",
+        "video_id": "3YrKe5DCVHY",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/JfVaF7eaP_w?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=JfVaF7eaP_w"
+        "embed_url": "https://www.youtube.com/embed/3YrKe5DCVHY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=3YrKe5DCVHY"
       },
       {
         "id": "stream_fnnnews",
@@ -730,10 +733,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "5_KKUQqwX0Q",
+        "video_id": "tBSVxgbXF_A",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/5_KKUQqwX0Q?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=5_KKUQqwX0Q"
+        "embed_url": "https://www.youtube.com/embed/tBSVxgbXF_A?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=tBSVxgbXF_A"
       }
     ],
     "cameras": [

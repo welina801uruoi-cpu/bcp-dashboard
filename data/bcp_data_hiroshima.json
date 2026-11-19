@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 05:40:30",
+  "timestamp": "2026-11-19 06:37:49",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -73,12 +73,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-19 14:33",
+    "shindo": "1",
+    "time": "2026-11-19 14:42",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.6",
+    "magnitude": "2.9",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-19 14:42",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.9",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-19 14:33",
         "place": "熊本県天草・芦北地方",
@@ -141,13 +148,6 @@
         "shindo": "-",
         "magnitude": "3.6",
         "maxScale": -1
-      },
-      {
-        "time": "2026-11-19 09:38",
-        "place": "震源情報なし",
-        "shindo": "3",
-        "magnitude": "-",
-        "maxScale": 30
       }
     ]
   },
@@ -191,11 +191,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "強風注意報",
-          "波浪注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -206,11 +206,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "強風注意報",
-          "波浪注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/32/"
       },
       {
@@ -221,11 +221,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "強風注意報",
-          "波浪注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/31/"
       },
       {
@@ -283,11 +283,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中国電力NW: 【停電発生中】岡山で停電情報を検知",
+    "power_msg": "中国電力NW: 停電情報なし（中国エリア管内正常）",
     "water_msg": "広島市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "広島ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -330,16 +330,16 @@
       "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/19 06:25",
+          "text": "START au END じぶん銀行 新デザインがクソすぎて何か START 障害 END が起きてるかと思ったわ。 改悪すぎひん？"
+        },
+        {
+          "time": "11/19 05:58",
+          "text": "会社生命かかってる不祥事に社長がすぐさま会見しないのがこの会社の全てを物語ってるよね。よりによって普段は声でかいトップがダンマリって。熊本地震でイオンが倒壊した..."
+        },
+        {
           "time": "11/19 05:12",
           "text": "@johncyan 不満があって切り替えようと思っても、顧客側に思い切りスイッチングコストがかかりますからね。 docomoは最近、通信 START 障害 EN..."
-        },
-        {
-          "time": "11/19 05:06",
-          "text": "今日 START au END 朝から通信 START 障害 END でグダグダですわね"
-        },
-        {
-          "time": "11/19 03:33",
-          "text": "なんか職場の人間 START au END だけ通信 START 障害 END いうてるけど、職場だけなんやろか🤔"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -373,7 +373,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/19 04:45",
@@ -530,31 +530,31 @@
         "is_disaster": true
       },
       {
-        "title": "「また来たな」林芳正氏、「政界の119番」としての緊急登板を回想　能登地震とJAL機事故、同時対応の舞台裏も(J-CASTニュース)",
-        "summary": "林芳正前総務相が2026年11月17日、早稲田大学（東京都新宿区）で講演し、「政界の119番」と呼ばれるようになった経緯や、官房長官時代の危機管理の舞台裏を明かした。24年元日に能登半島地震が発生し、",
-        "pub_date": "11/19 12:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/932f3fda6910d54abb61a084d64b376bd4d849e0?source=rss",
-        "category": "国内・気象防災",
+        "title": "戦車事故 陸自が原因を特定し公表",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/19 14:58 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6603159?source=rss",
+        "category": "主要速報",
         "is_disaster": true
       },
       {
-        "title": "学習管理システム「Schoo Swing」に不正アクセス 教員ら86名分の情報漏えい 原因はサービスの一部の機能の脆弱性(ABEMA TIMES)",
-        "summary": "株式会社Schooが、「Schoo Swing」への不正アクセスに関するお詫びとお知らせについて発表しました。【映像】学習管理システムに不正アクセス 教員らの情報漏えい「当社が提供するデータ活用型LM",
-        "pub_date": "11/19 14:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/3f4e510c3ebcc21c3e5a36afe6ffa94a7dfba636?source=rss",
+        "title": "「六花亭」顧客のクレカ情報流出の可能性　カード番号全桁に名義人、セキュリティコードも対象か(スポニチアネックス)",
+        "summary": "「マルセイバターサンド」などの人気商品で知られる北海道の菓子メーカー「六花亭」は19日、公式サイトを更新。同社が運営する「六花亭オンラインショップ」が第三者から不正アクセスを受け、利用客のクレジットカ",
+        "pub_date": "11/19 15:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/10a037a0faec437ae467922fc55dc23683b8a7a3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "橋下徹氏、高市首相の「冷遇」に持論　「タラップを降りずに帰国すればいい」(J-CASTニュース)",
-        "summary": "前大阪府知事で弁護士の橋下徹氏が2026年11月18日にXを更新し、高市早苗首相の外交について持論を展開。中国から「冷遇」されたことに対し、「情けない姿を世界に発信された」と批判した。【画像】トランプ",
-        "pub_date": "11/19 14:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/ac4a6602b057c6889101c1edf8d1cc0cdea25a6e?source=rss",
+        "title": "日米豪印で揺るぎない結束示したと首相(共同通信)",
+        "summary": "【深セン共同】高市早苗首相は19日、中国・深センで記者会見し、日米豪印の協力枠組み「クアッド」首脳会合に関し「戦略的認識を擦り合わせ、自由で開かれたインド太平洋の実現に向けた揺るぎない結束を世界に示す",
+        "pub_date": "11/19 15:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/75177a6702a866c23da5bccd70b58b2bd86cd775?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 14:39:46 JST"
+    "last_updated": "2026-11-19 15:37:06 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -586,10 +586,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "W7CdSSJQIs8",
+        "video_id": "tYAQqv_8bjY",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/W7CdSSJQIs8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=W7CdSSJQIs8"
+        "embed_url": "https://www.youtube.com/embed/tYAQqv_8bjY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=tYAQqv_8bjY"
       },
       {
         "id": "stream_ntvnews",
@@ -597,10 +597,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "LNn6ExA3I1c",
+        "video_id": "EareDs5zH9k",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/LNn6ExA3I1c?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=LNn6ExA3I1c"
+        "embed_url": "https://www.youtube.com/embed/EareDs5zH9k?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=EareDs5zH9k"
       },
       {
         "id": "stream_annnews",
@@ -608,10 +608,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "6gAs3s6cysk",
+        "video_id": "NxZin6DEUeI",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/6gAs3s6cysk?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=6gAs3s6cysk"
+        "embed_url": "https://www.youtube.com/embed/NxZin6DEUeI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=NxZin6DEUeI"
       },
       {
         "id": "stream_fnnnews",
@@ -619,10 +619,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "5_KKUQqwX0Q",
+        "video_id": "AnEsqbOG5Hw",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/5_KKUQqwX0Q?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=5_KKUQqwX0Q"
+        "embed_url": "https://www.youtube.com/embed/AnEsqbOG5Hw?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=AnEsqbOG5Hw"
       }
     ],
     "cameras": [

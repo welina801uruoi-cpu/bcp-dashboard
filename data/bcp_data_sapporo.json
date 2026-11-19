@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 09:48:53",
+  "timestamp": "2026-11-19 10:47:02",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -165,14 +165,14 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "着雪注意報",
-          "風雪注意報",
           "強風注意報",
+          "雷注意報",
+          "大雪注意報",
           "波浪注意報",
-          "大雪注意報"
+          "風雪注意報"
         ],
-        "summary": "雷注意報、着雪注意報、風雪注意報、強風注意報、波浪注意報、大雪注意報",
+        "summary": "着雪注意報、強風注意報、雷注意報、大雪注意報、波浪注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -185,13 +185,13 @@
           "暴風警報"
         ],
         "notices": [
-          "雷注意報",
           "着雪注意報",
           "強風注意報",
-          "波浪注意報",
-          "大雪注意報"
+          "雷注意報",
+          "大雪注意報",
+          "波浪注意報"
         ],
-        "summary": "暴風警報、雷注意報、着雪注意報、強風注意報、波浪注意報、大雪注意報",
+        "summary": "暴風警報、着雪注意報、強風注意報、雷注意報、大雪注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -218,13 +218,13 @@
           "暴風警報"
         ],
         "notices": [
-          "雷注意報",
           "着雪注意報",
-          "風雪注意報",
           "強風注意報",
-          "波浪注意報"
+          "雷注意報",
+          "波浪注意報",
+          "風雪注意報"
         ],
-        "summary": "暴風警報、雷注意報、着雪注意報、風雪注意報、強風注意報、波浪注意報",
+        "summary": "暴風警報、着雪注意報、強風注意報、雷注意報、波浪注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -310,8 +310,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/19 10:02",
+          "text": "mineo マイネオ 新規契約 友達紹介 もしもの通信 START 障害 END に備えて選べるdocomo/ START au END /softbank回線..."
+        },
         {
           "time": "11/19 09:04",
           "text": "@docomo 大規模通信 START 障害 END が月に3回と個人情報流出したのに12/1から値上げする内容のSMSが着てビックリだわ。 どういう神経してる..."
@@ -319,10 +323,6 @@
         {
           "time": "11/19 09:00",
           "text": "普通のポストはラフにしていきますね！ ちなみに直近ドコモの情報漏洩と5GSA START 障害 END はなんだったんだろうか…🧐 START au END と..."
-        },
-        {
-          "time": "11/19 06:25",
-          "text": "START au END じぶん銀行 新デザインがクソすぎて何か START 障害 END が起きてるかと思ったわ。 改悪すぎひん？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -356,7 +356,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/19 09:25",
@@ -382,16 +382,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/19 10:03",
+          "text": "最近ドコモをやめて START povo END にしたので START 障害 END の影響を回避！"
+        },
+        {
           "time": "11/19 08:52",
           "text": "ahamo通信 START 障害 END 直すより前に値上げしてきて草 START povo END にするか"
         },
         {
           "time": "11/19 08:24",
           "text": "→最近通信 START 障害 END 多発させてるドコモ、デュアルSIMとして START povo END を持っておけばドコモが死んだとき切り替えれば復旧ま..."
-        },
-        {
-          "time": "11/19 00:57",
-          "text": "ドコモ START 障害 END 起きててキレそう とりあえず START povo END で凌ぐか"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -416,130 +416,130 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 5,
     "articles": [
       {
-        "title": "21日にかけて冬の嵐　警報級の大雪や暴風も　関東から九州の山沿いで積雪のおそれ(日本気象協会tenki.jp)",
-        "summary": "今日19日(木)は日本海側を中心に風が強まり、金沢市では最大瞬間風速30メートルを超える暴風を観測しました。3連休初日の21日(土)にかけては、北日本や北陸を中心に警報級の大雪や暴風、高波となるおそれ",
-        "pub_date": "11/19 18:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/f97f54520d2c4a419d90a3768e77e04ec8748ba6?source=rss",
+        "title": "ほぼ寝たきり男性住宅を訪問介護の職員が放火(テレビ朝日系（ANN）)",
+        "summary": "ほぼ寝たきりの男性の家に火を付け、けがをさせたとして逮捕されたのは介護をしていた職員でした。■訪問介護の職員が放火か 緊迫する火災現場。部屋にはまだ人がいました。 その障害のある男性を殺害しようとした",
+        "pub_date": "11/19 19:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/d99a24e549cb0d389329b2f5178bbb13ea939b4f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "バイクの17歳高校生が死亡 大型トラックと出合い頭に衝突…三重･四日市市の信号交差点(CBCテレビ)",
-        "summary": "三重県四日市市で大型トラックと衝突。バイクの高校生が死亡しました。事故があったのは四日市市蔵町の信号交差点で、19日午前3時40分ごろ、国道23号を走行中のバイクと脇道から進入してきた大型トラックが、",
-        "pub_date": "11/19 18:13 JST",
-        "link": "https://news.yahoo.co.jp/articles/c930b9d5f9463f862a919c8500235bf0edd5583b?source=rss",
+        "title": "3連休に「150センチの積雪」になるエリアは？ 「雪の線状降水帯」JPCZ発生へ…気象予報士が呼びかける備えとは(ABEMA TIMES)",
+        "summary": "19日、気象予報士の竹内青空氏が、週末の3連休にかけて日本海側を中心に襲来する強い寒波について解説した。いわゆる「雪の線状降水帯」とも呼ばれるJPCZの影響で、山沿いでは150センチ以上の大雪となる恐",
+        "pub_date": "11/19 19:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/c385f9fd5aa26b09bc4420f2c34ceb92bec4dc67?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "熊本で最大震度5弱　2人けが　4軒の住宅に被害も(テレビ朝日系（ANN）)",
-        "summary": "19日未明、熊本県で最大震度5弱を観測する地震がありました。 気象庁によりますと、午前2時22分ごろ、熊本県天草・芦北地方の深さおよそ10キロを震源とする地震がありました。 地震の規模を示すマグニチュ",
-        "pub_date": "11/19 18:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/a15f093fa8e4bbec9c6ebe3a360ba08d15733c6f?source=rss",
+        "title": "陸自 4人死傷戦車事故で調査結果公表(ABEMA TIMES)",
+        "summary": "陸上自衛隊は、4月に大分県の演習場で訓練中の隊員4人が死傷した戦車の事故の調査結果を公表し、砲身内に残った砲弾の破片の熱によって、次の砲弾が破裂したことが原因だと特定しました。【映像】陸自戦車の訓練中",
+        "pub_date": "11/19 19:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/355c95bec041bcd4e95249503f4d13a527e49a6e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "福島・広野でミカン狩り　高校生は果汁でサイダー(共同通信)",
-        "summary": "東京電力福島第1原発事故で住民が一時避難した福島県広野町で19日、地元の小学生や高校生ら約20人がミカン狩りを楽しんだ。参加者は暖かな日差しを浴びながら、町営の畑でオレンジ色の実約150キロを収穫した",
-        "pub_date": "11/19 17:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/d65cf9ae79822d8e9c120bfb051c4637ecd83698?source=rss",
+        "title": "同僚の警察官6人も同席…50代巡査部長が4時間半飲酒した後に車を運転し縁石に衝突か 書類送検され懲戒免職(東海テレビ)",
+        "summary": "ビールや焼酎、ワインなどを飲んだあと車で事故を起こした岐阜県警の巡査部長が19日、懲戒免職処分を受けました。 岐阜県警によりますと、県内の署に所属する50代の巡査部長は先月17日夜、下呂市で開かれた懇",
+        "pub_date": "11/19 19:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/99c73f0d7c145a0acae1712fca0bd000421396f7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "熊本の被災図書館「文化体験を」　宇城市、復旧急ぐ(共同通信)",
-        "summary": "7月の熊本地震で被災した熊本県内の図書館の一部で休館や利用制限が続いている。年間約43万人が訪れていた宇城市の不知火美術館・図書館は、本が散乱した館内がほぼ手つかずのまま。市が復旧を急いでいる。酒井俊",
-        "pub_date": "11/19 17:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/ead4177b90864c4f9d38b5393a3dfac7d6725500?source=rss",
+        "title": "県営住宅で火災　5階の部屋から出火　消化活動続く　愛知・東浦町(テレビ朝日系（ANN）)",
+        "summary": "県営住宅で火事があり、現在も消火活動が続いています。 消防によりますと19日午後4時前、愛知県東浦町の8階建ての県営住宅で「一室から煙が出ている」と目撃者から119番通報がありました。 5階の部屋から",
+        "pub_date": "11/19 19:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/f6cd2a336718efaf5232b8a90ed61f854cf93fac?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "【速報】兵庫県、あす20日「冬の嵐」警報級高波の恐れ高まる　山地は積雪の可能性、落雷や突風も注意(京都新聞)",
-        "summary": "神戸地方気象台は19日午後、高波・落雷・突風に関する気象情報を発表し、兵庫県北部は20日に警報級の高波となる恐れが高いとして警戒を呼び掛けた。また、20〜21日にかけ、山地を中心に積雪する可能性がある",
-        "pub_date": "11/19 17:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/5b80659f7cf4d1e25fdb6243a3412ef72e098b1e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "トラックやバスなど7台絡む玉突き事故 7人を病院に搬送 名古屋高速 愛知･小牧市(CBCテレビ)",
-        "summary": "名古屋高速で7台が絡む玉突き事故があり、合わせて7人がけがをしました。事故があったのは、愛知県小牧市元町の名古屋高速小牧線下り線で、警察によりますと19日午前10時半前「トラック同士の事故」などと目撃",
-        "pub_date": "11/19 17:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/b8f4a19d3d52f2478fea9c0f38cb7412659ed09e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "運転手がつり革なめる行為　動画拡散、京急バス謝罪(共同通信)",
-        "summary": "京浜急行バス（横浜市）は19日、運転手が営業運行終了後のバス車内でつり革や手すりをなめるなどの不適切な行為をし、動画配信サイトで公開されたと明らかにした。SNSで拡散され批判が上がっており、同社は18",
-        "pub_date": "11/19 18:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/32b89fd9810cd215fbead25111d2f5abec49236c?source=rss",
+        "title": "【写真まとめ】愛子さま　ペールオレンジのセットアップで日本人会の歓迎行事に出席　女性コーラスの「夕焼け」に聞き入り　滞在中はマーライオンなどの観光地へも【シンガポール訪問】(テレビ朝日系（ANN）)",
+        "summary": "天皇皇后両陛下の長女・愛子さまは、シンガポールを初めて公式訪問されています。【写真特集】3日目|退出時、コーラス隊のそばに行きお声掛けを･･･最新映像から随時更新中",
+        "pub_date": "11/19 19:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/1459dbf1096667d349f6fbe0d14b915d94116c0a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "部屋からは真っ赤な炎 県営住宅で火事 出火した部屋の住人は外出中だった 愛知･東浦町(CBCテレビ)",
-        "summary": "19日夕方、愛知県東浦町の県営住宅で火事があり、現在も消火活動が続いています。19日午後4時ごろ、東浦町石浜の県営東浦住宅で「窓から煙が出ている」と消防に通報がありました。【写真を見る】部屋からは真っ",
-        "pub_date": "11/19 18:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/dd5827259a35886ed0fece2c59e6b17baec450fe?source=rss",
+        "title": "関大臣がパーティー券問題追及され“混乱”？「ご出席の皆様の、え、はい。それで、参加の人数、その、先ほど申し上げ…」「失礼しました、間違えました」(ABEMA TIMES)",
+        "summary": "19日、参議院消費税特別委員会において、立憲民主党の石橋通宏議員が関芳弘文部科学大臣の政治資金パーティー問題について追及した。出席企業の開示や「年会費」をめぐる認識の食い違いなどを問われた関大臣が答弁",
+        "pub_date": "11/19 19:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/fd5e5d734abdbe6ab16099c90c605f871b490c13?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "西日本新聞販売所を表彰　新聞協会、地域貢献大賞(共同通信)",
-        "summary": "日本新聞協会は19日、地域貢献に優れた活動をした新聞販売所に贈る「地域貢献大賞」の表彰式を東京都内で開いた。「市民医療講座」で大賞に選ばれた、西日本新聞エリアグループ北福岡の奥永英幸会長に、記念の盾を",
-        "pub_date": "11/19 18:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/85b75db15dc508f18024e1804d447688e7083421?source=rss",
+        "title": "今シーズン初「寒波襲来」 “爆弾低気圧”で列島荒天(テレビ朝日系（ANN）)",
+        "summary": "爆弾低気圧で列島は大荒れとなっています。今シーズン初の寒波も襲来し、雪にひょうと荒れた天気となっています。■“爆弾低気圧”で列島荒天 19日午後1時ごろ、横殴りの雨が降っていた福井県坂井市。 ところが",
+        "pub_date": "11/19 19:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/8b90fd03abd61a4ca0cb04271428474ed2db5b69?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "全小中学校に製氷機を一斉導入 児童生徒の熱中症対策やけがのアイシングなどに活用 来年6月末までの設置完了目指す 愛知･豊田市(CBCテレビ)",
-        "summary": "愛知県豊田市は、市内全ての小中学校に製氷機を導入することを決めました。11月19日、豊田市の太田稔彦市長は会見を開き、児童生徒の熱中症対策として市内103の全ての小中学校に製氷機を導入すると表明しまし",
-        "pub_date": "11/19 18:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/826fb7ae191253a751a3fedebedb37505b465e19?source=rss",
+        "title": "【APEC現地報告】高市総理の訪中「現地メディアは“ほぼ報じず”」　握手だけでは埋まらない日中の距離感　米中露首脳会談は“並び順に差はない”とされる“円卓”「3人が議論に集中したら誰も止められない」(関西テレビ)",
+        "summary": "きのう=18日から中国・深センで開かれているAPEC首脳会議。きょう=19日は史上初となる米中露首脳会談が行われる予定です。一方、日本の高市総理はプーチン大統領、そして習近平国家主席と接触しましたが、",
+        "pub_date": "11/19 19:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/9f47659c6dbc4ca7bdbbd24c093845efbbe92756?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「吐き気がするほどの激しい嫌悪感」　アーティスト作品の「政治利用」に株式会社嵐の代表が意見、嵐ファンも反応(J-CASTニュース)",
-        "summary": "「長年の血と涙と汗の結晶であるアーティストの名声や作品を、体制・反体制にかかわらず同意もなく政治的な活動に利用しようとする行為に対しては、吐き気がするほどの激しい嫌悪感を抱きます。あくまでも個人的な見",
-        "pub_date": "11/19 18:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/4afa2c97688582dcbf057968bc7ed94f10b38130?source=rss",
+        "title": "関文科大臣に「法的問題ないが説明を」高市総理　自民内から辞任不可避の見方も(テレビ朝日系（ANN）)",
+        "summary": "関文部科学大臣が政治資金パーティーに省庁の職員を招いていた問題を巡り、高市総理大臣は「法的に問題はないがしっかり説明すべき」と強調しました。高市総理大臣「法的に問題はないと考えておりますけれども、まず",
+        "pub_date": "11/19 19:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/19a00815b055d07a6bce139e1238b69162da79c2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "消費減税法案で公明が修正項目を提示へ　政府に対応求める方針　激変緩和措置など盛り込む(産経新聞)",
-        "summary": "公明党は19日の党会合で、消費税減税関連法案について修正項目をとりまとめ、近く提示する方針を決めた。詳細な内容は中野洋昌政調会長に一任した。これまでの審議を踏まえた修正項目を重ねて明示することで、政府",
-        "pub_date": "11/19 18:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/13e7d03fb9ae74931408424ba3de9638c2388ee5?source=rss",
+        "title": "宝飾店にスプレー男　ネックレス奪い逃走　店員2人けが　東京・町田市(テレビ朝日系（ANN）)",
+        "summary": "東京・町田市の宝石買い取り店でスプレーを噴射した男がネックレスを奪って逃走しました。 店員2人がけがをしているということです。 捜査関係者によりますと、19日午後4時20分ごろ、町田市の宝石買い取り店",
+        "pub_date": "11/19 19:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/46660326814c40c978213e285456f19860c7a513?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "三重･津市の前葉市長（64）が5期目を目指し出馬表明 駅前交通ターミナルの整備“バスタプロジェクト”推進を訴える 来年4月25日投開票の津市長選挙(CBCテレビ)",
-        "summary": "三重県津市の前葉泰幸市長が、5期目を目指し出馬表明です。前葉市長は11月19日の会見で、来年春の統一地方選挙で実施される津市長選挙への立候補を正式に表明しました。【写真を見る】三重･津市の前葉市長（6",
-        "pub_date": "11/19 18:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/8c7551a1694fb05f2830c3eb423bf8f1c0cc82a1?source=rss",
+        "title": "死亡の3歳女児、児童福祉施設職員に「パパこわい」 理由聞くと「ペチンする」(産経新聞)",
+        "summary": "兵庫県伊丹市の自宅で1月、有元徠音（らのん）ちゃん＝当時（3）＝が死亡し、傷害致死の疑いで父親の慎哉容疑者（29）が逮捕された事件で、事件前に児童福祉施設に入所していた徠音ちゃんが「パパ怖い」「ペチン",
+        "pub_date": "11/19 19:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/cf52b848bc8e7b15dc51eafc00257f1a6d4a2eba?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "≪コンカフェ店員殺害≫嫉妬して包丁の写真を送りつけ…生活保護受給しながら飲み歩いた“中野のニキ”「シャンパンいれたから家行っていい？」過去にも警察から警告か(集英社オンライン)",
-        "summary": "11月16日夜、東京都中野区の路上で青木七海さん（24）が包丁で首を刺されて死亡した事件。警視庁は18日、強盗殺人未遂容疑で緊急逮捕していた清武一則容疑者（39）について、容疑を強盗殺人に切り替えた。",
-        "pub_date": "11/19 18:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/4380c283e1cd35d55828e1872991880292c23574?source=rss",
+        "title": "農場で暴行か、町議を告訴　ミャンマー人男性、北海道京極町(共同通信)",
+        "summary": "北海道京極町の農業法人「MTアグリ」で働く特定技能のミャンマー人男女が暴力やセクハラを受けたと訴えている問題で、ミャンマー人男性（20）が19日、暴行と傷害の疑いで、農場を実質的に経営する京極町議の男",
+        "pub_date": "11/19 19:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/fbf2bb4b4cfc7fb50a548c6ac8441a59c875b831?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "金品窃盗目的で住宅侵入か 28歳男逮捕(ABEMA TIMES)",
+        "summary": "金品を盗む目的で住宅に侵入したなどとして28歳の男が逮捕されました。 男は事件前に現場周辺を自転車で徘徊していて、施錠されていない窓を見つけて侵入していました。【映像】連行される容疑者 会社員の對島伸",
+        "pub_date": "11/19 19:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/ac6391055cfdf6702a0c93379e6d8db3344b1559?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "厚労省 がん患者に再生医療など提供の「医療法人社団ICVS東京クリニック」に一時停止命令 患者に治療との関連が疑われる重篤な病気が複数発生したことを確認(ABEMA TIMES)",
+        "summary": "厚生労働省が公式ホームページで、「再生医療等の安全性の確保等に関する法律に基づく緊急命令」について発表しました。【映像】患者に治療との関連が疑われる重篤な病気が複数発生したことを確認「今般、再生医療等",
+        "pub_date": "11/19 19:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/a180d113ff7b64870d49de3173c7d6f8a21fc189?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 18:47:53 JST"
+    "last_updated": "2026-11-19 19:47:00 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -571,10 +571,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "Q74S2oZ12n8",
+        "video_id": "QMB0qahjcOI",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/Q74S2oZ12n8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Q74S2oZ12n8"
+        "embed_url": "https://www.youtube.com/embed/QMB0qahjcOI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=QMB0qahjcOI"
       },
       {
         "id": "stream_ntvnews",
@@ -582,10 +582,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "OTw-sRQbexA",
+        "video_id": "ZF9WfQoz47A",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/OTw-sRQbexA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=OTw-sRQbexA"
+        "embed_url": "https://www.youtube.com/embed/ZF9WfQoz47A?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=ZF9WfQoz47A"
       },
       {
         "id": "stream_annnews",

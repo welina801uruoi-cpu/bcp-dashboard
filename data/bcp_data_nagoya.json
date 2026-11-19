@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19 01:56:28",
+  "timestamp": "2026-11-19 02:41:28",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -84,11 +84,25 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-19 10:34",
+    "time": "2026-11-19 11:27",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.8",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-19 11:27",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-19 11:15",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.4",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-19 10:34",
         "place": "熊本県天草・芦北地方",
@@ -144,20 +158,6 @@
         "shindo": "1",
         "magnitude": "2.5",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 06:54",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.8",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 06:41",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "2.8",
-        "maxScale": 20
       }
     ]
   },
@@ -187,11 +187,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報",
+          "強風注意報",
           "雷注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -228,10 +228,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -271,15 +271,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東海道本線、信越本線、越後線）",
+    "text": "運行支障あり（在来線: 越後線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東海道本線、信越本線、越後線）",
+    "line_text": "運行支障あり（越後線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
-      "東海道本線",
-      "信越本線",
       "越後線"
     ],
     "troubled_shinkansen": [],
@@ -307,7 +305,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野・静岡で停電情報を検知",
+    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野で停電情報を検知",
     "water_msg": "名古屋市上下水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東邦ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -347,8 +345,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/19 02:15",
+          "text": "職場が電波終わってる() 絶対通信 START 障害 END やろってレベルやのに START au END ッパリが認めない"
+        },
         {
           "time": "11/19 00:24",
           "text": "書類をガサゴソ 出てきたのはこれ！ 大将が言ったのは 「一番最初にうっしーさんが言ってたよ、金払ってねえんじゃないすかって」 俺「そんなわけない、 START ..."
@@ -356,10 +358,6 @@
         {
           "time": "11/18 22:51",
           "text": "START au END ひかり マンションずっと通信 START 障害 END 食らってんだけど電話も18時までだから対応もしてもらえないし🥱"
-        },
-        {
-          "time": "11/18 14:08",
-          "text": "ドコモを卒業したい🍄電波悪い上に通信 START 障害 END 多すぎて、いざってときに助からない気がしてる。 START au END とソフトバンクならどち..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -396,16 +394,16 @@
       "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/19 01:57",
+          "text": "START au END 光契約したのに、 START 繋がらない END と思ったら 開通工事されてないって言われたんだけどwwwww は？？？ 俺の１週間返..."
+        },
+        {
           "time": "11/19 01:47",
           "text": "@Sufuchiru すふちるさま、こんにちは！povoサポートです。 START 繋がらない END のは困りますよね💦キャリア変更をご検討中でしたら、安定し..."
         },
         {
           "time": "11/19 01:38",
           "text": "@givemekin 突然のお声掛け失礼します、povoサポートです。屋外で START 繋がらない END ことが多いのですね😥もしよければ、安心の STAR..."
-        },
-        {
-          "time": "11/19 00:00",
-          "text": "START au END の私舞浜で START 繋がらない END こと多いけどYモバの友人サクサク繋がっててうらやましかったのはちゃんと対策してるからなんだ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -416,7 +414,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/19 00:57",
@@ -452,7 +450,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 7,
     "articles": [
       {
         "title": "熊本で最大震度5弱 一部の建物に被害も　住民からは不安の声(テレビ朝日系（ANN）)",
@@ -503,38 +501,6 @@
         "is_disaster": true
       },
       {
-        "title": "神奈川の2人死亡事故、トラック勤務先捜索(共同通信)",
-        "summary": "神奈川県海老名市で高齢女性2人がはねられ死亡した事故で、県警は19日、道交法違反などの疑いで逮捕したトラック運転手の相模原市緑区にある勤務先を家宅捜索した。勤務実態などを確認し、当時の状況を調べる。",
-        "pub_date": "11/19 09:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/85315042f87469c2921aa7bfd416b5be441db7fa?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "運転免許証返納で75歳以上にポイント付与　大阪・摂津市とJR西日本(産経新聞)",
-        "summary": "高齢ドライバーの交通事故が相次ぐ中、大阪府摂津市とJR西日本は12月1日から、運転免許証を自主返納した75歳以上の高齢者に、同社の「WESTERポイント」2000ポイント（2000円相当）を付与する取",
-        "pub_date": "11/19 09:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/8b2817ce6d2069206313b6c07525d4c524924147?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "首里城は、なぜ何度も建て直すの？ 再建からわかる沖縄の歴史(Yahoo!ニュース オリジナル THE PAGE)",
-        "summary": "沖縄の首里城が再建され、2026年11月22日に完成を祝う式典が開かれます。首里城は、これまでにも火災や戦争で失われ、そのたびに建て直されてきました。なぜ、何度も再建するのでしょうか。首里城は、昔の沖",
-        "pub_date": "11/19 09:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/f8138334989cfb4cedc603f5f3ecb3c2b8f53304?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【ニュースto】ナゼ？外来種のインコ“東京近郊”のみで大量繁殖　大きな鳴き声やフン被害に住民困惑(読売テレビ)",
-        "summary": "都心で外来種のインコが増殖し、数千羽の群れとなっている様子が目撃されました。住民からは、大きな鳴き声とフンの被害などを訴える声も上がっています。専門家は｢数は増えているが、首都圏の同じ場所で増えている",
-        "pub_date": "11/19 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/3b6596b080da0d29692b4fa24a8e8830fa998b71?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "2人死亡事故 容疑者勤務先を捜索",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/19 10:37 JST",
@@ -543,39 +509,71 @@
         "is_disaster": true
       },
       {
-        "title": "新宿・歌舞伎町の路上駐車 夜間初の一斉取り締まり　駐車違反で緊急車両通れず(テレビ朝日系（ANN）)",
-        "summary": "東京・歌舞伎町で客を待つハイヤーなどによる路上駐車が多いエリアで、警視庁が夜間帯では初めてとなる一斉取り締まりをしました。 警視庁は18日深夜から19日未明にかけて、客を待っていたハイヤーなど9件の駐",
-        "pub_date": "11/19 10:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/baad77e559302be0d3d3d8b5c23542f2ff1ef15c?source=rss",
+        "title": "【独自】”訪問介護”男性宅付近に放火し殺害しようとした疑い　介護職員 逮捕　警視庁(テレビ朝日系（ANN）)",
+        "summary": "都内で訪問介護をしていた50代の男性の自宅付近に火を放ち殺害しようとしたとして、38歳の介護職員の男が逮捕されました。男性は足に障害があり身動きがとれない状態でした。福田雄大記者「午前8時すぎです。警",
+        "pub_date": "11/19 11:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/4c4d3203c10c6289795ee06b03c40e0e76cc90fe?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "受刑者の選挙権制限に“合憲”判決も…最高裁15人全員が個別意見、6人が違憲・8人が“見直し”言及　「議論せず維持なら違憲」の警告も(弁護士JPニュース)",
-        "summary": "受刑者の選挙権を一律に制限する公職選挙法の規定が憲法に違反するかどうかが争われた訴訟で、最高裁判所大法廷（今崎幸彦裁判長）は11月18日、同規定は「憲法に違反しない」とする判決を言い渡した。【イラスト",
-        "pub_date": "11/19 10:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/be6965f37045fc64d43b760f1e440366e8969e9f?source=rss",
+        "title": "【独自】“訪問介護”男性宅付近に放火し殺害しようとした疑い　介護職員逮捕　警視庁(テレビ朝日系（ANN）)",
+        "summary": "都内で訪問介護をしていた50代の男性の自宅付近に火を放ち殺害しようとしたとして、38歳の介護職員男が逮捕されました。男性は足に障害があり、身動きがとれない状態でした。 介護職員の矢島隆容疑者は10月1",
+        "pub_date": "11/19 11:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/8f46dcdccd436d7035f816c61871ecdd01472758?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "SAGAアリーナ“知事の隠し部屋”報道で県議が視察も安全確保理由に撮影認めず　室内には有名アーティストのサインや酒(FNNプライムオンライン)",
-        "summary": "「SAGAアリーナに知事の隠し部屋がある」との週刊誌報道を受け県議が現場を視察。室内には有名アーティストのサインや酒が置かれているのを確認したが、県は動線の安全確保などを理由に撮影を認めなかった。【画",
-        "pub_date": "11/19 10:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/c729a49653682db7b68c75ac6ef8bc2f38313430?source=rss",
+        "title": "栃木強殺、勧誘役高校生に有罪　逮捕者判決は初、執行猶予付き(共同通信)",
+        "summary": "栃木県上三川町の強盗殺人事件で、実行役とされる少年4人のうち1人を勧誘したとして、職業安定法違反（有害業務目的紹介）の罪に問われた相模原市の高校生の男（18）に、宇都宮地裁（高島由美子裁判長）は19日",
+        "pub_date": "11/19 11:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/5eedabd624aafed56a15b6230710590d13ca1bf0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "政府、陰謀論系配信者の過去発言確認せず(共同通信)",
-        "summary": "内閣府の原典久政府広報室長は19日の参院外交防衛委員会で、陰謀論を扱うユーチューバーの政府広報への起用を巡り、出演者の過去の発言を政府として全て確認していないと明らかにした。",
-        "pub_date": "11/19 10:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/62d024f47a922e325cd1a52298adcd3478294ed4?source=rss",
+        "title": "日本保守党が党大会　百田代表、衆院選惨敗を謝罪「高市旋風」も…「根はやられていない」(産経新聞)",
+        "summary": "日本保守党は18日、東京都内で第2回党大会を開いた。百田尚樹代表は、島田洋一前衆院議員を落選させ、議席ゼロに終わった2月の衆院選について、「高市旋風が吹き荒れ、われわれも暴風に巻き込まれ、残念ながら、",
+        "pub_date": "11/19 11:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/1249fa12e815de3ec09c6f7f5550b194cd13d195?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【生出演】広島初の女性知事・横田美香氏は何を語る!? 就任1年　カキ大量死、転出超過、新アリーナ… 課題にどう向き合うか…(FNNプライムオンライン)",
+        "summary": "去年11月。【湯崎前知事】「新たな知事の誕生であります」16年ぶりのトップ交代。県政史上初の女性知事が誕生しました。【横田美香知事】「もっともっと魅力ある広島県に、人を引き付けるような広島県にしていき",
+        "pub_date": "11/19 11:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/9bf3472444f568dfccd315cb11a6c90e1716039c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "首都圏連続強盗、無期懲役を求刑　横浜の実行役、住人男性死亡(共同通信)",
+        "summary": "首都圏連続強盗のうち、横浜市青葉区の住宅で2024年、住人の70代男性を暴行して死亡させ現金を奪った実行役として、強盗致死などの罪に問われた宝田真月被告（24）の裁判員裁判が19日、横浜地裁で開かれ、",
+        "pub_date": "11/19 11:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/c0cb0b31601f9b55c6b1d317d135fb401458fe5a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「レジ打ちは働かされてるみたい」“セルフレジ論争”SNSで勃発…スーパー「アキダイ」秋葉社長が“あえて”導入しないワケとは？慶應大教授と考える(ABEMA TIMES)",
+        "summary": "人手不足対策や省力化を背景に、セルフレジの導入が急速に進んでいる。一方で、複雑な操作や店舗ごとに異なる仕様に戸惑う利用者も少なくなく、あえて導入を見送る店舗もあるなど、その是非をめぐり議論が交わされて",
+        "pub_date": "11/19 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/8c3d0186e3aec51c6193fe60bf8d3d51e7da0326?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "推しや恋人が“メロい”ってどんな感覚？「かっこいいとは違う」15万いいね“かなりメロ”投稿きっかけにSNSで議論…コラムニストが指摘「韓国ドラマはすごく『メロ』を意識している」(ABEMA TIMES)",
+        "summary": "最近よく耳にする流行語「メロい」。ニュース番組『わたしとニュース』では、推しや恋人、さらにはペットに対しても使われるこの「メロい」という言葉の定義や背景にある感情について、街頭インタビューやSNSの反",
+        "pub_date": "11/19 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/a53e9ede8e760307cdcb4efcced146032d7282cd?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 10:55:39 JST"
+    "last_updated": "2026-11-19 11:40:41 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -607,10 +605,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "Vm1twxxR94w",
+        "video_id": "plI1fwvrHQY",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/Vm1twxxR94w?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Vm1twxxR94w"
+        "embed_url": "https://www.youtube.com/embed/plI1fwvrHQY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=plI1fwvrHQY"
       },
       {
         "id": "stream_ntvnews",

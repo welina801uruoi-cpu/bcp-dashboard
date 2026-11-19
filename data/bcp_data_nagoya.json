@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18 23:32:48",
+  "timestamp": "2026-11-19 00:32:10",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -84,11 +84,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-19 07:14",
+    "time": "2026-11-19 09:05",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.3",
+    "magnitude": "2.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-19 09:05",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.5",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-19 07:14",
         "place": "熊本県天草・芦北地方",
@@ -151,13 +158,6 @@
         "shindo": "1",
         "magnitude": "2.5",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-19 04:38",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.5",
-        "maxScale": 10
       }
     ]
   },
@@ -188,10 +188,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -271,16 +271,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 中央本線、信越本線、越後線）",
+    "text": "運行支障あり（在来線: 東海道本線、信越本線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（中央本線、信越本線、越後線）",
+    "line_text": "運行支障あり（東海道本線、信越本線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
-      "中央本線",
-      "信越本線",
-      "越後線"
+      "東海道本線",
+      "信越本線"
     ],
     "troubled_shinkansen": [],
     "shinkansen_details": [
@@ -307,7 +306,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野で停電情報を検知",
+    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野・静岡で停電情報を検知",
     "water_msg": "名古屋市上下水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東邦ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -350,16 +349,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/19 00:24",
+          "text": "書類をガサゴソ 出てきたのはこれ！ 大将が言ったのは 「一番最初にうっしーさんが言ってたよ、金払ってねえんじゃないすかって」 俺「そんなわけない、 START ..."
+        },
+        {
           "time": "11/18 22:51",
           "text": "START au END ひかり マンションずっと通信 START 障害 END 食らってんだけど電話も18時までだから対応もしてもらえないし🥱"
         },
         {
           "time": "11/18 14:08",
           "text": "ドコモを卒業したい🍄電波悪い上に通信 START 障害 END 多すぎて、いざってときに助からない気がしてる。 START au END とソフトバンクならどち..."
-        },
-        {
-          "time": "11/18 12:54",
-          "text": "21:53 START au END 電波 START 障害 END ？ いきなり📶無くなって文字消えて 通信アプリ落ちた(>_>)"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -393,8 +392,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/19 00:00",
+          "text": "START au END の私舞浜で START 繋がらない END こと多いけどYモバの友人サクサク繋がっててうらやましかったのはちゃんと対策してるからなんだ..."
+        },
         {
           "time": "11/18 18:04",
           "text": "START au END だとビックサンダーマウンテンのQラインは電波 START 繋がらない END が、ドコモはかろうじて繋がる docomoのいい所はその..."
@@ -402,10 +405,6 @@
         {
           "time": "11/18 16:09",
           "text": "楽天モバイル持っているんだが、 START au END とのローミングが一部地域で無くなり、回線がクソになってる。 自宅ではポケットWi-Fi普通に使えてはい..."
-        },
-        {
-          "time": "11/18 13:37",
-          "text": "あらやだ、懐かしい！ スマートフォンが完全普及した2026年末に、あえて電話専用機（4Gガラケー相当）を展開するとは思い切ったね。 SIMフリー端末としての販売..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -455,6 +454,14 @@
     "disaster_count": 4,
     "articles": [
       {
+        "title": "首里城は、なぜ何度も建て直すの？ 再建からわかる沖縄の歴史(Yahoo!ニュース オリジナル THE PAGE)",
+        "summary": "沖縄の首里城が再建され、2026年11月22日に完成を祝う式典が開かれます。首里城は、これまでにも火災や戦争で失われ、そのたびに建て直されてきました。なぜ、何度も再建するのでしょうか。首里城は、昔の沖",
+        "pub_date": "11/19 09:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/f8138334989cfb4cedc603f5f3ecb3c2b8f53304?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "【ニュースto】ナゼ？外来種のインコ“東京近郊”のみで大量繁殖　大きな鳴き声やフン被害に住民困惑(読売テレビ)",
         "summary": "都心で外来種のインコが増殖し、数千羽の群れとなっている様子が目撃されました。住民からは、大きな鳴き声とフンの被害などを訴える声も上がっています。専門家は｢数は増えているが、首都圏の同じ場所で増えている",
         "pub_date": "11/19 08:00 JST",
@@ -479,103 +486,95 @@
         "is_disaster": true
       },
       {
-        "title": "熊本県で震度5弱 津波の心配なし",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/19 02:27 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6603094?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "あなたの「行けた」が誰かの「行きたい」に。障害の有無を超えてつくるバリアフリーマップ「WheeLog!」とは(日本財団ジャーナル)",
-        "summary": "車いすで外出する人にとって、外出先に「エレベーターがある」「多目的トイレがある」という情報だけでは、安心して出かけるための判断材料として十分ではありません。実際に通ることができた道や入口の大きさ、トイ",
-        "pub_date": "11/19 08:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/4822c3d7118bdf42b8a0c726a8f79a4dfd8eb8bc?source=rss",
+        "title": "自衛官を農業〝担い手〟に　静岡県が育成プロジェクト　退職予定者の就農支援(日本農業新聞)",
+        "summary": "静岡県は「地域の担い手育成プロジェクト」を展開し、社会人を対象にした担い手確保に取り組む。対象の一つが退職予定自衛官。自衛隊と連携し、農業経営体の求人情報を収集し、退職予定自衛官の就農へつなげる。農業",
+        "pub_date": "11/19 09:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/66587b3822cdd0f4e46db6437160991014bbc47d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「スリスリするくらいならいいじゃん」初公判で明らかに…ボビー・オロゴン被告「不同意性交等」の中身(FRIDAY)",
-        "summary": "「(起訴内容に)違うところはありますか」「ノー(ありません)」証言台に座ったボビー・オロゴン(本名・近田ボビー)被告(60)がこう答えると、数名の記者が法廷を飛び出していった──。【衝撃写真】「まるで",
-        "pub_date": "11/19 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/bce1eee73339506e73d2358b1c332689a2a5507d?source=rss",
+        "title": "“ルフィ事件”裁判 グループトップが実行役を勧誘(ABEMA TIMES)",
+        "summary": "“ルフィ”などと名乗るグループによる事件の裁判で、検察側は、グループトップの男が強盗致死事件で、実行役にアプリで勧誘などの連絡をしていたと明らかにしました。【映像】連行される容疑者の様子 「ルフィグル",
+        "pub_date": "11/19 09:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/ae5882c092b9796e2d9e4c86d79548c9561d753b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【遺体なき事件】妻の死亡をどう裏付けた？母親が大切に保管していた「へその緒」と血液鑑定の仕組み 元科捜研が解説(ABEMA TIMES)",
-        "summary": "2026年8月19日、大阪地裁で初公判が行われた事件。起訴状などによると、黒木佳史被告（36）は2024年5月26日ごろ、大阪市の自宅で妻のいずみさん（当時52）に何らかの暴行を加えて死亡させたとされ",
-        "pub_date": "11/19 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/da7319e1cdf1591713fd2da6f13ff2c21f627623?source=rss",
+        "title": "首相、プーチン氏に拘束記者の早期解放要求(共同通信)",
+        "summary": "高市早苗首相がロシアのプーチン大統領との対話で、ロシア当局が拘束した北海道新聞記者の早期解放と、日本たばこ産業（JT）のロシア事業を事実上接収する措置の撤回を求めたことが分かった。日本政府関係者が19",
+        "pub_date": "11/19 09:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/56cc894a7ced289822cc4822e2047fbdc7bff708?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「こんなお遊びをしないで…」農水省の公式Xに“昆布人間”が登場も批判続出、背景にあった“深刻問題”(週刊女性PRIME)",
-        "summary": "《履歴書を作成しました。どうかご縁がありますように。。11月15日は ＃昆布の日》【写真】ツッコミどころ満載、“昆布人間”の履歴書 という文章とともに、頭部が昆布でスーツ姿の人物の証明写真と、昆布が書",
-        "pub_date": "11/19 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/cb66cf1ad0a0af64b3916a7191d680ef9a51a14e?source=rss",
+        "title": "麓から5合目結ぶ「富士トラム」基本計画が発表(ABEMA TIMES)",
+        "summary": "富士山の麓から5合目を結ぶ新交通システム、「富士トラム」の基本計画が発表されました。【映像】富士山麓と5合目を結ぶ「富士トラム」の基本計画 将来的に、リニア中央新幹線の駅との接続も目指しています。 「",
+        "pub_date": "11/19 09:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/609b2efb784d2aaf624a78c4940cdabda7506f18?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "高市早苗首相、プーチン氏との対話実現　狙いはロシアによる対日圧力への歯止め　(産経新聞)",
-        "summary": "高市早苗首相が訪問先の中国・深圳（しんせん）で18日夜（日本時間同）、ロシアのプーチン露大統領との対話に踏み切ったのは、プーチン氏による北方領土の択捉（えとろふ）島訪問や、北海道新聞の今井裕紀記者の拘",
-        "pub_date": "11/19 07:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/78b49350d84d55eb19749064e0d637a3aa7f63a2?source=rss",
+        "title": "ボージョレ・ヌーボー解禁 例年より濃厚な味わいに(ABEMA TIMES)",
+        "summary": "今年のボージョレ・ヌーボーが解禁されました。例年よりも、濃厚な味わいになっているということです。【映像】ボージョレ・ヌーボー解禁 カウントダウンイベントの様子 ボージョレ・ヌーボーは、フランスのボージ",
+        "pub_date": "11/19 09:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/e6b43e84b847e7901f7fcbedbe1c77160b4668a1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "斎藤知事・神戸マラソンでの抗議活動に苦言「表現の自由は尊重、行事の趣旨には配慮を」(Yahoo!ニュース オリジナル THE PAGE)",
-        "summary": "兵庫県の斎藤元彦知事は18日、県庁で定例記者会見を行い、先日行われた神戸マラソンなど県主催行事で行われた抗議活動について、「表現の自由は尊重されるべき」としながらも、参加者や周辺住民への配慮を求めた。",
-        "pub_date": "11/19 07:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/c0a2c58da35e8fa3f23d71b8e296e64c57cecfca?source=rss",
+        "title": "「日本版DBS」システムに脆弱性みつかる(ABEMA TIMES)",
+        "summary": "来月25日からスタートする「日本版DBS」について、事業者などが人事の手続きに使用するシステムで脆弱性が見つかりました。法律の施行日でのシステムの稼働を断念し、代替手段を検討しています。【映像】「日本",
+        "pub_date": "11/19 09:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/a354926c5dff03e052bb4fdafce032144d9ce94e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "一度は不起訴も…遺族の申し立てきっかけに起訴　“てんかん”発作で車暴走・22歳の女性を死亡させたなど危険運転致死傷罪で女に懲役5年の実刑判決　遺骨はまだ自宅に…遺族が迎えた「区切り」(FNNプライムオンライン)",
-        "summary": "和歌山市で、持病のてんかんによる発作で車を暴走させ、3人を死傷させた罪に問われた女に懲役5年の実刑判決が言い渡された。女は一度不起訴となったものの、遺族が検察審査会に申し立て、検察の再捜査を経て起訴さ",
-        "pub_date": "11/19 07:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/2835ffbd4a7ea4fb3dc1f7a27dea551bf21f44f8?source=rss",
+        "title": "東京・葛飾 都営住宅で火事 男性1人が死亡(ABEMA TIMES)",
+        "summary": "東京・葛飾区の都営住宅で火事があり、男性1人が死亡しました。 警察などによりますと、きのう午後11時前、葛飾区西亀有にある7階建ての都営住宅から「火が噴き出している」などと119番通報が相次ぎました。",
+        "pub_date": "11/19 09:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/5b1e83c05bffe0f00b6108c1de21c7930c2f532b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ルフィ事件裁判　グループトップが実行役を勧誘(テレビ朝日系（ANN）)",
-        "summary": "“ルフィ”などと名乗るグループによる事件の裁判で、検察側はグループトップの男が強盗致死事件で実行役にアプリで勧誘などの連絡をしていたと明らかにしました。 「ルフィグループ」のトップ・渡邉優樹被告（42",
-        "pub_date": "11/19 07:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/d347ec0f67eb339980ac08856fef9468f0cfc499?source=rss",
+        "title": "宇野千代に離婚を切り出されても責めず､追わず…エリート銀行員で終わらなかった\"2番目の夫\"のその後(プレジデントオンライン)",
+        "summary": "NHK「ブラッサム」では、珠(石橋静河)が作家を仕事にする覚悟を決め、夫の保(金子大地)に離婚を切り出すシーンが描かれた。モデルとなった宇野千代も、史実では札幌時代の夫と離婚している。残された夫は、そ",
+        "pub_date": "11/19 09:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/0cdf8fcfdafd622465460855d941efcc7ff035c3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "北海道の農業系ユーチューバー人気　農家目線で「大型農機を使ってみた」(日本農業新聞)",
-        "summary": "北海道音更町の畑作農家・杉山智省さん（45）は、「農業系ユーチューバー」として、さまざまな農業機械や作業機を使う様子を動画で発信している。「杉山農場」のチャンネルを2007年に開設し、累計投稿本数は7",
-        "pub_date": "11/19 07:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/96fb5513b26f6653e1451918eade6eba8efc8cae?source=rss",
+        "title": "「木綿のハンカチーフ」大ヒット 歌手の太田裕美さん（71）死去(ABEMA TIMES)",
+        "summary": "大ヒット曲「木綿のハンカチーフ」で知られる歌手の太田裕美さん（71）が亡くなったことが分かりました。71歳でした。【映像】歌手の太田裕美さん死去 関係者によりますと、太田さんは、今月12日に亡くなった",
+        "pub_date": "11/19 09:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/8195cc2a8d4ee2a7c7098e6363aba72187c02952?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【動画】19日の天気 - 日本海側で荒天へ　雪エリア拡大　東京は20℃予想で日中は気温高め（19日7時更新）(ウェザーマップ)",
-        "summary": "きょう(木)は日本海側を中心に非常に強い風が吹きそうです。日本海側では、雪が吹雪いたり、雨が横なぐりに降ったりしそうで、荒れた天気になるでしょう。また、冬の厳しい寒さになるところが多い一方で、関東はカ",
-        "pub_date": "11/19 07:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/98f177b1219d19049f65ffa45e941f2b909ea88c?source=rss",
+        "title": "【社説】国際男性デー　男らしさの重圧手放して(西日本新聞me)",
+        "summary": "19日は国際男性デー。男性の心身の健康や生きづらさに目を向け、ジェンダー平等について考える日である。 男なら〇〇すべきだ。○○は男がやることだ－。家庭や職場で、こうした考えに縛られていないだろうか。",
+        "pub_date": "11/19 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/714931c0df5a0e4b597c82123e539953b21287ff?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "成功の証でも見栄でもない…宇野千代が\"億単位の豪邸\"を建てた背景に｢夫の浮気と隠し子｣という屈辱(プレジデントオンライン)",
-        "summary": "戦後、雑誌『スタイル』で成功した宇野千代は、昼は働き、夜は酒と密着ダンスで享楽する日々を送っていた。そんなある日、銀座木挽町に日本一といわれる豪邸を建てる。その動機は心に生じた大きな空白を埋めるためだ",
-        "pub_date": "11/19 07:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/b8b97c9132d01b0cd0b54ec498e9de2f5c201e24?source=rss",
+        "title": "再婚相手の娘にガソリンを浴びせて焼殺した容疑…78歳の男を追いつめた義家族関係の“危うさ”(FRIDAY)",
+        "summary": "一気に真冬の気候となり、吐く息が白くなった11月15日の朝8時30分過ぎ。警視庁蒲田署から姿を現したのは、大田区羽田の会社員・関誠容疑者(78)だった。陽の光に眩しそうに目を細め、ぼんやりと前を見てい",
+        "pub_date": "11/19 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/c6dea784c6ddbe4edbeb0d2ae1d4ec4a73104d9d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-19 08:32:10 JST"
+    "last_updated": "2026-11-19 09:31:19 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -618,10 +617,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "fJ-KeZ4BBME",
+        "video_id": "H_k94f_UTYE",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/fJ-KeZ4BBME?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=fJ-KeZ4BBME"
+        "embed_url": "https://www.youtube.com/embed/H_k94f_UTYE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=H_k94f_UTYE"
       },
       {
         "id": "stream_annnews",

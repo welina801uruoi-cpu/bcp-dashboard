@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-20 22:56:28",
-  "timestamp_local": "2026-11-20 15:56:28",
+  "timestamp": "2026-11-20 23:44:23",
+  "timestamp_local": "2026-11-20 16:44:23",
   "country": {
     "id": "france",
     "name": "フランス",
@@ -482,6 +482,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "トランプ大統領「歴史的訪問」　欧州は懐疑的…米中ロ会談の成果に“温度差”(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/f3af2c23daa989150a3a6e62fff8fd7e0a53aeb0?source=rss",
+        "description": "史上初の米中ロ首脳会談から一夜。当事者たちは、成果を自画自賛しています。帰国したトランプ大統領。アメリカ トランプ大統領「あす正午に記者会見を行う。歴史的訪問だった」NBCの取材には「10点満点で12",
+        "pub_date": "11/20 23:42 JST",
+        "is_priority": true
+      },
+      {
         "title": "ミャンマー大統領府が会見　スーチー氏に言及　釈放について「理由があれば検討」(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/1ce44b7a591674887e6911277b3335d78cf3d586?source=rss",
         "description": "実質的な国軍支配の続くミャンマーで、大統領府の会見が開かれ、軟禁が続くアウンサンスーチー氏（81）の釈放について、報道官は「考慮すべき理由があれば検討される」と述べました。 20日午後、首都ネピドーで",
@@ -612,13 +619,6 @@
         "link": "https://news.yahoo.co.jp/articles/ebead767f0666d8e7588b889c67fae44bd2a7956?source=rss",
         "description": "史上初の3カ国会談を世界はどう見たのか。「友達の友達」は、友達なのでしょうか。【画像】「新たなヤルタ会談」という批判に対して…プーチン大統領の回答",
         "pub_date": "11/20 20:15 JST",
-        "is_priority": false
-      },
-      {
-        "title": "米中ロ首脳会談 中国紙「国際関係史の節目」(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/1b25e69672b6279ba395cd4376fd14885ba4eeb0?source=rss",
-        "description": "史上初となった米中ロ首脳会談について中国共産党系の機関紙は、「国際関係史における重要な節目だ」と成果をアピールし、台湾問題をめぐっても意義を強調しています。【映像】米中ロ首脳会談について取り上げた中国",
-        "pub_date": "11/20 19:42 JST",
         "is_priority": false
       }
     ],
@@ -755,32 +755,32 @@
     "default_channel_id": "stream_france24_fr"
   },
   "forex": {
-    "timestamp": "11/20 22:56 JST",
+    "timestamp": "11/20 23:44 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.71,
-      "change": -0.68,
-      "change_pct": -0.42,
+      "rate": 158.79,
+      "change": -0.59,
+      "change_pct": -0.37,
       "direction": "down"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.43,
-      "change": -0.43,
-      "change_pct": -0.25,
+      "rate": 174.4,
+      "change": -0.47,
+      "change_pct": -0.27,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.43,
-      "change": -0.43,
-      "change_pct": -0.25
+      "rate": 174.4,
+      "change": -0.47,
+      "change_pct": -0.27
     }
   },
   "airports": [
@@ -838,14 +838,14 @@
         "is_capital": true,
         "lat": 48.8566,
         "lon": 2.3522,
-        "temp": 12.5,
-        "apparent_temp": 8.6,
-        "humidity": 74,
-        "wind_speed": 22.6,
-        "wind_gusts": 59.0,
-        "precipitation": 0.1,
-        "weather_code": 80,
-        "weather_label": "🌧️ にわか雨 (弱)",
+        "temp": 12.4,
+        "apparent_temp": 9.2,
+        "humidity": 75,
+        "wind_speed": 18.8,
+        "wind_gusts": 42.1,
+        "precipitation": 0.0,
+        "weather_code": 61,
+        "weather_label": "🌧️ 雨 (小雨)",
         "forecast": [
           {
             "date": "11/20(金)",
@@ -872,10 +872,10 @@
             "precipitation_mm": 6.3
           }
         ],
-        "alert": "強風・大雨注意報",
-        "alert_badge": "🟠 気象注意報",
-        "alert_class": "orange",
-        "alert_desc": "強風（突風59.0km/h）または強い雨。移動・屋外行動に注意"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "ニース (南部・コートダジュール)",
@@ -883,11 +883,11 @@
         "is_capital": false,
         "lat": 43.7102,
         "lon": 7.262,
-        "temp": 19.3,
-        "apparent_temp": 15.3,
-        "humidity": 32,
-        "wind_speed": 15.1,
-        "wind_gusts": 29.5,
+        "temp": 18.8,
+        "apparent_temp": 15.2,
+        "humidity": 33,
+        "wind_speed": 12.8,
+        "wind_gusts": 27.4,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -928,11 +928,11 @@
         "is_capital": false,
         "lat": 45.764,
         "lon": 4.8357,
-        "temp": 14.1,
-        "apparent_temp": 11.0,
-        "humidity": 58,
-        "wind_speed": 14.5,
-        "wind_gusts": 34.9,
+        "temp": 13.7,
+        "apparent_temp": 10.8,
+        "humidity": 61,
+        "wind_speed": 13.6,
+        "wind_gusts": 31.0,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -974,14 +974,14 @@
       "is_capital": true,
       "lat": 48.8566,
       "lon": 2.3522,
-      "temp": 12.5,
-      "apparent_temp": 8.6,
-      "humidity": 74,
-      "wind_speed": 22.6,
-      "wind_gusts": 59.0,
-      "precipitation": 0.1,
-      "weather_code": 80,
-      "weather_label": "🌧️ にわか雨 (弱)",
+      "temp": 12.4,
+      "apparent_temp": 9.2,
+      "humidity": 75,
+      "wind_speed": 18.8,
+      "wind_gusts": 42.1,
+      "precipitation": 0.0,
+      "weather_code": 61,
+      "weather_label": "🌧️ 雨 (小雨)",
       "forecast": [
         {
           "date": "11/20(金)",
@@ -1008,12 +1008,12 @@
           "precipitation_mm": 6.3
         }
       ],
-      "alert": "強風・大雨注意報",
-      "alert_badge": "🟠 気象注意報",
-      "alert_class": "orange",
-      "alert_desc": "強風（突風59.0km/h）または強い雨。移動・屋外行動に注意"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/20 22:56 JST"
+    "timestamp": "11/20 23:44 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1095,7 +1095,7 @@
         "details": "パリ・シャルル・ド・ゴール空港および主要ターミナル発着便は平常運行中"
       }
     ],
-    "timestamp": "11/20 22:56 JST"
+    "timestamp": "11/20 23:44 JST"
   },
   "lifeline": {
     "status": "NORMAL",

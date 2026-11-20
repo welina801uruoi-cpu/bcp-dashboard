@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20 19:41:07",
+  "timestamp": "2026-11-20 20:27:17",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -62,11 +62,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-21 04:01",
+    "time": "2026-11-21 04:43",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.2",
+    "magnitude": "2.8",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-21 04:43",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.8",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-21 04:01",
         "place": "熊本県天草・芦北地方",
@@ -129,13 +136,6 @@
         "shindo": "1",
         "magnitude": "2.2",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-20 16:31",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.6",
-        "maxScale": 10
       }
     ]
   },
@@ -165,12 +165,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
-          "風雪注意報",
           "波浪注意報",
-          "雷注意報"
+          "着雪注意報",
+          "雷注意報",
+          "風雪注意報"
         ],
-        "summary": "着雪注意報、風雪注意報、波浪注意報、雷注意報",
+        "summary": "波浪注意報、着雪注意報、雷注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -181,14 +181,14 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "大雪注意報",
           "着雪注意報",
           "なだれ注意報",
+          "波浪注意報",
           "雷注意報",
-          "風雪注意報",
-          "大雪注意報"
+          "風雪注意報"
         ],
-        "summary": "波浪注意報、着雪注意報、なだれ注意報、雷注意報、風雪注意報、大雪注意報",
+        "summary": "大雪注意報、着雪注意報、なだれ注意報、波浪注意報、雷注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -199,12 +199,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "着雪注意報",
           "波浪注意報",
-          "強風注意報",
           "雷注意報"
         ],
-        "summary": "着雪注意報、波浪注意報、強風注意報、雷注意報",
+        "summary": "強風注意報、着雪注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -216,12 +216,12 @@
         "warns": [],
         "notices": [
           "着雪注意報",
+          "波浪注意報",
           "強風注意報",
           "雷注意報",
-          "風雪注意報",
-          "波浪注意報"
+          "風雪注意報"
         ],
-        "summary": "着雪注意報、強風注意報、雷注意報、風雪注意報、波浪注意報",
+        "summary": "着雪注意報、波浪注意報、強風注意報、雷注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -398,17 +398,17 @@
     "status": "NORMAL",
     "office": "札幌管区気象台",
     "target_area": "石狩・空知・後志地方",
-    "report_time": "11/20 16:41",
+    "report_time": "11/21 04:47",
     "headline": "",
-    "text": "　北海道付近は、２０日から２１日にかけて冬型の気圧配置が続きますが、２０日夜から２１日朝にかけて気圧の谷が通過する見込みです。このため、２１日にかけて気圧の傾きが大きく、大気の状態が不安定でしょう。\n\n　石狩・空知・後志地方の２０日１５時の天気は、雪または曇りとなっています。\n\n　２０日夜は、雪で、雷を伴う所があるでしょう。\n\n　２１日は、雪時々曇りでふぶき、雷を伴う所がある見込みです。\n\n　海の波の高さは、２０日夜は５メートルとしけるでしょう。２１日は５メートルとしけ、のち２メートルの見込みです。",
+    "text": "　北海道付近は、２１日は冬型の気圧配置が次第に緩み、２２日にかけて気圧の谷の中となる見込みです。このため、２１日は気圧の傾きが大きく、大気の状態が不安定でしょう。\n\n　石狩・空知・後志地方の２１日３時の天気は、雪となっています。\n\n　２１日は、雪でふぶき、時々曇りで、雷を伴う所があるでしょう。\n\n　２２日は、曇り一時雪の見込みです。\n\n　海の波の高さは、２１日は５メートルとしけ、のち２メートルでしょう。２２日は２メートルとやや高い見込みです。",
     "paragraphs": [
-      "北海道付近は、２０日から２１日にかけて冬型の気圧配置が続きますが、２０日夜から２１日朝にかけて気圧の谷が通過する見込みです。このため、２１日にかけて気圧の傾きが大きく、大気の状態が不安定でしょう。",
-      "石狩・空知・後志地方の２０日１５時の天気は、雪または曇りとなっています。",
-      "２０日夜は、雪で、雷を伴う所があるでしょう。",
-      "２１日は、雪時々曇りでふぶき、雷を伴う所がある見込みです。",
-      "海の波の高さは、２０日夜は５メートルとしけるでしょう。２１日は５メートルとしけ、のち２メートルの見込みです。"
+      "北海道付近は、２１日は冬型の気圧配置が次第に緩み、２２日にかけて気圧の谷の中となる見込みです。このため、２１日は気圧の傾きが大きく、大気の状態が不安定でしょう。",
+      "石狩・空知・後志地方の２１日３時の天気は、雪となっています。",
+      "２１日は、雪でふぶき、時々曇りで、雷を伴う所があるでしょう。",
+      "２２日は、曇り一時雪の見込みです。",
+      "海の波の高さは、２１日は５メートルとしけ、のち２メートルでしょう。２２日は２メートルとやや高い見込みです。"
     ],
-    "summary": "北海道付近は、２０日から２１日にかけて冬型の気圧配置が続きますが、２０日夜から２１日朝にかけて気圧の谷が通過する見込みです。このため、２１日にかけて気圧の傾きが...",
+    "summary": "北海道付近は、２１日は冬型の気圧配置が次第に緩み、２２日にかけて気圧の谷の中となる見込みです。このため、２１日は気圧の傾きが大きく、大気の状態が不安定でしょう。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=016000"
   },
   "disaster_news": {
@@ -536,7 +536,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-21 04:41:04 JST"
+    "last_updated": "2026-11-21 05:27:14 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -568,10 +568,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "JFVJmv8Hvc4",
+        "video_id": "CvJAk1xNNpM",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/JFVJmv8Hvc4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=JFVJmv8Hvc4"
+        "embed_url": "https://www.youtube.com/embed/CvJAk1xNNpM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=CvJAk1xNNpM"
       },
       {
         "id": "stream_ntvnews",
@@ -579,10 +579,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "BrsdCqnhgeo",
+        "video_id": "OtMQoCQXVr0",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/BrsdCqnhgeo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=BrsdCqnhgeo"
+        "embed_url": "https://www.youtube.com/embed/OtMQoCQXVr0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=OtMQoCQXVr0"
       },
       {
         "id": "stream_annnews",
@@ -590,10 +590,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "xzEKKAgdtm8",
+        "video_id": "wRjlqq4psCo",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/xzEKKAgdtm8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=xzEKKAgdtm8"
+        "embed_url": "https://www.youtube.com/embed/wRjlqq4psCo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=wRjlqq4psCo"
       },
       {
         "id": "stream_fnnnews",

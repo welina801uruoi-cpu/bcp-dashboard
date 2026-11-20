@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20 19:40:25",
+  "timestamp": "2026-11-20 20:26:37",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -91,11 +91,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-21 04:01",
+    "time": "2026-11-21 04:43",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.2",
+    "magnitude": "2.8",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-21 04:43",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.8",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-21 04:01",
         "place": "熊本県天草・芦北地方",
@@ -158,13 +165,6 @@
         "shindo": "1",
         "magnitude": "2.2",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-20 16:31",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.6",
-        "maxScale": 10
       }
     ]
   },
@@ -180,10 +180,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 5地域】大阪、兵庫、京都、滋賀、和歌山（警報なし）",
+    "summary": "【注意報発表: 4地域】大阪、兵庫、京都、滋賀（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 5,
+    "notice_count": 4,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -207,12 +207,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
           "乾燥注意報",
+          "波浪注意報",
           "雷注意報"
         ],
-        "summary": "波浪注意報、強風注意報、乾燥注意報、雷注意報",
+        "summary": "強風注意報、乾燥注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -223,11 +223,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "強風注意報",
+          "波浪注意報",
           "雷注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -238,10 +238,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
+          "乾燥注意報",
           "雷注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "乾燥注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/25/"
       },
       {
@@ -259,13 +259,11 @@
         "code": "30",
         "name": "和歌山県",
         "short_name": "和歌山",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "強風注意報"
-        ],
-        "summary": "強風注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       }
     ]
@@ -301,7 +299,7 @@
         "name": "山陽新幹線",
         "status": "ALERT",
         "state": "その他",
-        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月20日 5時0分掲載）",
+        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月21日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       }
     ],
@@ -451,18 +449,18 @@
     "status": "NORMAL",
     "office": "大阪管区気象台",
     "target_area": "大阪府",
-    "report_time": "11/20 16:41",
+    "report_time": "11/21 04:44",
     "headline": "",
-    "text": "　大阪府は、高気圧に覆われておおむね晴れています。\n\n　２０日の大阪府は、高気圧に覆われておおむね晴れるでしょう。\n\n　２１日の大阪府は、高気圧に覆われて晴れますが、夕方からは寒気や湿った空気の影響で曇り、夜のはじめ頃は雨が降る見込みです。\n\n【近畿地方】　\n　近畿地方は、寒気や湿った空気の影響でおおむね曇り、雷を伴って雨や雪の降っている所があります。\n\n　２０日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、夕方は雨の降る所があるでしょう。北部では断続的に雨や雪が降り、雷を伴う所がある見込みです。\n\n　２１日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、北部を中心に断続的に雨や雪が降るでしょう。雷を伴う所がある見込みです。",
+    "text": "　大阪府は、高気圧に覆われて晴れています。\n\n　２１日の大阪府は、高気圧に覆われて晴れますが、夕方から湿った空気の影響で曇り、雨の降る所があるでしょう。\n\n　２２日の大阪府は、高気圧に覆われておおむね晴れますが、未明は湿った空気の影響で、雨の降る所がある見込みです。\n\n【近畿地方】　\n　近畿地方は、高気圧に覆われておおむね晴れていますが、寒気や湿った空気の影響で雨や雪の降っている所があります。\n\n　２１日の近畿地方は、高気圧に覆われておおむね晴れますが、北部では寒気や湿った空気の影響で曇り、断続的に雨や雪が降るでしょう。雷を伴う所がある見込みです。\n\n　２２日の近畿地方は、高気圧に覆われておおむね晴れますが、北部では寒気や湿った空気の影響で曇り、断続的に雨が降るでしょう。夕方まで雷を伴う所がある見込みです。",
     "paragraphs": [
-      "大阪府は、高気圧に覆われておおむね晴れています。",
-      "２０日の大阪府は、高気圧に覆われておおむね晴れるでしょう。",
-      "２１日の大阪府は、高気圧に覆われて晴れますが、夕方からは寒気や湿った空気の影響で曇り、夜のはじめ頃は雨が降る見込みです。",
-      "【近畿地方】　\n　近畿地方は、寒気や湿った空気の影響でおおむね曇り、雷を伴って雨や雪の降っている所があります。",
-      "２０日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、夕方は雨の降る所があるでしょう。北部では断続的に雨や雪が降り、雷を伴う所がある見込みです。",
-      "２１日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、北部を中心に断続的に雨や雪が降るでしょう。雷を伴う所がある見込みです。"
+      "大阪府は、高気圧に覆われて晴れています。",
+      "２１日の大阪府は、高気圧に覆われて晴れますが、夕方から湿った空気の影響で曇り、雨の降る所があるでしょう。",
+      "２２日の大阪府は、高気圧に覆われておおむね晴れますが、未明は湿った空気の影響で、雨の降る所がある見込みです。",
+      "【近畿地方】　\n　近畿地方は、高気圧に覆われておおむね晴れていますが、寒気や湿った空気の影響で雨や雪の降っている所があります。",
+      "２１日の近畿地方は、高気圧に覆われておおむね晴れますが、北部では寒気や湿った空気の影響で曇り、断続的に雨や雪が降るでしょう。雷を伴う所がある見込みです。",
+      "２２日の近畿地方は、高気圧に覆われておおむね晴れますが、北部では寒気や湿った空気の影響で曇り、断続的に雨が降るでしょう。夕方まで雷を伴う所がある見込みです。"
     ],
-    "summary": "大阪府は、高気圧に覆われておおむね晴れています。...",
+    "summary": "大阪府は、高気圧に覆われて晴れています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=270000"
   },
   "disaster_news": {
@@ -590,7 +588,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-21 04:39:54 JST"
+    "last_updated": "2026-11-21 05:26:10 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -622,10 +620,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "JFVJmv8Hvc4",
+        "video_id": "CvJAk1xNNpM",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/JFVJmv8Hvc4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=JFVJmv8Hvc4"
+        "embed_url": "https://www.youtube.com/embed/CvJAk1xNNpM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=CvJAk1xNNpM"
       },
       {
         "id": "stream_ntvnews",
@@ -633,10 +631,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "BrsdCqnhgeo",
+        "video_id": "OtMQoCQXVr0",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/BrsdCqnhgeo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=BrsdCqnhgeo"
+        "embed_url": "https://www.youtube.com/embed/OtMQoCQXVr0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=OtMQoCQXVr0"
       },
       {
         "id": "stream_annnews",
@@ -644,10 +642,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "xzEKKAgdtm8",
+        "video_id": "wRjlqq4psCo",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/xzEKKAgdtm8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=xzEKKAgdtm8"
+        "embed_url": "https://www.youtube.com/embed/wRjlqq4psCo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=wRjlqq4psCo"
       },
       {
         "id": "stream_fnnnews",

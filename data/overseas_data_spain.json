@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-20 17:46:13",
-  "timestamp_local": "2026-11-20 10:46:13",
+  "timestamp": "2026-11-20 18:41:11",
+  "timestamp_local": "2026-11-20 11:41:11",
   "country": {
     "id": "spain",
     "name": "スペイン",
@@ -352,17 +352,33 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 12,
-    "summary": "M5 (10 km NW of Pinnacles, CA)",
+    "count_24h": 13,
+    "summary": "M5.4 (Carlsberg Ridge)",
     "latest": {
-      "mag": 5,
-      "place": "10 km NW of Pinnacles, CA",
-      "time": "11/20 15:49 JST",
-      "depth_km": 6.69999980926514,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468702",
-      "tsunami": 1
+      "mag": 5.4,
+      "place": "Carlsberg Ridge",
+      "time": "11/20 17:44 JST",
+      "depth_km": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc82",
+      "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5.4,
+        "place": "Carlsberg Ridge",
+        "time": "11/20 17:44 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc82",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.7,
+        "place": "Carlsberg Ridge",
+        "time": "11/20 17:42 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc81",
+        "tsunami": 0
+      },
       {
         "mag": 5,
         "place": "10 km NW of Pinnacles, CA",
@@ -450,19 +466,95 @@
         "depth_km": 194.803,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubz1",
         "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "92 km W of San Juan, Peru",
-        "time": "11/19 18:08 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubyt",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "ペルー大統領、日本との友好関係継続訴え(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/ff12aa83bf0d4b29b22141d00ef317fbefcd6f36?source=rss",
+        "description": "来日したペルーのケイコ・フジモリ大統領は20日、東京都内で共同通信の単独インタビューに応じ「訪問は有意義だった。日本との緊密な友好関係を継続していきたい」と述べた。（共同）",
+        "pub_date": "11/20 18:34 JST",
+        "is_priority": false
+      },
+      {
+        "title": "危険な大波“結婚指輪”流される “10m超え”発生…被害相次ぐ　米・カリフォルニア州(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/6895556f775e4e34ae23856f4ef2e71592bb1c3a?source=rss",
+        "description": "嵐の影響で、先週末から10メートルを超す高波に見舞われているアメリカ・カリフォルニア州。サンディエゴ近郊のビーチでは、アザラシの近くを泳いでいた男性2人が波にのまれ、救助される事態となりました。 そう",
+        "pub_date": "11/20 18:28 JST",
+        "is_priority": false
+      },
+      {
+        "title": "中国外務省が「誤った言動の是正」を改めて要求　高市首相の立場表明を受け(産経新聞)",
+        "link": "https://news.yahoo.co.jp/articles/1078cd7ed34daed0e805d922e679772560ebfcb4?source=rss",
+        "description": "【深圳＝三塚聖平】中国外務省の郭嘉昆報道官は20日の記者会見で、高市早苗首相が台湾に対する立場について1972年の日中共同声明から変更がないと述べたことに対し、「日本側にとって現在差し迫っているのは、",
+        "pub_date": "11/20 18:27 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ロシアがウクライナに大規模攻撃、死者も　米中ロ会談で「世界平和の推進役」を自任(CNN.co.jp)",
+        "link": "https://news.yahoo.co.jp/articles/4212a06906edcfe905a89455d6b3f5779576dc50?source=rss",
+        "description": "（CNN） ロシアは19日夜から20日未明にかけ、ウクライナに大規模攻撃を仕掛けた。これに先立ちロシアのプーチン大統領が米中の首脳と行った歴史的な会談では、3カ国は世界平和の推進役を自任していた。【映",
+        "pub_date": "11/20 18:22 JST",
+        "is_priority": true
+      },
+      {
+        "title": "自動運転タクシー「Waymo」2台が絡む大事故…計4台が衝突、3人搬送の瞬間をカメラが捉えた(ニューズウィーク日本版)",
+        "link": "https://news.yahoo.co.jp/articles/e083fcad97d29810dda07d2f193c614f757802d5?source=rss",
+        "description": "交差点付近を走る車が、猛スピードで別の車に衝突する。激しい衝撃で車両が押し出され、周囲の車も次々と事故に巻き込まれた。【映像】猛スピードの車がWaymoに激突…自動運転タクシー2台を含む4台が衝突した",
+        "pub_date": "11/20 18:20 JST",
+        "is_priority": false
+      },
+      {
+        "title": "女性への暴行を制止したことで集団暴行の被害に遭った男性教師への正義の実現を求める集会、リオ市で開かれる(MEGABRASIL)",
+        "link": "https://news.yahoo.co.jp/articles/5e3a80c738445d53b6fd6aad012b14a8b55e9104?source=rss",
+        "description": "【リオデジャネイロ発 11月19日 20:05】 ブラジル、リオデジャネイロ市中心部ラパ地区で19日（木）午後、教師のアンドレ・アイリス氏への正義の実現を求める抗議集会が行われた。アイリス氏は、ある男",
+        "pub_date": "11/20 18:04 JST",
+        "is_priority": false
+      },
+      {
+        "title": "史上初の米中ロ首脳会談　「平和宣言」発表　“戦勝国”を強調　G20で再会談か(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/a5171ac3b3e3a2fc2d61560706cc28635f723037?source=rss",
+        "description": "史上初、アメリカ、中国、ロシアによる首脳会談が中国・深圳で行われた。会談後、「平和宣言」を発表し、国際秩序への影響力を誇示した。また、「同盟国」「戦勝国」を世界にアピール。それぞれの思惑とは。【画像】",
+        "pub_date": "11/20 18:00 JST",
+        "is_priority": false
+      },
+      {
+        "title": "韓国　きょうのニュース（11月20日）(聯合ニュース)",
+        "link": "https://news.yahoo.co.jp/articles/396efe41f7a1ab56666fe5353f66842d6418df8d?source=rss",
+        "description": "◇李大統領が試験制度の全面見直し指示 AI悪用の不正相次ぎ 李在明（イ・ジェミョン）大統領は20日の首席補佐官会議で、各種試験で人工知能（AI）などを使った不正行為が相次いで発覚していることについて、",
+        "pub_date": "11/20 18:00 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ICJ判決「不公平」とミャンマー親軍政権(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/6b044985ce25df824f2181191111152e37d3b763?source=rss",
+        "description": "【バンコク共同】ミャンマー親軍政権の報道官は20日、イスラム教徒少数民族ロヒンギャ迫害をジェノサイド（集団殺害）と認定した国際司法裁判所（ICJ）の判決について「不公平だ」と不満を表明した。",
+        "pub_date": "11/20 17:55 JST",
+        "is_priority": false
+      },
+      {
+        "title": "米中ロの大国外交が進むなか、米国に頼れない高市首相はどうするべきなのか　「細い糸」を束ねて強靭な外交を築けるか(クーリエ・ジャポン)",
+        "link": "https://news.yahoo.co.jp/articles/bc0aa91b17f3da5f851060e42a64137264234e81?source=rss",
+        "description": "米中ロの3首脳による会談の冒頭、トランプ米大統領は日本人が所長を務める国際刑事裁判所（ICC）を「ならず者のグローバリスト組織」と非難した。日本の働きかけが米国の行動を左右しないという現実が改めて示さ",
+        "pub_date": "11/20 17:55 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ネパールで日本人35人拘束　リゾートホテル貸し切り特殊詐欺か“警察署セット”も(テレビ朝日系（ANN）)",
+        "link": "https://news.yahoo.co.jp/articles/9cc20a204ae13eadd8d93833023369e040409eab?source=rss",
+        "description": "ネパールの首都カトマンズの近郊のリゾートホテルで特殊詐欺に関与していたとみられる日本人35人が拘束されました。ネパールでの日本人の大規模摘発は異例です。 ネパール警察は18日、カブレパランチョーク郡の",
+        "pub_date": "11/20 17:51 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ロンドンで約50人が大乱闘…棒で殴り合い、ごみ箱が飛び交う異様な光景、背景に外国の政治対立(ニューズウィーク日本版)",
+        "link": "https://news.yahoo.co.jp/articles/01d0b5bdfdce8c31421a27f1091129d3e722e9ad?source=rss",
+        "description": "夜の住宅街で、大勢の男たちが激しく衝突している。棒を振り回して相手に襲いかかる男たち。ごみ箱や交通コーンなどが投げつけられ、逃げる人々を追いかける姿も見られる。【映像】約50人が棒で殴り合い、ごみ箱を",
+        "pub_date": "11/20 17:50 JST",
+        "is_priority": false
+      },
       {
         "title": "ICJ判決は問題を複雑化と中国(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/0262bf5657308f71ecfcfe11ffdb5cbcb5fed3e6?source=rss",
@@ -518,90 +610,6 @@
         "description": "香港を拠点とし、アジアの文化や伝統に根ざしたライフスタイル型ホテル・リゾートを展開するアーティゼンホスピタリティグループ（雅辰酒店集團／Artyzen Hospitality Group）は11月13",
         "pub_date": "11/20 17:10 JST",
         "is_priority": false
-      },
-      {
-        "title": "巨大ショベルカーで政府施設を次々破壊！ 47歳男が突然の暴挙…中国で撮影された衝撃の光景(ニューズウィーク日本版)",
-        "link": "https://news.yahoo.co.jp/articles/33437d6d21acc214f8d001a6bbb0bb21ab9fc96f?source=rss",
-        "description": "巨大な油圧ショベルが政府施設の入口に接近。長いアームを振り下ろすと、建物の外壁や看板が次々と崩れ落ちていく。【映像】巨大ショベルカーで政府施設を次々破壊…建物の入口や外壁が崩れ落ちる衝撃の瞬間まるで解",
-        "pub_date": "11/20 17:02 JST",
-        "is_priority": false
-      },
-      {
-        "title": "就学前教育、世界の子どもの6割　ユネスコ、投資拡大訴え(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/87369d0cd5c71cbad411ab2b0d11c80f50f0380a?source=rss",
-        "description": "【パリ共同】国連教育科学文化機関（ユネスコ）は20日、就学前に少なくとも1年間教育を受けられる子どもは世界全体で59％にとどまるとの報告書を公表した。2015年以降、ほとんど変化はなく、先進国と途上国",
-        "pub_date": "11/20 17:00 JST",
-        "is_priority": false
-      },
-      {
-        "title": "アマゾン先住民同士珍しい接触　熱帯雨林への脅威に高まる懸念(AP通信)",
-        "link": "https://news.yahoo.co.jp/articles/b2ab483da350512886820e81be63e03784eb9bc5?source=rss",
-        "description": "サン・ルイス、ブラジル、11月20日 (AP) ー 南米ブラジルのアマゾン熱帯雨林で外部との接触を避けて暮らす先住民と、近隣の先住民コミュニティーの住民との間で珍しい接触があり、政府は、この集団の健康",
-        "pub_date": "11/20 16:59 JST",
-        "is_priority": false
-      },
-      {
-        "title": "韓国首相　大学入試「会場で摘発されなかった不正も突き止める」(聯合ニュース)",
-        "link": "https://news.yahoo.co.jp/articles/a53e568370c2376def8f1fc11dda91819563fda7?source=rss",
-        "description": "【ソウル聯合ニュース】韓国の韓聖淑（ハン・ソンスク）首相は20日、前日に実施された大学修学能力試験（日本の大学入学共通テストに相当）を巡り、試験会場で摘発されなかった不正行為も徹底的に突き止める方針を",
-        "pub_date": "11/20 16:56 JST",
-        "is_priority": false
-      },
-      {
-        "title": "人気者のカバのフィオナが死去　米のシンシナティ動物園が発表(AP通信)",
-        "link": "https://news.yahoo.co.jp/articles/ad0c586c9163f204296675c291cd4827ded7ba7e?source=rss",
-        "description": "シンシナティ、オハイオ州、11月20日 (AP) ー 2017年の未熟児誕生とシンシナティ動物園での懸命な生存への闘いによって世界的な人気者となったカバのフィオナが死去した。米中西部オハイオ州シンシナ",
-        "pub_date": "11/20 16:55 JST",
-        "is_priority": false
-      },
-      {
-        "title": "政治的緊張高まるバングラデシュ　元暫定指導者ユヌス氏帰国を控え(AP通信)",
-        "link": "https://news.yahoo.co.jp/articles/907bc8ba166e78f15f2d4bab331226cbc6220139?source=rss",
-        "description": "パルガンジ、バングラデシュ、11月20日 (AP) ー バングラデシュの暫定指導者を務めたノーベル平和賞受賞者のムハマド・ユヌス氏の先祖代々の邸宅で深夜に発生した火災について、警察は何者かが意図的に火",
-        "pub_date": "11/20 16:50 JST",
-        "is_priority": false
-      },
-      {
-        "title": "ミャンマーに対し集団殺害認定　国際司法裁判所が画期的な判決(AP通信)",
-        "link": "https://news.yahoo.co.jp/articles/a7bff34eab570070f13624a41eb9dcab2b557684?source=rss",
-        "description": "コックスバザール、バングラデシュ、11月20日 (AP) ー オランダ・ハーグの国際司法裁判所（ICJ）は19日、ミャンマーが2017年の過酷な軍事作戦で少数派ロヒンギャに対するジェノサイド（集団殺害",
-        "pub_date": "11/20 16:47 JST",
-        "is_priority": false
-      },
-      {
-        "title": "バングラ前首相、日本の支援訴え　インド亡命、「年内に帰国を」(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/a20e87c61cbdf27d35c90d6988a48c3f145807a1?source=rss",
-        "description": "2024年の政変でインドに亡命したバングラデシュのハシナ前首相（79）が20日、東京都内の記者会見にオンラインで参加した。ハシナ氏は今月バングラデシュ政府から旅券の発給を拒否されたばかりだが「できるこ",
-        "pub_date": "11/20 16:45 JST",
-        "is_priority": false
-      },
-      {
-        "title": "民主化運動に貢献した人と遺族の支援法案可決　野党は採決欠席＝韓国国会(聯合ニュース)",
-        "link": "https://news.yahoo.co.jp/articles/f152a5bc815045be91b78fef7649a1bd9e1e0139?source=rss",
-        "description": "【ソウル聯合ニュース】韓国国会は20日の本会議で、民主化運動に貢献した人や遺族への礼遇や支援などを盛り込んだ「民主有功者の礼遇に関する法律案」を革新系与党「共に民主党」の主導で可決した。 法案に反対す",
-        "pub_date": "11/20 16:44 JST",
-        "is_priority": false
-      },
-      {
-        "title": "ペルー・フジモリ大統領 就任後初来日 ”ペルー人と同じ条件で…” 投資受け入れ強調(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/87d6d45d8618d68e802ad775afa0271379b36d43?source=rss",
-        "description": "南米ペルーのフジモリ大統領は、就任後初めて来日し、「外国の投資家にもペルー人と同じ条件を適用する」と述べ、日本からの投資を積極的に受け入れる姿勢を示しました。【ケイコ・フジモリ大統領】「私が特に”オバ",
-        "pub_date": "11/20 16:39 JST",
-        "is_priority": false
-      },
-      {
-        "title": "李大統領　朝鮮半島の懸案「われわれが主導」＝米中ロ首脳会談受け(聯合ニュース)",
-        "link": "https://news.yahoo.co.jp/articles/cfa5e45a4399c411638ea42b98bd9d40149a405a?source=rss",
-        "description": "【ソウル聯合ニュース】中国・深圳で19日に開かれた米中ロ首脳会談で朝鮮半島情勢が取り上げられたことに関連し、韓国の李在明（イ・ジェミョン）大統領は20日の首席補佐官会議で、「朝鮮半島を巡る主な懸案を、",
-        "pub_date": "11/20 16:32 JST",
-        "is_priority": false
-      },
-      {
-        "title": "ロシアの攻撃でウクライナ首都の橋3本損傷(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/fb569af7ca843d4ebd35e64e03a4a51dab56f9de?source=rss",
-        "description": "【キーウ共同】ウクライナの首都キーウの市長によると、20日未明にロシア軍による弾道ミサイル攻撃があり、中心部の橋3本が損傷した。",
-        "pub_date": "11/20 16:28 JST",
-        "is_priority": true
       }
     ],
     "count": 20
@@ -751,32 +759,32 @@
     "default_channel_id": "stream_rtve"
   },
   "forex": {
-    "timestamp": "11/20 17:46 JST",
+    "timestamp": "11/20 18:41 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 158.96,
-      "change": -0.42,
-      "change_pct": -0.26,
+      "rate": 158.92,
+      "change": -0.46,
+      "change_pct": -0.29,
       "direction": "down"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.38,
-      "change": -0.48,
-      "change_pct": -0.28,
+      "rate": 174.36,
+      "change": -0.5,
+      "change_pct": -0.29,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.38,
-      "change": -0.48,
-      "change_pct": -0.28
+      "rate": 174.36,
+      "change": -0.5,
+      "change_pct": -0.29
     }
   },
   "airports": [
@@ -834,9 +842,9 @@
         "is_capital": true,
         "lat": 40.4168,
         "lon": -3.7038,
-        "temp": 9.0,
-        "apparent_temp": 7.2,
-        "humidity": 89,
+        "temp": 9.9,
+        "apparent_temp": 8.1,
+        "humidity": 85,
         "wind_speed": 7.9,
         "wind_gusts": 21.2,
         "precipitation": 0.0,
@@ -849,20 +857,20 @@
             "temp_min": 8.2,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.4
+            "precipitation_mm": 0.1
           },
           {
             "date": "11/21(土)",
-            "temp_max": 12.1,
-            "temp_min": 9.7,
+            "temp_max": 12.6,
+            "temp_min": 9.9,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 10.7
+            "precipitation_mm": 1.8
           },
           {
             "date": "11/22(日)",
-            "temp_max": 13.4,
-            "temp_min": 6.9,
+            "temp_max": 13.7,
+            "temp_min": 7.9,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -879,19 +887,19 @@
         "is_capital": false,
         "lat": 41.3879,
         "lon": 2.1699,
-        "temp": 15.0,
-        "apparent_temp": 12.4,
-        "humidity": 58,
-        "wind_speed": 12.7,
-        "wind_gusts": 21.2,
+        "temp": 15.4,
+        "apparent_temp": 12.2,
+        "humidity": 57,
+        "wind_speed": 16.6,
+        "wind_gusts": 27.7,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/20(金)",
-            "temp_max": 18.8,
-            "temp_min": 12.9,
+            "temp_max": 18.4,
+            "temp_min": 13.0,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -899,18 +907,18 @@
           {
             "date": "11/21(土)",
             "temp_max": 18.4,
-            "temp_min": 12.9,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.4
+            "temp_min": 13.0,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
           },
           {
             "date": "11/22(日)",
-            "temp_max": 19.1,
-            "temp_min": 14.5,
+            "temp_max": 19.2,
+            "temp_min": 14.7,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 0.2
+            "precipitation_mm": 0.1
           }
         ],
         "alert": "平常",
@@ -924,38 +932,38 @@
         "is_capital": false,
         "lat": 37.3891,
         "lon": -5.9845,
-        "temp": 11.1,
-        "apparent_temp": 10.0,
-        "humidity": 84,
-        "wind_speed": 4.7,
-        "wind_gusts": 12.6,
+        "temp": 12.8,
+        "apparent_temp": 11.7,
+        "humidity": 78,
+        "wind_speed": 6.0,
+        "wind_gusts": 16.9,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/20(金)",
-            "temp_max": 19.3,
-            "temp_min": 9.8,
+            "temp_max": 19.4,
+            "temp_min": 10.0,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/21(土)",
-            "temp_max": 20.7,
-            "temp_min": 9.7,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 1.0
+            "temp_max": 20.8,
+            "temp_min": 9.8,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.8
           },
           {
             "date": "11/22(日)",
             "temp_max": 19.1,
-            "temp_min": 11.7,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 0.6
+            "temp_min": 12.0,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.2
           }
         ],
         "alert": "平常",
@@ -970,9 +978,9 @@
       "is_capital": true,
       "lat": 40.4168,
       "lon": -3.7038,
-      "temp": 9.0,
-      "apparent_temp": 7.2,
-      "humidity": 89,
+      "temp": 9.9,
+      "apparent_temp": 8.1,
+      "humidity": 85,
       "wind_speed": 7.9,
       "wind_gusts": 21.2,
       "precipitation": 0.0,
@@ -985,20 +993,20 @@
           "temp_min": 8.2,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 0.4
+          "precipitation_mm": 0.1
         },
         {
           "date": "11/21(土)",
-          "temp_max": 12.1,
-          "temp_min": 9.7,
+          "temp_max": 12.6,
+          "temp_min": 9.9,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 10.7
+          "precipitation_mm": 1.8
         },
         {
           "date": "11/22(日)",
-          "temp_max": 13.4,
-          "temp_min": 6.9,
+          "temp_max": 13.7,
+          "temp_min": 7.9,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -1009,7 +1017,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/20 17:46 JST"
+    "timestamp": "11/20 18:41 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1091,7 +1099,7 @@
         "details": "全国主要都市間ルートは定常運行中"
       }
     ],
-    "timestamp": "11/20 17:46 JST"
+    "timestamp": "11/20 18:41 JST"
   },
   "lifeline": {
     "status": "NORMAL",

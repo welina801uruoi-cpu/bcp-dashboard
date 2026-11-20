@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20 01:52:31",
+  "timestamp": "2026-11-20 02:40:18",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -91,11 +91,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-20 10:46",
-    "place": "和歌山県北部",
-    "magnitude": "2.6",
+    "time": "2026-11-20 11:11",
+    "place": "日向灘",
+    "magnitude": "3.1",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-20 11:11",
+        "place": "日向灘",
+        "shindo": "1",
+        "magnitude": "3.1",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-20 10:46",
         "place": "和歌山県北部",
@@ -158,13 +165,6 @@
         "shindo": "1",
         "magnitude": "2.7",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-20 03:43",
-        "place": "新潟県上越地方",
-        "shindo": "2",
-        "magnitude": "2.4",
-        "maxScale": 20
       }
     ]
   },
@@ -195,10 +195,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/27/"
       },
       {
@@ -212,10 +212,10 @@
         ],
         "notices": [
           "波浪注意報",
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "波浪警報、波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪警報、波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -242,10 +242,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、強風注意報",
+        "summary": "強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/25/"
       },
       {
@@ -268,10 +268,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       }
     ]
@@ -435,8 +435,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/20 02:18",
+          "text": "いつの頃からか、想定以上に通信量を使うようになって START povo END をデュアルSIMのサブとして導入。ドコモの品質の悪さも相まって、重宝しています..."
+        },
         {
           "time": "11/19 23:45",
           "text": "ドコモは利用者舐めてんだろ〜😂 3度も通信 START 障害 END 起こして迷惑かけてんのに値上げって😂😂 家族がドコモだからドコモにしてるだけで、抜けていい..."
@@ -444,10 +448,6 @@
         {
           "time": "11/19 22:54",
           "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方もOK🙆‍♂️ eSIM＋eKYCで最短即日⏱️ 停電・通..."
-        },
-        {
-          "time": "11/19 11:30",
-          "text": "①あいかわらず電波が悪い ②個人情報漏らしました ③今月 START 障害 END 3回発生 今日 NTTドコモ「来月から順調に値上げです！」 真面目にドコモ解..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -473,130 +473,130 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 4,
+    "disaster_count": 3,
     "articles": [
       {
-        "title": "冬の嵐ピーク　今季一番の積雪・初雪も　大雪・大雨・暴風など警戒(ウェザーマップ)",
-        "summary": "北日本を中心に冬の嵐になっていて、けさにかけては今季一番の積雪になっている所が多く、初雪を観測した所もあります。きょう(金)は荒れた天気のピークで、北陸から北を中心にあらたに雪が積もり、山沿いを中心に",
-        "pub_date": "11/20 10:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/70ebd43417725f57f1bc9795901093d811c09902?source=rss",
+        "title": "11月24日前後は「大潮」北陸地方・西日本の沿岸の一部で浸水や冠水のおそれ　満潮時間帯を中心に潮位高く【気象庁】(MBC南日本放送)",
+        "summary": "気象庁によると、11月24日の満月の前後は大潮の時期にあたり、満潮の時間帯を中心に潮位が高くなります。気象庁は、北陸地方と西日本の沿岸の一部で、海岸や河口付近の低い土地で浸水や冠水のおそれがあるとして",
+        "pub_date": "11/20 11:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/d44011575e6a9c4759ccff5633c74cf558b0a2cf?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "京都・高瀬川アート作品「跡形なく」実行委は警察に被害届へ　先にも“真っ二つ”被害(テレビ朝日系（ANN）)",
-        "summary": "京都の高瀬川で開かれているアートイベントで、アメリカ国旗をデザインした作品の一部がなくなりました。イベントの実行委員長 藤森哲朗さん「星条旗の作品が跡形もなく、なくなってしまう。これはもう前代未聞、前",
-        "pub_date": "11/20 09:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/a063088b6721708bf8fcc3a9a794e2eed1902968?source=rss",
+        "title": "《鶏とカモ100羽以上が犠牲に》北海道・岩見沢で体重270キロの巨大ヒグマ捕獲　爆音ラジオも爆竹も効かず…人気養鶏場が明かす200万円の“クマ被害”(NEWSポストセブン)",
+        "summary": "11月17日午前、群馬県前橋市の住宅街で50代の男性がクマに襲われ、救急搬送された。命に別条はないという。目撃されたのは親子とみられる2頭で、現場付近では約2時間前にも、男性が運転する車がクマに襲われ",
+        "pub_date": "11/20 11:13 JST",
+        "link": "https://news.yahoo.co.jp/articles/63b5a60dd631e65c6267ba243040068f3cd98efd?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "モバイルバッテリー 「3つのC」で注意喚起(ABEMA TIMES)",
-        "summary": "モバイルバッテリーの発火事故などを防ごうと、消費者庁が、若い世代向けに「3つのC」を使った注意喚起を促す動画を公開しました。【映像】モバイルバッテリー 「3つのC」で注意喚起 消費者庁は、11月を「リ",
-        "pub_date": "11/20 09:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/7dc4a686cbd531d8a273e4ee58be9f6096f0f4d6?source=rss",
+        "title": "女子高生から突然「邪魔なんや、ボケ」と言われ…交通事故で脊髄損傷→19歳で障がいを負った男性（31）が明かす、外出時に感じた“周囲からの偏見”(文春オンライン)",
+        "summary": "「邪魔なんや、ボケ」。すれ違いざまに女子高生からそう言われたのは、19歳で交通事故に遭い、脊髄を損傷した上野遥介さん（31）だ。妻の桃子さん（32）とともに「すけにい夫婦」としてSNSで発信する遥介さ",
+        "pub_date": "11/20 11:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/f4d66b718f58d0eb91e6d1b003229bd0ed7d80d4?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "大気不安定、暴風に警戒を　北海道や北陸、上空の寒気の影響(共同通信)",
-        "summary": "上空の寒気の影響で大気の非常に不安定な状態が続くとして、気象庁は20日、北海道と北陸で暴風に警戒するよう呼びかけた。北―西日本では21日にかけて、竜巻などの激しい突風や急な強い雨の恐れがある。山地を中",
-        "pub_date": "11/20 09:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/5d85ee5ac577bb1067c84abeffb894bd0bc102fe?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "JT巨額損失　政府「ロシアに撤回要求」(テレビ朝日系（ANN）)",
-        "summary": "ロシア事業を巡って巨額の損失を計上する見通しとなったJT＝日本たばこ産業について、木原官房長官はロシアに撤回を求めてきたと説明し、引き続き適切に対応する考えを示しました。木原官房長官「引き続き日本国民",
-        "pub_date": "11/20 10:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/0ab59f9ed4ebe926364715456016544c2352819a?source=rss",
+        "title": "Microsoft 365障害で業務が丸1日停止した企業　“失った利益”を賠償請求できるか　規約は“原則免責”だが、例外の条件を弁護士が解説(弁護士JPニュース)",
+        "summary": "「取引先からの返信期限が今日なのに、Outlookが開けない」クラウドサービスが当たり前になった今、多くのビジネスパーソンがそんな悪夢のような事態を経験したかもしれない。Outlookにアクセスしよう",
+        "pub_date": "11/20 11:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/85b897b406b0e6c6d964336d9f6db1eef4ac0028?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "3連休を前に…新幹線「のぞみ」など“過去最多”504本走行　JR東海(テレビ朝日系（ANN）)",
-        "summary": "3連休を前にビジネスと観光で多くの利用客が見込まれる20日、JR東海は過去最多の新幹線を走行させます。 JR東海によりますと、3連休を前にビジネスと観光などで利用客のピークが予想される20日に、東京と",
-        "pub_date": "11/20 10:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/e32dd7b00c85679106a842be66798f9fbeb75fb4?source=rss",
+        "title": "「ターミネーター」「攻殻機動隊」　物語が描いてきたAI　人類に反乱を起こすのか、仲間になるのか　(AERA DIGITAL)",
+        "summary": "人間の命令に従うはずのAIが、ある日、主人に牙をむく。映画「ターミネーター」のように、AIが人類に反乱を起こす未来もあり得るのだろうか。一方、日本のマンガ・アニメはAIを人間の友達や仲間として描いてき",
+        "pub_date": "11/20 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/c76b1db45ac053d3d822b7a61876607e71db05d9?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "リニア開業見通しでJR東海が年内公表断念　「1日も早い見通し示すこと重要」国交大臣(テレビ朝日系（ANN）)",
-        "summary": "JR東海がリニア中央新幹線の品川と名古屋の間の開業時期を巡り年内の公表を断念したことについて、井林国交大臣は「1日も早く見通しを示すことが重要」と話しました。 リニア中央新幹線を巡っては、JR東海の丹",
-        "pub_date": "11/20 10:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/6ab5f7dda7ec8fad4011c4ac8c64b2b4fdbdfa1e?source=rss",
+        "title": "「有人レジ開けて仕事しなさいよ！」客からブチギレられ…セルフレジでクレーム増える悪循環も？「不満が出るのはやむを得ない」慶応大教授が分析する“人件費問題と顧客満足度”のジレンマ(ABEMA TIMES)",
+        "summary": "近年、会計の決済を客自身が行う「セルフレジ」の導入が全国の店舗で急速に進んでいる。人手不足の解消や業務効率化が期待される一方で、セルフレジをめぐっては利用する客だけでなく、店舗で対応する店員側にも様々",
+        "pub_date": "11/20 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/a5c9f10e4cb56d0bb368508b8ae3cebf9ac65ee6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "小林よしのり氏「愛子さまでなければ日本の将来はない」　旧宮家養子制度は“血統・女性差別”と国に慰謝料100万円求め提訴(弁護士JPニュース)",
-        "summary": "漫画『おぼっちゃまくん』や『ゴーマニズム宣言』で知られる漫画家の小林よしのり氏が10月26日、皇族の養子縁組を認める改正皇室典範は憲法に反するとして、国に違憲の確認と損害賠償を求める訴えを東京地方裁判",
-        "pub_date": "11/20 10:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/f2f7cc8d09dc6c1a098db4f84e4f6b12965e0437?source=rss",
+        "title": "「性能がガチすぎる」トイレットペーパーに仕込まれた“謎の部品”→軽く触れただけで暴走する光景に話題沸騰(ABEMA TIMES)",
+        "summary": "指先で軽く触れただけでトイレットペーパーが衝撃の高速スピンを始める姿がSNSで話題を集めている。【映像】指先で触れただけで暴走!? “高速スピン”の様子 Xへ動画を投稿したのは「おとうSUN」（@ti",
+        "pub_date": "11/20 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/4bc89162a977fc3fb7249d449a76003b5267bb85?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "証拠品の女児裸画像を所持疑い　巡査部長を書類送検、愛知県警(共同通信)",
-        "summary": "事件の証拠品として保管していた女児の裸が写った画像をコピーして所持したとして、愛知県警は20日、児童買春・ポルノ禁止法違反（所持）容疑で、40代男性巡査部長を書類送検した。「性的好奇心を満たすためだっ",
-        "pub_date": "11/20 10:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/6bbeac28e1214fe9c8f38ffc42bc56bcd848c7e2?source=rss",
+        "title": "視聴者「マッチョが裁縫してたらメロいんか？」“メロい”めぐりコメント欄が混乱…コラムニストが“メロい”の境界線を解説「子どもの物を縫ってるなら…」(ABEMA TIMES)",
+        "summary": "ニュース番組『わたしとニュース』では、最近よく耳にする流行語「メロい」の正体について特集。放送中、視聴者から寄せられたさまざまなコメントや疑問に対し、番組に出演したコラムニストの月岡ツキ氏が回答した。",
+        "pub_date": "11/20 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/69f00e5b466a45d77d5e97163169cc37b03eaebe?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【速報】3人死傷の自衛隊発砲事件 自衛官候補生（当時18）の裁判員裁判 弁護側は無罪を主張(CBCテレビ)",
-        "summary": "3年前、 岐阜市の自衛隊射撃場で、隊員に向けて小銃を発砲し、3人を死傷させた事件で強盗殺人などの罪に問われた当時18歳の元自衛官候補生の男の裁判員裁判が始まり、弁護側は無罪を主張しました。【写真を見る",
-        "pub_date": "11/20 10:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/1e0070ed19650f6ab2588c8be27040841ce31a1d?source=rss",
+        "title": "法務省「ラヴ上等」炎上ポスター、提案側も「タトゥーはNGかと存じます」…開示文書で判明した内幕(弁護士ドットコムニュース)",
+        "summary": "Netflixの恋愛リアリティ番組「ラヴ上等」に出演していた女性が、風俗営業の店を無許可で経営した疑いで逮捕されたと報じられた。【実際の文書】「ハードルが高い作品とは存じますが…」この番組をめぐっては",
+        "pub_date": "11/20 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/14847cf989e8514d10523a5f2ee80188cd6420da?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "リニア開業見通しの年内公表をJR東海が断念　国交大臣「一日も早く見通し示すことが重要」(テレビ朝日系（ANN）)",
-        "summary": "JR東海がリニア中央新幹線の品川と名古屋の間の開業時期をめぐり、年内の公表を断念したことについて、井林国交大臣は「1日も早く見通しを示すことが重要」と話しました。リニア中央新幹線をめぐっては、JR東海",
-        "pub_date": "11/20 10:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/649d1c03c6661e14e08a551674ba0f70e7e93676?source=rss",
+        "title": "3連休は21日まで冬の嵐　朝晩を中心に冷え込む　24日は全国的に雨　2週間天気(日本気象協会tenki.jp)",
+        "summary": "21日(土)にかけて冬型の気圧配置が続くでしょう。全国的に風の強い状態が続き、北海道では非常に強い風の吹く所がありそうです。北海道や東北は日本海側を中心に雪、北陸から山陰で雨や雪が降るでしょう。関東は",
+        "pub_date": "11/20 11:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/4a029c643714ee20a5de0ef62db5af47bdd176fa?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "陸自小銃発射、元候補生弁護側は無罪主張(共同通信)",
-        "summary": "岐阜市の陸上自衛隊射撃場で、自動小銃を発射し、隊員3人を死傷させたとして、強盗殺人罪などに問われた元自衛官候補生（21）の弁護側は、岐阜地裁の裁判員裁判初公判で、刑事責任能力を争うとし、無罪を主張した",
-        "pub_date": "11/20 10:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/46c8c79167492dd7db926f88717f1b98a15fdf68?source=rss",
+        "title": "愛子さま“友好願う”フクギを植樹「これからの成長が楽しみ」　ジュロン日本庭園で(テレビ朝日系（ANN）)",
+        "summary": "シンガポールを公式訪問中の天皇皇后両陛下の長女・愛子さまが日本庭園で植樹式に臨み、感想を述べられました。■【写真特集】3日目｜退出時、コーラス隊のそばに行きお声掛けを･･･最新映像から随時更新中愛子さ",
+        "pub_date": "11/20 11:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/72b6465b94dc73ab91b0200cef46639b68ed6c37?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "パリでなくした通帳はなぜ岡山で見つかったのか　老いを捉え直す「アメイジング！」な世界(47NEWS)",
-        "summary": "身体機能や認知力の衰え、親の介護など「老い」はとかくネガティブなイメージで語られる。多くの人が不安を抱える超高齢社会で、「老いるってこんなに面白い」と宣言し、積極的に老いの世界を捉え直すイベント「老人",
-        "pub_date": "11/20 10:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/680c74fb620cdbcf28c5820a47376edb2333cb14?source=rss",
+        "title": "関文科相は任に値しないと民主改革代表(共同通信)",
+        "summary": "民主改革の会の小川淳也代表は20日の記者会見で、関芳弘文部科学相の政治資金パーティー問題を巡り「行政、政治に対する信頼を大きく毀損している。任に値しない」と述べた。",
+        "pub_date": "11/20 11:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/073dc8e3e8d31179ff647d3cf31cb7a52b69487d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「後ろから刺した」と中野女性殺害で容疑者(共同通信)",
-        "summary": "東京都中野区で女性が首を刺され死亡した事件で、逮捕された清武一則容疑者（39）が「前を歩いていた女性に後ろから近づいて刺した」と供述していることが20日、捜査関係者への取材で分かった。警視庁が詳しい状",
-        "pub_date": "11/20 10:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/f378d2a0da59b24ef7c2af91636fe59d6237a3c9?source=rss",
+        "title": "元自衛官候補生「1回やってみたかった」(共同通信)",
+        "summary": "岐阜市の陸上自衛隊射撃場で自動小銃を発射し3人を死傷させたとして、強盗殺人罪などに問われた元自衛官候補生（21）の初公判で、検察側は、被告が事件後、取り押さえられた際に「1回やってみたかった」と話して",
+        "pub_date": "11/20 11:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/25fd7bf7c1e50d07d8ba6a701591f05a610313e2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "えっバス運転士が！？「つり革なめる」動画が拡散…営業終了後の行為でも「クビ」になる？(弁護士ドットコムニュース)",
-        "summary": "運転士が営業運行終了後のバス車内で不適切な行為をし、その様子を動画配信していたことが判明した──。京浜急行バスは11月18日、公式サイトで「当社運転士による不適切な行為について」と題するお詫び文を掲載",
-        "pub_date": "11/20 10:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/75ffe8bbb2f5395a678beb34aa21e774524ce77f?source=rss",
+        "title": "愛子さま シンガポール御訪問　日本庭園で「フクギ」を植樹(テレビ朝日系（ANN）)",
+        "summary": "シンガポールを公式訪問中の天皇皇后両陛下の長女・愛子さまが日本庭園で植樹式に臨み感想を述べられました。【写真特集】4日目｜爽やかなポニーテール姿で笑顔で根元に土を寄せ、慎重に水やりをする姿も･･･最新",
+        "pub_date": "11/20 11:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/1dc3363e7cc15fc37b527e4b0be904cf24facc03?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "H3ロケット打ち上げ民間移管へ　来年の11号機から、三菱重工に(共同通信)",
+        "summary": "国の主力ロケット「H3」の打ち上げ業務が、来年の11号機から、宇宙航空研究開発機構（JAXA）から三菱重工業に民間移管されることが分かった。関芳弘文部科学相が20日の閣議後会見で「打ち上げ実績を踏まえ",
+        "pub_date": "11/20 11:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/19951925b2a478723288a1fba30dbc579e83e36f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-20 10:51:57 JST"
+    "last_updated": "2026-11-20 11:39:42 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -628,10 +628,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "Q58845BIa8U",
+        "video_id": "CA1iStaEqx0",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/Q58845BIa8U?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Q58845BIa8U"
+        "embed_url": "https://www.youtube.com/embed/CA1iStaEqx0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=CA1iStaEqx0"
       },
       {
         "id": "stream_ntvnews",
@@ -650,10 +650,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "8z63cIkYgW4",
+        "video_id": "0wxFzj28sUE",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/8z63cIkYgW4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=8z63cIkYgW4"
+        "embed_url": "https://www.youtube.com/embed/0wxFzj28sUE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=0wxFzj28sUE"
       },
       {
         "id": "stream_fnnnews",

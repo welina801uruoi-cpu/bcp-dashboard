@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20 04:25:53",
+  "timestamp": "2026-11-20 05:27:54",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -89,12 +89,33 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-20 13:22",
+    "shindo": "3",
+    "time": "2026-11-20 13:50",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.3",
+    "magnitude": "3.9",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-20 13:50",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "3",
+        "magnitude": "3.9",
+        "maxScale": 30
+      },
+      {
+        "time": "2026-11-20 13:50",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "-",
+        "magnitude": "3.9",
+        "maxScale": -1
+      },
+      {
+        "time": "2026-11-20 13:50",
+        "place": "震源情報なし",
+        "shindo": "3",
+        "magnitude": "-",
+        "maxScale": 30
+      },
       {
         "time": "2026-11-20 13:22",
         "place": "熊本県天草・芦北地方",
@@ -143,27 +164,6 @@
         "shindo": "2",
         "magnitude": "3.2",
         "maxScale": 20
-      },
-      {
-        "time": "2026-11-20 07:27",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.8",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-20 05:02",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.7",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-20 04:42",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.5",
-        "maxScale": 10
       }
     ]
   },
@@ -193,11 +193,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -208,11 +208,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -236,11 +236,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -251,11 +251,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -266,11 +266,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -281,11 +281,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       }
     ]
@@ -347,11 +347,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "九州電力送配電: 停電情報なし（九州エリア管内正常）",
+    "power_msg": "九州電力送配電: 【停電発生中】鹿児島・長崎で停電情報を検知",
     "water_msg": "福岡市水道局: 供給安定（平常）",
     "gas_msg": "西部ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -394,16 +394,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/20 04:28",
+          "text": "@k__o30 光回線ない物件は絶対やめたほうがいいです！！あとは START au END ひかりは START 障害 END 多いので非推奨！"
+        },
+        {
           "time": "11/20 04:12",
           "text": "どうも数時間前から ネット回線が繋がりにくい 通信接続 START 障害 END なのかな？ START au END START au END 光を使ってます"
         },
         {
           "time": "11/20 03:01",
           "text": "今日も通信 START 障害 END になったら許さんで！！ START au END"
-        },
-        {
-          "time": "11/19 23:22",
-          "text": "今 START au END 回線通信 START 障害 END なってる？ 検索もできんから誰か教えてー"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -437,7 +437,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/20 04:11",
@@ -498,127 +498,127 @@
     "disaster_count": 3,
     "articles": [
       {
-        "title": "“流行の兆し”にシカ肉選出　提供店が増加「臭み少ない」 各地でシカ被害の中(テレビ朝日系（ANN）)",
-        "summary": "来年流行する兆しがある食材として「シカ肉」が選ばれました。害獣対策につながる食材としてだけでなく、おいしさでも注目されるシカ肉の魅力に迫ります。【画像】シカ肉を使ったラーメン",
-        "pub_date": "11/20 12:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/44744665c658c006f939adddebc38d8dd08c46e9?source=rss",
+        "title": "【速報】JR京都線の京都ー吹田で運転見合わせ　岸辺駅で列車と人が接触(京都新聞)",
+        "summary": "JRのホームページによると、20日午後1時55分ごろ、JR京都線の岸辺駅（大阪府吹田市）で列車と人が接触した。 この影響でJR京都線は京都―吹田駅間で運転を見合わせている。",
+        "pub_date": "11/20 14:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/6032556759613e1ec6fdc4a7b2bfe6dcb11a7d39?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "止まらない情報漏えい、「サイバーガバナンス」を担う取締役会は何をするべきか(オルタナ)",
-        "summary": "サイバー攻撃は、情報漏えいにとどまらず、事業停止や顧客被害、企業の信用失墜を招き、企業価値や社会の持続可能性を揺るがす経営リスクです。AIの進化によって攻撃の高度化・自動化が進むなか、完全な防御は困難",
-        "pub_date": "11/20 12:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/0f5ad9bd3e21e9ddaf1731e53af4c0cbe3b98dbf?source=rss",
+        "title": "【速報】JR京都線で人身事故　京都駅～吹田駅間で運転見合わせ（午後2時時点）(読売テレビ)",
+        "summary": "20日午後1時54分ごろ、JR京都線の岸辺駅で列車と人が接触する事故がありました。事故の影響で、京都駅から吹田駅間の上下線で運転を見合わせています。JR西日本によりますと、運転再開は、午後3時10分ご",
+        "pub_date": "11/20 14:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/4fdbb3b86d5e3e7b9006d6aff63ca4de5c244d4e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "AIやプラスチックなど便利な生活の源流にある「水俣病」が、現代に問いかけることとは(オルタナ)",
-        "summary": "公害の原点と呼ばれる水俣病は2026年5月、公式確認から70年を迎えた。「水俣病は終わっていない」とよく言われるが、それは被害が続いているという意味だけではない。11月25日〜12月3日には、東京都渋",
-        "pub_date": "11/20 12:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/91cb2c5dc03d3814cc5e42de8e2ebfff1a010a81?source=rss",
+        "title": "JR京都線で人身事故 一部運転見合わせ(レスキューナウニュース)",
+        "summary": "13:54頃、岸辺駅で発生した人身事故の影響で、JR京都線は京都～吹田駅間の運転を見合わせています。振替輸送を行っています。",
+        "pub_date": "11/20 14:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/67204262163632fc84a9a2131eb16e3b2ae53537?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "絞首刑差し止め訴訟、二審も死刑囚側敗訴(共同通信)",
-        "summary": "絞首刑による死刑は残虐な刑罰を禁じる国際人権規約に違反するなどとして、死刑囚2人が国に執行の差し止めと慰謝料など計2200万円の損害賠償を求めた訴訟の控訴審判決で大阪高裁は20日、一審に続き原告側の訴",
-        "pub_date": "11/20 13:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/84f46c41d1f800862cb25ff441e7daabbe67715b?source=rss",
+        "title": "仙台で初雪を観測　平年より3日遅く　宮城県西部は大雪に注意(日本気象協会tenki.jp)",
+        "summary": "今日20日(金)、仙台で初雪が観測されました。平年より3日、昨年より2日遅い観測です。今夜から明日21日(土)の明け方にかけては寒気のピークを迎え、宮城県西部では大雪の恐れがありますので、注意が必要で",
+        "pub_date": "11/20 14:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/6dc15da8422f2fd808cb71549c14bc3fde56ef4d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "機体とタラップ40センチの段差　高市首相の中国到着時　ヒール、人工関節…危険指摘の声(産経新聞)",
-        "summary": "高市早苗首相がアジア太平洋経済協力会議（APEC）首脳会議のため18日に中国・深圳の空港に政府専用機で到着した際、機体とタラップの間に約40センチの段差があった。首相は関節リウマチで片脚に人工関節が入",
-        "pub_date": "11/20 13:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/0d0d03a288a7e974cf5fc0fb2aa51daa07382aa7?source=rss",
+        "title": "「リベラル＝左派」なぜ定着？　福沢諭吉も苦心した「自由」という言葉(西日本新聞me)",
+        "summary": "「政治のニュースで『リベラル』という言葉をよく見ます。でも、リベラルって本来は『自由』という意味じゃないんですか」。こんな疑問の声が、西日本新聞「あなたの特命取材班」に寄せられた。実は取材を始めた記者",
+        "pub_date": "11/20 14:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/f6cd314fe9d3dbe2aa585570317844953960d335?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "野党、財産権との両立要求　土地利用規制法案で衆院質疑(共同通信)",
-        "summary": "衆院内閣委員会は20日、安全保障上重要な施設周辺の土地取引に事前許可制を導入する土地利用規制法改正案に関し質疑を実施した。公明党の犬飼明佳氏は「憲法が保障する財産権などを尊重し、安保と権利保障の両立が",
-        "pub_date": "11/20 13:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/8cc3f1f3db79967100198cb209c0846bfa00165e?source=rss",
+        "title": "長岡花火チケット転売疑いで逮捕　55歳男、3枚を約9万(共同通信)",
+        "summary": "新潟県長岡市で8月に開催された「長岡まつり大花火大会」のチケットを転売したとして、長岡署は19日、入場券不正転売禁止法違反の疑いで群馬県高崎市、会社員森本照剛容疑者（55）を逮捕した。「間違いない」と",
+        "pub_date": "11/20 14:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/4af15fc3f1c42f6d1bf06846873f13fb5d1fe1d3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "中野女性刺殺事件「強盗殺人」で送検、「実は立証が難しい」弁護士が語る意外な問題(弁護士ドットコムニュース)",
-        "summary": "東京・中野区の路上で女性が首を刺されて死亡した事件で、警視庁は11月18日、強盗殺人未遂の容疑で逮捕された男を、強盗殺人の容疑に切り替えて送検したと報じられました。栃木県の強盗殺人事件では真偽不明の犯",
-        "pub_date": "11/20 13:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/64398100af2686f7ffbcac05f6ce4269d516004b?source=rss",
+        "title": "【改正皇室典範】女性・女系天皇の是非に「ダメなことに『なぜ』の答え無い」石破前総理が“再改正”に意欲「国民の総意を聞いていない」　“旧華族”出身・池坊保子元衆院議員「このやり方はいびつすぎる」と批判(FNNプライムオンライン)",
+        "summary": "減少する皇族数を確保するため、「女性皇族が結婚後も皇室に残ること」や、「旧皇族の男系男子を養子に迎えられるようにすること」などを盛り込んだ、改正「皇室典範」が先月24日に施行されました。【動画で見る】",
+        "pub_date": "11/20 14:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/9dbaa0456700c6e5dd1758cdd93a3b087e9b5a7f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ディズニーストア、鹿児島に17年ぶり再上陸　アミュプラザ鹿児島に19日オープン　限定ミッキー＆ミニーは薩摩犬と黒豚がお供　「あいこ」でカードがもらえるじゃんけん体験も(FNNプライムオンライン)",
-        "summary": "鹿児島市のアミュプラザ鹿児島2階に11月19日、「ディズニーストア アミュプラザ鹿児島店」がオープンした。常設店舗としては県内に17年ぶりの再上陸である。鹿児島限定の着物姿のミッキーマウスとミニーマウ",
-        "pub_date": "11/20 12:55 JST",
-        "link": "https://news.yahoo.co.jp/articles/a548e32bf48172de3c89b7542ac91b900756d678?source=rss",
+        "title": "横浜市長公舎の廃止方針を表明　未使用で公費負担が問題に(テレビ朝日系（ANN）)",
+        "summary": "横浜市の原澤敦美市長が市長公舎に入居せずに、市が借りた別の住宅に入居したことを巡り、原澤市長は市長公舎を廃止する方針であることを明らかにしました。 横浜市の原澤敦美市長は先月、市長選挙で初当選しました",
+        "pub_date": "11/20 14:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/1108533d2d2d143e5eadc9f7dcb87a565063cdf5?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "前橋市の市街地で今日もクマの目撃情報、全小中学校また休校措置　前日に高校生追いかけた親グマか(スポニチアネックス)",
-        "summary": "男性がクマに襲われてけがをしていた前橋市で20日もクマの目撃情報があり、市内の公立小中学校などが再び休校となった。【写真】「前橋市まちの安全エックス」から 市によると、同市東片貝町の総合卸売市場付近で",
-        "pub_date": "11/20 12:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/177e79e8b213845e1a43a049487f88af57780f02?source=rss",
+        "title": "3連休は冷え込み強まる　東京都心は最低気温4℃予想でダウンコートが必要な寒さ(日本気象協会tenki.jp)",
+        "summary": "明日21日からの3連休は、全国的に平年より低い気温となるため、しっかりとした防寒が必要です。22日、23日の朝は東京都心でも5℃を下回る予想で、ダウンコートが必要なくらいの寒さとなりそうです。",
+        "pub_date": "11/20 14:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/507c12e70c79e2a30145cb30422380bf6ae5de0b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "衆院委、土地利用規制法案をきょう採決へ(共同通信)",
-        "summary": "衆院内閣委員会は20日の理事会で、安全保障上重要な施設周辺の土地取引規制を強化する土地利用規制法改正案を同日中に採決する日程を決めた。",
-        "pub_date": "11/20 12:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/6b30584726a9329751ef22f9b61eb886340bd83f?source=rss",
+        "title": "小川淳也氏、退職勧奨の立民職員への支援「心配を届けるのが精一杯」資金「ないに等しい」(産経新聞)",
+        "summary": "民主改革の会の小川淳也代表は20日の記者会見で、古巣の立憲民主党が財政難から職員の退職勧奨を検討していることについて、「心配を届けるのが精一杯だ」と述べ、党としての支援は難しいとの考えを示した。小川氏",
+        "pub_date": "11/20 14:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/ece42dda92fb7d2eafab308e0801cd68f20b668a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "NHK戸別訪問「外部委託」再開 委託先に疑義　訪問先での強制わいせつや助成金不正申請(テレビ朝日系（ANN）)",
-        "summary": "NHKが3年前に取りやめた「戸別訪問」の外部委託を、9月から再開しています。しかし、委託先業者の関連会社が過去に戸別訪問先で事件を起こし、さらに太陽光発電の助成金で不正申請をしていたことも分かりました",
-        "pub_date": "11/20 12:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/9a208de3e0fdaf7d4d83d2006b87fbc78bda1349?source=rss",
+        "title": "10月の大学生就職内定率73％、高水準維持(共同通信)",
+        "summary": "厚生労働省と文部科学省は20日、来年3月に卒業を予定し、就職を希望する大学生の10月1日時点での内定率が73.0％だったと発表した。人手不足を背景に高水準が続いている。",
+        "pub_date": "11/20 14:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/e6970ccc0b80ce5418859fe6283c7acca62148b9?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "不法残留の外国人リスト、警察に事前提供を　保守・北村晴男氏の提案に山下法相は慎重姿勢(産経新聞)",
-        "summary": "日本保守党の北村晴男氏は19日の参院法務委員会で、全国に約6万5000人の不法残留者がいる一方、取り締まりに当たる入国警備官の人数には限界があると指摘し、国内に不法残留する外国人のリストをあらかじめ警",
-        "pub_date": "11/20 12:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/1845ec9bbf876ed82980dbb3fc0f1925caa4c55f?source=rss",
+        "title": "神奈川県知事選に初名乗り　「無所属連合」代表の内海氏　医療、外国人政策見直しに力点(産経新聞)",
+        "summary": "来春予定される神奈川県知事選をめぐり20日、医師で政治団体代表の内海聡氏（51）が無所属で立候補すると表明した。知事選への出馬表明は内海氏が1人目。県庁で記者会見を開き、主に訴えたい政策として医療体制",
+        "pub_date": "11/20 14:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/7236abbbc2b31bf301110b8aeb9a2a29925dc5ed?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "再生医療提供クリニックに緊急命令　厚労省 - 関連疑いの重篤な疾病発生　必要な報告せず(医療介護ＣＢニュース)",
-        "summary": "厚生労働省は19日、再生医療との関係が疑われる重篤な疾病が複数回発生したとして、東京都内のクリニックに対して医療提供の一時停止を求める緊急命令を出した。 命令を受けたのは、「医療法人社団ICVS 東京",
-        "pub_date": "11/20 12:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/8e84e49c42308b24cc487013c112720c71b4a385?source=rss",
+        "title": "枚方3歳女児虐待死、暴行とらえた動画見つかる　殺人容疑で逮捕の父親のスマホから(産経新聞)",
+        "summary": "大阪府枚方市で金尾英怜奈（かなお・えれな）ちゃん（3）が死亡し両親が逮捕された事件で、大阪府警が押収した父親の健太郎容疑者（33）＝殺人容疑で逮捕＝のスマートフォンから、英怜奈ちゃんを暴行する様子を写",
+        "pub_date": "11/20 14:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/e5b04a84e0413d9f0ad13e5d12ddeb8424c3dec7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「政治教育的な効果も抜群」前川喜平氏、「ポリティカルパン」絶賛　自民党には厳しい見方(J-CASTニュース)",
-        "summary": "元文部科学事務次官の前川喜平氏が2026年11月19日、Xで10月7日からスタートした政治ドラマ「ポリティカルパン」（フジテレビ）について感想を投稿した。「超絶面白いし、政治教育的な効果も抜群のドラマ",
-        "pub_date": "11/20 12:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/f4ca0e2db906d0bc24047ff82fc8c0c4e061546e?source=rss",
+        "title": "関文科大臣「職務に邁進する」 議員会館で政治資金パーティー(テレビ朝日系（ANN）)",
+        "summary": "関文部科学大臣は、政治資金パーティーに省庁の職員を招いていた問題を巡り、「職務に全力で邁進（まいしん）することで責任を果たしたい」と述べ、改めて続投に意欲を示しました。 関大臣は2024年に開催した7",
+        "pub_date": "11/20 14:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/3825cb13bb52f5ec4e170e2e345f81b5c2d50a68?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "タクシーアプリ「S.RIDE」顧客情報漏洩、KARTE不正アクセスで　件数は公表せず(産経新聞)",
-        "summary": "タクシー配車アプリ大手S.RIDE（エスライド、東京都港区）は19日、同社運営のエスライドアプリの顧客情報が漏洩したと発表した。委託していた「プレイド」が提供するサービス「KARTE（カルテ）」が不正",
-        "pub_date": "11/20 12:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/c7501c7f390eba76d93ab39ad5d87a1b7c807f4e?source=rss",
+        "title": "福岡県議会、林県議が百条委員辞任(共同通信)",
+        "summary": "福岡県議会の金銭授受疑惑を調査する百条委員会の林泰輔県議は20日、議長に百条委員の辞任を申し入れ、認められた。",
+        "pub_date": "11/20 14:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/d2f6a04b259efe05a2df0779e78f1825811a7fb6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-20 13:25:50 JST"
+    "last_updated": "2026-11-20 14:27:00 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -639,10 +639,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "2TSUO04uVkY",
+        "video_id": "knQ7hNQ1Tq0",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/2TSUO04uVkY?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=2TSUO04uVkY"
+        "embed_url": "https://www.youtube.com/embed/knQ7hNQ1Tq0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=knQ7hNQ1Tq0"
       },
       {
         "id": "stream_tbsnews",
@@ -661,10 +661,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "PRhaZAI_8X8",
+        "video_id": "0eObkYBWHQM",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/PRhaZAI_8X8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=PRhaZAI_8X8"
+        "embed_url": "https://www.youtube.com/embed/0eObkYBWHQM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=0eObkYBWHQM"
       },
       {
         "id": "stream_annnews",

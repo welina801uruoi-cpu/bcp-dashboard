@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20 07:45:57",
+  "timestamp": "2026-11-20 08:44:03",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -216,10 +216,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -230,11 +230,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
+          "強風注意報",
           "波浪注意報",
-          "強風注意報"
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -245,10 +245,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/14/"
       },
       {
@@ -270,10 +270,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -322,18 +322,20 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 高崎線、東京メトロ南北線 ／ 新幹線: 東北新幹線（列車遅延）、秋田新幹線（列車遅延））",
+    "text": "運行支障あり（在来線: 高崎線、相鉄線 ／ 新幹線: 東北新幹線（列車遅延）、北陸新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（高崎線、東京メトロ南北線）",
+    "line_text": "運行支障あり（高崎線、相鉄線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東北新幹線（列車遅延）、秋田新幹線（列車遅延））",
+    "shinkansen_text": "運行支障あり（東北新幹線（列車遅延）、北陸新幹線（列車遅延）、山形新幹線（運転見合わせ）、秋田新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [
       "高崎線",
-      "東京メトロ南北線"
+      "相鉄線"
     ],
     "troubled_shinkansen": [
       "東北新幹線（列車遅延）",
+      "北陸新幹線（列車遅延）",
+      "山形新幹線（運転見合わせ）",
       "秋田新幹線（列車遅延）"
     ],
     "shinkansen_details": [
@@ -360,16 +362,16 @@
       },
       {
         "name": "北陸新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "現在､事故･遅延に関する情報はありません。",
+        "status": "ALERT",
+        "state": "列車遅延",
+        "detail": "敦賀駅での接続待ちの影響で、富山〜敦賀駅間の上り線(富山方面行)の一部列車に遅れが出ています。（11月20日 17時35分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/624/0"
       },
       {
         "name": "山形新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "現在､事故･遅延に関する情報はありません。",
+        "status": "ALERT",
+        "state": "運転見合わせ",
+        "detail": "大石田〜新庄駅間で発生した倒木の影響で、村山〜新庄駅間の運転を見合わせています。運転区間の一部列車に遅れが出ています。（11月20日 17時30分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/5/0"
       },
       {
@@ -402,8 +404,8 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東京電力PG: 【停電発生中】千葉で停電情報を検知",
-    "water_msg": "東京都水道局: 供給安定（平常）",
+    "power_msg": "東京電力PG: 【停電発生中】千葉・茨城で停電情報を検知",
+    "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東京ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
     "water_url": "https://www.waterworks.metro.tokyo.lg.jp/",
@@ -488,7 +490,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/20 07:32",
@@ -547,8 +549,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "志賀原発事故想定し訓練　石川、避難の流れ確認(共同通信)",
+        "summary": "石川県や北陸電力などは20日、2024年の能登半島地震と同規模の震度7の揺れで志賀原発2号機（志賀町）に重大事故が起きたとの想定で、防災訓練を実施した。地震発生から屋内退避までの流れについて、県や関係",
+        "pub_date": "11/20 17:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/65b9336c933618d7e8299342779b7cefa77005c0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "警察庁のサイバー攻撃初期対応部隊発足　通信履歴保全や分析支援担う　被害企業に助言も(産経新聞)",
+        "summary": "不正アクセスが相次ぎ大量の個人情報が流出するなどサイバー攻撃が深刻化する中、警察庁は20日、通信履歴（ログ）の保全といった初期対応を担う部隊「ファスト・フォレンジック・フォース」（FFF）を警察庁と各",
+        "pub_date": "11/20 16:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/f411c6f140e86c279a4328c63ab713534da5728a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「冷静な判断できず…」自家用車を運転中に車と衝突して相手にケガさせ逃走 陸上自衛隊の50代隊員が停職処分(東海テレビ)",
+        "summary": "自家用車でひき逃げ事故を起こしたとして、陸上自衛隊守山駐屯地の隊員が停職処分となりました。 守山駐屯地によりますと、第10後方支援連隊に所属する50代の1等陸曹は、去年6月、名古屋市内で自家用車を運転",
+        "pub_date": "11/20 16:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/3689e8b31d93be40907b25af17d9db8374f67735?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "米兵1千万円超窃盗で有罪　4都県被害、福岡地裁(共同通信)",
         "summary": "4都県の店舗に侵入し1千万円超を盗んだなどとして、窃盗罪などに問われた米軍岩国基地（山口県岩国市）所属の海兵隊員マリック・ジュジュアン・ルイス被告（26）に、福岡地裁は20日、「窃取額は非常に高額で非",
@@ -574,7 +600,7 @@
         "is_disaster": true
       },
       {
-        "title": "群馬・伊勢崎市3人死亡事故　トラック運転手が上告せず懲役20年の判決が確定(テレビ朝日系（ANN）)",
+        "title": "群馬・伊勢崎市3人死亡事故　トラック運転手が上告せず懲役20年の判決が確定　遺族がコメント「被告人には長いかもしれないが3人にとっては短い」(テレビ朝日系（ANN）)",
         "summary": "トラックを飲酒運転し、家族3人を死亡させるなどした危険運転致死傷罪に問われた男の裁判で、控訴を退けられた男が上告せず、懲役20年の判決が確定しました。鈴木吾郎被告（72）はおととし、群馬県伊勢崎市の国",
         "pub_date": "11/20 16:18 JST",
         "link": "https://news.yahoo.co.jp/articles/c489f62cc4418657979e8284bfc6cd7414526c17?source=rss",
@@ -583,94 +609,70 @@
       },
       {
         "title": "群馬・伊勢崎市3人死亡事故　トラック運転手が上告せず懲役20年判決確定(テレビ朝日系（ANN）)",
-        "summary": "トラックを飲酒運転し、家族3人を死亡させるなどした危険運転致死傷罪に問われた男の裁判で、控訴を退けられた男が上告せず、懲役20年の判決が確定しました。 鈴木吾郎被告（72）はおととし、群馬県伊勢崎市の",
+        "summary": "トラックを飲酒運転し、家族3人を死亡させるなどした危険運転致死傷罪に問われた男の裁判で、控訴を退けられた男が上告せず、懲役20年の判決が確定しました。【動画】伊勢崎市飲酒死亡事故 控訴審でも懲役20年",
         "pub_date": "11/20 16:14 JST",
         "link": "https://news.yahoo.co.jp/articles/9ec0dbda7dcfc7e9166b604bfd1b7bf272d5d4c0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "爆弾低気圧で列島大荒れ　地吹雪の嵐　北海道で立ち往生相次ぐ　3連休は大雪に警戒(テレビ朝日系（ANN）)",
-        "summary": "今シーズン初の強い寒波の影響が21日以降も続きます。日本海側の広い範囲では、この3連休は大雪となる恐れがあります。【画像】道東道で4台絡む事故 フロント部分が大きくつぶれた大型トレーラー",
-        "pub_date": "11/20 16:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/fde384c0ffaca989991f20d5dd624e6e621ce940?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "埼玉の道路陥没訴訟、損害額争う　初弁論、県側「責任は認める」(共同通信)",
-        "summary": "埼玉県八潮市で2025年1月、陥没した道路にトラックが転落し男性運転手＝当時（74）＝が死亡した事故で、男性の遺族が現場地下の下水道管を管理する県に対し、計約1億2500万円の損害賠償を求めた訴訟の第",
-        "pub_date": "11/20 16:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/8c26dc0d452ddbabdcee159bd14c620f618e3b00?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "“冬の嵐”到来 防寒・停電 100円グッズで格安防災 家の中に潜む危険も対策(テレビ朝日系（ANN）)",
-        "summary": "冬の嵐が列島を襲っています。いざという時の備え、皆さんはできているでしょうか。防災のプロが勧める、災害に役立つ100円グッズをご紹介します。【画像】外出時も安心“防災ボトル”とは？内閣府の世論調査で、",
-        "pub_date": "11/20 16:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/c3dba3883a2aece97aa1f09d3ca828d613a1c112?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "JR京都線で人身事故 運転再開(レスキューナウニュース)",
-        "summary": "岸辺駅で発生した人身事故の影響で、JR京都線は京都～吹田駅間の運転を見合わせていましたが、15:34頃、運転を再開しました。なお、ダイヤが乱れています。",
-        "pub_date": "11/20 15:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/953f78f70e6ea090313ff76c4df9ba54ef719240?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "キャバクラ「アフター」中に女性のバッグから窃盗か　被害総額100万円超えか(テレビ朝日系（ANN）)",
-        "summary": "キャバクラの「アフター」中に相手女性のバッグから現金2万円を盗んだなどとして、46歳の男が逮捕されました。 職業不詳の渋谷重徳容疑者は8月、キャバクラの「アフター」中に、相手女性のバッグからクレジット",
-        "pub_date": "11/20 15:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/1835ff241fdbd08741a6761f1b9cce5a8c05f1f7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「恥をさらすようなことは困る」 自民・麻生副総裁がアジア大会での運営トラブルに苦言 大村愛知県知事も出席の会合で(東海テレビ)",
-        "summary": "「恥をさらすようなことは困る」トラブルが相次いだアジア・アジアパラ競技大会に、自民党の麻生副総裁が苦言を呈しました。 関係者によりますと、19日に開かれた超党派のスポーツ議員連盟総会で、会長を務める麻",
-        "pub_date": "11/20 16:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/d76e40721c25e34145aaec1bf8a8d294aa722e51?source=rss",
+        "title": "青森市長選　令和9年5月9日告示、16日投開票　現新2人が立候補を表明(産経新聞)",
+        "summary": "青森市選挙管理委員会は20日、来年6月の任期満了に伴う市長選を5月9日告示、同16日投開票とすることを決めた。市長選を巡っては、これまで現職の西秀記氏（62）と同市の葬祭業社長、船橋素幸氏（66）が出",
+        "pub_date": "11/20 17:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/78256bfeb5f7eb72e81bf33d2b79eddc5a428df3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "定数削減法案　野党「少数意見の排除だ」　与党は来週の採決を提案(テレビ朝日系（ANN）)",
-        "summary": "衆議院の特別委員会で、衆議院議員の定数を比例代表のみで31議席削減する法案の審議が行われ、野党は「少数意見の排除だ」と批判しました。民主改革の会 重徳和彦衆議院議員「自民党さんを中心とした権力側がです",
-        "pub_date": "11/20 16:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/922271fa98c19f76c5a7a3fd81e3a71f88ea18bb?source=rss",
+        "title": "北陸新幹線の延伸で国側説明会　先月に続き、京都向け(共同通信)",
+        "summary": "北陸新幹線敦賀（福井県）―新大阪延伸を巡り、国土交通省と鉄道建設・運輸施設整備支援機構は20日、京都府内の自治体向け説明会を京都市で開いた。地下水への影響を説明した先月29日に続く開催で、工事に伴い発",
+        "pub_date": "11/20 17:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/21679d22bd13a330b97d6c0f1d9051a7a11800d6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "立憲民主党の職員は「飲めば愚痴ばかり」　“肩たたき”が始まり「新党を結成してくれないかなあ」の声(AERA DIGITAL)",
-        "summary": "「あと1カ月ほどで、お正月なのに……」 暗い表情でこう話すのは、立憲民主党の党職員Aさんだ。【写真】中道改革連合の結成で失敗した共同代表はこの人たち 党本部から、立憲民主と中道改革連合の党職員に送られ",
-        "pub_date": "11/20 16:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/360b7b503d97d24e8984607f819ff0ec3f7a031b?source=rss",
+        "title": "2市町住基データ外部に無断提供　北海道、再委託禁じる契約守らず(共同通信)",
+        "summary": "北海道留萌市と新得町の過去の住民基本台帳データ最大約7万7千件が漏えいした可能性がある問題で、2市町が住基データを渡した「GIS北海道」（札幌市）に業務委託した際の契約では、別会社への再委託を原則禁じ",
+        "pub_date": "11/20 17:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/4feab9e29f847c4141394aa18f4657b75f4dbd7f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "愛子さま、新種の蘭は「アイコ・ナイシンノウ・デンカ」に決定…両陛下と同系統の花束が象徴する“ご一家の絆”(週刊女性PRIME)",
-        "summary": "11月17日から5日間、愛子さまは、日本とシンガポールの外交樹立60周年を記念して同国を訪問され、さっそく現地で歓迎を受けている。【写真】「アイコ・ナイシンノウ・デンカ」と名付けられた新種の蘭と愛子さ",
-        "pub_date": "11/20 16:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/aa964c4eedfdd6228a28194570adf3a2f45fc21f?source=rss",
+        "title": "大阪・心斎橋 6階建てビルで火事(ABEMA TIMES)",
+        "summary": "午後3時ごろ、大阪市中央区の心斎橋筋商店街近くの6階建てビルで火事があり、現在も消火活動が行われています。【映像】消防隊員による消火活動の様子 大阪市消防によりますと、午後3時過ぎ、大阪市中央区心斎橋",
+        "pub_date": "11/20 17:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/06294b9d817897f024bfa758acf2f04fe090c703?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "双子ホッキョクグマ仙台で誕生会　2歳祝う、お別れ控え一足先に(共同通信)",
-        "summary": "仙台市の八木山動物公園は20日、2024年12月20日に生まれた双子のホッキョクグマの誕生会を一足先に開いた。雄の「うみ」は今月25日に愛知県豊橋市へ、雌の「そら」は12月23日に鹿児島市へ移る予定の",
-        "pub_date": "11/20 16:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/8fe660319841c6ac207155b49a5592290e9e33ad?source=rss",
+        "title": "鳥取大パワハラ訴訟で女性側上告　「公益通報者を守って」(共同通信)",
+        "summary": "鳥取大の契約職員だった女性が、上司からパワハラを受けたとして損害賠償を求めた訴訟で、女性側は20日、大学に50万円の賠償を命じた広島高裁松江支部判決を不服とし、8月に上告したと明らかにした。女性側は「",
+        "pub_date": "11/20 17:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/2213bc4cf8c72c65538551119cfe8470ce475d74?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "警察庁が採用活動で異例のポップな取り組み　広報動画にアニメコント「そろ谷のアニメっち」を活用(テレビ朝日系（ANN）)",
+        "summary": "警察官採用試験の受験者数が年々減少する中、警察庁は、SNSなどで人気のアニメクリエイターを起用した採用広報動画を公開しました。全国の警察官採用試験の受験者数は去年は4万1077人と10年前の9万163",
+        "pub_date": "11/20 17:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/67eb80ef71cb13f917b3102ed7f32eb886db85f0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "3連休　寒さのピーク　冬日エリア日に日に拡大　寒さ対策欠かせず(ウェザーマップ)",
+        "summary": "3連休は、寒さのピークを迎えそうです。朝は日に日に冷え込みが強まる所が多く、最低気温が0℃未満の冬日エリアは日に日に拡大して、今季最多を更新するでしょう。日中も前半ほど寒い所が多く、風の冷たさも残る見",
+        "pub_date": "11/20 17:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/b1e334cc52d5fd24b25950fc2aeaad61a927fdfb?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-20 16:45:34 JST"
+    "last_updated": "2026-11-20 17:43:47 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -691,10 +693,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "knQ7hNQ1Tq0",
+        "video_id": "fsXblLlNldE",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/knQ7hNQ1Tq0?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=knQ7hNQ1Tq0"
+        "embed_url": "https://www.youtube.com/embed/fsXblLlNldE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=fsXblLlNldE"
       },
       {
         "id": "stream_tbsnews",
@@ -713,10 +715,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "qZQ6eX5Bqhc",
+        "video_id": "6lOGHOfi29U",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/qZQ6eX5Bqhc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=qZQ6eX5Bqhc"
+        "embed_url": "https://www.youtube.com/embed/6lOGHOfi29U?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=6lOGHOfi29U"
       },
       {
         "id": "stream_annnews",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20 18:36:26",
+  "timestamp": "2026-11-20 19:41:22",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -77,11 +77,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-21 02:14",
-    "place": "トカラ列島近海",
+    "time": "2026-11-21 04:01",
+    "place": "熊本県天草・芦北地方",
     "magnitude": "2.2",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-21 04:01",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.2",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-21 02:14",
         "place": "トカラ列島近海",
@@ -144,13 +151,6 @@
         "shindo": "1",
         "magnitude": "2.6",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-20 15:31",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.5",
-        "maxScale": 10
       }
     ]
   },
@@ -165,11 +165,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "ALERT",
-    "summary": "【警報発表: 1地域】秋田（波浪警報） ／ 他5地域で注意報",
+    "status": "NOTICE",
+    "summary": "【注意報発表: 6地域】青森、岩手、秋田、宮城、山形、福島（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
-    "alert_count": 1,
-    "notice_count": 5,
+    "alert_count": 0,
+    "notice_count": 6,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -180,14 +180,14 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "大雪注意報",
-          "風雪注意報",
-          "着雪注意報",
           "波浪注意報",
-          "なだれ注意報"
+          "着雪注意報",
+          "なだれ注意報",
+          "雷注意報",
+          "風雪注意報",
+          "大雪注意報"
         ],
-        "summary": "雷注意報、大雪注意報、風雪注意報、着雪注意報、波浪注意報、なだれ注意報",
+        "summary": "波浪注意報、着雪注意報、なだれ注意報、雷注意報、風雪注意報、大雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -198,31 +198,28 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
           "なだれ注意報",
+          "大雪注意報",
           "強風注意報",
-          "大雪注意報"
+          "着雪注意報"
         ],
-        "summary": "着雪注意報、なだれ注意報、強風注意報、大雪注意報",
+        "summary": "なだれ注意報、大雪注意報、強風注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
         "code": "5",
         "name": "秋田県",
         "short_name": "秋田",
-        "status": "ALERT",
+        "status": "NOTICE",
         "emg_warns": [],
-        "warns": [
-          "波浪警報"
-        ],
+        "warns": [],
         "notices": [
-          "雷注意報",
-          "大雪注意報",
+          "なだれ注意報",
           "風雪注意報",
-          "着雪注意報",
-          "なだれ注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "波浪警報、雷注意報、大雪注意報、風雪注意報、着雪注意報、なだれ注意報",
+        "summary": "なだれ注意報、風雪注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
@@ -233,11 +230,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
-          "雷注意報",
-          "大雪注意報"
+          "大雪注意報",
+          "着雪注意報"
         ],
-        "summary": "着雪注意報、雷注意報、大雪注意報",
+        "summary": "大雪注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/4/"
       },
       {
@@ -248,13 +244,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "大雪注意報",
-          "風雪注意報",
+          "波浪注意報",
           "着雪注意報",
-          "波浪注意報"
+          "雷注意報",
+          "風雪注意報",
+          "大雪注意報"
         ],
-        "summary": "雷注意報、大雪注意報、風雪注意報、着雪注意報、波浪注意報",
+        "summary": "波浪注意報、着雪注意報、雷注意報、風雪注意報、大雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -265,13 +261,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "雷注意報",
-          "大雪注意報",
           "着雪注意報",
-          "なだれ注意報"
+          "霜注意報",
+          "なだれ注意報",
+          "雷注意報",
+          "大雪注意報"
         ],
-        "summary": "霜注意報、雷注意報、大雪注意報、着雪注意報、なだれ注意報",
+        "summary": "着雪注意報、霜注意報、なだれ注意報、雷注意報、大雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       }
     ]
@@ -285,14 +281,16 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 磐越西線、北上線）",
+    "text": "運行支障あり（在来線: 仙山線、磐越西線、奥羽本線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（磐越西線、北上線）",
+    "line_text": "運行支障あり（仙山線、磐越西線、奥羽本線、北上線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/3",
     "troubled_lines": [
+      "仙山線",
       "磐越西線",
+      "奥羽本線",
       "北上線"
     ],
     "troubled_shinkansen": [],
@@ -341,7 +339,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東北電力NW: 【停電発生中】青森・山形・福島で停電情報を検知",
+    "power_msg": "東北電力NW: 【停電発生中】岩手・宮城・山形・福島で停電情報を検知",
     "water_msg": "仙台市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "仙台市ガス局: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -472,14 +470,17 @@
     "status": "NORMAL",
     "office": "仙台管区気象台",
     "target_area": "宮城県",
-    "report_time": "11/20 21:08",
+    "report_time": "11/21 04:39",
     "headline": "",
-    "text": "日本付近は、冬型の気圧配置となっています。\n\n宮城県は、雪や雨となっています。\n\n２０日夜は、冬型の気圧配置や気圧の谷の影響により、雪や雨の降る所が多く、雷を伴う所もあるでしょう。\n\n２１日は、冬型の気圧配置や気圧の谷の影響により、曇りで、西部を中心に雪の降る所が多く、雷を伴う所もある見込みです。",
+    "text": "日本付近は、冬型の気圧配置となっています。\n\n【宮城県】\n宮城県は、雪や雨の所が多くなっています。\n\n２１日は、冬型の気圧配置や気圧の谷の影響により、曇りで、西部を中心に雪や雨の降る所が多いでしょう。\n\n２２日は、冬型の気圧配置の影響により、はじめ西部を中心に雪の降る所が多いですが、次第に高気圧に覆われるため、晴れる見込みです。\n\n【東北地方】\n東北地方は、日本海側を中心に雪や雨となっていますが、太平洋側では晴れている所もあります。\n\n２１日は、冬型の気圧配置や気圧の谷の影響により、日本海側を中心に雪や雨の降る所が多く、雷を伴う所もあるでしょう。太平洋側では、晴れる所もある見込みです。\n\n２２日は、冬型の気圧配置は次第に緩むため、日本海側を中心に雪や雨で雷を伴う所がありますが、次第に曇る所が多くなるでしょう。太平洋側では、晴れる所もある見込みです。",
     "paragraphs": [
       "日本付近は、冬型の気圧配置となっています。",
-      "宮城県は、雪や雨となっています。",
-      "２０日夜は、冬型の気圧配置や気圧の谷の影響により、雪や雨の降る所が多く、雷を伴う所もあるでしょう。",
-      "２１日は、冬型の気圧配置や気圧の谷の影響により、曇りで、西部を中心に雪の降る所が多く、雷を伴う所もある見込みです。"
+      "【宮城県】\n宮城県は、雪や雨の所が多くなっています。",
+      "２１日は、冬型の気圧配置や気圧の谷の影響により、曇りで、西部を中心に雪や雨の降る所が多いでしょう。",
+      "２２日は、冬型の気圧配置の影響により、はじめ西部を中心に雪の降る所が多いですが、次第に高気圧に覆われるため、晴れる見込みです。",
+      "【東北地方】\n東北地方は、日本海側を中心に雪や雨となっていますが、太平洋側では晴れている所もあります。",
+      "２１日は、冬型の気圧配置や気圧の谷の影響により、日本海側を中心に雪や雨の降る所が多く、雷を伴う所もあるでしょう。太平洋側では、晴れる所もある見込みです。",
+      "２２日は、冬型の気圧配置は次第に緩むため、日本海側を中心に雪や雨で雷を伴う所がありますが、次第に曇る所が多くなるでしょう。太平洋側では、晴れる所もある見込みです。"
     ],
     "summary": "日本付近は、冬型の気圧配置となっています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=040000"
@@ -609,7 +610,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-21 03:36:23 JST"
+    "last_updated": "2026-11-21 04:41:04 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -630,10 +631,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "G67jhUXO948",
+        "video_id": "P-6no1xZ-hc",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/G67jhUXO948?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=G67jhUXO948"
+        "embed_url": "https://www.youtube.com/embed/P-6no1xZ-hc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=P-6no1xZ-hc"
       },
       {
         "id": "stream_tbsnews",

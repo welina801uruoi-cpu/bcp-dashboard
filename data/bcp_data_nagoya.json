@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20 03:29:17",
+  "timestamp": "2026-11-20 04:25:33",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -84,11 +84,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-20 11:58",
-    "place": "宮城県沖",
-    "magnitude": "3.7",
+    "time": "2026-11-20 13:22",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-20 13:22",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-20 11:58",
         "place": "宮城県沖",
@@ -151,13 +158,6 @@
         "shindo": "1",
         "magnitude": "2.5",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-20 04:10",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.5",
-        "maxScale": 10
       }
     ]
   },
@@ -173,7 +173,7 @@
   },
   "weather": {
     "status": "ALERT",
-    "summary": "【警報発表: 1地域】新潟（波浪警報） ／ 他5地域で注意報",
+    "summary": "【警報発表: 1地域】新潟（波浪警報、大雨警報） ／ 他5地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 1,
     "notice_count": 5,
@@ -186,15 +186,16 @@
         "status": "ALERT",
         "emg_warns": [],
         "warns": [
-          "波浪警報"
+          "波浪警報",
+          "大雨警報"
         ],
         "notices": [
-          "雷注意報",
           "大雨注意報",
+          "波浪注意報",
           "強風注意報",
-          "波浪注意報"
+          "雷注意報"
         ],
-        "summary": "波浪警報、雷注意報、大雨注意報、強風注意報、波浪注意報",
+        "summary": "波浪警報、大雨警報、大雨注意報、波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -205,12 +206,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "着雪注意報",
           "大雪注意報",
-          "雷注意報"
+          "雷注意報",
+          "着雪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、着雪注意報、大雪注意報、雷注意報",
+        "summary": "大雪注意報、雷注意報、着雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -221,11 +222,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
           "大雪注意報",
-          "雷注意報"
+          "雷注意報",
+          "着雪注意報"
         ],
-        "summary": "着雪注意報、大雪注意報、雷注意報",
+        "summary": "大雪注意報、雷注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/21/"
       },
       {
@@ -236,10 +237,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -250,10 +251,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、乾燥注意報",
+        "summary": "乾燥注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -280,16 +281,16 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東海道本線、飯田線、関西本線）",
+    "text": "運行支障あり（在来線: 東海道本線、関西本線、信越本線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東海道本線、飯田線、関西本線、上越線、越後線）",
+    "line_text": "運行支障あり（東海道本線、関西本線、信越本線、上越線、越後線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
       "東海道本線",
-      "飯田線",
       "関西本線",
+      "信越本線",
       "上越線",
       "越後線"
     ],
@@ -361,16 +362,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/20 04:12",
+          "text": "どうも数時間前から ネット回線が繋がりにくい 通信接続 START 障害 END なのかな？ START au END START au END 光を使ってます"
+        },
+        {
           "time": "11/20 03:01",
           "text": "今日も通信 START 障害 END になったら許さんで！！ START au END"
         },
         {
           "time": "11/19 23:22",
           "text": "今 START au END 回線通信 START 障害 END なってる？ 検索もできんから誰か教えてー"
-        },
-        {
-          "time": "11/19 22:54",
-          "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方もOK🙆‍♂️ eSIM＋eKYCで最短即日⏱️ 停電・通..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -381,7 +382,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/20 02:47",
@@ -404,8 +405,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/20 04:11",
+          "text": "@game_0613 ポストが気になり失礼します🙏 START au END サポート石川です。繋がりづらい、 START 繋がらない END といったことが頻..."
+        },
         {
           "time": "11/20 02:54",
           "text": "埼京線ぜんぜんドコモ START 繋がらない END からサブSIMの START au END に切り替えたら鬼ほど快適で草 まじでメイン回線乗り換えてやろう..."
@@ -413,10 +418,6 @@
         {
           "time": "11/20 02:42",
           "text": "@mukipedia こんにちは、povoサポートです。外出中に START 繋がらない END のは不安ですよね📡もしよければ、安定した START au E..."
-        },
-        {
-          "time": "11/20 00:28",
-          "text": "@sag08hq 舞浜行っても START 繋がらない END まさにそれなんですよね😂そこが一番困ってます🤣🤣 格安スマホにするつもりはあまりないから STA..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -463,8 +464,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 4,
+    "disaster_count": 3,
     "articles": [
+      {
+        "title": "“流行の兆し”にシカ肉選出　提供店が増加「臭み少ない」 各地でシカ被害の中(テレビ朝日系（ANN）)",
+        "summary": "来年流行する兆しがある食材として「シカ肉」が選ばれました。害獣対策につながる食材としてだけでなく、おいしさでも注目されるシカ肉の魅力に迫ります。【画像】シカ肉を使ったラーメン",
+        "pub_date": "11/20 12:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/44744665c658c006f939adddebc38d8dd08c46e9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "止まらない情報漏えい、「サイバーガバナンス」を担う取締役会は何をするべきか(オルタナ)",
         "summary": "サイバー攻撃は、情報漏えいにとどまらず、事業停止や顧客被害、企業の信用失墜を招き、企業価値や社会の持続可能性を揺るがす経営リスクです。AIの進化によって攻撃の高度化・自動化が進むなか、完全な防御は困難",
@@ -482,111 +491,103 @@
         "is_disaster": true
       },
       {
-        "title": "米軍訓練移転に向けた馬毛島の基地工事　2023年の着工以来、死傷事故が19件発生　塩田知事が防衛省で小鑓副大臣に要請書　防衛省は安全講習と毎日の巡回を指示【鹿児島】(FNNプライムオンライン)",
-        "summary": "アメリカ軍の訓練移転などに向けて基地の建設工事が進む鹿児島県西之表市の馬毛島で、作業員の事故が相次いでいる。これを受け、塩田知事は11月18日、防衛省を訪れて再発防止などを要請した。【あわせて読みたい",
-        "pub_date": "11/20 11:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/ff04df6af17fe96e171886e6dc6c4d280e20b864?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "11月24日前後は「大潮」北陸地方・西日本の沿岸の一部で浸水や冠水のおそれ　満潮時間帯を中心に潮位高く【気象庁】(MBC南日本放送)",
-        "summary": "気象庁によると、11月24日の満月の前後は大潮の時期にあたり、満潮の時間帯を中心に潮位が高くなります。気象庁は、北陸地方と西日本の沿岸の一部で、海岸や河口付近の低い土地で浸水や冠水のおそれがあるとして",
-        "pub_date": "11/20 11:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/d44011575e6a9c4759ccff5633c74cf558b0a2cf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "今季初の寒波襲来　本州各地は一晩で銀世界に　3連休の天気は？(テレビ朝日系（ANN）)",
-        "summary": "強い寒波が日本列島に襲来し、本州日本海側の山沿いでは今シーズン初めて雪が積もったところが多くなっています。平地でも雪がまじり、新潟と長野で「初雪」が観測されました。きのう19日（木）午後6時と20日（",
-        "pub_date": "11/20 12:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/464b2b44083008b8335d09c12d0df9284b92d61e?source=rss",
+        "title": "絞首刑差し止め訴訟、二審も死刑囚側敗訴(共同通信)",
+        "summary": "絞首刑による死刑は残虐な刑罰を禁じる国際人権規約に違反するなどとして、死刑囚2人が国に執行の差し止めと慰謝料など計2200万円の損害賠償を求めた訴訟の控訴審判決で大阪高裁は20日、一審に続き原告側の訴",
+        "pub_date": "11/20 13:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/84f46c41d1f800862cb25ff441e7daabbe67715b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "《中国》高市首相への顕著な“冷遇”が全世界へ発信、“お見送り”にもあったトランプ大統領との明らかな差(週刊女性PRIME)",
-        "summary": "11月18日から19日にかけて行われたAPEC首脳会議。中国広東省深セン市で行われた同会議だが、中国側の日本に対する“お出迎え”が波紋を呼んでいる。いったい何があったのか。【写真】高市首相だけ見事に外",
-        "pub_date": "11/20 12:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/b6bdd062faf8160d7cfc6bc5b30d7cc4c8078f3c?source=rss",
+        "title": "機体とタラップ40センチの段差　高市首相の中国到着時　ヒール、人工関節…危険指摘の声(産経新聞)",
+        "summary": "高市早苗首相がアジア太平洋経済協力会議（APEC）首脳会議のため18日に中国・深圳の空港に政府専用機で到着した際、機体とタラップの間に約40センチの段差があった。首相は関節リウマチで片脚に人工関節が入",
+        "pub_date": "11/20 13:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/0d0d03a288a7e974cf5fc0fb2aa51daa07382aa7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "寒波襲来 東海地方で初積雪 岐阜･白川村で9センチ 高山市で4センチ 雪の影響で東海北陸道「白鳥IC〜飛騨清見IC」通行止め(CBCテレビ)",
-        "summary": "寒気の影響で東海地方は岐阜県山間部で雪が降り、各地で今シーズン初めての積雪になりました。【写真を見る】寒波襲来 東海地方で初積雪 岐阜･白川村で9センチ 高山市で4センチ 雪の影響で東海北陸道「白鳥I",
-        "pub_date": "11/20 12:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/06d77b2240c047b5d303444a471aef52f9ae94d9?source=rss",
+        "title": "野党、財産権との両立要求　土地利用規制法案で衆院質疑(共同通信)",
+        "summary": "衆院内閣委員会は20日、安全保障上重要な施設周辺の土地取引に事前許可制を導入する土地利用規制法改正案に関し質疑を実施した。公明党の犬飼明佳氏は「憲法が保障する財産権などを尊重し、安保と権利保障の両立が",
+        "pub_date": "11/20 13:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/8cc3f1f3db79967100198cb209c0846bfa00165e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "武部農相らの告発状、教授が追加送付(共同通信)",
-        "summary": "自民党の武部新・農相が代表を務める選挙区支部が国の業務を受注した企業から30万円の寄付を受けた問題で、神戸学院大の上脇博之教授は20日までに、武部氏らに対する公選法違反容疑の告発状を釧路地検に追加で送",
-        "pub_date": "11/20 12:19 JST",
-        "link": "https://news.yahoo.co.jp/articles/ab57ccb1199933864fa4cd9f3030881c8a19af4a?source=rss",
+        "title": "中野女性刺殺事件「強盗殺人」で送検、「実は立証が難しい」弁護士が語る意外な問題(弁護士ドットコムニュース)",
+        "summary": "東京・中野区の路上で女性が首を刺されて死亡した事件で、警視庁は11月18日、強盗殺人未遂の容疑で逮捕された男を、強盗殺人の容疑に切り替えて送検したと報じられました。栃木県の強盗殺人事件では真偽不明の犯",
+        "pub_date": "11/20 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/64398100af2686f7ffbcac05f6ce4269d516004b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "北海道や東北などで積雪増加　北陸では暴風　三連休初日は交通への影響に警戒(日本気象協会tenki.jp)",
-        "summary": "今日20日(金)は強い冬型の気圧配置の影響で、北日本を中心に雪が降り、積雪が増えている所があります。また北海道や北陸などでは風も強まっています。三連休初日の明日21日(土)にかけて、大雪や暴風、交通へ",
-        "pub_date": "11/20 12:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/0bea4dcffdb36ec68a29fb2b0a7cf892f9c48c28?source=rss",
+        "title": "ディズニーストア、鹿児島に17年ぶり再上陸　アミュプラザ鹿児島に19日オープン　限定ミッキー＆ミニーは薩摩犬と黒豚がお供　「あいこ」でカードがもらえるじゃんけん体験も(FNNプライムオンライン)",
+        "summary": "鹿児島市のアミュプラザ鹿児島2階に11月19日、「ディズニーストア アミュプラザ鹿児島店」がオープンした。常設店舗としては県内に17年ぶりの再上陸である。鹿児島限定の着物姿のミッキーマウスとミニーマウ",
+        "pub_date": "11/20 12:55 JST",
+        "link": "https://news.yahoo.co.jp/articles/a548e32bf48172de3c89b7542ac91b900756d678?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "陸自射撃場 3人殺傷事件　当時18歳の被告側 無罪主張(テレビ朝日系（ANN）)",
-        "summary": "3年前、岐阜市の自衛隊施設で隊員3人が撃たれて死傷した事件の初公判で、元自衛官候補生の弁護側が無罪を主張しました。 岐阜地方裁判所には傍聴を希望する人がおよそ300人並び、裁判への注目度の高さが伺えま",
-        "pub_date": "11/20 12:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/c5b6bb19f8ed19a61e4b7310719e99779d5dc3eb?source=rss",
+        "title": "前橋市の市街地で今日もクマの目撃情報、全小中学校また休校措置　前日に高校生追いかけた親グマか(スポニチアネックス)",
+        "summary": "男性がクマに襲われてけがをしていた前橋市で20日もクマの目撃情報があり、市内の公立小中学校などが再び休校となった。【写真】「前橋市まちの安全エックス」から 市によると、同市東片貝町の総合卸売市場付近で",
+        "pub_date": "11/20 12:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/177e79e8b213845e1a43a049487f88af57780f02?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "住宅街で新たにクマ目撃　市内の学校 再び休校に　群馬・前橋市(テレビ朝日系（ANN）)",
-        "summary": "19日にクマが出没した前橋市の住宅街で、20日朝も新たにクマの目撃情報が入り、小中学校などが休校となっています。 警察によりますと、20日午前6時ごろに前橋市の桃ノ木川で「川の中でクマを見た」と車で通",
-        "pub_date": "11/20 12:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/9e8764a63435a14c35df427d7130dd258e743ca3?source=rss",
+        "title": "衆院委、土地利用規制法案をきょう採決へ(共同通信)",
+        "summary": "衆院内閣委員会は20日の理事会で、安全保障上重要な施設周辺の土地取引規制を強化する土地利用規制法改正案を同日中に採決する日程を決めた。",
+        "pub_date": "11/20 12:52 JST",
+        "link": "https://news.yahoo.co.jp/articles/6b30584726a9329751ef22f9b61eb886340bd83f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "児相と自治体の連携、点検へ　虐待事件相次ぎ、こども庁(共同通信)",
-        "summary": "全国で児童虐待事件が相次いでいることを受け、こども家庭庁は20日、全国の自治体と児童相談所の間で虐待が疑われる事案を適切に情報共有できているかなど、連携状況を緊急点検すると明らかにした。児相と警察との",
-        "pub_date": "11/20 12:13 JST",
-        "link": "https://news.yahoo.co.jp/articles/5f376288f50a0a5ac9ca2eafb461bb10b2908c7a?source=rss",
+        "title": "NHK戸別訪問「外部委託」再開 委託先に疑義　訪問先での強制わいせつや助成金不正申請(テレビ朝日系（ANN）)",
+        "summary": "NHKが3年前に取りやめた「戸別訪問」の外部委託を、9月から再開しています。しかし、委託先業者の関連会社が過去に戸別訪問先で事件を起こし、さらに太陽光発電の助成金で不正申請をしていたことも分かりました",
+        "pub_date": "11/20 12:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/9a208de3e0fdaf7d4d83d2006b87fbc78bda1349?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "土葬って違法じゃないの？→滋賀の田舎で見た〈異様な光景〉【マンガ解説】(ダイヤモンド・オンライン)",
-        "summary": "葬儀や終活ビジネスの最前線、伝統から最新テクノロジーまでエンディング業界の今を伝える専門情報誌「月刊終活」（鎌倉新書）にて連載中の漫画『カラスヤサトシの終活レボリューション』（漫画/カラスヤサトシ）。",
-        "pub_date": "11/20 12:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/10b86647c5c338fddc764f70b64ed754aa9d31a6?source=rss",
+        "title": "不法残留の外国人リスト、警察に事前提供を　保守・北村晴男氏の提案に山下法相は慎重姿勢(産経新聞)",
+        "summary": "日本保守党の北村晴男氏は19日の参院法務委員会で、全国に約6万5000人の不法残留者がいる一方、取り締まりに当たる入国警備官の人数には限界があると指摘し、国内に不法残留する外国人のリストをあらかじめ警",
+        "pub_date": "11/20 12:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/1845ec9bbf876ed82980dbb3fc0f1925caa4c55f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "東京・町田市の宝石店強盗　逃走の男 3時間前に下見か(テレビ朝日系（ANN）)",
-        "summary": "東京・町田市にあるジュエリー店で、男が金のネックレスを奪い逃走した事件で、男が事件の3時間前にも店を訪れていたことが分かりました。 町田市のジュエリー店で、19日、46万円相当の金のネックレスが客を装",
-        "pub_date": "11/20 12:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/e8199c501a6eea9495bf970ac9dfc0e89911d252?source=rss",
+        "title": "再生医療提供クリニックに緊急命令　厚労省 - 関連疑いの重篤な疾病発生　必要な報告せず(医療介護ＣＢニュース)",
+        "summary": "厚生労働省は19日、再生医療との関係が疑われる重篤な疾病が複数回発生したとして、東京都内のクリニックに対して医療提供の一時停止を求める緊急命令を出した。 命令を受けたのは、「医療法人社団ICVS 東京",
+        "pub_date": "11/20 12:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/8e84e49c42308b24cc487013c112720c71b4a385?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "介護職員 放火殺人未遂事件 「暴言吐かれ火つけようと」(テレビ朝日系（ANN）)",
-        "summary": "訪問介護で訪れた男性の住宅に火を放ち殺害しようとしたとして、逮捕された介護職員の男が「暴言を吐かれ火をつけることを決めた」などと話していることが分かりました。 介護職員の矢島隆容疑者（38）は先月、東",
-        "pub_date": "11/20 12:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/27facbc2ca04aa6f31c9ff6e6e405c13c5bdb528?source=rss",
+        "title": "「政治教育的な効果も抜群」前川喜平氏、「ポリティカルパン」絶賛　自民党には厳しい見方(J-CASTニュース)",
+        "summary": "元文部科学事務次官の前川喜平氏が2026年11月19日、Xで10月7日からスタートした政治ドラマ「ポリティカルパン」（フジテレビ）について感想を投稿した。「超絶面白いし、政治教育的な効果も抜群のドラマ",
+        "pub_date": "11/20 12:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/f4ca0e2db906d0bc24047ff82fc8c0c4e061546e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "タクシーアプリ「S.RIDE」顧客情報漏洩、KARTE不正アクセスで　件数は公表せず(産経新聞)",
+        "summary": "タクシー配車アプリ大手S.RIDE（エスライド、東京都港区）は19日、同社運営のエスライドアプリの顧客情報が漏洩したと発表した。委託していた「プレイド」が提供するサービス「KARTE（カルテ）」が不正",
+        "pub_date": "11/20 12:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/c7501c7f390eba76d93ab39ad5d87a1b7c807f4e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-20 12:28:32 JST"
+    "last_updated": "2026-11-20 13:24:40 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -629,10 +630,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "M7L8Aj4YKEE",
+        "video_id": "PRhaZAI_8X8",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/M7L8Aj4YKEE?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=M7L8Aj4YKEE"
+        "embed_url": "https://www.youtube.com/embed/PRhaZAI_8X8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=PRhaZAI_8X8"
       },
       {
         "id": "stream_annnews",
@@ -640,10 +641,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "0wxFzj28sUE",
+        "video_id": "8z63cIkYgW4",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/0wxFzj28sUE?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=0wxFzj28sUE"
+        "embed_url": "https://www.youtube.com/embed/8z63cIkYgW4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=8z63cIkYgW4"
       },
       {
         "id": "stream_fnnnews",

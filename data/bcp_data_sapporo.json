@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20 21:57:43",
+  "timestamp": "2026-11-20 22:35:08",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -165,13 +165,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "着雪注意報",
           "風雪注意報",
           "波浪注意報",
-          "着雪注意報",
           "大雪注意報",
           "雷注意報"
         ],
-        "summary": "風雪注意報、波浪注意報、着雪注意報、大雪注意報、雷注意報",
+        "summary": "着雪注意報、風雪注意報、波浪注意報、大雪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -184,14 +184,14 @@
           "大雪警報"
         ],
         "notices": [
-          "なだれ注意報",
+          "着雪注意報",
           "風雪注意報",
           "波浪注意報",
-          "着雪注意報",
           "大雪注意報",
+          "なだれ注意報",
           "雷注意報"
         ],
-        "summary": "大雪警報、なだれ注意報、風雪注意報、波浪注意報、着雪注意報、大雪注意報、雷注意報",
+        "summary": "大雪警報、着雪注意報、風雪注意報、波浪注意報、大雪注意報、なだれ注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -202,12 +202,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報",
           "着雪注意報",
+          "強風注意報",
+          "波浪注意報",
           "雷注意報"
         ],
-        "summary": "波浪注意報、強風注意報、着雪注意報、雷注意報",
+        "summary": "着雪注意報、強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -218,13 +218,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "風雪注意報",
-          "波浪注意報",
           "着雪注意報",
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "風雪注意報、波浪注意報、着雪注意報、雷注意報、強風注意報",
+        "summary": "着雪注意報、強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -356,7 +355,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/20 21:03",
@@ -416,8 +415,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 15,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "【動画】21日の天気 - 大雪と大雨　今季一番の寒さ続出　3連休は寒気居座る　寒さピーク（21日7時更新）(ウェザーマップ)",
+        "summary": "3連休初日のきょう21日(土)も、北陸から北を中心に冬の嵐が続くでしょう。大雪やふぶきによる交通機関の乱れ、なだれなどにご注意ください。北陸の平地では大雨による土砂災害に警戒が必要です。晴れる地域は空",
+        "pub_date": "11/21 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/26383d51918284cfbaaa7a030f82fb3429a0dd1c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "4月三陸沖地震、11年の再来か　M7以上頻発区域(共同通信)",
         "summary": "三陸沖で今年4月に発生したマグニチュード（M）7.7の地震は、2011年の東日本大震災と同日に起こったM7.4の余震と同じ場所での「再来」だとする分析結果を、京都大の西村卓也教授が21日までにまとめた",
@@ -467,79 +474,71 @@
         "is_disaster": true
       },
       {
-        "title": "20代の男性俳優をかたり60代女性から1100万円超だまし取ったか　宇都宮市(テレビ朝日系（ANN）)",
-        "summary": "宇都宮市で、20代の男性俳優をかたり、60代女性から現金などをだまし取る詐欺事件が発生しました。被害額は1100万円以上に上ります。 警察によりますと、女性は去年11月、20代の男性俳優をかたる偽のT",
-        "pub_date": "11/20 23:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/0dd2c8728d8bef05d4165c1040d8cf34a5a32266?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "消火栓ボックスから資材約100点盗難　兵庫・加西、真鍮製の筒先など(産経新聞)",
-        "summary": "兵庫県加西市に設置されている消火栓ボックス49カ所で、中に収容していた資材が盗まれる被害があり、同市が20日発表した。放水ホースや筒先など約100点にのぼり、被害額は約100万円にのぼるとみられる。同",
-        "pub_date": "11/20 22:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/ad573f0b112075ca97b716535b8c5e90f189688f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本県天草・芦北で震度4 津波の心配なし(ABEMA TIMES)",
-        "summary": "午後9時46分頃、九州地方で震度4の地震がありましたこの地震による津波の心配はありません【映像】地震の情報震源 熊本県天草・芦北地方深さ ごく浅い Ｍ4.1震度４ 芦北町震度３ 津奈木町（ANNニュー",
-        "pub_date": "11/20 22:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/b2f542a2314546ee476cb95a50c4036135ab05ee?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本県天草・芦北で震度4(テレビ朝日系（ANN）)",
-        "summary": "午後9時46分ごろに熊本県天草・芦北で震度4の地震がありました。 震源地は熊本県天草・芦北地方で、地震の規模（マグニチュード）は4.1と推定されます。 この地震による津波の心配はありません。",
-        "pub_date": "11/20 21:56 JST",
-        "link": "https://news.yahoo.co.jp/articles/fe1ea4eb202d7693ece83338ed3669d1d081dcae?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本で震度4(共同通信)",
-        "summary": "気象庁によると、20日午後9時46分ごろ、熊本県天草・芦北で震度4の地震があった。",
-        "pub_date": "11/20 21:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/490084f0a22956864dbbed991fbf2c5f8d4ddfcb?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "海外経由の接続は見放題、議論尽くせるか　「ブロッキング」法制化、識者の見方は(産経新聞)",
-        "summary": "総務省は20日、サイバー攻撃で漏洩（ろうえい）した個人情報の拡散といった二次被害の抑止策を議論する作業部会の初会合を開き、不正アクセスで流出した個人情報がインターネット上で公開された際、通信事業者がウ",
-        "pub_date": "11/20 21:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/60a44a2501e752777193548f4455db84fa155601?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本県で震度4の地震　津波の心配なし(日本気象協会tenki.jp)",
-        "summary": "20日午後9時46分頃、熊本県天草・芦北地方を震源とするマグニチュード4.1の地震が発生し、熊本県で最大震度4を観測しました。この地震による津波の心配はありません。",
-        "pub_date": "11/20 21:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/7bf4f67a1f8515d6245fcc94b485ec1136c01532?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "〔地震〕熊本県芦北町で震度4 津波の心配なし(11/20)(レスキューナウニュース)",
-        "summary": "気象庁によると、20日21:46頃に地震があり、熊本県芦北町で震度4の揺れを観測しました。津波の心配はありません。■発生事象・発生日時 ：11月20日21:46頃・震源地 ：熊本県天草・芦北地方(北緯",
-        "pub_date": "11/20 21:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/0bca71cb38a9871cc9b0a4dd401ce2454f321737?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "ポーランドにミサイル 被害なし",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/20 22:42 JST",
         "link": "https://news.yahoo.co.jp/pickup/6603345?source=rss",
         "category": "主要速報",
         "is_disaster": true
+      },
+      {
+        "title": "「今から必ず事件を起こす」「お前を包丁で刺す」愛知・東海市の住宅で男性を人質にとり”立てこもった”事件 逮捕された男（60）を起訴　(CBCテレビ)",
+        "summary": "愛知県東海市で刃物を持った男が男性1人を人質にとり立てこもった事件で、逮捕された男（60）が20日付で起訴されました。【写真を見る】「今から必ず事件を起こす」「お前を包丁で刺す」愛知・東海市の住宅で男",
+        "pub_date": "11/21 07:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/a75a76fa1ebb138394790618d8570175b095b4d4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「魚へんに岡山」と描写される魚「ヒラ」はザクザクと骨切りが大変!?瀬戸内の香りがただようノリ巻きの味【岡山発】(FNNプライムオンライン)",
+        "summary": "OHK岡山放送＜岡山・香川エリア＞で月曜から金曜午後3時47分から放送中の情報番組「なんしょん?」で、岡山・香川の旬の魚介類を紹介する人気コーナー「瀬戸内旬紀行」。岡山市中央卸売市場の市場関係者でつく",
+        "pub_date": "11/21 07:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/83431ff729c69a2d1ba30656b5f104707080c174?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "住宅団地と地域農業をつなぐ　兵庫・三田　集落営農に定期ボランティア派遣(日本農業新聞)",
+        "summary": "兵庫県三田市で住民主体で地域おこしに取り組む「志手原校区地域づくり協議会」は新興住宅地にある「ゆりのき台自治会」と連携し、集落営農にボランティアを定期的に送り込む仕組みを作った。年間30日以上、1日5",
+        "pub_date": "11/21 07:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/8d074130c968bf7fb639f998ccbec7702228def6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "20～30代の4割超が｢仕事の半分以上が無意味｣…管理職より\"未来ある若手\"が絶望する日本企業の構造的欠陥(プレジデントオンライン)",
+        "summary": "無意味な仕事が増えると、どんな悪影響を及ぼすのか。『なぜ、“無意味な仕事”は次から次へと生まれるのか』著者の1人で早稲田大学教授の濱中淳子さんは、「働く人の業務内容や進め方への納得感を半減させ、『この",
+        "pub_date": "11/21 07:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/700175c2011f4a7a81aa079170318c9b66253f2e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「牛や豚は週2回まで」腸内環境専門の管理栄養士が避ける食品、毎日取り入れる2つの食品（海外）(BUSINESS INSIDER JAPAN)",
+        "summary": "大腸・直腸専門の管理栄養士として20年間働く中で、ソフィー・メドリンは自身の食生活を少しずつ見直してきた。食べるのをやめたり、量を減らしたりした食品がある一方で、習慣的に食べるようになった食品もある。",
+        "pub_date": "11/21 07:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/16741d3623a6e4410a29b185f1b1d3ac150ea2bd?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "トランプが日本に押しつける「無理難題リスト」の中身とは？　\"最後の2年\"は外交で大暴れ!?(週プレNEWS)",
+        "summary": "中間選挙で大敗したからといって、トランプ大統領がおとなしくなると思ったら大間違い!? 任期は残り2年。巨額の投資に農産物の輸入拡大、自衛隊の派遣から米軍の防衛ライン後退まで、日本に突きつけられるかもし",
+        "pub_date": "11/21 07:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/64a9564a8a2fdd4d2682c83acbce2528cdf1b656?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "第三のビールから\"出世\"した「ちょい安 新ビール」コスパ最強はどれだ!?　比較したら意外と明暗分かれる結果に...(週プレNEWS)",
+        "summary": "10月に酒税が改正され、第三のビールが税制上消滅！ 人気銘柄が「ビール化」して再リリースされている。乱立する新ビールのうち、本当に飲むべきものはどれだ？ 飲み比べを緊急で実施し、コスパ最強を勝手に決定",
+        "pub_date": "11/21 07:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/73b8067b92013da7cb491fe006ddabcd045f4a31?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-21 06:57:40 JST"
+    "last_updated": "2026-11-21 07:35:06 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -560,10 +559,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "P-6no1xZ-hc",
+        "video_id": "DHSxg3JgXBk",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/P-6no1xZ-hc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=P-6no1xZ-hc"
+        "embed_url": "https://www.youtube.com/embed/DHSxg3JgXBk?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=DHSxg3JgXBk"
       },
       {
         "id": "stream_tbsnews",

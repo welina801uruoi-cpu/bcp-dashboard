@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20 16:35:57",
+  "timestamp": "2026-11-20 17:36:21",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -84,11 +84,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-20 22:25",
-    "place": "熊本県天草・芦北地方",
-    "magnitude": "2.7",
+    "time": "2026-11-21 02:14",
+    "place": "トカラ列島近海",
+    "magnitude": "2.2",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-21 02:14",
+        "place": "トカラ列島近海",
+        "shindo": "1",
+        "magnitude": "2.2",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-20 22:25",
         "place": "熊本県天草・芦北地方",
@@ -151,13 +158,6 @@
         "shindo": "1",
         "magnitude": "2.5",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-20 13:50",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "3",
-        "magnitude": "3.9",
-        "maxScale": 30
       }
     ]
   },
@@ -187,12 +187,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "大雨注意報",
+          "波浪注意報",
           "雷注意報",
-          "波浪注意報"
+          "強風注意報",
+          "大雨注意報"
         ],
-        "summary": "強風注意報、大雨注意報、雷注意報、波浪注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報、大雨注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -203,11 +203,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "大雪注意報",
-          "着雪注意報",
-          "雷注意報"
+          "着雪注意報"
         ],
-        "summary": "大雪注意報、着雪注意報、雷注意報",
+        "summary": "雷注意報、大雪注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -218,12 +218,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "大雪注意報",
-          "着雪注意報",
           "雷注意報",
-          "霜注意報"
+          "霜注意報",
+          "大雪注意報",
+          "着雪注意報"
         ],
-        "summary": "大雪注意報、着雪注意報、雷注意報、霜注意報",
+        "summary": "雷注意報、霜注意報、大雪注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/21/"
       },
       {
@@ -234,10 +234,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -277,28 +277,22 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東海道本線、飯田線、高山本線 ／ 新幹線: 東海道新幹線（列車遅延））",
+    "text": "運行支障あり（在来線: 信越本線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東海道本線、飯田線、高山本線、中央本線、信越本線）",
-    "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延））",
+    "line_text": "運行支障あり（信越本線）",
+    "shinkansen_status": "NORMAL",
+    "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
-      "東海道本線",
-      "飯田線",
-      "高山本線",
-      "中央本線",
       "信越本線"
     ],
-    "troubled_shinkansen": [
-      "東海道新幹線（列車遅延）"
-    ],
+    "troubled_shinkansen": [],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "新大阪駅での安全確認の影響などで、一部列車に遅れが出ています。（11月20日 21時15分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       }
     ],
@@ -357,8 +351,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/20 16:46",
+          "text": "ちょっと前から START au END ひかり週一でネット START 障害 END で繋がらないんだけど死ぬ？"
+        },
         {
           "time": "11/20 15:03",
           "text": "ちょいちょい START au END 繋がらなくなるな…と思ってsim有効にし直したら直った、通信 START 障害 END っぽいわけじゃなさそうだし劣化な..."
@@ -366,10 +364,6 @@
         {
           "time": "11/20 14:41",
           "text": "@eri_akisun6HK1 START au END で通信 START 障害 END は過去に1度だけでしたかね🤔 ドコモから乗り換えて20年くらい経って..."
-        },
-        {
-          "time": "11/20 14:39",
-          "text": "@shin128 宇都宮駅で人が多い時繋がらない、 度重なる通信 START 障害 END 、 無断で個人情報を提供、 ほかにもdocomoにはすごく怒ってます..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -403,8 +397,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/20 16:46",
+          "text": "ちょっと前から START au END ひかり週一でネット障害で START 繋がらない END んだけど死ぬ？"
+        },
         {
           "time": "11/20 14:39",
           "text": "@shin128 宇都宮駅で人が多い時 START 繋がらない END 、 度重なる通信障害、 無断で個人情報を提供、 ほかにもdocomoにはすごく怒ってます..."
@@ -412,10 +410,6 @@
         {
           "time": "11/20 13:27",
           "text": "@ START au END _support ありがとうございます。 START 繋がらない END 時がここ最近何回かあり昨晩も今朝も起きてます、必要な時に..."
-        },
-        {
-          "time": "11/20 13:10",
-          "text": "@mixpoo_ docomoはマジで START 繋がらない END 、 START au END はフェス会場でもライブハウスでもいつも繋がってるイメージ"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -462,8 +456,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 14,
+    "disaster_count": 15,
     "articles": [
+      {
+        "title": "「家が燃えている」集合住宅で火災　焼け跡から性別不明の1人の遺体　大阪・八尾市　67歳女性と連絡取れず(関西テレビ)",
+        "summary": "20日午後5時ごろ、大阪府八尾市の集合住宅で4軒が燃える火事があり、焼け跡から1人の遺体が見つかりました。20日午後5時10分ごろ大阪府八尾市の木造2階建ての住宅で「家が燃えている」と消防に通報があり",
+        "pub_date": "11/21 01:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/3d43dacc1418379fc98c9059fa360622db64b7b5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "事故で立ち往生“雪被害”相次ぐ　台風並みの暴風も…“初寒波”襲来 3連休にも影響(テレビ朝日系（ANN）)",
         "summary": "日本海側に流れ込むJPCZ=日本海寒帯気団収束帯が、20日も、北陸から東北の広い範囲に雨や雪をもたらしています。【画像】事故で立ち往生“雪被害”相次ぐ 台風並みの暴風も…“初寒波”襲来 3連休にも影響",
@@ -575,17 +577,9 @@
         "link": "https://news.yahoo.co.jp/pickup/6603345?source=rss",
         "category": "主要速報",
         "is_disaster": true
-      },
-      {
-        "title": "iPSからT細胞の「種」　体内移植で成長、異物攻撃(共同通信)",
-        "summary": "体内の異物を攻撃する免疫で重要な役割を果たすT細胞の「種」となる細胞を、人間の人工多能性幹細胞（iPS細胞）から作製できたと、京都大のチームが21日付の米科学誌に発表した。マウスに移植すると心臓近くに",
-        "pub_date": "11/21 01:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/3a956e5c5eb4f3a7b7e74ab74f62b0121d344437?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-21 01:35:14 JST"
+    "last_updated": "2026-11-21 02:35:42 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -639,10 +633,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "5CnPnD6wojA",
+        "video_id": "xzEKKAgdtm8",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/5CnPnD6wojA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=5CnPnD6wojA"
+        "embed_url": "https://www.youtube.com/embed/xzEKKAgdtm8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=xzEKKAgdtm8"
       },
       {
         "id": "stream_fnnnews",

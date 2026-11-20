@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20 10:36:55",
+  "timestamp": "2026-11-20 11:33:20",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -188,11 +188,11 @@
         "warns": [],
         "notices": [
           "波浪注意報",
+          "強風注意報",
           "大雨注意報",
-          "雷注意報",
-          "強風注意報"
+          "雷注意報"
         ],
-        "summary": "波浪注意報、大雨注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、大雨注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -204,10 +204,10 @@
         "warns": [],
         "notices": [
           "着雪注意報",
-          "大雪注意報",
-          "雷注意報"
+          "雷注意報",
+          "大雪注意報"
         ],
-        "summary": "着雪注意報、大雪注意報、雷注意報",
+        "summary": "着雪注意報、雷注意報、大雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -218,12 +218,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
           "着雪注意報",
           "大雪注意報",
-          "雷注意報"
+          "雷注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、着雪注意報、大雪注意報、雷注意報",
+        "summary": "着雪注意報、大雪注意報、雷注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/21/"
       },
       {
@@ -248,10 +248,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "強風注意報"
+          "強風注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、強風注意報",
+        "summary": "強風注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -278,15 +278,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東海道本線、名古屋市営名城線・名港線、中央本線）",
+    "text": "運行支障あり（在来線: 東海道本線、飯田線、中央本線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東海道本線、名古屋市営名城線・名港線、中央本線、信越本線、越後線）",
+    "line_text": "運行支障あり（東海道本線、飯田線、中央本線、信越本線、越後線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
       "東海道本線",
-      "名古屋市営名城線・名港線",
+      "飯田線",
       "中央本線",
       "信越本線",
       "越後線",
@@ -357,8 +357,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/20 10:51",
+          "text": "START au END 昨日からおかしくないかい？ 通信 START 障害 END 起きてるんだが。"
+        },
         {
           "time": "11/20 06:27",
           "text": "@SUPER_POPPO_ 復活したならよかったよー！全然邪魔じゃない！ なんでだろ……わたしも START au END だけど通信 START 障害 END..."
@@ -366,10 +370,6 @@
         {
           "time": "11/20 06:08",
           "text": "START au END 回線だけ通信出来ないのに通信 START 障害 END はないとは🤔 キャリア変更も視野ですね"
-        },
-        {
-          "time": "11/20 05:40",
-          "text": "docomoは度々通信 START 障害 END 起こして満足なサービス提供できていないのだから、本来なら割引するところを値上げしますだと。 おかしいんじゃない..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -380,7 +380,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/20 10:07",
@@ -403,7 +403,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/20 10:08",
@@ -462,130 +462,130 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 4,
     "articles": [
       {
-        "title": "クマ対策、犬型ロボに期待　青森、リンゴ畑で実証実験(共同通信)",
-        "summary": "クマによる人や農作物の被害防止に向け、対象エリアを自動でパトロールする犬型ロボットの実証実験が20日、青森県弘前市で行われた。雪が降るリンゴ畑で指定されたルートを巡回し、「ワンワン」とほえる音とともに",
-        "pub_date": "11/20 19:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/b3acd7339972d117b1775610e766c81e09d59901?source=rss",
+        "title": "今季初の強烈寒波　日本海側で冬の嵐　秋田で大雪警報　関東でも雪“鍋野菜”白菜甘く(テレビ朝日系（ANN）)",
+        "summary": "今シーズン初めての強烈な寒波で、日本海側の広い範囲では冬の嵐となっています。21日からの3連休も影響は続きそうです。【画像】今季初の強烈寒波がピークを迎え…",
+        "pub_date": "11/20 20:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/7d8313655e963d9166340795cf705d1539dfd1ba?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "東日本大震災の津波は数十分後､では南海トラフは…地震学者が｢極端に速い｣と話す\"巨大津波の到達速度\"(プレジデントオンライン)",
-        "summary": "南海トラフ巨大地震の被害予想はどのくらいか。京都大学名誉教授の鎌田浩毅さんは「国が行った南海トラフ巨大地震の被害想定では、海岸を襲う津波の最大高は34メートルに達するとされる。また東日本大震災では地震",
-        "pub_date": "11/20 19:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/28d0f2ce81821df7842a15834fb786832515f3c0?source=rss",
+        "title": "群馬・伊勢崎3人死亡事故 男に懲役20年が確定(ABEMA TIMES)",
+        "summary": "トラックを飲酒運転し、家族3人を死亡させるなどした危険運転致死傷罪に問われた男の裁判で、控訴を退けられた男が上告せず、懲役20年の判決が確定しました。【映像】飲酒運転で家族3人が死亡 懲役20年が確定",
+        "pub_date": "11/20 20:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/188a7f7738188f4914659e18c3a636b16fdab804?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "タクシー運転手にミスを指摘しただけで殴られた…カスハラ対策法が加速させた｢逆カスハラ｣という皮肉な副作用(プレジデントオンライン)",
-        "summary": "■タクシー運転手は大抵「被害者」なのに お笑いコンビ・霜降り明星の粗品さんがタクシー運転手から暴行を受けた。【図表をみる】カスハラ被害はタクシー運転手が最多 10月26日午前、搭乗したタクシーが目的地",
-        "pub_date": "11/20 19:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/9052fa30768ba23e97204d97ac29d59df96762fd?source=rss",
+        "title": "首相、エルニーニョ被害対策支援　ペルーのフジモリ大統領に伝達(共同通信)",
+        "summary": "高市早苗首相は20日、ペルーのフジモリ大統領と官邸で会談した。ペルー沖で海面水温が高くなる「エルニーニョ現象」が深刻化し、洪水が発生しているのを踏まえ、被害対策を支援する考えを伝えた。ペルーが日本への",
+        "pub_date": "11/20 19:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/253c06f49c3b559fc1f7db00baf26c2591ac1847?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "「障がいを負ってもできるのか」妻と交際中に“性の問題”に直面…19歳で交通事故→脊髄損傷で“全身まひ”になった男性（31）が、赤裸々に発信した理由(文春オンライン)",
-        "summary": "妻の桃子さん（32）とともに「すけにい夫婦」としてSNSで発信活動をしている上野遥介さん（31）。19歳の時に交通事故で脊髄を損傷して全身まひとなり、「一生、車いすになる」と宣告された。しかし、懸命な",
-        "pub_date": "11/20 19:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/00e336b9170b9b9f166b19b47d6d2e669aa3bb60?source=rss",
+        "title": "“生き抜くための対策品”が揃う「防災見本市」 布製の止水板や停電しても動く自動ドアなど 指でふき取る「携帯用歯磨き」も 名古屋・港区(CBCテレビ)",
+        "summary": "防災に役立つ設備やグッズなどを紹介する見本市が名古屋市港区で開かれました。（大石邦彦アンカーマン）「ブースがずらりと並んでいます。防災などの最新技術、最新グッズが集結しているということなんです」【写真",
+        "pub_date": "11/20 19:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/490f5319cbd73d6c8bef094f1cafccff4452ec95?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "【冬の嵐】新潟県内の高速道路でスリップ事故相次ぐ…新潟市は去年より13日早い“初雪”に　上・中越は土砂災害に厳重警戒(FNNプライムオンライン)",
-        "summary": "11月20日は新潟県内各地で一段と冷え込みが強まった。新潟市で初雪を観測するなど、山沿いだけなく平地でも雪が降った。また、降水量も増えていて、上・中越では土砂災害への厳重な警戒が必要だ。【画像】平地で",
-        "pub_date": "11/20 18:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/775cc516f46cef0bc1c2547bd5b1895e0fafbf8b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【動画】21日の天気 - 3連休初日は大雪・大雨に警戒　連休中に晴れる所も気温上がらず空気乾燥（20日19時更新）(ウェザーマップ)",
-        "summary": "日本の上空には真冬並みの寒気が流れ込んでいます。3連休初日の21日(土)にかけて、日本海側では大雪や大雨が続きそうです。22日(日)にかけても雪や雨が続くため、積雪による交通障害や大雨による土砂災害な",
-        "pub_date": "11/20 18:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/b3ec805cfb539b37a4af6fb7b51084bc330a1eee?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "熊本市、宿泊最大5割補助　国の支援後、来年2～3月(共同通信)",
-        "summary": "熊本市は20日、7月の熊本地震からの観光需要回復に向け、市内のホテルなどの宿泊費を最大5割補助するキャンペーンを発表した。1人当たり最大5千円で、来年2～3月ごろを見込む。九州の旅行・宿泊料金を補助す",
-        "pub_date": "11/20 18:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/d47d275981bc2eb0409d1ef6ba687988863414b3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "大型クロマグロ 漁獲枠拡大で合意(ABEMA TIMES)",
-        "summary": "来年の日本の大型クロマグロの漁獲枠が、およそ2000トン増える方向で合意です。 太平洋クロマグロの漁獲枠の拡大を巡っては、8月に行われた会議で、来年以降の大型クロマグロの漁獲枠を25％増やすなどとする",
-        "pub_date": "11/20 19:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/84553ac9c24807bbc109200904d356ac46b1149f?source=rss",
+        "title": "陸上自衛隊射撃場3人死傷事件の初公判　元自衛官候補生の「責任能力」とメモに残された「言葉」とは(メ〜テレ（名古屋テレビ）)",
+        "summary": "3年前、岐阜市にある陸上自衛隊の射撃場で隊員3人が銃で撃たれ、死傷した事件の初公判が開かれました。当時18歳だった元自衛官候補生の「責任能力」をめぐり、弁護側と検察側が真っ向から対立しています。陸上自",
+        "pub_date": "11/20 20:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/7a131774189aef510a7b9a8a35ec210f0359643c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【ドラゴンズ】契約更改　涌井秀章が現状維持の年俸 7000万円でサイン「来季は開幕から1軍で」(メ〜テレ（名古屋テレビ）)",
-        "summary": "ドラゴンズの来年プロ23年目を迎えるベテラン・涌井秀章投手が決意を語りました。20日の夕方、ナゴヤ球場で契約更改交渉に臨んだ40歳、涌井秀章投手が現状維持の年俸7000万円でサインしました。 「開幕時",
-        "pub_date": "11/20 19:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/07a1c9baa25c47e4c4bb563a0ef4cd96bc51e5c3?source=rss",
+        "title": "維新・前原氏「防衛費70兆円以上が基準」(テレビ朝日系（ANN）)",
+        "summary": "安保3文書の年内の改定を巡り日本維新の会の前原安全保障調査会長は、2027年度から5年間の防衛費について「70兆円以上が基準になる」との見方を示しました。維新 前原安保調査会長「我が党の考え方としては",
+        "pub_date": "11/20 20:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/0c8b509647266bac698a94d22db136b0db975bb3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "スロバキア大使館が謝罪声明　同国発の舞踊団が根津神社で不適切動画撮影「不快な思い与えた」(スポニチアネックス)",
-        "summary": "駐日スロバキア大使館は20日、公式Xを更新。同国の舞踊団「チャロヴネー・オストロヒ」が東京・根津神社の境内で撮影した動画に批判が寄せられていることを巡り、「不快な思いや心の痛みを与えた」として謝罪した",
-        "pub_date": "11/20 19:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/e9b2fe14592e4b2776da0cdd7a6214ba1224567f?source=rss",
+        "title": "兵庫3歳女児暴行死、外泊中「つまずいた」など報告10件　母の記録に(産経新聞)",
+        "summary": "兵庫県伊丹市で1月、有元徠音（らのん）ちゃん＝当時（3）＝が死亡し、父親の慎哉容疑者（29）が傷害致死の疑いで逮捕された事件で、施設に保護されていた徠音ちゃんが昨年9～12月にかけて計14回、一時的に",
+        "pub_date": "11/20 20:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/928971d3400d8763945f31f59e05f1b2e618f306?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "小学校給食費の私費補填問題、未納者に督促へ　納付分は校長に返金　京都・木津川(産経新聞)",
-        "summary": "京都府木津川市の市立小学校で前事務職員と校長が未納の学校徴収金など、計約4600万円分を私費で補塡（ほてん）した問題で、市教育委員会は20日、市議会総務文教常任委員会で過去5年間の未納者に督促し、徴収",
-        "pub_date": "11/20 19:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/96f20aac1829706cff931685bb8a9ba370a47687?source=rss",
+        "title": "被爆者サーローさん演説へ調整　核禁止条約、再検討会議(共同通信)",
+        "summary": "米ニューヨークの国連本部で30日に開幕する核兵器禁止条約第1回再検討会議の初日に、広島市出身で、カナダ在住の被爆者サーロー節子さん（94）が演説する方向で調整が進んでいることが20日、関係者への取材で",
+        "pub_date": "11/20 20:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/e230bbad2b4406e127d6ac55fc2bcd92539749a1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "天皇陛下、ペルー大統領と会見　チリ大統領夫妻とも(共同通信)",
-        "summary": "天皇陛下は20日、皇居・御所で、ペルーのケイコ・フジモリ大統領と会見された。宮内庁によると、約20分間で、大統領は日本のさまざまな協力や支援に感謝を伝えた。教育や人材育成が重要な課題だとし「日本が多く",
-        "pub_date": "11/20 19:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/e34625760306d049bafd10d7c4abe76ce71c8325?source=rss",
+        "title": "「地域に入ってもらって、さらに広がると最高」　名古屋大原学園と三重県の5町が課題解決に連携協定(メ〜テレ（名古屋テレビ）)",
+        "summary": "三重県内の5つの町と専門学校が、地域課題の解決に向け学生の知識や技術を活かそうと、連携協定を結びました。 連携協定を結んだのは、多気町・大台町、明和町・度会町・紀北町の5つの町と、大原簿記情報医療専門",
+        "pub_date": "11/20 20:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/be72d02dceb2f4747e128be27787ce6260082885?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "教師グループによる校内での盗撮画像共有事件を受け名古屋市の72の学校などが防犯カメラの設置希望(メ〜テレ（名古屋テレビ）)",
-        "summary": "教師グループによる盗撮画像共有事件を受けて名古屋市が検討している、学校教育施設での防犯カメラ設置について、72の施設が希望していることがわかりました。 名古屋市教育委員会は防犯カメラ設置について、幼稚",
-        "pub_date": "11/20 19:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/23f6f2a5e71391015fb24a67ce82570a9161bbbb?source=rss",
+        "title": "就職内定率73％ 6年連続70％超(ABEMA TIMES)",
+        "summary": "来年春に卒業予定の大学生の就職内定率が6年連続で70％超えです。 厚生労働省と文部科学省が実施した調査によりますと、10月1日時点で来年3月に卒業予定の大学生の内定率は73.0％で前の年の同じ時期と比",
+        "pub_date": "11/20 20:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/308abb776b23e46278d7c03d89ad6909acebe309?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「感情や欲望を優先させてしまい」20代の女性巡査が交番などで性行為　既婚の男性警官2人と共に懲戒処分(メ〜テレ（名古屋テレビ）)",
-        "summary": "警察署や交番で性的行為をしたとして、愛知県警の警察官3人が懲戒処分を受けました。 減給の懲戒処分を受けたのは、尾張地方の警察署の地域課に所属する20代の女性巡査と40代の男性巡査部長、そして30代の男",
-        "pub_date": "11/20 19:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/0a937193893ae2d83758cdda50f0168aead41d42?source=rss",
+        "title": "維新・前原氏 ｢防衛費70兆円以上が基準」(テレビ朝日系（ANN）)",
+        "summary": "安保3文書の年内の改定をめぐり、日本維新の会の前原安全保障調査会長は、2027年度から5年間の防衛費について｢70兆円以上が基準になる｣との見方を示しました。【維新・前原安保調査会長】｢我が党の考え方",
+        "pub_date": "11/20 20:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/7ad43b466484f4b15a9776c8a95cbcdab75fdeac?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「赤ちゃんポストなど進めたい」　大阪・泉佐野市長選　現職の千代松氏が5選目指し出馬へ(産経新聞)",
-        "summary": "来春の統一地方選で行われる大阪府泉佐野市長選に、現職の千代松大耕（ひろやす）氏（53）が20日、5選を目指して無所属で立候補する意向を表明した。地域政党「大阪維新の会」の推薦を受ける。市役所で報道陣の",
-        "pub_date": "11/20 19:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/8ea4ea6635c577860d3d17a22176a582eccc3eaa?source=rss",
+        "title": "中国でニセモノまで出回る｢神の薬｣…日本の健康保険を使い3割負担で手に入れ､転売される人気処方薬の正体(プレジデントオンライン)",
+        "summary": "かつて訪日中国人による「爆買い」が話題になったが、現在はどうなっているのか。辺境リポーターでライターの大熊杜夫さんは「中国のSNSやチャットアプリを見ると、ある処方薬が大量に売買されているようだ。日本",
+        "pub_date": "11/20 20:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/200b431848d45dc648884744a7c486913d14a8d4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "九州最大級200mローラーすべり台と約5,000点の昆虫標本　大人も夢中になる「泊まれる公園」に大興奮・大分(FNNプライムオンライン)",
+        "summary": "大分県佐伯市直川は「昆虫の里」として知られている。この場所には巨大なカブトムシのオブジェが出迎える大自然を遊びつくせるスポットがあるという。【画像】大人も童心に返る!九州最大級すべり台と世界のカブトム",
+        "pub_date": "11/20 20:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/5ea40d3f939e9b4db67d8c405a1ce7d8b8036b4c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "マッサージ店で強盗事件 逃走の51歳男逮捕(ABEMA TIMES)",
+        "summary": "東京・板橋区のマッサージ店で、60代の男性が男にナイフのような物で脅され、金のブレスレットなどを奪われた事件で、逃走していた51歳の男が逮捕されました。【映像】「サービス料を取り戻すために、財布や金の",
+        "pub_date": "11/20 20:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/9a8004fd6cad8294aa91f4e0f821e03ecd3b71d4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【愛知県知事選挙】名古屋市議の北角嘉幸さんが立候補表明「県民の生活を取り戻したい」(テレビ愛知)",
+        "summary": "2027年2月に任期満了を迎える愛知県知事選挙に、名古屋市議の北角嘉幸さんが立候補を表明しました。北角さんは、11月20日に愛知県庁で会見を開き、立候補の理由について「政治不信が非常に強くなっている。",
+        "pub_date": "11/20 20:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/033a2c099bf695f6949c69ea206415be0b1b0220?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-20 19:36:09 JST"
+    "last_updated": "2026-11-20 20:32:43 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -606,10 +606,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "fsXblLlNldE",
+        "video_id": "0oxo-44lVZA",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/fsXblLlNldE?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=fsXblLlNldE"
+        "embed_url": "https://www.youtube.com/embed/0oxo-44lVZA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=0oxo-44lVZA"
       },
       {
         "id": "stream_tbsnews",
@@ -617,10 +617,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "-gqi6yeVQ5Q",
+        "video_id": "Okmn-Zk1gpI",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/-gqi6yeVQ5Q?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=-gqi6yeVQ5Q"
+        "embed_url": "https://www.youtube.com/embed/Okmn-Zk1gpI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Okmn-Zk1gpI"
       },
       {
         "id": "stream_ntvnews",
@@ -628,10 +628,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "1937O1n_xi0",
+        "video_id": "_DDGHHWSciA",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/1937O1n_xi0?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=1937O1n_xi0"
+        "embed_url": "https://www.youtube.com/embed/_DDGHHWSciA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=_DDGHHWSciA"
       },
       {
         "id": "stream_annnews",
@@ -639,10 +639,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "IoBAETbPECk",
+        "video_id": "mNAwEiD7lUI",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/IoBAETbPECk?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=IoBAETbPECk"
+        "embed_url": "https://www.youtube.com/embed/mNAwEiD7lUI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=mNAwEiD7lUI"
       },
       {
         "id": "stream_fnnnews",

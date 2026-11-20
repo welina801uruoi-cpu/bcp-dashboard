@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20 21:15:50",
+  "timestamp": "2026-11-20 21:58:11",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -74,11 +74,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-21 04:43",
+    "time": "2026-11-21 06:22",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.8",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-21 06:22",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-21 04:43",
         "place": "熊本県天草・芦北地方",
@@ -141,13 +148,6 @@
         "shindo": "1",
         "magnitude": "2.5",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-20 18:28",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.2",
-        "maxScale": 10
       }
     ]
   },
@@ -191,11 +191,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
+          "波浪注意報",
           "強風注意報",
-          "波浪注意報"
+          "雷注意報"
         ],
-        "summary": "雷注意報、強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -206,11 +206,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/32/"
       },
       {
@@ -221,11 +221,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/31/"
       },
       {
@@ -252,13 +252,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（新幹線: 山陽新幹線（その他））",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "text": "運行支障あり（在来線: 山陽本線 ／ 新幹線: 山陽新幹線（その他））",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（山陽本線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "山陽本線"
+    ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）"
     ],
@@ -433,6 +435,14 @@
     "disaster_count": 15,
     "articles": [
       {
+        "title": "4月三陸沖地震、11年の再来か　M7以上頻発区域(共同通信)",
+        "summary": "三陸沖で今年4月に発生したマグニチュード（M）7.7の地震は、2011年の東日本大震災と同日に起こったM7.4の余震と同じ場所での「再来」だとする分析結果を、京都大の西村卓也教授が21日までにまとめた",
+        "pub_date": "11/21 06:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/8ba9a7a51dc72af2ba6f4ba72cc728a055ff1066?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "6歳の愛娘が遺した『ひらがな34文字のメッセージ』その思いを受け継ぎ歩む家族「今生かされているからできること」【第3話】(RSK山陽放送)",
         "summary": "■「当たり前の日々は奇跡の連続」小学1年生の愛娘を交通事故で亡くした母親がいます。【写真をみる】家族が撮影した「陽菜さんの成長の記録」福岡県北九州市の池田かおりさんです。2016年12月、池田さんの娘",
         "pub_date": "11/21 06:00 JST",
@@ -537,14 +547,6 @@
         "is_disaster": true
       },
       {
-        "title": "大阪・ミナミの6階建てビル火災　「暖炉から火が出た」店員通報　消防車33台とヘリコプター1機が出動　客と従業員は避難　けが人はなし(関西テレビ)",
-        "summary": "20日午後、大阪・ミナミの6階建てのビルで火事があり、およそ130平方メートルが焼けました。店舗の暖炉から出火した可能性もあるということです。午後3時10分ごろ、大阪市中央区心斎橋筋1丁目の6階建てビ",
-        "pub_date": "11/20 21:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/cac8db5d5db5cd996ea2a66ae276bdf7a0768af0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "ポーランドにミサイル 被害なし",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/20 22:42 JST",
@@ -553,7 +555,7 @@
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-21 06:15:22 JST"
+    "last_updated": "2026-11-21 06:57:40 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

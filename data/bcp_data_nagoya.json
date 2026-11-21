@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 13:27:01",
+  "timestamp": "2026-11-21 14:17:56",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -187,12 +187,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "大雨注意報",
           "強風注意報",
-          "波浪注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "大雨注意報、強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、大雨注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -203,11 +203,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "着雪注意報",
-          "大雪注意報",
-          "雷注意報"
+          "大雪注意報"
         ],
-        "summary": "着雪注意報、大雪注意報、雷注意報",
+        "summary": "雷注意報、着雪注意報、大雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -218,13 +218,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "着雪注意報",
           "雷注意報",
-          "大雪注意報",
-          "なだれ注意報"
+          "着雪注意報",
+          "なだれ注意報",
+          "霜注意報",
+          "大雪注意報"
         ],
-        "summary": "霜注意報、着雪注意報、雷注意報、大雪注意報、なだれ注意報",
+        "summary": "雷注意報、着雪注意報、なだれ注意報、霜注意報、大雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/21/"
       },
       {
@@ -354,19 +354,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 14:16",
+          "text": "家に着いた途端また通信状況悪くなるの何なん START au END で通信 START 障害 END とか起きてます？"
+        },
+        {
+          "time": "11/21 14:09",
+          "text": "家のWiFi( START au END )使えないんだけど？ なんか START 障害 END 出てんの？"
+        },
         {
           "time": "11/21 10:39",
           "text": "START au END の携帯が通信 START 障害 END なの？"
-        },
-        {
-          "time": "11/21 10:14",
-          "text": "🚨【楽天モバイル通信 START 障害 END 】 11/20 23時頃から大雪の影響で一部地域の通信に START 障害 END 。11/21 17:40時点..."
-        },
-        {
-          "time": "11/21 10:08",
-          "text": "mineo マイネオ 新規契約 友達紹介 もしもの通信 START 障害 END に備えて選べるdocomo/ START au END /softbank回線..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -377,7 +377,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/21 13:02",
@@ -400,8 +400,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 13:28",
+          "text": "@247RGB_P 通りすがりですが、昨日から START au END 4Gも5Gも START 繋がらない END ですね。 今はソフバン系の格安simのス..."
+        },
         {
           "time": "11/21 10:02",
           "text": "携帯会社4キャリアあるけど、 楽天は×です。次にソフトバンク系統は野球のソフトバンクを弱体化させたいから×。ドコモは START 繋がらない END から×。 ..."
@@ -409,10 +413,6 @@
         {
           "time": "11/21 09:52",
           "text": "@otsuyopon こんばんは。ヘッダーの後ろ姿、可愛いですね☺️ START au END サポート畑野です。電波が入らないとお見かけしましたが、日頃は繋が..."
-        },
-        {
-          "time": "11/21 09:39",
-          "text": "@izumin810 お誕生日おめでとうございます🎈🎈🎈ポスト拝見しましたが、特定の場所でスマホが START 繋がらない END 状況でしょうか👀機内モードO..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -459,8 +459,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 12,
     "articles": [
+      {
+        "title": "京成本線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "京成大久保～実籾駅間で発生した人身事故の影響で、京成本線は京成津田沼～八千代台駅間の下り線(八千代台方面行)の運転を見合わせていましたが、23:05現在、運転を再開しています。なお、ダイヤが乱れていま",
+        "pub_date": "11/21 23:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/70e37c5378988864ee050a89e00b15dfde77e033?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "京成本線で人身事故 一部運転見合わせ(レスキューナウニュース)",
+        "summary": "京成大久保～実籾駅間で発生した人身事故の影響で、京成本線は京成津田沼～八千代台駅間の下り線(八千代台方面行)の運転を見合わせています。振替輸送を行っています。",
+        "pub_date": "11/21 22:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/6d65318ecba80e66fe1171b84a3f33097440fb38?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "小田急小田原線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "玉川学園前～町田駅間で発生した人身事故の影響で、小田急小田原線は新百合ケ丘～町田駅間の運転を見合わせていましたが、22:34頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/21 22:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/bfd106da6e138d4d3dd9e6cbe9032ca2ef37cee7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "小田急小田原線で人身事故 一部運転見合わせ(レスキューナウニュース)",
         "summary": "20:37頃、玉川学園前～町田駅間で発生した人身事故の影響で、小田急小田原線は新百合ケ丘～町田駅間の運転を見合わせています。振替輸送を行っています。",
@@ -534,55 +558,31 @@
         "is_disaster": true
       },
       {
-        "title": "「行政は検証を」大阪死亡女児の保育関係者(共同通信)",
-        "summary": "大阪府枚方市の女児死亡事件で、女児がかつて通っていた保育施設の関係者が21日、取材に応じ「心を痛めている。施設として保育や支援は最大限やってきた。一時保護のタイミングなど行政は検証を進めてほしい」と述",
-        "pub_date": "11/21 22:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/8ff4033968271f6b2258cdeb5151bf70d7b40b70?source=rss",
+        "title": "世界遺産・白川郷の「合掌造り集落」の雪化粧 多くの観光客を魅了 11月3連休の初日にぎわう 岐阜・白川村(CBCテレビ)",
+        "summary": "3連休初日のきょう21日（土）、岐阜県白川村の白川郷では、雪景色を楽しもうと多くの観光客でにぎわいました。【写真を見る】世界遺産・白川郷の「合掌造り集落」の雪化粧 多くの観光客を魅了 11月3連休の初",
+        "pub_date": "11/21 23:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/98e4158790572df18d501e26c8cdfd3d44bdaa8a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "名古屋駅近くの8階建てマンションで火事 近隣の住民から「黒煙が見える」との119番通報 けが人なし 火元は5階の一室か 名古屋・中村区(CBCテレビ)",
-        "summary": "きょう21日（土）午前、名古屋市中村区のマンションで火事がありました。けが人はいないということです。【写真を見る】名古屋駅近くの8階建てマンションで火事 近隣の住民から「黒煙が見える」との119番通報",
-        "pub_date": "11/21 21:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/a1bffa05517f55f554a8c44af71eccab3a1d0ee3?source=rss",
+        "title": "愛子さまがシンガポールから帰国　友好親善の歩み「私も受け継いでいく」と感想寄せる(テレビ朝日系（ANN）)",
+        "summary": "シンガポールを公式訪問していた天皇皇后両陛下の長女・愛子さまが帰国され「皇室が育んできた友好親善の歩みを受け継いでいきたい」との感想を寄せられました。 愛子さまは21日夜、羽田空港に到着されました。",
+        "pub_date": "11/21 23:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/c857229123ff21640a5ac89f3fa3672ec0436aca?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "福井で71歳女性が除雪車にはねられ、死亡(産経新聞)",
-        "summary": "福井県警によると、21日午前10時ごろ、福井県勝山市の国道を横断していた女性（71）が作業中の除雪車にはねられ、病院に搬送されたが、死亡が確認された。",
-        "pub_date": "11/21 21:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/998ddb731538140c737e3d620cea54635571c50f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "国民の税金でやるな！「ナオキマン騒動」で批判を浴びる政府広報に稲盛和夫の「警告」が突き刺さるワケ(ダイヤモンド・オンライン)",
-        "summary": "11月16日、政府が安全保障の広報に都市伝説系YouTuber「ナオキマン」氏を起用し、批判が噴出した。木原官房長官は若者への訴求が狙いと説明したが、19日には過去の発信を網羅的に確認していないことも",
-        "pub_date": "11/21 21:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/a329018d9c8886765616361274a866e64b66b27b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【独自】公明、統一選で自民系推薦せず　閣僚疑惑や定数削減に反発(共同通信)",
-        "summary": "公明党は、来年春の統一地方選で自民党系候補を推薦しない方針を固めた。高市内閣の閣僚に発覚した「政治とカネ」を巡る疑惑や、与党主導の衆院議員定数削減に反発した形。連立政権を離脱して1年以上経過しており、",
-        "pub_date": "11/21 21:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/2a1ce180bf49893e7f2fb0cdcdae0cff081f546e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "住宅に生後間もない女児の遺体　死体遺棄事件として捜査　東京・多摩市(テレビ朝日系（ANN）)",
-        "summary": "東京・多摩市の住宅で生後間もない女の子の赤ちゃんとみられる遺体が見つかりました。遺体には、土が付いた状態でした。 21日午前8時すぎ、東京・多摩市の住宅の敷地内で、住人の男性から「動物の死骸がある」な",
-        "pub_date": "11/21 20:46 JST",
-        "link": "https://news.yahoo.co.jp/articles/91b5c6ae1e7168d906acb4bad8eb6ec53717c515?source=rss",
+        "title": "前橋で連日目撃のクマ発見に至らず　水路に赤外線カメラを設置して監視へ(テレビ朝日系（ANN）)",
+        "summary": "連日クマの目撃が相次いでいる群馬県前橋市で、市は21日、捕獲に向けた活動を行いましたが発見には至りませんでした。前橋市の担当者「市民の皆さんには大変ご心配ご不安をかけている状況。全体的に警戒をしていき",
+        "pub_date": "11/21 23:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/46646eccb7b2a6bf22f718f554daaa364236b4eb?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-21 22:26:19 JST"
+    "last_updated": "2026-11-21 23:17:16 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -603,10 +603,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "_IVnmocPHps",
+        "video_id": "jOqcMa_S6FA",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/_IVnmocPHps?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=_IVnmocPHps"
+        "embed_url": "https://www.youtube.com/embed/jOqcMa_S6FA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=jOqcMa_S6FA"
       },
       {
         "id": "stream_tbsnews",
@@ -636,10 +636,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "8gBwrWS_SDc",
+        "video_id": "NxBO2dhwPwU",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/8gBwrWS_SDc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=8gBwrWS_SDc"
+        "embed_url": "https://www.youtube.com/embed/NxBO2dhwPwU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=NxBO2dhwPwU"
       },
       {
         "id": "stream_fnnnews",

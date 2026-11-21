@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-21 22:29:27",
-  "timestamp_local": "2026-11-21 20:29:27",
+  "timestamp": "2026-11-21 23:19:40",
+  "timestamp_local": "2026-11-21 21:19:40",
   "country": {
     "id": "cambodia",
     "name": "カンボジア",
@@ -260,7 +260,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 12,
+    "count_24h": 11,
     "summary": "M5.9 (238 km SW of Yanglong, China)",
     "latest": {
       "mag": 5.9,
@@ -358,19 +358,18 @@
         "depth_km": 94.53,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucd6",
         "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "94 km W of Illapel, Chile",
-        "time": "11/20 23:16 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc9c",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "ムランボヌクカさん死去　南ア初の女性副大統領(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/c8f6212377333945a80edf29ec3398df7300c488?source=rss",
+        "description": "プムジレ・ムランボヌクカさん（南アフリカ初の女性副大統領）20日、医療処置に伴う合併症のため死去。南ア政府が発表した。71歳。05～08年に副大統領を務め、13～21年には国連女性機関（UNウィメン）",
+        "pub_date": "11/21 22:57 JST",
+        "is_priority": false
+      },
       {
         "title": "女性が全裸で街を歩き回る、通行人たちは仰天…「騒動の現場映像」を防犯カメラが捉えネットで拡散（海外）(ニューズウィーク日本版)",
         "link": "https://news.yahoo.co.jp/articles/0a5a147709fb6214f63aa075c480d6ceb4183360?source=rss",
@@ -503,13 +502,6 @@
         "description": "東西文化の交差点として発展してきたマカオは、多様な食文化が存在することでも知られ、「美食」が観光コンテンツとしても人気を博している。2017年にユネスコ食文化創造都市に登録されたことをきっかけに、官民",
         "pub_date": "11/21 16:20 JST",
         "is_priority": false
-      },
-      {
-        "title": "《「誰だ、あれは？ 私の友人だ」》米中ロ首脳会談で炸裂したトランプ流の社交辞令と、プーチン氏のスルー術 大国のトップに見る「腹の探り合い」の“極意”(NEWSポストセブン)",
-        "link": "https://news.yahoo.co.jp/articles/20eebee953877bd01d1e2517d2463b1c873393ba?source=rss",
-        "description": "昔から「三人寄れば文殊の知恵」と言いますが、大国の首脳3人が寄ったことで、何かいい知恵が生まれたのでしょうか。並んでいる姿を見て「隠し砦の三悪人」という言葉が思い浮かびましたが、それは首脳の方々に失礼",
-        "pub_date": "11/21 16:15 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -609,7 +601,7 @@
     "default_channel_id": "stream_euronews_asia"
   },
   "forex": {
-    "timestamp": "11/21 22:29 JST",
+    "timestamp": "11/21 23:19 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -655,9 +647,144 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/21 22:29 JST"
+    "cities": [
+      {
+        "name": "プノンペン (首都)",
+        "name_en": "Phnom Penh",
+        "is_capital": true,
+        "lat": 11.5564,
+        "lon": 104.9282,
+        "temp": 27.4,
+        "apparent_temp": 32.0,
+        "humidity": 78,
+        "wind_speed": 6.0,
+        "wind_gusts": 11.2,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/21(土)",
+            "temp_max": 31.5,
+            "temp_min": 25.2,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/22(日)",
+            "temp_max": 32.1,
+            "temp_min": 25.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 32.6,
+            "temp_min": 25.5,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "シェムリアップ (北西部)",
+        "name_en": "Siem Reap",
+        "is_capital": false,
+        "lat": 13.3671,
+        "lon": 103.8448,
+        "temp": 26.5,
+        "apparent_temp": 31.7,
+        "humidity": 83,
+        "wind_speed": 3.3,
+        "wind_gusts": 5.4,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/21(土)",
+            "temp_max": 31.6,
+            "temp_min": 23.7,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/22(日)",
+            "temp_max": 31.6,
+            "temp_min": 23.0,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.2
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 32.1,
+            "temp_min": 23.5,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "プノンペン (首都)",
+      "name_en": "Phnom Penh",
+      "is_capital": true,
+      "lat": 11.5564,
+      "lon": 104.9282,
+      "temp": 27.4,
+      "apparent_temp": 32.0,
+      "humidity": 78,
+      "wind_speed": 6.0,
+      "wind_gusts": 11.2,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
+      "forecast": [
+        {
+          "date": "11/21(土)",
+          "temp_max": 31.5,
+          "temp_min": 25.2,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
+        },
+        {
+          "date": "11/22(日)",
+          "temp_max": 32.1,
+          "temp_min": 25.1,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/23(月)",
+          "temp_max": 32.6,
+          "temp_min": 25.5,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/21 23:19 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -686,7 +813,7 @@
         "details": "旅客定期便運行中"
       }
     ],
-    "timestamp": "11/21 22:29 JST"
+    "timestamp": "11/21 23:19 JST"
   },
   "lifeline": {
     "status": "NORMAL",

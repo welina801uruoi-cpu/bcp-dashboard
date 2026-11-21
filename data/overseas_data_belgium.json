@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 04:20:19",
-  "timestamp_local": "2026-11-21 21:20:19",
+  "timestamp": "2026-11-22 05:06:24",
+  "timestamp_local": "2026-11-21 22:06:24",
   "country": {
     "id": "belgium",
     "name": "ベルギー",
@@ -272,23 +272,39 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 12,
-    "summary": "M4.6 (68 km SSE of Tateyama, Japan)",
+    "count_24h": 14,
+    "summary": "M4.9 (88 km WNW of El Aguilar, Argentina)",
     "latest": {
-      "mag": 4.6,
-      "place": "68 km SSE of Tateyama, Japan",
-      "time": "11/22 02:30 JST",
-      "depth_km": 65.465,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
+      "mag": 4.9,
+      "place": "88 km WNW of El Aguilar, Argentina",
+      "time": "11/22 04:03 JST",
+      "depth_km": 209.784,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucni",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.9,
+        "place": "88 km WNW of El Aguilar, Argentina",
+        "time": "11/22 04:03 JST",
+        "depth_km": 209.784,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucni",
+        "tsunami": 0
+      },
       {
         "mag": 4.6,
         "place": "68 km SSE of Tateyama, Japan",
         "time": "11/22 02:30 JST",
         "depth_km": 65.465,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "0 km SSW of La Colorada, Panama",
+        "time": "11/22 02:14 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn2",
         "tsunami": 0
       },
       {
@@ -651,7 +667,7 @@
     "default_channel_id": "stream_rtbf_live"
   },
   "forex": {
-    "timestamp": "11/22 04:20 JST",
+    "timestamp": "11/22 05:06 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -704,11 +720,11 @@
         "is_capital": true,
         "lat": 50.8503,
         "lon": 4.3517,
-        "temp": 4.8,
-        "apparent_temp": 1.9,
-        "humidity": 79,
-        "wind_speed": 7.2,
-        "wind_gusts": 10.1,
+        "temp": 4.4,
+        "apparent_temp": 1.1,
+        "humidity": 75,
+        "wind_speed": 7.9,
+        "wind_gusts": 11.2,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -723,16 +739,16 @@
           },
           {
             "date": "11/22(日)",
-            "temp_max": 7.4,
-            "temp_min": 2.3,
+            "temp_max": 7.2,
+            "temp_min": 2.5,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/23(月)",
-            "temp_max": 4.4,
-            "temp_min": -0.1,
+            "temp_max": 4.7,
+            "temp_min": 0.3,
             "weather_code": 45,
             "weather_label": "🌫️ 霧",
             "precipitation_mm": 0.0
@@ -749,10 +765,10 @@
         "is_capital": false,
         "lat": 51.2194,
         "lon": 4.4025,
-        "temp": 3.7,
-        "apparent_temp": 0.4,
+        "temp": 3.1,
+        "apparent_temp": -0.3,
         "humidity": 81,
-        "wind_speed": 8.6,
+        "wind_speed": 8.3,
         "wind_gusts": 9.4,
         "precipitation": 0.0,
         "weather_code": 0,
@@ -761,25 +777,25 @@
           {
             "date": "11/21(土)",
             "temp_max": 9.0,
-            "temp_min": 2.8,
+            "temp_min": 2.2,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
             "precipitation_mm": 0.2
           },
           {
             "date": "11/22(日)",
-            "temp_max": 7.2,
-            "temp_min": 1.8,
+            "temp_max": 6.8,
+            "temp_min": 1.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/23(月)",
-            "temp_max": 3.9,
-            "temp_min": -0.2,
-            "weather_code": 1,
-            "weather_label": "🌤️ 晴れ",
+            "temp_max": 5.0,
+            "temp_min": -0.1,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
             "precipitation_mm": 0.0
           }
         ],
@@ -795,11 +811,11 @@
       "is_capital": true,
       "lat": 50.8503,
       "lon": 4.3517,
-      "temp": 4.8,
-      "apparent_temp": 1.9,
-      "humidity": 79,
-      "wind_speed": 7.2,
-      "wind_gusts": 10.1,
+      "temp": 4.4,
+      "apparent_temp": 1.1,
+      "humidity": 75,
+      "wind_speed": 7.9,
+      "wind_gusts": 11.2,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
@@ -814,16 +830,16 @@
         },
         {
           "date": "11/22(日)",
-          "temp_max": 7.4,
-          "temp_min": 2.3,
+          "temp_max": 7.2,
+          "temp_min": 2.5,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/23(月)",
-          "temp_max": 4.4,
-          "temp_min": -0.1,
+          "temp_max": 4.7,
+          "temp_min": 0.3,
           "weather_code": 45,
           "weather_label": "🌫️ 霧",
           "precipitation_mm": 0.0
@@ -834,7 +850,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/22 04:20 JST"
+    "timestamp": "11/22 05:06 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -863,7 +879,7 @@
         "details": "国鉄インターシティ線平常運行中"
       }
     ],
-    "timestamp": "11/22 04:20 JST"
+    "timestamp": "11/22 05:06 JST"
   },
   "lifeline": {
     "status": "NORMAL",

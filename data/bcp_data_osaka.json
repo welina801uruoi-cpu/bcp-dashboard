@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 19:18:33",
+  "timestamp": "2026-11-21 20:04:43",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -91,11 +91,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-22 04:03",
+    "time": "2026-11-22 05:00",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.3",
+    "magnitude": "2.4",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-22 05:00",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.4",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-22 04:03",
         "place": "熊本県天草・芦北地方",
@@ -158,13 +165,6 @@
         "shindo": "1",
         "magnitude": "2.2",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-21 02:14",
-        "place": "トカラ列島近海",
-        "shindo": "1",
-        "magnitude": "2.2",
-        "maxScale": 10
       }
     ]
   },
@@ -207,12 +207,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "乾燥注意報",
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "乾燥注意報、雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、乾燥注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -223,11 +223,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "乾燥注意報",
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、乾燥注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -303,7 +304,7 @@
         "name": "山陽新幹線",
         "status": "ALERT",
         "state": "その他",
-        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月21日 5時0分掲載）",
+        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月22日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       }
     ],
@@ -453,24 +454,32 @@
     "status": "NORMAL",
     "office": "大阪管区気象台",
     "target_area": "大阪府",
-    "report_time": "11/21 16:41",
+    "report_time": "11/22 04:38",
     "headline": "",
-    "text": "　大阪府は、寒気や湿った空気の影響でおおむね曇り、雨の降っている所があります。\n\n　２１日の大阪府は、寒気や湿った空気の影響で曇り、雨の降る所があるでしょう。\n\n　２２日の大阪府は、高気圧に覆われておおむね晴れますが、寒気や湿った空気の影響で未明は雨の降る所がある見込みです。\n\n【近畿地方】　\n　近畿地方は、寒気や湿った空気の影響でおおむね曇り、雨や雪の降っている所があります。\n\n　２１日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、北部では断続的に雨や雪が降るでしょう。雷を伴う所がある見込みです。\n\n　２２日の近畿地方は、高気圧に覆われておおむね晴れますが、北部では寒気や湿った空気の影響で曇り、断続的に雨が降るでしょう。夕方まで雷を伴う所がある見込みです。",
+    "text": "　大阪府は、高気圧に覆われておおむね晴れています。\n\n　２２日の大阪府は、高気圧に覆われておおむね晴れるでしょう。\n\n　２３日の大阪府は、高気圧に覆われて晴れる見込みです。\n\n【近畿地方】　\n　近畿地方は、高気圧に覆われておおむね晴れていますが、北部を中心に寒気や湿った空気の影響でおおむね曇り、雷を伴い雨や雪の降っている所があります。\n\n　２２日の近畿地方は、高気圧に覆われておおむね晴れますが、北部では寒気や湿った空気の影響で曇り、昼前から夕方にかけて雨が降るでしょう。夜のはじめ頃まで雷を伴う所がある見込みです。\n\n　２３日の近畿地方は、高気圧に覆われておおむね晴れるでしょう。",
     "paragraphs": [
-      "大阪府は、寒気や湿った空気の影響でおおむね曇り、雨の降っている所があります。",
-      "２１日の大阪府は、寒気や湿った空気の影響で曇り、雨の降る所があるでしょう。",
-      "２２日の大阪府は、高気圧に覆われておおむね晴れますが、寒気や湿った空気の影響で未明は雨の降る所がある見込みです。",
-      "【近畿地方】　\n　近畿地方は、寒気や湿った空気の影響でおおむね曇り、雨や雪の降っている所があります。",
-      "２１日の近畿地方は、寒気や湿った空気の影響でおおむね曇り、北部では断続的に雨や雪が降るでしょう。雷を伴う所がある見込みです。",
-      "２２日の近畿地方は、高気圧に覆われておおむね晴れますが、北部では寒気や湿った空気の影響で曇り、断続的に雨が降るでしょう。夕方まで雷を伴う所がある見込みです。"
+      "大阪府は、高気圧に覆われておおむね晴れています。",
+      "２２日の大阪府は、高気圧に覆われておおむね晴れるでしょう。",
+      "２３日の大阪府は、高気圧に覆われて晴れる見込みです。",
+      "【近畿地方】　\n　近畿地方は、高気圧に覆われておおむね晴れていますが、北部を中心に寒気や湿った空気の影響でおおむね曇り、雷を伴い雨や雪の降っている所があります。",
+      "２２日の近畿地方は、高気圧に覆われておおむね晴れますが、北部では寒気や湿った空気の影響で曇り、昼前から夕方にかけて雨が降るでしょう。夜のはじめ頃まで雷を伴う所がある見込みです。",
+      "２３日の近畿地方は、高気圧に覆われておおむね晴れるでしょう。"
     ],
-    "summary": "大阪府は、寒気や湿った空気の影響でおおむね曇り、雨の降っている所があります。...",
+    "summary": "大阪府は、高気圧に覆われておおむね晴れています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=270000"
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 12,
     "articles": [
+      {
+        "title": "呼気1リットル当たり0.5ミリグラム以上のアルコールを検出　酒酔い運転で事故を起こした疑いで74歳の男を逮捕　「酒は飲んだが事故を起こした覚えはない」と...　愛知・豊橋市(CBCテレビ)",
+        "summary": "愛知県豊橋市で、酒を飲んだ状態で車を運転し事故を起こした疑いで、74歳の男が逮捕されました。男は「酒は飲んだが事故を起こした覚えはない」と容疑を一部否認しています。逮捕されたのは、豊橋市東小田原町のア",
+        "pub_date": "11/22 05:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/6ce4ebd97cc118a48904830be67c5577cc5e44fd?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "孤立や停電も…強烈寒波が3連休直撃 各地で大雪の影響広がる 都内は初の氷点下(テレビ朝日系（ANN）)",
         "summary": "今シーズン初めての強い寒波が3連休を直撃しています。21日は都内でも氷点下を観測し、全国的に厳しい寒さに。大雪による孤立や停電、交通障害など、各地で影響が広がりました。（サタデーステーション11月21",
@@ -560,39 +569,31 @@
         "is_disaster": true
       },
       {
+        "title": "路上に倒れていた男性をひき逃げした容疑で39歳の男を逮捕　男性は死亡　　名古屋・天白区　(CBCテレビ)",
+        "summary": "21日、名古屋市天白区で路上に倒れていた男性が車にひかれて死亡した事件で、39歳の男が逮捕されました。【写真を見る】路上に倒れていた男性をひき逃げした容疑で39歳の男を逮捕 男性は死亡 名古屋・天白区",
+        "pub_date": "11/22 04:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/e311bfa160c1a0b3c7a36fc2197f8c982879de55?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【速報】東京都心で4.9℃　今シーズン初の5℃未満　11月としては5年ぶり(日本気象協会tenki.jp)",
+        "summary": "22日午前4時19分、東京都心で4.9℃を観測し、今シーズン初めて5℃を下回りました。11月中に5℃を下回ったのは2021年以来5年ぶりのことです。今朝の関東は放射冷却が強まった影響で、各地で冷え込み",
+        "pub_date": "11/22 04:44 JST",
+        "link": "https://news.yahoo.co.jp/articles/57987b5a2e9ef24c175e04c4ce08fb6f9363348d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "名古屋市東区のひき逃げ事件　トルコ国籍の男を逮捕(メ〜テレ（名古屋テレビ）)",
         "summary": "21日、名古屋市東区で原付バイクを運転していた男性が車にひき逃げされ重傷を負った事件で、トルコ国籍の男が逮捕されました。過失運転致傷とひき逃げの疑いで逮捕されたのは、愛知県春日井市の解体業でトルコ国籍",
         "pub_date": "11/22 02:21 JST",
         "link": "https://news.yahoo.co.jp/articles/39f784d5b7996ab43fa5e1d984b66b97b6534b99?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "「5mmの生物」もたらす“山の異変”　クマ出没の一因か　前橋は厳戒態勢つづく(テレビ朝日系（ANN）)",
-        "summary": "群馬県前橋市の住宅街に出没したクマ。21日も目撃され、厳戒態勢が続いています。なぜ、クマは人里へと下りてくるのか。その原因の1つにあったのは、わずか「5ミリ」の生物がもたらす“山の異変”でした。（サタ",
-        "pub_date": "11/22 02:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/5d49c05b718653272eb279485b5d6fdb43beacdf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "冷え込む日中関係…待遇に“格差”も　前駐中国大使に聞く　中国とどう向き合う？(テレビ朝日系（ANN）)",
-        "summary": "世界の関心が「外交」に集まった1週間。訪中した高市総理を待ち受けたのは、「冷遇」とも受け取れる扱いでした。番組では前の駐中国大使を取材。中国とは今後、どう向き合うべきなのでしょうか。（サタデーステーシ",
-        "pub_date": "11/22 01:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/7aa97c2cce33ee2aef3a863c6daeb8eb0aacd4d8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "アジアパラ大会金メダルの小田凱人選手が地元に凱旋　大歓迎パレード　愛知・一宮市(CBCテレビ)",
-        "summary": "プロ車いすテニスプレイヤーの小田凱人選手が、21日地元・愛知県一宮市に凱旋しました。【写真を見る】アジアパラ大会金メダルの小田凱人選手が地元に凱旋 大歓迎パレード 愛知・一宮市史上最年少で生涯ゴールデ",
-        "pub_date": "11/22 01:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/a0ebf59347dc6d61a70dd8cf496afdb9706acafd?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 04:18:10 JST"
+    "last_updated": "2026-11-22 05:04:17 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -613,10 +614,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "BFpEpX5XZDc",
+        "video_id": "TNXuUFV-Ehg",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/BFpEpX5XZDc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=BFpEpX5XZDc"
+        "embed_url": "https://www.youtube.com/embed/TNXuUFV-Ehg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=TNXuUFV-Ehg"
       },
       {
         "id": "stream_tbsnews",
@@ -624,10 +625,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "7JTk-eloPdA",
+        "video_id": "2YQBOk5bZrc",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/7JTk-eloPdA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=7JTk-eloPdA"
+        "embed_url": "https://www.youtube.com/embed/2YQBOk5bZrc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=2YQBOk5bZrc"
       },
       {
         "id": "stream_ntvnews",
@@ -646,10 +647,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "M_bshnYxgak",
+        "video_id": "5ic7ZlhWsC8",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/M_bshnYxgak?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=M_bshnYxgak"
+        "embed_url": "https://www.youtube.com/embed/5ic7ZlhWsC8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=5ic7ZlhWsC8"
       },
       {
         "id": "stream_fnnnews",

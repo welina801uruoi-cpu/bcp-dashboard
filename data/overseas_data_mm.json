@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 04:19:46",
-  "timestamp_local": "2026-11-22 01:49:46",
+  "timestamp": "2026-11-22 05:05:53",
+  "timestamp_local": "2026-11-22 02:35:53",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -267,23 +267,39 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 12,
-    "summary": "M4.6 (68 km SSE of Tateyama, Japan)",
+    "count_24h": 14,
+    "summary": "M4.9 (88 km WNW of El Aguilar, Argentina)",
     "latest": {
-      "mag": 4.6,
-      "place": "68 km SSE of Tateyama, Japan",
-      "time": "11/22 02:30 JST",
-      "depth_km": 65.465,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
+      "mag": 4.9,
+      "place": "88 km WNW of El Aguilar, Argentina",
+      "time": "11/22 04:03 JST",
+      "depth_km": 209.784,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucni",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.9,
+        "place": "88 km WNW of El Aguilar, Argentina",
+        "time": "11/22 04:03 JST",
+        "depth_km": 209.784,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucni",
+        "tsunami": 0
+      },
       {
         "mag": 4.6,
         "place": "68 km SSE of Tateyama, Japan",
         "time": "11/22 02:30 JST",
         "depth_km": 65.465,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
+        "tsunami": 0
+      },
+      {
+        "mag": 4.5,
+        "place": "0 km SSW of La Colorada, Panama",
+        "time": "11/22 02:14 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn2",
         "tsunami": 0
       },
       {
@@ -634,7 +650,7 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/22 04:19 JST",
+    "timestamp": "11/22 05:05 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -673,19 +689,19 @@
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
       "weather": {
-        "raw": "METAR VYYY 211900Z 05002KT 6000 FEW020 25/23 Q1016 NOSIG",
-        "wind": "2kt",
-        "wind_speed": 2,
+        "raw": "METAR VYYY 212000Z 35003KT 6000 FEW020 25/23 Q1016 NOSIG",
+        "wind": "3kt",
+        "wind_speed": 3,
         "wind_gust": 0,
         "visibility": "3.73マイル",
         "temp": 25,
         "fltcat": "VFR",
-        "report_time": "2026-11-21T19:00:00.000Z"
+        "report_time": "2026-11-21T20:00:00.000Z"
       },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "視程良好（3.73マイル）、風速安定（2kt）。順調に運航中"
+      "status_desc": "視程良好（3.73マイル）、風速安定（3kt）。順調に運航中"
     }
   ],
   "weather": {
@@ -696,10 +712,10 @@
         "is_capital": false,
         "lat": 16.8661,
         "lon": 96.1951,
-        "temp": 25.4,
-        "apparent_temp": 29.9,
-        "humidity": 89,
-        "wind_speed": 8.7,
+        "temp": 25.2,
+        "apparent_temp": 29.6,
+        "humidity": 90,
+        "wind_speed": 9.0,
         "wind_gusts": 18.0,
         "precipitation": 0.0,
         "weather_code": 0,
@@ -741,11 +757,11 @@
         "is_capital": true,
         "lat": 19.7633,
         "lon": 96.0785,
-        "temp": 22.2,
+        "temp": 22.3,
         "apparent_temp": 24.6,
         "humidity": 90,
-        "wind_speed": 11.3,
-        "wind_gusts": 19.1,
+        "wind_speed": 12.4,
+        "wind_gusts": 21.2,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -786,11 +802,11 @@
         "is_capital": false,
         "lat": 21.9588,
         "lon": 96.0891,
-        "temp": 22.1,
-        "apparent_temp": 26.0,
-        "humidity": 91,
-        "wind_speed": 1.3,
-        "wind_gusts": 6.5,
+        "temp": 22.0,
+        "apparent_temp": 25.6,
+        "humidity": 92,
+        "wind_speed": 3.8,
+        "wind_gusts": 7.6,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
@@ -832,11 +848,11 @@
       "is_capital": true,
       "lat": 19.7633,
       "lon": 96.0785,
-      "temp": 22.2,
+      "temp": 22.3,
       "apparent_temp": 24.6,
       "humidity": 90,
-      "wind_speed": 11.3,
-      "wind_gusts": 19.1,
+      "wind_speed": 12.4,
+      "wind_gusts": 21.2,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -871,7 +887,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/22 04:19 JST"
+    "timestamp": "11/22 05:05 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -900,7 +916,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/22 04:19 JST"
+    "timestamp": "11/22 05:05 JST"
   },
   "lifeline": {
     "status": "NORMAL",

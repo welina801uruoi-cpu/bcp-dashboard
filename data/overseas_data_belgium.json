@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 02:53:56",
-  "timestamp_local": "2026-11-21 19:53:56",
+  "timestamp": "2026-11-22 03:29:40",
+  "timestamp_local": "2026-11-21 20:29:40",
   "country": {
     "id": "belgium",
     "name": "ベルギー",
@@ -272,17 +272,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M4.6 (18 km ESE of La Romana, Dominican Republic)",
+    "count_24h": 12,
+    "summary": "M4.6 (68 km SSE of Tateyama, Japan)",
     "latest": {
       "mag": 4.6,
-      "place": "18 km ESE of La Romana, Dominican Republic",
-      "time": "11/22 00:00 JST",
-      "depth_km": 104,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026325000",
+      "place": "68 km SSE of Tateyama, Japan",
+      "time": "11/22 02:30 JST",
+      "depth_km": 65.465,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "68 km SSE of Tateyama, Japan",
+        "time": "11/22 02:30 JST",
+        "depth_km": 65.465,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
+        "tsunami": 0
+      },
       {
         "mag": 4.6,
         "place": "18 km ESE of La Romana, Dominican Republic",
@@ -643,7 +651,7 @@
     "default_channel_id": "stream_rtbf_live"
   },
   "forex": {
-    "timestamp": "11/22 02:53 JST",
+    "timestamp": "11/22 03:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -691,16 +699,61 @@
   "weather": {
     "cities": [
       {
+        "name": "ブリュッセル (首都・EU本部)",
+        "name_en": "Brussels",
+        "is_capital": true,
+        "lat": 50.8503,
+        "lon": 4.3517,
+        "temp": 5.0,
+        "apparent_temp": 1.9,
+        "humidity": 74,
+        "wind_speed": 6.8,
+        "wind_gusts": 7.9,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/21(土)",
+            "temp_max": 9.3,
+            "temp_min": 3.0,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/22(日)",
+            "temp_max": 7.4,
+            "temp_min": 2.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 4.6,
+            "temp_min": 0.0,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "アントワープ (北部主要港湾)",
         "name_en": "Antwerp",
         "is_capital": false,
         "lat": 51.2194,
         "lon": 4.4025,
-        "temp": 5.1,
-        "apparent_temp": 2.2,
-        "humidity": 73,
-        "wind_speed": 5.4,
-        "wind_gusts": 5.8,
+        "temp": 4.5,
+        "apparent_temp": 1.5,
+        "humidity": 75,
+        "wind_speed": 6.1,
+        "wind_gusts": 6.5,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -737,42 +790,42 @@
       }
     ],
     "capital": {
-      "name": "アントワープ (北部主要港湾)",
-      "name_en": "Antwerp",
-      "is_capital": false,
-      "lat": 51.2194,
-      "lon": 4.4025,
-      "temp": 5.1,
-      "apparent_temp": 2.2,
-      "humidity": 73,
-      "wind_speed": 5.4,
-      "wind_gusts": 5.8,
+      "name": "ブリュッセル (首都・EU本部)",
+      "name_en": "Brussels",
+      "is_capital": true,
+      "lat": 50.8503,
+      "lon": 4.3517,
+      "temp": 5.0,
+      "apparent_temp": 1.9,
+      "humidity": 74,
+      "wind_speed": 6.8,
+      "wind_gusts": 7.9,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/21(土)",
-          "temp_max": 9.0,
-          "temp_min": 2.6,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.2
+          "temp_max": 9.3,
+          "temp_min": 3.0,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/22(日)",
-          "temp_max": 7.0,
-          "temp_min": 2.1,
+          "temp_max": 7.4,
+          "temp_min": 2.3,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/23(月)",
-          "temp_max": 6.0,
-          "temp_min": 0.9,
-          "weather_code": 0,
-          "weather_label": "☀️ 快晴",
+          "temp_max": 4.6,
+          "temp_min": 0.0,
+          "weather_code": 1,
+          "weather_label": "🌤️ 晴れ",
           "precipitation_mm": 0.0
         }
       ],
@@ -781,7 +834,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/22 02:53 JST"
+    "timestamp": "11/22 03:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -810,7 +863,7 @@
         "details": "国鉄インターシティ線平常運行中"
       }
     ],
-    "timestamp": "11/22 02:53 JST"
+    "timestamp": "11/22 03:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

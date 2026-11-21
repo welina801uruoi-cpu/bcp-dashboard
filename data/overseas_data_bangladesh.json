@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 02:53:42",
-  "timestamp_local": "2026-11-21 23:53:42",
+  "timestamp": "2026-11-22 03:29:33",
+  "timestamp_local": "2026-11-22 00:29:33",
   "country": {
     "id": "bangladesh",
     "name": "バングラデシュ",
@@ -260,17 +260,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M4.6 (18 km ESE of La Romana, Dominican Republic)",
+    "count_24h": 12,
+    "summary": "M4.6 (68 km SSE of Tateyama, Japan)",
     "latest": {
       "mag": 4.6,
-      "place": "18 km ESE of La Romana, Dominican Republic",
-      "time": "11/22 00:00 JST",
-      "depth_km": 104,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026325000",
+      "place": "68 km SSE of Tateyama, Japan",
+      "time": "11/22 02:30 JST",
+      "depth_km": 65.465,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "68 km SSE of Tateyama, Japan",
+        "time": "11/22 02:30 JST",
+        "depth_km": 65.465,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
+        "tsunami": 0
+      },
       {
         "mag": 4.6,
         "place": "18 km ESE of La Romana, Dominican Republic",
@@ -606,7 +614,7 @@
     "default_channel_id": "stream_euronews_bd"
   },
   "forex": {
-    "timestamp": "11/22 02:53 JST",
+    "timestamp": "11/22 03:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -652,9 +660,144 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/22 02:53 JST"
+    "cities": [
+      {
+        "name": "ダッカ (首都)",
+        "name_en": "Dhaka",
+        "is_capital": true,
+        "lat": 23.8103,
+        "lon": 90.4125,
+        "temp": 22.1,
+        "apparent_temp": 26.7,
+        "humidity": 99,
+        "wind_speed": 1.7,
+        "wind_gusts": 4.3,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 28.3,
+            "temp_min": 21.5,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 27.2,
+            "temp_min": 22.1,
+            "weather_code": 55,
+            "weather_label": "🌦️ 霧雨 (強)",
+            "precipitation_mm": 1.4
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 27.7,
+            "temp_min": 20.8,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 4.3
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "チッタゴン (南東部港湾)",
+        "name_en": "Chittagong",
+        "is_capital": false,
+        "lat": 22.3569,
+        "lon": 91.7832,
+        "temp": 22.2,
+        "apparent_temp": 25.8,
+        "humidity": 98,
+        "wind_speed": 8.2,
+        "wind_gusts": 14.8,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 27.4,
+            "temp_min": 21.9,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.2
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 27.3,
+            "temp_min": 21.6,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 8.1
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 27.8,
+            "temp_min": 22.8,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.3
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "ダッカ (首都)",
+      "name_en": "Dhaka",
+      "is_capital": true,
+      "lat": 23.8103,
+      "lon": 90.4125,
+      "temp": 22.1,
+      "apparent_temp": 26.7,
+      "humidity": 99,
+      "wind_speed": 1.7,
+      "wind_gusts": 4.3,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
+      "forecast": [
+        {
+          "date": "11/22(日)",
+          "temp_max": 28.3,
+          "temp_min": 21.5,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/23(月)",
+          "temp_max": 27.2,
+          "temp_min": 22.1,
+          "weather_code": 55,
+          "weather_label": "🌦️ 霧雨 (強)",
+          "precipitation_mm": 1.4
+        },
+        {
+          "date": "11/24(火)",
+          "temp_max": 27.7,
+          "temp_min": 20.8,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 4.3
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/22 03:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -683,7 +826,7 @@
         "details": "MRTライン6号線定期運行中"
       }
     ],
-    "timestamp": "11/22 02:53 JST"
+    "timestamp": "11/22 03:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

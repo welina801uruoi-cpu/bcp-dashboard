@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 02:53:02",
-  "timestamp_local": "2026-11-22 01:53:02",
+  "timestamp": "2026-11-22 03:29:20",
+  "timestamp_local": "2026-11-22 02:29:20",
   "country": {
     "id": "hongkong",
     "name": "香港 (中国香港特別行政区)",
@@ -266,16 +266,24 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 12,
-    "summary": "M4.6 (18 km ESE of La Romana, Dominican Republic)",
+    "summary": "M4.6 (68 km SSE of Tateyama, Japan)",
     "latest": {
       "mag": 4.6,
-      "place": "18 km ESE of La Romana, Dominican Republic",
-      "time": "11/22 00:00 JST",
-      "depth_km": 104,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026325000",
+      "place": "68 km SSE of Tateyama, Japan",
+      "time": "11/22 02:30 JST",
+      "depth_km": 65.465,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "68 km SSE of Tateyama, Japan",
+        "time": "11/22 02:30 JST",
+        "depth_km": 65.465,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
+        "tsunami": 0
+      },
       {
         "mag": 4.6,
         "place": "18 km ESE of La Romana, Dominican Republic",
@@ -362,14 +370,6 @@
         "time": "11/21 07:34 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucf0",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.1,
-        "place": "32 km NE of Port-Olry, Vanuatu",
-        "time": "11/21 02:53 JST",
-        "depth_km": 94.53,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucd6",
         "tsunami": 0
       }
     ]
@@ -626,7 +626,7 @@
     "default_channel_id": "cam_victoria_harbour"
   },
   "forex": {
-    "timestamp": "11/22 02:52 JST",
+    "timestamp": "11/22 03:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -672,9 +672,99 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/22 02:53 JST"
+    "cities": [
+      {
+        "name": "香港 (九龍・中環)",
+        "name_en": "Hong Kong",
+        "is_capital": true,
+        "lat": 22.3193,
+        "lon": 114.1694,
+        "temp": 18.3,
+        "apparent_temp": 16.8,
+        "humidity": 69,
+        "wind_speed": 15.9,
+        "wind_gusts": 35.3,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 21.1,
+            "temp_min": 17.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 23.7,
+            "temp_min": 20.1,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 2.0
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 21.3,
+            "temp_min": 16.3,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 5.3
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "香港 (九龍・中環)",
+      "name_en": "Hong Kong",
+      "is_capital": true,
+      "lat": 22.3193,
+      "lon": 114.1694,
+      "temp": 18.3,
+      "apparent_temp": 16.8,
+      "humidity": 69,
+      "wind_speed": 15.9,
+      "wind_gusts": 35.3,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
+      "forecast": [
+        {
+          "date": "11/22(日)",
+          "temp_max": 21.1,
+          "temp_min": 17.6,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/23(月)",
+          "temp_max": 23.7,
+          "temp_min": 20.1,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 2.0
+        },
+        {
+          "date": "11/24(火)",
+          "temp_max": 21.3,
+          "temp_min": 16.3,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 5.3
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/22 03:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -703,7 +793,7 @@
         "details": "MTR全線・機場快線平常運行中"
       }
     ],
-    "timestamp": "11/22 02:52 JST"
+    "timestamp": "11/22 03:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

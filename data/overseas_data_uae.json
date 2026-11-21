@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 02:54:40",
-  "timestamp_local": "2026-11-21 21:54:40",
+  "timestamp": "2026-11-22 03:29:54",
+  "timestamp_local": "2026-11-21 22:29:54",
   "country": {
     "id": "uae",
     "name": "アラブ首長国連邦 (UAE)",
@@ -276,17 +276,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 11,
-    "summary": "M4.6 (18 km ESE of La Romana, Dominican Republic)",
+    "count_24h": 12,
+    "summary": "M4.6 (68 km SSE of Tateyama, Japan)",
     "latest": {
       "mag": 4.6,
-      "place": "18 km ESE of La Romana, Dominican Republic",
-      "time": "11/22 00:00 JST",
-      "depth_km": 104,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026325000",
+      "place": "68 km SSE of Tateyama, Japan",
+      "time": "11/22 02:30 JST",
+      "depth_km": 65.465,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "68 km SSE of Tateyama, Japan",
+        "time": "11/22 02:30 JST",
+        "depth_km": 65.465,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
+        "tsunami": 0
+      },
       {
         "mag": 4.6,
         "place": "18 km ESE of La Romana, Dominican Republic",
@@ -610,7 +618,7 @@
     "default_channel_id": "stream_dubai_live"
   },
   "forex": {
-    "timestamp": "11/22 02:54 JST",
+    "timestamp": "11/22 03:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -678,8 +686,8 @@
         "is_capital": true,
         "lat": 24.4539,
         "lon": 54.3773,
-        "temp": 26.3,
-        "apparent_temp": 29.0,
+        "temp": 26.1,
+        "apparent_temp": 28.8,
         "humidity": 69,
         "wind_speed": 7.7,
         "wind_gusts": 14.0,
@@ -716,6 +724,51 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ドバイ (世界商業ハブ)",
+        "name_en": "Dubai",
+        "is_capital": false,
+        "lat": 25.2048,
+        "lon": 55.2708,
+        "temp": 27.5,
+        "apparent_temp": 29.8,
+        "humidity": 59,
+        "wind_speed": 6.1,
+        "wind_gusts": 11.2,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/21(土)",
+            "temp_max": 28.8,
+            "temp_min": 26.6,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/22(日)",
+            "temp_max": 30.1,
+            "temp_min": 24.0,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 31.1,
+            "temp_min": 24.3,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -724,8 +777,8 @@
       "is_capital": true,
       "lat": 24.4539,
       "lon": 54.3773,
-      "temp": 26.3,
-      "apparent_temp": 29.0,
+      "temp": 26.1,
+      "apparent_temp": 28.8,
       "humidity": 69,
       "wind_speed": 7.7,
       "wind_gusts": 14.0,
@@ -763,7 +816,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/22 02:54 JST"
+    "timestamp": "11/22 03:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -792,7 +845,7 @@
         "details": "レッドライン・グリーンライン平常運行中"
       }
     ],
-    "timestamp": "11/22 02:54 JST"
+    "timestamp": "11/22 03:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

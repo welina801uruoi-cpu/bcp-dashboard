@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 01:13:53",
+  "timestamp": "2026-11-21 02:17:13",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -193,10 +193,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "雷注意報"
+          "雷注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、雷注意報",
+        "summary": "雷注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -231,9 +231,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報"
+          "波浪注意報",
+          "雷注意報",
+          "霜注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報",
+        "summary": "波浪注意報、雷注意報、霜注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -258,11 +261,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "波浪注意報",
           "雷注意報",
-          "強風注意報",
-          "波浪注意報"
+          "霜注意報",
+          "強風注意報"
         ],
-        "summary": "雷注意報、強風注意報、波浪注意報",
+        "summary": "波浪注意報、雷注意報、霜注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -273,11 +277,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
           "雷注意報",
+          "霜注意報",
           "強風注意報"
         ],
-        "summary": "霜注意報、雷注意報、強風注意報",
+        "summary": "雷注意報、霜注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       }
     ]
@@ -291,18 +295,18 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 肥薩線 ／ 新幹線: 山陽新幹線（列車遅延）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線: 肥薩線 ／ 新幹線: 山陽新幹線（列車遅延）、九州新幹線（列車遅延））",
     "line_status": "ALERT",
     "line_text": "運行支障あり（肥薩線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延）、九州新幹線（その他））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延）、九州新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [
       "肥薩線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（列車遅延）",
-      "九州新幹線（その他）"
+      "九州新幹線（列車遅延）"
     ],
     "shinkansen_details": [
       {
@@ -315,8 +319,8 @@
       {
         "name": "九州新幹線",
         "status": "ALERT",
-        "state": "その他",
-        "detail": "地震災害の影響で、一部列車に運休や運転変更が出ています。（11月21日 5時0分掲載）",
+        "state": "列車遅延",
+        "detail": "混雑の影響で、下り線(鹿児島中央方面行)の一部列車に遅れが出ています。（11月21日 10時45分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/410/0"
       },
       {
@@ -428,8 +432,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 01:28",
+          "text": "@chio_dcs こんにちは、 START au END サポート皆川です。 START 繋がらない END と…。機内モードのオン/オフをしても改善されない..."
+        },
         {
           "time": "11/20 23:46",
           "text": "@Caad9Di2 私もワイモバに乗り換えました！料金的には概ね満足でしたが私の住むエリアでは繋がり悪く START au END 系に乗り換えようかと思ってた..."
@@ -437,10 +445,6 @@
         {
           "time": "11/20 23:41",
           "text": "START au繋がらない END んだけどなんかあったん？ 一旦機内モード→解除にしても電波死んでる"
-        },
-        {
-          "time": "11/20 21:03",
-          "text": "START au繋がらない END ？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -451,7 +455,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/21 00:17",
@@ -473,21 +477,85 @@
     "status": "ALERT",
     "office": "福岡管区気象台",
     "target_area": "福岡県",
-    "report_time": "11/21 04:41",
+    "report_time": "11/21 10:33",
     "headline": "",
-    "text": "　福岡県は、高気圧に覆われて晴れている所もありますが、気圧の谷や寒気の影響によりおおむね曇りや雨となっています。\n\n　２１日は、気圧の谷や寒気の影響により、曇りや雨で雷を伴う所があるでしょう。\n\n　２２日は、高気圧に覆われて晴れとなる所もありますが、気圧の谷や寒気の影響により、おおむね曇りで雨や雷雨となる所があるでしょう。",
+    "text": "　福岡県は、気圧の谷や寒気の影響によりおおむね曇りや雨となっています。\n\n　２１日は、気圧の谷や寒気の影響により、曇りや雨で雷を伴う所があるでしょう。\n\n　２２日は、気圧の谷や寒気の影響により、曇りではじめ雨や雷雨となる所がありますが、高気圧に覆われて次第に晴れとなる所があるでしょう。",
     "paragraphs": [
-      "福岡県は、高気圧に覆われて晴れている所もありますが、気圧の谷や寒気の影響によりおおむね曇りや雨となっています。",
+      "福岡県は、気圧の谷や寒気の影響によりおおむね曇りや雨となっています。",
       "２１日は、気圧の谷や寒気の影響により、曇りや雨で雷を伴う所があるでしょう。",
-      "２２日は、高気圧に覆われて晴れとなる所もありますが、気圧の谷や寒気の影響により、おおむね曇りで雨や雷雨となる所があるでしょう。"
+      "２２日は、気圧の谷や寒気の影響により、曇りではじめ雨や雷雨となる所がありますが、高気圧に覆われて次第に晴れとなる所があるでしょう。"
     ],
-    "summary": "福岡県は、高気圧に覆われて晴れている所もありますが、気圧の谷や寒気の影響によりおおむね曇りや雨となっています。...",
+    "summary": "福岡県は、気圧の谷や寒気の影響によりおおむね曇りや雨となっています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=400000"
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 4,
+    "disaster_count": 11,
     "articles": [
+      {
+        "title": "年間被害額は3460億円→巧妙化するセルフレジ万引きの実態 一方で“うっかり万引き”も深刻化？「ピッてしたら横の人の音だった」「4点買ったのにレシートには3点」SNSに体験談相次ぐ(ABEMA TIMES)",
+        "summary": "セルフレジの導入が急速に進む一方で、それに伴う万引き被害の増加が深刻な問題となっている。巧妙化する手口に店側が頭を悩ませる中、対策コストの肥大化や、操作ミスによる意図しない持ち帰りなど、多角的な課題が",
+        "pub_date": "11/21 11:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/4570cec90704eb96164f52f235365174d3203a2f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "東武日光線の踏切で特急列車と乗用車が接触(ABEMA TIMES)",
+        "summary": "東武日光線の特急列車が、踏切内で立ち往生していた乗用車と接触する事故がありました。【映像】列車と接触し、潰れた車（複数カット） 東武鉄道によりますと、午前7時半ごろ、栃木市の東武日光線の静和駅と新大平",
+        "pub_date": "11/21 10:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/698ba8bd94db640234b914ee9ef458a00bb42911?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "東武日光線が乗用車と衝突　踏切内で立ち往生　列車は急ブレーキも間に合わず　栃木(テレビ朝日系（ANN）)",
+        "summary": "東武日光線の特急列車が踏切内で立ち往生していた乗用車と接触する事故がありました。 東武鉄道によりますと、21日午前7時半ごろ、栃木市の東武日光線の静和駅と新大平下駅の間にある踏切内で、下りの特急列車と",
+        "pub_date": "11/21 10:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/e4f02303c7ea2e794474aa7ef1c1098ab0515ba7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "空調ない体育館、指導者の半数が「このまま続けたら命に関わる」。“断熱”と“空調設置”で体育館を安全な学びの場と災害時の避難所に(ハフポスト日本版)",
+        "summary": "地球温暖化の影響で日本でも、夏の暑さが命を脅かすレベルになってきている。そんな中、まるで「サウナ」のような暑さになってしまうのが、学校の「体育館」だ。【動画】桃田賢斗選手のインタビュー動画などはこちら",
+        "pub_date": "11/21 10:44 JST",
+        "link": "https://news.yahoo.co.jp/articles/b06b54dc2527d9e94c09cda959dda1e09b6f8a61?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "埼玉三郷の物流施設で火災　負傷者、逃げ遅れ情報なし(共同通信)",
+        "summary": "21日午前7時35分ごろ、埼玉県三郷市インター南1丁目の大型物流施設で出火したと通報があった。県警や消防によると、冷蔵庫から煙が出たとの情報がある。けが人や逃げ遅れは確認されていない。消防が消火活動に",
+        "pub_date": "11/21 10:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/7352d344d9e92e503ade95c9d6c2eebaf7fd037a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "埼玉八潮陥没事故　死亡の男性遺族が民事訴訟　県は賠償額を争う姿勢(テレビ朝日系（ANN）)",
+        "summary": "去年1月、埼玉県八潮市で陥没した道路にトラックが落下して男性が死亡した事故で、男性の遺族が埼玉県を相手取り約1億2500万円の損害賠償を求めた裁判で、埼玉県側は賠償額を争う姿勢を示しました。 訴状など",
+        "pub_date": "11/21 10:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/5e7c87db4d57ecab52a65374d6f25150edd1f805?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "東武日光線の特急列車が、踏切内で立ち往生していた乗用車と接触　車の男性と列車の乗客と乗務員約300人にけがなし(テレビ朝日系（ANN）)",
+        "summary": "東武日光線の特急列車が、踏切内で立ち往生していた乗用車と接触する事故がありました。",
+        "pub_date": "11/21 10:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/2ab3b4e02445aff391f96cdf14a21bc269819237?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "埼玉・三郷の物流施設で火災、負傷情報なし(共同通信)",
+        "summary": "埼玉県警によると、21日午前7時35分ごろ、埼玉県三郷市インター南1丁目の物流施設で「冷凍庫から煙が出ている」と通報があった。けが人の情報はない。",
+        "pub_date": "11/21 10:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/22c877f4749f1ccbc04e4605659b94298b7bccbe?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "情報漏えい相次ぐ中…愛知県警がオンラインでの“セキュリティ診断”を開始　不正アクセス被害に関する相談は先月までで約2600件　去年同時期比で約400件増加(CBCテレビ)",
         "summary": "不正アクセスによる情報漏えいが相次ぐ中、愛知県警は県内の中小企業向けに、オンラインでのセキュリティ診断を始めると発表しました。【写真を見る】情報漏えい相次ぐ中…愛知県警がオンラインでの“セキュリティ診",
@@ -513,103 +581,39 @@
         "is_disaster": true
       },
       {
-        "title": "北海道に大雪警報　内陸の空知地方で今季最大の積雪　厳重に警戒(テレビ朝日系（ANN）)",
-        "summary": "21日午前7時前、気象庁は北海道の空知地方に大雪警報を発表しました。大雪や吹雪による交通障害に警戒して下さい。 強い寒波の影響で北日本の日本海側は20日から雪が強まり、積雪が急増している所があります。",
-        "pub_date": "11/21 07:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/c25d7b5a3143cc8884d7f0a6f2f2e3995f9ff0d4?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "愛知県知事選に北角嘉幸さんが無所属で立候補　3年前名古屋市議に初当選し「減税日本」に在籍　18歳以下の医療費や中学校給食の無償化掲げる(CBCテレビ)",
-        "summary": "来年の愛知県知事選挙に、名古屋市議の北角嘉幸さんが立候補を表明しました。来年2月の愛知県知事選挙に無所属で立候補を表明したのは、名古屋市議の北角嘉幸さん（63）です。【写真を見る】愛知県知事選に北角嘉",
-        "pub_date": "11/21 10:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/336706f4c5a0a675a61337b4b2278d05f0fa3f5c?source=rss",
+        "title": "今季初の強烈寒波が3連休直撃　長野で最大2km車が立ち往生　関東にも…列島各地で混乱(テレビ朝日系（ANN）)",
+        "summary": "今シーズン初めての強い寒波が3連休を直撃しています。日本海側を中心に冬の嵐が襲っていて、長野県では最大およそ2キロにわたり車が立ち往生しました。■「全く動かず怖かった」人も 20日夜10時ごろ、長野県",
+        "pub_date": "11/21 11:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/3ca540c6e20481f5958612df83f265824646094e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "介護職の平均給与34万9000円　前年同月より1万6000円増(福祉新聞WEB)",
-        "summary": "厚生労働省が16日に公表した介護従事者処遇状況等調査の結果で、介護職員等処遇改善加算を取得している事業所で働く常勤介護職員の平均給与額は、2026年7月時点で約34万9000円だったことが分かった。前",
-        "pub_date": "11/21 10:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/8762990bec321a5caf1abdaf95247d2a3484cbe0?source=rss",
+        "title": "強烈寒気が襲来中　あす22日(日)にかけても大雪・積雪による交通障害に注意(ウェザーマップ)",
+        "summary": "日本の上空には真冬並みの強い寒気が流れ込んでいて、日本海側の標高の高い所を中心に大雪となっている所があります。あす22日(日)にかけても雪が続き、さらに積雪が増加する見通しです。これまでの大雪で、すで",
+        "pub_date": "11/21 11:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/938d60431ae85545a567ef563adb8b4721c582dd?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「ご飯おかわり15回目でお断り」博多天ぷらやまや利用客の投稿が話題、食べ放題でも店側が「提供拒否・出禁」にできる条件を弁護士に聞いた(弁護士JPニュース)",
-        "summary": "「流石にご飯おかわり15回目でお断りされました お会計時にも注意されました」――。【公式X】「博多もつ鍋やまやのランチは、最初の辛子明太子を1本まるごと提供！さらに、やまやの辛子明太子・からし高菜・ご",
-        "pub_date": "11/21 10:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/67cc815fdad40fa5d807cc91677951ba5f8646c1?source=rss",
+        "title": "働く40〜50代の半数超が「ミッドライフクライシス」に直面？体の衰え、役割の変化に揺らぐメンタル 不安や葛藤とどう向き合うか(ABEMA TIMES)",
+        "summary": "人生の折り返し点ともいえる50代。体力の衰え、子どもの独立、親の介護、職場での役割変化。こうした複数の変化が重なるこの時期に、強い不安や葛藤を覚える人が少なくない。【映像】あなたもミッドライフクライシ",
+        "pub_date": "11/21 11:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/15c09602c3177f8cffe0014f1a5c78475e3156ac?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【SDGs】アイデアとデザインでアップサイクルの日常をつくる(テレビ朝日系（ANN）)",
-        "summary": "役目を終えた革製品を活用してオリジナルグッズを製作している齊藤倫平さん。廃棄予定だったサッカーボールはキーホルダーに、閉館した映画館のどん帳は巾着にするなど、これまで培ってきた革製品の製造・加工技術と",
-        "pub_date": "11/21 10:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/16a056fe37480769ac25b8d6d4417d76ff9677bf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "〈神社でダンスして大炎上〉「神社はパフォーマンスの舞台ではない」スロバキアのダンス集団が根津神社で踊り批判殺到…駐日大使館も謝罪する異例の事態に(集英社オンライン)",
-        "summary": "日本の神社で披露したダンスに批判が殺到し、駐日大使館が謝罪する事態となった。スロバキアのダンスグループが東京・文京区の根津神社で踊る動画がSNSで拡散され、物議を醸している。騒動を受け、11月20日に",
-        "pub_date": "11/21 10:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/14c895e6845cbfae198fb05d005d8dd1fad96ae4?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「なんたって人の金だから」水原一平の父が語った息子の裏切り…大谷翔平の約26億円を受け取った違法賭博の胴元は何者なのか？ 両腕タトゥー男が暮らす米国の豪邸を直撃(集英社オンライン)",
-        "summary": "大谷翔平の口座から約26億円を盗み取った元通訳の水原一平。そのカネを受け取っていた違法賭博の胴元は、いったい何者なのか。米国で独自取材を続けたノンフィクションライターが、沈黙を守ってきた渦中の人物の自",
-        "pub_date": "11/21 10:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/40ec596c937ab6a0081941d188f848cb8d62dfbf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "〈大谷翔平を裏切った水原一平〉「運転と飯係は僕が担当」新婚旅行のプレゼントに手術後の献身的な世話…〝最高の相棒〟が巨額の資金を盗み取るまでの知られざる6年間(集英社オンライン)",
-        "summary": "大谷翔平の銀行口座から巨額の資金を不正送金し、違法賭博に費やした元通訳の水原一平。かつて「最高の相棒」と呼ばれた2人は、どれほど親密だったのか。水原自身の証言や知られざるエピソードから、事件前の意外な",
-        "pub_date": "11/21 10:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/28e7b3765002a8407457aace015d566090918bf2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「簡単に侵略できると思われてはいけない」フィンランド前首相マリン氏が辻元清美氏に語った、平和を守るための「防衛力と外交」(集英社オンライン)",
-        "summary": "「強くあること」は、相手を攻撃することではなく、防衛する能力を高めること――。ロシアによるウクライナ侵攻を受け、フィンランドのNATO加盟を決断した前首相サンナ・マリン氏。しかし、防衛力だけで平和を守",
-        "pub_date": "11/21 10:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/7905c5bcf29b9569b87ac8ea624410c73d8e06d9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「家にはお金も、頼れる親戚もいなかった」34歳で首相になったサンナ・マリン氏が辻元清美氏に語った、貧しい家庭の少女が一国のトップに立つまで(集英社オンライン)",
-        "summary": "母は孤児院で育ち、15歳から働き始めた。家にはお金も、頼れる親戚もいなかった――。そんな家庭に生まれたサンナ・マリン氏は、いかにして34歳でフィンランドの首相になったのか。自伝『行動こそ希望!34歳、",
-        "pub_date": "11/21 10:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/623017faa9c2324fe773cf806ee5662760aa770c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "雪化粧のミャクミャクも？　金剛山で初冠雪(共同通信)",
-        "summary": "大阪府と奈良県にまたがる金剛山（標高1125メートル）で21日、初冠雪が観測された。麓の大阪府千早赤阪村が発表した。昨年より14日早い。山頂にある葛木神社の禰宜葛城繁さん（38）は「8合目付近から雪が",
-        "pub_date": "11/21 09:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/15c01016d1dff8aaca910f64f7170b6ba55c0ee0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "埼玉・三郷市の大型物流倉庫で火事(ABEMA TIMES)",
-        "summary": "埼玉県三郷市の大型物流倉庫で火事があり、現在も大量の煙が立ち上っています。 午前7時半すぎ、三郷市の三郷ジャンクション近くにある倉庫で「1階の冷蔵庫から煙が出ている」と119番通報がありました。【映像",
-        "pub_date": "11/21 09:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/e1f65b44d7562017010303c5d5cbe4710cc38576?source=rss",
+        "title": "【怒り】「人として裏切られたような気持ちが大きい」5万人集客予定の食フェスがガラガラ！出店者に大きな負担が…主催者「奇跡が起きたら…」(読売テレビ)",
+        "summary": "（公式HPの内容）「これはただの食フェスではない」「令和の関ヶ原」 全国から飲食店を集め、5万人の集客を見込んでいたグルメイベント、ところが、実際は“ガラガラ”でした。【動画】来場者５万人見込みのはず",
+        "pub_date": "11/21 11:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/5bbdff5389b694bba178935faf6f2a4045edcb6a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-21 10:13:05 JST"
+    "last_updated": "2026-11-21 11:16:15 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -630,10 +634,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "DHSxg3JgXBk",
+        "video_id": "LoUp1ncH18Y",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/DHSxg3JgXBk?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=DHSxg3JgXBk"
+        "embed_url": "https://www.youtube.com/embed/LoUp1ncH18Y?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=LoUp1ncH18Y"
       },
       {
         "id": "stream_tbsnews",
@@ -641,10 +645,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "CvJAk1xNNpM",
+        "video_id": "PJASxgbPwAI",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/CvJAk1xNNpM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=CvJAk1xNNpM"
+        "embed_url": "https://www.youtube.com/embed/PJASxgbPwAI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=PJASxgbPwAI"
       },
       {
         "id": "stream_ntvnews",
@@ -663,10 +667,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "GihSQf0HaAs",
+        "video_id": "YwlSyBApi6U",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/GihSQf0HaAs?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=GihSQf0HaAs"
+        "embed_url": "https://www.youtube.com/embed/YwlSyBApi6U?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=YwlSyBApi6U"
       },
       {
         "id": "stream_fnnnews",

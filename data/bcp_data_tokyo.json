@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 20:04:30",
+  "timestamp": "2026-11-21 20:46:58",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -113,11 +113,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-22 05:00",
+    "time": "2026-11-22 05:39",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.4",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-22 05:39",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-22 05:00",
         "place": "熊本県天草・芦北地方",
@@ -180,13 +187,6 @@
         "shindo": "1",
         "magnitude": "2.8",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-21 04:01",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.2",
-        "maxScale": 10
       }
     ]
   },
@@ -216,12 +216,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "雷注意報",
           "乾燥注意報",
           "強風注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報、強風注意報、雷注意報",
+        "summary": "雷注意報、乾燥注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -232,11 +232,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "乾燥注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報、強風注意報",
+        "summary": "乾燥注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -247,11 +247,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "乾燥注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報、強風注意報",
+        "summary": "乾燥注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/14/"
       },
       {
@@ -325,14 +325,16 @@
     "notice_items": []
   },
   "transit": {
-    "status": "NORMAL",
-    "text": "全線平常運行中",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "status": "ALERT",
+    "text": "運行支障あり（在来線: 東急田園都市線）",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（東急田園都市線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "東急田園都市線"
+    ],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
@@ -668,7 +670,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 05:04:17 JST"
+    "last_updated": "2026-11-22 05:46:46 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

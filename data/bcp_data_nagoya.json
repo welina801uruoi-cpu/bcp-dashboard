@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 20:04:52",
+  "timestamp": "2026-11-21 20:47:17",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -84,11 +84,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-22 05:00",
+    "time": "2026-11-22 05:39",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.4",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-22 05:39",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-22 05:00",
         "place": "熊本県天草・芦北地方",
@@ -151,13 +158,6 @@
         "shindo": "1",
         "magnitude": "2.8",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-21 04:01",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.2",
-        "maxScale": 10
       }
     ]
   },
@@ -187,11 +187,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "大雨注意報",
           "雷注意報",
-          "大雨注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報、大雨注意報",
+        "summary": "大雨注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -202,11 +202,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "大雪注意報",
+          "雷注意報",
           "着雪注意報"
         ],
-        "summary": "雷注意報、大雪注意報、着雪注意報",
+        "summary": "大雪注意報、雷注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -217,13 +217,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
-          "雷注意報",
           "なだれ注意報",
+          "雷注意報",
+          "霜注意報",
           "大雪注意報",
-          "霜注意報"
+          "着雪注意報"
         ],
-        "summary": "着雪注意報、雷注意報、なだれ注意報、大雪注意報、霜注意報",
+        "summary": "なだれ注意報、雷注意報、霜注意報、大雪注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/21/"
       },
       {
@@ -578,7 +578,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 05:04:17 JST"
+    "last_updated": "2026-11-22 05:46:46 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",

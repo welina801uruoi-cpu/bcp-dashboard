@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 20:05:39",
+  "timestamp": "2026-11-21 20:48:01",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -74,11 +74,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-22 05:00",
+    "time": "2026-11-22 05:39",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.4",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-22 05:39",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-22 05:00",
         "place": "熊本県天草・芦北地方",
@@ -141,13 +148,6 @@
         "shindo": "1",
         "magnitude": "2.8",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-21 04:01",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.2",
-        "maxScale": 10
       }
     ]
   },
@@ -203,10 +203,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/32/"
       },
       {
@@ -217,10 +217,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/31/"
       },
       {
@@ -546,7 +546,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 05:05:27 JST"
+    "last_updated": "2026-11-22 05:47:49 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

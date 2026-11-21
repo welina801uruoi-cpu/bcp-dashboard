@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 08:39:11",
+  "timestamp": "2026-11-21 09:27:37",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -193,12 +193,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
           "強風注意報",
           "波浪注意報",
+          "霜注意報",
           "雷注意報"
         ],
-        "summary": "霜注意報、強風注意報、波浪注意報、雷注意報",
+        "summary": "強風注意報、波浪注意報、霜注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -233,13 +233,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "波浪注意報",
-          "乾燥注意報",
           "強風注意報",
-          "霜注意報"
+          "波浪注意報",
+          "霜注意報",
+          "雷注意報",
+          "乾燥注意報"
         ],
-        "summary": "雷注意報、波浪注意報、乾燥注意報、強風注意報、霜注意報",
+        "summary": "強風注意報、波浪注意報、霜注意報、雷注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -264,12 +264,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
           "強風注意報",
           "波浪注意報",
+          "霜注意報",
           "雷注意報"
         ],
-        "summary": "霜注意報、強風注意報、波浪注意報、雷注意報",
+        "summary": "強風注意報、波浪注意報、霜注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -298,13 +298,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 肥薩線 ／ 新幹線: 山陽新幹線（列車遅延）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線: 日豊本線、肥薩線 ／ 新幹線: 山陽新幹線（列車遅延）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（肥薩線）",
+    "line_text": "運行支障あり（日豊本線、肥薩線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [
+      "日豊本線",
       "肥薩線"
     ],
     "troubled_shinkansen": [
@@ -389,19 +390,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 09:22",
+          "text": "大雪の通信 START 障害 END 、楽天の旧「組み合わせプラン」はSIMの種類で違います。 START au END 回線の通話SIMは、災害時の代替回線で..."
+        },
+        {
+          "time": "11/21 09:02",
+          "text": "【いざという時のネット環境に💻】 楽天モバイルのWiFi Pocketが1円キャンペーン中📶 停電・通信 START 障害 END ・出張・在宅でも使える備えと..."
+        },
         {
           "time": "11/21 08:32",
           "text": "【大雪・携帯 START 障害 END の続報】KDDIが福島・長野・岐阜の一部で災害時の代替回線を順次提供。 START au END ・UQ・povoなどで..."
-        },
-        {
-          "time": "11/21 07:16",
-          "text": "サブ回線を START au END 系にしたら、全然繋がらない件。電波 START 障害 END かな？使い始めて3日目なんだけど…。"
-        },
-        {
-          "time": "11/21 06:30",
-          "text": "START au END の通信 START 障害 END 恐らく、積雪で部分的停電の影響か、モバイルもWiFiも入ったり切れたりで最悪…、何も出来ず、、"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -435,8 +436,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 08:43",
+          "text": "大停電 我が家はセーフですが、隣の地区とか停電続いてる あと、 START au繋がらない END らしい 停電の影響 とっても大変な郡上市です https:/..."
+        },
         {
           "time": "11/21 08:32",
           "text": "ネットの乗り換えに合わせて電気とかも START au END に乗り換えるかと思ったけど、あまりにも光回線の申し込み体験が悪すぎるから、キャンセルして別の会社..."
@@ -444,10 +449,6 @@
         {
           "time": "11/21 08:13",
           "text": "@nozirushi07 突然失礼します、 START au END サポート小野です。ポストを拝見し気になり、お声がけしました。 START au END の..."
-        },
-        {
-          "time": "11/21 08:12",
-          "text": "こないだ7年ぶりくらいに1歳連れてディズニー行ったけど最悪だったよ 激混みのせいかネット START 繋がらない END からアプリ意味なし( START au..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -458,8 +459,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 09:02",
+          "text": "【いざという時のネット環境に💻】 楽天モバイルのWiFi Pocketが1円キャンペーン中📶 停電・通信 START 障害 END ・出張・在宅でも使える備えと..."
+        },
         {
           "time": "11/21 08:32",
           "text": "【大雪・携帯 START 障害 END の続報】KDDIが福島・長野・岐阜の一部で災害時の代替回線を順次提供。au・UQ・ START povo END などで..."
@@ -467,10 +472,6 @@
         {
           "time": "11/21 00:17",
           "text": "START povo障害 END でてる？"
-        },
-        {
-          "time": "11/20 05:45",
-          "text": "START povo END のCM、舌出しがあまりに不評で替えたみたいね。 舌出し平気な人って基本的に脳の START 障害 END だから。 ベロ出してると..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -493,8 +494,40 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 13,
+    "disaster_count": 12,
     "articles": [
+      {
+        "title": "福島など東北や北陸の山は21日夜～22日朝にかけて積雪が増える　倒木や停電に注意(日本気象協会tenki.jp)",
+        "summary": "東北や北陸周辺の山では今夜(21日)から明日22日の朝にかけて雪の降り方が強まる所があるでしょう。倒木による道路の通行止めや停電などにご注意ください。北陸の平地では雨の所が多いですが、ザーザー降りの雨",
+        "pub_date": "11/21 18:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/c3b599816c069159e8d998638a7f3e565e50a681?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "出勤途中　警察官が交通事故　女性が重体　富山(テレビ朝日系（ANN）)",
+        "summary": "富山県で警察官が交通事故を起こし、相手の車を運転していた女性が重体です。 21日午前7時前、富山県上市町の交差点で乗用車が交差点を右折したところ、向かいから直進してきた軽ワゴン車と衝突しました。 軽ワ",
+        "pub_date": "11/21 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/bfe9a64d4127080e898924a2659132c50cabe478?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "今季初の寒波襲来 大雪に　福島では約1500人が孤立、停電も(テレビ朝日系（ANN）)",
+        "summary": "今季初の寒波が、各地に大雪をもたらしています。福島では倒木により、およそ1500人が孤立状態となっています。■約1500人が孤立 停電も 今季初の寒波。会津地方は“災害級”の雪になっています。孤立集落",
+        "pub_date": "11/21 17:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/dbb3ca0e432730aff8885c90bb0638cca582eda3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【警報級の大雨おそれ】24日（火）は広く雨、東日本の日本海側で警報級大雨か【26日までの雨シミュレーションと全国週間天気予報】気象庁(MBC南日本放送)",
+        "summary": "3連休明けの24日（火）は、前線が日本付近を通過し、西日本から北日本にかけて広い範囲で雨が降る予想です。東日本の日本海側では、前線の活動によっては警報級の大雨となるおそれがあります。【画像で見る】全国",
+        "pub_date": "11/21 17:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/649e15bfb7142fbf48e2a8603f20d1390762cf6f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "巧妙化進む特殊詐欺「楽しく対策学んで」　大阪府警広報官委嘱のサバイバル系タレントPR(産経新聞)",
         "summary": "巧妙化が進む特殊詐欺の手口を知ってもらい被害防止につなげようと、大阪府警の特殊詐欺被害防止啓発キャンペーンが21日、大阪府松原市のショッピングモールで開かれた。タレントの「さばいどる かほなん」さんが",
@@ -560,63 +593,31 @@
         "is_disaster": true
       },
       {
-        "title": "【警報級大雨のおそれ】気象庁の週間天気予報　東日本の日本海側で24日（火）ごろ低気圧からのびる前線の活動次第で「警報級の大雨」の可能性　26日（木）にかけて雨風シミュレーション(RSK山陽放送)",
-        "summary": "■警報級大雨の可能性気象庁がきょう（21日）発表した週間天気予報（22⽇〜28⽇）によりますと、北⽇本と東⽇本から⻄⽇本にかけての⽇本海側は、曇りや⾬または雪の降る所が多いでしょう。【画像で見る】26",
-        "pub_date": "11/21 15:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/e7aa8028bfa8bd227c122009b2354ef75667c813?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "高崎線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "倉賀野駅で発生した人身事故の影響で、高崎線は神保原～高崎駅間の運転を見合わせています。",
-        "pub_date": "11/21 15:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/842ad18f95c232aaeacec62cee670d2bf9a66ec3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "宝くじ収益で被災地40億円支援　熊本に優先配分、年末ジャンボ(共同通信)",
-        "summary": "熊本地震の被災地を支援するため、年末ジャンボ宝くじの収益金のうち、約40億円が熊本県と熊本市に優先配分される。都道府県と政令指定都市でつくる発売団体「全国自治宝くじ事務協議会」が決定した。復旧・復興事",
-        "pub_date": "11/21 14:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/d43342e70ffb0c1d90b7ef17f385b475a7e876be?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "大規模地震による津波被害に備え　和歌山県警や消防、海南の防災公園で対応訓練(産経新聞)",
-        "summary": "和歌山県警は、大規模な地震による津波被害の発生に備える災害対応訓練を海南市民防災公園「海南ハレアメ」（同市大野中）で実施し、消防など関係機関との連携を確認した。今春オープンした同公園で県警が災害訓練を",
-        "pub_date": "11/21 14:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/1d5b51858b95c969fb40e1ba00065282d8017d5c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【動画解説】北陸は日曜日にかけて土砂災害に警戒　月曜日にかけて朝の冷え込み強まる(ウェザーマップ)",
-        "summary": "きょう（土）も日本海側では広い範囲で雪や雨が続き、北陸中心にあす（日）にかけて雨の量がさらに増えそうです。これまでの大雨で地盤の緩んでいる所もあるため、土砂災害に厳重な警戒が必要です。晴れる所も、月曜",
-        "pub_date": "11/21 14:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/e81cbaa853ec2c61db0b5414a9bef8ff4568e0f6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "巨大砂像に鮮やかな映像　スペインをテーマにプロジェクションマッピング　鳥取市(テレビ朝日系（ANN）)",
-        "summary": "鳥取市の「鳥取砂丘・砂の美術館」で、砂像に投影する、プロジェクションマッピングが公開されました。 華麗な音楽にあわせて臨場感あふれる色鮮やかな映像が映し出されています。 スペインの歴史や、ガウディが残",
-        "pub_date": "11/21 17:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/756dfbe3b431087b036a68b45887d0c67951b92a?source=rss",
+        "title": "サンマの青色に輝く水族館　1月までイルミ、いわき(共同通信)",
+        "summary": "世界で唯一、サンマを飼育展示している福島県いわき市の水族館アクアマリンふくしまで21日、生きたサンマや卵をイメージした青色に輝く光の装飾が始まった。来年1月11日まで。 点灯式が同館1階エントランスホ",
+        "pub_date": "11/21 18:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/dc7008b245c6d3717e99488d49bb1ca861a8db9e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "警察庁が採用活動で異例のポップな取り組み　広報動画に「そろ谷のアニメっち」活用(テレビ朝日系（ANN）)",
-        "summary": "警察官採用試験の受験者数が年々減少するなか、警察庁は、SNSなどで人気のアニメクリエイターを起用した採用広報動画を公開しました。 全国の警察官採用試験の受験者数は去年は4万1077人と、10年前の9万",
-        "pub_date": "11/21 17:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/91caee5a2cf55ae722a5a3bcb447659cb91cdb71?source=rss",
+        "title": "日本の生活ルール、外国人に伝わりにくい？どう工夫すれば伝わる？ごみ分別や交通ルール…。日本人と外国人が共に考えた(ハフポスト日本版)",
+        "summary": "東京都内で暮らす外国人は約81万人（2026年10月時点）。都民の総人口の約5.6％に値し、都民の20人に1人が外国人だ。外国人の人口が急速に増加する中で、時に日本人と外国人の間で問題になりがちなのが",
+        "pub_date": "11/21 18:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/43ad05d5e65ff1ba1c55c0b037953779f4f87da9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【全文】愛子さま、友好親善の歩み「私も受け継いでいくことができれば」　シンガポール訪問を終えてのご感想(テレビ朝日系（ANN）)",
+        "summary": "天皇皇后両陛下の長女・愛子さまは21日夜、シンガポールから帰国し、感想を文書で寄せられました。【写真特集】シンガポールご訪問の全記録 午餐会やランの命名式、子どもたちとの笑顔の交流も感想の全文は次の通",
+        "pub_date": "11/21 18:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/62626474fcd69ee734de9cc81cd2fe0fd8d6522c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-21 17:39:08 JST"
+    "last_updated": "2026-11-21 18:26:55 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -648,10 +649,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "PJASxgbPwAI",
+        "video_id": "3R2b92CtgH4",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/PJASxgbPwAI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=PJASxgbPwAI"
+        "embed_url": "https://www.youtube.com/embed/3R2b92CtgH4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=3R2b92CtgH4"
       },
       {
         "id": "stream_ntvnews",
@@ -659,10 +660,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "QoQEEp1z8nk",
+        "video_id": "qYARIyX5vgI",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/QoQEEp1z8nk?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=QoQEEp1z8nk"
+        "embed_url": "https://www.youtube.com/embed/qYARIyX5vgI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=qYARIyX5vgI"
       },
       {
         "id": "stream_annnews",
@@ -670,10 +671,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "NxBO2dhwPwU",
+        "video_id": "8gBwrWS_SDc",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/NxBO2dhwPwU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=NxBO2dhwPwU"
+        "embed_url": "https://www.youtube.com/embed/8gBwrWS_SDc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=8gBwrWS_SDc"
       },
       {
         "id": "stream_fnnnews",

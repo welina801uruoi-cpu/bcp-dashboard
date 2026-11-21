@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 12:26:32",
+  "timestamp": "2026-11-21 13:27:51",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -76,12 +76,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-21 19:09",
-    "place": "房総半島南方沖",
-    "magnitude": "4.9",
+    "shindo": "1",
+    "time": "2026-11-21 21:58",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "2.4",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-21 21:58",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.4",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-21 19:09",
         "place": "房総半島南方沖",
@@ -144,13 +151,6 @@
         "shindo": "1",
         "magnitude": "2.4",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-20 21:46",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "4",
-        "magnitude": "4.1",
-        "maxScale": 40
       }
     ]
   },
@@ -241,11 +241,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
+          "霜注意報",
           "なだれ注意報",
-          "霜注意報"
+          "雷注意報"
         ],
-        "summary": "雷注意報、なだれ注意報、霜注意報",
+        "summary": "霜注意報、なだれ注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       }
     ]
@@ -259,11 +259,11 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 仙山線、磐越西線、奥羽本線 ／ 新幹線: 東北新幹線（列車遅延）、山形新幹線（運転見合わせ））",
+    "text": "運行支障あり（在来線: 仙山線、磐越西線、奥羽本線 ／ 新幹線: 山形新幹線（運転見合わせ））",
     "line_status": "ALERT",
     "line_text": "運行支障あり（仙山線、磐越西線、奥羽本線、北上線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東北新幹線（列車遅延）、山形新幹線（運転見合わせ））",
+    "shinkansen_text": "運行支障あり（山形新幹線（運転見合わせ））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/3",
     "troubled_lines": [
       "仙山線",
@@ -272,15 +272,14 @@
       "北上線"
     ],
     "troubled_shinkansen": [
-      "東北新幹線（列車遅延）",
       "山形新幹線（運転見合わせ）"
     ],
     "shinkansen_details": [
       {
         "name": "東北新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "山形新幹線内での車両点検の影響で、下り線(新青森方面行)の一部列車に遅れが出ています。（11月21日 20時0分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "22:20現在、ほぼ平常通り運転しています。（11月21日 22時20分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/1/0"
       },
       {
@@ -301,7 +300,7 @@
         "name": "北海道新幹線",
         "status": "NORMAL",
         "state": "平常運転",
-        "detail": "20:30現在、ほぼ平常通り運転しています。（11月21日 20時30分掲載）",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/637/0"
       }
     ],
@@ -383,8 +382,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 13:02",
+          "text": "福島県耶麻郡北塩原村檜原蛇平原山 START 障害 END 情報は START KDDI END のサイトに促されてますけど、北塩原村唯一の楽天モバイル局は生き..."
+        },
         {
           "time": "11/21 08:32",
           "text": "【大雪・携帯 START 障害 END の続報】 START KDDI END が福島・長野・岐阜の一部で災害時の代替回線を順次提供。au・UQ・povoなどで..."
@@ -392,10 +395,6 @@
         {
           "time": "11/20 10:07",
           "text": "＜【ドコモ START 障害 END 連発に総務相も遺憾】スマホの異常事態に「デュアルSIM」専門家が提案する防衛策・・＞ ところで START KDDI EN..."
-        },
-        {
-          "time": "11/20 09:46",
-          "text": "分奈良県警本部かしおか男にまた昨日1028より110119のみ不審不通1031 START kddi END 113一条女東京に6-今自宅際停車排気ガス充満繰り..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -468,7 +467,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 9,
     "articles": [
       {
         "title": "小田急小田原線で人身事故 一部運転見合わせ(レスキューナウニュース)",
@@ -543,12 +542,28 @@
         "is_disaster": true
       },
       {
-        "title": "今季初の寒波襲来 大雪に　福島では約1500人が孤立、停電も(テレビ朝日系（ANN）)",
-        "summary": "今季初の寒波が、各地に大雪をもたらしています。福島では倒木により、およそ1500人が孤立状態となっています。■約1500人が孤立 停電も 今季初の寒波。会津地方は“災害級”の雪になっています。孤立集落",
-        "pub_date": "11/21 17:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/dbb3ca0e432730aff8885c90bb0638cca582eda3?source=rss",
+        "title": "「行政は検証を」大阪死亡女児の保育関係者(共同通信)",
+        "summary": "大阪府枚方市の女児死亡事件で、女児がかつて通っていた保育施設の関係者が21日、取材に応じ「心を痛めている。施設として保育や支援は最大限やってきた。一時保護のタイミングなど行政は検証を進めてほしい」と述",
+        "pub_date": "11/21 22:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/8ff4033968271f6b2258cdeb5151bf70d7b40b70?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "名古屋駅近くの8階建てマンションで火事 近隣の住民から「黒煙が見える」との119番通報 けが人なし 火元は5階の一室か 名古屋・中村区(CBCテレビ)",
+        "summary": "きょう21日（土）午前、名古屋市中村区のマンションで火事がありました。けが人はいないということです。【写真を見る】名古屋駅近くの8階建てマンションで火事 近隣の住民から「黒煙が見える」との119番通報",
+        "pub_date": "11/21 21:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/a1bffa05517f55f554a8c44af71eccab3a1d0ee3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "福井で71歳女性が除雪車にはねられ、死亡(産経新聞)",
+        "summary": "福井県警によると、21日午前10時ごろ、福井県勝山市の国道を横断していた女性（71）が作業中の除雪車にはねられ、病院に搬送されたが、死亡が確認された。",
+        "pub_date": "11/21 21:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/998ddb731538140c737e3d620cea54635571c50f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "国民の税金でやるな！「ナオキマン騒動」で批判を浴びる政府広報に稲盛和夫の「警告」が突き刺さるワケ(ダイヤモンド・オンライン)",
@@ -573,25 +588,9 @@
         "link": "https://news.yahoo.co.jp/articles/91b5c6ae1e7168d906acb4bad8eb6ec53717c515?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "専修大学の学生寮でノロウイルスによる集団食中毒　食堂のメニューが原因か　川崎市(テレビ朝日系（ANN）)",
-        "summary": "川崎市にある専修大学の学生寮で、ノロウイルスによる集団食中毒が発生しました。 川崎市によりますと、17日午前11時ごろ、専修大学の学生寮で「胃腸炎の症状の患者が救急搬送された」などと消防から保健所に連",
-        "pub_date": "11/21 20:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/1b4b71a8a5cd6fa89a004efedbe19603bac4ddb2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "消費税1％で生活は楽になる?寄付減少の一方で利用者は増加…フードバンク利用者の本音「下がるのはありがたいが…」(FNNプライムオンライン)",
-        "summary": "飲食料品の消費税率を27年4月から2年間に限り、1％に引き下げることなどを盛り込んだ消費税減税関連法案が参議院本会議で審議入りした。物価高が続く中、家計への影響が注目される一方、経済的に困窮する世帯か",
-        "pub_date": "11/21 20:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/af1671284e8b91030ec0a1f07e494aabcf904dfd?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-21 21:26:00 JST"
+    "last_updated": "2026-11-21 22:27:31 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",

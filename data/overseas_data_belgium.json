@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-21 21:29:42",
-  "timestamp_local": "2026-11-21 14:29:42",
+  "timestamp": "2026-11-21 22:29:35",
+  "timestamp_local": "2026-11-21 15:29:35",
   "country": {
     "id": "belgium",
     "name": "ベルギー",
@@ -272,7 +272,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
+    "count_24h": 12,
     "summary": "M5.9 (238 km SW of Yanglong, China)",
     "latest": {
       "mag": 5.9,
@@ -377,14 +377,6 @@
         "time": "11/20 23:16 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc9c",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.1,
-        "place": "15 km SSW of Balangonan, Philippines",
-        "time": "11/20 22:09 JST",
-        "depth_km": 73.392,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc96",
         "tsunami": 0
       }
     ]
@@ -564,7 +556,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/21 11:46",
@@ -659,7 +651,7 @@
     "default_channel_id": "stream_rtbf_live"
   },
   "forex": {
-    "timestamp": "11/21 21:29 JST",
+    "timestamp": "11/21 22:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -707,16 +699,16 @@
   "weather": {
     "cities": [
       {
-        "name": "アントワープ (北部主要港湾)",
-        "name_en": "Antwerp",
-        "is_capital": false,
-        "lat": 51.2194,
-        "lon": 4.4025,
-        "temp": 8.4,
-        "apparent_temp": 5.3,
-        "humidity": 67,
-        "wind_speed": 10.1,
-        "wind_gusts": 20.2,
+        "name": "ブリュッセル (首都・EU本部)",
+        "name_en": "Brussels",
+        "is_capital": true,
+        "lat": 50.8503,
+        "lon": 4.3517,
+        "temp": 8.9,
+        "apparent_temp": 6.4,
+        "humidity": 63,
+        "wind_speed": 5.0,
+        "wind_gusts": 15.1,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -724,15 +716,60 @@
           {
             "date": "11/21(土)",
             "temp_max": 9.1,
-            "temp_min": 2.4,
+            "temp_min": 3.0,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/22(日)",
+            "temp_max": 7.3,
+            "temp_min": 3.0,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 5.2,
+            "temp_min": -1.2,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "アントワープ (北部主要港湾)",
+        "name_en": "Antwerp",
+        "is_capital": false,
+        "lat": 51.2194,
+        "lon": 4.4025,
+        "temp": 9.0,
+        "apparent_temp": 6.2,
+        "humidity": 67,
+        "wind_speed": 7.9,
+        "wind_gusts": 18.0,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/21(土)",
+            "temp_max": 9.1,
+            "temp_min": 2.8,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
             "precipitation_mm": 0.2
           },
           {
             "date": "11/22(日)",
-            "temp_max": 6.9,
-            "temp_min": 1.7,
+            "temp_max": 7.0,
+            "temp_min": 2.0,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -740,9 +777,9 @@
           {
             "date": "11/23(月)",
             "temp_max": 6.5,
-            "temp_min": 0.1,
-            "weather_code": 2,
-            "weather_label": "⛅ 晴れ時々曇り",
+            "temp_min": -0.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           }
         ],
@@ -753,16 +790,16 @@
       }
     ],
     "capital": {
-      "name": "アントワープ (北部主要港湾)",
-      "name_en": "Antwerp",
-      "is_capital": false,
-      "lat": 51.2194,
-      "lon": 4.4025,
-      "temp": 8.4,
-      "apparent_temp": 5.3,
-      "humidity": 67,
-      "wind_speed": 10.1,
-      "wind_gusts": 20.2,
+      "name": "ブリュッセル (首都・EU本部)",
+      "name_en": "Brussels",
+      "is_capital": true,
+      "lat": 50.8503,
+      "lon": 4.3517,
+      "temp": 8.9,
+      "apparent_temp": 6.4,
+      "humidity": 63,
+      "wind_speed": 5.0,
+      "wind_gusts": 15.1,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
@@ -770,23 +807,23 @@
         {
           "date": "11/21(土)",
           "temp_max": 9.1,
-          "temp_min": 2.4,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.2
+          "temp_min": 3.0,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/22(日)",
-          "temp_max": 6.9,
-          "temp_min": 1.7,
+          "temp_max": 7.3,
+          "temp_min": 3.0,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/23(月)",
-          "temp_max": 6.5,
-          "temp_min": 0.1,
+          "temp_max": 5.2,
+          "temp_min": -1.2,
           "weather_code": 2,
           "weather_label": "⛅ 晴れ時々曇り",
           "precipitation_mm": 0.0
@@ -797,7 +834,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/21 21:29 JST"
+    "timestamp": "11/21 22:29 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -826,7 +863,7 @@
         "details": "国鉄インターシティ線平常運行中"
       }
     ],
-    "timestamp": "11/21 21:29 JST"
+    "timestamp": "11/21 22:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

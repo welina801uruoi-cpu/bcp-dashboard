@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-21 21:29:31",
-  "timestamp_local": "2026-11-21 13:29:31",
+  "timestamp": "2026-11-21 22:29:31",
+  "timestamp_local": "2026-11-21 14:29:31",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -352,7 +352,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
+    "count_24h": 12,
     "summary": "M5.9 (238 km SW of Yanglong, China)",
     "latest": {
       "mag": 5.9,
@@ -457,14 +457,6 @@
         "time": "11/20 23:16 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc9c",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.1,
-        "place": "15 km SSW of Balangonan, Philippines",
-        "time": "11/20 22:09 JST",
-        "depth_km": 73.392,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc96",
         "tsunami": 0
       }
     ]
@@ -685,16 +677,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/21 13:23",
+          "text": "・一党独裁( イギリス の自治州だった1959年から人民行動党体制) ・言論報道規制(メディアは政府の監視下だし当たり前のように政府批判で逮..."
+        },
+        {
           "time": "11/21 12:24",
           "text": "ウェールズこんな感じの美女がいっぱいいるらしいぞ。お城も多いし英語圏だから旅行にマジでオススメ。 イギリス で1番 治安 ..."
         },
         {
           "time": "11/21 11:17",
           "text": "@tentoumushidama @takaichi_sanae イギリス 、フランスを見れば社会保障が食い潰され、 治安 EN..."
-        },
-        {
-          "time": "11/21 09:48",
-          "text": "@ve6nISVGs26jCuA イギリス の 治安 の悪化は避けられないね。 片方の勢力だけが宗教を理由に武装するので..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%20%E6%B2%BB%E5%AE%89"
@@ -745,7 +737,7 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/21 21:29 JST",
+    "timestamp": "11/21 22:29 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -838,24 +830,114 @@
   "weather": {
     "cities": [
       {
+        "name": "ロンドン (首都)",
+        "name_en": "London",
+        "is_capital": true,
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "temp": 7.0,
+        "apparent_temp": 4.0,
+        "humidity": 73,
+        "wind_speed": 9.4,
+        "wind_gusts": 20.5,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/21(土)",
+            "temp_max": 7.8,
+            "temp_min": 3.0,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/22(日)",
+            "temp_max": 9.5,
+            "temp_min": 5.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 8.3,
+            "temp_min": 3.5,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "マンチェスター (中部)",
+        "name_en": "Manchester",
+        "is_capital": false,
+        "lat": 53.4808,
+        "lon": -2.2426,
+        "temp": 5.7,
+        "apparent_temp": 3.3,
+        "humidity": 73,
+        "wind_speed": 3.2,
+        "wind_gusts": 7.9,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/21(土)",
+            "temp_max": 6.3,
+            "temp_min": -0.6,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/22(日)",
+            "temp_max": 7.7,
+            "temp_min": 2.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 7.1,
+            "temp_min": 1.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "エディンバラ (スコットランド)",
         "name_en": "Edinburgh",
         "is_capital": false,
         "lat": 55.9533,
         "lon": -3.1883,
-        "temp": 1.3,
+        "temp": 1.6,
         "apparent_temp": -1.5,
-        "humidity": 85,
-        "wind_speed": 4.3,
-        "wind_gusts": 9.0,
+        "humidity": 83,
+        "wind_speed": 5.8,
+        "wind_gusts": 12.2,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/21(土)",
-            "temp_max": 1.9,
-            "temp_min": -2.1,
+            "temp_max": 1.7,
+            "temp_min": -2.0,
             "weather_code": 2,
             "weather_label": "⛅ 晴れ時々曇り",
             "precipitation_mm": 0.0
@@ -884,40 +966,40 @@
       }
     ],
     "capital": {
-      "name": "エディンバラ (スコットランド)",
-      "name_en": "Edinburgh",
-      "is_capital": false,
-      "lat": 55.9533,
-      "lon": -3.1883,
-      "temp": 1.3,
-      "apparent_temp": -1.5,
-      "humidity": 85,
-      "wind_speed": 4.3,
-      "wind_gusts": 9.0,
+      "name": "ロンドン (首都)",
+      "name_en": "London",
+      "is_capital": true,
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "temp": 7.0,
+      "apparent_temp": 4.0,
+      "humidity": 73,
+      "wind_speed": 9.4,
+      "wind_gusts": 20.5,
       "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
           "date": "11/21(土)",
-          "temp_max": 1.9,
-          "temp_min": -2.1,
-          "weather_code": 2,
-          "weather_label": "⛅ 晴れ時々曇り",
+          "temp_max": 7.8,
+          "temp_min": 3.0,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/22(日)",
-          "temp_max": 5.4,
-          "temp_min": -1.4,
+          "temp_max": 9.5,
+          "temp_min": 5.1,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/23(月)",
-          "temp_max": 6.4,
-          "temp_min": -1.4,
+          "temp_max": 8.3,
+          "temp_min": 3.5,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -928,7 +1010,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/21 21:29 JST"
+    "timestamp": "11/21 22:29 JST"
   },
   "transit": {
     "status": "ALERT",
@@ -1110,10 +1192,10 @@
           {
             "name": "Victoria",
             "mode": "tube",
-            "status_raw": "Good Service",
-            "badge": "🟢 平常",
-            "code": "normal",
-            "reason": ""
+            "status_raw": "Minor Delays",
+            "badge": "🟡 注意",
+            "code": "minor",
+            "reason": "Victoria Line: Minor delays due to train cancellations.\r\n  "
           },
           {
             "name": "Waterloo & City",
@@ -1193,7 +1275,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/21 21:29 JST"
+    "timestamp": "11/21 22:29 JST"
   },
   "lifeline": {
     "status": "NORMAL",

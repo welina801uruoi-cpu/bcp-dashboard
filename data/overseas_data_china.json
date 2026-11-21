@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-21 21:28:39",
-  "timestamp_local": "2026-11-21 20:28:39",
+  "timestamp": "2026-11-21 22:28:48",
+  "timestamp_local": "2026-11-21 21:28:48",
   "country": {
     "id": "china",
     "name": "中国 (中華人民共和国)",
@@ -287,7 +287,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
+    "count_24h": 12,
     "summary": "M5.9 (238 km SW of Yanglong, China)",
     "latest": {
       "mag": 5.9,
@@ -392,14 +392,6 @@
         "time": "11/20 23:16 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc9c",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.1,
-        "place": "15 km SSW of Balangonan, Philippines",
-        "time": "11/20 22:09 JST",
-        "depth_km": 73.392,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc96",
         "tsunami": 0
       }
     ]
@@ -667,7 +659,7 @@
     "default_channel_id": "stream_cctv_live"
   },
   "forex": {
-    "timestamp": "11/21 21:28 JST",
+    "timestamp": "11/21 22:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -735,18 +727,18 @@
         "is_capital": true,
         "lat": 39.9042,
         "lon": 116.4074,
-        "temp": 2.1,
-        "apparent_temp": -2.4,
-        "humidity": 44,
-        "wind_speed": 8.8,
-        "wind_gusts": 18.7,
+        "temp": 1.6,
+        "apparent_temp": -2.7,
+        "humidity": 47,
+        "wind_speed": 8.0,
+        "wind_gusts": 17.3,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/21(土)",
-            "temp_max": 6.0,
+            "temp_max": 6.2,
             "temp_min": -0.4,
             "weather_code": 0,
             "weather_label": "☀️ 快晴",
@@ -762,10 +754,55 @@
           },
           {
             "date": "11/23(月)",
-            "temp_max": 7.1,
-            "temp_min": -1.0,
+            "temp_max": 7.5,
+            "temp_min": -0.4,
             "weather_code": 1,
             "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "上海 (最大経済都市)",
+        "name_en": "Shanghai",
+        "is_capital": false,
+        "lat": 31.2304,
+        "lon": 121.4737,
+        "temp": 7.6,
+        "apparent_temp": 4.8,
+        "humidity": 69,
+        "wind_speed": 7.0,
+        "wind_gusts": 11.9,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/21(土)",
+            "temp_max": 13.7,
+            "temp_min": 3.3,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/22(日)",
+            "temp_max": 15.6,
+            "temp_min": 6.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 18.5,
+            "temp_min": 10.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           }
         ],
@@ -780,18 +817,18 @@
         "is_capital": false,
         "lat": 23.1291,
         "lon": 113.2644,
-        "temp": 15.4,
-        "apparent_temp": 13.7,
-        "humidity": 57,
-        "wind_speed": 6.3,
-        "wind_gusts": 12.6,
+        "temp": 15.2,
+        "apparent_temp": 13.0,
+        "humidity": 53,
+        "wind_speed": 8.0,
+        "wind_gusts": 16.6,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/21(土)",
-            "temp_max": 20.9,
+            "temp_max": 21.1,
             "temp_min": 11.6,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -800,18 +837,18 @@
           {
             "date": "11/22(日)",
             "temp_max": 20.1,
-            "temp_min": 13.7,
+            "temp_min": 13.1,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/23(月)",
-            "temp_max": 24.0,
+            "temp_max": 23.8,
             "temp_min": 17.8,
             "weather_code": 81,
             "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 14.2
+            "precipitation_mm": 6.2
           }
         ],
         "alert": "平常",
@@ -826,18 +863,18 @@
       "is_capital": true,
       "lat": 39.9042,
       "lon": 116.4074,
-      "temp": 2.1,
-      "apparent_temp": -2.4,
-      "humidity": 44,
-      "wind_speed": 8.8,
-      "wind_gusts": 18.7,
+      "temp": 1.6,
+      "apparent_temp": -2.7,
+      "humidity": 47,
+      "wind_speed": 8.0,
+      "wind_gusts": 17.3,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/21(土)",
-          "temp_max": 6.0,
+          "temp_max": 6.2,
           "temp_min": -0.4,
           "weather_code": 0,
           "weather_label": "☀️ 快晴",
@@ -853,8 +890,8 @@
         },
         {
           "date": "11/23(月)",
-          "temp_max": 7.1,
-          "temp_min": -1.0,
+          "temp_max": 7.5,
+          "temp_min": -0.4,
           "weather_code": 1,
           "weather_label": "🌤️ 晴れ",
           "precipitation_mm": 0.0
@@ -865,7 +902,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/21 21:28 JST"
+    "timestamp": "11/21 22:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -894,7 +931,7 @@
         "details": "京滬高速鉄道ほか主要幹線は平常運行中"
       }
     ],
-    "timestamp": "11/21 21:28 JST"
+    "timestamp": "11/21 22:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

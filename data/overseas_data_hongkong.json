@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-21 21:28:45",
-  "timestamp_local": "2026-11-21 20:28:45",
+  "timestamp": "2026-11-21 22:28:50",
+  "timestamp_local": "2026-11-21 21:28:50",
   "country": {
     "id": "hongkong",
     "name": "香港 (中国香港特別行政区)",
@@ -265,7 +265,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
+    "count_24h": 12,
     "summary": "M5.9 (238 km SW of Yanglong, China)",
     "latest": {
       "mag": 5.9,
@@ -370,14 +370,6 @@
         "time": "11/20 23:16 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc9c",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.1,
-        "place": "15 km SSW of Balangonan, Philippines",
-        "time": "11/20 22:09 JST",
-        "depth_km": 73.392,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc96",
         "tsunami": 0
       }
     ]
@@ -534,8 +526,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 13:21",
+          "text": "香港 ディズニーめちゃくちゃ 台風 シーズンじゃん...と冷静になる😇人事異動があれば休めるかも分からないし、でも予約し..."
+        },
         {
           "time": "11/21 08:17",
           "text": "香港 寒いみたいだけどそれでも十数度あるみたいなので、やっぱ旅行行くならこの時期だな…！ 台風 も来ないし"
@@ -543,10 +539,6 @@
         {
           "time": "11/20 16:59",
           "text": "@dii_tuu wow! i am living in Sai Wai Ho! 昔の 香港 らしい風景が減って寂しいですよね。ネオン看板が..."
-        },
-        {
-          "time": "11/20 15:36",
-          "text": "去年、 香港 でのライブが 台風 の影響を受けながらも開催したときに、ナイーブになってた私のすべてを吹き飛ばしてくれたソ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E9%A6%99%E6%B8%AF%20%E5%8F%B0%E9%A2%A8"
@@ -634,7 +626,7 @@
     "default_channel_id": "cam_victoria_harbour"
   },
   "forex": {
-    "timestamp": "11/21 21:28 JST",
+    "timestamp": "11/21 22:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -680,9 +672,99 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/21 21:28 JST"
+    "cities": [
+      {
+        "name": "香港 (九龍・中環)",
+        "name_en": "Hong Kong",
+        "is_capital": true,
+        "lat": 22.3193,
+        "lon": 114.1694,
+        "temp": 18.0,
+        "apparent_temp": 17.0,
+        "humidity": 67,
+        "wind_speed": 11.1,
+        "wind_gusts": 23.8,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/21(土)",
+            "temp_max": 20.0,
+            "temp_min": 12.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/22(日)",
+            "temp_max": 21.1,
+            "temp_min": 17.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 23.7,
+            "temp_min": 20.1,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 2.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "香港 (九龍・中環)",
+      "name_en": "Hong Kong",
+      "is_capital": true,
+      "lat": 22.3193,
+      "lon": 114.1694,
+      "temp": 18.0,
+      "apparent_temp": 17.0,
+      "humidity": 67,
+      "wind_speed": 11.1,
+      "wind_gusts": 23.8,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
+      "forecast": [
+        {
+          "date": "11/21(土)",
+          "temp_max": 20.0,
+          "temp_min": 12.6,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/22(日)",
+          "temp_max": 21.1,
+          "temp_min": 17.6,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/23(月)",
+          "temp_max": 23.7,
+          "temp_min": 20.1,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 2.0
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/21 22:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -711,7 +793,7 @@
         "details": "MTR全線・機場快線平常運行中"
       }
     ],
-    "timestamp": "11/21 21:28 JST"
+    "timestamp": "11/21 22:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

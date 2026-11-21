@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-21 21:28:23",
-  "timestamp_local": "2026-11-21 20:28:23",
+  "timestamp": "2026-11-21 22:28:33",
+  "timestamp_local": "2026-11-21 21:28:33",
   "country": {
     "id": "taiwan",
     "name": "台湾",
@@ -306,7 +306,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 13,
+    "count_24h": 12,
     "summary": "M5.9 (238 km SW of Yanglong, China)",
     "latest": {
       "mag": 5.9,
@@ -411,14 +411,6 @@
         "time": "11/20 23:16 JST",
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc9c",
-        "tsunami": 0
-      },
-      {
-        "mag": 5.1,
-        "place": "15 km SSW of Balangonan, Philippines",
-        "time": "11/20 22:09 JST",
-        "depth_km": 73.392,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc96",
         "tsunami": 0
       }
     ]
@@ -575,8 +567,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 12:42",
+          "text": "高市総理3月7日生＋習近平主席6月15日生＝9月22日←紫の服装で無観衆に手を振る＋頼総統10月6日生，ベトちゃん10月6日命日＝19月28日＝7月28日←熊本..."
+        },
         {
           "time": "11/21 12:24",
           "text": "https://t.co/RHnIWorJhv QuakeWatchはリアルタイムで 地震 速報が見れるサイトとなっており、日本のどこで S..."
@@ -584,10 +580,6 @@
         {
           "time": "11/21 12:00",
           "text": "@emhai0909 韓国のことはわからんが、日本にとって東アジアで唯一の親友は 台湾 。 地震 のときには助けてもらっ..."
-        },
-        {
-          "time": "11/21 07:46",
-          "text": "@ika_river_c あなたこそ何が言いたいのかな？ 台湾 では 地震 から4時間後に避難所設置。 しかも冷房完備、..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E5%8F%B0%E6%B9%BE%20%E5%9C%B0%E9%9C%87"
@@ -654,21 +646,21 @@
       {
         "id": "stream_ftv_news",
         "name": "📺 民視新聞 FTV News (台湾24h生配信)",
-        "video_id": "HkBev_qcdLk",
+        "video_id": "KUWlU1GvYiI",
         "handle": "@FTV_News",
         "type": "stream"
       },
       {
         "id": "stream_set_news",
         "name": "📺 三立LIVE新聞 SET News 24h",
-        "video_id": "FJ5bgAi6NH8",
+        "video_id": "5WZUzCUYjw0",
         "handle": "@setn",
         "type": "stream"
       },
       {
         "id": "stream_tvbs_news",
         "name": "📺 TVBS NEWS 55頻道 24h生配信",
-        "video_id": "A6Li1erdmYA",
+        "video_id": "-qq8nxDN1kU",
         "handle": "@TVBSNEWS01",
         "type": "stream"
       },
@@ -694,7 +686,7 @@
     "default_channel_id": "stream_ftv_taiwan"
   },
   "forex": {
-    "timestamp": "11/21 21:28 JST",
+    "timestamp": "11/21 22:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -757,68 +749,23 @@
   "weather": {
     "cities": [
       {
-        "name": "台北 (北部主要都市)",
-        "name_en": "Taipei",
-        "is_capital": true,
-        "lat": 25.033,
-        "lon": 121.5654,
-        "temp": 14.7,
-        "apparent_temp": 13.2,
-        "humidity": 70,
-        "wind_speed": 9.4,
-        "wind_gusts": 22.3,
-        "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
-        "forecast": [
-          {
-            "date": "11/21(土)",
-            "temp_max": 20.6,
-            "temp_min": 13.5,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/22(日)",
-            "temp_max": 22.7,
-            "temp_min": 14.1,
-            "weather_code": 0,
-            "weather_label": "☀️ 快晴",
-            "precipitation_mm": 0.0
-          },
-          {
-            "date": "11/23(月)",
-            "temp_max": 26.6,
-            "temp_min": 17.4,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
-          }
-        ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
-      },
-      {
         "name": "高雄 (南部主要港湾)",
         "name_en": "Kaohsiung",
         "is_capital": false,
         "lat": 22.6273,
         "lon": 120.3014,
-        "temp": 21.8,
-        "apparent_temp": 22.9,
-        "humidity": 63,
-        "wind_speed": 2.7,
-        "wind_gusts": 5.8,
+        "temp": 20.4,
+        "apparent_temp": 19.4,
+        "humidity": 58,
+        "wind_speed": 11.3,
+        "wind_gusts": 24.8,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/21(土)",
-            "temp_max": 24.1,
+            "temp_max": 24.5,
             "temp_min": 15.8,
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
@@ -826,8 +773,8 @@
           },
           {
             "date": "11/22(日)",
-            "temp_max": 24.8,
-            "temp_min": 19.5,
+            "temp_max": 25.1,
+            "temp_min": 19.3,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -835,7 +782,7 @@
           {
             "date": "11/23(月)",
             "temp_max": 26.4,
-            "temp_min": 20.5,
+            "temp_min": 20.2,
             "weather_code": 1,
             "weather_label": "🌤️ 晴れ",
             "precipitation_mm": 0.0
@@ -852,18 +799,18 @@
         "is_capital": false,
         "lat": 24.1477,
         "lon": 120.6736,
-        "temp": 14.8,
-        "apparent_temp": 14.4,
-        "humidity": 79,
-        "wind_speed": 5.4,
-        "wind_gusts": 16.6,
+        "temp": 14.7,
+        "apparent_temp": 14.3,
+        "humidity": 80,
+        "wind_speed": 5.5,
+        "wind_gusts": 15.1,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/21(土)",
-            "temp_max": 22.4,
+            "temp_max": 22.9,
             "temp_min": 13.7,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
@@ -871,15 +818,15 @@
           },
           {
             "date": "11/22(日)",
-            "temp_max": 24.8,
-            "temp_min": 12.5,
+            "temp_max": 25.2,
+            "temp_min": 12.4,
             "weather_code": 0,
             "weather_label": "☀️ 快晴",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/23(月)",
-            "temp_max": 27.0,
+            "temp_max": 25.9,
             "temp_min": 15.9,
             "weather_code": 45,
             "weather_label": "🌫️ 霧",
@@ -893,42 +840,42 @@
       }
     ],
     "capital": {
-      "name": "台北 (北部主要都市)",
-      "name_en": "Taipei",
-      "is_capital": true,
-      "lat": 25.033,
-      "lon": 121.5654,
-      "temp": 14.7,
-      "apparent_temp": 13.2,
-      "humidity": 70,
-      "wind_speed": 9.4,
-      "wind_gusts": 22.3,
+      "name": "高雄 (南部主要港湾)",
+      "name_en": "Kaohsiung",
+      "is_capital": false,
+      "lat": 22.6273,
+      "lon": 120.3014,
+      "temp": 20.4,
+      "apparent_temp": 19.4,
+      "humidity": 58,
+      "wind_speed": 11.3,
+      "wind_gusts": 24.8,
       "precipitation": 0.0,
-      "weather_code": 0,
-      "weather_label": "☀️ 快晴",
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/21(土)",
-          "temp_max": 20.6,
-          "temp_min": 13.5,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
-          "precipitation_mm": 0.0
+          "temp_max": 24.5,
+          "temp_min": 15.8,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 1.5
         },
         {
           "date": "11/22(日)",
-          "temp_max": 22.7,
-          "temp_min": 14.1,
-          "weather_code": 0,
-          "weather_label": "☀️ 快晴",
+          "temp_max": 25.1,
+          "temp_min": 19.3,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/23(月)",
-          "temp_max": 26.6,
-          "temp_min": 17.4,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
+          "temp_max": 26.4,
+          "temp_min": 20.2,
+          "weather_code": 1,
+          "weather_label": "🌤️ 晴れ",
           "precipitation_mm": 0.0
         }
       ],
@@ -937,7 +884,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/21 21:28 JST"
+    "timestamp": "11/21 22:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -981,7 +928,7 @@
         "details": "台北メトロ各線平常運行中"
       }
     ],
-    "timestamp": "11/21 21:28 JST"
+    "timestamp": "11/21 22:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 03:57:39",
+  "timestamp": "2026-11-21 04:45:02",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -165,10 +165,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "着雪注意報"
         ],
-        "summary": "着雪注意報、波浪注意報",
+        "summary": "波浪注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -179,13 +179,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
-          "波浪注意報",
           "なだれ注意報",
           "大雪注意報",
-          "雷注意報"
+          "着雪注意報",
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "着雪注意報、波浪注意報、なだれ注意報、大雪注意報、雷注意報",
+        "summary": "なだれ注意報、大雪注意報、着雪注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -210,10 +210,10 @@
         "warns": [],
         "notices": [
           "雷注意報",
-          "着雪注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "着雪注意報"
         ],
-        "summary": "雷注意報、着雪注意報、波浪注意報",
+        "summary": "雷注意報、波浪注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -226,21 +226,23 @@
     "notice_items": []
   },
   "transit": {
-    "status": "NORMAL",
-    "text": "全線平常運行中",
+    "status": "ALERT",
+    "text": "運行支障あり（新幹線: 北海道新幹線（列車遅延））",
     "line_status": "NORMAL",
     "line_text": "全線平常運行中",
-    "shinkansen_status": "NORMAL",
-    "shinkansen_text": "全線平常運行中",
+    "shinkansen_status": "ALERT",
+    "shinkansen_text": "運行支障あり（北海道新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/2",
     "troubled_lines": [],
-    "troubled_shinkansen": [],
+    "troubled_shinkansen": [
+      "北海道新幹線（列車遅延）"
+    ],
     "shinkansen_details": [
       {
         "name": "北海道新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "現在､事故･遅延に関する情報はありません。",
+        "status": "ALERT",
+        "state": "列車遅延",
+        "detail": "山形新幹線内での車両点検の影響で、下り線(新函館北斗方面行)の一部列車に遅れが出ています。（11月21日 13時15分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/637/0"
       }
     ],
@@ -345,7 +347,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/21 03:17",
@@ -405,8 +407,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 12,
+    "disaster_count": 13,
     "articles": [
+      {
+        "title": "三郷JCT近くの倉庫で火災　発生から5時間以上経った今も消火活動続く(テレビ朝日系（ANN）)",
+        "summary": "けさ、埼玉県三郷市の大型物流倉庫で火事があり、発生から5時間以上経った今も消火活動が続いています。",
+        "pub_date": "11/21 13:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/46ac79c60d405ba0e33dc5e5046c4fc6aa62330b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "「ようやくここまで」復旧に安堵　8月千葉豪雨で被災したケーキ店、3カ月半ぶり営業再開(産経新聞)",
         "summary": "千葉県に甚大な被害をもたらした8月の豪雨による水害で被災し、営業停止となっていた同県大網白里市の洋菓子店「菓子工房 雅」が21日、改修工事を経て約3カ月半ぶりにリニューアルオープンした。店舗には営業再",
@@ -480,8 +490,8 @@
         "is_disaster": true
       },
       {
-        "title": "埼玉三郷の物流施設で火災　負傷者、逃げ遅れ情報なし(共同通信)",
-        "summary": "21日午前7時35分ごろ、埼玉県三郷市インター南1丁目の大型物流施設で出火したと通報があった。県警や消防によると、冷蔵庫から煙が出たとの情報がある。けが人や逃げ遅れは確認されていない。消防が消火活動に",
+        "title": "埼玉・三郷の物流施設で火災　5階建て、負傷者情報なし(共同通信)",
+        "summary": "21日午前7時35分ごろ、埼玉県三郷市インター南1丁目の大型物流施設「Marq三郷3」で、黒煙が上がっているのを警備員が見つけ119番した。施設は鉄筋コンクリート5階建てで、消防によると1階の低温倉庫",
         "pub_date": "11/21 10:40 JST",
         "link": "https://news.yahoo.co.jp/articles/7352d344d9e92e503ade95c9d6c2eebaf7fd037a?source=rss",
         "category": "国内・気象防災",
@@ -504,31 +514,23 @@
         "is_disaster": true
       },
       {
-        "title": "自民8減、立民・共産は各2減…茨城県議選で擁立絞り込み　国民民主と参政は各2増で攻勢(産経新聞)",
-        "summary": "任期満了に伴う茨城県議選（定数62）の告示まで2週間を切った。21日午前の時点で出馬が見込まれる97人のうち、政党や政治団体の公認を受けるのは53人となる。前回県議選では候補者96人のうち63人を公認",
-        "pub_date": "11/21 12:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/e77f76c8a1a49e20a3c1770646a9474698902ad4?source=rss",
+        "title": "新潟の少年院、分身が職場見学　ミスマッチ防止へロボット活用(共同通信)",
+        "summary": "ロボットを活用した職場見学が、新潟県長岡市の少年院「新潟少年学院」で始まった。外に出にくい在院者に代わり、カメラを内蔵したロボットを職員が肩に載せて企業を訪問。「分身」が未来の職場と院内を生中継でつな",
+        "pub_date": "11/21 13:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/3b6b6d5e63366a25cea52c4cd200f507acfc157d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【近畿の天気】21日（土）大阪は晴れのち曇り　最高気温は20日と同じくらいのところが多い予想(読売テレビ)",
-        "summary": "21日（土）昼の近畿地方の天気です。詳しくは天気動画をご覧ください。",
-        "pub_date": "11/21 12:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/8c6d3307aa207c17d8a5755c68d4f795086cad29?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "潜伏中に現地当局が拘束…特殊詐欺グループに自分のキャッシュカードを譲渡か フィリピンに逃亡していた39歳男を逮捕(東海テレビ)",
-        "summary": "特殊詐欺グループに自分のキャッシュカードを譲り渡したとして、フィリピンに逃亡していた39歳の男が逮捕されました。 警察などによりますと、逮捕されたのは、住居不定・無職の小泉治貴容疑者(39)です。 小",
-        "pub_date": "11/21 12:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/d610d007168522ea76bb0de60a8903388ceaa2ff?source=rss",
+        "title": "東京消防庁が東京湾で大規模訓練　周辺の消防局や海保などと連携確認(テレビ朝日系（ANN）)",
+        "summary": "東京湾での大規模な災害の発生に備えて、東京消防庁が横浜市や千葉市の消防局などと連携して合同訓練を行いました。 20日、東京消防庁は横浜市や千葉市など東京湾周辺の消防局や海上保安庁などと合同で、大規模災",
+        "pub_date": "11/21 13:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/c4fc040431689725932cab9f1723d7b33ff589cf?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-21 12:56:44 JST"
+    "last_updated": "2026-11-21 13:44:09 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -549,10 +551,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "LoUp1ncH18Y",
+        "video_id": "_tr7jnNUuFE",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/LoUp1ncH18Y?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=LoUp1ncH18Y"
+        "embed_url": "https://www.youtube.com/embed/_tr7jnNUuFE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=_tr7jnNUuFE"
       },
       {
         "id": "stream_tbsnews",
@@ -571,10 +573,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "dg0np901ugc",
+        "video_id": "vR-5vcFeuTg",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/dg0np901ugc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=dg0np901ugc"
+        "embed_url": "https://www.youtube.com/embed/vR-5vcFeuTg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=vR-5vcFeuTg"
       },
       {
         "id": "stream_annnews",

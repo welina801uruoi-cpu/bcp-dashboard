@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 17:14:19",
+  "timestamp": "2026-11-21 17:50:52",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -90,12 +90,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-21 21:58",
-    "place": "熊本県天草・芦北地方",
-    "magnitude": "2.4",
+    "shindo": "2",
+    "time": "2026-11-22 02:30",
+    "place": "房総半島南方沖",
+    "magnitude": "4.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-22 02:30",
+        "place": "房総半島南方沖",
+        "shindo": "2",
+        "magnitude": "4.6",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-21 21:58",
         "place": "熊本県天草・芦北地方",
@@ -158,13 +165,6 @@
         "shindo": "1",
         "magnitude": "2.7",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-20 21:59",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.4",
-        "maxScale": 10
       }
     ]
   },
@@ -207,12 +207,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報、乾燥注意報",
+        "summary": "波浪注意報、乾燥注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -224,10 +224,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -238,10 +238,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、乾燥注意報",
+        "summary": "乾燥注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/25/"
       },
       {
@@ -469,7 +469,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 12,
+    "disaster_count": 11,
     "articles": [
       {
         "title": "孤立や停電も…強烈寒波が3連休直撃 各地で大雪の影響広がる 都内は初の氷点下(テレビ朝日系（ANN）)",
@@ -560,12 +560,20 @@
         "is_disaster": true
       },
       {
-        "title": "福島など東北や北陸の山は21日夜～22日朝にかけて積雪が増える　倒木や停電に注意(日本気象協会tenki.jp)",
-        "summary": "東北や北陸周辺の山では今夜(21日)から明日22日の朝にかけて雪の降り方が強まる所があるでしょう。倒木による道路の通行止めや停電などにご注意ください。北陸の平地では雨の所が多いですが、ザーザー降りの雨",
-        "pub_date": "11/21 18:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/c3b599816c069159e8d998638a7f3e565e50a681?source=rss",
+        "title": "名古屋市東区のひき逃げ事件　トルコ国籍の男を逮捕(メ〜テレ（名古屋テレビ）)",
+        "summary": "21日、名古屋市東区で原付バイクを運転していた男性が車にひき逃げされ重傷を負った事件で、トルコ国籍の男が逮捕されました。過失運転致傷とひき逃げの疑いで逮捕されたのは、愛知県春日井市の解体業でトルコ国籍",
+        "pub_date": "11/22 02:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/39f784d5b7996ab43fa5e1d984b66b97b6534b99?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "「5mmの生物」もたらす“山の異変”　クマ出没の一因か　前橋は厳戒態勢つづく(テレビ朝日系（ANN）)",
+        "summary": "群馬県前橋市の住宅街に出没したクマ。21日も目撃され、厳戒態勢が続いています。なぜ、クマは人里へと下りてくるのか。その原因の1つにあったのは、わずか「5ミリ」の生物がもたらす“山の異変”でした。（サタ",
+        "pub_date": "11/22 02:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/5d49c05b718653272eb279485b5d6fdb43beacdf?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "冷え込む日中関係…待遇に“格差”も　前駐中国大使に聞く　中国とどう向き合う？(テレビ朝日系（ANN）)",
@@ -582,17 +590,9 @@
         "link": "https://news.yahoo.co.jp/articles/a0ebf59347dc6d61a70dd8cf496afdb9706acafd?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "愛子さまシンガポールから帰国「友好親善の歩み受け継いでいく」(ABEMA TIMES)",
-        "summary": "シンガポールを公式訪問していた天皇皇后両陛下の長女・愛子さまが帰国され「皇室が育んできた友好親善の歩みを受け継いでいきたい」との感想を寄せられました。【映像】愛子さま「皇室が育んできた友好親善の歩みを",
-        "pub_date": "11/21 23:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/e2bf8863782f84059b6c3c99cc6da90eea652e1e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 02:13:51 JST"
+    "last_updated": "2026-11-22 02:50:18 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",

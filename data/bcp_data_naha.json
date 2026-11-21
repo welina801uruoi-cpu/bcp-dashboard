@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 18:29:08",
+  "timestamp": "2026-11-21 19:19:45",
   "location": {
     "name": "那覇",
     "region_name": "沖縄エリア",
@@ -31,12 +31,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-22 02:30",
-    "place": "房総半島南方沖",
-    "magnitude": "4.6",
+    "shindo": "1",
+    "time": "2026-11-22 04:03",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-22 04:03",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-22 02:30",
         "place": "房総半島南方沖",
@@ -99,13 +106,6 @@
         "shindo": "1",
         "magnitude": "2.2",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-20 22:25",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.7",
-        "maxScale": 10
       }
     ]
   },
@@ -120,22 +120,24 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NORMAL",
-    "summary": "現在、沖縄エリア全域（1地域）に警報・注意報の発表はありません。",
+    "status": "NOTICE",
+    "summary": "【注意報発表: 1地域】沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 0,
+    "notice_count": 1,
     "total_prefs": 1,
     "pref_details": [
       {
         "code": "47",
         "name": "沖縄県",
         "short_name": "沖縄",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "乾燥注意報"
+        ],
+        "summary": "乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -444,7 +446,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 03:28:31 JST"
+    "last_updated": "2026-11-22 04:19:15 JST"
   },
   "live_media": {
     "default_camera_id": "cam_naha_kokusai",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 03:29:38",
-  "timestamp_local": "2026-11-21 20:29:38",
+  "timestamp": "2026-11-22 04:20:18",
+  "timestamp_local": "2026-11-21 21:20:18",
   "country": {
     "id": "spain",
     "name": "スペイン",
@@ -636,8 +636,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 18:31",
+          "text": "【③14年ぶりのゼネスト】11/11、住宅価格と家賃の高騰に抗議する全国ゼネストを実施。主要労組は約400万人が参加と発表し、 マドリード ..."
+        },
         {
           "time": "11/20 18:39",
           "text": "マドリード では、学生組合が デモ を行った。 抗議参加者たちは、「戦うことこそ唯一の道だ」「軍事予算を学校や病院に回せ..."
@@ -645,10 +649,6 @@
         {
           "time": "11/19 21:56",
           "text": "@killjojoy ジブリ好きなんですね 三鷹にジブリ美術館あります 名古屋にも マドリード いいですね デモ 起きて..."
-        },
-        {
-          "time": "11/19 05:12",
-          "text": "@killjojoy シュウカツかねて９月スペイン行きましたが素晴らしかった バルセロナと マドリード で 世界遺産 陽気で楽しく話してる人..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%9E%E3%83%89%E3%83%AA%E3%83%BC%E3%83%89%20%E3%83%87%E3%83%A2"
@@ -751,7 +751,7 @@
     "default_channel_id": "stream_rtve"
   },
   "forex": {
-    "timestamp": "11/22 03:29 JST",
+    "timestamp": "11/22 04:20 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -834,14 +834,14 @@
         "is_capital": true,
         "lat": 40.4168,
         "lon": -3.7038,
-        "temp": 11.0,
-        "apparent_temp": 10.3,
-        "humidity": 86,
-        "wind_speed": 2.5,
-        "wind_gusts": 7.6,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 10.8,
+        "apparent_temp": 10.0,
+        "humidity": 88,
+        "wind_speed": 3.5,
+        "wind_gusts": 10.1,
+        "precipitation": 0.5,
+        "weather_code": 61,
+        "weather_label": "🌧️ 雨 (小雨)",
         "forecast": [
           {
             "date": "11/21(土)",
@@ -868,10 +868,10 @@
             "precipitation_mm": 0.0
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "バルセロナ (カタルーニャ)",
@@ -879,11 +879,11 @@
         "is_capital": false,
         "lat": 41.3879,
         "lon": 2.1699,
-        "temp": 17.6,
-        "apparent_temp": 17.4,
-        "humidity": 77,
-        "wind_speed": 9.7,
-        "wind_gusts": 16.6,
+        "temp": 17.3,
+        "apparent_temp": 17.5,
+        "humidity": 78,
+        "wind_speed": 6.7,
+        "wind_gusts": 11.9,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -924,14 +924,14 @@
         "is_capital": false,
         "lat": 37.3891,
         "lon": -5.9845,
-        "temp": 17.9,
-        "apparent_temp": 18.4,
-        "humidity": 81,
-        "wind_speed": 7.2,
-        "wind_gusts": 17.6,
+        "temp": 17.4,
+        "apparent_temp": 17.9,
+        "humidity": 87,
+        "wind_speed": 8.4,
+        "wind_gusts": 20.2,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/21(土)",
@@ -970,14 +970,14 @@
       "is_capital": true,
       "lat": 40.4168,
       "lon": -3.7038,
-      "temp": 11.0,
-      "apparent_temp": 10.3,
-      "humidity": 86,
-      "wind_speed": 2.5,
-      "wind_gusts": 7.6,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "temp": 10.8,
+      "apparent_temp": 10.0,
+      "humidity": 88,
+      "wind_speed": 3.5,
+      "wind_gusts": 10.1,
+      "precipitation": 0.5,
+      "weather_code": 61,
+      "weather_label": "🌧️ 雨 (小雨)",
       "forecast": [
         {
           "date": "11/21(土)",
@@ -1004,12 +1004,12 @@
           "precipitation_mm": 0.0
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/22 03:29 JST"
+    "timestamp": "11/22 04:20 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1091,7 +1091,7 @@
         "details": "全国主要都市間ルートは定常運行中"
       }
     ],
-    "timestamp": "11/22 03:29 JST"
+    "timestamp": "11/22 04:20 JST"
   },
   "lifeline": {
     "status": "NORMAL",

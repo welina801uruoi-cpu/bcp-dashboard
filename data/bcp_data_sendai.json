@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20 23:27:49",
+  "timestamp": "2026-11-21 00:10:44",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -181,12 +181,12 @@
         "warns": [],
         "notices": [
           "着雪注意報",
-          "波浪注意報",
-          "なだれ注意報",
           "大雪注意報",
-          "雷注意報"
+          "雷注意報",
+          "なだれ注意報",
+          "波浪注意報"
         ],
-        "summary": "着雪注意報、波浪注意報、なだれ注意報、大雪注意報、雷注意報",
+        "summary": "着雪注意報、大雪注意報、雷注意報、なだれ注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -197,11 +197,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "なだれ注意報",
           "着雪注意報",
-          "大雪注意報",
-          "なだれ注意報"
+          "大雪注意報"
         ],
-        "summary": "着雪注意報、大雪注意報、なだれ注意報",
+        "summary": "なだれ注意報、着雪注意報、大雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -214,10 +214,10 @@
         "notices": [
           "なだれ注意報",
           "雷注意報",
-          "風雪注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "風雪注意報"
         ],
-        "summary": "なだれ注意報、雷注意報、風雪注意報、波浪注意報",
+        "summary": "なだれ注意報、雷注意報、波浪注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
@@ -244,11 +244,11 @@
         "notices": [
           "着雪注意報",
           "風雪注意報",
-          "波浪注意報",
           "大雪注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "着雪注意報、風雪注意報、波浪注意報、大雪注意報、雷注意報",
+        "summary": "着雪注意報、風雪注意報、大雪注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -260,11 +260,11 @@
         "warns": [],
         "notices": [
           "なだれ注意報",
-          "大雪注意報",
           "着雪注意報",
-          "雷注意報"
+          "雷注意報",
+          "大雪注意報"
         ],
-        "summary": "なだれ注意報、大雪注意報、着雪注意報、雷注意報",
+        "summary": "なだれ注意報、着雪注意報、雷注意報、大雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       }
     ]
@@ -278,11 +278,11 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東北本線、仙山線、磐越西線 ／ 新幹線: 山形新幹線（運転見合わせ））",
+    "text": "運行支障あり（在来線: 東北本線、仙山線、磐越西線 ／ 新幹線: 東北新幹線（運転状況）、山形新幹線（運転見合わせ））",
     "line_status": "ALERT",
     "line_text": "運行支障あり（東北本線、仙山線、磐越西線、奥羽本線、羽越本線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山形新幹線（運転見合わせ））",
+    "shinkansen_text": "運行支障あり（東北新幹線（運転状況）、山形新幹線（運転見合わせ））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/3",
     "troubled_lines": [
       "東北本線",
@@ -293,14 +293,15 @@
       "北上線"
     ],
     "troubled_shinkansen": [
+      "東北新幹線（運転状況）",
       "山形新幹線（運転見合わせ）"
     ],
     "shinkansen_details": [
       {
         "name": "東北新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "現在､事故･遅延に関する情報はありません。",
+        "status": "ALERT",
+        "state": "運転状況",
+        "detail": "山形新幹線内での車両点検の影響で、東京〜福島駅間の一部列車に遅れや運休が出ています。（11月21日 8時35分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/1/0"
       },
       {
@@ -355,8 +356,8 @@
     "mhlw_url": "https://www.mhlw.go.jp/index.html"
   },
   "evacuation": {
-    "status": "NORMAL",
-    "summary": "東北エリア（青森, 岩手, 秋田, 宮城等）で避難指示・避難所開設はありません。",
+    "status": "ALERT",
+    "summary": "東北エリア: 【避難所開設】福島",
     "url": "https://crisis.yahoo.co.jp/evacuation/"
   },
   "telecom": {
@@ -380,19 +381,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/20 16:46",
-          "text": "ちょっと前から START au END ひかり週一でネット START 障害 END で繋がらないんだけど死ぬ？"
+          "time": "11/20 23:57",
+          "text": "そろそろ START au END さん START 障害 END に乗せてくれてもいいのよ？ ずっと圏外なんだわ"
         },
         {
-          "time": "11/20 15:03",
-          "text": "ちょいちょい START au END 繋がらなくなるな…と思ってsim有効にし直したら直った、通信 START 障害 END っぽいわけじゃなさそうだし劣化な..."
+          "time": "11/20 23:54",
+          "text": "神奈川県鎌倉市 START au障害 END 中かな現在家のWiFi"
         },
         {
-          "time": "11/20 14:41",
-          "text": "@eri_akisun6HK1 START au END で通信 START 障害 END は過去に1度だけでしたかね🤔 ドコモから乗り換えて20年くらい経って..."
+          "time": "11/20 23:45",
+          "text": "START au END ひかりの START 障害 END が出まくっている模様(我が家も今Wi-Fi死んでる)平日だったらブチ切れてた"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -426,19 +427,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/20 23:46",
+          "text": "@Caad9Di2 私もワイモバに乗り換えました！料金的には概ね満足でしたが私の住むエリアでは繋がり悪く START au END 系に乗り換えようかと思ってた..."
+        },
+        {
+          "time": "11/20 23:41",
+          "text": "START au繋がらない END んだけどなんかあったん？ 一旦機内モード→解除にしても電波死んでる"
+        },
         {
           "time": "11/20 21:03",
           "text": "START au繋がらない END ？"
-        },
-        {
-          "time": "11/20 16:46",
-          "text": "ちょっと前から START au END ひかり週一でネット障害で START 繋がらない END んだけど死ぬ？"
-        },
-        {
-          "time": "11/20 14:39",
-          "text": "@shin128 宇都宮駅で人が多い時 START 繋がらない END 、 度重なる通信障害、 無断で個人情報を提供、 ほかにもdocomoにはすごく怒ってます..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -491,6 +492,14 @@
     "disaster_count": 4,
     "articles": [
       {
+        "title": "東京都内自治体の中小企業向けサイバーセキュリティー支援相次ぐ　専門家訪問や窓口開設(産経新聞)",
+        "summary": "大量の個人情報の流出など情報システムの不正アクセス被害に歯止めがかからない中、東京都内の自治体が相次いで中小企業向けのサイバーセキュリティー支援に乗り出している。IT人材が不足し、対策の遅れが指摘され",
+        "pub_date": "11/21 09:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/fc28508fb477205ea9450d5f65a98b57b40ebdf8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "北海道に大雪警報　内陸の空知地方で今季最大の積雪　厳重に警戒(テレビ朝日系（ANN）)",
         "summary": "21日午前7時前、気象庁は北海道の空知地方に大雪警報を発表しました。大雪や吹雪による交通障害に警戒して下さい。 強い寒波の影響で北日本の日本海側は20日から雪が強まり、積雪が急増している所があります。",
         "pub_date": "11/21 07:41 JST",
@@ -515,12 +524,76 @@
         "is_disaster": true
       },
       {
-        "title": "6歳の愛娘が遺した『ひらがな34文字のメッセージ』その思いを受け継ぎ歩む家族「今生かされているからできること」【第3話】(RSK山陽放送)",
-        "summary": "■「当たり前の日々は奇跡の連続」小学1年生の愛娘を交通事故で亡くした母親がいます。【写真をみる】家族が撮影した「陽菜さんの成長の記録」福岡県北九州市の池田かおりさんです。2016年12月、池田さんの娘",
-        "pub_date": "11/21 06:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/b2ca4812395960e366d9ccd67e83b47fd338cfc2?source=rss",
+        "title": "MajiでKoiに発展するかも…水族館で「どの魚になりたい？」→何気ない問いかけに対する“理想の返し方”に「こういう会話がしたいっす…」共感の声続出(ABEMA TIMES)",
+        "summary": "水族館の水槽の前での何気ない問いかけに対する“理想の返し方”をつづった投稿に、SNSでは「分かりすぎます！こういう会話がしたいっす…」「何でもない時間を心地よく過ごせる相手って貴重」など大きな反響を呼",
+        "pub_date": "11/21 09:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/a24ad3742925ae01d661587793d7f178cc24b30f?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "【社説】米中ロ首脳会談　大国の力の支配を許さぬ(西日本新聞me)",
+        "summary": "大国が利害を優先して、国際社会を取り仕切ることがあってはならない。国際社会は3カ国の動きを協力して警戒する必要がある。 米国、中国、ロシアの首脳が史上初めて、中国・深圳で会談した。 第2次大戦後の世界",
+        "pub_date": "11/21 09:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/f7b6416a4b0c58af190319538fd701d79fabec40?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「えっ、先祖代々じゃなかったの？」日本人が当たり前に入る「家のお墓」の意外な事実(ダイヤモンド・オンライン)",
+        "summary": "当たり前のようにお墓参りで手を合わせていても、そのお墓がいつ建てられ、どの世代から使われてきたかまでは知らない人もいるだろう。墓石の下に納骨室を設け、家族の骨壺を収める構造にも、成立した時代と背景があ",
+        "pub_date": "11/21 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/568a2a4eea3ea1a856bcdf571a104e4cd23916c9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「2時間待ち」「限定ケーキは完売」皇居カフェオープンで、天皇陛下と雅子さまが模索される令和流“開かれた皇室”(週刊女性PRIME)",
+        "summary": "「限定コーヒーが飲みたくて来ました」「100点中80点。味はよかったけど並びすぎかな……」「店内を利用したかったのですが、2時間並ぶとのことで断念」【写真】『皇居三の丸尚蔵館』とコラボしたケーキ3種セ",
+        "pub_date": "11/21 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/7f403a406b6de9138d7ebf635370120e5b666b3a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "〈富士山・無謀登山〉「遺体発見でも240万円」行方不明の中国人男性の捜索打ち切り、家族の「懸賞金」報道に山梨県が懸念した二次遭難(集英社オンライン)",
+        "summary": "閉山中の富士山にアイゼンもつけずに一人で登って行方不明になった25歳の中国人男性の父親が、遺体発見も含めて息子に関する情報に懸賞金を出すと中国メディアが報じ、物議をかもしている。懸賞金目当ての登山者が",
+        "pub_date": "11/21 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/365e01213875d91fa0c48c7581b61ba36193530d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "≪寒波襲来≫「LED信号機は発熱しないので雪がつき見えない」の声…全国で導入が進む信号機に思わぬ弱点…青森県警が明かした“なるほど“な雪対策(集英社オンライン)",
+        "summary": "日本列島に強い寒気が流れ込み、11月21日にかけて北日本などでは大雪や吹雪への警戒が必要となっている。そんな雪の季節に、SNSで「雪がつきやすく吹雪では見えない」といった困惑の声が広がっているのが「L",
+        "pub_date": "11/21 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/78f652aae5b2dd9835a27ad08cb3b4f3d9e3b829?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「右側がもったいない」エスカレーターの“片側空け”を変えられるか？ 東北大生が朝の仙台駅でプラカードを手に、右側に立ってみた(集英社オンライン)",
+        "summary": "エスカレーターの乗り口に長い列ができている。それでも、右側はぽっかり空いたまま。「急ぐ人のために片側を空ける」という乗り方がいつしか“マナー”として定着し、2列で乗れる場所でも片側に人が集中する光景が",
+        "pub_date": "11/21 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/a8c9ec4fabd957524ca4e88e6434c31a00bba81d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "トルコでのCOP31、会期延長　各国、「脱化石」削除に強い反発(共同通信)",
+        "summary": "【アンタルヤ共同】国連気候変動枠組み条約第31回締約国会議（COP31）は21日、会期を延長して交渉が続いた。19日付の成果文書の草案には議長国トルコが提案する電化目標が残った一方で、温室効果ガス排出",
+        "pub_date": "11/21 08:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/15c83d431927c6f04137de85266bcf8ff863f11a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "斎藤幸平「私たちは監視されたがっている」。頻発する個人情報流出は序章にすぎない(SPA!)",
+        "summary": "企業への不正アクセスによる個人情報流出のニュースが連日のように報じられている。 便利さと引き換えに差し出してきた個人情報は、いま誰の手に集まり、何に使われているのか。経済思想家の斎藤幸平氏は、この先に",
+        "pub_date": "11/21 08:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/e4139dd5e20bbf01f8f9e6baa9b789f3bdd62035?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "愛子さま「これは高いですね」天井まで届く“父・天皇陛下のラン”を見上げ…贈られた特別な“ファミリーブーケ”に笑顔 シンガポール(ABEMA TIMES)",
@@ -537,81 +610,9 @@
         "link": "https://news.yahoo.co.jp/articles/35983941f2b191085b6f0c1f1d00e7ad81bbae89?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "藤井六冠の6連覇なるか 竜王戦第4局始まる　対局は21日午後に決まる見通し(メ〜テレ（名古屋テレビ）)",
-        "summary": "将棋の藤井聡太六冠が勝てば6連覇が決まる竜王戦七番勝負の第4局が宮崎県で行われています。 今期の竜王戦七番勝負は藤井聡太六冠に服部慎一郎七段が挑戦しています。 第4局の会場は芋焼酎で知られる「霧島酒造",
-        "pub_date": "11/21 08:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/57dac3e5c0f5ece1cee2f6a117d16ecf154fee1a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "九州6カ国を支配→1000石の旗本に転落…秀吉にクビにされた｢大友宗麟の子孫｣のわびしいその後(プレジデントオンライン)",
-        "summary": "豊臣秀吉は織田信長もできなかった九州平定を成し遂げ、天下統一へ。系図研究者の菊地浩之さんは「大河ドラマでは合戦がカットされたが、秀吉に九州への出兵をリクエストした大名がいた。一時は北九州を支配下に収め",
-        "pub_date": "11/21 08:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/67c9b123c7c147166a58378abf97e692cfd32042?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "水道水を飲んだ生後6カ月の男の子が命を落とした…｢最も清潔な都市｣に8年連続で選ばれたインドの街の惨事(プレジデントオンライン)",
-        "summary": "インドで8年連続「最も清潔な都市」に選ばれた街で、悲惨な事件が起きた。水道水を飲んだ住民2000人以上が体調を崩し、生後6カ月の男の子を含む死者が出た。この街はモディ首相が進めたスマートシティ計画のモ",
-        "pub_date": "11/21 08:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/f57c252b44dc5df58a4d4091c95c7af938815365?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "北海道と東北は吹雪　西日本にも雪雲　関東など晴れる所も風が冷たい　今日21日(日本気象協会tenki.jp)",
-        "summary": "今日21日(土)も冬型の気圧配置が続きます。北海道と東北は日本海側を中心に雪や吹雪で、中国地方など西日本にも所々に雪雲が流れ込みます。関東など晴れる地域も風が冷たく感じられるでしょう。",
-        "pub_date": "11/21 08:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/2d2a722c8c06b83732da8765a456fdc7a787669a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "史上最年少で「永世竜王」資格を獲得　藤井聡太六冠が6連覇目指す　竜王戦七番勝負第4局1日目　(中京テレビＮＥＷＳ)",
-        "summary": "愛知県瀬戸市出身の藤井聡太六冠が6連覇を目指す竜王戦七番勝負の第4局は、11月20日、1日目を終えました。宮崎県都城市で始まった竜王戦七番勝負の第4局は、藤井聡太六冠に、服部慎一郎七段が挑んでいます。",
-        "pub_date": "11/21 08:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/03106d2f19e43be11d1928f83e4257608290dd91?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "愛子さま「滞在を楽しんでいます」約1分の英語で“初めてのシンガポール”への想いを語られる 首相代行に「素晴らしい関係が今後も成長し続けることを…」シンガポール(ABEMA TIMES)",
-        "summary": "外交関係60周年の節目にシンガポールを公式訪問されている、天皇皇后両陛下の長女、愛子さま。【映像】愛子さまが英語で首相代行と交流する様子 滞在3日目を迎えた11月19日、シンガポール大統領府でガン・キ",
-        "pub_date": "11/21 08:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/42817d8d86095e1a2af0ebaf120904ab21762132?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "自民・麻生副総裁「世界に恥を晒した」　アジア・アジアパラ大会めぐり運営トラブルに苦言(メ〜テレ（名古屋テレビ）)",
-        "summary": "アジア・アジアパラ大会の運営トラブルについて19日、自民党の麻生太郎副総裁が「世界に恥を晒した」と発言をして苦言を呈していたことがわかりました。 19日、都内で行われた超党派のスポーツ議員連盟の総会で",
-        "pub_date": "11/21 08:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/8175d0b92d218b474e94b39baa86acb4ae1756d3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【スクープ！】GMO熊谷正寿社長「年下女性タレントとの不倫キス写真」を独占入手(FRIDAY)",
-        "summary": "本誌記者の手元に1枚の写真がある。そこに写っているのは一組の年の差カップルだ。クルーザーに揺られながら、二人は次第に距離を縮めていく。音が聞こえてきそうなほどの情熱的な口づけを交わしているのは、GMO",
-        "pub_date": "11/21 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/00eb3bbacf629f4da828df801f7a6fda99bd461b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "なぜ「命の砂時計」が抜けているのか？　「あかり、信じてるからな」って何？　「流行語大賞」ノミネート30語発表も“どこで流行していたのか分からない”と囁かれる理由(デイリー新潮)",
-        "summary": "今年の「新語・流行語大賞」が12月1日に決まる。それに先立ち、ノミネートされた30語が11月5日に発表され、ネット上で物議を醸している。不正アクセス問題に関連し、11月2日に会見に臨んだGMOインター",
-        "pub_date": "11/21 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/98b542ccc53c5ef8b1b7ebf35f328e628c85ce21?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-21 08:27:15 JST"
+    "last_updated": "2026-11-21 09:10:42 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",

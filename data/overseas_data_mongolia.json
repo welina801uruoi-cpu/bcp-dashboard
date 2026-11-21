@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 00:13:53",
-  "timestamp_local": "2026-11-21 23:13:53",
+  "timestamp": "2026-11-22 00:52:52",
+  "timestamp_local": "2026-11-21 23:52:52",
   "country": {
     "id": "mongolia",
     "name": "モンゴル",
@@ -260,22 +260,22 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 12,
-    "summary": "M4.8 (7 km W of Salvaleón de Higüey, Dominican Republic)",
+    "summary": "M4.6 (18 km ESE of La Romana, Dominican Republic)",
     "latest": {
-      "mag": 4.8,
-      "place": "7 km W of Salvaleón de Higüey, Dominican Republic",
+      "mag": 4.6,
+      "place": "18 km ESE of La Romana, Dominican Republic",
       "time": "11/22 00:00 JST",
-      "depth_km": 106.2,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26325053",
+      "depth_km": 104,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026325000",
       "tsunami": 0
     },
     "recent_quakes": [
       {
-        "mag": 4.8,
-        "place": "7 km W of Salvaleón de Higüey, Dominican Republic",
+        "mag": 4.6,
+        "place": "18 km ESE of La Romana, Dominican Republic",
         "time": "11/22 00:00 JST",
-        "depth_km": 106.2,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26325053",
+        "depth_km": 104,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026325000",
         "tsunami": 0
       },
       {
@@ -601,7 +601,7 @@
     "default_channel_id": "stream_mongol_news"
   },
   "forex": {
-    "timestamp": "11/22 00:13 JST",
+    "timestamp": "11/22 00:52 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -647,9 +647,99 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/22 00:13 JST"
+    "cities": [
+      {
+        "name": "ウランバートル (首都)",
+        "name_en": "Ulaanbaatar",
+        "is_capital": true,
+        "lat": 47.8864,
+        "lon": 106.9057,
+        "temp": -13.7,
+        "apparent_temp": -18.1,
+        "humidity": 73,
+        "wind_speed": 4.7,
+        "wind_gusts": 14.0,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/21(土)",
+            "temp_max": -4.7,
+            "temp_min": -16.5,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/22(日)",
+            "temp_max": -9.3,
+            "temp_min": -16.9,
+            "weather_code": 71,
+            "weather_label": "❄️ 降雪 (小雪)",
+            "precipitation_mm": 0.5
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": -12.1,
+            "temp_min": -20.7,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "厳寒・凍結警戒",
+        "alert_badge": "🟠 凍結警戒",
+        "alert_class": "orange",
+        "alert_desc": "気温-13.7℃。路面凍結・交通遅延に注意"
+      }
+    ],
+    "capital": {
+      "name": "ウランバートル (首都)",
+      "name_en": "Ulaanbaatar",
+      "is_capital": true,
+      "lat": 47.8864,
+      "lon": 106.9057,
+      "temp": -13.7,
+      "apparent_temp": -18.1,
+      "humidity": 73,
+      "wind_speed": 4.7,
+      "wind_gusts": 14.0,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
+      "forecast": [
+        {
+          "date": "11/21(土)",
+          "temp_max": -4.7,
+          "temp_min": -16.5,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/22(日)",
+          "temp_max": -9.3,
+          "temp_min": -16.9,
+          "weather_code": 71,
+          "weather_label": "❄️ 降雪 (小雪)",
+          "precipitation_mm": 0.5
+        },
+        {
+          "date": "11/23(月)",
+          "temp_max": -12.1,
+          "temp_min": -20.7,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
+          "precipitation_mm": 0.0
+        }
+      ],
+      "alert": "厳寒・凍結警戒",
+      "alert_badge": "🟠 凍結警戒",
+      "alert_class": "orange",
+      "alert_desc": "気温-13.7℃。路面凍結・交通遅延に注意"
+    },
+    "timestamp": "11/22 00:52 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -678,7 +768,7 @@
         "details": "定期運行中"
       }
     ],
-    "timestamp": "11/22 00:13 JST"
+    "timestamp": "11/22 00:52 JST"
   },
   "lifeline": {
     "status": "NORMAL",

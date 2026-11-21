@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 00:13:16",
-  "timestamp_local": "2026-11-21 22:13:16",
+  "timestamp": "2026-11-22 00:52:29",
+  "timestamp_local": "2026-11-21 22:52:29",
   "country": {
     "id": "thailand",
     "name": "タイ",
@@ -296,22 +296,22 @@
   "world_earthquakes": {
     "status": "OK",
     "count_24h": 12,
-    "summary": "M4.8 (7 km W of Salvaleón de Higüey, Dominican Republic)",
+    "summary": "M4.6 (18 km ESE of La Romana, Dominican Republic)",
     "latest": {
-      "mag": 4.8,
-      "place": "7 km W of Salvaleón de Higüey, Dominican Republic",
+      "mag": 4.6,
+      "place": "18 km ESE of La Romana, Dominican Republic",
       "time": "11/22 00:00 JST",
-      "depth_km": 106.2,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26325053",
+      "depth_km": 104,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026325000",
       "tsunami": 0
     },
     "recent_quakes": [
       {
-        "mag": 4.8,
-        "place": "7 km W of Salvaleón de Higüey, Dominican Republic",
+        "mag": 4.6,
+        "place": "18 km ESE of La Romana, Dominican Republic",
         "time": "11/22 00:00 JST",
-        "depth_km": 106.2,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26325053",
+        "depth_km": 104,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026325000",
         "tsunami": 0
       },
       {
@@ -582,16 +582,16 @@
       "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/21 15:35",
+          "text": "福岡💫行きたいけど、もうやめると誓った😭😭😭😭 ﾃﾞﾓ ｲｷ ﾀｲ っ！！"
+        },
+        {
           "time": "11/21 14:53",
           "text": "@livedoornews 有名になるってそういうことだよ。本人の意思なんか関係なく広まる。ワンピースも世界中の デモ に使われてしまってる..."
         },
         {
           "time": "11/21 14:19",
           "text": "@odkk_nui0606 ｷｮｼｮ ｶｷ ﾀｲ ｼｭﾎｳ ﾃﾞ ｶｹﾙ ﾖﾆ ｲﾛﾝﾅ ｶｷｶﾀ ﾋﾋﾞ ﾍﾞﾝｷｮ ｼﾃﾙ ｶﾗ ﾈ ｼ..."
-        },
-        {
-          "time": "11/21 13:48",
-          "text": "🛎️ ｱﾄﾊﾁｮｳﾐﾐﾉｱｿﾋﾞﾊﾞﾆｲｯﾀﾘｼﾃ 🧑‍🤝‍🧑 ｺﾝｹﾞﾂﾄｶｺﾉｼﾞｷﾉﾅﾆﾓﾅｻｦｽｺｼ ﾃﾞﾓ ﾀﾉｼｸｼﾖｳﾄｼﾀﾝ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%BF%E3%82%A4%20%E3%83%87%E3%83%A2"
@@ -642,7 +642,7 @@
       {
         "id": "stream_thaipbs_live",
         "name": "📺 Thai PBS 24h 生配信",
-        "video_id": "cmVggg5dAcE",
+        "video_id": "X3XmexcJydY",
         "handle": "@ThaiPBS",
         "type": "stream"
       },
@@ -675,7 +675,7 @@
     "default_channel_id": "stream_thairath_live"
   },
   "forex": {
-    "timestamp": "11/22 00:13 JST",
+    "timestamp": "11/22 00:52 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -713,11 +713,20 @@
       "departures_url": "https://suvarnabhumi.airportthai.co.th/en",
       "radar_url": "https://www.flightradar24.com/airport/bkk",
       "flightaware_url": "https://www.flightaware.com/live/airport/VTBS",
-      "weather": {},
+      "weather": {
+        "raw": "METAR VTBS 211530Z 05009KT 020V080 9999 FEW035 30/21 Q1017 NOSIG",
+        "wind": "9kt",
+        "wind_speed": 9,
+        "wind_gust": 0,
+        "visibility": "6+マイル",
+        "temp": 30,
+        "fltcat": "VFR",
+        "report_time": "2026-11-21T15:30:00.000Z"
+      },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "定常運航中（現在重大な気象警報なし）"
+      "status_desc": "視程良好（6+マイル）、風速安定（9kt）。順調に運航中"
     },
     {
       "iata": "DMK",
@@ -728,11 +737,20 @@
       "departures_url": "https://donmueang.airportthai.co.th/en",
       "radar_url": "https://www.flightradar24.com/airport/dmk",
       "flightaware_url": "https://www.flightaware.com/live/airport/VTBD",
-      "weather": {},
+      "weather": {
+        "raw": "METAR VTBD 211530Z 01005KT 9999 FEW030 29/22 Q1017 NOSIG",
+        "wind": "5kt",
+        "wind_speed": 5,
+        "wind_gust": 0,
+        "visibility": "6+マイル",
+        "temp": 29,
+        "fltcat": "VFR",
+        "report_time": "2026-11-21T15:30:00.000Z"
+      },
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "定常運航中（現在重大な気象警報なし）"
+      "status_desc": "視程良好（6+マイル）、風速安定（5kt）。順調に運航中"
     }
   ],
   "weather": {
@@ -743,14 +761,14 @@
         "is_capital": true,
         "lat": 13.7563,
         "lon": 100.5018,
-        "temp": 29.0,
-        "apparent_temp": 34.0,
-        "humidity": 70,
-        "wind_speed": 3.1,
-        "wind_gusts": 7.2,
+        "temp": 28.7,
+        "apparent_temp": 32.9,
+        "humidity": 68,
+        "wind_speed": 6.4,
+        "wind_gusts": 14.0,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/21(土)",
@@ -788,14 +806,14 @@
         "is_capital": false,
         "lat": 18.7883,
         "lon": 98.9853,
-        "temp": 24.7,
-        "apparent_temp": 29.3,
-        "humidity": 84,
-        "wind_speed": 1.5,
-        "wind_gusts": 7.6,
+        "temp": 24.3,
+        "apparent_temp": 28.9,
+        "humidity": 86,
+        "wind_speed": 0.6,
+        "wind_gusts": 4.7,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/21(土)",
@@ -834,10 +852,10 @@
         "lat": 7.8804,
         "lon": 98.3923,
         "temp": 27.5,
-        "apparent_temp": 31.4,
+        "apparent_temp": 31.0,
         "humidity": 82,
-        "wind_speed": 16.2,
-        "wind_gusts": 32.0,
+        "wind_speed": 18.3,
+        "wind_gusts": 36.4,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -879,14 +897,14 @@
       "is_capital": true,
       "lat": 13.7563,
       "lon": 100.5018,
-      "temp": 29.0,
-      "apparent_temp": 34.0,
-      "humidity": 70,
-      "wind_speed": 3.1,
-      "wind_gusts": 7.2,
+      "temp": 28.7,
+      "apparent_temp": 32.9,
+      "humidity": 68,
+      "wind_speed": 6.4,
+      "wind_gusts": 14.0,
       "precipitation": 0.0,
-      "weather_code": 0,
-      "weather_label": "☀️ 快晴",
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
           "date": "11/21(土)",
@@ -918,7 +936,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/22 00:13 JST"
+    "timestamp": "11/22 00:52 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -947,7 +965,7 @@
         "details": "BTSスクムウィット線・MRTブルーライン平常運行中"
       }
     ],
-    "timestamp": "11/22 00:13 JST"
+    "timestamp": "11/22 00:52 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 15:11:12",
+  "timestamp": "2026-11-21 15:51:05",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -216,12 +216,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "乾燥注意報",
           "強風注意報",
+          "乾燥注意報",
+          "波浪注意報",
           "雷注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報、強風注意報、雷注意報",
+        "summary": "強風注意報、乾燥注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -232,11 +232,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "強風注意報",
           "乾燥注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報、強風注意報",
+        "summary": "強風注意報、乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -247,10 +247,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/14/"
       },
       {
@@ -325,13 +325,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 京成本線、小田急小田原線、小田急江ノ島線 ／ 新幹線: 山形新幹線（運転見合わせ））",
+    "text": "運行支障あり（在来線: 京浜東北根岸線、埼京川越線、京成本線 ／ 新幹線: 山形新幹線（運転見合わせ））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（京成本線、小田急小田原線、小田急江ノ島線、小田急多摩線）",
+    "line_text": "運行支障あり（京浜東北根岸線、埼京川越線、京成本線、小田急小田原線、小田急江ノ島線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山形新幹線（運転見合わせ））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [
+      "京浜東北根岸線",
+      "埼京川越線",
       "京成本線",
       "小田急小田原線",
       "小田急江ノ島線",
@@ -446,7 +448,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/21 15:02",
@@ -492,8 +494,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 15:11",
+          "text": "@ilkbtobfl @6dedelove 横から〜 ahamoでJALマイルがたまるようになってから乗り換えしたよ 元々もIIJという格安だったせいか、 ST..."
+        },
         {
           "time": "11/21 13:28",
           "text": "@247RGB_P 通りすがりですが、昨日から START au END 4Gも5Gも START 繋がらない END ですね。 今はソフバン系の格安simのス..."
@@ -501,10 +507,6 @@
         {
           "time": "11/21 10:02",
           "text": "携帯会社4キャリアあるけど、 楽天は×です。次にソフトバンク系統は野球のソフトバンクを弱体化させたいから×。ドコモは START 繋がらない END から×。 ..."
-        },
-        {
-          "time": "11/21 09:52",
-          "text": "@otsuyopon こんばんは。ヘッダーの後ろ姿、可愛いですね☺️ START au END サポート畑野です。電波が入らないとお見かけしましたが、日頃は繋が..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -674,7 +676,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 00:10:54 JST"
+    "last_updated": "2026-11-22 00:50:52 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -695,10 +697,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "jOqcMa_S6FA",
+        "video_id": "BFpEpX5XZDc",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/jOqcMa_S6FA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=jOqcMa_S6FA"
+        "embed_url": "https://www.youtube.com/embed/BFpEpX5XZDc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=BFpEpX5XZDc"
       },
       {
         "id": "stream_tbsnews",

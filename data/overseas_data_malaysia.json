@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 07:49:42",
-  "timestamp_local": "2026-11-22 06:49:42",
+  "timestamp": "2026-11-22 08:28:45",
+  "timestamp_local": "2026-11-22 07:28:45",
   "country": {
     "id": "malaysia",
     "name": "マレーシア",
@@ -393,6 +393,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "北朝鮮、通常兵器を相次ぎ公開…「戦略的露出」の狙いは(ハンギョレ新聞)",
+        "link": "https://news.yahoo.co.jp/articles/c0a63bc4ab8156f1f660b79ac7cf006e2aeeb7e6?source=rss",
+        "description": "北朝鮮がこのところ、通常戦力の増強と誇示に力を入れている。 駆逐艦、攻撃用無人機、戦略巡航ミサイル・大口径多連装ロケット砲・戦術弾道ミサイル、極超音速ミサイル、戦術弾道ミサイルのクラスター弾頭、自走砲",
+        "pub_date": "11/22 08:19 JST",
+        "is_priority": false
+      },
+      {
         "title": "メキシコ麻薬組織の首領を拘束　銃撃戦で11人死亡(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/bcf71162d1968a615716797b34e1aaf1ffcfcb69?source=rss",
         "description": "【ロサンゼルス共同】メキシコ国防省は21日、軍や治安部隊が20日に麻薬組織「ベルトラン・レイバ」の首領ファウスト・イシドロ・メサフロレス容疑者（44）を北西部シナロア州で拘束したと発表した。容疑者は米",
@@ -524,13 +531,6 @@
         "description": "ブラジル最大の都市サンパウロの街中で、日中に全裸の女性が歩き回る姿が目撃され、騒ぎとなった。通り過ぎる人々が女性に気付いて驚く様子は防犯カメラに記録され、現地テレビ局Recordが映像とともに報道。映",
         "pub_date": "11/21 21:11 JST",
         "is_priority": false
-      },
-      {
-        "title": "フィリピンで日本人9人を拘束　AIソフト使い特殊詐欺か　日本の警察署のセットも(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/ae4bfa6d668f15af8c65ded78dc22093050244a2?source=rss",
-        "description": "フィリピンのマニラで、日本人9人を含む17人が拘束されました。日本の警察署のセットやAIソフトを使って特殊詐欺をしていたとみられています。 フィリピン入管当局などは20日、マニラで日本人9人を含むイン",
-        "pub_date": "11/21 20:47 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -623,7 +623,7 @@
     "default_channel_id": "stream_bernama_live"
   },
   "forex": {
-    "timestamp": "11/22 07:49 JST",
+    "timestamp": "11/22 08:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -677,9 +677,9 @@
         "lat": 5.4141,
         "lon": 100.3288,
         "temp": 25.7,
-        "apparent_temp": 32.3,
+        "apparent_temp": 32.2,
         "humidity": 99,
-        "wind_speed": 3.9,
+        "wind_speed": 3.6,
         "wind_gusts": 11.2,
         "precipitation": 0.0,
         "weather_code": 3,
@@ -714,6 +714,51 @@
         "alert_badge": "🟢 平常・平穏",
         "alert_class": "green",
         "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ジョホールバル (南部経済圏)",
+        "name_en": "Johor Bahru",
+        "is_capital": false,
+        "lat": 1.4927,
+        "lon": 103.7414,
+        "temp": 24.4,
+        "apparent_temp": 29.4,
+        "humidity": 95,
+        "wind_speed": 5.5,
+        "wind_gusts": 10.1,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 30.7,
+            "temp_min": 24.2,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 8.2
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 30.0,
+            "temp_min": 24.3,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 13.7
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 29.9,
+            "temp_min": 24.2,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 9.9
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -723,9 +768,9 @@
       "lat": 5.4141,
       "lon": 100.3288,
       "temp": 25.7,
-      "apparent_temp": 32.3,
+      "apparent_temp": 32.2,
       "humidity": 99,
-      "wind_speed": 3.9,
+      "wind_speed": 3.6,
       "wind_gusts": 11.2,
       "precipitation": 0.0,
       "weather_code": 3,
@@ -761,7 +806,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/22 07:49 JST"
+    "timestamp": "11/22 08:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -790,7 +835,7 @@
         "details": "LRTクラナジャヤ線・MRT各線平常運行中"
       }
     ],
-    "timestamp": "11/22 07:49 JST"
+    "timestamp": "11/22 08:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

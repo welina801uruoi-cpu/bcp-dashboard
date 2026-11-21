@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 04:44:32",
+  "timestamp": "2026-11-21 05:38:22",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -208,11 +208,11 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "乾燥注意報",
           "雷注意報",
+          "乾燥注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、乾燥注意報、雷注意報、波浪注意報",
+        "summary": "強風注意報、雷注意報、乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -344,7 +344,7 @@
   },
   "telecom": {
     "status": "ALERT",
-    "kddi_msg": "au/UQ: 【復旧済み】 auおよびUQ mobileのメールサービスがご利用できない、またはご",
+    "kddi_msg": "au/UQ: 【要警戒】【災害影響】2026年11月20日からの大雪の影響により携帯電話サービ...",
     "docomo_msg": "ドコモ: 直近の障害発表なし（正常）",
     "sb_msg": "ソフトバンク: 直近の障害発表なし（正常）",
     "rakuten_msg": "楽天モバイル: 【要確認】【災害影響】ドコモ回線をご利用の一部のお客様において、通信サービスがご利用できな",
@@ -363,8 +363,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 05:09",
+          "text": "【通信 START 障害 END についての追加情報】 現在、猪苗代町の一部地域において、ソフトバンク回線並びに START au END 回線を利用した携帯電..."
+        },
         {
           "time": "11/21 02:26",
           "text": "START au END ひかり START 障害 END か？ Wi-Fi繋がらんのやけど"
@@ -372,10 +376,6 @@
         {
           "time": "11/20 23:57",
           "text": "そろそろ START au END さん START 障害 END に乗せてくれてもいいのよ？ ずっと圏外なんだわ"
-        },
-        {
-          "time": "11/20 23:54",
-          "text": "神奈川県鎌倉市 START au障害 END 中かな現在家のWiFi"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -409,8 +409,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 04:58",
+          "text": "うちは START au END がクソだった。 START 繋がらない END 。キレる。 https://t.co/ExS5iw9cgG"
+        },
         {
           "time": "11/21 03:17",
           "text": "@Take3_hiro16 お昼時に失礼します、povoサポートです。全然 START 繋がらない END のはストレスですよね💦次のお乗り換え先はもうお決まり..."
@@ -418,10 +422,6 @@
         {
           "time": "11/21 02:44",
           "text": "@Mizinko_DMP 乗り換え先楽天モバイル良いと言っている人多いですが旅行先や建物内で一切 START 繋がらない END 事が多々あり私は嫌でした。 P..."
-        },
-        {
-          "time": "11/21 02:40",
-          "text": "@iluvnachisan ポスト拝見しましたが、場所を問わず START au END スマホが START 繋がらない END でしょうか？もし宜しければ、..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -470,8 +470,40 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 13,
+    "disaster_count": 10,
     "articles": [
+      {
+        "title": "宝くじ収益で被災地40億円支援　熊本に優先配分、年末ジャンボ(共同通信)",
+        "summary": "熊本地震の被災地を支援するため、年末ジャンボ宝くじの収益金のうち、約40億円が熊本県と熊本市に優先配分される。都道府県と政令指定都市でつくる発売団体「全国自治宝くじ事務協議会」が決定した。復旧・復興事",
+        "pub_date": "11/21 14:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/d43342e70ffb0c1d90b7ef17f385b475a7e876be?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "大規模地震による津波被害に備え　和歌山県警や消防、海南の防災公園で対応訓練(産経新聞)",
+        "summary": "和歌山県警は、大規模な地震による津波被害の発生に備える災害対応訓練を海南市民防災公園「海南ハレアメ」（同市大野中）で実施し、消防など関係機関との連携を確認した。今春オープンした同公園で県警が災害訓練を",
+        "pub_date": "11/21 14:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/1d5b51858b95c969fb40e1ba00065282d8017d5c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【動画解説】北陸は日曜日にかけて土砂災害に警戒　月曜日にかけて朝の冷え込み強まる(ウェザーマップ)",
+        "summary": "きょう（土）も日本海側では広い範囲で雪や雨が続き、北陸中心にあす（日）にかけて雨の量がさらに増えそうです。これまでの大雨で地盤の緩んでいる所もあるため、土砂災害に厳重な警戒が必要です。晴れる所も、月曜",
+        "pub_date": "11/21 14:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/e81cbaa853ec2c61db0b5414a9bef8ff4568e0f6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "自閉症、災害の避難所にためらい　熊本の家族会「ハードル高い」(共同通信)",
+        "summary": "こだわりが強いといった特性がある自閉スペクトラム症（ASD）の人にとって、慣れない環境はパニックを招く恐れがあり、災害時に避難所へ行くことをためらいがちだ。7月の熊本地震後、家族らでつくる団体の調査で",
+        "pub_date": "11/21 13:46 JST",
+        "link": "https://news.yahoo.co.jp/articles/c35b326986f5ce9b9a5e6d9a91ef77ae453b937c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "三郷JCT近くの倉庫で火災　発生から5時間以上経った今も消火活動続く(テレビ朝日系（ANN）)",
         "summary": "けさ、埼玉県三郷市の大型物流倉庫で火事があり、発生から5時間以上経った今も消火活動が続いています。",
@@ -521,79 +553,47 @@
         "is_disaster": true
       },
       {
-        "title": "年間被害額は3460億円→巧妙化するセルフレジ万引きの実態 一方で“うっかり万引き”も深刻化？「ピッてしたら横の人の音だった」「4点買ったのにレシートには3点」SNSに体験談相次ぐ(ABEMA TIMES)",
-        "summary": "セルフレジの導入が急速に進む一方で、それに伴う万引き被害の増加が深刻な問題となっている。巧妙化する手口に店側が頭を悩ませる中、対策コストの肥大化や、操作ミスによる意図しない持ち帰りなど、多角的な課題が",
-        "pub_date": "11/21 11:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/4570cec90704eb96164f52f235365174d3203a2f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "東武日光線の踏切で特急列車と乗用車が接触(ABEMA TIMES)",
-        "summary": "東武日光線の特急列車が、踏切内で立ち往生していた乗用車と接触する事故がありました。【映像】列車と接触し、潰れた車（複数カット） 東武鉄道によりますと、午前7時半ごろ、栃木市の東武日光線の静和駅と新大平",
-        "pub_date": "11/21 10:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/698ba8bd94db640234b914ee9ef458a00bb42911?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "東武日光線が乗用車と衝突　踏切内で立ち往生　列車は急ブレーキも間に合わず　栃木(テレビ朝日系（ANN）)",
-        "summary": "東武日光線の特急列車が踏切内で立ち往生していた乗用車と接触する事故がありました。 東武鉄道によりますと、21日午前7時半ごろ、栃木市の東武日光線の静和駅と新大平下駅の間にある踏切内で、下りの特急列車と",
-        "pub_date": "11/21 10:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/e4f02303c7ea2e794474aa7ef1c1098ab0515ba7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "空調ない体育館、指導者の半数が「このまま続けたら命に関わる」。“断熱”と“空調設置”で体育館を安全な学びの場と災害時の避難所に(ハフポスト日本版)",
-        "summary": "地球温暖化の影響で日本でも、夏の暑さが命を脅かすレベルになってきている。そんな中、まるで「サウナ」のような暑さになってしまうのが、学校の「体育館」だ。【動画】桃田賢斗選手のインタビュー動画などはこちら",
-        "pub_date": "11/21 10:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/b06b54dc2527d9e94c09cda959dda1e09b6f8a61?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "埼玉・三郷の物流施設で火災　5階建て、負傷者情報なし(共同通信)",
-        "summary": "21日午前7時35分ごろ、埼玉県三郷市インター南1丁目の大型物流施設「Marq三郷3」で、黒煙が上がっているのを警備員が見つけ119番した。施設は鉄筋コンクリート5階建てで、消防によると1階の低温倉庫",
-        "pub_date": "11/21 10:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/7352d344d9e92e503ade95c9d6c2eebaf7fd037a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "埼玉八潮陥没事故　死亡の男性遺族が民事訴訟　県は賠償額を争う姿勢(テレビ朝日系（ANN）)",
-        "summary": "去年1月、埼玉県八潮市で陥没した道路にトラックが落下して男性が死亡した事故で、男性の遺族が埼玉県を相手取り約1億2500万円の損害賠償を求めた裁判で、埼玉県側は賠償額を争う姿勢を示しました。 訴状など",
-        "pub_date": "11/21 10:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/5e7c87db4d57ecab52a65374d6f25150edd1f805?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "特急と立ち往生の車が衝突 東武",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/21 11:57 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6603388?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "新潟の少年院、分身が職場見学　ミスマッチ防止へロボット活用(共同通信)",
-        "summary": "ロボットを活用した職場見学が、新潟県長岡市の少年院「新潟少年学院」で始まった。外に出にくい在院者に代わり、カメラを内蔵したロボットを職員が肩に載せて企業を訪問。「分身」が未来の職場と院内を生中継でつな",
-        "pub_date": "11/21 13:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/3b6b6d5e63366a25cea52c4cd200f507acfc157d?source=rss",
+        "title": "明日22日は日本海側の雪や雨も収まる　連休最終日23日にかけて紅葉狩り日和(日本気象協会tenki.jp)",
+        "summary": "明日22日(日)は、日本海側の雪や雨の降る範囲も徐々に減少し、晴れる所が多くなるでしょう。連休最終日の23日(勤労感謝の日)にかけてお出かけ日和の所も多くなりそうです。西日本や東日本では紅葉が見頃の所",
+        "pub_date": "11/21 14:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/c1fec76cf7690a3980574c5f330171c482f45f1e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "東京消防庁が東京湾で大規模訓練　周辺の消防局や海保などと連携確認(テレビ朝日系（ANN）)",
-        "summary": "東京湾での大規模な災害の発生に備えて、東京消防庁が横浜市や千葉市の消防局などと連携して合同訓練を行いました。 20日、東京消防庁は横浜市や千葉市など東京湾周辺の消防局や海上保安庁などと合同で、大規模災",
-        "pub_date": "11/21 13:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/c4fc040431689725932cab9f1723d7b33ff589cf?source=rss",
+        "title": "東京消防庁 横浜や千葉と連携 東京湾で合同訓練(ABEMA TIMES)",
+        "summary": "東京湾での大規模な災害の発生に備えて、東京消防庁が、横浜市や千葉市の消防局などと連携して、合同訓練を行いました。【映像】合同訓練の様子（複数カット） 20日、東京消防庁は横浜市や千葉市など東京湾周辺の",
+        "pub_date": "11/21 14:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/20c0e299838979d219e064d4c5eef3b9ec6770ac?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "“ルフィ”Gトップは「影が薄い」 実行役が証言(ABEMA TIMES)",
+        "summary": "“ルフィ”などと名乗るグループのトップの裁判で、強盗致死事件などで実行役だった男が出廷し、トップが通信アプリで名乗っていたとされる人物について「影が薄い」と証言しました。【映像】連行される容疑者ら 渡",
+        "pub_date": "11/21 14:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/87e197364700ac0136c55424a48db4a6999b8b4f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "天皇陛下 来日中のペルーとチリの大統領と面会(ABEMA TIMES)",
+        "summary": "天皇陛下が来日中の南米・ペルーとチリの大統領にそれぞれ面会されました。 天皇陛下は20日午前、ペルーのケイコ・フジモリ大統領を皇居の御所で出迎えられました。フジモリ大統領は、アルベルト元大統領の長女で",
+        "pub_date": "11/21 14:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/47e548bf01076d49657c97a18f0694266b97d3ce?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "大雪で福島・裏磐梯周辺の住民やホテル孤立(共同通信)",
+        "summary": "福島県北塩原村などによると21日午後、大雪による倒木で国道459号や県道の一部区間がふさがれ、同村の裏磐梯地区周辺の514世帯948人とホテルなどの宿泊客約500人が孤立状態となっている。復旧のめどは",
+        "pub_date": "11/21 14:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/a884a5f7b71c65b268b33a4da5b8b846abec2b47?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-21 13:44:09 JST"
+    "last_updated": "2026-11-21 14:37:59 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",

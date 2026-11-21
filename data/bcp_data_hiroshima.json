@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 05:39:16",
+  "timestamp": "2026-11-21 06:38:10",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -191,11 +191,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "雷注意報",
+          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -206,11 +206,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "雷注意報",
+          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/32/"
       },
       {
@@ -221,11 +221,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "雷注意報",
+          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/31/"
       },
       {
@@ -252,13 +252,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（新幹線: 山陽新幹線（列車遅延））",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "text": "運行支障あり（在来線: 山口線 ／ 新幹線: 山陽新幹線（列車遅延））",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（山口線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "山口線"
+    ],
     "troubled_shinkansen": [
       "山陽新幹線（列車遅延）"
     ],
@@ -310,7 +312,7 @@
     "kddi_msg": "au/UQ: 【要警戒】【災害影響】2026年11月20日からの大雪の影響により携帯電話サービ...",
     "docomo_msg": "ドコモ: 直近の障害発表なし（正常）",
     "sb_msg": "ソフトバンク: 直近の障害発表なし（正常）",
-    "rakuten_msg": "楽天モバイル: 【要確認】【災害影響】ドコモ回線をご利用の一部のお客様において、通信サービスがご利用できな",
+    "rakuten_msg": "楽天モバイル: 【要確認】【災害影響】パートナー回線エリア・au回線をご利用のお客様において、大雪の影響に",
     "kddi_url": "https://www.au.com/information/notice_mobile/network/",
     "au_url": "https://www.au.com/information/notice_mobile/network/",
     "uq_url": "https://www.uqwimax.jp/information/",
@@ -329,16 +331,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/21 06:30",
+          "text": "START au END の通信 START 障害 END 恐らく、積雪で部分的停電の影響か、モバイルもWiFiも入ったり切れたりで最悪…、何も出来ず、、"
+        },
+        {
           "time": "11/21 05:09",
           "text": "【通信 START 障害 END についての追加情報】 現在、猪苗代町の一部地域において、ソフトバンク回線並びに START au END 回線を利用した携帯電..."
         },
         {
           "time": "11/21 02:26",
           "text": "START au END ひかり START 障害 END か？ Wi-Fi繋がらんのやけど"
-        },
-        {
-          "time": "11/20 23:57",
-          "text": "そろそろ START au END さん START 障害 END に乗せてくれてもいいのよ？ ずっと圏外なんだわ"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -372,19 +374,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 05:47",
+          "text": "@suzutomaguro 突然のお声掛け失礼します、povoサポートです。 START 繋がらない END ことがあると不安になりますよね💦もしよろしければ、..."
+        },
+        {
+          "time": "11/21 05:43",
+          "text": "docomoと縁を切ったけど、先日電波の入らない施設に行ったら中々に不便だった。 やはり START au END のみだとカバーし切れない場所もあるのでデュア..."
+        },
         {
           "time": "11/21 04:58",
           "text": "うちは START au END がクソだった。 START 繋がらない END 。キレる。 https://t.co/ExS5iw9cgG"
-        },
-        {
-          "time": "11/21 03:17",
-          "text": "@Take3_hiro16 お昼時に失礼します、povoサポートです。全然 START 繋がらない END のはストレスですよね💦次のお乗り換え先はもうお決まり..."
-        },
-        {
-          "time": "11/21 02:44",
-          "text": "@Mizinko_DMP 乗り換え先楽天モバイル良いと言っている人多いですが旅行先や建物内で一切 START 繋がらない END 事が多々あり私は嫌でした。 P..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -430,8 +432,32 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 12,
     "articles": [
+      {
+        "title": "海保無人機シーガーディアン北九州事故、自動着陸11回やり直し＝運輸安全委(Aviation Wire)",
+        "summary": "国の運輸安全委員会（JTSB）は、海上保安庁の遠隔操縦無人機MQ-9B「シーガーディアン」（登録記号JA482A）が、2025年11月23日に北九州空港への着陸時にプロペラと垂直尾翼を滑走路に接触させ",
+        "pub_date": "11/21 15:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/c037e1e8770b628e66489e9dd68792964a1ee93b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【警報級大雨のおそれ】気象庁の週間天気予報　東日本の日本海側で24日（火）ごろ低気圧からのびる前線の活動次第で「警報級の大雨」の可能性　26日（木）にかけて雨風シミュレーション(RSK山陽放送)",
+        "summary": "■警報級大雨の可能性気象庁がきょう（21日）発表した週間天気予報（22⽇〜28⽇）によりますと、北⽇本と東⽇本から⻄⽇本にかけての⽇本海側は、曇りや⾬または雪の降る所が多いでしょう。【画像で見る】26",
+        "pub_date": "11/21 15:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/e7aa8028bfa8bd227c122009b2354ef75667c813?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "高崎線で人身事故 一部運転見合わせ(レスキューナウニュース)",
+        "summary": "倉賀野駅で発生した人身事故の影響で、高崎線は籠原～高崎駅間の運転を見合わせています。",
+        "pub_date": "11/21 15:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/842ad18f95c232aaeacec62cee670d2bf9a66ec3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "宝くじ収益で被災地40億円支援　熊本に優先配分、年末ジャンボ(共同通信)",
         "summary": "熊本地震の被災地を支援するため、年末ジャンボ宝くじの収益金のうち、約40億円が熊本県と熊本市に優先配分される。都道府県と政令指定都市でつくる発売団体「全国自治宝くじ事務協議会」が決定した。復旧・復興事",
@@ -505,55 +531,31 @@
         "is_disaster": true
       },
       {
-        "title": "【火災注意】木造二階建て長屋で火災　1人死亡　大阪府八尾市(読売テレビ)",
-        "summary": "20日夕方、大阪府八尾市の住宅で火事があり、1人の遺体が見つかりました。 火事があったのは、八尾市大窪にある木造2階建ての住宅で、20日午後5時すぎ、「家が燃えている」と通行人の女性から119番通報が",
-        "pub_date": "11/21 12:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/fc13694b61203c98b0ea633727bc9c018e4b7037?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "明日22日は日本海側の雪や雨も収まる　連休最終日23日にかけて紅葉狩り日和(日本気象協会tenki.jp)",
-        "summary": "明日22日(日)は、日本海側の雪や雨の降る範囲も徐々に減少し、晴れる所が多くなるでしょう。連休最終日の23日(勤労感謝の日)にかけてお出かけ日和の所も多くなりそうです。西日本や東日本では紅葉が見頃の所",
-        "pub_date": "11/21 14:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/c1fec76cf7690a3980574c5f330171c482f45f1e?source=rss",
+        "title": "日韓女性記者フォーラム　日本で初開催　女性を取り巻く問題やメディア課題の意見交換(テレビ朝日系（ANN）)",
+        "summary": "日本と韓国の女性記者が女性を取り巻く問題やメディアの課題について意見を交わす「日韓女性記者フォーラム」が初めて日本で開催されました。日本女性記者協会 秋山理砂代表理事「伝統的メディアは意思決定層への女",
+        "pub_date": "11/21 15:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/d0a4812af42d2f392491a49d49ae4b05ebd928e4?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "東京消防庁 横浜や千葉と連携 東京湾で合同訓練(ABEMA TIMES)",
-        "summary": "東京湾での大規模な災害の発生に備えて、東京消防庁が、横浜市や千葉市の消防局などと連携して、合同訓練を行いました。【映像】合同訓練の様子（複数カット） 20日、東京消防庁は横浜市や千葉市など東京湾周辺の",
-        "pub_date": "11/21 14:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/20c0e299838979d219e064d4c5eef3b9ec6770ac?source=rss",
+        "title": "福岡市長選再選挙5人立候補意向　3人は不出馬(共同通信)",
+        "summary": "15日投開票され当選者が出なかった福岡市長選に関し、立候補した13人のうち、元衆院議員稲富修二氏ら5人が再選挙に出馬する意向を固めたことが21日、関係者への取材で分かった。3人は不出馬を決めた。 稲富",
+        "pub_date": "11/21 15:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/de99533f57c22f3feb228997c9bdf623b8bbade5?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "“ルフィ”Gトップは「影が薄い」 実行役が証言(ABEMA TIMES)",
-        "summary": "“ルフィ”などと名乗るグループのトップの裁判で、強盗致死事件などで実行役だった男が出廷し、トップが通信アプリで名乗っていたとされる人物について「影が薄い」と証言しました。【映像】連行される容疑者ら 渡",
-        "pub_date": "11/21 14:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/87e197364700ac0136c55424a48db4a6999b8b4f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "天皇陛下 来日中のペルーとチリの大統領と面会(ABEMA TIMES)",
-        "summary": "天皇陛下が来日中の南米・ペルーとチリの大統領にそれぞれ面会されました。 天皇陛下は20日午前、ペルーのケイコ・フジモリ大統領を皇居の御所で出迎えられました。フジモリ大統領は、アルベルト元大統領の長女で",
-        "pub_date": "11/21 14:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/47e548bf01076d49657c97a18f0694266b97d3ce?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "大雪で福島・裏磐梯周辺の住民やホテル孤立(共同通信)",
-        "summary": "福島県北塩原村などによると21日午後、大雪による倒木で国道459号や県道の一部区間がふさがれ、同村の裏磐梯地区周辺の514世帯948人とホテルなどの宿泊客約500人が孤立状態となっている。復旧のめどは",
-        "pub_date": "11/21 14:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/a884a5f7b71c65b268b33a4da5b8b846abec2b47?source=rss",
+        "title": "関文科大臣を交代させる可能性も示唆　自民・鈴木幹事長(テレビ朝日系（ANN）)",
+        "summary": "関文部科学大臣の政治資金パーティーを巡る問題で自民党の鈴木幹事長は、重要法案の成立に向け「阻害要因をなくすことが重要だ」と述べ、関大臣を交代させる可能性も示唆しました。自民党 鈴木幹事長「いろいろ判断",
+        "pub_date": "11/21 15:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/0b40b1137c38006ec4ae15a3e73cb6b894de0107?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-21 14:39:03 JST"
+    "last_updated": "2026-11-21 15:37:41 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

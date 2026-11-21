@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 22:05:43",
+  "timestamp": "2026-11-21 22:48:38",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -245,13 +245,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（新幹線: 山陽新幹線（その他））",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "text": "運行支障あり（在来線: 山陰本線 ／ 新幹線: 山陽新幹線（その他））",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（山陰本線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "山陰本線"
+    ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）"
     ],
@@ -319,8 +321,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 22:20",
+          "text": "今 START au END って通信 START 障害 END 出てます？😇(現モバイルWiFi)"
+        },
         {
           "time": "11/21 15:02",
           "text": "岐阜県 START au END 通信 START 障害 END 出てる https://t.co/571jLvLgWh"
@@ -328,10 +334,6 @@
         {
           "time": "11/21 14:16",
           "text": "家に着いた途端また通信状況悪くなるの何なん START au END で通信 START 障害 END とか起きてます？"
-        },
-        {
-          "time": "11/21 14:09",
-          "text": "家のWiFi( START au END )使えないんだけど？ なんか START 障害 END 出てんの？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -426,6 +428,30 @@
     "disaster_count": 10,
     "articles": [
       {
+        "title": "洋式便器がバキバキに…単独犯ではない？解体業者が指摘する“犯人像” 長野・公園トイレ連続破壊(ABEMA TIMES)",
+        "summary": "長野・駒ヶ根市で、公園の公衆トイレが次々と破壊される事件が発生した。被害は市内5カ所、破壊された便器は計12基にのぼる。何者が、何の目的で犯行に及んだのか。【映像】便器や洗面台がバキバキに…被害に遭っ",
+        "pub_date": "11/22 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/a28897c3def910a2b272ba84b590321f607052ba?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "乗用車で原付バイクと衝突　重傷ひき逃げの疑いでトルコ国籍の男を逮捕　名古屋・東区(CBCテレビ)",
+        "summary": "21日名古屋市東区で、車と衝突した原付バイクの運転手が重傷を負ったひきにげ事件で、警察はトルコ国籍の42歳の男を逮捕しました。【写真を見る】乗用車で原付バイクと衝突 重傷ひき逃げの疑いでトルコ国籍の男",
+        "pub_date": "11/22 07:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/90c13dd685dafa5e7d799984d8810c56a7951994?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「通行人がパニック、地獄絵図のようでした」けが人多数、血を大量に流して倒れる女性も…飯塚幸三が招いた「池袋暴走事故」の衝撃(文春オンライン)",
+        "summary": "「その直後に、ブレーキが抜けて利かない感じがしました」 2019年4月19日、池袋で当時87歳の飯塚幸三氏の自家用車が暴走し、母子が死亡するなど12人が死傷した。 ドライブレコーダーの映像などをもとに",
+        "pub_date": "11/22 07:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/25021b6c37aec829b1284e23a817c51abe33d947?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "左から追い抜こうと…車で原付バイクに衝突し男性に重傷負わせて逃走した疑い トルコ国籍の42歳男を逮捕(東海テレビ)",
         "summary": "名古屋市東区で、22日未明、原付バイクの男性が大ケガしたひき逃げ事件で、トルコ国籍の42歳の男が逮捕されました。 警察によりますと、逮捕されたのは愛知県春日井市に住むトルコ国籍の自営業、クルッチ・クタ",
         "pub_date": "11/22 06:45 JST",
@@ -434,8 +460,8 @@
         "is_disaster": true
       },
       {
-        "title": "首里城正殿 きょう復元完成式　火災による焼失から7年(テレビ朝日系（ANN）)",
-        "summary": "2019年に火災で焼失した首里城正殿の復元作業が完了し、22日午後に完成式が開かれます。 2019年10月31日未明、正殿から出火した火災で首里城では9つの施設や保管されていた文化財が焼失しました。",
+        "title": "首里城正殿 きょう復元完成式　火災による焼失から7年 23日から一般公開(テレビ朝日系（ANN）)",
+        "summary": "2019年に火災で焼失した首里城正殿の復元作業が完了し、22日午後に完成式が開かれます。 2019年10月31日未明に正殿から出火した火災で、首里城では9つの施設や保管されていた文化財が焼失しました。",
         "pub_date": "11/22 06:29 JST",
         "link": "https://news.yahoo.co.jp/articles/b710c7caf4e5add99caabf861708870c3be4491a?source=rss",
         "category": "国内・気象防災",
@@ -482,71 +508,47 @@
         "is_disaster": true
       },
       {
-        "title": "小田急小田原線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "20:37頃、玉川学園前～町田駅間で発生した人身事故の影響で、小田急小田原線は新百合ケ丘～町田駅間の運転を見合わせています。振替輸送を行っています。",
-        "pub_date": "11/21 20:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/78817301ee4760067e8fc8121aa0b85714b82688?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "背中の肉をえぐられ､肋骨は肺に刺さった…札幌の住宅街でヒグマに襲われた被害者が語る｢1分足らずの恐怖｣(プレジデントオンライン)",
-        "summary": "2021年6月18日、札幌市東区にヒグマが出没し、通行人ら4人を次々と襲った。なぜ誰にも気付かれずに住宅街までたどり着けたのか。ライターの伊藤秀倫さんの著書『羆を撃つ』(文藝春秋)より、専門家やハンタ",
-        "pub_date": "11/21 20:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/13a14056784837eace2aae3cc631616d74d4f1d5?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「負の歴史」をどう後世に引き継ぐか／酒井義一（真宗大谷派存明寺住職）(ビデオニュース・ドットコム)",
-        "summary": "太平洋戦争、水俣病などの公害、薬害、原発災害。被害の記憶を後世に伝えることはもちろんだが、そこに加担してしまった市民の責任を、私たちは問い続けることができているだろうか。 ハンセン病は感染力が弱く、戦",
-        "pub_date": "11/21 20:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/fd0da294037936f675ca60d8706ac3ceb107107b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「Payどん」全サービス停止　不正アクセスで25万件余り漏えいか　鹿児島銀行など4行が共同運営　交通決済の開始から1カ月　プレミアムポイント販売も2度目の延期(FNNプライムオンライン)",
-        "summary": "決済システムへの不正アクセスで25万件余りの個人情報が漏えいしたとして、キャッシュレス決済アプリ「Payどん」は11月20日朝、すべてのサービスを停止した。2019年のサービス開始以降、全サービスの停",
-        "pub_date": "11/22 07:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/735cc58f9b5cc676321e88035c42fafa46d78f34?source=rss",
+        "title": "1セット80万円でも世界中から注文が 10分以上回り続ける自転車ハブを生んだ“ジェット機”の技術 職人による究極のモノづくり(CBCテレビ)",
+        "summary": "AIの時代に「人の手」による技術を極限まで磨き上げる町工場があります。東海地方のものづくりを支える、オンリーワンの技術を取材しました。【写真を見る】1セット80万円でも世界中から注文が 10分以上回り",
+        "pub_date": "11/22 07:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/0ab5e4dd8c1fdab5386b40bd61fbcc0337f0487a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "品切れ続出の「高野豆腐」は煮物だけじゃもったいない！　揚げると“お肉のような食感”に【乾物図鑑②】(AERA DIGITAL)",
-        "summary": "スーパーで品薄になるほど、いま注目を集めている高野豆腐。テレビ番組でその健康効果が紹介されたことなどをきっかけに、人気が高まっています。手軽にたんぱく質を補える高野豆腐ですが、だしを含ませる煮物はもち",
-        "pub_date": "11/22 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/40259e72fd3a0be680a08c59a6a9c6b41fa57990?source=rss",
+        "title": "雪の範囲は次第に狭まる　気温は上がらず　晴れる地域も防寒を　今日22日の天気(日本気象協会tenki.jp)",
+        "summary": "今日22日(日)の日中は、雪や雨の範囲が次第に狭くなります。最高気温は、この時期としては低い所がほとんどで、名古屋で12℃など晴れる地域も空気は冷たいままでしょう。",
+        "pub_date": "11/22 07:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/f21cbaa8f5c59ea85177ea24a3bfded8c7e19337?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「結婚式を挙げる予定はない」が4割のなか...結婚式の新たな形「理念式」とは　夫婦が共通の“言葉”を持つことを2人の旅のスタートに(RSK山陽放送)",
-        "summary": "皆さんは「結婚式」と聞くとどのようなものを想像しますか。教会式や神前式、寺などで行う仏前式、集まったゲストに結婚を誓う、人前式など。社会の変化に伴って、その形は多様化しています。こうした中、岡山県倉敷",
-        "pub_date": "11/22 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/9aeb88729b693a3ecf6b8e3b5bfa2cde53d21aca?source=rss",
+        "title": "岡山を代表する魚「ヒラ」は小骨が多くて調理が…「煮付け」にするとアラ不思議!骨が気にならず箸がすっと入るほど柔らかくてホクホクした味わい【岡山発】(FNNプライムオンライン)",
+        "summary": "OHK岡山放送＜岡山・香川エリア＞で月曜から金曜の午後3時47分から放送中の情報番組「なんしょん?」で、岡山・香川の旬の魚介類を紹介する人気コーナー「瀬戸内旬紀行」。岡山市中央卸売市場の市場関係者でつ",
+        "pub_date": "11/22 07:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/d07c1be5f9c2bb6000270d3e6122e896c5ce4bcb?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "23日の天気（西日本）(共同通信)",
-        "summary": "◆大阪 晴れ◆京都 晴れ◆広島 晴れのち曇り◆高松 晴れ時々曇り◆福岡 晴れのち曇り◆鹿児島 晴れ◆那覇 晴れのち曇り",
-        "pub_date": "11/22 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/0ff43559e6b41fd907ab8c7779494bfc992b0fa8?source=rss",
+        "title": "トランプ敗北で日本の「給料」と「物価」はどうなる…専門家が警告する家計へのダブルパンチ(週刊女性PRIME)",
+        "summary": "11月3日、4年間のアメリカ大統領任期の折り返し地点で行われる中間選挙があった。結果は上院・下院ともに民主党が過半数突破。共和党は敗北に終わり、トランプ政権への不満が表面化し、一強だった政権に陰りを見",
+        "pub_date": "11/22 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/fa2ef9152cd35994519a26cff1f0132ef12ddbe7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "印の走る宮殿豪華列車、日本人客に熱視線　マハラジャ・エクスプレス、市場再開拓へ(共同通信)",
-        "summary": "外国人観光客数が新型コロナウイルス禍の収束後も伸び悩んでいるインドで、“走る宮殿”とも呼ばれる豪華観光列車の宣伝に政府が力を入れている。「インド国内で需要が高まっている」（現地旅行代理店幹部）ため、外",
-        "pub_date": "11/22 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/dea59de4994ce0cdc745dd15eba718a385856bf1?source=rss",
+        "title": "“オレンジ色のカーテン”「枯露柿」作りが最盛期　山梨・甲州市(テレビ朝日系（ANN）)",
+        "summary": "山梨県甲州市の農家では、特産の「枯露柿」作りが最盛期を迎えています。 山梨県甲州市にある岩波農園では、オレンジ色のカーテンのように「枯露柿」がずらりと吊るされています。 「枯露柿」は地元で採れる「甲州",
+        "pub_date": "11/22 07:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/a68ee735106fe55d4caa5368343efd17e4532c08?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 07:05:00 JST"
+    "last_updated": "2026-11-22 07:47:52 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -567,10 +569,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "TNXuUFV-Ehg",
+        "video_id": "XmUhE6Nzbt0",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/TNXuUFV-Ehg?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=TNXuUFV-Ehg"
+        "embed_url": "https://www.youtube.com/embed/XmUhE6Nzbt0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=XmUhE6Nzbt0"
       },
       {
         "id": "stream_tbsnews",

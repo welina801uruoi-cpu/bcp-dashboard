@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 07:51:42",
+  "timestamp": "2026-11-21 08:38:50",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -187,12 +187,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "大雨注意報",
           "強風注意報",
-          "雷注意報",
           "波浪注意報",
-          "大雨注意報"
+          "雷注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報、大雨注意報",
+        "summary": "大雨注意報、強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -203,11 +203,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "大雪注意報",
-          "着雪注意報"
+          "着雪注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、大雪注意報、着雪注意報",
+        "summary": "大雪注意報、着雪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -218,13 +218,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "着雪注意報",
+          "雷注意報",
+          "大雪注意報",
           "なだれ注意報",
-          "霜注意報",
-          "大雪注意報"
+          "霜注意報"
         ],
-        "summary": "雷注意報、着雪注意報、なだれ注意報、霜注意報、大雪注意報",
+        "summary": "着雪注意報、雷注意報、大雪注意報、なだれ注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/21/"
       },
       {
@@ -278,24 +278,22 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 信越本線 ／ 新幹線: 東海道新幹線（列車遅延））",
+    "text": "運行支障あり（在来線: 信越本線）",
     "line_status": "ALERT",
     "line_text": "運行支障あり（信越本線）",
-    "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延））",
+    "shinkansen_status": "NORMAL",
+    "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
       "信越本線"
     ],
-    "troubled_shinkansen": [
-      "東海道新幹線（列車遅延）"
-    ],
+    "troubled_shinkansen": [],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "混雑の影響で、下り線(新大阪方面行)の一部列車に遅れが出ています。（11月21日 16時40分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "17:30現在、ほぼ平常通り運転しています。（11月21日 17時30分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       }
     ],
@@ -314,7 +312,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】新潟・長野・岐阜で停電情報を検知",
+    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野・岐阜で停電情報を検知",
     "water_msg": "名古屋市上下水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東邦ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -357,16 +355,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/21 08:32",
+          "text": "【大雪・携帯 START 障害 END の続報】KDDIが福島・長野・岐阜の一部で災害時の代替回線を順次提供。 START au END ・UQ・povoなどで..."
+        },
+        {
           "time": "11/21 07:16",
           "text": "サブ回線を START au END 系にしたら、全然繋がらない件。電波 START 障害 END かな？使い始めて3日目なんだけど…。"
         },
         {
           "time": "11/21 06:30",
           "text": "START au END の通信 START 障害 END 恐らく、積雪で部分的停電の影響か、モバイルもWiFiも入ったり切れたりで最悪…、何も出来ず、、"
-        },
-        {
-          "time": "11/21 05:09",
-          "text": "【通信 START 障害 END についての追加情報】 現在、猪苗代町の一部地域において、ソフトバンク回線並びに START au END 回線を利用した携帯電..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -377,8 +375,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 08:32",
+          "text": "【大雪・携帯 START 障害 END の続報】 START KDDI END が福島・長野・岐阜の一部で災害時の代替回線を順次提供。au・UQ・povoなどで..."
+        },
         {
           "time": "11/20 10:07",
           "text": "＜【ドコモ START 障害 END 連発に総務相も遺憾】スマホの異常事態に「デュアルSIM」専門家が提案する防衛策・・＞ ところで START KDDI EN..."
@@ -386,10 +388,6 @@
         {
           "time": "11/20 09:46",
           "text": "分奈良県警本部かしおか男にまた昨日1028より110119のみ不審不通1031 START kddi END 113一条女東京に6-今自宅際停車排気ガス充満繰り..."
-        },
-        {
-          "time": "11/20 06:27",
-          "text": "@SUPER_POPPO_ 復活したならよかったよー！全然邪魔じゃない！ なんでだろ……わたしもauだけど通信 START 障害 END とかは特になかったと思..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -403,16 +401,16 @@
       "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/21 07:19",
-          "text": "START au END 死んでます…？Wi-Fi切ると全然 START 繋がらない END ですね…？"
+          "time": "11/21 08:32",
+          "text": "ネットの乗り換えに合わせて電気とかも START au END に乗り換えるかと思ったけど、あまりにも光回線の申し込み体験が悪すぎるから、キャンセルして別の会社..."
         },
         {
-          "time": "11/21 07:16",
-          "text": "サブ回線を START au END 系にしたら、全然 START 繋がらない END 件。電波障害かな？使い始めて3日目なんだけど…。"
+          "time": "11/21 08:13",
+          "text": "@nozirushi07 突然失礼します、 START au END サポート小野です。ポストを拝見し気になり、お声がけしました。 START au END の..."
         },
         {
-          "time": "11/21 06:51",
-          "text": "docomoまた調子悪い？ START 繋がらない END ねぇ。 START au END に移るか、真剣に考えよう。"
+          "time": "11/21 08:12",
+          "text": "こないだ7年ぶりくらいに1歳連れてディズニー行ったけど最悪だったよ 激混みのせいかネット START 繋がらない END からアプリ意味なし( START au..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -423,8 +421,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 08:32",
+          "text": "【大雪・携帯 START 障害 END の続報】KDDIが福島・長野・岐阜の一部で災害時の代替回線を順次提供。au・UQ・ START povo END などで..."
+        },
         {
           "time": "11/21 00:17",
           "text": "START povo障害 END でてる？"
@@ -432,10 +434,6 @@
         {
           "time": "11/20 05:45",
           "text": "START povo END のCM、舌出しがあまりに不評で替えたみたいね。 舌出し平気な人って基本的に脳の START 障害 END だから。 ベロ出してると..."
-        },
-        {
-          "time": "11/20 02:18",
-          "text": "いつの頃からか、想定以上に通信量を使うようになって START povo END をデュアルSIMのサブとして導入。ドコモの品質の悪さも相まって、重宝しています..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -459,8 +457,40 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 12,
+    "disaster_count": 13,
     "articles": [
+      {
+        "title": "巧妙化進む特殊詐欺「楽しく対策学んで」　大阪府警広報官委嘱のサバイバル系タレントPR(産経新聞)",
+        "summary": "巧妙化が進む特殊詐欺の手口を知ってもらい被害防止につなげようと、大阪府警の特殊詐欺被害防止啓発キャンペーンが21日、大阪府松原市のショッピングモールで開かれた。タレントの「さばいどる かほなん」さんが",
+        "pub_date": "11/21 17:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/fa2984cfcd6c2c825314d6e60ecc0b8e33bcbb3f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「たった一人の母の現在を知りたい」　拉致被害者の曽我ひとみさん、群馬県大泉町で講演(産経新聞)",
+        "summary": "北朝鮮に拉致され、24年前の平成14年に帰国を果たした曽我ひとみさん（67）が21日、群馬県大泉町で開かれた「令和8年度拉致問題講演会」に出席し、一緒に拉致され、今も安否が分からない母のミヨシさん（9",
+        "pub_date": "11/21 17:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/d032436a82cbdf4b209a150ceb092ceaa32f47d7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "首里城、22日に復元完成式　地元住民ら経済効果を期待(共同通信)",
+        "summary": "2019年に火災で焼失した首里城（那覇市）は22日、正殿の復元完成式が開かれる。琉球王国時代からの「沖縄の象徴」が7年ぶりにお披露目される。事前予約制で、23日からは正殿内部の一般公開が始まる。地元住",
+        "pub_date": "11/21 17:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/c05a8a27f87ef311f2de619f11b36430abb94f91?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "住宅火災で男性1人死亡　東京・板橋区(テレビ朝日系（ANN）)",
+        "summary": "東京都板橋区の住宅で火事があり、焼け跡から1人の遺体が見つかりました。 21日午前9時45分ごろ、板橋区東新町の住宅で、「火が出ている」と近隣住民から110番通報がありました。 警視庁などによりますと",
+        "pub_date": "11/21 16:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/cec6959e4800626bf9305a6f5838b6e6a2e330c0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "高崎線で人身事故 運転再開(レスキューナウニュース)",
         "summary": "倉賀野駅で発生した人身事故の影響で、高崎線は神保原～高崎駅間の運転を見合わせていましたが、16:20頃、運転を再開しました。なお、ダイヤが乱れています。",
@@ -534,55 +564,23 @@
         "is_disaster": true
       },
       {
-        "title": "自閉症、災害の避難所にためらい　熊本の家族会「ハードル高い」(共同通信)",
-        "summary": "こだわりが強いといった特性がある自閉スペクトラム症（ASD）の人にとって、慣れない環境はパニックを招く恐れがあり、災害時に避難所へ行くことをためらいがちだ。7月の熊本地震後、家族らでつくる団体の調査で",
-        "pub_date": "11/21 13:46 JST",
-        "link": "https://news.yahoo.co.jp/articles/c35b326986f5ce9b9a5e6d9a91ef77ae453b937c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "三郷JCT近くの倉庫で火災　発生から5時間以上経った今も消火活動続く(テレビ朝日系（ANN）)",
-        "summary": "けさ、埼玉県三郷市の大型物流倉庫で火事があり、発生から5時間以上経った今も消火活動が続いています。",
-        "pub_date": "11/21 13:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/46ac79c60d405ba0e33dc5e5046c4fc6aa62330b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「ようやくここまで」復旧に安堵　8月千葉豪雨で被災したケーキ店、3カ月半ぶり営業再開(産経新聞)",
-        "summary": "千葉県に甚大な被害をもたらした8月の豪雨による水害で被災し、営業停止となっていた同県大網白里市の洋菓子店「菓子工房 雅」が21日、改修工事を経て約3カ月半ぶりにリニューアルオープンした。店舗には営業再",
-        "pub_date": "11/21 12:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/26c7222192a4ecb551fa3c1dce799a1033f1106f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "将棋の福間香奈女流四冠が第2子妊娠公表(共同通信)",
-        "summary": "将棋の福間香奈女流四冠は21日、岡山県倉敷市でタイトル「倉敷藤花」の防衛を決めて記者会見し、第2子妊娠を公表した。昨年、妊娠出産で事実上不戦敗になる規定の見直しを求め、日本将棋連盟が新しい規定の策定を",
-        "pub_date": "11/21 16:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/1102ae0c1152d194e5a69d23950c0c6de8c09c56?source=rss",
+        "title": "巨大砂像に鮮やかな映像　スペインをテーマにプロジェクションマッピング　鳥取市(テレビ朝日系（ANN）)",
+        "summary": "鳥取市の「鳥取砂丘・砂の美術館」で、砂像に投影する、プロジェクションマッピングが公開されました。 華麗な音楽にあわせて臨場感あふれる色鮮やかな映像が映し出されています。 スペインの歴史や、ガウディが残",
+        "pub_date": "11/21 17:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/756dfbe3b431087b036a68b45887d0c67951b92a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "防衛費70〜80兆円を与党が要求、財務省案に「足りない」と批判　閣僚経験者は「首相に計画性がない」(西日本新聞me)",
-        "summary": "政府が年末に改定予定の安全保障関連3文書で定める防衛費を巡り、政府、与党内の議論が過熱している。2027年度からの5年間で70～80兆円の積み上げが必要と見積もる防衛省や与党議員に対し、財務省は増税に",
-        "pub_date": "11/21 16:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/26ece3fe157396d5d755cd08ac1b9105603bed93?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "手洗いとアルコール消毒、手が荒れにくいのはどっち？　乾燥する季節の手荒れ対策(ウェザーマップ)",
-        "summary": "冬が近づき、空気が乾燥する季節。手荒れに悩む方も増えてくるでしょう。湿度が低い環境では、皮膚の水分が失われやすく、バリア機能も低下しやすくなります。普段と同じように手を洗っていても、冬は手が荒れやすい",
-        "pub_date": "11/21 16:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/e0bb4cc349ee313e30ef2e7e54ffa603e87350d8?source=rss",
+        "title": "警察庁が採用活動で異例のポップな取り組み　広報動画に「そろ谷のアニメっち」活用(テレビ朝日系（ANN）)",
+        "summary": "警察官採用試験の受験者数が年々減少するなか、警察庁は、SNSなどで人気のアニメクリエイターを起用した採用広報動画を公開しました。 全国の警察官採用試験の受験者数は去年は4万1077人と、10年前の9万",
+        "pub_date": "11/21 17:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/91caee5a2cf55ae722a5a3bcb447659cb91cdb71?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-21 16:51:00 JST"
+    "last_updated": "2026-11-21 17:38:00 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -625,10 +623,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "vR-5vcFeuTg",
+        "video_id": "QoQEEp1z8nk",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/vR-5vcFeuTg?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=vR-5vcFeuTg"
+        "embed_url": "https://www.youtube.com/embed/QoQEEp1z8nk?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=QoQEEp1z8nk"
       },
       {
         "id": "stream_annnews",

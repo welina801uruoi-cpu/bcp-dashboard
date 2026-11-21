@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 16:31:55",
+  "timestamp": "2026-11-21 17:15:12",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -241,11 +241,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "霜注意報",
+          "雷注意報",
           "なだれ注意報"
         ],
-        "summary": "雷注意報、霜注意報、なだれ注意報",
+        "summary": "霜注意報、雷注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/7/"
       }
     ]
@@ -259,11 +259,11 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 仙山線、磐越西線、奥羽本線 ／ 新幹線: 山形新幹線（運転見合わせ））",
+    "text": "運行支障あり（在来線: 仙山線、磐越西線、奥羽本線）",
     "line_status": "ALERT",
     "line_text": "運行支障あり（仙山線、磐越西線、奥羽本線、北上線）",
-    "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山形新幹線（運転見合わせ））",
+    "shinkansen_status": "NORMAL",
+    "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/3",
     "troubled_lines": [
       "仙山線",
@@ -271,9 +271,7 @@
       "奥羽本線",
       "北上線"
     ],
-    "troubled_shinkansen": [
-      "山形新幹線（運転見合わせ）"
-    ],
+    "troubled_shinkansen": [],
     "shinkansen_details": [
       {
         "name": "東北新幹線",
@@ -291,9 +289,9 @@
       },
       {
         "name": "山形新幹線",
-        "status": "ALERT",
-        "state": "運転見合わせ",
-        "detail": "大雪の影響で、終日、山形〜新庄駅間の運転を見合わせています。（11月21日 20時40分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/5/0"
       },
       {
@@ -566,6 +564,14 @@
         "is_disaster": true
       },
       {
+        "title": "冷え込む日中関係…待遇に“格差”も　前駐中国大使に聞く　中国とどう向き合う？(テレビ朝日系（ANN）)",
+        "summary": "世界の関心が「外交」に集まった1週間。訪中した高市総理を待ち受けたのは、「冷遇」とも受け取れる扱いでした。番組では前の駐中国大使を取材。中国とは今後、どう向き合うべきなのでしょうか。（サタデーステーシ",
+        "pub_date": "11/22 01:48 JST",
+        "link": "https://news.yahoo.co.jp/articles/7aa97c2cce33ee2aef3a863c6daeb8eb0aacd4d8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "アジアパラ大会金メダルの小田凱人選手が地元に凱旋　大歓迎パレード　愛知・一宮市(CBCテレビ)",
         "summary": "プロ車いすテニスプレイヤーの小田凱人選手が、21日地元・愛知県一宮市に凱旋しました。【写真を見る】アジアパラ大会金メダルの小田凱人選手が地元に凱旋 大歓迎パレード 愛知・一宮市史上最年少で生涯ゴールデ",
         "pub_date": "11/22 01:00 JST",
@@ -580,17 +586,9 @@
         "link": "https://news.yahoo.co.jp/articles/e2bf8863782f84059b6c3c99cc6da90eea652e1e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "世界遺産・白川郷の「合掌造り集落」の雪化粧 多くの観光客を魅了 11月3連休の初日にぎわう 岐阜・白川村(CBCテレビ)",
-        "summary": "3連休初日のきょう21日（土）、岐阜県白川村の白川郷では、雪景色を楽しもうと多くの観光客でにぎわいました。【写真を見る】世界遺産・白川郷の「合掌造り集落」の雪化粧 多くの観光客を魅了 11月3連休の初",
-        "pub_date": "11/21 23:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/98e4158790572df18d501e26c8cdfd3d44bdaa8a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 01:31:23 JST"
+    "last_updated": "2026-11-22 02:14:57 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",

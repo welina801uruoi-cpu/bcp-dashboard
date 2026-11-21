@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 01:32:58",
-  "timestamp_local": "2026-11-22 01:32:58",
+  "timestamp": "2026-11-22 02:15:50",
+  "timestamp_local": "2026-11-22 02:15:50",
   "country": {
     "id": "korea",
     "name": "韓国 (大韓民国)",
@@ -675,7 +675,7 @@
     "default_channel_id": "stream_ytn_live"
   },
   "forex": {
-    "timestamp": "11/22 01:32 JST",
+    "timestamp": "11/22 02:15 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -738,43 +738,88 @@
   "weather": {
     "cities": [
       {
-        "name": "釜山 (南部港湾都市)",
-        "name_en": "Busan",
-        "is_capital": false,
-        "lat": 35.1796,
-        "lon": 129.0756,
-        "temp": 1.0,
-        "apparent_temp": -2.9,
-        "humidity": 65,
-        "wind_speed": 8.2,
-        "wind_gusts": 15.1,
+        "name": "ソウル (首都)",
+        "name_en": "Seoul",
+        "is_capital": true,
+        "lat": 37.5665,
+        "lon": 126.978,
+        "temp": -3.6,
+        "apparent_temp": -7.6,
+        "humidity": 51,
+        "wind_speed": 4.1,
+        "wind_gusts": 9.4,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/22(日)",
-            "temp_max": 7.4,
-            "temp_min": -0.5,
+            "temp_max": 4.1,
+            "temp_min": -4.3,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 13.3,
+            "temp_min": 1.3,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 21.3
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 3.7,
+            "temp_min": -1.9,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "釜山 (南部港湾都市)",
+        "name_en": "Busan",
+        "is_capital": false,
+        "lat": 35.1796,
+        "lon": 129.0756,
+        "temp": 0.5,
+        "apparent_temp": -3.5,
+        "humidity": 69,
+        "wind_speed": 8.9,
+        "wind_gusts": 14.8,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 7.6,
+            "temp_min": -0.6,
             "weather_code": 0,
             "weather_label": "☀️ 快晴",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/23(月)",
-            "temp_max": 15.8,
-            "temp_min": 3.3,
-            "weather_code": 61,
-            "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 2.4
+            "temp_max": 15.1,
+            "temp_min": 3.5,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 5.6
           },
           {
             "date": "11/24(火)",
-            "temp_max": 15.1,
-            "temp_min": -1.5,
-            "weather_code": 3,
-            "weather_label": "☁️ 曇り",
-            "precipitation_mm": 0.0
+            "temp_max": 14.8,
+            "temp_min": 1.5,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
           }
         ],
         "alert": "平常",
@@ -788,11 +833,11 @@
         "is_capital": false,
         "lat": 33.4996,
         "lon": 126.5312,
-        "temp": 8.2,
-        "apparent_temp": 4.1,
-        "humidity": 67,
-        "wind_speed": 16.4,
-        "wind_gusts": 14.8,
+        "temp": 7.9,
+        "apparent_temp": 4.3,
+        "humidity": 69,
+        "wind_speed": 13.4,
+        "wind_gusts": 13.0,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -800,26 +845,26 @@
           {
             "date": "11/22(日)",
             "temp_max": 11.2,
-            "temp_min": 8.1,
+            "temp_min": 7.8,
             "weather_code": 2,
             "weather_label": "⛅ 晴れ時々曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/23(月)",
-            "temp_max": 16.9,
-            "temp_min": 8.2,
-            "weather_code": 63,
-            "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 7.7
+            "temp_max": 17.3,
+            "temp_min": 8.1,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 5.0
           },
           {
             "date": "11/24(火)",
-            "temp_max": 15.7,
-            "temp_min": 7.3,
+            "temp_max": 16.3,
+            "temp_min": 8.0,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 2.5
+            "precipitation_mm": 0.3
           }
         ],
         "alert": "平常",
@@ -829,42 +874,42 @@
       }
     ],
     "capital": {
-      "name": "釜山 (南部港湾都市)",
-      "name_en": "Busan",
-      "is_capital": false,
-      "lat": 35.1796,
-      "lon": 129.0756,
-      "temp": 1.0,
-      "apparent_temp": -2.9,
-      "humidity": 65,
-      "wind_speed": 8.2,
-      "wind_gusts": 15.1,
+      "name": "ソウル (首都)",
+      "name_en": "Seoul",
+      "is_capital": true,
+      "lat": 37.5665,
+      "lon": 126.978,
+      "temp": -3.6,
+      "apparent_temp": -7.6,
+      "humidity": 51,
+      "wind_speed": 4.1,
+      "wind_gusts": 9.4,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/22(日)",
-          "temp_max": 7.4,
-          "temp_min": -0.5,
-          "weather_code": 0,
-          "weather_label": "☀️ 快晴",
+          "temp_max": 4.1,
+          "temp_min": -4.3,
+          "weather_code": 1,
+          "weather_label": "🌤️ 晴れ",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/23(月)",
-          "temp_max": 15.8,
-          "temp_min": 3.3,
-          "weather_code": 61,
-          "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 2.4
+          "temp_max": 13.3,
+          "temp_min": 1.3,
+          "weather_code": 63,
+          "weather_label": "🌧️ 雨 (中雨)",
+          "precipitation_mm": 21.3
         },
         {
           "date": "11/24(火)",
-          "temp_max": 15.1,
-          "temp_min": -1.5,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
+          "temp_max": 3.7,
+          "temp_min": -1.9,
+          "weather_code": 1,
+          "weather_label": "🌤️ 晴れ",
           "precipitation_mm": 0.0
         }
       ],
@@ -873,7 +918,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/22 01:32 JST"
+    "timestamp": "11/22 02:15 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -902,7 +947,7 @@
         "details": "京釜線KTXなど主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/22 01:32 JST"
+    "timestamp": "11/22 02:15 JST"
   },
   "lifeline": {
     "status": "NORMAL",

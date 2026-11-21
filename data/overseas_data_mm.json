@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 05:48:27",
-  "timestamp_local": "2026-11-22 03:18:27",
+  "timestamp": "2026-11-22 06:27:57",
+  "timestamp_local": "2026-11-22 03:57:57",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -411,7 +411,7 @@
       {
         "title": "米イラン本格交渉至らず　仲介外交継続、なおも溝(共同通信)",
         "link": "https://news.yahoo.co.jp/articles/9ac943f1e30b89aa48f135d33fa7fc5111ab1be2?source=rss",
-        "description": "【テヘラン共同】イランのガリババディ外務次官は21日、米国との仲介役を務めるカタールの代表団と20日、テヘランで協議したと明らかにした。「技術的な詳細や個別の問題を話し合う段階にはない」と述べ、本格的",
+        "description": "【テヘラン、カイロ共同】イランのガリババディ外務次官は21日、米国との仲介役を務めるカタールの代表団と20日、テヘランで協議したと明らかにした。「技術的な詳細や個別の問題を話し合う段階にはない」と述べ",
         "pub_date": "11/22 05:34 JST",
         "is_priority": false
       },
@@ -650,7 +650,7 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/22 05:48 JST",
+    "timestamp": "11/22 06:27 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -689,14 +689,14 @@
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
       "weather": {
-        "raw": "METAR VYYY 212030Z 01002KT 6000 FEW020 25/23 Q1016 NOSIG",
+        "raw": "METAR VYYY 212100Z 02002KT 6000 FEW020 25/23 Q1015 NOSIG",
         "wind": "2kt",
         "wind_speed": 2,
         "wind_gust": 0,
         "visibility": "3.73マイル",
         "temp": 25,
         "fltcat": "VFR",
-        "report_time": "2026-11-21T20:30:00.000Z"
+        "report_time": "2026-11-21T21:00:00.000Z"
       },
       "status": "平常運航",
       "status_code": "normal",
@@ -705,9 +705,189 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/22 05:48 JST"
+    "cities": [
+      {
+        "name": "ヤンゴン (旧首都・商業中心)",
+        "name_en": "Yangon",
+        "is_capital": false,
+        "lat": 16.8661,
+        "lon": 96.1951,
+        "temp": 24.8,
+        "apparent_temp": 29.0,
+        "humidity": 91,
+        "wind_speed": 8.8,
+        "wind_gusts": 17.6,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 32.0,
+            "temp_min": 24.1,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 32.9,
+            "temp_min": 24.4,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 33.5,
+            "temp_min": 23.9,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ネピドー (行政首都)",
+        "name_en": "Naypyidaw",
+        "is_capital": true,
+        "lat": 19.7633,
+        "lon": 96.0785,
+        "temp": 21.9,
+        "apparent_temp": 23.8,
+        "humidity": 90,
+        "wind_speed": 13.9,
+        "wind_gusts": 24.1,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 30.2,
+            "temp_min": 21.7,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 30.3,
+            "temp_min": 20.9,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 30.8,
+            "temp_min": 22.1,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 1.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "マンダレー (北部拠点)",
+        "name_en": "Mandalay",
+        "is_capital": false,
+        "lat": 21.9588,
+        "lon": 96.0891,
+        "temp": 21.9,
+        "apparent_temp": 26.1,
+        "humidity": 93,
+        "wind_speed": 0.3,
+        "wind_gusts": 6.8,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 28.7,
+            "temp_min": 21.8,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 0.9
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 29.5,
+            "temp_min": 23.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 28.9,
+            "temp_min": 22.9,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "ネピドー (行政首都)",
+      "name_en": "Naypyidaw",
+      "is_capital": true,
+      "lat": 19.7633,
+      "lon": 96.0785,
+      "temp": 21.9,
+      "apparent_temp": 23.8,
+      "humidity": 90,
+      "wind_speed": 13.9,
+      "wind_gusts": 24.1,
+      "precipitation": 0.0,
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
+      "forecast": [
+        {
+          "date": "11/22(日)",
+          "temp_max": 30.2,
+          "temp_min": 21.7,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/23(月)",
+          "temp_max": 30.3,
+          "temp_min": 20.9,
+          "weather_code": 1,
+          "weather_label": "🌤️ 晴れ",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/24(火)",
+          "temp_max": 30.8,
+          "temp_min": 22.1,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 1.0
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/22 06:27 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -736,7 +916,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/22 05:48 JST"
+    "timestamp": "11/22 06:27 JST"
   },
   "lifeline": {
     "status": "NORMAL",

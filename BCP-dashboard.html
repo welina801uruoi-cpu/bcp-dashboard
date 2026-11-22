@@ -1307,6 +1307,10 @@
             background: #060a12 !important;
             color: #e2e8f0 !important;
         }
+        /* 低速テキスト版では、通常の重いヘッダー・サブバー・モバイルナビを完全に非表示にして1枚に集中！ */
+        body.low-bandwidth-mode .header,
+        body.low-bandwidth-mode .sub-bar,
+        body.low-bandwidth-mode .mobile-quick-nav,
         body.low-bandwidth-mode .cockpit-main {
             display: none !important;
         }
@@ -3360,6 +3364,10 @@
 
             if (newMode) {
                 document.body.classList.add('low-bandwidth-mode');
+                // スマホ・iPhoneなら1画面モードを自動適用して画面1枚に美しく収める！
+                if (window.innerWidth <= 768) {
+                    setMobileMode(true);
+                }
                 // 映像ストリームを完全遮断してデータ通信をゼロ化
                 const streamIframe = document.getElementById('stream-player-iframe');
                 const cameraIframe = document.getElementById('camera-player-iframe');
@@ -4906,6 +4914,9 @@
                 if (localStorage.getItem('bcp_bandwidth_mode') === 'low') {
                     document.body.classList.add('low-bandwidth-mode');
                     updateBandwidthButtonUI(true);
+                    if (window.innerWidth <= 768) {
+                        setMobileMode(true);
+                    }
                 }
             } catch(e) {}
 

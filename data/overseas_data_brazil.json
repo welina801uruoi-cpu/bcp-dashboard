@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 13:30:02",
-  "timestamp_local": "2026-11-22 01:30:02",
+  "timestamp": "2026-11-22 14:28:14",
+  "timestamp_local": "2026-11-22 02:28:14",
   "country": {
     "id": "brazil",
     "name": "ブラジル",
@@ -295,7 +295,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 10,
+    "count_24h": 9,
     "summary": "M4.6 (60 km WNW of Abepura, Indonesia)",
     "latest": {
       "mag": 4.6,
@@ -377,19 +377,18 @@
         "depth_km": 43.228,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uci2",
         "tsunami": 0
-      },
-      {
-        "mag": 5,
-        "place": "0 km NE of Carhuamayo, Peru",
-        "time": "11/21 14:12 JST",
-        "depth_km": 110.928,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uchd",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "韓国教育相　大学入試の不正行為防止巡る混乱で辞意＝李大統領が受け入れ(聯合ニュース)",
+        "link": "https://news.yahoo.co.jp/articles/537fb16df138b847085b4b8e790ee0184cf0cbf1?source=rss",
+        "description": "【ソウル聯合ニュース】韓国の崔教振（チェ・ギョジン）教育部長官は22日、19日に実施された大学修学能力試験（修能、日本の大学入学共通テストに相当）で人工知能（AI）などを使った不正行為の防止対策を巡り",
+        "pub_date": "11/22 13:42 JST",
+        "is_priority": false
+      },
       {
         "title": "物価高や賃上げ求め雨中を行進 　ポルトガル首都で数千人が参加(AP通信)",
         "link": "https://news.yahoo.co.jp/articles/6d764afdfafc2afc145edff20130a2e17fe7b3b7?source=rss",
@@ -522,13 +521,6 @@
         "description": "「監督と制作陣のこだわりが強く、話し合いに時間がかかったり、しばしば曲を修正したりしました。そうしたこだわりが作品を素晴らしいものにしたのでしょう」【写真】「鬼滅の刃」グッズを買うために早朝から集まっ",
         "pub_date": "11/22 11:55 JST",
         "is_priority": false
-      },
-      {
-        "title": "「助ける理由がない」…日本入国拒否の曺国氏冷遇する韓国与党(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/4f87698542c650c13500e6ac300f75d9f237bb3d?source=rss",
-        "description": "韓国与党「共に民主党」が「独島（ドクト、日本名・竹島）問題で日本入国を拒否された」と主張する祖国革新党の曺国（チョ・グク）前代表を冷遇している。民主党は20日基準で曺前代表の日本入国拒否について公式に",
-        "pub_date": "11/22 11:51 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -651,7 +643,7 @@
     "default_channel_id": "stream_band_live"
   },
   "forex": {
-    "timestamp": "11/22 13:29 JST",
+    "timestamp": "11/22 14:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -714,16 +706,106 @@
   "weather": {
     "cities": [
       {
+        "name": "ブラジリア (首都)",
+        "name_en": "Brasília",
+        "is_capital": true,
+        "lat": -15.8267,
+        "lon": -47.9218,
+        "temp": 19.1,
+        "apparent_temp": 21.8,
+        "humidity": 98,
+        "wind_speed": 3.6,
+        "wind_gusts": 6.5,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 26.9,
+            "temp_min": 18.9,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 15.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 27.1,
+            "temp_min": 19.2,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 8.0
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 26.4,
+            "temp_min": 19.1,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 2.6
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "サンパウロ (南米最大都市)",
+        "name_en": "São Paulo",
+        "is_capital": false,
+        "lat": -23.5505,
+        "lon": -46.6333,
+        "temp": 21.9,
+        "apparent_temp": 25.8,
+        "humidity": 93,
+        "wind_speed": 1.8,
+        "wind_gusts": 8.6,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 32.1,
+            "temp_min": 21.7,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 2.4
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 30.8,
+            "temp_min": 22.0,
+            "weather_code": 96,
+            "weather_label": "⛈️ 雷雨・雹 (強)",
+            "precipitation_mm": 6.1
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 31.7,
+            "temp_min": 20.8,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 8.2
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "リオデジャネイロ (沿岸主要都市)",
         "name_en": "Rio de Janeiro",
         "is_capital": false,
         "lat": -22.9068,
         "lon": -43.1729,
         "temp": 25.9,
-        "apparent_temp": 30.9,
+        "apparent_temp": 30.7,
         "humidity": 87,
-        "wind_speed": 5.7,
-        "wind_gusts": 14.0,
+        "wind_speed": 6.8,
+        "wind_gusts": 15.8,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -760,43 +842,43 @@
       }
     ],
     "capital": {
-      "name": "リオデジャネイロ (沿岸主要都市)",
-      "name_en": "Rio de Janeiro",
-      "is_capital": false,
-      "lat": -22.9068,
-      "lon": -43.1729,
-      "temp": 25.9,
-      "apparent_temp": 30.9,
-      "humidity": 87,
-      "wind_speed": 5.7,
-      "wind_gusts": 14.0,
+      "name": "ブラジリア (首都)",
+      "name_en": "Brasília",
+      "is_capital": true,
+      "lat": -15.8267,
+      "lon": -47.9218,
+      "temp": 19.1,
+      "apparent_temp": 21.8,
+      "humidity": 98,
+      "wind_speed": 3.6,
+      "wind_gusts": 6.5,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/22(日)",
-          "temp_max": 29.8,
-          "temp_min": 25.2,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.5
+          "temp_max": 26.9,
+          "temp_min": 18.9,
+          "weather_code": 95,
+          "weather_label": "⛈️ 雷雨 (弱〜中)",
+          "precipitation_mm": 15.0
         },
         {
           "date": "11/23(月)",
-          "temp_max": 32.1,
-          "temp_min": 25.1,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.4
+          "temp_max": 27.1,
+          "temp_min": 19.2,
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 8.0
         },
         {
           "date": "11/24(火)",
-          "temp_max": 31.4,
-          "temp_min": 24.5,
-          "weather_code": 96,
-          "weather_label": "⛈️ 雷雨・雹 (強)",
-          "precipitation_mm": 11.6
+          "temp_max": 26.4,
+          "temp_min": 19.1,
+          "weather_code": 53,
+          "weather_label": "🌦️ 霧雨 (中)",
+          "precipitation_mm": 2.6
         }
       ],
       "alert": "平常",
@@ -804,7 +886,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/22 13:30 JST"
+    "timestamp": "11/22 14:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -833,7 +915,7 @@
         "details": "地下鉄各線平常運行中"
       }
     ],
-    "timestamp": "11/22 13:29 JST"
+    "timestamp": "11/22 14:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

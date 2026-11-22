@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 04:27:06",
+  "timestamp": "2026-11-22 05:23:14",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -230,9 +230,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報"
+          "霜注意報",
+          "乾燥注意報"
         ],
-        "summary": "霜注意報",
+        "summary": "霜注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -254,10 +255,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "霜注意報"
+          "霜注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、霜注意報",
+        "summary": "霜注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -381,7 +382,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/22 03:48",
@@ -427,19 +428,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 04:40",
+          "text": "@sasapandayasu 突然失礼します、povoサポートです。お外で通信が START 繋がらない END のは、かなり不便ですよね💦もしお乗り換えをご検..."
+        },
+        {
+          "time": "11/22 04:31",
+          "text": "@NTakashi14 こんにちは！突然失礼します、povoサポートです。スマホの電波が START 繋がらない END のは、やはり不便ですよね📡よろしければ..."
+        },
         {
           "time": "11/22 04:25",
           "text": "@orange2288888 突然失礼します、povoサポートです。携帯ですが、日常的に電波が START 繋がらない END のは困りますよね💧お乗り換えを検..."
-        },
-        {
-          "time": "11/22 03:40",
-          "text": "START au END ひかり WiFi START 繋がらない END"
-        },
-        {
-          "time": "11/22 01:44",
-          "text": "START au END UQ docomo は START 繋がらない END けど 楽天は繋がる 三木谷さん ありがとう"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -799,6 +800,22 @@
     "disaster_count": 14,
     "articles": [
       {
+        "title": "那覇市の首里城、7年ぶり復活　「沖縄の象徴」琉球王国の朱色(共同通信)",
+        "summary": "2019年に火災で焼失した首里城（那覇市）の正殿の復元完成式が22日、開かれた。太平洋戦争末期の沖縄戦に続き焼け落ちた「沖縄の象徴」は、琉球王国時代の朱色が再現され、7年ぶりに復活した。参加者らは祝福",
+        "pub_date": "11/22 14:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/b2e71740bfda62ddc2341b0415952cfa126346f5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【速報】古謝知事「首里城正殿は見事その姿を取り戻した」　木原長官「我が国にとって極めて重要な歴史文化遺産」「全体の復元に向けて責任を持って取り組む」【首里城正殿 復元完成式】(テレビ朝日系（ANN）)",
+        "summary": "2019年に火災で焼失した首里城正殿の復元作業が完了し、22日午後1時から完成式が開かれています。23日からは一般公開が始まります。【画像】よみがえった「琉球古刺繍」の技法",
+        "pub_date": "11/22 13:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/b8d2bb1ef7d6d2d45a519320f0d8f74bf021370f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "首里城正殿の復元完成式始まる(共同通信)",
         "summary": "2019年の火災で焼失した那覇市の首里城で22日、正殿の復元完成式が始まった。",
         "pub_date": "11/22 13:07 JST",
@@ -895,31 +912,15 @@
         "is_disaster": true
       },
       {
-        "title": "早朝の住宅火災で1人死亡 住人男性の安否不明(ABEMA TIMES)",
-        "summary": "埼玉県所沢市で木造住宅が燃える火事があり、焼け跡から1人の遺体が見つかりました。【映像】火事があった建物の様子 22日午前4時半ごろ、所沢市花園で近隣住民から「隣の家から煙が出ている」と119番通報が",
-        "pub_date": "11/22 10:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/b79191be46b7feea469b4a5a4efa507a30f60b33?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "記録的降水量の北陸 土砂災害警戒",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/22 12:42 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6603534?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "玉木氏「文科相問責に値」　パーティー問題巡り(共同通信)",
-        "summary": "国民民主党の玉木雄一郎代表は22日、関芳弘文部科学相が政治資金パーティーに官僚を呼び企業関係者に政策を説明させたことを巡り「参院への問責決議案提出に値する」と述べた。訪問先の熊本市内で記者団の質問に答",
-        "pub_date": "11/22 13:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/1c56a38221e2635b6e078e8c6df5d0140acf6f8a?source=rss",
+        "title": "予防着陸の米軍戦闘機離陸　高知空港、民間に影響なし(共同通信)",
+        "summary": "22日午前11時45分ごろ、高知空港（高知県南国市）に20日に予防着陸し、駐機していた米軍岩国基地（山口県）所属のF35Bステルス戦闘機が離陸した。高知県が明らかにした。必要な整備を終えたため離陸した",
+        "pub_date": "11/22 14:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/145c64396d8bd5a73ba5e012a91e6f87a06c66e1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 13:27:03 JST"
+    "last_updated": "2026-11-22 14:22:27 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -940,10 +941,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "dc1XHe0gUZo",
+        "video_id": "MtdR7p1eaJo",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/dc1XHe0gUZo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=dc1XHe0gUZo"
+        "embed_url": "https://www.youtube.com/embed/MtdR7p1eaJo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=MtdR7p1eaJo"
       },
       {
         "id": "stream_tbsnews",
@@ -962,10 +963,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "nK-xnwk64-o",
+        "video_id": "s3zZw3qbM5k",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/nK-xnwk64-o?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=nK-xnwk64-o"
+        "embed_url": "https://www.youtube.com/embed/s3zZw3qbM5k?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=s3zZw3qbM5k"
       },
       {
         "id": "stream_annnews",
@@ -973,10 +974,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "QqnvQSJAgzo",
+        "video_id": "Bf187S0iIoM",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/QqnvQSJAgzo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=QqnvQSJAgzo"
+        "embed_url": "https://www.youtube.com/embed/Bf187S0iIoM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Bf187S0iIoM"
       },
       {
         "id": "stream_fnnnews",

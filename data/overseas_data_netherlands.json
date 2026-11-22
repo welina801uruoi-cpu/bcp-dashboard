@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 13:29:32",
-  "timestamp_local": "2026-11-22 06:29:32",
+  "timestamp": "2026-11-22 14:28:02",
+  "timestamp_local": "2026-11-22 07:28:02",
   "country": {
     "id": "netherlands",
     "name": "オランダ",
@@ -285,7 +285,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 10,
+    "count_24h": 9,
     "summary": "M4.6 (60 km WNW of Abepura, Indonesia)",
     "latest": {
       "mag": 4.6,
@@ -367,19 +367,18 @@
         "depth_km": 43.228,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uci2",
         "tsunami": 0
-      },
-      {
-        "mag": 5,
-        "place": "0 km NE of Carhuamayo, Peru",
-        "time": "11/21 14:12 JST",
-        "depth_km": 110.928,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uchd",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
+      {
+        "title": "韓国教育相　大学入試の不正行為防止巡る混乱で辞意＝李大統領が受け入れ(聯合ニュース)",
+        "link": "https://news.yahoo.co.jp/articles/537fb16df138b847085b4b8e790ee0184cf0cbf1?source=rss",
+        "description": "【ソウル聯合ニュース】韓国の崔教振（チェ・ギョジン）教育部長官は22日、19日に実施された大学修学能力試験（修能、日本の大学入学共通テストに相当）で人工知能（AI）などを使った不正行為の防止対策を巡り",
+        "pub_date": "11/22 13:42 JST",
+        "is_priority": false
+      },
       {
         "title": "物価高や賃上げ求め雨中を行進 　ポルトガル首都で数千人が参加(AP通信)",
         "link": "https://news.yahoo.co.jp/articles/6d764afdfafc2afc145edff20130a2e17fe7b3b7?source=rss",
@@ -512,13 +511,6 @@
         "description": "「監督と制作陣のこだわりが強く、話し合いに時間がかかったり、しばしば曲を修正したりしました。そうしたこだわりが作品を素晴らしいものにしたのでしょう」【写真】「鬼滅の刃」グッズを買うために早朝から集まっ",
         "pub_date": "11/22 11:55 JST",
         "is_priority": false
-      },
-      {
-        "title": "「助ける理由がない」…日本入国拒否の曺国氏冷遇する韓国与党(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/4f87698542c650c13500e6ac300f75d9f237bb3d?source=rss",
-        "description": "韓国与党「共に民主党」が「独島（ドクト、日本名・竹島）問題で日本入国を拒否された」と主張する祖国革新党の曺国（チョ・グク）前代表を冷遇している。民主党は20日基準で曺前代表の日本入国拒否について公式に",
-        "pub_date": "11/22 11:51 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -624,7 +616,7 @@
     "default_channel_id": "stream_nos_live"
   },
   "forex": {
-    "timestamp": "11/22 13:29 JST",
+    "timestamp": "11/22 14:28 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -672,39 +664,84 @@
   "weather": {
     "cities": [
       {
-        "name": "ハーグ (政府機関・国際司法)",
-        "name_en": "The Hague",
-        "is_capital": false,
-        "lat": 52.0705,
-        "lon": 4.3007,
-        "temp": 1.1,
-        "apparent_temp": -2.1,
-        "humidity": 86,
-        "wind_speed": 6.8,
-        "wind_gusts": 7.6,
+        "name": "アムステルダム (最大都市・首都)",
+        "name_en": "Amsterdam",
+        "is_capital": true,
+        "lat": 52.3676,
+        "lon": 4.9041,
+        "temp": 4.8,
+        "apparent_temp": 2.3,
+        "humidity": 80,
+        "wind_speed": 4.3,
+        "wind_gusts": 4.7,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/22(日)",
-            "temp_max": 8.5,
-            "temp_min": 1.0,
+            "temp_max": 9.1,
+            "temp_min": 2.9,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/23(月)",
-            "temp_max": 8.3,
-            "temp_min": 1.2,
+            "temp_max": 8.0,
+            "temp_min": 2.8,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/24(火)",
-            "temp_max": 4.0,
+            "temp_max": 5.3,
+            "temp_min": -0.5,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ハーグ (政府機関・国際司法)",
+        "name_en": "The Hague",
+        "is_capital": false,
+        "lat": 52.0705,
+        "lon": 4.3007,
+        "temp": 1.2,
+        "apparent_temp": -2.0,
+        "humidity": 86,
+        "wind_speed": 6.8,
+        "wind_gusts": 7.9,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 7.9,
+            "temp_min": 0.9,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 0.5
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 7.9,
+            "temp_min": 0.5,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 3.8,
             "temp_min": -0.1,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -722,34 +759,34 @@
         "is_capital": false,
         "lat": 51.9244,
         "lon": 4.4777,
-        "temp": 3.5,
-        "apparent_temp": 0.7,
-        "humidity": 86,
-        "wind_speed": 6.5,
-        "wind_gusts": 8.3,
+        "temp": 3.3,
+        "apparent_temp": 0.3,
+        "humidity": 87,
+        "wind_speed": 6.8,
+        "wind_gusts": 10.1,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/22(日)",
-            "temp_max": 8.0,
-            "temp_min": 2.9,
+            "temp_max": 7.5,
+            "temp_min": 2.2,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/23(月)",
-            "temp_max": 7.7,
-            "temp_min": 2.0,
+            "temp_max": 7.4,
+            "temp_min": 1.2,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/24(火)",
-            "temp_max": 4.5,
+            "temp_max": 5.2,
             "temp_min": 0.3,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -763,40 +800,40 @@
       }
     ],
     "capital": {
-      "name": "ハーグ (政府機関・国際司法)",
-      "name_en": "The Hague",
-      "is_capital": false,
-      "lat": 52.0705,
-      "lon": 4.3007,
-      "temp": 1.1,
-      "apparent_temp": -2.1,
-      "humidity": 86,
-      "wind_speed": 6.8,
-      "wind_gusts": 7.6,
+      "name": "アムステルダム (最大都市・首都)",
+      "name_en": "Amsterdam",
+      "is_capital": true,
+      "lat": 52.3676,
+      "lon": 4.9041,
+      "temp": 4.8,
+      "apparent_temp": 2.3,
+      "humidity": 80,
+      "wind_speed": 4.3,
+      "wind_gusts": 4.7,
       "precipitation": 0.0,
       "weather_code": 1,
       "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/22(日)",
-          "temp_max": 8.5,
-          "temp_min": 1.0,
+          "temp_max": 9.1,
+          "temp_min": 2.9,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/23(月)",
-          "temp_max": 8.3,
-          "temp_min": 1.2,
+          "temp_max": 8.0,
+          "temp_min": 2.8,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/24(火)",
-          "temp_max": 4.0,
-          "temp_min": -0.1,
+          "temp_max": 5.3,
+          "temp_min": -0.5,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -807,7 +844,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/22 13:29 JST"
+    "timestamp": "11/22 14:28 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -836,7 +873,7 @@
         "details": "主要インターシティ平常運行中"
       }
     ],
-    "timestamp": "11/22 13:29 JST"
+    "timestamp": "11/22 14:28 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 09:57:20",
+  "timestamp": "2026-11-22 10:37:04",
   "location": {
     "name": "那覇",
     "region_name": "沖縄エリア",
@@ -32,11 +32,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-22 09:09",
-    "place": "茨城県南部",
-    "magnitude": "2.7",
+    "time": "2026-11-22 19:17",
+    "place": "トカラ列島近海",
+    "magnitude": "2.2",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-22 19:17",
+        "place": "トカラ列島近海",
+        "shindo": "1",
+        "magnitude": "2.2",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-22 09:09",
         "place": "茨城県南部",
@@ -99,13 +106,6 @@
         "shindo": "2",
         "magnitude": "3",
         "maxScale": 20
-      },
-      {
-        "time": "2026-11-21 06:22",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.3",
-        "maxScale": 10
       }
     ]
   },
@@ -218,22 +218,22 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "DOWN",
-      "trend_label": "📉 やや投稿あり (様子見)",
-      "trend_class": "yellow",
-      "summary": "直近1時間の投稿数は 5 件です。",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 10:21",
+          "text": "\\ドコモ・ソフトバンク・ START au END ユーザーへ/ 通信 START 障害 END の備えに、楽天モバイルをサブ回線で2台持ちする人が急増中！↗️..."
+        },
+        {
+          "time": "11/22 10:05",
+          "text": "START au END 通信 START 障害 END か？"
+        },
         {
           "time": "11/22 09:54",
           "text": "悲報 スイーツの予約中に電話が切れ、その後繋がらない…。 なんか同時刻帯で START au END ユーザーから通信 START 障害 END の疑いのポスト..."
-        },
-        {
-          "time": "11/22 09:33",
-          "text": "@yado_potato ポケモンGO抜きにしてもリスクヘッジのためにデュアル回線にしてます。 昔、 START au END の START 障害 END で..."
-        },
-        {
-          "time": "11/22 09:31",
-          "text": "なんか START au END 電波 START 障害 END ？ リクエスト送ろうと試みるも、繋がらなくて送れない😅 #SJR765"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -244,7 +244,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/22 09:07",
@@ -270,16 +270,16 @@
       "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/22 10:05",
+          "text": "@kttr0130 こんばんは、 START au END サポート皆川です。場所問わず START 繋がらない END のですね💦一度再起動をしても変わらない..."
+        },
+        {
+          "time": "11/22 10:02",
+          "text": "1週間くらい前から外で START au END 全然 START 繋がらない END 。 乗り換え、地図、全滅。 アンテナ４本立ってるのにポイントカードアプリ..."
+        },
+        {
           "time": "11/22 09:54",
           "text": "悲報 スイーツの予約中に電話が切れ、その後 START 繋がらない END …。 なんか同時刻帯で START au END ユーザーから通信障害の疑いのポスト..."
-        },
-        {
-          "time": "11/22 09:15",
-          "text": "@shiawaseni777ae いつもは問題なくご利用いただける場所で START 繋がらない END のでしょうか？💦詳細をお伺いしたいです🙇 START ..."
-        },
-        {
-          "time": "11/22 09:05",
-          "text": "@aqua_snowyxxx わい START au END だけど START 繋がらない END って困った事はないっす"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -290,7 +290,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/22 09:03",
@@ -615,8 +615,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 15,
+    "disaster_count": 14,
     "articles": [
+      {
+        "title": "能登半島地震の歪みは終わっていない…京大名誉教授が\"次のM7クラスの震源候補\"と警戒する2つの地名(プレジデントオンライン)",
+        "summary": "次に直下型地震を警戒すべきエリアはどこか。京都大学名誉教授の鎌田浩毅さんは「2024年能登半島地震により150キロメートルにわたり破壊された震源断層の大部分では、それまで蓄積されていた歪みが解消された",
+        "pub_date": "11/22 19:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/52ae8e7455ede50bb584d398f96e865eed73b57d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "柏崎刈羽原発 ガラスの下敷きで男性死亡(ABEMA TIMES)",
+        "summary": "新潟県の柏崎刈羽原発で作業をしていた男性が倒れてきたガラス十数枚の下敷きになり、死亡しました。【映像】死亡事故があった柏崎刈羽原発 警察などによりますと午前11時50分ごろ、柏崎刈羽原発で埼玉県川口市",
+        "pub_date": "11/22 19:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/f3e464ecef0bdf898c4c375f1bb4b33e9d5d7eef?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "24日は全国的に雨　前線通過時は雨脚が強まり雷雨になる所も　北日本は暴風のおそれ(日本気象協会tenki.jp)",
         "summary": "連休明けの24日(火)は、寒冷前線が日本列島を通過する見込みです。全国的に雨が降り、前線通過時は雨脚や強まったり、雷雨になる所があるでしょう。これまでの雨で地盤の緩んでいる所のある北陸では、土砂災害に",
@@ -643,7 +659,7 @@
       },
       {
         "title": "被害者が追跡し110番…酒に酔って乗用車を運転し停まっていた車に衝突して逃走か 74歳男逮捕「事故起こした覚えない」(東海テレビ)",
-        "summary": "愛知県豊橋市で酒に酔った状態で車を運転し事故を起こして逃走した疑いで、74歳の男が逮捕されました。 警察によりますと、逮捕されたのは豊橋市のアルバイト・河合博幸容疑者(74)です。 河合容疑者は21日",
+        "summary": "愛知県豊橋市で21日、酒に酔った状態で車を運転し事故を起こして逃走した疑いで、74歳の男が逮捕されました。 警察によりますと、逮捕されたのは豊橋市のアルバイト・河合博幸容疑者(74)です。 河合容疑者",
         "pub_date": "11/22 18:19 JST",
         "link": "https://news.yahoo.co.jp/articles/4669d02cb126d0fcccf5d632338b83bebeb003eb?source=rss",
         "category": "国内・気象防災",
@@ -706,22 +722,6 @@
         "is_disaster": true
       },
       {
-        "title": "閉山後も遭難が続く富士山　冬の山頂では半分以上の日に台風並みの風(ウェザーマップ)",
-        "summary": "富士山では、登山シーズンが終わったあとも、毎年のように遭難が起きています。2023～2025年の3年間に、静岡県側の富士山では開山期以外に30人が遭難し、8人が死亡しました。2026年も、開山期以外の",
-        "pub_date": "11/22 16:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/955e7aa4e322f24b2c0a6513f7c07f144ffb0b5a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【警報級大雨のおそれ】気象庁週間天気予報（23⽇〜29⽇）東⽇本の⽇本海側で低気圧の発達の程度次第では「警報級の⼤⾬や⾼波」の可能性...27日（金）にかけての雨風シミュレーション(RSK山陽放送)",
-        "summary": "■警報級の⼤⾬や⾼波のおそれ気象庁がきょう（22日）発表した週間天気予報（23⽇〜29⽇）によりますと、北⽇本と東⽇本から⻄⽇本にかけての⽇本海側は、曇りや⾬または雪の降る所が多いでしょう。【画像でみ",
-        "pub_date": "11/22 15:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/317ea54a090e24cbe0d1ab19f1dceac928a45933?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "関東で広く乾燥 火災相次ぎ死者も",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/22 18:35 JST",
@@ -730,15 +730,15 @@
         "is_disaster": true
       },
       {
-        "title": "ホルムズ海峡を遠泳 環境被害訴え",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/22 18:08 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6603576?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
+        "title": "益永利明死刑囚（78）が死亡 連続企業爆破事件(ABEMA TIMES)",
+        "summary": "1974年に起きた連続企業爆破事件で死刑判決を受けた益永利明死刑囚が死亡しました。【映像】爆破事件が起きた当時の様子（1974年） 益永利明、旧姓片岡利明死刑囚（78）は、1974年に起きた三菱重工ビ",
+        "pub_date": "11/22 19:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/74449a6d94950b70eb2d04c08804dd7372bae25e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 18:56:56 JST"
+    "last_updated": "2026-11-22 19:36:41 JST"
   },
   "live_media": {
     "default_camera_id": "cam_naha_kokusai",

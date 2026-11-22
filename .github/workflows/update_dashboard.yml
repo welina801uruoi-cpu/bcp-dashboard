@@ -43,8 +43,9 @@ jobs:
           GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           GMAIL_TO_ADDRESSES: ${{ secrets.GMAIL_TO_ADDRESSES }}
+          WORKFLOW_INPUT_MODE: ${{ github.event.inputs.mode }}
         run: |
-          if [ "${{ github.event.inputs.mode }}" = "quick" ]; then
+          if [ "$WORKFLOW_INPUT_MODE" = "quick" ]; then
             echo "=== [クイック更新モードで実行] ==="
             python collect_data.py --quick
           else

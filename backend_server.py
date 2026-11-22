@@ -20,6 +20,20 @@ from flask import Flask, jsonify, render_template, request, send_from_directory
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 
+def get_secure_ssl_context():
+    """安全なSSLコンテキストを生成。環境変数BCP_INSECURE_SKIP_VERIFY=1の場合のみ検証をスキップ"""
+    if os.environ.get("BCP_INSECURE_SKIP_VERIFY", "0").lower() in ("1", "true"):
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        return ctx
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except Exception:
+        return ssl.create_default_context()
+
+
 def resource_path(relative_path):
     if hasattr(sys, '_MEIPASS'):
         return os.path.join(sys._MEIPASS, relative_path)
@@ -32,6 +46,17 @@ app = Flask(
     template_folder=resource_path('.'),
     static_folder=resource_path('.'),
 )
+
+
+@app.after_request
+def add_security_headers(response):
+    """Security Headers"""
+    response.headers['X-Content-Type-Options'] = 'nosniff'
+    response.headers['X-Frame-Options'] = 'SAMEORIGIN'
+    response.headers['X-XSS-Protection'] = '1; mode=block'
+    response.headers['Referrer-Policy'] = 'strict-origin-when-cross-origin'
+    response.headers['Permissions-Policy'] = 'camera=(), microphone=(), geolocation=()'
+    return response
 
 
 # 全国および主要拠点の定義・マッピング設定（ユーザー指定エリア・構成都道府県に対応）
@@ -828,9 +853,7 @@ class BCPDataAnalyzer:
 
         req = urllib.request.Request(url, headers=default_headers)
 
-        ctx = ssl.create_default_context()
-        ctx.check_hostname = False
-        ctx.verify_mode = ssl.CERT_NONE
+        ctx = get_secure_ssl_context()
 
         with urllib.request.urlopen(req, timeout=timeout, context=ctx) as res:
             if res.status != 200:
@@ -5153,9 +5176,7 @@ except Exception as _e:
 
 class OverseasDataAnalyzer:
     def __init__(self):
-        self._ctx = ssl.create_default_context()
-        self._ctx.check_hostname = False
-        self._ctx.verify_mode = ssl.CERT_NONE
+        self._ctx = get_secure_ssl_context()
         self.forex_analyzer = ForexAnalyzer()
         self.airport_analyzer = AirportFlightAnalyzer()
         self.weather_analyzer = WeatherAnalyzer()
@@ -5722,6 +5743,11 @@ def preview_apple_hig():
 
 @app.route("/data/<path:filename>")
 def serve_data_file(filename):
+    # パストラバーサルおよび機密設定ファイルへのアクセス防止
+    if not re.match(r"^[a-zA-Z0-9_\-]+\.json$", filename):
+        return jsonify({"error": "Invalid or disallowed filename"}), 400
+    if filename in ("assembly_notified_history.json", "config.json", "secrets.json"):
+        return jsonify({"error": "Access denied"}), 403
     """静的JSONデータ配信 (/data/bcp_data_tokyo.json 等)"""
     data_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
     return send_from_directory(data_folder, filename)
@@ -5736,7 +5762,8 @@ def get_overseas_data():
 
     raw_keywords = request.args.get("keywords")
     if raw_keywords:
-        keywords = [k.strip() for k in raw_keywords.split(",") if k.strip()]
+        # 最大10件、各キーワード最大50文字に制限（DoS・リソース枯渇防止）
+        keywords = [k.strip()[:50] for k in raw_keywords.split(",") if k.strip()][:10]
     else:
         keywords = OVERSEAS_CONFIG[country_key]["default_keywords"]
 
@@ -5804,7 +5831,8 @@ def get_bcp_data():
     raw_keywords = request.args.get("keywords")
     
     if raw_keywords:
-        keywords = [k.strip() for k in raw_keywords.split(",") if k.strip()]
+        # 最大10件、各キーワード最大50文字に制限（DoS・リソース枯渇防止）
+        keywords = [k.strip()[:50] for k in raw_keywords.split(",") if k.strip()][:10]
     else:
         keywords = ["au 障害", "KDDI 障害", "au 繋がらない", "povo 障害"]
 
@@ -5829,7 +5857,10 @@ if __name__ == "__main__":
     import threading
 
     def open_browser():
-        webbrowser.open("http://127.0.0.1:5000/")
+        webbrowser.open(f"http://{os.environ.get('FLASK_HOST', '127.0.0.1')}:{os.environ.get('FLASK_PORT', 5000)}/")
 
     threading.Timer(1.0, open_browser).start()
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    host = os.environ.get("FLASK_HOST", "127.0.0.1")
+    port = int(os.environ.get("FLASK_PORT", 5000))
+    debug = os.environ.get("FLASK_DEBUG", "0").lower() in ("1", "true")
+    app.run(host=host, port=port, debug=debug)

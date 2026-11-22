@@ -7,6 +7,15 @@ venv/
 env/
 .env
 
+# 認証情報・機密設定ファイル (GitHub公開防止)
+config.json
+secrets.json
+*.local.json
+*.key
+*.pem
+data/assembly_notified_history.json
+*.log
+
 # ビルド成果物・一時ファイル
 build/
 dist/

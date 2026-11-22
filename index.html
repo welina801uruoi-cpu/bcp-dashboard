@@ -3465,19 +3465,45 @@
                 11: 'government'
             };
 
+            // 6. 携帯通信の文字生成 (KDDI自社アラート優先)
+            let telVal = '主要各社 正常稼働';
+            let telDet = '障害発表なし';
+            if (tel.kddi_alert || (tel.status === 'ALERT' && tel.kddi_msg && !tel.kddi_msg.includes('正常') && !tel.kddi_msg.includes('復旧'))) {
+                telVal = '🚨 au/UQ/povo 障害検知';
+                telDet = (tel.kddi_msg || 'KDDI通信網にて障害発表').replace('au/UQ/povo:', '').trim();
+            } else if (tel.other_carrier_alert || tel.docomo_alert || tel.sb_alert || tel.rakuten_alert) {
+                telVal = 'au系正常 (他社障害あり)';
+                telDet = 'ドコモ・SB・楽天の一部で障害';
+            }
+
+            // 12. 総合BCP / 行政対応の文字生成
+            let govVal = '政府非常態勢なし';
+            let govDet = '官公庁平常即応態勢';
+            if (gov.status === 'ALERT') {
+                govVal = '🚨 政府・内閣府 要警戒発表';
+                govDet = (gov.cabinet_msg || gov.mhlw_msg || '内閣府・厚労省より警戒発表検知').replace('内閣府速報:', '').replace('厚労省速報:', '').trim();
+            }
+
+            // 5. 電力
+            let pwrVal = pwr.summary || '大規模停電なし';
+            let pwrDet = pwr.details || '平常送電';
+            if (pwr.status === 'ALERT') {
+                pwrVal = '🚨 広域停電発生検知';
+            }
+
             const indicators = [
                 { name: '1. 最新地震', status: eq.status || 'NORMAL', value: '最大震度' + (eq.shindo || '0') + ' (' + (eq.place || '震源なし') + ')', detail: 'M' + (eq.magnitude || '-') + ' / 深さ' + (eq.depth || '-') + ' / ' + (eq.time || '-') },
                 { name: '2. 津波情報', status: tsu.status || 'NORMAL', value: tsu.status === 'ALERT' ? '大津波・津波警報' : (tsu.status === 'NOTICE' ? '津波注意報発表中' : '津波の心配なし'), detail: tsu.areas || '発表なし' },
                 { name: '3. 気象警報', status: weather.status || 'NORMAL', value: weather.summary || '警報なし (平常)', detail: weather.details || '全国気象平常' },
                 { name: '4. 河川・土砂', status: data.river ? data.river.status : 'NORMAL', value: data.river ? data.river.main_text : '氾濫危険水位なし', detail: data.river ? data.river.sub_text : '安定推移' },
-                { name: '5. 電力・停電', status: pwr.status || 'NORMAL', value: pwr.summary || '大規模停電なし', detail: pwr.details || '平常送電' },
-                { name: '6. 携帯通信', status: tel.status || 'NORMAL', value: tel.summary || '主要携帯各社 正常稼働', detail: tel.details || '障害なし' },
+                { name: '5. 電力・停電', status: pwr.status || 'NORMAL', value: pwrVal, detail: pwrDet },
+                { name: '6. 携帯通信', status: tel.status || 'NORMAL', value: telVal, detail: telDet },
                 { name: '7. 鉄道運行', status: train.status || 'NORMAL', value: train.summary || '全線概ね平常運行', detail: train.details || '運行平常' },
                 { name: '8. 道路・高速', status: data.highway ? data.highway.status : 'NORMAL', value: data.highway ? data.highway.summary : '通行規制なし', detail: data.highway ? data.highway.details : '平常通行' },
                 { name: '9. 航空・空港', status: data.flight ? data.flight.status : 'NORMAL', value: data.flight ? data.flight.summary : '平常運航', detail: data.flight ? data.flight.details : '欠航なし' },
                 { name: '10. プラント拠点', status: data.plant ? data.plant.status : 'NORMAL', value: data.plant ? data.plant.summary : '異常なし', detail: data.plant ? data.plant.details : '保全平常' },
                 { name: '11. 口コミ監視', status: data.sns_level || 'NORMAL', value: '最多: ' + heatmap.top_region + ' (' + heatmap.top_count + '件)', detail: '地域特定総数: ' + heatmap.total_mentions + '件' },
-                { name: '12. 総合BCP', status: gov.status || 'NORMAL', value: gov.summary || '政府非常対策本部なし', detail: gov.details || '平常態勢' }
+                { name: '12. 総合BCP', status: gov.status || 'NORMAL', value: govVal, detail: govDet }
             ];
 
             const indHtml = indicators.map((ind, idx) => {

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 23:14:29",
+  "timestamp": "2026-11-22 23:50:58",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -150,11 +150,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NORMAL",
-    "summary": "現在、北海道エリア全域（4地域）に警報・注意報の発表はありません。",
+    "status": "NOTICE",
+    "summary": "【注意報発表: 1地域】道東（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 0,
+    "notice_count": 1,
     "total_prefs": 4,
     "pref_details": [
       {
@@ -194,11 +194,13 @@
         "code": "1d",
         "name": "道東",
         "short_name": "道東",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -340,8 +342,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 23:44",
+          "text": "START au END 彼女は田代手伝ってできません まえに森に START 障害 END 文化におしえてもらった 千絵と田代自立起きるおもう今日法テラスにも..."
+        },
         {
           "time": "11/22 20:56",
           "text": "START au END の START 障害 END 起きてます…？"
@@ -349,10 +355,6 @@
         {
           "time": "11/22 16:07",
           "text": "START au END にMNPした後、サブ回線どうするか問題。 povoは START au END 回線なので、通信 START 障害 END 対策になら..."
-        },
-        {
-          "time": "11/22 14:20",
-          "text": "ドコモ・ START au END ・ソフトバンク利用者の通信 START 障害 END 対策・サブ回線に楽天モバイルを🙇‍♂️👇️ https://t.co/..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -363,8 +365,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 23:24",
+          "text": "11月21日、 START KDDI END は大雪による一部地域の通信 START 障害 END を発表。 注目したいのは、他社回線を活用する「JAPANロー..."
+        },
         {
           "time": "11/22 09:07",
           "text": "START KDDI END より通信 START 障害 END の情報が出ています https://t.co/8KUDzGEu6B #空ネット"
@@ -372,10 +378,6 @@
         {
           "time": "11/22 00:26",
           "text": "START KDDI END は11月21日、大雪の影響で一部地域の通信サービスが利用しづらい状況を発表。 通信は生活を支えるインフラ。料金や特典だけでなく、 ..."
-        },
-        {
-          "time": "11/21 13:02",
-          "text": "福島県耶麻郡北塩原村檜原蛇平原山 START 障害 END 情報は START KDDI END のサイトに促されてますけど、北塩原村唯一の楽天モバイル局は生き..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -389,16 +391,16 @@
       "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/22 23:31",
+          "text": "ahamo、値上げしてる癖に池袋とかちょっと混雑した所だと本当に電波入らない…。 povoの START au END 回線はどうなんだろう。25年以上契約して..."
+        },
+        {
           "time": "11/22 23:09",
           "text": "@anya_ontwitt いえ！ アプリ開いてもまっさら、ライン START 繋がらない END 、通話でしか連絡できない！まさにその通りでした😂 START..."
         },
         {
           "time": "11/22 22:45",
           "text": "昨日のブルーインパルス✈️ docomoは全く START 繋がらない END 時間が長く大変でした。 START au END は基地移動車が来ていてフォロー..."
-        },
-        {
-          "time": "11/22 15:47",
-          "text": "ぜんぜん START 繋がらない END 楽天モバイルからLINEMOにMNP手続きした。出戻りだけど、ちょうどキャンペーンの内容変わってお得だったし。やっぱつ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -429,7 +431,7 @@
   ],
   "sns_heatmap": {
     "total_mentions": 1,
-    "top_region": "東北",
+    "top_region": "関東・首都圏",
     "top_count": 1,
     "regions": [
       {
@@ -451,20 +453,12 @@
         "lat": 38.2682,
         "lon": 140.8694,
         "zoom": 7,
-        "count": 1,
+        "count": 0,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [
-          "福島"
-        ],
-        "sample_posts": [
-          {
-            "keyword": "KDDI 障害",
-            "time": "11/21 13:02",
-            "text": "福島県耶麻郡北塩原村檜原蛇平原山 START 障害 END 情報は START KDDI END のサイトに促されてますけど、北塩原村唯一の楽天モバイル局は生き..."
-          }
-        ]
+        "detected_words": [],
+        "sample_posts": []
       },
       {
         "id": "kanto",
@@ -472,12 +466,20 @@
         "lat": 35.6895,
         "lon": 139.6917,
         "zoom": 9,
-        "count": 0,
+        "count": 1,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
+        "detected_words": [
+          "池袋"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "au 繋がらない",
+            "time": "11/22 23:31",
+            "text": "ahamo、値上げしてる癖に池袋とかちょっと混雑した所だと本当に電波入らない…。 povoの START au END 回線はどうなんだろう。25年以上契約して..."
+          }
+        ]
       },
       {
         "id": "chubu",
@@ -573,23 +575,23 @@
     ],
     "ranking": [
       {
-        "id": "tohoku",
-        "name": "東北",
-        "lat": 38.2682,
-        "lon": 140.8694,
-        "zoom": 7,
+        "id": "kanto",
+        "name": "関東・首都圏",
+        "lat": 35.6895,
+        "lon": 139.6917,
+        "zoom": 9,
         "count": 1,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
         "detected_words": [
-          "福島"
+          "池袋"
         ],
         "sample_posts": [
           {
-            "keyword": "KDDI 障害",
-            "time": "11/21 13:02",
-            "text": "福島県耶麻郡北塩原村檜原蛇平原山 START 障害 END 情報は START KDDI END のサイトに促されてますけど、北塩原村唯一の楽天モバイル局は生き..."
+            "keyword": "au 繋がらない",
+            "time": "11/22 23:31",
+            "text": "ahamo、値上げしてる癖に池袋とかちょっと混雑した所だと本当に電波入らない…。 povoの START au END 回線はどうなんだろう。25年以上契約して..."
           }
         ]
       },
@@ -607,11 +609,11 @@
         "sample_posts": []
       },
       {
-        "id": "kanto",
-        "name": "関東・首都圏",
-        "lat": 35.6895,
-        "lon": 139.6917,
-        "zoom": 9,
+        "id": "tohoku",
+        "name": "東北",
+        "lat": 38.2682,
+        "lon": 140.8694,
+        "zoom": 7,
         "count": 0,
         "level": "NORMAL",
         "color": "#10b981",
@@ -731,8 +733,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 4,
+    "disaster_count": 6,
     "articles": [
+      {
+        "title": "西武池袋線・秩父線で人身事故 一部運転見合わせ(レスキューナウニュース)",
+        "summary": "08:14頃、池袋～椎名町駅間で発生した人身事故の影響で、西武池袋線・秩父線は池袋～練馬駅間の運転を見合わせています。振替輸送を行っています。",
+        "pub_date": "11/23 08:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/54f35935b54537a555841ea4e1588247896f53ce?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "和歌山県、下水管掘らず直す更生工事を公開へ　道路陥没事故受け市町村の技術力向上狙う(産経新聞)",
+        "summary": "和歌山県は27日、埼玉県八潮市で令和7年1月に発生した道路陥没事故を受け、伊都浄化センター（和歌山県かつらぎ町）で実施中の下水道管路更生工事を県内市町村の職員に公開する。老朽化した下水管を掘り起こさず",
+        "pub_date": "11/23 08:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/32b186d5baea54b0545f96a930efb02ed377f7c2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "DV被害者の保護を始めて9年の間に…誰も虐げられることのない社会を目指しシェルターを運営する津山市のNPO法人の「変わりゆく支援環境」への対応【岡山発】(FNNプライムオンライン)",
         "summary": "11月12日から25日までは「女性に対する暴力をなくす運動」の実施期間。これにあわせてDV・ドメスティックバイオレンスについて、被害者を保護するシェルターを運営する岡山県津山市の認定NPO法人の取り組",
@@ -764,6 +782,22 @@
         "link": "https://news.yahoo.co.jp/articles/e0067483f4b658839892e9bd3207709e8d2ec387?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
+      },
+      {
+        "title": "祖父の家と会社を売って4000万円を献金し子どもには嘘をついた…山上徹也被告と妹が｢地獄｣と語った母の信仰(プレジデントオンライン)",
+        "summary": "安倍晋三元首相銃撃事件で無期懲役判決を受けた山上徹也被告。「宗教二世」といわれる半生は、事件にどのように影響したのか。被告と面会を重ね、法廷で証言した宗教社会学者の櫻井義秀さんは「山上被告のパーソナリ",
+        "pub_date": "11/23 08:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/679940eb7f1607e611cfe6310af4c219627aac66?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "北朝鮮ハッカーは標的の弱みを熟知している…｢9500億円流出事件｣で従業員が思わずクリックした\"甘い文言\"(プレジデントオンライン)",
+        "summary": "今秋、日本企業で相次ぐ不正アクセス事件。GMOへの攻撃には「北朝鮮のハッカー集団」の関与が指摘されているが、真相はどうなのか。ジャーナリストの湯浅大輝さんが北朝鮮のハッカー集団を長年取材してきたイギリ",
+        "pub_date": "11/23 08:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/3b94604bf3cafa78d166782aa8034f580a21cba8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "「もち米」なぜ高騰？コメ価格は下落しているのに…和菓子店も苦悩する“もち米事情”とは(TOKYO MX)",
@@ -820,41 +854,9 @@
         "link": "https://news.yahoo.co.jp/articles/42e864af8a79b36a6b66407dfb33d65790b8bd6d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "元『egg』モデル・川端かな子さんの友人男性が回顧「お金がきついと悩んでいた」「投げ銭をお願いされたことも」(ABEMA TIMES)",
-        "summary": "伝説のギャル雑誌『egg』の元モデル・川端かな子さん（36）が殺害された事件で、警視庁は11月16日、当時同居していた北原誠容疑者（42）を殺人の容疑で逮捕した。【映像】川端かな子さんと逮捕された北原",
-        "pub_date": "11/23 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/c81ba9a3cb0a2a48a43bc66d0938ce7883eb36c3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "《シンガポールで黄色い歓声と拍手》愛子さま、「バティック風ワンピ」でお出まし…現地文化への配慮と天皇陛下との共通点(週刊女性PRIME)",
-        "summary": "11月17日からシンガポールを訪問されている天皇家の長女、愛子さま。2日目となる18日の午後には『プラナカン博物館』を訪問された。【この記事のすべての写真を見る】「プラナカンとは、マレー語で『地元生ま",
-        "pub_date": "11/23 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/ebd1f36146b0a10a8e7504dd8fac96423a9d807e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "明治時代の隧道!?地形図にない千葉・房総半島の“謎の廃隧道”を調査(CBCテレビ)",
-        "summary": "ミキの昴生と亜生がMCを務める、全国の道に特化したバラエティ番組『道との遭遇』。今回は、全国800か所以上の道を巡ってきた道マニアの石井あつこさんが、千葉・房総半島にある“廃隧道”を調査します。※廃道",
-        "pub_date": "11/23 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/1824fc9eaed859a1ae5782f209d41532fc3a7163?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "｢無意味な仕事｣が次々と生まれる職場には共通点がある…社員が良かれと思って繰り返す｢4文字の危険な言葉｣(プレジデントオンライン)",
-        "summary": "意味のない仕事が多い会社と、少ない会社の違いは何か。『なぜ、“無意味な仕事”は次から次へと生まれるのか』著者の1人で早稲田大学教授の濱中淳子さんは、「組織変革が進む職場とそうでない職場では、無意味な仕",
-        "pub_date": "11/23 07:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/c81815010c6f2881d1841544c59474730720ffef?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 08:14:12 JST"
+    "last_updated": "2026-11-23 08:50:42 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",

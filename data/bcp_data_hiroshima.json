@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 00:00:08",
+  "timestamp": "2026-11-22 00:38:55",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -74,11 +74,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-22 05:39",
-    "place": "熊本県天草・芦北地方",
-    "magnitude": "2.3",
+    "time": "2026-11-22 09:09",
+    "place": "茨城県南部",
+    "magnitude": "2.7",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-22 09:09",
+        "place": "茨城県南部",
+        "shindo": "1",
+        "magnitude": "2.7",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-22 05:39",
         "place": "熊本県天草・芦北地方",
@@ -141,13 +148,6 @@
         "shindo": "1",
         "magnitude": "2.3",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-21 04:43",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.8",
-        "maxScale": 10
       }
     ]
   },
@@ -190,9 +190,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "乾燥注意報",
           "強風注意報"
         ],
-        "summary": "強風注意報",
+        "summary": "乾燥注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -203,10 +204,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/32/"
       },
       {
@@ -217,10 +218,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/31/"
       },
       {
@@ -245,14 +246,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 山陰本線 ／ 新幹線: 山陽新幹線（その他））",
+    "text": "運行支障あり（在来線: 山陰本線、芸備線 ／ 新幹線: 山陽新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山陰本線）",
+    "line_text": "運行支障あり（山陰本線、芸備線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
     "troubled_lines": [
-      "山陰本線"
+      "山陰本線",
+      "芸備線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）"
@@ -277,11 +279,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中国電力NW: 停電情報なし（中国エリア管内正常）",
+    "power_msg": "中国電力NW: 【停電発生中】島根で停電情報を検知",
     "water_msg": "広島市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "広島ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -321,8 +323,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 00:13",
+          "text": "おおぅ。 ついに 携帯の通信 START 障害 END まで 出てきちゃった(´・ω・｀) 高鷲 白鳥 明宝辺りの郡上市内だと思うけど。 ドコモ START a..."
+        },
         {
           "time": "11/21 15:02",
           "text": "岐阜県 START au END 通信 START 障害 END 出てる https://t.co/571jLvLgWh"
@@ -330,10 +336,6 @@
         {
           "time": "11/21 14:16",
           "text": "家に着いた途端また通信状況悪くなるの何なん START au END で通信 START 障害 END とか起きてます？"
-        },
-        {
-          "time": "11/21 14:09",
-          "text": "家のWiFi( START au END )使えないんだけど？ なんか START 障害 END 出てんの？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -344,8 +346,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 00:26",
+          "text": "START KDDI END は11月21日、大雪の影響で一部地域の通信サービスが利用しづらい状況を発表。 通信は生活を支えるインフラ。料金や特典だけでなく、 ..."
+        },
         {
           "time": "11/21 13:02",
           "text": "福島県耶麻郡北塩原村檜原蛇平原山 START 障害 END 情報は START KDDI END のサイトに促されてますけど、北塩原村唯一の楽天モバイル局は生き..."
@@ -353,10 +359,6 @@
         {
           "time": "11/21 08:32",
           "text": "【大雪・携帯 START 障害 END の続報】 START KDDI END が福島・長野・岐阜の一部で災害時の代替回線を順次提供。au・UQ・povoなどで..."
-        },
-        {
-          "time": "11/20 10:07",
-          "text": "＜【ドコモ START 障害 END 連発に総務相も遺憾】スマホの異常事態に「デュアルSIM」専門家が提案する防衛策・・＞ ところで START KDDI EN..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -367,8 +369,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 00:21",
+          "text": "@keisukenoyatu2 人間相手のチャットにゃ START 繋がらない END し、 AI相手のチャットはトンチンカンだし、 そもそも文字ベースはきつい..."
+        },
         {
           "time": "11/21 23:48",
           "text": "御殿場まで赤字で2時間以上と見たくない表示が出てた(-｡-;そして START au繋がらない END ので予備の楽天が入るとかw"
@@ -376,10 +382,6 @@
         {
           "time": "11/21 15:11",
           "text": "@ilkbtobfl @6dedelove 横から〜 ahamoでJALマイルがたまるようになってから乗り換えしたよ 元々もIIJという格安だったせいか、 ST..."
-        },
-        {
-          "time": "11/21 13:28",
-          "text": "@247RGB_P 通りすがりですが、昨日から START au END 4Gも5Gも START 繋がらない END ですね。 今はソフバン系の格安simのス..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -390,8 +392,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 00:01",
+          "text": "@leonardobeet そうですよね😊 楽天モバイルがつながりにくい場所でも、 START povo END が使えると助かりますよね📱✨ 通信 START..."
+        },
         {
           "time": "11/21 09:02",
           "text": "【いざという時のネット環境に💻】 楽天モバイルのWiFi Pocketが1円キャンペーン中📶 停電・通信 START 障害 END ・出張・在宅でも使える備えと..."
@@ -399,10 +405,6 @@
         {
           "time": "11/21 08:32",
           "text": "【大雪・携帯 START 障害 END の続報】KDDIが福島・長野・岐阜の一部で災害時の代替回線を順次提供。au・UQ・ START povo END などで..."
-        },
-        {
-          "time": "11/21 00:17",
-          "text": "START povo障害 END でてる？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -425,8 +427,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 6,
     "articles": [
+      {
+        "title": "「気絶させてから乱暴するのが俺のやり方だ」　被害女性は実に39人…言語道断な凶悪犯を逮捕したベテラン刑事の“読み”(デイリー新潮)",
+        "summary": "1都4県、10の警察署から手配を受けた連続婦女暴行・強盗犯がいた。合同捜査本部が設置されていないので、それぞれの警察が一人の被疑者を追うことになる。常習性のある凶悪犯罪者だけに、一刻も早い逮捕が望まれ",
+        "pub_date": "11/22 09:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/9acf57c07a30a2d589529fa643827bb67a6d00f0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "通勤中の車に突然襲いかかるクマ→ボンネットを引っかき、よじ登る“恐怖の瞬間” 群馬・前橋市(ABEMA TIMES)",
         "summary": "住宅街でのクマ出没が相次ぐ群馬・前橋市で11月17日、親子とみられる2頭のクマが現れ、車や人が襲われる被害が発生した。【映像】ボンネットを引っかき→よじ登る“恐怖の瞬間” 通勤中の男性の車のドライブレ",
@@ -468,87 +478,79 @@
         "is_disaster": true
       },
       {
-        "title": "左から追い抜こうと…車で原付バイクに衝突し男性に重傷負わせて逃走した疑い トルコ国籍の42歳男を逮捕(東海テレビ)",
-        "summary": "名古屋市東区で、22日未明、原付バイクの男性が大ケガしたひき逃げ事件で、トルコ国籍の42歳の男が逮捕されました。 警察によりますと、逮捕されたのは愛知県春日井市に住むトルコ国籍の自営業、クルッチ・クタ",
-        "pub_date": "11/22 06:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/f7675f2e2c21c363f9b654565ed5a1b204338f63?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "首里城正殿 きょう復元完成式　火災による焼失から7年 23日から一般公開(テレビ朝日系（ANN）)",
-        "summary": "2019年に火災で焼失した首里城正殿の復元作業が完了し、22日午後に完成式が開かれます。 2019年10月31日未明に正殿から出火した火災で、首里城では9つの施設や保管されていた文化財が焼失しました。",
-        "pub_date": "11/22 06:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/b710c7caf4e5add99caabf861708870c3be4491a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "呼気1リットル当たり0.5ミリグラム以上のアルコールを検出　酒酔い運転で事故を起こした疑いで74歳の男を逮捕　「酒は飲んだが事故を起こした覚えはない」と...　愛知・豊橋市(CBCテレビ)",
-        "summary": "愛知県豊橋市で、酒を飲んだ状態で車を運転し事故を起こした疑いで、74歳の男が逮捕されました。男は「酒は飲んだが事故を起こした覚えはない」と容疑を一部否認しています。逮捕されたのは、豊橋市東小田原町のア",
-        "pub_date": "11/22 05:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/6ce4ebd97cc118a48904830be67c5577cc5e44fd?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "孤立や停電も…強烈寒波が3連休直撃 各地で大雪の影響広がる 都内は初の氷点下(テレビ朝日系（ANN）)",
-        "summary": "今シーズン初めての強い寒波が3連休を直撃しています。21日は都内でも氷点下を観測し、全国的に厳しい寒さに。大雪による孤立や停電、交通障害など、各地で影響が広がりました。（サタデーステーション11月21",
-        "pub_date": "11/22 01:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/af157dba4a25bb8a55a4f7d638b343c06e847c2c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "“オレンジ色のカーテン”「枯露柿」作りが最盛期(ABEMA TIMES)",
-        "summary": "山梨県甲州市の農家では、特産の「枯露柿」作りが最盛期を迎えています。 山梨県甲州市にある岩波農園では、オレンジ色のカーテンのように、「枯露柿」がずらりと吊るされています。【映像】「枯露柿」作りの様子",
-        "pub_date": "11/22 08:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/d6f9f81e1b3f8ff4aee9bf684f40215233b3bc67?source=rss",
+        "title": "雅子さま、細部に光る“海コーデ”の美学　波の襟元に貝のブローチ、マーメイドスカートまで(AERA DIGITAL)",
+        "summary": "波のような襟元のデザインに、貝のブローチ。11月15日、大阪で開かれた「第45回全国豊かな海づくり大会」にご臨席された皇后雅子さまは、細部にまで“海”を感じさせるターコイズブルーの装いを披露された。【",
+        "pub_date": "11/22 09:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/2fc8809d0ce4066d29ebe8438105a7f97ce100af?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "埼玉・所沢で木造住宅燃える火事　性別不明の遺体　住人の男性と連絡取れず(テレビ朝日系（ANN）)",
-        "summary": "埼玉県所沢市で木造住宅が燃える火事があり、焼け跡から1人の遺体が見つかりました。 22日午前4時半ごろ、所沢市花園で、近隣住民から「隣の家から煙が出ている」と119番通報がありました。 警察と消防によ",
-        "pub_date": "11/22 08:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/0f73a8d6295c5eef6ed4f26b0824bfd7c98353dc?source=rss",
+        "title": "藤井聡太六冠が竜王戦6連覇　史上初の2期連続ストレート防衛　流れ変わったきっかけは(テレビ朝日系（ANN）)",
+        "summary": "藤井聡太六冠（24）に服部慎一郎七段（27）が挑む竜王戦七番勝負の第4局は、21日に2日目を迎え、藤井六冠が94手で服部七段に勝利し、4連勝で6連覇を達成しました。 竜王戦では史上初となる、2期連続の",
+        "pub_date": "11/22 09:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/fa90e16c0a8f12debb3cf9716da2ff261941c49e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "白バイ走行訓練など披露 警視庁が採用説明会(ABEMA TIMES)",
-        "summary": "警視庁が採用説明会を開き、レスキュー隊による実演や白バイの走行訓練などを披露しました。【映像】技術を披露する白バイ 21日、東京・目黒区で開かれた警視庁の採用説明会には高校生や大学生らが参加し現役の刑",
-        "pub_date": "11/22 08:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/b00cbbf2b993a6deea7bca3ae66deffa7b0239e2?source=rss",
+        "title": "自民・麻生氏「世界に恥さらした」　アジア大会運営トラブルに苦言　国歌取り違えなど(テレビ朝日系（ANN）)",
+        "summary": "自民党の麻生太郎副総裁（86）は、会長を務める超党派のスポーツ議員連盟の総会に出席し、愛知・名古屋アジア大会の運営トラブルについて苦言を呈しました。「何度も同じような間違いをして、世界に恥をさらしまし",
+        "pub_date": "11/22 09:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/ea7d2f21cf219a5a3f6479f71e08f677138f7bdf?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "福島県警職員が温泉で女児らを盗撮か　千葉・長生村(テレビ朝日系（ANN）)",
-        "summary": "福島県の警察職員が千葉県長生村の温泉施設で小学生や保育園児の女の子らを盗撮した疑いで逮捕されました。 福島県の警察職員・高井健太容疑者（40）は21日午後7時ごろ、千葉県長生村にある温泉施設の男性用更",
-        "pub_date": "11/22 08:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/6d403cfa278b46200c8c27657efb6a4fc5e12016?source=rss",
+        "title": "「木を切り始めるといなくなった」4500羽以上が集まった「緑の外来インコ」のねぐらが再開発で消失…群れの分散で生息域が広がる可能性も(集英社オンライン)",
+        "summary": "50年以上前から関東で野生化し増え続け、昨年秋にはねぐらで4500羽以上が数えられるまでになった緑色のワカケホンセイインコ。大きなねぐらがあった神奈川県川崎市の等々力緑地で、再開発工事のため、10月下",
+        "pub_date": "11/22 09:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/1119ab44e4724c10bf3f670a4a3be13aabb1ec46?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "受刑者の選挙権めぐり「刑務所」から届いた賛否の声　「同じ日本国民なのに不公平」「権利を主張するなら悪いことするな」(弁護士ドットコムニュース)",
-        "summary": "受刑者にも、選挙で一票を投じる権利はあるのか。受刑者の選挙権を一律に制限する公職選挙法の規定について、最高裁大法廷は11月18日、憲法に違反しないとの判断を示した。斬新すぎる…元受刑者が顔出しするワケ",
-        "pub_date": "11/22 08:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/c3d5066bec2cec102f7a3338404fbc29e2cc7132?source=rss",
+        "title": "〈東京・謎の外来インコ大繁殖〉「まるで雲が動いているようだった」一晩に4500羽超…川崎の巨大ねぐらに起きた異変(集英社オンライン)",
+        "summary": "東京や周辺の住宅街をトロピカルな緑色のインコが飛び回っている。体長が40センチほどの外来種「ワカケホンセイインコ」で、約50年前から関東の都市部に定着し、近年個体数が増加。昨年は最大規模のねぐらに一晩",
+        "pub_date": "11/22 09:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/8004485a29096892a5b532965f8c1abcb5af8d2f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "3位バスケ部､2位サッカー部､では1位は…野球部でもテニス部でもない､\"イマドキの中学生男子\"に人気の部活(プレジデントオンライン)",
-        "summary": "2010年以降に生まれ、現在おおむね2〜16歳の人たちは「α世代」と呼ばれている。マーケティングアナリストで、芝浦工業大学の原田曜平教授は「彼らを取り巻く環境には、親の意識や経済力による差が表れている",
-        "pub_date": "11/22 08:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/8a510e0526e7ee65ad7d33b18e2f22d28291a47c?source=rss",
+        "title": "男性暴行死 同居の男が行動管理か　外出中は数分おきに連絡 母親と会う際は通話状態に(テレビ朝日系（ANN）)",
+        "summary": "谷冨金太郎容疑者（27）は2022年、同居していた金田直人さん（当時23）を暴行し、その後、死亡させた疑いが持たれています。 捜査関係者によりますと、谷冨容疑者は、金田さんが外出すると数分おきに連絡し",
+        "pub_date": "11/22 09:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/4c9642e1cb51b24954652fb8786382bdd7bceba3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "幼い子どもが泣き叫ぶなかで主婦を乱暴し…許しがたい“連続婦女暴行魔”を逮捕せよ！　1都4県の警察官が血眼で犯人を追った“昭和の大捜査線”(デイリー新潮)",
+        "summary": "昭和の時代も令和の今も、全国警察の「縄張り意識」は相当なものがある。管轄内で起きた犯罪の被疑者を他県警に奪われるなどもってのほか――この熾烈なライバル意識が、日本警察の検挙率の向上につながったことは否",
+        "pub_date": "11/22 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/3f0b5bc31420fc69578982a169f2283b437f88af?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "豪華クルーズ船に集う富裕層シニアたち…秘密のカップル、ダンス争奪戦に見る“最後の旅”の人間模様(FRIDAY)",
+        "summary": "「クルーズ船には”人に見つかってはいけない”カップルも乗っています」(旅行ジャーナリスト)【写真】揃いの白い服に身を包んだ乗客が甲板に集いビートに乗って踊る「ホワイトパーティー」の様子名前を伏せて同じ",
+        "pub_date": "11/22 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/f134fc1c3ac78cf8b30a2a6bc032def107bd6025?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "水しぶきをあげながら…クマが猛スピードで川を泳ぐ様子に「かなりパニック状態なので危険」専門家が警鐘 群馬・前橋市(ABEMA TIMES)",
+        "summary": "連日のようにクマの目撃情報が相次いでいる群馬・前橋市。11月19日、市内を流れる広瀬川をクマが猛スピードで泳ぐ瞬間が撮影された。【映像】水しぶきをあげながら…猛スピードで川を泳ぐクマ 映像には、激しい",
+        "pub_date": "11/22 09:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/9d1a60b5e68c00ef203dd939758b6e1606bfd114?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 08:59:38 JST"
+    "last_updated": "2026-11-22 09:38:28 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",

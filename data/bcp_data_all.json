@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 17:30:10",
+  "timestamp": "2026-11-22 18:07:43",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -347,11 +347,46 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-22 22:33",
-    "place": "神奈川県東部",
-    "magnitude": "3",
+    "time": "2026-11-23 03:03",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "2.7",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-23 03:03",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.7",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-23 02:49",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "2",
+        "magnitude": "3.2",
+        "maxScale": 20
+      },
+      {
+        "time": "2026-11-23 02:46",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "3",
+        "magnitude": "4.1",
+        "maxScale": 30
+      },
+      {
+        "time": "2026-11-23 02:46",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "-",
+        "magnitude": "4.1",
+        "maxScale": -1
+      },
+      {
+        "time": "2026-11-23 02:46",
+        "place": "震源情報なし",
+        "shindo": "3",
+        "magnitude": "-",
+        "maxScale": 30
+      },
       {
         "time": "2026-11-22 22:33",
         "place": "神奈川県東部",
@@ -386,41 +421,6 @@
         "shindo": "1",
         "magnitude": "2.3",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-22 05:00",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.4",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-22 04:03",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.3",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-22 02:30",
-        "place": "房総半島南方沖",
-        "shindo": "2",
-        "magnitude": "4.6",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-21 21:58",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.4",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-21 19:09",
-        "place": "房総半島南方沖",
-        "shindo": "2",
-        "magnitude": "4.9",
-        "maxScale": 20
       }
     ]
   },
@@ -1040,9 +1040,10 @@
         "warns": [],
         "notices": [
           "乾燥注意報",
+          "濃霧注意報",
           "霜注意報"
         ],
-        "summary": "乾燥注意報、霜注意報",
+        "summary": "乾燥注意報、濃霧注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1069,15 +1070,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線20路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、磐越西線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線20路線: 磐越西線、山田線、奥羽本線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、磐越西線、山田線、奥羽本線 等 計20路線）",
+    "line_text": "運行支障あり（磐越西線、山田線、奥羽本線、米坂線、陸羽東線 等 計20路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
       "磐越西線",
       "山田線",
       "奥羽本線",
@@ -1086,12 +1085,14 @@
       "北上線",
       "津軽線",
       "肥薩線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
       "美祢線",
-      "加古川線",
       "北陸鉄道石川線",
       "大井川鉄道大井川本線",
       "長良川鉄道越美南線",
       "万葉線",
+      "加古川線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
@@ -1747,7 +1748,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 02:30:06 JST"
+    "last_updated": "2026-11-23 03:07:40 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

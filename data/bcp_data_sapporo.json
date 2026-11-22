@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 22:31:26",
+  "timestamp": "2026-11-22 23:14:29",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -61,12 +61,33 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-23 06:35",
-    "place": "熊本県熊本地方",
-    "magnitude": "2.8",
+    "shindo": "3",
+    "time": "2026-11-23 07:49",
+    "place": "天草灘",
+    "magnitude": "4.1",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-23 07:49",
+        "place": "天草灘",
+        "shindo": "3",
+        "magnitude": "4.1",
+        "maxScale": 30
+      },
+      {
+        "time": "2026-11-23 07:49",
+        "place": "天草灘",
+        "shindo": "-",
+        "magnitude": "4.1",
+        "maxScale": -1
+      },
+      {
+        "time": "2026-11-23 07:49",
+        "place": "震源情報なし",
+        "shindo": "3",
+        "magnitude": "-",
+        "maxScale": 30
+      },
       {
         "time": "2026-11-23 06:35",
         "place": "熊本県熊本地方",
@@ -115,27 +136,6 @@
         "shindo": "2",
         "magnitude": "3.2",
         "maxScale": 20
-      },
-      {
-        "time": "2026-11-23 02:46",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "3",
-        "magnitude": "4.1",
-        "maxScale": 30
-      },
-      {
-        "time": "2026-11-23 02:46",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "-",
-        "magnitude": "4.1",
-        "maxScale": -1
-      },
-      {
-        "time": "2026-11-23 02:46",
-        "place": "震源情報なし",
-        "shindo": "3",
-        "magnitude": "-",
-        "maxScale": 30
       }
     ]
   },
@@ -386,19 +386,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 23:09",
+          "text": "@anya_ontwitt いえ！ アプリ開いてもまっさら、ライン START 繋がらない END 、通話でしか連絡できない！まさにその通りでした😂 START..."
+        },
+        {
+          "time": "11/22 22:45",
+          "text": "昨日のブルーインパルス✈️ docomoは全く START 繋がらない END 時間が長く大変でした。 START au END は基地移動車が来ていてフォロー..."
+        },
         {
           "time": "11/22 15:47",
           "text": "ぜんぜん START 繋がらない END 楽天モバイルからLINEMOにMNP手続きした。出戻りだけど、ちょうどキャンペーンの内容変わってお得だったし。やっぱつ..."
-        },
-        {
-          "time": "11/22 12:34",
-          "text": "@nobuchan0401 レンプロさんの携帯が全然 START 繋がらない END という事でしたが、僕のスマホは普通に使えていてなんだろうと思ったら TV中..."
-        },
-        {
-          "time": "11/22 12:29",
-          "text": "営業に乗ってしまったばかりに、7月からずっと START au END と戦ってて本当に勘弁してほしい。。 疲れた。説明不足、会社都合のものを全てこちらに負担さ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -731,8 +731,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 6,
+    "disaster_count": 4,
     "articles": [
+      {
+        "title": "DV被害者の保護を始めて9年の間に…誰も虐げられることのない社会を目指しシェルターを運営する津山市のNPO法人の「変わりゆく支援環境」への対応【岡山発】(FNNプライムオンライン)",
+        "summary": "11月12日から25日までは「女性に対する暴力をなくす運動」の実施期間。これにあわせてDV・ドメスティックバイオレンスについて、被害者を保護するシェルターを運営する岡山県津山市の認定NPO法人の取り組",
+        "pub_date": "11/23 07:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/b3e5b4f159172c214d2b4b3d70dfef54532d3b92?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "焼失から7年…「沖縄の誇り」　首里城正殿　23日から一般公開(テレビ朝日系（ANN）)",
         "summary": "2019年の火災で焼失し、復元作業が完了した首里城正殿の一般公開が23日から始まります。 22日に行われた国主催の式典には木原官房長官や古謝知事らが出席し、木原官房長官は「復元完成を機に、沖縄の発展に",
@@ -743,7 +751,7 @@
       },
       {
         "title": "衝突事故で女性が死亡　子ども3人乗車　男を逮捕　香川・高松市(テレビ朝日系（ANN）)",
-        "summary": "香川県高松市の国道で車が正面衝突し、女性が死亡しました。 22日午後4時前、高松市の国道で乗用車が中央分離帯を越えて対向車線を走る車と正面衝突しました。 この事故で衝突された車に乗っていた女性が意識不",
+        "summary": "香川県高松市の国道で車が正面衝突し、女性が死亡しました。 22日午後4時前、高松市の国道で乗用車が中央分離帯を越え、対向車線を走る車と正面衝突しました。 この事故で、衝突された車に乗っていた女性が意識",
         "pub_date": "11/23 05:53 JST",
         "link": "https://news.yahoo.co.jp/articles/fd3c80c4093d445f9174855b56c0de686dc4b1c4?source=rss",
         "category": "国内・気象防災",
@@ -758,28 +766,84 @@
         "is_disaster": true
       },
       {
-        "title": "能登半島地震の歪みは終わっていない…京大名誉教授が\"次のM7クラスの震源候補\"と警戒する2つの地名(プレジデントオンライン)",
-        "summary": "次に直下型地震を警戒すべきエリアはどこか。京都大学名誉教授の鎌田浩毅さんは「2024年能登半島地震により150キロメートルにわたり破壊された震源断層の大部分では、それまで蓄積されていた歪みが解消された",
-        "pub_date": "11/22 19:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/52ae8e7455ede50bb584d398f96e865eed73b57d?source=rss",
+        "title": "「もち米」なぜ高騰？コメ価格は下落しているのに…和菓子店も苦悩する“もち米事情”とは(TOKYO MX)",
+        "summary": "TOKYO MX（地上波9ch）の報道・情報生番組「堀潤 Live Junction」（毎週月～金曜19:57～）。家計に関するお金のニュースを深掘りする「家計Lab」のコーナーでは、高騰している「も",
+        "pub_date": "11/23 08:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/5c2e58cc41737018129e36d825bf2fc57c6ace4d?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "柏崎刈羽原発 ガラスの下敷きで男性死亡(ABEMA TIMES)",
-        "summary": "新潟県の柏崎刈羽原発で作業をしていた男性が倒れてきたガラス十数枚の下敷きになり、死亡しました。【映像】死亡事故があった柏崎刈羽原発 警察などによりますと午前11時50分ごろ、柏崎刈羽原発で埼玉県川口市",
-        "pub_date": "11/22 19:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/f3e464ecef0bdf898c4c375f1bb4b33e9d5d7eef?source=rss",
+        "title": "100周年“最北の温泉郷”に湯治客続々　皮膚疾患に効能「奇跡の湯」、北海道豊富町(共同通信)",
+        "summary": "「油風呂」と呼ばれる北海道豊富町の豊富温泉が今年で開湯100周年を迎えた。皮膚疾患に効能がある「奇跡の湯」とも言われ、“日本最北の温泉郷”まで全国各地から多くの湯治客らが訪れる。次の100年を見据え、",
+        "pub_date": "11/23 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/9d6e2d7358839cf98b298110ff60db9922ba7f18?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "24日は全国的に雨　前線通過時は雨脚が強まり雷雨になる所も　北日本は暴風のおそれ(日本気象協会tenki.jp)",
-        "summary": "連休明けの24日(火)は、寒冷前線が日本列島を通過する見込みです。全国的に雨が降り、前線通過時は雨脚や強まったり、雷雨になる所があるでしょう。これまでの雨で地盤の緩んでいる所のある北陸では、土砂災害に",
-        "pub_date": "11/22 18:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/9c73ef64599ffa666d6fa25a3ae3f0f1e5e0b6c8?source=rss",
+        "title": "素直に「ビール減税」を喜んではいけない…消費減税のウラで「酒税法改正」が進められたカラクリ(デイリー新潮)",
+        "summary": "「ビール大手4社が“談合”し、値上げしていたことが10月に発覚しました。消費者に対する裏切りに捜査のメスが入るのは当然です。しかし『ビール党の敵は本当にメーカーだけなのか』という声もささやかれ始めてい",
+        "pub_date": "11/23 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/312581c0272b4ba3e1676f74908092660739e4ac?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "【ニュースto】疑問！仙台市長の海外出張費が6600万円超　ビジネスクラスの利用も…市議会「高すぎる、本当に行く必要があるのか」(読売テレビ)",
+        "summary": "宮城県仙台市で、郡和子市長の海外出張を巡る経費が物議を醸しています。仙台市によると2023年度から2025年度までの3年間で11回の海外出張が行われ、同行職員も含めた総額は約6672万円に上っています",
+        "pub_date": "11/23 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/97e5f5dbab378955c3da523928267f8215f727e8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "今朝は各地で厳しい冷え込み　冬日地点は今季最多　東京都心など今季最低気温を更新(日本気象協会tenki.jp)",
+        "summary": "今日23日(月・祝)の朝は、各地で冷え込みが強まりました。午前7時までの最低気温は、東京都心4.3℃、名古屋市2.6℃、大阪市4.5℃など、今季一番の冷え込みとなった所が多く、冬日(最低気温0℃未満)",
+        "pub_date": "11/23 07:54 JST",
+        "link": "https://news.yahoo.co.jp/articles/b0b0f9447033c24184f0fdacf5388261898b34b6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "陰謀論YouTuber起用の政府広報、医師団体が「不適切」と猛批判。「根拠不明」と指摘の“過去発言“とは？(ハフポスト日本版)",
+        "summary": "全国保険医団体連合会（保団連）が11月22日、公式Xを更新し、政府広報にYouTuberの「Naokiman（ナオキマン）」氏を起用したことについて、「根拠不明な言説を紹介するYouTuberを政府広",
+        "pub_date": "11/23 07:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/5a9eedb51f818fdda34f57b35306a355af026208?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【動画】23日の天気 - 東京で今季最低 日中は広く行楽日和　北日本は一部でにわか雨（23日7時更新）(ウェザーマップ)",
+        "summary": "けさは東京都心で、今シーズン一番の冷え込みを更新しました。日中は東日本や西日本で広く行楽日和になりますが、北日本は一部で天気が下り坂です。",
+        "pub_date": "11/23 07:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/42e864af8a79b36a6b66407dfb33d65790b8bd6d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "元『egg』モデル・川端かな子さんの友人男性が回顧「お金がきついと悩んでいた」「投げ銭をお願いされたことも」(ABEMA TIMES)",
+        "summary": "伝説のギャル雑誌『egg』の元モデル・川端かな子さん（36）が殺害された事件で、警視庁は11月16日、当時同居していた北原誠容疑者（42）を殺人の容疑で逮捕した。【映像】川端かな子さんと逮捕された北原",
+        "pub_date": "11/23 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/c81ba9a3cb0a2a48a43bc66d0938ce7883eb36c3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "《シンガポールで黄色い歓声と拍手》愛子さま、「バティック風ワンピ」でお出まし…現地文化への配慮と天皇陛下との共通点(週刊女性PRIME)",
+        "summary": "11月17日からシンガポールを訪問されている天皇家の長女、愛子さま。2日目となる18日の午後には『プラナカン博物館』を訪問された。【この記事のすべての写真を見る】「プラナカンとは、マレー語で『地元生ま",
+        "pub_date": "11/23 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/ebd1f36146b0a10a8e7504dd8fac96423a9d807e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "明治時代の隧道!?地形図にない千葉・房総半島の“謎の廃隧道”を調査(CBCテレビ)",
+        "summary": "ミキの昴生と亜生がMCを務める、全国の道に特化したバラエティ番組『道との遭遇』。今回は、全国800か所以上の道を巡ってきた道マニアの石井あつこさんが、千葉・房総半島にある“廃隧道”を調査します。※廃道",
+        "pub_date": "11/23 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/1824fc9eaed859a1ae5782f209d41532fc3a7163?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "｢無意味な仕事｣が次々と生まれる職場には共通点がある…社員が良かれと思って繰り返す｢4文字の危険な言葉｣(プレジデントオンライン)",
@@ -788,73 +852,9 @@
         "link": "https://news.yahoo.co.jp/articles/c81815010c6f2881d1841544c59474730720ffef?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "31歳のカナダ人男性、山形県に約167万円の家を購入する。「投資とは思っていない」（海外）(BUSINESS INSIDER JAPAN)",
-        "summary": "アンドリュー・コラー（Andrew Koller）氏はカナダにも不動産を所有しているが、日本に来た時、ここに家を買うことを決めた。コラー氏は1万5000カナダドル（約167万円、1カナダドル＝111.",
-        "pub_date": "11/23 07:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/6f87a426182636d110003e62bd8eb04d18582e1e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "午前4時半から長蛇の列。就職難で「キャリアフェア」に殺到するアメリカの大学生たち（海外）(BUSINESS INSIDER JAPAN)",
-        "summary": "大学生が午前4時半からキャリアフェアに並び、採用担当者のブースを目指して競い合っている。大勢の人々が我先にと会場に駆け込む動画に、あるTikTokユーザーは「私には仕事があって本当によかった」とコメン",
-        "pub_date": "11/23 07:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/412f63bc8c93e080e06a6ee11caa1705830b5d54?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「また流産するかも」打ち明けられず…　赤ちゃん亡くした悲しみ「妊娠週数でははかれない」(withnews by 朝日新聞)",
-        "summary": "悲しい気持ちを落ち着かせるため、休みたかった……。労働基準法では、妊娠12週以降の流産や死産には、原則8週間の産後休業が保障されています。しかし、12週未満の早期流産は産休の対象になりません。流産を打",
-        "pub_date": "11/23 07:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/f0bb43c8f841aef68b579c55eafbc04db38aaf90?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「ダークウェブ」の現役ブローカーが漏れた個人情報の\"お値段\"を公開！(週プレNEWS)",
-        "summary": "\"大漏洩時代\"の今、個人情報が漏れていない人のほうが少なくなってしまった。氏名、生年月日、住所、メールアドレスなど多くのパーソナルな情報がハッカーの手に渡ってしまったが、果たしてそれらはどのくらいの値",
-        "pub_date": "11/23 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/96a9aab9f9999ef27b0f7df39182646077d737f1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "中学校で固めた「信念と個性」　実現させた米国駐在　ノリタケ・加藤博会長(AERA DIGITAL)",
-        "summary": "日本を代表する企業や組織のトップで活躍する人たちが歩んできた道のり、ビジネスパーソンとしての「源流」を探ります。AERA 2026年11月23日号より。【写真】中学生時代の加藤さん＊ ＊ ＊ 1986",
-        "pub_date": "11/23 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/9f12258317bbfb0389b44506080f34a56bcd548b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "24日の天気（西日本）(共同通信)",
-        "summary": "◆大阪 曇り時々雨◆京都 曇り時々雨◆広島 雨のち曇り◆高松 曇り一時雨◆福岡 雨のち曇り◆鹿児島 雨のち曇り◆那覇 曇りのち時々雨",
-        "pub_date": "11/23 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/406bbe868e56114fd1005f2a944243cbf780faa9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "24日の天気（東日本）(共同通信)",
-        "summary": "◆札幌 雨のち雪◆秋田 曇りのち雨◆仙台 曇り◆新潟 曇りのち時々雨◆東京 曇りのち一時雨◆名古屋 曇り一時雨",
-        "pub_date": "11/23 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/ec18b344d786fafda79d9095b62f383b1dc5ed5f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「やられちゃった」とケガの写真を見せ…古いケガも混在、ホテルでのトラブルも 元『egg』モデル殺害事件、悲劇に至るまでの“数々の予兆”(ABEMA TIMES)",
-        "summary": "2026年7月、「あげぽよ」の生みの親とされる女性が死亡した。ギャル雑誌『egg』のカリスマモデルだった川端かな子さん（36）だ。【映像】川端かな子さんと逮捕された北原誠容疑者（動画あり） そして4カ",
-        "pub_date": "11/23 06:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/75bb1cd3174033c1289ad3689e928462deb68c33?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 07:30:36 JST"
+    "last_updated": "2026-11-23 08:14:12 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -875,10 +875,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "bvJKVLHUW2E",
+        "video_id": "Z2vOwOPzLMI",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/bvJKVLHUW2E?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=bvJKVLHUW2E"
+        "embed_url": "https://www.youtube.com/embed/Z2vOwOPzLMI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Z2vOwOPzLMI"
       },
       {
         "id": "stream_tbsnews",

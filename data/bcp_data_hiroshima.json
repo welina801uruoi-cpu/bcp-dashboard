@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 06:20:06",
+  "timestamp": "2026-11-22 07:40:18",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -163,10 +163,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 4地域】広島、山口、島根、鳥取（警報なし）",
+    "summary": "【注意報発表: 3地域】広島、山口、島根（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 4,
+    "notice_count": 3,
     "total_prefs": 5,
     "pref_details": [
       {
@@ -190,10 +190,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "乾燥注意報"
         ],
-        "summary": "強風注意報、乾燥注意報",
+        "summary": "乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -204,24 +203,20 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "波浪注意報"
+          "乾燥注意報"
         ],
-        "summary": "雷注意報、波浪注意報",
+        "summary": "乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/32/"
       },
       {
         "code": "31",
         "name": "鳥取県",
         "short_name": "鳥取",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "雷注意報",
-          "波浪注意報"
-        ],
-        "summary": "雷注意報、波浪注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/31/"
       },
       {
@@ -326,19 +321,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 07:14",
+          "text": "ドコモは通信 START 障害 END のようね。 アナウンスは無いけどちょくちょく発生してるな。 サブで START au END 回線があって良かった。"
+        },
+        {
+          "time": "11/22 06:38",
+          "text": "So-net（ START au END ）が START 障害 END でつながらないらしく、しょうがなく楽天の回線でサポートアプリでの手続きとテザリングをす..."
+        },
         {
           "time": "11/22 03:48",
           "text": "START au END の通信 START 障害 END もこの辺りで11/20～ https://t.co/6robEFQEEg"
-        },
-        {
-          "time": "11/22 00:53",
-          "text": "ソフトバンク通信 START 障害 END か。 START au END も一時的に繋がらなくなったから、久しぶりに完全オフラインになったかと思った"
-        },
-        {
-          "time": "11/22 00:13",
-          "text": "おおぅ。 ついに 携帯の通信 START 障害 END まで 出てきちゃった(´・ω・｀) 高鷲 白鳥 明宝辺りの郡上市内だと思うけど。 ドコモ START a..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -372,19 +367,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/22 06:04",
-          "text": "ドコモがまともに START 繋がらない END からと、時間をかけてpovoにパケットチャージしても、結局povo（ START au END ）も繋がらなか..."
+          "time": "11/22 07:35",
+          "text": "➕ 楽天の回線が壊滅的に START 繋がらない END （特に START au END から外されて） ※画像はイオン内の楽天モバイルショップ前での電波状況..."
         },
         {
-          "time": "11/22 04:40",
-          "text": "@sasapandayasu 突然失礼します、povoサポートです。お外で通信が START 繋がらない END のは、かなり不便ですよね💦もしお乗り換えをご検..."
+          "time": "11/22 07:20",
+          "text": "品川シーサイドのイオンに来てるけど、ネットが全然 START 繋がらない END 。測ってみたらこのザマ。イオンペイとか使えねー / START au END ..."
         },
         {
-          "time": "11/22 04:31",
-          "text": "@NTakashi14 こんにちは！突然失礼します、povoサポートです。スマホの電波が START 繋がらない END のは、やはり不便ですよね📡よろしければ..."
+          "time": "11/22 07:07",
+          "text": "今日平城京跡でスマホの電波事情悪くてSNSやLINE START 繋がらない END …😓 って、同行者は START au END スマホで全然問題無し… も..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -395,8 +390,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 07:35",
+          "text": "なんか全然繋がらないんやけど START povo END 通信 START 障害 END 出てる？"
+        },
         {
           "time": "11/22 03:14",
           "text": "楽天モバイルの通信 START 障害 END なんかな？ 繋がらずで、 サブ回線に「 START Povo END 」を契約 . たった10分で新番号も持てて開..."
@@ -404,17 +403,13 @@
         {
           "time": "11/22 02:25",
           "text": "あと、中国でahamoだと30GB以上の1か月の枠の中でローミングが問題なく可能でネット問題なかった。 出来れば月額ゼロ円の START povo END もあ..."
-        },
-        {
-          "time": "11/22 00:01",
-          "text": "@leonardobeet そうですよね😊 楽天モバイルがつながりにくい場所でも、 START povo END が使えると助かりますよね📱✨ 通信 START..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
     }
   ],
   "sns_heatmap": {
-    "total_mentions": 3,
+    "total_mentions": 4,
     "top_region": "東北",
     "top_count": 2,
     "regions": [
@@ -463,12 +458,20 @@
         "lat": 35.6895,
         "lon": 139.6917,
         "zoom": 9,
-        "count": 0,
+        "count": 1,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
+        "detected_words": [
+          "品川"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "au 繋がらない",
+            "time": "11/22 07:20",
+            "text": "品川シーサイドのイオンに来てるけど、ネットが全然 START 繋がらない END 。測ってみたらこのザマ。イオンペイとか使えねー / START au END ..."
+          }
+        ]
       },
       {
         "id": "chubu",
@@ -598,6 +601,27 @@
         ]
       },
       {
+        "id": "kanto",
+        "name": "関東・首都圏",
+        "lat": 35.6895,
+        "lon": 139.6917,
+        "zoom": 9,
+        "count": 1,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
+        "detected_words": [
+          "品川"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "au 繋がらない",
+            "time": "11/22 07:20",
+            "text": "品川シーサイドのイオンに来てるけど、ネットが全然 START 繋がらない END 。測ってみたらこのザマ。イオンペイとか使えねー / START au END ..."
+          }
+        ]
+      },
+      {
         "id": "chubu",
         "name": "中部・東海",
         "lat": 35.1815,
@@ -624,19 +648,6 @@
         "lat": 43.0642,
         "lon": 141.3469,
         "zoom": 7,
-        "count": 0,
-        "level": "NORMAL",
-        "color": "#10b981",
-        "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
-      },
-      {
-        "id": "kanto",
-        "name": "関東・首都圏",
-        "lat": 35.6895,
-        "lon": 139.6917,
-        "zoom": 9,
         "count": 0,
         "level": "NORMAL",
         "color": "#10b981",
@@ -728,21 +739,53 @@
     "status": "NORMAL",
     "office": "広島地方気象台",
     "target_area": "広島県",
-    "report_time": "11/22 10:34",
+    "report_time": "11/22 16:34",
     "headline": "",
-    "text": "　中国地方は、山陽を中心に高気圧に覆われておおむね晴れていますが、山陰では寒気や湿った空気の影響で雨や雪の降っている所があります。\n\n　２２日の広島県は、高気圧に覆われて晴れるでしょう。\n\n　２３日は、高気圧に覆われて晴れますが、気圧の谷や湿った空気の影響で夕方から曇る見込みです。",
+    "text": "　中国地方は、高気圧に覆われておおむね晴れていますが、山陰では寒気や湿った空気の影響で雨や雪の降っている所があります。\n\n　２２日夜の広島県は、高気圧に覆われて晴れるでしょう。\n\n　２３日は、高気圧に覆われて晴れますが、気圧の谷や湿った空気の影響で夕方から曇る見込みです。",
     "paragraphs": [
-      "中国地方は、山陽を中心に高気圧に覆われておおむね晴れていますが、山陰では寒気や湿った空気の影響で雨や雪の降っている所があります。",
-      "２２日の広島県は、高気圧に覆われて晴れるでしょう。",
+      "中国地方は、高気圧に覆われておおむね晴れていますが、山陰では寒気や湿った空気の影響で雨や雪の降っている所があります。",
+      "２２日夜の広島県は、高気圧に覆われて晴れるでしょう。",
       "２３日は、高気圧に覆われて晴れますが、気圧の谷や湿った空気の影響で夕方から曇る見込みです。"
     ],
-    "summary": "中国地方は、山陽を中心に高気圧に覆われておおむね晴れていますが、山陰では寒気や湿った空気の影響で雨や雪の降っている所があります。...",
+    "summary": "中国地方は、高気圧に覆われておおむね晴れていますが、山陰では寒気や湿った空気の影響で雨や雪の降っている所があります。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=340000"
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 14,
+    "disaster_count": 16,
     "articles": [
+      {
+        "title": "「ひるがの高原 牧歌の里」停電で臨時休園に 11月では”異例”の積雪1メートル(CBCテレビ)",
+        "summary": "岐阜県郡上市では、20日今シーズン初の積雪があり、停電や観光施設の臨時休園などの影響が出ています。【写真を見る】「ひるがの高原 牧歌の里」停電で臨時休園に 11月では”異例”の積雪1メートル22日午前",
+        "pub_date": "11/22 16:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/95c58d04d717f5c2eb0ea39dab6ec81ebff19a93?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "柏崎原発でガラス下敷き事故の重体男性死亡(共同通信)",
+        "summary": "新潟県警によると、同県柏崎市の東京電力柏崎刈羽原発で、ガラス十数枚の下敷きになり、意識不明の重体だった男性会社員が死亡した。",
+        "pub_date": "11/22 16:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/065140774882a7bc1194c7f7ee95fe99e718f8f9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "閉山後も遭難が続く富士山　冬の山頂では半分以上の日に台風並みの風(ウェザーマップ)",
+        "summary": "富士山では、登山シーズンが終わったあとも、毎年のように遭難が起きています。2023～2025年の3年間に、静岡県側の富士山では開山期以外に30人が遭難し、8人が死亡しました。2026年も、開山期以外の",
+        "pub_date": "11/22 16:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/955e7aa4e322f24b2c0a6513f7c07f144ffb0b5a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【警報級大雨のおそれ】気象庁週間天気予報（23⽇〜29⽇）東⽇本の⽇本海側で低気圧の発達の程度次第では「警報級の⼤⾬や⾼波」の可能性...27日（金）にかけての雨風シミュレーション(RSK山陽放送)",
+        "summary": "■警報級の⼤⾬や⾼波のおそれ気象庁がきょう（22日）発表した週間天気予報（23⽇〜29⽇）によりますと、北⽇本と東⽇本から⻄⽇本にかけての⽇本海側は、曇りや⾬または雪の降る所が多いでしょう。【画像でみ",
+        "pub_date": "11/22 15:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/317ea54a090e24cbe0d1ab19f1dceac928a45933?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "柏崎原発で作業員1人重体　荷ほどき中ガラス下敷きに(共同通信)",
         "summary": "22日午前11時半ごろ、新潟県柏崎市の東京電力柏崎刈羽原発内で、作業中の男性会社員が倒れてきたガラス十数枚の下敷きになる事故が発生した。県警によると、埼玉県川口市の斉藤辰也さん（38）が意識不明の重体",
@@ -830,41 +873,9 @@
         "link": "https://news.yahoo.co.jp/articles/56e8be8ebf56d7cf1c089cde4573872ccdbfd361?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
-      },
-      {
-        "title": "近鉄大阪線で人身事故 運転再開(レスキューナウニュース)",
-        "summary": "築山～大和高田駅間で発生した人身事故の影響で、近鉄大阪線は五位堂～大和八木駅間の運転を見合わせていましたが、12:12頃、運転を再開しました。なお、ダイヤが乱れています。",
-        "pub_date": "11/22 12:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/f16025e5b6dfe1ba75ee43c061658d4a0f4702dc?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "寒波襲来　東京で熱々おでんに長蛇の列　日本海側で大雪被害　福島で約1500人孤立状態(テレビ朝日系（ANN）)",
-        "summary": "秋と冬、対照的な景色が広がった3連休初日の日本列島。紅葉の名所は黄金色に染まり、多くの人でにぎわう一方、日本海側では、大雪による被害が相次いでいます。■熱々おでんに長蛇の列 21日は“この秋一番の冷え",
-        "pub_date": "11/22 12:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/d7cfa5c93f86303b34dea75cc7ae5824c242e1ae?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "よみがえった首里城正殿 まもなく完成式　焼失から7年(テレビ朝日系（ANN）)",
-        "summary": "火災によって焼失した首里城正殿の復元作業が完了し、23日に一般公開が始まります。まもなく国主催の完成式が開かれます。 火災による焼失からおよそ7年。日本で唯一の「赤い城」、首里城正殿がよみがえります。",
-        "pub_date": "11/22 12:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/29e86729ec68bff7e2bdcff6d6245ef2be983a0d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「たまごっち」発売30周年　累計1億個突破、知的財産で活用(共同通信)",
-        "summary": "バンダイの携帯型育成ゲーム「たまごっち」が23日、発売から30周年。累計出荷数は2025年に1億個を突破、その半数は海外向けだ。バンダイは他社とコラボした関連商品の展開など知的財産（IP）としての活用",
-        "pub_date": "11/22 15:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/56a305e18024bc6daba8f3757bc02aaef75796cf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 15:19:52 JST"
+    "last_updated": "2026-11-22 16:40:06 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -885,10 +896,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "MtdR7p1eaJo",
+        "video_id": "dTQQMR6Z3HM",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/MtdR7p1eaJo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=MtdR7p1eaJo"
+        "embed_url": "https://www.youtube.com/embed/dTQQMR6Z3HM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=dTQQMR6Z3HM"
       },
       {
         "id": "stream_tbsnews",
@@ -918,10 +929,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "Bf187S0iIoM",
+        "video_id": "LqswqY5FD1k",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/Bf187S0iIoM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Bf187S0iIoM"
+        "embed_url": "https://www.youtube.com/embed/LqswqY5FD1k?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=LqswqY5FD1k"
       },
       {
         "id": "stream_fnnnews",
@@ -929,10 +940,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "7M3GlXNd05E",
+        "video_id": "kGG1CaeQ9oM",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/7M3GlXNd05E?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=7M3GlXNd05E"
+        "embed_url": "https://www.youtube.com/embed/kGG1CaeQ9oM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=kGG1CaeQ9oM"
       }
     ],
     "cameras": [

@@ -1301,6 +1301,42 @@
             }
 
             /* =========================================================
+           📶 低速通信・災害軽量テキストモード (Low-Bandwidth Mode)
+           ========================================================= */
+        body.low-bandwidth-mode {
+            background: #060a12 !important;
+            color: #e2e8f0 !important;
+        }
+        body.low-bandwidth-mode .cockpit-main {
+            display: none !important;
+        }
+        body.low-bandwidth-mode #text-mode-container {
+            display: block !important;
+        }
+        body.low-bandwidth-mode * {
+            box-shadow: none !important;
+            text-shadow: none !important;
+            animation: none !important;
+        }
+
+        /* 災害時ラジオ 共通スタイル */
+        .disaster-radio-card {
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 12px;
+        }
+        .disaster-radio-header {
+            background: linear-gradient(90deg, #1e3a8a 0%, #0f172a 100%);
+            padding: 8px 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+            /* =========================================================
                📱 iPhone 15 完全スクロールなし 1画面モード (compact mode)
                ========================================================= */
             body.mobile-mode-compact {
@@ -1811,6 +1847,8 @@
     <!-- Leaflet.js (参集ルート地図用) -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- HLS.js for Live Disaster Audio Streaming on non-Safari browsers -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
 </head>
 <body>
 
@@ -1900,6 +1938,12 @@
                     <div id="progress-bar" class="progress-bar-fill"></div>
                 </div>
 
+                <button class="btn-tool" id="btn-toggle-low-bandwidth" onclick="toggleLowBandwidthMode()" title="低速回線・災害軽量テキストモード切替" style="background:rgba(245,158,11,0.2); border:1.5px solid #f59e0b; color:#fbbf24; font-weight:800; cursor:pointer;">
+                    📶 低速・テキスト版
+                </button>
+                <a href="#sec-radio-anchor" class="btn-tool" style="background:rgba(56,189,248,0.15); border:1px solid #38bdf8; color:#38bdf8; font-weight:800; text-decoration:none; display:inline-flex; align-items:center; gap:4px;">
+                    📻 災害ラジオ
+                </a>
                 <button class="btn-tool btn-refresh-active" id="btn-manual-refresh" onclick="loadRealData(true)">
                     <span id="btn-refresh-text">🔄 今すぐ更新</span>
                 </button>
@@ -1925,13 +1969,77 @@
 
         <!-- 📱 スマホ専用 クイックジャンプ ナビゲーションバー (幅<=768pxで表示) -->
         <nav class="mobile-quick-nav">
-            <button class="mobile-quick-btn mode-btn" onclick="toggleMobileDashboardMode()" id="mobile-quick-mode-btn">📱 1画面モードへ</button>
+            <button class="mobile-quick-btn mode-btn" onclick="toggleMobileDashboardMode()" id="mobile-quick-mode-btn">📱 1画面</button>
+            <button class="mobile-quick-btn" id="mobile-quick-bandwidth-btn" onclick="toggleLowBandwidthMode()" style="background:rgba(245,158,11,0.25); border:1px solid #f59e0b; color:#fbbf24; font-weight:800;">📶 低速版</button>
+            <a href="#sec-radio-anchor" class="mobile-quick-btn" style="color:#38bdf8; font-weight:bold;">📻 ラジオ</a>
             <a href="#sec-indicators-anchor" class="mobile-quick-btn active">📋 12大指標</a>
             <a href="#sec-stream-anchor" class="mobile-quick-btn">🔴 災害生放送</a>
             <a href="#sec-camera-anchor" class="mobile-quick-btn">📷 ライブカメラ</a>
             <a href="#sec-weather-anchor" class="mobile-quick-btn">🌦️ 天気＆レーダー</a>
             <a href="overseas.html" class="mobile-quick-btn overseas-nav-btn">🌍 海外危機 ↗</a>
         </nav>
+
+        <!-- =========================================================
+             📶 低速通信・災害軽量テキストモード コンテナ (Text-Only Disaster Digest)
+             ========================================================= -->
+        <div id="text-mode-container" style="display:none; max-width:960px; margin:0 auto; padding:12px; box-sizing:border-box;">
+            <!-- 低速モード情報ヘッダーバナー -->
+            <div style="background:#1e293b; border:1.5px solid #f59e0b; border-radius:8px; padding:10px 14px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                <div style="display:flex; align-items:center; gap:8px;">
+                    <span style="font-size:1.4em;">📶</span>
+                    <div>
+                        <div style="font-weight:900; font-size:1.02em; color:#fbbf24;">低速通信・災害軽量テキストモード 稼働中</div>
+                        <div style="font-size:0.78em; color:#94a3b8;">映像・地図・レーダー等の高負荷通信（約99%）を遮断し、文字情報のみを超軽量表示しています</div>
+                    </div>
+                </div>
+                <button type="button" onclick="toggleLowBandwidthMode()" style="background:#0284c7; color:#fff; border:none; padding:7px 16px; border-radius:6px; font-weight:900; font-size:0.85em; cursor:pointer;">
+                    🖥️ 通常グラフィック版へ戻す
+                </button>
+            </div>
+
+            <!-- 音声ライフライン: 災害ラジオ (テキスト版でも最優先で聴取可能) -->
+            <div class="disaster-radio-card" style="margin-bottom:14px; border-color:#38bdf8;">
+                <div class="disaster-radio-header" style="background:linear-gradient(90deg, #0369a1 0%, #0f172a 100%);">
+                    <div style="display:flex; align-items:center; gap:6px;">
+                        <span style="font-weight:900; color:#fff; font-size:0.95em;">📻 災害時 緊急音声ラジオ (超低通信 96kbps)</span>
+                        <span style="font-size:0.72em; background:#10b981; color:#fff; padding:1px 6px; border-radius:3px; font-weight:bold;">LIVE 音声</span>
+                    </div>
+                    <div style="display:flex; gap:5px; align-items:center;">
+                        <a href="https://www.nhk.or.jp/radio/player/?ch=r1" target="_blank" rel="noopener noreferrer" class="raw-link-mini" style="font-size:0.75em; padding:2px 6px;">らじる公式 ↗</a>
+                        <a href="https://radiko.jp/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" style="font-size:0.75em; padding:2px 6px;">Radiko ↗</a>
+                    </div>
+                </div>
+                <div style="padding:10px 12px; background:var(--bg-card);">
+                    <div style="display:flex; gap:5px; margin-bottom:8px; overflow-x:auto; -webkit-overflow-scrolling:touch; padding-bottom:2px;">
+                        <button type="button" class="media-tab-btn active" id="btn-text-radio-r1" onclick="switchRadioStation('r1')">📻 NHK第1 (緊急報道)</button>
+                        <button type="button" class="media-tab-btn" id="btn-text-radio-fm" onclick="switchRadioStation('fm')">📻 NHK-FM</button>
+                        <button type="button" class="media-tab-btn" id="btn-text-radio-radiko" onclick="switchRadioStation('radiko')">📻 Radiko (民放)</button>
+                        <button type="button" class="media-tab-btn" id="btn-text-radio-jcba" onclick="switchRadioStation('jcba')">📻 コミュニティFM</button>
+                    </div>
+                    <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; background:var(--bg-card-sub); padding:8px 12px; border-radius:6px; border:1px solid var(--border-color); flex-wrap:wrap;">
+                        <div style="display:flex; align-items:center; gap:8px;">
+                            <button type="button" class="btn-radio-play-pause-ctrl" onclick="toggleRadioPlay()" 
+                                    style="background:linear-gradient(135deg, #10b981, #059669); color:#fff; border:none; padding:7px 16px; border-radius:6px; font-weight:900; font-size:0.9em; cursor:pointer; touch-action:manipulation; display:inline-flex; align-items:center; gap:5px; box-shadow:0 2px 6px rgba(0,0,0,0.3);">
+                                ▶ 音声を聴く
+                            </button>
+                            <div>
+                                <div class="radio-station-title-display" style="font-weight:900; font-size:0.88em; color:var(--text-primary);">NHKラジオ第1 (東京/全国・災害緊急報道)</div>
+                                <div class="radio-status-text-display" style="font-size:0.75em; color:var(--text-muted);">● 待機中（タップで即時再生 / 映像の1/50以下の超低通信）</div>
+                            </div>
+                        </div>
+                        <div style="display:flex; align-items:center; gap:8px;">
+                            <span style="font-size:0.75em; color:var(--text-muted);">音量:</span>
+                            <input type="range" class="radio-volume-slider-ctrl" min="0" max="1" step="0.05" value="0.8" oninput="setRadioVolume(this.value)" style="width:70px; cursor:pointer;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 動的テキストコンテンツ領域 -->
+            <div id="text-mode-dynamic-content">
+                <!-- JSで動的生成 -->
+            </div>
+        </div>
 
         <!-- 3. ダッシュボード メインエリア -->
         <main class="cockpit-main">
@@ -2159,7 +2267,51 @@
 
             <!-- 右ペイン: 常設メディア監視パネル (生放送・ライブカメラ・天気概況) -->
             <div class="media-pane">
-                
+
+                <!-- 📻 災害時 緊急音声ラジオ (超低通信 ~96kbps / 映像の1/50以下で稼働) -->
+                <div class="permanent-stream-box disaster-radio-card" id="sec-radio-anchor">
+                    <div class="disaster-radio-header">
+                        <div style="display:flex; align-items:center; gap:6px;">
+                            <span style="font-weight:900; color:#fff; font-size:0.92em;">📻 災害時 緊急ラジオ放送 (音声配信)</span>
+                            <span style="font-size:0.72em; background:#10b981; color:#fff; padding:1px 6px; border-radius:3px; font-weight:bold;">超低通信 96kbps</span>
+                        </div>
+                        <div style="display:flex; gap:5px; align-items:center;">
+                            <a href="https://www.nhk.or.jp/radio/player/?ch=r1" target="_blank" rel="noopener noreferrer" class="raw-link-mini" style="font-size:0.75em; padding:2px 6px;">らじる公式 ↗</a>
+                            <a href="https://radiko.jp/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" style="font-size:0.75em; padding:2px 6px;">Radiko ↗</a>
+                        </div>
+                    </div>
+                    <div style="padding:10px 12px; background:var(--bg-card);">
+                        <!-- 局切替ボタングループ -->
+                        <div style="display:flex; gap:5px; margin-bottom:8px; overflow-x:auto; -webkit-overflow-scrolling:touch; padding-bottom:2px;">
+                            <button type="button" class="media-tab-btn active" id="btn-radio-r1" onclick="switchRadioStation('r1')">📻 NHK第1 (緊急報道)</button>
+                            <button type="button" class="media-tab-btn" id="btn-radio-fm" onclick="switchRadioStation('fm')">📻 NHK-FM</button>
+                            <button type="button" class="media-tab-btn" id="btn-radio-radiko" onclick="switchRadioStation('radiko')">📻 Radiko (民放)</button>
+                            <button type="button" class="media-tab-btn" id="btn-radio-jcba" onclick="switchRadioStation('jcba')">📻 コミュニティFM</button>
+                        </div>
+                        <!-- プレイヤー操作部 -->
+                        <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; background:var(--bg-card-sub); padding:8px 12px; border-radius:6px; border:1px solid var(--border-color); flex-wrap:wrap;">
+                            <div style="display:flex; align-items:center; gap:8px;">
+                                <button type="button" class="btn-radio-play-pause-ctrl" onclick="toggleRadioPlay()" 
+                                        style="background:linear-gradient(135deg, #10b981, #059669); color:#fff; border:none; padding:7px 16px; border-radius:6px; font-weight:900; font-size:0.9em; cursor:pointer; touch-action:manipulation; display:inline-flex; align-items:center; gap:5px; box-shadow:0 2px 6px rgba(0,0,0,0.3);">
+                                    ▶ 音声を聴く
+                                </button>
+                                <div>
+                                    <div class="radio-station-title-display" style="font-weight:900; font-size:0.88em; color:var(--text-primary);">NHKラジオ第1 (東京/全国・災害緊急報道)</div>
+                                    <div class="radio-status-text-display" style="font-size:0.75em; color:var(--text-muted);">● 待機中（タップで即時再生 / 映像の1/50以下の超低通信）</div>
+                                </div>
+                            </div>
+                            <div style="display:flex; align-items:center; gap:8px;">
+                                <span style="font-size:0.75em; color:var(--text-muted);">音量:</span>
+                                <input type="range" class="radio-volume-slider-ctrl" min="0" max="1" step="0.05" value="0.8" oninput="setRadioVolume(this.value)" style="width:70px; cursor:pointer;">
+                            </div>
+                        </div>
+                        <div style="font-size:0.72em; color:var(--text-muted); margin-top:6px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:4px;">
+                            <span>※ バックグラウンド再生対応。回線混雑時・停電・スマホバッテリー節約に最適</span>
+                            <span class="radio-station-desc-display" style="color:var(--text-secondary);">気象庁緊急地震速報・大津波警報発令時に全波一斉強制放送</span>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- 1. 災害生放送 (Live News Stream) -->
                 <div class="permanent-stream-box" id="sec-stream-anchor">
                     <div class="media-box-header">
@@ -2879,6 +3031,351 @@
             }, 1000);
         }
 
+        /* =========================================================
+           📻 災害時 緊急音声ラジオ 配信制御ロジック
+           ========================================================= */
+        let currentRadioStation = 'r1';
+        let currentHlsInstance = null;
+
+        const RADIO_STREAMS = {
+            r1: {
+                name: 'NHKラジオ第1 (東京/全国・災害緊急報道)',
+                url: 'https://simul2.drdi.st.nhk/live/6/joined/master.m3u8',
+                webLink: 'https://www.nhk.or.jp/radio/player/?ch=r1',
+                desc: '気象庁緊急地震速報・大津波警報発令時に全波一斉強制放送'
+            },
+            fm: {
+                name: 'NHK-FM (全国同時緊急放送)',
+                url: 'https://simul2.drdi.st.nhk/live/7/joined/master.m3u8',
+                webLink: 'https://www.nhk.or.jp/radio/player/?ch=fm',
+                desc: '緊急時・第1放送バックアップ同時放送'
+            },
+            radiko: {
+                name: 'Radiko (民放ラジオ各局 災害緊急特番)',
+                url: null,
+                webLink: 'https://radiko.jp/',
+                desc: '民間放送各局による地域密着の被災・生活支援情報'
+            },
+            jcba: {
+                name: '全国防災コミュニティFM (JCBAサイマル)',
+                url: null,
+                webLink: 'https://www.jcbasimul.com/',
+                desc: '市区町村の避難指示・給水所・開設避難所をきめ細かく報道'
+            }
+        };
+
+        function switchRadioStation(stId) {
+            if (!RADIO_STREAMS[stId]) return;
+            currentRadioStation = stId;
+            const st = RADIO_STREAMS[stId];
+
+            ['r1', 'fm', 'radiko', 'jcba'].forEach(id => {
+                const btn1 = document.getElementById(`btn-radio-${id}`);
+                const btn2 = document.getElementById(`btn-text-radio-${id}`);
+                if (btn1) {
+                    if (id === stId) btn1.classList.add('active');
+                    else btn1.classList.remove('active');
+                }
+                if (btn2) {
+                    if (id === stId) btn2.classList.add('active');
+                    else btn2.classList.remove('active');
+                }
+            });
+
+            const titleEls = document.querySelectorAll('.radio-station-title-display');
+            titleEls.forEach(el => el.innerText = st.name);
+
+            const descEls = document.querySelectorAll('.radio-station-desc-display');
+            descEls.forEach(el => el.innerText = st.desc);
+
+            const audio = document.getElementById('disaster-radio-audio');
+            if (audio) {
+                const isPlaying = !audio.paused && audio.src;
+                if (st.url) {
+                    if (isPlaying) {
+                        playRadioStream(st.url);
+                    }
+                } else {
+                    if (isPlaying) {
+                        pauseRadioStream();
+                    }
+                    window.open(st.webLink, '_blank', 'noopener,noreferrer');
+                }
+            }
+        }
+
+        function toggleRadioPlay() {
+            const audio = document.getElementById('disaster-radio-audio');
+            if (!audio) return;
+
+            const st = RADIO_STREAMS[currentRadioStation];
+            if (!st || !st.url) {
+                if (st && st.webLink) {
+                    window.open(st.webLink, '_blank', 'noopener,noreferrer');
+                }
+                return;
+            }
+
+            if (!audio.paused && audio.src) {
+                pauseRadioStream();
+            } else {
+                playRadioStream(st.url);
+            }
+        }
+
+        function playRadioStream(url) {
+            const audio = document.getElementById('disaster-radio-audio');
+            const statusEls = document.querySelectorAll('.radio-status-text-display');
+
+            if (!audio) return;
+
+            statusEls.forEach(el => {
+                el.innerText = '⏳ 接続中... (超低帯域ストリーム取得)';
+                el.style.color = '#38bdf8';
+            });
+
+            if (audio.canPlayType('application/vnd.apple.mpegurl')) {
+                audio.src = url;
+                audio.play().then(() => {
+                    updateRadioUIPlaying(true);
+                }).catch(err => {
+                    console.warn('Audio play failed:', err);
+                    updateRadioUIPlaying(false);
+                    statusEls.forEach(el => {
+                        el.innerHTML = '⚠️ タップして再生、または <a href="' + RADIO_STREAMS[currentRadioStation].webLink + '" target="_blank" style="color:#38bdf8; text-decoration:underline;">[公式窓で聴取 ↗]</a>';
+                        el.style.color = '#f59e0b';
+                    });
+                });
+            } else if (typeof Hls !== 'undefined' && Hls.isSupported()) {
+                if (currentHlsInstance) {
+                    currentHlsInstance.destroy();
+                }
+                const hls = new Hls({ enableWorker: true, lowLatencyMode: true });
+                hls.loadSource(url);
+                hls.attachMedia(audio);
+                hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                    audio.play().then(() => {
+                        updateRadioUIPlaying(true);
+                    }).catch(e => {
+                        console.warn(e);
+                        updateRadioUIPlaying(false);
+                    });
+                });
+                hls.on(Hls.Events.ERROR, function(event, data) {
+                    console.warn('HLS Error:', data);
+                    if (data.fatal) {
+                        statusEls.forEach(el => {
+                            el.innerHTML = '⚠️ 接続制限 <a href="' + RADIO_STREAMS[currentRadioStation].webLink + '" target="_blank" style="color:#38bdf8; text-decoration:underline;">[公式窓で聴取 ↗]</a>';
+                        });
+                    }
+                });
+                currentHlsInstance = hls;
+            } else {
+                window.open(RADIO_STREAMS[currentRadioStation].webLink, '_blank', 'noopener,noreferrer');
+            }
+        }
+
+        function pauseRadioStream() {
+            const audio = document.getElementById('disaster-radio-audio');
+            if (audio) {
+                audio.pause();
+            }
+            if (currentHlsInstance) {
+                currentHlsInstance.destroy();
+                currentHlsInstance = null;
+            }
+            updateRadioUIPlaying(false);
+        }
+
+        function updateRadioUIPlaying(isPlaying) {
+            const playBtns = document.querySelectorAll('.btn-radio-play-pause-ctrl');
+            const statusEls = document.querySelectorAll('.radio-status-text-display');
+
+            playBtns.forEach(btn => {
+                if (isPlaying) {
+                    btn.innerHTML = '⏸ 一時停止';
+                    btn.style.background = 'linear-gradient(135deg, #ef4444, #dc2626)';
+                } else {
+                    btn.innerHTML = '▶ 音声を聴く';
+                    btn.style.background = 'linear-gradient(135deg, #10b981, #059669)';
+                }
+            });
+
+            statusEls.forEach(el => {
+                if (isPlaying) {
+                    el.innerHTML = '<span style="color:#10b981; font-weight:bold;">● LIVE 放送中</span> (超低帯域 96kbps / 音声のみ安定受信中)';
+                    el.style.color = '#10b981';
+                } else {
+                    el.innerHTML = '● 停止中 (タップで即時再生 / 映像の1/50以下の超低通信)';
+                    el.style.color = 'var(--text-muted)';
+                }
+            });
+        }
+
+        function setRadioVolume(val) {
+            const audio = document.getElementById('disaster-radio-audio');
+            if (audio) {
+                audio.volume = parseFloat(val);
+            }
+            const sliders = document.querySelectorAll('.radio-volume-slider-ctrl');
+            sliders.forEach(s => s.value = val);
+        }
+
+        /* =========================================================
+           📶 低速通信・テキストモード切替 & レンダリングロジック
+           ========================================================= */
+        function toggleLowBandwidthMode() {
+            const isCurrentlyLow = document.body.classList.contains('low-bandwidth-mode');
+            const newMode = !isCurrentlyLow;
+
+            if (newMode) {
+                document.body.classList.add('low-bandwidth-mode');
+                // 映像ストリームを完全遮断してデータ通信をゼロ化
+                const streamIframe = document.getElementById('stream-player-iframe');
+                const cameraIframe = document.getElementById('camera-player-iframe');
+                if (streamIframe) streamIframe.dataset.srcBackup = streamIframe.src, streamIframe.src = '';
+                if (cameraIframe) cameraIframe.dataset.srcBackup = cameraIframe.src, cameraIframe.src = '';
+
+                renderTextOnlyView(latestDataCache);
+                try { localStorage.setItem('bcp_bandwidth_mode', 'low'); } catch(e) {}
+            } else {
+                document.body.classList.remove('low-bandwidth-mode');
+                // 映像ストリームを再開
+                const streamIframe = document.getElementById('stream-player-iframe');
+                const cameraIframe = document.getElementById('camera-player-iframe');
+                if (streamIframe && streamIframe.dataset.srcBackup) streamIframe.src = streamIframe.dataset.srcBackup;
+                if (cameraIframe && cameraIframe.dataset.srcBackup) cameraIframe.src = cameraIframe.dataset.srcBackup;
+
+                try { localStorage.setItem('bcp_bandwidth_mode', 'normal'); } catch(e) {}
+            }
+
+            updateBandwidthButtonUI(newMode);
+        }
+
+        function updateBandwidthButtonUI(isLow) {
+            const btn1 = document.getElementById('btn-toggle-low-bandwidth');
+            const btn2 = document.getElementById('mobile-quick-bandwidth-btn');
+            if (btn1) {
+                if (isLow) {
+                    btn1.innerHTML = '🖥️ 通常表示へ';
+                    btn1.style.background = '#0284c7';
+                    btn1.style.color = '#fff';
+                    btn1.style.borderColor = '#38bdf8';
+                } else {
+                    btn1.innerHTML = '📶 低速・テキスト版';
+                    btn1.style.background = 'rgba(245,158,11,0.2)';
+                    btn1.style.color = '#fbbf24';
+                    btn1.style.borderColor = '#f59e0b';
+                }
+            }
+            if (btn2) {
+                if (isLow) {
+                    btn2.innerHTML = '🖥️ 通常版';
+                    btn2.style.background = '#0284c7';
+                    btn2.style.color = '#fff';
+                } else {
+                    btn2.innerHTML = '📶 低速版';
+                    btn2.style.background = 'rgba(245,158,11,0.25)';
+                    btn2.style.color = '#fbbf24';
+                }
+            }
+        }
+
+        function renderTextOnlyView(data) {
+            const contentEl = document.getElementById('text-mode-dynamic-content');
+            if (!contentEl) return;
+
+            if (!data) {
+                contentEl.innerHTML = '<div style="padding:24px; text-align:center; color:var(--text-muted); font-size:1.1em;">データ取得中...「🔄 今すぐ更新」を押してください。</div>';
+                return;
+            }
+
+            const loc = data.location || {};
+            const eq = data.earthquake || {};
+            const tsu = data.tsunami || {};
+            const weather = data.weather || {};
+            const tel = data.telecom || {};
+            const pwr = data.power || {};
+            const train = data.train || {};
+            const gov = data.government || {};
+            const heatmap = cachedHeatmapData || calculateSnsHeatmap(data);
+
+            const isAlert = data.overall_level === 'ALERT';
+            const isNotice = data.overall_level === 'NOTICE';
+            const bcpBadge = isAlert ? '🚨【全社非常警戒態勢 (全系BCP発動)】' : (isNotice ? '⚠️【警戒準備態勢 (注意)】' : '🟢【通常平常態勢 (全系安定)】');
+            const bcpColor = isAlert ? '#ef4444' : (isNotice ? '#f59e0b' : '#10b981');
+
+            const indicators = [
+                { name: '1. 最新地震情報', status: eq.status || 'NORMAL', value: `最大震度 ${eq.shindo || '0'} (${eq.place || '震源なし'})`, detail: `M${eq.magnitude || '-'} / 深さ${eq.depth || '-'} / ${eq.time || '-'}` },
+                { name: '2. 津波警報・注意報', status: tsu.status || 'NORMAL', value: tsu.status === 'ALERT' ? '大津波・津波警報発令中' : (tsu.status === 'NOTICE' ? '津波注意報発表中' : '現在、津波の心配なし'), detail: tsu.areas || '発表なし' },
+                { name: '3. 気象警報・特別警報', status: weather.status || 'NORMAL', value: weather.summary || '警報なし (平常)', detail: weather.details || '全国気象平常' },
+                { name: '4. 河川氾濫・土砂災害', status: data.river ? data.river.status : 'NORMAL', value: data.river ? data.river.main_text : '氾濫危険水位なし', detail: data.river ? data.river.sub_text : '安定推移' },
+                { name: '5. 電力・広域停電情報', status: pwr.status || 'NORMAL', value: pwr.summary || '大規模停電なし', detail: pwr.details || '平常送電' },
+                { name: '6. 携帯通信障害 (au/UQ/povo優先)', status: tel.status || 'NORMAL', value: tel.summary || '主要携帯各社 正常稼働', detail: tel.details || '障害なし' },
+                { name: '7. 鉄道運行情報 (新幹線・主要線)', status: train.status || 'NORMAL', value: train.summary || '全線概ね平常運行', detail: train.details || '運行平常' },
+                { name: '8. 高速道路・主要国道', status: data.highway ? data.highway.status : 'NORMAL', value: data.highway ? data.highway.summary : '通行規制なし', detail: data.highway ? data.highway.details : '平常通行' },
+                { name: '9. 航空・主要空港運航', status: data.flight ? data.flight.status : 'NORMAL', value: data.flight ? data.flight.summary : '平常運航', detail: data.flight ? data.flight.details : '欠航なし' },
+                { name: '10. プラント・事業拠点安全', status: data.plant ? data.plant.status : 'NORMAL', value: data.plant ? data.plant.summary : '異常なし', detail: data.plant ? data.plant.details : '保全平常' },
+                { name: '11. SNS口コミ・障害検知', status: data.sns_level || 'NORMAL', value: `最多検知: ${heatmap.top_region} (${heatmap.top_count}件)`, detail: `地域特定検知総数: ${heatmap.total_mentions}件 / 監視: ${watchedKeywords.join(', ')}` },
+                { name: '12. 総合BCP判定 / 政府対応', status: gov.status || 'NORMAL', value: gov.summary || '政府非常対策本部なし', detail: gov.details || '平常態勢' }
+            ];
+
+            const indHtml = indicators.map(ind => {
+                const isA = ind.status === 'ALERT';
+                const isN = ind.status === 'NOTICE';
+                const badgeLabel = isA ? '警戒' : (isN ? '注意' : '平常');
+                const badgeBg = isA ? '#ef4444' : (isN ? '#f59e0b' : '#10b981');
+                const borderClr = isA ? '#ef4444' : (isN ? '#f59e0b' : '#334155');
+
+                return `
+                    <div style="background:#131d2e; border:1px solid #1e293b; border-left:4px solid ${borderClr}; padding:8px 12px; border-radius:4px; margin-bottom:6px;">
+                        <div style="display:flex; justify-content:space-between; align-items:center;">
+                            <span style="font-weight:bold; font-size:0.92em; color:#f1f5f9;">${escapeHtml(ind.name)}</span>
+                            <span style="background:${badgeBg}; color:#fff; padding:1px 8px; border-radius:3px; font-weight:900; font-size:0.75em;">${badgeLabel}</span>
+                        </div>
+                        <div style="font-size:1.02em; font-weight:800; color:${isA ? '#f87171' : (isN ? '#fbbf24' : '#38bdf8')}; margin-top:3px;">
+                            ${escapeHtml(ind.value)}
+                        </div>
+                        <div style="font-size:0.8em; color:#94a3b8; margin-top:2px;">
+                            ${escapeHtml(ind.detail)}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            contentEl.innerHTML = `
+                <!-- 総合サマリー -->
+                <div style="background:#0f172a; border:2px solid ${bcpColor}; border-radius:8px; padding:12px 14px; margin-bottom:12px;">
+                    <div style="font-size:1.15em; font-weight:900; color:${bcpColor}; margin-bottom:4px;">
+                        ${bcpBadge}
+                    </div>
+                    <div style="font-size:0.88em; color:#cbd5e1;">
+                        対象拠点: <strong>${escapeHtml(loc.region_name || '首都圏')}</strong> ｜ 最終更新: <strong>${escapeHtml(data.last_updated || new Date().toLocaleTimeString())}</strong>
+                    </div>
+                </div>
+
+                <!-- 12大危機管理指標テキスト一覧表 -->
+                <div style="margin-bottom:14px;">
+                    <div style="font-size:1.02em; font-weight:900; color:#f1f5f9; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
+                        <span>📋 12大危機管理指標 テキスト速報一覧</span>
+                        <button type="button" onclick="loadRealData(true)" style="background:#334155; color:#fff; border:none; padding:3px 10px; border-radius:4px; font-size:0.8em; cursor:pointer;">🔄 今すぐ更新</button>
+                    </div>
+                    ${indHtml}
+                </div>
+
+                <!-- 災害時公的緊急連絡先・情報リンク（文字のみ・超軽量） -->
+                <div style="background:#0f172a; border:1px solid #334155; border-radius:8px; padding:12px; margin-bottom:14px; font-size:0.85em;">
+                    <div style="font-weight:900; color:#38bdf8; margin-bottom:6px;">📞 災害時 公的緊急安否・連絡先 (文字版)</div>
+                    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:6px; color:#cbd5e1;">
+                        <div>・NTT災害用伝言ダイヤル: <strong>171</strong></div>
+                        <div>・携帯各社Web伝言板: <a href="https://www.web171.jp/" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">web171.jp ↗</a></div>
+                        <div>・気象庁防災情報: <a href="https://www.jma.go.jp/bosai/" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">jma.go.jp/bosai ↗</a></div>
+                        <div>・首相官邸 防災情報: <a href="https://www.kantei.go.jp/jp/headline/bousai/" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">kantei.go.jp ↗</a></div>
+                    </div>
+                </div>
+            `;
+        }
+
         // バックエンド実データ取得 & 12指標自動解析レンダリング
         async function loadRealData(isManual = false) {
             const refreshBtn = document.getElementById('btn-manual-refresh');
@@ -2938,6 +3435,9 @@
 
                 // 12大指標の3段階ステータス評価 & カード反映
                 renderAllIndicators(data);
+                if (document.body.classList.contains('low-bandwidth-mode')) {
+                    renderTextOnlyView(data);
+                }
 
                 // 参集基準アラート自動評価 (#1)
                 evaluateAssemblyAlert(data);
@@ -4261,7 +4761,15 @@
         // =========================================================
         function initMobileDashboardMode() {
             try {
-                const saved = localStorage.getItem('bcp_mobile_dashboard_mode');
+                // 低速・テキストモードの保存状態復元
+            try {
+                if (localStorage.getItem('bcp_bandwidth_mode') === 'low') {
+                    document.body.classList.add('low-bandwidth-mode');
+                    updateBandwidthButtonUI(true);
+                }
+            } catch(e) {}
+
+            const saved = localStorage.getItem('bcp_mobile_dashboard_mode');
                 if (saved === 'compact') {
                     setMobileMode(true);
                 } else {
@@ -4965,6 +5473,9 @@
             </div>
         </div>
     </div>
+
+    <!-- 災害ラジオ共有オーディオ要素 -->
+    <audio id="disaster-radio-audio" preload="none" style="display:none;"></audio>
 
 </body>
 </html>

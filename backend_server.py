@@ -784,11 +784,11 @@ class BCPDataAnalyzer:
     FDMA_XML_URL = "https://www.fdma.go.jp/disaster/info/index.xml"
     CABINET_XML_URL = "https://www.bousai.go.jp/news.xml"
     KYUUJO_TEKIYOU_URL = "https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html"
-    MHLW_DMAT_URL = "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/dmat.html"
-    MHLW_SAIGAI_URL = "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/index.html"
+    MHLW_DMAT_URL = "https://www.dmat.jp/"
+    MHLW_SAIGAI_URL = "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000089060.html"
     DMAT_HQ_URL = "https://dmat.jihs.go.jp/"
     EMIS_URL = "https://www.emis.mhlw.go.jp/"
-    JRC_RELIEF_URL = "https://www.jrc.or.jp/activity/saigai/"
+    JRC_RELIEF_URL = "https://www.jrc.or.jp/saigai/"
     MHLW_RDF_URL = "https://www.mhlw.go.jp/stf/news.rdf"
     KDDI_IMPORTANT_NEWS_URL = "https://news.kddi.com/important/news/"
     KDDI_RSS_URL = "https://news.kddi.com/important/news/rss/kddi_important_ex.xml"
@@ -1838,12 +1838,12 @@ class BCPDataAnalyzer:
             "recent_tekiyou_list": recent_tekiyou_list,
             "kyuujo_url": getattr(cls, "KYUUJO_TEKIYOU_URL", "https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html"),
             "cabinet_url": getattr(cls, "KYUUJO_TEKIYOU_URL", "https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html"),
-            "mhlw_url": getattr(cls, "MHLW_SAIGAI_URL", "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/index.html"),
-            "mhlw_dmat_url": getattr(cls, "MHLW_DMAT_URL", "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/dmat.html"),
-            "mhlw_saigai_url": getattr(cls, "MHLW_SAIGAI_URL", "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/index.html"),
+            "mhlw_url": getattr(cls, "MHLW_SAIGAI_URL", "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000089060.html"),
+            "mhlw_dmat_url": getattr(cls, "MHLW_DMAT_URL", "https://www.dmat.jp/"),
+            "mhlw_saigai_url": getattr(cls, "MHLW_SAIGAI_URL", "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000089060.html"),
             "dmat_hq_url": getattr(cls, "DMAT_HQ_URL", "https://dmat.jihs.go.jp/"),
             "emis_url": getattr(cls, "EMIS_URL", "https://www.emis.mhlw.go.jp/"),
-            "jrc_url": getattr(cls, "JRC_RELIEF_URL", "https://www.jrc.or.jp/activity/saigai/")
+            "jrc_url": getattr(cls, "JRC_RELIEF_URL", "https://www.jrc.or.jp/saigai/")
         }
 
     @classmethod

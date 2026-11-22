@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 20:26:04",
+  "timestamp": "2026-11-22 21:06:50",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -300,7 +300,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野・岐阜・静岡で停電情報を検知",
+    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野・岐阜で停電情報を検知",
     "water_msg": "名古屋市上下水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東邦ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -346,8 +346,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 20:56",
+          "text": "START au END の START 障害 END 起きてます…？"
+        },
         {
           "time": "11/22 16:07",
           "text": "START au END にMNPした後、サブ回線どうするか問題。 povoは START au END 回線なので、通信 START 障害 END 対策になら..."
@@ -355,10 +359,6 @@
         {
           "time": "11/22 14:20",
           "text": "ドコモ・ START au END ・ソフトバンク利用者の通信 START 障害 END 対策・サブ回線に楽天モバイルを🙇‍♂️👇️ https://t.co/..."
-        },
-        {
-          "time": "11/22 14:02",
-          "text": "@Marim0n 地方でも4G⇔5Gの切り替えラグが酷いし 通信安定しないし最近は本体の START 障害 END も多いので START au END に変え..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -859,7 +859,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 05:25:24 JST"
+    "last_updated": "2026-11-23 06:06:19 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",

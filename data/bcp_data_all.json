@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 20:25:27",
+  "timestamp": "2026-11-22 21:06:21",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 33地域】岩手、福島、茨城、栃木、埼玉、千葉、東京、神奈川、福井、長野、岐阜、静岡、愛知、三重、滋賀、京都、大阪、兵庫、奈良、和歌山、島根、広島、山口、香川、愛媛、高知、福岡、佐賀、長崎、熊本、大分、鹿児島、沖縄（警報なし）",
+    "summary": "【注意報発表: 35地域】岩手、秋田、山形、福島、茨城、栃木、埼玉、千葉、東京、神奈川、福井、長野、岐阜、静岡、愛知、三重、滋賀、京都、大阪、兵庫、奈良、和歌山、島根、広島、山口、香川、愛媛、高知、福岡、佐賀、長崎、熊本、大分、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 33,
+    "notice_count": 35,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -525,22 +525,26 @@
         "code": "5",
         "name": "秋田県",
         "short_name": "秋田",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
         "code": "6",
         "name": "山形県",
         "short_name": "山形",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -790,10 +794,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、濃霧注意報",
+        "summary": "濃霧注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -817,10 +821,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、濃霧注意報",
+        "summary": "濃霧注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -905,10 +909,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "強風注意報"
+          "強風注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、強風注意報",
+        "summary": "強風注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -1021,10 +1025,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、濃霧注意報",
+        "summary": "濃霧注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -1046,11 +1050,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
           "濃霧注意報",
-          "霜注意報"
+          "霜注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、濃霧注意報、霜注意報",
+        "summary": "濃霧注意報、霜注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1077,16 +1081,18 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線20路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線21路線: 美祢線、伊予鉄郡中線、土佐くろしお鉄道ごめん・なはり線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線、磐越西線、奥羽本線 等 計20路線）",
+    "line_text": "運行支障あり（美祢線、伊予鉄郡中線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、肥薩線 等 計21路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
+      "美祢線",
+      "伊予鉄郡中線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
-      "美祢線",
+      "肥薩線",
       "磐越西線",
       "奥羽本線",
       "山田線",
@@ -1094,16 +1100,15 @@
       "陸羽東線",
       "北上線",
       "津軽線",
+      "加古川線",
       "長良川鉄道越美南線",
       "北陸鉄道石川線",
       "大井川鉄道大井川本線",
       "万葉線",
-      "加古川線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線",
-      "肥薩線"
+      "わたらせ渓谷鐵道線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1181,7 +1186,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 20,
+    "target_lines_count": 21,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1196,7 +1201,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "全国大手電力10社送配電: 【停電発生中】福島・千葉・福井・長野・岐阜・静岡で停電情報を検知",
+    "power_msg": "全国大手電力10社送配電: 【停電発生中】福島・千葉・福井・長野・岐阜で停電情報を検知",
     "water_msg": "全国主要水道局: 管内大規模断水・漏水なし",
     "gas_msg": "全国主要都市ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -1242,8 +1247,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 20:56",
+          "text": "START au END の START 障害 END 起きてます…？"
+        },
         {
           "time": "11/22 16:07",
           "text": "START au END にMNPした後、サブ回線どうするか問題。 povoは START au END 回線なので、通信 START 障害 END 対策になら..."
@@ -1251,10 +1260,6 @@
         {
           "time": "11/22 14:20",
           "text": "ドコモ・ START au END ・ソフトバンク利用者の通信 START 障害 END 対策・サブ回線に楽天モバイルを🙇‍♂️👇️ https://t.co/..."
-        },
-        {
-          "time": "11/22 14:02",
-          "text": "@Marim0n 地方でも4G⇔5Gの切り替えラグが酷いし 通信安定しないし最近は本体の START 障害 END も多いので START au END に変え..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1755,7 +1760,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 05:25:24 JST"
+    "last_updated": "2026-11-23 06:06:19 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

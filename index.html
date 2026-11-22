@@ -840,6 +840,33 @@
             border-radius: 3px;
         }
 
+        /* SNS地域ヒートマップ デスクトップ用レイアウト */
+        .heatmap-grid-layout {
+            display: grid;
+            grid-template-columns: 1fr 340px;
+            gap: 14px;
+            padding: 0 16px;
+        }
+        .heatmap-map-box {
+            background: #020617;
+            border-radius: 8px;
+            border: 1.5px solid var(--border-color);
+            overflow: hidden;
+            position: relative;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        .heatmap-ranking-box {
+            background: var(--bg-card-sub);
+            border-radius: 8px;
+            border: 1.5px solid var(--border-color);
+            padding: 10px 12px;
+            display: flex;
+            flex-direction: column;
+            max-height: 420px;
+        }
+
         .modal-section {
             background: var(--bg-card);
             border: 1.5px solid var(--border-color);
@@ -1253,6 +1280,24 @@
             }
             .modal-body {
                 padding: 12px 14px !important;
+            }
+
+            /* SNS地域ヒートマップ スマホ最適化 (iPhone対応) */
+            .heatmap-grid-layout {
+                grid-template-columns: 1fr !important;
+                padding: 0 10px !important;
+                gap: 10px !important;
+            }
+            .heatmap-map-box {
+                min-height: 250px !important;
+                height: 250px !important;
+            }
+            #sns-heatmap-leaflet-map {
+                min-height: 210px !important;
+                height: 210px !important;
+            }
+            .heatmap-ranking-box {
+                max-height: 250px !important;
             }
 
             /* =========================================================
@@ -2086,8 +2131,9 @@
                         </div>
                     </div>
                     <div class="indicator-card-footer">
-                        <button class="btn-detail" onclick="openIndicatorDetail('sns')">詳細・ワード設定 ⚙️</button>
-                        <a href="https://search.yahoo.co.jp/realtime" target="_blank" rel="noopener noreferrer" class="raw-link-mini">Yahoo!リアルタイム ↗</a>
+                        <button class="btn-detail" onclick="openIndicatorDetail('sns')">詳細・設定 ⚙️</button>
+                        <button type="button" class="btn-detail" onclick="openSnsHeatmapModal()" style="background:rgba(56,189,248,0.15); border:1px solid #38bdf8; color:#38bdf8; font-weight:800; display:inline-flex; align-items:center; gap:3px; touch-action:manipulation;">🗺️ 地域マップ</button>
+                        <a href="https://search.yahoo.co.jp/realtime" target="_blank" rel="noopener noreferrer" class="raw-link-mini">Yahoo! ↗</a>
                     </div>
                 </div>
 
@@ -2720,8 +2766,10 @@
             // ESCキーでモーダルを閉じる
             document.addEventListener('keydown', (e) => {
                 if (e.key === 'Escape') {
+                    closeSnsHeatmapModal();
                     closeDetailModal();
                     closeThresholdModal();
+                    closeAssemblyRouteModal();
                 }
             });
 
@@ -3359,10 +3407,15 @@
             const initialRegion = heatmap.ranking.find(r => r.count > 0) || heatmap.ranking[0];
             showRegionSamplePosts(initialRegion);
 
-            // Leaflet 地図の初期化・更新
+            // Leaflet 地図の初期化・更新 (スマホ・Safari向けにリサイズを複数回トリガー)
             setTimeout(() => {
                 initOrUpdateHeatmapLeaflet(heatmap);
             }, 100);
+            setTimeout(() => {
+                if (leafletSnsHeatmap) {
+                    leafletSnsHeatmap.invalidateSize();
+                }
+            }, 350);
         }
 
         function closeSnsHeatmapModal() {
@@ -3846,9 +3899,12 @@
 
                     const kwSettingsSection = `
                         <div class="modal-section" style="background:var(--bg-card-sub); border:1.5px solid var(--border-color); padding:12px; border-radius:8px; margin-bottom:12px;">
-                            <div class="modal-section-title" style="margin-bottom:8px;">
-                                <span>🔍 監視キーワード設定 ＆ 🗺️ <a href="javascript:void(0)" onclick="openSnsHeatmapModal()" style="color:#38bdf8; text-decoration:underline; font-weight:bold;">地域別ヒートマップを開く ↗</a></span>
-                                <button onclick="resetDefaultKeywords()" class="btn-tool" style="font-size:0.82em; padding:3px 8px; min-height:28px;">🔄 初期設定に戻す</button>
+                            <div class="modal-section-title" style="margin-bottom:10px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                                <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                                    <span style="font-weight:bold; font-size:1em;">🔍 監視キーワード設定</span>
+                                    <button type="button" onclick="openSnsHeatmapModal()" class="btn-detail" style="background:linear-gradient(135deg, #0284c7, #2563eb); color:#fff; border:none; padding:5px 12px; border-radius:6px; font-weight:800; font-size:0.85em; cursor:pointer; touch-action:manipulation; display:inline-flex; align-items:center; gap:4px; box-shadow:0 2px 6px rgba(0,0,0,0.3);">🗺️ 地域別ヒートマップを開く ↗</button>
+                                </div>
+                                <button type="button" onclick="resetDefaultKeywords()" class="btn-tool" style="font-size:0.82em; padding:4px 10px; min-height:28px;">🔄 初期設定に戻す</button>
                             </div>
                             <div style="display:flex; gap:6px; margin-bottom:8px; flex-wrap:wrap;">
                                 <input type="text" id="kw-modal-input" placeholder="追加キーワード (例: 〇〇障害, 停電)" 
@@ -4768,76 +4824,76 @@
 </script>
 
     <!-- =========================================================
-         SNS 地域別ワード・ヒートマップ モーダル
+         SNS 地域別ワード・ヒートマップ モーダル (iOS/Android/PC全対応)
          ========================================================= -->
-    <div id="sns-heatmap-modal" class="modal-backdrop" onclick="closeSnsHeatmapModalOnBackdrop(event)" style="display:none;">
-        <div class="modal-card" style="max-width:960px; max-height:90vh; display:flex; flex-direction:column;">
-            <div class="modal-header" style="border-bottom:1.5px solid var(--border-color); padding-bottom:12px;">
+    <div id="sns-heatmap-modal" class="modal-overlay" onclick="closeSnsHeatmapModalOnBackdrop(event)" style="display:none; z-index:10005;">
+        <div class="modal-container" onclick="event.stopPropagation()" style="max-width:960px; max-height:90vh; display:flex; flex-direction:column;">
+            <div class="modal-header">
                 <div style="display:flex; align-items:center; gap:10px;">
                     <span style="font-size:1.4em;">🗺️</span>
                     <div>
-                        <div style="font-size:1.2em; font-weight:900; color:var(--text-primary);">SNS口コミ「地域別ワード・ヒートマップ」</div>
-                        <div style="font-size:0.82em; color:var(--text-muted);">全国47都道府県・主要都市ワード検知 ＆ リアルタイム地域別集中分析</div>
+                        <div style="font-size:1.15em; font-weight:900; color:var(--text-primary);">SNS口コミ「地域別ワード・ヒートマップ」</div>
+                        <div style="font-size:0.8em; color:var(--text-muted);">全国47都道府県・主要都市ワード検知 ＆ リアルタイム地域別集中分析</div>
                     </div>
                 </div>
-                <button class="modal-close-btn" onclick="closeSnsHeatmapModal()">✕</button>
+                <button type="button" class="modal-close-btn" onclick="closeSnsHeatmapModal()">✕ 閉じる (ESC)</button>
             </div>
 
-            <div class="modal-body" style="padding:16px 0; overflow-y:auto; flex:1;">
+            <div class="modal-body" style="padding:14px 0; overflow-y:auto; -webkit-overflow-scrolling:touch; flex:1;">
                 <!-- 上部: リアルタイム集計サマリーバー -->
-                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:10px; margin-bottom:14px; padding:0 16px;">
-                    <div style="background:var(--bg-card-sub); padding:10px 14px; border-radius:8px; border:1px solid var(--border-color);">
-                        <div style="font-size:0.78em; color:var(--text-muted); font-weight:700;">最多検知地域 (ホットスポット)</div>
-                        <div id="heatmap-summary-top-region" style="font-size:1.18em; font-weight:900; color:#38bdf8; margin-top:2px;">全国平穏</div>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr)); gap:8px; margin-bottom:12px; padding:0 14px;">
+                    <div style="background:var(--bg-card-sub); padding:8px 12px; border-radius:8px; border:1px solid var(--border-color);">
+                        <div style="font-size:0.75em; color:var(--text-muted); font-weight:700;">最多検知地域 (ホットスポット)</div>
+                        <div id="heatmap-summary-top-region" style="font-size:1.1em; font-weight:900; color:#38bdf8; margin-top:2px;">全国平穏</div>
                     </div>
-                    <div style="background:var(--bg-card-sub); padding:10px 14px; border-radius:8px; border:1px solid var(--border-color);">
-                        <div style="font-size:0.78em; color:var(--text-muted); font-weight:700;">地域特定ワード総検出件数</div>
-                        <div id="heatmap-summary-total-count" style="font-size:1.18em; font-weight:900; color:#10b981; margin-top:2px;">0 件</div>
+                    <div style="background:var(--bg-card-sub); padding:8px 12px; border-radius:8px; border:1px solid var(--border-color);">
+                        <div style="font-size:0.75em; color:var(--text-muted); font-weight:700;">地域特定ワード総検出件数</div>
+                        <div id="heatmap-summary-total-count" style="font-size:1.1em; font-weight:900; color:#10b981; margin-top:2px;">0 件</div>
                     </div>
-                    <div style="background:var(--bg-card-sub); padding:10px 14px; border-radius:8px; border:1px solid var(--border-color);">
-                        <div style="font-size:0.78em; color:var(--text-muted); font-weight:700;">解析対象キーワード数</div>
-                        <div id="heatmap-summary-kw-count" style="font-size:1.18em; font-weight:900; color:#f59e0b; margin-top:2px;">4 ワード</div>
+                    <div style="background:var(--bg-card-sub); padding:8px 12px; border-radius:8px; border:1px solid var(--border-color);">
+                        <div style="font-size:0.75em; color:var(--text-muted); font-weight:700;">解析対象キーワード数</div>
+                        <div id="heatmap-summary-kw-count" style="font-size:1.1em; font-weight:900; color:#f59e0b; margin-top:2px;">4 ワード</div>
                     </div>
                 </div>
 
                 <!-- メイン: 地図(左/上) ＋ 地域ランキング(右/下) -->
-                <div style="display:grid; grid-template-columns:1fr 340px; gap:14px; padding:0 16px;">
+                <div class="heatmap-grid-layout">
                     <!-- Leaflet 地図コンテナ -->
-                    <div style="background:#020617; border-radius:8px; border:1.5px solid var(--border-color); overflow:hidden; position:relative; min-height:420px; display:flex; flex-direction:column;">
-                        <div style="background:rgba(15,23,42,0.9); padding:8px 12px; font-size:0.82em; font-weight:800; color:var(--text-muted); border-bottom:1px solid var(--border-color); display:flex; justify-content:space-between; align-items:center;">
+                    <div class="heatmap-map-box">
+                        <div style="background:rgba(15,23,42,0.9); padding:8px 12px; font-size:0.8em; font-weight:800; color:var(--text-muted); border-bottom:1px solid var(--border-color); display:flex; justify-content:space-between; align-items:center;">
                             <span>📍 全国10地方別 リアルタイム口コミ強度</span>
-                            <span style="font-size:0.75em; color:var(--text-secondary);">円の大きさ・色: 検知件数連動</span>
+                            <span style="font-size:0.72em; color:var(--text-secondary);">円の大きさ・色: 検知件数連動</span>
                         </div>
-                        <div id="sns-heatmap-leaflet-map" style="flex:1; width:100%; min-height:380px;"></div>
+                        <div id="sns-heatmap-leaflet-map" style="flex:1; width:100%; min-height:360px;"></div>
                     </div>
 
                     <!-- 地域別集計ランキング＆詳細リスト -->
-                    <div style="background:var(--bg-card-sub); border-radius:8px; border:1.5px solid var(--border-color); padding:12px; display:flex; flex-direction:column; max-height:450px;">
-                        <div style="font-size:0.88em; font-weight:800; color:var(--text-primary); margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
+                    <div class="heatmap-ranking-box">
+                        <div style="font-size:0.85em; font-weight:800; color:var(--text-primary); margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
                             <span>📊 地方別口コミ検知ランキング</span>
-                            <span style="font-size:0.75em; color:var(--text-muted);">クリックで地図ズーム</span>
+                            <span style="font-size:0.72em; color:var(--text-muted);">タップで地図ズーム</span>
                         </div>
-                        <div id="heatmap-ranking-list" style="overflow-y:auto; flex:1; display:flex; flex-direction:column; gap:6px;">
+                        <div id="heatmap-ranking-list" style="overflow-y:auto; -webkit-overflow-scrolling:touch; flex:1; display:flex; flex-direction:column; gap:6px;">
                             <!-- JSで動的生成 -->
                         </div>
                     </div>
                 </div>
 
                 <!-- 下部: 選択中地域の検知投稿ログ -->
-                <div style="margin-top:14px; padding:0 16px;">
-                    <div style="font-size:0.88em; font-weight:800; color:var(--text-primary); margin-bottom:6px; display:flex; justify-content:space-between; align-items:center;">
+                <div style="margin-top:12px; padding:0 14px;">
+                    <div style="font-size:0.85em; font-weight:800; color:var(--text-primary); margin-bottom:6px; display:flex; justify-content:space-between; align-items:center;">
                         <span id="heatmap-selected-region-title">📝 直近の地域特定 投稿ログ抜粋 (全国)</span>
-                        <span style="font-size:0.78em; color:var(--text-muted);">最新40件の投稿を自動地域マッピング</span>
+                        <span style="font-size:0.75em; color:var(--text-muted);">最新40件の投稿を自動地域マッピング</span>
                     </div>
-                    <div id="heatmap-sample-posts-box" style="background:var(--bg-card-sub); border:1px solid var(--border-color); border-radius:6px; max-height:160px; overflow-y:auto; padding:8px;">
+                    <div id="heatmap-sample-posts-box" style="background:var(--bg-card-sub); border:1px solid var(--border-color); border-radius:6px; max-height:160px; overflow-y:auto; -webkit-overflow-scrolling:touch; padding:8px;">
                         <!-- JSで動的生成 -->
                     </div>
                 </div>
             </div>
 
-            <div class="modal-footer" style="border-top:1px solid var(--border-color); padding-top:10px; display:flex; justify-content:space-between; align-items:center;">
-                <span style="font-size:0.8em; color:var(--text-muted);">※ 地名ワード検知: 47都道府県庁所在地・政令市・主要ターミナル駅を網羅</span>
-                <button class="btn-detail" onclick="closeSnsHeatmapModal()" style="padding:6px 20px;">閉じる</button>
+            <div class="modal-footer" style="background:var(--bg-card); border-top:1px solid var(--border-color); padding:10px 16px; display:flex; justify-content:space-between; align-items:center; flex-shrink:0;">
+                <span style="font-size:0.78em; color:var(--text-muted);">※ 地名ワード検知: 47都道府県庁所在地・政令市・主要ターミナル駅を網羅</span>
+                <button type="button" class="btn-detail" onclick="closeSnsHeatmapModal()" style="padding:6px 20px;">閉じる</button>
             </div>
         </div>
     </div>

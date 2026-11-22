@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 03:29:57",
+  "timestamp": "2026-11-22 04:26:16",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -216,11 +216,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "乾燥注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、乾燥注意報、波浪注意報",
+        "summary": "乾燥注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -321,15 +321,19 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東海道本線、横須賀線、総武線 ／ 新幹線: 東北新幹線（列車遅延）、山形新幹線（列車遅延））",
+    "text": "運行支障あり（在来線: 京浜東北根岸線、湘南新宿ライン、東海道本線 ／ 新幹線: 東北新幹線（列車遅延）、山形新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東海道本線、横須賀線、総武線）",
+    "line_text": "運行支障あり（京浜東北根岸線、湘南新宿ライン、東海道本線、横須賀線、宇都宮線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（東北新幹線（列車遅延）、山形新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [
+      "京浜東北根岸線",
+      "湘南新宿ライン",
       "東海道本線",
       "横須賀線",
+      "宇都宮線",
+      "高崎線",
       "総武線"
     ],
     "troubled_shinkansen": [
@@ -448,8 +452,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 03:48",
+          "text": "START au END の通信 START 障害 END もこの辺りで11/20～ https://t.co/6robEFQEEg"
+        },
         {
           "time": "11/22 00:53",
           "text": "ソフトバンク通信 START 障害 END か。 START au END も一時的に繋がらなくなったから、久しぶりに完全オフラインになったかと思った"
@@ -457,10 +465,6 @@
         {
           "time": "11/22 00:13",
           "text": "おおぅ。 ついに 携帯の通信 START 障害 END まで 出てきちゃった(´・ω・｀) 高鷲 白鳥 明宝辺りの郡上市内だと思うけど。 ドコモ START a..."
-        },
-        {
-          "time": "11/21 15:02",
-          "text": "岐阜県 START au END 通信 START 障害 END 出てる https://t.co/571jLvLgWh"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -494,19 +498,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 04:25",
+          "text": "@orange2288888 突然失礼します、povoサポートです。携帯ですが、日常的に電波が START 繋がらない END のは困りますよね💧お乗り換えを検..."
+        },
+        {
+          "time": "11/22 03:40",
+          "text": "START au END ひかり WiFi START 繋がらない END"
+        },
         {
           "time": "11/22 01:44",
           "text": "START au END UQ docomo は START 繋がらない END けど 楽天は繋がる 三木谷さん ありがとう"
-        },
-        {
-          "time": "11/22 01:30",
-          "text": "@MatsudoPapa 突然失礼します、povoサポートです。電波が START 繋がらない END のは困ってしまいますよね📡お乗り換えも検討されているご様..."
-        },
-        {
-          "time": "11/22 00:48",
-          "text": "@rsk5150 突然失礼します、povoサポートです。ポスト拝見しましたが、スマホの通信が START 繋がらない END のは、かなり困りますよね😣よろしけ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -517,7 +521,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/22 03:14",
@@ -536,7 +540,7 @@
     }
   ],
   "sns_heatmap": {
-    "total_mentions": 4,
+    "total_mentions": 3,
     "top_region": "東北",
     "top_count": 2,
     "regions": [
@@ -598,19 +602,14 @@
         "lat": 35.1815,
         "lon": 136.9066,
         "zoom": 8,
-        "count": 2,
-        "level": "NOTICE",
-        "color": "#f59e0b",
-        "status_label": "散発検知 (注意)",
+        "count": 1,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
         "detected_words": [
           "岐阜"
         ],
         "sample_posts": [
-          {
-            "keyword": "au 障害",
-            "time": "11/21 15:02",
-            "text": "岐阜県 START au END 通信 START 障害 END 出てる https://t.co/571jLvLgWh"
-          },
           {
             "keyword": "KDDI 障害",
             "time": "11/21 08:32",
@@ -730,19 +729,14 @@
         "lat": 35.1815,
         "lon": 136.9066,
         "zoom": 8,
-        "count": 2,
-        "level": "NOTICE",
-        "color": "#f59e0b",
-        "status_label": "散発検知 (注意)",
+        "count": 1,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
         "detected_words": [
           "岐阜"
         ],
         "sample_posts": [
-          {
-            "keyword": "au 障害",
-            "time": "11/21 15:02",
-            "text": "岐阜県 START au END 通信 START 障害 END 出てる https://t.co/571jLvLgWh"
-          },
           {
             "keyword": "KDDI 障害",
             "time": "11/21 08:32",
@@ -874,8 +868,56 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 14,
     "articles": [
+      {
+        "title": "首里城正殿の復元完成式始まる(共同通信)",
+        "summary": "2019年の火災で焼失した那覇市の首里城で22日、正殿の復元完成式が始まった。",
+        "pub_date": "11/22 13:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/9df9c32c51964b266676c84a90d56dc9fed47eb1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "ブルーインパルスの影響で近鉄が遅延　大和八木駅などで混雑も(産経新聞)",
+        "summary": "近畿日本鉄道によると、22日午前11時45分現在、大和西大寺駅（奈良市）付近でのイベント開催に伴い、大阪線、奈良線、京都線、橿原線で列車の遅延が発生している。航空自衛隊の「ブルーインパルス」の飛行を見",
+        "pub_date": "11/22 13:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/bb088c643bb5f27303b9216f553dfe8fa7bbd7d8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "岐阜・高山市で出張輪島朝市がにぎわう 23日も開催  能登半島地震の復興を支援(CBCテレビ)",
+        "summary": "能登半島地震で甚大な被害を受けた石川県の輪島朝市を支援しようと、岐阜県高山市で「出張輪島朝市」が開かれました。【写真を見る】岐阜・高山市で出張輪島朝市がにぎわう 23日も開催 能登半島地震の復興を支援",
+        "pub_date": "11/22 12:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/2a530fe6937ad1e5602c0d89864d0f64b5da7417?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "22日も北陸に次々と雨雲流入　土砂災害に警戒　福井と福島で初雪になるなど雪の所も(日本気象協会tenki.jp)",
+        "summary": "北陸を中心に大雨となっている所があります。今日22日の午後も、北陸では、次々と雨雲の流れ込みやすい状態が続くため、土砂災害に注意・警戒してください。新潟県では、これまでの雨で特に地盤の緩んでいる所があ",
+        "pub_date": "11/22 12:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/ac94c3d1016ae3d42beef4a02768b6233219831d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "福島・北塩原村　住民や宿泊客の孤立状態続く 大雪で倒木相次ぎ「停電があって大変」(テレビ朝日系（ANN）)",
+        "summary": "20日からの大雪の影響で、福島県北塩原村では現在も孤立状態が続いています。 大雪の影響で発生した倒木で国道459号が通行止めとなり、北塩原村の514世帯948人とホテルなどの宿泊客が孤立状態となってい",
+        "pub_date": "11/22 12:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/56e8be8ebf56d7cf1c089cde4573872ccdbfd361?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "近鉄大阪線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "築山～大和高田駅間で発生した人身事故の影響で、近鉄大阪線は五位堂～大和八木駅間の運転を見合わせていましたが、12:12頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/22 12:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/f16025e5b6dfe1ba75ee43c061658d4a0f4702dc?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "寒波襲来　東京で熱々おでんに長蛇の列　日本海側で大雪被害　福島で約1500人孤立状態(テレビ朝日系（ANN）)",
         "summary": "秋と冬、対照的な景色が広がった3連休初日の日本列島。紅葉の名所は黄金色に染まり、多くの人でにぎわう一方、日本海側では、大雪による被害が相次いでいます。■熱々おでんに長蛇の列 21日は“この秋一番の冷え",
@@ -933,71 +975,23 @@
         "is_disaster": true
       },
       {
-        "title": "クレカ情報流出の「六花亭」、約5万円の不正利用1件確認を発表、クレカ再発行を呼び掛け見舞金を準備(スポニチアネックス)",
-        "summary": "菓子メーカー六花亭（北海道帯広市）のオンラインショップで入力されたクレジットカード情報約8000件が流出した可能性がある問題で、同社は22日までに、利用客からの申し出でカードの不正利用を1件確認したと",
-        "pub_date": "11/22 12:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/fb0404086f815d528adad1f2ccd14620b8f9611a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
+        "title": "記録的降水量の北陸 土砂災害警戒",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/22 12:42 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6603534?source=rss",
+        "category": "主要速報",
+        "is_disaster": true
       },
       {
-        "title": "赤飯を「勝負メシ」に　もち米を運動シーンで提案　ホクレン、消費増狙う(日本農業新聞)",
-        "summary": "もち米の消費拡大に向け、ホクレンがスポーツシーンでの消費を提案している。腹持ちが良く栄養補給に適していることを訴求し、縁起物の赤飯は「勝負メシ」としてPR。プロバスケットボールの試合で観戦者に手軽な食",
-        "pub_date": "11/22 12:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/5ef235ee6b49ff0fa7e0d869d0fec156025a61e8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "群馬・前橋市で不明の親グマ捜索続く　パニック状態で排水路に移動か　厳戒態勢(テレビ朝日系（ANN）)",
-        "summary": "群馬県前橋市の住宅街に親子とみられるクマ2頭が出没。子グマを捕獲後、親グマの捜索が続いていましたが、21日の朝、事態は動きました。■子グマは緊急銃猟で捕獲 17日の午前5時半すぎ、住宅街に現れたクマ。",
-        "pub_date": "11/22 12:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/4e0eea503b01e9433ef7c58c8a4ab85e92399d1f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "関東で未明に火事相次ぐ　埼玉・所沢市では1人死亡(テレビ朝日系（ANN）)",
-        "summary": "埼玉県所沢市で木造住宅が燃える火事があり、1人の遺体が見つかりました。東京・江戸川区でも火事があり、1人がけがをしています。 22日午前4時半ごろ、所沢市花園で「隣の家から煙が出ている」と119番通報",
-        "pub_date": "11/22 12:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/aefe6246beb9e4bea999ec05a3eb005ad2708e1b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "寒波による大雪 午後は小康状態に　寒さはあす朝がピーク(テレビ朝日系（ANN）)",
-        "summary": "福島など大雪となっている東北はこの後、天気が回復に向かいますが、寒さは続く見通しです。 長引く寒波の影響で大雪に見舞われている北日本や東日本の山沿いは、今シーズン一番の積雪になっています。 長野県の白",
-        "pub_date": "11/22 12:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/6053610907cd4ef6c04410d0ef2f0e997fe85beb?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "3歳女児虐待死か 両親逮捕　保育園関係者「未来が失われてしまった」(テレビ朝日系（ANN）)",
-        "summary": "大阪府枚方市で3歳の女の子が虐待されて死亡し、両親が逮捕された事件で、女の子が通っていた保育園の関係者が「未来が失われてしまった」と無念の心境を語りました。 金尾健太郎容疑者（33）は8月、自宅で長女",
-        "pub_date": "11/22 12:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/1c9f64362216ff4d27f356b2078c05f2a9ba9471?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "金塊20キロ盗難、兵庫の住宅　4億円相当、現金2500万円も(共同通信)",
-        "summary": "21日午前2時35分ごろ、兵庫県西宮市甲子園四番町の住宅で防犯システムが反応し、警備会社が110番した。警察官が駆けつけたところ、住宅のドアが壊され、金塊約20キロ（時価約4億円相当）と現金約2500",
-        "pub_date": "11/22 11:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/bbf5506b0b18ad41a3d0744333801e88154b6e07?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「途中参加の人は2000円で…」ママ友会で“減額ワリカン”提案したら→遅れて参加のママ友からの“衝撃クレーム”にショック(ABEMA TIMES)",
-        "summary": "ママ友同士のホームパーティーやランチなど、複数人で集まる際につきまとうのが“割り勘”問題。特に、途中から参加した人の会費をどう設定するかは、幹事にとっても参加者にとっても悩ましいテーマだ。【映像】ママ",
-        "pub_date": "11/22 11:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/03c8fb4c06a43a01fc7ce079f2d81facf1eca997?source=rss",
+        "title": "玉木氏「文科相問責に値」　パーティー問題巡り(共同通信)",
+        "summary": "国民民主党の玉木雄一郎代表は22日、関芳弘文部科学相が政治資金パーティーに官僚を呼び企業関係者に政策を説明させたことを巡り「参院への問責決議案提出に値する」と述べた。訪問先の熊本市内で記者団の質問に答",
+        "pub_date": "11/22 13:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/1c56a38221e2635b6e078e8c6df5d0140acf6f8a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 12:29:38 JST"
+    "last_updated": "2026-11-22 13:25:59 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1040,10 +1034,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "s3zZw3qbM5k",
+        "video_id": "nK-xnwk64-o",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/s3zZw3qbM5k?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=s3zZw3qbM5k"
+        "embed_url": "https://www.youtube.com/embed/nK-xnwk64-o?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=nK-xnwk64-o"
       },
       {
         "id": "stream_annnews",
@@ -1051,10 +1045,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "Bf187S0iIoM",
+        "video_id": "QqnvQSJAgzo",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/Bf187S0iIoM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Bf187S0iIoM"
+        "embed_url": "https://www.youtube.com/embed/QqnvQSJAgzo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=QqnvQSJAgzo"
       },
       {
         "id": "stream_fnnnews",

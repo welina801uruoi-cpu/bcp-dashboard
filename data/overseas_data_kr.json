@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 08:28:16",
-  "timestamp_local": "2026-11-22 08:28:16",
+  "timestamp": "2026-11-22 09:00:41",
+  "timestamp_local": "2026-11-22 09:00:41",
   "country": {
     "id": "korea",
     "name": "韓国 (大韓民国)",
@@ -415,6 +415,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "わなに脚を挟まれた巨大なクマ…野生動物保護官が慎重に接近、緊迫の救出劇の結末は(ニューズウィーク日本版)",
+        "link": "https://news.yahoo.co.jp/articles/4230b7211d61fdea5192b02551019434ae36cce9?source=rss",
+        "description": "森の中で、前脚をわなに挟まれた大きなクマ。逃げようとしても、自由に動くことができない。【映像】わなに脚を挟まれたクマに保護官たちが接近…専用器具と板を使った緊迫の救出劇このクマを救うため、野生動物保護",
+        "pub_date": "11/22 08:40 JST",
+        "is_priority": false
+      },
+      {
         "title": "北朝鮮、通常兵器を相次ぎ公開…「戦略的露出」の狙いは(ハンギョレ新聞)",
         "link": "https://news.yahoo.co.jp/articles/c0a63bc4ab8156f1f660b79ac7cf006e2aeeb7e6?source=rss",
         "description": "北朝鮮がこのところ、通常戦力の増強と誇示に力を入れている。 駆逐艦、攻撃用無人機、戦略巡航ミサイル・大口径多連装ロケット砲・戦術弾道ミサイル、極超音速ミサイル、戦術弾道ミサイルのクラスター弾頭、自走砲",
@@ -546,13 +553,6 @@
         "description": "プムジレ・ムランボヌクカさん（南アフリカ初の女性副大統領）20日、医療処置に伴う合併症のため死去。南ア政府が発表した。71歳。05～08年に副大統領を務め、13～21年には国連女性機関（UNウィメン）",
         "pub_date": "11/21 22:57 JST",
         "is_priority": false
-      },
-      {
-        "title": "女性が全裸で街を歩き回る、通行人たちは仰天…「騒動の現場映像」を防犯カメラが捉えネットで拡散（海外）(ニューズウィーク日本版)",
-        "link": "https://news.yahoo.co.jp/articles/0a5a147709fb6214f63aa075c480d6ceb4183360?source=rss",
-        "description": "ブラジル最大の都市サンパウロの街中で、日中に全裸の女性が歩き回る姿が目撃され、騒ぎとなった。通り過ぎる人々が女性に気付いて驚く様子は防犯カメラに記録され、現地テレビ局Recordが映像とともに報道。映",
-        "pub_date": "11/21 21:11 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -683,7 +683,7 @@
     "default_channel_id": "stream_ytn_live"
   },
   "forex": {
-    "timestamp": "11/22 08:28 JST",
+    "timestamp": "11/22 09:00 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -746,16 +746,61 @@
   "weather": {
     "cities": [
       {
+        "name": "ソウル (首都)",
+        "name_en": "Seoul",
+        "is_capital": true,
+        "lat": 37.5665,
+        "lon": 126.978,
+        "temp": -3.0,
+        "apparent_temp": -6.9,
+        "humidity": 44,
+        "wind_speed": 2.5,
+        "wind_gusts": 9.7,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 4.1,
+            "temp_min": -4.2,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 13.2,
+            "temp_min": 1.4,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 6.9
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 3.7,
+            "temp_min": -1.9,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "釜山 (南部港湾都市)",
         "name_en": "Busan",
         "is_capital": false,
         "lat": 35.1796,
         "lon": 129.0756,
-        "temp": -0.3,
-        "apparent_temp": -4.5,
-        "humidity": 61,
-        "wind_speed": 8.7,
-        "wind_gusts": 27.0,
+        "temp": 0.9,
+        "apparent_temp": -3.3,
+        "humidity": 59,
+        "wind_speed": 9.1,
+        "wind_gusts": 29.5,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -796,11 +841,11 @@
         "is_capital": false,
         "lat": 33.4996,
         "lon": 126.5312,
-        "temp": 8.7,
-        "apparent_temp": 4.6,
+        "temp": 9.1,
+        "apparent_temp": 5.1,
         "humidity": 61,
-        "wind_speed": 15.8,
-        "wind_gusts": 19.8,
+        "wind_speed": 15.3,
+        "wind_gusts": 19.4,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -837,43 +882,43 @@
       }
     ],
     "capital": {
-      "name": "釜山 (南部港湾都市)",
-      "name_en": "Busan",
-      "is_capital": false,
-      "lat": 35.1796,
-      "lon": 129.0756,
-      "temp": -0.3,
-      "apparent_temp": -4.5,
-      "humidity": 61,
-      "wind_speed": 8.7,
-      "wind_gusts": 27.0,
+      "name": "ソウル (首都)",
+      "name_en": "Seoul",
+      "is_capital": true,
+      "lat": 37.5665,
+      "lon": 126.978,
+      "temp": -3.0,
+      "apparent_temp": -6.9,
+      "humidity": 44,
+      "wind_speed": 2.5,
+      "wind_gusts": 9.7,
       "precipitation": 0.0,
       "weather_code": 0,
       "weather_label": "☀️ 快晴",
       "forecast": [
         {
           "date": "11/22(日)",
-          "temp_max": 7.6,
-          "temp_min": -1.0,
-          "weather_code": 0,
-          "weather_label": "☀️ 快晴",
+          "temp_max": 4.1,
+          "temp_min": -4.2,
+          "weather_code": 1,
+          "weather_label": "🌤️ 晴れ",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/23(月)",
-          "temp_max": 15.1,
-          "temp_min": 3.5,
-          "weather_code": 63,
-          "weather_label": "🌧️ 雨 (中雨)",
-          "precipitation_mm": 5.6
+          "temp_max": 13.2,
+          "temp_min": 1.4,
+          "weather_code": 61,
+          "weather_label": "🌧️ 雨 (小雨)",
+          "precipitation_mm": 6.9
         },
         {
           "date": "11/24(火)",
-          "temp_max": 14.8,
-          "temp_min": 1.5,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.1
+          "temp_max": 3.7,
+          "temp_min": -1.9,
+          "weather_code": 1,
+          "weather_label": "🌤️ 晴れ",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -881,7 +926,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/22 08:28 JST"
+    "timestamp": "11/22 09:00 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -910,7 +955,7 @@
         "details": "京釜線KTXなど主要幹線平常運行中"
       }
     ],
-    "timestamp": "11/22 08:28 JST"
+    "timestamp": "11/22 09:00 JST"
   },
   "lifeline": {
     "status": "NORMAL",

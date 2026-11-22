@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22 08:29:25",
-  "timestamp_local": "2026-11-22 01:29:25",
+  "timestamp": "2026-11-22 09:01:06",
+  "timestamp_local": "2026-11-22 02:01:06",
   "country": {
     "id": "italy",
     "name": "イタリア",
@@ -466,6 +466,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "わなに脚を挟まれた巨大なクマ…野生動物保護官が慎重に接近、緊迫の救出劇の結末は(ニューズウィーク日本版)",
+        "link": "https://news.yahoo.co.jp/articles/4230b7211d61fdea5192b02551019434ae36cce9?source=rss",
+        "description": "森の中で、前脚をわなに挟まれた大きなクマ。逃げようとしても、自由に動くことができない。【映像】わなに脚を挟まれたクマに保護官たちが接近…専用器具と板を使った緊迫の救出劇このクマを救うため、野生動物保護",
+        "pub_date": "11/22 08:40 JST",
+        "is_priority": false
+      },
+      {
         "title": "北朝鮮、通常兵器を相次ぎ公開…「戦略的露出」の狙いは(ハンギョレ新聞)",
         "link": "https://news.yahoo.co.jp/articles/c0a63bc4ab8156f1f660b79ac7cf006e2aeeb7e6?source=rss",
         "description": "北朝鮮がこのところ、通常戦力の増強と誇示に力を入れている。 駆逐艦、攻撃用無人機、戦略巡航ミサイル・大口径多連装ロケット砲・戦術弾道ミサイル、極超音速ミサイル、戦術弾道ミサイルのクラスター弾頭、自走砲",
@@ -596,13 +603,6 @@
         "link": "https://news.yahoo.co.jp/articles/c8f6212377333945a80edf29ec3398df7300c488?source=rss",
         "description": "プムジレ・ムランボヌクカさん（南アフリカ初の女性副大統領）20日、医療処置に伴う合併症のため死去。南ア政府が発表した。71歳。05～08年に副大統領を務め、13～21年には国連女性機関（UNウィメン）",
         "pub_date": "11/21 22:57 JST",
-        "is_priority": false
-      },
-      {
-        "title": "女性が全裸で街を歩き回る、通行人たちは仰天…「騒動の現場映像」を防犯カメラが捉えネットで拡散（海外）(ニューズウィーク日本版)",
-        "link": "https://news.yahoo.co.jp/articles/0a5a147709fb6214f63aa075c480d6ceb4183360?source=rss",
-        "description": "ブラジル最大の都市サンパウロの街中で、日中に全裸の女性が歩き回る姿が目撃され、騒ぎとなった。通り過ぎる人々が女性に気付いて驚く様子は防犯カメラに記録され、現地テレビ局Recordが映像とともに報道。映",
-        "pub_date": "11/21 21:11 JST",
         "is_priority": false
       }
     ],
@@ -747,7 +747,7 @@
     "default_channel_id": "stream_euronews"
   },
   "forex": {
-    "timestamp": "11/22 08:29 JST",
+    "timestamp": "11/22 09:01 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -825,16 +825,106 @@
   "weather": {
     "cities": [
       {
+        "name": "ローマ (首都)",
+        "name_en": "Rome",
+        "is_capital": true,
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "temp": 12.2,
+        "apparent_temp": 11.7,
+        "humidity": 89,
+        "wind_speed": 3.9,
+        "wind_gusts": 7.6,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 18.1,
+            "temp_min": 12.0,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 0.8
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 18.1,
+            "temp_min": 9.3,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 17.4,
+            "temp_min": 7.0,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "ミラノ (北部経済中心)",
+        "name_en": "Milan",
+        "is_capital": false,
+        "lat": 45.4642,
+        "lon": 9.19,
+        "temp": 6.3,
+        "apparent_temp": 4.0,
+        "humidity": 94,
+        "wind_speed": 8.0,
+        "wind_gusts": 15.5,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/22(日)",
+            "temp_max": 8.7,
+            "temp_min": 6.3,
+            "weather_code": 63,
+            "weather_label": "🌧️ 雨 (中雨)",
+            "precipitation_mm": 17.7
+          },
+          {
+            "date": "11/23(月)",
+            "temp_max": 11.9,
+            "temp_min": 4.0,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/24(火)",
+            "temp_max": 9.2,
+            "temp_min": 5.2,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.8
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
         "name": "ヴェネツィア (ヴェネト州)",
         "name_en": "Venice",
         "is_capital": false,
         "lat": 45.4408,
         "lon": 12.3155,
-        "temp": 7.7,
+        "temp": 7.6,
         "apparent_temp": 5.7,
         "humidity": 100,
-        "wind_speed": 9.4,
-        "wind_gusts": 15.1,
+        "wind_speed": 8.7,
+        "wind_gusts": 14.8,
         "precipitation": 0.0,
         "weather_code": 45,
         "weather_label": "🌫️ 霧",
@@ -845,7 +935,7 @@
             "temp_min": 6.6,
             "weather_code": 63,
             "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 16.7
+            "precipitation_mm": 17.1
           },
           {
             "date": "11/23(月)",
@@ -871,51 +961,51 @@
       }
     ],
     "capital": {
-      "name": "ヴェネツィア (ヴェネト州)",
-      "name_en": "Venice",
-      "is_capital": false,
-      "lat": 45.4408,
-      "lon": 12.3155,
-      "temp": 7.7,
-      "apparent_temp": 5.7,
-      "humidity": 100,
-      "wind_speed": 9.4,
-      "wind_gusts": 15.1,
+      "name": "ローマ (首都)",
+      "name_en": "Rome",
+      "is_capital": true,
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "temp": 12.2,
+      "apparent_temp": 11.7,
+      "humidity": 89,
+      "wind_speed": 3.9,
+      "wind_gusts": 7.6,
       "precipitation": 0.0,
-      "weather_code": 45,
-      "weather_label": "🌫️ 霧",
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
       "forecast": [
         {
           "date": "11/22(日)",
-          "temp_max": 9.4,
-          "temp_min": 6.6,
-          "weather_code": 63,
-          "weather_label": "🌧️ 雨 (中雨)",
-          "precipitation_mm": 16.7
+          "temp_max": 18.1,
+          "temp_min": 12.0,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 0.8
         },
         {
           "date": "11/23(月)",
-          "temp_max": 13.7,
-          "temp_min": 7.7,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
+          "temp_max": 18.1,
+          "temp_min": 9.3,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/24(火)",
-          "temp_max": 10.5,
-          "temp_min": 6.1,
-          "weather_code": 3,
-          "weather_label": "☁️ 曇り",
+          "temp_max": 17.4,
+          "temp_min": 7.0,
+          "weather_code": 45,
+          "weather_label": "🌫️ 霧",
           "precipitation_mm": 0.0
         }
       ],
-      "alert": "気象注意",
-      "alert_badge": "🟡 気象注意",
-      "alert_class": "yellow",
-      "alert_desc": "降雨または視程低下あり。通常行動可能"
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/22 08:29 JST"
+    "timestamp": "11/22 09:01 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -997,7 +1087,7 @@
         "details": "地下鉄M1〜M5号線およびマルペンサ空港連絡は平常運行中"
       }
     ],
-    "timestamp": "11/22 08:29 JST"
+    "timestamp": "11/22 09:01 JST"
   },
   "lifeline": {
     "status": "NORMAL",

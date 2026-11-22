@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21 23:26:21",
+  "timestamp": "2026-11-21 23:58:58",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -207,12 +207,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "強風注意報",
           "波浪注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "雷注意報、強風注意報、波浪注意報、乾燥注意報",
+        "summary": "波浪注意報、乾燥注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -223,13 +223,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
+          "雷注意報",
           "強風注意報",
           "濃霧注意報",
-          "雷注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、強風注意報、濃霧注意報、雷注意報、波浪注意報",
+        "summary": "雷注意報、強風注意報、濃霧注意報、波浪注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -240,10 +240,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、乾燥注意報",
+        "summary": "乾燥注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/25/"
       },
       {
@@ -410,8 +410,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/21 23:48",
+          "text": "御殿場まで赤字で2時間以上と見たくない表示が出てた(-｡-;そして START au繋がらない END ので予備の楽天が入るとかw"
+        },
         {
           "time": "11/21 15:11",
           "text": "@ilkbtobfl @6dedelove 横から〜 ahamoでJALマイルがたまるようになってから乗り換えしたよ 元々もIIJという格安だったせいか、 ST..."
@@ -419,10 +423,6 @@
         {
           "time": "11/21 13:28",
           "text": "@247RGB_P 通りすがりですが、昨日から START au END 4Gも5Gも START 繋がらない END ですね。 今はソフバン系の格安simのス..."
-        },
-        {
-          "time": "11/21 10:02",
-          "text": "携帯会社4キャリアあるけど、 楽天は×です。次にソフトバンク系統は野球のソフトバンクを弱体化させたいから×。ドコモは START 繋がらない END から×。 ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -471,7 +471,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 9,
     "articles": [
       {
         "title": "通勤中の車に突然襲いかかるクマ→ボンネットを引っかき、よじ登る“恐怖の瞬間” 群馬・前橋市(ABEMA TIMES)",
@@ -546,12 +546,36 @@
         "is_disaster": true
       },
       {
-        "title": "京成本線で人身事故 運転再開(レスキューナウニュース)",
-        "summary": "京成大久保～実籾駅間で発生した人身事故の影響で、京成本線は京成津田沼～八千代台駅間の下り線(八千代台方面行)の運転を見合わせていましたが、23:05現在、運転を再開しています。なお、ダイヤが乱れていま",
-        "pub_date": "11/21 23:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/70e37c5378988864ee050a89e00b15dfde77e033?source=rss",
+        "title": "“オレンジ色のカーテン”「枯露柿」作りが最盛期(ABEMA TIMES)",
+        "summary": "山梨県甲州市の農家では、特産の「枯露柿」作りが最盛期を迎えています。 山梨県甲州市にある岩波農園では、オレンジ色のカーテンのように、「枯露柿」がずらりと吊るされています。【映像】「枯露柿」作りの様子",
+        "pub_date": "11/22 08:54 JST",
+        "link": "https://news.yahoo.co.jp/articles/d6f9f81e1b3f8ff4aee9bf684f40215233b3bc67?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "埼玉・所沢で木造住宅燃える火事　性別不明の遺体　住人の男性と連絡取れず(テレビ朝日系（ANN）)",
+        "summary": "埼玉県所沢市で木造住宅が燃える火事があり、焼け跡から1人の遺体が見つかりました。 22日午前4時半ごろ、所沢市花園で、近隣住民から「隣の家から煙が出ている」と119番通報がありました。 警察と消防によ",
+        "pub_date": "11/22 08:49 JST",
+        "link": "https://news.yahoo.co.jp/articles/0f73a8d6295c5eef6ed4f26b0824bfd7c98353dc?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "白バイ走行訓練など披露 警視庁が採用説明会(ABEMA TIMES)",
+        "summary": "警視庁が採用説明会を開き、レスキュー隊による実演や白バイの走行訓練などを披露しました。【映像】技術を披露する白バイ 21日、東京・目黒区で開かれた警視庁の採用説明会には高校生や大学生らが参加し現役の刑",
+        "pub_date": "11/22 08:48 JST",
+        "link": "https://news.yahoo.co.jp/articles/b00cbbf2b993a6deea7bca3ae66deffa7b0239e2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "福島県警職員が温泉で女児らを盗撮か　千葉・長生村(テレビ朝日系（ANN）)",
+        "summary": "福島県の警察職員が千葉県長生村の温泉施設で小学生や保育園児の女の子らを盗撮した疑いで逮捕されました。 福島県の警察職員・高井健太容疑者（40）は21日午後7時ごろ、千葉県長生村にある温泉施設の男性用更",
+        "pub_date": "11/22 08:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/6d403cfa278b46200c8c27657efb6a4fc5e12016?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "受刑者の選挙権めぐり「刑務所」から届いた賛否の声　「同じ日本国民なのに不公平」「権利を主張するなら悪いことするな」(弁護士ドットコムニュース)",
@@ -568,33 +592,9 @@
         "link": "https://news.yahoo.co.jp/articles/8a510e0526e7ee65ad7d33b18e2f22d28291a47c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "【動画】22日の天気 - 北陸から北日本は雨・雪続く　太平洋側は晴れるも寒さ続く（22日7時更新）(ウェザーマップ)",
-        "summary": "3連休2日目の22日（日）も北陸から北日本の日本海側は雨や雪が続くでしょう。北陸周辺では雷雨に注意が必要です。太平洋側は晴れますが、気温は広く12月並みです。暖かくしてお過ごしください。",
-        "pub_date": "11/22 08:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/b45affcd4121cfe1d2cc905b3acb53b57abb6c39?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【豊臣兄弟！】弟・秀長を遠ざけた秀吉が、養女を嫁がせるほどかわいがった武将…五大老から「八丈島で49年」の数奇な生涯(デイリー新潮)",
-        "summary": "羽柴秀長（仲野太賀）の家臣で熊野（紀伊半島南部）の山林と木材を取り仕切っていた吉川平助（松岡広大）が、秀吉（池松壮亮）の命で斬首された。秀吉の事業のために伐り出している木材の一部を、独断で売りさばいて",
-        "pub_date": "11/22 08:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/a6fe9c6d082d5b1b43b9cd5ee4ea5e2059d4a99b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【全文】幼馴染が抱いた違和感、胴元が感じた狂気「大谷翔平の相棒」が「世紀の裏切り者」に堕ちるまで(FRIDAY)",
-        "summary": "今年最後の試合で放ったホームランは、来季の復調の兆しを感じさせる一打だった。現地時間10月15日に行われたブルワーズとのナ・リーグ優勝決定シリーズ第4戦の2打席目。振り抜いた打球が柵越えを確信すると、",
-        "pub_date": "11/22 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/109ac7b0c92e8d23277d5d8ac4b30a17e9418c6d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 08:25:52 JST"
+    "last_updated": "2026-11-22 08:58:30 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 08:31:36",
+  "timestamp": "2026-11-22 09:16:06",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -166,10 +166,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 2地域】山形、福島（警報なし）",
+    "summary": "【注意報発表: 1地域】福島（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 2,
+    "notice_count": 1,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -220,13 +220,11 @@
         "code": "6",
         "name": "山形県",
         "short_name": "山形",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "雷注意報"
-        ],
-        "summary": "雷注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -253,21 +251,18 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東北本線、磐越西線、奥羽本線 ／ 新幹線: 山形新幹線（列車遅延））",
+    "text": "運行支障あり（在来線: 磐越西線、奥羽本線、北上線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東北本線、磐越西線、奥羽本線、北上線）",
-    "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山形新幹線（列車遅延））",
+    "line_text": "運行支障あり（磐越西線、奥羽本線、北上線）",
+    "shinkansen_status": "NORMAL",
+    "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/3",
     "troubled_lines": [
-      "東北本線",
       "磐越西線",
       "奥羽本線",
       "北上線"
     ],
-    "troubled_shinkansen": [
-      "山形新幹線（列車遅延）"
-    ],
+    "troubled_shinkansen": [],
     "shinkansen_details": [
       {
         "name": "東北新幹線",
@@ -285,9 +280,9 @@
       },
       {
         "name": "山形新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "安全確認の影響で、一部列車に遅れが出ています。（11月22日 12時0分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "18:10現在、ほぼ平常通り運転しています。（11月22日 18時10分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/5/0"
       },
       {
@@ -313,7 +308,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東北電力NW: 【停電発生中】秋田・福島で停電情報を検知",
+    "power_msg": "東北電力NW: 【停電発生中】福島で停電情報を検知",
     "water_msg": "仙台市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "仙台市ガス局: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -359,19 +354,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/22 08:23",
-          "text": "(￣з￣)b 履歴を消去した理由は 【横領準備】 組織犯罪社の構築を仮定すると 指紋認証の設定はHackerに START 障害 END で 【諜報社がさせたく..."
+          "time": "11/22 09:12",
+          "text": "なんか START au END 電波 START 障害 END ？？ 全然繋がらなくて"
         },
         {
-          "time": "11/22 07:42",
-          "text": "@sid_thegazette いや START au END 回線やから全然大丈夫！ 前は楽天モバイル使ってたけど、あれは繋がりにくい時あったり電波 STAR..."
+          "time": "11/22 09:03",
+          "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方も対象です✨ eSIMで最短即日⏱️ 停電・通信 STAR..."
         },
         {
-          "time": "11/22 07:14",
-          "text": "ドコモは通信 START 障害 END のようね。 アナウンスは無いけどちょくちょく発生してるな。 サブで START au END 回線があって良かった。"
+          "time": "11/22 08:32",
+          "text": "START au END 通信 START 障害 END かな？ 通信制限かかってるくらい繋がらない…"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -382,8 +377,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 09:07",
+          "text": "START KDDI END より通信 START 障害 END の情報が出ています https://t.co/8KUDzGEu6B #空ネット"
+        },
         {
           "time": "11/22 00:26",
           "text": "START KDDI END は11月21日、大雪の影響で一部地域の通信サービスが利用しづらい状況を発表。 通信は生活を支えるインフラ。料金や特典だけでなく、 ..."
@@ -391,10 +390,6 @@
         {
           "time": "11/21 13:02",
           "text": "福島県耶麻郡北塩原村檜原蛇平原山 START 障害 END 情報は START KDDI END のサイトに促されてますけど、北塩原村唯一の楽天モバイル局は生き..."
-        },
-        {
-          "time": "11/21 08:32",
-          "text": "【大雪・携帯 START 障害 END の続報】 START KDDI END が福島・長野・岐阜の一部で災害時の代替回線を順次提供。au・UQ・povoなどで..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -405,19 +400,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/22 08:25",
-          "text": "楽天モバイルの START au END ローミングが切れた影響はこれまであまり良く分からなかったけど、リトルワールドに行ったら絶望的に圏外で初めて影響を感じた..."
+          "time": "11/22 09:15",
+          "text": "@shiawaseni777ae いつもは問題なくご利用いただける場所で START 繋がらない END のでしょうか？💦詳細をお伺いしたいです🙇 START ..."
         },
         {
-          "time": "11/22 07:35",
-          "text": "➕ 楽天の回線が壊滅的に START 繋がらない END （特に START au END から外されて） ※画像はイオン内の楽天モバイルショップ前での電波状況..."
+          "time": "11/22 09:05",
+          "text": "@aqua_snowyxxx わい START au END だけど START 繋がらない END って困った事はないっす"
         },
         {
-          "time": "11/22 07:20",
-          "text": "品川シーサイドのイオンに来てるけど、ネットが全然 START 繋がらない END 。測ってみたらこのザマ。イオンペイとか使えねー / START au END ..."
+          "time": "11/22 08:32",
+          "text": "START au END 通信障害かな？ 通信制限かかってるくらい START 繋がらない END …"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -431,25 +426,25 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/22 09:03",
+          "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方も対象です✨ eSIMで最短即日⏱️ 停電・通信 STAR..."
+        },
+        {
           "time": "11/22 07:35",
           "text": "なんか全然繋がらないんやけど START povo END 通信 START 障害 END 出てる？"
         },
         {
           "time": "11/22 02:25",
           "text": "あと、中国でahamoだと30GB以上の1か月の枠の中でローミングが問題なく可能でネット問題なかった。 出来れば月額ゼロ円の START povo END もあ..."
-        },
-        {
-          "time": "11/22 00:01",
-          "text": "@leonardobeet そうですよね😊 楽天モバイルがつながりにくい場所でも、 START povo END が使えると助かりますよね📱✨ 通信 START..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
     }
   ],
   "sns_heatmap": {
-    "total_mentions": 4,
+    "total_mentions": 1,
     "top_region": "東北",
-    "top_count": 2,
+    "top_count": 1,
     "regions": [
       {
         "id": "hokkaido",
@@ -470,10 +465,10 @@
         "lat": 38.2682,
         "lon": 140.8694,
         "zoom": 7,
-        "count": 2,
-        "level": "NOTICE",
-        "color": "#f59e0b",
-        "status_label": "散発検知 (注意)",
+        "count": 1,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
         "detected_words": [
           "福島"
         ],
@@ -482,11 +477,6 @@
             "keyword": "KDDI 障害",
             "time": "11/21 13:02",
             "text": "福島県耶麻郡北塩原村檜原蛇平原山 START 障害 END 情報は START KDDI END のサイトに促されてますけど、北塩原村唯一の楽天モバイル局は生き..."
-          },
-          {
-            "keyword": "KDDI 障害",
-            "time": "11/21 08:32",
-            "text": "【大雪・携帯 START 障害 END の続報】 START KDDI END が福島・長野・岐阜の一部で災害時の代替回線を順次提供。au・UQ・povoなどで..."
           }
         ]
       },
@@ -496,20 +486,12 @@
         "lat": 35.6895,
         "lon": 139.6917,
         "zoom": 9,
-        "count": 1,
+        "count": 0,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [
-          "品川"
-        ],
-        "sample_posts": [
-          {
-            "keyword": "au 繋がらない",
-            "time": "11/22 07:20",
-            "text": "品川シーサイドのイオンに来てるけど、ネットが全然 START 繋がらない END 。測ってみたらこのザマ。イオンペイとか使えねー / START au END ..."
-          }
-        ]
+        "detected_words": [],
+        "sample_posts": []
       },
       {
         "id": "chubu",
@@ -517,20 +499,12 @@
         "lat": 35.1815,
         "lon": 136.9066,
         "zoom": 8,
-        "count": 1,
+        "count": 0,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [
-          "岐阜"
-        ],
-        "sample_posts": [
-          {
-            "keyword": "KDDI 障害",
-            "time": "11/21 08:32",
-            "text": "【大雪・携帯 START 障害 END の続報】 START KDDI END が福島・長野・岐阜の一部で災害時の代替回線を順次提供。au・UQ・povoなどで..."
-          }
-        ]
+        "detected_words": [],
+        "sample_posts": []
       },
       {
         "id": "hokuriku",
@@ -618,10 +592,10 @@
         "lat": 38.2682,
         "lon": 140.8694,
         "zoom": 7,
-        "count": 2,
-        "level": "NOTICE",
-        "color": "#f59e0b",
-        "status_label": "散発検知 (注意)",
+        "count": 1,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
         "detected_words": [
           "福島"
         ],
@@ -630,53 +604,6 @@
             "keyword": "KDDI 障害",
             "time": "11/21 13:02",
             "text": "福島県耶麻郡北塩原村檜原蛇平原山 START 障害 END 情報は START KDDI END のサイトに促されてますけど、北塩原村唯一の楽天モバイル局は生き..."
-          },
-          {
-            "keyword": "KDDI 障害",
-            "time": "11/21 08:32",
-            "text": "【大雪・携帯 START 障害 END の続報】 START KDDI END が福島・長野・岐阜の一部で災害時の代替回線を順次提供。au・UQ・povoなどで..."
-          }
-        ]
-      },
-      {
-        "id": "kanto",
-        "name": "関東・首都圏",
-        "lat": 35.6895,
-        "lon": 139.6917,
-        "zoom": 9,
-        "count": 1,
-        "level": "NORMAL",
-        "color": "#10b981",
-        "status_label": "平常・平穏",
-        "detected_words": [
-          "品川"
-        ],
-        "sample_posts": [
-          {
-            "keyword": "au 繋がらない",
-            "time": "11/22 07:20",
-            "text": "品川シーサイドのイオンに来てるけど、ネットが全然 START 繋がらない END 。測ってみたらこのザマ。イオンペイとか使えねー / START au END ..."
-          }
-        ]
-      },
-      {
-        "id": "chubu",
-        "name": "中部・東海",
-        "lat": 35.1815,
-        "lon": 136.9066,
-        "zoom": 8,
-        "count": 1,
-        "level": "NORMAL",
-        "color": "#10b981",
-        "status_label": "平常・平穏",
-        "detected_words": [
-          "岐阜"
-        ],
-        "sample_posts": [
-          {
-            "keyword": "KDDI 障害",
-            "time": "11/21 08:32",
-            "text": "【大雪・携帯 START 障害 END の続報】 START KDDI END が福島・長野・岐阜の一部で災害時の代替回線を順次提供。au・UQ・povoなどで..."
           }
         ]
       },
@@ -686,6 +613,32 @@
         "lat": 43.0642,
         "lon": 141.3469,
         "zoom": 7,
+        "count": 0,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
+        "detected_words": [],
+        "sample_posts": []
+      },
+      {
+        "id": "kanto",
+        "name": "関東・首都圏",
+        "lat": 35.6895,
+        "lon": 139.6917,
+        "zoom": 9,
+        "count": 0,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
+        "detected_words": [],
+        "sample_posts": []
+      },
+      {
+        "id": "chubu",
+        "name": "中部・東海",
+        "lat": 35.1815,
+        "lon": 136.9066,
+        "zoom": 8,
         "count": 0,
         "level": "NORMAL",
         "color": "#10b981",
@@ -794,8 +747,40 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 13,
+    "disaster_count": 15,
     "articles": [
+      {
+        "title": "関東で火災相次ぐ 死者も　広い範囲に乾燥注意報(テレビ朝日系（ANN）)",
+        "summary": "関東地方の広い範囲で乾燥注意報が出ています。埼玉県所沢市で住宅が燃える火事があり、男性1人が亡くなりました。東京・江戸川区でも火事があり、1人がけがをしています。 22日午前4時半ごろ、所沢市花園で「",
+        "pub_date": "11/22 18:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/3dcfa1dc186920b705f37f9ca495c8fb10f2a58a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "被災から“復活”の原画、京都で公開へ　能登半島地震で全焼の永井豪記念館(共同通信)",
+        "summary": "「デビルマン」「キューティーハニー」などの作品で知られる石川県輪島市出身の漫画家永井豪さん（81）。2024年の能登半島地震で被災した原画が“復活”し、11月28日から京都文化博物館（京都市中京区）で",
+        "pub_date": "11/22 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/c31e9166b4093806088892cb2f69fc99a98b944b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "首里城 焼失7年“復元で進化” 最新技術駆使　あす一般公開(テレビ朝日系（ANN）)",
+        "summary": "火災で焼失してから7年、沖縄のシンボル「首里城」が復活です。最新技術を使った復元工事、“ただの復元”ではないそうなんです。■首里城 焼失7年“復元で進化” よみがえった、日本で唯一の“赤い城”。沖縄県",
+        "pub_date": "11/22 17:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/b47a4bb79b7ce8ff2fa81b41f7aa84c0b18e904d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "大雪の福島 約1000人“孤立”　連休直撃 温泉宿で営業中止も(テレビ朝日系（ANN）)",
+        "summary": "福島県では大雪の影響で今も1000人近くの住民が孤立状態となっています。停電した温泉宿の経営者が取材に応じ、切実な状況を語りました。■大雪の福島 約1000人“孤立” 強烈な寒波の影響で大雪となった岐",
+        "pub_date": "11/22 17:44 JST",
+        "link": "https://news.yahoo.co.jp/articles/11d73a1647a7691e22df08d0444a8d3252005504?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "京王線で人身事故 一部運転見合わせ(レスキューナウニュース)",
         "summary": "17:01頃、つつじケ丘駅で発生した人身事故の影響で、京王線(桜上水～飛田給)と京王相模原線(調布～若葉台)の運転を見合わせています。振替輸送を行っています。",
@@ -837,14 +822,6 @@
         "is_disaster": true
       },
       {
-        "title": "柏崎原発で作業員1人死亡　荷ほどき中ガラス下敷きに(共同通信)",
-        "summary": "22日午前11時半ごろ、新潟県柏崎市の東京電力柏崎刈羽原発内で、男性会社員がガラスの荷ほどき中に十数枚が倒れ、下敷きになる事故が発生した。県警によると、埼玉県川口市の斉藤辰也さん（38）が病院に搬送さ",
-        "pub_date": "11/22 15:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/b4cf3e3f32a7d29f2b9b9929811f5169dfcb1361?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "柏崎原発で作業員ガラス下敷きに、意識不明(共同通信)",
         "summary": "新潟県警によると22日午前11時半ごろ、同県柏崎市の東京電力柏崎刈羽原発内で、作業中の会社員が倒れてきたガラス十数枚の下敷きになる事故が発生した。会社員は意識不明の重体。",
         "pub_date": "11/22 14:44 JST",
@@ -870,7 +847,7 @@
       },
       {
         "title": "那覇市の首里城、7年ぶり復活　「沖縄の象徴」琉球王国の朱色(共同通信)",
-        "summary": "2019年に火災で焼失した首里城（那覇市）の正殿の復元完成式が22日、開かれた。太平洋戦争末期の沖縄戦に続き焼け落ちた「沖縄の象徴」は、琉球王国時代の朱色が再現され、7年ぶりに復活した。参加者らは祝福",
+        "summary": "2019年に火災で焼失した首里城（那覇市）の正殿の復元完成式が22日、開かれた。太平洋戦争末期の沖縄戦に続き焼け落ちた「沖縄の象徴」は、琉球王国時代の朱色が再現され、7年ぶりに復活した。お祝いの琉球舞",
         "pub_date": "11/22 14:03 JST",
         "link": "https://news.yahoo.co.jp/articles/b2e71740bfda62ddc2341b0415952cfa126346f5?source=rss",
         "category": "国内・気象防災",
@@ -885,39 +862,15 @@
         "is_disaster": true
       },
       {
-        "title": "首里城正殿の復元完成式始まる(共同通信)",
-        "summary": "2019年の火災で焼失した那覇市の首里城で22日、正殿の復元完成式が始まった。",
-        "pub_date": "11/22 13:07 JST",
-        "link": "https://news.yahoo.co.jp/articles/9df9c32c51964b266676c84a90d56dc9fed47eb1?source=rss",
-        "category": "国内・気象防災",
+        "title": "ホルムズ海峡を遠泳 環境被害訴え",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/22 18:08 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6603576?source=rss",
+        "category": "主要速報",
         "is_disaster": true
-      },
-      {
-        "title": "ブルーインパルスの影響で近鉄が遅延　大和八木駅などで混雑も(産経新聞)",
-        "summary": "近畿日本鉄道によると、22日午前11時45分現在、大和西大寺駅（奈良市）付近でのイベント開催に伴い、大阪線、奈良線、京都線、橿原線で列車の遅延が発生している。航空自衛隊の「ブルーインパルス」の飛行を見",
-        "pub_date": "11/22 13:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/bb088c643bb5f27303b9216f553dfe8fa7bbd7d8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「首を絞められた痕跡」静岡の民家から“パジャマ姿の子供の遺体”…一家4人を殺した「凶悪犯」はどこへ消えた（昭和46年の事件）(文春オンライン)",
-        "summary": "1971年12月29日、静岡県島田市の民家で、パジャマ姿のまま布団の上で惨殺された一家4人の遺体が発見された。針金で後ろ手に数珠つなぎに縛られ、首を絞められた痛ましい姿。室内は荒らされていたものの、現",
-        "pub_date": "11/22 17:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/7d6d0a4c42f9bf942a7a4f0918ee1e8ea511b276?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "連休最終日は広く行楽日和　冷え込み厳しく今季最多の冬日か(ウェザーマップ)",
-        "summary": "3連休最終日となる23日(月・祝)は、広い範囲で晴れるでしょう。寒気の影響で長く雨や雪だった日本海側でも日差しが届き、行楽日和となる所がありそうです。 ただ、朝の強い冷え込みは続く見通しで、全国の気象",
-        "pub_date": "11/22 17:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/aae4511bee3b2f5b21527cf5317026b7520f9a20?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 17:31:19 JST"
+    "last_updated": "2026-11-22 18:15:49 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -949,10 +902,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "TT-DgogD39Y",
+        "video_id": "twNMK1Kk2Xk",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/TT-DgogD39Y?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=TT-DgogD39Y"
+        "embed_url": "https://www.youtube.com/embed/twNMK1Kk2Xk?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=twNMK1Kk2Xk"
       },
       {
         "id": "stream_ntvnews",
@@ -971,10 +924,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "NxBO2dhwPwU",
+        "video_id": "MTGbkK0LaVg",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/NxBO2dhwPwU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=NxBO2dhwPwU"
+        "embed_url": "https://www.youtube.com/embed/MTGbkK0LaVg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=MTGbkK0LaVg"
       },
       {
         "id": "stream_fnnnews",

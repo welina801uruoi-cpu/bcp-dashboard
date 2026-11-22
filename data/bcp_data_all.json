@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 16:06:49",
+  "timestamp": "2026-11-22 16:52:25",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 29地域】福島、茨城、栃木、埼玉、千葉、東京、神奈川、新潟、福井、長野、岐阜、静岡、三重、滋賀、京都、大阪、兵庫、奈良、和歌山、島根、山口、香川、高知、福岡、佐賀、長崎、大分、鹿児島、沖縄（警報なし）",
+    "summary": "【注意報発表: 30地域】福島、茨城、栃木、埼玉、千葉、東京、神奈川、新潟、福井、長野、岐阜、静岡、三重、滋賀、京都、大阪、兵庫、奈良、和歌山、島根、山口、香川、高知、福岡、佐賀、長崎、熊本、大分、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 29,
+    "notice_count": 30,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -723,11 +723,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
+          "濃霧注意報",
           "霜注意報",
-          "濃霧注意報"
+          "なだれ注意報"
         ],
-        "summary": "なだれ注意報、霜注意報、濃霧注意報",
+        "summary": "濃霧注意報、霜注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/21/"
       },
       {
@@ -995,11 +995,13 @@
         "code": "43",
         "name": "熊本県",
         "short_name": "熊本",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/43/"
       },
       {
@@ -1010,9 +1012,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報"
+          "乾燥注意報",
+          "濃霧注意報"
         ],
-        "summary": "乾燥注意報",
+        "summary": "乾燥注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -1064,17 +1067,16 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線47路線: 土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、肥薩線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線47路線: 肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、肥薩線、美祢線、磐越西線 等 計47路線）",
+    "line_text": "運行支障あり（肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、磐越西線、奥羽本線 等 計47路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
+      "肥薩線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
-      "肥薩線",
-      "美祢線",
       "磐越西線",
       "奥羽本線",
       "山田線",
@@ -1088,19 +1090,6 @@
       "近鉄橿原線",
       "近鉄天理線",
       "加古川線",
-      "御殿場線",
-      "飯田線",
-      "高山本線",
-      "中央本線",
-      "参宮線",
-      "近鉄名古屋線",
-      "近鉄山田線・鳥羽線・志摩線",
-      "長良川鉄道越美南線",
-      "信越本線",
-      "養老鉄道線",
-      "北陸鉄道石川線",
-      "大井川鉄道大井川本線",
-      "万葉線",
       "武蔵野線",
       "東武東上線",
       "西武池袋線・秩父線",
@@ -1117,7 +1106,21 @@
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
-      "わたらせ渓谷鐵道線"
+      "わたらせ渓谷鐵道線",
+      "美祢線",
+      "御殿場線",
+      "飯田線",
+      "高山本線",
+      "中央本線",
+      "参宮線",
+      "近鉄名古屋線",
+      "近鉄山田線・鳥羽線・志摩線",
+      "長良川鉄道越美南線",
+      "信越本線",
+      "養老鉄道線",
+      "北陸鉄道石川線",
+      "大井川鉄道大井川本線",
+      "万葉線"
     ],
     "troubled_shinkansen": [
       "山陽新幹線（その他）",
@@ -1256,8 +1259,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 16:07",
+          "text": "START au END にMNPした後、サブ回線どうするか問題。 povoは START au END 回線なので、通信 START 障害 END 対策になら..."
+        },
         {
           "time": "11/22 14:20",
           "text": "ドコモ・ START au END ・ソフトバンク利用者の通信 START 障害 END 対策・サブ回線に楽天モバイルを🙇‍♂️👇️ https://t.co/..."
@@ -1265,10 +1272,6 @@
         {
           "time": "11/22 14:02",
           "text": "@Marim0n 地方でも4G⇔5Gの切り替えラグが酷いし 通信安定しないし最近は本体の START 障害 END も多いので START au END に変え..."
-        },
-        {
-          "time": "11/22 13:54",
-          "text": "@norwayreon 風船騒動でドコモの契約容量を越えて著しくスピードが落ちたようです😵 この間のドコモの通信 START 障害 END のとき、 START..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1302,7 +1305,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/22 15:47",
@@ -1328,16 +1331,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/22 16:07",
+          "text": "auにMNPした後、サブ回線どうするか問題。 START povo END はau回線なので、通信 START 障害 END 対策にならない。 SoftBank..."
+        },
+        {
           "time": "11/22 15:11",
           "text": "この羽生2日間で困ったことはとにかくスマホが繋がらないことだった😱💦 docomoのPaboを利用してるが1日目はLINEも電話も繋がらず……2日目の今日は S..."
         },
         {
           "time": "11/22 14:54",
           "text": "アハモにして約2年 値上がり？と通信 START 障害 END から START povo END に移行するか悩み"
-        },
-        {
-          "time": "11/22 09:03",
-          "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方も対象です✨ eSIMで最短即日⏱️ 停電・通信 STAR..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -1646,7 +1649,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 9,
     "articles": [
       {
         "title": "ブルーインパルス飛行影響、終電まで続く　近鉄　奈良線など運休計322本(産経新聞)",
@@ -1721,20 +1724,28 @@
         "is_disaster": true
       },
       {
-        "title": "首里城 焼失7年“復元で進化” 最新技術駆使　あす一般公開(テレビ朝日系（ANN）)",
-        "summary": "火災で焼失してから7年、沖縄のシンボル「首里城」が復活です。最新技術を使った復元工事、“ただの復元”ではないそうなんです。■首里城 焼失7年“復元で進化” よみがえった、日本で唯一の“赤い城”。沖縄県",
-        "pub_date": "11/22 17:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/b47a4bb79b7ce8ff2fa81b41f7aa84c0b18e904d?source=rss",
+        "title": "雪道で“3m転落”→太もも骨折…連休の高尾山「90分待ち」  神も人も集う出雲(テレビ朝日系（ANN）)",
+        "summary": "正午すぎの東京・高尾山。ケーブルカーに並ぶ人の列で「90分待ち」という看板も。八王子の最低気温は0.2℃、東京都心も4.9℃といずれも今季最低を記録しました。大雪と寒さに襲われた連休の日本列島。北海道",
+        "pub_date": "11/23 01:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/e8ec6922154c0af68bd1286ea787cfbe0e4cc8ba?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "大雪の福島 約1000人“孤立”　連休直撃 温泉宿で営業中止も(テレビ朝日系（ANN）)",
-        "summary": "福島県では大雪の影響で今も1000人近くの住民が孤立状態となっています。停電した温泉宿の経営者が取材に応じ、切実な状況を語りました。■大雪の福島 約1000人“孤立” 強烈な寒波の影響で大雪となった岐",
-        "pub_date": "11/22 17:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/11d73a1647a7691e22df08d0444a8d3252005504?source=rss",
+        "title": "COP31が閉幕(共同通信)",
+        "summary": "【アンタルヤ共同】トルコで開かれた国連気候変動枠組み条約第31回締約国会議（COP31）が22日、閉幕した。",
+        "pub_date": "11/23 01:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/736a30272d278ea986ea3b9f87c85f0b6bbdc1c1?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "「1階と2階の西側から黒煙が出ている」 3階建ての住宅兼建具の製作店で火事 2階にいた男性（68）が死亡 岐阜市(CBCテレビ)",
+        "summary": "岐阜市の住宅兼建具の製作店で火事があり、この家に住む68歳の男性が死亡しました。警察によりますと、22日午後3時ごろ、岐阜市雄総緑町の鉄骨3階建ての住宅兼建具の製作店で、通行人から「1階と2階の西側か",
+        "pub_date": "11/23 01:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/0635875014f29f8a714cf2bb1f8205488f72ac7b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "養鶏所から「死ぬニワトリが増加した」と通報 鳥インフルエンザの簡易検査で陽性 県が精密検査を実施中 感染なら全国で今シーズン3例目 愛知･豊橋市(CBCテレビ)",
@@ -1759,17 +1770,9 @@
         "link": "https://news.yahoo.co.jp/articles/b416f4093ee65258be184cc93dffec03f00046a8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "土岐市の交差点で女性（26）をワンボックスカーではね そのまま逃げた疑い 男（61）を逮捕 「ぶつかった認識はありません」と否認 岐阜(CBCテレビ)",
-        "summary": "岐阜県土岐市で横断歩道中の女性（26）をはね、そのまま逃げたとしてワンボックスカーを運転していた男（61）が逮捕されました。【写真を見る】土岐市の交差点で女性（26）をワンボックスカーではね そのまま",
-        "pub_date": "11/22 22:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/d83d44daaf01a4448111957141de27bb248daf29?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 01:06:46 JST"
+    "last_updated": "2026-11-23 01:52:22 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

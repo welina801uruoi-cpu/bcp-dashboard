@@ -2023,6 +2023,9 @@
                 <button class="btn-tool" id="btn-toggle-low-bandwidth" onclick="toggleLowBandwidthMode()" title="低速回線・災害軽量テキストモード切替" style="background:rgba(245,158,11,0.2); border:1.5px solid #f59e0b; color:#fbbf24; font-weight:800; cursor:pointer;">
                     📶 低速・テキスト版
                 </button>
+                <button class="btn-tool" onclick="openIndicatorDetail('government')" title="内閣府 災害救助法適用 ＆ 厚生労働省 DMAT・救護 一次情報" style="background:rgba(16,185,129,0.18); border:1px solid #10b981; color:#34d399; font-weight:800; cursor:pointer;">
+                    🏥 救助法・DMAT
+                </button>
                 <a href="#sec-radio-anchor" class="btn-tool" style="background:rgba(56,189,248,0.15); border:1px solid #38bdf8; color:#38bdf8; font-weight:800; text-decoration:none; display:inline-flex; align-items:center; gap:4px;">
                     📻 災害ラジオ
                 </a>
@@ -2054,6 +2057,7 @@
             <button class="mobile-quick-btn mode-btn" onclick="toggleMobileDashboardMode()" id="mobile-quick-mode-btn">📱 1画面</button>
             <button class="mobile-quick-btn" id="mobile-quick-bandwidth-btn" onclick="toggleLowBandwidthMode()" style="background:rgba(245,158,11,0.25); border:1px solid #f59e0b; color:#fbbf24; font-weight:800;">📶 低速版</button>
             <a href="#sec-radio-anchor" class="mobile-quick-btn" style="color:#38bdf8; font-weight:bold;">📻 ラジオ</a>
+            <button class="mobile-quick-btn" onclick="openIndicatorDetail('government')" style="color:#34d399; font-weight:bold;">🏥 救助法・DMAT</button>
             <a href="#sec-indicators-anchor" class="mobile-quick-btn active">📋 12大指標</a>
             <a href="#sec-stream-anchor" class="mobile-quick-btn">🔴 災害生放送</a>
             <a href="#sec-camera-anchor" class="mobile-quick-btn">📷 ライブカメラ</a>
@@ -2381,19 +2385,20 @@
                     </div>
                 </div>
 
-                <!-- 12. 総合BCP判定 / 行政対応 -->
+                <!-- 12. 総合BCP判定 / 災害救助法適用 ＆ 厚労省DMAT -->
                 <div class="indicator-card" id="card-government">
                     <div class="indicator-card-header">
-                        <div class="indicator-title">🏛️ 総合BCP / 行政</div>
+                        <div class="indicator-title">🏛️ 総合BCP / 救助法・DMAT</div>
                         <span class="indicator-badge badge-level-NORMAL" id="badge-government">平常</span>
                     </div>
                     <div class="indicator-card-body">
-                        <div class="indicator-main-text" id="gov-main-text">政府・自治体 非常態勢なし (平常)</div>
-                        <div class="indicator-sub-text" id="gov-sub-text">内閣府防災・厚生労働省・官邸</div>
+                        <div class="indicator-main-text" id="gov-main-text">災害救助法 適用なし (平常即応)</div>
+                        <div class="indicator-sub-text" id="gov-sub-text">内閣府防災・厚労省DMAT・医療救護</div>
                     </div>
                     <div class="indicator-card-footer">
-                        <button class="btn-detail" onclick="openIndicatorDetail('government')">詳細 ↗</button>
-                        <a href="https://www.bousai.go.jp/" target="_blank" rel="noopener noreferrer" class="raw-link-mini">内閣府 ↗</a>
+                        <button class="btn-detail" onclick="openIndicatorDetail('government')">一次情報 ↗</button>
+                        <a href="https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html" target="_blank" rel="noopener noreferrer" class="raw-link-mini" title="内閣府 災害救助法適用状況 一次情報">救助法適用 ↗</a>
+                        <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/dmat.html" target="_blank" rel="noopener noreferrer" class="raw-link-mini" title="厚生労働省 DMAT（災害派遣医療チーム）一次情報">厚労省DMAT ↗</a>
                     </div>
                 </div>
 
@@ -3476,12 +3481,15 @@
                 telDet = 'ドコモ・SB・楽天の一部で障害';
             }
 
-            // 12. 総合BCP / 行政対応の文字生成
-            let govVal = '政府非常態勢なし';
-            let govDet = '官公庁平常即応態勢';
+            // 12. 総合BCP / 災害救助法・厚労省DMATの文字生成
+            let govVal = '災害救助法 適用なし (平常)';
+            let govDet = '内閣府救助法・厚労省DMAT平常即応';
             if (gov.status === 'ALERT') {
-                govVal = '🚨 政府・内閣府 要警戒発表';
-                govDet = (gov.cabinet_msg || gov.mhlw_msg || '内閣府・厚労省より警戒発表検知').replace('内閣府速報:', '').replace('厚労省速報:', '').trim();
+                govVal = '🚨 災害救助法 適用発令(緊急警戒)';
+                govDet = (gov.latest_tekiyou ? gov.latest_tekiyou.title : (gov.cabinet_msg || '救助法適用検知')).replace('内閣府/防災庁:', '').trim();
+            } else if (gov.status === 'NOTICE') {
+                govVal = '⚠️ 災害救助法 継続支援中';
+                govDet = (gov.latest_tekiyou ? (gov.latest_tekiyou.title + ' (' + (gov.latest_tekiyou.date || '') + ')') : (gov.cabinet_msg || '救助法適用支援中')).replace('内閣府/防災庁:', '').trim();
             }
 
             // 5. 電力
@@ -3503,7 +3511,7 @@
                 { name: '9. 航空・空港', status: data.flight ? data.flight.status : 'NORMAL', value: data.flight ? data.flight.summary : '平常運航', detail: data.flight ? data.flight.details : '欠航なし' },
                 { name: '10. プラント拠点', status: data.plant ? data.plant.status : 'NORMAL', value: data.plant ? data.plant.summary : '異常なし', detail: data.plant ? data.plant.details : '保全平常' },
                 { name: '11. 口コミ監視', status: data.sns_level || 'NORMAL', value: '最多: ' + heatmap.top_region + ' (' + heatmap.top_count + '件)', detail: '地域特定総数: ' + heatmap.total_mentions + '件' },
-                { name: '12. 総合BCP', status: gov.status || 'NORMAL', value: govVal, detail: govDet }
+                { name: '12. 救助法・DMAT', status: gov.status || 'NORMAL', value: govVal, detail: govDet }
             ];
 
             const indHtml = indicators.map((ind, idx) => {
@@ -3539,12 +3547,14 @@
 
                 <!-- 災害時公的緊急連絡先・情報リンク（スクロールモード時のみ表示） -->
                 <div class="text-mode-contacts-box" style="background:#0f172a; border:1px solid #334155; border-radius:8px; padding:10px; margin-top:8px; font-size:0.82em;">
-                    <div style="font-weight:900; color:#38bdf8; margin-bottom:5px;">📞 災害時 公的緊急安否・連絡先 (文字版)</div>
+                    <div style="font-weight:900; color:#38bdf8; margin-bottom:5px;">📞 災害時 公的緊急安否・行政一次情報リンク (文字版)</div>
                     <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:4px; color:#cbd5e1;">
                         <div>・NTT災害用伝言ダイヤル: <strong>171</strong></div>
                         <div>・携帯各社Web伝言板: <a href="https://www.web171.jp/" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">web171.jp ↗</a></div>
                         <div>・気象庁防災情報: <a href="https://www.jma.go.jp/bosai/" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">jma.go.jp/bosai ↗</a></div>
-                        <div>・首相官邸 防災情報: <a href="https://www.kantei.go.jp/jp/headline/bousai/" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">kantei.go.jp ↗</a></div>
+                        <div>・内閣府 災害救助法適用: <a href="https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">kyuujo_tekiyou ↗</a></div>
+                        <div>・厚労省 DMAT/救護: <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/dmat.html" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">厚労省DMAT ↗</a></div>
+                        <div>・EMIS (広域災害医療): <a href="https://www.emis.mhlw.go.jp/" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">emis.mhlw.go.jp ↗</a></div>
                     </div>
                 </div>
             `;
@@ -3830,15 +3840,22 @@
             updateCardStatus('sns', snsLevel, snsText, 'Yahoo!リアルタイム検索トレンド分析');
             updateSnsCardRegionalSummary(data);
 
-            // 12. 総合BCP判定 / 行政対応
+            // 12. 総合BCP判定 / 災害救助法適用 ＆ 厚労省DMAT
             const gov = data.government || {};
-            let govLevel = 'NORMAL';
-            if (gov.status === 'ALERT') {
-                govLevel = 'ALERT';
-                detectedAlerts.push(`🏛️ 災害対策本部・非常態勢検知`);
+            let govLevel = gov.status || 'NORMAL';
+            if (govLevel === 'ALERT') {
+                detectedAlerts.push(`🏛️ 災害救助法適用発令検知 (内閣府・防災庁)`);
             }
-            const govText = gov.status === 'ALERT' ? '政府・官公庁 非常態勢検知' : '内閣府・厚労省 非常態勢なし (平常即応)';
-            updateCardStatus('government', govLevel, govText, '内閣府防災・首相官邸・厚生労働省');
+            let govText = '災害救助法 適用なし (平常即応)';
+            let govSub = '内閣府防災・厚労省DMAT 平常監視体制';
+            if (govLevel === 'ALERT') {
+                govText = '🚨 災害救助法 適用発令検知';
+                govSub = gov.latest_tekiyou ? gov.latest_tekiyou.title : (gov.cabinet_msg || '要警戒');
+            } else if (govLevel === 'NOTICE') {
+                govText = '⚠️ 災害救助法 継続支援態勢';
+                govSub = gov.latest_tekiyou ? (gov.latest_tekiyou.title + ' (' + (gov.latest_tekiyou.date || '') + ')') : (gov.cabinet_msg || '救助法適用支援中');
+            }
+            updateCardStatus('government', govLevel, govText, govSub);
 
             // 総合インシデント判定バナー更新
             const sysBadge = document.getElementById('sys-status-badge');
@@ -4693,22 +4710,132 @@
                 }
 
                 case 'government': {
-                    titleHtml = '<span>🏛️ 政府・自治体 災害対策態勢</span>';
+                    titleHtml = '<span>🏛️ 内閣府 災害救助法適用 ＆ 厚生労働省 DMAT・救護 一次情報</span>';
                     const gov = data.government || {};
-                    contentHtml = `
-                        <div class="modal-section">
-                            <div class="modal-section-title">
-                                <span>官公庁 災害対策本部・非常態勢</span>
-                                <a href="https://www.bousai.go.jp/" target="_blank" rel="noopener noreferrer" class="btn-detail">内閣府防災ポータル ↗</a>
-                            </div>
-                            <div style="display:flex; flex-direction:column; gap:10px;">
-                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:6px;">
-                                    <strong style="color:var(--text-accent); font-size:1.1em;">🏛️ 内閣府 (防災担当):</strong>
-                                    <div style="margin-top:4px; font-weight:800; font-size:1.05em;">${gov.cabinet_msg || '災害対策本部設置なし (平常態勢)'}</div>
+                    const latest = gov.latest_tekiyou || {};
+                    const recentList = gov.recent_tekiyou_list || [];
+
+                    const recentRows = recentList.map((item, idx) => `
+                        <div style="display:flex; justify-content:space-between; align-items:center; background:rgba(255,255,255,0.03); padding:8px 12px; border-radius:6px; border-left:3px solid ${idx === 0 ? '#f59e0b' : '#64748b'}; gap:8px;">
+                            <div style="flex:1;">
+                                <div style="font-weight:700; font-size:0.95em; color:#f1f5f9;">
+                                    ${idx === 0 ? '<span style="background:#f59e0b; color:#000; font-size:0.7em; padding:1px 5px; border-radius:3px; margin-right:6px; font-weight:900;">最新</span>' : ''}${escapeHtml(item.title)}
                                 </div>
-                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:6px;">
-                                    <strong style="color:var(--text-accent); font-size:1.1em;">🏥 厚生労働省 (DMAT/救護):</strong>
-                                    <div style="margin-top:4px; font-weight:800; font-size:1.05em;">${gov.mhlw_msg || '平常即応'}</div>
+                                <div style="font-size:0.78em; color:#94a3b8; margin-top:2px;">
+                                    告示日: ${escapeHtml(item.date || '-')} ｜ 報数: ${escapeHtml(item.report || '第1報')}
+                                </div>
+                            </div>
+                            <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" style="background:#0284c7; color:#fff; padding:4px 10px; border-radius:4px; font-size:0.78em; text-decoration:none; font-weight:bold; white-space:nowrap;">
+                                📄 PDF一次公報 ↗
+                            </a>
+                        </div>
+                    `).join('');
+
+                    contentHtml = `
+                        <!-- ① 内閣府 / 防災庁 災害救助法の適用状況 -->
+                        <div class="modal-section" style="margin-bottom:16px;">
+                            <div class="modal-section-title" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                                <div style="display:flex; align-items:center; gap:6px;">
+                                    <span style="font-size:1.15em;">🏛️</span>
+                                    <strong style="color:var(--text-accent); font-size:1.05em;">内閣府（防災庁） 災害救助法の適用状況</strong>
+                                </div>
+                                <a href="https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html" target="_blank" rel="noopener noreferrer" class="btn-detail" style="background:#2563eb; color:#fff; text-decoration:none;">
+                                    公式一覧ページを直接開く ↗
+                                </a>
+                            </div>
+
+                            <div style="background:var(--bg-card-sub); padding:12px; border-radius:8px; border:1px solid #334155; margin-top:8px;">
+                                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                                    <span style="font-weight:bold; color:#fbbf24;">【最新の災害救助法適用ステータス】</span>
+                                    <span class="indicator-badge badge-level-${gov.status || 'NORMAL'}">
+                                        ${gov.status === 'ALERT' ? '要警戒 (直近適用)' : (gov.status === 'NOTICE' ? '注意 (支援・避難体制継続中)' : '平常 (適用なし)')}
+                                    </span>
+                                </div>
+                                <div style="font-size:0.95em; line-height:1.5; color:#f8fafc; font-weight:700;">
+                                    ${escapeHtml(gov.cabinet_msg || '直近の法適用なし')}
+                                </div>
+                                ${latest.url ? `
+                                <div style="margin-top:10px; padding-top:8px; border-top:1px dashed #334155; display:flex; justify-content:space-between; align-items:center;">
+                                    <span style="font-size:0.82em; color:#94a3b8;">最新公報PDF: ${escapeHtml(latest.title || '')}</span>
+                                    <a href="${escapeHtml(latest.url)}" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; font-weight:bold; font-size:0.85em; text-decoration:underline;">
+                                        PDFを開く ↗
+                                    </a>
+                                </div>
+                                ` : ''}
+                            </div>
+
+                            <div style="margin-top:12px;">
+                                <div style="font-size:0.88em; font-weight:bold; color:#cbd5e1; margin-bottom:6px;">📋 直近の災害救助法 適用公報履歴:</div>
+                                <div style="display:flex; flex-direction:column; gap:6px;">
+                                    ${recentRows || '<div style="color:#94a3b8; font-size:0.85em;">適用履歴なし</div>'}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ② 厚生労働省 DMAT（災害派遣医療チーム）＆ 救護体制 -->
+                        <div class="modal-section">
+                            <div class="modal-section-title" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                                <div style="display:flex; align-items:center; gap:6px;">
+                                    <span style="font-size:1.15em;">🏥</span>
+                                    <strong style="color:#34d399; font-size:1.05em;">厚生労働省 DMAT ＆ 医療救護体制 一次情報</strong>
+                                </div>
+                                <span style="font-size:0.75em; background:rgba(16,185,129,0.2); color:#34d399; padding:2px 8px; border-radius:4px; font-weight:bold;">常時連携</span>
+                            </div>
+
+                            <div style="display:grid; grid-template-columns:1fr; gap:10px; margin-top:8px;">
+                                <!-- 厚労省 DMAT -->
+                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:8px; border:1px solid #334155; display:flex; justify-content:space-between; align-items:center; gap:10px;">
+                                    <div>
+                                        <div style="font-weight:bold; color:#fff; font-size:0.95em;">厚生労働省：災害派遣医療チーム（DMAT）公式</div>
+                                        <div style="font-size:0.78em; color:#94a3b8; margin-top:2px;">日本DMAT活動要領、最新通知、研修・隊員編成基準（国の公式一次情報）</div>
+                                    </div>
+                                    <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/dmat.html" target="_blank" rel="noopener noreferrer" style="background:#059669; color:#fff; padding:6px 12px; border-radius:6px; font-weight:bold; font-size:0.82em; text-decoration:none; white-space:nowrap;">
+                                        厚労省DMAT ↗
+                                    </a>
+                                </div>
+
+                                <!-- 日本DMAT事務局 -->
+                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:8px; border:1px solid #334155; display:flex; justify-content:space-between; align-items:center; gap:10px;">
+                                    <div>
+                                        <div style="font-weight:bold; color:#fff; font-size:0.95em;">日本DMAT事務局 公式サイト（国立健康危機管理研究機構）</div>
+                                        <div style="font-size:0.78em; color:#94a3b8; margin-top:2px;">厚労省委託本部。出動待機状況、活動マニュアル、指定医療機関・隊員実数</div>
+                                    </div>
+                                    <a href="https://dmat.jihs.go.jp/" target="_blank" rel="noopener noreferrer" style="background:#0284c7; color:#fff; padding:6px 12px; border-radius:6px; font-weight:bold; font-size:0.82em; text-decoration:none; white-space:nowrap;">
+                                        DMAT本部 ↗
+                                    </a>
+                                </div>
+
+                                <!-- EMIS (広域災害救急医療情報システム) -->
+                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:8px; border:1px solid #334155; display:flex; justify-content:space-between; align-items:center; gap:10px;">
+                                    <div>
+                                        <div style="font-weight:bold; color:#fff; font-size:0.95em;">EMIS：広域災害救急医療情報システム（厚生労働省）</div>
+                                        <div style="font-size:0.78em; color:#94a3b8; margin-top:2px;">被災病院の被災・受入状況、停電・給水途絶、患者の広域ヘリ搬送調整</div>
+                                    </div>
+                                    <a href="https://www.emis.mhlw.go.jp/" target="_blank" rel="noopener noreferrer" style="background:#4f46e5; color:#fff; padding:6px 12px; border-radius:6px; font-weight:bold; font-size:0.82em; text-decoration:none; white-space:nowrap;">
+                                        EMISを開く ↗
+                                    </a>
+                                </div>
+
+                                <!-- 厚労省 災害医療トップ -->
+                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:8px; border:1px solid #334155; display:flex; justify-content:space-between; align-items:center; gap:10px;">
+                                    <div>
+                                        <div style="font-weight:bold; color:#fff; font-size:0.95em;">厚生労働省：災害医療・救護体制 総合案内</div>
+                                        <div style="font-size:0.78em; color:#94a3b8; margin-top:2px;">災害拠点病院一覧、災害支援ナース、DPAT（精神医療チーム）、医療救護指針</div>
+                                    </div>
+                                    <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/index.html" target="_blank" rel="noopener noreferrer" style="background:#334155; color:#fff; padding:6px 12px; border-radius:6px; font-weight:bold; font-size:0.82em; text-decoration:none; white-space:nowrap;">
+                                        厚労省災害医療 ↗
+                                    </a>
+                                </div>
+
+                                <!-- 日本赤十字社 災害救護 -->
+                                <div style="background:var(--bg-card-sub); padding:12px; border-radius:8px; border:1px solid #334155; display:flex; justify-content:space-between; align-items:center; gap:10px;">
+                                    <div>
+                                        <div style="font-weight:bold; color:#fff; font-size:0.95em;">日本赤十字社：国内災害救護・医療救護班活動</div>
+                                        <div style="font-size:0.78em; color:#94a3b8; margin-top:2px;">救護班派遣、救護所展開、避難所アセスメント、救援物資配布速報</div>
+                                    </div>
+                                    <a href="https://www.jrc.or.jp/activity/saigai/" target="_blank" rel="noopener noreferrer" style="background:#dc2626; color:#fff; padding:6px 12px; border-radius:6px; font-weight:bold; font-size:0.82em; text-decoration:none; white-space:nowrap;">
+                                        日赤救護 ↗
+                                    </a>
                                 </div>
                             </div>
                         </div>

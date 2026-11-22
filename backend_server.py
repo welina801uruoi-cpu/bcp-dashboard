@@ -783,6 +783,12 @@ class BCPDataAnalyzer:
     # 内部取得用フィードURL（XML/RDF）
     FDMA_XML_URL = "https://www.fdma.go.jp/disaster/info/index.xml"
     CABINET_XML_URL = "https://www.bousai.go.jp/news.xml"
+    KYUUJO_TEKIYOU_URL = "https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html"
+    MHLW_DMAT_URL = "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/dmat.html"
+    MHLW_SAIGAI_URL = "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/index.html"
+    DMAT_HQ_URL = "https://dmat.jihs.go.jp/"
+    EMIS_URL = "https://www.emis.mhlw.go.jp/"
+    JRC_RELIEF_URL = "https://www.jrc.or.jp/activity/saigai/"
     MHLW_RDF_URL = "https://www.mhlw.go.jp/stf/news.rdf"
     KDDI_IMPORTANT_NEWS_URL = "https://news.kddi.com/important/news/"
     KDDI_RSS_URL = "https://news.kddi.com/important/news/rss/kddi_important_ex.xml"
@@ -1749,45 +1755,95 @@ class BCPDataAnalyzer:
 
     @classmethod
     def get_real_government_status(cls):
-        cabinet_alert = False
-        cabinet_msg = "内閣府防災: 直近の災害発表なし（平常）"
-        mhlw_alert = False
-        mhlw_msg = "厚労省: 直近の災害発表なし（平常）"
+        status = "NORMAL"
+        cabinet_msg = "内閣府/防災庁: 直近の災害救助法適用なし（平常）"
+        mhlw_msg = "厚労省: DMAT・災害医療救護体制 平常即応態勢"
+        latest_tekiyou = None
+        recent_tekiyou_list = []
 
         try:
-            raw, charset = cls._http_get(cls.CABINET_XML_URL)
+            # 災害救助法の適用状況を直接監視 (https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html)
+            raw, charset = cls._http_get(getattr(cls, "KYUUJO_TEKIYOU_URL", "https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html"))
             soup = BeautifulSoup(raw.decode(charset, errors="replace"), "html.parser")
-            for item in soup.find_all("item")[:3]:
-                title_el = item.find("title")
-                title = title_el.get_text(strip=True) if title_el else ""
-                if any(kw in title for kw in cls.DISASTER_KEYWORDS):
-                    cabinet_alert = True
-                    trimmed = title[:35] + "..." if len(title) > 35 else title
-                    cabinet_msg = f"内閣府速報: 【要警戒】{trimmed}"
-                    break
-        except Exception:
-            pass
 
+            for a in soup.find_all("a", href=True):
+                txt = a.get_text(strip=True)
+                if "災害救助法" in txt and ("適用について" in txt or "適用" in txt):
+                    href = urllib.parse.urljoin("https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html", a["href"])
+                    date_str = ""
+                    m4 = re.search(r"/pdf/(\d{4})(\d{2})(\d{2})", href)
+                    if m4:
+                        date_str = f"{m4.group(1)}-{m4.group(2)}-{m4.group(3)}"
+                    else:
+                        m2 = re.search(r"/pdf/(\d{2})(\d{2})(\d{2})", href)
+                        if m2:
+                            y = 2000 + int(m2.group(1))
+                            date_str = f"{y}-{m2.group(2)}-{m2.group(3)}"
+
+                    report_m = re.search(r"【(第.+?報)】", txt)
+                    report_str = report_m.group(1) if report_m else "第1報"
+                    clean_title = re.sub(r"（PDF形式.*|\(PDF形式.*", "", txt).strip()
+
+                    recent_tekiyou_list.append({
+                        "title": clean_title,
+                        "url": href,
+                        "date": date_str,
+                        "report": report_str
+                    })
+                    if len(recent_tekiyou_list) >= 6:
+                        break
+
+            if recent_tekiyou_list:
+                latest_tekiyou = recent_tekiyou_list[0]
+                days_ago = 999
+                if latest_tekiyou.get("date"):
+                    try:
+                        d = datetime.strptime(latest_tekiyou["date"], "%Y-%m-%d")
+                        days_ago = (datetime.now() - d).days
+                    except Exception:
+                        pass
+
+                if days_ago <= 14:
+                    status = "ALERT"
+                    cabinet_msg = f"内閣府/防災庁: 【要警戒】災害救助法適用 {latest_tekiyou['title']}"
+                elif days_ago <= 90:
+                    status = "NOTICE"
+                    cabinet_msg = f"内閣府/防災庁: 【注意/支援中】災害救助法適用 {latest_tekiyou['title']}（{latest_tekiyou.get('date','')}）"
+                else:
+                    status = "NORMAL"
+                    cabinet_msg = f"内閣府/防災庁: 直近災害救助法適用 ({latest_tekiyou.get('date','')} 平常移行中)"
+        except Exception as e:
+            cabinet_msg = "内閣府/防災庁: 直近の災害救助法適用なし（平常）"
+
+        # 厚生労働省 DMAT・災害医療救護状況チェック
         try:
-            raw, charset = cls._http_get(cls.MHLW_RDF_URL)
-            soup = BeautifulSoup(raw.decode(charset, errors="replace"), "html.parser")
-            for item in soup.find_all("item")[:3]:
+            raw_mhlw, cs_mhlw = cls._http_get(cls.MHLW_RDF_URL)
+            soup_mhlw = BeautifulSoup(raw_mhlw.decode(cs_mhlw, errors="replace"), "html.parser")
+            for item in soup_mhlw.find_all("item")[:5]:
                 title_el = item.find("title")
                 title = title_el.get_text(strip=True) if title_el else ""
-                if any(kw in title for kw in cls.DISASTER_KEYWORDS):
-                    mhlw_alert = True
+                if any(kw in title for kw in ["DMAT", "広域搬送", "医療救護", "災害救助法"]):
                     trimmed = title[:35] + "..." if len(title) > 35 else title
                     mhlw_msg = f"厚労省速報: 【要警戒】{trimmed}"
+                    status = "ALERT"
                     break
         except Exception:
             pass
 
         return {
-            "status": "ALERT" if (cabinet_alert or mhlw_alert) else "NORMAL",
+            "status": status,
             "cabinet_msg": cabinet_msg,
             "mhlw_msg": mhlw_msg,
-            "cabinet_url": cls.CABINET_URL, # HTMLサイトのURL
-            "mhlw_url": cls.MHLW_URL        # HTMLサイトのURL
+            "latest_tekiyou": latest_tekiyou,
+            "recent_tekiyou_list": recent_tekiyou_list,
+            "kyuujo_url": getattr(cls, "KYUUJO_TEKIYOU_URL", "https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html"),
+            "cabinet_url": getattr(cls, "KYUUJO_TEKIYOU_URL", "https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html"),
+            "mhlw_url": getattr(cls, "MHLW_SAIGAI_URL", "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/index.html"),
+            "mhlw_dmat_url": getattr(cls, "MHLW_DMAT_URL", "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/dmat.html"),
+            "mhlw_saigai_url": getattr(cls, "MHLW_SAIGAI_URL", "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/saigai/index.html"),
+            "dmat_hq_url": getattr(cls, "DMAT_HQ_URL", "https://dmat.jihs.go.jp/"),
+            "emis_url": getattr(cls, "EMIS_URL", "https://www.emis.mhlw.go.jp/"),
+            "jrc_url": getattr(cls, "JRC_RELIEF_URL", "https://www.jrc.or.jp/activity/saigai/")
         }
 
     @classmethod

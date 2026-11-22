@@ -2055,7 +2055,7 @@
                             <a href="https://www.docomo.ne.jp/info/network/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();">ドコモ ↗</a>
                             <a href="https://www.softbank.jp/mobile/info/personal/important/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();">SB ↗</a>
                             <a href="https://network.mobile.rakuten.co.jp/information/failure/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();">楽天 ↗</a>
-                            <a href="https://www.au.com/information/notice_mobile/network/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();">au ↗</a>
+                            <a href="https://news.kddi.com/important/news/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();" style="background:rgba(234,88,12,0.2); color:#f97316; font-weight:700;">au/UQ/povo速報 ↗</a>
                             <a href="https://www.uqwimax.jp/information/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();">UQ ↗</a>
                             <a href="https://povo.jp/news/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" onclick="event.stopPropagation();">povo ↗</a>
                         </div>
@@ -3059,17 +3059,38 @@
             updateCardStatus('transit', transitLevel, transitText, 'Yahoo!路線情報 JR各社・私鉄・新幹線');
             if (document.getElementById('link-transit-raw')) document.getElementById('link-transit-raw').href = transit.url || '#';
 
-            // 10. 通信事業者
+            // 10. 通信事業者 (au, uq, povoの障害のみアラート発報。他社障害は監視・表示するがアラート不要)
             const tel = data.telecom || {};
             let telLevel = 'NORMAL';
-            if (tel.status === 'ALERT') {
+            let telMain = 'au・UQ・povo 全網安定稼働中';
+            let telSub = '自社アラート監視中 / 他社網正常';
+
+            // 自社(au / UQ / povo)の障害判定
+            const isKddiAlert = Boolean(tel.kddi_alert || (tel.status === 'ALERT' && tel.kddi_msg && !tel.kddi_msg.includes('正常') && !tel.kddi_msg.includes('復旧')));
+            const hasOtherCarrierAlert = Boolean(tel.other_carrier_alert || tel.docomo_alert || tel.sb_alert || tel.rakuten_alert);
+
+            if (isKddiAlert) {
+                // 【要警戒アラート】自社(au, UQ, povo)に障害が発生している場合のみ全体アラートを発報
                 telLevel = 'ALERT';
-                detectedAlerts.push(`📶 キャリア通信障害検知`);
-            } else if ((tel.kddi_msg && tel.kddi_msg.includes('一部')) || (tel.docomo_msg && tel.docomo_msg.includes('一部'))) {
-                telLevel = 'NOTICE';
+                telMain = '🚨 au/UQ/povo 通信障害発生検知';
+                telSub = tel.kddi_msg || 'KDDI通信網にて障害を検知しました';
+                detectedAlerts.push('📶 au/UQ/povo通信障害検知');
+            } else if (hasOtherCarrierAlert) {
+                // 他社(ドコモ/SB/楽天)のみ障害の場合: 画面に表示・監視は継続するが全体アラートは発報不要(NORMAL)
+                telLevel = 'NORMAL';
+                telMain = 'au/UQ/povo 安定稼働中（他社障害あり）';
+                const others = [];
+                if (tel.docomo_alert) others.push('ドコモ');
+                if (tel.sb_alert) others.push('SB');
+                if (tel.rakuten_alert) others.push('楽天');
+                telSub = `他社障害検知: ${others.join('・')}（※自社au/UQ/povoは正常稼働）`;
+            } else {
+                // 全キャリア平常時
+                telLevel = 'NORMAL';
+                telMain = 'au・UQ・povo 全網安定稼働中';
+                telSub = 'ドコモ・SB・楽天含む全社正常稼働中';
             }
-            const telText = telLevel === 'ALERT' ? '大手キャリアにて通信障害発生検知' : 'au・docomo・SB・楽天 全社正常稼働中';
-            updateCardStatus('telecom', telLevel, telText, '4社ネットワーク稼働監視');
+            updateCardStatus('telecom', telLevel, telMain, telSub);
 
             // 11. 口コミ監視 (設定キーワード watchedKeywords のみを厳格に対象とする)
             const targetKeywordsSet = new Set(watchedKeywords);
@@ -3453,50 +3474,70 @@
                 }
 
                 case 'telecom': {
-                    titleHtml = '<span>📶 大手通信キャリア (4社) ネットワーク障害速報</span>';
+                    titleHtml = '<span>📶 通信キャリアネットワーク障害速報 (au/UQ/povo重点監視)</span>';
                     const tel = data.telecom || {};
+                    const isKddiTrouble = Boolean(tel.kddi_alert || (tel.kddi_msg && (tel.kddi_msg.includes('要警戒') || tel.kddi_msg.includes('障害'))));
+                    const kddiArticleUrl = tel.kddi_link || tel.kddi_url || 'https://news.kddi.com/important/news/';
+                    
                     contentHtml = `
+                        <!-- 1. 自社サービス (au / UQ mobile / povo) 【アラート対象】 -->
+                        <div class="modal-section" style="border:2px solid ${isKddiTrouble ? '#ef4444' : '#f97316'}; background:rgba(249, 115, 22, 0.08); padding:14px; border-radius:8px; margin-bottom:14px;">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                                <div style="display:flex; align-items:center; gap:8px;">
+                                    <strong style="color:#f97316; font-size:1.15em;">📶 au / UQ mobile / povo (KDDIグループ)</strong>
+                                    <span style="font-size:0.75em; background:#ea580c; color:#fff; padding:2px 8px; border-radius:4px; font-weight:800;">⚡ 自社・アラート発報対象</span>
+                                </div>
+                                <span class="indicator-badge badge-level-${isKddiTrouble ? 'ALERT' : 'NORMAL'}">
+                                    ${isKddiTrouble ? '🚨 要警戒' : '平常稼働'}
+                                </span>
+                            </div>
+                            <div style="font-size:1.05em; font-weight:800; margin-top:8px; color:${isKddiTrouble ? '#ef4444' : '#10b981'};">
+                                ${escapeHtml(tel.kddi_msg || 'au/UQ/povo: 直近の障害発表なし（正常）')}
+                            </div>
+                            <div style="font-size:0.85em; color:var(--text-secondary); margin-top:4px;">
+                                監視ソース: <a href="https://news.kddi.com/important/news/" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; text-decoration:underline;">KDDI 重要なお知らせ (news.kddi.com) ↗</a>
+                            </div>
+                            <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:10px;">
+                                <a href="${sanitizeUrl(kddiArticleUrl)}" target="_blank" rel="noopener noreferrer" class="btn-detail" style="background:#ea580c; color:#fff; text-decoration:none; padding:6px 14px; font-weight:800;">KDDI 重要なお知らせ一覧 ↗</a>
+                                <a href="${sanitizeUrl(tel.au_url || 'https://www.au.com/information/notice_mobile/network/')}" target="_blank" rel="noopener noreferrer" class="btn-detail" style="background:#c2410c; color:#fff; text-decoration:none; padding:5px 12px; font-weight:700;">au 障害速報 ↗</a>
+                                <a href="${sanitizeUrl(tel.uq_url || 'https://www.uqwimax.jp/information/')}" target="_blank" rel="noopener noreferrer" class="btn-detail" style="background:#0284c7; color:#fff; text-decoration:none; padding:5px 12px; font-weight:700;">UQ mobile お知らせ ↗</a>
+                                <a href="${sanitizeUrl(tel.povo_url || 'https://povo.jp/news/')}" target="_blank" rel="noopener noreferrer" class="btn-detail" style="background:#facc15; color:#0f172a; text-decoration:none; padding:5px 12px; font-weight:700;">povo 最新速報 ↗</a>
+                            </div>
+                        </div>
+
+                        <!-- 2. 他社キャリア (NTTドコモ / ソフトバンク / 楽天モバイル) 【監視・表示のみ／アラート不要】 -->
                         <div class="modal-section">
                             <div class="modal-section-title">
-                                <span>通信各社 障害アナウンス監視</span>
-                                <span style="font-size:0.82em; color:var(--text-muted);">各社カードをクリックで公式障害速報を開きます</span>
+                                <span>他社キャリア 稼働速報 (参考監視・アラート発報対象外)</span>
+                                <span style="font-size:0.82em; color:var(--text-muted);">他社網の障害は監視・表示しますが全体アラートは発報しません</span>
                             </div>
-                            <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
-                                <a href="${tel.docomo_url || 'https://www.docomo.ne.jp/info/network/'}" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit; display:block; background:var(--bg-card-sub); padding:10px 12px; border-radius:6px; border:1px solid rgba(255,255,255,0.08); transition:all 0.2s; cursor:pointer;" onmouseover="this.style.borderColor='#ef4444'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                            <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px;">
+                                <!-- ドコモ -->
+                                <a href="${sanitizeUrl(tel.docomo_url || 'https://www.docomo.ne.jp/info/network/')}" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit; display:block; background:var(--bg-card-sub); padding:10px 12px; border-radius:6px; border:1px solid rgba(255,255,255,0.08); transition:all 0.2s;" onmouseover="this.style.borderColor='#ef4444'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
                                     <div style="display:flex; justify-content:space-between; align-items:center;">
-                                        <strong style="color:#ef4444; font-size:1.05em;">📶 NTTドコモ</strong>
-                                        <span style="font-size:0.75em; color:#38bdf8; background:rgba(56,189,248,0.12); padding:2px 6px; border-radius:4px; font-weight:600;">障害情報 ↗</span>
+                                        <strong style="color:#ef4444; font-size:1.0em;">📶 NTTドコモ</strong>
+                                        <span style="font-size:0.7em; color:#38bdf8;">公式 ↗</span>
                                     </div>
-                                    <div style="margin-top:4px; font-weight:800;">${tel.docomo_msg || '平常'}</div>
+                                    <div style="margin-top:6px; font-weight:800; font-size:0.9em; color:${tel.docomo_alert ? '#f59e0b' : 'inherit'};">${escapeHtml(tel.docomo_msg || '平常')}</div>
                                 </a>
 
-                                <a href="${tel.sb_url || 'https://www.softbank.jp/mobile/info/personal/important/'}" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit; display:block; background:var(--bg-card-sub); padding:10px 12px; border-radius:6px; border:1px solid rgba(255,255,255,0.08); transition:all 0.2s; cursor:pointer;" onmouseover="this.style.borderColor='#94a3b8'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                                <!-- ソフトバンク -->
+                                <a href="${sanitizeUrl(tel.sb_url || 'https://www.softbank.jp/mobile/info/personal/important/')}" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit; display:block; background:var(--bg-card-sub); padding:10px 12px; border-radius:6px; border:1px solid rgba(255,255,255,0.08); transition:all 0.2s;" onmouseover="this.style.borderColor='#94a3b8'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
                                     <div style="display:flex; justify-content:space-between; align-items:center;">
-                                        <strong style="color:#cbd5e1; font-size:1.05em;">📶 ソフトバンク</strong>
-                                        <span style="font-size:0.75em; color:#38bdf8; background:rgba(56,189,248,0.12); padding:2px 6px; border-radius:4px; font-weight:600;">障害情報 ↗</span>
+                                        <strong style="color:#cbd5e1; font-size:1.0em;">📶 ソフトバンク</strong>
+                                        <span style="font-size:0.7em; color:#38bdf8;">公式 ↗</span>
                                     </div>
-                                    <div style="margin-top:4px; font-weight:800;">${tel.sb_msg || '平常'}</div>
+                                    <div style="margin-top:6px; font-weight:800; font-size:0.9em; color:${tel.sb_alert ? '#f59e0b' : 'inherit'};">${escapeHtml(tel.sb_msg || '平常')}</div>
                                 </a>
 
-                                <a href="${tel.rakuten_url || 'https://network.mobile.rakuten.co.jp/information/failure/'}" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit; display:block; background:var(--bg-card-sub); padding:10px 12px; border-radius:6px; border:1px solid rgba(255,255,255,0.08); transition:all 0.2s; cursor:pointer;" onmouseover="this.style.borderColor='#e11d48'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                                <!-- 楽天モバイル -->
+                                <a href="${sanitizeUrl(tel.rakuten_url || 'https://network.mobile.rakuten.co.jp/information/failure/')}" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit; display:block; background:var(--bg-card-sub); padding:10px 12px; border-radius:6px; border:1px solid rgba(255,255,255,0.08); transition:all 0.2s;" onmouseover="this.style.borderColor='#e11d48'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
                                     <div style="display:flex; justify-content:space-between; align-items:center;">
-                                        <strong style="color:#f43f5e; font-size:1.05em;">📶 楽天モバイル</strong>
-                                        <span style="font-size:0.75em; color:#38bdf8; background:rgba(56,189,248,0.12); padding:2px 6px; border-radius:4px; font-weight:600;">障害情報 ↗</span>
+                                        <strong style="color:#f43f5e; font-size:1.0em;">📶 楽天モバイル</strong>
+                                        <span style="font-size:0.7em; color:#38bdf8;">公式 ↗</span>
                                     </div>
-                                    <div style="margin-top:4px; font-weight:800;">${tel.rakuten_msg || '平常'}</div>
+                                    <div style="margin-top:6px; font-weight:800; font-size:0.9em; color:${tel.rakuten_alert ? '#f59e0b' : 'inherit'};">${escapeHtml(tel.rakuten_msg || '平常')}</div>
                                 </a>
-
-                                <div style="background:var(--bg-card-sub); padding:10px 12px; border-radius:6px; border:1px solid rgba(255,255,255,0.08);">
-                                    <div style="display:flex; justify-content:space-between; align-items:center;">
-                                        <strong style="color:#f97316; font-size:1.05em;">📶 au / UQ / povo (KDDI)</strong>
-                                    </div>
-                                    <div style="margin-top:4px; font-weight:800; margin-bottom:8px;">${tel.kddi_msg || '平常'}</div>
-                                    <div style="display:flex; gap:6px; flex-wrap:wrap;">
-                                        <a href="${tel.au_url || 'https://www.au.com/information/notice_mobile/network/'}" target="_blank" rel="noopener noreferrer" style="flex:1; min-width:65px; text-align:center; font-size:0.75em; color:#fff; background:#ea580c; padding:3px 6px; border-radius:4px; text-decoration:none; font-weight:700;">au ↗</a>
-                                        <a href="${tel.uq_url || 'https://www.uqwimax.jp/information/'}" target="_blank" rel="noopener noreferrer" style="flex:1; min-width:65px; text-align:center; font-size:0.75em; color:#fff; background:#0284c7; padding:3px 6px; border-radius:4px; text-decoration:none; font-weight:700;">UQ ↗</a>
-                                        <a href="${tel.povo_url || 'https://povo.jp/news/'}" target="_blank" rel="noopener noreferrer" style="flex:1; min-width:65px; text-align:center; font-size:0.75em; color:#0f172a; background:#facc15; padding:3px 6px; border-radius:4px; text-decoration:none; font-weight:700;">povo ↗</a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     `;

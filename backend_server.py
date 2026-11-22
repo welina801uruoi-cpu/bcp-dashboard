@@ -784,6 +784,7 @@ class BCPDataAnalyzer:
     FDMA_XML_URL = "https://www.fdma.go.jp/disaster/info/index.xml"
     CABINET_XML_URL = "https://www.bousai.go.jp/news.xml"
     MHLW_RDF_URL = "https://www.mhlw.go.jp/stf/news.rdf"
+    KDDI_IMPORTANT_NEWS_URL = "https://news.kddi.com/important/news/"
     KDDI_RSS_URL = "https://news.kddi.com/important/news/rss/kddi_important_ex.xml"
     DOCOMO_RDF_URL = "https://www.docomo.ne.jp/info/rss/network.rdf"
 
@@ -828,7 +829,10 @@ class BCPDataAnalyzer:
         "特別警報", "津波", "噴火", "土砂", "洪水", "DMAT", "広域搬送", "救助", "罹災"
     ]
 
-    TELECOM_TROUBLE_KEYWORDS = ["通信障害", "つながりにくい", "利用できない", "不通", "終日", "見合わせ"]
+    TELECOM_TROUBLE_KEYWORDS = [
+        "通信障害", "つながりにくい", "利用できない", "ご利用できない", "ご利用しづらい",
+        "利用しづらい", "不通", "終日", "見合わせ", "障害影響", "災害影響", "通信サービスが"
+    ]
     IGNORE_MENU_WORDS = [
         "災害情報", "災害・危機管理", "お知らせ", "お知らせトップ", "ニュースルーム", 
         "報道発表", "重要なお知らせ", "ホーム", "トップ", "個人のお客さま向け障害情報", 
@@ -1788,33 +1792,57 @@ class BCPDataAnalyzer:
 
     @classmethod
     def get_real_telecom_status(cls):
-        kddi_msg = "au/UQ: 直近の障害発表なし（正常）"
+        kddi_msg = "au/UQ/povo: 直近の障害発表なし（正常）"
+        kddi_link = getattr(cls, "KDDI_IMPORTANT_NEWS_URL", "https://news.kddi.com/important/news/")
         docomo_msg = "ドコモ: 直近の障害発表なし（正常）"
         sb_msg = "ソフトバンク: 直近の障害発表なし（正常）"
         rakuten_msg = "楽天モバイル: 直近の障害発表なし（正常）"
 
         kddi_alert, docomo_alert, sb_alert, rakuten_alert = False, False, False, False
 
-        # KDDI / au (RSS取得、復旧時は正常扱い)
+        # KDDI (au / UQ mobile / povo) - 重要なお知らせ監視 (https://news.kddi.com/important/news/)
+        # 自社サービスのため障害検知時は全体アラート(ALERT)対象
         try:
             raw, charset = cls._http_get(cls.KDDI_RSS_URL)
             soup = BeautifulSoup(raw.decode(charset, errors="replace"), "html.parser")
-            for item in soup.find_all("item")[:3]:
-                title = item.find("title").get_text(strip=True) if item.find("title") else ""
+            for item in soup.find_all("item")[:5]:
+                title_el = item.find("title")
+                title = title_el.get_text(strip=True) if title_el else ""
+                link_el = item.find("link")
+                if link_el and link_el.get_text(strip=True):
+                    kddi_link = link_el.get_text(strip=True)
+
                 if any(kw in title for kw in cls.TELECOM_TROUBLE_KEYWORDS):
-                    if "復旧" in title or "終了" in title or "解除" in title:
+                    if "復旧" in title or "終了" in title or "解除" in title or "回復" in title:
                         clean_title = title.replace("【復旧】", "").replace("【復旧済み】", "").strip()
-                        kddi_msg = f"au/UQ: 【復旧済み】 {clean_title[:35]}"
+                        kddi_msg = f"au/UQ/povo: 【復旧済み】 {clean_title[:38]}"
                         kddi_alert = False
                     else:
                         kddi_alert = True
-                        trimmed = title[:35] + "..." if len(title) > 35 else title
-                        kddi_msg = f"au/UQ: 【要警戒】{trimmed}"
+                        trimmed = title[:38] + "..." if len(title) > 38 else title
+                        kddi_msg = f"au/UQ/povo: 【要警戒】{trimmed}"
                     break
-        except Exception:
-            pass
+        except Exception as e:
+            # RSSが取得できない場合のHTMLスクレイピングフォールバック
+            try:
+                raw_html, cs = cls._http_get(getattr(cls, "KDDI_IMPORTANT_NEWS_URL", "https://news.kddi.com/important/news/"))
+                soup_html = BeautifulSoup(raw_html.decode(cs, errors="replace"), "html.parser")
+                for a_tag in soup_html.find_all("a", href=True):
+                    if "/important/news/important_" in a_tag["href"]:
+                        txt = a_tag.get_text(strip=True)
+                        if any(kw in txt for kw in cls.TELECOM_TROUBLE_KEYWORDS):
+                            kddi_link = urllib.parse.urljoin("https://news.kddi.com", a_tag["href"])
+                            if "復旧" in txt or "終了" in txt or "解除" in txt:
+                                kddi_msg = f"au/UQ/povo: 【復旧済み】 {txt[:38]}"
+                                kddi_alert = False
+                            else:
+                                kddi_alert = True
+                                kddi_msg = f"au/UQ/povo: 【要警戒】{txt[:38]}"
+                            break
+            except Exception:
+                pass
 
-        # docomo (RDF取得、復旧時は正常扱い)
+        # docomo (RDF取得、他社障害は監視・表示するがアラート不要)
         try:
             raw, charset = cls._http_get(cls.DOCOMO_RDF_URL)
             soup = BeautifulSoup(raw.decode(charset, errors="replace"), "html.parser")
@@ -1828,12 +1856,12 @@ class BCPDataAnalyzer:
                     else:
                         docomo_alert = True
                         trimmed = title[:35] + "..." if len(title) > 35 else title
-                        docomo_msg = f"ドコモ: 【要警戒】{trimmed}"
+                        docomo_msg = f"ドコモ: 【障害情報】{trimmed}"
                     break
         except Exception:
             pass
 
-        # ソフトバンク
+        # ソフトバンク (他社障害は監視・表示するがアラート不要)
         try:
             raw, charset = cls._http_get(cls.SOFTBANK_URL)
             soup = BeautifulSoup(raw.decode(charset, errors="replace"), "html.parser")
@@ -1850,13 +1878,13 @@ class BCPDataAnalyzer:
                             break
             
             if sb_alert:
-                sb_msg = f"ソフトバンク: 【要確認】{found_sb_title}"
+                sb_msg = f"ソフトバンク: 【障害情報】{found_sb_title}"
             else:
                 sb_msg = "ソフトバンク: 直近の障害発表なし（正常）"
         except Exception:
             pass
 
-        # 楽天モバイル
+        # 楽天モバイル (他社障害は監視・表示するがアラート不要)
         try:
             raw, charset = cls._http_get(cls.RAKUTEN_URL)
             soup = BeautifulSoup(raw.decode(charset, errors="replace"), "html.parser")
@@ -1873,20 +1901,27 @@ class BCPDataAnalyzer:
                             break
             
             if rakuten_alert:
-                rakuten_msg = f"楽天モバイル: 【要確認】{found_rakuten_title}"
+                rakuten_msg = f"楽天モバイル: 【障害情報】{found_rakuten_title}"
             else:
                 rakuten_msg = "楽天モバイル: 直近の障害発表なし（正常）"
         except Exception:
             pass
 
-        has_alert = kddi_alert or docomo_alert or sb_alert or rakuten_alert
+        # 【ポリシー】アラート発報は au, uq, povo (KDDIグループ) のみ対象
+        # 他社障害(ドコモ/SB/楽天)は監視・表示するが、アラート(ALERT)発報は行わない
         return {
-            "status": "NORMAL" if not has_alert else "ALERT",
+            "status": "ALERT" if kddi_alert else "NORMAL",
+            "kddi_alert": kddi_alert,
+            "docomo_alert": docomo_alert,
+            "sb_alert": sb_alert,
+            "rakuten_alert": rakuten_alert,
+            "other_carrier_alert": bool(docomo_alert or sb_alert or rakuten_alert),
             "kddi_msg": kddi_msg,
+            "kddi_link": kddi_link,
             "docomo_msg": docomo_msg,
             "sb_msg": sb_msg,
             "rakuten_msg": rakuten_msg,
-            "kddi_url": cls.AU_NETWORK_URL,
+            "kddi_url": getattr(cls, "KDDI_IMPORTANT_NEWS_URL", "https://news.kddi.com/important/news/"),
             "au_url": cls.AU_NETWORK_URL,
             "uq_url": cls.UQ_MOBILE_URL,
             "povo_url": cls.POVO_URL,

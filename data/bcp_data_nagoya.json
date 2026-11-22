@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 09:15:22",
+  "timestamp": "2026-11-22 09:56:25",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -187,10 +187,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -214,10 +214,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
-          "霜注意報"
+          "霜注意報",
+          "なだれ注意報"
         ],
-        "summary": "なだれ注意報、霜注意報",
+        "summary": "霜注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/21/"
       },
       {
@@ -306,7 +306,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野・岐阜で停電情報を検知",
+    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】新潟・長野・岐阜で停電情報を検知",
     "water_msg": "名古屋市上下水道局: 管内大規模断水・漏水なし",
     "gas_msg": "東邦ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -349,22 +349,22 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 5 件です。",
       "recent_posts": [
         {
-          "time": "11/22 09:12",
-          "text": "なんか START au END 電波 START 障害 END ？？ 全然繋がらなくて"
+          "time": "11/22 09:54",
+          "text": "悲報 スイーツの予約中に電話が切れ、その後繋がらない…。 なんか同時刻帯で START au END ユーザーから通信 START 障害 END の疑いのポスト..."
         },
         {
-          "time": "11/22 09:03",
-          "text": "【過去解約の方へ🎯楽天モバイル従業員紹介】 紹介キャンペーンので楽天ポイント進呈特典あり🎁 解約した方も対象です✨ eSIMで最短即日⏱️ 停電・通信 STAR..."
+          "time": "11/22 09:33",
+          "text": "@yado_potato ポケモンGO抜きにしてもリスクヘッジのためにデュアル回線にしてます。 昔、 START au END の START 障害 END で..."
         },
         {
-          "time": "11/22 08:32",
-          "text": "START au END 通信 START 障害 END かな？ 通信制限かかってるくらい繋がらない…"
+          "time": "11/22 09:31",
+          "text": "なんか START au END 電波 START 障害 END ？ リクエスト送ろうと試みるも、繋がらなくて送れない😅 #SJR765"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -401,16 +401,16 @@
       "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/22 09:54",
+          "text": "悲報 スイーツの予約中に電話が切れ、その後 START 繋がらない END …。 なんか同時刻帯で START au END ユーザーから通信障害の疑いのポスト..."
+        },
+        {
+          "time": "11/22 09:15",
+          "text": "@shiawaseni777ae いつもは問題なくご利用いただける場所で START 繋がらない END のでしょうか？💦詳細をお伺いしたいです🙇 START ..."
+        },
+        {
           "time": "11/22 09:05",
           "text": "@aqua_snowyxxx わい START au END だけど START 繋がらない END って困った事はないっす"
-        },
-        {
-          "time": "11/22 08:32",
-          "text": "START au END 通信障害かな？ 通信制限かかってるくらい START 繋がらない END …"
-        },
-        {
-          "time": "11/22 08:25",
-          "text": "楽天モバイルの START au END ローミングが切れた影響はこれまであまり良く分からなかったけど、リトルワールドに行ったら絶望的に圏外で初めて影響を感じた..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -742,11 +742,43 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 16,
+    "disaster_count": 15,
     "articles": [
       {
+        "title": "24日は全国的に雨　前線通過時は雨脚が強まり雷雨になる所も　北日本は暴風のおそれ(日本気象協会tenki.jp)",
+        "summary": "連休明けの24日(火)は、寒冷前線が日本列島を通過する見込みです。全国的に雨が降り、前線通過時は雨脚や強まったり、雷雨になる所があるでしょう。これまでの雨で地盤の緩んでいる所のある北陸では、土砂災害に",
+        "pub_date": "11/22 18:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/9c73ef64599ffa666d6fa25a3ae3f0f1e5e0b6c8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "京王線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "つつじケ丘駅で発生した人身事故の影響で、京王線(桜上水～飛田給)と京王相模原線(調布～若葉台)の運転を見合わせていましたが、18:37頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/22 18:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/18de807ba8c1da39d1f1c359c6a911efcd327242?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "大雪の福島・裏磐梯、孤立状態が解消(共同通信)",
+        "summary": "福島県北塩原村の裏磐梯地区周辺で住民らが孤立状態となった大雪被害で、県は22日夜、大雪や倒木の影響で一般車両の通行ができなくなっていた国道459号や県道の除雪を終え、通行規制を解除した。孤立状態は解消",
+        "pub_date": "11/22 18:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/606f996a7a9f9b68336706b0febae43d8571fe43?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "被害者が追跡し110番…酒に酔って乗用車を運転し停まっていた車に衝突して逃走か 74歳男逮捕「事故起こした覚えない」(東海テレビ)",
+        "summary": "愛知県豊橋市で酒に酔った状態で車を運転し事故を起こして逃走した疑いで、74歳の男が逮捕されました。 警察によりますと、逮捕されたのは豊橋市のアルバイト・河合博幸容疑者(74)です。 河合容疑者は21日",
+        "pub_date": "11/22 18:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/4669d02cb126d0fcccf5d632338b83bebeb003eb?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
         "title": "関東で火災相次ぐ 死者も　広い範囲に乾燥注意報(テレビ朝日系（ANN）)",
-        "summary": "関東地方の広い範囲で乾燥注意報が出ています。埼玉県所沢市で住宅が燃える火事があり、男性1人が亡くなりました。東京・江戸川区でも火事があり、1人がけがをしています。 22日午前4時半ごろ、所沢市花園で「",
+        "summary": "関東地方の広い範囲で乾燥注意報が出ています。埼玉県所沢市で住宅が燃える火事があり、男性1人が亡くなりました。東京・江戸川区でも火事があり、1人がけがをしています。【動画】今季初 強烈寒波が襲来 22日",
         "pub_date": "11/22 18:02 JST",
         "link": "https://news.yahoo.co.jp/articles/3dcfa1dc186920b705f37f9ca495c8fb10f2a58a?source=rss",
         "category": "国内・気象防災",
@@ -817,55 +849,23 @@
         "is_disaster": true
       },
       {
-        "title": "柏崎原発で作業員1人死亡　荷ほどき中ガラス下敷きに(共同通信)",
-        "summary": "22日午前11時半ごろ、新潟県柏崎市の東京電力柏崎刈羽原発内で、男性会社員がガラスの荷ほどき中に十数枚が倒れ、下敷きになる事故が発生した。県警によると、埼玉県川口市の斉藤辰也さん（38）が病院に搬送さ",
-        "pub_date": "11/22 15:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/b4cf3e3f32a7d29f2b9b9929811f5169dfcb1361?source=rss",
-        "category": "国内・気象防災",
+        "title": "関東で広く乾燥 火災相次ぎ死者も",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/22 18:35 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6603581?source=rss",
+        "category": "主要速報",
         "is_disaster": true
       },
       {
-        "title": "柏崎原発で作業員ガラス下敷きに、意識不明(共同通信)",
-        "summary": "新潟県警によると22日午前11時半ごろ、同県柏崎市の東京電力柏崎刈羽原発内で、作業中の会社員が倒れてきたガラス十数枚の下敷きになる事故が発生した。会社員は意識不明の重体。",
-        "pub_date": "11/22 14:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/df2ce37920a37aaf87fe93a3bed3ecc16285833e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "スーパーの外壁に89歳運転の車が衝突　客など3人けが　茨城・下妻市(テレビ朝日系（ANN）)",
-        "summary": "茨城県下妻市のスーパーで89歳の男性が運転する車が駐車する際に車止めを乗り越えて外壁に衝突しました。店の外にいた女性がけがをしています。 22日午前10時半ごろ、下妻市下妻戊のスーパー「ビッグハウス下",
-        "pub_date": "11/22 14:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/c5dd165b2886637abae3a058cc185185760fc8cf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "押収船体、年内の返還困難　知床沈没、手続き停滞で(共同通信)",
-        "summary": "北海道知床半島沖で2022年、観光船「KAZU 1（カズワン）」が沈没し乗客乗員計26人全員が死亡、行方不明となった事故で、検察が運航会社社長桂田精一被告（63）から押収している船体について、当初予定",
-        "pub_date": "11/22 14:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/d320e8aa6ecdcb981fb55adac8c41baa30e73eaa?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "那覇市の首里城、7年ぶり復活　「沖縄の象徴」琉球王国の朱色(共同通信)",
-        "summary": "2019年に火災で焼失した首里城（那覇市）の正殿の復元完成式が22日、開かれた。太平洋戦争末期の沖縄戦に続き焼け落ちた「沖縄の象徴」は、琉球王国時代の朱色が再現され、7年ぶりに復活した。お祝いの琉球舞",
-        "pub_date": "11/22 14:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/b2e71740bfda62ddc2341b0415952cfa126346f5?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【速報】古謝知事「首里城正殿は見事その姿を取り戻した」　木原長官「我が国にとって極めて重要な歴史文化遺産」「全体の復元に向けて責任を持って取り組む」【首里城正殿 復元完成式】(テレビ朝日系（ANN）)",
-        "summary": "2019年に火災で焼失した首里城正殿の復元作業が完了し、22日午後1時から完成式が開かれています。23日からは一般公開が始まります。【画像】よみがえった「琉球古刺繍」の技法",
-        "pub_date": "11/22 13:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/b8d2bb1ef7d6d2d45a519320f0d8f74bf021370f?source=rss",
-        "category": "国内・気象防災",
+        "title": "ホルムズ海峡を遠泳 環境被害訴え",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/22 18:08 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6603576?source=rss",
+        "category": "主要速報",
         "is_disaster": true
       }
     ],
-    "last_updated": "2026-11-22 18:14:38 JST"
+    "last_updated": "2026-11-22 18:55:53 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",

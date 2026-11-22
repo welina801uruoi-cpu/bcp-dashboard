@@ -3104,6 +3104,7 @@
             const alertedKeywords = voices.filter(v => v.trend === 'UP').map(v => v.keyword);
             const snsText = alertedKeywords.length > 0 ? `⚠️「${alertedKeywords.join('」「')}」投稿急増検知` : '障害・被災ワードの急増なし (平常)';
             updateCardStatus('sns', snsLevel, snsText, 'Yahoo!リアルタイム検索トレンド分析');
+            updateSnsCardRegionalSummary(data);
 
             // 12. 総合BCP判定 / 行政対応
             const gov = data.government || {};
@@ -3228,6 +3229,292 @@
         // =========================================================
         // 詳細モーダル展開システム (openIndicatorDetail)
         // =========================================================
+
+        // =========================================================
+        // SNS 地域別ワード・ヒートマップ ロジック
+        // =========================================================
+        let leafletSnsHeatmap = null;
+        let heatmapCircleGroup = null;
+        let cachedHeatmapData = null;
+
+        const REGION_GEO_CONFIG = [
+            { id: "hokkaido", name: "北海道", center: [43.0642, 141.3469], zoom: 7, keywords: ["北海道", "札幌", "旭川", "函館", "釧路", "帯広", "道央", "道南", "道北", "道東", "千歳"] },
+            { id: "tohoku", name: "東北", center: [38.2682, 140.8694], zoom: 7, keywords: ["東北", "宮城", "仙台", "青森", "岩手", "盛岡", "秋田", "山形", "福島", "郡山", "いわき"] },
+            { id: "kanto", name: "関東・首都圏", center: [35.6895, 139.6917], zoom: 9, keywords: ["東京", "23区", "新宿", "渋谷", "品川", "池袋", "秋葉原", "大手町", "銀座", "多摩", "八王子", "立川", "神奈川", "横浜", "川崎", "相模原", "埼玉", "大宮", "浦和", "千葉", "船橋", "柏", "茨城", "水戸", "つくば", "栃木", "宇都宮", "群馬", "前橋", "高崎"] },
+            { id: "chubu", name: "中部・東海", center: [35.1815, 136.9066], zoom: 8, keywords: ["愛知", "名古屋", "栄", "豊田", "三河", "静岡", "浜松", "岐阜", "三重", "四日市", "長野", "松本", "山梨", "甲府"] },
+            { id: "hokuriku", name: "北陸", center: [36.5613, 136.6562], zoom: 8, keywords: ["北陸", "石川", "金沢", "能登", "富山", "福井", "新潟", "長岡"] },
+            { id: "kansai", name: "近畿・関西", center: [34.6937, 135.5023], zoom: 8, keywords: ["関西", "近畿", "大阪", "梅田", "難波", "心斎橋", "天王寺", "兵庫", "神戸", "三宮", "姫路", "京都", "烏丸", "河原町", "滋賀", "大津", "奈良", "和歌山"] },
+            { id: "chugoku", name: "中国", center: [34.3853, 132.4553], zoom: 8, keywords: ["中国地方", "広島", "岡山", "倉敷", "山口", "下関", "鳥取", "米子", "島根", "松江"] },
+            { id: "shikoku", name: "四国", center: [33.8416, 133.5658], zoom: 8, keywords: ["四国", "香川", "高松", "愛媛", "松山", "徳島", "高知"] },
+            { id: "kyushu", name: "九州", center: [33.5904, 130.4017], zoom: 8, keywords: ["九州", "福岡", "博多", "天神", "小倉", "北九州", "佐賀", "長崎", "熊本", "大分", "別府", "宮崎", "鹿児島"] },
+            { id: "okinawa", name: "沖縄", center: [26.2124, 127.6809], zoom: 9, keywords: ["沖縄", "那覇", "浦添", "宜野湾", "沖縄市", "うるま", "名護", "宮古", "石垣"] }
+        ];
+
+        // クライアントサイドでも即時計算可能なヒートマップ算出
+        function calculateSnsHeatmap(data) {
+            if (data && data.sns_heatmap && data.sns_heatmap.regions) {
+                return data.sns_heatmap;
+            }
+
+            const allPosts = [];
+            (data.sns_voices || []).forEach(v => {
+                const kw = v.keyword || '';
+                (v.recent_posts || []).forEach(p => {
+                    allPosts.push({ keyword: kw, time: p.time || '', text: p.text || '' });
+                });
+            });
+
+            let totalCount = 0;
+            const regions = REGION_GEO_CONFIG.map(reg => {
+                const matchedPosts = [];
+                const foundWords = new Set();
+                allPosts.forEach(p => {
+                    const txt = p.text || '';
+                    for (const kw of reg.keywords) {
+                        if (txt.includes(kw)) {
+                            foundWords.add(kw);
+                            matchedPosts.push(p);
+                            break;
+                        }
+                    }
+                });
+
+                const count = matchedPosts.length;
+                totalCount += count;
+                const level = count >= 5 ? 'ALERT' : (count >= 2 ? 'NOTICE' : 'NORMAL');
+                const color = count >= 5 ? '#ef4444' : (count >= 2 ? '#f59e0b' : '#10b981');
+                const label = count >= 5 ? '集中多発 (要警戒)' : (count >= 2 ? '散発検知 (注意)' : '平常・平穏');
+
+                return {
+                    id: reg.id,
+                    name: reg.name,
+                    lat: reg.center[0],
+                    lon: reg.center[1],
+                    zoom: reg.zoom,
+                    count: count,
+                    level: level,
+                    color: color,
+                    status_label: label,
+                    detected_words: Array.from(foundWords).slice(0, 6),
+                    sample_posts: matchedPosts.slice(0, 4)
+                };
+            });
+
+            const ranking = [...regions].sort((a, b) => b.count - a.count);
+            const topRegion = (ranking[0] && ranking[0].count > 0) ? ranking[0].name : '全国平穏';
+
+            return {
+                total_mentions: totalCount,
+                top_region: topRegion,
+                top_count: ranking[0] ? ranking[0].count : 0,
+                regions: regions,
+                ranking: ranking
+            };
+        }
+
+        // カード上の地域サマリーを更新
+        function updateSnsCardRegionalSummary(data) {
+            const heatmap = calculateSnsHeatmap(data);
+            cachedHeatmapData = heatmap;
+
+            const topTextEl = document.getElementById('sns-top-region-text');
+            const badgeEl = document.getElementById('sns-region-badge');
+            if (topTextEl && badgeEl) {
+                if (heatmap.top_count >= 5) {
+                    topTextEl.innerText = `📍 ${heatmap.top_region} (${heatmap.top_count}件集中)`;
+                    badgeEl.innerText = '集中警戒';
+                    badgeEl.style.background = '#ef4444';
+                } else if (heatmap.top_count >= 2) {
+                    topTextEl.innerText = `📍 ${heatmap.top_region} (${heatmap.top_count}件検知)`;
+                    badgeEl.innerText = '散発';
+                    badgeEl.style.background = '#f59e0b';
+                } else {
+                    topTextEl.innerText = '全国平穏（特定集中なし）';
+                    badgeEl.innerText = '平常';
+                    badgeEl.style.background = '#10b981';
+                }
+            }
+        }
+
+        function openSnsHeatmapModal() {
+            const modal = document.getElementById('sns-heatmap-modal');
+            if (!modal) return;
+            modal.style.display = 'flex';
+
+            const heatmap = latestDataCache ? calculateSnsHeatmap(latestDataCache) : (cachedHeatmapData || calculateSnsHeatmap({}));
+            cachedHeatmapData = heatmap;
+
+            // サマリーバー反映
+            const topRegEl = document.getElementById('heatmap-summary-top-region');
+            const totalCntEl = document.getElementById('heatmap-summary-total-count');
+            const kwCntEl = document.getElementById('heatmap-summary-kw-count');
+            if (topRegEl) topRegEl.innerText = heatmap.top_region + (heatmap.top_count > 0 ? ` (${heatmap.top_count}件)` : '');
+            if (totalCntEl) totalCntEl.innerText = `${heatmap.total_mentions} 件`;
+            if (kwCntEl) kwCntEl.innerText = `${watchedKeywords.length} ワード`;
+
+            // ランキングリスト描画
+            renderHeatmapRanking(heatmap);
+
+            // サンプル投稿表示 (初期は最多地域、なければ全地域)
+            const initialRegion = heatmap.ranking.find(r => r.count > 0) || heatmap.ranking[0];
+            showRegionSamplePosts(initialRegion);
+
+            // Leaflet 地図の初期化・更新
+            setTimeout(() => {
+                initOrUpdateHeatmapLeaflet(heatmap);
+            }, 100);
+        }
+
+        function closeSnsHeatmapModal() {
+            const modal = document.getElementById('sns-heatmap-modal');
+            if (!modal) return;
+            modal.style.display = 'none';
+        }
+
+        function closeSnsHeatmapModalOnBackdrop(e) {
+            if (e.target && e.target.id === 'sns-heatmap-modal') {
+                closeSnsHeatmapModal();
+            }
+        }
+
+        function initOrUpdateHeatmapLeaflet(heatmap) {
+            const container = document.getElementById('sns-heatmap-leaflet-map');
+            if (!container) return;
+
+            if (!leafletSnsHeatmap) {
+                leafletSnsHeatmap = L.map('sns-heatmap-leaflet-map', {
+                    zoomControl: true,
+                    attributionControl: false
+                }).setView([36.5, 137.5], 5);
+
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    maxZoom: 14
+                }).addTo(leafletSnsHeatmap);
+
+                heatmapCircleGroup = L.layerGroup().addTo(leafletSnsHeatmap);
+            } else {
+                leafletSnsHeatmap.invalidateSize();
+            }
+
+            if (heatmapCircleGroup) {
+                heatmapCircleGroup.clearLayers();
+            }
+
+            heatmap.regions.forEach(reg => {
+                const count = reg.count;
+                // 件数に応じたサークル半径 (8px〜34px)
+                const radius = count > 0 ? Math.min(10 + count * 5, 34) : 8;
+                const isHot = count >= 5;
+
+                const circle = L.circleMarker([reg.lat, reg.lon], {
+                    radius: radius,
+                    fillColor: reg.color,
+                    color: isHot ? '#fee2e2' : '#ffffff',
+                    weight: isHot ? 3 : 1.5,
+                    opacity: 1,
+                    fillOpacity: count > 0 ? 0.82 : 0.45
+                }).addTo(heatmapCircleGroup);
+
+                // ポップアップ内容
+                const popupContent = `
+                    <div style="font-family:sans-serif; min-width:180px;">
+                        <div style="font-size:1.05em; font-weight:900; color:${reg.color}; margin-bottom:4px;">
+                            📍 ${reg.name}: ${reg.count}件検知
+                        </div>
+                        <div style="font-size:0.8em; color:#475569; margin-bottom:4px;">
+                            状態: <strong>${reg.status_label}</strong>
+                        </div>
+                        ${reg.detected_words.length > 0 ? `
+                            <div style="font-size:0.75em; color:#0284c7; margin-bottom:6px;">
+                                検知地名: ${reg.detected_words.map(w => `<span style="background:#e0f2fe; padding:1px 4px; border-radius:3px; margin-right:2px;">${w}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        <button onclick="showRegionSamplePostsById('${reg.id}')" style="background:#0284c7; color:#fff; border:none; padding:3px 8px; border-radius:4px; font-size:0.75em; cursor:pointer; width:100%;">
+                            投稿ログを表示 📝
+                        </button>
+                    </div>
+                `;
+                circle.bindPopup(popupContent);
+
+                circle.on('click', () => {
+                    showRegionSamplePosts(reg);
+                });
+            });
+        }
+
+        function renderHeatmapRanking(heatmap) {
+            const listEl = document.getElementById('heatmap-ranking-list');
+            if (!listEl) return;
+
+            const maxCount = Math.max(...heatmap.ranking.map(r => r.count), 1);
+
+            listEl.innerHTML = heatmap.ranking.map((reg, idx) => {
+                const percent = Math.min((reg.count / maxCount) * 100, 100);
+                const isAlert = reg.level === 'ALERT';
+                const isNotice = reg.level === 'NOTICE';
+
+                return `
+                    <div onclick="focusRegionOnMap('${reg.id}')" 
+                         style="padding:8px 10px; background:rgba(0,0,0,0.2); border-radius:6px; border:1px solid var(--border-color); cursor:pointer; transition:all 0.15s;"
+                         onmouseover="this.style.borderColor='#38bdf8'; this.style.background='rgba(56,189,248,0.08)'"
+                         onmouseout="this.style.borderColor='var(--border-color)'; this.style.background='rgba(0,0,0,0.2)'">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                            <span style="font-size:0.88em; font-weight:800; color:${isAlert ? '#ef4444' : (isNotice ? '#f59e0b' : 'var(--text-primary)')};">
+                                ${idx + 1}. ${escapeHtml(reg.name)}
+                            </span>
+                            <span style="font-size:0.82em; font-weight:900; color:${reg.color};">
+                                ${reg.count} 件
+                            </span>
+                        </div>
+                        <div style="height:4px; background:rgba(255,255,255,0.1); border-radius:2px; overflow:hidden;">
+                            <div style="width:${percent}%; height:100%; background:${reg.color}; border-radius:2px;"></div>
+                        </div>
+                        ${reg.detected_words.length > 0 ? `
+                            <div style="font-size:0.72em; color:var(--text-muted); margin-top:4px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+                                検出: ${reg.detected_words.map(escapeHtml).join(' / ')}
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function focusRegionOnMap(regionId) {
+            const reg = (cachedHeatmapData.regions || []).find(r => r.id === regionId);
+            if (!reg || !leafletSnsHeatmap) return;
+
+            leafletSnsHeatmap.setView([reg.lat, reg.lon], reg.zoom);
+            showRegionSamplePosts(reg);
+        }
+
+        function showRegionSamplePostsById(regionId) {
+            const reg = (cachedHeatmapData.regions || []).find(r => r.id === regionId);
+            if (reg) showRegionSamplePosts(reg);
+        }
+
+        function showRegionSamplePosts(reg) {
+            const titleEl = document.getElementById('heatmap-selected-region-title');
+            const boxEl = document.getElementById('heatmap-sample-posts-box');
+            if (!titleEl || !boxEl) return;
+
+            titleEl.innerHTML = `📝 <strong>${escapeHtml(reg.name)}</strong> 検出投稿ログ (${reg.count}件)`;
+
+            if (!reg.sample_posts || reg.sample_posts.length === 0) {
+                boxEl.innerHTML = `<div style="color:var(--text-muted); font-size:0.85em; padding:6px;">現在、${escapeHtml(reg.name)}に関連する緊急・被災キーワードの投稿は検知されていません（平常状態）。</div>`;
+                return;
+            }
+
+            boxEl.innerHTML = reg.sample_posts.map(p => `
+                <div style="padding:6px 8px; background:rgba(0,0,0,0.25); border-radius:4px; margin-bottom:4px; border-left:3px solid ${reg.color}; font-size:0.85em;">
+                    <div style="display:flex; justify-content:space-between; color:var(--text-muted); font-size:0.8em; margin-bottom:2px;">
+                        <span>ワード: <strong style="color:var(--text-accent);">${escapeHtml(p.keyword)}</strong></span>
+                        <span>${escapeHtml(p.time)}</span>
+                    </div>
+                    <div style="color:var(--text-primary); line-height:1.4;">${escapeHtml(p.text)}</div>
+                </div>
+            `).join('');
+        }
+
         function openIndicatorDetail(type) {
             if (!latestDataCache) {
                 // キャッシュが未準備でもSNSキーワード設定モーダル等は即座に開けるようダミー構築
@@ -3560,7 +3847,7 @@
                     const kwSettingsSection = `
                         <div class="modal-section" style="background:var(--bg-card-sub); border:1.5px solid var(--border-color); padding:12px; border-radius:8px; margin-bottom:12px;">
                             <div class="modal-section-title" style="margin-bottom:8px;">
-                                <span>🔍 監視キーワードの自由設定 (追加・編集・削除)</span>
+                                <span>🔍 監視キーワード設定 ＆ 🗺️ <a href="javascript:void(0)" onclick="openSnsHeatmapModal()" style="color:#38bdf8; text-decoration:underline; font-weight:bold;">地域別ヒートマップを開く ↗</a></span>
                                 <button onclick="resetDefaultKeywords()" class="btn-tool" style="font-size:0.82em; padding:3px 8px; min-height:28px;">🔄 初期設定に戻す</button>
                             </div>
                             <div style="display:flex; gap:6px; margin-bottom:8px; flex-wrap:wrap;">
@@ -4479,5 +4766,81 @@
         }
 
 </script>
+
+    <!-- =========================================================
+         SNS 地域別ワード・ヒートマップ モーダル
+         ========================================================= -->
+    <div id="sns-heatmap-modal" class="modal-backdrop" onclick="closeSnsHeatmapModalOnBackdrop(event)" style="display:none;">
+        <div class="modal-card" style="max-width:960px; max-height:90vh; display:flex; flex-direction:column;">
+            <div class="modal-header" style="border-bottom:1.5px solid var(--border-color); padding-bottom:12px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                    <span style="font-size:1.4em;">🗺️</span>
+                    <div>
+                        <div style="font-size:1.2em; font-weight:900; color:var(--text-primary);">SNS口コミ「地域別ワード・ヒートマップ」</div>
+                        <div style="font-size:0.82em; color:var(--text-muted);">全国47都道府県・主要都市ワード検知 ＆ リアルタイム地域別集中分析</div>
+                    </div>
+                </div>
+                <button class="modal-close-btn" onclick="closeSnsHeatmapModal()">✕</button>
+            </div>
+
+            <div class="modal-body" style="padding:16px 0; overflow-y:auto; flex:1;">
+                <!-- 上部: リアルタイム集計サマリーバー -->
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:10px; margin-bottom:14px; padding:0 16px;">
+                    <div style="background:var(--bg-card-sub); padding:10px 14px; border-radius:8px; border:1px solid var(--border-color);">
+                        <div style="font-size:0.78em; color:var(--text-muted); font-weight:700;">最多検知地域 (ホットスポット)</div>
+                        <div id="heatmap-summary-top-region" style="font-size:1.18em; font-weight:900; color:#38bdf8; margin-top:2px;">全国平穏</div>
+                    </div>
+                    <div style="background:var(--bg-card-sub); padding:10px 14px; border-radius:8px; border:1px solid var(--border-color);">
+                        <div style="font-size:0.78em; color:var(--text-muted); font-weight:700;">地域特定ワード総検出件数</div>
+                        <div id="heatmap-summary-total-count" style="font-size:1.18em; font-weight:900; color:#10b981; margin-top:2px;">0 件</div>
+                    </div>
+                    <div style="background:var(--bg-card-sub); padding:10px 14px; border-radius:8px; border:1px solid var(--border-color);">
+                        <div style="font-size:0.78em; color:var(--text-muted); font-weight:700;">解析対象キーワード数</div>
+                        <div id="heatmap-summary-kw-count" style="font-size:1.18em; font-weight:900; color:#f59e0b; margin-top:2px;">4 ワード</div>
+                    </div>
+                </div>
+
+                <!-- メイン: 地図(左/上) ＋ 地域ランキング(右/下) -->
+                <div style="display:grid; grid-template-columns:1fr 340px; gap:14px; padding:0 16px;">
+                    <!-- Leaflet 地図コンテナ -->
+                    <div style="background:#020617; border-radius:8px; border:1.5px solid var(--border-color); overflow:hidden; position:relative; min-height:420px; display:flex; flex-direction:column;">
+                        <div style="background:rgba(15,23,42,0.9); padding:8px 12px; font-size:0.82em; font-weight:800; color:var(--text-muted); border-bottom:1px solid var(--border-color); display:flex; justify-content:space-between; align-items:center;">
+                            <span>📍 全国10地方別 リアルタイム口コミ強度</span>
+                            <span style="font-size:0.75em; color:var(--text-secondary);">円の大きさ・色: 検知件数連動</span>
+                        </div>
+                        <div id="sns-heatmap-leaflet-map" style="flex:1; width:100%; min-height:380px;"></div>
+                    </div>
+
+                    <!-- 地域別集計ランキング＆詳細リスト -->
+                    <div style="background:var(--bg-card-sub); border-radius:8px; border:1.5px solid var(--border-color); padding:12px; display:flex; flex-direction:column; max-height:450px;">
+                        <div style="font-size:0.88em; font-weight:800; color:var(--text-primary); margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
+                            <span>📊 地方別口コミ検知ランキング</span>
+                            <span style="font-size:0.75em; color:var(--text-muted);">クリックで地図ズーム</span>
+                        </div>
+                        <div id="heatmap-ranking-list" style="overflow-y:auto; flex:1; display:flex; flex-direction:column; gap:6px;">
+                            <!-- JSで動的生成 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 下部: 選択中地域の検知投稿ログ -->
+                <div style="margin-top:14px; padding:0 16px;">
+                    <div style="font-size:0.88em; font-weight:800; color:var(--text-primary); margin-bottom:6px; display:flex; justify-content:space-between; align-items:center;">
+                        <span id="heatmap-selected-region-title">📝 直近の地域特定 投稿ログ抜粋 (全国)</span>
+                        <span style="font-size:0.78em; color:var(--text-muted);">最新40件の投稿を自動地域マッピング</span>
+                    </div>
+                    <div id="heatmap-sample-posts-box" style="background:var(--bg-card-sub); border:1px solid var(--border-color); border-radius:6px; max-height:160px; overflow-y:auto; padding:8px;">
+                        <!-- JSで動的生成 -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer" style="border-top:1px solid var(--border-color); padding-top:10px; display:flex; justify-content:space-between; align-items:center;">
+                <span style="font-size:0.8em; color:var(--text-muted);">※ 地名ワード検知: 47都道府県庁所在地・政令市・主要ターミナル駅を網羅</span>
+                <button class="btn-detail" onclick="closeSnsHeatmapModal()" style="padding:6px 20px;">閉じる</button>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

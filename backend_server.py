@@ -2241,6 +2241,120 @@ class BCPDataAnalyzer:
             "cameras": resolved_cameras
         }
 
+    @classmethod
+    def analyze_regional_sns_heatmap(cls, sns_results):
+        """SNS口コミ検出ログから全国主要10地方の地名ワード・被災シグナルを抽出・集計"""
+        REGIONS = [
+            {
+                "id": "hokkaido", "name": "北海道", "center": [43.0642, 141.3469], "zoom": 7,
+                "keywords": ["北海道", "札幌", "旭川", "函館", "釧路", "帯広", "道央", "道南", "道北", "道東", "千歳"]
+            },
+            {
+                "id": "tohoku", "name": "東北", "center": [38.2682, 140.8694], "zoom": 7,
+                "keywords": ["東北", "宮城", "仙台", "青森", "岩手", "盛岡", "秋田", "山形", "福島", "郡山", "いわき"]
+            },
+            {
+                "id": "kanto", "name": "関東・首都圏", "center": [35.6895, 139.6917], "zoom": 9,
+                "keywords": ["東京", "23区", "新宿", "渋谷", "品川", "池袋", "秋葉原", "大手町", "銀座", "多摩", "八王子", "立川",
+                             "神奈川", "横浜", "川崎", "相模原", "埼玉", "大宮", "浦和", "千葉", "船橋", "柏", "茨城", "水戸", "つくば", "栃木", "宇都宮", "群馬", "前橋", "高崎"]
+            },
+            {
+                "id": "chubu", "name": "中部・東海", "center": [35.1815, 136.9066], "zoom": 8,
+                "keywords": ["愛知", "名古屋", "栄", "豊田", "三河", "静岡", "浜松", "岐阜", "三重", "四日市", "長野", "松本", "山梨", "甲府"]
+            },
+            {
+                "id": "hokuriku", "name": "北陸", "center": [36.5613, 136.6562], "zoom": 8,
+                "keywords": ["北陸", "石川", "金沢", "能登", "富山", "福井", "新潟", "長岡"]
+            },
+            {
+                "id": "kansai", "name": "近畿・関西", "center": [34.6937, 135.5023], "zoom": 8,
+                "keywords": ["関西", "近畿", "大阪", "梅田", "難波", "心斎橋", "天王寺", "兵庫", "神戸", "三宮", "姫路", "京都", "烏丸", "河原町", "滋賀", "大津", "奈良", "和歌山"]
+            },
+            {
+                "id": "chugoku", "name": "中国", "center": [34.3853, 132.4553], "zoom": 8,
+                "keywords": ["中国地方", "広島", "岡山", "倉敷", "山口", "下関", "鳥取", "米子", "島根", "松江"]
+            },
+            {
+                "id": "shikoku", "name": "四国", "center": [33.8416, 133.5658], "zoom": 8,
+                "keywords": ["四国", "香川", "高松", "愛媛", "松山", "徳島", "高知"]
+            },
+            {
+                "id": "kyushu", "name": "九州", "center": [33.5904, 130.4017], "zoom": 8,
+                "keywords": ["九州", "福岡", "博多", "天神", "小倉", "北九州", "佐賀", "長崎", "熊本", "大分", "別府", "宮崎", "鹿児島"]
+            },
+            {
+                "id": "okinawa", "name": "沖縄", "center": [26.2124, 127.6809], "zoom": 9,
+                "keywords": ["沖縄", "那覇", "浦添", "宜野湾", "沖縄市", "うるま", "名護", "宮古", "石垣"]
+            }
+        ]
+
+        heatmap_data = []
+        total_regional_mentions = 0
+
+        # 全監視キーワードの投稿をフラットに集約
+        all_posts = []
+        for v in (sns_results or []):
+            kw = v.get("keyword", "")
+            for p in v.get("recent_posts", []):
+                all_posts.append({
+                    "keyword": kw,
+                    "time": p.get("time", ""),
+                    "text": p.get("text", "")
+                })
+
+        for reg in REGIONS:
+            matched_posts = []
+            found_words = set()
+            for p in all_posts:
+                txt = p["text"]
+                for kw in reg["keywords"]:
+                    if kw in txt:
+                        found_words.add(kw)
+                        matched_posts.append(p)
+                        break
+
+            count = len(matched_posts)
+            total_regional_mentions += count
+
+            if count >= 5:
+                level = "ALERT"
+                color = "#ef4444"
+                label = "集中多発 (要警戒)"
+            elif count >= 2:
+                level = "NOTICE"
+                color = "#f59e0b"
+                label = "散発検知 (注意)"
+            else:
+                level = "NORMAL"
+                color = "#10b981"
+                label = "平常・平穏"
+
+            heatmap_data.append({
+                "id": reg["id"],
+                "name": reg["name"],
+                "lat": reg["center"][0],
+                "lon": reg["center"][1],
+                "zoom": reg["zoom"],
+                "count": count,
+                "level": level,
+                "color": color,
+                "status_label": label,
+                "detected_words": list(found_words)[:6],
+                "sample_posts": matched_posts[:3]
+            })
+
+        ranking = sorted(heatmap_data, key=lambda x: x["count"], reverse=True)
+        top_region = ranking[0]["name"] if ranking and ranking[0]["count"] > 0 else "全国平穏"
+
+        return {
+            "total_mentions": total_regional_mentions,
+            "top_region": top_region,
+            "top_count": ranking[0]["count"] if ranking else 0,
+            "regions": heatmap_data,
+            "ranking": ranking
+        }
+
+
     def collect_all_metrics(self, location_key="tokyo", keywords=None):
         location_key = location_key if location_key in LOCATION_CONFIG else "tokyo"
         loc_cfg = dict(LOCATION_CONFIG[location_key])
@@ -2270,6 +2384,7 @@ class BCPDataAnalyzer:
             keywords = ["au 障害", "KDDI 障害", "au 繋がらない", "povo 障害"]
 
         sns_results = [self.fetch_yahoo_realtime_data(kw) for kw in keywords]
+        sns_heatmap = self.analyze_regional_sns_heatmap(sns_results)
 
         return {
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -2286,6 +2401,7 @@ class BCPDataAnalyzer:
             "evacuation": evacuation_data,
             "telecom": telecom_data,
             "sns_voices": sns_results,
+            "sns_heatmap": sns_heatmap,
             "weather_overview": weather_overview,
             "disaster_news": disaster_news,
             "live_media": live_media,

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 12:02:43",
+  "timestamp": "2026-11-22 12:57:50",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 32地域】福島、茨城、栃木、埼玉、千葉、東京、神奈川、新潟、富山、石川、福井、長野、岐阜、静岡、三重、滋賀、京都、大阪、兵庫、奈良、和歌山、島根、広島、山口、香川、高知、福岡、佐賀、長崎、大分、鹿児島、沖縄（警報なし）",
+    "summary": "【注意報発表: 31地域】福島、茨城、栃木、埼玉、千葉、東京、神奈川、新潟、富山、石川、福井、長野、岐阜、静岡、三重、滋賀、京都、大阪、兵庫、奈良、和歌山、島根、山口、香川、高知、福岡、佐賀、長崎、大分、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 32,
+    "notice_count": 31,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -625,10 +625,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
           "乾燥注意報"
         ],
-        "summary": "波浪注意報、乾燥注意報",
+        "summary": "乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -652,10 +651,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -666,10 +665,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/16/"
       },
       {
@@ -693,10 +692,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "雷注意報"
+          "雷注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、雷注意報",
+        "summary": "雷注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/18/"
       },
       {
@@ -731,10 +730,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
-          "霜注意報"
+          "霜注意報",
+          "濃霧注意報",
+          "なだれ注意報"
         ],
-        "summary": "なだれ注意報、霜注意報",
+        "summary": "霜注意報、濃霧注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/21/"
       },
       {
@@ -893,13 +893,11 @@
         "code": "34",
         "name": "広島県",
         "short_name": "広島",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "乾燥注意報"
-        ],
-        "summary": "乾燥注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/34/"
       },
       {
@@ -997,10 +995,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
           "霜注意報"
         ],
-        "summary": "乾燥注意報、霜注意報",
+        "summary": "霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -1046,10 +1043,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
-          "霜注意報"
+          "霜注意報",
+          "乾燥注意報"
         ],
-        "summary": "乾燥注意報、霜注意報",
+        "summary": "霜注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -1076,17 +1073,17 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線37路線: 美祢線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線47路線: 肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（美祢線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、肥薩線、東北本線 等 計37路線）",
+    "line_text": "運行支障あり（肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、美祢線、東北本線 等 計47路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "美祢線",
+      "肥薩線",
       "土佐くろしお鉄道ごめん・なはり線",
       "阿佐海岸鉄道阿佐東線",
-      "肥薩線",
+      "美祢線",
       "東北本線",
       "仙山線",
       "磐越西線",
@@ -1096,6 +1093,15 @@
       "陸羽東線",
       "北上線",
       "津軽線",
+      "近鉄名古屋線",
+      "近鉄山田線・鳥羽線・志摩線",
+      "長良川鉄道越美南線",
+      "信越本線",
+      "越後線",
+      "養老鉄道線",
+      "北陸鉄道石川線",
+      "大井川鉄道大井川本線",
+      "万葉線",
       "近鉄大阪線",
       "近鉄奈良線",
       "近鉄京都線",
@@ -1103,19 +1109,20 @@
       "阪神本線",
       "阪神なんば線",
       "加古川線",
-      "近鉄名古屋線",
-      "近鉄山田線・鳥羽線・志摩線",
-      "長良川鉄道越美南線",
-      "中央本線",
-      "信越本線",
-      "北陸鉄道石川線",
-      "大井川鉄道大井川本線",
-      "万葉線",
+      "埼京川越線",
+      "東武東上線",
+      "西武池袋線・秩父線",
+      "西武有楽町線",
       "京王線",
       "京王新線",
       "京王相模原線",
       "京王高尾線",
+      "小田急小田原線",
+      "東急新横浜線",
+      "相鉄線",
       "都営新宿線",
+      "東京メトロ有楽町線",
+      "東京メトロ副都心線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
@@ -1197,7 +1204,7 @@
         "url": "https://transit.yahoo.co.jp/diainfo/6/0"
       }
     ],
-    "target_lines_count": 37,
+    "target_lines_count": 47,
     "target_shinkansen_count": 10
   },
   "police_fire": {
@@ -1261,16 +1268,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/22 12:23",
+          "text": "docomo通信 START 障害 END 多すぎて流石に見捨てて乗り換えたろかー(怒)と思ったらSoftBankも START au END も通信 STAR..."
+        },
+        {
           "time": "11/22 11:08",
           "text": "START au END 回線終わってるぞ 千葉だけど通信 START 障害 END か？"
         },
         {
           "time": "11/22 10:43",
           "text": "あたしの頭に通信 START 障害 END はない。そんなもんネット社会、漏洩つきもの？どこ行ってもネットで買い物しても情報は漏れるんだよ。何したって。それより..."
-        },
-        {
-          "time": "11/22 10:21",
-          "text": "\\ドコモ・ソフトバンク・ START au END ユーザーへ/ 通信 START 障害 END の備えに、楽天モバイルをサブ回線で2台持ちする人が急増中！↗️..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -1304,19 +1311,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/22 12:34",
+          "text": "@nobuchan0401 レンプロさんの携帯が全然 START 繋がらない END という事でしたが、僕のスマホは普通に使えていてなんだろうと思ったら TV中..."
+        },
+        {
+          "time": "11/22 12:29",
+          "text": "営業に乗ってしまったばかりに、7月からずっと START au END と戦ってて本当に勘弁してほしい。。 疲れた。説明不足、会社都合のものを全てこちらに負担さ..."
+        },
         {
           "time": "11/22 11:53",
           "text": "外でインターネットが START 繋がらない END 状態が続いてる。 インスタとかコメント全く見れないし。 動画も止まって見れない。 START au END..."
-        },
-        {
-          "time": "11/22 11:50",
-          "text": "@OMOSHIROIHITOTO START au END 来てたけど、やっぱ電波は死んでたね😇🤣 でも他よりマシだったのかなぁ🤔一緒にいた人はもっと STAR..."
-        },
-        {
-          "time": "11/22 11:34",
-          "text": "@inu_akago あの地震で START 繋がらない END の怖すぎ😮‍💨 私も START au END 回線に戻す。。。UQ快適だったよ！！！"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -1755,39 +1762,39 @@
         "is_disaster": true
       },
       {
+        "title": "社員男性をアイスピックで脅し監禁か　中国籍の社長ら4人逮捕(テレビ朝日系（ANN）)",
+        "summary": "中国籍の会社社長の男ら4人が、社員の男性をアイスピックで脅し監禁したなどして逮捕されました。 警視庁によりますと、携帯電話の転売会社社長で中国籍の武田博輝こと張博輝容疑者（22）ら4人は5月、東京・江",
+        "pub_date": "11/22 21:54 JST",
+        "link": "https://news.yahoo.co.jp/articles/ef9742044baddcf2a1d081002ac466a33b63d2cc?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "愛知・豊橋の採卵鶏農場で鳥インフル疑い(共同通信)",
+        "summary": "愛知県は22日、同県豊橋市の採卵鶏農場で、高病原性鳥インフルエンザの疑い事例を確認したと発表した。県によると少なくとも数羽が死んでおり、簡易検査で陽性だった。",
+        "pub_date": "11/22 21:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/3028d4087836946473f69db2b08865df8d5ed048?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "関文科大臣の交代示唆　木原長官が否定(テレビ朝日系（ANN）)",
+        "summary": "関文部科学大臣の交代を示唆した自民党の鈴木幹事長の発言について、木原官房長官は個別の人事に関する発言ではなかったとして、交代を示唆する趣旨ではないと説明しました。木原官房長官「消費税支援金法案などの成",
+        "pub_date": "11/22 21:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/fb63689fede80dfea7373e730cd718fb0423d724?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "COP31、合意文書案採択断念(共同通信)",
         "summary": "【アンタルヤ共同】国連気候変動枠組み条約第31回締約国会議（COP31）の議長国トルコは閉幕の全体会合で、欧州連合（EU）などからの反対を受け、合意文書案の採択を断念すると明らかにした。",
         "pub_date": "11/22 20:39 JST",
         "link": "https://news.yahoo.co.jp/articles/d926bbf632932dec2c78db21eded1fe9e4c52687?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "子グマを生け捕りにして売るはずが…老ハンターが顔の皮を裂かれ､117針縫った｢羆撃ち｣の\"致命的な見誤り\"(プレジデントオンライン)",
-        "summary": "ヒグマは、銃で撃たれてもすぐには倒れないことがある。心臓を撃ち抜かれても猛然と走り続け、ハンターに襲いかかることさえある。ライターの伊藤秀倫さんの著書『羆を撃つ』(文藝春秋)より、ハンターの命がけの狩",
-        "pub_date": "11/22 20:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/0dd6823051cf78125d85a3b325f7eea5d7310ff4?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "福島・郡山で中1男子行方不明　痩せ形で黒髪、情報提供求める(共同通信)",
-        "summary": "福島県警郡山署は22日、郡山市に住む中学1年小野里優悟さん（12）が20日夜から行方不明になっていると発表した。約30人態勢で自宅や学校の周辺を中心に捜索するとともに、情報提供を呼びかけている。 署に",
-        "pub_date": "11/22 20:05 JST",
-        "link": "https://news.yahoo.co.jp/articles/e76c8b44477f2ad30c1f1a079b4026a3a42e362f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「皇籍を離れることに何かを感じることはない」黒田清子さんが語った思い…佳子さまが“選ぶ道”は(週刊女性PRIME)",
-        "summary": "天皇、皇后両陛下主催の秋の園遊会が10月29日、東京・元赤坂の赤坂御苑で開かれた。俳優の吉田鋼太郎さんや作家の宮部みゆきさん、それに各界の功労者ら約1400人が出席した。【写真】イギリスのリーズ大学留",
-        "pub_date": "11/22 20:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/ed86698b0e06ec708e4b9c8c165692b312b7d8a2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-22 21:02:40 JST"
+    "last_updated": "2026-11-22 21:57:46 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1830,10 +1837,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "aWRSH7bRvvU",
+        "video_id": "vWz2qXGWo5w",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/aWRSH7bRvvU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=aWRSH7bRvvU"
+        "embed_url": "https://www.youtube.com/embed/vWz2qXGWo5w?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=vWz2qXGWo5w"
       },
       {
         "id": "stream_annnews",

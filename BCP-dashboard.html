@@ -1311,12 +1311,90 @@
             display: none !important;
         }
         body.low-bandwidth-mode #text-mode-container {
-            display: block !important;
+            display: flex !important;
+            flex-direction: column !important;
         }
         body.low-bandwidth-mode * {
             box-shadow: none !important;
             text-shadow: none !important;
             animation: none !important;
+        }
+
+        /* 📱 1画面モード時の低速テキストモード (iPhone画面1枚完全収容) */
+        body.mobile-mode-compact.low-bandwidth-mode {
+            height: 100dvh !important;
+            max-height: 100dvh !important;
+            overflow: hidden !important;
+            padding: max(2px, env(safe-area-inset-top, 10px)) 3px max(2px, env(safe-area-inset-bottom, 8px)) 3px !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode .header,
+        body.mobile-mode-compact.low-bandwidth-mode .sub-bar,
+        body.mobile-mode-compact.low-bandwidth-mode .mobile-quick-nav {
+            display: none !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode #text-mode-container {
+            height: 100% !important;
+            max-height: 100% !important;
+            padding: 2px !important;
+            gap: 3px !important;
+            overflow: hidden !important;
+            box-sizing: border-box !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode .text-mode-banner-full {
+            display: none !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode .text-mode-banner-compact {
+            display: flex !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode .text-mode-radio-full {
+            display: none !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode .text-mode-radio-compact {
+            display: flex !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode .text-mode-indicators-list {
+            flex: 1 1 0 !important;
+            min-height: 0 !important;
+            display: grid !important;
+            grid-template-columns: repeat(3, 1fr) !important;
+            grid-template-rows: repeat(4, 1fr) !important;
+            gap: 3px !important;
+            overflow: hidden !important;
+            margin-bottom: 2px !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode .text-mode-ind-card {
+            margin-bottom: 0 !important;
+            padding: 3px 5px !important;
+            border-radius: 4px !important;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: space-between !important;
+            overflow: hidden !important;
+            cursor: pointer !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode .text-mode-ind-card .ind-detail-text {
+            display: none !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode .text-mode-ind-card .ind-name-text {
+            font-size: 0.74em !important;
+            white-space: nowrap !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode .text-mode-ind-card .ind-value-text {
+            font-size: 0.76em !important;
+            line-height: 1.15 !important;
+            white-space: normal !important;
+            overflow: hidden !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 2 !important;
+            -webkit-box-orient: vertical !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode .text-mode-contacts-box {
+            display: none !important;
+        }
+        body.mobile-mode-compact.low-bandwidth-mode .text-mode-compact-dock {
+            display: flex !important;
         }
 
         /* 災害時ラジオ 共通スタイル */
@@ -1980,28 +2058,50 @@
         </nav>
 
         <!-- =========================================================
-             📶 低速通信・災害軽量テキストモード コンテナ (Text-Only Disaster Digest)
+             📶 低速通信・災害軽量テキストモード コンテナ (1画面完全収容 & スクロール両対応)
              ========================================================= -->
-        <div id="text-mode-container" style="display:none; max-width:960px; margin:0 auto; padding:12px; box-sizing:border-box;">
-            <!-- 低速モード情報ヘッダーバナー -->
-            <div style="background:#1e293b; border:1.5px solid #f59e0b; border-radius:8px; padding:10px 14px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div id="text-mode-container" style="display:none; max-width:960px; margin:0 auto; padding:10px; box-sizing:border-box; width:100%;">
+            <!-- 1. フル表示用バナー (スクロールモード時) -->
+            <div class="text-mode-banner-full" style="background:#1e293b; border:1.5px solid #f59e0b; border-radius:8px; padding:10px 14px; margin-bottom:10px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
                 <div style="display:flex; align-items:center; gap:8px;">
-                    <span style="font-size:1.4em;">📶</span>
+                    <span style="font-size:1.3em;">📶</span>
                     <div>
-                        <div style="font-weight:900; font-size:1.02em; color:#fbbf24;">低速通信・災害軽量テキストモード 稼働中</div>
-                        <div style="font-size:0.78em; color:#94a3b8;">映像・地図・レーダー等の高負荷通信（約99%）を遮断し、文字情報のみを超軽量表示しています</div>
+                        <div style="font-weight:900; font-size:1em; color:#fbbf24;">低速通信・災害軽量テキストモード 稼働中</div>
+                        <div style="font-size:0.75em; color:#94a3b8;">映像・地図・レーダー等の高負荷通信（約99%）を遮断し、文字情報のみを超軽量表示しています</div>
                     </div>
                 </div>
-                <button type="button" onclick="toggleLowBandwidthMode()" style="background:#0284c7; color:#fff; border:none; padding:7px 16px; border-radius:6px; font-weight:900; font-size:0.85em; cursor:pointer;">
-                    🖥️ 通常グラフィック版へ戻す
-                </button>
+                <div style="display:flex; gap:6px;">
+                    <button type="button" onclick="toggleMobileDashboardMode('compact')" style="background:#8b5cf6; color:#fff; border:none; padding:6px 12px; border-radius:6px; font-weight:900; font-size:0.82em; cursor:pointer;">
+                        📱 1画面収容へ
+                    </button>
+                    <button type="button" onclick="toggleLowBandwidthMode()" style="background:#0284c7; color:#fff; border:none; padding:6px 12px; border-radius:6px; font-weight:900; font-size:0.82em; cursor:pointer;">
+                        🖥️ 通常版へ
+                    </button>
+                </div>
             </div>
 
-            <!-- 音声ライフライン: 災害ラジオ (テキスト版でも最優先で聴取可能) -->
-            <div class="disaster-radio-card" style="margin-bottom:14px; border-color:#38bdf8;">
+            <!-- 2. 1画面モード専用 超凝縮ヘッダー (iPhone画面1枚モード時) -->
+            <div class="text-mode-banner-compact" style="display:none; justify-content:space-between; align-items:center; background:#1e293b; border:1px solid #f59e0b; border-radius:6px; padding:3px 8px; flex-shrink:0;">
+                <div style="display:flex; align-items:center; gap:6px; overflow:hidden; white-space:nowrap;">
+                    <span style="font-size:0.85em;">📶</span>
+                    <strong style="color:#fbbf24; font-size:0.78em;">低速テキスト版</strong>
+                    <span id="text-mode-compact-status-badge" style="background:#10b981; color:#fff; font-size:0.7em; padding:1px 5px; border-radius:3px; font-weight:bold;">平常態勢</span>
+                </div>
+                <div style="display:flex; gap:4px; flex-shrink:0;">
+                    <button type="button" onclick="toggleLowBandwidthMode()" style="background:#0284c7; color:#fff; border:none; padding:2px 8px; border-radius:4px; font-size:0.74em; font-weight:bold; cursor:pointer;">
+                        🖥️ 通常
+                    </button>
+                    <button type="button" onclick="toggleMobileDashboardMode('scroll')" style="background:#8b5cf6; color:#fff; border:none; padding:2px 8px; border-radius:4px; font-size:0.74em; font-weight:bold; cursor:pointer;">
+                        📜 スクロール
+                    </button>
+                </div>
+            </div>
+
+            <!-- 3. 災害ラジオ (通常フル版) -->
+            <div class="text-mode-radio-full disaster-radio-card" style="margin-bottom:10px; border-color:#38bdf8;">
                 <div class="disaster-radio-header" style="background:linear-gradient(90deg, #0369a1 0%, #0f172a 100%);">
                     <div style="display:flex; align-items:center; gap:6px;">
-                        <span style="font-weight:900; color:#fff; font-size:0.95em;">📻 災害時 緊急音声ラジオ (超低通信 96kbps)</span>
+                        <span style="font-weight:900; color:#fff; font-size:0.92em;">📻 災害時 緊急音声ラジオ (超低通信 96kbps)</span>
                         <span style="font-size:0.72em; background:#10b981; color:#fff; padding:1px 6px; border-radius:3px; font-weight:bold;">LIVE 音声</span>
                     </div>
                     <div style="display:flex; gap:5px; align-items:center;">
@@ -2035,9 +2135,39 @@
                 </div>
             </div>
 
-            <!-- 動的テキストコンテンツ領域 -->
-            <div id="text-mode-dynamic-content">
+            <!-- 4. 1画面モード専用 1行ラジオバー (iPhone 1画面時) -->
+            <div class="text-mode-radio-compact" style="display:none; justify-content:space-between; align-items:center; background:#0f172a; border:1px solid #38bdf8; border-radius:6px; padding:3px 8px; flex-shrink:0;">
+                <div style="display:flex; align-items:center; gap:6px; overflow:hidden;">
+                    <button type="button" class="btn-radio-play-pause-ctrl" onclick="toggleRadioPlay()" 
+                            style="background:#10b981; color:#fff; border:none; padding:2px 8px; border-radius:4px; font-weight:900; font-size:0.75em; cursor:pointer; flex-shrink:0;">
+                        ▶ 聴く
+                    </button>
+                    <span style="font-size:0.78em; font-weight:bold; color:#f1f5f9; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">📻 NHKラジオ第1 (96kbps)</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:4px; flex-shrink:0;">
+                    <a href="https://www.nhk.or.jp/radio/player/?ch=r1" target="_blank" rel="noopener" class="raw-link-mini" style="font-size:0.72em; padding:1px 5px;">らじる別窓 ↗</a>
+                </div>
+            </div>
+
+            <!-- 動的テキストコンテンツ領域 (12指標マトリクス / スクロールリスト) -->
+            <div id="text-mode-dynamic-content" style="flex:1 1 0; min-height:0; display:flex; flex-direction:column; overflow:hidden;">
                 <!-- JSで動的生成 -->
+            </div>
+
+            <!-- 1画面モード専用 ボトムドック (iPhone 1画面時) -->
+            <div class="text-mode-compact-dock" style="display:none; justify-content:space-between; align-items:center; background:#0f172a; border:1px solid var(--border-color); padding:3px 6px; flex-shrink:0; border-radius:6px;">
+                <button type="button" onclick="loadRealData(true)" style="background:#1e293b; color:#38bdf8; border:1px solid #0284c7; padding:2px 8px; border-radius:4px; font-size:0.75em; font-weight:bold; cursor:pointer;">
+                    🔄 更新
+                </button>
+                <button type="button" onclick="openSnsHeatmapModal()" style="background:#1e293b; color:#38bdf8; border:1px solid #0284c7; padding:2px 8px; border-radius:4px; font-size:0.75em; font-weight:bold; cursor:pointer;">
+                    🗺️ 口コミマップ
+                </button>
+                <a href="https://www.web171.jp/" target="_blank" rel="noopener" style="background:#1e293b; color:#fbbf24; border:1px solid #f59e0b; padding:2px 8px; border-radius:4px; font-size:0.75em; font-weight:bold; text-decoration:none;">
+                    📞 伝言171
+                </a>
+                <button type="button" onclick="toggleMobileDashboardMode('scroll')" style="background:#8b5cf6; color:#fff; border:none; padding:2px 8px; border-radius:4px; font-size:0.75em; font-weight:bold; cursor:pointer;">
+                    📜 スクロールへ
+                </button>
             </div>
         </div>
 
@@ -3305,38 +3435,62 @@
             const bcpBadge = isAlert ? '🚨【全社非常警戒態勢 (全系BCP発動)】' : (isNotice ? '⚠️【警戒準備態勢 (注意)】' : '🟢【通常平常態勢 (全系安定)】');
             const bcpColor = isAlert ? '#ef4444' : (isNotice ? '#f59e0b' : '#10b981');
 
+            // 1画面ヘッダー用のバッジ更新
+            const compactBadge = document.getElementById('text-mode-compact-status-badge');
+            if (compactBadge) {
+                compactBadge.innerText = isAlert ? '非常警戒' : (isNotice ? '警戒準備' : '平常態勢');
+                compactBadge.style.background = bcpColor;
+            }
+
+            const typeMap = {
+                0: 'earthquake',
+                1: 'tsunami',
+                2: 'weather',
+                3: 'river',
+                4: 'lifeline',
+                5: 'telecom',
+                6: 'transit',
+                7: 'highway',
+                8: 'flight',
+                9: 'plant',
+                10: 'sns',
+                11: 'government'
+            };
+
             const indicators = [
-                { name: '1. 最新地震情報', status: eq.status || 'NORMAL', value: `最大震度 ${eq.shindo || '0'} (${eq.place || '震源なし'})`, detail: `M${eq.magnitude || '-'} / 深さ${eq.depth || '-'} / ${eq.time || '-'}` },
-                { name: '2. 津波警報・注意報', status: tsu.status || 'NORMAL', value: tsu.status === 'ALERT' ? '大津波・津波警報発令中' : (tsu.status === 'NOTICE' ? '津波注意報発表中' : '現在、津波の心配なし'), detail: tsu.areas || '発表なし' },
-                { name: '3. 気象警報・特別警報', status: weather.status || 'NORMAL', value: weather.summary || '警報なし (平常)', detail: weather.details || '全国気象平常' },
-                { name: '4. 河川氾濫・土砂災害', status: data.river ? data.river.status : 'NORMAL', value: data.river ? data.river.main_text : '氾濫危険水位なし', detail: data.river ? data.river.sub_text : '安定推移' },
-                { name: '5. 電力・広域停電情報', status: pwr.status || 'NORMAL', value: pwr.summary || '大規模停電なし', detail: pwr.details || '平常送電' },
-                { name: '6. 携帯通信障害 (au/UQ/povo優先)', status: tel.status || 'NORMAL', value: tel.summary || '主要携帯各社 正常稼働', detail: tel.details || '障害なし' },
-                { name: '7. 鉄道運行情報 (新幹線・主要線)', status: train.status || 'NORMAL', value: train.summary || '全線概ね平常運行', detail: train.details || '運行平常' },
-                { name: '8. 高速道路・主要国道', status: data.highway ? data.highway.status : 'NORMAL', value: data.highway ? data.highway.summary : '通行規制なし', detail: data.highway ? data.highway.details : '平常通行' },
-                { name: '9. 航空・主要空港運航', status: data.flight ? data.flight.status : 'NORMAL', value: data.flight ? data.flight.summary : '平常運航', detail: data.flight ? data.flight.details : '欠航なし' },
-                { name: '10. プラント・事業拠点安全', status: data.plant ? data.plant.status : 'NORMAL', value: data.plant ? data.plant.summary : '異常なし', detail: data.plant ? data.plant.details : '保全平常' },
-                { name: '11. SNS口コミ・障害検知', status: data.sns_level || 'NORMAL', value: `最多検知: ${heatmap.top_region} (${heatmap.top_count}件)`, detail: `地域特定検知総数: ${heatmap.total_mentions}件 / 監視: ${watchedKeywords.join(', ')}` },
-                { name: '12. 総合BCP判定 / 政府対応', status: gov.status || 'NORMAL', value: gov.summary || '政府非常対策本部なし', detail: gov.details || '平常態勢' }
+                { name: '1. 最新地震', status: eq.status || 'NORMAL', value: '最大震度' + (eq.shindo || '0') + ' (' + (eq.place || '震源なし') + ')', detail: 'M' + (eq.magnitude || '-') + ' / 深さ' + (eq.depth || '-') + ' / ' + (eq.time || '-') },
+                { name: '2. 津波情報', status: tsu.status || 'NORMAL', value: tsu.status === 'ALERT' ? '大津波・津波警報' : (tsu.status === 'NOTICE' ? '津波注意報発表中' : '津波の心配なし'), detail: tsu.areas || '発表なし' },
+                { name: '3. 気象警報', status: weather.status || 'NORMAL', value: weather.summary || '警報なし (平常)', detail: weather.details || '全国気象平常' },
+                { name: '4. 河川・土砂', status: data.river ? data.river.status : 'NORMAL', value: data.river ? data.river.main_text : '氾濫危険水位なし', detail: data.river ? data.river.sub_text : '安定推移' },
+                { name: '5. 電力・停電', status: pwr.status || 'NORMAL', value: pwr.summary || '大規模停電なし', detail: pwr.details || '平常送電' },
+                { name: '6. 携帯通信', status: tel.status || 'NORMAL', value: tel.summary || '主要携帯各社 正常稼働', detail: tel.details || '障害なし' },
+                { name: '7. 鉄道運行', status: train.status || 'NORMAL', value: train.summary || '全線概ね平常運行', detail: train.details || '運行平常' },
+                { name: '8. 道路・高速', status: data.highway ? data.highway.status : 'NORMAL', value: data.highway ? data.highway.summary : '通行規制なし', detail: data.highway ? data.highway.details : '平常通行' },
+                { name: '9. 航空・空港', status: data.flight ? data.flight.status : 'NORMAL', value: data.flight ? data.flight.summary : '平常運航', detail: data.flight ? data.flight.details : '欠航なし' },
+                { name: '10. プラント拠点', status: data.plant ? data.plant.status : 'NORMAL', value: data.plant ? data.plant.summary : '異常なし', detail: data.plant ? data.plant.details : '保全平常' },
+                { name: '11. 口コミ監視', status: data.sns_level || 'NORMAL', value: '最多: ' + heatmap.top_region + ' (' + heatmap.top_count + '件)', detail: '地域特定総数: ' + heatmap.total_mentions + '件' },
+                { name: '12. 総合BCP', status: gov.status || 'NORMAL', value: gov.summary || '政府非常対策本部なし', detail: gov.details || '平常態勢' }
             ];
 
-            const indHtml = indicators.map(ind => {
+            const indHtml = indicators.map((ind, idx) => {
                 const isA = ind.status === 'ALERT';
                 const isN = ind.status === 'NOTICE';
                 const badgeLabel = isA ? '警戒' : (isN ? '注意' : '平常');
                 const badgeBg = isA ? '#ef4444' : (isN ? '#f59e0b' : '#10b981');
                 const borderClr = isA ? '#ef4444' : (isN ? '#f59e0b' : '#334155');
+                const detailType = typeMap[idx] || 'earthquake';
 
                 return `
-                    <div style="background:#131d2e; border:1px solid #1e293b; border-left:4px solid ${borderClr}; padding:8px 12px; border-radius:4px; margin-bottom:6px;">
-                        <div style="display:flex; justify-content:space-between; align-items:center;">
-                            <span style="font-weight:bold; font-size:0.92em; color:#f1f5f9;">${escapeHtml(ind.name)}</span>
-                            <span style="background:${badgeBg}; color:#fff; padding:1px 8px; border-radius:3px; font-weight:900; font-size:0.75em;">${badgeLabel}</span>
+                    <div class="text-mode-ind-card" onclick="openIndicatorDetail('${detailType}')" 
+                         style="background:#131d2e; border:1px solid #1e293b; border-left:3.5px solid ${borderClr}; padding:6px 10px; border-radius:4px; margin-bottom:5px; cursor:pointer; touch-action:manipulation;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; gap:4px;">
+                            <span class="ind-name-text" style="font-weight:bold; font-size:0.85em; color:#f1f5f9;">${escapeHtml(ind.name)}</span>
+                            <span style="background:${badgeBg}; color:#fff; padding:1px 6px; border-radius:3px; font-weight:900; font-size:0.72em; flex-shrink:0;">${badgeLabel}</span>
                         </div>
-                        <div style="font-size:1.02em; font-weight:800; color:${isA ? '#f87171' : (isN ? '#fbbf24' : '#38bdf8')}; margin-top:3px;">
+                        <div class="ind-value-text" style="font-size:0.95em; font-weight:800; color:${isA ? '#f87171' : (isN ? '#fbbf24' : '#38bdf8')}; margin-top:2px;">
                             ${escapeHtml(ind.value)}
                         </div>
-                        <div style="font-size:0.8em; color:#94a3b8; margin-top:2px;">
+                        <div class="ind-detail-text" style="font-size:0.78em; color:#94a3b8; margin-top:2px;">
                             ${escapeHtml(ind.detail)}
                         </div>
                     </div>
@@ -3344,29 +3498,15 @@
             }).join('');
 
             contentEl.innerHTML = `
-                <!-- 総合サマリー -->
-                <div style="background:#0f172a; border:2px solid ${bcpColor}; border-radius:8px; padding:12px 14px; margin-bottom:12px;">
-                    <div style="font-size:1.15em; font-weight:900; color:${bcpColor}; margin-bottom:4px;">
-                        ${bcpBadge}
-                    </div>
-                    <div style="font-size:0.88em; color:#cbd5e1;">
-                        対象拠点: <strong>${escapeHtml(loc.region_name || '首都圏')}</strong> ｜ 最終更新: <strong>${escapeHtml(data.last_updated || new Date().toLocaleTimeString())}</strong>
-                    </div>
-                </div>
-
-                <!-- 12大危機管理指標テキスト一覧表 -->
-                <div style="margin-bottom:14px;">
-                    <div style="font-size:1.02em; font-weight:900; color:#f1f5f9; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
-                        <span>📋 12大危機管理指標 テキスト速報一覧</span>
-                        <button type="button" onclick="loadRealData(true)" style="background:#334155; color:#fff; border:none; padding:3px 10px; border-radius:4px; font-size:0.8em; cursor:pointer;">🔄 今すぐ更新</button>
-                    </div>
+                <!-- 1画面モード時の12指標グリッド ＆ スクロールモード時のリスト (CSSで自動切替) -->
+                <div class="text-mode-indicators-list" style="overflow-y:auto; -webkit-overflow-scrolling:touch;">
                     ${indHtml}
                 </div>
 
-                <!-- 災害時公的緊急連絡先・情報リンク（文字のみ・超軽量） -->
-                <div style="background:#0f172a; border:1px solid #334155; border-radius:8px; padding:12px; margin-bottom:14px; font-size:0.85em;">
-                    <div style="font-weight:900; color:#38bdf8; margin-bottom:6px;">📞 災害時 公的緊急安否・連絡先 (文字版)</div>
-                    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:6px; color:#cbd5e1;">
+                <!-- 災害時公的緊急連絡先・情報リンク（スクロールモード時のみ表示） -->
+                <div class="text-mode-contacts-box" style="background:#0f172a; border:1px solid #334155; border-radius:8px; padding:10px; margin-top:8px; font-size:0.82em;">
+                    <div style="font-weight:900; color:#38bdf8; margin-bottom:5px;">📞 災害時 公的緊急安否・連絡先 (文字版)</div>
+                    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:4px; color:#cbd5e1;">
                         <div>・NTT災害用伝言ダイヤル: <strong>171</strong></div>
                         <div>・携帯各社Web伝言板: <a href="https://www.web171.jp/" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">web171.jp ↗</a></div>
                         <div>・気象庁防災情報: <a href="https://www.jma.go.jp/bosai/" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">jma.go.jp/bosai ↗</a></div>
@@ -4770,7 +4910,11 @@
             } catch(e) {}
 
             const saved = localStorage.getItem('bcp_mobile_dashboard_mode');
-                if (saved === 'compact') {
+                const isMobileScreen = window.innerWidth <= 768;
+                // スマホ・iPhoneはデフォルトで画面1枚（1画面モード）に美しく収める！
+                if (saved === 'scroll') {
+                    setMobileMode(false);
+                } else if (saved === 'compact' || isMobileScreen) {
                     setMobileMode(true);
                 } else {
                     setMobileMode(false);
@@ -4790,9 +4934,14 @@
                 try { localStorage.setItem('bcp_mobile_dashboard_mode', 'compact'); } catch(e) {}
             } else {
                 body.classList.remove('mobile-mode-compact');
-                if (quickBtn) quickBtn.innerText = '📱 1画面モードへ';
+                if (quickBtn) quickBtn.innerText = '📱 1画面';
                 if (subBtn) subBtn.innerText = '📱 1画面モード';
                 try { localStorage.setItem('bcp_mobile_dashboard_mode', 'scroll'); } catch(e) {}
+            }
+
+            // テキストモード表示中なら再描画して1画面/スクロールスタイルを更新
+            if (body.classList.contains('low-bandwidth-mode') && latestDataCache) {
+                renderTextOnlyView(latestDataCache);
             }
         }
 

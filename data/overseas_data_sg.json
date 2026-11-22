@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-23 03:54:36",
-  "timestamp_local": "2026-11-23 02:54:36",
+  "timestamp": "2026-11-23 04:41:28",
+  "timestamp_local": "2026-11-23 03:41:28",
   "country": {
     "id": "singapore",
     "name": "シンガポール",
@@ -279,6 +279,14 @@
         "tsunami": 0
       },
       {
+        "mag": 4.6,
+        "place": "55 km S of Kūh Sefīd, Iran",
+        "time": "11/23 00:05 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uct0",
+        "tsunami": 0
+      },
+      {
         "mag": 4.9,
         "place": "south of the Fiji Islands",
         "time": "11/22 19:46 JST",
@@ -324,14 +332,6 @@
         "time": "11/22 08:16 JST",
         "depth_km": 31.078,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucpj",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "88 km WNW of El Aguilar, Argentina",
-        "time": "11/22 04:03 JST",
-        "depth_km": 209.784,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucni",
         "tsunami": 0
       }
     ]
@@ -587,7 +587,7 @@
     "default_channel_id": "stream_cna_live"
   },
   "forex": {
-    "timestamp": "11/23 03:54 JST",
+    "timestamp": "11/23 04:41 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -610,9 +610,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 173.78,
-      "change": -1.39,
-      "change_pct": -0.79
+      "rate": 173.6,
+      "change": -1.57,
+      "change_pct": -0.9
     }
   },
   "airports": [
@@ -640,44 +640,44 @@
         "is_capital": true,
         "lat": 1.3521,
         "lon": 103.8198,
-        "temp": 24.6,
-        "apparent_temp": 30.4,
-        "humidity": 99,
-        "wind_speed": 2.8,
-        "wind_gusts": 9.4,
+        "temp": 24.5,
+        "apparent_temp": 30.6,
+        "humidity": 100,
+        "wind_speed": 2.0,
+        "wind_gusts": 7.6,
         "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "weather_code": 45,
+        "weather_label": "🌫️ 霧",
         "forecast": [
           {
             "date": "11/23(月)",
-            "temp_max": 31.5,
-            "temp_min": 24.0,
+            "temp_max": 31.6,
+            "temp_min": 24.1,
             "weather_code": 95,
             "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 15.9
+            "precipitation_mm": 14.0
           },
           {
             "date": "11/24(火)",
-            "temp_max": 31.5,
+            "temp_max": 30.3,
             "temp_min": 24.0,
-            "weather_code": 82,
-            "weather_label": "⛈️ 激しいにわか雨",
-            "precipitation_mm": 21.8
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 14.0
           },
           {
             "date": "11/25(水)",
-            "temp_max": 31.2,
+            "temp_max": 32.6,
             "temp_min": 23.4,
             "weather_code": 81,
             "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 9.9
+            "precipitation_mm": 14.3
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -686,46 +686,46 @@
       "is_capital": true,
       "lat": 1.3521,
       "lon": 103.8198,
-      "temp": 24.6,
-      "apparent_temp": 30.4,
-      "humidity": 99,
-      "wind_speed": 2.8,
-      "wind_gusts": 9.4,
+      "temp": 24.5,
+      "apparent_temp": 30.6,
+      "humidity": 100,
+      "wind_speed": 2.0,
+      "wind_gusts": 7.6,
       "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "weather_code": 45,
+      "weather_label": "🌫️ 霧",
       "forecast": [
         {
           "date": "11/23(月)",
-          "temp_max": 31.5,
-          "temp_min": 24.0,
+          "temp_max": 31.6,
+          "temp_min": 24.1,
           "weather_code": 95,
           "weather_label": "⛈️ 雷雨 (弱〜中)",
-          "precipitation_mm": 15.9
+          "precipitation_mm": 14.0
         },
         {
           "date": "11/24(火)",
-          "temp_max": 31.5,
+          "temp_max": 30.3,
           "temp_min": 24.0,
-          "weather_code": 82,
-          "weather_label": "⛈️ 激しいにわか雨",
-          "precipitation_mm": 21.8
+          "weather_code": 81,
+          "weather_label": "🌧️ にわか雨 (中)",
+          "precipitation_mm": 14.0
         },
         {
           "date": "11/25(水)",
-          "temp_max": 31.2,
+          "temp_max": 32.6,
           "temp_min": 23.4,
           "weather_code": 81,
           "weather_label": "🌧️ にわか雨 (中)",
-          "precipitation_mm": 9.9
+          "precipitation_mm": 14.3
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/23 03:54 JST"
+    "timestamp": "11/23 04:41 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -754,7 +754,7 @@
         "details": "MRT南北線・東西線・環状線など平常運行中"
       }
     ],
-    "timestamp": "11/23 03:54 JST"
+    "timestamp": "11/23 04:41 JST"
   },
   "lifeline": {
     "status": "NORMAL",

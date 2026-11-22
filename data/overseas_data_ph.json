@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-23 03:54:43",
-  "timestamp_local": "2026-11-23 02:54:43",
+  "timestamp": "2026-11-23 04:41:38",
+  "timestamp_local": "2026-11-23 03:41:38",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -309,6 +309,14 @@
         "tsunami": 0
       },
       {
+        "mag": 4.6,
+        "place": "55 km S of Kūh Sefīd, Iran",
+        "time": "11/23 00:05 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uct0",
+        "tsunami": 0
+      },
+      {
         "mag": 4.9,
         "place": "south of the Fiji Islands",
         "time": "11/22 19:46 JST",
@@ -354,14 +362,6 @@
         "time": "11/22 08:16 JST",
         "depth_km": 31.078,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucpj",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "88 km WNW of El Aguilar, Argentina",
-        "time": "11/22 04:03 JST",
-        "depth_km": 209.784,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucni",
         "tsunami": 0
       }
     ]
@@ -614,7 +614,7 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/23 03:54 JST",
+    "timestamp": "11/23 04:41 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -637,9 +637,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 173.78,
-      "change": -1.39,
-      "change_pct": -0.79
+      "rate": 173.6,
+      "change": -1.57,
+      "change_pct": -0.9
     }
   },
   "airports": [
@@ -683,10 +683,10 @@
         "lat": 14.5995,
         "lon": 120.9842,
         "temp": 26.6,
-        "apparent_temp": 31.0,
-        "humidity": 76,
-        "wind_speed": 3.1,
-        "wind_gusts": 10.8,
+        "apparent_temp": 31.7,
+        "humidity": 78,
+        "wind_speed": 0.4,
+        "wind_gusts": 5.8,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -694,26 +694,26 @@
           {
             "date": "11/23(月)",
             "temp_max": 34.2,
-            "temp_min": 26.1,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.2
+            "temp_min": 26.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
           },
           {
             "date": "11/24(火)",
-            "temp_max": 33.9,
+            "temp_max": 34.1,
             "temp_min": 27.0,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.8
+            "precipitation_mm": 0.7
           },
           {
             "date": "11/25(水)",
-            "temp_max": 33.8,
+            "temp_max": 34.0,
             "temp_min": 27.0,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 3.8
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.2
           }
         ],
         "alert": "平常",
@@ -727,44 +727,44 @@
         "is_capital": false,
         "lat": 10.3157,
         "lon": 123.8854,
-        "temp": 24.9,
-        "apparent_temp": 29.4,
+        "temp": 25.1,
+        "apparent_temp": 29.7,
         "humidity": 96,
-        "wind_speed": 12.3,
-        "wind_gusts": 25.6,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
+        "wind_speed": 12.1,
+        "wind_gusts": 23.4,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/23(月)",
-            "temp_max": 30.5,
+            "temp_max": 31.2,
             "temp_min": 24.9,
-            "weather_code": 55,
-            "weather_label": "🌦️ 霧雨 (強)",
-            "precipitation_mm": 6.4
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 9.0
           },
           {
             "date": "11/24(火)",
-            "temp_max": 30.4,
-            "temp_min": 24.9,
+            "temp_max": 31.1,
+            "temp_min": 25.2,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 2.0
+            "precipitation_mm": 1.6
           },
           {
             "date": "11/25(水)",
-            "temp_max": 30.1,
+            "temp_max": 30.4,
             "temp_min": 24.8,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 5.8
+            "precipitation_mm": 4.4
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
         "name": "ダバオ (南部主要都市)",
@@ -772,44 +772,44 @@
         "is_capital": false,
         "lat": 7.1907,
         "lon": 125.4578,
-        "temp": 24.7,
-        "apparent_temp": 30.0,
-        "humidity": 91,
-        "wind_speed": 0.9,
-        "wind_gusts": 7.6,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 24.4,
+        "apparent_temp": 29.7,
+        "humidity": 95,
+        "wind_speed": 3.7,
+        "wind_gusts": 7.2,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/23(月)",
-            "temp_max": 28.9,
-            "temp_min": 24.5,
+            "temp_max": 28.0,
+            "temp_min": 24.1,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 10.6
+            "precipitation_mm": 9.0
           },
           {
             "date": "11/24(火)",
-            "temp_max": 31.0,
-            "temp_min": 24.1,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 2.7
+            "temp_max": 30.6,
+            "temp_min": 23.4,
+            "weather_code": 81,
+            "weather_label": "🌧️ にわか雨 (中)",
+            "precipitation_mm": 11.4
           },
           {
             "date": "11/25(水)",
-            "temp_max": 31.0,
-            "temp_min": 22.4,
+            "temp_max": 30.8,
+            "temp_min": 22.7,
             "weather_code": 95,
             "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 20.0
+            "precipitation_mm": 40.8
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -819,10 +819,10 @@
       "lat": 14.5995,
       "lon": 120.9842,
       "temp": 26.6,
-      "apparent_temp": 31.0,
-      "humidity": 76,
-      "wind_speed": 3.1,
-      "wind_gusts": 10.8,
+      "apparent_temp": 31.7,
+      "humidity": 78,
+      "wind_speed": 0.4,
+      "wind_gusts": 5.8,
       "precipitation": 0.0,
       "weather_code": 1,
       "weather_label": "🌤️ 晴れ",
@@ -830,26 +830,26 @@
         {
           "date": "11/23(月)",
           "temp_max": 34.2,
-          "temp_min": 26.1,
-          "weather_code": 51,
-          "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.2
+          "temp_min": 26.3,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         },
         {
           "date": "11/24(火)",
-          "temp_max": 33.9,
+          "temp_max": 34.1,
           "temp_min": 27.0,
           "weather_code": 51,
           "weather_label": "🌦️ 霧雨 (弱)",
-          "precipitation_mm": 0.8
+          "precipitation_mm": 0.7
         },
         {
           "date": "11/25(水)",
-          "temp_max": 33.8,
+          "temp_max": 34.0,
           "temp_min": 27.0,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 3.8
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.2
         }
       ],
       "alert": "平常",
@@ -857,7 +857,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/23 03:54 JST"
+    "timestamp": "11/23 04:41 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -886,7 +886,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/23 03:54 JST"
+    "timestamp": "11/23 04:41 JST"
   },
   "lifeline": {
     "status": "NORMAL",

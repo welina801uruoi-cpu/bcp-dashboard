@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 18:52:49",
+  "timestamp": "2026-11-22 19:39:07",
   "location": {
     "name": "全国",
     "region_name": "全国エリア",
@@ -347,11 +347,32 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-23 03:19",
-    "place": "岐阜県飛騨地方",
-    "magnitude": "3",
+    "time": "2026-11-23 04:32",
+    "place": "鳥取県東部",
+    "magnitude": "2.7",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-23 04:32",
+        "place": "鳥取県東部",
+        "shindo": "1",
+        "magnitude": "2.7",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-23 04:31",
+        "place": "熊本県熊本地方",
+        "shindo": "1",
+        "magnitude": "3",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-23 04:11",
+        "place": "トカラ列島近海",
+        "shindo": "1",
+        "magnitude": "2.1",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-23 03:19",
         "place": "岐阜県飛騨地方",
@@ -400,27 +421,6 @@
         "shindo": "1",
         "magnitude": "3",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-22 22:31",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "3",
-        "maxScale": 20
-      },
-      {
-        "time": "2026-11-22 19:17",
-        "place": "トカラ列島近海",
-        "shindo": "1",
-        "magnitude": "2.2",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-22 09:09",
-        "place": "茨城県南部",
-        "shindo": "1",
-        "magnitude": "2.7",
-        "maxScale": 10
       }
     ]
   },
@@ -436,10 +436,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 31地域】福島、茨城、栃木、埼玉、千葉、東京、神奈川、新潟、福井、長野、岐阜、静岡、三重、滋賀、京都、大阪、兵庫、奈良、和歌山、島根、広島、山口、香川、高知、福岡、佐賀、長崎、熊本、大分、鹿児島、沖縄（警報なし）",
+    "summary": "【注意報発表: 34地域】岩手、福島、茨城、栃木、埼玉、千葉、東京、神奈川、新潟、福井、長野、岐阜、静岡、愛知、三重、滋賀、京都、大阪、兵庫、奈良、和歌山、島根、広島、山口、香川、愛媛、高知、福岡、佐賀、長崎、熊本、大分、鹿児島、沖縄（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 31,
+    "notice_count": 34,
     "total_prefs": 50,
     "pref_details": [
       {
@@ -501,11 +501,13 @@
         "code": "3",
         "name": "岩手県",
         "short_name": "岩手",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "濃霧注意報"
+        ],
+        "summary": "濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -747,11 +749,13 @@
         "code": "23",
         "name": "愛知県",
         "short_name": "愛知",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "乾燥注意報"
+        ],
+        "summary": "乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/23/"
       },
       {
@@ -788,9 +792,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "濃霧注意報",
           "乾燥注意報"
         ],
-        "summary": "乾燥注意報",
+        "summary": "濃霧注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -814,9 +819,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "濃霧注意報",
           "乾燥注意報"
         ],
-        "summary": "乾燥注意報",
+        "summary": "濃霧注意報、乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -935,11 +941,13 @@
         "code": "38",
         "name": "愛媛県",
         "short_name": "愛媛",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "乾燥注意報"
+        ],
+        "summary": "乾燥注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/38/"
       },
       {
@@ -1071,17 +1079,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線20路線: 美祢線、肥薩線、土佐くろしお鉄道ごめん・なはり線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線20路線: 磐越西線、山田線、奥羽本線等 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（美祢線、肥薩線、土佐くろしお鉄道ごめん・なはり線、阿佐海岸鉄道阿佐東線、磐越西線 等 計20路線）",
+    "line_text": "運行支障あり（磐越西線、山田線、奥羽本線、米坂線、陸羽東線 等 計20路線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/",
     "troubled_lines": [
-      "美祢線",
-      "肥薩線",
-      "土佐くろしお鉄道ごめん・なはり線",
-      "阿佐海岸鉄道阿佐東線",
       "磐越西線",
       "山田線",
       "奥羽本線",
@@ -1089,11 +1093,15 @@
       "陸羽東線",
       "北上線",
       "津軽線",
-      "加古川線",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "阿佐海岸鉄道阿佐東線",
+      "肥薩線",
+      "美祢線",
       "北陸鉄道石川線",
       "大井川鉄道大井川本線",
       "長良川鉄道越美南線",
       "万葉線",
+      "加古川線",
       "久留里線",
       "小湊鉄道線",
       "いすみ鉄道線",
@@ -1749,7 +1757,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 03:52:46 JST"
+    "last_updated": "2026-11-23 04:39:04 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1770,10 +1778,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "S_Yx9IIQADY",
+        "video_id": "bvJKVLHUW2E",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/S_Yx9IIQADY?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=S_Yx9IIQADY"
+        "embed_url": "https://www.youtube.com/embed/bvJKVLHUW2E?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=bvJKVLHUW2E"
       },
       {
         "id": "stream_tbsnews",
@@ -1803,10 +1811,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "kzlpNka-VV8",
+        "video_id": "NxBO2dhwPwU",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/kzlpNka-VV8?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=kzlpNka-VV8"
+        "embed_url": "https://www.youtube.com/embed/NxBO2dhwPwU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=NxBO2dhwPwU"
       },
       {
         "id": "stream_fnnnews",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-23 03:10:23",
-  "timestamp_local": "2026-11-22 20:10:23",
+  "timestamp": "2026-11-23 03:54:57",
+  "timestamp_local": "2026-11-22 20:54:57",
   "country": {
     "id": "italy",
     "name": "イタリア",
@@ -346,17 +346,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 7,
-    "summary": "M4.9 (south of the Fiji Islands)",
+    "count_24h": 8,
+    "summary": "M4.6 (south of the Fiji Islands)",
     "latest": {
-      "mag": 4.9,
+      "mag": 4.6,
       "place": "south of the Fiji Islands",
-      "time": "11/22 19:46 JST",
-      "depth_km": 82.906,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucs1",
+      "time": "11/23 03:03 JST",
+      "depth_km": 533.96,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uctj",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "south of the Fiji Islands",
+        "time": "11/23 03:03 JST",
+        "depth_km": 533.96,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uctj",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "south of the Fiji Islands",
@@ -417,6 +425,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "米民主、下院で1992年以来の大勝(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/926ab367c4ab5b7fd0ad2d11feeb94bffda1aed8?source=rss",
+        "description": "【ワシントン共同】AP通信は22日、米中間選挙の下院選を巡り、野党民主党が258議席を確保したと報じた。与党共和党は173議席。民主党は1992年の大統領選と同時実施された下院選で258議席を獲得して",
+        "pub_date": "11/23 03:46 JST",
+        "is_priority": false
+      },
       {
         "title": "リビア停泊中のロシア軍艦に攻撃　ウクライナのドローンによる長距離攻撃の指摘も(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/99c6767f4d4389beb9008ea735c1617c3c8e48df?source=rss",
@@ -548,13 +563,6 @@
         "link": "https://news.yahoo.co.jp/articles/451ddbef1ea88b9209a9947ad2725dc2bf42702e?source=rss",
         "description": "インドネシアの菓子工場で大規模な火災が発生し、従業員39人が行方不明になっています。【映像】工場火災の現場付近の様子 インドネシア・バンテン州の捜索救助局によりますと、21日午後5時ごろ、セラン県にあ",
         "pub_date": "11/22 19:24 JST",
-        "is_priority": false
-      },
-      {
-        "title": "トランプ氏 米朝会談要求も実現せず(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/e825a2186fead3f1b05bdd37b0be79bbe2d7a80a?source=rss",
-        "description": "アメリカメディアは、トランプ大統領が北朝鮮との首脳会談を求めたものの、実現しなかったと報じました。【映像】握手を交わすトランプ大統領と金正恩総書記 ウォール・ストリート・ジャーナルは21日、トランプ氏",
-        "pub_date": "11/22 19:21 JST",
         "is_priority": false
       }
     ],
@@ -699,7 +707,7 @@
     "default_channel_id": "stream_euronews"
   },
   "forex": {
-    "timestamp": "11/23 03:10 JST",
+    "timestamp": "11/23 03:54 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -713,18 +721,18 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 173.82,
-      "change": -1.35,
-      "change_pct": -0.77,
+      "rate": 173.78,
+      "change": -1.39,
+      "change_pct": -0.79,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 173.82,
-      "change": -1.35,
-      "change_pct": -0.77
+      "rate": 173.78,
+      "change": -1.39,
+      "change_pct": -0.79
     }
   },
   "airports": [
@@ -782,14 +790,14 @@
         "is_capital": true,
         "lat": 41.9028,
         "lon": 12.4964,
-        "temp": 17.1,
-        "apparent_temp": 15.6,
-        "humidity": 75,
-        "wind_speed": 15.3,
-        "wind_gusts": 48.2,
+        "temp": 16.9,
+        "apparent_temp": 14.7,
+        "humidity": 69,
+        "wind_speed": 17.4,
+        "wind_gusts": 42.5,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "weather_label": "⛅ 晴れ時々曇り",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/22(日)",
@@ -816,10 +824,10 @@
             "precipitation_mm": 0.1
           }
         ],
-        "alert": "強風・大雨注意報",
-        "alert_badge": "🟠 気象注意報",
-        "alert_class": "orange",
-        "alert_desc": "強風（突風48.2km/h）または強い雨。移動・屋外行動に注意"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
         "name": "ミラノ (北部経済中心)",
@@ -827,11 +835,11 @@
         "is_capital": false,
         "lat": 45.4642,
         "lon": 9.19,
-        "temp": 7.1,
-        "apparent_temp": 4.7,
-        "humidity": 90,
-        "wind_speed": 8.6,
-        "wind_gusts": 17.6,
+        "temp": 6.7,
+        "apparent_temp": 4.4,
+        "humidity": 92,
+        "wind_speed": 7.6,
+        "wind_gusts": 15.8,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -839,15 +847,15 @@
           {
             "date": "11/22(日)",
             "temp_max": 8.5,
-            "temp_min": 5.1,
+            "temp_min": 5.3,
             "weather_code": 63,
             "weather_label": "🌧️ 雨 (中雨)",
             "precipitation_mm": 15.6
           },
           {
             "date": "11/23(月)",
-            "temp_max": 11.9,
-            "temp_min": 5.1,
+            "temp_max": 12.0,
+            "temp_min": 4.8,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -872,18 +880,18 @@
         "is_capital": false,
         "lat": 45.4408,
         "lon": 12.3155,
-        "temp": 9.1,
-        "apparent_temp": 5.7,
-        "humidity": 93,
-        "wind_speed": 20.0,
-        "wind_gusts": 38.2,
+        "temp": 9.3,
+        "apparent_temp": 6.4,
+        "humidity": 92,
+        "wind_speed": 16.1,
+        "wind_gusts": 32.0,
         "precipitation": 0.0,
-        "weather_code": 61,
-        "weather_label": "🌧️ 雨 (小雨)",
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/22(日)",
-            "temp_max": 9.2,
+            "temp_max": 9.3,
             "temp_min": 6.5,
             "weather_code": 63,
             "weather_label": "🌧️ 雨 (中雨)",
@@ -891,8 +899,8 @@
           },
           {
             "date": "11/23(月)",
-            "temp_max": 12.8,
-            "temp_min": 6.7,
+            "temp_max": 12.7,
+            "temp_min": 6.5,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -906,10 +914,10 @@
             "precipitation_mm": 0.0
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -918,14 +926,14 @@
       "is_capital": true,
       "lat": 41.9028,
       "lon": 12.4964,
-      "temp": 17.1,
-      "apparent_temp": 15.6,
-      "humidity": 75,
-      "wind_speed": 15.3,
-      "wind_gusts": 48.2,
+      "temp": 16.9,
+      "apparent_temp": 14.7,
+      "humidity": 69,
+      "wind_speed": 17.4,
+      "wind_gusts": 42.5,
       "precipitation": 0.0,
-      "weather_code": 2,
-      "weather_label": "⛅ 晴れ時々曇り",
+      "weather_code": 1,
+      "weather_label": "🌤️ 晴れ",
       "forecast": [
         {
           "date": "11/22(日)",
@@ -952,12 +960,12 @@
           "precipitation_mm": 0.1
         }
       ],
-      "alert": "強風・大雨注意報",
-      "alert_badge": "🟠 気象注意報",
-      "alert_class": "orange",
-      "alert_desc": "強風（突風48.2km/h）または強い雨。移動・屋外行動に注意"
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/23 03:10 JST"
+    "timestamp": "11/23 03:54 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1039,7 +1047,7 @@
         "details": "地下鉄M1〜M5号線およびマルペンサ空港連絡は平常運行中"
       }
     ],
-    "timestamp": "11/23 03:10 JST"
+    "timestamp": "11/23 03:54 JST"
   },
   "lifeline": {
     "status": "NORMAL",

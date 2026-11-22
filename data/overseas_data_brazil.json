@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-23 03:10:38",
-  "timestamp_local": "2026-11-22 15:10:38",
+  "timestamp": "2026-11-23 03:55:11",
+  "timestamp_local": "2026-11-22 15:55:11",
   "country": {
     "id": "brazil",
     "name": "ブラジル",
@@ -295,17 +295,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 7,
-    "summary": "M4.9 (south of the Fiji Islands)",
+    "count_24h": 8,
+    "summary": "M4.6 (south of the Fiji Islands)",
     "latest": {
-      "mag": 4.9,
+      "mag": 4.6,
       "place": "south of the Fiji Islands",
-      "time": "11/22 19:46 JST",
-      "depth_km": 82.906,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucs1",
+      "time": "11/23 03:03 JST",
+      "depth_km": 533.96,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uctj",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "south of the Fiji Islands",
+        "time": "11/23 03:03 JST",
+        "depth_km": 533.96,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uctj",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "south of the Fiji Islands",
@@ -366,6 +374,13 @@
   },
   "world_news": {
     "articles": [
+      {
+        "title": "米民主、下院で1992年以来の大勝(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/926ab367c4ab5b7fd0ad2d11feeb94bffda1aed8?source=rss",
+        "description": "【ワシントン共同】AP通信は22日、米中間選挙の下院選を巡り、野党民主党が258議席を確保したと報じた。与党共和党は173議席。民主党は1992年の大統領選と同時実施された下院選で258議席を獲得して",
+        "pub_date": "11/23 03:46 JST",
+        "is_priority": false
+      },
       {
         "title": "リビア停泊中のロシア軍艦に攻撃　ウクライナのドローンによる長距離攻撃の指摘も(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/99c6767f4d4389beb9008ea735c1617c3c8e48df?source=rss",
@@ -498,13 +513,6 @@
         "description": "インドネシアの菓子工場で大規模な火災が発生し、従業員39人が行方不明になっています。【映像】工場火災の現場付近の様子 インドネシア・バンテン州の捜索救助局によりますと、21日午後5時ごろ、セラン県にあ",
         "pub_date": "11/22 19:24 JST",
         "is_priority": false
-      },
-      {
-        "title": "トランプ氏 米朝会談要求も実現せず(ABEMA TIMES)",
-        "link": "https://news.yahoo.co.jp/articles/e825a2186fead3f1b05bdd37b0be79bbe2d7a80a?source=rss",
-        "description": "アメリカメディアは、トランプ大統領が北朝鮮との首脳会談を求めたものの、実現しなかったと報じました。【映像】握手を交わすトランプ大統領と金正恩総書記 ウォール・ストリート・ジャーナルは21日、トランプ氏",
-        "pub_date": "11/22 19:21 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -627,7 +635,7 @@
     "default_channel_id": "stream_band_live"
   },
   "forex": {
-    "timestamp": "11/23 03:10 JST",
+    "timestamp": "11/23 03:55 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
@@ -650,9 +658,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 173.82,
-      "change": -1.35,
-      "change_pct": -0.77
+      "rate": 173.78,
+      "change": -1.39,
+      "change_pct": -0.79
     }
   },
   "airports": [
@@ -695,14 +703,14 @@
         "is_capital": true,
         "lat": -15.8267,
         "lon": -47.9218,
-        "temp": 25.0,
-        "apparent_temp": 27.4,
-        "humidity": 70,
-        "wind_speed": 7.3,
-        "wind_gusts": 23.8,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 22.2,
+        "apparent_temp": 23.5,
+        "humidity": 81,
+        "wind_speed": 13.7,
+        "wind_gusts": 30.6,
+        "precipitation": 0.4,
+        "weather_code": 80,
+        "weather_label": "🌧️ にわか雨 (弱)",
         "forecast": [
           {
             "date": "11/22(日)",
@@ -729,10 +737,10 @@
             "precipitation_mm": 1.6
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "サンパウロ (南米最大都市)",
@@ -740,14 +748,14 @@
         "is_capital": false,
         "lat": -23.5505,
         "lon": -46.6333,
-        "temp": 30.9,
-        "apparent_temp": 32.3,
+        "temp": 29.8,
+        "apparent_temp": 30.4,
         "humidity": 46,
-        "wind_speed": 11.3,
-        "wind_gusts": 36.7,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "wind_speed": 12.3,
+        "wind_gusts": 33.1,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/22(日)",
@@ -774,10 +782,10 @@
             "precipitation_mm": 19.9
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "リオデジャネイロ (沿岸主要都市)",
@@ -785,11 +793,11 @@
         "is_capital": false,
         "lat": -22.9068,
         "lon": -43.1729,
-        "temp": 28.8,
-        "apparent_temp": 33.3,
-        "humidity": 72,
-        "wind_speed": 9.5,
-        "wind_gusts": 34.2,
+        "temp": 28.4,
+        "apparent_temp": 32.7,
+        "humidity": 73,
+        "wind_speed": 9.0,
+        "wind_gusts": 29.2,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -831,14 +839,14 @@
       "is_capital": true,
       "lat": -15.8267,
       "lon": -47.9218,
-      "temp": 25.0,
-      "apparent_temp": 27.4,
-      "humidity": 70,
-      "wind_speed": 7.3,
-      "wind_gusts": 23.8,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "temp": 22.2,
+      "apparent_temp": 23.5,
+      "humidity": 81,
+      "wind_speed": 13.7,
+      "wind_gusts": 30.6,
+      "precipitation": 0.4,
+      "weather_code": 80,
+      "weather_label": "🌧️ にわか雨 (弱)",
       "forecast": [
         {
           "date": "11/22(日)",
@@ -865,12 +873,12 @@
           "precipitation_mm": 1.6
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/23 03:10 JST"
+    "timestamp": "11/23 03:55 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -899,7 +907,7 @@
         "details": "地下鉄各線平常運行中"
       }
     ],
-    "timestamp": "11/23 03:10 JST"
+    "timestamp": "11/23 03:55 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -3294,64 +3294,169 @@
             const lifeline = data.lifeline || {};
             const telecom = data.telecom || {};
 
-            // 1. 救助法適用・行政レイヤー
+            // 1. 救助法適用・行政レイヤー (実データに基づく対象都道府県のみピン表示)
             if (natMapActiveLayers.gov && (gov.status === 'ALERT' || gov.status === 'NOTICE' || gov.latest_tekiyou)) {
                 const tekiyou = gov.latest_tekiyou || {};
                 const targetTitle = tekiyou.title || gov.cabinet_msg || '災害救助法適用';
-                
-                // 大雪適用の北日本・日本海側代表座標
-                const affectedAreas = [
-                    { name: '青森県・東北日本海側', pos: [40.82, 140.74] },
-                    { name: '秋田県・山形県', pos: [39.72, 140.10] },
-                    { name: '新潟県・北陸', pos: [37.90, 139.02] }
-                ];
 
-                affectedAreas.forEach(a => {
-                    const iconHtml = `<div style="background:#ef4444; color:#fff; border:2px solid #fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-size:14px; box-shadow:0 0 12px #ef4444; animation:pulse 2s infinite;">🏛️</div>`;
-                    const icon = L.divIcon({ html: iconHtml, className: '', iconSize: [28, 28], iconAnchor: [14, 14] });
-                    const m = L.marker(a.pos, { icon }).addTo(natMapLayerGov);
+                // 全国47都道府県の代表座標マスター
+                const PREF_COORDS = {
+                    '北海道': [43.0642, 141.3469], '青森県': [40.8244, 140.7400], '岩手県': [39.7036, 141.1527],
+                    '宮城県': [38.2688, 140.8721], '秋田県': [39.7186, 140.1024], '山形県': [38.2404, 140.3636],
+                    '福島県': [37.7503, 140.4676], '茨城県': [36.3418, 140.4468], '栃木県': [36.5658, 139.8836],
+                    '群馬県': [36.3912, 139.0608], '埼玉県': [35.8570, 139.6490], '千葉県': [35.6051, 140.1233],
+                    '東京都': [35.6895, 139.6917], '神奈川県': [35.4478, 139.6425], '新潟県': [37.9026, 139.0232],
+                    '富山県': [36.6953, 137.2113], '石川県': [36.5947, 136.6256], '福井県': [36.0652, 136.2219],
+                    '山梨県': [35.6639, 138.5684], '長野県': [36.6513, 138.1810], '岐阜県': [35.3912, 136.7223],
+                    '静岡県': [34.9770, 138.3831], '愛知県': [35.1802, 136.9066], '三重県': [34.7303, 136.5086],
+                    '滋賀県': [35.0045, 135.8686], '京都府': [35.0212, 135.7556], '大阪府': [34.6863, 135.5200],
+                    '兵庫県': [34.6913, 135.1830], '奈良県': [34.6853, 135.8329], '和歌山県': [34.2260, 135.1675],
+                    '鳥取県': [35.5039, 134.2377], '島根県': [35.4723, 133.0505], '岡山県': [34.6618, 133.9350],
+                    '広島県': [34.3966, 132.4596], '山口県': [34.1861, 131.4705], '徳島県': [34.0658, 134.5593],
+                    '香川県': [34.3401, 134.0434], '愛媛県': [33.8416, 132.7661], '高知県': [33.5597, 133.5311],
+                    '福岡県': [33.6064, 130.4183], '佐賀県': [33.2494, 130.2988], '長崎県': [32.7448, 129.8737],
+                    '熊本県': [32.7898, 130.7417], '大分県': [33.2382, 131.6126], '宮崎県': [31.9111, 131.4239],
+                    '鹿児島県': [31.5602, 130.5581], '沖縄県': [26.2124, 127.6809]
+                };
+
+                // 適用対象の都道府県を特定
+                let targetPrefs = [];
+                if (Array.isArray(tekiyou.prefectures) && tekiyou.prefectures.length > 0) {
+                    targetPrefs = tekiyou.prefectures;
+                } else if (Array.isArray(gov.affected_prefectures) && gov.affected_prefectures.length > 0) {
+                    targetPrefs = gov.affected_prefectures;
+                } else {
+                    for (const pName of Object.keys(PREF_COORDS)) {
+                        const shortName = pName.replace(/(都|道|府|県)$/, '');
+                        if (targetTitle.includes(pName) || targetTitle.includes(shortName)) {
+                            targetPrefs.push(pName);
+                        }
+                    }
+                    // 令和８年11月20日からの大雪公報(261123.pdf)は福島県適用
+                    if (targetPrefs.length === 0 && (targetTitle.includes('11月20日') || (tekiyou.url && tekiyou.url.includes('261123')))) {
+                        targetPrefs.push('福島県');
+                    }
+                }
+
+                // 該当都道府県のみプロット (重複排除)
+                const uniquePrefs = [...new Set(targetPrefs)];
+                uniquePrefs.forEach(pName => {
+                    const pos = PREF_COORDS[pName];
+                    if (!pos) return;
+
+                    const iconHtml = `<div style="background:#ef4444; color:#fff; border:2px solid #fff; border-radius:50%; width:30px; height:30px; display:flex; align-items:center; justify-content:center; font-size:15px; box-shadow:0 0 12px #ef4444; animation:pulse 2s infinite;" title="${pName}: 災害救助法適用">🏛️</div>`;
+                    const icon = L.divIcon({ html: iconHtml, className: '', iconSize: [30, 30], iconAnchor: [15, 15] });
+                    const m = L.marker(pos, { icon }).addTo(natMapLayerGov);
                     m.bindPopup(`
-                        <div style="font-family:sans-serif; color:#0f172a; min-width:200px;">
+                        <div style="font-family:sans-serif; color:#0f172a; min-width:220px;">
                             <div style="font-weight:900; color:#ef4444; font-size:1em; margin-bottom:4px;">🏛️ 災害救助法適用（内閣府・防災庁）</div>
-                            <div style="font-size:0.85em; font-weight:bold; margin-bottom:4px;">${escapeHtml(targetTitle)}</div>
+                            <div style="font-size:0.9em; font-weight:bold; color:#0369a1; margin-bottom:3px;">適用地域: ${escapeHtml(pName)}</div>
+                            <div style="font-size:0.83em; font-weight:bold; margin-bottom:4px; line-height:1.4;">${escapeHtml(targetTitle)}</div>
                             <div style="font-size:0.75em; color:#64748b; margin-bottom:6px;">告示日: ${escapeHtml(tekiyou.date || '2026-11-23')} ｜ ${escapeHtml(tekiyou.report || '第1報')}</div>
-                            ${tekiyou.url ? `<a href="${escapeHtml(tekiyou.url)}" target="_blank" rel="noopener" style="display:inline-block; background:#0284c7; color:#fff; padding:3px 8px; border-radius:4px; font-size:0.78em; text-decoration:none; font-weight:bold;">📄 公式発表PDF公報 ↗</a>` : ''}
+                            ${tekiyou.url ? `<a href="${escapeHtml(tekiyou.url)}" target="_blank" rel="noopener" style="display:inline-block; background:#0284c7; color:#fff; padding:4px 9px; border-radius:4px; font-size:0.78em; text-decoration:none; font-weight:bold;">📄 公式発表PDF公報 ↗</a>` : ''}
                         </div>
                     `);
                 });
             }
 
-            // 2. 地震・津波レイヤー
+            // 2. 地震・津波レイヤー (気象庁公式震源地座標辞書 & 震源情報なしはスキップ)
             if (natMapActiveLayers.eq && eq.history && eq.history.length > 0) {
-                const sampleCoords = [
-                    { place: '長野県中部', pos: [36.2, 137.9] },
-                    { place: '天草灘', pos: [32.4, 129.9] },
-                    { place: '熊本県熊本地方', pos: [32.8, 130.7] },
-                    { place: '鳥取県東部', pos: [35.5, 134.2] },
-                    { place: '沖縄本島近海', pos: [26.3, 128.0] }
-                ];
+                // 気象庁震源エリア名マッピング辞書
+                const EPICENTER_COORDS = {
+                    '天草灘': [32.4, 129.9], '長野県中部': [36.2, 137.9], '長野県北部': [36.7, 138.2], '長野県南部': [35.7, 137.8],
+                    '熊本県熊本地方': [32.8, 130.7], '熊本県阿蘇地方': [32.9, 131.1], '熊本県球磨地方': [32.2, 130.7], '熊本県天草・芦北地方': [32.3, 130.4],
+                    '鳥取県東部': [35.5, 134.2], '鳥取県西部': [35.3, 133.4], '鳥取県中部': [35.4, 133.8],
+                    '沖縄本島近海': [26.3, 128.0], 'トカラ列島近海': [29.5, 129.5], '奄美大島近海': [28.4, 129.6], '宮古島近海': [24.8, 125.3], '石垣島近海': [24.4, 124.2], '西表島付近': [24.3, 123.8],
+                    '能登半島沖': [37.5, 137.2], '能登半島地方': [37.2, 136.9], '石川県能登地方': [37.3, 137.0], '石川県加賀地方': [36.3, 136.4],
+                    '新潟県中越沖': [37.4, 138.4], '新潟県中越地方': [37.3, 138.9], '新潟県上越地方': [37.1, 138.2], '新潟県下越地方': [38.0, 139.3], '佐渡付近': [38.0, 138.3],
+                    '福島県沖': [37.5, 141.5], '福島県中通り': [37.5, 140.4], '福島県浜通り': [37.3, 141.0], '福島県会津': [37.3, 139.8],
+                    '宮城県沖': [38.3, 141.8], '宮城県北部': [38.6, 141.1], '宮城県南部': [38.0, 140.9],
+                    '岩手県沖': [39.5, 142.2], '岩手県沿岸北部': [40.0, 141.8], '岩手県沿岸南部': [39.1, 141.7], '岩手県内陸北部': [39.8, 141.2], '岩手県内陸南部': [39.0, 141.2],
+                    '三陸沖': [39.0, 143.5], '青森県東方沖': [41.2, 142.2], '青森県三八上北地方': [40.6, 141.3], '青森県津軽北部': [40.9, 140.5], '青森県津軽南部': [40.5, 140.5],
+                    '秋田県沿岸北部': [40.2, 140.0], '秋田県沿岸南部': [39.5, 140.0], '秋田県内陸北部': [40.2, 140.5], '秋田県内陸南部': [39.3, 140.5],
+                    '山形県庄内地方': [38.8, 139.9], '山形県村山地方': [38.4, 140.3], '山形県置賜地方': [38.0, 140.1], '山形県最上地方': [38.7, 140.3],
+                    '茨城県沖': [36.3, 141.0], '茨城県北部': [36.7, 140.5], '茨城県南部': [36.0, 140.1],
+                    '栃木県北部': [36.9, 139.8], '栃木県南部': [36.4, 139.8], '群馬県北部': [36.7, 138.9], '群馬県南部': [36.3, 139.0],
+                    '千葉県北東部': [35.7, 140.5], '千葉県北西部': [35.7, 140.1], '千葉県南部': [35.2, 140.0], '千葉県東方沖': [35.4, 140.8], '房総半島南方沖': [34.5, 140.5],
+                    '東京湾': [35.5, 139.9], '東京都２３区': [35.7, 139.7], '東京都多摩東部': [35.7, 139.5], '東京都多摩西部': [35.8, 139.1],
+                    '伊豆大島近海': [34.7, 139.3], '新島・神津島近海': [34.4, 139.2], '三宅島近海': [34.1, 139.5], '八丈島東方沖': [33.1, 140.0], '父島近海': [27.0, 142.2],
+                    '神奈川県東部': [35.4, 139.6], '神奈川県西部': [35.3, 139.1], '相模湾': [35.2, 139.4],
+                    '山梨県東部・富士五湖': [35.5, 138.8], '山梨県中・西部': [35.6, 138.5],
+                    '静岡県伊豆地方': [34.9, 138.9], '静岡県東部': [35.1, 138.8], '静岡県中部': [35.0, 138.3], '静岡県西部': [34.8, 137.9], '遠州灘': [34.5, 137.6], '駿河湾': [34.8, 138.5],
+                    '愛知県東部': [35.0, 137.4], '愛知県西部': [35.1, 136.9], '三河湾': [34.7, 137.1],
+                    '岐阜県美濃東部': [35.4, 137.3], '岐阜県美濃中西部': [35.5, 136.8], '岐阜県飛騨地方': [36.2, 137.2],
+                    '富山県東部': [36.8, 137.5], '富山県西部': [36.7, 137.0], '福井県嶺北': [36.0, 136.2], '福井県嶺南': [35.6, 135.8], '若狭湾': [35.7, 135.7],
+                    '三重県北部': [35.0, 136.5], '三重県中部': [34.6, 136.4], '三重県南部': [34.1, 136.2], '三重県南東沖': [33.8, 136.7],
+                    '滋賀県北部': [35.4, 136.1], '滋賀県南部': [35.0, 136.0], '京都府北部': [35.4, 135.2], '京都府南部': [35.0, 135.7],
+                    '大阪府北部': [34.8, 135.5], '大阪府南部': [34.4, 135.4],
+                    '兵庫県北部': [35.4, 134.7], '兵庫県南東部': [34.8, 135.2], '兵庫県南西部': [34.8, 134.6], '淡路島付近': [34.4, 134.9], '播磨灘': [34.6, 134.6],
+                    '和歌山県北部': [34.2, 135.3], '和歌山県南部': [33.8, 135.5], '和歌山県南方沖': [33.3, 135.4], '紀伊水道': [33.8, 134.9],
+                    '島根県東部': [35.3, 133.0], '島根県西部': [34.8, 132.0], '隠岐島近海': [36.2, 133.2],
+                    '岡山県北部': [35.1, 133.8], '岡山県南部': [34.6, 133.8], '広島県北部': [34.8, 132.8], '広島県南東部': [34.4, 133.2], '広島県南西部': [34.3, 132.4],
+                    '山口県北部': [34.4, 131.6], '山口県中部': [34.1, 131.4], '山口県東部': [34.1, 132.1],
+                    '徳島県北部': [34.1, 134.4], '徳島県南部': [33.8, 134.5], '香川県東部': [34.3, 134.2], '香川県西部': [34.2, 133.7],
+                    '愛媛県東予': [33.9, 133.2], '愛媛県中予': [33.8, 132.8], '愛媛県南予': [33.3, 132.5],
+                    '高知県東部': [33.5, 134.1], '高知県中部': [33.5, 133.5], '高知県西部': [33.2, 133.0],
+                    '豊後水道': [33.2, 132.2], '伊予灘': [33.6, 132.3], '周防灘': [33.8, 131.6], '安芸灘': [34.1, 132.6],
+                    '福岡県福岡地方': [33.6, 130.4], '福岡県北九州地方': [33.8, 130.8], '福岡県筑豊地方': [33.6, 130.7], '福岡県筑後地方': [33.2, 130.5],
+                    '佐賀県北部': [33.4, 130.0], '佐賀県南部': [33.2, 130.2], '長崎県北部': [33.2, 129.8], '長崎県南西部': [32.7, 129.9], '長崎県島原半島': [32.7, 130.3], '対馬近海': [34.4, 129.3], '壱岐・対馬近海': [34.1, 129.5],
+                    '大分県北部': [33.5, 131.4], '大分県中部': [33.2, 131.6], '大分県南部': [32.9, 131.6], '大分県西部': [33.2, 131.2],
+                    '宮崎県北部平野部': [32.5, 131.6], '宮崎県北部山沿い': [32.6, 131.3], '宮崎県南部平野部': [31.9, 131.4], '宮崎県南部山沿い': [31.9, 131.1], '日向灘': [32.0, 131.9],
+                    '鹿児島県薩摩地方': [31.8, 130.4], '鹿児島県大隅地方': [31.4, 130.9], '鹿児島県湾内': [31.5, 130.6], '種子島近海': [30.6, 131.1], '屋久島近海': [30.2, 130.6], '大隅半島東方沖': [31.3, 131.6], '薩摩半島西方沖': [31.4, 129.8],
+                    '釧路沖': [42.8, 144.5], '十勝沖': [42.2, 143.8], '根室半島南東沖': [43.1, 146.0], '浦河沖': [42.0, 142.8], '胆振地方中東部': [42.7, 141.9], '宗谷地方北部': [45.3, 141.7], '網走地方': [44.0, 144.2]
+                };
 
-                eq.history.slice(0, 6).forEach((h, idx) => {
-                    const foundCoord = sampleCoords.find(c => h.place.includes(c.place.substring(0, 2))) || { pos: [35.5 + idx * 0.8, 136.0 + idx * 1.2] };
+                const plottedEqKeys = new Set();
+                eq.history.slice(0, 12).forEach((h) => {
+                    const placeName = (h.place || '').trim();
+
+                    // 震源地が未確定・不明のデータ（震度速報段階）は地図プロット対象外
+                    if (!placeName || placeName.includes('震源情報なし') || placeName.includes('不明') || placeName === '-' || placeName === '調査中') {
+                        return;
+                    }
+
+                    // 震源地座標のマッチング
+                    let foundPos = null;
+                    let matchedPlace = '';
+                    for (const [key, pos] of Object.entries(EPICENTER_COORDS)) {
+                        if (placeName.includes(key) || key.includes(placeName)) {
+                            foundPos = pos;
+                            matchedPlace = key;
+                            break;
+                        }
+                    }
+
+                    // 震源地特定ができない場合は架空座標に打たず安全にスキップ
+                    if (!foundPos) {
+                        return;
+                    }
+
+                    // 同一発生時刻・同一震源地の重複プロット防止
+                    const eqKey = `${h.time}_${matchedPlace}`;
+                    if (plottedEqKeys.has(eqKey)) {
+                        return;
+                    }
+                    plottedEqKeys.add(eqKey);
+
                     const shindoNum = parseInt(h.shindo, 10) || 1;
                     const circleColor = shindoNum >= 5 ? '#ef4444' : (shindoNum >= 3 ? '#f59e0b' : '#38bdf8');
-                    const radius = Math.max(8, (parseFloat(h.magnitude) || 3) * 3);
+                    const radius = Math.max(9, (parseFloat(h.magnitude) || 3) * 3.2);
 
-                    const marker = L.circleMarker(foundCoord.pos, {
+                    const marker = L.circleMarker(foundPos, {
                         radius: radius,
                         fillColor: circleColor,
-                        color: '#fff',
-                        weight: 1.5,
+                        color: '#ffffff',
+                        weight: 2,
                         opacity: 1,
-                        fillOpacity: 0.75
+                        fillOpacity: 0.78
                     }).addTo(natMapLayerEq);
 
                     marker.bindPopup(`
-                        <div style="font-family:sans-serif; color:#0f172a; min-width:180px;">
-                            <div style="font-weight:900; color:${circleColor}; font-size:1em; margin-bottom:2px;">🌋 地震: 最大震度${escapeHtml(h.shindo)}</div>
-                            <div style="font-size:0.85em; font-weight:bold;">震源地: ${escapeHtml(h.place)} (M${escapeHtml(h.magnitude)})</div>
-                            <div style="font-size:0.75em; color:#64748b; margin-top:2px;">発生日時: ${escapeHtml(h.time)}</div>
-                            <div style="margin-top:6px;"><a href="https://www.data.jma.go.jp/multi/quake/?lang=jp" target="_blank" rel="noopener" style="color:#0284c7; font-size:0.78em; font-weight:bold;">気象庁公式地震情報 ↗</a></div>
+                        <div style="font-family:sans-serif; color:#0f172a; min-width:190px;">
+                            <div style="font-weight:900; color:${circleColor}; font-size:1em; margin-bottom:3px;">🌋 地震: 最大震度${escapeHtml(h.shindo)}</div>
+                            <div style="font-size:0.88em; font-weight:bold;">震源地: ${escapeHtml(placeName)} (M${escapeHtml(h.magnitude)})</div>
+                            <div style="font-size:0.75em; color:#64748b; margin-top:3px;">発生日時: ${escapeHtml(h.time)}</div>
+                            <div style="margin-top:6px;"><a href="https://www.data.jma.go.jp/multi/quake/?lang=jp" target="_blank" rel="noopener" style="color:#0284c7; font-size:0.78em; font-weight:bold; text-decoration:none;">気象庁公式地震情報 ↗</a></div>
                         </div>
                     `);
                 });

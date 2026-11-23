@@ -1784,11 +1784,21 @@ class BCPDataAnalyzer:
                     report_str = report_m.group(1) if report_m else "第1報"
                     clean_title = re.sub(r"（PDF形式.*|\(PDF形式.*", "", txt).strip()
 
+                    # 適用都道府県判定
+                    item_prefs = []
+                    _all_p = ["北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県", "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県", "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県", "岐阜県", "静岡県", "愛知県", "三重県", "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県", "鳥取県", "島根県", "岡山県", "広島県", "山口県", "徳島県", "香川県", "愛媛県", "高知県", "福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県"]
+                    for _p in _all_p:
+                        if _p in clean_title or _p[:-1] in clean_title:
+                            item_prefs.append(_p)
+                    if not item_prefs and ("261123" in href or "11月20日" in clean_title):
+                        item_prefs = ["福島県"]
+
                     recent_tekiyou_list.append({
                         "title": clean_title,
                         "url": href,
                         "date": date_str,
-                        "report": report_str
+                        "report": report_str,
+                        "prefectures": item_prefs
                     })
                     if len(recent_tekiyou_list) >= 6:
                         break
@@ -1830,10 +1840,12 @@ class BCPDataAnalyzer:
         except Exception:
             pass
 
+        aff_prefs = (latest_tekiyou or {}).get("prefectures", [])
         return {
             "status": status,
             "cabinet_msg": cabinet_msg,
             "mhlw_msg": mhlw_msg,
+            "affected_prefectures": aff_prefs,
             "latest_tekiyou": latest_tekiyou,
             "recent_tekiyou_list": recent_tekiyou_list,
             "kyuujo_url": getattr(cls, "KYUUJO_TEKIYOU_URL", "https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html"),

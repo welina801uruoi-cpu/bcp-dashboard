@@ -1630,36 +1630,53 @@ class BCPDataAnalyzer:
         water_msg = f"{loc_cfg['water_name']}: 管内大規模断水・漏水なし"
         gas_msg = f"{loc_cfg['gas_name']}: 供給安定（遮断等なし）"
 
-        # 1. Yahoo!停電情報
-        # 「停電が発生している都道府県」のセクション内にエリア内構成都道府県名が存在するかスキャン
+        # 1. Yahoo!停電情報 (全国構造化スクレイピング)
+        all_power_outages = []
         try:
             raw, charset = cls._http_get(cls.YAHOO_POWEROUTAGE_URL)
             html = raw.decode(charset, errors="replace")
             soup = BeautifulSoup(html, "html.parser")
-            page_text = soup.get_text(" ", strip=True)
 
-            marker = "停電が発生している都道府県"
-            end_marker = "情報提供："
-            start = page_text.find(marker)
+            arealst = soup.find(id="arealst")
+            if arealst:
+                for sec in arealst.find_all("section", class_="poweroutage_area"):
+                    h3 = sec.find("h3", class_="poweroutage_label")
+                    r_name = h3.get_text(strip=True) if h3 else ""
+                    for a in sec.find_all("a", href=True):
+                        span = a.find("span")
+                        p_name = span.get_text(strip=True) if span else ""
+                        if p_name:
+                            full_url = urllib.parse.urljoin("https://typhoon.yahoo.co.jp", a["href"])
+                            lvl = a.get("class", [""])[0] if a.get("class") else ""
+                            all_power_outages.append({
+                                "pref": p_name,
+                                "region": r_name,
+                                "url": full_url,
+                                "level": lvl
+                            })
 
-            if start >= 0:
-                end = page_text.find(end_marker, start)
-                active_section = page_text[start:end if end >= 0 else start + 3000]
-                
-                hit_power_prefs = []
-                for p in pref_names:
-                    short_p = p.replace("東京都", "東京").replace("府", "").replace("県", "")
-                    if p in active_section or short_p in active_section:
-                        hit_power_prefs.append(short_p)
+            outage_pref_names = [item["pref"] for item in all_power_outages]
+            hit_power_prefs = []
+            for p in pref_names:
+                clean_p = p.replace("東京都", "東京").replace("府", "").replace("県", "")
+                for op in outage_pref_names:
+                    clean_op = op.replace("東京都", "東京").replace("府", "").replace("県", "")
+                    if clean_p == clean_op or p == op:
+                        hit_power_prefs.append(op)
+                        break
 
-                if hit_power_prefs:
+            if loc_cfg.get("location_id") == "all" or loc_cfg.get("name") == "全国":
+                if all_power_outages:
                     power_alert = True
-                    power_msg = f"{loc_cfg['power_name']}: 【停電発生中】{ '・'.join(hit_power_prefs) }で停電情報を検知"
+                    power_msg = f"{loc_cfg['power_name']}: 【停電発生中】{'・'.join(outage_pref_names)}で停電情報を検知"
                 else:
-                    power_msg = f"{loc_cfg['power_name']}: 停電情報なし（{region_name}管内正常）"
+                    power_msg = f"{loc_cfg['power_name']}: 停電情報なし（全国正常送電中）"
+            elif hit_power_prefs:
+                power_alert = True
+                power_msg = f"{loc_cfg['power_name']}: 【停電発生中】{'・'.join(hit_power_prefs)}で停電情報を検知"
             else:
-                power_msg = f"{loc_cfg['power_name']}: 停電情報なし（全域正常）"
-        except Exception:
+                power_msg = f"{loc_cfg['power_name']}: 停電情報なし（{region_name}管内正常）"
+        except Exception as e:
             power_msg = f"{loc_cfg['power_name']}: 停電情報監視中（通信確認済）"
 
         # 2. 水道局
@@ -1703,6 +1720,7 @@ class BCPDataAnalyzer:
             "water_status": "ALERT" if water_alert else "NORMAL",
             "gas_status": "ALERT" if gas_alert else "NORMAL",
             "power_msg": power_msg,
+            "power_outages": all_power_outages,
             "water_msg": water_msg,
             "gas_msg": gas_msg,
             "power_url": loc_cfg['power_url'],

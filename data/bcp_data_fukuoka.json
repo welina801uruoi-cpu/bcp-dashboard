@@ -342,12 +342,38 @@
     "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "九州電力送配電: 停電情報なし（九州エリア管内正常）",
+    "power_msg": "九州電力送配電: 停電情報なし（管内正常送電）",
     "water_msg": "福岡市水道局: 供給安定（平常）",
     "gas_msg": "西部ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
     "water_url": "https://www.city.fukuoka.lg.jp/suido/",
-    "gas_url": "https://www.saibugas.co.jp/"
+    "gas_url": "https://www.saibugas.co.jp/",
+    "power_outages": [
+      {
+        "pref": "福島県",
+        "region": "東北",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/07/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "千葉県",
+        "region": "関東",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/12/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "長野県",
+        "region": "信越",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/20/",
+        "level": "poweroutageLevel2"
+      },
+      {
+        "pref": "岐阜県",
+        "region": "東海",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
+        "level": "poweroutageLevel2"
+      }
+    ]
   },
   "government": {
     "status": "ALERT",

@@ -321,12 +321,38 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東北電力NW: 【停電発生中】福島で停電情報を検知",
+    "power_msg": "東北電力NW: 【停電発生中】福島県で停電情報を検知",
     "water_msg": "仙台市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "仙台市ガス局: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
     "water_url": "https://www.suidou.city.sendai.jp/",
-    "gas_url": "https://www.gas.city.sendai.jp/"
+    "gas_url": "https://www.gas.city.sendai.jp/",
+    "power_outages": [
+      {
+        "pref": "福島県",
+        "region": "東北",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/07/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "千葉県",
+        "region": "関東",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/12/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "長野県",
+        "region": "信越",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/20/",
+        "level": "poweroutageLevel2"
+      },
+      {
+        "pref": "岐阜県",
+        "region": "東海",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
+        "level": "poweroutageLevel2"
+      }
+    ]
   },
   "government": {
     "status": "ALERT",

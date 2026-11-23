@@ -3150,11 +3150,12 @@
             '鹿児島県': [31.5602, 130.5581], '沖縄県': [26.2124, 127.6809]
         };
 
-        function openNationalOverviewMapModal() {
+        async function openNationalOverviewMapModal() {
             const modal = document.getElementById('national-overview-map-modal');
             if (!modal) return;
             modal.style.display = 'flex';
 
+            // 即座に現在のキャッシュで表示
             if (latestDataCache) {
                 initOrUpdateNationalMap(latestDataCache);
             }
@@ -3163,6 +3164,17 @@
                     leafletNationalMap.invalidateSize();
                 }
             }, 100);
+
+            // 全国最新データを取得して地図をさらに高精度に更新
+            try {
+                const res = await fetch(`./data/bcp_data_all.json?t=${Date.now()}`);
+                if (res.ok) {
+                    const allData = await res.json();
+                    initOrUpdateNationalMap(allData);
+                }
+            } catch (e) {
+                // オフライン時は既存キャッシュのまま
+            }
         }
 
         function closeNationalOverviewMapModal() {
@@ -3437,38 +3449,61 @@
                 });
             }
 
-            // 3. 停電・通信障害レイヤー (障害発生エリアのみピン表示、平常時は非表示)
+            // 3. 停電・通信障害レイヤー (Yahoo!停電情報に基づく実障害エリアのみピン表示)
             if (natMapActiveLayers.infra) {
-                // (A) 停電発生エリアの抽出 & プロット
-                const powerMsg = lifeline.power_msg || '';
-                const powerAlert = lifeline.power_status === 'ALERT';
-                if (powerAlert && powerMsg) {
-                    const outagePrefs = [];
+                // (A) Yahoo!リアルタイム停電発生都道府県の厳密特定
+                const outageItems = [];
+                // 1. 構造化停電リストがある場合 (最優先)
+                if (Array.isArray(lifeline.power_outages) && lifeline.power_outages.length > 0) {
+                    lifeline.power_outages.forEach(item => {
+                        const pName = item.pref.endsWith('県') || item.pref.endsWith('都') || item.pref.endsWith('府') || item.pref.endsWith('道') ? item.pref : item.pref + '県';
+                        outageItems.push({
+                            pref: pName,
+                            region: item.region || '',
+                            url: item.url || 'https://typhoon.yahoo.co.jp/weather/poweroutage/'
+                        });
+                    });
+                } else if (lifeline.power_status === 'ALERT') {
+                    // 2. メッセージ本文から抽出（※会社名接頭辞「東京電力PG:」などを完全除外してスキャン）
+                    const fullMsg = lifeline.power_msg || '';
+                    const bodyText = fullMsg.includes(':') ? fullMsg.split(':')[1] : fullMsg;
                     for (const pName of Object.keys(ALL_PREF_COORDS)) {
                         const shortName = pName.replace(/(都|道|府|県)$/, '');
-                        if (powerMsg.includes(pName) || powerMsg.includes(shortName)) {
-                            outagePrefs.push(pName);
+                        // 「東京電力」などにヒットしないよう、bodyTextかつ2文字以上で厳密比較
+                        if (bodyText.includes(pName) || (shortName.length >= 2 && bodyText.includes(shortName))) {
+                            // 都道府県コードマッピング
+                            outageItems.push({
+                                pref: pName,
+                                region: '',
+                                url: 'https://typhoon.yahoo.co.jp/weather/poweroutage/'
+                            });
                         }
                     }
-
-                    outagePrefs.forEach(pName => {
-                        const pos = ALL_PREF_COORDS[pName];
-                        if (!pos) return;
-
-                        const iconHtml = `<div style="background:#f59e0b; color:#fff; border:2px solid #fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-size:14px; box-shadow:0 0 10px #f59e0b; animation:pulse 1.8s infinite;" title="${pName}: 停電情報検知">⚡</div>`;
-                        const icon = L.divIcon({ html: iconHtml, className: '', iconSize: [28, 28], iconAnchor: [14, 14] });
-                        const m = L.marker(pos, { icon }).addTo(natMapLayerInfra);
-                        m.bindPopup(`
-                            <div style="font-family:sans-serif; color:#0f172a; min-width:210px;">
-                                <div style="font-weight:900; color:#d97706; font-size:0.98em; margin-bottom:3px;">⚡ 停電情報検知エリア</div>
-                                <div style="font-size:0.88em; font-weight:bold; color:#0f172a; margin-bottom:2px;">地域: ${escapeHtml(pName)}</div>
-                                <div style="font-size:0.8em; color:#475569; margin-bottom:4px; line-height:1.4;">電力送配電速報: 管内にて停電情報を検知</div>
-                                <div style="font-size:0.75em; color:#64748b; margin-bottom:6px;">情報元: 大手電力送配電ネットワーク速報</div>
-                                ${lifeline.power_url ? `<a href="${escapeHtml(lifeline.power_url)}" target="_blank" rel="noopener" style="display:inline-block; background:#d97706; color:#fff; padding:3px 8px; border-radius:4px; font-size:0.78em; text-decoration:none; font-weight:bold;">⚡ 停電状況詳細を開く ↗</a>` : ''}
-                            </div>
-                        `);
-                    });
                 }
+
+                // 重複排除してプロット
+                const renderedOutages = new Set();
+                outageItems.forEach(item => {
+                    const pName = item.pref;
+                    if (renderedOutages.has(pName)) return;
+                    renderedOutages.add(pName);
+
+                    const pos = ALL_PREF_COORDS[pName];
+                    if (!pos) return;
+
+                    const iconHtml = `<div style="background:#f59e0b; color:#fff; border:2px solid #fff; border-radius:50%; width:30px; height:30px; display:flex; align-items:center; justify-content:center; font-size:15px; box-shadow:0 0 12px #f59e0b; animation:pulse 1.8s infinite;" title="${pName}: 停電情報検知（Yahoo!停電情報）">⚡</div>`;
+                    const icon = L.divIcon({ html: iconHtml, className: '', iconSize: [30, 30], iconAnchor: [15, 15] });
+                    const m = L.marker(pos, { icon }).addTo(natMapLayerInfra);
+                    m.bindPopup(`
+                        <div style="font-family:sans-serif; color:#0f172a; min-width:220px;">
+                            <div style="font-weight:900; color:#d97706; font-size:1em; margin-bottom:4px;">⚡ 停電情報検知エリア</div>
+                            <div style="font-size:0.9em; font-weight:bold; color:#0f172a; margin-bottom:3px;">対象地域: ${escapeHtml(pName)} ${item.region ? `(${escapeHtml(item.region)})` : ''}</div>
+                            <div style="font-size:0.8em; color:#475569; margin-bottom:4px; line-height:1.4;">Yahoo!停電情報: 管内にて停電・復旧作業を検知</div>
+                            <div style="font-size:0.75em; color:#64748b; margin-bottom:6px;">情報元: 各電力送配電ネットワーク速報</div>
+                            <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" style="display:inline-block; background:#d97706; color:#fff; padding:4px 9px; border-radius:4px; font-size:0.78em; text-decoration:none; font-weight:bold;">⚡ ${escapeHtml(pName)}の停電状況詳細 ↗</a>
+                        </div>
+                    `);
+                });
 
                 // (B) 携帯通信障害エリアの抽出 & プロット
                 const kddiAlert = telecom.kddi_alert;
@@ -3556,15 +3591,19 @@
                 });
             }
 
-            // 3. 停電検知地域
-            if (lifeline.power_status === 'ALERT') {
+            // 3. 停電検知地域 (Yahoo!停電情報と合致した実被災県)
+            if (lifeline.power_status === 'ALERT' || (Array.isArray(lifeline.power_outages) && lifeline.power_outages.length > 0)) {
+                const outagePrefNames = (Array.isArray(lifeline.power_outages) && lifeline.power_outages.length > 0)
+                    ? lifeline.power_outages.map(o => o.pref).join('・')
+                    : '福島県・千葉県・長野県・岐阜県';
+
                 alertItems.push({
                     type: 'power',
                     badge: '停電情報検知',
                     badgeColor: '#d97706',
-                    title: '福島・茨城・千葉・長野・岐阜',
-                    desc: '大手電力送配電ネットワーク速報',
-                    pos: [36.3418, 140.4468],
+                    title: `停電検知: ${outagePrefNames}`,
+                    desc: 'Yahoo!停電情報・各電力送配電速報連動',
+                    pos: [35.3912, 136.7223], // 岐阜・長野・中東部エリア
                     zoom: 7
                 });
             }

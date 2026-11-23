@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 12:40:05",
+  "timestamp": "2026-11-23 13:59:47",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -113,11 +113,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-23 19:50",
+    "time": "2026-11-23 22:22",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "2.3",
+    "magnitude": "2.2",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-23 22:22",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.2",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-23 19:50",
         "place": "熊本県天草・芦北地方",
@@ -180,13 +187,6 @@
         "shindo": "1",
         "magnitude": "2.7",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-23 04:31",
-        "place": "熊本県熊本地方",
-        "shindo": "1",
-        "magnitude": "3",
-        "maxScale": 10
       }
     ]
   },
@@ -202,10 +202,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 3地域】千葉、神奈川、栃木（警報なし）",
+    "summary": "【注意報発表: 2地域】千葉、神奈川（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 3,
+    "notice_count": 2,
     "total_prefs": 8,
     "pref_details": [
       {
@@ -227,9 +227,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報"
+          "波浪注意報",
+          "乾燥注意報",
+          "強風注意報"
         ],
-        "summary": "乾燥注意報",
+        "summary": "波浪注意報、乾燥注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -271,13 +273,11 @@
         "code": "9",
         "name": "栃木県",
         "short_name": "栃木",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "乾燥注意報"
-        ],
-        "summary": "乾燥注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/9/"
       },
       {
@@ -312,21 +312,23 @@
     "notice_items": []
   },
   "transit": {
-    "status": "NORMAL",
-    "text": "全線平常運行中",
+    "status": "ALERT",
+    "text": "運行支障あり（新幹線: 東海道新幹線（列車遅延））",
     "line_status": "NORMAL",
     "line_text": "全線平常運行中",
-    "shinkansen_status": "NORMAL",
-    "shinkansen_text": "全線平常運行中",
+    "shinkansen_status": "ALERT",
+    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [],
-    "troubled_shinkansen": [],
+    "troubled_shinkansen": [
+      "東海道新幹線（列車遅延）"
+    ],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
-        "status": "NORMAL",
-        "state": "平常運転",
-        "detail": "20:40現在、ほぼ平常通り運転しています。（11月23日 20時40分掲載）",
+        "status": "ALERT",
+        "state": "列車遅延",
+        "detail": "新横浜駅での安全確認の影響で、下り線(新大阪方面行)の一部列車に遅れが出ています。（11月23日 21時40分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       },
       {
@@ -412,12 +414,6 @@
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
         "level": "poweroutageLevel2"
-      },
-      {
-        "pref": "鳥取県",
-        "region": "中国",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/31/",
-        "level": "poweroutageLevel1"
       }
     ],
     "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
@@ -526,22 +522,22 @@
     {
       "keyword": "au 障害",
       "status": "NORMAL",
-      "trend": "FLAT",
-      "trend_label": "➡️ 平常",
-      "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 5 件です。",
       "recent_posts": [
         {
-          "time": "11/23 10:58",
-          "text": "START au END ひかりって本当にクソだな。 朝からネットが繋がらなくなり、朝電話かけたところ START 障害 END との事。 で、 START a..."
+          "time": "11/23 13:58",
+          "text": "家の START au END 光つながらなくなった。通信 START 障害 END ？"
         },
         {
-          "time": "11/23 10:31",
-          "text": "START au END 通信 START 障害 END かしら？"
+          "time": "11/23 13:43",
+          "text": "START au END 光回線の START 障害 END とか起きてたんだねぇ だから相手の通話安定してなかったのかな？"
         },
         {
-          "time": "11/23 10:26",
-          "text": "【通信はライフラインです📶】 災害や通信 START 障害 END で、 メイン回線が使えなくなることも。 楽天モバイルなら約1,000円で3GB＋通話かけ放題..."
+          "time": "11/23 13:17",
+          "text": "札幌で START au END ひかりが死んでおりました 30分ぐらい 止まってたんだけれども 実際のところ どのぐらい 止まってたのかわかんない 30分の根..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -575,8 +571,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/23 13:03",
+          "text": "START au END ひかり、ランプついてるのにネット START 繋がらない END んだが有識者おらんか"
+        },
         {
           "time": "11/23 10:27",
           "text": "@GRIFFIN_KASHIWA START au END もだったのですね！ドコモは移動基地局車？が来ていたのは見かけたのですがそれでも足りてない感じでした。..."
@@ -584,10 +584,6 @@
         {
           "time": "11/23 08:18",
           "text": "羽田空港 START au END 1ミリも START 繋がらない END な"
-        },
-        {
-          "time": "11/23 07:54",
-          "text": "@iihawabeauty 他にも地下だと START 繋がらない END って聞きますしね。私は START au END 使ってます。"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -617,9 +613,9 @@
     }
   ],
   "sns_heatmap": {
-    "total_mentions": 0,
-    "top_region": "全国平穏",
-    "top_count": 0,
+    "total_mentions": 1,
+    "top_region": "北海道",
+    "top_count": 1,
     "regions": [
       {
         "id": "hokkaido",
@@ -627,12 +623,20 @@
         "lat": 43.0642,
         "lon": 141.3469,
         "zoom": 7,
-        "count": 0,
+        "count": 1,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
+        "detected_words": [
+          "札幌"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "au 障害",
+            "time": "11/23 13:17",
+            "text": "札幌で START au END ひかりが死んでおりました 30分ぐらい 止まってたんだけれども 実際のところ どのぐらい 止まってたのかわかんない 30分の根..."
+          }
+        ]
       },
       {
         "id": "tohoku",
@@ -759,12 +763,20 @@
         "lat": 43.0642,
         "lon": 141.3469,
         "zoom": 7,
-        "count": 0,
+        "count": 1,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
+        "detected_words": [
+          "札幌"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "au 障害",
+            "time": "11/23 13:17",
+            "text": "札幌で START au END ひかりが死んでおりました 30分ぐらい 止まってたんだけれども 実際のところ どのぐらい 止まってたのかわかんない 30分の根..."
+          }
+        ]
       },
       {
         "id": "tohoku",
@@ -903,7 +915,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 14,
+    "disaster_count": 11,
     "articles": [
       {
         "title": "【独自】災害対策本部は東京圏以外に設置　副首都など、首都直下地震に備え(共同通信)",
@@ -994,28 +1006,28 @@
         "is_disaster": true
       },
       {
-        "title": "「八代妙見祭」の代替行事開催　熊本復興へ「地域の絆つなぐ」(共同通信)",
-        "summary": "国連教育科学文化機関（ユネスコ）無形文化遺産の一つに登録され、熊本地震の影響で中止となった「八代妙見祭」に代わる復興祈願行事が23日、八代神社（熊本県八代市）で開かれた。寒空の下、境内で獅子などが力強",
-        "pub_date": "11/23 17:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/c34e76db85fdef779fc95b174fd61635ebfadcd5?source=rss",
+        "title": "裸で自然と一体に…「ナチュリスト」とは？「G7で公的に認められていないのは日本だけ」と当事者主張 野外全裸は違法なのか(ABEMA TIMES)",
+        "summary": "露天風呂や人目につかないビーチなどで、全裸になって自然との一体感を楽しむ「ナチュリスト」と呼ばれる人々がいる。【映像】自然と一体 ナチュリストたちの活動の様子 海外では自治体がヌーディスト専用区域を設",
+        "pub_date": "11/23 22:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/dda438d4a9ad87a509756cf806bc7220b68266a2?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "24日は全国的に雨が降り、風が強まる見込み　局地的に激しい雨が降るおそれ　関東では昼過ぎから夕方は雨が降る見込み(FNNプライムオンライン)",
-        "summary": "日本気象協会によりますと、24日（火）は寒冷前線が本州付近を通過するため、全国的に雨が降り、風が強まる見込みです。局地的にカミナリや突風を伴い、激しい雨が降るおそれがあるということです。落雷や竜巻など",
-        "pub_date": "11/23 17:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/6f74c83ea77e55b8889eeff93d4dac771d4932ed?source=rss",
+        "title": "中国の「塩対応」は大人げない？　公明・山口那津男氏「高市さんの発言がきっかけだ」(産経新聞)",
+        "summary": "公明党の山口那津男元代表は23日配信の「選挙ドットコムちゃんねる」の番組で、中国・深圳で開かれたアジア太平洋経済協力会議（APEC）首脳会議での高市早苗首相に対する中国側の冷遇について、「各国首脳と明",
+        "pub_date": "11/23 21:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/865d9eb84458cd29ca3bcd876c6a50ecb7eb768b?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "連休明けは全国的に雨や雷雨　風強まり荒天のおそれ　土砂災害や強風、高波などに注意(ウェザーマップ)",
-        "summary": "連休明けの24日(火)は前線が通過するため、全国的に天気が崩れます。北海道や西日本から雨の範囲が広がり、午後は東日本も含め、広く本降りの雨や雷雨となるでしょう。風も強まって、荒れた天気になる所もありま",
-        "pub_date": "11/23 17:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/b40c57e54686af7ca71379564b87bc124fc2d8c8?source=rss",
+        "title": "青木さやかさんらが愛知･蟹江町で体験型演劇「イマーシブシアター」上演 地元出身のミステリー作家「小酒井不木」の世界観を表現  観客が謎を解く…(CBCテレビ)",
+        "summary": "タレントの青木さやかさんらが、街の魅力を発信する観客参加型の演劇の公演を、愛知県蟹江町で行いました。【写真を見る】青木さやかさんらが愛知･蟹江町で体験型演劇「イマーシブシアター」上演 地元出身のミステ",
+        "pub_date": "11/23 21:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/66fba703866b2f585c42118f1bc3c911ee657f89?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
         "title": "【関文科相に政治資金規正法違反の疑い】自宅家賃420万円を政治資金で支出していた(文春オンライン)",
@@ -1026,7 +1038,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 21:39:50 JST"
+    "last_updated": "2026-11-23 22:59:36 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1047,10 +1059,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "craQylHtSO4",
+        "video_id": "uuWebY2werQ",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/craQylHtSO4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=craQylHtSO4"
+        "embed_url": "https://www.youtube.com/embed/uuWebY2werQ?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=uuWebY2werQ"
       },
       {
         "id": "stream_tbsnews",
@@ -1069,10 +1081,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "kPPXZ4Gtyd0",
+        "video_id": "TjjRnGabCMI",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/kPPXZ4Gtyd0?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=kPPXZ4Gtyd0"
+        "embed_url": "https://www.youtube.com/embed/TjjRnGabCMI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=TjjRnGabCMI"
       },
       {
         "id": "stream_annnews",

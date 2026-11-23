@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 21:17:16",
+  "timestamp": "2026-11-23 22:02:22",
   "location": {
     "name": "那覇",
     "region_name": "沖縄エリア",
@@ -136,10 +136,10 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "雷注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -319,8 +319,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/23 21:39",
+          "text": "26/11/24 START 障害 END 情報を掲載しました。最新情報 https://t.co/oPLdSEZlUo をご確認ください。 ご迷惑をおかけして..."
+        },
         {
           "time": "11/23 17:17",
           "text": "START au END がドコモにじわりじわりと近づいてってる 7月〜9月でドコモの契約数だけマイナス60万件とか、、、 11月の通信 START 障害 EN..."
@@ -328,10 +332,6 @@
         {
           "time": "11/23 15:15",
           "text": "@shirodayo_12 通信会社(docomo START au END SoftBank)の 基地局の バッテリーも アウトで 通信 START 障害 E..."
-        },
-        {
-          "time": "11/23 15:13",
-          "text": "START au END 電波 START 障害 END ？それとも私のすまほが呪われてる？サーバー攻撃されてる？ 情報全部あげるからTwitter見させてお願..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -697,7 +697,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 7,
     "articles": [
       {
         "title": "患者安全実現へ病院長研修　義務化で事故調査適正に(共同通信)",
@@ -756,28 +756,52 @@
         "is_disaster": true
       },
       {
-        "title": "【動画】24日の天気 - 広い範囲で雨 落雷・突風・ひょう注意　次第に冷たい風が強まり夜は冷え込む（23日19時更新）(ウェザーマップ)",
-        "summary": "24日(火)は広い範囲で雨が降るでしょう。大気の状態が非常に不安定で、落雷・突風・ひょう・局地的な激しい雨に注意が必要です。次第に大陸から強い寒気がやってきて風も強まります。夜はグッと冷えてきそうです",
-        "pub_date": "11/23 19:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/03f5095102e32251804529e9a98ef015f71d84d4?source=rss",
+        "title": "〈政府広報に「バズり」は必要か〉ナオキマン起用の広報事業は最大1.5億円、法務省は『ラヴ上等』とコラボ撤回、農水省では当時の副大臣がダンス…相次ぐ炎上騒動で問われる広報のあり方(集英社オンライン)",
+        "summary": "都市伝説系YouTuberのナオキマンを政府広報に起用し、批判を浴びた内閣府。法務省はNetflixの人気番組『ラヴ上等』とのコラボを撤回し、農林水産省では職員らが踊る過去の動画が再び物議を醸した。【",
+        "pub_date": "11/24 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/5f422807d5335244fd5befe8489d8ff277200513?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "【蓬莱さんのお天気】あす24日　近畿地方は朝から雨、昼頃には強い雨・落雷・突風に注意、夜からは北風強まり冬の寒さ　週末は寒さ和らぐ予想(読売テレビ)",
-        "summary": "「かんさい情報ネットten.」蓬莱さんのお天気コーナーです。詳しくは動画をご覧ください。（11月23日放送）",
-        "pub_date": "11/23 19:19 JST",
-        "link": "https://news.yahoo.co.jp/articles/8a3627a27daf19a7917af26737732a6669c293a6?source=rss",
+        "title": "標的をリアルタイムで追跡し、攻撃の瞬間を知らせる…イスラエル軍が使ったAI「父さんはどこ？」とは(AERA DIGITAL)",
+        "summary": "戦争の現場で、AIの存在感が増している。イスラエル軍はガザへの攻撃で、膨大なデータから標的を選び、その動きを追跡するAIを使用した。人間が担ってきた「誰を、いつ攻撃するか」という判断は、AIによってど",
+        "pub_date": "11/24 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/26f9beb1d9b3f7322e0f9b3a10a48e0109373584?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "阪神･淡路大震災も熊本地震も\"前兆\"だった…京大名誉教授が割り出した南海トラフ巨大地震の｢発生時期｣(プレジデントオンライン)",
-        "summary": "南海トラフ巨大地震はいつ起きるのか。京都大学名誉教授の鎌田浩毅さんは「南海地震の前後で土地の上下変動の大きさを調べてみると、1回の地震で大きく隆起するほど、そこでの次の地震までの時間が長くなる、という",
-        "pub_date": "11/23 19:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/f0712643ac1aa66b9df04edc5c6f68c998949d66?source=rss",
+        "title": "駅前のブロック「排除アートでは」公共空間への“正解”はないけれど　「私たちはもっと言葉にしていい」(withnews by 朝日新聞)",
+        "summary": "この夏、JR大阪駅前の一角に並べられたコンクリートブロックが、SNSを中心に「排除アートでは」と指摘される事態が起こりました。人の立ち入りを防ぐために大阪市が行った工事でしたが、批判を受けた市は対応を",
+        "pub_date": "11/24 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/a910f08a5a92e2ab9ad9e75fd7126b989a9fa112?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "寒冷前線が通過し全国的に荒れた天気　激しい雨や雷雨に注意　今日24日(火)の天気(日本気象協会tenki.jp)",
+        "summary": "今日24日(火)は、寒冷前線が日本列島を通過し、全国的に雨や雷雨となるでしょう。九州から近畿では午前中を中心に、東海や関東、東北では午後に雨が強まる見込みです。北海道の日本海側では、夕方以降は雨が雪に",
+        "pub_date": "11/24 06:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/f21d7b25a372c26eaad9355b10dd07c1221b9221?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "名古屋の東山動植物園「人気動物ベストテン」1位のレッサーパンダは3連休中も大人気 4位に初のランクイン果たしたマヌルネコ 東山では23年ぶりに飼育下で赤ちゃん誕生し話題に(CBCテレビ)",
+        "summary": "（松本道弥アナウンサー 名古屋・千種区 11月23日午前9時過ぎ）「三連休の最終日、午前9時オープンとともに続々と人が入ってきています」【写真を見る】名古屋の東山動植物園「人気動物ベストテン」1位のレ",
+        "pub_date": "11/24 06:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/1ff5e5be55a63f3acf35220766499970c7f433a5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "高市首相がAPECで直面した「中国の冷遇」は過去の「非礼」の報い　中国が許せなかった習近平氏の“顔に泥を塗る”行為とは　古賀茂明(AERA DIGITAL)",
+        "summary": "高市早苗首相にとって、10月18、19日に中国・深圳で開催されたAPEC首脳会議は、まさに悪夢だった。始まる前から帰国後まで、何から何までが屈辱に満ちていた。【写真】高市早苗首相と握手を交わす習近平国",
+        "pub_date": "11/24 06:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/d9acfd28c3cf224eead2a871ffc6618b8ae57a43?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "「貧乏レンコン」が1本5000円でも売れた本当の理由(デイリー新潮)",
@@ -794,33 +818,9 @@
         "link": "https://news.yahoo.co.jp/articles/c3abce6c1fc8bcccadb36690ef4577904146046e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "身元保証ビジネスでトラブル続出「老人ホームに入れなくなったら困る…」120万円請求された81歳「女性」の後悔(デイリー新潮)",
-        "summary": "単身世帯が4割を超えた日本。親族がいても迷惑をかけたくないため一人暮らしを選ぶ高齢者も少ない。独居老人が増える中、彼らが直面するのが、病院の入院や介護施設に入所する際に必要となる「身元保証人」の存在だ",
-        "pub_date": "11/24 06:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/16d445c52ac4a27b089c7b1036af2442f60b0960?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "窃盗や放火など犯罪の温床に…空き家増加の背景に『家じまい』の難しさか 相談サービス始めたベンチャー企業も(FNNプライムオンライン)",
-        "summary": "人口減少や高齢化が進み空き家が増える中、今、空き家を狙った窃盗事件が相次いでいます。空き家を減らすため、企業が「家じまい」を後押しする動きも出てきました。【動画で見る】窃盗や放火など犯罪の温床に…空き",
-        "pub_date": "11/24 06:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/cb9a1e87a84d4da1182a0e19cf0f12a5594098b9?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「生きた心地のしなかった」外交のプロが告白する「野田佳彦」総理時代の珍事とは？　知られざるアメリカ外交の舞台裏を覗く（Bookレビュー）(Book Bang)",
-        "summary": "政治記者になって30年余り、数えきれない外交舞台に立ち会ってきた。そこは各国の利害とプライドが激突する勝負の場だったが、私が見てきたのは表の舞台に過ぎなかった。本書『知られざるアメリカ外交儀礼』（大久",
-        "pub_date": "11/24 06:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/e37b0c1e98de0a21d16a4d334ec71c89d056fb5c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 06:17:13 JST"
+    "last_updated": "2026-11-24 07:01:39 JST"
   },
   "live_media": {
     "default_camera_id": "cam_naha_kokusai",
@@ -885,10 +885,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "kGG1CaeQ9oM",
+        "video_id": "Do_Vg6AjKVw",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/kGG1CaeQ9oM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=kGG1CaeQ9oM"
+        "embed_url": "https://www.youtube.com/embed/Do_Vg6AjKVw?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Do_Vg6AjKVw"
       }
     ],
     "cameras": [

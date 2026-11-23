@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-24 02:41:44",
-  "timestamp_local": "2026-11-23 19:41:44",
+  "timestamp": "2026-11-24 03:33:18",
+  "timestamp_local": "2026-11-23 20:33:18",
   "country": {
     "id": "germany",
     "name": "ドイツ",
@@ -414,6 +414,14 @@
         "tsunami": 0
       },
       {
+        "mag": 4.5,
+        "place": "Kepulauan Babar, Indonesia",
+        "time": "11/23 15:47 JST",
+        "depth_km": 117.725,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucwx",
+        "tsunami": 0
+      },
+      {
         "mag": 4.7,
         "place": "109 km E of Bitung, Indonesia",
         "time": "11/23 15:28 JST",
@@ -467,14 +475,6 @@
         "time": "11/23 09:08 JST",
         "depth_km": 50.25,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucv4",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "226 km NW of Tobelo, Indonesia",
-        "time": "11/23 08:50 JST",
-        "depth_km": 40.004,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucv2",
         "tsunami": 0
       }
     ]
@@ -654,8 +654,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/23 17:52",
+          "text": "フランクフルト空港 にもどったら、ラウンジでシャワー浴びてから本日二回目のラウンジおじさん。ドイツビールはこれで当分飲み納めかな。 http..."
+        },
         {
           "time": "11/23 10:53",
           "text": "プラハから フランクフルト空港 Ｔ2到着後、Ｔ3へ。スカイトレインで10分ぐらいかかり、めちゃくちゃ遠いです！ ラウンジでプレッツェル🥨と ..."
@@ -663,10 +667,6 @@
         {
           "time": "11/23 09:02",
           "text": "徹夜でヒルトンプラハのカジノにいて、なんとかちょっと負けてる程度ぐらいに回復したと思います。 未計算ですが勝つまでには至ってないと思います。 でも、マジ助かった..."
-        },
-        {
-          "time": "11/23 06:23",
-          "text": "飛行機好きには、たいへんありがたいYouTubeの 空港 からのライブ配信 羽田や成田は勿論、新千歳やセントレア、伊丹や福岡までほぼ全国の ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%95%E3%83%A9%E3%83%B3%E3%82%AF%E3%83%95%E3%83%AB%E3%83%88%20%E7%A9%BA%E6%B8%AF"
@@ -755,32 +755,32 @@
     "default_channel_id": "stream_dw"
   },
   "forex": {
-    "timestamp": "11/24 02:41 JST",
+    "timestamp": "11/24 03:33 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.27,
-      "change": -0.44,
-      "change_pct": -0.27,
+      "rate": 159.17,
+      "change": -0.53,
+      "change_pct": -0.33,
       "direction": "down"
     },
     "local_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 173.4,
-      "change": -1.77,
-      "change_pct": -1.01,
+      "rate": 173.29,
+      "change": -1.88,
+      "change_pct": -1.07,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 173.4,
-      "change": -1.77,
-      "change_pct": -1.01
+      "rate": 173.29,
+      "change": -1.88,
+      "change_pct": -1.07
     }
   },
   "airports": [
@@ -838,12 +838,12 @@
         "is_capital": true,
         "lat": 52.52,
         "lon": 13.405,
-        "temp": 1.6,
-        "apparent_temp": -3.3,
-        "humidity": 83,
-        "wind_speed": 18.0,
-        "wind_gusts": 38.5,
-        "precipitation": 0.1,
+        "temp": 1.3,
+        "apparent_temp": -3.2,
+        "humidity": 86,
+        "wind_speed": 15.8,
+        "wind_gusts": 35.6,
+        "precipitation": 0.0,
         "weather_code": 71,
         "weather_label": "❄️ 降雪 (小雪)",
         "forecast": [
@@ -853,12 +853,12 @@
             "temp_min": 0.3,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 1.0
+            "precipitation_mm": 0.8
           },
           {
             "date": "11/24(火)",
             "temp_max": 2.7,
-            "temp_min": 0.4,
+            "temp_min": 0.5,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
             "precipitation_mm": 0.0
@@ -883,11 +883,11 @@
         "is_capital": false,
         "lat": 50.1109,
         "lon": 8.6821,
-        "temp": 1.9,
-        "apparent_temp": -1.0,
-        "humidity": 70,
-        "wind_speed": 2.2,
-        "wind_gusts": 4.0,
+        "temp": 0.9,
+        "apparent_temp": -1.7,
+        "humidity": 81,
+        "wind_speed": 1.1,
+        "wind_gusts": 1.8,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -895,15 +895,15 @@
           {
             "date": "11/23(月)",
             "temp_max": 4.1,
-            "temp_min": -0.9,
+            "temp_min": -1.0,
             "weather_code": 2,
             "weather_label": "⛅ 晴れ時々曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/24(火)",
-            "temp_max": 2.5,
-            "temp_min": -3.9,
+            "temp_max": 2.0,
+            "temp_min": -3.8,
             "weather_code": 45,
             "weather_label": "🌫️ 霧",
             "precipitation_mm": 0.0
@@ -928,11 +928,11 @@
         "is_capital": false,
         "lat": 48.1351,
         "lon": 11.582,
-        "temp": 1.0,
-        "apparent_temp": -2.6,
-        "humidity": 64,
-        "wind_speed": 5.6,
-        "wind_gusts": 16.6,
+        "temp": 0.3,
+        "apparent_temp": -3.1,
+        "humidity": 65,
+        "wind_speed": 3.6,
+        "wind_gusts": 8.3,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -940,15 +940,15 @@
           {
             "date": "11/23(月)",
             "temp_max": 2.6,
-            "temp_min": -0.5,
+            "temp_min": -0.7,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/24(火)",
-            "temp_max": 2.5,
-            "temp_min": -1.8,
+            "temp_max": 2.4,
+            "temp_min": -2.2,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -974,12 +974,12 @@
       "is_capital": true,
       "lat": 52.52,
       "lon": 13.405,
-      "temp": 1.6,
-      "apparent_temp": -3.3,
-      "humidity": 83,
-      "wind_speed": 18.0,
-      "wind_gusts": 38.5,
-      "precipitation": 0.1,
+      "temp": 1.3,
+      "apparent_temp": -3.2,
+      "humidity": 86,
+      "wind_speed": 15.8,
+      "wind_gusts": 35.6,
+      "precipitation": 0.0,
       "weather_code": 71,
       "weather_label": "❄️ 降雪 (小雪)",
       "forecast": [
@@ -989,12 +989,12 @@
           "temp_min": 0.3,
           "weather_code": 80,
           "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 1.0
+          "precipitation_mm": 0.8
         },
         {
           "date": "11/24(火)",
           "temp_max": 2.7,
-          "temp_min": 0.4,
+          "temp_min": 0.5,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
           "precipitation_mm": 0.0
@@ -1013,7 +1013,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/24 02:41 JST"
+    "timestamp": "11/24 03:33 JST"
   },
   "transit": {
     "status": "ALERT",
@@ -1095,7 +1095,7 @@
         "details": "フランクフルト・ベルリン発着の長距離路線は概ね定常運行中"
       }
     ],
-    "timestamp": "11/24 02:41 JST"
+    "timestamp": "11/24 03:33 JST"
   },
   "lifeline": {
     "status": "NORMAL",

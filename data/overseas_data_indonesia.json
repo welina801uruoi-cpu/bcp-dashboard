@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-24 02:41:31",
-  "timestamp_local": "2026-11-24 00:41:31",
+  "timestamp": "2026-11-24 03:33:06",
+  "timestamp_local": "2026-11-24 01:33:06",
   "country": {
     "id": "indonesia",
     "name": "インドネシア",
@@ -351,6 +351,14 @@
         "tsunami": 0
       },
       {
+        "mag": 4.5,
+        "place": "Kepulauan Babar, Indonesia",
+        "time": "11/23 15:47 JST",
+        "depth_km": 117.725,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucwx",
+        "tsunami": 0
+      },
+      {
         "mag": 4.7,
         "place": "109 km E of Bitung, Indonesia",
         "time": "11/23 15:28 JST",
@@ -404,14 +412,6 @@
         "time": "11/23 09:08 JST",
         "depth_km": 50.25,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucv4",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "226 km NW of Tobelo, Indonesia",
-        "time": "11/23 08:50 JST",
-        "depth_km": 40.004,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucv2",
         "tsunami": 0
       }
     ]
@@ -647,7 +647,7 @@
       {
         "id": "stream_kompas_live",
         "name": "📺 Kompas TV 24h 生配信",
-        "video_id": "qJbPnD3mKA0",
+        "video_id": "DOOrIxw5xOw",
         "handle": "@KompasTV",
         "type": "stream"
       },
@@ -675,14 +675,14 @@
     "default_channel_id": "stream_kompas_live"
   },
   "forex": {
-    "timestamp": "11/24 02:41 JST",
+    "timestamp": "11/24 03:33 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.27,
-      "change": -0.44,
-      "change_pct": -0.27,
+      "rate": 159.17,
+      "change": -0.53,
+      "change_pct": -0.33,
       "direction": "down"
     },
     "local_jpy": {
@@ -691,16 +691,16 @@
       "symbol": "Rp",
       "rate": 0.0087,
       "change": 0.0,
-      "change_pct": 0.21,
+      "change_pct": 0.14,
       "direction": "even"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 173.4,
-      "change": -1.77,
-      "change_pct": -1.01
+      "rate": 173.29,
+      "change": -1.88,
+      "change_pct": -1.07
     }
   },
   "airports": [
@@ -745,12 +745,12 @@
         "lon": 106.8456,
         "temp": 25.0,
         "apparent_temp": 30.9,
-        "humidity": 96,
-        "wind_speed": 2.4,
-        "wind_gusts": 10.1,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
+        "humidity": 97,
+        "wind_speed": 3.1,
+        "wind_gusts": 11.9,
+        "precipitation": 0.2,
+        "weather_code": 53,
+        "weather_label": "🌦️ 霧雨 (中)",
         "forecast": [
           {
             "date": "11/24(火)",
@@ -788,11 +788,11 @@
         "is_capital": false,
         "lat": -8.6705,
         "lon": 115.2126,
-        "temp": 26.2,
-        "apparent_temp": 32.3,
-        "humidity": 89,
+        "temp": 26.0,
+        "apparent_temp": 32.1,
+        "humidity": 90,
         "wind_speed": 0.5,
-        "wind_gusts": 4.0,
+        "wind_gusts": 1.4,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -833,14 +833,14 @@
         "is_capital": false,
         "lat": -7.2575,
         "lon": 112.7521,
-        "temp": 29.2,
-        "apparent_temp": 34.4,
-        "humidity": 73,
-        "wind_speed": 5.0,
-        "wind_gusts": 15.8,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
+        "temp": 28.5,
+        "apparent_temp": 33.6,
+        "humidity": 77,
+        "wind_speed": 6.3,
+        "wind_gusts": 14.8,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/24(火)",
@@ -867,10 +867,10 @@
             "precipitation_mm": 7.9
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -881,12 +881,12 @@
       "lon": 106.8456,
       "temp": 25.0,
       "apparent_temp": 30.9,
-      "humidity": 96,
-      "wind_speed": 2.4,
-      "wind_gusts": 10.1,
-      "precipitation": 0.1,
-      "weather_code": 51,
-      "weather_label": "🌦️ 霧雨 (弱)",
+      "humidity": 97,
+      "wind_speed": 3.1,
+      "wind_gusts": 11.9,
+      "precipitation": 0.2,
+      "weather_code": 53,
+      "weather_label": "🌦️ 霧雨 (中)",
       "forecast": [
         {
           "date": "11/24(火)",
@@ -918,7 +918,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/24 02:41 JST"
+    "timestamp": "11/24 03:33 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -947,7 +947,7 @@
         "details": "MRT線定常運行中"
       }
     ],
-    "timestamp": "11/24 02:41 JST"
+    "timestamp": "11/24 03:33 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-24 02:41:39",
-  "timestamp_local": "2026-11-23 23:41:39",
+  "timestamp": "2026-11-24 03:33:14",
+  "timestamp_local": "2026-11-24 00:33:14",
   "country": {
     "id": "bangladesh",
     "name": "バングラデシュ",
@@ -328,6 +328,14 @@
         "tsunami": 0
       },
       {
+        "mag": 4.5,
+        "place": "Kepulauan Babar, Indonesia",
+        "time": "11/23 15:47 JST",
+        "depth_km": 117.725,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucwx",
+        "tsunami": 0
+      },
+      {
         "mag": 4.7,
         "place": "109 km E of Bitung, Indonesia",
         "time": "11/23 15:28 JST",
@@ -381,14 +389,6 @@
         "time": "11/23 09:08 JST",
         "depth_km": 50.25,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucv4",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.7,
-        "place": "226 km NW of Tobelo, Indonesia",
-        "time": "11/23 08:50 JST",
-        "depth_km": 40.004,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucv2",
         "tsunami": 0
       }
     ]
@@ -638,32 +638,32 @@
     "default_channel_id": "stream_euronews_bd"
   },
   "forex": {
-    "timestamp": "11/24 02:41 JST",
+    "timestamp": "11/24 03:33 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.27,
-      "change": -0.44,
-      "change_pct": -0.27,
+      "rate": 159.17,
+      "change": -0.53,
+      "change_pct": -0.33,
       "direction": "down"
     },
     "local_jpy": {
       "currency": "BDT",
       "name": "タカ",
       "symbol": "৳",
-      "rate": 1.274,
+      "rate": 1.273,
       "change": 0.027,
-      "change_pct": 2.2,
+      "change_pct": 2.13,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 173.4,
-      "change": -1.77,
-      "change_pct": -1.01
+      "rate": 173.29,
+      "change": -1.88,
+      "change_pct": -1.07
     }
   },
   "airports": [
@@ -691,23 +691,15 @@
         "is_capital": true,
         "lat": 23.8103,
         "lon": 90.4125,
-        "temp": 21.7,
-        "apparent_temp": 25.3,
-        "humidity": 95,
-        "wind_speed": 5.2,
-        "wind_gusts": 20.2,
+        "temp": 21.8,
+        "apparent_temp": 25.7,
+        "humidity": 96,
+        "wind_speed": 3.7,
+        "wind_gusts": 11.5,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
-          {
-            "date": "11/23(月)",
-            "temp_max": 28.3,
-            "temp_min": 21.7,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 2.2
-          },
           {
             "date": "11/24(火)",
             "temp_max": 27.1,
@@ -720,6 +712,14 @@
             "date": "11/25(水)",
             "temp_max": 26.0,
             "temp_min": 17.1,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 26.0,
+            "temp_min": 17.6,
             "weather_code": 0,
             "weather_label": "☀️ 快晴",
             "precipitation_mm": 0.0
@@ -736,23 +736,15 @@
         "is_capital": false,
         "lat": 22.3569,
         "lon": 91.7832,
-        "temp": 24.2,
+        "temp": 24.0,
         "apparent_temp": 29.3,
-        "humidity": 94,
-        "wind_speed": 2.4,
-        "wind_gusts": 4.3,
+        "humidity": 95,
+        "wind_speed": 1.8,
+        "wind_gusts": 3.6,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
-          {
-            "date": "11/23(月)",
-            "temp_max": 28.4,
-            "temp_min": 23.2,
-            "weather_code": 95,
-            "weather_label": "⛈️ 雷雨 (弱〜中)",
-            "precipitation_mm": 8.0
-          },
           {
             "date": "11/24(火)",
             "temp_max": 28.0,
@@ -768,6 +760,14 @@
             "weather_code": 2,
             "weather_label": "⛅ 晴れ時々曇り",
             "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 26.2,
+            "temp_min": 18.2,
+            "weather_code": 45,
+            "weather_label": "🌫️ 霧",
+            "precipitation_mm": 0.0
           }
         ],
         "alert": "平常",
@@ -782,23 +782,15 @@
       "is_capital": true,
       "lat": 23.8103,
       "lon": 90.4125,
-      "temp": 21.7,
-      "apparent_temp": 25.3,
-      "humidity": 95,
-      "wind_speed": 5.2,
-      "wind_gusts": 20.2,
+      "temp": 21.8,
+      "apparent_temp": 25.7,
+      "humidity": 96,
+      "wind_speed": 3.7,
+      "wind_gusts": 11.5,
       "precipitation": 0.1,
       "weather_code": 51,
       "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
-        {
-          "date": "11/23(月)",
-          "temp_max": 28.3,
-          "temp_min": 21.7,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 2.2
-        },
         {
           "date": "11/24(火)",
           "temp_max": 27.1,
@@ -814,6 +806,14 @@
           "weather_code": 0,
           "weather_label": "☀️ 快晴",
           "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/26(木)",
+          "temp_max": 26.0,
+          "temp_min": 17.6,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "気象注意",
@@ -821,7 +821,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/24 02:41 JST"
+    "timestamp": "11/24 03:33 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -850,7 +850,7 @@
         "details": "MRTライン6号線定期運行中"
       }
     ],
-    "timestamp": "11/24 02:41 JST"
+    "timestamp": "11/24 03:33 JST"
   },
   "lifeline": {
     "status": "NORMAL",

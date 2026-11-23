@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22 23:51:14",
+  "timestamp": "2026-11-23 00:34:26",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -76,12 +76,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "3",
-    "time": "2026-11-23 07:49",
-    "place": "天草灘",
-    "magnitude": "4.1",
+    "shindo": "1",
+    "time": "2026-11-23 08:50",
+    "place": "沖縄本島近海",
+    "magnitude": "3.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-23 08:50",
+        "place": "沖縄本島近海",
+        "shindo": "1",
+        "magnitude": "3.5",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-23 07:49",
         "place": "天草灘",
@@ -144,13 +151,6 @@
         "shindo": "1",
         "magnitude": "2.7",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-23 02:49",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "3.2",
-        "maxScale": 20
       }
     ]
   },
@@ -206,10 +206,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、濃霧注意報",
+        "summary": "濃霧注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
@@ -231,10 +231,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、濃霧注意報",
+        "summary": "濃霧注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -414,19 +414,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/23 00:14",
+          "text": "続 アップデート、再起動、ショップでSIMを新品にするなど出来ることは全部やりましたがやはり自宅に一歩入ると圏外。 祖父の葬儀で連絡が取れないと困るのでその日に..."
+        },
+        {
+          "time": "11/22 23:51",
+          "text": "@JS2HGW_Gifu 他にもありました 用事済ませてからポストしますね 相変わらず郡上市一部停電中で今朝から中部電力やトーエネックの高所作業車沢山すれ違いま..."
+        },
         {
           "time": "11/22 23:44",
           "text": "START au END 彼女は田代手伝ってできません まえに森に START 障害 END 文化におしえてもらった 千絵と田代自立起きるおもう今日法テラスにも..."
-        },
-        {
-          "time": "11/22 20:56",
-          "text": "START au END の START 障害 END 起きてます…？"
-        },
-        {
-          "time": "11/22 16:07",
-          "text": "START au END にMNPした後、サブ回線どうするか問題。 povoは START au END 回線なので、通信 START 障害 END 対策になら..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -440,16 +440,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/23 00:12",
+          "text": "So-net、電話でのサポートがいつのまにか有料のなってて、基本サポートはアプリでのチャットなんだけどチャット相手は例によって日本人ではなさそう。 写真とか情報..."
+        },
+        {
           "time": "11/22 23:24",
           "text": "11月21日、 START KDDI END は大雪による一部地域の通信 START 障害 END を発表。 注目したいのは、他社回線を活用する「JAPANロー..."
         },
         {
           "time": "11/22 09:07",
           "text": "START KDDI END より通信 START 障害 END の情報が出ています https://t.co/8KUDzGEu6B #空ネット"
-        },
-        {
-          "time": "11/22 00:26",
-          "text": "START KDDI END は11月21日、大雪の影響で一部地域の通信サービスが利用しづらい状況を発表。 通信は生活を支えるインフラ。料金や特典だけでなく、 ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -460,7 +460,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/22 23:31",
@@ -807,8 +807,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 6,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "西武池袋線・秩父線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "池袋～椎名町駅間で発生した人身事故の影響で、西武池袋線・秩父線は池袋～練馬駅間の運転を見合わせていましたが、09:20頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/23 09:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/ee110c3c78c78dc86694dbf4c989187c66edafa1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "車両火災 車内から1人の遺体 鳥取市(ABEMA TIMES)",
+        "summary": "鳥取県の農道で軽自動車が全焼し、車内から1人の遺体が見つかりました。警察が遺体の身元の確認を進めるとともに出火原因などを調べています。【映像】現場周辺の様子 きのう午後1時半ごろ、鳥取市気高町で「爆発",
+        "pub_date": "11/23 09:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/e38aa53afe304289a9229084c7fa9462b81a9e1a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "西武池袋線・秩父線で人身事故 一部運転見合わせ(レスキューナウニュース)",
         "summary": "08:14頃、池袋～椎名町駅間で発生した人身事故の影響で、西武池袋線・秩父線は池袋～練馬駅間の運転を見合わせています。振替輸送を行っています。",
@@ -843,94 +859,78 @@
       },
       {
         "title": "衝突事故で女性が死亡　子ども3人乗車　男を逮捕　香川・高松市(テレビ朝日系（ANN）)",
-        "summary": "香川県高松市の国道で車が正面衝突し、女性が死亡しました。 22日午後4時前、高松市の国道で乗用車が中央分離帯を越え、対向車線を走る車と正面衝突しました。 この事故で、衝突された車に乗っていた女性が意識",
+        "summary": "香川県高松市の国道で車が正面衝突し、女性が死亡しました。 22日午後4時前、高松市の国道で乗用車が中央分離帯を越え、対向車線を走る車と正面衝突しました。【動画】「早く逃げて！」その一部始終 渋滞の道路",
         "pub_date": "11/23 05:53 JST",
         "link": "https://news.yahoo.co.jp/articles/fd3c80c4093d445f9174855b56c0de686dc4b1c4?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "ブルーインパルス飛行影響、終電まで続く　近鉄　奈良線など運休計322本(産経新聞)",
-        "summary": "近畿日本鉄道は22日、同日に大阪線、奈良線、京都線、橿原線などで発生した列車の遅延が終電まで影響する見込みだと発表した。【写真】一糸乱れぬ美しい隊列を組んで飛行するブルーインパルスこの日は昼ごろまで、",
-        "pub_date": "11/23 00:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/e0067483f4b658839892e9bd3207709e8d2ec387?source=rss",
-        "category": "国内・気象防災",
+        "title": "中央分離帯越え車と衝突 男を逮捕",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/23 08:50 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6603634?source=rss",
+        "category": "主要速報",
         "is_disaster": true
       },
       {
-        "title": "祖父の家と会社を売って4000万円を献金し子どもには嘘をついた…山上徹也被告と妹が｢地獄｣と語った母の信仰(プレジデントオンライン)",
-        "summary": "安倍晋三元首相銃撃事件で無期懲役判決を受けた山上徹也被告。「宗教二世」といわれる半生は、事件にどのように影響したのか。被告と面会を重ね、法廷で証言した宗教社会学者の櫻井義秀さんは「山上被告のパーソナリ",
-        "pub_date": "11/23 08:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/679940eb7f1607e611cfe6310af4c219627aac66?source=rss",
+        "title": "関文部科学大臣に交代論　問責決議案提出の可能性も(テレビ朝日系（ANN）)",
+        "summary": "政治資金パーティーをめぐる問題で、交代論が強まっている関文部科学大臣について、木原官房長官は、関大臣自身がしっかり説明することが重要だと強調しました。",
+        "pub_date": "11/23 09:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/ba100297654feb28e1131fa454318780f006910f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "北朝鮮ハッカーは標的の弱みを熟知している…｢9500億円流出事件｣で従業員が思わずクリックした\"甘い文言\"(プレジデントオンライン)",
-        "summary": "今秋、日本企業で相次ぐ不正アクセス事件。GMOへの攻撃には「北朝鮮のハッカー集団」の関与が指摘されているが、真相はどうなのか。ジャーナリストの湯浅大輝さんが北朝鮮のハッカー集団を長年取材してきたイギリ",
-        "pub_date": "11/23 08:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/3b94604bf3cafa78d166782aa8034f580a21cba8?source=rss",
+        "title": "千葉・富津市の56m「東京湾観音」拝観終了へ　1961年建設　頭頂部上り絶景見渡す(テレビ朝日系（ANN）)",
+        "summary": "千葉県富津市にそびえ立つ高さ56メートルの「東京湾観音」。 1961年、当時でおよそ1億2000万円をかけて建設。材木商の男性が、戦没者慰霊と世界平和を祈るために私財をなげうって建てました。 中には3",
+        "pub_date": "11/23 09:31 JST",
+        "link": "https://news.yahoo.co.jp/articles/3608823264d0f5d93714f9b96fa280f37ccb5ce1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「もち米」なぜ高騰？コメ価格は下落しているのに…和菓子店も苦悩する“もち米事情”とは(TOKYO MX)",
-        "summary": "TOKYO MX（地上波9ch）の報道・情報生番組「堀潤 Live Junction」（毎週月～金曜19:57～）。家計に関するお金のニュースを深掘りする「家計Lab」のコーナーでは、高騰している「も",
-        "pub_date": "11/23 08:04 JST",
-        "link": "https://news.yahoo.co.jp/articles/5c2e58cc41737018129e36d825bf2fc57c6ace4d?source=rss",
+        "title": "元ジャンポケ斉藤さんに実刑判決 不同意性交等罪、改正前の法制審で「処罰範囲が広がりすぎる」と懸念も(弁護士ドットコムニュース)",
+        "summary": "ロケバス車内で女性に性的暴行を加えたとして、不同意性交等などの罪に問われたお笑いトリオ「ジャングルポケット」の元メンバー、斉藤慎二さん（44）に、東京地裁は11月16日、懲役4年の実刑判決を言い渡した",
+        "pub_date": "11/23 09:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/79d9303a91151fdc5a84b3ed6409a3d7dbe867d2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "100周年“最北の温泉郷”に湯治客続々　皮膚疾患に効能「奇跡の湯」、北海道豊富町(共同通信)",
-        "summary": "「油風呂」と呼ばれる北海道豊富町の豊富温泉が今年で開湯100周年を迎えた。皮膚疾患に効能がある「奇跡の湯」とも言われ、“日本最北の温泉郷”まで全国各地から多くの湯治客らが訪れる。次の100年を見据え、",
-        "pub_date": "11/23 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/9d6e2d7358839cf98b298110ff60db9922ba7f18?source=rss",
+        "title": "大阪市「プレミアム付食事券」発行へ　5000円購入で6500円分　市内在住者のみ(テレビ朝日系（ANN）)",
+        "summary": "大阪市内の飲食店で利用できる「プレミアム付食事券」は、1口あたり5000円の購入で6500円分の食事ができ、市内在住者のみ1人4口まで購入可能です。 飲食料品の消費税率を1％に引き下げる法案の審議が進",
+        "pub_date": "11/23 09:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/9dd9823f6b7f2b14465d651897d21887b7c3e239?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "素直に「ビール減税」を喜んではいけない…消費減税のウラで「酒税法改正」が進められたカラクリ(デイリー新潮)",
-        "summary": "「ビール大手4社が“談合”し、値上げしていたことが10月に発覚しました。消費者に対する裏切りに捜査のメスが入るのは当然です。しかし『ビール党の敵は本当にメーカーだけなのか』という声もささやかれ始めてい",
-        "pub_date": "11/23 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/312581c0272b4ba3e1676f74908092660739e4ac?source=rss",
+        "title": "公認会計士試験、最年少14歳合格　最高54歳　平均25.0歳 合格率7.4％(テレビ朝日系（ANN）)",
+        "summary": "公認会計士・監査審査会は、今年の公認会計士試験の合格者を発表しました。 去年より51人多い1687人が合格し、史上最年少となる14歳の合格者が誕生しました。14歳の合格者の性別や属性などは公表されてい",
+        "pub_date": "11/23 09:13 JST",
+        "link": "https://news.yahoo.co.jp/articles/c98f28a8f9f64a53ebe534f4124475542c37c18d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【ニュースto】疑問！仙台市長の海外出張費が6600万円超　ビジネスクラスの利用も…市議会「高すぎる、本当に行く必要があるのか」(読売テレビ)",
-        "summary": "宮城県仙台市で、郡和子市長の海外出張を巡る経費が物議を醸しています。仙台市によると2023年度から2025年度までの3年間で11回の海外出張が行われ、同行職員も含めた総額は約6672万円に上っています",
-        "pub_date": "11/23 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/97e5f5dbab378955c3da523928267f8215f727e8?source=rss",
+        "title": "シカも驚き　奈良でブルーインパルス飛行　県内では10年ぶり　平城宮跡歴史公園で披露(テレビ朝日系（ANN）)",
+        "summary": "食事中のシカが思わず振り返って見上げたのは、空を駆け抜ける「ブルーインパルス」です。 22日、航空自衛隊のアクロバット飛行チーム・ブルーインパルスが、奈良県の上空で展示飛行しました。奈良県内での飛行は",
+        "pub_date": "11/23 09:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/c6670865e9a36415de953396a778d833f5733d75?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "今朝は各地で厳しい冷え込み　冬日地点は今季最多　東京都心など今季最低気温を更新(日本気象協会tenki.jp)",
-        "summary": "今日23日(月・祝)の朝は、各地で冷え込みが強まりました。午前7時までの最低気温は、東京都心4.3℃、名古屋市2.6℃、大阪市4.5℃など、今季一番の冷え込みとなった所が多く、冬日(最低気温0℃未満)",
-        "pub_date": "11/23 07:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/b0b0f9447033c24184f0fdacf5388261898b34b6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "陰謀論YouTuber起用の政府広報、医師団体が「不適切」と猛批判。「根拠不明」と指摘の“過去発言“とは？(ハフポスト日本版)",
-        "summary": "全国保険医団体連合会（保団連）が11月22日、公式Xを更新し、政府広報にYouTuberの「Naokiman（ナオキマン）」氏を起用したことについて、「根拠不明な言説を紹介するYouTuberを政府広",
-        "pub_date": "11/23 07:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/5a9eedb51f818fdda34f57b35306a355af026208?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【動画】23日の天気 - 東京で今季最低 日中は広く行楽日和　北日本は一部でにわか雨（23日7時更新）(ウェザーマップ)",
-        "summary": "けさは東京都心で、今シーズン一番の冷え込みを更新しました。日中は東日本や西日本で広く行楽日和になりますが、北日本は一部で天気が下り坂です。",
-        "pub_date": "11/23 07:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/42e864af8a79b36a6b66407dfb33d65790b8bd6d?source=rss",
+        "title": "名古屋市立大学の推薦入試、不合格者3人に“合格通知”　システム上のタイムラグ原因(テレビ朝日系（ANN）)",
+        "summary": "名古屋市立大学が、来年度の入学者の推薦型選抜の一次試験に不合格となった一部の受験者に対して、誤って2次試験の案内を通知していたことが分かりました。 本来、1次試験の合格者にのみ、2次試験の受験票のダウ",
+        "pub_date": "11/23 09:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/959fd934f1e64627ea995d12704ff8d00b0a051a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 08:50:42 JST"
+    "last_updated": "2026-11-23 09:34:23 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",

@@ -1924,6 +1924,50 @@
             background: rgba(245, 158, 11, 0.1);
             border-left: 3px solid #f59e0b;
         }
+    
+        /* 日本全国 総合災害俯瞰マップ スタイル */
+        .natmap-layer-btn {
+            background: #1e293b;
+            color: #94a3b8;
+            border: 1px solid #334155;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.78em;
+            font-weight: bold;
+            cursor: pointer;
+            touch-action: manipulation;
+            transition: all 0.15s ease;
+        }
+        .natmap-layer-btn:hover {
+            color: #fff;
+            border-color: #38bdf8;
+        }
+        .natmap-layer-btn.active {
+            background: #0284c7;
+            color: #ffffff;
+            border-color: #38bdf8;
+            box-shadow: 0 0 8px rgba(56,189,248,0.4);
+        }
+        .natmap-quick-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 8px 10px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .natmap-quick-card:hover {
+            border-color: #38bdf8;
+            background: rgba(56,189,248,0.08);
+            transform: translateY(-1px);
+        }
+        @media (max-width: 768px) {
+            #national-overview-leaflet-map {
+                height: 380px !important;
+                min-height: 380px !important;
+            }
+        }
+
     </style>
 
     </style>
@@ -2026,6 +2070,9 @@
                 <button class="btn-tool" id="btn-toggle-low-bandwidth" onclick="toggleLowBandwidthMode()" title="低速回線・災害軽量テキストモード切替" style="background:rgba(245,158,11,0.2); border:1.5px solid #f59e0b; color:#fbbf24; font-weight:800; cursor:pointer;">
                     📶 低速・テキスト版
                 </button>
+                <button class="btn-tool" onclick="openNationalOverviewMapModal()" title="日本全国の災害・インフラ・BCP態勢を全国地図で俯瞰" style="background:linear-gradient(135deg, #0284c7, #2563eb); border:1.5px solid #38bdf8; color:#fff; font-weight:800; cursor:pointer; box-shadow:0 0 10px rgba(56,189,248,0.35);">
+                    🗾 全国俯瞰マップ
+                </button>
                 <button class="btn-tool" onclick="openIndicatorDetail('government')" title="内閣府 災害救助法適用 ＆ 厚生労働省 DMAT・救護 一次情報" style="background:rgba(16,185,129,0.18); border:1px solid #10b981; color:#34d399; font-weight:800; cursor:pointer;">
                     🏥 救助法・DMAT
                 </button>
@@ -2060,6 +2107,7 @@
             <button class="mobile-quick-btn mode-btn" onclick="toggleMobileDashboardMode()" id="mobile-quick-mode-btn">📱 1画面</button>
             <button class="mobile-quick-btn" id="mobile-quick-bandwidth-btn" onclick="toggleLowBandwidthMode()" style="background:rgba(245,158,11,0.25); border:1px solid #f59e0b; color:#fbbf24; font-weight:800;">📶 低速版</button>
             <a href="#sec-radio-anchor" class="mobile-quick-btn" style="color:#38bdf8; font-weight:bold;">📻 ラジオ</a>
+            <button class="mobile-quick-btn" onclick="openNationalOverviewMapModal()" style="color:#38bdf8; font-weight:bold; background:rgba(2,132,199,0.25); border:1px solid #38bdf8;">🗾 全国地図</button>
             <button class="mobile-quick-btn" onclick="openIndicatorDetail('government')" style="color:#34d399; font-weight:bold;">🏥 救助法・DMAT</button>
             <a href="#sec-indicators-anchor" class="mobile-quick-btn active">📋 12大指標</a>
             <a href="#sec-stream-anchor" class="mobile-quick-btn">🔴 災害生放送</a>
@@ -2169,6 +2217,9 @@
             <div class="text-mode-compact-dock" style="display:none; justify-content:space-between; align-items:center; background:#0f172a; border:1px solid var(--border-color); padding:3px 6px; flex-shrink:0; border-radius:6px;">
                 <button type="button" onclick="loadRealData(true)" style="background:#1e293b; color:#38bdf8; border:1px solid #0284c7; padding:2px 8px; border-radius:4px; font-size:0.75em; font-weight:bold; cursor:pointer;">
                     🔄 更新
+                </button>
+                <button type="button" onclick="openNationalOverviewMapModal()" style="background:#0284c7; color:#fff; border:1px solid #38bdf8; padding:2px 8px; border-radius:4px; font-size:0.75em; font-weight:bold; cursor:pointer;">
+                    🗾 全国地図
                 </button>
                 <button type="button" onclick="openSnsHeatmapModal()" style="background:#1e293b; color:#38bdf8; border:1px solid #0284c7; padding:2px 8px; border-radius:4px; font-size:0.75em; font-weight:bold; cursor:pointer;">
                     🗺️ 口コミマップ
@@ -3061,6 +3112,353 @@
         };
 
         // 初期化処理
+        
+        // =========================================================
+        // 🗾 日本全国 総合災害俯瞰マップ (National Overview Map)
+        // =========================================================
+        let leafletNationalMap = null;
+        let natMapLayerGov = null;
+        let natMapLayerEq = null;
+        let natMapLayerInfra = null;
+        let natMapLayerHubs = null;
+
+        const natMapActiveLayers = {
+            gov: true,
+            eq: true,
+            infra: true,
+            hubs: true
+        };
+
+        const NATIONAL_MAP_CONFIG = {
+            hubs: [
+                { id: 'tokyo', name: '東京（本社・首都圏本部）', pos: [35.6812, 139.7671], role: '全社中枢・国内BCP司令塔', pref: '東京都' },
+                { id: 'osaka', name: '大阪（関西支社）', pos: [34.7024, 135.4959], role: '西日本統括・代替司令塔', pref: '大阪府' },
+                { id: 'nagoya', name: '名古屋（中部支社）', pos: [35.1709, 136.8815], role: '中京・東海エリア中枢', pref: '愛知県' },
+                { id: 'fukuoka', name: '福岡（九州支社）', pos: [33.5902, 130.4207], role: '九州・沖縄統括', pref: '福岡県' },
+                { id: 'sapporo', name: '札幌（北海道支社）', pos: [43.0687, 141.3508], role: '北海道エリア中枢', pref: '北海道' },
+                { id: 'sendai', name: '仙台（東北支社）', pos: [38.2601, 140.8824], role: '東北エリア中枢', pref: '宮城県' },
+                { id: 'kanazawa', name: '金沢（北陸支社）', pos: [36.5780, 136.6482], role: '北陸エリア中枢', pref: '石川県' },
+                { id: 'hiroshima', name: '広島（中国支社）', pos: [34.3976, 132.4753], role: '中国エリア中枢', pref: '広島県' },
+                { id: 'takamatsu', name: '高松（四国支社）', pos: [34.3508, 134.0469], role: '四国エリア中枢', pref: '香川県' },
+                { id: 'naha', name: '那覇（沖縄支社）', pos: [26.2144, 127.6838], role: '沖縄エリア中枢', pref: '沖縄県' }
+            ],
+            powerGrids: [
+                { id: 'hepco', name: '北海道電力エリア', pos: [43.4, 142.5], company: 'ほくでん' },
+                { id: 'tohoku_ep', name: '東北電力エリア', pos: [39.0, 140.8], company: '東北電力NW' },
+                { id: 'tepco', name: '東京電力エリア', pos: [35.8, 139.8], company: '東電PG' },
+                { id: 'chuden', name: '中部電力エリア', pos: [35.3, 137.2], company: '中部電力PG' },
+                { id: 'rikuden', name: '北陸電力エリア', pos: [36.7, 137.0], company: '北陸電力送配電' },
+                { id: 'kepco', name: '関西電力エリア', pos: [34.9, 135.5], company: '関西電力送配電' },
+                { id: 'energia', name: '中国電力エリア', pos: [34.6, 133.0], company: '中国電力NW' },
+                { id: 'yonden', name: '四国電力エリア', pos: [33.8, 133.5], company: '四国電力送配電' },
+                { id: 'kyuden', name: '九州電力エリア', pos: [32.8, 130.8], company: '九州電力送配電' },
+                { id: 'okiden', name: '沖縄電力エリア', pos: [26.4, 127.8], company: '沖縄電力' }
+            ],
+            cameras: [
+                { id: 'cam_tokyo_shibuya', name: '東京: 渋谷スクランブル交差点', pos: [35.6595, 139.7005] },
+                { id: 'cam_tokyo_tower', name: '東京: 都心・東京タワー方面', pos: [35.6586, 139.7454] },
+                { id: 'cam_osaka_dotonbori', name: '大阪: 道頓堀戎橋', pos: [34.6687, 135.5013] },
+                { id: 'cam_sapporo', name: '北海道: 札幌都心部', pos: [43.0621, 141.3544] },
+                { id: 'cam_sendai', name: '宮城: 仙台駅前', pos: [38.2603, 140.8821] },
+                { id: 'cam_nagoya_station', name: '愛知: 名古屋駅前', pos: [35.1706, 136.8816] },
+                { id: 'cam_kanazawa_station', name: '石川: 金沢駅前', pos: [36.5781, 136.6478] },
+                { id: 'cam_hiroshima_station', name: '広島: 広島駅前', pos: [34.3974, 132.4751] },
+                { id: 'cam_fukuoka_hakata', name: '福岡: JR博多駅前', pos: [33.5901, 130.4206] },
+                { id: 'cam_fuji', name: '山梨/静岡: 富士山パノラマ展望', pos: [35.4869, 138.7806] },
+                { id: 'cam_sakurajima', name: '鹿児島: 桜島火山観測', pos: [31.5856, 130.6575] },
+                { id: 'cam_naha_kokusai', name: '沖縄: 那覇国際通り', pos: [26.2163, 127.6888] }
+            ]
+        };
+
+        function openNationalOverviewMapModal() {
+            const modal = document.getElementById('national-overview-map-modal');
+            if (!modal) return;
+            modal.style.display = 'flex';
+
+            if (latestDataCache) {
+                initOrUpdateNationalMap(latestDataCache);
+            }
+            setTimeout(() => {
+                if (leafletNationalMap) {
+                    leafletNationalMap.invalidateSize();
+                }
+            }, 100);
+        }
+
+        function closeNationalOverviewMapModal() {
+            const modal = document.getElementById('national-overview-map-modal');
+            if (modal) modal.style.display = 'none';
+        }
+
+        function closeNationalOverviewMapModalOnBackdrop(e) {
+            if (e.target && e.target.id === 'national-overview-map-modal') {
+                closeNationalOverviewMapModal();
+            }
+        }
+
+        function resetNationalMapView() {
+            if (!leafletNationalMap) return;
+            leafletNationalMap.setView([36.5, 137.5], 5);
+        }
+
+        function toggleNationalMapLayer(layerKey) {
+            if (layerKey === 'all') {
+                const areAllActive = Object.values(natMapActiveLayers).every(v => v);
+                const newState = !areAllActive;
+                Object.keys(natMapActiveLayers).forEach(k => natMapActiveLayers[k] = newState);
+            } else {
+                natMapActiveLayers[layerKey] = !natMapActiveLayers[layerKey];
+            }
+
+            // ボタンアクティブ状態更新
+            ['gov', 'eq', 'infra', 'hubs'].forEach(k => {
+                const btn = document.getElementById('btn-layer-' + k);
+                if (btn) {
+                    if (natMapActiveLayers[k]) btn.classList.add('active');
+                    else btn.classList.remove('active');
+                }
+            });
+            const allBtn = document.getElementById('btn-layer-all');
+            if (allBtn) {
+                if (Object.values(natMapActiveLayers).every(v => v)) allBtn.classList.add('active');
+                else allBtn.classList.remove('active');
+            }
+
+            if (latestDataCache) {
+                renderNationalMapLayers(latestDataCache);
+            }
+        }
+
+        function initOrUpdateNationalMap(data) {
+            const container = document.getElementById('national-overview-leaflet-map');
+            if (!container) return;
+
+            if (!leafletNationalMap) {
+                leafletNationalMap = L.map('national-overview-leaflet-map', {
+                    zoomControl: true,
+                    attributionControl: false,
+                    scrollWheelZoom: true
+                }).setView([36.5, 137.5], 5);
+
+                // ダークテーマ地図タイル
+                L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                    maxZoom: 18,
+                    subdomains: 'abcd'
+                }).addTo(leafletNationalMap);
+
+                natMapLayerGov = L.layerGroup().addTo(leafletNationalMap);
+                natMapLayerEq = L.layerGroup().addTo(leafletNationalMap);
+                natMapLayerInfra = L.layerGroup().addTo(leafletNationalMap);
+                natMapLayerHubs = L.layerGroup().addTo(leafletNationalMap);
+            }
+
+            // サマリー数値更新
+            const govVal = document.getElementById('natmap-val-gov');
+            const gov = data.government || {};
+            if (govVal) {
+                if (gov.status === 'ALERT') {
+                    govVal.innerText = '要警戒 (直近適用あり)';
+                    govVal.style.color = '#ef4444';
+                } else if (gov.status === 'NOTICE') {
+                    govVal.innerText = '注意 (避難・支援継続中)';
+                    govVal.style.color = '#f59e0b';
+                } else {
+                    govVal.innerText = '平常 (直近法適用なし)';
+                    govVal.style.color = '#10b981';
+                }
+            }
+
+            const eqVal = document.getElementById('natmap-val-eq');
+            const eq = data.earthquake || {};
+            if (eqVal) {
+                eqVal.innerText = `最大震度${eq.shindo || '1'} (${eq.place || '長野等'} M${eq.magnitude || '3.9'})`;
+            }
+
+            renderNationalMapLayers(data);
+            renderNationalMapQuickList(data);
+        }
+
+        function renderNationalMapLayers(data) {
+            if (!leafletNationalMap) return;
+
+            natMapLayerGov.clearLayers();
+            natMapLayerEq.clearLayers();
+            natMapLayerInfra.clearLayers();
+            natMapLayerHubs.clearLayers();
+
+            const gov = data.government || {};
+            const eq = data.earthquake || {};
+            const lifeline = data.lifeline || {};
+            const telecom = data.telecom || {};
+
+            // 1. 救助法適用・行政レイヤー
+            if (natMapActiveLayers.gov && (gov.status === 'ALERT' || gov.status === 'NOTICE' || gov.latest_tekiyou)) {
+                const tekiyou = gov.latest_tekiyou || {};
+                const targetTitle = tekiyou.title || gov.cabinet_msg || '災害救助法適用';
+                
+                // 大雪適用の北日本・日本海側代表座標
+                const affectedAreas = [
+                    { name: '青森県・東北日本海側', pos: [40.82, 140.74] },
+                    { name: '秋田県・山形県', pos: [39.72, 140.10] },
+                    { name: '新潟県・北陸', pos: [37.90, 139.02] }
+                ];
+
+                affectedAreas.forEach(a => {
+                    const iconHtml = `<div style="background:#ef4444; color:#fff; border:2px solid #fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-size:14px; box-shadow:0 0 12px #ef4444; animation:pulse 2s infinite;">🏛️</div>`;
+                    const icon = L.divIcon({ html: iconHtml, className: '', iconSize: [28, 28], iconAnchor: [14, 14] });
+                    const m = L.marker(a.pos, { icon }).addTo(natMapLayerGov);
+                    m.bindPopup(`
+                        <div style="font-family:sans-serif; color:#0f172a; min-width:200px;">
+                            <div style="font-weight:900; color:#ef4444; font-size:1em; margin-bottom:4px;">🏛️ 災害救助法適用（内閣府・防災庁）</div>
+                            <div style="font-size:0.85em; font-weight:bold; margin-bottom:4px;">${escapeHtml(targetTitle)}</div>
+                            <div style="font-size:0.75em; color:#64748b; margin-bottom:6px;">告示日: ${escapeHtml(tekiyou.date || '2026-11-23')} ｜ ${escapeHtml(tekiyou.report || '第1報')}</div>
+                            ${tekiyou.url ? `<a href="${escapeHtml(tekiyou.url)}" target="_blank" rel="noopener" style="display:inline-block; background:#0284c7; color:#fff; padding:3px 8px; border-radius:4px; font-size:0.78em; text-decoration:none; font-weight:bold;">📄 公式発表PDF公報 ↗</a>` : ''}
+                        </div>
+                    `);
+                });
+            }
+
+            // 2. 地震・津波レイヤー
+            if (natMapActiveLayers.eq && eq.history && eq.history.length > 0) {
+                const sampleCoords = [
+                    { place: '長野県中部', pos: [36.2, 137.9] },
+                    { place: '天草灘', pos: [32.4, 129.9] },
+                    { place: '熊本県熊本地方', pos: [32.8, 130.7] },
+                    { place: '鳥取県東部', pos: [35.5, 134.2] },
+                    { place: '沖縄本島近海', pos: [26.3, 128.0] }
+                ];
+
+                eq.history.slice(0, 6).forEach((h, idx) => {
+                    const foundCoord = sampleCoords.find(c => h.place.includes(c.place.substring(0, 2))) || { pos: [35.5 + idx * 0.8, 136.0 + idx * 1.2] };
+                    const shindoNum = parseInt(h.shindo, 10) || 1;
+                    const circleColor = shindoNum >= 5 ? '#ef4444' : (shindoNum >= 3 ? '#f59e0b' : '#38bdf8');
+                    const radius = Math.max(8, (parseFloat(h.magnitude) || 3) * 3);
+
+                    const marker = L.circleMarker(foundCoord.pos, {
+                        radius: radius,
+                        fillColor: circleColor,
+                        color: '#fff',
+                        weight: 1.5,
+                        opacity: 1,
+                        fillOpacity: 0.75
+                    }).addTo(natMapLayerEq);
+
+                    marker.bindPopup(`
+                        <div style="font-family:sans-serif; color:#0f172a; min-width:180px;">
+                            <div style="font-weight:900; color:${circleColor}; font-size:1em; margin-bottom:2px;">🌋 地震: 最大震度${escapeHtml(h.shindo)}</div>
+                            <div style="font-size:0.85em; font-weight:bold;">震源地: ${escapeHtml(h.place)} (M${escapeHtml(h.magnitude)})</div>
+                            <div style="font-size:0.75em; color:#64748b; margin-top:2px;">発生日時: ${escapeHtml(h.time)}</div>
+                            <div style="margin-top:6px;"><a href="https://www.data.jma.go.jp/multi/quake/?lang=jp" target="_blank" rel="noopener" style="color:#0284c7; font-size:0.78em; font-weight:bold;">気象庁公式地震情報 ↗</a></div>
+                        </div>
+                    `);
+                });
+            }
+
+            // 3. 電力・通信インフラレイヤー
+            if (natMapActiveLayers.infra) {
+                NATIONAL_MAP_CONFIG.powerGrids.forEach(p => {
+                    const isOutage = lifeline.power_status === 'ALERT';
+                    const iconHtml = `<div style="background:${isOutage ? '#ef4444' : '#10b981'}; color:#fff; border:1.5px solid #fff; border-radius:50%; width:22px; height:22px; display:flex; align-items:center; justify-content:center; font-size:11px; box-shadow:0 0 6px ${isOutage ? '#ef4444' : '#10b981'};">⚡</div>`;
+                    const icon = L.divIcon({ html: iconHtml, className: '', iconSize: [22, 22], iconAnchor: [11, 11] });
+                    const m = L.marker(p.pos, { icon }).addTo(natMapLayerInfra);
+                    m.bindPopup(`
+                        <div style="font-family:sans-serif; color:#0f172a; min-width:170px;">
+                            <div style="font-weight:900; color:${isOutage ? '#ef4444' : '#059669'}; font-size:0.95em;">⚡ ${p.name}</div>
+                            <div style="font-size:0.82em; margin-top:2px;">送配電: ${p.company}</div>
+                            <div style="font-size:0.82em; font-weight:bold; color:${isOutage ? '#ef4444' : '#10b981'}; margin-top:3px;">状態: ${isOutage ? '大規模停電警戒' : '平常送電（全系安定）'}</div>
+                            <div style="font-size:0.75em; color:#64748b; margin-top:4px;">携帯通信網: 主要各社(au/docomo/SB) 稼働</div>
+                        </div>
+                    `);
+                });
+            }
+
+            // 4. 拠点＆カメラレイヤー
+            if (natMapActiveLayers.hubs) {
+                // 拠点ピン
+                NATIONAL_MAP_CONFIG.hubs.forEach(h => {
+                    const isCurrent = h.id === currentLocation;
+                    const iconHtml = `<div style="background:${isCurrent ? '#f59e0b' : '#0284c7'}; color:#fff; border:2px solid #fff; border-radius:6px; padding:2px 5px; font-size:11px; font-weight:900; white-space:nowrap; box-shadow:0 2px 8px rgba(0,0,0,0.4); display:flex; align-items:center; gap:2px;">🏢 ${h.name.split('（')[0]}</div>`;
+                    const icon = L.divIcon({ html: iconHtml, className: '', iconAnchor: [30, 12] });
+                    const m = L.marker(h.pos, { icon }).addTo(natMapLayerHubs);
+                    m.bindPopup(`
+                        <div style="font-family:sans-serif; color:#0f172a; min-width:210px;">
+                            <div style="font-weight:900; color:#0284c7; font-size:1em;">🏢 ${h.name}</div>
+                            <div style="font-size:0.82em; color:#64748b; margin-top:2px;">${h.role}</div>
+                            <div style="font-size:0.82em; font-weight:bold; margin-top:4px; color:#059669;">態勢: 平常即応（全系稼働）</div>
+                            <div style="margin-top:8px; display:flex; gap:6px;">
+                                <button type="button" onclick="selectLocationFromMap('${h.id}')" style="background:#0284c7; color:#fff; border:none; padding:4px 8px; border-radius:4px; font-size:0.75em; font-weight:bold; cursor:pointer;">
+                                    📍 この拠点を監視対象にする
+                                </button>
+                            </div>
+                        </div>
+                    `);
+                });
+
+                // ライブカメラピン
+                NATIONAL_MAP_CONFIG.cameras.forEach(c => {
+                    const iconHtml = `<div style="background:#8b5cf6; color:#fff; border:1.5px solid #fff; border-radius:50%; width:20px; height:20px; display:flex; align-items:center; justify-content:center; font-size:10px; box-shadow:0 0 6px #8b5cf6;">📷</div>`;
+                    const icon = L.divIcon({ html: iconHtml, className: '', iconSize: [20, 20], iconAnchor: [10, 10] });
+                    const m = L.marker(c.pos, { icon }).addTo(natMapLayerHubs);
+                    m.bindPopup(`
+                        <div style="font-family:sans-serif; color:#0f172a; min-width:180px;">
+                            <div style="font-weight:900; color:#7c3aed; font-size:0.92em;">📷 ${c.name}</div>
+                            <div style="font-size:0.78em; color:#059669; font-weight:bold; margin-top:2px;">● リアルタイム稼働中</div>
+                            <div style="margin-top:6px;">
+                                <button type="button" onclick="selectCameraFromMap('${c.id}')" style="background:#7c3aed; color:#fff; border:none; padding:4px 8px; border-radius:4px; font-size:0.75em; font-weight:bold; cursor:pointer;">
+                                    ▶ メイン画面で映像を見る
+                                </button>
+                            </div>
+                        </div>
+                    `);
+                });
+            }
+        }
+
+        function renderNationalMapQuickList(data) {
+            const listEl = document.getElementById('natmap-quick-list');
+            if (!listEl) return;
+
+            const cardsHtml = NATIONAL_MAP_CONFIG.hubs.map(h => {
+                const isSelected = h.id === currentLocation;
+                return `
+                    <div class="natmap-quick-card" onclick="zoomToNationalHub('${h.id}')" style="${isSelected ? 'border-color:#38bdf8; background:rgba(56,189,248,0.12);' : ''}">
+                        <div style="display:flex; justify-content:space-between; align-items:center;">
+                            <span style="font-weight:900; font-size:0.9em; color:#fff;">${h.name}</span>
+                            <span style="font-size:0.72em; background:${isSelected ? '#0284c7' : '#1e293b'}; color:#fff; padding:1px 5px; border-radius:3px;">${isSelected ? '選択中' : '安定'}</span>
+                        </div>
+                        <div style="font-size:0.75em; color:#94a3b8; margin-top:3px;">${h.role}</div>
+                    </div>
+                `;
+            }).join('');
+
+            listEl.innerHTML = cardsHtml;
+        }
+
+        function zoomToNationalHub(hubId) {
+            const hub = NATIONAL_MAP_CONFIG.hubs.find(h => h.id === hubId);
+            if (!hub || !leafletNationalMap) return;
+            leafletNationalMap.setView(hub.pos, 9);
+        }
+
+        function selectLocationFromMap(locId) {
+            const sel = document.getElementById('location-select');
+            if (sel) {
+                sel.value = locId;
+                changeLocation();
+            }
+            closeNationalOverviewMapModal();
+        }
+
+        function selectCameraFromMap(camId) {
+            switchCameraVideo(camId);
+            closeNationalOverviewMapModal();
+            const camAnchor = document.getElementById('sec-camera-anchor');
+            if (camAnchor) {
+                camAnchor.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+
         window.addEventListener('DOMContentLoaded', () => {
             initClock();
             loadSavedFontScale();
@@ -3075,6 +3473,7 @@
             // ESCキーでモーダルを閉じる
             document.addEventListener('keydown', (e) => {
                 if (e.key === 'Escape') {
+                    closeNationalOverviewMapModal();
                     closeSnsHeatmapModal();
                     closeDetailModal();
                     closeThresholdModal();
@@ -5735,6 +6134,95 @@
         }
 
 </script>
+
+    
+    <!-- =========================================================
+         🗾 日本全国 総合災害俯瞰マップ モーダル (Nationwide Disaster Overview Map)
+         ========================================================= -->
+    <div id="national-overview-map-modal" class="modal-overlay" onclick="closeNationalOverviewMapModalOnBackdrop(event)" style="display:none; z-index:10006;">
+        <div class="modal-container" onclick="event.stopPropagation()" style="max-width:1180px; max-height:94vh; width:95%; box-sizing:border-box; display:flex; flex-direction:column; overflow:hidden; border:2px solid #0284c7; box-shadow:0 0 35px rgba(2,132,199,0.45);">
+            <!-- モーダルヘッダー -->
+            <div class="modal-header" style="padding:10px 16px; display:flex; justify-content:space-between; align-items:center; background:linear-gradient(90deg, #090e1a 0%, #0d233a 50%, #090e1a 100%); border-bottom:1.5px solid #0284c7; flex-shrink:0;">
+                <div style="display:flex; align-items:center; gap:10px; min-width:0;">
+                    <span style="font-size:1.4em; flex-shrink:0;">🗾</span>
+                    <div style="min-width:0;">
+                        <div style="font-size:1.15em; font-weight:900; color:#fff; display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                            <span>日本全国 総合災害俯瞰マップ</span>
+                            <span style="font-size:0.68em; background:#0284c7; color:#fff; padding:2px 8px; border-radius:4px; font-weight:bold;">国内BCP司令塔</span>
+                        </div>
+                        <div style="font-size:0.75em; color:#94a3b8;">政府災害救助法適用 ｜ 地震・津波 ｜ 気象警報 ｜ 電力・通信インフラ ｜ 主要拠点＆ライブカメラ</div>
+                    </div>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px;">
+                    <button type="button" onclick="resetNationalMapView()" style="background:#1e293b; color:#38bdf8; border:1px solid #0284c7; padding:5px 12px; border-radius:6px; font-size:0.82em; font-weight:bold; cursor:pointer;" title="全国全域にズームリセット">
+                        ⟲ 全国全域表示
+                    </button>
+                    <button type="button" class="modal-close-btn" onclick="closeNationalOverviewMapModal()" style="padding:6px 14px; font-size:0.9em; font-weight:900;">✕ 閉じる</button>
+                </div>
+            </div>
+
+            <!-- モーダル本文 -->
+            <div class="modal-body" style="padding:12px; overflow-y:auto; overflow-x:hidden; flex:1; box-sizing:border-box; width:100%; display:flex; flex-direction:column; gap:10px;">
+                
+                <!-- 1. 全国サマリー統計カウンター -->
+                <div style="display:flex; gap:8px; overflow-x:auto; -webkit-overflow-scrolling:touch; padding-bottom:4px; flex-shrink:0;">
+                    <div id="natmap-badge-gov" style="background:rgba(239,68,68,0.15); border:1px solid #ef4444; padding:5px 12px; border-radius:6px; white-space:nowrap; display:flex; align-items:center; gap:6px; flex-shrink:0;">
+                        <span style="font-size:0.85em;">🏛️ 救助法適用:</span>
+                        <strong id="natmap-val-gov" style="font-size:0.92em; color:#f87171;">確認中...</strong>
+                    </div>
+                    <div id="natmap-badge-eq" style="background:rgba(245,158,11,0.15); border:1px solid #f59e0b; padding:5px 12px; border-radius:6px; white-space:nowrap; display:flex; align-items:center; gap:6px; flex-shrink:0;">
+                        <span style="font-size:0.85em;">🌋 最新地震:</span>
+                        <strong id="natmap-val-eq" style="font-size:0.92em; color:#fbbf24;">確認中...</strong>
+                    </div>
+                    <div id="natmap-badge-telecom" style="background:rgba(16,185,129,0.15); border:1px solid #10b981; padding:5px 12px; border-radius:6px; white-space:nowrap; display:flex; align-items:center; gap:6px; flex-shrink:0;">
+                        <span style="font-size:0.85em;">📶 携帯通信:</span>
+                        <strong id="natmap-val-telecom" style="font-size:0.92em; color:#34d399;">主要各社 正常稼働</strong>
+                    </div>
+                    <div id="natmap-badge-power" style="background:rgba(16,185,129,0.15); border:1px solid #10b981; padding:5px 12px; border-radius:6px; white-space:nowrap; display:flex; align-items:center; gap:6px; flex-shrink:0;">
+                        <span style="font-size:0.85em;">⚡ 電力網:</span>
+                        <strong id="natmap-val-power" style="font-size:0.92em; color:#34d399;">全国10エリア 安定</strong>
+                    </div>
+                    <div id="natmap-badge-hubs" style="background:rgba(56,189,248,0.15); border:1px solid #0284c7; padding:5px 12px; border-radius:6px; white-space:nowrap; display:flex; align-items:center; gap:6px; flex-shrink:0;">
+                        <span style="font-size:0.85em;">🏢 主要拠点:</span>
+                        <strong id="natmap-val-hubs" style="font-size:0.92em; color:#38bdf8;">全国10拠点・カメラ12基</strong>
+                    </div>
+                </div>
+
+                <!-- 2. レイヤー切替フィルターバー -->
+                <div style="display:flex; justify-content:space-between; align-items:center; background:#0b1324; border:1px solid var(--border-color); border-radius:8px; padding:6px 10px; gap:8px; flex-wrap:wrap; flex-shrink:0;">
+                    <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                        <span style="font-size:0.8em; font-weight:800; color:var(--text-muted); margin-right:4px;">レイヤー表示:</span>
+                        <button type="button" class="natmap-layer-btn active" id="btn-layer-all" onclick="toggleNationalMapLayer('all')">全表示</button>
+                        <button type="button" class="natmap-layer-btn active" id="btn-layer-gov" onclick="toggleNationalMapLayer('gov')">🏛️ 救助法適用・行政</button>
+                        <button type="button" class="natmap-layer-btn active" id="btn-layer-eq" onclick="toggleNationalMapLayer('eq')">🌋 地震・津波</button>
+                        <button type="button" class="natmap-layer-btn active" id="btn-layer-infra" onclick="toggleNationalMapLayer('infra')">⚡ 電力・通信</button>
+                        <button type="button" class="natmap-layer-btn active" id="btn-layer-hubs" onclick="toggleNationalMapLayer('hubs')">🏢 拠点＆📷カメラ</button>
+                    </div>
+                    <div style="font-size:0.75em; color:#94a3b8;">
+                        ピンをクリックで詳細情報・公報PDF・ライブカメラ連動
+                    </div>
+                </div>
+
+                <!-- 3. Leaflet 全国地図表示エリア -->
+                <div style="background:#020617; border-radius:8px; border:1.5px solid #0284c7; overflow:hidden; position:relative; box-sizing:border-box; width:100%; height:480px; min-height:480px; flex-shrink:0;">
+                    <div id="national-overview-leaflet-map" style="width:100%; height:100%; background:#0f172a;"></div>
+                </div>
+
+                <!-- 4. 下部: 全国主要拠点＆警戒地域クイックアクセス -->
+                <div style="background:var(--bg-card-sub); border:1px solid var(--border-color); border-radius:8px; padding:10px; box-sizing:border-box; width:100%;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                        <span style="font-size:0.88em; font-weight:800; color:#38bdf8;">📋 全国主要拠点 ＆ 警戒地域クイックアクセス（クリックで地図が自動ズーム）</span>
+                        <span style="font-size:0.75em; color:var(--text-muted);">全国10拠点・警戒地域連動</span>
+                    </div>
+                    <div id="natmap-quick-list" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(210px, 1fr)); gap:8px;">
+                        <!-- JSで動的生成 -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
     <!-- =========================================================
          SNS 地域別ワード・ヒートマップ モーダル (iOS/Android/PC最適化)

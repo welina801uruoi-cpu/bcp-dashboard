@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="ja" data-theme="dark" class="font-scale-20m">
 <head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>災害危機管理ダッシュボード | 国内BCP司令塔</title>
@@ -2457,13 +2460,15 @@
                         <div style="display:flex; align-items:center; gap:6px;">
                             <span>🔴 災害生放送 (24h Live)</span>
                             <a id="stream-direct-link" href="https://www.youtube.com/@weathernews/live" target="_blank" rel="noopener" class="raw-link-mini" style="font-size:0.75em; padding:2px 6px;" title="YouTube公式チャンネルで直接開く">別窓 ↗</a>
+                            <a href="https://famelack.com/tv/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" style="font-size:0.75em; padding:2px 6px; margin-left:auto; background:rgba(59,130,246,0.2); border:1px solid #3b82f6; color:#60a5fa;" title="Famelackで全国・世界のTV放送を開く">📺 Famelack TV ↗</a>
                         </div>
                         <div class="media-tabs-strip" id="stream-tabs">
                             <button class="media-tab-btn active" onclick="switchStreamVideo('stream_weathernews')">WNI気象</button>
                             <button class="media-tab-btn" onclick="switchStreamVideo('stream_tbsnews')">TBS</button>
                             <button class="media-tab-btn" onclick="switchStreamVideo('stream_ntvnews')">日テレ</button>
                             <button class="media-tab-btn" onclick="switchStreamVideo('stream_annnews')">テレ朝</button>
-                            <button class="media-tab-btn" onclick="switchStreamVideo('stream_fnnnews')">フジ</button>
+                            <button class="media-tab-btn" onclick="switchStreamVideo('stream_fnnnews')">フジ/TNC</button>
+                            <button class="media-tab-btn" onclick="switchStreamVideo('stream_abcnews')">ABCニュース</button>
                         </div>
                     </div>
                     <div class="media-video-wrapper">
@@ -2477,13 +2482,22 @@
                 <!-- 2. 全国ライブカメラ (Live Cameras) -->
                 <div class="permanent-camera-box" id="sec-camera-anchor">
                     <div class="media-box-header">
-                        <span id="camera-box-title">📷 全国ライブカメラ</span>
+                        <div style="display:flex; align-items:center; gap:6px;">
+                            <span id="camera-box-title">📷 全国ライブカメラ</span>
+                            <a href="https://famelack.com/webcams/" target="_blank" rel="noopener noreferrer" class="raw-link-mini" style="font-size:0.75em; padding:2px 6px; margin-left:auto; background:rgba(16,185,129,0.2); border:1px solid #10b981; color:#34d399;" title="Famelackで全国・世界のライブカメラを開く">📷 Famelack カメラ ↗</a>
+                        </div>
                         <div class="media-tabs-strip" id="camera-tabs">
                             <button class="media-tab-btn camera-tab-btn active" onclick="switchCameraVideo('cam_tokyo_shibuya')">東京渋谷</button>
                             <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_osaka_dotonbori')">大阪</button>
-                            <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_naha_kokusai')">那覇</button>
+                            <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_sapporo')">札幌</button>
+                            <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_sendai')">仙台</button>
+                            <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_nagoya_station')">名古屋</button>
+                            <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_kanazawa_station')">金沢</button>
+                            <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_hiroshima_station')">広島</button>
+                            <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_fukuoka_hakata')">博多</button>
                             <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_fuji')">富士山</button>
                             <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_sakurajima')">桜島</button>
+                            <button class="media-tab-btn camera-tab-btn" onclick="switchCameraVideo('cam_naha_kokusai')">那覇</button>
                         </div>
                     </div>
                     <div class="media-video-wrapper">
@@ -2994,10 +3008,11 @@
         // 生放送ストリーム プリセット (動的API連携＋最新安定フォールバックID)
         let STREAM_PRESETS = {
             "stream_weathernews": "4_ae_IKXB8g",
-            "stream_tbsnews": "pz29vqiAVcg",
+            "stream_tbsnews": "Anr15FA9OCI",
             "stream_ntvnews": "V7ANB9xVjeY",
             "stream_annnews": "5GIsbtEO0rg",
-            "stream_fnnnews": "WIAf__XbEJ0"
+            "stream_fnnnews": "A76bj7NZSs0",
+            "stream_abcnews": "3Z7ZOgCT4SU"
         };
 
         const STREAM_DIRECT_URLS = {
@@ -3005,7 +3020,8 @@
             "stream_tbsnews": "https://www.youtube.com/@tbsnewsdig/live",
             "stream_ntvnews": "https://www.youtube.com/@ntv_news/live",
             "stream_annnews": "https://www.youtube.com/@ANNnewsCH/live",
-            "stream_fnnnews": "https://www.youtube.com/@FNNnewsCH/live"
+            "stream_fnnnews": "https://www.youtube.com/@FNNnewsCH/live",
+            "stream_abcnews": "https://www.youtube.com/@abc_asahi/live"
         };
 
         let currentActiveStreamId = "stream_weathernews";
@@ -3016,9 +3032,9 @@
             "cam_tokyo_tower": "VM18f-IIUTw",
             "cam_osaka_dotonbori": "czJhGgFsp38",
             "cam_naha_kokusai": "6HYjCFkmDPA",
-            "cam_fuji": "bJqFntWbi54",
+            "cam_fuji": "_6nLps25Kws",
             "cam_sakurajima": "PeElJClXtzE",
-            "cam_sapporo": "kfIQBC0hrII",
+            "cam_sapporo": "gaNLXSEUVRw",
             "cam_sendai": "AinAZQgQp_s",
             "cam_nagoya_station": "X304dz1zrfU",
             "cam_kanazawa_station": "JY0VPKVjmRs",

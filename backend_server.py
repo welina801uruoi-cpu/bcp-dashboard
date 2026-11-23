@@ -466,7 +466,7 @@ LIVE_MEDIA_PRESETS = {
             "category": "全国報道",
             "provider": "TBS / JNN",
             "handle": "@tbsnewsdig",
-            "video_id": "pz29vqiAVcg",
+            "video_id": "Anr15FA9OCI",
             "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。"
         },
         {
@@ -493,7 +493,7 @@ LIVE_MEDIA_PRESETS = {
             "category": "全国報道",
             "provider": "フジテレビ / FNN",
             "handle": "@FNNnewsCH",
-            "video_id": "WIAf__XbEJ0",
+            "video_id": "A76bj7NZSs0",
             "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。"
         }
     ],
@@ -623,7 +623,7 @@ LIVE_MEDIA_PRESETS = {
             "name": "静岡/山梨: 富士山パノラマ監視",
             "location_key": "tokyo",
             "region": "自然災害（火山・気象）",
-            "video_id": "bJqFntWbi54",
+            "video_id": "_6nLps25Kws",
             "description": "富士山周辺の雲海、雷雲、気象変化をパノラマ定点観測（イマフジ公式）。"
         },
         {
@@ -6052,10 +6052,10 @@ def get_live_streams():
     """国内災害生放送の最新動的VideoID一覧を返す"""
     streams = {
         "stream_weathernews": resolve_live_video_id("@weathernews", "4_ae_IKXB8g"),
-        "stream_tbsnews": resolve_live_video_id("@tbsnewsdig", "pz29vqiAVcg"),
+        "stream_tbsnews": resolve_live_video_id("@tbsnewsdig", "Anr15FA9OCI"),
         "stream_ntvnews": resolve_live_video_id("@ntv_news", "V7ANB9xVjeY"),
         "stream_annnews": resolve_live_video_id("@ANNnewsCH", "5GIsbtEO0rg"),
-        "stream_fnnnews": resolve_live_video_id("@FNNnewsCH", "WIAf__XbEJ0"),
+        "stream_fnnnews": resolve_live_video_id("@FNNnewsCH", "A76bj7NZSs0"),
     }
     return jsonify({"success": True, "streams": streams})
 

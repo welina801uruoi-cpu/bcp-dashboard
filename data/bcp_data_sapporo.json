@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 19:31:26",
+  "timestamp": "2026-11-23 20:21:54",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -150,11 +150,11 @@
     "url": "https://typhoon.yahoo.co.jp/weather/jp/volcano/"
   },
   "weather": {
-    "status": "NOTICE",
-    "summary": "【注意報発表: 4地域】道央、道南、道北、道東（警報なし）",
+    "status": "ALERT",
+    "summary": "【警報発表: 1地域】道東（大雨警報） ／ 他3地域で注意報",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
-    "alert_count": 0,
-    "notice_count": 4,
+    "alert_count": 1,
+    "notice_count": 3,
     "total_prefs": 4,
     "pref_details": [
       {
@@ -168,10 +168,10 @@
           "強風注意報",
           "なだれ注意報",
           "波浪注意報",
-          "雷注意報",
-          "融雪注意報"
+          "融雪注意報",
+          "雷注意報"
         ],
-        "summary": "強風注意報、なだれ注意報、波浪注意報、雷注意報、融雪注意報",
+        "summary": "強風注意報、なだれ注意報、波浪注意報、融雪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -186,10 +186,10 @@
           "濃霧注意報",
           "なだれ注意報",
           "波浪注意報",
-          "雷注意報",
-          "融雪注意報"
+          "融雪注意報",
+          "雷注意報"
         ],
-        "summary": "強風注意報、濃霧注意報、なだれ注意報、波浪注意報、雷注意報、融雪注意報",
+        "summary": "強風注意報、濃霧注意報、なだれ注意報、波浪注意報、融雪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -200,28 +200,31 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
+          "強風注意報",
           "波浪注意報",
-          "雷注意報",
-          "強風注意報"
+          "濃霧注意報",
+          "雷注意報"
         ],
-        "summary": "濃霧注意報、波浪注意報、雷注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報、濃霧注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
         "code": "1d",
         "name": "道東",
         "short_name": "道東",
-        "status": "NOTICE",
+        "status": "ALERT",
         "emg_warns": [],
-        "warns": [],
+        "warns": [
+          "大雨警報"
+        ],
         "notices": [
+          "強風注意報",
           "濃霧注意報",
           "波浪注意報",
           "雷注意報",
-          "強風注意報"
+          "大雨注意報"
         ],
-        "summary": "濃霧注意報、波浪注意報、雷注意報、強風注意報",
+        "summary": "大雨警報、強風注意報、濃霧注意報、波浪注意報、雷注意報、大雨注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -775,17 +778,17 @@
     "status": "NORMAL",
     "office": "札幌管区気象台",
     "target_area": "石狩・空知・後志地方",
-    "report_time": "11/23 16:39",
+    "report_time": "11/24 04:44",
     "headline": "",
-    "text": "　北海道付近は、２４日にかけて低気圧が日本海からオホーツク海へ発達しながら進み、低気圧からのびる前線が通過するでしょう。このため、気圧の傾きが大きく、大気の状態が非常に不安定となる見込みです。\n\n　石狩・空知・後志地方の２３日１５時の天気は、曇りとなっています。\n\n　２３日夜は、曇りのち雨で、所により雷を伴うでしょう。\n\n　２４日は、雨のち雪で、所により雷を伴う見込みです。\n\n　海の波の高さは、２３日夜は２．５メートルとやや高いでしょう。２４日は３メートルと高い見込みです。",
+    "text": "　北海道付近は、２４日は低気圧が日本海からオホーツク海へ発達しながら進み、低気圧からのびる前線が通過するでしょう。２５日は西高東低の気圧配置となる見込みです。このため、２５日にかけて気圧の傾きが大きく、大気の状態が非常に不安定でしょう。\n\n　石狩・空知・後志地方の２４日３時の天気は、おおむね雨となっています。\n\n　２４日は、雨時々曇りで、所により雷を伴うでしょう。\n\n　２５日は、雪時々曇りで雷を伴い、ふぶく所がある見込みです。\n\n　海の波の高さは、２４日は３メートルと高いでしょう。２５日は３メートルのち４メートルとしける見込みです。",
     "paragraphs": [
-      "北海道付近は、２４日にかけて低気圧が日本海からオホーツク海へ発達しながら進み、低気圧からのびる前線が通過するでしょう。このため、気圧の傾きが大きく、大気の状態が非常に不安定となる見込みです。",
-      "石狩・空知・後志地方の２３日１５時の天気は、曇りとなっています。",
-      "２３日夜は、曇りのち雨で、所により雷を伴うでしょう。",
-      "２４日は、雨のち雪で、所により雷を伴う見込みです。",
-      "海の波の高さは、２３日夜は２．５メートルとやや高いでしょう。２４日は３メートルと高い見込みです。"
+      "北海道付近は、２４日は低気圧が日本海からオホーツク海へ発達しながら進み、低気圧からのびる前線が通過するでしょう。２５日は西高東低の気圧配置となる見込みです。このため、２５日にかけて気圧の傾きが大きく、大気の状態が非常に不安定でしょう。",
+      "石狩・空知・後志地方の２４日３時の天気は、おおむね雨となっています。",
+      "２４日は、雨時々曇りで、所により雷を伴うでしょう。",
+      "２５日は、雪時々曇りで雷を伴い、ふぶく所がある見込みです。",
+      "海の波の高さは、２４日は３メートルと高いでしょう。２５日は３メートルのち４メートルとしける見込みです。"
     ],
-    "summary": "北海道付近は、２４日にかけて低気圧が日本海からオホーツク海へ発達しながら進み、低気圧からのびる前線が通過するでしょう。このため、気圧の傾きが大きく、大気の状態が...",
+    "summary": "北海道付近は、２４日は低気圧が日本海からオホーツク海へ発達しながら進み、低気圧からのびる前線が通過するでしょう。２５日は西高東低の気圧配置となる見込みです。この...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=016000"
   },
   "disaster_news": {
@@ -913,7 +916,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 04:30:29 JST"
+    "last_updated": "2026-11-24 05:21:02 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -945,10 +948,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "6CPgsLYKyRs",
+        "video_id": "e_5tuADb4_o",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/6CPgsLYKyRs?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=6CPgsLYKyRs"
+        "embed_url": "https://www.youtube.com/embed/e_5tuADb4_o?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=e_5tuADb4_o"
       },
       {
         "id": "stream_ntvnews",
@@ -956,10 +959,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "mIhDe1WDplc",
+        "video_id": "SUN8vkl3Ico",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/mIhDe1WDplc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=mIhDe1WDplc"
+        "embed_url": "https://www.youtube.com/embed/SUN8vkl3Ico?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=SUN8vkl3Ico"
       },
       {
         "id": "stream_annnews",
@@ -967,10 +970,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "piFxAOqvyw4",
+        "video_id": "7tQ4KhdsyQU",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/piFxAOqvyw4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=piFxAOqvyw4"
+        "embed_url": "https://www.youtube.com/embed/7tQ4KhdsyQU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=7tQ4KhdsyQU"
       },
       {
         "id": "stream_fnnnews",

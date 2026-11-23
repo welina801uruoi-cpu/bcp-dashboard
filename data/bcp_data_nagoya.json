@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 19:31:04",
+  "timestamp": "2026-11-23 20:21:34",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -173,10 +173,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 3地域】新潟、長野、岐阜（警報なし）",
+    "summary": "【注意報発表: 6地域】新潟、長野、岐阜、静岡、三重、愛知（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 3,
+    "notice_count": 6,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -187,12 +187,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
           "濃霧注意報",
-          "波浪注意報",
           "霜注意報",
-          "強風注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "濃霧注意報、波浪注意報、霜注意報、強風注意報",
+        "summary": "強風注意報、濃霧注意報、霜注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -203,10 +204,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "濃霧注意報",
-          "強風注意報"
+          "強風注意報",
+          "濃霧注意報"
         ],
-        "summary": "濃霧注意報、強風注意報",
+        "summary": "強風注意報、濃霧注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/20/"
       },
       {
@@ -226,33 +227,45 @@
         "code": "22",
         "name": "静岡県",
         "short_name": "静岡",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報",
+          "波浪注意報",
+          "雷注意報"
+        ],
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
         "code": "24",
         "name": "三重県",
         "short_name": "三重",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報",
+          "波浪注意報",
+          "雷注意報"
+        ],
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
         "code": "23",
         "name": "愛知県",
         "short_name": "愛知",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報",
+          "波浪注意報",
+          "強風注意報"
+        ],
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/23/"
       }
     ]
@@ -806,16 +819,16 @@
     "status": "NORMAL",
     "office": "名古屋地方気象台",
     "target_area": "愛知県",
-    "report_time": "11/23 16:36",
+    "report_time": "11/24 04:52",
     "headline": "",
-    "text": "　東海地方は、高気圧に覆われています。\n\n　東海地方は、おおむね晴れています。\n\n　２３日の東海地方は、高気圧に覆われるためおおむね晴れますが、気圧の谷や湿った空気の影響で夜遅くは曇りとなるでしょう。\n\n　２４日の東海地方は、前線や湿った空気の影響で曇りや雨となり、雷を伴う所がありますが、次第に西高東低の気圧配置となるため、夜は晴れる所もある見込みです。",
+    "text": "　日本海には前線を伴った低気圧があって北東に進んでいます。東海地方は、湿った空気の影響を受けています。\n\n　東海地方は、おおむね曇りで、雨の降っている所があります。岐阜県の山地では、雪の降っている所があります。\n\n　２４日の東海地方は、前線や湿った空気の影響で曇りや雨となり、雷を伴う所がありますが、次第に西高東低の気圧配置となるため、夜は晴れる所もあるでしょう。岐阜県では、雪の降る所がある見込みです。\n\n　２５日の東海地方は、西高東低の気圧配置が続くため、おおむね晴れますが、寒気や気圧の谷の影響で雲が広がりやすく、雪や雨の降る所があるでしょう。岐阜県では、雷を伴う所がある見込みです。",
     "paragraphs": [
-      "東海地方は、高気圧に覆われています。",
-      "東海地方は、おおむね晴れています。",
-      "２３日の東海地方は、高気圧に覆われるためおおむね晴れますが、気圧の谷や湿った空気の影響で夜遅くは曇りとなるでしょう。",
-      "２４日の東海地方は、前線や湿った空気の影響で曇りや雨となり、雷を伴う所がありますが、次第に西高東低の気圧配置となるため、夜は晴れる所もある見込みです。"
+      "日本海には前線を伴った低気圧があって北東に進んでいます。東海地方は、湿った空気の影響を受けています。",
+      "東海地方は、おおむね曇りで、雨の降っている所があります。岐阜県の山地では、雪の降っている所があります。",
+      "２４日の東海地方は、前線や湿った空気の影響で曇りや雨となり、雷を伴う所がありますが、次第に西高東低の気圧配置となるため、夜は晴れる所もあるでしょう。岐阜県では、雪の降る所がある見込みです。",
+      "２５日の東海地方は、西高東低の気圧配置が続くため、おおむね晴れますが、寒気や気圧の谷の影響で雲が広がりやすく、雪や雨の降る所があるでしょう。岐阜県では、雷を伴う所がある見込みです。"
     ],
-    "summary": "東海地方は、高気圧に覆われています。...",
+    "summary": "日本海には前線を伴った低気圧があって北東に進んでいます。東海地方は、湿った空気の影響を受けています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=230000"
   },
   "disaster_news": {
@@ -943,7 +956,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 04:30:29 JST"
+    "last_updated": "2026-11-24 05:21:02 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -975,10 +988,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "6CPgsLYKyRs",
+        "video_id": "e_5tuADb4_o",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/6CPgsLYKyRs?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=6CPgsLYKyRs"
+        "embed_url": "https://www.youtube.com/embed/e_5tuADb4_o?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=e_5tuADb4_o"
       },
       {
         "id": "stream_ntvnews",
@@ -986,10 +999,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "mIhDe1WDplc",
+        "video_id": "SUN8vkl3Ico",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/mIhDe1WDplc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=mIhDe1WDplc"
+        "embed_url": "https://www.youtube.com/embed/SUN8vkl3Ico?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=SUN8vkl3Ico"
       },
       {
         "id": "stream_annnews",
@@ -997,10 +1010,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "piFxAOqvyw4",
+        "video_id": "7tQ4KhdsyQU",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/piFxAOqvyw4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=piFxAOqvyw4"
+        "embed_url": "https://www.youtube.com/embed/7tQ4KhdsyQU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=7tQ4KhdsyQU"
       },
       {
         "id": "stream_fnnnews",

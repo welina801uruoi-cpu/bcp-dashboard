@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 09:56:59",
+  "timestamp": "2026-11-23 12:40:05",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -112,12 +112,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-23 14:14",
-    "place": "長野県中部",
-    "magnitude": "3.9",
+    "shindo": "1",
+    "time": "2026-11-23 19:50",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-23 19:50",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-23 14:14",
         "place": "長野県中部",
@@ -180,13 +187,6 @@
         "shindo": "1",
         "magnitude": "3",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-23 04:11",
-        "place": "トカラ列島近海",
-        "shindo": "1",
-        "magnitude": "2.1",
-        "maxScale": 10
       }
     ]
   },
@@ -202,23 +202,21 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 6地域】東京、千葉、神奈川、埼玉、茨城、栃木（警報なし）",
+    "summary": "【注意報発表: 3地域】千葉、神奈川、栃木（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 6,
+    "notice_count": 3,
     "total_prefs": 8,
     "pref_details": [
       {
         "code": "13",
         "name": "東京都",
         "short_name": "東京",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "乾燥注意報"
-        ],
-        "summary": "乾燥注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -242,35 +240,31 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報"
+          "強風注意報"
         ],
-        "summary": "乾燥注意報",
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/14/"
       },
       {
         "code": "11",
         "name": "埼玉県",
         "short_name": "埼玉",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "乾燥注意報"
-        ],
-        "summary": "乾燥注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/11/"
       },
       {
         "code": "8",
         "name": "茨城県",
         "short_name": "茨城",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "乾燥注意報"
-        ],
-        "summary": "乾燥注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -318,23 +312,21 @@
     "notice_items": []
   },
   "transit": {
-    "status": "ALERT",
-    "text": "運行支障あり（在来線: 湘南新宿ライン）",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（湘南新宿ライン）",
+    "status": "NORMAL",
+    "text": "全線平常運行中",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [
-      "湘南新宿ライン"
-    ],
+    "troubled_lines": [],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
         "status": "NORMAL",
         "state": "平常運転",
-        "detail": "現在､事故･遅延に関する情報はありません。",
+        "detail": "20:40現在、ほぼ平常通り運転しています。（11月23日 20時40分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       },
       {
@@ -395,12 +387,7 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東京電力PG: 【停電発生中】千葉県で停電情報を検知（東京都・他エリアは平常）",
-    "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
-    "gas_msg": "東京ガス: 供給安定（遮断等なし）",
-    "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
-    "water_url": "https://www.waterworks.metro.tokyo.lg.jp/",
-    "gas_url": "https://www.tokyo-gas.co.jp/",
+    "power_msg": "東京電力PG: 【停電発生中】千葉県で停電情報を検知",
     "power_outages": [
       {
         "pref": "福島県",
@@ -432,12 +419,20 @@
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/31/",
         "level": "poweroutageLevel1"
       }
-    ]
+    ],
+    "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
+    "gas_msg": "東京ガス: 供給安定（遮断等なし）",
+    "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
+    "water_url": "https://www.waterworks.metro.tokyo.lg.jp/",
+    "gas_url": "https://www.tokyo-gas.co.jp/"
   },
   "government": {
     "status": "ALERT",
     "cabinet_msg": "内閣府/防災庁: 【要警戒】災害救助法適用 令和８年11月20日からの大雪に係る災害救助法の適用について",
     "mhlw_msg": "厚労省: DMAT・災害医療救護体制 平常即応態勢",
+    "affected_prefectures": [
+      "福島県"
+    ],
     "latest_tekiyou": {
       "title": "令和８年11月20日からの大雪に係る災害救助法の適用について",
       "url": "https://www.bousai.go.jp/pdf/261123.pdf",
@@ -461,31 +456,36 @@
         "title": "令和８年台風第25号に伴う災害に係る災害救助法の適用について【第２報】",
         "url": "https://www.bousai.go.jp/pdf/260930-2.pdf",
         "date": "2026-09-30",
-        "report": "第２報"
+        "report": "第２報",
+        "prefectures": []
       },
       {
         "title": "令和８年台風第18号に伴う災害に係る災害救助法の適用について",
         "url": "https://www.bousai.go.jp/pdf/260930.pdf",
         "date": "2026-09-30",
-        "report": "第1報"
+        "report": "第1報",
+        "prefectures": []
       },
       {
         "title": "令和８年台風第25号に伴う災害に係る災害救助法の適用について",
         "url": "https://www.bousai.go.jp/pdf/260921.pdf",
         "date": "2026-09-21",
-        "report": "第1報"
+        "report": "第1報",
+        "prefectures": []
       },
       {
         "title": "令和８年台風第24号及び前線による大雨に伴う災害に係る災害救助法の適用について【第２報】",
         "url": "https://www.bousai.go.jp/pdf/260909.pdf",
         "date": "2026-09-09",
-        "report": "第２報"
+        "report": "第２報",
+        "prefectures": []
       },
       {
         "title": "令和８年台風第24号及び前線による大雨に伴う災害に係る災害救助法の適用について",
         "url": "https://www.bousai.go.jp/pdf/260905.pdf",
         "date": "2026-09-05",
-        "report": "第1報"
+        "report": "第1報",
+        "prefectures": []
       }
     ],
     "kyuujo_url": "https://www.bousai.go.jp/taisaku/kyuujo/kyuujo_tekiyou.html",
@@ -495,10 +495,7 @@
     "mhlw_saigai_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000089060.html",
     "dmat_hq_url": "https://dmat.jihs.go.jp/",
     "emis_url": "https://www.emis.mhlw.go.jp/",
-    "jrc_url": "https://www.jrc.or.jp/saigai/",
-    "affected_prefectures": [
-      "福島県"
-    ]
+    "jrc_url": "https://www.jrc.or.jp/saigai/"
   },
   "evacuation": {
     "status": "ALERT",
@@ -532,19 +529,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/23 09:06",
-          "text": "今日 START au END めちゃくちゃ繋がりにくい。 START 障害 END かなんか？"
+          "time": "11/23 10:58",
+          "text": "START au END ひかりって本当にクソだな。 朝からネットが繋がらなくなり、朝電話かけたところ START 障害 END との事。 で、 START a..."
         },
         {
-          "time": "11/23 07:03",
-          "text": "mineo マイネオ 新規契約 友達紹介 もしもの通信 START 障害 END に備えて選べるdocomo/ START au END /softbank回線..."
+          "time": "11/23 10:31",
+          "text": "START au END 通信 START 障害 END かしら？"
         },
         {
-          "time": "11/23 06:59",
-          "text": "START au END 光通信 START 障害 END ？ Wi-Fi使えんくなった"
+          "time": "11/23 10:26",
+          "text": "【通信はライフラインです📶】 災害や通信 START 障害 END で、 メイン回線が使えなくなることも。 楽天モバイルなら約1,000円で3GB＋通話かけ放題..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -558,16 +555,16 @@
       "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/23 11:12",
+          "text": "エーユーの START 障害 END 、多くの地域で復旧 出典（公式発表）： START KDDI END https://t.co/db9IiwesO5 ▼橋..."
+        },
+        {
           "time": "11/23 00:12",
           "text": "So-net、電話でのサポートがいつのまにか有料のなってて、基本サポートはアプリでのチャットなんだけどチャット相手は例によって日本人ではなさそう。 写真とか情報..."
         },
         {
           "time": "11/22 23:24",
           "text": "11月21日、 START KDDI END は大雪による一部地域の通信 START 障害 END を発表。 注目したいのは、他社回線を活用する「JAPANロー..."
-        },
-        {
-          "time": "11/22 09:07",
-          "text": "START KDDI END より通信 START 障害 END の情報が出ています https://t.co/8KUDzGEu6B #空ネット"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -581,16 +578,16 @@
       "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/23 10:27",
+          "text": "@GRIFFIN_KASHIWA START au END もだったのですね！ドコモは移動基地局車？が来ていたのは見かけたのですがそれでも足りてない感じでした。..."
+        },
+        {
           "time": "11/23 08:18",
           "text": "羽田空港 START au END 1ミリも START 繋がらない END な"
         },
         {
           "time": "11/23 07:54",
           "text": "@iihawabeauty 他にも地下だと START 繋がらない END って聞きますしね。私は START au END 使ってます。"
-        },
-        {
-          "time": "11/23 07:14",
-          "text": "@kagikko_banana スマホの様子が心配でお声掛けしました👀 START au END サポート岡野です。 場所問わず START 繋がらない END..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -604,16 +601,16 @@
       "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/23 10:26",
+          "text": "【通信はライフラインです📶】 災害や通信 START 障害 END で、 メイン回線が使えなくなることも。 楽天モバイルなら約1,000円で3GB＋通話かけ放題..."
+        },
+        {
+          "time": "11/23 10:23",
+          "text": "【通信 START 障害 END への備えに、もう1回線📱】 普段と違う回線を予備に。 楽天モバイルなら3GBまで税込1,078円。 更に国内通話はかけ放題無料..."
+        },
+        {
           "time": "11/22 16:07",
           "text": "auにMNPした後、サブ回線どうするか問題。 START povo END はau回線なので、通信 START 障害 END 対策にならない。 SoftBank..."
-        },
-        {
-          "time": "11/22 15:11",
-          "text": "この羽生2日間で困ったことはとにかくスマホが繋がらないことだった😱💦 docomoのPaboを利用してるが1日目はLINEも電話も繋がらず……2日目の今日は S..."
-        },
-        {
-          "time": "11/22 14:54",
-          "text": "アハモにして約2年 値上がり？と通信 START 障害 END から START povo END に移行するか悩み"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -906,8 +903,56 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 19,
+    "disaster_count": 14,
     "articles": [
+      {
+        "title": "【独自】災害対策本部は東京圏以外に設置　副首都など、首都直下地震に備え(共同通信)",
+        "summary": "首都直下地震が発生した際の国の緊急災害対策本部について、政府は「副首都」を含めた東京圏以外への設置を検討する方針を固めた。首相官邸などの行政中枢機能が失われる想定はないとしつつ、想定を超える甚大な被害",
+        "pub_date": "11/23 21:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/96dc40e5cdb45fb0b2419c4ecf43ce7ac5239fa7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "住宅地で火事 火元の住宅の80代女性が顔にやけどを負い病院に搬送  約2時間半後にほぼ消し止められるも4軒に延焼  愛知・春日井市(CBCテレビ)",
+        "summary": "きょう午後、愛知県春日井市で住宅火災があり、80代の女性が病院に搬送されました。消防によりますときょう午後2時半ごろ、春日井市白山町にある住宅の近くを通りかかった男性から、「1階の窓から火と煙が見える",
+        "pub_date": "11/23 20:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/5b8533611b06be7c00a82d56305bc996f8f9199d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "首里城が一般公開 火災焼失から7年(ABEMA TIMES)",
+        "summary": "火災で焼失した首里城正殿の一般公開が始まりました。 首里城正殿は、2019年の火災で焼失し、2022年から復元工事が行われていました。【映像】復元工事がおわった首里城正殿 公開始まる きょうから一般公",
+        "pub_date": "11/23 19:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/cf9faca7bf7d838c53b698fef6395b3a694fc5da?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【動画】24日の天気 - 広い範囲で雨 落雷・突風・ひょう注意　次第に冷たい風が強まり夜は冷え込む（23日19時更新）(ウェザーマップ)",
+        "summary": "24日(火)は広い範囲で雨が降るでしょう。大気の状態が非常に不安定で、落雷・突風・ひょう・局地的な激しい雨に注意が必要です。次第に大陸から強い寒気がやってきて風も強まります。夜はグッと冷えてきそうです",
+        "pub_date": "11/23 19:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/03f5095102e32251804529e9a98ef015f71d84d4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【蓬莱さんのお天気】あす24日　近畿地方は朝から雨、昼頃には強い雨・落雷・突風に注意、夜からは北風強まり冬の寒さ　週末は寒さ和らぐ予想(読売テレビ)",
+        "summary": "「かんさい情報ネットten.」蓬莱さんのお天気コーナーです。詳しくは動画をご覧ください。（11月23日放送）",
+        "pub_date": "11/23 19:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/8a3627a27daf19a7917af26737732a6669c293a6?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "阪神･淡路大震災も熊本地震も\"前兆\"だった…京大名誉教授が割り出した南海トラフ巨大地震の｢発生時期｣(プレジデントオンライン)",
+        "summary": "南海トラフ巨大地震はいつ起きるのか。京都大学名誉教授の鎌田浩毅さんは「南海地震の前後で土地の上下変動の大きさを調べてみると、1回の地震で大きく隆起するほど、そこでの次の地震までの時間が長くなる、という",
+        "pub_date": "11/23 19:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/f0712643ac1aa66b9df04edc5c6f68c998949d66?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "首里城正殿の復元に富山の技　彫刻に2年半、この道50年以上の井波彫刻師が正殿の顔「唐破風妻飾」を手掛ける　待ちに待った一般公開(FNNプライムオンライン)",
         "summary": "2019年の火災で焼失した沖縄県の世界遺産、首里城正殿が復元され、23日から一般公開が始まった。復元には、富山県南砺市の井波彫刻師が関わっている。この道50年以上の職人、砂田清定さん（76）は「最大限",
@@ -917,8 +962,8 @@
         "is_disaster": true
       },
       {
-        "title": "“開かずの踏切”廃止で長時間待ち解消も新たな問題 一日1900台の通行車両をどうする(テレビ朝日系（ANN）)",
-        "summary": "JR広島駅の近くにある愛宕踏切、なかなか開かずに多くの人が待たされています。 1本列車が通過しても、まだ開きません。横断を始めても長さがあるため、途中で警報が鳴り、走って渡る人も。踏切の利用者「いつも",
+        "title": "“開かずの踏切”廃止で長時間待ち解消も新たな問題　一日1900台の通行車両をどうする(テレビ朝日系（ANN）)",
+        "summary": "■“開かずの踏切”廃止で別問題浮上 JR広島駅の近くにある愛宕踏切。なかなか開かずに多くの人が待たされています。 1本列車が通過しても、まだ開きません。横断を始めても長さがあるため、途中で警報が鳴り、",
         "pub_date": "11/23 18:42 JST",
         "link": "https://news.yahoo.co.jp/articles/55ca826bad3cd86ffa02989dcb602a601a50599f?source=rss",
         "category": "国内・気象防災",
@@ -926,7 +971,7 @@
       },
       {
         "title": "ストーブの火「ふとんに燃え移った」緊迫の消火・救出作業　暖房器具は細心の注意を(テレビ朝日系（ANN）)",
-        "summary": "部屋の窓から激しく吹き出す炎。22日午前4時半すぎ、札幌市にある10階建てマンションの4階で火災が発生。通報 火元の部屋の住人（きのう）「ストーブから出火して、ふとんに燃え移った」消防隊「住んでいる人",
+        "summary": "■ストーブの火「ふとんに燃え移った」 部屋の窓から激しく吹き出す炎。22日午前4時半すぎ、札幌市にある10階建てマンションの4階で火災が発生。通報 火元の部屋の住人（きのう）「ストーブから出火して、ふ",
         "pub_date": "11/23 18:41 JST",
         "link": "https://news.yahoo.co.jp/articles/4a83add7b51ee3c36d4a91cc75940024e4d22c99?source=rss",
         "category": "国内・気象防災",
@@ -942,7 +987,7 @@
       },
       {
         "title": "首里城正殿 一般公開　内部もお披露目 早朝から行列(テレビ朝日系（ANN）)",
-        "summary": "火災で焼失した首里城正殿の一般公開が始まりました。 首里城正殿は2019年の火災で焼失し、2022年から復元工事が行われていました。 23日から一般公開が始まった正殿内部の見学は事前予約制となっていて",
+        "summary": "火災で焼失した首里城正殿の一般公開が始まりました。 首里城正殿は2019年の火災で焼失し、2022年から復元工事が行われていました。 今月23日から一般公開が始まった正殿内部の見学は事前予約制となって",
         "pub_date": "11/23 17:57 JST",
         "link": "https://news.yahoo.co.jp/articles/0864b11cab007e384c95cf01314474719a5e03b0?source=rss",
         "category": "国内・気象防災",
@@ -973,63 +1018,15 @@
         "is_disaster": true
       },
       {
-        "title": "住宅火災　けが人や逃げ遅れなど不明　愛知・春日井市(中京テレビＮＥＷＳ)",
-        "summary": "愛知県春日井市の住宅で火事がありました。けが人などは分かっていません。警察や消防によりますと、23日午後2時半ごろ、愛知県春日井市白山町の住宅で、通行人から「建物の1階から火と煙が見える」「窓から炎が",
-        "pub_date": "11/23 17:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/e1448a677b31f134fabe7e911fecd5c00f284d61?source=rss",
+        "title": "【関文科相に政治資金規正法違反の疑い】自宅家賃420万円を政治資金で支出していた(文春オンライン)",
+        "summary": "関芳弘文科相（61）が政治資金で自宅マンションの家賃を支払っていたことが 「週刊文春」 の取材で分かった。政治資金規正法に違反する疑いがある。【画像】今年の衆院選では高市首相が関氏の応援に 問題と",
+        "pub_date": "11/23 21:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/320b5bb0d215432d9c3fb330fb2bd4d05ca369f9?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "火災から7年…首里城正殿　復興の歩み　過去に5度焼失も不屈の歴史　24歳宮大工の思い(テレビ朝日系（ANN）)",
-        "summary": "火災から7年、23日についに首里城正殿の一般公開が始まります。シンボルの復活にかけた沖縄の思いと、復興のバトンを受け取った1人の若き宮大工の歩みです。【画像】琉球王国時代の色合いが再現された「伝統の赤",
-        "pub_date": "11/23 17:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/e2de21b0efbfe772ac112dbf35da0c526ecf9eba?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "近畿各地今季一番の冷え込み　年末年始ごろの寒さ「暖房器具による火災」に注意　5年間で543件発生(読売テレビ)",
-        "summary": "23日の近畿地方は今季一番の冷え込みとなり、大阪市では5度を下回るなど、年末年始ごろの寒さとなりました。この寒さで活躍するのが「暖房器具」ですが、その使い方にも注意が必要です。【ブルーインパルス】奈良",
-        "pub_date": "11/23 17:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/191cde670b45c240ea5a2d938bf15120b205d4b8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "松山で住宅火災、2人死亡　50代姉弟か(共同通信)",
-        "summary": "23日午前3時15分ごろ、松山市土橋町の無職上松美和さん（55）方の木造2階建て住宅が燃えていると通行人の男性から110番があった。松山東署によると、住宅は全焼し、焼け跡から2人の遺体が見つかった。こ",
-        "pub_date": "11/23 16:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/bf009f2d40c98e7dac207981363b5cbc7f1756ba?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【気象解説】行楽日和の連休から一転「24日は広い範囲で雨」　西日本は朝から・関東は昼ごろから　気象台は「突風や落雷、急な強い雨」に注意呼びかけ　雨のあと一気に“寒気”流入で北海道や東北は雪の予想も(関西テレビ)",
-        "summary": "京都では紅葉が見頃を迎え、鴨川沿いに多くの人が訪れています。連休前は寒くなるとの予報でしたが、きょう=23日は冷たい風が弱まり、日差しの下ではポカポカと感じるほどです。23日は全国的に行楽日和となりま",
-        "pub_date": "11/23 16:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/c03872af7db4ea9d3440ea1a2fd631b6a5f17c84?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "松山市の住宅火災で2遺体発見、姉弟か(共同通信)",
-        "summary": "23日未明に起きた松山市の住宅火災で、愛媛県警は焼け跡から2人の遺体を発見したと明らかにした。連絡が取れていない住人の50代姉弟とみて、身元の確認を進める。",
-        "pub_date": "11/23 16:19 JST",
-        "link": "https://news.yahoo.co.jp/articles/da854252e730400c4fbd912ed58f763faf2d605a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "住宅火災で80代女性が病院に搬送される 命に別状はない模様 隣接2軒にも延焼  通りかかった人から「1階の窓から火と煙が見える」と通報 愛知･春日井市(CBCテレビ)",
-        "summary": "愛知県春日井市で住宅火災があり、80代の女性が病院に搬送されました。消防によりますときょう午後2時半ごろ、春日井市白山町の住宅の近くを通りかかった男性から、「1階の窓から火と煙が見える」などと消防に通",
-        "pub_date": "11/23 15:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/f0791a0594af0f00c1359657828e0419fe84d997?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 18:56:41 JST"
+    "last_updated": "2026-11-23 21:39:50 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1050,10 +1047,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "LaSOVMts5ZM",
+        "video_id": "craQylHtSO4",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/LaSOVMts5ZM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=LaSOVMts5ZM"
+        "embed_url": "https://www.youtube.com/embed/craQylHtSO4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=craQylHtSO4"
       },
       {
         "id": "stream_tbsnews",
@@ -1061,10 +1058,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "41cn4b4_3Mk",
+        "video_id": "6CPgsLYKyRs",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/41cn4b4_3Mk?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=41cn4b4_3Mk"
+        "embed_url": "https://www.youtube.com/embed/6CPgsLYKyRs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=6CPgsLYKyRs"
       },
       {
         "id": "stream_ntvnews",
@@ -1094,10 +1091,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "arVhpzRckFM",
+        "video_id": "kGG1CaeQ9oM",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/arVhpzRckFM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=arVhpzRckFM"
+        "embed_url": "https://www.youtube.com/embed/kGG1CaeQ9oM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=kGG1CaeQ9oM"
       }
     ],
     "cameras": [
@@ -1256,10 +1253,10 @@
         "name": "静岡/山梨: 富士山パノラマ監視",
         "location_key": "tokyo",
         "region": "自然災害（火山・気象）",
-        "video_id": "bJqFntWbi54",
+        "video_id": "_6nLps25Kws",
         "description": "富士山周辺の雲海、雷雲、気象変化をパノラマ定点観測（イマフジ公式）。",
-        "embed_url": "https://www.youtube.com/embed/bJqFntWbi54?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=bJqFntWbi54"
+        "embed_url": "https://www.youtube.com/embed/_6nLps25Kws?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=_6nLps25Kws"
       },
       {
         "id": "cam_naha_kokusai",

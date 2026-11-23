@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 02:49:38",
+  "timestamp": "2026-11-23 03:48:00",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -188,10 +188,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、乾燥注意報",
+        "summary": "乾燥注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -202,10 +202,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、乾燥注意報",
+        "summary": "乾燥注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/32/"
       },
       {
@@ -241,15 +241,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 山陽本線 ／ 新幹線: 山陽新幹線（その他））",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（山陽本線）",
+    "text": "運行支障あり（新幹線: 山陽新幹線（その他））",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
-    "troubled_lines": [
-      "山陽本線"
-    ],
+    "troubled_lines": [],
     "troubled_shinkansen": [
       "山陽新幹線（その他）"
     ],
@@ -376,16 +374,16 @@
       "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/23 03:18",
+          "text": "Docomoや START au END 使いの方、通信 START 障害 END の備えは万全ですか？ ​楽天モバイルなら月額980円〜持てるので、2台目・サ..."
+        },
+        {
+          "time": "11/23 02:53",
+          "text": "ドコモから START au END に変えないか？って電話が来てる やっぱドコモの通信 START 障害 END でチャンスだ各所に電話しろって通達いってそう"
+        },
+        {
           "time": "11/23 02:46",
           "text": "docomo回線最近通信 START 障害 END 起きすぎだし、 START au END 回線に乗り換えようかなー"
-        },
-        {
-          "time": "11/23 01:53",
-          "text": "休日で電車に乗ってたら船からの電話があって出なかってたことで（電車降りたら電話折り返した） そのことで船長に永遠にネチネチ言われ続けて非常き不愉快 過去に ST..."
-        },
-        {
-          "time": "11/23 00:14",
-          "text": "続 アップデート、再起動、ショップでSIMを新品にするなど出来ることは全部やりましたがやはり自宅に一歩入ると圏外。 祖父の葬儀で連絡が取れないと困るのでその日に..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -419,19 +417,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/23 01:55",
-          "text": "@snow91693017 snowさま、こんにちは！povoサポートです。ライブ会場で START 繋がらない END のは困りますよね💦もしよければ、安定し..."
+          "time": "11/23 03:31",
+          "text": "START au END 電波繋がらなくて困る。お客様センターに会社の電話から電話しても START 繋がらない END 。土曜日から今日まで START 繋が..."
         },
         {
-          "time": "11/23 00:59",
-          "text": "@sirobosikouhaku 突然失礼します、povoサポートです！ START 繋がらない END のは困りますよね🥲もしよければ、安心の START a..."
+          "time": "11/23 03:23",
+          "text": "START au繋がらない END ぞ。"
         },
         {
-          "time": "11/23 00:38",
-          "text": "@xORMRha7Ck16551 メカとらさま、おはようございます🌞povoサポートです。通信が START 繋がらない END のは困りますね💦もしもの時のた..."
+          "time": "11/23 03:14",
+          "text": "@WhoLv01 ・・・スマホが START 繋がらない END 、繋がりづらいといった状態でしょうか？💦 START au END サポート石川"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -461,9 +459,9 @@
     }
   ],
   "sns_heatmap": {
-    "total_mentions": 0,
-    "top_region": "全国平穏",
-    "top_count": 0,
+    "total_mentions": 1,
+    "top_region": "北陸",
+    "top_count": 1,
     "regions": [
       {
         "id": "hokkaido",
@@ -523,12 +521,20 @@
         "lat": 36.5613,
         "lon": 136.6562,
         "zoom": 8,
-        "count": 0,
+        "count": 1,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
+        "detected_words": [
+          "石川"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "au 繋がらない",
+            "time": "11/23 03:14",
+            "text": "@WhoLv01 ・・・スマホが START 繋がらない END 、繋がりづらいといった状態でしょうか？💦 START au END サポート石川"
+          }
+        ]
       },
       {
         "id": "kansai",
@@ -598,6 +604,27 @@
     ],
     "ranking": [
       {
+        "id": "hokuriku",
+        "name": "北陸",
+        "lat": 36.5613,
+        "lon": 136.6562,
+        "zoom": 8,
+        "count": 1,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
+        "detected_words": [
+          "石川"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "au 繋がらない",
+            "time": "11/23 03:14",
+            "text": "@WhoLv01 ・・・スマホが START 繋がらない END 、繋がりづらいといった状態でしょうか？💦 START au END サポート石川"
+          }
+        ]
+      },
+      {
         "id": "hokkaido",
         "name": "北海道",
         "lat": 43.0642,
@@ -641,19 +668,6 @@
         "name": "中部・東海",
         "lat": 35.1815,
         "lon": 136.9066,
-        "zoom": 8,
-        "count": 0,
-        "level": "NORMAL",
-        "color": "#10b981",
-        "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
-      },
-      {
-        "id": "hokuriku",
-        "name": "北陸",
-        "lat": 36.5613,
-        "lon": 136.6562,
         "zoom": 8,
         "count": 0,
         "level": "NORMAL",
@@ -746,8 +760,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 13,
+    "disaster_count": 10,
     "articles": [
+      {
+        "title": "乗用車同士が正面衝突　うち1台横転 5人けが　神奈川・箱根新道(テレビ朝日系（ANN）)",
+        "summary": "神奈川県箱根町の路上で車2台が正面衝突し、合わせて5人がけがをしました。警察が事故の原因を調べています。 23日午前9時15分ごろ、箱根町を通る箱根新道で「乗用車同士の事故で車が横転している」などと複",
+        "pub_date": "11/23 12:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/86d51b79ec0d24e34047a35ad7566934cdd9b6cd?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "首里城正殿の一般公開始まる(共同通信)",
+        "summary": "2019年の火災で焼失し、復元された那覇市の首里城正殿で23日、一般公開が始まった。",
+        "pub_date": "11/23 12:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/8daab86273c1b6e7f2d45c5e2413ccb27db69901?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "箱根新道で複数の車が衝突 けが人情報も(ABEMA TIMES)",
         "summary": "神奈川県箱根町で複数の車が衝突する事故がありました。けが人がいるとの情報があり、警察などが調べています。【映像】衝突事故で横転している車（実際の様子） 警察などによりますと、午前9時15分ごろ、箱根町",
@@ -813,63 +843,47 @@
         "is_disaster": true
       },
       {
-        "title": "｢野村は100%､楽天･SBIは50%｣は過去の話…NISA口座を乗っ取られても｢全額戻るとは限らない｣補償の新ルール(プレジデントオンライン)",
-        "summary": "個人投資家が増える中、証券口座が犯罪者の標的になっている。ファイナンシャルプランナーでIT講師も務める川淵ゆかりさんは「口座を乗っ取られて被害が出た場合でも、証券会社ごとに補償基準が異なり、利用者の自",
-        "pub_date": "11/23 10:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/2d8ed6122f3eb92f18539906bac8213be0c5c358?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "松山市で住宅火災、2人と連絡取れず(共同通信)",
-        "summary": "愛媛県警によると、23日午前3時15分ごろ、松山市土橋町の住宅が燃えていると通行人から110番があった。木造2階建てが全焼し、この家に住む50代のきょうだいと連絡が取れていない。",
-        "pub_date": "11/23 10:13 JST",
-        "link": "https://news.yahoo.co.jp/articles/f74f9e019508b597231b9dfe5099292499478bf8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "西武池袋線・秩父線で人身事故 運転再開(レスキューナウニュース)",
-        "summary": "池袋～椎名町駅間で発生した人身事故の影響で、西武池袋線・秩父線は池袋～練馬駅間の運転を見合わせていましたが、09:20頃、運転を再開しました。なお、ダイヤが乱れています。",
-        "pub_date": "11/23 09:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/ee110c3c78c78dc86694dbf4c989187c66edafa1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "車両火災 車内から1人の遺体 鳥取市(ABEMA TIMES)",
-        "summary": "鳥取県の農道で軽自動車が全焼し、車内から1人の遺体が見つかりました。警察が遺体の身元の確認を進めるとともに出火原因などを調べています。【映像】現場周辺の様子 きのう午後1時半ごろ、鳥取市気高町で「爆発",
-        "pub_date": "11/23 09:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/e38aa53afe304289a9229084c7fa9462b81a9e1a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "死亡事故受け 柏崎刈羽で工事中止",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/23 09:08 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6603635?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "全国の紅葉情報　関東～九州で広く見頃　今週新たに見頃を迎えるスポットは?(日本気象協会tenki.jp)",
-        "summary": "強い寒気の影響で本格的に秋が深まり、関東から九州では広い範囲で紅葉が見頃を迎えています。今週は東京都心周辺でも見頃を迎える所が増え、28日(土)から29日(日)は紅葉狩り日和になる所が多いでしょう。",
-        "pub_date": "11/23 11:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/4ef289a32bc1f9610ef79dc567aedd0f60deec4e?source=rss",
+        "title": "レインボーブリッジを自転車で走り抜け　6000人がレアな体験(テレビ朝日系（ANN）)",
+        "summary": "東京のレインボーブリッジをおよそ6000人が自転車で走り抜けるイベントが開催されました。",
+        "pub_date": "11/23 12:44 JST",
+        "link": "https://news.yahoo.co.jp/articles/3b34adc75d18611ba22c97a75d8bc79a9090073e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「少林寺」の意味は？　謎の迷惑行為「少林寺レーシング」が各地に拡散　専門家が読み解く“はやり“の背景(AERA DIGITAL)",
-        "summary": "近頃見聞きするようになった「少林寺」という言葉。警察に対して迷惑行為をする際の掛け声として、少年たちの間で広まっているようだ。「少林寺」と聞くと、中国の仏教寺院「少林寺」や、日本発祥の武道である「少林",
-        "pub_date": "11/23 11:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/8f4c92b39b54795c0c7b420828bb1485b7a98386?source=rss",
+        "title": "万博木材でモニュメント　大阪・藤井寺市が「還暦」(共同通信)",
+        "summary": "大阪府藤井寺市は23日、市制施行60周年を記念するセレモニーで、大阪・関西万博のシンボルだった大屋根リングの木材を使ったモニュメントの除幕式を行った。万博の公式キャラクター・ミャクミャクが「60」の標",
+        "pub_date": "11/23 12:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/3eeb10c61adef6075af60a7ddd5bd28fd6c08d47?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "福島県警職員が温泉施設で女児ら盗撮か スマホから動画 「携帯の誤操作」と否認(テレビ朝日系（ANN）)",
+        "summary": "千葉県長生村の温泉施設で小学生の女の子や保育園児の妹らを盗撮したとして、福島県の警察職員の男が現行犯逮捕されました。 高井健太容疑者（40）は21日午後7時ごろ、長生村の温泉施設の男性用更衣室で、小学",
+        "pub_date": "11/23 12:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/a0b761d40c2e4a0ca09d5e48383771f27e7d63c5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "首里城正殿、一般公開　7年ぶり「巨大琉球漆器」(共同通信)",
+        "summary": "2019年に焼失し、復元された首里城正殿内部の一般公開が23日、始まった。内部公開は7年ぶり。全体に朱色をまとい「巨大な琉球漆器」と呼ばれる正殿を堪能しようと、多くの人が詰めかけた。入場料は1人千円で",
+        "pub_date": "11/23 12:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/44efe4f3dfe0954eecba5535cd6a88e59e195dff?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "24日夜は満月　11月の満月は「ビーバームーン」　関東～九州の太平洋側は観察日和(日本気象協会tenki.jp)",
+        "summary": "11月の満月は「ビーバームーン」と呼ばれ、24日(火)の午後11時54分に満月を迎えます。関東から九州の太平洋側では広く晴れて、月がきれいに見られる所が多くなりそうです。空気の透明度が高い晩秋の夜空を",
+        "pub_date": "11/23 12:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/dc78f9d25edc5c55ddf46683a23eb235e654a7f1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 11:49:10 JST"
+    "last_updated": "2026-11-23 12:47:16 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -912,10 +926,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "8De-_L-2Miw",
+        "video_id": "o_Tcpyuf3b4",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/8De-_L-2Miw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=8De-_L-2Miw"
+        "embed_url": "https://www.youtube.com/embed/o_Tcpyuf3b4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=o_Tcpyuf3b4"
       },
       {
         "id": "stream_annnews",
@@ -934,10 +948,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "wCUVVGHRPR0",
+        "video_id": "KY7xLcH9DUY",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/wCUVVGHRPR0?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=wCUVVGHRPR0"
+        "embed_url": "https://www.youtube.com/embed/KY7xLcH9DUY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=KY7xLcH9DUY"
       }
     ],
     "cameras": [

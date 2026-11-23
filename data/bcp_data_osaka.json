@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 04:59:46",
+  "timestamp": "2026-11-23 05:56:59",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -90,12 +90,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-23 13:02",
-    "place": "天草灘",
-    "magnitude": "2.6",
+    "shindo": "2",
+    "time": "2026-11-23 14:14",
+    "place": "長野県中部",
+    "magnitude": "3.9",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-23 14:14",
+        "place": "長野県中部",
+        "shindo": "2",
+        "magnitude": "3.9",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-23 13:02",
         "place": "天草灘",
@@ -157,13 +164,6 @@
         "place": "トカラ列島近海",
         "shindo": "1",
         "magnitude": "2.1",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-23 03:19",
-        "place": "岐阜県飛騨地方",
-        "shindo": "1",
-        "magnitude": "3",
         "maxScale": 10
       }
     ]
@@ -412,8 +412,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/23 05:34",
+          "text": "サブスマホ。 来月から値上げだし、通信 START 障害 END が多いからdocomoを解約して、何処と契約するかUQか楽天か悩む。 メインは START a..."
+        },
         {
           "time": "11/23 03:18",
           "text": "Docomoや START au END 使いの方、通信 START 障害 END の備えは万全ですか？ ​楽天モバイルなら月額980円〜持てるので、2台目・サ..."
@@ -421,10 +425,6 @@
         {
           "time": "11/23 02:53",
           "text": "ドコモから START au END に変えないか？って電話が来てる やっぱドコモの通信 START 障害 END でチャンスだ各所に電話しろって通達いってそう"
-        },
-        {
-          "time": "11/23 02:46",
-          "text": "docomo回線最近通信 START 障害 END 起きすぎだし、 START au END 回線に乗り換えようかなー"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -458,7 +458,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/23 04:47",
@@ -788,8 +788,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 6,
     "articles": [
+      {
+        "title": "福島県2町村に大雪で災害救助法　避難所に費用支援(共同通信)",
+        "summary": "福島県は23日、北塩原村の裏磐梯地区周辺で住民ら千人超が一時孤立状態となった大雪被害を受け、北塩原村と猪苗代町に災害救助法を20日付で適用したと発表した。避難所の開設、運営の費用を支援する。 東北電力",
+        "pub_date": "11/23 14:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/9132c8836df6078b612b85dadf92babfd78b8c08?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "福島県が大雪で2町村に災害救助法適用(共同通信)",
+        "summary": "福島県は23日、北塩原村の裏磐梯地区周辺で住民ら千人超が一時孤立状態となった大雪被害を受け、北塩原村と猪苗代町に災害救助法を20日付で適用したと発表した。避難所の開設、運営の費用を支援する。",
+        "pub_date": "11/23 14:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/aeffa011078d28f62ae6dbdc7dd8220d3d4fa74d?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "乗用車同士が正面衝突　うち1台横転 5人けが　神奈川・箱根新道(テレビ朝日系（ANN）)",
         "summary": "神奈川県箱根町の路上で車2台が正面衝突し、合わせて5人がけがをしました。警察が事故の原因を調べています。 23日午前9時15分ごろ、箱根町を通る箱根新道で「乗用車同士の事故で車が横転している」などと複",
@@ -823,28 +839,36 @@
         "is_disaster": true
       },
       {
-        "title": "交通事故死の約3倍…高齢者の「冬の入浴事故」を防ぐ4つの入浴法とは(TOKYO MX)",
-        "summary": "TOKYO MX（地上波9ch）の報道・情報生番組「堀潤 Live Junction」（毎週月～金曜19:57～）。番組では、例年11月から急増する「冬の入浴事故」について取り上げ、その原因と対策に注",
-        "pub_date": "11/23 11:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/e5d2110bbe918feb677fced4e71ac29097353d0f?source=rss",
+        "title": "公益通報12月から報復対策強化　解雇や懲戒処分の事業者に刑事罰(共同通信)",
+        "summary": "告発者への報復対策を強化した改正公益通報者保護法が12月1日から施行される。通報が理由の解雇や懲戒処分に関与した事業者に刑事罰を科すほか、保護対象を拡大し、内部通報の受け付け体制強化も盛り込んだ。ただ",
+        "pub_date": "11/23 14:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/f8ca29274ad633befe1fe453a40a322d123fde66?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "「スピード出しすぎ」雨の高速道路で車が3回転→ガードレールに激しく衝突…恐怖のスリップ事故の瞬間 岐阜・瑞浪市(ABEMA TIMES)",
-        "summary": "岐阜・瑞浪市の高速道路で、雨の日の恐ろしいスリップ事故の瞬間が撮影された。 【映像】雨の高速道路で車が3回転→ガードレールに衝突する瞬間 映像には、雨が降る中、走行していた1台の車が突然コントロールを",
-        "pub_date": "11/23 11:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/3cf369a2255090d9ae36fadf9d13b4eddd001dba?source=rss",
+        "title": "連休明けの24日は全国的に気圧が低下　27日頃も気圧低下の影響度大　頭痛など注意(日本気象協会tenki.jp)",
+        "summary": "連休明けの明日24日は前線や低気圧が通過し、全国的に気圧低下による影響度が大きくなるでしょう。27日から28日も各地で気圧が低下する予想で、頭痛やめまいなどに注意が必要です。",
+        "pub_date": "11/23 14:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/c3d5ad993a2efa04f11ffd82c374d326f86f5385?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "箱根新道で複数の車が衝突　けが人の情報も　神奈川・箱根町(テレビ朝日系（ANN）)",
-        "summary": "神奈川県箱根町で複数の車が衝突する事故がありました。けが人がいるとの情報があり、警察などが調べています。【動画】乗用車同士が正面衝突 5人けが 警察などによりますと、23日午前9時15分ごろ、箱根町を",
-        "pub_date": "11/23 10:58 JST",
-        "link": "https://news.yahoo.co.jp/articles/4d86207b255a3774d0b60a43c52499a36e774d81?source=rss",
+        "title": "「スローランニング」で健康に　10分間でも効果、筑波大チーム(共同通信)",
+        "summary": "筑波大などの研究チームは、時速3～6キロほどの歩行に近い速度で走る「スローランニング」を10分間行うことで脳が活性化し、判断力が向上したり、気分が良くなったりすることが分かったと発表した。筑波大の征矢",
+        "pub_date": "11/23 14:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/8d9a88b6de596bc8d38669195fcb7fa4a058cf26?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "「動物が死ぬこともある」 迷惑行為に飼育担当者は怒り ロバの体調が急変 来園者が無断で“エサやり”相次ぐ 【福岡発】(FNNプライムオンライン)",
+        "summary": "福岡･北九州市の動物園で動物たちのエサを巡り、深刻な問題が起きている。動物たちを襲った迷惑行為とは、いったい…【画像】「動物が死ぬこともある」 迷惑行為に飼育担当者は怒り ロバの体調が急変 来園者が無",
+        "pub_date": "11/23 14:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/c117effe07265569fc48efcfd9dedb5b9a326633?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "けさの最低気温 名古屋2.6℃ 高山は氷点下0.3℃と各地で今シーズン一番の寒さ あすは広く雨 愛知･名古屋･岐阜･三重の天気予報（11/23 昼）(CBCテレビ)",
@@ -885,33 +909,9 @@
         "link": "https://news.yahoo.co.jp/articles/239ea3cedc12fe974cd0164a0e502b52c167f344?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "愛子さま　午餐会に高貴な「蘭」を咲かせた京友禅の本振袖　シンガポールで内親王が装う「徳」をそなえた「四君子」文様(AERA DIGITAL)",
-        "summary": "天皇、皇后両陛下の長女の愛子さまは、5日間にわたるシンガポールへの公式訪問を終え11月21日に帰国された。訪問中、ターマン・シャンムガラトナム大統領主催の午餐（ごさん）会に出席。お召しになっていたのは",
-        "pub_date": "11/23 13:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/bdfffee731022ef1d2cf19768196b9f26cfdd351?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "ママ友と子連れランチ→2人分と4人分で人数違うのに…渡された金額に衝撃！ “ワリカン”めぐる金銭感覚のズレとモヤモヤ(ABEMA TIMES)",
-        "summary": "子連れでのママ友との食事会における“割り勘”をめぐり、密かに違和感を抱く人は少なくない。漫画『人数でワリカンしない！？』（ママのための情報サイト ママスタセレクト）では、そんなお会計時のリアルなモヤモ",
-        "pub_date": "11/23 13:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/9d4989e46404433309944a3743c61ae9d68e6539?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "東山動植物園 連休最終日にぎわう ことし赤ちゃんが生まれたコアラとレッサーパンダ人気 12月6日までの土日祝日には紅葉のライトアップも 名古屋･千種区　　(CBCテレビ)",
-        "summary": "3連休最終日、名古屋の東山動植物園は家族連れらでにぎわっています。11月23日の東山動植物園には開園の午前9時から、多くの家族連れらが訪れました。中でもことし1月と7月に、それぞれ赤ちゃんが生まれたコ",
-        "pub_date": "11/23 12:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/7c6343536d9288fe8c51cf71ad0b1333a2a70bd0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 13:59:13 JST"
+    "last_updated": "2026-11-23 14:56:28 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",

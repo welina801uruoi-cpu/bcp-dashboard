@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 22:46:58",
+  "timestamp": "2026-11-23 23:35:23",
   "location": {
     "name": "那覇",
     "region_name": "沖縄エリア",
@@ -135,11 +135,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報",
+          "強風注意報",
           "雷注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/47/"
       }
     ]
@@ -213,6 +213,12 @@
         "pref": "滋賀県",
         "region": "近畿",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/25/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "大阪府",
+        "region": "近畿",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/27/",
         "level": "poweroutageLevel1"
       },
       {
@@ -377,8 +383,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/23 23:15",
+          "text": "職場のある地域が START au END の電波弱いから docomoに変えて職場では繋がるようになったんだけど ほかの今まで快適だった場所が繋がらなくなった..."
+        },
         {
           "time": "11/23 14:06",
           "text": "@ktai_watch ドコモと楽天は行政指導ばっかだ。 START au END とソフトバンクは優秀だわ。 携帯は START 繋がらない END と本当困..."
@@ -386,10 +396,6 @@
         {
           "time": "11/23 13:03",
           "text": "START au END ひかり、ランプついてるのにネット START 繋がらない END んだが有識者おらんか"
-        },
-        {
-          "time": "11/23 10:27",
-          "text": "@GRIFFIN_KASHIWA START au END もだったのですね！ドコモは移動基地局車？が来ていたのは見かけたのですがそれでも足りてない感じでした。..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -709,8 +715,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 5,
+    "disaster_count": 6,
     "articles": [
+      {
+        "title": "南海高野線で人身事故 一部運転見合わせ(レスキューナウニュース)",
+        "summary": "07:51頃、今宮戎駅で発生した人身事故の影響で、南海高野線は難波～橋本駅間の運転を見合わせています。",
+        "pub_date": "11/24 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/c14ce65e7f9c16ab24d43af47dec8d7475b1ed7b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "患者安全実現へ病院長研修　義務化で事故調査適正に(共同通信)",
         "summary": "医療事故調査制度の適正運用のため、制度に関する研修受講が病院長ら医療機関の管理者に義務付けられることになった。研修内容を定めた厚生労働省研究班は、医療安全活動の全体像や死亡事例発生時の対応を学ぶプログ",
@@ -752,6 +766,38 @@
         "is_disaster": true
       },
       {
+        "title": "神奈川・藤沢の田園地帯にプレハブ小屋が密集 “外国人違法ヤード”に怯える住民たち(FRIDAY)",
+        "summary": "神奈川県・藤沢市郊外にある田園地帯の一角に、プレハブ小屋が密集した”異世界”が存在するのをご存知だろうか。【画像】収容所内で命乞いする『JPドラゴン』吉岡竜司約3500の敷地に取り外されたトラックのキ",
+        "pub_date": "11/24 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/09237830fff4f5ae84bd2e6b7db2de9cc2f8a327?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「報道で人生終わった」施術中の女性にわいせつ行為の鍼灸師　裁判で”猛省”語るもメディアに恨み節(FRIDAY)",
+        "summary": "施術中の女性にわいせつな行為をしたとして不同意性交等、不同意わいせつの罪に問われている宮本啓稔こと宮本昇被告(55=逮捕時)の公判が11月16日、東京地裁で開かれた。【画像】「不同意性交」の罪に問われ",
+        "pub_date": "11/24 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/7839102d9c419d940d8b452ce702a00da0720aec?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "《茂みから周囲をチェックするお茶目な姿も》悠仁さま、学園祭で見せた「警備の隙間を縫う」記念撮影の神対応(週刊女性PRIME)",
+        "summary": "筑波大学の2年生としてキャンパスライフを送られている悠仁さま。厳重な警備のもとで、のびのびと羽を伸ばされているようだ。【写真】スモアの出店付近で談笑する悠仁さま。過去の学園祭ではメロンパンを片手に歩く",
+        "pub_date": "11/24 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/5df51756bde5288528a3cd694f03380f6f677fac?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【ニュースto】レジ袋有料化から6年…前環境副大臣が「一律有料化」見直し提言　無料化への賛否やプラごみ削減の課題とは(読売テレビ)",
+        "summary": "レジ袋の有料化導入から6年が経過しました。政府が目標として掲げた「レジ袋を使わない人の割合」が6割を超えるなど定着が進む一方、前環境副大臣の青山繁晴衆院議員が一律有料化の廃止を提言し、議論を呼んでいま",
+        "pub_date": "11/24 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/3d0788651f669bb9500a5f2637133aceed9eb2e0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "【動画】24日の天気 - 全国的に雨や風強まる 　次第に北風冷たく　北日本は夜から雪に（24日7時更新）(ウェザーマップ)",
         "summary": "きょう（火）は前線の通過に伴って、全国的に雨や風が強まりそうです。雨雲が通過すると冷たい北風に変わるため、服装選びにもお気をつけください。また、北日本や北陸では夜から雪に変わる見込みです。",
         "pub_date": "11/24 07:38 JST",
@@ -790,49 +836,9 @@
         "link": "https://news.yahoo.co.jp/articles/31cd30004f51a7e7c3a41961ee5eb6507b3ba67c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "低額宿泊所『コアラの里』(埼玉・東松山) 超劣悪環境を元入居者が告発！(FRIDAY)",
-        "summary": "「1日1300円引かれて出される食事は、朝が業務スーパーのおにぎり1個とお茶のペットボトル1本、昼と夜も粗末な弁当ばかりです。栄養不足で口内炎が絶えず、弁当を拒否してガリガリに痩せ細り亡くなった男性も",
-        "pub_date": "11/24 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/1ca828db4d12ebf1351d9d385a8352209d213ac6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "”東大おねだり教授”の腹心が初めて明かす胸中　「『許されるんじゃないか』と思ってしまった」(FRIDAY)",
-        "summary": "スーツ姿で私の前に現れた男は、覚悟を決めたように口を開いた。「自分が起こしたことを反省し、後悔しています。このまま黙っていようかとも思いましたが、判決内容を聞いて、こんな不祥事は二度と繰り返してはいけ",
-        "pub_date": "11/24 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/0efd3a7e5e67842eeead58c26d17d319b47c23da?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "家宅捜索で警察官に食ってかかる北原容疑者（42）「おそらくこの段階で容疑者として特定」元刑事が推察 元『egg』モデル殺害事件(ABEMA TIMES)",
-        "summary": "ギャルカルチャーを発信する雑誌として一時代を築いた『egg』。今年7月、元『egg』の専属モデル・川端かな子さん（36）が自宅で死亡した事件で、同居していた北原誠容疑者（42）が逮捕された。死亡してか",
-        "pub_date": "11/24 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/a641c4f1d337602461d5d989b2e18e47187d36cf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "〈政府広報に「バズり」は必要か〉ナオキマン起用の広報事業は最大1.5億円、法務省は『ラヴ上等』とコラボ撤回、農水省では当時の副大臣がダンス…相次ぐ炎上騒動で問われる広報のあり方(集英社オンライン)",
-        "summary": "都市伝説系YouTuberのナオキマンを政府広報に起用し、批判を浴びた内閣府。法務省はNetflixの人気番組『ラヴ上等』とのコラボを撤回し、農林水産省では職員らが踊る過去の動画が再び物議を醸した。【",
-        "pub_date": "11/24 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/5f422807d5335244fd5befe8489d8ff277200513?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "標的をリアルタイムで追跡し、攻撃の瞬間を知らせる…イスラエル軍が使ったAI「父さんはどこ？」とは(AERA DIGITAL)",
-        "summary": "戦争の現場で、AIの存在感が増している。イスラエル軍はガザへの攻撃で、膨大なデータから標的を選び、その動きを追跡するAIを使用した。人間が担ってきた「誰を、いつ攻撃するか」という判断は、AIによってど",
-        "pub_date": "11/24 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/26f9beb1d9b3f7322e0f9b3a10a48e0109373584?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 07:46:35 JST"
+    "last_updated": "2026-11-24 08:34:59 JST"
   },
   "live_media": {
     "default_camera_id": "cam_naha_kokusai",

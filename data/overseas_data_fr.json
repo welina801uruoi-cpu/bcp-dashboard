@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-23 12:48:54",
-  "timestamp_local": "2026-11-23 05:48:54",
+  "timestamp": "2026-11-23 14:01:56",
+  "timestamp_local": "2026-11-23 07:01:56",
   "country": {
     "id": "france",
     "name": "フランス",
@@ -346,17 +346,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 16,
-    "summary": "M4.9 (Vanuatu region)",
+    "count_24h": 18,
+    "summary": "M5 (159 km ESE of Kokopo, Papua New Guinea)",
     "latest": {
-      "mag": 4.9,
-      "place": "Vanuatu region",
-      "time": "11/23 12:07 JST",
-      "depth_km": 595.973,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucw1",
+      "mag": 5,
+      "place": "159 km ESE of Kokopo, Papua New Guinea",
+      "time": "11/23 13:18 JST",
+      "depth_km": 98.944,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucwd",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 5,
+        "place": "159 km ESE of Kokopo, Papua New Guinea",
+        "time": "11/23 13:18 JST",
+        "depth_km": 98.944,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucwd",
+        "tsunami": 0
+      },
       {
         "mag": 4.9,
         "place": "Vanuatu region",
@@ -369,9 +377,17 @@
         "mag": 6.5,
         "place": "Vanuatu region",
         "time": "11/23 11:40 JST",
-        "depth_km": 600.979,
+        "depth_km": 598,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucvm",
         "tsunami": 1
+      },
+      {
+        "mag": 4.9,
+        "place": "39 km NW of Kuqa, China",
+        "time": "11/23 11:14 JST",
+        "depth_km": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucvh",
+        "tsunami": 0
       },
       {
         "mag": 4.7,
@@ -460,31 +476,78 @@
         "depth_km": 10,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucrp",
         "tsunami": 0
-      },
-      {
-        "mag": 5.4,
-        "place": "224 km NE of Bitung, Indonesia",
-        "time": "11/22 16:54 JST",
-        "depth_km": 43.705,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucrb",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "246 km ESE of Sarangani, Philippines",
-        "time": "11/22 16:06 JST",
-        "depth_km": 5.573,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucr3",
-        "tsunami": 0
       }
     ]
   },
   "world_news": {
     "articles": [
       {
+        "title": "【独自】韓国大学入試直前に「不正試験機器」取引か…金銭奪われる懸念も(ハンギョレ新聞)",
+        "link": "https://news.yahoo.co.jp/articles/e67e887f106f6856f7c2aa4f991616f695d9908f?source=rss",
+        "description": "「1対1チャットしてください」 2027年度大学就学能力試験（修能）の前日の18日、「人工知能（AI）眼鏡の情報を共有する」というオープンチャットルーム。ある参加者が、超小型カメラなどの不正行為用機器",
+        "pub_date": "11/23 13:59 JST",
+        "is_priority": false
+      },
+      {
+        "title": "5万8000人の再試験で大混乱のメキシコ…世界中に広がる「AIカンニング」ショック（2）(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/d1a04dac33734581ef6bf807b9fc36e09109ffce?source=rss",
+        "description": "インドでは、AIスマートグラスを使った不正行為が発覚した。9月11日、インディアン・エクスプレスによると、西部グジャラート州スーラトの経営学科に在籍する1年生が、3～4月の試験でメタのスマートグラスを",
+        "pub_date": "11/23 13:48 JST",
+        "is_priority": false
+      },
+      {
+        "title": "5万8000人の再試験で大混乱のメキシコ…世界中に広がる「AIカンニング」ショック（1）(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/cb90028d31a3eb353180f1bfbf9518e411b10588?source=rss",
+        "description": "今年、人工知能（AI）を利用した試験での不正行為（カンニング）が世界各国で相次いでいる。インドではAIスマートグラスを使って解答を得ようとして発覚し、メキシコでは不正行為の疑惑を受け、受験者全体の3分",
+        "pub_date": "11/23 13:48 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ゴールドマン・サックス「米株式市場の『パニック指数』が9．8まで急騰…『押し目買いの機会に』」(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/0173d3a707d48e0f35e93da064e499dd5459c172?source=rss",
+        "description": "先週、米国株式市場が急落する中、世界的な投資銀行ゴールドマン・サックスは市場の恐怖心理が極端な水準まで高まっており、短期的な押し目買いの機会が近づいていると分析した。ただ、米連邦準備制度理事会（FRB",
+        "pub_date": "11/23 13:46 JST",
+        "is_priority": false
+      },
+      {
+        "title": "ホルムズ海峡におけるイランの攻撃、紛争開始以来の最高水準に　海事データ分析(CNN.co.jp)",
+        "link": "https://news.yahoo.co.jp/articles/958933463da07ab7970f80b3afa58f38f7d9c617?source=rss",
+        "description": "（CNN） ホルムズ海峡およびその周辺海域における船舶への攻撃報告件数が、イランでの軍事衝突の開始以来最多の水準に達していることが海事データの分析から明らかになった。原油価格が下落する中、イラン政府が",
+        "pub_date": "11/23 13:34 JST",
+        "is_priority": true
+      },
+      {
+        "title": "世界1万人の男性が参加する「タフガイ・ブッククラブ」がもたらす深い喜び(クーリエ・ジャポン)",
+        "link": "https://news.yahoo.co.jp/articles/2af252be1413be2d4326fa01064b706f14bfdfec?source=rss",
+        "description": "「男らしさと読書は相容れない」──そんな思い込みを打ち壊し、世界10ヵ国で1万人の男性が熱狂する読書会がある。オーストラリアのパブで始まった「タフガイ・ブッククラブ」だ。人生のどん底にいた男性が立ち上",
+        "pub_date": "11/23 13:30 JST",
+        "is_priority": false
+      },
+      {
+        "title": "2000年のドットコムバブルに似たAI関連ハイテク株の暴落…WSJ「韓国も過熱」(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/be1bc4c49f523457ecd810cd3053ca6091ebaad3?source=rss",
+        "description": "人工知能（AI）ブームに乗って急騰していたハイテク株が相次いで急落し、2000年のドットコムバブル崩壊が再現されるのではとの懸念が強まっている。エヌビディアやマイクロンなど主要半導体企業の株価下落率が",
+        "pub_date": "11/23 13:23 JST",
+        "is_priority": false
+      },
+      {
+        "title": "EU、米ビッグテック狙い「デジタル税」推進…弱まるトランプ政権の圧力(中央日報日本語版)",
+        "link": "https://news.yahoo.co.jp/articles/5700c5f750cd845fc51a4e979313b41b97d4564d?source=rss",
+        "description": "欧州連合（EU）がグーグル、アップル、メタ、マイクロソフトのような米国のビッグテック企業に「デジタル税」を課すことを検討している。そうでなくても欧州のビッグテック規制に敏感なトランプ米大統領との衝突が",
+        "pub_date": "11/23 13:12 JST",
+        "is_priority": false
+      },
+      {
+        "title": "9.11米同時多発テロに関する「人々の記憶の約4割」が、事実と異なっていると明らかに(ニューズウィーク日本版)",
+        "link": "https://news.yahoo.co.jp/articles/0f1407895d8240976bac5966b5cd2c3b5520a3d6?source=rss",
+        "description": "2001年9月11日の米同時多発テロを、あなたは最初にどうやって知っただろうか。取り乱した母親からの電話か、ルームメイトに揺り起こされたか、それとも通勤電車での不安げなざわめきか──。その答えが何であ",
+        "pub_date": "11/23 13:10 JST",
+        "is_priority": true
+      },
+      {
         "title": "【これまでの経緯】不倫相手の女性 半導体の中国への密輸に関与か　エヌビディアCEO “スパイ不倫”で辞任　トランプ大統領「彼も男だからね」「会社が賢明なら復帰させるだろう」　(テレビ朝日系（ANN）)",
         "link": "https://news.yahoo.co.jp/articles/c555a73d5d2191da52a7673d54562b5117da5b77?source=rss",
-        "description": "アメリカのIT大手エヌビディアの半導体をフアン前CEOの不倫相手の中国人女性が関係する東南アジアの企業などが中国に密輸していたと報じられました。【画像多数】前CEO ”中国女性スパイ”と親密交際関連す",
+        "description": "アメリカのIT大手エヌビディアの半導体をフアン前CEOの不倫相手の中国人女性が関係する東南アジアの企業などが中国に密輸していたと報じられました。関連するニュースをまとめています。【画像多数】前CEO",
         "pub_date": "11/23 12:45 JST",
         "is_priority": false
       },
@@ -547,7 +610,7 @@
       {
         "title": "昨年の韓国大企業系列会社13社　商標権収入以外は事実上の赤字(朝鮮日報日本語版)",
         "link": "https://news.yahoo.co.jp/articles/9249d08cf78b6378266f6c89541bab43d6f6c19f?source=rss",
-        "description": "昨年の当期純利益よりも商標権使用料の受取額の方が多い大企業集団の系列会社が13社に上ることが分かった。商標権使用料収入を除けば、事実上の赤字だという意味だ。 韓国公正取引委員会が22日に発表した「商標",
+        "description": "昨年の当期純利益よりも商標権使用料の受取額の方が多い大企業集団の系列会社が13社に上ることが分かった。商標権使用料収入を除けば、事実上の赤字だという意味だ。【グラフィック】対GDP比で見る主要国の家計",
         "pub_date": "11/23 12:05 JST",
         "is_priority": false
       },
@@ -556,69 +619,6 @@
         "link": "https://news.yahoo.co.jp/articles/bdc8a76583cd2db75021fa546ae79d9c8d304813?source=rss",
         "description": "◇米中ロ首脳会談の最中にNSAのシステムがダウントランプ大統領が中国を訪問し、習近平中国国家主席およびロシアのウラジーミル・プーチン大統領と極めて機微な内容を扱う3者会談を行っていた間、「情報戦」の最",
         "pub_date": "11/23 12:02 JST",
-        "is_priority": false
-      },
-      {
-        "title": "「情報戦」のさなかに国家安全保障局のシステムがダウン…FBIも再びハッキング被害か（1）(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/a9023c20bfdfa6172d726e85506e869abbaac182?source=rss",
-        "description": "米連邦捜査局（FBI）がハッキング攻撃を受け、システムに侵入された可能性が浮上した。20日（現地時間）、CNNによると、FBIの全国犯罪情報データベースである全米犯罪情報センター（NCIC）に外部から",
-        "pub_date": "11/23 12:02 JST",
-        "is_priority": false
-      },
-      {
-        "title": "リビアのロシア軍艦へ長距離攻撃か　ゼレンスキー大統領　“ロ軍のミサイルに北朝鮮製”(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/eccbd304701a2596b2c3f475f34449971b8da436?source=rss",
-        "description": "北アフリカのリビアで停泊していたロシアの軍艦と見られる船が攻撃を受けて爆発しました。ウクライナによる長距離攻撃の可能性が指摘されています。",
-        "pub_date": "11/23 12:02 JST",
-        "is_priority": true
-      },
-      {
-        "title": "韓国銀行、26日に今年最後の金融通貨委員会…金利3.25％に引き上げか(朝鮮日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/388f05cb9d9330bfacee654fd7f6812498274de2?source=rss",
-        "description": "韓国銀行（韓銀）は26日、基準金利を決める金融通貨委員会（金通委）の今年最後の会合を開く。市場では0.25ポイントの引き上げが見込まれている。【表】韓国銀行の成長率・物価見通し",
-        "pub_date": "11/23 11:55 JST",
-        "is_priority": false
-      },
-      {
-        "title": "サムスン会長妹の息子　父親姓から母親姓に改姓＝20年に離婚成立(聯合ニュース)",
-        "link": "https://news.yahoo.co.jp/articles/85239109702f30d696e3a9479f93facb4ac35173?source=rss",
-        "description": "【ソウル聯合ニュース】韓国・サムスン電子の李在鎔（イ・ジェヨン）会長の妹、李富真（イ・ブジン）ホテル新羅社長の息子のドンヒョン氏が、父親の姓の任（イム）から母親の李に改姓したことが23日、法曹関係者の",
-        "pub_date": "11/23 11:44 JST",
-        "is_priority": false
-      },
-      {
-        "title": "【コラム】力が抜けたトランプ大統領の「握手」(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/bc5a2072843949d4bcfbddc0bc4452605b4cfcbf?source=rss",
-        "description": "2019年のG20大阪サミットで中国の習近平国家主席と会ったトランプ米大統領は習主席の手を強く握って引き寄せた。習主席の表情がゆがんだ。相手を威圧するための「トランプ流の握手」だ。当時の安倍晋三首相は",
-        "pub_date": "11/23 11:43 JST",
-        "is_priority": false
-      },
-      {
-        "title": "「1兆ドル」突破した韓国の輸出、今月中旬も過去最大…半導体は4倍に急増(中央日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/aba3f167b6af1539551d230db3d41ce34d0529f4?source=rss",
-        "description": "韓国の輸出が史上初めて累計1兆ドル（約159兆円）を突破した後も、力強い増加傾向を続けている。11月中旬までの輸出額は同期間として過去最大を記録し、半導体輸出は1年前の約4倍に急増して輸出全体の半分近",
-        "pub_date": "11/23 11:40 JST",
-        "is_priority": false
-      },
-      {
-        "title": "秋山成勲、引退試合で判定負け　「母も心配しないで」(朝鮮日報日本語版)",
-        "link": "https://news.yahoo.co.jp/articles/1bbd54ff416f1f3fd5f9bb24cdcbb02ea301cdbb?source=rss",
-        "description": "総合格闘技（MMA）ファイターの秋山成勲（韓国名：秋成勲〈チュ・ソンフン〉、51）が、16年ぶりに再戦したクリス・リーベン（46、米国）に敗れ、現役生活に終止符を打った。【写真】SHIHO ＆紗蘭さん",
-        "pub_date": "11/23 11:40 JST",
-        "is_priority": false
-      },
-      {
-        "title": "メキシコの麻薬組織トップ拘束　銃撃戦で記者にも危険迫る　メンバーら11人死亡(テレビ朝日系（ANN）)",
-        "link": "https://news.yahoo.co.jp/articles/0c595479541df893f183f1686088ad021623b889?source=rss",
-        "description": "メキシコ国防省は、アメリカのFBI=連邦捜査局に最重要指名手配されていた麻薬組織のトップを拘束したと発表しました。【画像】懸賞金500万ドル（約8億円）の「FBI最重要指名手配の10人」",
-        "pub_date": "11/23 11:39 JST",
-        "is_priority": false
-      },
-      {
-        "title": "ガソリン価格下落に恨み節　トランプ氏、SNSで(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/16c35b94c6545712798b9420a3bda23c60ab8201?source=rss",
-        "description": "【ワシントン共同】トランプ米大統領は22日、米国内でガソリンやディーゼル価格が下落傾向にあることを受け「有権者が投票する前にこのことを理解していなかったのが残念だ」と交流サイト（SNS）で述べた。3日",
-        "pub_date": "11/23 11:37 JST",
         "is_priority": false
       }
     ],
@@ -631,19 +631,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/23 04:38",
+          "text": "@sleguilFR こんなど田舎の底辺地区だけを指してフランスの方が上って🥹 どんな国にも貧しい地域はあるし、日本にも勿論有ります。 逆にフランスのどこが日本..."
+        },
+        {
+          "time": "11/23 04:15",
+          "text": "フランス🇫🇷11月21日の パリ の デモ の様子 政府は投稿を検閲 \"たとえ政府が デモ に関する..."
+        },
         {
           "time": "11/23 02:31",
           "text": "学生 デモ が暴動に発展 パリ 「 パリ のナシオン広場で、投石する デモ 参加..."
-        },
-        {
-          "time": "11/23 02:21",
-          "text": "10月に パリ に。 デモ 便乗の暴動の直前。10区に近い9区のホテル宿泊で、スリの心配もしましたが、嫌な思いをしません..."
-        },
-        {
-          "time": "11/23 01:34",
-          "text": "@Mokinbeard @sleguilFR じゃあなぜ今、高校生が デモ してるの？ パリ の地下鉄、40年前からずっ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%91%E3%83%AA%20%E3%83%87%E3%83%A2"
@@ -654,8 +654,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/23 04:27",
+          "text": "@himuroReborn398 フランス では警官が ストライキ 。全国で立ち上がりましょう。民衆の敵倒せ。"
+        },
         {
           "time": "11/23 03:00",
           "text": "昨日の東京反戦デモ行きのバス内での私の発言 10月30日に武器輸送阻止、港湾軍事化反対、経済の軍事化反対を掲げ、 フランス 、イタリアの24..."
@@ -663,10 +667,6 @@
         {
           "time": "11/23 02:56",
           "text": "@nack555 @NRI_cestpasmal @sleguilFR @Mokinbeard 日本は鉄道定時性・電力安定性で世界最高級。新幹線平均遅延1分前後..."
-        },
-        {
-          "time": "11/22 22:05",
-          "text": "ドイツの99都市で戦争と徴兵制に反対するデモと学校 ストライキ 若者の抗議行動は フランス 、スペイン、イタリア、イギリ..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%20%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AD"
@@ -755,13 +755,13 @@
     "default_channel_id": "stream_france24_fr"
   },
   "forex": {
-    "timestamp": "11/23 12:48 JST",
+    "timestamp": "11/23 14:01 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
       "rate": 158.99,
-      "change": -0.72,
+      "change": -0.71,
       "change_pct": -0.45,
       "direction": "down"
     },
@@ -769,8 +769,8 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.6,
-      "change": -0.57,
+      "rate": 174.59,
+      "change": -0.58,
       "change_pct": -0.33,
       "direction": "down"
     },
@@ -778,8 +778,8 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.6,
-      "change": -0.57,
+      "rate": 174.59,
+      "change": -0.58,
       "change_pct": -0.33
     }
   },
@@ -838,11 +838,11 @@
         "is_capital": true,
         "lat": 48.8566,
         "lon": 2.3522,
-        "temp": 6.3,
-        "apparent_temp": 2.7,
-        "humidity": 88,
-        "wind_speed": 15.8,
-        "wind_gusts": 31.3,
+        "temp": 5.7,
+        "apparent_temp": 2.1,
+        "humidity": 85,
+        "wind_speed": 14.0,
+        "wind_gusts": 31.7,
         "precipitation": 0.0,
         "weather_code": 61,
         "weather_label": "🌧️ 雨 (小雨)",
@@ -850,7 +850,7 @@
           {
             "date": "11/23(月)",
             "temp_max": 8.3,
-            "temp_min": 2.7,
+            "temp_min": 2.4,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
             "precipitation_mm": 1.2
@@ -858,7 +858,7 @@
           {
             "date": "11/24(火)",
             "temp_max": 5.1,
-            "temp_min": 1.4,
+            "temp_min": 1.0,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -869,7 +869,7 @@
             "temp_min": 2.8,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 3.8
+            "precipitation_mm": 3.6
           }
         ],
         "alert": "気象注意",
@@ -883,18 +883,18 @@
         "is_capital": false,
         "lat": 43.7102,
         "lon": 7.262,
-        "temp": 13.1,
-        "apparent_temp": 9.6,
-        "humidity": 45,
-        "wind_speed": 11.0,
-        "wind_gusts": 22.3,
+        "temp": 12.7,
+        "apparent_temp": 9.4,
+        "humidity": 48,
+        "wind_speed": 10.0,
+        "wind_gusts": 20.2,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
         "forecast": [
           {
             "date": "11/23(月)",
-            "temp_max": 19.5,
+            "temp_max": 19.6,
             "temp_min": 11.1,
             "weather_code": 1,
             "weather_label": "🌤️ 晴れ",
@@ -902,11 +902,11 @@
           },
           {
             "date": "11/24(火)",
-            "temp_max": 16.1,
-            "temp_min": 9.0,
+            "temp_max": 15.9,
+            "temp_min": 8.9,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 1.3
+            "precipitation_mm": 0.6
           },
           {
             "date": "11/25(水)",
@@ -914,7 +914,7 @@
             "temp_min": 10.5,
             "weather_code": 80,
             "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 36.0
+            "precipitation_mm": 34.6
           }
         ],
         "alert": "平常",
@@ -928,30 +928,30 @@
         "is_capital": false,
         "lat": 45.764,
         "lon": 4.8357,
-        "temp": 8.8,
-        "apparent_temp": 6.7,
-        "humidity": 70,
-        "wind_speed": 4.5,
-        "wind_gusts": 8.6,
+        "temp": 8.2,
+        "apparent_temp": 6.3,
+        "humidity": 73,
+        "wind_speed": 3.1,
+        "wind_gusts": 6.8,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "weather_label": "☀️ 快晴",
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
         "forecast": [
           {
             "date": "11/23(月)",
             "temp_max": 11.7,
-            "temp_min": 7.9,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 0.4
+            "temp_min": 7.5,
+            "weather_code": 61,
+            "weather_label": "🌧️ 雨 (小雨)",
+            "precipitation_mm": 0.2
           },
           {
             "date": "11/24(火)",
-            "temp_max": 9.5,
-            "temp_min": 5.6,
+            "temp_max": 9.0,
+            "temp_min": 5.9,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 2.7
+            "precipitation_mm": 2.2
           },
           {
             "date": "11/25(水)",
@@ -959,7 +959,7 @@
             "temp_min": 5.5,
             "weather_code": 63,
             "weather_label": "🌧️ 雨 (中雨)",
-            "precipitation_mm": 10.5
+            "precipitation_mm": 11.0
           }
         ],
         "alert": "平常",
@@ -974,11 +974,11 @@
       "is_capital": true,
       "lat": 48.8566,
       "lon": 2.3522,
-      "temp": 6.3,
-      "apparent_temp": 2.7,
-      "humidity": 88,
-      "wind_speed": 15.8,
-      "wind_gusts": 31.3,
+      "temp": 5.7,
+      "apparent_temp": 2.1,
+      "humidity": 85,
+      "wind_speed": 14.0,
+      "wind_gusts": 31.7,
       "precipitation": 0.0,
       "weather_code": 61,
       "weather_label": "🌧️ 雨 (小雨)",
@@ -986,7 +986,7 @@
         {
           "date": "11/23(月)",
           "temp_max": 8.3,
-          "temp_min": 2.7,
+          "temp_min": 2.4,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
           "precipitation_mm": 1.2
@@ -994,7 +994,7 @@
         {
           "date": "11/24(火)",
           "temp_max": 5.1,
-          "temp_min": 1.4,
+          "temp_min": 1.0,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
@@ -1005,7 +1005,7 @@
           "temp_min": 2.8,
           "weather_code": 61,
           "weather_label": "🌧️ 雨 (小雨)",
-          "precipitation_mm": 3.8
+          "precipitation_mm": 3.6
         }
       ],
       "alert": "気象注意",
@@ -1013,7 +1013,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/23 12:48 JST"
+    "timestamp": "11/23 14:01 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -1095,7 +1095,7 @@
         "details": "パリ・シャルル・ド・ゴール空港および主要ターミナル発着便は平常運行中"
       }
     ],
-    "timestamp": "11/23 12:48 JST"
+    "timestamp": "11/23 14:01 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 03:48:21",
+  "timestamp": "2026-11-23 05:01:24",
   "location": {
     "name": "那覇",
     "region_name": "沖縄エリア",
@@ -32,11 +32,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-23 08:50",
-    "place": "沖縄本島近海",
-    "magnitude": "3.5",
+    "time": "2026-11-23 13:02",
+    "place": "天草灘",
+    "magnitude": "2.6",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-23 13:02",
+        "place": "天草灘",
+        "shindo": "1",
+        "magnitude": "2.6",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-23 08:50",
         "place": "沖縄本島近海",
@@ -98,13 +105,6 @@
         "place": "岐阜県飛騨地方",
         "shindo": "1",
         "magnitude": "3",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-23 03:03",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.7",
         "maxScale": 10
       }
     ]
@@ -271,7 +271,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/23 03:18",
@@ -317,8 +317,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/23 04:47",
+          "text": "えみそんからシマエナガのシールもらた(ステージ周辺はソフトバンク START au END 楽天 START 繋がらない END …ドコモは知らん)☺️ htt..."
+        },
         {
           "time": "11/23 03:31",
           "text": "START au END 電波繋がらなくて困る。お客様センターに会社の電話から電話しても START 繋がらない END 。土曜日から今日まで START 繋が..."
@@ -326,10 +330,6 @@
         {
           "time": "11/23 03:23",
           "text": "START au繋がらない END ぞ。"
-        },
-        {
-          "time": "11/23 03:14",
-          "text": "@WhoLv01 ・・・スマホが START 繋がらない END 、繋がりづらいといった状態でしょうか？💦 START au END サポート石川"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -359,9 +359,9 @@
     }
   ],
   "sns_heatmap": {
-    "total_mentions": 1,
-    "top_region": "北陸",
-    "top_count": 1,
+    "total_mentions": 0,
+    "top_region": "全国平穏",
+    "top_count": 0,
     "regions": [
       {
         "id": "hokkaido",
@@ -421,20 +421,12 @@
         "lat": 36.5613,
         "lon": 136.6562,
         "zoom": 8,
-        "count": 1,
+        "count": 0,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [
-          "石川"
-        ],
-        "sample_posts": [
-          {
-            "keyword": "au 繋がらない",
-            "time": "11/23 03:14",
-            "text": "@WhoLv01 ・・・スマホが START 繋がらない END 、繋がりづらいといった状態でしょうか？💦 START au END サポート石川"
-          }
-        ]
+        "detected_words": [],
+        "sample_posts": []
       },
       {
         "id": "kansai",
@@ -504,27 +496,6 @@
     ],
     "ranking": [
       {
-        "id": "hokuriku",
-        "name": "北陸",
-        "lat": 36.5613,
-        "lon": 136.6562,
-        "zoom": 8,
-        "count": 1,
-        "level": "NORMAL",
-        "color": "#10b981",
-        "status_label": "平常・平穏",
-        "detected_words": [
-          "石川"
-        ],
-        "sample_posts": [
-          {
-            "keyword": "au 繋がらない",
-            "time": "11/23 03:14",
-            "text": "@WhoLv01 ・・・スマホが START 繋がらない END 、繋がりづらいといった状態でしょうか？💦 START au END サポート石川"
-          }
-        ]
-      },
-      {
         "id": "hokkaido",
         "name": "北海道",
         "lat": 43.0642,
@@ -568,6 +539,19 @@
         "name": "中部・東海",
         "lat": 35.1815,
         "lon": 136.9066,
+        "zoom": 8,
+        "count": 0,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
+        "detected_words": [],
+        "sample_posts": []
+      },
+      {
+        "id": "hokuriku",
+        "name": "北陸",
+        "lat": 36.5613,
+        "lon": 136.6562,
         "zoom": 8,
         "count": 0,
         "level": "NORMAL",
@@ -665,7 +649,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 7,
     "articles": [
       {
         "title": "乗用車同士が正面衝突　うち1台横転 5人けが　神奈川・箱根新道(テレビ朝日系（ANN）)",
@@ -680,6 +664,14 @@
         "summary": "2019年の火災で焼失し、復元された那覇市の首里城正殿で23日、一般公開が始まった。",
         "pub_date": "11/23 12:04 JST",
         "link": "https://news.yahoo.co.jp/articles/8daab86273c1b6e7f2d45c5e2413ccb27db69901?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "首里城正殿 きょう一般公開へ　焼失から7年 よみがえった「沖縄の誇り」(テレビ朝日系（ANN）)",
+        "summary": "7年前の火災によって消失した沖縄県の首里城正殿の復元工事が完了し、一般公開が23日から始まります。正殿前から報告です。 日本で唯一の「赤い城」である首里城正殿。2019年の火災で焼失し、2022年から",
+        "pub_date": "11/23 11:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/6f802a9a418cbe312b6da1ab9462712a42e2815f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
@@ -709,86 +701,78 @@
       },
       {
         "title": "箱根新道で複数の車が衝突　けが人の情報も　神奈川・箱根町(テレビ朝日系（ANN）)",
-        "summary": "神奈川県箱根町で複数の車が衝突する事故がありました。けが人がいるとの情報があり、警察などが調べています。 警察などによりますと、23日午前9時15分ごろ、箱根町を通る箱根新道で「乗用車同士の事故で車が",
+        "summary": "神奈川県箱根町で複数の車が衝突する事故がありました。けが人がいるとの情報があり、警察などが調べています。【動画】乗用車同士が正面衝突 5人けが 警察などによりますと、23日午前9時15分ごろ、箱根町を",
         "pub_date": "11/23 10:58 JST",
         "link": "https://news.yahoo.co.jp/articles/4d86207b255a3774d0b60a43c52499a36e774d81?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "コウモリ活発化、長雨影響　小さな隙間から住宅に侵入　寄生虫などの被害懸念　対策は(テレビ朝日系（ANN）)",
-        "summary": "11月は冬眠前のコウモリが活発化する季節です。住宅や車に侵入し、寄生虫による被害をもたらす可能性があります。【画像】車の隙間から這い出すコウモリ",
-        "pub_date": "11/23 10:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/1e3d83caf8b0f557b539ccb00dfe36ec70fd264d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "車両が横転　神奈川・箱根で複数の車が衝突(テレビ朝日系（ANN）)",
-        "summary": "神奈川県箱根町で複数の車が衝突する事故がありました。けが人がいるとの情報があり警察などが調べています。",
-        "pub_date": "11/23 10:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/fc0f02ca98e81825d14f70fa10796b7d39aaadd2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "松山で住宅火災、2人不明　50代姉弟か(共同通信)",
-        "summary": "23日午前3時15分ごろ、松山市土橋町の無職上松美和さん（55）方の木造2階建て住宅が燃えていると通行人の男性から110番があった。松山東署によると、住宅は全焼し、この家に住む上松さんと弟の英彰さん（",
-        "pub_date": "11/23 10:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/60f026afdfa5e274cfd9dfea49a1310946de93fd?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "連休明け24日は全国的に雨　局地的に激しい雷雨　竜巻などの突風にも注意(日本気象協会tenki.jp)",
-        "summary": "連休明けの明日24日(火)は、前線が本州付近を通過するため、全国的に雨が降るでしょう。局地的に雨や風が強まり、短時間に激しく降ることもありそうです。落雷や突風、急な強い雨にご注意ください。北陸では、こ",
-        "pub_date": "11/23 10:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/fa3b4a7714e5b21bcb2983d5f85dcb46cafc5ad0?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "レインボーブリッジを自転車で走り抜け　6000人がレアな体験(テレビ朝日系（ANN）)",
-        "summary": "東京のレインボーブリッジをおよそ6000人が自転車で走り抜けるイベントが開催されました。",
-        "pub_date": "11/23 12:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/3b34adc75d18611ba22c97a75d8bc79a9090073e?source=rss",
+        "title": "けさの最低気温 名古屋2.6℃ 高山は氷点下0.3℃と各地で今シーズン一番の寒さ あすは広く雨 愛知･名古屋･岐阜･三重の天気予報（11/23 昼）(CBCテレビ)",
+        "summary": "きょうは日差しは暖かいものの、冬本番の寒さが続くでしょう。けさは上空の寒気や放射冷却の影響で冷え込みが強まり、最低気温は名古屋で2.6℃、高山で氷点下0.3℃と、各地で今シーズン一番の寒さになりました",
+        "pub_date": "11/23 13:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/dd7f1c859bbf737428de350ccf5feac417a55d79?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "万博木材でモニュメント　大阪・藤井寺市が「還暦」(共同通信)",
-        "summary": "大阪府藤井寺市は23日、市制施行60周年を記念するセレモニーで、大阪・関西万博のシンボルだった大屋根リングの木材を使ったモニュメントの除幕式を行った。万博の公式キャラクター・ミャクミャクが「60」の標",
-        "pub_date": "11/23 12:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/3eeb10c61adef6075af60a7ddd5bd28fd6c08d47?source=rss",
+        "title": "ジェイエア便の乗客骨折、他機の乱気流情報が自動送信されず＝運輸安全委(Aviation Wire)",
+        "summary": "国の運輸安全委員会（JTSB）は、日本航空（JAL/JL、9201）グループのジェイエアが2025年12月8日に運航した伊丹発青森行きJL2151便（エンブラエル190型機、登録記号JA250J）で、",
+        "pub_date": "11/23 13:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/460fa9a4d864d6d45d782bfb021514d0ae87fb67?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "福島県警職員が温泉施設で女児ら盗撮か スマホから動画 「携帯の誤操作」と否認(テレビ朝日系（ANN）)",
-        "summary": "千葉県長生村の温泉施設で小学生の女の子や保育園児の妹らを盗撮したとして、福島県の警察職員の男が現行犯逮捕されました。 高井健太容疑者（40）は21日午後7時ごろ、長生村の温泉施設の男性用更衣室で、小学",
-        "pub_date": "11/23 12:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/a0b761d40c2e4a0ca09d5e48383771f27e7d63c5?source=rss",
+        "title": "「新鮮で貴重な体験…」 岐阜･下呂市の「温泉寺」で紅葉を見ながら境内の足湯を楽しむ…11月23日には日没後ライトアップも(CBCテレビ)",
+        "summary": "岐阜県下呂市の寺院では紅葉と足湯が参詣者を喜ばせています。下呂の温泉街を見下ろす「温泉寺」には、約80本のヤマモミジが植えられ、今が紅葉の見ごろです。境内には足湯も用意され、紅葉と温泉を一度に楽しむこ",
+        "pub_date": "11/23 13:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/a5bd8056e987ff066c73c7f355333c88d2720591?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "首里城正殿、一般公開　7年ぶり「巨大琉球漆器」(共同通信)",
-        "summary": "2019年に焼失し、復元された首里城正殿内部の一般公開が23日、始まった。内部公開は7年ぶり。全体に朱色をまとい「巨大な琉球漆器」と呼ばれる正殿を堪能しようと、多くの人が詰めかけた。入場料は1人千円で",
-        "pub_date": "11/23 12:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/44efe4f3dfe0954eecba5535cd6a88e59e195dff?source=rss",
+        "title": "「逃げたら殺す」男性を脅し監禁か　中国籍の社長ら逮捕　身代金受け取った疑いも(テレビ朝日系（ANN）)",
+        "summary": "東京・江東区で30代の会社員の男性をアイスピックで脅し、ホテルなどに監禁したとして、社長で中国籍の男ら4人が逮捕されました。",
+        "pub_date": "11/23 13:17 JST",
+        "link": "https://news.yahoo.co.jp/articles/e0bb7e3ce691f309ab99048a37ed18d1c1fa92ff?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "24日夜は満月　11月の満月は「ビーバームーン」　関東～九州の太平洋側は観察日和(日本気象協会tenki.jp)",
-        "summary": "11月の満月は「ビーバームーン」と呼ばれ、24日(火)の午後11時54分に満月を迎えます。関東から九州の太平洋側では広く晴れて、月がきれいに見られる所が多くなりそうです。空気の透明度が高い晩秋の夜空を",
-        "pub_date": "11/23 12:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/dc78f9d25edc5c55ddf46683a23eb235e654a7f1?source=rss",
+        "title": "“記録改竄” JIS認証取り消し 麻生コンクリート問題 波紋広がる 国交相「遺憾」 汚水処理方法を変更していたことも新たに判明 【福岡発】(FNNプライムオンライン)",
+        "summary": "計画とは異なる種類のセメントを混合した生コンクリートを意図的に長期に渡って製造･出荷していたなどとして日本産業規格（JIS）認証が取り消された麻生コンクリート工業の記録改竄問題。波紋が広がっている。【",
+        "pub_date": "11/23 13:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/239ea3cedc12fe974cd0164a0e502b52c167f344?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "愛子さま　午餐会に高貴な「蘭」を咲かせた京友禅の本振袖　シンガポールで内親王が装う「徳」をそなえた「四君子」文様(AERA DIGITAL)",
+        "summary": "天皇、皇后両陛下の長女の愛子さまは、5日間にわたるシンガポールへの公式訪問を終え11月21日に帰国された。訪問中、ターマン・シャンムガラトナム大統領主催の午餐（ごさん）会に出席。お召しになっていたのは",
+        "pub_date": "11/23 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/bdfffee731022ef1d2cf19768196b9f26cfdd351?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "ママ友と子連れランチ→2人分と4人分で人数違うのに…渡された金額に衝撃！ “ワリカン”めぐる金銭感覚のズレとモヤモヤ(ABEMA TIMES)",
+        "summary": "子連れでのママ友との食事会における“割り勘”をめぐり、密かに違和感を抱く人は少なくない。漫画『人数でワリカンしない！？』（ママのための情報サイト ママスタセレクト）では、そんなお会計時のリアルなモヤモ",
+        "pub_date": "11/23 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/9d4989e46404433309944a3743c61ae9d68e6539?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "東山動植物園 連休最終日にぎわう ことし赤ちゃんが生まれたコアラとレッサーパンダ人気 12月6日までの土日祝日には紅葉のライトアップも 名古屋･千種区　　(CBCテレビ)",
+        "summary": "3連休最終日、名古屋の東山動植物園は家族連れらでにぎわっています。11月23日の東山動植物園には開園の午前9時から、多くの家族連れらが訪れました。中でもことし1月と7月に、それぞれ赤ちゃんが生まれたコ",
+        "pub_date": "11/23 12:52 JST",
+        "link": "https://news.yahoo.co.jp/articles/7c6343536d9288fe8c51cf71ad0b1333a2a70bd0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-23 12:48:18 JST"
+    "last_updated": "2026-11-23 14:01:20 JST"
   },
   "live_media": {
     "default_camera_id": "cam_naha_kokusai",
@@ -809,10 +793,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "ly8igfaagN4",
+        "video_id": "h5BnmnF1h50",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/ly8igfaagN4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=ly8igfaagN4"
+        "embed_url": "https://www.youtube.com/embed/h5BnmnF1h50?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=h5BnmnF1h50"
       },
       {
         "id": "stream_tbsnews",
@@ -842,10 +826,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "474quL5lRgg",
+        "video_id": "8KHN1RON09A",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/474quL5lRgg?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=474quL5lRgg"
+        "embed_url": "https://www.youtube.com/embed/8KHN1RON09A?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=8KHN1RON09A"
       },
       {
         "id": "stream_fnnnews",

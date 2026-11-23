@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-24 01:47:07",
-  "timestamp_local": "2026-11-23 23:17:07",
+  "timestamp": "2026-11-24 02:41:13",
+  "timestamp_local": "2026-11-24 00:11:13",
   "country": {
     "id": "myanmar",
     "name": "ミャンマー",
@@ -267,7 +267,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 20,
+    "count_24h": 21,
     "summary": "M4.7 (South Sandwich Islands region)",
     "latest": {
       "mag": 4.7,
@@ -343,6 +343,14 @@
         "tsunami": 0
       },
       {
+        "mag": 4.6,
+        "place": "158 km SE of Severo-Kuril’sk, Russia",
+        "time": "11/23 14:22 JST",
+        "depth_km": 18.644,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucwm",
+        "tsunami": 0
+      },
+      {
         "mag": 5,
         "place": "159 km ESE of Kokopo, Papua New Guinea",
         "time": "11/23 13:18 JST",
@@ -388,14 +396,6 @@
         "time": "11/23 08:50 JST",
         "depth_km": 40.004,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucv2",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "170 km WNW of Port-Olry, Vanuatu",
-        "time": "11/23 06:58 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucuk",
         "tsunami": 0
       }
     ]
@@ -658,13 +658,13 @@
     "default_channel_id": "stream_euronews_mm"
   },
   "forex": {
-    "timestamp": "11/24 01:47 JST",
+    "timestamp": "11/24 02:41 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.28,
-      "change": -0.43,
+      "rate": 159.27,
+      "change": -0.44,
       "change_pct": -0.27,
       "direction": "down"
     },
@@ -681,8 +681,8 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 173.39,
-      "change": -1.78,
+      "rate": 173.4,
+      "change": -1.77,
       "change_pct": -1.01
     }
   },
@@ -696,20 +696,11 @@
       "departures_url": "http://www.yangonairport.aero/",
       "radar_url": "https://www.flightradar24.com/airport/rgn",
       "flightaware_url": "https://www.flightaware.com/live/airport/VYYY",
-      "weather": {
-        "raw": "METAR VYYY 231630Z 00000KT 7000 FEW020 27/24 Q1016 NOSIG",
-        "wind": "0kt",
-        "wind_speed": 0,
-        "wind_gust": 0,
-        "visibility": "4.35マイル",
-        "temp": 27,
-        "fltcat": "VFR",
-        "report_time": "2026-11-23T16:30:00.000Z"
-      },
+      "weather": {},
       "status": "平常運航",
       "status_code": "normal",
       "status_badge": "🟢 平常運航",
-      "status_desc": "視程良好（4.35マイル）、風速安定（0kt）。順調に運航中"
+      "status_desc": "定常運航中（現在重大な気象警報なし）"
     }
   ],
   "weather": {
@@ -720,11 +711,11 @@
         "is_capital": false,
         "lat": 16.8661,
         "lon": 96.1951,
-        "temp": 26.0,
-        "apparent_temp": 30.1,
+        "temp": 25.7,
+        "apparent_temp": 29.6,
         "humidity": 79,
-        "wind_speed": 5.6,
-        "wind_gusts": 11.2,
+        "wind_speed": 6.1,
+        "wind_gusts": 11.5,
         "precipitation": 0.0,
         "weather_code": 0,
         "weather_label": "☀️ 快晴",
@@ -765,14 +756,14 @@
         "is_capital": true,
         "lat": 19.7633,
         "lon": 96.0785,
-        "temp": 23.1,
-        "apparent_temp": 26.5,
-        "humidity": 85,
+        "temp": 22.8,
+        "apparent_temp": 26.2,
+        "humidity": 86,
         "wind_speed": 4.3,
-        "wind_gusts": 7.9,
+        "wind_gusts": 7.2,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/23(月)",
@@ -810,14 +801,14 @@
         "is_capital": false,
         "lat": 21.9588,
         "lon": 96.0891,
-        "temp": 23.1,
+        "temp": 22.9,
         "apparent_temp": 26.4,
-        "humidity": 89,
-        "wind_speed": 8.3,
-        "wind_gusts": 15.5,
+        "humidity": 91,
+        "wind_speed": 7.0,
+        "wind_gusts": 14.8,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "weather_label": "🌤️ 晴れ",
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
           {
             "date": "11/23(月)",
@@ -856,14 +847,14 @@
       "is_capital": true,
       "lat": 19.7633,
       "lon": 96.0785,
-      "temp": 23.1,
-      "apparent_temp": 26.5,
-      "humidity": 85,
+      "temp": 22.8,
+      "apparent_temp": 26.2,
+      "humidity": 86,
       "wind_speed": 4.3,
-      "wind_gusts": 7.9,
+      "wind_gusts": 7.2,
       "precipitation": 0.0,
-      "weather_code": 1,
-      "weather_label": "🌤️ 晴れ",
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
       "forecast": [
         {
           "date": "11/23(月)",
@@ -895,7 +886,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/24 01:47 JST"
+    "timestamp": "11/24 02:41 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -924,7 +915,7 @@
         "details": "情勢に伴い減便または一部区間運休の可能性あり"
       }
     ],
-    "timestamp": "11/24 01:47 JST"
+    "timestamp": "11/24 02:41 JST"
   },
   "lifeline": {
     "status": "NORMAL",

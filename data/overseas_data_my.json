@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-24 01:47:28",
-  "timestamp_local": "2026-11-24 00:47:28",
+  "timestamp": "2026-11-24 02:41:33",
+  "timestamp_local": "2026-11-24 01:41:33",
   "country": {
     "id": "malaysia",
     "name": "マレーシア",
@@ -273,7 +273,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 20,
+    "count_24h": 21,
     "summary": "M4.7 (South Sandwich Islands region)",
     "latest": {
       "mag": 4.7,
@@ -349,6 +349,14 @@
         "tsunami": 0
       },
       {
+        "mag": 4.6,
+        "place": "158 km SE of Severo-Kuril’sk, Russia",
+        "time": "11/23 14:22 JST",
+        "depth_km": 18.644,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucwm",
+        "tsunami": 0
+      },
+      {
         "mag": 5,
         "place": "159 km ESE of Kokopo, Papua New Guinea",
         "time": "11/23 13:18 JST",
@@ -394,14 +402,6 @@
         "time": "11/23 08:50 JST",
         "depth_km": 40.004,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucv2",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "170 km WNW of Port-Olry, Vanuatu",
-        "time": "11/23 06:58 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucuk",
         "tsunami": 0
       }
     ]
@@ -639,13 +639,13 @@
     "default_channel_id": "stream_bernama_live"
   },
   "forex": {
-    "timestamp": "11/24 01:47 JST",
+    "timestamp": "11/24 02:41 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.28,
-      "change": -0.43,
+      "rate": 159.27,
+      "change": -0.44,
       "change_pct": -0.27,
       "direction": "down"
     },
@@ -653,17 +653,17 @@
       "currency": "MYR",
       "name": "マレーシアリンギット",
       "symbol": "RM",
-      "rate": 38.63,
-      "change": -0.19,
-      "change_pct": -0.49,
+      "rate": 38.62,
+      "change": -0.2,
+      "change_pct": -0.52,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 173.39,
-      "change": -1.78,
+      "rate": 173.4,
+      "change": -1.77,
       "change_pct": -1.01
     }
   },
@@ -692,14 +692,14 @@
         "is_capital": true,
         "lat": 3.139,
         "lon": 101.6869,
-        "temp": 24.6,
-        "apparent_temp": 29.8,
-        "humidity": 97,
-        "wind_speed": 6.2,
-        "wind_gusts": 18.4,
-        "precipitation": 1.0,
-        "weather_code": 81,
-        "weather_label": "🌧️ にわか雨 (中)",
+        "temp": 24.3,
+        "apparent_temp": 29.9,
+        "humidity": 98,
+        "wind_speed": 3.5,
+        "wind_gusts": 15.8,
+        "precipitation": 0.2,
+        "weather_code": 53,
+        "weather_label": "🌦️ 霧雨 (中)",
         "forecast": [
           {
             "date": "11/24(火)",
@@ -726,10 +726,10 @@
             "precipitation_mm": 13.7
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "ペナン (ジョージタウン)",
@@ -737,11 +737,11 @@
         "is_capital": false,
         "lat": 5.4141,
         "lon": 100.3288,
-        "temp": 26.6,
-        "apparent_temp": 33.8,
-        "humidity": 98,
-        "wind_speed": 3.1,
-        "wind_gusts": 9.0,
+        "temp": 26.4,
+        "apparent_temp": 33.5,
+        "humidity": 99,
+        "wind_speed": 3.2,
+        "wind_gusts": 9.7,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -782,11 +782,11 @@
         "is_capital": false,
         "lat": 1.4927,
         "lon": 103.7414,
-        "temp": 25.8,
-        "apparent_temp": 31.2,
-        "humidity": 94,
-        "wind_speed": 7.6,
-        "wind_gusts": 14.8,
+        "temp": 25.6,
+        "apparent_temp": 30.9,
+        "humidity": 95,
+        "wind_speed": 8.1,
+        "wind_gusts": 15.5,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
@@ -828,14 +828,14 @@
       "is_capital": true,
       "lat": 3.139,
       "lon": 101.6869,
-      "temp": 24.6,
-      "apparent_temp": 29.8,
-      "humidity": 97,
-      "wind_speed": 6.2,
-      "wind_gusts": 18.4,
-      "precipitation": 1.0,
-      "weather_code": 81,
-      "weather_label": "🌧️ にわか雨 (中)",
+      "temp": 24.3,
+      "apparent_temp": 29.9,
+      "humidity": 98,
+      "wind_speed": 3.5,
+      "wind_gusts": 15.8,
+      "precipitation": 0.2,
+      "weather_code": 53,
+      "weather_label": "🌦️ 霧雨 (中)",
       "forecast": [
         {
           "date": "11/24(火)",
@@ -862,12 +862,12 @@
           "precipitation_mm": 13.7
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/24 01:47 JST"
+    "timestamp": "11/24 02:41 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -896,7 +896,7 @@
         "details": "LRTクラナジャヤ線・MRT各線平常運行中"
       }
     ],
-    "timestamp": "11/24 01:47 JST"
+    "timestamp": "11/24 02:41 JST"
   },
   "lifeline": {
     "status": "NORMAL",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 16:45:30",
+  "timestamp": "2026-11-23 17:39:39",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -194,11 +194,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
+          "雷注意報",
           "波浪注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/27/"
       },
       {
@@ -209,11 +209,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
+          "雷注意報",
           "波浪注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -259,10 +259,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       }
     ]
@@ -276,23 +276,22 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（新幹線: 東海道新幹線（列車遅延）、山陽新幹線（その他））",
+    "text": "運行支障あり（新幹線: 山陽新幹線（その他））",
     "line_status": "NORMAL",
     "line_text": "全線平常運行中",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（東海道新幹線（列車遅延）、山陽新幹線（その他））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [],
     "troubled_shinkansen": [
-      "東海道新幹線（列車遅延）",
       "山陽新幹線（その他）"
     ],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "新横浜駅での安全確認の影響で、下り線(新大阪方面行)の一部列車に遅れが出ています。（11月23日 21時40分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       },
       {
@@ -343,6 +342,12 @@
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
         "level": "poweroutageLevel2"
+      },
+      {
+        "pref": "熊本県",
+        "region": "九州",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/43/",
+        "level": "poweroutageLevel1"
       }
     ],
     "water_msg": "大阪市水道局: 管内大規模断水・漏水なし",
@@ -454,8 +459,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/23 17:17",
+          "text": "START au END がドコモにじわりじわりと近づいてってる 7月〜9月でドコモの契約数だけマイナス60万件とか、、、 11月の通信 START 障害 EN..."
+        },
         {
           "time": "11/23 15:15",
           "text": "@shirodayo_12 通信会社(docomo START au END SoftBank)の 基地局の バッテリーも アウトで 通信 START 障害 E..."
@@ -463,10 +472,6 @@
         {
           "time": "11/23 15:13",
           "text": "START au END 電波 START 障害 END ？それとも私のすまほが呪われてる？サーバー攻撃されてる？ 情報全部あげるからTwitter見させてお願..."
-        },
-        {
-          "time": "11/23 13:58",
-          "text": "家の START au END 光つながらなくなった。通信 START 障害 END ？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -477,8 +482,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/23 17:17",
+          "text": "auがドコモにじわりじわりと近づいてってる 7月〜9月でドコモの契約数だけマイナス60万件とか、、、 11月の通信 START 障害 END の影響入ってなくて..."
+        },
         {
           "time": "11/23 11:12",
           "text": "エーユーの START 障害 END 、多くの地域で復旧 出典（公式発表）： START KDDI END https://t.co/db9IiwesO5 ▼橋..."
@@ -486,10 +495,6 @@
         {
           "time": "11/23 00:12",
           "text": "So-net、電話でのサポートがいつのまにか有料のなってて、基本サポートはアプリでのチャットなんだけどチャット相手は例によって日本人ではなさそう。 写真とか情報..."
-        },
-        {
-          "time": "11/22 23:24",
-          "text": "11月21日、 START KDDI END は大雪による一部地域の通信 START 障害 END を発表。 注目したいのは、他社回線を活用する「JAPANロー..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -953,7 +958,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 01:44:58 JST"
+    "last_updated": "2026-11-24 02:39:09 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",

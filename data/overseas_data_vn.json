@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-24 01:47:21",
-  "timestamp_local": "2026-11-23 23:47:21",
+  "timestamp": "2026-11-24 02:41:27",
+  "timestamp_local": "2026-11-24 00:41:27",
   "country": {
     "id": "vietnam",
     "name": "ベトナム",
@@ -289,7 +289,7 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 20,
+    "count_24h": 21,
     "summary": "M4.7 (South Sandwich Islands region)",
     "latest": {
       "mag": 4.7,
@@ -365,6 +365,14 @@
         "tsunami": 0
       },
       {
+        "mag": 4.6,
+        "place": "158 km SE of Severo-Kuril’sk, Russia",
+        "time": "11/23 14:22 JST",
+        "depth_km": 18.644,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucwm",
+        "tsunami": 0
+      },
+      {
         "mag": 5,
         "place": "159 km ESE of Kokopo, Papua New Guinea",
         "time": "11/23 13:18 JST",
@@ -410,14 +418,6 @@
         "time": "11/23 08:50 JST",
         "depth_km": 40.004,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucv2",
-        "tsunami": 0
-      },
-      {
-        "mag": 4.9,
-        "place": "170 km WNW of Port-Olry, Vanuatu",
-        "time": "11/23 06:58 JST",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucuk",
         "tsunami": 0
       }
     ]
@@ -657,13 +657,13 @@
     "default_channel_id": "stream_vtv_live"
   },
   "forex": {
-    "timestamp": "11/24 01:47 JST",
+    "timestamp": "11/24 02:41 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.28,
-      "change": -0.43,
+      "rate": 159.27,
+      "change": -0.44,
       "change_pct": -0.27,
       "direction": "down"
     },
@@ -673,15 +673,15 @@
       "symbol": "₫",
       "rate": 0.0062,
       "change": -0.0,
-      "change_pct": -0.04,
+      "change_pct": -0.07,
       "direction": "even"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 173.39,
-      "change": -1.78,
+      "rate": 173.4,
+      "change": -1.77,
       "change_pct": -1.01
     }
   },
@@ -725,23 +725,15 @@
         "is_capital": true,
         "lat": 21.0285,
         "lon": 105.8542,
-        "temp": 22.7,
-        "apparent_temp": 26.3,
-        "humidity": 96,
-        "wind_speed": 9.1,
-        "wind_gusts": 15.1,
+        "temp": 22.1,
+        "apparent_temp": 24.6,
+        "humidity": 95,
+        "wind_speed": 13.4,
+        "wind_gusts": 23.0,
         "precipitation": 0.2,
         "weather_code": 53,
         "weather_label": "🌦️ 霧雨 (中)",
         "forecast": [
-          {
-            "date": "11/23(月)",
-            "temp_max": 27.2,
-            "temp_min": 19.0,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 1.5
-          },
           {
             "date": "11/24(火)",
             "temp_max": 22.5,
@@ -754,6 +746,14 @@
             "date": "11/25(水)",
             "temp_max": 19.4,
             "temp_min": 15.7,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 22.7,
+            "temp_min": 14.3,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -770,23 +770,15 @@
         "is_capital": false,
         "lat": 10.8231,
         "lon": 106.6297,
-        "temp": 27.3,
-        "apparent_temp": 32.7,
-        "humidity": 82,
-        "wind_speed": 4.7,
-        "wind_gusts": 10.4,
+        "temp": 26.9,
+        "apparent_temp": 32.3,
+        "humidity": 83,
+        "wind_speed": 3.8,
+        "wind_gusts": 9.4,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
-          {
-            "date": "11/23(月)",
-            "temp_max": 33.5,
-            "temp_min": 25.0,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 1.4
-          },
           {
             "date": "11/24(火)",
             "temp_max": 34.7,
@@ -802,6 +794,14 @@
             "weather_code": 53,
             "weather_label": "🌦️ 霧雨 (中)",
             "precipitation_mm": 0.9
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 33.3,
+            "temp_min": 24.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.4
           }
         ],
         "alert": "平常",
@@ -815,23 +815,15 @@
         "is_capital": false,
         "lat": 16.0544,
         "lon": 108.2022,
-        "temp": 24.1,
-        "apparent_temp": 29.2,
-        "humidity": 96,
-        "wind_speed": 3.7,
-        "wind_gusts": 6.8,
+        "temp": 24.0,
+        "apparent_temp": 28.9,
+        "humidity": 95,
+        "wind_speed": 4.2,
+        "wind_gusts": 8.3,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
-          {
-            "date": "11/23(月)",
-            "temp_max": 29.1,
-            "temp_min": 22.4,
-            "weather_code": 51,
-            "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.1
-          },
           {
             "date": "11/24(火)",
             "temp_max": 28.2,
@@ -847,6 +839,14 @@
             "weather_code": 95,
             "weather_label": "⛈️ 雷雨 (弱〜中)",
             "precipitation_mm": 165.7
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 25.1,
+            "temp_min": 23.8,
+            "weather_code": 95,
+            "weather_label": "⛈️ 雷雨 (弱〜中)",
+            "precipitation_mm": 83.8
           }
         ],
         "alert": "気象注意",
@@ -861,23 +861,15 @@
       "is_capital": true,
       "lat": 21.0285,
       "lon": 105.8542,
-      "temp": 22.7,
-      "apparent_temp": 26.3,
-      "humidity": 96,
-      "wind_speed": 9.1,
-      "wind_gusts": 15.1,
+      "temp": 22.1,
+      "apparent_temp": 24.6,
+      "humidity": 95,
+      "wind_speed": 13.4,
+      "wind_gusts": 23.0,
       "precipitation": 0.2,
       "weather_code": 53,
       "weather_label": "🌦️ 霧雨 (中)",
       "forecast": [
-        {
-          "date": "11/23(月)",
-          "temp_max": 27.2,
-          "temp_min": 19.0,
-          "weather_code": 53,
-          "weather_label": "🌦️ 霧雨 (中)",
-          "precipitation_mm": 1.5
-        },
         {
           "date": "11/24(火)",
           "temp_max": 22.5,
@@ -893,6 +885,14 @@
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/26(木)",
+          "temp_max": 22.7,
+          "temp_min": 14.3,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "気象注意",
@@ -900,7 +900,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/24 01:47 JST"
+    "timestamp": "11/24 02:41 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -929,7 +929,7 @@
         "details": "南北統一鉄道各便平常運行中"
       }
     ],
-    "timestamp": "11/24 01:47 JST"
+    "timestamp": "11/24 02:41 JST"
   },
   "lifeline": {
     "status": "NORMAL",

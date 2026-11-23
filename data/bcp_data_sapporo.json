@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 18:31:53",
+  "timestamp": "2026-11-23 19:31:26",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -61,12 +61,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "3",
-    "time": "2026-11-24 01:12",
+    "shindo": "1",
+    "time": "2026-11-24 03:33",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "3.9",
+    "magnitude": "3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-24 03:33",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-24 01:12",
         "place": "熊本県天草・芦北地方",
@@ -129,13 +136,6 @@
         "shindo": "3",
         "magnitude": "4.1",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-23 07:49",
-        "place": "天草灘",
-        "shindo": "-",
-        "magnitude": "4.1",
-        "maxScale": -1
       }
     ]
   },
@@ -165,13 +165,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
           "強風注意報",
-          "融雪注意報",
+          "なだれ注意報",
           "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "融雪注意報"
         ],
-        "summary": "なだれ注意報、強風注意報、融雪注意報、波浪注意報、雷注意報",
+        "summary": "強風注意報、なだれ注意報、波浪注意報、雷注意報、融雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -182,14 +182,14 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
-          "濃霧注意報",
           "強風注意報",
-          "融雪注意報",
+          "濃霧注意報",
+          "なだれ注意報",
           "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "融雪注意報"
         ],
-        "summary": "なだれ注意報、濃霧注意報、強風注意報、融雪注意報、波浪注意報、雷注意報",
+        "summary": "強風注意報、濃霧注意報、なだれ注意報、波浪注意報、雷注意報、融雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -201,11 +201,11 @@
         "warns": [],
         "notices": [
           "濃霧注意報",
-          "強風注意報",
           "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "濃霧注意報、強風注意報、波浪注意報、雷注意報",
+        "summary": "濃霧注意報、波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -217,11 +217,11 @@
         "warns": [],
         "notices": [
           "濃霧注意報",
-          "強風注意報",
           "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "濃霧注意報、強風注意報、波浪注意報、雷注意報",
+        "summary": "濃霧注意報、波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -292,6 +292,12 @@
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
         "level": "poweroutageLevel2"
+      },
+      {
+        "pref": "鳥取県",
+        "region": "中国",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/31/",
+        "level": "poweroutageLevel1"
       },
       {
         "pref": "熊本県",
@@ -907,7 +913,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 03:31:50 JST"
+    "last_updated": "2026-11-24 04:30:29 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -928,10 +934,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "C28y5JEQgSE",
+        "video_id": "K578fVjd2CI",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/C28y5JEQgSE?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=C28y5JEQgSE"
+        "embed_url": "https://www.youtube.com/embed/K578fVjd2CI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=K578fVjd2CI"
       },
       {
         "id": "stream_tbsnews",

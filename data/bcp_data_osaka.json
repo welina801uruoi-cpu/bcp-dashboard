@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 18:31:11",
+  "timestamp": "2026-11-23 19:30:54",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -90,12 +90,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "3",
-    "time": "2026-11-24 01:12",
+    "shindo": "1",
+    "time": "2026-11-24 03:33",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "3.9",
+    "magnitude": "3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-24 03:33",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-24 01:12",
         "place": "熊本県天草・芦北地方",
@@ -158,13 +165,6 @@
         "shindo": "3",
         "magnitude": "4.1",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-23 07:49",
-        "place": "天草灘",
-        "shindo": "-",
-        "magnitude": "4.1",
-        "maxScale": -1
       }
     ]
   },
@@ -180,10 +180,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 4地域】大阪、兵庫、京都、和歌山（警報なし）",
+    "summary": "【注意報発表: 6地域】大阪、兵庫、京都、滋賀、奈良、和歌山（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 4,
+    "notice_count": 6,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -194,11 +194,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/27/"
       },
       {
@@ -209,11 +209,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -224,31 +224,37 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "波浪注意報",
+          "雷注意報",
           "強風注意報"
         ],
-        "summary": "強風注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
         "code": "25",
         "name": "滋賀県",
         "short_name": "滋賀",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/25/"
       },
       {
         "code": "29",
         "name": "奈良県",
         "short_name": "奈良",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報"
+        ],
+        "summary": "雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/29/"
       },
       {
@@ -259,10 +265,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       }
     ]
@@ -342,6 +348,12 @@
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
         "level": "poweroutageLevel2"
+      },
+      {
+        "pref": "鳥取県",
+        "region": "中国",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/31/",
+        "level": "poweroutageLevel1"
       },
       {
         "pref": "熊本県",
@@ -958,7 +970,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 03:30:42 JST"
+    "last_updated": "2026-11-24 04:30:29 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -979,10 +991,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "C28y5JEQgSE",
+        "video_id": "K578fVjd2CI",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/C28y5JEQgSE?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=C28y5JEQgSE"
+        "embed_url": "https://www.youtube.com/embed/K578fVjd2CI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=K578fVjd2CI"
       },
       {
         "id": "stream_tbsnews",

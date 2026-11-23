@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 18:30:57",
+  "timestamp": "2026-11-23 19:30:42",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -112,12 +112,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "3",
-    "time": "2026-11-24 01:12",
+    "shindo": "1",
+    "time": "2026-11-24 03:33",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "3.9",
+    "magnitude": "3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-24 03:33",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-24 01:12",
         "place": "熊本県天草・芦北地方",
@@ -180,13 +187,6 @@
         "shindo": "3",
         "magnitude": "4.1",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-23 07:49",
-        "place": "天草灘",
-        "shindo": "-",
-        "magnitude": "4.1",
-        "maxScale": -1
       }
     ]
   },
@@ -202,21 +202,24 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 2地域】千葉、神奈川（警報なし）",
+    "summary": "【注意報発表: 5地域】東京、千葉、神奈川、埼玉、茨城（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 2,
+    "notice_count": 5,
     "total_prefs": 8,
     "pref_details": [
       {
         "code": "13",
         "name": "東京都",
         "short_name": "東京",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "波浪注意報",
+          "強風注意報"
+        ],
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -228,10 +231,10 @@
         "warns": [],
         "notices": [
           "乾燥注意報",
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "乾燥注意報、強風注意報、波浪注意報",
+        "summary": "乾燥注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -242,32 +245,37 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/14/"
       },
       {
         "code": "11",
         "name": "埼玉県",
         "short_name": "埼玉",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報"
+        ],
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/11/"
       },
       {
         "code": "8",
         "name": "茨城県",
         "short_name": "茨城",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "波浪注意報",
+          "強風注意報"
+        ],
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -413,6 +421,12 @@
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
         "level": "poweroutageLevel2"
+      },
+      {
+        "pref": "鳥取県",
+        "region": "中国",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/31/",
+        "level": "poweroutageLevel1"
       },
       {
         "pref": "熊本県",
@@ -1027,7 +1041,7 @@
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 03:30:42 JST"
+    "last_updated": "2026-11-24 04:30:29 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1048,10 +1062,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "C28y5JEQgSE",
+        "video_id": "K578fVjd2CI",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/C28y5JEQgSE?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=C28y5JEQgSE"
+        "embed_url": "https://www.youtube.com/embed/K578fVjd2CI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=K578fVjd2CI"
       },
       {
         "id": "stream_tbsnews",

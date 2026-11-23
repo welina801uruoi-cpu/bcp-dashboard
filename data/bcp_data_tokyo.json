@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23 20:21:14",
+  "timestamp": "2026-11-23 21:15:25",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -112,12 +112,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-24 03:33",
+    "shindo": "2",
+    "time": "2026-11-24 06:00",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "3",
+    "magnitude": "3.1",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-24 06:00",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "2",
+        "magnitude": "3.1",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-24 03:33",
         "place": "熊本県天草・芦北地方",
@@ -180,13 +187,6 @@
         "shindo": "1",
         "magnitude": "3.5",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-23 07:49",
-        "place": "天草灘",
-        "shindo": "3",
-        "magnitude": "4.1",
-        "maxScale": 30
       }
     ]
   },
@@ -216,10 +216,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -230,11 +230,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
+          "波浪注意報",
           "乾燥注意報",
-          "波浪注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、乾燥注意報、波浪注意報",
+        "summary": "波浪注意報、乾燥注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -245,10 +245,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/14/"
       },
       {
@@ -272,10 +272,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/8/"
       },
       {
@@ -399,6 +399,12 @@
     "power_msg": "東京電力PG: 【停電発生中】千葉県で停電情報を検知",
     "power_outages": [
       {
+        "pref": "北海道",
+        "region": "北海道",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/01/",
+        "level": "poweroutageLevel1"
+      },
+      {
         "pref": "福島県",
         "region": "東北",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/07/",
@@ -421,18 +427,6 @@
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
         "level": "poweroutageLevel2"
-      },
-      {
-        "pref": "鳥取県",
-        "region": "中国",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/31/",
-        "level": "poweroutageLevel1"
-      },
-      {
-        "pref": "熊本県",
-        "region": "九州",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/43/",
-        "level": "poweroutageLevel1"
       }
     ],
     "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
@@ -918,8 +912,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 10,
     "articles": [
+      {
+        "title": "患者安全実現へ病院長研修　義務化で事故調査適正に(共同通信)",
+        "summary": "医療事故調査制度の適正運用のため、制度に関する研修受講が病院長ら医療機関の管理者に義務付けられることになった。研修内容を定めた厚生労働省研究班は、医療安全活動の全体像や死亡事例発生時の対応を学ぶプログ",
+        "pub_date": "11/24 06:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/3141ac2645852e053ca3eaadde4c5465bff367fe?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "3連休 岐阜県郡上市の観光施設「ひるがの高原 牧歌の里」は積雪により地域一帯が停電 21日･22日はやむなく休園に  動物たちにも影響が…(CBCテレビ)",
+        "summary": "11月21日からの3連休、岐阜県の行楽地は賑わいました。白川村では世界遺産・白川郷の「合掌造り集落」のかやぶき屋根にも雪が降り積もり、幻想的な冬景色に国内外から訪れた多くの人たちが魅了されました。【写",
+        "pub_date": "11/24 06:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/4dec0df8120fc25d1c34b1757d8c528160c2289a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "「沖縄のシンボル」随所に最新技術“令和の復元”…7年ぶり“復活”首里城正殿(テレビ朝日系（ANN）)",
         "summary": "2019年の火災で焼失した首里城正殿が復元され、23日正午、7年ぶりに一般公開されました。【画像】7年ぶり“復活”首里城正殿沖縄県出身「やっぱり“シンボル”だったなって。象徴みたいな、沖縄の大事なもの",
@@ -985,63 +995,47 @@
         "is_disaster": true
       },
       {
-        "title": "首里城正殿の復元に富山の技　彫刻に2年半、この道50年以上の井波彫刻師が正殿の顔「唐破風妻飾」を手掛ける　待ちに待った一般公開(FNNプライムオンライン)",
-        "summary": "2019年の火災で焼失した沖縄県の世界遺産、首里城正殿が復元され、23日から一般公開が始まった。復元には、富山県南砺市の井波彫刻師が関わっている。この道50年以上の職人、砂田清定さん（76）は「最大限",
-        "pub_date": "11/23 18:55 JST",
-        "link": "https://news.yahoo.co.jp/articles/2c534a3b1d4a1f0aa6ddabf0b06a8c9242b63ba8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "“開かずの踏切”廃止で長時間待ち解消も新たな問題　一日1900台の通行車両をどうする(テレビ朝日系（ANN）)",
-        "summary": "■“開かずの踏切”廃止で別問題浮上 JR広島駅の近くにある愛宕踏切。なかなか開かずに多くの人が待たされています。 1本列車が通過しても、まだ開きません。横断を始めても長さがあるため、途中で警報が鳴り、",
-        "pub_date": "11/23 18:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/55ca826bad3cd86ffa02989dcb602a601a50599f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "ストーブの火「ふとんに燃え移った」緊迫の消火・救出作業　暖房器具は細心の注意を(テレビ朝日系（ANN）)",
-        "summary": "■ストーブの火「ふとんに燃え移った」 部屋の窓から激しく吹き出す炎。22日午前4時半すぎ、札幌市にある10階建てマンションの4階で火災が発生。通報 火元の部屋の住人（きのう）「ストーブから出火して、ふ",
-        "pub_date": "11/23 18:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/4a83add7b51ee3c36d4a91cc75940024e4d22c99?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "市長は「最終処分地」に前向き…“核のごみ”初の住民説明会　茨城県常陸大宮市(テレビ朝日系（ANN）)",
-        "summary": "“核のごみ”の最終処分地を選ぶための最初のステップである文献調査が15日から始まった茨城県常陸大宮市。23日、住民への初めての説明会が行われました。【画像】“核のごみ”初の住民説明会集まった住民は60",
-        "pub_date": "11/24 00:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/b00d1852f0486ade372b20e411b0991d9b1f1c9c?source=rss",
+        "title": "「貧乏レンコン」が1本5000円でも売れた本当の理由(デイリー新潮)",
+        "summary": "解剖学者・養老孟司さんが、幻の昆虫を探しに茨城県のレンコン農園を訪れた。そこで養老さんが出会ったのは、かつて「惨めな仕事」とされたレンコン農家から、1本5000円、さらには5万円でも売れる「貧乏レンコ",
+        "pub_date": "11/24 06:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/07dc4e206e2397abcc4b403d5f7b9c7603c2bd4c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「お酒を飲みに来る際は自転車をおいて来て」警視庁が飲酒運転防止呼びかけ(テレビ朝日系（ANN）)",
-        "summary": "来月から始まる「冬のTOKYO交通安全キャンペーン」を控え、警視庁は都内各地で飲酒運転防止を呼び掛けるイベントを開催しました。斎藤恭代さん「きょう学んだことをご自身だけでなく皆様の大切なご家族やお友達",
-        "pub_date": "11/23 23:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/1e207b0513f44293c50413f07d86cb9f518020ca?source=rss",
+        "title": "養老孟司が「幻」の昆虫を求めて、茨城のレンコン田にやってきた話(デイリー新潮)",
+        "summary": "「害虫」としてしか見ていなかった一匹の虫が、養老孟司さんとの出会いで思いがけない存在に変わった。50年ぶりに発見された希少な昆虫をめぐり、今度は養老さんが茨城のレンコン田へ。農家と虫屋、異なる視点が交",
+        "pub_date": "11/24 06:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/c3abce6c1fc8bcccadb36690ef4577904146046e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "良質な新米と日光連山の水で仕上がりに期待 日本酒の仕込み最盛期　栃木・宇都宮市(テレビ朝日系（ANN）)",
-        "summary": "栃木県にある酒蔵では本格的な冬の訪れととともに新米を使った日本酒の仕込みが始まっています。 宇都宮市柳田町にある酒蔵「宇都宮酒造」では、日本酒の仕込み作業の最盛期を迎えていてます。 蔵人たちは窯から立",
-        "pub_date": "11/23 23:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/9cdbd6d1404cca62a23d1ed89e1dea0b479a896e?source=rss",
+        "title": "身元保証ビジネスでトラブル続出「老人ホームに入れなくなったら困る…」120万円請求された81歳「女性」の後悔(デイリー新潮)",
+        "summary": "単身世帯が4割を超えた日本。親族がいても迷惑をかけたくないため一人暮らしを選ぶ高齢者も少ない。独居老人が増える中、彼らが直面するのが、病院の入院や介護施設に入所する際に必要となる「身元保証人」の存在だ",
+        "pub_date": "11/24 06:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/16d445c52ac4a27b089c7b1036af2442f60b0960?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "富士山と紅葉のコラボレーション　河口湖で紅葉見ごろ(テレビ朝日系（ANN）)",
-        "summary": "富士山を望む山梨県の河口湖では紅葉が見ごろを迎えています。 富士山の麓に広がる河口湖では雄大な富士山と紅葉を同時に楽しむことができるため、毎年この時期は多くの観光客でにぎわいます。 現在は湖畔に植えら",
-        "pub_date": "11/23 23:55 JST",
-        "link": "https://news.yahoo.co.jp/articles/2ef871b790f392d38af2cdf02de7df39b32e2af1?source=rss",
+        "title": "窃盗や放火など犯罪の温床に…空き家増加の背景に『家じまい』の難しさか 相談サービス始めたベンチャー企業も(FNNプライムオンライン)",
+        "summary": "人口減少や高齢化が進み空き家が増える中、今、空き家を狙った窃盗事件が相次いでいます。空き家を減らすため、企業が「家じまい」を後押しする動きも出てきました。【動画で見る】窃盗や放火など犯罪の温床に…空き",
+        "pub_date": "11/24 06:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/cb9a1e87a84d4da1182a0e19cf0f12a5594098b9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「生きた心地のしなかった」外交のプロが告白する「野田佳彦」総理時代の珍事とは？　知られざるアメリカ外交の舞台裏を覗く（Bookレビュー）(Book Bang)",
+        "summary": "政治記者になって30年余り、数えきれない外交舞台に立ち会ってきた。そこは各国の利害とプライドが激突する勝負の場だったが、私が見てきたのは表の舞台に過ぎなかった。本書『知られざるアメリカ外交儀礼』（大久",
+        "pub_date": "11/24 06:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/e37b0c1e98de0a21d16a4d334ec71c89d056fb5c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 05:21:02 JST"
+    "last_updated": "2026-11-24 06:15:09 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

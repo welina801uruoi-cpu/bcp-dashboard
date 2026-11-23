@@ -3595,7 +3595,7 @@
             if (lifeline.power_status === 'ALERT' || (Array.isArray(lifeline.power_outages) && lifeline.power_outages.length > 0)) {
                 const outagePrefNames = (Array.isArray(lifeline.power_outages) && lifeline.power_outages.length > 0)
                     ? lifeline.power_outages.map(o => o.pref).join('・')
-                    : '福島県・千葉県・長野県・岐阜県';
+                    : '福島県・千葉県・長野県・岐阜県・鳥取県';
 
                 alertItems.push({
                     type: 'power',

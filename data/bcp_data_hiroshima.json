@@ -276,11 +276,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "NORMAL",
-    "power_status": "NORMAL",
+    "status": "ALERT",
+    "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中国電力NW: 停電情報なし（管内正常送電）",
+    "power_msg": "中国電力NW: 【停電発生中】鳥取県で停電情報を検知",
     "water_msg": "広島市水道局: 管内大規模断水・漏水なし",
     "gas_msg": "広島ガス: 供給安定（遮断等なし）",
     "power_url": "https://typhoon.yahoo.co.jp/weather/poweroutage/",
@@ -303,13 +303,19 @@
         "pref": "長野県",
         "region": "信越",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/20/",
-        "level": "poweroutageLevel2"
+        "level": "poweroutageLevel1"
       },
       {
         "pref": "岐阜県",
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
         "level": "poweroutageLevel2"
+      },
+      {
+        "pref": "鳥取県",
+        "region": "中国",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/31/",
+        "level": "poweroutageLevel1"
       }
     ]
   },

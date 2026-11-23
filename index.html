@@ -1961,6 +1961,9 @@
             background: rgba(56,189,248,0.08);
             transform: translateY(-1px);
         }
+        #national-overview-leaflet-map .leaflet-tile {
+            filter: brightness(0.65) invert(1) contrast(3) hue-rotate(200deg) saturate(0.35);
+        }
         @media (max-width: 768px) {
             #national-overview-leaflet-map {
                 height: 380px !important;
@@ -3240,10 +3243,10 @@
                     scrollWheelZoom: true
                 }).setView([36.5, 137.5], 5);
 
-                // ダークテーマ地図タイル
-                L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                // オープンソース地図タイル (OpenStreetMap: APIキー不要・永続無料)
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     maxZoom: 18,
-                    subdomains: 'abcd'
+                    attribution: '&copy; OpenStreetMap contributors'
                 }).addTo(leafletNationalMap);
 
                 natMapLayerGov = L.layerGroup().addTo(leafletNationalMap);

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 03:39:20",
+  "timestamp": "2026-11-24 04:43:13",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -237,10 +237,10 @@
         "notices": [
           "強風注意報",
           "波浪注意報",
-          "雷注意報",
-          "霜注意報"
+          "霜注意報",
+          "雷注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報、霜注意報",
+        "summary": "強風注意報、波浪注意報、霜注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -281,9 +281,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
+          "波浪注意報",
           "霜注意報"
         ],
-        "summary": "強風注意報、霜注意報",
+        "summary": "強風注意報、波浪注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       }
     ]
@@ -297,15 +298,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 鹿児島本線、日豊本線、肥薩線 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
+    "text": "運行支障あり（在来線: 肥薩線 ／ 新幹線: 山陽新幹線（その他）、九州新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（鹿児島本線、日豊本線、肥薩線）",
+    "line_text": "運行支障あり（肥薩線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他）、九州新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/7",
     "troubled_lines": [
-      "鹿児島本線",
-      "日豊本線",
       "肥薩線"
     ],
     "troubled_shinkansen": [
@@ -377,21 +376,27 @@
         "level": "poweroutageLevel1"
       },
       {
+        "pref": "茨城県",
+        "region": "関東",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/08/",
+        "level": "poweroutageLevel1"
+      },
+      {
         "pref": "千葉県",
         "region": "関東",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/12/",
         "level": "poweroutageLevel1"
       },
       {
-        "pref": "東京都",
-        "region": "関東",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/13/",
-        "level": "poweroutageLevel2"
-      },
-      {
         "pref": "神奈川県",
         "region": "関東",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/14/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "山梨県",
+        "region": "関東",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/19/",
         "level": "poweroutageLevel1"
       },
       {
@@ -404,18 +409,6 @@
         "pref": "長野県",
         "region": "信越",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/20/",
-        "level": "poweroutageLevel1"
-      },
-      {
-        "pref": "石川県",
-        "region": "北陸",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/17/",
-        "level": "poweroutageLevel1"
-      },
-      {
-        "pref": "福井県",
-        "region": "北陸",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/18/",
         "level": "poweroutageLevel1"
       },
       {
@@ -555,16 +548,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/24 03:52",
+          "text": "@urami_tsuramin 初期から使用してますが当時は離島の別宅内(wifi環境無し)で2階以外繋がりにくかったりしたのが、今はどこでも繋がって速度も問題..."
+        },
+        {
           "time": "11/24 03:26",
           "text": "今度は START au END が通信 START 障害 END ？ さっき外にいたのに圏外になったよ💦衛星のマーク、初めて見たよ。 電源入れ直したら直ったけ..."
         },
         {
           "time": "11/24 02:20",
           "text": "@myao_xxh 1つの携帯で2回線使うみたいな仕組みで 例えば START au END が電波 START 障害 END になった時にその時だけSoftB..."
-        },
-        {
-          "time": "11/24 01:35",
-          "text": "今朝から START au END -oneメールが、iPhone標準のメールアプリで受信できなくなってる。 START 障害 END ？？？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -598,8 +591,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/24 03:50",
+          "text": "@iihawabeauty 突然失礼します、povoサポートです。電話が START 繋がらない END のは不便ですよね💦もしお乗り換えをお考えでしたら、安心..."
+        },
         {
           "time": "11/24 03:32",
           "text": "@sibukisora どこか特定の場所で START 繋がらない END のでしょうか？💦差し支えなければ詳細をお伺いしたいです。 START au END ..."
@@ -607,10 +604,6 @@
         {
           "time": "11/24 02:44",
           "text": "北九州メッセ（西日本総合展示場 新館）が楽天モバイルの START au END ローミング対象外になってから全く START 繋がらない END 問題 今週K..."
-        },
-        {
-          "time": "11/24 02:37",
-          "text": "START au END 💦まだ START 繋がらない END 。勘弁してください"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -941,8 +934,48 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 6,
+    "disaster_count": 9,
     "articles": [
+      {
+        "title": "「銀行口座を調べる」「他言したら逮捕」　ニセ警察詐欺で大阪の60代男性が1億円超被害(産経新聞)",
+        "summary": "大阪府警特殊詐欺捜査課は24日、大阪府内に住む無職の60代男性が「ニセ警察詐欺」の手口で、現金1億254万円をだましとられる被害に遭ったと発表した。同課によると男性は9月、福岡県警捜査2課の「ヤマシタ",
+        "pub_date": "11/24 13:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/5f695ac5e0253042f01641d7cb7d94a60fc36a2e?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "南海・今宮戎駅で男女2人はねられ死亡、一時運転見合わせ　13万人に影響(産経新聞)",
+        "summary": "24日午前7時50分ごろ、大阪市浪速区の南海電鉄高野線今宮戎駅で、50代とみられる男女2人が河内長野発難波行き区間急行にはねられ、その場で死亡が確認された。大阪府警浪速署によると、防犯カメラ映像から2",
+        "pub_date": "11/24 13:17 JST",
+        "link": "https://news.yahoo.co.jp/articles/3dbe32065ac378c693619e2d3f60be349219aaeb?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "埼玉・三郷倉庫火災　人気外食店に影響「ゴーゴーカレー」「ドムドムハンバーガー」臨時休業も(スポニチアネックス)",
+        "summary": "カレー専門店「ゴーゴーカレー」は24日、公式Xを通じ、埼玉県三郷市の物流倉庫火災の影響で、商品配送に支障が生じていると発表した。この火災を巡っては、バーガーチェーン「ドムドムハンバーガー」も一部商品の",
+        "pub_date": "11/24 13:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/697abe2446cddf78cfbc74686d8e373788f60752?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "北九州・旦過市場に新施設開業　2度火災越え、被災店舗も(共同通信)",
+        "summary": "2022年に2度の大規模火災があった北九州市小倉北区の旦過市場で24日、4階建ての商業施設「旦過市場いちばん館」の一部がオープンし、多くの人々が訪れた。被災した店舗も入店し、「北九州の台所」として親し",
+        "pub_date": "11/24 12:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/b7484d287c2989c9b3e7dce91b6f9075cd7fd5ae?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【局地的な激しい雨】大気の状態が非常に不安定に…落雷・竜巻などの激しい突風・降ひょうなどに注意　12月4日にかけての降水シミュレーションも【気象庁24日発表】(BSS山陰放送)",
+        "summary": "気象庁によりますと、24日から25日にかけて、日本海で低気圧が発達し、北日本から西日本の広い範囲で大気の状態が非常に不安定となる見込みです。激しい雨や落雷、竜巻などの突風、強風、高波に注意・警戒が必要",
+        "pub_date": "11/24 12:46 JST",
+        "link": "https://news.yahoo.co.jp/articles/83490415338a835144a43908acf536d77c537fce?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "宿泊行事の点検、7割実施　辺野古事故受け全国の学校調査(共同通信)",
         "summary": "文部科学省は24日、沖縄県名護市辺野古沖で研修旅行中の同志社国際高（京都）の生徒らが死亡した船転覆事故を受け、全国の小中高校や学校設置者らに実施した校外活動の安全などに関する調査結果を発表した。政治的",
@@ -968,103 +1001,63 @@
         "is_disaster": true
       },
       {
-        "title": "辺野古事故受け、学校の7割が教育内容点検(共同通信)",
-        "summary": "文部科学省は24日、沖縄県名護市辺野古沖で同志社国際高の生徒らが死亡した船転覆事故を受け、全国の小中高校などに実施した調査結果を発表した。政治活動に関する同省の通知を踏まえ、約7割の学校が教育内容の点",
-        "pub_date": "11/24 11:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/12a3b72e432276a351c74430a60ee6b0481af305?source=rss",
-        "category": "国内・気象防災",
+        "title": "辺野古事故受け7割が校外活動点検",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/24 13:07 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6603791?source=rss",
+        "category": "主要速報",
         "is_disaster": true
       },
       {
-        "title": "水蒸気爆発が発生か…鉄鋼メーカーの工場で爆発事故 屋根と壁の一部吹き飛び破片が当たった40代作業員がケガ(東海テレビ)",
-        "summary": "24日朝、名古屋市中川区の鉄鋼メーカーの工場で爆発事故があり、作業員の男性1人が軽いケガをしました。 24日午前8時半ごろ、中川区明徳町の鉄鋼メーカー・中部鋼鈑の工場で、「爆発音がして煙が出ている」と",
-        "pub_date": "11/24 11:46 JST",
-        "link": "https://news.yahoo.co.jp/articles/76b2720cad564ad4243a7ae1e67679e8702cbd7f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「写真を見て… タイプでした」 マッチングアプリ詐欺の被害者 胸中を語る グループで役割分担か 被害総額は1億円超にも 【福岡発】(FNNプライムオンライン)",
-        "summary": "恋愛感情を利用したマッチングアプリ詐欺の被害が、若い年代を中心に広がっている。被害者がカメラの前で語ったその手口とはー。【画像】「写真を見て…タイプでした」 マッチングアプリ詐欺の被害者 胸中を語る",
-        "pub_date": "11/24 11:19 JST",
-        "link": "https://news.yahoo.co.jp/articles/213b196fc40a0c85154230856b9625e64b6cbb01?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "愛知・豊橋市の鳥インフルエンザ 周辺農場で“感染拡大なし” ニワトリ約8万羽の殺処分は25日昼ごろまでに完了予定  市内の動物園では屋外飼育の鳥類の展示中止も(CBCテレビ)",
-        "summary": "愛知県豊橋市の養鶏場で、11月23日に感染が確認された高病原性鳥インフルエンザについて、大村知事は現時点で、感染拡大は確認されていないと話しました。【写真を見る】愛知・豊橋市の鳥インフルエンザ 周辺農",
-        "pub_date": "11/24 12:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/1c0ef402ddb40741b268210281ce4a5fdff831fa?source=rss",
+        "title": "トラックにはねられ18歳の女子高校生が死亡　運転手の男 現行犯逮捕(テレビ朝日系（ANN）)",
+        "summary": "埼玉県加須市の国道で、自転車に乗っていた18歳の女子高校生が大型トラックにはねられ、死亡しました。警察はトラックを運転していた55歳の男を現行犯逮捕しました。鳥島久寿容疑者(55)は、午前7時ごろ、加",
+        "pub_date": "11/24 13:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/a3dbb1994c9d591841cb03298df04d74de86884d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「若年層に届けたい」国の広報、また物議…ナオキマン起用と重なる法務省「ラヴ上等」ポスターの狙い、開示請求で判明(弁護士ドットコムニュース)",
-        "summary": "法務省はなぜ、Netflixの恋愛リアリティ番組と組んだのか。弁護士ドットコムニュースが情報公開請求で入手した文書から、若者世代に「更生保護」の取り組みを知ってもらいたいという狙いがあったことがわかっ",
-        "pub_date": "11/24 12:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/79cdf8e5f9fe943a915137001501b8a2a6f78a54?source=rss",
+        "title": "自民・萩生田氏「非礼目的でなく突発的」　首相の中国到着時タラップ段差(産経新聞)",
+        "summary": "自民党の萩生田光一幹事長代行は24日の記者会見で、高市早苗首相がアジア太平洋経済協力会議（APEC）首脳会議出席のため中国・深圳の空港に到着した際、機体とタラップの間に段差があった問題について「中国側",
+        "pub_date": "11/24 13:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/56f3cef5aede8990fe1088f09462561e44daa5d6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "海外進出の武器は「お寿司」！？横須賀からルクセンブルクへ、23歳のアカデミー卒業生がミシュラン店に挑むまで（株式会社DYM）(Yahoo!ニュース PR［PR］)",
-        "summary": "「海外に行く前に、寿司を学んでおきたい」。そんな思いから東京寿司職人育成アカデミーに入学し、2ヶ月間寿司の基礎を学んだ竹内さん（23歳）。現在は、ルクセンブルクのミシュランガイド掲載店「RYODO」で",
-        "pub_date": "11/24 12:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/4e7b6370a4f965c51ea4a8ff83c56242a1187c61?source=rss",
+        "title": "「スコップは捏造の疑いが強い」鹿児島の大崎事件、確定判決の証拠に“疑義”(西日本新聞me)",
+        "summary": "鹿児島県で1979年に男性の遺体が見つかった「大崎事件」で、男性宅の牛小屋で発見され死体遺棄に使われたと確定判決が認定したスコップが、発見4日前の事件発覚時には発見地点になかったことが、捜査資料から分",
+        "pub_date": "11/24 13:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/2de50584c54c747746044cc6fa3a8e256f0a6586?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "駐ロ大使が拘束記者と面会　官房長官「即時解放求める」(テレビ朝日系（ANN）)",
-        "summary": "ロシアのFSB（連邦保安庁）に身柄を拘束されている北海道新聞の今井裕紀記者に日本の駐ロシア大使が面会しました。木原官房長官「今後とも日本政府として、ロシア政府に対し、邦人の即時解放・人道的配慮及び公正",
-        "pub_date": "11/24 12:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/d0e9d2a9c1b9e6d34d395b2c55ab01899f9ca3d5?source=rss",
+        "title": "国内初のエボラ患者を想定し政府が訓練　アフリカでの流行を受け初実施(テレビ朝日系（ANN）)",
+        "summary": "政府は、国内で初めてとなるエボラ出血熱の患者が確認された想定での訓練を行いました。高市総理【訓練】「今般、我が国で初のエボラ出血熱の患者が確認されました。｣24日の訓練は、国内で初めてエボラ出血熱の患",
+        "pub_date": "11/24 13:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/4a272ccf334779a5ba3d75f72556941022c8c823?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "埼玉・横瀬町でクマ2頭の目撃情報 県警が注意呼びかけ(ABEMA TIMES)",
-        "summary": "埼玉県警察本部生活安全総務課が公式Xで横瀬町でのクマの目撃情報について発表しました。【映像】横瀬町でクマ2頭目撃 県警が注意呼びかけ「11月24日（火）午前1時ころ、 大字横瀬地内で、クマ （成獣及び",
-        "pub_date": "11/24 12:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/3243a03688ccfce27e314be505ec5d9e0f4049a8?source=rss",
+        "title": "「高市さんが嫌われた、嫌われていない話ばかり」玉木氏、外交報道に苦言「俯瞰した目で」(産経新聞)",
+        "summary": "国民民主党の玉木雄一郎代表は24日の記者会見で、アジア太平洋経済協力会議（APEC）首脳会議に合わせて開かれた米中露3カ国首脳会談について「インパクトがある」と語った。高市早苗首相に対するホスト国・中",
+        "pub_date": "11/24 13:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/c89a851b2b547ca2ff236af673dd46605fbe2b37?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "クマ捕獲に抗議「立ち止まって」　前橋市の業務に支障、笹川環境相(共同通信)",
-        "summary": "笹川博義環境相は24日の閣議後記者会見で、住宅街で親子とみられるクマ2頭が目撃された前橋市で、対応に当たる市役所に苦情などが多数寄せられ業務に支障が出ているとして「抗議活動は一歩立ち止まって考えてほし",
-        "pub_date": "11/24 12:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/4e662922f91377a7ca281c19f821e29f2cbd38ad?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "野党　問責決議案提出で一致　関大臣　官僚招きパーティー(テレビ朝日系（ANN）)",
-        "summary": "参議院では野党6党が関文部科学大臣への問責決議案を提出することで一致しました。 野党側は問責決議案の提出時期については明言しませんでしたが、25日以降、消費減税関連法案の審議もストップしかねない状況で",
-        "pub_date": "11/24 12:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/5fc0cb120d7d51562d487cb89fb16737256cc856?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「海ほたる」閉鎖、今年47回　改造車集まるのを防ぐため　アクアラインで暴走行為(テレビ朝日系（ANN）)",
-        "summary": "東京湾アクアラインの「海ほたるパーキングエリア」が今年だけで47回閉鎖され、国会でも問題視されています。■改造車の集会行為が頻発 タイヤの部分から光を放つ車。別の車は車体の底を青く照らしながら走ってい",
-        "pub_date": "11/24 12:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/0a03d729c4518a8aca2de94d76d46b419f9ff757?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "“交際相手を殺害・遺棄”のバー経営者　事件直前に別の女性宅で窃盗か(テレビ朝日系（ANN）)",
-        "summary": "交際していた女性を殺害し宮城県に遺棄したとして逮捕されたバー経営者の男が、事件の直前、バーの女性客の部屋に侵入し、現金を盗んだ疑いで再逮捕されました。 三浦拓也容疑者（36）は先月、東京・中野区で、2",
-        "pub_date": "11/24 12:19 JST",
-        "link": "https://news.yahoo.co.jp/articles/a8cc9ff71eaaf748a0dcf44158320fa9c3036cac?source=rss",
+        "title": "土地利用規制法改正案が衆院通過(共同通信)",
+        "summary": "自衛隊基地周辺などの安全保障上重要な土地取得に事前許可制を導入する土地利用規制法改正案が24日、衆院本会議で賛成多数により可決され、衆院を通過した。",
+        "pub_date": "11/24 13:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/8ed9bab270725cbefd97f68da84606e2f072694b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 12:38:33 JST"
+    "last_updated": "2026-11-24 13:42:16 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -1085,10 +1078,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "Qgnj6BbO4hI",
+        "video_id": "TWBEWrjNtqs",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/Qgnj6BbO4hI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Qgnj6BbO4hI"
+        "embed_url": "https://www.youtube.com/embed/TWBEWrjNtqs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=TWBEWrjNtqs"
       },
       {
         "id": "stream_tbsnews",
@@ -1107,10 +1100,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "7rd3CdAS6JU",
+        "video_id": "Sjd8sZ8A_78",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/7rd3CdAS6JU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=7rd3CdAS6JU"
+        "embed_url": "https://www.youtube.com/embed/Sjd8sZ8A_78?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Sjd8sZ8A_78"
       },
       {
         "id": "stream_annnews",
@@ -1118,10 +1111,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "Om0w6J4iJVo",
+        "video_id": "RkH_r3Drloc",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/Om0w6J4iJVo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Om0w6J4iJVo"
+        "embed_url": "https://www.youtube.com/embed/RkH_r3Drloc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=RkH_r3Drloc"
       },
       {
         "id": "stream_fnnnews",

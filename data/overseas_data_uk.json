@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-25 05:22:14",
-  "timestamp_local": "2026-11-24 21:22:14",
+  "timestamp": "2026-11-25 06:21:35",
+  "timestamp_local": "2026-11-24 22:21:35",
   "country": {
     "id": "uk",
     "name": "イギリス (英国)",
@@ -352,17 +352,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
-    "summary": "M4.7 (18 km ESE of Güvercinlik, Turkey)",
+    "count_24h": 9,
+    "summary": "M4.6 (49 km SW of Ovalle, Chile)",
     "latest": {
-      "mag": 4.7,
-      "place": "18 km ESE of Güvercinlik, Turkey",
-      "time": "11/25 00:39 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud7z",
+      "mag": 4.6,
+      "place": "49 km SW of Ovalle, Chile",
+      "time": "11/25 05:27 JST",
+      "depth_km": 50.858,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udb8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "49 km SW of Ovalle, Chile",
+        "time": "11/25 05:27 JST",
+        "depth_km": 50.858,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udb8",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "18 km ESE of Güvercinlik, Turkey",
@@ -642,8 +650,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/24 20:26",
+          "text": "@qbjuav @isoroku_02 日本人はヨーロッパやアメリカが好きだけど、移民の影響で 治安 が悪くなり、ヨーロッパらしさがなくなっ..."
+        },
         {
           "time": "11/24 14:19",
           "text": "現在のポーランドは イギリス やフランスなんかよりよっぽど 治安 が良くて安定した国に見える🤔🤔🤔🤔ハーブティー、チョコ..."
@@ -651,10 +663,6 @@
         {
           "time": "11/24 09:44",
           "text": "知らない国の空港の想定を中東とアフリカではなく、 治安 のよいヨーロッパ、アメリカの地方空港なら武装警察もいないし、警備員も緩いからいける🤔..."
-        },
-        {
-          "time": "11/24 06:37",
-          "text": "@kouzinouturai ポジティブに言えば、銃規制が日本並みに厳しい国が大多数で 治安 がアメリカよりマシ、あとは大学以降の高等教育機..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%20%E6%B2%BB%E5%AE%89"
@@ -665,7 +673,7 @@
       {
         "id": "stream_skynews",
         "name": "📺 Sky News LIVE (24h英国ニュース)",
-        "video_id": "uVsX62wQxeg",
+        "video_id": "Tt7l1PPAZV0",
         "handle": "@SkyNews",
         "type": "stream"
       },
@@ -705,22 +713,22 @@
     "default_channel_id": "stream_skynews"
   },
   "forex": {
-    "timestamp": "11/25 05:22 JST",
+    "timestamp": "11/25 06:21 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.19,
-      "change": 0.26,
-      "change_pct": 0.17,
+      "rate": 159.22,
+      "change": 0.29,
+      "change_pct": 0.18,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "GBP",
       "name": "英ポンド",
       "symbol": "£",
-      "rate": 208.84,
-      "change": 0.74,
+      "rate": 208.83,
+      "change": 0.72,
       "change_pct": 0.35,
       "direction": "up"
     },
@@ -728,9 +736,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.59,
-      "change": 0.21,
-      "change_pct": 0.12
+      "rate": 174.61,
+      "change": 0.23,
+      "change_pct": 0.13
     }
   },
   "airports": [
@@ -803,11 +811,11 @@
         "is_capital": true,
         "lat": 51.5074,
         "lon": -0.1278,
-        "temp": 5.1,
-        "apparent_temp": 1.5,
-        "humidity": 77,
-        "wind_speed": 11.9,
-        "wind_gusts": 26.6,
+        "temp": 5.0,
+        "apparent_temp": 1.0,
+        "humidity": 75,
+        "wind_speed": 13.7,
+        "wind_gusts": 29.9,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -822,15 +830,15 @@
           },
           {
             "date": "11/25(水)",
-            "temp_max": 7.0,
-            "temp_min": 5.0,
+            "temp_max": 6.8,
+            "temp_min": 4.1,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/26(木)",
-            "temp_max": 6.2,
+            "temp_max": 5.8,
             "temp_min": 1.8,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
@@ -848,11 +856,11 @@
         "is_capital": false,
         "lat": 53.4808,
         "lon": -2.2426,
-        "temp": 5.5,
-        "apparent_temp": 2.0,
-        "humidity": 80,
-        "wind_speed": 12.6,
-        "wind_gusts": 27.0,
+        "temp": 5.3,
+        "apparent_temp": 1.7,
+        "humidity": 79,
+        "wind_speed": 11.9,
+        "wind_gusts": 24.8,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -867,16 +875,16 @@
           },
           {
             "date": "11/25(水)",
-            "temp_max": 6.9,
-            "temp_min": 3.7,
+            "temp_max": 7.1,
+            "temp_min": 3.6,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
           },
           {
             "date": "11/26(木)",
-            "temp_max": 5.3,
-            "temp_min": 1.4,
+            "temp_max": 4.9,
+            "temp_min": 1.3,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -894,34 +902,34 @@
         "lat": 55.9533,
         "lon": -3.1883,
         "temp": 4.5,
-        "apparent_temp": 1.5,
-        "humidity": 87,
-        "wind_speed": 9.0,
-        "wind_gusts": 21.2,
+        "apparent_temp": 0.8,
+        "humidity": 86,
+        "wind_speed": 13.7,
+        "wind_gusts": 30.2,
         "precipitation": 0.1,
         "weather_code": 51,
         "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/24(火)",
-            "temp_max": 4.8,
+            "temp_max": 4.5,
             "temp_min": 1.3,
             "weather_code": 61,
             "weather_label": "🌧️ 雨 (小雨)",
-            "precipitation_mm": 8.9
+            "precipitation_mm": 7.9
           },
           {
             "date": "11/25(水)",
-            "temp_max": 5.9,
-            "temp_min": 1.5,
+            "temp_max": 6.2,
+            "temp_min": 2.5,
             "weather_code": 51,
             "weather_label": "🌦️ 霧雨 (弱)",
-            "precipitation_mm": 0.5
+            "precipitation_mm": 0.4
           },
           {
             "date": "11/26(木)",
-            "temp_max": 5.1,
-            "temp_min": 1.1,
+            "temp_max": 5.4,
+            "temp_min": 1.4,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -939,11 +947,11 @@
       "is_capital": true,
       "lat": 51.5074,
       "lon": -0.1278,
-      "temp": 5.1,
-      "apparent_temp": 1.5,
-      "humidity": 77,
-      "wind_speed": 11.9,
-      "wind_gusts": 26.6,
+      "temp": 5.0,
+      "apparent_temp": 1.0,
+      "humidity": 75,
+      "wind_speed": 13.7,
+      "wind_gusts": 29.9,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -958,15 +966,15 @@
         },
         {
           "date": "11/25(水)",
-          "temp_max": 7.0,
-          "temp_min": 5.0,
+          "temp_max": 6.8,
+          "temp_min": 4.1,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
         },
         {
           "date": "11/26(木)",
-          "temp_max": 6.2,
+          "temp_max": 5.8,
           "temp_min": 1.8,
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
@@ -978,7 +986,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/25 05:22 JST"
+    "timestamp": "11/25 06:21 JST"
   },
   "transit": {
     "status": "CAUTION",
@@ -1210,7 +1218,7 @@
         "details": "空港連絡バスおよび主要都市間コーチは平常運行中"
       }
     ],
-    "timestamp": "11/25 05:22 JST"
+    "timestamp": "11/25 06:21 JST"
   },
   "lifeline": {
     "status": "NORMAL",

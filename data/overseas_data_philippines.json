@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-25 05:22:01",
-  "timestamp_local": "2026-11-25 04:22:01",
+  "timestamp": "2026-11-25 06:21:13",
+  "timestamp_local": "2026-11-25 05:21:13",
   "country": {
     "id": "philippines",
     "name": "フィリピン",
@@ -289,17 +289,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
-    "summary": "M4.7 (18 km ESE of Güvercinlik, Turkey)",
+    "count_24h": 9,
+    "summary": "M4.6 (49 km SW of Ovalle, Chile)",
     "latest": {
-      "mag": 4.7,
-      "place": "18 km ESE of Güvercinlik, Turkey",
-      "time": "11/25 00:39 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud7z",
+      "mag": 4.6,
+      "place": "49 km SW of Ovalle, Chile",
+      "time": "11/25 05:27 JST",
+      "depth_km": 50.858,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udb8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "49 km SW of Ovalle, Chile",
+        "time": "11/25 05:27 JST",
+        "depth_km": 50.858,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udb8",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "18 km ESE of Güvercinlik, Turkey",
@@ -580,14 +588,14 @@
       {
         "id": "stream_abscbn_news",
         "name": "📺 ABS-CBN News (フィリピン最大手生配信)",
-        "video_id": "5PzDcj4AYnA",
+        "video_id": "W7dQSyy6_Ho",
         "handle": "@ABSCBNNews",
         "type": "stream"
       },
       {
         "id": "stream_gma_news",
         "name": "📺 GMA Integrated News 24h",
-        "video_id": "84vW4sJoWZw",
+        "video_id": "5Ic1lKnklT0",
         "handle": "@gmanews",
         "type": "stream"
       },
@@ -614,32 +622,32 @@
     "default_channel_id": "stream_anc_live"
   },
   "forex": {
-    "timestamp": "11/25 05:22 JST",
+    "timestamp": "11/25 06:21 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.19,
-      "change": 0.26,
-      "change_pct": 0.17,
+      "rate": 159.22,
+      "change": 0.29,
+      "change_pct": 0.18,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "PHP",
       "name": "フィリピンペソ",
       "symbol": "₱",
-      "rate": 2.496,
-      "change": 0.024,
-      "change_pct": 0.95,
+      "rate": 2.495,
+      "change": 0.023,
+      "change_pct": 0.92,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.59,
-      "change": 0.21,
-      "change_pct": 0.12
+      "rate": 174.61,
+      "change": 0.23,
+      "change_pct": 0.13
     }
   },
   "airports": [
@@ -682,11 +690,11 @@
         "is_capital": true,
         "lat": 14.5995,
         "lon": 120.9842,
-        "temp": 27.6,
-        "apparent_temp": 32.5,
-        "humidity": 76,
-        "wind_speed": 3.2,
-        "wind_gusts": 10.8,
+        "temp": 27.2,
+        "apparent_temp": 31.9,
+        "humidity": 79,
+        "wind_speed": 5.8,
+        "wind_gusts": 13.3,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -727,11 +735,11 @@
         "is_capital": false,
         "lat": 10.3157,
         "lon": 123.8854,
-        "temp": 25.6,
-        "apparent_temp": 30.2,
+        "temp": 25.4,
+        "apparent_temp": 30.1,
         "humidity": 90,
-        "wind_speed": 9.4,
-        "wind_gusts": 18.4,
+        "wind_speed": 7.9,
+        "wind_gusts": 17.6,
         "precipitation": 0.0,
         "weather_code": 45,
         "weather_label": "🌫️ 霧",
@@ -772,11 +780,11 @@
         "is_capital": false,
         "lat": 7.1907,
         "lon": 125.4578,
-        "temp": 23.8,
-        "apparent_temp": 27.5,
+        "temp": 23.9,
+        "apparent_temp": 27.7,
         "humidity": 84,
-        "wind_speed": 3.4,
-        "wind_gusts": 6.1,
+        "wind_speed": 3.8,
+        "wind_gusts": 6.8,
         "precipitation": 0.0,
         "weather_code": 1,
         "weather_label": "🌤️ 晴れ",
@@ -818,11 +826,11 @@
       "is_capital": true,
       "lat": 14.5995,
       "lon": 120.9842,
-      "temp": 27.6,
-      "apparent_temp": 32.5,
-      "humidity": 76,
-      "wind_speed": 3.2,
-      "wind_gusts": 10.8,
+      "temp": 27.2,
+      "apparent_temp": 31.9,
+      "humidity": 79,
+      "wind_speed": 5.8,
+      "wind_gusts": 13.3,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
@@ -857,7 +865,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/25 05:22 JST"
+    "timestamp": "11/25 06:21 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -886,7 +894,7 @@
         "details": "MRT3号線・LRT1/2号線平常運行中"
       }
     ],
-    "timestamp": "11/25 05:22 JST"
+    "timestamp": "11/25 06:21 JST"
   },
   "lifeline": {
     "status": "NORMAL",

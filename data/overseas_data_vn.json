@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-25 05:21:59",
-  "timestamp_local": "2026-11-25 03:21:59",
+  "timestamp": "2026-11-25 06:21:11",
+  "timestamp_local": "2026-11-25 04:21:11",
   "country": {
     "id": "vietnam",
     "name": "ベトナム",
@@ -289,17 +289,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
-    "summary": "M4.7 (18 km ESE of Güvercinlik, Turkey)",
+    "count_24h": 9,
+    "summary": "M4.6 (49 km SW of Ovalle, Chile)",
     "latest": {
-      "mag": 4.7,
-      "place": "18 km ESE of Güvercinlik, Turkey",
-      "time": "11/25 00:39 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud7z",
+      "mag": 4.6,
+      "place": "49 km SW of Ovalle, Chile",
+      "time": "11/25 05:27 JST",
+      "depth_km": 50.858,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udb8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "49 km SW of Ovalle, Chile",
+        "time": "11/25 05:27 JST",
+        "depth_km": 50.858,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udb8",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "18 km ESE of Güvercinlik, Turkey",
@@ -601,14 +609,14 @@
     "default_channel_id": "stream_vtv_live"
   },
   "forex": {
-    "timestamp": "11/25 05:21 JST",
+    "timestamp": "11/25 06:21 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.19,
-      "change": 0.26,
-      "change_pct": 0.17,
+      "rate": 159.22,
+      "change": 0.29,
+      "change_pct": 0.18,
       "direction": "up"
     },
     "local_jpy": {
@@ -617,16 +625,16 @@
       "symbol": "₫",
       "rate": 0.0062,
       "change": 0.0,
-      "change_pct": 0.56,
+      "change_pct": 0.57,
       "direction": "even"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.59,
-      "change": 0.21,
-      "change_pct": 0.12
+      "rate": 174.61,
+      "change": 0.23,
+      "change_pct": 0.13
     }
   },
   "airports": [
@@ -669,14 +677,14 @@
         "is_capital": true,
         "lat": 21.0285,
         "lon": 105.8542,
-        "temp": 16.9,
-        "apparent_temp": 15.2,
-        "humidity": 70,
-        "wind_speed": 13.9,
-        "wind_gusts": 26.3,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "temp": 16.3,
+        "apparent_temp": 14.6,
+        "humidity": 75,
+        "wind_speed": 14.9,
+        "wind_gusts": 27.4,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "weather_label": "🌦️ 霧雨 (弱)",
         "forecast": [
           {
             "date": "11/25(水)",
@@ -703,10 +711,10 @@
             "precipitation_mm": 0.0
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       },
       {
         "name": "ホーチミン (最大経済都市)",
@@ -714,11 +722,11 @@
         "is_capital": false,
         "lat": 10.8231,
         "lon": 106.6297,
-        "temp": 25.0,
-        "apparent_temp": 30.9,
+        "temp": 25.1,
+        "apparent_temp": 30.7,
         "humidity": 98,
-        "wind_speed": 4.2,
-        "wind_gusts": 10.4,
+        "wind_speed": 6.3,
+        "wind_gusts": 12.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
@@ -759,14 +767,14 @@
         "is_capital": false,
         "lat": 16.0544,
         "lon": 108.2022,
-        "temp": 23.9,
-        "apparent_temp": 26.9,
-        "humidity": 92,
-        "wind_speed": 15.1,
-        "wind_gusts": 27.4,
-        "precipitation": 0.4,
-        "weather_code": 80,
-        "weather_label": "🌧️ にわか雨 (弱)",
+        "temp": 24.3,
+        "apparent_temp": 26.5,
+        "humidity": 90,
+        "wind_speed": 20.9,
+        "wind_gusts": 38.9,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/25(水)",
@@ -793,10 +801,10 @@
             "precipitation_mm": 59.7
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       }
     ],
     "capital": {
@@ -805,14 +813,14 @@
       "is_capital": true,
       "lat": 21.0285,
       "lon": 105.8542,
-      "temp": 16.9,
-      "apparent_temp": 15.2,
-      "humidity": 70,
-      "wind_speed": 13.9,
-      "wind_gusts": 26.3,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "weather_label": "☁️ 曇り",
+      "temp": 16.3,
+      "apparent_temp": 14.6,
+      "humidity": 75,
+      "wind_speed": 14.9,
+      "wind_gusts": 27.4,
+      "precipitation": 0.1,
+      "weather_code": 51,
+      "weather_label": "🌦️ 霧雨 (弱)",
       "forecast": [
         {
           "date": "11/25(水)",
@@ -839,12 +847,12 @@
           "precipitation_mm": 0.0
         }
       ],
-      "alert": "平常",
-      "alert_badge": "🟢 平常・平穏",
-      "alert_class": "green",
-      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      "alert": "気象注意",
+      "alert_badge": "🟡 気象注意",
+      "alert_class": "yellow",
+      "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/25 05:21 JST"
+    "timestamp": "11/25 06:21 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -873,7 +881,7 @@
         "details": "南北統一鉄道各便平常運行中"
       }
     ],
-    "timestamp": "11/25 05:21 JST"
+    "timestamp": "11/25 06:21 JST"
   },
   "lifeline": {
     "status": "NORMAL",

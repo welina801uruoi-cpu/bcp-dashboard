@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-25 05:22:05",
-  "timestamp_local": "2026-11-25 04:22:05",
+  "timestamp": "2026-11-25 06:21:27",
+  "timestamp_local": "2026-11-25 05:21:27",
   "country": {
     "id": "malaysia",
     "name": "マレーシア",
@@ -273,17 +273,25 @@
   },
   "world_earthquakes": {
     "status": "OK",
-    "count_24h": 8,
-    "summary": "M4.7 (18 km ESE of Güvercinlik, Turkey)",
+    "count_24h": 9,
+    "summary": "M4.6 (49 km SW of Ovalle, Chile)",
     "latest": {
-      "mag": 4.7,
-      "place": "18 km ESE of Güvercinlik, Turkey",
-      "time": "11/25 00:39 JST",
-      "depth_km": 10,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud7z",
+      "mag": 4.6,
+      "place": "49 km SW of Ovalle, Chile",
+      "time": "11/25 05:27 JST",
+      "depth_km": 50.858,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udb8",
       "tsunami": 0
     },
     "recent_quakes": [
+      {
+        "mag": 4.6,
+        "place": "49 km SW of Ovalle, Chile",
+        "time": "11/25 05:27 JST",
+        "depth_km": 50.858,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udb8",
+        "tsunami": 0
+      },
       {
         "mag": 4.7,
         "place": "18 km ESE of Güvercinlik, Turkey",
@@ -583,32 +591,32 @@
     "default_channel_id": "stream_bernama_live"
   },
   "forex": {
-    "timestamp": "11/25 05:22 JST",
+    "timestamp": "11/25 06:21 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.19,
-      "change": 0.26,
-      "change_pct": 0.17,
+      "rate": 159.22,
+      "change": 0.29,
+      "change_pct": 0.18,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "MYR",
       "name": "マレーシアリンギット",
       "symbol": "RM",
-      "rate": 38.67,
+      "rate": 38.68,
       "change": -0.04,
-      "change_pct": -0.11,
+      "change_pct": -0.1,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.59,
-      "change": 0.21,
-      "change_pct": 0.12
+      "rate": 174.61,
+      "change": 0.23,
+      "change_pct": 0.13
     }
   },
   "airports": [
@@ -636,10 +644,10 @@
         "is_capital": true,
         "lat": 3.139,
         "lon": 101.6869,
-        "temp": 24.4,
+        "temp": 24.2,
         "apparent_temp": 29.9,
         "humidity": 98,
-        "wind_speed": 3.3,
+        "wind_speed": 1.5,
         "wind_gusts": 9.4,
         "precipitation": 0.6,
         "weather_code": 80,
@@ -681,14 +689,14 @@
         "is_capital": false,
         "lat": 5.4141,
         "lon": 100.3288,
-        "temp": 25.1,
-        "apparent_temp": 30.7,
-        "humidity": 96,
-        "wind_speed": 5.6,
-        "wind_gusts": 23.0,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "weather_label": "🌦️ 霧雨 (弱)",
+        "temp": 25.0,
+        "apparent_temp": 30.6,
+        "humidity": 97,
+        "wind_speed": 5.0,
+        "wind_gusts": 20.9,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
         "forecast": [
           {
             "date": "11/25(水)",
@@ -715,10 +723,10 @@
             "precipitation_mm": 7.3
           }
         ],
-        "alert": "気象注意",
-        "alert_badge": "🟡 気象注意",
-        "alert_class": "yellow",
-        "alert_desc": "降雨または視程低下あり。通常行動可能"
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
       },
       {
         "name": "ジョホールバル (南部経済圏)",
@@ -726,14 +734,14 @@
         "is_capital": false,
         "lat": 1.4927,
         "lon": 103.7414,
-        "temp": 24.9,
-        "apparent_temp": 30.8,
+        "temp": 24.8,
+        "apparent_temp": 30.3,
         "humidity": 98,
-        "wind_speed": 3.1,
-        "wind_gusts": 10.4,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "weather_label": "☁️ 曇り",
+        "wind_speed": 6.0,
+        "wind_gusts": 13.0,
+        "precipitation": 0.3,
+        "weather_code": 55,
+        "weather_label": "🌦️ 霧雨 (強)",
         "forecast": [
           {
             "date": "11/25(水)",
@@ -760,10 +768,10 @@
             "precipitation_mm": 8.7
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -772,10 +780,10 @@
       "is_capital": true,
       "lat": 3.139,
       "lon": 101.6869,
-      "temp": 24.4,
+      "temp": 24.2,
       "apparent_temp": 29.9,
       "humidity": 98,
-      "wind_speed": 3.3,
+      "wind_speed": 1.5,
       "wind_gusts": 9.4,
       "precipitation": 0.6,
       "weather_code": 80,
@@ -811,7 +819,7 @@
       "alert_class": "yellow",
       "alert_desc": "降雨または視程低下あり。通常行動可能"
     },
-    "timestamp": "11/25 05:22 JST"
+    "timestamp": "11/25 06:21 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -840,7 +848,7 @@
         "details": "LRTクラナジャヤ線・MRT各線平常運行中"
       }
     ],
-    "timestamp": "11/25 05:22 JST"
+    "timestamp": "11/25 06:21 JST"
   },
   "lifeline": {
     "status": "NORMAL",

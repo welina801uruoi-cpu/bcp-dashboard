@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 08:01:34",
+  "timestamp": "2026-11-24 09:11:39",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -83,12 +83,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-24 06:00",
-    "place": "熊本県天草・芦北地方",
+    "shindo": "1",
+    "time": "2026-11-24 17:21",
+    "place": "徳島県北部",
     "magnitude": "3.1",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-24 17:21",
+        "place": "徳島県北部",
+        "shindo": "1",
+        "magnitude": "3.1",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-24 06:00",
         "place": "熊本県天草・芦北地方",
@@ -151,13 +158,6 @@
         "shindo": "1",
         "magnitude": "2.6",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-23 08:50",
-        "place": "沖縄本島近海",
-        "shindo": "1",
-        "magnitude": "3.5",
-        "maxScale": 10
       }
     ]
   },
@@ -214,10 +214,10 @@
         "warns": [],
         "notices": [
           "霜注意報",
-          "雷注意報",
-          "なだれ注意報"
+          "なだれ注意報",
+          "雷注意報"
         ],
-        "summary": "霜注意報、雷注意報、なだれ注意報",
+        "summary": "霜注意報、なだれ注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/21/"
       },
       {
@@ -229,10 +229,9 @@
         "warns": [],
         "notices": [
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -274,14 +273,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 東海道本線、飯田線、中央本線）",
+    "text": "運行支障あり（在来線: 飯田線、中央本線、関西本線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（東海道本線、飯田線、中央本線、関西本線、篠ノ井線）",
+    "line_text": "運行支障あり（飯田線、中央本線、関西本線、篠ノ井線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
-      "東海道本線",
       "飯田線",
       "中央本線",
       "関西本線",
@@ -312,18 +310,18 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】新潟県・長野県・岐阜県・静岡県・愛知県で停電情報を検知",
+    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野県・岐阜県・静岡県・愛知県で停電情報を検知",
     "power_outages": [
+      {
+        "pref": "秋田県",
+        "region": "東北",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/05/",
+        "level": "poweroutageLevel1"
+      },
       {
         "pref": "福島県",
         "region": "東北",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/07/",
-        "level": "poweroutageLevel1"
-      },
-      {
-        "pref": "茨城県",
-        "region": "関東",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/08/",
         "level": "poweroutageLevel1"
       },
       {
@@ -336,12 +334,6 @@
         "pref": "神奈川県",
         "region": "関東",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/14/",
-        "level": "poweroutageLevel1"
-      },
-      {
-        "pref": "新潟県",
-        "region": "信越",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/15/",
         "level": "poweroutageLevel1"
       },
       {
@@ -366,6 +358,18 @@
         "pref": "愛知県",
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/23/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "島根県",
+        "region": "中国",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/32/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "鹿児島県",
+        "region": "九州",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/46/",
         "level": "poweroutageLevel1"
       },
       {
@@ -484,7 +488,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/24 07:29",
@@ -507,8 +511,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/24 08:15",
+          "text": "ドコモの START 障害 END 3回。裏側は、設備投資を抑えた数年間と5Gの面展開の遅れだった。基地局数は START KDDI END 12.5万局、ソフ..."
+        },
         {
           "time": "11/23 21:16",
           "text": "START KDDI END は11月23日、大雪による一部地域の通信 START 障害 END が継続中と発表。 対象地域では「JAPANローミング」も順次提..."
@@ -516,10 +524,6 @@
         {
           "time": "11/23 17:17",
           "text": "auがドコモにじわりじわりと近づいてってる 7月〜9月でドコモの契約数だけマイナス60万件とか、、、 11月の通信 START 障害 END の影響入ってなくて..."
-        },
-        {
-          "time": "11/23 11:12",
-          "text": "エーユーの START 障害 END 、多くの地域で復旧 出典（公式発表）： START KDDI END https://t.co/db9IiwesO5 ▼橋..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -530,19 +534,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/24 07:22",
-          "text": "@Yama12221125 突然失礼します🍓 START au END サポート明石です。特定のサイトに START 繋がらない END のでしょうか？もしよけ..."
+          "time": "11/24 09:08",
+          "text": "@nobuchan1981 FF外から失礼します。 病院は START 繋がらない END と困りますよね。 繋がりやすい電話回線というものがあるようなので、固..."
         },
         {
-          "time": "11/24 06:47",
-          "text": "@Fp01fp いつ頃から START 繋がらない END のでしょうか？📶💦差し支えないようでしたら電波状況を把握させていただき、状況に応じたサポートができれ..."
+          "time": "11/24 08:41",
+          "text": "#XRP ケータイで例えるとわかりやすい ドコモはドコモしか START 繋がらない END START au END は START au END しか ST..."
         },
         {
-          "time": "11/24 06:07",
-          "text": "START au END サイトに START 繋がらない END ！なぜ！ 今アクセスネット障害なの？"
+          "time": "11/24 08:12",
+          "text": "START au END とSoftBankはスムーズに繋がるところで、全く START 繋がらない END クソdocomo。 これで高い金とってて、さらに値..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -874,130 +878,130 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 5,
     "articles": [
       {
-        "title": "プロ野球中日の嶋コーチに罰金30万円(共同通信)",
-        "summary": "立川区検は24日、東京都内で車を運転中に自転車の女性に衝突しけがを負わせたとして、自動車運転処罰法違反の罪で、プロ野球中日の嶋基宏ヘッドコーチ（41）を略式起訴し、立川簡裁は罰金30万円の略式命令を出",
-        "pub_date": "11/24 16:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/d82c1f1e70852c67be8af07e2a37ffb0532ba66e?source=rss",
+        "title": "名古屋の工場で水蒸気爆発　屋根吹き飛ぶ　去年にも(テレビ朝日系（ANN）)",
+        "summary": "名古屋市にある鉄鋼メーカーの工場で爆発事故があり、1人がけがをしました。この工場では去年も水蒸気爆発が起きていました。■名古屋の工場で水蒸気爆発 屋根や壁が吹き飛んだ工場。何かを熱していたのでしょうか",
+        "pub_date": "11/24 18:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/2b897702a6c2846d3fc2ec07ec807491d476e7c2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "西鉄バスジャック、いじめや不登校…事件後に知った加害者の背景　面会した被害者がかけた言葉(西日本新聞me)",
-        "summary": "2000年に当時17歳の少年が起こした西鉄バスジャック事件で重傷を負った山口由美子さん（77）＝佐賀市＝が6日夜、えーるピア久留米（福岡県久留米市諏訪野町）で講演した。事件で受けた心身の傷や加害者との",
-        "pub_date": "11/24 16:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/5c7e2c1626f6cb4604f0e3750bc90619e215f65d?source=rss",
+        "title": "大雪の福島県、停電復旧向け自衛隊派遣へ(共同通信)",
+        "summary": "大雪のため内陸の一部で停電が続く福島県は24日、自衛隊に災害派遣を要請し、約100人の派遣が決定したと明らかにした。復旧に向け、東北電力ネットワークと共に北塩原村の倒木の撤去や除雪をする。",
+        "pub_date": "11/24 17:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/f41594e850fb5044385257cb4de71e7ec2b919fc?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "水族館、希少生物ストーブで保護　福島県猪苗代町、大雪で全館停電(共同通信)",
-        "summary": "大雪の影響で全館停電となった福島県猪苗代町の水族館「アクアマリンいなわしろカワセミ水族館」は24日までに、絶滅危惧種のゲンゴロウなど希少な生物を展示室から避難させ、ストーブで暖めた部屋で保護をした。電",
-        "pub_date": "11/24 16:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/36ca22390d96f2fdc6dfe3455bf2f8d111dff915?source=rss",
+        "title": "ビキニ被ばく救済求め集会　元船員「真相解明を」(共同通信)",
+        "summary": "1954年の米国による太平洋・ビキニ環礁での水爆実験で被災した元船員らの救済を求め、日本原水爆被害者団体協議会（被団協）などが24日、国会内で集会を開いた。元船員は「国は被害の真相を解明し、同じことが",
+        "pub_date": "11/24 17:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/01e4481ffe0e9ed57c796ad486eb4d49618a03f8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "共産議員「なんやそれ。なんですか、それ」と呆れ？ 中部電力の不祥事を追及…「性善説ではダメ」クロスチェック求めるも規制委員長「行いません」(ABEMA TIMES)",
-        "summary": "24日、日本共産党の辰巳孝太郎議員が東日本大震災復興及び原子力問題調査特別委員会で質疑に立ち、中部電力による浜岡原発の基準地震動データの改ざん・隠蔽問題について、原子力規制委員会の山中伸介委員長らを追",
-        "pub_date": "11/24 16:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/e36d8b2fb64e416f9efad67af745f84ca195aadc?source=rss",
+        "title": "JR中央線 一部区間で運転見合わせ続く 車両のパンタグラフに損傷見つかる(CBCテレビ)",
+        "summary": "JR中央線は電力設備の確認のため、名古屋駅から中津川駅の間の上下線で運転見合わせが続いています。【写真を見る】JR中央線 一部区間で運転見合わせ続く 車両のパンタグラフに損傷見つかるJR東海によります",
+        "pub_date": "11/24 17:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/c12814d02e4a6cae115fa800df6c8b04b17139bd?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "18歳高校生はねられ死亡 トラック運転手の男を逮捕(ABEMA TIMES)",
-        "summary": "埼玉県加須市の国道で、自転車に乗っていた18歳の女子高校生が大型トラックにはねられ、死亡しました。警察は、トラックを運転していた55歳の男を現行犯逮捕しました。【映像】事故があった現場付近の様子 トラ",
-        "pub_date": "11/24 16:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/2d919140df3b9df0e9a3a3dd87d823e26aff1046?source=rss",
+        "title": "浜岡原発不正受けた再発防止指針の素案判明(共同通信)",
+        "summary": "静岡県の中部電力浜岡原発の耐震データ不正を受け、電力会社などでつくる原子力エネルギー協議会が再発防止に向けて取りまとめるガイドラインの素案が24日、判明した。地震動評価の過程や根拠を明確にすることなど",
+        "pub_date": "11/24 17:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/1d07d1ab9f4b1721144623a560ccb18ae98a6ec9?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "「犯罪捜査官」を名乗った42歳無職の男に“拘禁刑8か月”の実刑判決…「ネット私刑」で晒された少年宅に侵入した“身勝手な理由”(SPA!)",
-        "summary": "「犯罪捜査官」——。そう自称した男は被害者宅の敷地に侵入した。 今年1月、SNSで拡散されて話題となった栃木県立高校の暴行動画をめぐる事件。宇都宮地裁（斉藤あゆみ裁判官）は10月26日、加害少年宅に撮",
-        "pub_date": "11/24 15:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/c016f2ae510447bbf66667bd8af2009a3c4ca7cc?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "辺野古事故を受け学校調査　約70％が修学旅行の内容を確認　文科省(テレビ朝日系（ANN）)",
-        "summary": "沖縄県名護市辺野古沖で船が転覆して研修旅行中の生徒らが死亡した事故を受け、文部科学省は24日、全国の学校を対象に実施した校外活動の安全などに関する調査結果を公表しました。文科省は4月、校外での教育活動",
-        "pub_date": "11/24 15:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/aa0d6d23686525d47323eb99dc36032ad065f1c1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "坂本龍馬・勝海舟ら偉人ロボット5体が引退　約450万人が訪れた維新ふるさと館が最後の営業　「本物だと思うぐらいリアル」西郷隆盛・大久保利通ロボットは残留　リニューアルオープンは来年1月23日【鹿児島】(FNNプライムオンライン)",
-        "summary": "鹿児島市の維新ふるさと館が、リニューアルオープンを前に11月23日、最後の営業を迎えた。朝から多くの人が訪れ、名物の偉人ロボットたちとの別れを惜しんだ。今回の改修では、開館以来の出演者のうち5体が引退",
-        "pub_date": "11/24 16:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/96149cbecb67c18c01f8fb9635dfff67686b6795?source=rss",
+        "title": "クリスマスまで1か月 国産の鶏肉高騰で人気唐揚げ店に影響は?輸入鶏を大量に仕入れて対策「1〜2か月あとに値段が高くなる」(CBCテレビ)",
+        "summary": "クリスマスまで残り1か月。クリスマスに最盛期を迎える唐揚げ店では、鶏肉の価格高騰に悩まされているそうです。【写真を見る】クリスマスまで1か月 国産の鶏肉高騰で人気唐揚げ店に影響は?輸入鶏を大量に仕入れ",
+        "pub_date": "11/24 18:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/1326e141cd463551b27bf2f4eb800dc01810310b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "文科相問題で減税法案の審議日程決まらず(共同通信)",
-        "summary": "消費税減税関連法案を審議している参院特別委員会は24日、理事会を開き、野党側は関芳弘文科相の政治資金パーティー問題を巡る答弁に虚偽があったと主張し、次回の審議日程は決まらなかった。",
-        "pub_date": "11/24 16:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/ad876d372badb29d560153d57320f6baaa59eb33?source=rss",
+        "title": "パリ滞在「公務実態なし」と提訴　鎌倉市元議長の渡航めぐり(共同通信)",
+        "summary": "神奈川県鎌倉市の中沢克之元議長が、姉妹都市のフランス南部ニースで6月に開かれた記念行事に参加したのは市議会の議決に基づかず違法で、その後のパリ滞在は公務の実態がなかったなどとして、かながわ市民オンブズ",
+        "pub_date": "11/24 18:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/6de56cfbe8daa2c168d70762283a2be4656df9fa?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "外相、核禁会議オブザーバー参加見送り表明(共同通信)",
-        "summary": "茂木敏充外相は24日の記者会見で、米ニューヨークの国連本部で30日に開幕する核兵器禁止条約第1回再検討会議へのオブザーバー参加を見送ると表明した。",
-        "pub_date": "11/24 16:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/0609f1fca2a61bd5ad7577087b7dd867e04cc855?source=rss",
+        "title": "くら寿司が値上げ＆値下げ サーモンなど10円〜30円↑(ABEMA TIMES)",
+        "summary": "大手回転ずしチェーンのくら寿司は、原材料費などの高騰でまぐろやサーモンなどの商品を値上げすると発表しました。【映像】値上げ＆値下げされた商品 くら寿司は、27日から「熟成まぐろ」や「サーモン」など22",
+        "pub_date": "11/24 18:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/6ca5ec17da95ef4ade476b0d9fcaa70b4b9ee80a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ニワトリの殺処分進む…愛知県豊橋市の養鶏場で確認された高病原性鳥インフルエンザ 25日昼頃までに全約8万羽完了見込み(東海テレビ)",
-        "summary": "愛知県豊橋市で確認された高病原性鳥インフルエンザ。殺処分は25日昼ごろまでに終える見込みとなりました。 22日、豊橋市の養鶏場で高病原性鳥インフルエンザへの感染が確認され、23日からこの養鶏場のニワト",
-        "pub_date": "11/24 16:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/90f5bd4b933422d6b3188a1506454e35268ea9e1?source=rss",
+        "title": "スタンガンで脅し鉄パイプで暴行　2万5000円奪う　大阪府警、強盗致傷容疑で4人逮捕(産経新聞)",
+        "summary": "路上で男性を暴行し、現金約2万5000円を奪ったとして、大阪府警天満署は24日、強盗致傷の疑いで、大阪府八尾市南久宝寺の無職、横田大和容疑者（22）ら男4人を逮捕したと発表した。署は認否を明らかにして",
+        "pub_date": "11/24 18:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/a33d4d69dd616fd996a0d01b220749b4afd81db8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "1人には“至近距離からもう1発”…陸自射撃場で隊員3人が死傷した発砲事件 男を取り押さえた当時の教育隊長が状況語る(東海テレビ)",
-        "summary": "凶弾に倒れた同僚隊員に、至近距離からさらにもう1発発砲していたと、当時の教育隊長が証言しました。 元自衛官候補生の渡辺直杜被告(21)は、2023年6月、岐阜市にある自衛隊の射撃場で訓練中、弾薬を奪う",
-        "pub_date": "11/24 16:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/f13927c4b072e2c232ec33b0164294646752ea2d?source=rss",
+        "title": "陸自小銃発射「被告は強く抵抗」　公判で上官が証言(共同通信)",
+        "summary": "岐阜市の陸上自衛隊射撃場で2023年、自動小銃を発射し隊員3人を死傷させたとして、強盗殺人罪などに問われた元自衛官候補生渡辺直杜被告（21）の裁判員裁判の公判が24日、岐阜地裁で開かれ、被告を取り押さ",
+        "pub_date": "11/24 18:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/462342826f4f1a54c6f44287647c9be1bb2de814?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【関文科相問題】野党が問責決議案を提出へ　“パーティー問題”などに批判「政治資金を家賃に」報道も　続投表明も与党内から辞任論浮上(読売テレビ)",
-        "summary": "政治資金パーティーに官僚を招き、企業に説明させていたとして批判がでている関文部科学大臣は、きょう（24日）の会見で、大臣の職を続投する考えを示しました。一方、野党側は関大臣の問責決議案を提出する方針を",
-        "pub_date": "11/24 16:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/8a261bd5fb52634929aa2f10da0dbacc4027df59?source=rss",
+        "title": "比例31削減、参考人全員が懸念　26日採決を提案、野党は拒否(共同通信)",
+        "summary": "衆院政治改革特別委員会は24日、自民、日本維新の会、国民民主の3党が共同提出した選挙制度改革法案を巡り、参考人への意見聴取と質疑を実施した。法案の柱となる比例代表定数の31削減に対し、出席した有識者4",
+        "pub_date": "11/24 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/23525858e7b2352459dbc9ce36d5de3ff72947a7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "自民系を推薦できる信頼関係ないと公明代表(共同通信)",
-        "summary": "公明党の岡本三成代表は24日の記者会見で、来春の統一地方選で自民党系候補を推薦・支持しない方針について、高市内閣の「政治とカネ」を巡る疑惑を理由に挙げ「信頼関係を基に推薦できるような環境にはない」と述",
-        "pub_date": "11/24 16:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/4af5ccf644c088af89464d45600747c84773f10d?source=rss",
+        "title": "「一生遊べるお金欲しい」ルフィGトップ 証人尋問(ABEMA TIMES)",
+        "summary": "“ルフィ”などと名乗るグループのトップによる強盗致死事件の裁判で、かけ子だった女が出廷し、トップの男が「一生遊べるお金がほしい」と話していたと証言しました。【映像】連行される渡邉優樹被告・山田李沙受刑",
+        "pub_date": "11/24 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/9802f82a3bb02cda9fb5107beb329c53f387a9d6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "関芳弘文科相への問責決議案提出へ／政治資金パーティーをめぐって問題視されるポイントを政治記者が解説！(選挙ドットコム)",
-        "summary": "2026年11月20日公開の「選挙ドットコムちゃんねる」では、関芳弘文部科学大臣による政治資金パーティーの問題を受けて、野党が問責決議案提出に向けて動いているニュースについてMCの選挙芸人・山本期日前",
-        "pub_date": "11/24 16:46 JST",
-        "link": "https://news.yahoo.co.jp/articles/e49d618ba91825f7f5135485424ff3c4a8f343cd?source=rss",
+        "title": "「がんは深呼吸すれば治る」ナオキマン発言にア然、厚労相が明確に否定するも政府広報起用の不安視(週刊女性PRIME)",
+        "summary": "政府広報に陰謀論系YouTuber・ナオキマンを起用したことに批判の声が止まらないなか、ナオキマンが過去に公開した動画の言説を厚労相が否定。さらなる波紋が広がっている――。【写真】「仲良くさせていただ",
+        "pub_date": "11/24 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/0d8bd23408144aa41659ad291eb80a46a5c921a5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "全国的に11月30日頃からこの時期としては「10年に1度レベルの高温」の可能性...気象庁が早期天候情報【東北・関東甲信・東海・近畿・北陸・中国・四国・九州・沖縄】を発表...全国各地域の最高気温予想(RSK山陽放送)",
+        "summary": "■全国的に10年に1度レベルの高温か気象庁は24日、高温に関する早期天候情報を発表しました。それによりますと東北地方と北陸地方で11月30日頃から、関東甲信地方、東海地方、近畿地方、中国地方、四国地方",
+        "pub_date": "11/24 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/14766bba8f83551a9d1abf68d42eb74818b654ed?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "政治家のパーティー、チケット代はどこへ？ 国会で問われたルール(Yahoo!ニュース オリジナル THE PAGE)",
+        "summary": "関芳弘文部科学大臣の政治資金パーティーをめぐり、官僚の出席や会場の使い方が国会で追及されています。政治資金パーティーとは何か、どんな決まりがあるのでしょうか。 全員共通の決まった額はありません。事務所",
+        "pub_date": "11/24 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/5d161b422c26d1f2cb889d6a9c6c7cf549a03112?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 17:00:59 JST"
+    "last_updated": "2026-11-24 18:11:08 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -1029,10 +1033,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "FWgEalYZ9Lg",
+        "video_id": "-O5qtAupZms",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/FWgEalYZ9Lg?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=FWgEalYZ9Lg"
+        "embed_url": "https://www.youtube.com/embed/-O5qtAupZms?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=-O5qtAupZms"
       },
       {
         "id": "stream_ntvnews",
@@ -1040,10 +1044,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "OLcE4yQW-5g",
+        "video_id": "gt5pQTdEDxQ",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/OLcE4yQW-5g?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=OLcE4yQW-5g"
+        "embed_url": "https://www.youtube.com/embed/gt5pQTdEDxQ?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=gt5pQTdEDxQ"
       },
       {
         "id": "stream_annnews",
@@ -1051,10 +1055,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "JQmx8OQwt_M",
+        "video_id": "XiUGQxQ9mGY",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/JQmx8OQwt_M?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=JQmx8OQwt_M"
+        "embed_url": "https://www.youtube.com/embed/XiUGQxQ9mGY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=XiUGQxQ9mGY"
       },
       {
         "id": "stream_fnnnews",
@@ -1062,10 +1066,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "OgbO4xivzUg",
+        "video_id": "qGhQl_zZJvA",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/OgbO4xivzUg?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=OgbO4xivzUg"
+        "embed_url": "https://www.youtube.com/embed/qGhQl_zZJvA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=qGhQl_zZJvA"
       }
     ],
     "cameras": [

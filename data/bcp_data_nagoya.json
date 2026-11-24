@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 01:47:04",
+  "timestamp": "2026-11-24 02:45:28",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -190,10 +190,10 @@
         ],
         "notices": [
           "雷注意報",
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "暴風警報、雷注意報、波浪注意報、強風注意報",
+        "summary": "暴風警報、雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -231,10 +231,10 @@
         "warns": [],
         "notices": [
           "雷注意報",
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -246,10 +246,10 @@
         "warns": [],
         "notices": [
           "雷注意報",
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
@@ -261,10 +261,10 @@
         "warns": [],
         "notices": [
           "雷注意報",
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/23/"
       }
     ]
@@ -278,13 +278,14 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 篠ノ井線）",
+    "text": "運行支障あり（在来線: 中央本線、篠ノ井線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（篠ノ井線）",
+    "line_text": "運行支障あり（中央本線、篠ノ井線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/5",
     "troubled_lines": [
+      "中央本線",
       "篠ノ井線"
     ],
     "troubled_shinkansen": [],
@@ -312,12 +313,18 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野県・岐阜県で停電情報を検知",
+    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】新潟県・長野県・岐阜県で停電情報を検知",
     "power_outages": [
       {
         "pref": "北海道",
         "region": "北海道",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/01/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "青森県",
+        "region": "東北",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/02/",
         "level": "poweroutageLevel1"
       },
       {
@@ -336,6 +343,12 @@
         "pref": "千葉県",
         "region": "関東",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/12/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "東京都",
+        "region": "関東",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/13/",
         "level": "poweroutageLevel2"
       },
       {
@@ -345,9 +358,21 @@
         "level": "poweroutageLevel1"
       },
       {
+        "pref": "新潟県",
+        "region": "信越",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/15/",
+        "level": "poweroutageLevel1"
+      },
+      {
         "pref": "長野県",
         "region": "信越",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/20/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "石川県",
+        "region": "北陸",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/17/",
         "level": "poweroutageLevel1"
       },
       {
@@ -361,12 +386,6 @@
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
         "level": "poweroutageLevel2"
-      },
-      {
-        "pref": "兵庫県",
-        "region": "近畿",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/28/",
-        "level": "poweroutageLevel1"
       },
       {
         "pref": "鳥取県",
@@ -493,16 +512,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/24 02:20",
+          "text": "@myao_xxh 1つの携帯で2回線使うみたいな仕組みで 例えば START au END が電波 START 障害 END になった時にその時だけSoftB..."
+        },
+        {
           "time": "11/24 01:35",
           "text": "今朝から START au END -oneメールが、iPhone標準のメールアプリで受信できなくなってる。 START 障害 END ？？？"
         },
         {
           "time": "11/23 23:36",
           "text": "【スマホが突然つながらない時は？📱】 ①機内モードをオン・オフ ②端末を再起動 ③通信会社の START 障害 END 情報を確認 通信 START 障害 EN..."
-        },
-        {
-          "time": "11/23 21:39",
-          "text": "26/11/24 START 障害 END 情報を掲載しました。最新情報 https://t.co/oPLdSEZlUo をご確認ください。 ご迷惑をおかけして..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -536,19 +555,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/24 01:34",
-          "text": "アップデートしてから START au END 4gが START 繋がらない END インターネット共有とか？ https://t.co/U1ulLODnI7"
+          "time": "11/24 02:44",
+          "text": "北九州メッセ（西日本総合展示場 新館）が楽天モバイルの START au END ローミング対象外になってから全く START 繋がらない END 問題 今週K..."
         },
         {
-          "time": "11/24 00:39",
-          "text": "ようやくOCNモバイルONEを解約した。 今月末で終わり。値上がりするなら、これ以上お付き合いする必要もないということで。 これで、 ドコモ系、楽天( STAR..."
+          "time": "11/24 02:37",
+          "text": "START au END 💦まだ START 繋がらない END 。勘弁してください"
         },
         {
-          "time": "11/23 23:15",
-          "text": "職場のある地域が START au END の電波弱いから docomoに変えて職場では繋がるようになったんだけど ほかの今まで快適だった場所が繋がらなくなった..."
+          "time": "11/24 02:14",
+          "text": "@LAVALOVER5 突然のお声掛け失礼します、povoサポートです。 START 繋がらない END のは困ってしまいますよね💦お乗り換えをご検討中でしたら..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -578,9 +597,9 @@
     }
   ],
   "sns_heatmap": {
-    "total_mentions": 0,
-    "top_region": "全国平穏",
-    "top_count": 0,
+    "total_mentions": 1,
+    "top_region": "九州",
+    "top_count": 1,
     "regions": [
       {
         "id": "hokkaido",
@@ -692,12 +711,20 @@
         "lat": 33.5904,
         "lon": 130.4017,
         "zoom": 8,
-        "count": 0,
+        "count": 1,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
+        "detected_words": [
+          "九州"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "au 繋がらない",
+            "time": "11/24 02:44",
+            "text": "北九州メッセ（西日本総合展示場 新館）が楽天モバイルの START au END ローミング対象外になってから全く START 繋がらない END 問題 今週K..."
+          }
+        ]
       },
       {
         "id": "okinawa",
@@ -714,6 +741,27 @@
       }
     ],
     "ranking": [
+      {
+        "id": "kyushu",
+        "name": "九州",
+        "lat": 33.5904,
+        "lon": 130.4017,
+        "zoom": 8,
+        "count": 1,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
+        "detected_words": [
+          "九州"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "au 繋がらない",
+            "time": "11/24 02:44",
+            "text": "北九州メッセ（西日本総合展示場 新館）が楽天モバイルの START au END ローミング対象外になってから全く START 繋がらない END 問題 今週K..."
+          }
+        ]
+      },
       {
         "id": "hokkaido",
         "name": "北海道",
@@ -819,19 +867,6 @@
         "sample_posts": []
       },
       {
-        "id": "kyushu",
-        "name": "九州",
-        "lat": 33.5904,
-        "lon": 130.4017,
-        "zoom": 8,
-        "count": 0,
-        "level": "NORMAL",
-        "color": "#10b981",
-        "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
-      },
-      {
         "id": "okinawa",
         "name": "沖縄",
         "lat": 26.2124,
@@ -864,8 +899,40 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 6,
+    "disaster_count": 7,
     "articles": [
+      {
+        "title": "「写真を見て… タイプでした」 マッチングアプリ詐欺の被害者 胸中を語る グループで役割分担か 被害総額は1億円超にも 【福岡発】(FNNプライムオンライン)",
+        "summary": "恋愛感情を利用したマッチングアプリ詐欺の被害が、若い年代を中心に広がっている。被害者がカメラの前で語ったその手口とはー。【画像】「写真を見て…タイプでした」 マッチングアプリ詐欺の被害者 胸中を語る",
+        "pub_date": "11/24 11:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/213b196fc40a0c85154230856b9625e64b6cbb01?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "今日24日は寒冷前線が通過中　強い雨、落雷、突風、ひょうに注意　夜は北日本で吹雪(日本気象協会tenki.jp)",
+        "summary": "今日24日は日本列島を寒冷前線が通過中です。広い範囲で雨が降っていて、このあと局地的に雷雨になる可能性があります。強い雨、落雷、竜巻などの突風、ひょうにご注意ください。また、夕方以降は北日本では雪にか",
+        "pub_date": "11/24 11:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/017c2a5642f9f763d168b4c61560a9b2d4c91ba0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "事故を起こしたのは先頭車両なのに…後続車2台も危険運転致死の疑い「一緒に走行した仲間も共犯！」愛知県警の警告に注目集まる(ABEMA TIMES)",
+        "summary": "愛知県警察交通部はXで、事故でぐちゃぐちゃに大破した押収車両の写真をポスト。この投稿に添えられた「一緒に走行した仲間も共犯！」というメッセージがSNSで注目を集めた。【映像】事故でぐちゃぐちゃに大破し",
+        "pub_date": "11/24 11:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/d17d625692085f8a0475de9a5fc460d022cff415?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "全国的に荒れた天気　落雷・突風に注意を　寒気南下で北日本は雨から雪へ(ウェザーマップ)",
+        "summary": "きょう（火）は、全国的に荒れた天気となっています。午後も広い範囲で、急な強い雨、落雷や突風に注意が必要で、風の強い状態も続くでしょう。北日本は次第に雨から雪に変わり、北陸でも今夜以降は山沿いで雪の所が",
+        "pub_date": "11/24 10:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/251f1d51d5a50774c04b7c9d76ca63287384e4d0?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "24日の関東は広範囲で雨が降る見込み　東京都、埼玉県、神奈川県は夕方にかけて　帰宅時間帯は雨や風に注意　沿岸部では雨脚が強まる所もある見込み　　　　　　(FNNプライムオンライン)",
         "summary": "気象庁は北日本から西日本では24日は、落雷や竜巻などの激しい突風、局地的な激しい雨に注意するよう呼びかけています。発達した積乱雲の近づく兆しがある場合には、建物内に移動するなど、安全確保に努めてくださ",
@@ -891,103 +958,71 @@
         "is_disaster": true
       },
       {
-        "title": "北―西日本で大気の状態不安定　前線、夜に本州を通過見込み(共同通信)",
-        "summary": "気象庁は24日、低気圧から延びる前線が夜にかけて本州を通り、北日本から西日本にかけて大気の状態が非常に不安定になるとして、落雷や竜巻などの激しい突風、局地的な激しい雨に注意を呼びかけた。 気象庁による",
-        "pub_date": "11/24 08:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/de3e1b1fe25a37ea15979334c83cb40cb553db96?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "南海高野線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "07:51頃、今宮戎駅で発生した人身事故の影響で、南海高野線は難波～堺東駅間の運転を見合わせています。振替輸送を行っています。",
-        "pub_date": "11/24 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/c14ce65e7f9c16ab24d43af47dec8d7475b1ed7b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "患者安全実現へ病院長研修　義務化で事故調査適正に(共同通信)",
-        "summary": "医療事故調査制度の適正運用のため、制度に関する研修受講が病院長ら医療機関の管理者に義務付けられることになった。研修内容を定めた厚生労働省研究班は、医療安全活動の全体像や死亡事例発生時の対応を学ぶプログ",
-        "pub_date": "11/24 06:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/3141ac2645852e053ca3eaadde4c5465bff367fe?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "寝顔を撮られ「変態」と2000人にSNS拡散…兵庫の中2男子がいじめ自死、遺族は市と700万円和解も「怒り残る」　加害生徒3人との裁判続く(弁護士JPニュース)",
-        "summary": "2023年3月、兵庫県相生市の市立中学2年生の男子生徒（当時13歳）が自ら命を絶った。【イラスト解説】いまさら聞けない「いじめ」の基礎知識その悲劇の背景には、長期間にわたり日常化していた「いじめ」と、",
-        "pub_date": "11/24 10:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/dd7d71a70890bc2437584470c8bee9beb89df115?source=rss",
+        "title": "紅葉見頃の高尾山に観光客殺到　ケーブルカー大行列、登山道はすれ違うのも…(テレビ朝日系（ANN）)",
+        "summary": "年内最後の3連休最終日だった23日、東京・高尾山には紅葉を求めて多くの人が殺到し、大混雑となりました。今年はクマなど野生動物も出没し、不安の声が上がっています。■高尾山で紅葉見頃 東京・八王子市の高尾",
+        "pub_date": "11/24 11:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/d9856e924d949a3a7223192608d0a218c2cd4254?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "人も金も場所も足りない…村田兆治さんが残した「離島甲子園」の今　大会支える元球児たちの絆(47NEWS)",
-        "summary": "全国の離島を舞台に、中学生たちが野球の腕を競う「離島甲子園」（全国離島交流中学生野球大会）が転機を迎えている。対外試合の機会が少ない離島の選手が交流を深めることを目的に、マサカリ投法で知られる元プロ野",
-        "pub_date": "11/24 10:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/1452bfd958a66cbccd5d9fdffafd74811c98a01e?source=rss",
+        "title": "情報提供を、伊勢で両親ビラ配り　女性雑誌記者、行方不明28年(共同通信)",
+        "summary": "三重県伊勢市で1998年、雑誌記者辻出紀子さん＝当時（24）＝が行方不明になってから28年となった24日、両親と県警は市内の商業施設でチラシを配り情報提供を呼びかけた。父の泰晴さん（79）は「紀子が出",
+        "pub_date": "11/24 11:37 JST",
+        "link": "https://news.yahoo.co.jp/articles/44a5da6a952408f132f922f6c0d3b2f8e7661925?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "24年以外のパーティー、「確認中」と文科相(共同通信)",
-        "summary": "関芳弘文部科学相は記者会見で、官僚を呼んで企業関係者に政策を説明させた政治資金パーティーが、既に判明している2024年以外にあるかどうかについて「現在確認中だ」と述べた。",
-        "pub_date": "11/24 10:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/0d3bcdf2971fa942d276d8231fc0e57b96e65215?source=rss",
+        "title": "ファイル流出「機密性高い情報扱わず」(共同通信)",
+        "summary": "古川俊治デジタル相は24日の記者会見で、政府の基盤システムに不正アクセスがあり、ファイルが一部流出した可能性がある問題に関し、同システムでは「基本的に機密性の高い情報は扱わないと承知している」と述べた",
+        "pub_date": "11/24 11:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/5229933d8881206d1e8878168b50da193622aeb1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "司法試験のパソコン不具合問題、法務省は原因明かさず…試験時間変更が236件、終了は最大3時間半遅れ(弁護士ドットコムニュース)",
-        "summary": "2026年の司法試験で初めて、パソコンで答案を作る「CBT方式」が導入された。ところが、端末の不具合などで試験時間が変更されたケースは236件に上り、試験終了が最大約3時間半遅れた。万歳する司法試験の",
-        "pub_date": "11/24 10:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/8dbf190b508171b2eaf77cc1f002c4efa8ed2158?source=rss",
+        "title": "国と北海道側、争う姿勢　猟銃処分訴訟で初弁論(共同通信)",
+        "summary": "北海道砂川市の要請でヒグマの駆除に使った猟銃の所持許可取り消しの是非を巡り、最高裁で逆転勝訴した池上治男さん（77）が、押収された銃2丁のうち1丁を検察が処分したのは不当だとして約43万円の国家賠償を",
+        "pub_date": "11/24 11:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/b1c7612415eaf4e34f9efa40ca0979e25e9c47af?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "文科相パーティー、法的問題ないと自民幹部(共同通信)",
-        "summary": "自民党の萩生田光一幹事長代行は24日の記者会見で、関芳弘文部科学相の政治資金パーティー開催問題に関し「法的に問題ないが、反省すべき点があった。しっかりと説明し、疑念を払拭しないといけない」と述べた。",
-        "pub_date": "11/24 10:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/a3ef262d9d2bf3a92d512580746f503d5873f118?source=rss",
+        "title": "企業が導入したい福利厚生「社員旅行」がまさかの上位？1960年代・昭和ならではの“驚きの光景”も…物価高が直撃するなか注目される福利厚生のあり方を東大准教授と考える(ABEMA TIMES)",
+        "summary": "深刻化する人手不足の中、企業が福利厚生を見直す動きが出てきている。帝国データバンクの調査では、約5割の企業が福利厚生の充実を予定していると回答した。【映像】1963年、昭和の社員旅行の宴会風景 企業は",
+        "pub_date": "11/24 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/221e7fcc84c30354555e3c7b81c2fcd4196c83b1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「職務にまい進し責任果たしたい」と文科相(共同通信)",
-        "summary": "関芳弘文部科学相は24日の閣議後記者会見で、自身の政治資金パーティーを巡り「襟を正し、職務に全力でまい進することで責任を果たしたい」と述べ、改めて続投に意欲を示した。",
-        "pub_date": "11/24 10:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/16d67b38a7a4b3d17002010323340ea09d4dcabd?source=rss",
+        "title": "「VIVANT」別班は実在する？ 元当局者らが語る現実の情報活動 「乃木のような超人はいない」(AERA DIGITAL)",
+        "summary": "最終回を迎えた「VIVANT」シーズン2と映画版の公開で関心が高まる自衛隊の秘密部隊「別班」。だが、別班を詳しく知る複数の関係者によれば、現実の情報活動はドラマとは大きく異なるという。関係者や元情報機",
+        "pub_date": "11/24 11:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/b99696d95fe1db8f9fbe1a4452198ee62c0dbb46?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「けっこう稼げるでしょ」1日5人見れば5万円、20日で100万円…《世の中そんなに甘くない》現役占い師が明かす「カツカツの収入事情」(文春オンライン)",
-        "summary": "仕入れや在庫が不要で、一見すると高収入にも思える「占い師」という仕事。しかし実際は、客が一人も来ないまま交通費と昼食代だけがかかって終わる日もあり、鑑定料の約半分は店の取り分になるという――。知られざ",
-        "pub_date": "11/24 10:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/b9414d706845a0964d5c388e276480b1b3e73f4f?source=rss",
+        "title": "27日～29日は雨や雪　気温の変化大きい　12月に20℃予想も　2週間天気予報(日本気象協会tenki.jp)",
+        "summary": "この先2週間は、低気圧や前線の影響で、27日(金)から28日(土)を中心に雨や雪の降る所があるでしょう。29日(日)は日本海側で雨や雪に。気温の変化が大きく、12月に入っても最高気温が20℃くらいまで",
+        "pub_date": "11/24 11:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/afcaf883ed4a92074d7b5075fcd38ec9ea4ad148?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "年末ジャンボ宝くじ発売　1等・前後賞で10億円、ミニも(共同通信)",
-        "summary": "1等賞金7億円、前後賞各1億5千万円を合わせて10億円となる年末ジャンボ宝くじが24日、発売された。1枚300円。宝くじ公式サイトも含めて12月25日まで購入でき、大みそかに東京都内で抽せん会が開かれ",
-        "pub_date": "11/24 10:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/d67158e09a56e769901d430b304683acf25ce9e4?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "金5万6000枚余、銀は部屋に山積み…NHK大河では\"いい人\"の秀長が郡山城に遺した巨額財産の出どころ(プレジデントオンライン)",
-        "summary": "豊臣政権のナンバー2だった秀長は、どのような最期を迎えたのか。病に伏した秀長の死後、居城の郡山城で見つかったものが、秀長の知られざる一面を物語るという。歴史学者の渡邊大門さんが書いた『羽柴秀長と豊臣政",
-        "pub_date": "11/24 10:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/25a4ee013f46eecbc6e9d34556214eacfd6a6356?source=rss",
+        "title": "自民・萩生田幹事長代行「反省すべき点あった」　関文科相の官僚出席パーティーめぐり(産経新聞)",
+        "summary": "自民党の萩生田光一幹事長代行は24日の記者会見で、政治資金パーティーに官僚を呼び企業関係者に政策説明をさせた関芳弘文部科学相について「法的に問題はないが、担当省庁に対する事前説明が十分でなかったなど反",
+        "pub_date": "11/24 11:19 JST",
+        "link": "https://news.yahoo.co.jp/articles/091b222bbbae775b9d1161bb2eaf4b27073ef6a1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 10:46:32 JST"
+    "last_updated": "2026-11-24 11:44:47 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -1019,10 +1054,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "lTEe-aMOsSk",
+        "video_id": "FWgEalYZ9Lg",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/lTEe-aMOsSk?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=lTEe-aMOsSk"
+        "embed_url": "https://www.youtube.com/embed/FWgEalYZ9Lg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=FWgEalYZ9Lg"
       },
       {
         "id": "stream_ntvnews",
@@ -1030,10 +1065,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "SnBc8X980F4",
+        "video_id": "5jLsEa5G19o",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/SnBc8X980F4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=SnBc8X980F4"
+        "embed_url": "https://www.youtube.com/embed/5jLsEa5G19o?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=5jLsEa5G19o"
       },
       {
         "id": "stream_annnews",
@@ -1041,10 +1076,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "3wxi4UqsPlY",
+        "video_id": "Om0w6J4iJVo",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/3wxi4UqsPlY?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=3wxi4UqsPlY"
+        "embed_url": "https://www.youtube.com/embed/Om0w6J4iJVo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Om0w6J4iJVo"
       },
       {
         "id": "stream_fnnnews",

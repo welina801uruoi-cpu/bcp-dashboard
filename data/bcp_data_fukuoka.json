@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 19:27:30",
+  "timestamp": "2026-11-24 20:20:46",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -208,10 +208,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "波浪注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、乾燥注意報",
+        "summary": "強風注意報、乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -262,12 +262,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "霜注意報",
-          "波浪注意報",
-          "乾燥注意報"
+          "強風注意報",
+          "乾燥注意報",
+          "波浪注意報"
         ],
-        "summary": "強風注意報、霜注意報、波浪注意報、乾燥注意報",
+        "summary": "霜注意報、強風注意報、乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -314,14 +314,14 @@
         "name": "山陽新幹線",
         "status": "ALERT",
         "state": "その他",
-        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月24日 5時0分掲載）",
+        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月25日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       },
       {
         "name": "九州新幹線",
         "status": "ALERT",
         "state": "その他",
-        "detail": "地震災害の影響で、一部列車に運休や運転変更が出ています。（11月24日 5時0分掲載）",
+        "detail": "地震災害の影響で、一部列車に運休や運転変更が出ています。（11月25日 5時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/410/0"
       },
       {
@@ -349,6 +349,12 @@
     "gas_status": "NORMAL",
     "power_msg": "九州電力送配電: 停電情報なし（九州エリア管内正常）",
     "power_outages": [
+      {
+        "pref": "北海道",
+        "region": "北海道",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/01/",
+        "level": "poweroutageLevel1"
+      },
       {
         "pref": "福島県",
         "region": "東北",
@@ -865,20 +871,20 @@
     "status": "NORMAL",
     "office": "福岡管区気象台",
     "target_area": "福岡県",
-    "report_time": "11/24 16:32",
+    "report_time": "11/25 04:33",
     "headline": "",
-    "text": "　福岡県は、寒気の影響により、おおむね曇りとなっています。\n\n　２４日は、寒気の影響により、曇りで雨が降る所があるでしょう。また、山地では雪が降る所があるでしょう。\n\n　２５日は、高気圧に覆われて晴れとなる所もありますが、寒気や湿った空気の影響により、おおむね曇りで雨が降る所があるでしょう。また、山地では雪が降る所があるでしょう。",
+    "text": "　福岡県は、高気圧に覆われておおむね晴れとなっています。\n\n　２５日は、寒気の影響により曇りとなる所がありますが、高気圧に覆われておおむね晴れとなるでしょう。\n\n　２６日は、高気圧に覆われて晴れとなる所がありますが、気圧の谷や湿った空気の影響によりおおむね曇りとなるでしょう。",
     "paragraphs": [
-      "福岡県は、寒気の影響により、おおむね曇りとなっています。",
-      "２４日は、寒気の影響により、曇りで雨が降る所があるでしょう。また、山地では雪が降る所があるでしょう。",
-      "２５日は、高気圧に覆われて晴れとなる所もありますが、寒気や湿った空気の影響により、おおむね曇りで雨が降る所があるでしょう。また、山地では雪が降る所があるでしょう。"
+      "福岡県は、高気圧に覆われておおむね晴れとなっています。",
+      "２５日は、寒気の影響により曇りとなる所がありますが、高気圧に覆われておおむね晴れとなるでしょう。",
+      "２６日は、高気圧に覆われて晴れとなる所がありますが、気圧の谷や湿った空気の影響によりおおむね曇りとなるでしょう。"
     ],
-    "summary": "福岡県は、寒気の影響により、おおむね曇りとなっています。...",
+    "summary": "福岡県は、高気圧に覆われておおむね晴れとなっています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=400000"
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 12,
+    "disaster_count": 11,
     "articles": [
       {
         "title": "秋田で住宅火災、2人連絡取れず　大仙市、高齢夫婦か(共同通信)",
@@ -961,14 +967,6 @@
         "is_disaster": true
       },
       {
-        "title": "阪急宝塚本線で人身事故 運転再開(レスキューナウニュース)",
-        "summary": "曽根駅で発生した人身事故の影響で、阪急宝塚本線は大阪梅田～豊中駅間の運転を見合わせていましたが、20:10頃、運転を再開しました。なお、ダイヤが乱れています。",
-        "pub_date": "11/24 20:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/70aae48f49a277b8e7b785cac80c3bdf6f151254?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "逆走車に衝突されたか 運転手死亡",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/24 23:55 JST",
@@ -977,31 +975,39 @@
         "is_disaster": true
       },
       {
+        "title": "日本にパリの文化と香りを　シーユナイテッド【経済トレンド／わが社のあの時】(共同通信)",
+        "summary": "珈琲館やカフェ・ベローチェなどを運営するカフェチェーン。さまざまな芸術家が集まる文化発祥の地、フランス・パリの「シャノアール」のように日本でもコーヒー文化を広めたいとの思いで創業。1965年の「珈琲館",
+        "pub_date": "11/25 05:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/065b443df474b903d5a163b1944f77152856c206?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "第176回の直木賞候補の5作品決まる　選考会は来年1月20日(テレビ朝日系（ANN）)",
+        "summary": "第176回直木賞の候補作が発表されました。 直木賞の候補に選ばれたのは、呉勝浩さん（45）の「蒼羽さん事件」、住田祐さん（42）の「誰が首」、辻堂ゆめさん（33）の「残火」、伏尾美紀さん（59）の「誰",
+        "pub_date": "11/25 05:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/45cce31c1e1df8996a78052d6e8f17b06b884889?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "米で鳥インフルエンザに3人感染　WHO発表、1人死亡(共同通信)",
+        "summary": "【ジュネーブ共同】世界保健機関（WHO）は24日、米西部ワシントン州の酪農場で働く成人3人が高病原性鳥インフルエンザウイルス（H5N1）に感染し、うち基礎疾患のある1人が死亡したと発表した。現時点で人",
+        "pub_date": "11/25 04:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/4cf166375cb179fafb2f1a7fd5469299c9c5c3e3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "会社の敷地内で火事 ダンプカー6台が全焼 警察が放火の可能性も含め火事の原因調べる 愛知・安城市(CBCテレビ)",
         "summary": "きのう24日（火）の夜、愛知県安城市の会社敷地内で、ダンプカー6台が全焼する火事がありました。【写真を見る】会社の敷地内で火事 ダンプカー6台が全焼 警察が放火の可能性も含め火事の原因調べる 愛知・安",
         "pub_date": "11/25 04:09 JST",
         "link": "https://news.yahoo.co.jp/articles/4ed1fd541207ca70ac71060502e016ad90e08803?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "【速報】広島・庄原市 84歳女性殺害事件　55歳の男を逮捕(テレビ朝日系（ANN）)",
-        "summary": "去年6月、広島県庄原市の住宅で高齢女性が殺害された事件で、警察は東広島市に住む55歳の男を強盗殺人などの疑いで逮捕しました。",
-        "pub_date": "11/25 01:32 JST",
-        "link": "https://news.yahoo.co.jp/articles/dbf7a4445af3ef65cbedbff3869419bc8e34ee43?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "＜独自＞非核三原則「引き続き維持」明記　持ち込ませず見直しも併記　有識者会議提言へ(産経新聞)",
-        "summary": "国家安全保障戦略など安保関連3文書改定を巡る政府の有識者会議が12月初旬にもまとめる提言で、非核三原則について「引き続き維持」と明記する方向で調整していることが24日、分かった。一方で、非核三原則のう",
-        "pub_date": "11/25 01:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/d071442fafd03efd39d92909ae109fae94f1e235?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-25 04:26:43 JST"
+    "last_updated": "2026-11-25 05:20:43 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -1033,10 +1039,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "OmMBtyByuII",
+        "video_id": "FwaLTmN1JgM",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/OmMBtyByuII?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=OmMBtyByuII"
+        "embed_url": "https://www.youtube.com/embed/FwaLTmN1JgM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=FwaLTmN1JgM"
       },
       {
         "id": "stream_ntvnews",
@@ -1044,10 +1050,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "UEtm3ky5iRU",
+        "video_id": "HwMrldetMx0",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/UEtm3ky5iRU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=UEtm3ky5iRU"
+        "embed_url": "https://www.youtube.com/embed/HwMrldetMx0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=HwMrldetMx0"
       },
       {
         "id": "stream_annnews",
@@ -1055,10 +1061,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "2_QTXBqz76c",
+        "video_id": "e7H2klFBjzI",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/2_QTXBqz76c?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=2_QTXBqz76c"
+        "embed_url": "https://www.youtube.com/embed/e7H2klFBjzI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=e7H2klFBjzI"
       },
       {
         "id": "stream_fnnnews",

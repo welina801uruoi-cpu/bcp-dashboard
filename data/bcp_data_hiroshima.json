@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 12:24:31",
+  "timestamp": "2026-11-24 13:45:05",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -205,10 +205,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "雷注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/32/"
       },
       {
@@ -220,10 +220,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "雷注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/31/"
       },
       {
@@ -248,14 +248,13 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 山陽本線、山口線、山陰本線 ／ 新幹線: 山陽新幹線（その他））",
+    "text": "運行支障あり（在来線: 山口線、山陰本線、呉線 ／ 新幹線: 山陽新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（山陽本線、山口線、山陰本線、呉線）",
+    "line_text": "運行支障あり（山口線、山陰本線、呉線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
     "troubled_lines": [
-      "山陽本線",
       "山口線",
       "山陰本線",
       "呉線"
@@ -290,9 +289,15 @@
     "power_msg": "中国電力NW: 停電情報なし（中国エリア管内正常）",
     "power_outages": [
       {
-        "pref": "岩手県",
+        "pref": "宮城県",
         "region": "東北",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/03/",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/04/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "山形県",
+        "region": "東北",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/06/",
         "level": "poweroutageLevel1"
       },
       {
@@ -427,13 +432,13 @@
     "url": "https://crisis.yahoo.co.jp/evacuation/"
   },
   "telecom": {
-    "status": "ALERT",
-    "kddi_alert": true,
+    "status": "NORMAL",
+    "kddi_alert": false,
     "docomo_alert": false,
     "sb_alert": false,
     "rakuten_alert": true,
     "other_carrier_alert": true,
-    "kddi_msg": "au/UQ/povo: 【要警戒】【災害影響】2026年11月20日からの大雪の影響により携帯電話サービスがご...",
+    "kddi_msg": "au/UQ/povo: 【復旧済み】 2026年11月20日からの大雪の影響により携帯電話サービスがご利用できない",
     "kddi_link": "https://news.kddi.com/important/news/",
     "docomo_msg": "ドコモ: 【復旧済み】 <![CDATA[【お詫び/復旧】携帯電話サービス（5G SA（Sta",
     "sb_msg": "ソフトバンク: 直近の障害発表なし（正常）",
@@ -453,19 +458,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/24 07:29",
-          "text": "@nagi_always はじめまして、凪中さん✨ START au END サポート石川です。通信 START 障害 END とのことですが、スマホの電波でお..."
+          "time": "11/24 13:30",
+          "text": "START au END 通信 START 障害 END なのかな？ Wi-Fiとらな見れないの辛"
         },
         {
-          "time": "11/24 06:07",
-          "text": "START au END サイトに繋がらない！なぜ！ 今アクセスネット START 障害 END なの？"
+          "time": "11/24 13:08",
+          "text": "START au END なんだけど、電波 START 障害 END なのかな？電波ないよ！"
         },
         {
-          "time": "11/24 03:52",
-          "text": "@urami_tsuramin 初期から使用してますが当時は離島の別宅内(wifi環境無し)で2階以外繋がりにくかったりしたのが、今はどこでも繋がって速度も問題..."
+          "time": "11/24 12:47",
+          "text": "START au END 回線使って今月は繰り越し45GBもあるのに モバイル通信速度が遅くてブラウザの表示に時間がかかります 9.45Mbpsしかないのは通信..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -479,16 +484,16 @@
       "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/24 12:28",
+          "text": "auひかり START KDDI END 側が設置した設備の START 障害 END でネット使用できない丸２日目。サポートセンターに抗議しても何も対処せず ..."
+        },
+        {
           "time": "11/24 08:15",
           "text": "ドコモの START 障害 END 3回。裏側は、設備投資を抑えた数年間と5Gの面展開の遅れだった。基地局数は START KDDI END 12.5万局、ソフ..."
         },
         {
           "time": "11/23 21:16",
           "text": "START KDDI END は11月23日、大雪による一部地域の通信 START 障害 END が継続中と発表。 対象地域では「JAPANローミング」も順次提..."
-        },
-        {
-          "time": "11/23 17:17",
-          "text": "auがドコモにじわりじわりと近づいてってる 7月〜9月でドコモの契約数だけマイナス60万件とか、、、 11月の通信 START 障害 END の影響入ってなくて..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -499,8 +504,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/24 13:39",
+          "text": "@BLOOD_X_with_Y 楽天モバイル使ってます 正直、混雑してるところとかは START 繋がらない END 印象ですねぇ～ あとdocomoは関係ない..."
+        },
         {
           "time": "11/24 10:21",
           "text": "DOCOMO本当にカス過ぎる 光回線を他に切り替えたいから事業者変更の手続きをしようと電話 START 繋がらない END ド「ネット予約ができるよ、URL付け..."
@@ -508,10 +517,6 @@
         {
           "time": "11/24 09:28",
           "text": "電車の中、 START au END は快適なのに、ドコモは全然 START 繋がらない END 。 スマホ START 繋がらない END のは本当にストレス..."
-        },
-        {
-          "time": "11/24 09:08",
-          "text": "@nobuchan1981 FF外から失礼します。 病院は START 繋がらない END と困りますよね。 繋がりやすい電話回線というものがあるようなので、固..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -541,9 +546,9 @@
     }
   ],
   "sns_heatmap": {
-    "total_mentions": 1,
-    "top_region": "北陸",
-    "top_count": 1,
+    "total_mentions": 0,
+    "top_region": "全国平穏",
+    "top_count": 0,
     "regions": [
       {
         "id": "hokkaido",
@@ -603,20 +608,12 @@
         "lat": 36.5613,
         "lon": 136.6562,
         "zoom": 8,
-        "count": 1,
+        "count": 0,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [
-          "石川"
-        ],
-        "sample_posts": [
-          {
-            "keyword": "au 障害",
-            "time": "11/24 07:29",
-            "text": "@nagi_always はじめまして、凪中さん✨ START au END サポート石川です。通信 START 障害 END とのことですが、スマホの電波でお..."
-          }
-        ]
+        "detected_words": [],
+        "sample_posts": []
       },
       {
         "id": "kansai",
@@ -686,27 +683,6 @@
     ],
     "ranking": [
       {
-        "id": "hokuriku",
-        "name": "北陸",
-        "lat": 36.5613,
-        "lon": 136.6562,
-        "zoom": 8,
-        "count": 1,
-        "level": "NORMAL",
-        "color": "#10b981",
-        "status_label": "平常・平穏",
-        "detected_words": [
-          "石川"
-        ],
-        "sample_posts": [
-          {
-            "keyword": "au 障害",
-            "time": "11/24 07:29",
-            "text": "@nagi_always はじめまして、凪中さん✨ START au END サポート石川です。通信 START 障害 END とのことですが、スマホの電波でお..."
-          }
-        ]
-      },
-      {
         "id": "hokkaido",
         "name": "北海道",
         "lat": 43.0642,
@@ -750,6 +726,19 @@
         "name": "中部・東海",
         "lat": 35.1815,
         "lon": 136.9066,
+        "zoom": 8,
+        "count": 0,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
+        "detected_words": [],
+        "sample_posts": []
+      },
+      {
+        "id": "hokuriku",
+        "name": "北陸",
+        "lat": 36.5613,
+        "lon": 136.6562,
         "zoom": 8,
         "count": 0,
         "level": "NORMAL",
@@ -842,8 +831,24 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "JR宝塚線で人身事故 一部運転見合わせ(レスキューナウニュース)",
+        "summary": "22:17頃、猪名寺～伊丹駅間で発生した人身事故の影響で、JR宝塚線は尼崎～新三田駅間の運転を見合わせています。",
+        "pub_date": "11/24 22:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/e9a52a2fc1ff7186976e55798aeac2865d51d740?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "住宅火災で焼け跡から年齢性別不明の遺体1体を発見　住人の70代男性か　兵庫・明石(産経新聞)",
+        "summary": "23日午後10時半ごろ、兵庫県明石市大久保町西島の2階建て住宅で「1階の窓から火が出ている」と近隣住民から119番があった。兵庫県警明石署などによると、火は約1時間後に消し止められたが、焼け跡から年齢",
+        "pub_date": "11/24 21:40 JST",
+        "link": "https://news.yahoo.co.jp/articles/22eb059ada64fea57c5a0240bbeb4f24ae8b409f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "京都市バスが「二重価格」導入へ　条例改正案を市議会に提出　トラブルや遅延といった懸念も(ABCニュース)",
         "summary": "京都市は、市民と市民以外で市バスの運賃を分ける、「二重価格」導入に向けた条例改正案を、市議会に提出しました。小型ロケット「カイロス」４号機が来年１月22日に打ち上げへ ４度目の挑戦 和歌山県串本町の発",
@@ -869,7 +874,7 @@
         "is_disaster": true
       },
       {
-        "title": "中日ドラゴンズの嶋コーチに罰金30万円 自転車と衝突(テレビ朝日系（ANN）)",
+        "title": "中日ドラゴンズの嶋コーチに罰金30万円　自転車と衝突(テレビ朝日系（ANN）)",
         "summary": "プロ野球中日ドラゴンズの嶋ヘッドコーチが略式起訴です。 嶋基宏コーチ（41）は8月、東京・小金井市で乗用車を運転中に飲食店の敷地に入ろうとしたところ、自転車に乗って歩道を走っていた女性にぶつかり、けが",
         "pub_date": "11/24 19:44 JST",
         "link": "https://news.yahoo.co.jp/articles/f312375ad04a12cb04b2a060653f22f8e92a85ad?source=rss",
@@ -893,12 +898,52 @@
         "is_disaster": true
       },
       {
-        "title": "南海トラフ地震が発生したら… 名古屋大学病院で災害対応訓練 状況把握やトリアージを実施 医療物資を運ぶロボットも登場(CBCテレビ)",
-        "summary": "南海トラフ地震の発生を想定して、名古屋の病院で災害対応訓練が行われました。訓練は愛知県の災害拠点病院に指定されている名古屋大学病院で行われました。南海トラフ地震で、震度6強が発生した想定で、約200人",
-        "pub_date": "11/24 19:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/0fe8007154752a43af4c6af410092ac682c72fed?source=rss",
+        "title": "25年の広島県の女性殺害容疑で男を逮捕へ(共同通信)",
+        "summary": "2025年6月、広島県庄原市の住宅で当時84歳の女性が殺害された事件で、広島県警が任意で事情聴取した男が関与を認める供述をしていることが24日、捜査関係者への取材で分かった。容疑が固まり次第、逮捕する",
+        "pub_date": "11/24 22:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/c1c27f7da323e52b59b959b49ee34ad38af3492b?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "〔急性呼吸器感染症定点当たり報告数まとめ〕全国の定点報告数71.30人・平均上回る水準(2026年第46週)(レスキューナウニュース)",
+        "summary": "11月24日、国立健康危機管理研究機構は都道府県別の急性呼吸器感染症（ARI）の定点当たり報告数を発表しました。今週の発表によると、第46週（11/9～11/15）の全国の急性呼吸器感染症の定点当たり",
+        "pub_date": "11/24 22:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/cff158f107332b81a22727b992dc03fc4a63fc54?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "和歌山県の宿泊税「一律200円」 県観光審議会が知事に報告書、令和10年度以降導入へ(産経新聞)",
+        "summary": "観光振興を目的に和歌山県が導入を目指す「宿泊税」について、県観光審議会は24日、「税額は一律200円とする」など宿泊税の制度設計案を踏まえた報告書を宮崎泉知事に提出した。県は令和10年度以降の導入を目",
+        "pub_date": "11/24 21:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/00e095df4ddbadb77df5bf37cff1671eb7f37fd1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "自民党麻生副総裁 アジア大会に言及「世界に恥をさらすような大会」国歌取り違えなどトラブル受け 大村愛知県知事「コメントは特にない」　(CBCテレビ)",
+        "summary": "愛知・名古屋で開催されたアジア大会について、自民党の麻生太郎副総裁は、「世界に恥をさらすような大会だった」と指摘しました。【写真を見る】自民党麻生副総裁 アジア大会に言及「世界に恥をさらすような大会」",
+        "pub_date": "11/24 21:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/31faa8cebc13993658f8a7e337fbb0bf007d8a88?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "日本のドラマやアニメの海外展開を後押しへ(テレビ朝日系（ANN）)",
+        "summary": "自民党は日本のアニメやドラマなどの海外展開を拡大するため、コンテンツ産業の支援に向けた緊急提言案を取りまとめました。 韓国などは国を挙げて支援団体を作り、コンテンツの海外展開に取り組んでいます。 提言",
+        "pub_date": "11/24 21:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/7331593e902da65881c5c8b7a0bd72583f655e9f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "住宅で血を流し女性死亡　広島、殺人事件か(共同通信)",
+        "summary": "24日午後5時20分ごろ、広島市安佐北区の住宅で「女性が血を流して倒れている」と付近の住民から110番があった。女性はその場で死亡が確認された。広島県警は殺人事件の可能性もあるとみて詳しい状況や死因を",
+        "pub_date": "11/24 21:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/93b96288e406550100cfab5a8020b433c6ffa661?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "「進展は全くなかった」ユニオン・ランチ破産手続き終結、退職金は約97％支払われるも有給の買い取りは認められず(FNNプライムオンライン)",
@@ -907,65 +952,9 @@
         "link": "https://news.yahoo.co.jp/articles/c73d32253c0e4c72064fcf42fd21dd6faa332651?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "【気象情報】気象庁の週間天気予報（24日発表）東⽇本と⻄⽇本は27⽇〜29⽇にかけて⾬または雪の降る所が...29日（日）にかけての雨風シミュレーション(RSK山陽放送)",
-        "summary": "■今後の天気は?気象庁がきょう（24日）発表した週間天気予報（25⽇〜12⽉1⽇）によりますと、北⽇本は、曇りや⾬または雪の降る⽇が多いでしょう。▼【画像でみる】29日（日）にかけての雨風シミュレーシ",
-        "pub_date": "11/24 21:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/27684a4c42aa6961b3c7ec132e76045b99bfbf3a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「置き配」の新ルール　国交省が指針案　指定場所に置いたら“完了”に　利用者側が意識すべきことは？(ABCニュース)",
-        "summary": "荷物を玄関先などに置いて届ける「置き配」について、国土交通省が２０日、宅配事業者向けの指針案を発表しました。ABCテレビの天本周一ニュース部長が解説します。京都市バス「二重価格」導入へ 条例改正案を市",
-        "pub_date": "11/24 21:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/348976487bb3163ef89ef5625d2142b0ead44998?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "重要土地法改正案、今国会成立へ　与野党賛成多数で衆院通過　外国政府の取得原則認めず(産経新聞)",
-        "summary": "安全保障上、重要な施設周辺などの土地・建物の取得に国籍を問わず国の事前許可制を導入する重要土地等調査法改正案は24日の衆院本会議で、与野党の賛成多数によって可決され、衆院を通過した。土地・建物の取得段",
-        "pub_date": "11/24 20:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/76c3e3dc50416dd7ac474f158600e7993b66761c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "児童養護施設で10歳未満の男児にわいせつな行為か　施設の元職員の男逮捕　埼玉県警(テレビ朝日系（ANN）)",
-        "summary": "さいたま市の児童養護施設で、10歳未満の男の子にわいせつな行為をしたとして、施設の元職員の男が逮捕されました。 柴野学容疑者（43）は2023年7月から1年ほどの間に、当時勤務していたさいたま市の児童",
-        "pub_date": "11/24 20:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/699d84aa03ecb6cb0c3166e6c8a1e79e1606fb2d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "兵庫県が8億6千万円増額の補正予算案 LPガス利用者の支援など(産経新聞)",
-        "summary": "兵庫県は24日、一般会計を約8億6000万円増額する令和8年度補正予算案を発表した。光熱費の高騰対策として、LPガス使用料金の負担軽減策や、特別高圧電力を利用する中小企業などへの料金支援を盛り込んだ。",
-        "pub_date": "11/24 20:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/16995450f0480ffc7f57d319a1ad768fffd853f8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "宿泊施設で面識ある10代女性にわいせつ行為 中学校教諭（44）を懲戒免職 10月に懲役7年の実刑判決を受け…即日控訴 三重･明和町(CBCテレビ)",
-        "summary": "10代女性にわいせつ行為。中学校教諭が懲戒免職処分となりました。三重県教育委員会によりますと、明和町立明和中学校の教諭・金本正義被告（44）は、おととし1月 県外の宿泊施設で、面識のある10代の女性に",
-        "pub_date": "11/24 20:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/27ee13dde325ca29a5b3daf90d74c5035f125960?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「目が閉じられない」女性客から相談が…“闇美容クリニック”に潜入取材 医師免許なしで美容整形を繰り返したか 男女3人逮捕 トラブルの実態【独自】(CBCテレビ)",
-        "summary": "医師免許がないにもかかわらず美容整形を繰り返したとして、ベトナム人の男女3人が逮捕されました。CBCは、いわゆる「闇美容クリニック」に潜入取材しました。【写真を見る】「目が閉じられない」女性客から相談",
-        "pub_date": "11/24 20:37 JST",
-        "link": "https://news.yahoo.co.jp/articles/fa7af9c94330ade8ef449f65f3b7045c7fcca68c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 21:23:45 JST"
+    "last_updated": "2026-11-24 22:44:32 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -986,10 +975,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "zaJSDRZ97yM",
+        "video_id": "RPd9xVy75Po",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/zaJSDRZ97yM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=zaJSDRZ97yM"
+        "embed_url": "https://www.youtube.com/embed/RPd9xVy75Po?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=RPd9xVy75Po"
       },
       {
         "id": "stream_tbsnews",
@@ -997,10 +986,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "flVkd04W9yw",
+        "video_id": "OmMBtyByuII",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/flVkd04W9yw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=flVkd04W9yw"
+        "embed_url": "https://www.youtube.com/embed/OmMBtyByuII?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=OmMBtyByuII"
       },
       {
         "id": "stream_ntvnews",
@@ -1019,10 +1008,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "ngBMgxd5jDA",
+        "video_id": "SZOrV1fWnPo",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/ngBMgxd5jDA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=ngBMgxd5jDA"
+        "embed_url": "https://www.youtube.com/embed/SZOrV1fWnPo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=SZOrV1fWnPo"
       },
       {
         "id": "stream_fnnnews",

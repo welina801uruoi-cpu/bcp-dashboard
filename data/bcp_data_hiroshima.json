@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 15:42:08",
+  "timestamp": "2026-11-24 16:44:38",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -74,11 +74,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-25 00:17",
-    "place": "薩摩半島西方沖",
-    "magnitude": "1.8",
+    "time": "2026-11-25 01:40",
+    "place": "大隅半島東方沖",
+    "magnitude": "3.9",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-25 01:40",
+        "place": "大隅半島東方沖",
+        "shindo": "1",
+        "magnitude": "3.9",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-25 00:17",
         "place": "薩摩半島西方沖",
@@ -141,13 +148,6 @@
         "shindo": "3",
         "magnitude": "-",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-23 22:22",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.2",
-        "maxScale": 10
       }
     ]
   },
@@ -190,10 +190,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -204,11 +204,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "強風注意報",
           "雷注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/32/"
       },
       {
@@ -219,11 +219,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "強風注意報",
           "雷注意報",
-          "強風注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報、強風注意報",
+        "summary": "強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/31/"
       },
       {
@@ -289,12 +289,6 @@
     "power_msg": "中国電力NW: 停電情報なし（中国エリア管内正常）",
     "power_outages": [
       {
-        "pref": "宮城県",
-        "region": "東北",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/04/",
-        "level": "poweroutageLevel1"
-      },
-      {
         "pref": "福島県",
         "region": "東北",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/07/",
@@ -319,21 +313,9 @@
         "level": "poweroutageLevel2"
       },
       {
-        "pref": "愛知県",
-        "region": "東海",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/23/",
-        "level": "poweroutageLevel1"
-      },
-      {
         "pref": "鹿児島県",
         "region": "九州",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/46/",
-        "level": "poweroutageLevel1"
-      },
-      {
-        "pref": "沖縄県",
-        "region": "沖縄",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/47/",
         "level": "poweroutageLevel1"
       }
     ],
@@ -446,7 +428,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/24 14:48",
@@ -492,7 +474,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/24 15:03",
@@ -835,8 +817,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 10,
     "articles": [
+      {
+        "title": "77歳運転の車逆走1人死亡　対向車と衝突、神奈川(共同通信)",
+        "summary": "24日午後5時半ごろ、神奈川県平塚市の小田原厚木道路下り線で、同県厚木市の無職柏光男さん（77）が軽乗用車で逆走し、同県小田原市の稲毛崇人さん（34）が運転する対向車と衝突した。稲毛さんは病院に搬送さ",
+        "pub_date": "11/25 00:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/7b2cb6ae442499fc344c1eccf4ee54e147a01c0f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "77歳運転の車が逆走事故、1人死亡(共同通信)",
         "summary": "神奈川県警によると、24日午後5時半ごろ、平塚市の小田原厚木道路で、厚木市の無職男性（77）が運転する軽乗用車が逆走し、対向してきた車と衝突した。対向車の男性（34）が死亡した。",
@@ -847,7 +837,7 @@
       },
       {
         "title": "「嫌がらせ　怖い思いを」後続車を踏切内に…JAF職員の被告の初公判(テレビ朝日系（ANN）)",
-        "summary": "踏切内に故意に車を止め、後続の車を電車と衝突させた罪に問われた男の初公判が行われました。加藤研一被告「嫌がらせ、怖い思いをという気持ちがあった」JAF職員の加藤研一被告（52）は、電汽車往来危険の罪に",
+        "summary": "踏切内に故意に車を止め、後続の車を電車と衝突させた罪に問われた男の初公判が行われました。【画像】三山ひろし、紅白「けん玉失敗」の危機を救った有吉弘行の意外な一面を明かす「相当練習していた」【徹子の部屋",
         "pub_date": "11/25 00:09 JST",
         "link": "https://news.yahoo.co.jp/articles/e09b729141948e86463ff0497e4672899fe16bb8?source=rss",
         "category": "国内・気象防災",
@@ -910,6 +900,30 @@
         "is_disaster": true
       },
       {
+        "title": "【速報】広島・庄原市 84歳女性殺害事件　55歳の男を逮捕(テレビ朝日系（ANN）)",
+        "summary": "去年6月、広島県庄原市の住宅で高齢女性が殺害された事件で、警察は東広島市に住む55歳の男を強盗殺人などの疑いで逮捕しました。",
+        "pub_date": "11/25 01:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/dbf7a4445af3ef65cbedbff3869419bc8e34ee43?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "＜独自＞非核三原則「引き続き維持」明記　持ち込ませず見直しも併記　有識者会議提言へ(産経新聞)",
+        "summary": "国家安全保障戦略など安保関連3文書改定を巡る政府の有識者会議が12月初旬にもまとめる提言で、非核三原則について「引き続き維持」と明記する方向で調整していることが24日、分かった。一方で、非核三原則のう",
+        "pub_date": "11/25 01:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/d071442fafd03efd39d92909ae109fae94f1e235?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【速報】去年6月に広島・庄原市で84歳の女性が殺害された事件で55歳の男を逮捕　警察(テレビ朝日系（ANN）)",
+        "summary": "去年6月、広島県庄原市の住宅で高齢女性が殺害された事件で、警察は東広島市に住む55歳の男を強盗殺人などの疑いで逮捕しました。 東広島市の会社員・山口修容疑者（55）は去年6月、庄原市の住宅で矢吹定代さ",
+        "pub_date": "11/25 00:45 JST",
+        "link": "https://news.yahoo.co.jp/articles/52285fe2a639a8b701790ebe6137f2b18f53cf03?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "広島県庄原市で強盗殺人疑い、55歳男逮捕(共同通信)",
         "summary": "2025年6月に広島県庄原市の住宅で当時84歳の女性が殺害された事件で、県警は24日、強盗殺人と住居侵入の疑いで広島県東広島市、会社員山口修容疑者（55）を逮捕した。",
         "pub_date": "11/25 00:31 JST",
@@ -924,41 +938,9 @@
         "link": "https://news.yahoo.co.jp/articles/ccd45801cdb57d0585e5d8217d90f35a053745b1?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "親族「長かった」1年5カ月で急展開　男から事情聴く　広島・庄原殺人事件(テレビ朝日系（ANN）)",
-        "summary": "去年6月、広島県庄原市の住宅で、1人暮らしの女性が殺害された事件で新たな動きです。広島県警は何らかの事情を知っているとみられる50代の男から話を聞いていることが分かりました。容疑が固まり次第、逮捕する",
-        "pub_date": "11/25 00:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/fc61788044cb8a1ecb16866f7b01d10808c4785d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "ICC赤根所長「支援を継続してほしい」“脱退”“圧力”相次ぐ中…高市総理と面会(テレビ朝日系（ANN）)",
-        "summary": "トランプ政権による制裁を受けてから初めて、ICC（国際刑事裁判所）の赤根智子所長が、高市総理と面会しました。ICC 赤根智子所長「総理からまずお話がありまして、ICCを含めて国際機関、特にICCですけ",
-        "pub_date": "11/25 00:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/f2202cba9ed26258ea363c75cfd1023cb0e3e7c5?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "東大正門紫にライトアップ　女性への暴力根絶25日まで(共同通信)",
-        "summary": "ジェンダーに基づくハラスメントや暴力を根絶しようと、東京大は内閣府が実施する「女性に対する暴力をなくす運動」に参加し、本郷キャンパス正門などを運動のシンボルである「パープルリボン」にちなみ紫色にライト",
-        "pub_date": "11/25 00:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/17497183e9cb7c4a8cd7006c01b92cc1d2b22444?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「血を流して倒れている」住宅で女性死亡　広島市(テレビ朝日系（ANN）)",
-        "summary": "広島市安佐北区の住宅で女性が血を流して倒れているのが見つかり、その後、死亡が確認されました。 警察によりますと、24日午後5時20分すぎ、広島市安佐北区安佐町の南が丘団地で「屋内で女性が血を流して倒れ",
-        "pub_date": "11/24 23:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/bba2b06928dd9796207131733dfb866164d5e85b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-25 00:41:40 JST"
+    "last_updated": "2026-11-25 01:43:56 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -1001,10 +983,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "VPk_-QLeZ1M",
+        "video_id": "UEtm3ky5iRU",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/VPk_-QLeZ1M?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=VPk_-QLeZ1M"
+        "embed_url": "https://www.youtube.com/embed/UEtm3ky5iRU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=UEtm3ky5iRU"
       },
       {
         "id": "stream_annnews",

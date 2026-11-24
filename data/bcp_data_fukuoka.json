@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 04:43:13",
+  "timestamp": "2026-11-24 05:39:07",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -194,10 +194,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "波浪注意報",
-          "霜注意報"
+          "霜注意報",
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、霜注意報",
+        "summary": "強風注意報、霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/40/"
       },
       {
@@ -236,11 +236,11 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "波浪注意報",
+          "雷注意報",
           "霜注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、霜注意報、雷注意報",
+        "summary": "強風注意報、雷注意報、霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -266,10 +266,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "波浪注意報",
-          "霜注意報"
+          "霜注意報",
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、霜注意報",
+        "summary": "強風注意報、霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -281,10 +281,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "波浪注意報",
-          "霜注意報"
+          "霜注意報",
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、霜注意報",
+        "summary": "強風注意報、霜注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/41/"
       }
     ]
@@ -364,21 +364,9 @@
         "level": "poweroutageLevel1"
       },
       {
-        "pref": "山形県",
-        "region": "東北",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/06/",
-        "level": "poweroutageLevel1"
-      },
-      {
         "pref": "福島県",
         "region": "東北",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/07/",
-        "level": "poweroutageLevel1"
-      },
-      {
-        "pref": "茨城県",
-        "region": "関東",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/08/",
         "level": "poweroutageLevel1"
       },
       {
@@ -545,7 +533,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/24 03:52",
@@ -594,16 +582,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/24 05:07",
+          "text": "@natsuseannco こんにちは！ START au END サポート岡野です。 いつもはご利用が出来ている場所でも START 繋がらない END 様子..."
+        },
+        {
           "time": "11/24 03:50",
           "text": "@iihawabeauty 突然失礼します、povoサポートです。電話が START 繋がらない END のは不便ですよね💦もしお乗り換えをお考えでしたら、安心..."
         },
         {
           "time": "11/24 03:32",
           "text": "@sibukisora どこか特定の場所で START 繋がらない END のでしょうか？💦差し支えなければ詳細をお伺いしたいです。 START au END ..."
-        },
-        {
-          "time": "11/24 02:44",
-          "text": "北九州メッセ（西日本総合展示場 新館）が楽天モバイルの START au END ローミング対象外になってから全く START 繋がらない END 問題 今週K..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -633,9 +621,9 @@
     }
   ],
   "sns_heatmap": {
-    "total_mentions": 1,
-    "top_region": "九州",
-    "top_count": 1,
+    "total_mentions": 0,
+    "top_region": "全国平穏",
+    "top_count": 0,
     "regions": [
       {
         "id": "hokkaido",
@@ -747,20 +735,12 @@
         "lat": 33.5904,
         "lon": 130.4017,
         "zoom": 8,
-        "count": 1,
+        "count": 0,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [
-          "九州"
-        ],
-        "sample_posts": [
-          {
-            "keyword": "au 繋がらない",
-            "time": "11/24 02:44",
-            "text": "北九州メッセ（西日本総合展示場 新館）が楽天モバイルの START au END ローミング対象外になってから全く START 繋がらない END 問題 今週K..."
-          }
-        ]
+        "detected_words": [],
+        "sample_posts": []
       },
       {
         "id": "okinawa",
@@ -777,27 +757,6 @@
       }
     ],
     "ranking": [
-      {
-        "id": "kyushu",
-        "name": "九州",
-        "lat": 33.5904,
-        "lon": 130.4017,
-        "zoom": 8,
-        "count": 1,
-        "level": "NORMAL",
-        "color": "#10b981",
-        "status_label": "平常・平穏",
-        "detected_words": [
-          "九州"
-        ],
-        "sample_posts": [
-          {
-            "keyword": "au 繋がらない",
-            "time": "11/24 02:44",
-            "text": "北九州メッセ（西日本総合展示場 新館）が楽天モバイルの START au END ローミング対象外になってから全く START 繋がらない END 問題 今週K..."
-          }
-        ]
-      },
       {
         "id": "hokkaido",
         "name": "北海道",
@@ -903,6 +862,19 @@
         "sample_posts": []
       },
       {
+        "id": "kyushu",
+        "name": "九州",
+        "lat": 33.5904,
+        "lon": 130.4017,
+        "zoom": 8,
+        "count": 0,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
+        "detected_words": [],
+        "sample_posts": []
+      },
+      {
         "id": "okinawa",
         "name": "沖縄",
         "lat": 26.2124,
@@ -934,8 +906,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "存続の危機“在来種ソバ”の幻の一杯を求めて　新そばまつりに長蛇の列　大雨被害の坂井市丸岡　農家が“生き残り”のソバを提供し実現(FNNプライムオンライン)",
+        "summary": "福井県坂井市の丸岡町で毎年、恒例となっている「新そばまつり」。今年は例年とは全く違う状況の中で開かれた。8月末の記録的な大雨でソバ畑がほぼ100％冠水し、この地域の在来種ソバが存続の危機となったのだ。",
+        "pub_date": "11/24 14:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/c76ce6e0062d9db75a644cd9ba065800be07c8db?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "「銀行口座を調べる」「他言したら逮捕」　ニセ警察詐欺で大阪の60代男性が1億円超被害(産経新聞)",
         "summary": "大阪府警特殊詐欺捜査課は24日、大阪府内に住む無職の60代男性が「ニセ警察詐欺」の手口で、現金1億254万円をだましとられる被害に遭ったと発表した。同課によると男性は9月、福岡県警捜査2課の「ヤマシタ",
@@ -985,22 +965,6 @@
         "is_disaster": true
       },
       {
-        "title": "今年最後の3連休　最終日は寒さ一段と　東京都心は4.3℃　イチョウ並木色づく(テレビ朝日系（ANN）)",
-        "summary": "3連休最終日の23日、行楽地は激しい寒さに見舞われました。箱根では車が正面衝突する事故が発生し、5人がけがをしました。■犬も厚着で寒さしのぐ 今年最後の3連休の最終日だった23日。機会を待っていたかの",
-        "pub_date": "11/24 12:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/b6909cca2d59e20111ff87c9562f61aa218295b3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【今後の雨と雪】落雷・竜巻　激しい雨に注意　前線通過後　北風強まる　冬型の気圧配置へ【1時間ごと雨風シミュレーション26日（木）まで/ 全国の天気予報】気象庁「気象解説情報」(MBC南日本放送)",
-        "summary": "■【大気の状態が非常に不安定】気象庁によると、前線を伴う低気圧が日本海を北東へ進み、24日（火）夜にかけて寒冷前線が本州を通り、日本の東へ進む見込みです。【▶画像を見る】「大気の状態不安定」雨のあと",
-        "pub_date": "11/24 12:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/6f09d0a5a734452efa449be2afb3d3544c012f5d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "辺野古事故受け7割が校外活動点検",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/24 13:07 JST",
@@ -1009,55 +973,63 @@
         "is_disaster": true
       },
       {
-        "title": "トラックにはねられ18歳の女子高校生が死亡　運転手の男 現行犯逮捕(テレビ朝日系（ANN）)",
-        "summary": "埼玉県加須市の国道で、自転車に乗っていた18歳の女子高校生が大型トラックにはねられ、死亡しました。警察はトラックを運転していた55歳の男を現行犯逮捕しました。鳥島久寿容疑者(55)は、午前7時ごろ、加",
-        "pub_date": "11/24 13:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/a3dbb1994c9d591841cb03298df04d74de86884d?source=rss",
+        "title": "暖冬・少雪傾向だが　気温の変動が大きい可能性　気象庁3か月予報(ウェザーマップ)",
+        "summary": "気象庁は24日（火）、向こう3か月（12月～2027年2月）の天候の見通しを発表しました。今冬は寒気の影響が小さいため、東・西日本と沖縄・奄美で気温が高い見込み。ただ、一時的に寒気の影響を受ける可能性",
+        "pub_date": "11/24 14:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/b96fc646b8ff01fffff052a8f725785126e44899?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "自民・萩生田氏「非礼目的でなく突発的」　首相の中国到着時タラップ段差(産経新聞)",
-        "summary": "自民党の萩生田光一幹事長代行は24日の記者会見で、高市早苗首相がアジア太平洋経済協力会議（APEC）首脳会議出席のため中国・深圳の空港に到着した際、機体とタラップの間に段差があった問題について「中国側",
-        "pub_date": "11/24 13:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/56f3cef5aede8990fe1088f09462561e44daa5d6?source=rss",
+        "title": "栃木・鹿沼市でクマらしき動物の目撃情報 市が注意呼びかけ(ABEMA TIMES)",
+        "summary": "栃木県鹿沼市が公式Xで、クマらしき動物の目撃情報について発表しました。「11月22日、15時50分頃に鹿沼市樅山町地内（生子神社北340m付近）で、クマらしき動物の目撃情報がありました。（覚知時刻は1",
+        "pub_date": "11/24 14:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/296c886301a11fc1f2ee0bf1e4cc71e789ccfbb4?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「スコップは捏造の疑いが強い」鹿児島の大崎事件、確定判決の証拠に“疑義”(西日本新聞me)",
-        "summary": "鹿児島県で1979年に男性の遺体が見つかった「大崎事件」で、男性宅の牛小屋で発見され死体遺棄に使われたと確定判決が認定したスコップが、発見4日前の事件発覚時には発見地点になかったことが、捜査資料から分",
-        "pub_date": "11/24 13:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/2de50584c54c747746044cc6fa3a8e256f0a6586?source=rss",
+        "title": "埼玉・飯能市でイノシシの目撃情報相次ぐ 県警が呼びかけ(ABEMA TIMES)",
+        "summary": "埼玉県警察本部生活安全総務課が公式Xで、飯能市でのイノシシの出没について発表しました。【映像】埼玉・飯能市 イノシシの目撃情報「11月24日（火）午前10時25分ころ、美杉台7丁目地内で、イノシシ（体",
+        "pub_date": "11/24 14:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/a560d70c93492f2f06919f529c713f7877a54bca?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "国内初のエボラ患者を想定し政府が訓練　アフリカでの流行を受け初実施(テレビ朝日系（ANN）)",
-        "summary": "政府は、国内で初めてとなるエボラ出血熱の患者が確認された想定での訓練を行いました。高市総理【訓練】「今般、我が国で初のエボラ出血熱の患者が確認されました。｣24日の訓練は、国内で初めてエボラ出血熱の患",
-        "pub_date": "11/24 13:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/4a272ccf334779a5ba3d75f72556941022c8c823?source=rss",
+        "title": "【動画解説】前線通過で広く雨　通過後は寒気流れ込み 日本海側中心に広く雪(ウェザーマップ)",
+        "summary": "きょう（火）は前線が通過し広く雨が降り、風も強まりそうです。大気の状態が不安定で、激しい雷雨にも注意が必要です。 前線通過後は寒気が流れ込み、日本海側を中心に再び雪が降る予想です。",
+        "pub_date": "11/24 14:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/08d4dcb2ce306ab4526ec0a7903594200be380e7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「高市さんが嫌われた、嫌われていない話ばかり」玉木氏、外交報道に苦言「俯瞰した目で」(産経新聞)",
-        "summary": "国民民主党の玉木雄一郎代表は24日の記者会見で、アジア太平洋経済協力会議（APEC）首脳会議に合わせて開かれた米中露3カ国首脳会談について「インパクトがある」と語った。高市早苗首相に対するホスト国・中",
-        "pub_date": "11/24 13:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/c89a851b2b547ca2ff236af673dd46605fbe2b37?source=rss",
+        "title": "JR芸備線、国がバス転換を骨子案で提示(共同通信)",
+        "summary": "岡山、広島両県にまたがるJR芸備線の一部区間の存廃を議論する「再構築協議会」で、国土交通省中国運輸局は24日、鉄道を廃止してバスに転換する方針を提示した。結論取りまとめに向けた骨子案に明記した。",
+        "pub_date": "11/24 14:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/ba3f009a2cdae2276634f862d6e250d2475ca46c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "土地利用規制法改正案が衆院通過(共同通信)",
-        "summary": "自衛隊基地周辺などの安全保障上重要な土地取得に事前許可制を導入する土地利用規制法改正案が24日、衆院本会議で賛成多数により可決され、衆院を通過した。",
-        "pub_date": "11/24 13:19 JST",
-        "link": "https://news.yahoo.co.jp/articles/8ed9bab270725cbefd97f68da84606e2f072694b?source=rss",
+        "title": "【最新】気象庁の週間天気予報（11月25日〜12月1日）　低気圧や前線通過…各地の天気はどうなる?　今後の雨風シミュレーションも(BSS山陰放送)",
+        "summary": "気象庁が11月24日に発表した週間天気予報によりますと、11月25日から12月1日までの期間は、低気圧や前線が通過するため、全国的に天気が崩れる日がある見込みです。【画像を見る】12月4日にかけての降",
+        "pub_date": "11/24 14:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/2321a064215626dd14c6215432741270959ac8e7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "軽井沢駅近くでクマ出没か　複数の情報「怖い 不安」(テレビ朝日系（ANN）)",
+        "summary": "長野県の軽井沢駅の近くで23日、クマの目撃情報が複数あり、警察などが注意を呼び掛けています。 23日午後6時半すぎ、軽井沢駅から約700メートルの交差点近くで「大型犬の大きさくらいのクマ1頭が北西方向",
+        "pub_date": "11/24 14:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/598cf751e0139c475ccefd0863eea1bb9fd3e583?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 13:42:16 JST"
+    "last_updated": "2026-11-24 14:38:11 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -1100,10 +1072,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "Sjd8sZ8A_78",
+        "video_id": "iVHVC5dhd9o",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/Sjd8sZ8A_78?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=Sjd8sZ8A_78"
+        "embed_url": "https://www.youtube.com/embed/iVHVC5dhd9o?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=iVHVC5dhd9o"
       },
       {
         "id": "stream_annnews",
@@ -1111,10 +1083,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "RkH_r3Drloc",
+        "video_id": "CQlSaTJkZQ4",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/RkH_r3Drloc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=RkH_r3Drloc"
+        "embed_url": "https://www.youtube.com/embed/CQlSaTJkZQ4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=CQlSaTJkZQ4"
       },
       {
         "id": "stream_fnnnews",

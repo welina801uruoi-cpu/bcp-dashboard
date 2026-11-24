@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-25 01:45:12",
-  "timestamp_local": "2026-11-24 23:45:12",
+  "timestamp": "2026-11-25 02:32:04",
+  "timestamp_local": "2026-11-25 00:32:04",
   "country": {
     "id": "vietnam",
     "name": "ベトナム",
@@ -601,14 +601,14 @@
     "default_channel_id": "stream_vtv_live"
   },
   "forex": {
-    "timestamp": "11/25 01:45 JST",
+    "timestamp": "11/25 02:32 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.2,
-      "change": 0.27,
-      "change_pct": 0.17,
+      "rate": 159.25,
+      "change": 0.32,
+      "change_pct": 0.2,
       "direction": "up"
     },
     "local_jpy": {
@@ -624,9 +624,9 @@
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.58,
-      "change": 0.2,
-      "change_pct": 0.12
+      "rate": 174.71,
+      "change": 0.34,
+      "change_pct": 0.19
     }
   },
   "airports": [
@@ -669,23 +669,15 @@
         "is_capital": true,
         "lat": 21.0285,
         "lon": 105.8542,
-        "temp": 18.3,
-        "apparent_temp": 16.8,
-        "humidity": 62,
-        "wind_speed": 11.5,
-        "wind_gusts": 23.4,
+        "temp": 17.9,
+        "apparent_temp": 16.6,
+        "humidity": 65,
+        "wind_speed": 11.2,
+        "wind_gusts": 21.6,
         "precipitation": 0.0,
         "weather_code": 3,
         "weather_label": "☁️ 曇り",
         "forecast": [
-          {
-            "date": "11/24(火)",
-            "temp_max": 23.0,
-            "temp_min": 18.2,
-            "weather_code": 80,
-            "weather_label": "🌧️ にわか雨 (弱)",
-            "precipitation_mm": 6.4
-          },
           {
             "date": "11/25(水)",
             "temp_max": 19.6,
@@ -698,6 +690,14 @@
             "date": "11/26(木)",
             "temp_max": 22.6,
             "temp_min": 13.8,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/27(金)",
+            "temp_max": 25.2,
+            "temp_min": 16.4,
             "weather_code": 3,
             "weather_label": "☁️ 曇り",
             "precipitation_mm": 0.0
@@ -714,23 +714,15 @@
         "is_capital": false,
         "lat": 10.8231,
         "lon": 106.6297,
-        "temp": 26.6,
-        "apparent_temp": 32.7,
-        "humidity": 91,
-        "wind_speed": 4.9,
-        "wind_gusts": 10.1,
+        "temp": 26.2,
+        "apparent_temp": 32.2,
+        "humidity": 93,
+        "wind_speed": 5.2,
+        "wind_gusts": 10.4,
         "precipitation": 0.0,
         "weather_code": 2,
         "weather_label": "⛅ 晴れ時々曇り",
         "forecast": [
-          {
-            "date": "11/24(火)",
-            "temp_max": 34.5,
-            "temp_min": 25.8,
-            "weather_code": 53,
-            "weather_label": "🌦️ 霧雨 (中)",
-            "precipitation_mm": 1.8
-          },
           {
             "date": "11/25(水)",
             "temp_max": 34.0,
@@ -746,6 +738,14 @@
             "weather_code": 55,
             "weather_label": "🌦️ 霧雨 (強)",
             "precipitation_mm": 1.7
+          },
+          {
+            "date": "11/27(金)",
+            "temp_max": 33.6,
+            "temp_min": 25.4,
+            "weather_code": 53,
+            "weather_label": "🌦️ 霧雨 (中)",
+            "precipitation_mm": 2.9
           }
         ],
         "alert": "平常",
@@ -759,23 +759,15 @@
         "is_capital": false,
         "lat": 16.0544,
         "lon": 108.2022,
-        "temp": 23.9,
-        "apparent_temp": 28.1,
-        "humidity": 94,
-        "wind_speed": 8.7,
-        "wind_gusts": 21.2,
-        "precipitation": 1.0,
-        "weather_code": 81,
-        "weather_label": "🌧️ にわか雨 (中)",
+        "temp": 24.2,
+        "apparent_temp": 27.9,
+        "humidity": 93,
+        "wind_speed": 11.4,
+        "wind_gusts": 24.1,
+        "precipitation": 0.2,
+        "weather_code": 53,
+        "weather_label": "🌦️ 霧雨 (中)",
         "forecast": [
-          {
-            "date": "11/24(火)",
-            "temp_max": 28.6,
-            "temp_min": 23.1,
-            "weather_code": 81,
-            "weather_label": "🌧️ にわか雨 (中)",
-            "precipitation_mm": 10.5
-          },
           {
             "date": "11/25(水)",
             "temp_max": 25.6,
@@ -791,12 +783,20 @@
             "weather_code": 81,
             "weather_label": "🌧️ にわか雨 (中)",
             "precipitation_mm": 29.0
+          },
+          {
+            "date": "11/27(金)",
+            "temp_max": 27.0,
+            "temp_min": 23.7,
+            "weather_code": 82,
+            "weather_label": "⛈️ 激しいにわか雨",
+            "precipitation_mm": 44.7
           }
         ],
-        "alert": "平常",
-        "alert_badge": "🟢 平常・平穏",
-        "alert_class": "green",
-        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+        "alert": "気象注意",
+        "alert_badge": "🟡 気象注意",
+        "alert_class": "yellow",
+        "alert_desc": "降雨または視程低下あり。通常行動可能"
       }
     ],
     "capital": {
@@ -805,23 +805,15 @@
       "is_capital": true,
       "lat": 21.0285,
       "lon": 105.8542,
-      "temp": 18.3,
-      "apparent_temp": 16.8,
-      "humidity": 62,
-      "wind_speed": 11.5,
-      "wind_gusts": 23.4,
+      "temp": 17.9,
+      "apparent_temp": 16.6,
+      "humidity": 65,
+      "wind_speed": 11.2,
+      "wind_gusts": 21.6,
       "precipitation": 0.0,
       "weather_code": 3,
       "weather_label": "☁️ 曇り",
       "forecast": [
-        {
-          "date": "11/24(火)",
-          "temp_max": 23.0,
-          "temp_min": 18.2,
-          "weather_code": 80,
-          "weather_label": "🌧️ にわか雨 (弱)",
-          "precipitation_mm": 6.4
-        },
         {
           "date": "11/25(水)",
           "temp_max": 19.6,
@@ -837,6 +829,14 @@
           "weather_code": 3,
           "weather_label": "☁️ 曇り",
           "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/27(金)",
+          "temp_max": 25.2,
+          "temp_min": 16.4,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
         }
       ],
       "alert": "平常",
@@ -844,7 +844,7 @@
       "alert_class": "green",
       "alert_desc": "平穏な気象状況。特段の警戒事項なし"
     },
-    "timestamp": "11/25 01:45 JST"
+    "timestamp": "11/25 02:32 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -873,7 +873,7 @@
         "details": "南北統一鉄道各便平常運行中"
       }
     ],
-    "timestamp": "11/25 01:45 JST"
+    "timestamp": "11/25 02:32 JST"
   },
   "lifeline": {
     "status": "NORMAL",

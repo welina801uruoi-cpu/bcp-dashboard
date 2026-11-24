@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 16:43:10",
+  "timestamp": "2026-11-24 17:30:32",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -113,11 +113,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-25 00:17",
-    "place": "薩摩半島西方沖",
-    "magnitude": "1.8",
+    "time": "2026-11-25 01:40",
+    "place": "大隅半島東方沖",
+    "magnitude": "3.9",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-25 01:40",
+        "place": "大隅半島東方沖",
+        "shindo": "1",
+        "magnitude": "3.9",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-25 00:17",
         "place": "薩摩半島西方沖",
@@ -180,13 +187,6 @@
         "shindo": "3",
         "magnitude": "-",
         "maxScale": 30
-      },
-      {
-        "time": "2026-11-23 22:22",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "2.2",
-        "maxScale": 10
       }
     ]
   },
@@ -217,10 +217,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "雷注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "強風注意報、雷注意報、波浪注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -232,10 +232,10 @@
         "warns": [],
         "notices": [
           "強風注意報",
-          "波浪注意報",
-          "濃霧注意報"
+          "濃霧注意報",
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、濃霧注意報",
+        "summary": "強風注意報、濃霧注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/12/"
       },
       {
@@ -314,10 +314,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "濃霧注意報"
+          "強風注意報"
         ],
-        "summary": "強風注意報、濃霧注意報",
+        "summary": "強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/19/"
       }
     ]
@@ -330,20 +329,15 @@
     "notice_items": []
   },
   "transit": {
-    "status": "ALERT",
-    "text": "運行支障あり（在来線: 中央線、中央本線 ／ 新幹線: 北陸新幹線（列車遅延））",
-    "line_status": "ALERT",
-    "line_text": "運行支障あり（中央線、中央本線）",
-    "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（北陸新幹線（列車遅延））",
+    "status": "NORMAL",
+    "text": "全線平常運行中",
+    "line_status": "NORMAL",
+    "line_text": "全線平常運行中",
+    "shinkansen_status": "NORMAL",
+    "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
-    "troubled_lines": [
-      "中央線",
-      "中央本線"
-    ],
-    "troubled_shinkansen": [
-      "北陸新幹線（列車遅延）"
-    ],
+    "troubled_lines": [],
+    "troubled_shinkansen": [],
     "shinkansen_details": [
       {
         "name": "東海道新幹線",
@@ -368,9 +362,9 @@
       },
       {
         "name": "北陸新幹線",
-        "status": "ALERT",
-        "state": "列車遅延",
-        "detail": "敦賀駅での接続待ちの影響で、富山〜敦賀駅間の上り線(富山方面行)の一部列車に遅れが出ています。（11月24日 17時50分掲載）",
+        "status": "NORMAL",
+        "state": "平常運転",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/624/0"
       },
       {
@@ -435,12 +429,6 @@
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
         "level": "poweroutageLevel2"
-      },
-      {
-        "pref": "鹿児島県",
-        "region": "九州",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/46/",
-        "level": "poweroutageLevel1"
       }
     ],
     "water_msg": "東京都水道局: 管内大規模断水・漏水なし",
@@ -942,8 +930,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 11,
     "articles": [
+      {
+        "title": "JR中央線「高蔵寺〜中津川」駅間が約6時間半にわたり運転見合わせ 鳥が列車のパンタグラフにぶつかり変形したことが原因か JR東海(CBCテレビ)",
+        "summary": "24日（火）午後、JR東海・中央線の一部区間で、一時運転を見合わせました。鳥が列車にぶつかったことが原因とみられます。【写真を見る】JR中央線「高蔵寺〜中津川」駅間が約6時間半にわたり運転見合わせ 鳥",
+        "pub_date": "11/25 02:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/6baecfb2bfb41ab6ab5290508c088203b2e290fa?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "77歳運転の車逆走1人死亡　対向車と衝突、神奈川(共同通信)",
         "summary": "24日午後5時半ごろ、神奈川県平塚市の小田原厚木道路下り線で、同県厚木市の無職柏光男さん（77）が軽乗用車で逆走し、同県小田原市の稲毛崇人さん（34）が運転する対向車と衝突した。稲毛さんは病院に搬送さ",
@@ -1055,17 +1051,9 @@
         "link": "https://news.yahoo.co.jp/articles/be9f3f0fbe2eca80deea4464a9b5d0d82864c05f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "【独自】ブラジル人と中高生の計5人を再逮捕へ…住宅で高齢女性が襲われた事件で強盗殺人未遂の疑い 実行役と運転役に分かれ犯行か(東海テレビ)",
-        "summary": "愛知県小牧市の住宅で高齢女性が襲われた事件で、警察は事件への関与が強まったとして、中学生の少年ら5人を強盗殺人未遂の疑いで25日にも再逮捕する方針を固めたことが分かりました。 今月15日、小牧市小針の",
-        "pub_date": "11/25 00:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/ccd45801cdb57d0585e5d8217d90f35a053745b1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-25 01:42:55 JST"
+    "last_updated": "2026-11-25 02:30:21 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",

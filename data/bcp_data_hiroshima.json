@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 22:22:12",
+  "timestamp": "2026-11-24 23:18:12",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -73,12 +73,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-25 06:46",
+    "shindo": "1",
+    "time": "2026-11-25 07:20",
     "place": "福島県会津",
-    "magnitude": "3.8",
+    "magnitude": "3.4",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-25 07:20",
+        "place": "福島県会津",
+        "shindo": "1",
+        "magnitude": "3.4",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-25 06:46",
         "place": "福島県会津",
@@ -141,13 +148,6 @@
         "shindo": "2",
         "magnitude": "3.1",
         "maxScale": 20
-      },
-      {
-        "time": "2026-11-24 03:33",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "3",
-        "maxScale": 10
       }
     ]
   },
@@ -190,10 +190,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -244,15 +244,15 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 芸備線、山陰本線、呉線 ／ 新幹線: 山陽新幹線（その他））",
+    "text": "運行支障あり（在来線: 山陰本線、芸備線、呉線 ／ 新幹線: 山陽新幹線（その他））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（芸備線、山陰本線、呉線）",
+    "line_text": "運行支障あり（山陰本線、芸備線、呉線）",
     "shinkansen_status": "ALERT",
     "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
     "troubled_lines": [
-      "芸備線",
       "山陰本線",
+      "芸備線",
       "呉線"
     ],
     "troubled_shinkansen": [
@@ -291,6 +291,12 @@
         "level": "poweroutageLevel1"
       },
       {
+        "pref": "岩手県",
+        "region": "東北",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/03/",
+        "level": "poweroutageLevel1"
+      },
+      {
         "pref": "山形県",
         "region": "東北",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/06/",
@@ -312,18 +318,6 @@
         "pref": "長野県",
         "region": "信越",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/20/",
-        "level": "poweroutageLevel1"
-      },
-      {
-        "pref": "富山県",
-        "region": "北陸",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/16/",
-        "level": "poweroutageLevel1"
-      },
-      {
-        "pref": "福井県",
-        "region": "北陸",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/18/",
         "level": "poweroutageLevel1"
       },
       {
@@ -448,8 +442,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/24 23:06",
+          "text": "【通信 START 障害 END ・復旧情報】 大雪による START au END ・UQ・povoなどの通信 START 障害 END は11/24 20:..."
+        },
         {
           "time": "11/24 18:01",
           "text": "なんか通信 START 障害 END 起きてますか…？ START au END とか…Safariで検索できなくて設定も重くて何故かサファリのキーボードが使え..."
@@ -457,10 +455,6 @@
         {
           "time": "11/24 14:48",
           "text": "START au END 彼女と、新宿藤沢施設やめて情報やめてくたさい じふんの田代の子供と井上裕介子供かわいそうおもう 真面目 START 障害 END 文化..."
-        },
-        {
-          "time": "11/24 13:47",
-          "text": "日曜日の3時過ぎ、WiFiがいきなり使えなくなり光テレビは映らず、固定電話も使えず、スマホは🛜マークが付くのにネット使えず、 START au END に電話し..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -494,7 +488,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/24 22:05",
@@ -517,8 +511,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/24 23:06",
+          "text": "【通信 START 障害 END ・復旧情報】 大雪によるau・UQ・ START povo END などの通信 START 障害 END は11/24 20:..."
+        },
         {
           "time": "11/23 10:26",
           "text": "【通信はライフラインです📶】 災害や通信 START 障害 END で、 メイン回線が使えなくなることも。 楽天モバイルなら約1,000円で3GB＋通話かけ放題..."
@@ -526,10 +524,6 @@
         {
           "time": "11/23 10:23",
           "text": "【通信 START 障害 END への備えに、もう1回線📱】 普段と違う回線を予備に。 楽天モバイルなら3GBまで税込1,078円。 更に国内通話はかけ放題無料..."
-        },
-        {
-          "time": "11/22 16:07",
-          "text": "auにMNPした後、サブ回線どうするか問題。 START povo END はau回線なので、通信 START 障害 END 対策にならない。 SoftBank..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -837,8 +831,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 6,
     "articles": [
+      {
+        "title": "拉致解決へ機運醸成を「北朝鮮人権侵害問題啓発週間」　東京都がオンライン写真展など(産経新聞)",
+        "summary": "北朝鮮による日本人拉致問題の全面解決に向けて、東京都は「北朝鮮人権侵害問題啓発週間」（12月10日～16日）にあわせ、都民の間での機運醸成を図る。都は拉致を重大な人権侵害だと非難し、全被害者の帰国を訴",
+        "pub_date": "11/25 08:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/6167e5be49d0d5ea238cb00c77d8119a12362dc5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "「右側を歩け」と肩ドン、スマホ破損も…被害女性が明かす「ぶつかりおじさん」の狼藉　“やり返してこなそうな相手に攻撃が向かう”と犯罪心理学者が分析(デイリー新潮)",
         "summary": "すれ違いざまに頬をたたき、背後から跳び蹴り――。東京・神田神保町で通りすがりの女性に暴行を加えた疑いで、39歳の無職の男が逮捕された。男は神保町駅周辺で約15分の間に、面識のない女性7人に次々と暴行を",
@@ -880,36 +882,44 @@
         "is_disaster": true
       },
       {
-        "title": "秋田で住宅火災、2人連絡取れず　大仙市、高齢夫婦か(共同通信)",
-        "summary": "25日午前0時20分ごろ、秋田県大仙市豊岡西八日市の住民から「隣の家が火事で、逃げ遅れた人がいるかもしれない」と119番があった。大仙署によると、出火した家に住む90代の夫と80代の妻とみられる男女と",
-        "pub_date": "11/25 04:23 JST",
-        "link": "https://news.yahoo.co.jp/articles/ec04daa0c748b2456eedd0483c81e1cb4cae6f76?source=rss",
+        "title": "奈良県、70歳以上の運転をスマホで可視化 安全運転支援事業で50人追加募集　参加無料(産経新聞)",
+        "summary": "奈良県の山下真知事は24日の定例会見で、70歳以上の高齢ドライバーを対象に専用の車載器を貸し出し、運転状況をスマートフォンで可視化する「高齢者安全運転支援事業」について50人を追加募集すると発表した。",
+        "pub_date": "11/25 08:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/447b2b30fd87836f60109245ecd01d0d75af1beb?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "JR中央線「高蔵寺〜中津川」駅間が約6時間半にわたり運転見合わせ 鳥が列車のパンタグラフにぶつかり変形したことが原因か JR東海(CBCテレビ)",
-        "summary": "24日（火）午後、JR東海・中央線の一部区間で、一時運転を見合わせました。鳥が列車にぶつかったことが原因とみられます。【写真を見る】JR中央線「高蔵寺〜中津川」駅間が約6時間半にわたり運転見合わせ 鳥",
-        "pub_date": "11/25 02:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/6baecfb2bfb41ab6ab5290508c088203b2e290fa?source=rss",
+        "title": "立ちんぼからネットカフェへ…再び広がる「ネカフェ売春」若い女性と客が密室へ移る知られざる実態(FRIDAY)",
+        "summary": "ズラリと並んだ小部屋の中に、一人の男性客が入室する。それから間もなく、今度は若い女性が同じ部屋の中へと姿を消した。少し前に性犯罪の温床として問題視された「ネカフェ売春」が、いま再び増加している――。【",
+        "pub_date": "11/25 08:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/0ca47f482307abe0dfca2b051274149508821c86?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "77歳運転の車逆走1人死亡　対向車と衝突、神奈川(共同通信)",
-        "summary": "24日午後5時半ごろ、神奈川県平塚市の小田原厚木道路下り線で、同県厚木市の無職柏光男さん（77）が軽乗用車で逆走し、同県小田原市の稲毛崇人さん（34）が運転する対向車と衝突した。稲毛さんは病院に搬送さ",
-        "pub_date": "11/25 00:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/7b2cb6ae442499fc344c1eccf4ee54e147a01c0f?source=rss",
+        "title": "【動画】25日の天気 - 北日本はふぶき 北陸は雷雨の恐れ　太平洋側は晴れるも北風冷たく空気は乾燥（25日7時更新）(ウェザーマップ)",
+        "summary": "きょう25日(水)は午前を中心に冬型の気圧配置になり、北日本の日本海側を中心に雪やふぶきとなるでしょう。北陸の平地は雨が降り、雷を伴う恐れがあります。太平洋側は晴れて空気が乾燥するでしょう。",
+        "pub_date": "11/25 07:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/8e4dcc1a30b5989b6a294bea6c8e3b2441f68bbc?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "逆走車に衝突されたか 運転手死亡",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/24 23:55 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6603855?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
+        "title": "米価下落でも「まだ高い」の声も　茶碗1杯62円、他食品と比較すると(日本農業新聞)",
+        "summary": "米は、本当にまだ高いのか――。米の店頭価格の下落を受け、交流サイト（SNS）上などでは、農家が経営を続けられる米価なのか心配する声がある一方、「今までに比べたらまだ高い」といったコメントも見られる。現",
+        "pub_date": "11/25 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/e2e7c6c70acdfe378167f283c73c22c511b3d489?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "サイバー攻撃をされた企業は本当に「身代金」を払っていないのか　アメリカでは「38億円」支払った事例も…専門家が語る“意外な実態”(AERA DIGITAL)",
+        "summary": "「犯人からの要求には永久に応じない」。10月下旬、傘下企業が不正アクセスを受け、ハッカー集団から5千万ドル（約80億円）を要求されたGMOインターネットグループは、支払いを断固拒否すると発表した。だが",
+        "pub_date": "11/25 07:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/95b70973ea91fab86f2feb394d65866839eb731c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "《セーラームーンのBGMに合わせて》シンガポール外務省が公開した「愛子さま歓迎動画」が大反響、異例の“粋な演出”に込められた敬意とは(NEWSポストセブン)",
@@ -942,25 +952,9 @@
         "link": "https://news.yahoo.co.jp/articles/d9b517ce4529084c2e5b0ff10e3ba694b245c29c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "個人情報の漏洩「無責任にもほどがある」「退会手続きをした」　企業対応に憤りや不安の声(withnews by 朝日新聞)",
-        "summary": "企業などへの不正アクセスによる、個人情報の漏洩（ろうえい）が相次いでいます。氏名・住所・メールアドレスなどのほか、免許証やパスポートなど本人確認書類の情報、サービス利用履歴まで漏れたケースも。こうした",
-        "pub_date": "11/25 07:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/f374d068b40e0b6d16b5e0c725de2ff3072c1f47?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【全文公開】『JPドラゴン』ナンバー2 山本好孝容疑者「拘束の瞬間」現場写真(FRIDAY)",
-        "summary": "「もうボスも終わりだ。俺は捕まりたくねぇよ……」長らくフィリピンの闇社会を牛耳ってきた日本人犯罪組織『JPドラゴン』のトップ、吉岡竜司容疑者(56)が逮捕されたとき、男はこう漏らした。逃亡生活を続けて",
-        "pub_date": "11/25 07:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/16a9ae49f199d8b36e557c6c298e906ffac56cbf?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-25 07:21:59 JST"
+    "last_updated": "2026-11-25 08:17:42 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -981,10 +975,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "PzKa5vyadsI",
+        "video_id": "ZC-j30L6rwg",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/PzKa5vyadsI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=PzKa5vyadsI"
+        "embed_url": "https://www.youtube.com/embed/ZC-j30L6rwg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=ZC-j30L6rwg"
       },
       {
         "id": "stream_tbsnews",

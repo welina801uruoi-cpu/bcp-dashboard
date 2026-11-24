@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 10:16:45",
+  "timestamp": "2026-11-24 11:17:11",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -173,10 +173,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 4地域】新潟、岐阜、静岡、三重（警報なし）",
+    "summary": "【注意報発表: 5地域】新潟、岐阜、静岡、三重、愛知（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 4,
+    "notice_count": 5,
     "total_prefs": 6,
     "pref_details": [
       {
@@ -188,10 +188,10 @@
         "warns": [],
         "notices": [
           "雷注意報",
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -228,10 +228,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/22/"
       },
       {
@@ -242,21 +242,24 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/24/"
       },
       {
         "code": "23",
         "name": "愛知県",
         "short_name": "愛知",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "強風注意報",
+          "波浪注意報"
+        ],
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/23/"
       }
     ]
@@ -306,8 +309,14 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野県・岐阜県で停電情報を検知",
+    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野県・岐阜県・愛知県で停電情報を検知",
     "power_outages": [
+      {
+        "pref": "岩手県",
+        "region": "東北",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/03/",
+        "level": "poweroutageLevel1"
+      },
       {
         "pref": "秋田県",
         "region": "東北",
@@ -345,15 +354,27 @@
         "level": "poweroutageLevel2"
       },
       {
-        "pref": "島根県",
-        "region": "中国",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/32/",
+        "pref": "愛知県",
+        "region": "東海",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/23/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "滋賀県",
+        "region": "近畿",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/25/",
         "level": "poweroutageLevel1"
       },
       {
         "pref": "高知県",
         "region": "四国",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/39/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "鹿児島県",
+        "region": "九州",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/46/",
         "level": "poweroutageLevel1"
       },
       {
@@ -521,16 +542,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/24 10:21",
+          "text": "DOCOMO本当にカス過ぎる 光回線を他に切り替えたいから事業者変更の手続きをしようと電話 START 繋がらない END ド「ネット予約ができるよ、URL付け..."
+        },
+        {
           "time": "11/24 09:28",
           "text": "電車の中、 START au END は快適なのに、ドコモは全然 START 繋がらない END 。 スマホ START 繋がらない END のは本当にストレス..."
         },
         {
           "time": "11/24 09:08",
           "text": "@nobuchan1981 FF外から失礼します。 病院は START 繋がらない END と困りますよね。 繋がりやすい電話回線というものがあるようなので、固..."
-        },
-        {
-          "time": "11/24 08:41",
-          "text": "#XRP ケータイで例えるとわかりやすい ドコモはドコモしか START 繋がらない END START au END は START au END しか ST..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -862,8 +883,56 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 8,
     "articles": [
+      {
+        "title": "阪急宝塚本線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "曽根駅で発生した人身事故の影響で、阪急宝塚本線は大阪梅田～豊中駅間の運転を見合わせていましたが、20:10頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/24 20:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/70aae48f49a277b8e7b785cac80c3bdf6f151254?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "能代火力発電所で火災　作業員3人やけど、秋田(共同通信)",
+        "summary": "24日午前11時半ごろ、秋田県能代市大森山の東北電力能代火力発電所の男性従業員から「手をやけどした」と119番があった。東北電や地元消防によると、運転中だった2号機（出力60万キロワット）建屋の空調機",
+        "pub_date": "11/24 19:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/b11300bea7a7d3dba3d6f07735bc0b05a01e6d9b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "中日ドラゴンズの嶋コーチに罰金30万円 自転車と衝突(テレビ朝日系（ANN）)",
+        "summary": "プロ野球中日ドラゴンズの嶋ヘッドコーチが略式起訴です。 嶋基宏コーチ（41）は8月、東京・小金井市で乗用車を運転中に飲食店の敷地に入ろうとしたところ、自転車に乗って歩道を走っていた女性にぶつかり、けが",
+        "pub_date": "11/24 19:44 JST",
+        "link": "https://news.yahoo.co.jp/articles/f312375ad04a12cb04b2a060653f22f8e92a85ad?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「怖い思いを」踏切で電車と車衝突させたか　JAF職員の初公判　さいたま地裁(テレビ朝日系（ANN）)",
+        "summary": "さいたま市で、踏切内に故意に車を止め後続車を電車と衝突させた罪に問われたJAF職員の男が初公判で起訴内容を認めました。JAF職員の加藤研一被告（52）は8月、さいたま市岩槻区の東武アーバンパークライン",
+        "pub_date": "11/24 19:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/182e48d3553b91d6bf8c31ebc196766bdaf10087?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "秋田・能代火力発電所で火災、3人やけど(共同通信)",
+        "summary": "秋田県能代市の地元消防などによると、24日午前11時半ごろ、東北電力能代火力発電所の従業員から「やけどをした」と119番があった。運転中だった2号機の空調機械室のブレーカーから出火し、作業員3人が手な",
+        "pub_date": "11/24 19:24 JST",
+        "link": "https://news.yahoo.co.jp/articles/93a7467da7339426891d901408f98a2bf7287a9f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "南海トラフ地震が発生したら… 名古屋大学病院で災害対応訓練 状況把握やトリアージを実施 医療物資を運ぶロボットも登場(CBCテレビ)",
+        "summary": "南海トラフ地震の発生を想定して、名古屋の病院で災害対応訓練が行われました。訓練は愛知県の災害拠点病院に指定されている名古屋大学病院で行われました。南海トラフ地震で、震度6強が発生した想定で、約200人",
+        "pub_date": "11/24 19:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/0fe8007154752a43af4c6af410092ac682c72fed?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "地震で220人異動や退職　熊本南病院、再開見通せず(共同通信)",
         "summary": "7月の熊本地震で被災して休診中の国立病院機構熊本南病院（熊本県宇城市）で、職員約220人が12月上旬までに他の医療機関などに異動したり、退職したりすることが24日、関係者への取材で分かった。県から神経",
@@ -881,111 +950,63 @@
         "is_disaster": true
       },
       {
-        "title": "“旬の味覚”ドロボウ映像に“姿”　奪い合う様子も「初めて見た」　岡山(テレビ朝日系（ANN）)",
-        "summary": "「カニ鍋」や「マグロのにぎり」、色々なものがおいしい季節ですが、今回被害に遭ったのは岡山県のブドウ農園です。丘の上のぶどう畑 荒木啓代表理事「ああいう被害は今までにない。（ブドウを）とられてると思って",
-        "pub_date": "11/24 18:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/a154e92c265fd5e36f22b445ea3655dac504e0f7?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "4方向一時停止？危険な交差点　信号設置できなかったワケは　青森・六戸町(テレビ朝日系（ANN）)",
-        "summary": "青森県六戸町。ごく普通の光景のようですが、実はここは15件もの人身事故が相次いだ“危険な交差点”。地元住民「（2024年に）4人亡くなったの。その前から、もうしょっちゅう（事故）があるよ」 ところが当",
-        "pub_date": "11/24 18:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/b2815e281105ca9c5a2ac57b7bf9a2904a71b529?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「怖い思いをさせたかった」　車間距離近い後続車を踏切内に(共同通信)",
-        "summary": "さいたま市の踏切出口付近で乗用車を停止して後続の50代男性の車を踏切内にとどまらせて、電車と衝突させたとして、往来危険の罪に問われた日本自動車連盟（JAF）職員の加藤研一被告（52）＝埼玉県蓮田市＝は",
-        "pub_date": "11/24 18:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/e3aa59de654cba45b6130c16077e64db89d9782a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "阪急宝塚本線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "18:28頃、曽根駅で発生した人身事故の影響で、阪急宝塚本線は大阪梅田～豊中駅間の運転を見合わせています。振替輸送を行っています。",
-        "pub_date": "11/24 18:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/bb1ac188624468e989179376573823c58eec070e?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "パンタグラフの損傷見つかる…JR中央線の名古屋～中津川間で運転見合わせ 午後2時半頃から電力設備の確認中(東海テレビ)",
-        "summary": "JR中央線で運転見合わせが発生し、帰宅の足を直撃しています。 午後6時15分現在、運転を見合わせているのは、JR中央線の名古屋〜中津川駅間です。 JR東海によりますと、中津川駅に停車中の車両でパンタグ",
-        "pub_date": "11/24 18:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/b892e852286062e99880056635e3740618927323?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "大阪と愛知で空き巣40件超　集合住宅ポストから鍵回収　380万円被害で51歳男を摘発(産経新聞)",
-        "summary": "大阪府と愛知県で空き巣などを繰り返したとして、大阪府警捜査3課は24日、窃盗などの疑いで、住居不定の無職、板倉勧（すすむ）容疑者（51）を逮捕、送検し、計44件（約380万円相当）の被害を裏付けて捜査",
-        "pub_date": "11/24 18:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/306a58e1b09bfd2e2f85db50b5bf31ae09740726?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "クマなど出没相次ぐ中　串焼き店の“猪肉人気”からジビエ直売所を始めた会社　併設食堂の一番人気は「ツキノワグマのすき焼き定食・3800円」　猟銃免許持つ東出昌大さん「千葉はクマが絶滅。3800円はお得」(関西テレビ)",
-        "summary": "連日クマやイノシシによる被害が報道されています。そんななか、「ジビエ」の魅力や猟師の高齢化などの現状をなんとかしたいという思いから千葉県茂原市に、今月5日にオープンした「茂原ジビエセンター」を、関西テ",
-        "pub_date": "11/24 18:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/a2334b38d62f44c4801d8a498229adf50b221b2c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "JR中央線 一部区間の運転見合わせ続く 帰宅時間で駅は混雑…車両のパンタグラフが損傷 点検作業続く(CBCテレビ)",
-        "summary": "JR中央線は、一部区間の運転見合わせが続いています。JR東海によりますと24日午後、中津川駅に停車している車両のパンタグラフに損傷が見つかり、JR中央線は午後2時25分から名古屋駅から中津川駅の上下線",
-        "pub_date": "11/24 18:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/c10c8730ba7a045acde583329c764b6c4d755f1c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "3歳女児虐待死亡 枚方市が説明(テレビ朝日系（ANN）)",
-        "summary": "3歳の女の子を守ることはできなかったのでしょうか。大阪府の枚方市長が会見を行いました。 親から暴行を受けていたとされる、当時3歳の金尾英怜奈ちゃんが死亡した事件。枚方市 伏見隆市長「（Q.市としてのリ",
-        "pub_date": "11/24 19:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/84488fb4cf0f32ecc5e5a212069750a5b6f1e4a1?source=rss",
+        "title": "富山県初の「ご当地ナンバー」へ、高岡市民は「富山」ナンバーを選べなくなる?年明けにアンケート　市長「ブランドイメージ向上につながる」　所有者の住所が特定されやすくなる懸念も(FNNプライムオンライン)",
+        "summary": "富山県高岡市が、県内初となる「ご当地ナンバー」の導入に向けて動き出した。市は市民の意向を把握するため、年明けにもアンケートを実施する方針だ。導入されれば、高岡市民は従来の「富山」ナンバーを選べなくなる",
+        "pub_date": "11/24 20:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/478ad598cfc2a8b33e4e018e7ee02435955a9b8b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「別人が入居」「許可なく増築」三重・伊賀市の市営住宅をめぐる問題　市営住宅関連条例の改正案提出へ(メ〜テレ（名古屋テレビ）)",
-        "summary": "三重県伊賀市の市営住宅をめぐる問題で、市は12月議会に条例の改正案を提出します。 伊賀市の市営住宅では、少なくとも236戸で市が決めた入居者とは異なる人が住んでいたほか、許可のない増築や、1億円あまり",
-        "pub_date": "11/24 19:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/3e37a5f371f876b98ddcf20edc9a72c409351e04?source=rss",
+        "title": "大阪3歳女児虐待死、枚方市が検証会議を設置へ　市長「より早い対応必要だった」(産経新聞)",
+        "summary": "大阪府枚方市で金尾英怜奈（かなお・えれな）ちゃん（3）が死亡し両親が逮捕された事件で、枚方市の伏見隆市長が24日、市役所で記者会見し、市の対応に「問題があった」と述べた。より早い段階で、児童相談所との",
+        "pub_date": "11/24 20:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/5974cf12f3864adde78f4ece8fca7db34dece8ab?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ポケモン・サトシ役で知られる声優 松本梨香さんがアキレス腱断裂のけがを発表 当面は「車いすでの登壇・出演」(ABEMA TIMES)",
-        "summary": "アニメ「ポケットモンスター」の主人公サトシ役などで知られる、声優の松本梨香が、アキレス腱断裂のけがをしたことが24日、スタッフの公式Xで発表されました。【映像】松本梨香さんがアキレス腱断裂のけが 29",
-        "pub_date": "11/24 19:03 JST",
-        "link": "https://news.yahoo.co.jp/articles/fc63b77e1c802130065533b5e8a916b97bc9c3d6?source=rss",
+        "title": "神奈川県で窃盗事件増加　車上荒らしや空き家侵入に注意　神奈川県警(テレビ朝日系（ANN）)",
+        "summary": "神奈川県内では窃盗事件が去年よりも増加しています。警察は車や空き家を狙った犯行に注意を呼び掛けています。神奈川県警によりますと、県内で10月までに発生したすべての刑法犯、約4万3500件のうち、69％",
+        "pub_date": "11/24 20:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/617cb0bdff6079d1eebd928b7af3bbf989faee5f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「歌舞伎町コンカフェ」無許可営業で逮捕された“芸能人”、即プロフ削除の所属事務所は「関与ない」の回答(週刊女性PRIME)",
-        "summary": "「アイドルやラッパーとして活動しており、店の責任者を任された」 11月18日、警察の調べに対し、こう供述したと報じられたのは、東京・新宿の歌舞伎町にあるメンズコンセプトカフェ『イケメンラウンジCHIL",
-        "pub_date": "11/24 19:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/188a65cd244df5825de9a7d403f5fdde6242f1ce?source=rss",
+        "title": "寒気はいつまで？ 25日は札幌0度で「1月上旬並み」 北日本は平野部でも積雪…気象予報士が路面凍結に注意呼びかけ(ABEMA TIMES)",
+        "summary": "24日、25日（水）にかけて流れ込む強い寒気について、気象予報士の竹内青空氏が解説した。【映像】北日本では平野部でも積雪となる可能性 車の運転に注意を 北日本では平野部でも積雪となる可能性があり、雪が",
+        "pub_date": "11/24 20:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/965921de93c324ec64f705daa62b036e350462a0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "無資格でまぶた切開術疑い　ベトナム人夫婦ら逮捕(共同通信)",
-        "summary": "無資格でまぶた切開などの美容手術をしたとして、愛知県警は24日、医師法違反（無資格医業）の疑いで、いずれもベトナム国籍で名古屋、無職グエン・ティ・フエ容疑者（34）と夫の派遣社員ダン・スアン・タン容疑",
-        "pub_date": "11/24 18:55 JST",
-        "link": "https://news.yahoo.co.jp/articles/9eb65050d0135c0527bfbdb3dd77632d64bd267c?source=rss",
+        "title": "入湯税未徴収、富山県立山町長が非公表指示(共同通信)",
+        "summary": "富山県立山町の舟橋貴之町長は24日、町内の温泉施設で入湯税の一部を24年間徴収せず、2024年に把握後も公表しなかったと明らかにした。昨年、町職員に対し別施設の疑惑も含め「時効まで黙っておくしかない」",
+        "pub_date": "11/24 20:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/1988b810266661ceb4ea5d2658c2fac886a379d2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "タラップ段差、事前に把握　政府、首相訪中時注意促す(共同通信)",
+        "summary": "高市早苗首相がアジア太平洋経済協力会議（APEC）首脳会議に出席するため18日に中国・深センの空港に到着した際、政府専用機とタラップの間に段差があることを日本側が現場で把握し、首相らに注意を促していた",
+        "pub_date": "11/24 20:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/172f20bce4240553c75764daf789bb27cff8bb45?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "実効性に懸念と新聞協会　SNS対策指針案に意見(共同通信)",
+        "summary": "日本新聞協会は24日、総務省が10月に公表した選挙運動を巡るSNS対策の指針案に関する意見を表明した。偽情報の影響を軽減する措置を事業者に義務付け、推奨事項として措置内容を具体的に示した点については、",
+        "pub_date": "11/24 20:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/4edba2924f7fe7d1f9ab2c8f33c45f371f01c5b6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 19:16:04 JST"
+    "last_updated": "2026-11-24 20:16:41 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -1006,10 +1027,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "OHa3Z_so-3g",
+        "video_id": "zaJSDRZ97yM",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/OHa3Z_so-3g?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=OHa3Z_so-3g"
+        "embed_url": "https://www.youtube.com/embed/zaJSDRZ97yM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=zaJSDRZ97yM"
       },
       {
         "id": "stream_tbsnews",
@@ -1028,10 +1049,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "ev5NrkLxIxA",
+        "video_id": "R8mKE8D0A30",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/ev5NrkLxIxA?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=ev5NrkLxIxA"
+        "embed_url": "https://www.youtube.com/embed/R8mKE8D0A30?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=R8mKE8D0A30"
       },
       {
         "id": "stream_annnews",

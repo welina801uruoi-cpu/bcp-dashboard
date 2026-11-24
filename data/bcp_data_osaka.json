@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 13:43:51",
+  "timestamp": "2026-11-24 14:40:39",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -194,10 +194,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/27/"
       },
       {
@@ -208,11 +208,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報",
+          "強風注意報",
           "雷注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -223,11 +223,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/26/"
       },
       {
@@ -238,10 +238,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、雷注意報",
+        "summary": "雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/25/"
       },
       {
@@ -263,10 +263,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "強風注意報"
         ],
-        "summary": "強風注意報、波浪注意報",
+        "summary": "波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       }
     ]
@@ -317,11 +317,11 @@
     "npa_url": "https://www.npa.go.jp/"
   },
   "lifeline": {
-    "status": "ALERT",
-    "power_status": "ALERT",
+    "status": "NORMAL",
+    "power_status": "NORMAL",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "関西電力送配電: 【停電発生中】滋賀県で停電情報を検知",
+    "power_msg": "関西電力送配電: 停電情報なし（近畿エリア管内正常）",
     "power_outages": [
       {
         "pref": "宮城県",
@@ -366,12 +366,6 @@
         "level": "poweroutageLevel1"
       },
       {
-        "pref": "滋賀県",
-        "region": "近畿",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/25/",
-        "level": "poweroutageLevel1"
-      },
-      {
         "pref": "高知県",
         "region": "四国",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/39/",
@@ -381,6 +375,12 @@
         "pref": "鹿児島県",
         "region": "九州",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/46/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "沖縄県",
+        "region": "沖縄",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/47/",
         "level": "poweroutageLevel1"
       }
     ],
@@ -493,8 +493,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 3 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/24 13:47",
+          "text": "日曜日の3時過ぎ、WiFiがいきなり使えなくなり光テレビは映らず、固定電話も使えず、スマホは🛜マークが付くのにネット使えず、 START au END に電話し..."
+        },
         {
           "time": "11/24 13:30",
           "text": "START au END 通信 START 障害 END なのかな？ Wi-Fiとらな見れないの辛"
@@ -502,10 +506,6 @@
         {
           "time": "11/24 13:08",
           "text": "START au END なんだけど、電波 START 障害 END なのかな？電波ないよ！"
-        },
-        {
-          "time": "11/24 12:47",
-          "text": "START au END 回線使って今月は繰り越し45GBもあるのに モバイル通信速度が遅くてブラウザの表示に時間がかかります 9.45Mbpsしかないのは通信..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -516,19 +516,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/24 14:19",
+          "text": "大雪の携帯電話の通信 START 障害 END が復旧 出典（公式発表）： START KDDI END https://t.co/Oefqx5pIav ▼橋口..."
+        },
+        {
+          "time": "11/24 14:18",
+          "text": "⛄❄‼️ 大雪に伴う一部地域の START 障害 END （11月24日時点）： 大雪の影響で、NTTドコモ・ START KDDI END ・ソフトバンク・楽..."
+        },
         {
           "time": "11/24 12:28",
           "text": "auひかり START KDDI END 側が設置した設備の START 障害 END でネット使用できない丸２日目。サポートセンターに抗議しても何も対処せず ..."
-        },
-        {
-          "time": "11/24 08:15",
-          "text": "ドコモの START 障害 END 3回。裏側は、設備投資を抑えた数年間と5Gの面展開の遅れだった。基地局数は START KDDI END 12.5万局、ソフ..."
-        },
-        {
-          "time": "11/23 21:16",
-          "text": "START KDDI END は11月23日、大雪による一部地域の通信 START 障害 END が継続中と発表。 対象地域では「JAPANローミング」も順次提..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=KDDI%20%E9%9A%9C%E5%AE%B3"
@@ -539,7 +539,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/24 13:39",
@@ -869,7 +869,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 8,
+    "disaster_count": 7,
     "articles": [
       {
         "title": "JR宝塚線で人身事故 一部運転見合わせ(レスキューナウニュース)",
@@ -928,12 +928,28 @@
         "is_disaster": true
       },
       {
-        "title": "秋田・能代火力発電所で火災、3人やけど(共同通信)",
-        "summary": "秋田県能代市の地元消防などによると、24日午前11時半ごろ、東北電力能代火力発電所の従業員から「やけどをした」と119番があった。運転中だった2号機の空調機械室のブレーカーから出火し、作業員3人が手な",
-        "pub_date": "11/24 19:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/93a7467da7339426891d901408f98a2bf7287a9f?source=rss",
+        "title": "【速報】「屋内で女性が血を流して…」広島 住宅で女性死亡　事件も視野に捜査(テレビ朝日系（ANN）)",
+        "summary": "24日午後5時20分過ぎに、広島市安佐北区安佐町の南が丘団地で「屋内で女性が血を流して倒れている」と近くに住む人から通報がありました。倒れていたのは、この家に住む60～70代の女性とみられ、死亡が確認",
+        "pub_date": "11/24 23:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/c25fc87addf5aa33a3000349e2ee9fde95f63e31?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "文科相は「官僚私物化」　階氏、パーティー問題で(共同通信)",
+        "summary": "民主改革の会の階猛幹事長は24日夜のインターネット番組で、関芳弘文部科学相が政治資金パーティーに官僚を呼び企業関係者に政策を説明させたことは「官僚の私物化だ」と批判した。公務員が国民全体の奉仕者と定め",
+        "pub_date": "11/24 22:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/0bda57d76fdec5e77201d3302117d587a6272877?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "女性殺害容疑で男逮捕へ　広島・庄原、25年発生(共同通信)",
+        "summary": "2025年6月、広島県庄原市の住宅で当時84歳の女性が殺害された事件で、広島県警が任意で事情聴取した男が関与を認める供述をしていることが24日、捜査関係者への取材で分かった。容疑が固まり次第、逮捕する",
+        "pub_date": "11/24 22:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/d03ae0eee395f7552285ae44d35012c8814116c8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "25年の広島県の女性殺害容疑で男を逮捕へ(共同通信)",
@@ -974,25 +990,9 @@
         "link": "https://news.yahoo.co.jp/articles/7331593e902da65881c5c8b7a0bd72583f655e9f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "住宅で血を流し女性死亡　広島、殺人事件か(共同通信)",
-        "summary": "24日午後5時20分ごろ、広島市安佐北区の住宅で「女性が血を流して倒れている」と付近の住民から110番があった。女性はその場で死亡が確認された。広島県警は殺人事件の可能性もあるとみて詳しい状況や死因を",
-        "pub_date": "11/24 21:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/93b96288e406550100cfab5a8020b433c6ffa661?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "「進展は全くなかった」ユニオン・ランチ破産手続き終結、退職金は約97％支払われるも有給の買い取りは認められず(FNNプライムオンライン)",
-        "summary": "富山市の仕出し弁当製造会社「ユニオン・ランチ」の自己破産手続きが終結した。一部未払いだった元従業員への退職金の支払いなどが完了したためだ。24日の最後の債権者集会では異議申し立てがなく、手続きは幕を閉",
-        "pub_date": "11/24 21:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/c73d32253c0e4c72064fcf42fd21dd6faa332651?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-24 22:43:21 JST"
+    "last_updated": "2026-11-24 23:40:10 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -1013,10 +1013,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "RPd9xVy75Po",
+        "video_id": "AhwsCqiX-OE",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/RPd9xVy75Po?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=RPd9xVy75Po"
+        "embed_url": "https://www.youtube.com/embed/AhwsCqiX-OE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=AhwsCqiX-OE"
       },
       {
         "id": "stream_tbsnews",
@@ -1035,10 +1035,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "R8mKE8D0A30",
+        "video_id": "Vjhg7L8Bl3w",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/R8mKE8D0A30?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=R8mKE8D0A30"
+        "embed_url": "https://www.youtube.com/embed/Vjhg7L8Bl3w?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Vjhg7L8Bl3w"
       },
       {
         "id": "stream_annnews",
@@ -1046,10 +1046,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "SZOrV1fWnPo",
+        "video_id": "ngBMgxd5jDA",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/SZOrV1fWnPo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=SZOrV1fWnPo"
+        "embed_url": "https://www.youtube.com/embed/ngBMgxd5jDA?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=ngBMgxd5jDA"
       },
       {
         "id": "stream_fnnnews",

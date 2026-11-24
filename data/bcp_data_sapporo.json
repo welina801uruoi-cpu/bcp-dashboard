@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 18:17:31",
+  "timestamp": "2026-11-24 19:27:40",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -62,11 +62,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-25 01:40",
-    "place": "大隅半島東方沖",
-    "magnitude": "3.9",
+    "time": "2026-11-25 04:19",
+    "place": "神奈川県西部",
+    "magnitude": "2.5",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-25 04:19",
+        "place": "神奈川県西部",
+        "shindo": "1",
+        "magnitude": "2.5",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-25 01:40",
         "place": "大隅半島東方沖",
@@ -129,13 +136,6 @@
         "shindo": "-",
         "magnitude": "3.9",
         "maxScale": -1
-      },
-      {
-        "time": "2026-11-24 01:12",
-        "place": "震源情報なし",
-        "shindo": "3",
-        "magnitude": "-",
-        "maxScale": 30
       }
     ]
   },
@@ -165,14 +165,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "着雪注意報",
-          "風雪注意報",
           "波浪注意報",
+          "風雪注意報",
+          "着雪注意報",
           "大雪注意報",
-          "雷注意報",
-          "強風注意報"
+          "雷注意報"
         ],
-        "summary": "着雪注意報、風雪注意報、波浪注意報、大雪注意報、雷注意報、強風注意報",
+        "summary": "波浪注意報、風雪注意報、着雪注意報、大雪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -185,13 +184,13 @@
           "暴風警報"
         ],
         "notices": [
-          "着雪注意報",
           "波浪注意報",
-          "雷注意報",
           "大雪注意報",
-          "強風注意報"
+          "着雪注意報",
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "暴風警報、着雪注意報、波浪注意報、雷注意報、大雪注意報、強風注意報",
+        "summary": "暴風警報、波浪注意報、大雪注意報、着雪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -202,10 +201,10 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、強風注意報",
+        "summary": "強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -218,12 +217,12 @@
           "暴風警報"
         ],
         "notices": [
-          "着雪注意報",
           "波浪注意報",
+          "着雪注意報",
           "強風注意報",
           "雷注意報"
         ],
-        "summary": "暴風警報、着雪注意報、波浪注意報、強風注意報、雷注意報",
+        "summary": "暴風警報、波浪注意報、着雪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -294,6 +293,12 @@
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
         "level": "poweroutageLevel2"
+      },
+      {
+        "pref": "静岡県",
+        "region": "東海",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/22/",
+        "level": "poweroutageLevel1"
       }
     ],
     "water_msg": "札幌市水道局: 管内大規模断水・漏水なし",
@@ -405,7 +410,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/24 18:01",
@@ -451,7 +456,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/24 18:12",
@@ -796,8 +801,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 11,
+    "disaster_count": 12,
     "articles": [
+      {
+        "title": "秋田で住宅火災、2人連絡取れず　大仙市、高齢夫婦か(共同通信)",
+        "summary": "25日午前0時20分ごろ、秋田県大仙市豊岡西八日市の住民から「隣の家が火事で、逃げ遅れた人がいるかもしれない」と119番があった。大仙署によると、出火した家に住む90代の夫と80代の妻とみられる男女と",
+        "pub_date": "11/25 04:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/ec04daa0c748b2456eedd0483c81e1cb4cae6f76?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "JR中央線「高蔵寺〜中津川」駅間が約6時間半にわたり運転見合わせ 鳥が列車のパンタグラフにぶつかり変形したことが原因か JR東海(CBCテレビ)",
         "summary": "24日（火）午後、JR東海・中央線の一部区間で、一時運転を見合わせました。鳥が列車にぶつかったことが原因とみられます。【写真を見る】JR中央線「高蔵寺〜中津川」駅間が約6時間半にわたり運転見合わせ 鳥",
@@ -887,6 +900,14 @@
         "is_disaster": true
       },
       {
+        "title": "会社の敷地内で火事 ダンプカー6台が全焼 警察が放火の可能性も含め火事の原因調べる 愛知・安城市(CBCテレビ)",
+        "summary": "きのう24日（火）の夜、愛知県安城市の会社敷地内で、ダンプカー6台が全焼する火事がありました。【写真を見る】会社の敷地内で火事 ダンプカー6台が全焼 警察が放火の可能性も含め火事の原因調べる 愛知・安",
+        "pub_date": "11/25 04:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/4ed1fd541207ca70ac71060502e016ad90e08803?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
         "title": "【速報】広島・庄原市 84歳女性殺害事件　55歳の男を逮捕(テレビ朝日系（ANN）)",
         "summary": "去年6月、広島県庄原市の住宅で高齢女性が殺害された事件で、警察は東広島市に住む55歳の男を強盗殺人などの疑いで逮捕しました。",
         "pub_date": "11/25 01:32 JST",
@@ -901,25 +922,9 @@
         "link": "https://news.yahoo.co.jp/articles/d071442fafd03efd39d92909ae109fae94f1e235?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "【速報】去年6月に広島・庄原市で84歳の女性が殺害された事件で55歳の男を逮捕　警察(テレビ朝日系（ANN）)",
-        "summary": "去年6月、広島県庄原市の住宅で高齢女性が殺害された事件で、警察は東広島市に住む55歳の男を強盗殺人などの疑いで逮捕しました。 東広島市の会社員・山口修容疑者（55）は去年6月、庄原市の住宅で矢吹定代さ",
-        "pub_date": "11/25 00:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/52285fe2a639a8b701790ebe6137f2b18f53cf03?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "広島県庄原市で強盗殺人疑い、55歳男逮捕(共同通信)",
-        "summary": "2025年6月に広島県庄原市の住宅で当時84歳の女性が殺害された事件で、県警は24日、強盗殺人と住居侵入の疑いで広島県東広島市、会社員山口修容疑者（55）を逮捕した。",
-        "pub_date": "11/25 00:31 JST",
-        "link": "https://news.yahoo.co.jp/articles/be9f3f0fbe2eca80deea4464a9b5d0d82864c05f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-25 03:17:18 JST"
+    "last_updated": "2026-11-25 04:26:43 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -940,10 +945,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "r8arrQyehLM",
+        "video_id": "PzKa5vyadsI",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/r8arrQyehLM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=r8arrQyehLM"
+        "embed_url": "https://www.youtube.com/embed/PzKa5vyadsI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=PzKa5vyadsI"
       },
       {
         "id": "stream_tbsnews",

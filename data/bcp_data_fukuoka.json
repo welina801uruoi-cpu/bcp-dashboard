@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 21:20:14",
+  "timestamp": "2026-11-24 22:21:37",
   "location": {
     "name": "福岡",
     "region_name": "九州エリア",
@@ -90,11 +90,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "2",
-    "time": "2026-11-25 05:32",
+    "time": "2026-11-25 06:46",
     "place": "福島県会津",
-    "magnitude": "3.2",
+    "magnitude": "3.8",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-25 06:46",
+        "place": "福島県会津",
+        "shindo": "2",
+        "magnitude": "3.8",
+        "maxScale": 20
+      },
       {
         "time": "2026-11-25 05:32",
         "place": "福島県会津",
@@ -157,13 +164,6 @@
         "shindo": "1",
         "magnitude": "3",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-24 01:12",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "3",
-        "magnitude": "3.9",
-        "maxScale": 30
       }
     ]
   },
@@ -207,11 +207,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "強風注意報",
           "乾燥注意報",
+          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "強風注意報、乾燥注意報、波浪注意報",
+        "summary": "乾燥注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/44/"
       },
       {
@@ -233,11 +233,9 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "強風注意報",
           "波浪注意報"
         ],
-        "summary": "霜注意報、強風注意報、波浪注意報",
+        "summary": "波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/46/"
       },
       {
@@ -262,12 +260,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "霜注意報",
-          "強風注意報",
           "乾燥注意報",
-          "波浪注意報"
+          "強風注意報",
+          "波浪注意報",
+          "霜注意報"
         ],
-        "summary": "霜注意報、強風注意報、乾燥注意報、波浪注意報",
+        "summary": "乾燥注意報、強風注意報、波浪注意報、霜注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/42/"
       },
       {
@@ -559,8 +557,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/24 22:05",
+          "text": "#docomo START 繋がらない END 2026年辞めてストレスがなくなった事 32年契約していたドコモ回線の解約。 都内では本当に START 繋がら..."
+        },
         {
           "time": "11/24 18:12",
           "text": "@itmedia_news 昔行った山奥のコテージにて⛰️ 「あれ？携帯 START 繋がらない END 💦」(SB、 START au END ) 「私は繋が..."
@@ -568,10 +570,6 @@
         {
           "time": "11/24 15:03",
           "text": "まじでdocomoが全く START 繋がらない END 上にパケットがバカみたいに食われてくから povo契約しました 気に入ったら START au END..."
-        },
-        {
-          "time": "11/24 13:39",
-          "text": "@BLOOD_X_with_Y 楽天モバイル使ってます 正直、混雑してるところとかは START 繋がらない END 印象ですねぇ～ あとdocomoは関係ない..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -902,7 +900,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 13,
+    "disaster_count": 9,
     "articles": [
       {
         "title": "「右側を歩け」と肩ドン、スマホ破損も…被害女性が明かす「ぶつかりおじさん」の狼藉　“やり返してこなそうな相手に攻撃が向かう”と犯罪心理学者が分析(デイリー新潮)",
@@ -917,6 +915,22 @@
         "summary": "今年の夏、東日本に豪雨が降ったのは、スーパーエルニーニョ現象が発生しているためだ。しかも、その影響は冬にも表れるという。今年は全体的には暖冬傾向だそうだが、ひとたび寒波が来れば〝豪雨＆豪雪〟になる！",
         "pub_date": "11/25 06:02 JST",
         "link": "https://news.yahoo.co.jp/articles/69464160cddecabf2bc35d895c697754ee9807ce?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "高市総理 第2次補正予算案の編成指示　災害対応の費用など盛り込む(テレビ朝日系（ANN）)",
+        "summary": "高市総理大臣は今年度の第2次補正予算案の編成を指示しました。千葉豪雨など、災害への対応の費用などを盛り込む方針です。高市総理大臣「これまで補正予算で措置してきた施策のうち、継続的に必要なものは当初予算",
+        "pub_date": "11/25 05:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/a87043bd0efe5b796c3a912d471543b5880523f1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "高齢者の車が逆走し正面衝突　衝突された34歳 男性死亡 小田原(テレビ朝日系（ANN）)",
+        "summary": "神奈川県の小田原厚木道路で、下り車線を走行していた車が逆走してきた車と正面衝突し、1人が死亡、1人が重傷です。 警察によりますと24日午後5時半すぎ、平塚市の小田原厚木道路で勤務先から帰宅途中の稲毛崇",
+        "pub_date": "11/25 05:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/74f156b2713f4e825e136b3a7dff3adaf4cbde12?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
@@ -953,54 +967,6 @@
         "is_disaster": true
       },
       {
-        "title": "77歳運転の車が逆走事故、1人死亡(共同通信)",
-        "summary": "神奈川県警によると、24日午後5時半ごろ、平塚市の小田原厚木道路で、厚木市の無職男性（77）が運転する軽乗用車が逆走し、対向してきた車と衝突した。対向車の男性（34）が死亡した。",
-        "pub_date": "11/25 00:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/5953e5d46308b6a7cbfa44419b718022e9cb1764?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「嫌がらせ　怖い思いを」後続車を踏切内に…JAF職員の被告の初公判(テレビ朝日系（ANN）)",
-        "summary": "踏切内に故意に車を止め、後続の車を電車と衝突させた罪に問われた男の初公判が行われました。【画像】三山ひろし、紅白「けん玉失敗」の危機を救った有吉弘行の意外な一面を明かす「相当練習していた」【徹子の部屋",
-        "pub_date": "11/25 00:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/e09b729141948e86463ff0497e4672899fe16bb8?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "JR宝塚線で人身事故 運転再開(レスキューナウニュース)",
-        "summary": "猪名寺～伊丹駅間で発生した人身事故の影響で、JR宝塚線は尼崎～新三田駅間の運転を見合わせていましたが、23:57頃、運転を再開しました。なお、ダイヤが乱れています。",
-        "pub_date": "11/25 00:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/d894b61c551ac2ffcc1b5d4146165a69b9c6850c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【速報】高齢男性の車が逆走か…小田原厚木道路で正面衝突　1人重体(テレビ朝日系（ANN）)",
-        "summary": "24日午後5時半過ぎ、神奈川県平塚市の小田原厚木道路で「軽自動車同士の事故」と110番通報がありました。警察によりますと、高齢者の運転する車が逆走したとみられ、車と正面衝突したということです。衝突され",
-        "pub_date": "11/24 23:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/9dd4c59b534a2ca9d6c6fef8a99228e800ea2dba?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "JR宝塚線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "22:17頃、猪名寺～伊丹駅間で発生した人身事故の影響で、JR宝塚線は尼崎～新三田駅間の運転を見合わせています。",
-        "pub_date": "11/24 22:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/e9a52a2fc1ff7186976e55798aeac2865d51d740?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "住宅火災で焼け跡から年齢性別不明の遺体1体を発見　住人の70代男性か　兵庫・明石(産経新聞)",
-        "summary": "23日午後10時半ごろ、兵庫県明石市大久保町西島の2階建て住宅で「1階の窓から火が出ている」と近隣住民から119番があった。兵庫県警明石署などによると、火は約1時間後に消し止められたが、焼け跡から年齢",
-        "pub_date": "11/24 21:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/22eb059ada64fea57c5a0240bbeb4f24ae8b409f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
         "title": "逆走車に衝突されたか 運転手死亡",
         "summary": "詳細情報は元記事をご確認ください。",
         "pub_date": "11/24 23:55 JST",
@@ -1009,23 +975,55 @@
         "is_disaster": true
       },
       {
-        "title": "この冬は東・西日本と沖縄・奄美で気温が高い見込み　日本海側の雪はどうなる?　気象庁が12月〜来年2月の3か月予報を発表(MBC南日本放送)",
-        "summary": "気象庁は11月24日午後2時、12月から2027年2月にかけての3か月予報を発表しました。【写真を見る】この冬は東・西日本と沖縄・奄美で気温が高い見込み 日本海側の雪はどうなる? 気象庁が12月〜来年",
-        "pub_date": "11/25 06:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/98aebe64a012f6489526dbcb43c4620b45e473b3?source=rss",
+        "title": "《セーラームーンのBGMに合わせて》シンガポール外務省が公開した「愛子さま歓迎動画」が大反響、異例の“粋な演出”に込められた敬意とは(NEWSポストセブン)",
+        "summary": "11月17日から21日までの5日間、外交関係樹立60周年に合わせてシンガポールを公式訪問された天皇皇后両陛下の長女・愛子さま。大統領への表敬訪問をはじめ、植樹やランの命名式、文化施設や医療施設の視察な",
+        "pub_date": "11/25 07:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/3afbd2f1cbc218df753a4b50581ab24cf79f3690?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「子どもたちは車にまったく興味が…」三兄弟で板金ショップを営む男性（41）が明かす“跡継ぎ問題”と“改造車”についてのリアルな本音(文春オンライン)",
-        "summary": "たとえ家族やパートナーがいようとも、「愛車の改造」に没頭する者たちがいる。ときに周囲を巻き込みながら、カスタムを加速させるオーナーたちの素顔とは?【画像】え、これが軽自動車…? フェンダー製作、エアロ",
-        "pub_date": "11/25 06:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/083b8c06271c2005b797124418bf65a5bf9b104e?source=rss",
+        "title": "インテリアデザイナーが教える、お金持ちのリビングでは見かけない10のもの（海外）(BUSINESS INSIDER JAPAN)",
+        "summary": "私はインテリアデザイナーとして長年、裕福で著名なクライアントを数多く担当してきた。彼らのリビングでは、小さすぎるラグやむき出しのテレビ、天井照明1つだけで部屋を照らすといった例はほとんど見かけない。大",
+        "pub_date": "11/25 07:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/da60233e344aaa9a359d40eac9c86478978293e4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "北海道や東北はふぶきや積雪増に注意　全国的に風が冷たい　今日25日(水)の天気(日本気象協会tenki.jp)",
+        "summary": "今日25日(水)は北海道や東北は日本海側を中心に雪が降り、ふぶく所もあるでしょう。北陸は雨や雪で、雷を伴って降り方が強まる所がありそうです。関東甲信や東海、近畿、中国地方は晴れる所が多いですが、山沿い",
+        "pub_date": "11/25 07:05 JST",
+        "link": "https://news.yahoo.co.jp/articles/2c28f2f43de0850f97b70f7c35bc32dcfca0c95b?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "トラック6台が全焼　放火の可能性も視野に捜査　愛知・安城市(メ〜テレ（名古屋テレビ）)",
+        "summary": "24日、愛知県安城市の会社の駐車場で、トラック6台が焼ける火事がありました。 警察は放火の可能性も視野に捜査しています。 消防によりますと、24日午後9時20分ごろ、安城市桜井町で、「黒煙と炎のような",
+        "pub_date": "11/25 07:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/d9b517ce4529084c2e5b0ff10e3ba694b245c29c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "個人情報の漏洩「無責任にもほどがある」「退会手続きをした」　企業対応に憤りや不安の声(withnews by 朝日新聞)",
+        "summary": "企業などへの不正アクセスによる、個人情報の漏洩（ろうえい）が相次いでいます。氏名・住所・メールアドレスなどのほか、免許証やパスポートなど本人確認書類の情報、サービス利用履歴まで漏れたケースも。こうした",
+        "pub_date": "11/25 07:02 JST",
+        "link": "https://news.yahoo.co.jp/articles/f374d068b40e0b6d16b5e0c725de2ff3072c1f47?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【全文公開】『JPドラゴン』ナンバー2 山本好孝容疑者「拘束の瞬間」現場写真(FRIDAY)",
+        "summary": "「もうボスも終わりだ。俺は捕まりたくねぇよ……」長らくフィリピンの闇社会を牛耳ってきた日本人犯罪組織『JPドラゴン』のトップ、吉岡竜司容疑者(56)が逮捕されたとき、男はこう漏らした。逃亡生活を続けて",
+        "pub_date": "11/25 07:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/16a9ae49f199d8b36e557c6c298e906ffac56cbf?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-25 06:19:32 JST"
+    "last_updated": "2026-11-25 07:20:52 JST"
   },
   "live_media": {
     "default_camera_id": "cam_fukuoka_hakata",
@@ -1090,10 +1088,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "kGG1CaeQ9oM",
+        "video_id": "wtg1A-_0Iy0",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/kGG1CaeQ9oM?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=kGG1CaeQ9oM"
+        "embed_url": "https://www.youtube.com/embed/wtg1A-_0Iy0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=wtg1A-_0Iy0"
       }
     ],
     "cameras": [

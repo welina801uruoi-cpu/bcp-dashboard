@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-25 10:22:59",
+  "timestamp": "2026-11-25 11:24:30",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -76,12 +76,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-25 19:18",
-    "place": "与那国島近海",
-    "magnitude": "4.3",
+    "shindo": "1",
+    "time": "2026-11-25 19:32",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "1.7",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-25 19:32",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "1.7",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-25 19:18",
         "place": "与那国島近海",
@@ -144,13 +151,6 @@
         "shindo": "1",
         "magnitude": "2.5",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-25 01:40",
-        "place": "大隅半島東方沖",
-        "shindo": "1",
-        "magnitude": "3.9",
-        "maxScale": 10
       }
     ]
   },
@@ -180,11 +180,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "強風注意報",
-          "波浪注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -208,11 +208,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
           "波浪注意報",
-          "強風注意報"
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、波浪注意報、強風注意報",
+        "summary": "波浪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
@@ -236,11 +236,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "強風注意報",
-          "波浪注意報",
-          "雷注意報"
+          "波浪注意報"
         ],
-        "summary": "強風注意報、波浪注意報、雷注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -339,12 +339,6 @@
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
         "level": "poweroutageLevel2"
-      },
-      {
-        "pref": "静岡県",
-        "region": "東海",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/22/",
-        "level": "poweroutageLevel1"
       }
     ],
     "water_msg": "仙台市水道局: 管内大規模断水・漏水なし",
@@ -456,7 +450,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/25 09:45",
@@ -849,8 +843,40 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 6,
     "articles": [
+      {
+        "title": "能登地震関連死、石川県で1人追加認定へ(共同通信)",
+        "summary": "石川県は25日、2024年の能登半島地震の災害関連死で、新たに1人の認定が決まったと発表した。地震の死者は石川、新潟、富山3県で計762人になる見通し。",
+        "pub_date": "11/25 19:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/818f40eca92272078c384749b73495a25276d7c7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "噴火で硫黄島に“新陸地”国土が広がる？(テレビ朝日系（ANN）)",
+        "summary": "噴火によって「硫黄島に“新たな陸地”が誕生している」ということで、これによって日本は広がるのでしょうか。詳しく見ていきます。【画像】「新たな陸地」が誕生した硫黄島",
+        "pub_date": "11/25 19:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/a0e42f2dabe25803a8ba0e1377f02c0997b7cca9?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "同乗の18歳女性は車外に投げ出される…無免許運転で事故起こし車を放置して逃走か “トクリュウ”関係者の18歳少年逮捕(東海テレビ)",
+        "summary": "愛知県豊橋市で今年3月、無免許運転の車で事故を起こし同乗者をケガさせたにも関わらず現場から逃走したとして、匿名・流動型犯罪グループ=トクリュウ関係者の18歳少年が逮捕されました。 警察によりますと、逮",
+        "pub_date": "11/25 19:28 JST",
+        "link": "https://news.yahoo.co.jp/articles/859d02b1a0c2897fffe7ae3f9dc6756553720712?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "福岡の駐輪場で男性刺殺“男は逃走中”(テレビ朝日系（ANN）)",
+        "summary": "福岡で刺された被害者は駐輪場で働く男性ということが分かりました。刺したとみられる男は付近のイオンを通過し、現在も逃走中です。【画像】逃走中の人物の特徴は",
+        "pub_date": "11/25 19:27 JST",
+        "link": "https://news.yahoo.co.jp/articles/fd32a31b00e45700c2563327fdeb53d03d6862f7?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "【独自】1年前の女性死亡“放火事件”逮捕前の男取材「何か変だな」 カメラ前で17分(テレビ朝日系（ANN）)",
         "summary": "男は事件当時、カメラの前で被害者について語っていました。秋田県で去年、住宅が全焼し女性の遺体が見つかった事件で、警察は今月25日、34歳の男を逮捕しました。■逮捕前の男取材 カメラ前で17分 逮捕前の",
@@ -860,119 +886,87 @@
         "is_disaster": true
       },
       {
-        "title": "逮捕の徳島・阿波市長 辞任の意向 交通事故の修理費350万円詐取か(テレビ朝日系（ANN）)",
-        "summary": "交通事故の修理費を市からだまし取った疑いで逮捕された市長が、辞任の意向です。 徳島県阿波市長の町田寿人容疑者（69）は、自ら起こした交通事故の修理費350万円を市が発注したケーブルテレビの工事代金に上",
+        "title": "逮捕の徳島・阿波市長 辞任の意向　交通事故の修理費350万円詐取か(テレビ朝日系（ANN）)",
+        "summary": "交通事故の修理費を市からだまし取った疑いで逮捕された市長が辞任の意向です。 徳島県阿波市長の町田寿人容疑者（69）は自ら起こした交通事故の修理費350万円を市が発注したケーブルテレビの工事代金に上乗せ",
         "pub_date": "11/25 19:00 JST",
         "link": "https://news.yahoo.co.jp/articles/15ba61113c8e2463cc8915c661baa2282fe91fd0?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "約6時間半の運転見合わせ原因は「鳥」? 車両パンタグラフが変形… 線路近くで鳥の死骸見つかり衝突した可能性 JR中央線 名古屋〜中津川の上下線(CBCテレビ)",
-        "summary": "原因は鳥だった可能性が。11月24日、JR中央線は一部区間で最大6時間半にわたって運転を見合わせました。【写真を見る】約6時間半の運転見合わせ原因は「鳥」? 車両パンタグラフが変形… 線路近くで鳥の死",
-        "pub_date": "11/25 18:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/c3b463b45c0ff5b7956bc9544c36cb9e6166d2a3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "秋吉台山焼き、来年見送り　死亡事故受け、山口・美祢(共同通信)",
-        "summary": "山口県美祢市の秋吉台国定公園で2月、山焼き中に消防団員の男性＝当時（58）＝が死亡した事故を受け、市や地元住民らの協議会は25日の会合で、来年の山焼きを実施しないことを決めた。安全対策の構築に時間を要",
-        "pub_date": "11/25 18:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/963a320db9f6d294c27053f8218276822bbaeb55?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "雪の中に“何者か”不審な行動　近づいてきて…被害者落胆　札幌市(テレビ朝日系（ANN）)",
-        "summary": "午後5時すぎ、雪が降るなか。車の横を自転車が通り過ぎると、こちらに戻ってきました。さらに助手席に近付き、目を疑う行動に。 先週、札幌市で撮影されたドライブレコーダーの映像です。 午後5時すぎ、雪が降る",
-        "pub_date": "11/25 18:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/5e61257e73b6eef9f2cf6a9bf980468835fa6e7a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "ペットと一緒に避難しよう　青森で訓練、犬10頭も参加(共同通信)",
-        "summary": "青森県弘前市は25日、弘前医療福祉大短期大学部（同市）で、ペットと一緒に避難する訓練を開いた。短期大学部と共催し、住民と飼い犬10頭が参加。動物愛護団体などの助言を受け、個室用テントの設営などを学んだ",
-        "pub_date": "11/25 18:43 JST",
-        "link": "https://news.yahoo.co.jp/articles/e459206dba2fe5573e6aca074afd4d00de753742?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "“1.7km逆走”衝突　運転手は77歳　ぶつかられた車の男性死亡　神奈川・平塚市(テレビ朝日系（ANN）)",
-        "summary": "24日午後5時半すぎ、神奈川県平塚市で77歳男性が運転する車がおよそ1.7キロ逆走し、対向車に正面衝突する事故がありました。 この事故で、対向車を運転していた34歳の男性が搬送先の病院で死亡しました。",
-        "pub_date": "11/25 18:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/bc3bfd9cce230a6acddaf2f0b6fece3aee941e26?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "〈JAF職員が車を踏切内に閉じ込め〉「怖い思いをさせたかった」「いい気味だ」ニヤニヤしながら現場を立ち去った52歳男の初公判…過去にも交通関係で罰金前科(集英社オンライン)",
-        "summary": "今年8月18日、さいたま市岩槻区で後続車を踏切内にとどまらせ、列車と衝突させたとして、電汽車往来危険の罪に問われているJAF職員の加藤研一被告（52）。11月24日にさいたま地裁で開かれた初公判で起訴",
-        "pub_date": "11/25 18:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/2c1784b01159bd9247cad099f798841bcc9b4642?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "三重県でインフルエンザ感染者数が“注意報レベル”に 統計開始以降4番目の早さ 11月16日〜22日の患者数は1医療機関あたり10人超(CBCテレビ)",
-        "summary": "三重県は、インフルエンザの感染者数が1医療機関あたり平均10人を超え、注意報レベルになったと発表しました。【写真を見る】三重県でインフルエンザ感染者数が“注意報レベル”に 統計開始以降4番目の早さ 1",
-        "pub_date": "11/25 18:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/de069619e357c0f177753a9b3fe78382f8c03b6f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「まさに言語道断」オンカジ賭博6万超などで罷免、簡裁判事登用のあり方にも影響…弾劾裁判所の判決詳報(弁護士ドットコムニュース)",
-        "summary": "オンラインカジノで賭博を繰り返し、公務員宿舎の共益費を着服するなどした新潟簡裁の森本暁史判事（52）が11月25日、弾劾裁判で罷免された。【写真】初公判期日では裁判員の欠席は1人だった裁判官弾劾裁判所",
-        "pub_date": "11/25 19:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/90b2733de7d5356ff6994b5a3c870d1896639295?source=rss",
+        "title": "【速報】福岡　70歳男性刺殺事件　重要参考人の男から事情聴取　捜査関係者(テレビ朝日系（ANN）)",
+        "summary": "福岡県の70歳男性刺殺事件、重要参考人の男から事情聴取。捜査関係者。",
+        "pub_date": "11/25 20:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/fa4dba1902f1d1f9f9855505a85c6ad8370c5df8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「和食の日」 小池都知事が児童と和給食(ABEMA TIMES)",
-        "summary": "「和食の日」に合わせ、東京都の小池知事は東京・新宿区の小学校を訪れ、児童と一緒に和食のメニューの給食を食べて交流しました。【映像】小池知事「和食の日」に児童と給食で交流する様子 新宿区立落合第一小学校",
-        "pub_date": "11/25 19:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/80891edaad992825948b7e2deb0d46cf67939cc2?source=rss",
+        "title": "覚醒剤9.9キロ密輸未遂か　山形の男告発、東京税関(共同通信)",
+        "summary": "覚醒剤約9.9キロを密輸しようとしたとして、東京税関羽田税関支署は25日までに、関税法違反（禁制品輸入未遂）の疑いで山形市、無職昼八聖志容疑者（42）を東京地検に告発した。20日付。東京税関は、SNS",
+        "pub_date": "11/25 20:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/bbe170d27de36b9bebce54ee4c844f6e2c89cc23?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "横浜の住宅街に“離れザル”目撃情報相次ぐ(テレビ朝日系（ANN）)",
-        "summary": "横浜市の住宅街で相次ぐサルの目撃、専門家は“離れザル”の可能性も指摘しています。■横浜の住宅街に“離れザル”か自宅でサルを目撃 住人「サル。最初から目が合った時から攻撃的におりてきて、犬が鳴き始めたら",
-        "pub_date": "11/25 19:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/42ac2d5663b9d05b176bf6efdb8e7749e6a16297?source=rss",
+        "title": "パーティー問題　関大臣進退は？　総理は続投姿勢も“問責決議”へ(テレビ朝日系（ANN）)",
+        "summary": "関文部科学大臣を巡り、野党は26日、問責決議案を提出する方針を固めました。それでも高市早苗総理大臣ら政権幹部は続投を指示しています。【画像】野党 問責決議案の賛否",
+        "pub_date": "11/25 20:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/a8b8bbdfe94d65958de17997aca1ed028edd08ca?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「菓子配り」で公選法違反の元・本巣市議に名古屋高裁は控訴を棄却　元市議は「反省はひとつもしていない」(メ〜テレ（名古屋テレビ）)",
-        "summary": "控訴審で再び有罪判決を受けた岐阜県本巣市の元市議は「反省はひとつもしていない」などと話しました。 起訴状などによりますと、本巣市の元市議会議員鍔本規之被告(78)は、市議選直前の去年9月支援者とともに",
-        "pub_date": "11/25 19:16 JST",
-        "link": "https://news.yahoo.co.jp/articles/e859e2d0243891e036f81c1455c387f3036d76e8?source=rss",
+        "title": "東海テレビが2億4千万円申告漏れ　ＣＭ等の外注費を税務調査で指摘される「社内の管理体制が機能せず」(メ〜テレ（名古屋テレビ）)",
+        "summary": "東海テレビ放送が、ＣＭなどの制作費を巡り、およそ2億4千万円の申告漏れを指摘されていたことが分かりました。 東海テレビによりますと、2019年度から6年分のＣＭやグッズの制作物についての外注費について",
+        "pub_date": "11/25 20:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/314485e27b5d4c18f877a43575ee0aa93a0612c9?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "家主が孤独死したが､飼い犬は3週間も生き延びた…水もエサもない中でペット2匹が口にしていたもの(プレジデントオンライン)",
-        "summary": "飼い主が突然倒れたら、家に残されたペットはどうなるのか。特殊清掃や遺品整理を行う会社代表の亀澤範行さんによる『ルポ 孤独死の現場』(幻冬舎新書)より、ペット2匹を飼っていた64歳男性の孤独死の現場を清",
-        "pub_date": "11/25 19:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/1ad7556e41dd343f370d211db9a71c4c639657ae?source=rss",
+        "title": "小沢一郎氏（84）、40代女性とのデート報道 立憲幹事長「我々といる時はとても穏やかな表情」(ABEMA TIMES)",
+        "summary": "立憲民主党の田名部匡代幹事長は25日の会見で、今年1月まで同党に所属していた無所属の小沢一郎前衆院議員（84）の40代女性との関係を報じた週刊誌の記事について見解を示した。【映像】笑顔で話す小沢一郎氏",
+        "pub_date": "11/25 20:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/267d9d750e470a0bea1640f2a7d15ea683720e87?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【蓬莱さんのお天気】週末から週明けにかけて気温のアップダウン激しく！秋服、冬服の両方が活躍(読売テレビ)",
-        "summary": "「かんさい情報ネットten.」蓬莱さんのお天気コーナーです。詳しくは動画をご覧ください。（11月25日放送）",
-        "pub_date": "11/25 19:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/9cdb06940047b36af17c7c7847214a029ac8e7f5?source=rss",
+        "title": "安保識者会議、原潜は総合的に判断と提言へ(共同通信)",
+        "summary": "安全保障関連3文書改定に向けた政府の有識者会議は、12月に取りまとめる提言に、原子力潜水艦導入に関し「総合的な観点から是非を判断すべきだ」との文言を盛り込む調整に入った。複数の関係者が25日明らかにし",
+        "pub_date": "11/25 20:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/1af1888fd1f894ff4542b3fa1460a7430566feeb?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "防災局、想定以上設置も　細野氏「事前策を徹底」(共同通信)",
+        "summary": "細野豪志防災相は25日、防災庁発足1カ月を前に共同通信のインタビューに応じ、同庁の地方機関「防災局」について、政府が当初想定していた2カ所より多く設置する可能性を示唆した。事前防災を徹底するため、数は",
+        "pub_date": "11/25 20:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/cb030cf451c950e790f046c59db70bc4b6dcbcb3?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "ANAホールディングス　新たにパイロット養成会社設立(テレビ朝日系（ANN）)",
+        "summary": "航空業界で2030年ごろからパイロットの不足が懸念されるなか、全日空などを傘下に持つANAホールディングスは新たにパイロット養成会社を設立することを発表しました。新会社の渡辺知倫社長「日本で唯一、エア",
+        "pub_date": "11/25 19:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/30ee946cdf24ace1d43078c690b5a3989d5f7501?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "辞職の蔵内氏関連予算、縮小へ　福岡県、審議会方針(共同通信)",
+        "summary": "福岡県の行政改革審議会は25日、金銭授受疑惑を巡って議員辞職した県議会の蔵内勇夫前議長が所長を務める「アジア獣医師会連合ワンヘルス福岡オフィス」（福岡市）への県予算からの支援を縮小すべきだとの方針を確",
+        "pub_date": "11/25 19:51 JST",
+        "link": "https://news.yahoo.co.jp/articles/b316a7730843289f098335b7f719d51746e6a3af?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-25 19:22:29 JST"
+    "last_updated": "2026-11-25 20:24:14 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -993,10 +987,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "mDy3ztqNbzQ",
+        "video_id": "mW7B7VtHjFQ",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/mDy3ztqNbzQ?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=mDy3ztqNbzQ"
+        "embed_url": "https://www.youtube.com/embed/mW7B7VtHjFQ?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=mW7B7VtHjFQ"
       },
       {
         "id": "stream_tbsnews",
@@ -1015,10 +1009,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "eK0MoKiGowU",
+        "video_id": "jVRmUpM8D9M",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/eK0MoKiGowU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=eK0MoKiGowU"
+        "embed_url": "https://www.youtube.com/embed/jVRmUpM8D9M?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=jVRmUpM8D9M"
       },
       {
         "id": "stream_annnews",

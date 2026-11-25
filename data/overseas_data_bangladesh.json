@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-25 22:52:24",
-  "timestamp_local": "2026-11-25 19:52:24",
+  "timestamp": "2026-11-25 23:53:20",
+  "timestamp_local": "2026-11-25 20:53:20",
   "country": {
     "id": "bangladesh",
     "name": "バングラデシュ",
@@ -356,6 +356,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "豪、SNS安全対策義務化を可決　違反企業に巨額制裁金(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/173ea7f72ae656fd2c9a822f9c0a9754af9fef4d?source=rss",
+        "description": "【シドニー共同】オーストラリア議会は25日、SNSなどのオンラインサービスの事業者に、有害なコンテンツや機能による被害を防ぐための対策を義務付ける法案を可決した。16歳未満のSNSアカウント保有を禁じ",
+        "pub_date": "11/25 23:02 JST",
+        "is_priority": false
+      },
+      {
         "title": "トルコ最大の都市イスタンブールにライオン出現か…監視カメラが捉えた姿に当局が捜索開始(ニューズウィーク日本版)",
         "link": "https://news.yahoo.co.jp/articles/6bd31b2324c0b398e9c05bd548fa1d81857d3764?source=rss",
         "description": "トルコのイスタンブールで、雌ライオンとみられる動物が目撃され、当局が捕獲作業を進めている。【映像】イスタンブールの森林地帯に出現した雌ライオンとみられる動物目撃情報が寄せられたのは、イスタンブール北部",
@@ -487,13 +494,6 @@
         "description": "米AI大手アンソロピックが史上最大規模のIPO（新規株式公開）を達成した。ハイテク企業が多く上場するナスダック（米店頭市場）で約810億ドルを調達。今年6月にスペースXが記録した最高額750億ドルを塗",
         "pub_date": "11/25 18:40 JST",
         "is_priority": false
-      },
-      {
-        "title": "パキスタン大統領、習主席に謝意　中国宇宙船打ち上げに祝賀ムード(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/522845268011493f971ff3a7751642142ae86d66?source=rss",
-        "description": "【イスラマバード共同】パキスタン人宇宙飛行士が乗った中国の宇宙船の打ち上げ成功に、パキスタン国内では25日、祝賀ムードが広がった。ザルダリ大統領は中国の習近平国家主席と書簡を交換し、有人宇宙計画で最初",
-        "pub_date": "11/25 18:34 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -598,32 +598,32 @@
     "default_channel_id": "stream_euronews_bd"
   },
   "forex": {
-    "timestamp": "11/25 22:52 JST",
+    "timestamp": "11/25 23:53 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.31,
-      "change": 0.3,
-      "change_pct": 0.19,
+      "rate": 159.12,
+      "change": 0.11,
+      "change_pct": 0.07,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "BDT",
       "name": "タカ",
       "symbol": "৳",
-      "rate": 1.273,
-      "change": 0.034,
-      "change_pct": 2.76,
+      "rate": 1.272,
+      "change": 0.033,
+      "change_pct": 2.67,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.33,
-      "change": 0.88,
-      "change_pct": 0.51
+      "rate": 174.2,
+      "change": 0.76,
+      "change_pct": 0.44
     }
   },
   "airports": [
@@ -644,9 +644,144 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/25 22:52 JST"
+    "cities": [
+      {
+        "name": "ダッカ (首都)",
+        "name_en": "Dhaka",
+        "is_capital": true,
+        "lat": 23.8103,
+        "lon": 90.4125,
+        "temp": 20.5,
+        "apparent_temp": 21.9,
+        "humidity": 80,
+        "wind_speed": 6.4,
+        "wind_gusts": 12.2,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/25(水)",
+            "temp_max": 26.2,
+            "temp_min": 17.9,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 26.2,
+            "temp_min": 16.8,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/27(金)",
+            "temp_max": 26.9,
+            "temp_min": 17.5,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "チッタゴン (南東部港湾)",
+        "name_en": "Chittagong",
+        "is_capital": false,
+        "lat": 22.3569,
+        "lon": 91.7832,
+        "temp": 22.9,
+        "apparent_temp": 25.0,
+        "humidity": 78,
+        "wind_speed": 7.9,
+        "wind_gusts": 15.1,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/25(水)",
+            "temp_max": 27.0,
+            "temp_min": 20.7,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 26.5,
+            "temp_min": 19.0,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/27(金)",
+            "temp_max": 27.8,
+            "temp_min": 19.7,
+            "weather_code": 0,
+            "weather_label": "☀️ 快晴",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "ダッカ (首都)",
+      "name_en": "Dhaka",
+      "is_capital": true,
+      "lat": 23.8103,
+      "lon": 90.4125,
+      "temp": 20.5,
+      "apparent_temp": 21.9,
+      "humidity": 80,
+      "wind_speed": 6.4,
+      "wind_gusts": 12.2,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
+      "forecast": [
+        {
+          "date": "11/25(水)",
+          "temp_max": 26.2,
+          "temp_min": 17.9,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/26(木)",
+          "temp_max": 26.2,
+          "temp_min": 16.8,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/27(金)",
+          "temp_max": 26.9,
+          "temp_min": 17.5,
+          "weather_code": 0,
+          "weather_label": "☀️ 快晴",
+          "precipitation_mm": 0.0
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/25 23:53 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -675,7 +810,7 @@
         "details": "MRTライン6号線定期運行中"
       }
     ],
-    "timestamp": "11/25 22:52 JST"
+    "timestamp": "11/25 23:53 JST"
   },
   "lifeline": {
     "status": "NORMAL",

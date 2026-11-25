@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-25 13:48:29",
+  "timestamp": "2026-11-25 14:52:03",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -62,11 +62,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-25 19:32",
+    "time": "2026-11-25 23:14",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "1.7",
+    "magnitude": "2.4",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-25 23:14",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.4",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-25 19:32",
         "place": "熊本県天草・芦北地方",
@@ -129,13 +136,6 @@
         "shindo": "2",
         "magnitude": "3.2",
         "maxScale": 20
-      },
-      {
-        "time": "2026-11-25 04:19",
-        "place": "神奈川県西部",
-        "shindo": "1",
-        "magnitude": "2.5",
-        "maxScale": 10
       }
     ]
   },
@@ -165,13 +165,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "風雪注意報",
           "雷注意報",
-          "強風注意報",
+          "風雪注意報",
+          "着雪注意報",
           "波浪注意報",
-          "着雪注意報"
+          "強風注意報"
         ],
-        "summary": "風雪注意報、雷注意報、強風注意報、波浪注意報、着雪注意報",
+        "summary": "雷注意報、風雪注意報、着雪注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -182,13 +182,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
           "雷注意報",
-          "強風注意報",
+          "着雪注意報",
           "波浪注意報",
-          "着雪注意報"
+          "強風注意報",
+          "なだれ注意報"
         ],
-        "summary": "なだれ注意報、雷注意報、強風注意報、波浪注意報、着雪注意報",
+        "summary": "雷注意報、着雪注意報、波浪注意報、強風注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -199,12 +199,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
-          "強風注意報",
           "波浪注意報",
-          "着雪注意報"
+          "着雪注意報",
+          "強風注意報",
+          "雷注意報"
         ],
-        "summary": "雷注意報、強風注意報、波浪注意報、着雪注意報",
+        "summary": "波浪注意報、着雪注意報、強風注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -215,12 +215,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "雷注意報",
+          "着雪注意報",
           "強風注意報",
-          "波浪注意報",
-          "着雪注意報"
+          "雷注意報",
+          "波浪注意報"
         ],
-        "summary": "雷注意報、強風注意報、波浪注意報、着雪注意報",
+        "summary": "着雪注意報、強風注意報、雷注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -396,8 +396,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/25 14:30",
+          "text": "START au END も通信 START 障害 END です Twitterノロノロ radikoも途中で止まったり 通信 START 障害 END になり..."
+        },
         {
           "time": "11/25 12:25",
           "text": "やっぱり、電車の中、全然電波が入らない。 多分docomoもソフトバンクも START au END もだと思う。こっちの方だけかな？ Xを見ていても、画像が表..."
@@ -405,10 +409,6 @@
         {
           "time": "11/25 12:20",
           "text": "で、あたしUQモバイルか楽天モバイルを考えたけど、楽天モバイル今ひとつ電波強くなってくれたら、楽天モバイル返り咲く！ START au END 系は電波強い！！..."
-        },
-        {
-          "time": "11/25 12:14",
-          "text": "@nenpuchi フォロバありがとうございます😊 ドコモ回線はドコモ回線(ドコモMAX)で START au END 回線はUQモバイルとpovo。ソフトバン..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -787,8 +787,16 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 4,
+    "disaster_count": 3,
     "articles": [
+      {
+        "title": "首都圏で相次ぐ住宅火災…埼玉で焼け跡から男性（78）の遺体(テレビ朝日系（ANN）)",
+        "summary": "太平洋側を中心に空気が乾燥するなか、首都圏では火災が相次ぎました。25日午前9時半ごろ、茨城県常陸大宮市で、住宅や倉庫など、6軒が全焼する火事がありました。飲食店を兼ねた木造2階建ての住宅から出火した",
+        "pub_date": "11/25 23:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/41a66cd023e0fb6b709ead509c47f8a295a323e4?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "高齢男性、5分以上逆走か　神奈川の死亡事故(共同通信)",
         "summary": "神奈川県平塚市の小田原厚木道路下り線で24日に高齢男性が運転する軽乗用車が逆走し、対向車と衝突して1人が死亡する事故があり、男性が5分以上にわたり逆走した疑いがあることが25日、捜査関係者への取材で分",
@@ -806,20 +814,36 @@
         "is_disaster": true
       },
       {
-        "title": "能登地震関連死、石川県で1人追加認定へ(共同通信)",
-        "summary": "石川県は25日、2024年の能登半島地震の災害関連死で、新たに1人の認定が決まったと発表した。地震の死者は石川、新潟、富山3県で計762人になる見通し。",
-        "pub_date": "11/25 19:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/818f40eca92272078c384749b73495a25276d7c7?source=rss",
+        "title": "リサイクル業者の敷地で給湯器から出火　消火活動続く　横浜市・泉区(テレビ朝日系（ANN）)",
+        "summary": "横浜市・泉区にあるリサイクル業者の敷地内で保管されていた給湯器などが焼ける火事があり、現在も消火活動が続けられています。 警察と消防によりますと、25日午後6時すぎ、泉区下飯田町にあるリサイクル業者の",
+        "pub_date": "11/25 23:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/91d8ced0235f342c6ec072b1a23c072ff6e1ec01?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
       },
       {
-        "title": "噴火で硫黄島に“新陸地”国土が広がる？(テレビ朝日系（ANN）)",
-        "summary": "噴火によって「硫黄島に“新たな陸地”が誕生している」ということで、これによって日本は広がるのでしょうか。詳しく見ていきます。【画像】「新たな陸地」が誕生した硫黄島",
-        "pub_date": "11/25 19:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/a0e42f2dabe25803a8ba0e1377f02c0997b7cca9?source=rss",
+        "title": "福岡 刺殺事件に関与か　別件の暴行容疑で49歳男を逮捕(テレビ朝日系（ANN）)",
+        "summary": "福岡市の駐輪場で70歳の男性が刺されて死亡した事件で、警察は別の暴行容疑で49歳の男を逮捕しました。殺人事件にも関与しているとみて調べています。 25日午後0時半ごろ、福岡市西区にある「JR九大学研都",
+        "pub_date": "11/25 22:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/3026ab6bcfecbbd5926f2a037b26c5314ef8586c?source=rss",
         "category": "国内・気象防災",
-        "is_disaster": true
+        "is_disaster": false
+      },
+      {
+        "title": "安保3文書に盛り込む経済安保政策の概要　政府が自民党会合に示す(テレビ朝日系（ANN）)",
+        "summary": "政府は年内に改定する安保3文書に盛り込む経済安全保障政策の概要を自民党の会合に示しました。 概要では、経済安全保障を「国家の安全保障を根底から支える基盤」と位置付けています。 インド太平洋地域で信頼で",
+        "pub_date": "11/25 22:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/61d95c876f5fdfdf7a5eb1ebee963586edea9ba1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "陸自長射程ミサイルの発射装置を来月北海道に搬入(テレビ朝日系（ANN）)",
+        "summary": "防衛省は有事の際に「反撃能力」の一つとなる長射程ミサイルの発射装置などを来月にも北海道の上富良野駐屯地に運び入れる方向で調整していることが分りました。 関係者によりますと、「25式高速滑空弾」の発射装",
+        "pub_date": "11/25 22:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/6c0ed8b9a2bb8f35c406d61f6649b8b265a8cd14?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
       },
       {
         "title": "兵庫・斎藤知事「県政に関すること、すべてが大事」(Yahoo!ニュース オリジナル THE PAGE)",
@@ -884,33 +908,9 @@
         "link": "https://news.yahoo.co.jp/articles/61b57a3b990a0bfd1b978add0850cb38298aacd2?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
-      },
-      {
-        "title": "福岡刺殺事件、重要参考人の男を逮捕(共同通信)",
-        "summary": "福岡県警は25日、福岡市内の地下鉄駅構内で男性を殴ったとして、暴行容疑で、福岡市東区、職業不詳川谷典雄容疑者（49）を逮捕した。県警は、福岡市西区の刺殺事件の重要参考人として事情を聴いている。",
-        "pub_date": "11/25 21:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/ef0055cc46827be3e6f2379ba40232e385f4dda3?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "20年以上にわたって未徴収…そもそも入湯税とは　町長が語った公表しなかった理由　「みんな脱税」発言の真意は?(FNNプライムオンライン)",
-        "summary": "富山県立山町で、入湯税が20年以上にわたって徴収されていなかった問題が波紋を広げている。注目されているのは、未徴収の事実を舟橋貴之町長や当時の杉田副町長が把握しながら、公表に至らなかった点だ。町長は「",
-        "pub_date": "11/25 21:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/abf43474e5e75c60ebdf39101781b2c77fdbbd1d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "木原官房長官 YouTuber「ナオキマン」起用は「若年層に興味や関心を持っていただく1つの手法」(ABEMA TIMES)",
-        "summary": "木原稔官房長官は25日、会見で、安全保障に関する政府広報に、YouTuber「ナオキマン」を起用した背景を述べた。【映像】「ナオキマン」起用の背景について 木原稔官房長官が会見で説明 木原長官は、起用",
-        "pub_date": "11/25 21:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/3d33a30924169f879b088a3a00e66222aae175ba?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-25 22:47:37 JST"
+    "last_updated": "2026-11-25 23:51:49 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -931,10 +931,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "mW7B7VtHjFQ",
+        "video_id": "tVo-E-lCwEM",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/mW7B7VtHjFQ?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=mW7B7VtHjFQ"
+        "embed_url": "https://www.youtube.com/embed/tVo-E-lCwEM?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=tVo-E-lCwEM"
       },
       {
         "id": "stream_tbsnews",
@@ -953,10 +953,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "wm5kl_muPVs",
+        "video_id": "aOlAS7r67pk",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/wm5kl_muPVs?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=wm5kl_muPVs"
+        "embed_url": "https://www.youtube.com/embed/aOlAS7r67pk?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=aOlAS7r67pk"
       },
       {
         "id": "stream_annnews",

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-25 22:50:40",
-  "timestamp_local": "2026-11-25 21:50:40",
+  "timestamp": "2026-11-25 23:53:05",
+  "timestamp_local": "2026-11-25 22:53:05",
   "country": {
     "id": "hongkong",
     "name": "香港 (中国香港特別行政区)",
@@ -361,6 +361,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "豪、SNS安全対策義務化を可決　違反企業に巨額制裁金(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/173ea7f72ae656fd2c9a822f9c0a9754af9fef4d?source=rss",
+        "description": "【シドニー共同】オーストラリア議会は25日、SNSなどのオンラインサービスの事業者に、有害なコンテンツや機能による被害を防ぐための対策を義務付ける法案を可決した。16歳未満のSNSアカウント保有を禁じ",
+        "pub_date": "11/25 23:02 JST",
+        "is_priority": false
+      },
+      {
         "title": "トルコ最大の都市イスタンブールにライオン出現か…監視カメラが捉えた姿に当局が捜索開始(ニューズウィーク日本版)",
         "link": "https://news.yahoo.co.jp/articles/6bd31b2324c0b398e9c05bd548fa1d81857d3764?source=rss",
         "description": "トルコのイスタンブールで、雌ライオンとみられる動物が目撃され、当局が捕獲作業を進めている。【映像】イスタンブールの森林地帯に出現した雌ライオンとみられる動物目撃情報が寄せられたのは、イスタンブール北部",
@@ -492,13 +499,6 @@
         "description": "米AI大手アンソロピックが史上最大規模のIPO（新規株式公開）を達成した。ハイテク企業が多く上場するナスダック（米店頭市場）で約810億ドルを調達。今年6月にスペースXが記録した最高額750億ドルを塗",
         "pub_date": "11/25 18:40 JST",
         "is_priority": false
-      },
-      {
-        "title": "パキスタン大統領、習主席に謝意　中国宇宙船打ち上げに祝賀ムード(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/522845268011493f971ff3a7751642142ae86d66?source=rss",
-        "description": "【イスラマバード共同】パキスタン人宇宙飛行士が乗った中国の宇宙船の打ち上げ成功に、パキスタン国内では25日、祝賀ムードが広がった。ザルダリ大統領は中国の習近平国家主席と書簡を交換し、有人宇宙計画で最初",
-        "pub_date": "11/25 18:34 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -610,32 +610,32 @@
     "default_channel_id": "cam_victoria_harbour"
   },
   "forex": {
-    "timestamp": "11/25 22:50 JST",
+    "timestamp": "11/25 23:53 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": 0.28,
-      "change_pct": 0.17,
+      "rate": 159.12,
+      "change": 0.11,
+      "change_pct": 0.07,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "HKD",
       "name": "香港ドル",
       "symbol": "HK$",
-      "rate": 20.32,
-      "change": 0.05,
-      "change_pct": 0.23,
+      "rate": 20.3,
+      "change": 0.03,
+      "change_pct": 0.13,
       "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.37,
-      "change": 0.93,
-      "change_pct": 0.54
+      "rate": 174.2,
+      "change": 0.76,
+      "change_pct": 0.44
     }
   },
   "airports": [
@@ -656,9 +656,99 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/25 22:50 JST"
+    "cities": [
+      {
+        "name": "香港 (九龍・中環)",
+        "name_en": "Hong Kong",
+        "is_capital": true,
+        "lat": 22.3193,
+        "lon": 114.1694,
+        "temp": 16.4,
+        "apparent_temp": 15.7,
+        "humidity": 70,
+        "wind_speed": 6.7,
+        "wind_gusts": 16.9,
+        "precipitation": 0.0,
+        "weather_code": 2,
+        "weather_label": "⛅ 晴れ時々曇り",
+        "forecast": [
+          {
+            "date": "11/25(水)",
+            "temp_max": 20.4,
+            "temp_min": 14.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 22.3,
+            "temp_min": 15.8,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/27(金)",
+            "temp_max": 26.3,
+            "temp_min": 16.3,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "香港 (九龍・中環)",
+      "name_en": "Hong Kong",
+      "is_capital": true,
+      "lat": 22.3193,
+      "lon": 114.1694,
+      "temp": 16.4,
+      "apparent_temp": 15.7,
+      "humidity": 70,
+      "wind_speed": 6.7,
+      "wind_gusts": 16.9,
+      "precipitation": 0.0,
+      "weather_code": 2,
+      "weather_label": "⛅ 晴れ時々曇り",
+      "forecast": [
+        {
+          "date": "11/25(水)",
+          "temp_max": 20.4,
+          "temp_min": 14.6,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/26(木)",
+          "temp_max": 22.3,
+          "temp_min": 15.8,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/27(金)",
+          "temp_max": 26.3,
+          "temp_min": 16.3,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/25 23:53 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -687,7 +777,7 @@
         "details": "MTR全線・機場快線平常運行中"
       }
     ],
-    "timestamp": "11/25 22:50 JST"
+    "timestamp": "11/25 23:53 JST"
   },
   "lifeline": {
     "status": "NORMAL",

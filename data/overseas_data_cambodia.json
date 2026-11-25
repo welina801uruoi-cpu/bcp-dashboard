@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-25 22:52:14",
-  "timestamp_local": "2026-11-25 20:52:14",
+  "timestamp": "2026-11-25 23:53:19",
+  "timestamp_local": "2026-11-25 21:53:19",
   "country": {
     "id": "cambodia",
     "name": "カンボジア",
@@ -356,6 +356,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "豪、SNS安全対策義務化を可決　違反企業に巨額制裁金(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/173ea7f72ae656fd2c9a822f9c0a9754af9fef4d?source=rss",
+        "description": "【シドニー共同】オーストラリア議会は25日、SNSなどのオンラインサービスの事業者に、有害なコンテンツや機能による被害を防ぐための対策を義務付ける法案を可決した。16歳未満のSNSアカウント保有を禁じ",
+        "pub_date": "11/25 23:02 JST",
+        "is_priority": false
+      },
+      {
         "title": "トルコ最大の都市イスタンブールにライオン出現か…監視カメラが捉えた姿に当局が捜索開始(ニューズウィーク日本版)",
         "link": "https://news.yahoo.co.jp/articles/6bd31b2324c0b398e9c05bd548fa1d81857d3764?source=rss",
         "description": "トルコのイスタンブールで、雌ライオンとみられる動物が目撃され、当局が捕獲作業を進めている。【映像】イスタンブールの森林地帯に出現した雌ライオンとみられる動物目撃情報が寄せられたのは、イスタンブール北部",
@@ -487,13 +494,6 @@
         "description": "米AI大手アンソロピックが史上最大規模のIPO（新規株式公開）を達成した。ハイテク企業が多く上場するナスダック（米店頭市場）で約810億ドルを調達。今年6月にスペースXが記録した最高額750億ドルを塗",
         "pub_date": "11/25 18:40 JST",
         "is_priority": false
-      },
-      {
-        "title": "パキスタン大統領、習主席に謝意　中国宇宙船打ち上げに祝賀ムード(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/522845268011493f971ff3a7751642142ae86d66?source=rss",
-        "description": "【イスラマバード共同】パキスタン人宇宙飛行士が乗った中国の宇宙船の打ち上げ成功に、パキスタン国内では25日、祝賀ムードが広がった。ザルダリ大統領は中国の習近平国家主席と書簡を交換し、有人宇宙計画で最初",
-        "pub_date": "11/25 18:34 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -593,14 +593,14 @@
     "default_channel_id": "stream_euronews_asia"
   },
   "forex": {
-    "timestamp": "11/25 22:52 JST",
+    "timestamp": "11/25 23:53 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.31,
-      "change": 0.3,
-      "change_pct": 0.19,
+      "rate": 159.12,
+      "change": 0.11,
+      "change_pct": 0.07,
       "direction": "up"
     },
     "local_jpy": {
@@ -608,17 +608,17 @@
       "name": "カンボジアリエル",
       "symbol": "៛",
       "rate": 0.0392,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "direction": "even"
+      "change": 0.001,
+      "change_pct": 2.49,
+      "direction": "up"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.33,
-      "change": 0.88,
-      "change_pct": 0.51
+      "rate": 174.2,
+      "change": 0.76,
+      "change_pct": 0.44
     }
   },
   "airports": [
@@ -639,9 +639,144 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/25 22:52 JST"
+    "cities": [
+      {
+        "name": "プノンペン (首都)",
+        "name_en": "Phnom Penh",
+        "is_capital": true,
+        "lat": 11.5564,
+        "lon": 104.9282,
+        "temp": 27.4,
+        "apparent_temp": 31.4,
+        "humidity": 74,
+        "wind_speed": 7.5,
+        "wind_gusts": 15.1,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/25(水)",
+            "temp_max": 32.3,
+            "temp_min": 25.3,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 32.0,
+            "temp_min": 25.1,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/27(金)",
+            "temp_max": 32.6,
+            "temp_min": 25.2,
+            "weather_code": 80,
+            "weather_label": "🌧️ にわか雨 (弱)",
+            "precipitation_mm": 4.9
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "シェムリアップ (北西部)",
+        "name_en": "Siem Reap",
+        "is_capital": false,
+        "lat": 13.3671,
+        "lon": 103.8448,
+        "temp": 26.7,
+        "apparent_temp": 30.1,
+        "humidity": 74,
+        "wind_speed": 9.7,
+        "wind_gusts": 14.4,
+        "precipitation": 0.0,
+        "weather_code": 1,
+        "weather_label": "🌤️ 晴れ",
+        "forecast": [
+          {
+            "date": "11/25(水)",
+            "temp_max": 32.2,
+            "temp_min": 25.0,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.7
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 31.3,
+            "temp_min": 23.0,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.2
+          },
+          {
+            "date": "11/27(金)",
+            "temp_max": 32.3,
+            "temp_min": 23.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.6
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "プノンペン (首都)",
+      "name_en": "Phnom Penh",
+      "is_capital": true,
+      "lat": 11.5564,
+      "lon": 104.9282,
+      "temp": 27.4,
+      "apparent_temp": 31.4,
+      "humidity": 74,
+      "wind_speed": 7.5,
+      "wind_gusts": 15.1,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "weather_label": "☁️ 曇り",
+      "forecast": [
+        {
+          "date": "11/25(水)",
+          "temp_max": 32.3,
+          "temp_min": 25.3,
+          "weather_code": 51,
+          "weather_label": "🌦️ 霧雨 (弱)",
+          "precipitation_mm": 0.1
+        },
+        {
+          "date": "11/26(木)",
+          "temp_max": 32.0,
+          "temp_min": 25.1,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/27(金)",
+          "temp_max": 32.6,
+          "temp_min": 25.2,
+          "weather_code": 80,
+          "weather_label": "🌧️ にわか雨 (弱)",
+          "precipitation_mm": 4.9
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/25 23:53 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -670,7 +805,7 @@
         "details": "旅客定期便運行中"
       }
     ],
-    "timestamp": "11/25 22:52 JST"
+    "timestamp": "11/25 23:53 JST"
   },
   "lifeline": {
     "status": "NORMAL",

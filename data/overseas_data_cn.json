@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-25 22:50:34",
-  "timestamp_local": "2026-11-25 21:50:34",
+  "timestamp": "2026-11-25 23:53:03",
+  "timestamp_local": "2026-11-25 22:53:03",
   "country": {
     "id": "china",
     "name": "中国 (中華人民共和国)",
@@ -383,6 +383,13 @@
   "world_news": {
     "articles": [
       {
+        "title": "豪、SNS安全対策義務化を可決　違反企業に巨額制裁金(共同通信)",
+        "link": "https://news.yahoo.co.jp/articles/173ea7f72ae656fd2c9a822f9c0a9754af9fef4d?source=rss",
+        "description": "【シドニー共同】オーストラリア議会は25日、SNSなどのオンラインサービスの事業者に、有害なコンテンツや機能による被害を防ぐための対策を義務付ける法案を可決した。16歳未満のSNSアカウント保有を禁じ",
+        "pub_date": "11/25 23:02 JST",
+        "is_priority": false
+      },
+      {
         "title": "トルコ最大の都市イスタンブールにライオン出現か…監視カメラが捉えた姿に当局が捜索開始(ニューズウィーク日本版)",
         "link": "https://news.yahoo.co.jp/articles/6bd31b2324c0b398e9c05bd548fa1d81857d3764?source=rss",
         "description": "トルコのイスタンブールで、雌ライオンとみられる動物が目撃され、当局が捕獲作業を進めている。【映像】イスタンブールの森林地帯に出現した雌ライオンとみられる動物目撃情報が寄せられたのは、イスタンブール北部",
@@ -514,13 +521,6 @@
         "description": "米AI大手アンソロピックが史上最大規模のIPO（新規株式公開）を達成した。ハイテク企業が多く上場するナスダック（米店頭市場）で約810億ドルを調達。今年6月にスペースXが記録した最高額750億ドルを塗",
         "pub_date": "11/25 18:40 JST",
         "is_priority": false
-      },
-      {
-        "title": "パキスタン大統領、習主席に謝意　中国宇宙船打ち上げに祝賀ムード(共同通信)",
-        "link": "https://news.yahoo.co.jp/articles/522845268011493f971ff3a7751642142ae86d66?source=rss",
-        "description": "【イスラマバード共同】パキスタン人宇宙飛行士が乗った中国の宇宙船の打ち上げ成功に、パキスタン国内では25日、祝賀ムードが広がった。ザルダリ大統領は中国の習近平国家主席と書簡を交換し、有人宇宙計画で最初",
-        "pub_date": "11/25 18:34 JST",
-        "is_priority": false
       }
     ],
     "count": 20
@@ -639,32 +639,32 @@
     "default_channel_id": "stream_cctv_live"
   },
   "forex": {
-    "timestamp": "11/25 22:50 JST",
+    "timestamp": "11/25 23:53 JST",
     "usd_jpy": {
       "currency": "USD",
       "name": "米ドル",
       "symbol": "$",
-      "rate": 159.29,
-      "change": 0.28,
-      "change_pct": 0.17,
+      "rate": 159.12,
+      "change": 0.11,
+      "change_pct": 0.07,
       "direction": "up"
     },
     "local_jpy": {
       "currency": "CNY",
       "name": "人民元",
       "symbol": "¥",
-      "rate": 23.84,
-      "change": -0.02,
-      "change_pct": -0.07,
+      "rate": 23.82,
+      "change": -0.04,
+      "change_pct": -0.18,
       "direction": "down"
     },
     "eur_jpy": {
       "currency": "EUR",
       "name": "ユーロ",
       "symbol": "€",
-      "rate": 174.37,
-      "change": 0.93,
-      "change_pct": 0.54
+      "rate": 174.2,
+      "change": 0.76,
+      "change_pct": 0.44
     }
   },
   "airports": [
@@ -700,9 +700,189 @@
     }
   ],
   "weather": {
-    "cities": [],
-    "capital": null,
-    "timestamp": "11/25 22:50 JST"
+    "cities": [
+      {
+        "name": "北京 (首都)",
+        "name_en": "Beijing",
+        "is_capital": true,
+        "lat": 39.9042,
+        "lon": 116.4074,
+        "temp": 1.0,
+        "apparent_temp": -3.0,
+        "humidity": 57,
+        "wind_speed": 7.3,
+        "wind_gusts": 14.4,
+        "precipitation": 0.0,
+        "weather_code": 0,
+        "weather_label": "☀️ 快晴",
+        "forecast": [
+          {
+            "date": "11/25(水)",
+            "temp_max": 7.4,
+            "temp_min": -2.5,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 11.8,
+            "temp_min": 0.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/27(金)",
+            "temp_max": 9.9,
+            "temp_min": 3.6,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "上海 (最大経済都市)",
+        "name_en": "Shanghai",
+        "is_capital": false,
+        "lat": 31.2304,
+        "lon": 121.4737,
+        "temp": 8.8,
+        "apparent_temp": 6.0,
+        "humidity": 72,
+        "wind_speed": 9.5,
+        "wind_gusts": 17.3,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/25(水)",
+            "temp_max": 12.2,
+            "temp_min": 2.4,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 18.6,
+            "temp_min": 9.6,
+            "weather_code": 3,
+            "weather_label": "☁️ 曇り",
+            "precipitation_mm": 0.0
+          },
+          {
+            "date": "11/27(金)",
+            "temp_max": 19.2,
+            "temp_min": 8.7,
+            "weather_code": 2,
+            "weather_label": "⛅ 晴れ時々曇り",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      },
+      {
+        "name": "広州 (南部主要都市)",
+        "name_en": "Guangzhou",
+        "is_capital": false,
+        "lat": 23.1291,
+        "lon": 113.2644,
+        "temp": 14.7,
+        "apparent_temp": 13.1,
+        "humidity": 60,
+        "wind_speed": 6.0,
+        "wind_gusts": 14.4,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "weather_label": "☁️ 曇り",
+        "forecast": [
+          {
+            "date": "11/25(水)",
+            "temp_max": 19.7,
+            "temp_min": 13.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.4
+          },
+          {
+            "date": "11/26(木)",
+            "temp_max": 20.7,
+            "temp_min": 12.6,
+            "weather_code": 51,
+            "weather_label": "🌦️ 霧雨 (弱)",
+            "precipitation_mm": 0.1
+          },
+          {
+            "date": "11/27(金)",
+            "temp_max": 24.6,
+            "temp_min": 14.7,
+            "weather_code": 1,
+            "weather_label": "🌤️ 晴れ",
+            "precipitation_mm": 0.0
+          }
+        ],
+        "alert": "平常",
+        "alert_badge": "🟢 平常・平穏",
+        "alert_class": "green",
+        "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+      }
+    ],
+    "capital": {
+      "name": "北京 (首都)",
+      "name_en": "Beijing",
+      "is_capital": true,
+      "lat": 39.9042,
+      "lon": 116.4074,
+      "temp": 1.0,
+      "apparent_temp": -3.0,
+      "humidity": 57,
+      "wind_speed": 7.3,
+      "wind_gusts": 14.4,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "weather_label": "☀️ 快晴",
+      "forecast": [
+        {
+          "date": "11/25(水)",
+          "temp_max": 7.4,
+          "temp_min": -2.5,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/26(木)",
+          "temp_max": 11.8,
+          "temp_min": 0.4,
+          "weather_code": 3,
+          "weather_label": "☁️ 曇り",
+          "precipitation_mm": 0.0
+        },
+        {
+          "date": "11/27(金)",
+          "temp_max": 9.9,
+          "temp_min": 3.6,
+          "weather_code": 2,
+          "weather_label": "⛅ 晴れ時々曇り",
+          "precipitation_mm": 0.0
+        }
+      ],
+      "alert": "平常",
+      "alert_badge": "🟢 平常・平穏",
+      "alert_class": "green",
+      "alert_desc": "平穏な気象状況。特段の警戒事項なし"
+    },
+    "timestamp": "11/25 23:53 JST"
   },
   "transit": {
     "status": "NORMAL",
@@ -731,7 +911,7 @@
         "details": "京滬高速鉄道ほか主要幹線は平常運行中"
       }
     ],
-    "timestamp": "11/25 22:50 JST"
+    "timestamp": "11/25 23:53 JST"
   },
   "lifeline": {
     "status": "NORMAL",

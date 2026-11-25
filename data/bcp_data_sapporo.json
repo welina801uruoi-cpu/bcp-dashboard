@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-25 06:34:51",
+  "timestamp": "2026-11-25 08:05:35",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -62,11 +62,18 @@
   "earthquake": {
     "status": "NORMAL",
     "shindo": "1",
-    "time": "2026-11-25 10:42",
+    "time": "2026-11-25 16:38",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "1.6",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-25 16:38",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-25 10:42",
         "place": "熊本県天草・芦北地方",
@@ -129,13 +136,6 @@
         "shindo": "1",
         "magnitude": "1.8",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-24 21:07",
-        "place": "福島県沖",
-        "shindo": "1",
-        "magnitude": "4",
-        "maxScale": 10
       }
     ]
   },
@@ -165,13 +165,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
-          "雷注意報",
+          "大雪注意報",
           "着雪注意報",
+          "雷注意報",
           "風雪注意報",
-          "大雪注意報"
+          "波浪注意報"
         ],
-        "summary": "波浪注意報、雷注意報、着雪注意報、風雪注意報、大雪注意報",
+        "summary": "大雪注意報、着雪注意報、雷注意報、風雪注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
@@ -182,13 +182,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "なだれ注意報",
-          "波浪注意報",
+          "強風注意報",
           "着雪注意報",
           "雷注意報",
-          "強風注意報"
+          "なだれ注意報",
+          "波浪注意報"
         ],
-        "summary": "なだれ注意報、波浪注意報、着雪注意報、雷注意報、強風注意報",
+        "summary": "強風注意報、着雪注意報、雷注意報、なだれ注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
@@ -199,12 +199,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "強風注意報",
           "着雪注意報",
-          "雷注意報",
-          "強風注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報、着雪注意報、雷注意報、強風注意報",
+        "summary": "強風注意報、着雪注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
@@ -215,12 +215,12 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "波浪注意報",
+          "強風注意報",
           "着雪注意報",
-          "雷注意報",
-          "強風注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "波浪注意報、着雪注意報、雷注意報、強風注意報",
+        "summary": "強風注意報、着雪注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -271,18 +271,6 @@
     "power_msg": "ほくでんNW: 停電情報なし（北海道エリア管内正常）",
     "power_outages": [
       {
-        "pref": "青森県",
-        "region": "東北",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/02/",
-        "level": "poweroutageLevel1"
-      },
-      {
-        "pref": "岩手県",
-        "region": "東北",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/03/",
-        "level": "poweroutageLevel1"
-      },
-      {
         "pref": "福島県",
         "region": "東北",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/07/",
@@ -304,12 +292,24 @@
         "pref": "岐阜県",
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
+        "level": "poweroutageLevel2"
+      },
+      {
+        "pref": "静岡県",
+        "region": "東海",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/22/",
         "level": "poweroutageLevel1"
       },
       {
         "pref": "徳島県",
         "region": "四国",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/36/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "大分県",
+        "region": "九州",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/44/",
         "level": "poweroutageLevel1"
       }
     ],
@@ -422,7 +422,7 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
           "time": "11/25 06:07",
@@ -471,16 +471,16 @@
       "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/25 07:03",
+          "text": "START au END 契約しててあんま電波困ったことないけど、東京ドームはレベチで START 繋がらない END 。"
+        },
+        {
+          "time": "11/25 06:37",
+          "text": "@mocha_toc イメージって怖いよね…実際、ガツガツ投資したけど、その裏でインフラ投資はほぼ行ってなかったらしい。 何より現場でみんな START 繋がら..."
+        },
+        {
           "time": "11/25 04:01",
           "text": "@4hLXWHzceWm8O4q こんにちは。突然失礼します、povoサポートです。一日の始めから START 繋がらない END と不安になりますよね💦副回線..."
-        },
-        {
-          "time": "11/25 03:53",
-          "text": "@yukl10457 突然失礼します、povoサポートです！色々操作をしてみても START 繋がらない END のですね😢もしもの時のために、安定した STA..."
-        },
-        {
-          "time": "11/25 03:40",
-          "text": "@cotpancotpan コットパンさま、こんにちは！povoサポートです。 START 繋がらない END のは困りますね💦次のお乗り換え先に、安心の ST..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -510,9 +510,9 @@
     }
   ],
   "sns_heatmap": {
-    "total_mentions": 0,
-    "top_region": "全国平穏",
-    "top_count": 0,
+    "total_mentions": 1,
+    "top_region": "関東・首都圏",
+    "top_count": 1,
     "regions": [
       {
         "id": "hokkaido",
@@ -546,12 +546,20 @@
         "lat": 35.6895,
         "lon": 139.6917,
         "zoom": 9,
-        "count": 0,
+        "count": 1,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
+        "detected_words": [
+          "東京"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "au 繋がらない",
+            "time": "11/25 07:03",
+            "text": "START au END 契約しててあんま電波困ったことないけど、東京ドームはレベチで START 繋がらない END 。"
+          }
+        ]
       },
       {
         "id": "chubu",
@@ -647,6 +655,27 @@
     ],
     "ranking": [
       {
+        "id": "kanto",
+        "name": "関東・首都圏",
+        "lat": 35.6895,
+        "lon": 139.6917,
+        "zoom": 9,
+        "count": 1,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
+        "detected_words": [
+          "東京"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "au 繋がらない",
+            "time": "11/25 07:03",
+            "text": "START au END 契約しててあんま電波困ったことないけど、東京ドームはレベチで START 繋がらない END 。"
+          }
+        ]
+      },
+      {
         "id": "hokkaido",
         "name": "北海道",
         "lat": 43.0642,
@@ -665,19 +694,6 @@
         "lat": 38.2682,
         "lon": 140.8694,
         "zoom": 7,
-        "count": 0,
-        "level": "NORMAL",
-        "color": "#10b981",
-        "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
-      },
-      {
-        "id": "kanto",
-        "name": "関東・首都圏",
-        "lat": 35.6895,
-        "lon": 139.6917,
-        "zoom": 9,
         "count": 0,
         "level": "NORMAL",
         "color": "#10b981",
@@ -782,145 +798,145 @@
     "status": "NORMAL",
     "office": "札幌管区気象台",
     "target_area": "石狩・空知・後志地方",
-    "report_time": "11/25 10:40",
+    "report_time": "11/25 16:38",
     "headline": "",
-    "text": "　北海道付近は、２５日は西高東低の気圧配置でしょう。２６日は気圧の谷の中となる見込みです。このため、気圧の傾きが大きく、大気の状態が不安定でしょう。\n\n　石狩・空知・後志地方の２５日９時の天気は、雪または晴れとなっています。\n\n　２５日は、晴れ時々雪で、ふぶく所があるでしょう。\n\n　２６日は、雨か雪のち晴れで、雷を伴う所がある見込みです。\n\n　海の波の高さは、２５日は４メートルとしけるでしょう。２６日は４メートルとしけ、のち３メートルの見込みです。",
+    "text": "　北海道付近は、２５日夜は西高東低の気圧配置は緩み、２６日は低気圧からのびる気圧の谷が昼過ぎにかけて通過する見込みです。このため、気圧の傾きが大きく、２６日は大気の状態が不安定になるでしょう。\n\n　石狩・空知・後志地方の２５日１５時の天気は、雪または曇りとなっています。\n\n　２５日夜は、曇り時々雪でしょう。\n\n　２６日は、雨か雪のち晴れで、雷を伴う所がある見込みです。\n\n　海の波の高さは、２５日夜は３メートルと高いでしょう。２６日は４メートルとしけ、のち２．５メートルの見込みです。",
     "paragraphs": [
-      "北海道付近は、２５日は西高東低の気圧配置でしょう。２６日は気圧の谷の中となる見込みです。このため、気圧の傾きが大きく、大気の状態が不安定でしょう。",
-      "石狩・空知・後志地方の２５日９時の天気は、雪または晴れとなっています。",
-      "２５日は、晴れ時々雪で、ふぶく所があるでしょう。",
+      "北海道付近は、２５日夜は西高東低の気圧配置は緩み、２６日は低気圧からのびる気圧の谷が昼過ぎにかけて通過する見込みです。このため、気圧の傾きが大きく、２６日は大気の状態が不安定になるでしょう。",
+      "石狩・空知・後志地方の２５日１５時の天気は、雪または曇りとなっています。",
+      "２５日夜は、曇り時々雪でしょう。",
       "２６日は、雨か雪のち晴れで、雷を伴う所がある見込みです。",
-      "海の波の高さは、２５日は４メートルとしけるでしょう。２６日は４メートルとしけ、のち３メートルの見込みです。"
+      "海の波の高さは、２５日夜は３メートルと高いでしょう。２６日は４メートルとしけ、のち２．５メートルの見込みです。"
     ],
-    "summary": "北海道付近は、２５日は西高東低の気圧配置でしょう。２６日は気圧の谷の中となる見込みです。このため、気圧の傾きが大きく、大気の状態が不安定でしょう。...",
+    "summary": "北海道付近は、２５日夜は西高東低の気圧配置は緩み、２６日は低気圧からのびる気圧の谷が昼過ぎにかけて通過する見込みです。このため、気圧の傾きが大きく、２６日は大気...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=016000"
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 5,
+    "disaster_count": 6,
     "articles": [
       {
-        "title": "常磐線で人身事故 一部運転見合わせ(レスキューナウニュース)",
-        "summary": "天王台駅で発生した人身事故の影響で、常磐線は品川～土浦駅間の運転を見合わせています。振替輸送を行っています。",
-        "pub_date": "11/25 15:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/bd8f20334c19e15736aa25f3f1f16b4432383c57?source=rss",
+        "title": "競輪選手の性被害巡り和解、解決金支払い(共同通信)",
+        "summary": "競輪の男性選手から性的関係を強要されたなどとして、元選手の女性が男性や日本競輪選手会などに損害賠償を求めた訴訟は25日、神戸地裁で和解が成立した。男性選手が解決金を支払う内容。",
+        "pub_date": "11/25 16:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/6e712618aca8f8d8bc7c13a1002800126342e7d8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "【ドラレコが捉えた】犯行時間“わずか5秒”助手席のドア開け貴重品バッグが盗まれる「非常に怒りを感じた」配達中の軽ワゴン車が被害に―前年の北海道の車上狙い491件のうち約7割の車は無施錠〈札幌市豊平区〉(FNNプライムオンライン)",
-        "summary": "配達中の車から、貴重品入りのカバンがわずか5秒で盗まれた。雪が降る中で起きた事件の一部始終を、ドライブレコーダーが捉えていた。",
-        "pub_date": "11/25 15:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/dca522883588f78ba9a2f810ce7dcfb3d4ff92d3?source=rss",
+        "title": "三重･伊勢市の商店街火災 がれき撤去費用の8割を補助する方針 12月定例議会に補正予算案を提出へ「明倫商店街」(CBCテレビ)",
+        "summary": "三重県伊勢市はことし8月に起きた商店街火災のがれき撤去について、費用の8割を補助する方針です。【写真を見る】がれきの山…火災で9割が全焼した明倫商店街 三重･伊勢市伊勢市の明倫商店街は、ことし8月の火",
+        "pub_date": "11/25 16:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/470b49141ae09dd835cccbc1cdb9e00810d7ef9a?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "「人の命よりも経済を優先した」胎児性水俣病患者が中学生に語った思い　水俣病70年　 鹿児島で病気への理解を深める出前授業　今も966人が認定審査待ち(FNNプライムオンライン)",
-        "summary": "「公害の原点」とも言われ、県内でも多くの被害者を生んだ水俣病が公式確認されてから、2026年で70年を迎える。11月24日、鹿児島市の吉田南中学校で、水俣病への理解を深めてもらうための出前授業が行われ",
-        "pub_date": "11/25 14:45 JST",
-        "link": "https://news.yahoo.co.jp/articles/f728d650a46e536307c622e5d10c983fc6e92b81?source=rss",
+        "title": "常磐線で人身事故 運転再開(レスキューナウニュース)",
+        "summary": "天王台駅で発生した人身事故の影響で、常磐線は品川～土浦駅間の運転を見合わせていましたが、16:39頃、運転を再開しました。なお、ダイヤが乱れています。",
+        "pub_date": "11/25 16:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/38124ebe317c50b5a989ed114637110e218e05a5?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "広島 高齢女性殺害事件 男の周辺から女性の通帳(テレビ朝日系（ANN）)",
-        "summary": "広島県庄原市で高齢女性が殺害された事件で、逮捕された男の周辺から被害者のかばんなど30点が見つかったことが分かりました。 東広島市の会社員・山口修容疑者（55）は去年6月、庄原市の住宅で矢吹定代さん（",
-        "pub_date": "11/25 14:08 JST",
-        "link": "https://news.yahoo.co.jp/articles/04a7bcce3e3a95657e8b962ce804065660c00593?source=rss",
+        "title": "紅葉から落葉シーズンに　道路冠水の原因にもなる厄介な落ち葉には意外なメリットも(ウェザーマップ)",
+        "summary": "秋が深まり、今年の紅葉シーズンも終盤に差し掛かってきました。紅葉は美しい景色を楽しめる一方で、掃いても掃いても積もる落ち葉に頭を悩ませている人もいるのではないでしょうか。大量の落ち葉は様々なトラブルに",
+        "pub_date": "11/25 16:14 JST",
+        "link": "https://news.yahoo.co.jp/articles/f4875b31febc168d710c66de88aec7123565eab8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "中国で短尺ドラマ課金 被害相次ぐ",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/25 14:34 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6603921?source=rss",
-        "category": "主要速報",
+        "title": "運航事業者選定で人員確保確認　一部地域でドクターヘリ運休受け(共同通信)",
+        "summary": "運航事業者の確保が困難なことなどから、患者の救急搬送を担うドクターヘリが一部地域で運休している問題を受け、厚生労働省は25日、事業者選定に関する指針の改定案を明らかにした。安定的に運航するため、都道府",
+        "pub_date": "11/25 16:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/6670ced4a5e628dff2ab504d10a4227ba3e758a0?source=rss",
+        "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "あまりのセコさが命取りに？ 関文科相「会費1人9万円の議員会館パーティー」が高市政権にもたらしかねない大きな傷跡(東洋経済オンライン)",
-        "summary": "第2次高市改造内閣で初入閣した閣僚から、また1人、辞任者が出てしまうのか――。10月14日に辞任した簗和生前農林水産相に続き、関芳弘文部科学相の去就が注目されている。【写真あり】会費は1人9万円！ さ",
-        "pub_date": "11/25 15:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/cb7c055941627e6a956fe5975881b162cc07048c?source=rss",
+        "title": "低気圧急発達で火災リスク増？　電気火災の意外な原因と対策　初冬の生暖かい空気に注意(ウェザーマップ)",
+        "summary": "空気が乾燥する時季は火災が延焼しやすく、普段以上に気を配っている人が多いでしょう。しかし冬場の火災には、意外な盲点が潜んでいます。「トラッキング現象」です。トラッキングは、コンセントプラグのすき間に溜",
+        "pub_date": "11/25 16:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/4271fb318d71cac55990b6a83be23ddce12bc7ec?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「体が寒さに慣れていない今年は起こしやすい」ヒートショックに注意　若者も湯船で意識失い溺れる恐れ(読売テレビ)",
+        "summary": "25日朝も近畿各地は寒い朝になりました。この時期、注意が必要なのが「ヒートショック」です。私たちが気を付けるべきこととは？ ロープウェイで空中散歩。 見えるのは、秋から冬への景色です。 山頂は、一面、",
+        "pub_date": "11/25 17:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/b518d270207d60a95b1e3fb87182e6729e5c3cce?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "芥川賞作家に罰金30万円　沖縄防衛局のフェンス損壊(共同通信)",
-        "summary": "沖縄県名護市で2024年、防衛省沖縄防衛局が所有するフェンスを壊したとして、器物損壊罪に問われた芥川賞作家の目取真俊（本名島袋正）被告（66）に、那覇地裁は25日、求刑通り罰金30万円の判決を言い渡し",
-        "pub_date": "11/25 15:29 JST",
-        "link": "https://news.yahoo.co.jp/articles/a7b82b5b94a33fcfe77a9c891cb0277ddcc8f406?source=rss",
+        "title": "「裸の大将」山下清が描いた70年前の桜島　「クレヨンを爪で削ったり、親指の先で波の姿を描いていた」　鹿児島・垂水の民家に3週間　当時を知る96歳男性が証言(FNNプライムオンライン)",
+        "summary": "ドラマ「裸の大将放浪記」のモデルとして知られる画家、山下清。実は生前、鹿児島県垂水市に滞在し、一般家庭に寝泊まりしながら絵を描いていたことをご存じだろうか。当時を知る人々の証言から、「垂水放浪記」をた",
+        "pub_date": "11/25 17:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/8415ec08b6f7075ece70cc1958b8a14d0f56c5af?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "岩本元理事長の保釈認める　東京女子医大背任で公判中(共同通信)",
-        "summary": "東京地裁は25日までに、東京女子医大（東京都新宿区）の新校舎建設工事などに絡み大学に損害を与えたとして、背任罪に問われている元理事長岩本絹子被告（79）の保釈を認める決定をした。被告は同日、保釈保証金",
-        "pub_date": "11/25 15:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/e12858fb0eda1217eed86501b693e85dfd09870f?source=rss",
+        "title": "日本は中国の「弟分」に？高市総理への“冷遇”から読み解く次の一手…レアアース輸入に影響、訪日客半減で冷え込む日中関係のゆくえは(ABEMA TIMES)",
+        "summary": "中国がホスト国となり開催されたAPEC（アジア太平洋経済協力会議）首脳会議で、高市早苗総理に対する待遇の温度差が物議を醸した。【映像】その時、何を話した？高市総理と習近平氏「10秒間の握手」 トランプ",
+        "pub_date": "11/25 17:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/03c066ebb8a4ae878bc6d3a5d564222c164dee52?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【ヤフコメで話題】「転職前に副業や資産形成を勧める声」「転職の難しさと現実的な選択肢」 - 転職を巡る多様な意見(Yahoo!ニュース オリジナル THE PAGE)",
-        "summary": "転職について、Yahoo!ニュースのコメント欄で話題になっています。コメントでは、転職を考える前に副業や資産形成などで収入源を増やすことが自信や安心につながるという意見がありました。また、転職市場での",
-        "pub_date": "11/25 15:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/44bf41513566148c19f4bc7aa24c3bab29fc8c0a?source=rss",
+        "title": "福岡の刺殺事件、死亡は70歳男性(共同通信)",
+        "summary": "福岡県警は25日、福岡市のイオンモール福岡伊都付近の刺殺事件で死亡した男性について、福岡市西区の石川嘉章さん（70）と明らかにした。",
+        "pub_date": "11/25 16:52 JST",
+        "link": "https://news.yahoo.co.jp/articles/9f6e10a85f66548bd884200a16e3201019682866?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "《コロンビア人容疑者が猛ダッシュ》「痛え！　何すんだよ」無差別3人切りつけの現場に響いた叫び声、住民は「ここ最近治安が悪くなったように感じていた」【千葉・松戸市】(NEWSポストセブン)",
-        "summary": "「痛え！ 何すんだよ！」──男は夜の住宅街で無差別に通行人らを切りつけ始め、叫び声があたりに響いた。千葉県警は11月19日、松戸市の無職でコロンビア国籍のハラミージョ・マリン・アンドレス・マウリシオ容",
-        "pub_date": "11/25 15:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/f790bc63f263a7dc4ce388ef5dc657af9e9b6d29?source=rss",
+        "title": "小沢一郎氏84歳の逢瀬報道　立民・田名部幹事長、94歳男性の恋愛観を紹介して切り返す(産経新聞)",
+        "summary": "立憲民主党の田名部匡代幹事長は25日の記者会見で、今年1月まで立民に所属し、現在無所属の小沢一郎前衆院議員（84）の逢瀬を巡る週刊誌報道について、「まだちょっと私、それを拝見していないので、どんな表情",
+        "pub_date": "11/25 16:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/761d1e846d7998ce4a8102b0f8b9ab270dc3a15b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "【速報】福岡・西区で男性刺される　刺された男性死亡　男は南方向に逃走(テレビ朝日系（ANN）)",
-        "summary": "25日午後0時半ごろ、福岡市西区で50代くらいの男性が男に刺された事件で、刺された男性の死亡が確認されました。 警察と消防によりますと、午後0時半ごろ、福岡市西区北原にあるJR九大学研都市駅の駐輪場で",
-        "pub_date": "11/25 15:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/086c7423096a21b8afcb036db879cc8815b20634?source=rss",
+        "title": "厚労省、自発呼吸確認1回運用へ　成人脳死判定の手順緩和(共同通信)",
+        "summary": "厚生労働省の臓器移植委員会は25日、臓器移植の際に必要な脳死判定の手順について、現在は2回の検査が必要な自発呼吸の喪失確認を、成人患者に限り1回に緩和する方針を了承した。厚労省は省令やマニュアルを改正",
+        "pub_date": "11/25 16:47 JST",
+        "link": "https://news.yahoo.co.jp/articles/8b52e832442d308b57bb2f347929ba335032c18f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "強殺未遂疑い、仙台の少年ら5人再逮捕(共同通信)",
-        "summary": "愛知県小牧市の住宅で女性（82）が襲われ金品が奪われた事件で、愛知県警は25日、強盗殺人未遂などの疑いで、仙台市の14～15歳の中高生4人と、岐阜県関市のブラジル国籍の男（23）を再逮捕した。",
-        "pub_date": "11/25 15:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/15bd2a38a86b08e0dee51e1435a649c1bfc6fa2f?source=rss",
+        "title": "文科相問責決議案、野党8党派が共同提出へ(共同通信)",
+        "summary": "関芳弘文部科学相の政治資金パーティー問題を巡り、参院野党8党派が問責決議案を共同提出する見通しとなった。複数の関係者が25日明らかにした。",
+        "pub_date": "11/25 16:46 JST",
+        "link": "https://news.yahoo.co.jp/articles/97916bda516f775e403c1146b960186c30f1496b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "男はイオンモール通り抜け逃走か(共同通信)",
-        "summary": "福岡県警によると、死亡した男性を刺したとみられる男は、現場近くのイオンモール福岡伊都の建物内を通り抜けて逃げたとみられる。",
-        "pub_date": "11/25 15:18 JST",
-        "link": "https://news.yahoo.co.jp/articles/b79b545891be9990693a515ce7a06e7989cf4e29?source=rss",
+        "title": "東急電鉄の駅員が遺失物や窓口処理機を不正利用して返金額を着服　懲戒解雇処分に(テレビ朝日系（ANN）)",
+        "summary": "東急電鉄の駅員が、客の遺失物を着服したり窓口での処理機を不正操作して、金を着服していたとして、懲戒解雇処分になりました。東急電鉄によりますと、渋谷駅の男性駅員は、遺失物として届けられたICカード乗車券",
+        "pub_date": "11/25 16:44 JST",
+        "link": "https://news.yahoo.co.jp/articles/19c8ca387682f8f54e588940da824c7b81f3ceb6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "福岡刺殺、死亡の男性は駐輪場で勤務中(共同通信)",
-        "summary": "福岡県警は25日、福岡市のイオンモール福岡伊都付近で刺され死亡した男性は、駐輪場を管理する仕事の勤務中だった。",
-        "pub_date": "11/25 15:17 JST",
-        "link": "https://news.yahoo.co.jp/articles/cbedac8349dc8875a8c9b58330e7b97783e4093f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "14人死亡土石流30年の慰霊式　長野、新潟県境「蒲原沢」(共同通信)",
-        "summary": "1996年、長野県小谷村と新潟県糸魚川市の境にある蒲原沢で土石流が発生し、災害復旧工事中だった作業員14人が亡くなった災害から12月6日で30年となるのを前に、村役場で25日、慰霊式が開かれた。当時、",
-        "pub_date": "11/25 15:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/db7ea07ff45d30b10e0c4e0051e010739725bfca?source=rss",
+        "title": "国の庁舎、木造で整備しやすく　建設費低減、議員立法提出へ(共同通信)",
+        "summary": "衆院国土交通委員会は25日、国の庁舎を木造で整備しやすくするため、関連法改正案を議員立法で本会議に提出することを全会一致で決めた。災害時の応急対応に当たる施設を除き、耐火性能の規定を一般の建築物と同じ",
+        "pub_date": "11/25 16:42 JST",
+        "link": "https://news.yahoo.co.jp/articles/f65fb539e92abb870758a3848e5ecfcc03752225?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-25 15:34:49 JST"
+    "last_updated": "2026-11-25 17:04:42 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -941,10 +957,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "PBhOu6Zsjeg",
+        "video_id": "210gQ4BeQJo",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/PBhOu6Zsjeg?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=PBhOu6Zsjeg"
+        "embed_url": "https://www.youtube.com/embed/210gQ4BeQJo?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=210gQ4BeQJo"
       },
       {
         "id": "stream_tbsnews",
@@ -963,10 +979,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "GbNb6CtJLyE",
+        "video_id": "QoOFYL15ew0",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/GbNb6CtJLyE?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=GbNb6CtJLyE"
+        "embed_url": "https://www.youtube.com/embed/QoOFYL15ew0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=QoOFYL15ew0"
       },
       {
         "id": "stream_annnews",
@@ -974,10 +990,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "PE5Vdr_YXks",
+        "video_id": "PuMKH2I0jw4",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/PE5Vdr_YXks?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=PE5Vdr_YXks"
+        "embed_url": "https://www.youtube.com/embed/PuMKH2I0jw4?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=PuMKH2I0jw4"
       },
       {
         "id": "stream_fnnnews",

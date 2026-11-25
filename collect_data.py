@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 BCPダッシュボード 定期データ収集スクリプト (GitHub Actions / ローカル両用)
@@ -137,8 +137,8 @@ def collect_domestic_data(quick_mode=False):
     """国内主要エリアの災害データを収集・保存"""
     print("\n[2/4] 国内災害データを収集開始...")
     locations = ["all", "tokyo", "osaka"] if quick_mode else TARGET_LOCATIONS
-    # ユーザー設定キーワードと完全一致 (au / KDDI / povo 障害)
-    default_keywords = ["au 障害", "KDDI 障害", "au 繋がらない", "povo 障害"]
+    # デフォルトSNS監視キーワード（通信・インフラ障害・停電）
+    default_keywords = ["通信障害", "回線障害", "停電", "Wi-Fi障害"]
 
     success_count = 0
     for loc_key in locations:

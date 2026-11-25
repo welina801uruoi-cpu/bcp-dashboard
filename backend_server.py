@@ -1,4 +1,4 @@
-from concurrent.futures import ThreadPoolExecutor, as_completed
+﻿from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 import email.utils
 import json
@@ -2467,7 +2467,7 @@ class BCPDataAnalyzer:
         live_media = self.get_live_media_config(loc_cfg)
 
         if not keywords:
-            keywords = ["au 障害", "KDDI 障害", "au 繋がらない", "povo 障害"]
+            keywords = ["通信障害", "回線障害", "停電", "Wi-Fi障害"]
 
         sns_results = [self.fetch_yahoo_realtime_data(kw) for kw in keywords]
         sns_heatmap = self.analyze_regional_sns_heatmap(sns_results)
@@ -6071,7 +6071,7 @@ def get_bcp_data():
         # 最大10件、各キーワード最大50文字に制限（DoS・リソース枯渇防止）
         keywords = [k.strip()[:50] for k in raw_keywords.split(",") if k.strip()][:10]
     else:
-        keywords = ["au 障害", "KDDI 障害", "au 繋がらない", "povo 障害"]
+        keywords = ["通信障害", "回線障害", "停電", "Wi-Fi障害"]
 
     data = analyzer.collect_all_metrics(location_key=loc_key, keywords=keywords)
     return jsonify(data)

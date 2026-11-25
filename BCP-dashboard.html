@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja" data-theme="dark" class="font-scale-20m">
 <head>
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -1831,7 +1831,7 @@
             }
         }
 
-        .kddi-building-card {
+        .assembly-building-card {
             background: var(--bg-card);
             border: 2px solid var(--border-color);
             border-radius: 10px;
@@ -1841,18 +1841,18 @@
             margin-bottom: 10px;
         }
 
-        .kddi-building-card:hover {
+        .assembly-building-card:hover {
             border-color: #3b82f6;
             background: rgba(59, 130, 246, 0.05);
         }
 
-        .kddi-building-card.active {
+        .assembly-building-card.active {
             border-color: #60a5fa;
             background: rgba(37, 99, 235, 0.18);
             box-shadow: 0 0 16px rgba(59, 130, 246, 0.35);
         }
 
-        .kddi-building-name {
+        .assembly-building-name {
             font-weight: 800;
             font-size: 1.05em;
             color: var(--text-primary);
@@ -1861,7 +1861,7 @@
             justify-content: space-between;
         }
 
-        .kddi-building-meta {
+        .assembly-building-meta {
             font-size: 0.8em;
             color: var(--text-muted);
             margin-top: 4px;
@@ -1997,7 +1997,7 @@
                 </div>
                 <div class="assembly-actions">
                     <button class="btn-assembly-route" onclick="openAssemblyRouteModal()">
-                        🧭 KDDI拠点 参集ルート・危険確認 ↗
+                        🧭 指定拠点 参集ルート・危険確認 ↗
                     </button>
                     <button class="btn-assembly-sim" onclick="toggleAssemblySimMode()" id="btn-assembly-sim" title="訓練・検証用シミュレーショントグル">
                         🧪 訓練発令テスト
@@ -2612,7 +2612,7 @@
             <div class="modal-header">
                 <div class="modal-title-area">
                     <span class="modal-title-icon">🧭</span>
-                    <span class="modal-title-text" style="font-size:1.2em;">KDDI重要拠点 参集ルート検索 ＆ 経路危険診断</span>
+                    <span class="modal-title-text" style="font-size:1.2em;">主要参集拠点 ルート検索 ＆ 経路危険診断</span>
                     <span style="font-size:0.75em; padding:3px 8px; border-radius:4px; background:#1e3a8a; color:#93c5fd; margin-left:8px;">BCP非常時参集支援</span>
                 </div>
                 <button class="modal-close-btn" onclick="closeAssemblyRouteModal()">✕ 閉じる (ESC)</button>
@@ -2647,63 +2647,63 @@
                     </div>
                 </div>
 
-                <!-- 2. メイングリッド: 左側: KDDI4大拠点選択 / 右側: ルート解析＆提案＆マップ -->
+                <!-- 2. メイングリッド: 左側: 主要参集拠点選択 / 右側: ルート解析＆提案＆マップ -->
                 <div class="assembly-modal-grid">
-                    <!-- 左カラム: KDDI 4大重要拠点リスト -->
+                    <!-- 左カラム: 主要参集拠点リスト (指定4拠点) -->
                     <div>
                         <div style="font-weight:800; color:var(--text-accent); margin-bottom:8px; display:flex; align-items:center; justify-content:space-between;">
-                            <span>🏢 参集指定拠点 (4大重要拠点)</span>
+                            <span>🏢 参集指定拠点 (主要4拠点)</span>
                             <span style="font-size:0.8em; color:var(--text-muted);">選択して切替</span>
                         </div>
 
-                        <!-- 拠点 1: 高輪ビル -->
-                        <div class="kddi-building-card active" id="card-bldg-takanawa" onclick="selectKDDIBuilding('takanawa')">
-                            <div class="kddi-building-name">
-                                <span>KDDI 高輪ビル</span>
+                        <!-- 拠点 1: 第1参集拠点 -->
+                        <div class="assembly-building-card active" id="card-bldg-takanawa" onclick="selectAssemblyBuilding('takanawa')">
+                            <div class="assembly-building-name">
+                                <span>第1参集拠点（品川・港南エリア）</span>
                                 <span style="font-size:0.75em; padding:2px 6px; border-radius:4px; background:#991b1b; color:#fecaca;">災害対策本部事務局 拠点</span>
                             </div>
-                            <div class="kddi-building-meta">
-                                📍 東京都港区高輪3-19-20<br>
-                                🚇 品川駅(高輪口) 徒歩6分 / 泉岳寺駅 徒歩7分<br>
+                            <div class="assembly-building-meta">
+                                📍 東京都港区（主要統括本部エリア）<br>
+                                🚇 品川駅 徒歩6分 / 泉岳寺駅 徒歩7分<br>
                                 🎯 災害対策本部事務局の拠点（全社非常対策・統括事務局）
                             </div>
                         </div>
 
-                        <!-- 拠点 2: 新宿ビル -->
-                        <div class="kddi-building-card" id="card-bldg-shinjuku" onclick="selectKDDIBuilding('shinjuku')">
-                            <div class="kddi-building-name">
-                                <span>KDDI 新宿ビル</span>
+                        <!-- 拠点 2: 第2参集拠点 -->
+                        <div class="assembly-building-card" id="card-bldg-shinjuku" onclick="selectAssemblyBuilding('shinjuku')">
+                            <div class="assembly-building-name">
+                                <span>第2参集拠点（西新宿エリア）</span>
                                 <span style="font-size:0.75em; padding:2px 6px; border-radius:4px; background:#1e3a8a; color:#93c5fd;">運用部門 拠点</span>
                             </div>
-                            <div class="kddi-building-meta">
-                                📍 東京都新宿区西新宿2-3-2<br>
-                                🚇 都庁前駅 徒歩3分 / 新宿駅(西口) 徒歩6分<br>
+                            <div class="assembly-building-meta">
+                                📍 東京都新宿区（運用センターエリア）<br>
+                                🚇 都庁前駅 徒歩3分 / 新宿駅 徒歩6分<br>
                                 🎯 運用部門の拠点（ネットワーク・サービスオペレーション統括）
                             </div>
                         </div>
 
-                        <!-- 拠点 3: 多摩センター -->
-                        <div class="kddi-building-card" id="card-bldg-tama" onclick="selectKDDIBuilding('tama')">
-                            <div class="kddi-building-name">
-                                <span>KDDI 多摩センター</span>
+                        <!-- 拠点 3: 第3参集拠点 -->
+                        <div class="assembly-building-card" id="card-bldg-tama" onclick="selectAssemblyBuilding('tama')">
+                            <div class="assembly-building-name">
+                                <span>第3参集拠点（多摩エリア）</span>
                                 <span style="font-size:0.75em; padding:2px 6px; border-radius:4px; background:#1e3a8a; color:#93c5fd;">運用部門 拠点</span>
                             </div>
-                            <div class="kddi-building-meta">
-                                📍 東京都多摩市鶴牧3-5-1<br>
-                                🚇 多摩センター駅 (小田急/京王/モノレール) 徒歩8分<br>
+                            <div class="assembly-building-meta">
+                                📍 東京都多摩エリア（広域バックアップセンター）<br>
+                                🚇 主要駅 徒歩8分<br>
                                 🎯 運用部門の拠点（データセンター・自律運用オペレーション）
                             </div>
                         </div>
 
-                        <!-- 拠点 4: ガーデンエアータワー -->
-                        <div class="kddi-building-card" id="card-bldg-gat" onclick="selectKDDIBuilding('gat')">
-                            <div class="kddi-building-name">
-                                <span>KDDI ガーデンエアータワー</span>
+                        <!-- 拠点 4: 第4参集拠点 -->
+                        <div class="assembly-building-card" id="card-bldg-gat" onclick="selectAssemblyBuilding('gat')">
+                            <div class="assembly-building-name">
+                                <span>第4参集拠点（千代田・飯田橋エリア）</span>
                                 <span style="font-size:0.75em; padding:2px 6px; border-radius:4px; background:#047857; color:#a7f3d0;">情報システム部門 拠点</span>
                             </div>
-                            <div class="kddi-building-meta">
-                                📍 東京都千代田区飯田橋3-10-10<br>
-                                🚇 飯田橋駅(東口) 徒歩5分 / 水道橋駅 徒歩4分<br>
+                            <div class="assembly-building-meta">
+                                📍 東京都千代田区（IT基盤システムエリア）<br>
+                                🚇 飯田橋駅 徒歩5分 / 水道橋駅 徒歩4分<br>
                                 🎯 情報システム部門の拠点（社内IT・基盤システム）
                             </div>
                         </div>
@@ -2789,7 +2789,7 @@
                         <!-- 参集マップ (Leaflet) -->
                         <div style="background:var(--bg-card); border:1.5px solid var(--border-color); border-radius:10px; padding:10px;">
                             <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;">
-                                <span style="font-size:0.85em; font-weight:800; color:var(--text-muted);">🗺️ 参集ルートマップ（出発地 → KDDI拠点）</span>
+                                <span style="font-size:0.85em; font-weight:800; color:var(--text-muted);">🗺️ 参集ルートマップ（出発地 → 指定参集拠点）</span>
                                 <span style="font-size:0.75em; color:#38bdf8;" id="map-route-summary">地図表示中</span>
                             </div>
                             <div id="assembly-map" style="width:100%; height:260px; border-radius:6px; background:#0b1329;"></div>
@@ -2951,7 +2951,7 @@
         let countdownSec = 30;
         let countdownTimer = null;
         let currentInterval = 30;
-        const DEFAULT_KEYWORDS = ["au 障害", "KDDI 障害", "au 繋がらない", "povo 障害"];
+        const DEFAULT_KEYWORDS = ["通信障害", "回線障害", "停電", "Wi-Fi障害"];
         let watchedKeywords = [...DEFAULT_KEYWORDS];
 
         // 国内閾値カスタマイズ設定
@@ -4073,12 +4073,12 @@
                 11: 'government'
             };
 
-            // 6. 携帯通信の文字生成 (KDDI自社アラート優先)
+            // 6. 携帯通信の文字生成 (主要キャリア監視)
             let telVal = '主要各社 正常稼働';
             let telDet = '障害発表なし';
             if (tel.kddi_alert || (tel.status === 'ALERT' && tel.kddi_msg && !tel.kddi_msg.includes('正常') && !tel.kddi_msg.includes('復旧'))) {
                 telVal = '🚨 au/UQ/povo 障害検知';
-                telDet = (tel.kddi_msg || 'KDDI通信網にて障害発表').replace('au/UQ/povo:', '').trim();
+                telDet = (tel.kddi_msg || '主要通信回線にて障害発表').replace('au/UQ/povo:', '').trim();
             } else if (tel.other_carrier_alert || tel.docomo_alert || tel.sb_alert || tel.rakuten_alert) {
                 telVal = 'au系正常 (他社障害あり)';
                 telDet = 'ドコモ・SB・楽天の一部で障害';
@@ -4410,7 +4410,7 @@
                 // 【要警戒アラート】自社(au, UQ, povo)に障害が発生している場合のみ全体アラートを発報
                 telLevel = 'ALERT';
                 telMain = '🚨 au/UQ/povo 通信障害発生検知';
-                telSub = tel.kddi_msg || 'KDDI通信網にて障害を検知しました';
+                telSub = tel.kddi_msg || '主要通信回線にて障害を検知しました';
                 detectedAlerts.push('📶 au/UQ/povo通信障害検知');
             } else if (hasOtherCarrierAlert) {
                 // 他社(ドコモ/SB/楽天)のみ障害の場合: 画面に表示・監視は継続するが全体アラートは発報不要(NORMAL)
@@ -5824,44 +5824,44 @@
         // #1 参集基準アラート & #2 参集ルート検索 ロジック
         // =========================================================
         
-        const KDDI_BUILDINGS = {
+        const ASSEMBLY_BUILDINGS = {
             takanawa: {
                 id: 'takanawa',
-                name: 'KDDI 高輪ビル',
+                name: '第1参集拠点（品川・港南エリア）',
                 lat: 35.6315,
                 lon: 139.7380,
-                address: '東京都港区高輪3-19-20',
-                station: 'JR品川駅 (高輪口 徒歩6分) / 泉岳寺駅 徒歩7分',
+                address: '東京都港区（主要統括本部エリア）',
+                station: '品川駅 徒歩6分 / 泉岳寺駅 徒歩7分',
                 role: '災害対策本部事務局の拠点（全社非常対策・統括事務局）',
                 badge: '災害対策本部事務局 拠点'
             },
             shinjuku: {
                 id: 'shinjuku',
-                name: 'KDDI 新宿ビル',
+                name: '第2参集拠点（西新宿エリア）',
                 lat: 35.6882,
                 lon: 139.6937,
-                address: '東京都新宿区西新宿2-3-2',
-                station: '都営大江戸線 都庁前駅 徒歩3分 / 新宿駅 徒歩6分',
+                address: '東京都新宿区（運用センターエリア）',
+                station: '都庁前駅 徒歩3分 / 新宿駅 徒歩6分',
                 role: '運用部門の拠点（ネットワーク・サービスオペレーション統括）',
                 badge: '運用部門 拠点'
             },
             tama: {
                 id: 'tama',
-                name: 'KDDI 多摩センター',
+                name: '第3参集拠点（多摩エリア）',
                 lat: 35.6200,
                 lon: 139.4215,
-                address: '東京都多摩市鶴牧3-5-1',
-                station: '多摩センター駅 (小田急/京王/多摩モノレール 徒歩8分)',
+                address: '東京都多摩エリア（広域バックアップセンター）',
+                station: '主要駅 徒歩8分',
                 role: '運用部門の拠点（データセンター・自律運用オペレーション）',
                 badge: '運用部門 拠点'
             },
             gat: {
                 id: 'gat',
-                name: 'KDDI ガーデンエアータワー',
+                name: '第4参集拠点（千代田・飯田橋エリア）',
                 lat: 35.7001,
                 lon: 139.7516,
-                address: '東京都千代田区飯田橋3-10-10',
-                station: 'JR・地下鉄 飯田橋駅(東口 徒歩5分) / 水道橋駅 徒歩4分',
+                address: '東京都千代田区（IT基盤システムエリア）',
+                station: '飯田橋駅 徒歩5分 / 水道橋駅 徒歩4分',
                 role: '情報システム部門の拠点（社内IT・基盤システム）',
                 badge: '情報システム部門 拠点'
             }
@@ -5899,7 +5899,7 @@
             if (assemblySimMode === 'alert_shindo6') {
                 isTriggered = true;
                 triggerReason = '【訓練発令】一都三県 震度6強 検知 (首都直下地震想定)';
-                triggerDetail = '東京23区・多摩東部で震度6強を観測。直ちに事前指定されたKDDI参集拠点への移動・安否報告を行ってください。';
+                triggerDetail = '東京23区・多摩東部で震度6強を観測。直ちに事前指定された参集拠点への移動・安否報告を行ってください。';
             } else if (assemblySimMode === 'alert_volcano') {
                 isTriggered = true;
                 triggerReason = '【訓練発令】富士山 噴火警戒レベル4 (避難準備) 発表';
@@ -5998,9 +5998,9 @@
             }
         }
 
-        function selectKDDIBuilding(bldgId) {
+        function selectAssemblyBuilding(bldgId) {
             currentActiveBldgId = bldgId;
-            document.querySelectorAll('.kddi-building-card').forEach(c => c.classList.remove('active'));
+            document.querySelectorAll('.assembly-building-card').forEach(c => c.classList.remove('active'));
             const activeCard = document.getElementById(`card-bldg-${bldgId}`);
             if (activeCard) activeCard.classList.add('active');
             calculateAndRenderRoute();
@@ -6069,7 +6069,7 @@
         }
 
         function calculateAndRenderRoute() {
-            const bldg = KDDI_BUILDINGS[currentActiveBldgId] || KDDI_BUILDINGS.takanawa;
+            const bldg = ASSEMBLY_BUILDINGS[currentActiveBldgId] || ASSEMBLY_BUILDINGS.takanawa;
             const start = currentStartCoords;
 
             const straightDist = calcDistanceKm(start.lat, start.lon, bldg.lat, bldg.lon);
@@ -6283,7 +6283,7 @@
             const startMarker = L.marker([start.lat, start.lon]).addTo(leafletRouteLayer);
             startMarker.bindPopup(`<b>📍 出発地: ${start.name}</b>`).openPopup();
 
-            Object.values(KDDI_BUILDINGS).forEach(b => {
+            Object.values(ASSEMBLY_BUILDINGS).forEach(b => {
                 const isSelected = b.id === bldg.id;
                 const marker = L.circleMarker([b.lat, b.lon], {
                     radius: isSelected ? 11 : 7,

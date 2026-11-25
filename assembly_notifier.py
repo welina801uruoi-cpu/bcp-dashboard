@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 BCP非常参集基準 自動検知 ＆ LINE・メール即時通知モジュール
@@ -37,31 +37,31 @@ HISTORY_FILE = os.path.join(BASE_DIR, "data", "assembly_notified_history.json")
 
 DASHBOARD_URL = "https://welina801uruoi-cpu.github.io/bcp-dashboard/"
 
-# KDDI 4大参集拠点
-KDDI_FACILITIES = [
+# 主要参集指定拠点（汎用設定）
+ASSEMBLY_FACILITIES = [
     {
-        "name": "KDDI 高輪ビル",
+        "name": "第1参集拠点（統括本部）",
         "role": "災害対策本部事務局 拠点",
-        "address": "東京都港区高輪3-19-20",
-        "station": "品川駅 高輪口 徒歩6分 / 泉岳寺駅 徒歩7分"
+        "address": "東京都千代田区（統括本部エリア）",
+        "station": "主要ターミナル駅 徒歩5分"
     },
     {
-        "name": "KDDI 新宿ビル",
+        "name": "第2参集拠点（運用統括）",
         "role": "運用部門 拠点",
-        "address": "東京都新宿区西新宿2-3-2",
-        "station": "都庁前駅 徒歩3分 / 新宿駅西口 徒歩6分"
+        "address": "東京都新宿区（運用センターエリア）",
+        "station": "主要駅 徒歩5分"
     },
     {
-        "name": "KDDI 多摩センター",
+        "name": "第3参集拠点（データセンター）",
         "role": "運用部門 拠点",
-        "address": "東京都多摩市鶴牧3-5-1",
-        "station": "多摩センター駅 徒歩8分"
+        "address": "東京都多摩エリア（バックアップセンター）",
+        "station": "主要駅 徒歩8分"
     },
     {
-        "name": "KDDI ガーデンエアータワー",
+        "name": "第4参集拠点（ITシステム）",
         "role": "情報システム部門 拠点",
-        "address": "東京都千代田区飯田橋3-10-10",
-        "station": "飯田橋駅東口 徒歩5分 / 水道橋駅 徒歩4分"
+        "address": "東京都区部（IT・基盤システムエリア）",
+        "station": "主要駅 徒歩4分"
     }
 ]
 
@@ -326,20 +326,20 @@ def build_assembly_flex_message(event):
                         },
                         {
                             "type": "text",
-                            "text": "・高輪ビル: 災害対策本部事務局 拠点",
+                            "text": "・第1拠点: 災害対策本部事務局 拠点",
                             "size": "xxs",
                             "color": "#b91c1c",
                             "weight": "bold"
                         },
                         {
                             "type": "text",
-                            "text": "・新宿 / 多摩センター: 運用部門 拠点",
+                            "text": "・第2 / 第3拠点: 運用・DC部門 拠点",
                             "size": "xxs",
                             "color": "#1e40af"
                         },
                         {
                             "type": "text",
-                            "text": "・ガーデンエアータワー: 情報システム部門 拠点",
+                            "text": "・第4拠点: 情報システム部門 拠点",
                             "size": "xxs",
                             "color": "#065f46"
                         }
@@ -466,9 +466,9 @@ def send_email_assembly_notification(config, event):
 
     # テキスト本文
     body_text = f"""━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-【KDDI BCP 非常参集基準 到達速報】
+【BCP 非常参集基準 到達速報】
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-気象庁観測データにおいて、KDDI非常参集基準に合致する災害が検知されました。
+気象庁観測データにおいて、BCP非常参集基準に合致する災害が検知されました。
 対象要員は、直ちに安否報告を行い、事前に定められた担当拠点へ安全に参集を開始してください。
 
 ■ 基準到達事由:
@@ -484,21 +484,21 @@ def send_email_assembly_notification(config, event):
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ■ 参集対象拠点と組織役割
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. KDDI 高輪ビル 【災害対策本部事務局 拠点】
-   住所: 東京都港区高輪3-19-20
-   最寄: 品川駅 高輪口 徒歩6分 / 泉岳寺駅 徒歩7分
+1. 第1参集拠点（統括本部） 【災害対策本部事務局 拠点】
+   住所: 東京都千代田区（統括本部エリア）
+   最寄: 主要ターミナル駅 徒歩5分
 
-2. KDDI 新宿ビル 【運用部門 拠点】
-   住所: 東京都新宿区西新宿2-3-2
-   最寄: 都庁前駅 徒歩3分 / 新宿駅西口 徒歩6分
+2. 第2参集拠点（運用統括） 【運用部門 拠点】
+   住所: 東京都新宿区（運用センターエリア）
+   最寄: 主要駅 徒歩5分
 
-3. KDDI 多摩センター 【運用部門 拠点】
-   住所: 東京都多摩市鶴牧3-5-1
-   最寄: 多摩センター駅 徒歩8分
+3. 第3参集拠点（データセンター） 【運用部門 拠点】
+   住所: 東京都多摩エリア（バックアップセンター）
+   最寄: 主要駅 徒歩8分
 
-4. KDDI ガーデンエアータワー 【情報システム部門 拠点】
-   住所: 東京都千代田区飯田橋3-10-10
-   最寄: 飯田橋駅東口 徒歩5分 / 水道橋駅 徒歩4分
+4. 第4参集拠点（ITシステム） 【情報システム部門 拠点】
+   住所: 東京都区部（IT・基盤システムエリア）
+   最寄: 主要駅 徒歩4分
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ■ 安全参集ルート＆ハザード確認ダッシュボード
@@ -508,7 +508,7 @@ def send_email_assembly_notification(config, event):
 
 👉 {DASHBOARD_URL}
 
-※このメールはKDDI BCP自動監視通知システムより自動配信されています。
+※このメールはBCP自動監視通知システムより自動配信されています。
 """
 
     # HTML本文
@@ -517,7 +517,7 @@ def send_email_assembly_notification(config, event):
           <td style="padding:10px; border-bottom:1px solid #e5e7eb; font-weight:bold; color:#111827;">{f['name']}</td>
           <td style="padding:10px; border-bottom:1px solid #e5e7eb; color:#991b1b; font-weight:bold;">{f['role']}</td>
           <td style="padding:10px; border-bottom:1px solid #e5e7eb; color:#4b5563; font-size:12px;">{f['address']}<br><span style="color:#6b7280;">最寄: {f['station']}</span></td>
-        </tr>""" for f in KDDI_FACILITIES
+        </tr>""" for f in ASSEMBLY_FACILITIES
     ])
 
     body_html = f"""<!DOCTYPE html>
@@ -576,7 +576,7 @@ def send_email_assembly_notification(config, event):
     </div>
     <div class="footer">
       検知時刻: {now_str}<br>
-      このメールは KDDI BCP 自動危機管理監視システムにより配信されています。
+      このメールは BCP 自動危機管理監視システムにより配信されています。
     </div>
   </div>
 </body>

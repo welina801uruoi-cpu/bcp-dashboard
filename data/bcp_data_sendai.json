@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-25 00:10:16",
+  "timestamp": "2026-11-25 01:21:24",
   "location": {
     "name": "仙台",
     "region_name": "東北エリア",
@@ -180,13 +180,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "大雪注意報",
-          "着雪注意報",
-          "雷注意報",
           "波浪注意報",
-          "風雪注意報"
+          "雷注意報",
+          "風雪注意報",
+          "大雪注意報",
+          "着雪注意報"
         ],
-        "summary": "大雪注意報、着雪注意報、雷注意報、波浪注意報、風雪注意報",
+        "summary": "波浪注意報、雷注意報、風雪注意報、大雪注意報、着雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/2/"
       },
       {
@@ -197,14 +197,13 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "風雪注意報",
           "大雪注意報",
           "着雪注意報",
-          "強風注意報",
-          "波浪注意報",
-          "風雪注意報",
-          "乾燥注意報"
+          "乾燥注意報",
+          "強風注意報"
         ],
-        "summary": "大雪注意報、着雪注意報、強風注意報、波浪注意報、風雪注意報、乾燥注意報",
+        "summary": "風雪注意報、大雪注意報、着雪注意報、乾燥注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/3/"
       },
       {
@@ -215,11 +214,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "風雪注意報",
           "雷注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "風雪注意報"
         ],
-        "summary": "風雪注意報、雷注意報、波浪注意報",
+        "summary": "雷注意報、波浪注意報、風雪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/5/"
       },
       {
@@ -244,10 +243,10 @@
         "warns": [],
         "notices": [
           "風雪注意報",
-          "雷注意報",
-          "波浪注意報"
+          "波浪注意報",
+          "雷注意報"
         ],
-        "summary": "風雪注意報、雷注意報、波浪注意報",
+        "summary": "風雪注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/6/"
       },
       {
@@ -328,18 +327,18 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "東北電力NW: 【停電発生中】青森県・岩手県・山形県・福島県で停電情報を検知",
+    "power_msg": "東北電力NW: 【停電発生中】岩手県・秋田県・山形県・福島県で停電情報を検知",
     "power_outages": [
-      {
-        "pref": "青森県",
-        "region": "東北",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/02/",
-        "level": "poweroutageLevel1"
-      },
       {
         "pref": "岩手県",
         "region": "東北",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/03/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "秋田県",
+        "region": "東北",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/05/",
         "level": "poweroutageLevel1"
       },
       {
@@ -370,12 +369,6 @@
         "pref": "岐阜県",
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
-        "level": "poweroutageLevel1"
-      },
-      {
-        "pref": "静岡県",
-        "region": "東海",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/22/",
         "level": "poweroutageLevel1"
       }
     ],
@@ -472,7 +465,7 @@
     "kddi_link": "https://news.kddi.com/important/news/",
     "docomo_msg": "ドコモ: 【復旧済み】 <![CDATA[【お詫び/復旧】携帯電話サービス（5G SA（Sta",
     "sb_msg": "ソフトバンク: 直近の障害発表なし（正常）",
-    "rakuten_msg": "楽天モバイル: 【障害情報】【災害影響】パートナー回線エリア・au回線をご利用のお客様において、大雪の影響に",
+    "rakuten_msg": "楽天モバイル: 【障害情報】【災害影響】ドコモ回線をご利用の一部のお客様において、通信サービスがご利用できな",
     "kddi_url": "https://news.kddi.com/important/news/",
     "au_url": "https://www.au.com/information/notice_mobile/network/",
     "uq_url": "https://www.uqwimax.jp/information/",
@@ -488,19 +481,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 4 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/25 00:02",
-          "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
+          "time": "11/25 01:10",
+          "text": "START au END が支払い設定してるのに 支払ってないことになってる？ どこで確認するんだ？ それとも通信 START 障害 END ？"
         },
         {
-          "time": "11/24 23:52",
-          "text": "START au END 通信 START 障害 END ？ 6ギガ残ってるのに全然外でスマホ使えない"
+          "time": "11/25 01:08",
+          "text": "【楽天モバイル通信 START 障害 END ・復旧速報📢】 11/20午後11時頃から大雪の影響で発生していた通信 START 障害 END が復旧！ 対象は..."
         },
         {
-          "time": "11/24 23:06",
-          "text": "【通信 START 障害 END ・復旧情報】 大雪による START au END ・UQ・povoなどの通信 START 障害 END は11/24 20:..."
+          "time": "11/25 01:08",
+          "text": "mineo マイネオ 新規契約 友達紹介 もしもの通信 START 障害 END に備えて選べるdocomo/ START au END /softbank回線..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -557,8 +550,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/25 00:13",
+          "text": "大雪によるau・UQ mobile・ START povo END などの通信 START 障害 END は11/24 20:26に復旧。ネットワークを手動で切..."
+        },
         {
           "time": "11/25 00:02",
           "text": "【通信 START 障害 END への備えできていますか？📶】 他社で通信 START 障害 END が起きると、その会社の回線は使えなくなります。 別の会社の..."
@@ -566,10 +563,6 @@
         {
           "time": "11/24 23:06",
           "text": "【通信 START 障害 END ・復旧情報】 大雪によるau・UQ・ START povo END などの通信 START 障害 END は11/24 20:..."
-        },
-        {
-          "time": "11/23 10:26",
-          "text": "【通信はライフラインです📶】 災害や通信 START 障害 END で、 メイン回線が使えなくなることも。 楽天モバイルなら約1,000円で3GB＋通話かけ放題..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=povo%20%E9%9A%9C%E5%AE%B3"
@@ -865,8 +858,56 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 7,
+    "disaster_count": 9,
     "articles": [
+      {
+        "title": "サッカー選手がGKと衝突、翌日死亡…日本AED財団が緊急メッセージ「胸を打っただけでも心臓は止まる」(弁護士ドットコムニュース)",
+        "summary": "サッカーの試合中、相手チームのゴールキーパーと激しく衝突し、ピッチに倒れ込む選手。その瞬間を捉えた動画がSNSで拡散され、世界に衝撃が広がっている。ネット番組が炎上…「◯◯にAEDを使わないで」スペイ",
+        "pub_date": "11/25 10:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/01d42e3d53fa73cd14ce364d23c4fd6e14352d77?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「あなたの将来のこともある」東大生が不同意性交等致傷容疑で逮捕…被害女性にかけた言葉の“真意”(FRIDAY)",
+        "summary": "11月20日の朝9時、警視庁大塚署から姿を現した若い男。カメラの方をちらりと見た次の瞬間、素早く両手で顔を覆う。そしてその姿勢のまま数秒で東京地検へ向かう車に乗り込んだのだった──。【写真】何というこ",
+        "pub_date": "11/25 10:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/cf26f1d30016864700763deb0b87465b2ec9c136?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【速報】自転車の女性がクレーン車にひかれ意識不明の重体　運転手を現行犯逮捕(テレビ朝日系（ANN）)",
+        "summary": "東京・練馬区の路上でクレーン車と自転車の事故がありました。自転車に乗っていたとみられる60代くらいの女性がトラックの下敷きになり、意識不明の重体です。 25日午前8時すぎ、練馬区石神井台の路上で「トラ",
+        "pub_date": "11/25 09:46 JST",
+        "link": "https://news.yahoo.co.jp/articles/caa8190eb9e724d01d01a53a71d8af9484a3f985?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "【速報】自転車の女性がクレーン車にひかれ重体　運転手を過失運転致傷の疑いで現行犯逮捕　東京・練馬区(テレビ朝日系（ANN）)",
+        "summary": "東京・練馬区の路上でクレーン車と自転車の事故がありました。自転車に乗っていたとみられる60代くらいの女性がトラックの下敷きになり意識不明の重体です。きょう午前8時すぎ、練馬区石神井台の路上で「トラック",
+        "pub_date": "11/25 09:34 JST",
+        "link": "https://news.yahoo.co.jp/articles/6ff3c324153a30fdd6d5a8c5a5ef8a97e75d6738?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "埼玉で住宅火災、2人と連絡取れず(共同通信)",
+        "summary": "埼玉県警や地元消防によると、25日午前5時40分ごろ、同県上尾市原市の住宅が燃えていると近隣住民から119番があった。木造2階建て住宅が全焼し、住人の男性（78）や50代長男と連絡が取れていない。",
+        "pub_date": "11/25 09:23 JST",
+        "link": "https://news.yahoo.co.jp/articles/4a718339f3e9654d50f802952530f8e26902434c?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "熊肉料理は広がるか？　季節で変わる肉質魅力、地域おこしに期待(日本農業新聞)",
+        "summary": "熊による被害が全国的に深刻な中、手練れのマタギたちが集団で熊を狩る秋田県北秋田市において、仕留めた熊をご当地グルメとして売り出す計画が動き出した。行政や猟友会、地元飲食店などがタッグを組んだ地域おこし",
+        "pub_date": "11/25 09:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/0bd6144ce774617a60cde6d392e38dca997cd015?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
       {
         "title": "高齢者の車が逆走し正面衝突 男性死亡(ABEMA TIMES)",
         "summary": "神奈川県の小田原厚木道路で、下り車線を走行していた車が逆走してきた車と正面衝突し、1人が死亡、1人が重傷です。【映像】フロント部分が激しく損傷した車（複数カット） 警察によりますと、きのう午後5時半過",
@@ -892,103 +933,55 @@
         "is_disaster": true
       },
       {
-        "title": "「右側を歩け」と肩ドン、スマホ破損も…被害女性が明かす「ぶつかりおじさん」の狼藉　“やり返してこなそうな相手に攻撃が向かう”と犯罪心理学者が分析(デイリー新潮)",
-        "summary": "すれ違いざまに頬をたたき、背後から跳び蹴り――。東京・神田神保町で通りすがりの女性に暴行を加えた疑いで、39歳の無職の男が逮捕された。男は神保町駅周辺で約15分の間に、面識のない女性7人に次々と暴行を",
-        "pub_date": "11/25 06:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/2397522cfb20f3d9346174cfef86bc3cc39caa6c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "この冬は\"ゴジラエルニーニョ\"で恐怖の「厳寒豪雨」がやって来る!!(週プレNEWS)",
-        "summary": "今年の夏、東日本に豪雨が降ったのは、スーパーエルニーニョ現象が発生しているためだ。しかも、その影響は冬にも表れるという。今年は全体的には暖冬傾向だそうだが、ひとたび寒波が来れば〝豪雨＆豪雪〟になる！",
-        "pub_date": "11/25 06:02 JST",
-        "link": "https://news.yahoo.co.jp/articles/69464160cddecabf2bc35d895c697754ee9807ce?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "高市総理 第2次補正予算案の編成指示　災害対応の費用など盛り込む(テレビ朝日系（ANN）)",
-        "summary": "高市総理大臣は今年度の第2次補正予算案の編成を指示しました。千葉豪雨など、災害への対応の費用などを盛り込む方針です。高市総理大臣「これまで補正予算で措置してきた施策のうち、継続的に必要なものは当初予算",
-        "pub_date": "11/25 05:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/a87043bd0efe5b796c3a912d471543b5880523f1?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "高齢者の車が逆走し正面衝突　衝突された34歳 男性死亡 小田原(テレビ朝日系（ANN）)",
-        "summary": "神奈川県の小田原厚木道路で、下り車線を走行していた車が逆走してきた車と正面衝突し、1人が死亡、1人が重傷です。 警察によりますと24日午後5時半すぎ、平塚市の小田原厚木道路で勤務先から帰宅途中の稲毛崇",
-        "pub_date": "11/25 05:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/74f156b2713f4e825e136b3a7dff3adaf4cbde12?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "関文科相の家賃“自宅家賃420万円”疑惑に「上が腐っているから下も」の批判、有権者に積もる政治とカネへの不信(週刊女性PRIME)",
-        "summary": "またもや「政治とカネ」をめぐる不信が波紋を広げている。横浜市では、原澤敦美新市長が家賃42万円の新居の約9割を税金で負担していることに批判が集まり、23日、高市内閣の関芳弘文部科学相には政治資金で自宅",
-        "pub_date": "11/25 09:06 JST",
-        "link": "https://news.yahoo.co.jp/articles/f9593e777d1ad3b9a553a31407f0d8800d756bd8?source=rss",
+        "title": "立公、献金規制法案を提出　参院へ、口座振り込み限定(共同通信)",
+        "summary": "立憲民主、公明両党は25日、企業・団体献金の規制を強化する政治資金規正法改正案を参院へ共同提出した。献金の受け手を政党本部と都道府県単位の組織に限定し、金融機関の口座振り込みに制限する内容が柱だ。 公",
+        "pub_date": "11/25 10:17 JST",
+        "link": "https://news.yahoo.co.jp/articles/893dcec32d6f2a31ef7a5331cee3746e5af986b7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "店内の半分がサバ缶！？　日本一の品ぞろえ100種で集客　茨城の農産物直売所(日本農業新聞)",
-        "summary": "地元特産のメロンやサツマイモを販売する茨城県行方市の農産物直売所「やさいの声」は、日本一のサバ缶の品ぞろえで集客に効果を上げている。販売するサバ缶は全国から集めた約100種類で、店長の原田武司さん（5",
-        "pub_date": "11/25 08:40 JST",
-        "link": "https://news.yahoo.co.jp/articles/e1f4a359aace50850f4d6153bcef769426effb37?source=rss",
+        "title": "｢させていただく｣依存症はこう直す…丁寧なつもりが逆に失礼に見える｢くどすぎメール｣の\"引き算\"術(プレジデントオンライン)",
+        "summary": "「させていただきます」「お差し支えなければ」といった過剰な気遣い表現をちりばめたメールは相手にどんな印象を与えているのか。元朝日新聞校閲センター長で文章コンサルタントの前田安正さんは「書き言葉で丁寧に",
+        "pub_date": "11/25 10:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/9d20b1babb0749c0ffb7ab2976ecc84bb06f90bc?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "東京地検 取り調べの勉強会を初公開(ABEMA TIMES)",
-        "summary": "検察官による不適切な取り調べが問題となる中、東京地検は取り調べに関する勉強会を初めて報道陣に公開しました。【映像】取り調べの勉強会の様子（複数カット） 東京地検がきのう公開した勉強会では、黙秘している",
-        "pub_date": "11/25 08:33 JST",
-        "link": "https://news.yahoo.co.jp/articles/19563cdb8e6d6cdca8e952439474d138e39460f5?source=rss",
+        "title": "秀長は兄の\"ブレーキ役\"ではなかった…生きていても朝鮮出兵は止められなかった｢政権のナンバー2｣の素顔(プレジデントオンライン)",
+        "summary": "秀吉の弟・秀長がもし長生きしていれば、豊臣政権はもっと続いたのか。秀吉は完全な独裁者であり、家康クラスの大名でも意見がしづらかった。それは秀長も同じであり、秀吉に意見すれば逆鱗に触れ、切腹を命じられた",
+        "pub_date": "11/25 10:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/73d7b06fc9d5b7b73c72b1e458ab6b3bccbb7b4f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "また高市内閣の“裏金議員”に迫る更迭　官僚を講師に呼んで「会費9万円」取った関芳弘文科相(AERA DIGITAL)",
-        "summary": "「党内のムードとしては、更迭です。あとはトップの判断でしょう」 自民党のある閣僚経験者が、苦々しい顔でこう話す。政治資金パーティーに関する一連の問題で、進退が問われている関芳弘文部科学相のことだ。【写",
-        "pub_date": "11/25 08:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/92e402e4b3371608d2dbcd913a74e856fc294527?source=rss",
+        "title": "「見ないほうがいい」乗っていた自転車はグシャグシャ、娘の遺体を前に父親は…6歳少女に大型トラックをぶつけた「ひき逃げ事件」はなぜ起きた（平成事件史）(文春オンライン)",
+        "summary": "2001年12月、奈良県広陵町で「初めてのおつかい」に出かけた6歳の保育園児が大型トラックにはねられ死亡した。運転手は女児を自転車ごと約650メートルも引きずった挙句、自転車を植え込みに投げ捨てて逃走",
+        "pub_date": "11/25 10:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/b065c2673d126e1e8b4a6157dc2ed774c379031d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "奈良県、70歳以上の運転をスマホで可視化 安全運転支援事業で50人追加募集　参加無料(産経新聞)",
-        "summary": "奈良県の山下真知事は24日の定例会見で、70歳以上の高齢ドライバーを対象に専用の車載器を貸し出し、運転状況をスマートフォンで可視化する「高齢者安全運転支援事業」について50人を追加募集すると発表した。",
-        "pub_date": "11/25 08:09 JST",
-        "link": "https://news.yahoo.co.jp/articles/447b2b30fd87836f60109245ecd01d0d75af1beb?source=rss",
+        "title": "東京・新宿区が公営火葬場の新設検討　利用料高騰と高齢化による死者数増に対応　(テレビ朝日系（ANN）)",
+        "summary": "東京・新宿区の吉住健一区長は24日、区内に新たに公営の小規模な火葬場の設置を検討すると明かしました。「将来において、公共的な社会インフラである火葬場を、利益を求めずに運営し続けられるのか心配されている",
+        "pub_date": "11/25 10:11 JST",
+        "link": "https://news.yahoo.co.jp/articles/7717c1177c5a046bd07656c09b532155bbff2276?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "立ちんぼからネットカフェへ…再び広がる「ネカフェ売春」若い女性と客が密室へ移る知られざる実態(FRIDAY)",
-        "summary": "ズラリと並んだ小部屋の中に、一人の男性客が入室する。それから間もなく、今度は若い女性が同じ部屋の中へと姿を消した。少し前に性犯罪の温床として問題視された「ネカフェ売春」が、いま再び増加している――。【",
-        "pub_date": "11/25 08:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/0ca47f482307abe0dfca2b051274149508821c86?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【動画】25日の天気 - 北日本はふぶき 北陸は雷雨の恐れ　太平洋側は晴れるも北風冷たく空気は乾燥（25日7時更新）(ウェザーマップ)",
-        "summary": "きょう25日(水)は午前を中心に冬型の気圧配置になり、北日本の日本海側を中心に雪やふぶきとなるでしょう。北陸の平地は雨が降り、雷を伴う恐れがあります。太平洋側は晴れて空気が乾燥するでしょう。",
-        "pub_date": "11/25 07:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/8e4dcc1a30b5989b6a294bea6c8e3b2441f68bbc?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "米価下落でも「まだ高い」の声も　茶碗1杯62円、他食品と比較すると(日本農業新聞)",
-        "summary": "米は、本当にまだ高いのか――。米の店頭価格の下落を受け、交流サイト（SNS）上などでは、農家が経営を続けられる米価なのか心配する声がある一方、「今までに比べたらまだ高い」といったコメントも見られる。現",
-        "pub_date": "11/25 07:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/e2e7c6c70acdfe378167f283c73c22c511b3d489?source=rss",
+        "title": "3歳女児“虐待死”事件　枚方市長「もっと早い段階で対応しなければいけなかった」　5回にわたり「虐待の通告」受ける　市は検証会議を設置へ　府の児相は一時保護や警察への共有せず(FNNプライムオンライン)",
+        "summary": "大阪府枚方市で3歳の女の子が死亡した事件で、市が検証会議を設置することを発表した。【関連記事】「顔にあざ・虐待通告は5回」SOSなぜ生かされず 3歳女児が死亡 父親が暴行加え殺害疑い・母親が暴行認識も",
+        "pub_date": "11/25 10:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/4e6a04f661f881c3aa2d03ee9ffe721d7f09bb04?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-25 09:09:47 JST"
+    "last_updated": "2026-11-25 10:20:51 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sendai",
@@ -1031,10 +1024,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "ayJZQki1UcQ",
+        "video_id": "biWDexRKB_g",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/ayJZQki1UcQ?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=ayJZQki1UcQ"
+        "embed_url": "https://www.youtube.com/embed/biWDexRKB_g?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=biWDexRKB_g"
       },
       {
         "id": "stream_annnews",
@@ -1042,10 +1035,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "iybgmpcNEUU",
+        "video_id": "dMxg5lOR1mc",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/iybgmpcNEUU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=iybgmpcNEUU"
+        "embed_url": "https://www.youtube.com/embed/dMxg5lOR1mc?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=dMxg5lOR1mc"
       },
       {
         "id": "stream_fnnnews",

@@ -2,8 +2,9 @@ name: Update BCP Dashboard Data
 
 on:
   schedule:
-    # 15分おきに自動巡回・データ更新 (UTC基準)
-    - cron: '*/15 * * * *'
+    # 対策B: 6時間おきに自動巡回・データ更新 (UTC 0, 6, 12, 18時 = JST 9, 15, 21, 3時)
+    # 1日4回の実行に抑えることで、月間約120分（無料枠2,000分の6%）となり完全無料で運用可能
+    - cron: '0 */6 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -13,6 +14,10 @@ on:
           - full
           - quick
         default: full
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: write  # data/*.json をコミット＆プッシュするための権限

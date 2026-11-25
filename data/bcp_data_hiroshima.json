@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-25 03:40:09",
+  "timestamp": "2026-11-25 04:45:41",
   "location": {
     "name": "広島",
     "region_name": "中国エリア",
@@ -190,11 +190,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
-          "乾燥注意報",
           "強風注意報",
+          "乾燥注意報",
           "波浪注意報"
         ],
-        "summary": "乾燥注意報、強風注意報、波浪注意報",
+        "summary": "強風注意報、乾燥注意報、波浪注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/35/"
       },
       {
@@ -246,24 +246,25 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 呉線 ／ 新幹線: 山陽新幹線（その他））",
+    "text": "運行支障あり（在来線: 山陰本線、呉線 ／ 新幹線: 山陽新幹線（列車遅延））",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（呉線）",
+    "line_text": "運行支障あり（山陰本線、呉線）",
     "shinkansen_status": "ALERT",
-    "shinkansen_text": "運行支障あり（山陽新幹線（その他））",
+    "shinkansen_text": "運行支障あり（山陽新幹線（列車遅延））",
     "url": "https://transit.yahoo.co.jp/diainfo/area/8",
     "troubled_lines": [
+      "山陰本線",
       "呉線"
     ],
     "troubled_shinkansen": [
-      "山陽新幹線（その他）"
+      "山陽新幹線（列車遅延）"
     ],
     "shinkansen_details": [
       {
         "name": "山陽新幹線",
         "status": "ALERT",
-        "state": "その他",
-        "detail": "地震災害の影響で、下り線(博多方面行)の一部列車に運転変更が出ています。（11月25日 5時0分掲載）",
+        "state": "列車遅延",
+        "detail": "相生〜岡山駅間での車両点検の影響で、一部列車に遅れが出ています。（11月25日 13時0分掲載）",
         "url": "https://transit.yahoo.co.jp/diainfo/8/0"
       }
     ],
@@ -291,12 +292,6 @@
         "level": "poweroutageLevel1"
       },
       {
-        "pref": "山形県",
-        "region": "東北",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/06/",
-        "level": "poweroutageLevel1"
-      },
-      {
         "pref": "福島県",
         "region": "東北",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/07/",
@@ -309,6 +304,12 @@
         "level": "poweroutageLevel1"
       },
       {
+        "pref": "新潟県",
+        "region": "信越",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/15/",
+        "level": "poweroutageLevel1"
+      },
+      {
         "pref": "長野県",
         "region": "信越",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/20/",
@@ -318,6 +319,12 @@
         "pref": "岐阜県",
         "region": "東海",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/21/",
+        "level": "poweroutageLevel1"
+      },
+      {
+        "pref": "滋賀県",
+        "region": "近畿",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/25/",
         "level": "poweroutageLevel1"
       }
     ],
@@ -433,16 +440,16 @@
       "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
+          "time": "11/25 04:31",
+          "text": "@yunya_monoclub あれま START au END も昔電波 START 障害 END 何回かあったんだよね 今どうなんだろ(っ´・ω・)っ"
+        },
+        {
           "time": "11/25 03:16",
           "text": "START au END 通信 START 障害 END 起きてるでしょ？ アンテナ1本、2本を行き来してるんだわ 早急な対応求む。 # START au EN..."
         },
         {
           "time": "11/25 01:10",
           "text": "START au END が支払い設定してるのに 支払ってないことになってる？ どこで確認するんだ？ それとも通信 START 障害 END ？"
-        },
-        {
-          "time": "11/25 01:08",
-          "text": "【楽天モバイル通信 START 障害 END ・復旧速報📢】 11/20午後11時頃から大雪の影響で発生していた通信 START 障害 END が復旧！ 対象は..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -476,19 +483,19 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 2 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/25 03:02",
-          "text": "@angun0804 START au END の通信についてのポストをお見かけし、失礼します💦4G/5Gだと START 繋がらない END 状況でしょうか？..."
+          "time": "11/25 04:01",
+          "text": "@4hLXWHzceWm8O4q こんにちは。突然失礼します、povoサポートです。一日の始めから START 繋がらない END と不安になりますよね💦副回線..."
         },
         {
-          "time": "11/25 01:43",
-          "text": "@7Tp5FuIzTvoFfro Nauさま、こんにちは🍀povoサポートです！ネットが一切 START 繋がらない END のは困りますね💦安心の START..."
+          "time": "11/25 03:53",
+          "text": "@yukl10457 突然失礼します、povoサポートです！色々操作をしてみても START 繋がらない END のですね😢もしもの時のために、安定した STA..."
         },
         {
-          "time": "11/24 22:05",
-          "text": "#docomo START 繋がらない END 2026年辞めてストレスがなくなった事 32年契約していたドコモ回線の解約。 都内では本当に START 繋がら..."
+          "time": "11/25 03:40",
+          "text": "@cotpancotpan コットパンさま、こんにちは！povoサポートです。 START 繋がらない END のは困りますね💦次のお乗り換え先に、安心の ST..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84"
@@ -803,7 +810,7 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 5,
+    "disaster_count": 2,
     "articles": [
       {
         "title": "「全く気が付かなかった」クレーン車にはねられ女性死亡、運転手を逮捕　東京・練馬区(産経新聞)",
@@ -822,111 +829,111 @@
         "is_disaster": true
       },
       {
-        "title": "去年9月 女性死亡の火災　放火の疑いで34歳の男逮捕 秋田(テレビ朝日系（ANN）)",
-        "summary": "去年9月、秋田県羽後町で住宅が全焼し火元の女性が死亡した火事で、警察は近くに住む34歳の男を放火の疑いで逮捕しました。 現住建造物等放火の疑いで逮捕されたのは、羽後町の無職・畠山伸容疑者です。 警察に",
-        "pub_date": "11/25 12:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/9188c747771fa593c95c48c0d24c3355ba58ef95?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "埼玉の住宅火災、1人の無事確認(共同通信)",
-        "summary": "埼玉県警によると、同県上尾市の住宅火災で連絡が取れなくなっていた2人のうち1人は外出中で、無事が確認された。",
-        "pub_date": "11/25 11:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/0c8c2aa48705a10ea307a66a0fde5b31dc8afd38?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "取引先から3億5000万円詐取、容疑で広告代理業の74歳男を逮捕　被害総額9億円超か(産経新聞)",
-        "summary": "架空の融資話で取引先から約3億5000万円をだまし取ったとして、大阪府警捜査2課は25日、詐欺の疑いで、広告代理業「ファイルシステム社」（大阪市中央区）の代表取締役、阪本恵一（しげかず）容疑者（74）",
-        "pub_date": "11/25 11:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/6b7c722d36663a141417e0cdb9e480056a27bceb?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "関大臣パーティー問題、3閣僚・4省庁が出席し答弁 長妻議員「金集めに出て講師をするのは（官僚の）本業ですか？」「話にならない」(ABEMA TIMES)",
-        "summary": "25日、衆議院内閣委員会で民主改革の会の長妻昭議員が質疑に立ち、関芳弘文部科学大臣の政治資金パーティーに国家公務員が講師として招かれたとされる問題などをめぐり、木原稔官房長官ら3閣僚や関係省庁を追及し",
-        "pub_date": "11/25 12:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/1f9069d894f9896fa414ded5817b89083d264623?source=rss",
+        "title": "今日25日は年末頃の寒さ　一転し12月はかなりの高温　福岡22℃・名古屋20℃(日本気象協会tenki.jp)",
+        "summary": "今日25日(水)は全国的に昨日24日(火)より気温が低く、年末の頃の寒さとなっています。冷たい季節風も加わり、体感温度はさらに低くなっています。明日26日(木)以降は気温が大幅に上がる所もありますが、",
+        "pub_date": "11/25 13:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/876c3c7b10425228442914a2251fbb057f4f7473?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「中華チンピラ共和国と呼ぶほかない」石平氏、高市首相タラップ問題で中国を痛烈批判(J-CASTニュース)",
-        "summary": "日本維新の会の石平参院議員が2026年11月24日、高市早苗首相が中国・深圳の空港で政府専用機から降りた際、機体の出口とタラップとの間に大きな段差があった問題について、Xで中国側を厳しく批判した。日本",
-        "pub_date": "11/25 12:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/598c91b417db1d3cc5ec110adcc66a002005f92d?source=rss",
+        "title": "衆院本会議でタブレット解禁へ　玉木雄一郎氏「ようやく」7年10か月越し(J-CASTニュース)",
+        "summary": "衆院本会議場でタブレット端末などの使用が認められることになり、国民民主党の玉木雄一郎代表とチームみらいの安野貴博氏が2026年11月24日、相次いでXで歓迎した。衆院議院運営委員会理事会の申し合わせで",
+        "pub_date": "11/25 13:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/de3a6e9663ea56fa1298addd583d9e6d7399f8aa?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "今日25日の近畿は12月並みの寒さ　27日頃は気温上昇　激しく気温がアップダウン(日本気象協会tenki.jp)",
-        "summary": "近畿では、今日25日は12月上旬から中旬並みの寒さの所が多いですが、27日(金)頃は11月上旬から中旬並みの過ごしやすさとなるでしょう。その後も向こう1週間は、冬の寒さと秋の過ごしやすさを行ったり来た",
-        "pub_date": "11/25 12:28 JST",
-        "link": "https://news.yahoo.co.jp/articles/3a26bdf172ad857f92ce8d239e9aea4a7bcd7731?source=rss",
+        "title": "千葉・柏市で夫婦を殺害し放火した罪　被告の男(79)に検察が死刑求刑(テレビ朝日系（ANN）)",
+        "summary": "千葉県柏市の住宅で夫婦を牛刀で刺して殺害し、自宅などに放火した罪に問われている79歳の男に、検察側が死刑を求刑しました。酒巻馨被告（79）はおととし、柏市の住宅で渡来敏明さん（当時59）と妻の礼子さん",
+        "pub_date": "11/25 13:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/a23b34d160991ab4f35e31434e6e298f7fbb74cc?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "神奈川・山北町でクマ2頭の目撃情報 警察が注意喚起(ABEMA TIMES)",
-        "summary": "神奈川県松田警察署がクマの目撃情報を発表しました。「令和8年11月25日午前4時5分頃、神奈川県足柄上郡山北町向原付近において、熊2頭（1頭は1mくらい、もう1頭は小ぶり）を目撃したという情報がありま",
-        "pub_date": "11/25 12:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/226ed159a09624f6ea1c432f7b17ded538852696?source=rss",
+        "title": "【速報】千葉・柏市で夫婦を殺害し放火した罪 被告に検察が死刑求刑(テレビ朝日系（ANN）)",
+        "summary": "千葉県柏市の住宅で夫婦を牛刀で刺して殺害し、自宅などに放火した罪に問われている79歳の男に、検察側が死刑を求刑しました。 酒巻馨被告はおととし、柏市の住宅で渡来敏明さん（当時59）と妻の礼子さん（当時",
+        "pub_date": "11/25 13:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/62426b6adbbd4218f8ed1da718327f7e79c52696?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "埼玉・秩父市でクマの目撃情報 県警が注意喚起(ABEMA TIMES)",
-        "summary": "埼玉県警察本部・生活安全総務課が公式Xで、秩父市でのクマの出没について発表しました。【映像】埼玉・秩父市でクマの目撃情報「11月25日（水）午前6時50分ころ、荒川白久地内（二見沢橋付近）で、クマ（体",
-        "pub_date": "11/25 12:27 JST",
-        "link": "https://news.yahoo.co.jp/articles/4f54c68463359b60bfdeaa51357b11f116616f9d?source=rss",
+        "title": "堺市長選は4月11日投開票　市選管が前倒し実施を正式決定　知事選・大阪市長選と同日(産経新聞)",
+        "summary": "堺市選挙管理員会は25日、来年6月8日の任期満了に伴う堺市長選の日程を前倒しし、来春の統一地方選と同じ4月11日投開票と決めた。大阪府内の首長選では、知事選と大阪市長選と同日となる。統一地方選は原則、",
+        "pub_date": "11/25 13:22 JST",
+        "link": "https://news.yahoo.co.jp/articles/e2bed5106167570fc8643aa232f224d54f45ef83?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "昔ながらの「たばこ店」が街から姿を消していく　健康志向、コンビニ普及で売り上げ低迷、経営難に…6割が廃業を検討(FNNプライムオンライン)",
-        "summary": "まちの風景のひとつとなっていた昔ながらの「たばこ店」が姿を消していく。健康志向による“たばこ離れ”とコンビニの増加で売り上げが低迷。経営難に陥り佐賀県内では約6割が廃業を検討しているという。【画像】た",
-        "pub_date": "11/25 12:25 JST",
-        "link": "https://news.yahoo.co.jp/articles/efaaded69c13007335a7e888ba5f3f45dc43fea9?source=rss",
+        "title": "「行政の要請でクマを駆除したこともある」　山で暮らす俳優・東出昌大さん　市街地へのクマ出現は「しゃあないですよね」　緊急銃猟など出没時の対応の難しさも指摘　「免許持っているだけの人もいる」(FNNプライムオンライン)",
+        "summary": "群馬県前橋市の市街地にクマの親子が出没し、市民は警戒を続けながら生活を送っている。【動画で見る】「行政の要請でクマを駆除したこともある」 山で暮らす俳優・東出昌大さんが語る緊急銃猟など対応の難しさ関西",
+        "pub_date": "11/25 13:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/4f609668c0cce4b5402f9b8ebf6528d330b41c70?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "退職代行「モームリ」を最も利用された企業は？　ランキング公表　「想像通り」「貴重な情報」大反響(スポニチアネックス)",
-        "summary": "退職代行サービス「モームリ」を運営する株式会社アルバトロスは24日、退職代行を利用された企業のランキングを公開した。 利用回数が最も多かった企業は人材派遣会社で200回。従業員数に対する利用率が最も高",
-        "pub_date": "11/25 12:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/6b9329ef2a0c88a3d5517a61308661becd6e1ac4?source=rss",
+        "title": "堺市長選、来春の統一選で実施　大阪府市首長と同日に(共同通信)",
+        "summary": "堺市選挙管理委員会は25日、来年6月8日の任期満了に伴う市長選について、来春の統一地方選に合わせ来年3月28日告示、4月11日投開票とする日程を決定した。大阪府では知事選と政令指定都市の大阪、堺両市長",
+        "pub_date": "11/25 13:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/8fe654f292d58a593fe29fba0fc0a563de747560?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "女子高校生殺人・遺棄事件 初公判　男が起訴内容を認める 愛知(テレビ朝日系（ANN）)",
-        "summary": "愛知県一宮市で去年、女子高校生をナイフで刺して殺害し遺体を遺棄したなどの罪に問われている男が、初公判で起訴内容を認めました。 殺人と死体遺棄などの罪に問われているのは、一宮市の無職・江口真先被告（23",
-        "pub_date": "11/25 12:24 JST",
-        "link": "https://news.yahoo.co.jp/articles/3e422cb891f90710aab38259a221445664769707?source=rss",
+        "title": "橋下徹氏、関文科相に「もう、ええ加減にせえよ」　新たな政治資金問題に怒り(J-CASTニュース)",
+        "summary": "元大阪府知事で弁護士の橋下徹氏が2026年11月25日、関芳弘文部科学相をめぐる新たな政治資金問題について、Xで「もう、ええ加減にせえよ」と強く批判した。関氏については、政治資金パーティーに官僚を出席",
+        "pub_date": "11/25 13:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/de39f9b4f78b24f319f1796e810be21632b8485d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "3歳児“暴行死”児童相談所 けが報告を警察に共有せず 兵庫・伊丹市(テレビ朝日系（ANN）)",
-        "summary": "兵庫県伊丹市で当時3歳の女の子が暴行を受け死亡した事件で、事件前、児童相談所がけがの情報を警察に共有していなかったことが分かりました。 有元慎哉容疑者（29）は今年1月、自宅で次女の徠音ちゃんの頭や腹",
-        "pub_date": "11/25 12:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/60206df0970cf955b4ac3e2f26aca2e992d2e3a9?source=rss",
+        "title": "飲食店や住宅など5棟が焼ける火事　1人搬送　消火活動続く　茨城・常陸大宮市(テレビ朝日系（ANN）)",
+        "summary": "茨城県常陸大宮市で飲食店や住宅など5棟ほどが焼ける火事があり消防が現在も消火活動に当たっています。きょう午前9時半ごろ、常陸大宮市南町で「黒煙と出火」と通行人から119番通報がありました。警察と消防に",
+        "pub_date": "11/25 13:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/164f6fefbd4bb3d5ca760428b6ad0df89b84f674?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "部屋に同居人とみられる男性遺体“公務執行妨害”52歳男逮捕(テレビ朝日系（ANN）)",
-        "summary": "川崎市にある自宅で警察官の公務の執行を妨害したとして、52歳の男が逮捕されました。男の部屋からは同居人とみられる男性の遺体が見つかっていて、警察は関連を調べています。 中村憲英容疑者は23日、川崎市高",
-        "pub_date": "11/25 12:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/690635e04b5de159cdeeff095398c6d8fddce3c0?source=rss",
+        "title": "飛鳥寺塔跡に6世紀中国の銅銭　日本最古の埋納例か、奈良(共同通信)",
+        "summary": "日本初の本格的寺院とされる飛鳥寺（奈良県明日香村）の塔跡から出土した遺物に、6世紀後半ごろの中国の銅銭とみられる破片が含まれていたことが分かり、奈良文化財研究所がこのほど「紀要」で発表した。昨年の出土",
+        "pub_date": "11/25 13:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/91c654c1f0c099361bbbec3e00571305ba102c56?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "茨城・常陸大宮市で飲食店や住宅など5軒ほどが焼ける火事　1人搬送(テレビ朝日系（ANN）)",
+        "summary": "茨城県常陸大宮市で飲食店や住宅など5棟ほどが焼ける火事があり、消防が現在も消火活動にあたっています。 25日午前9時半ごろ、常陸大宮市南町で「黒煙と出火」と通行人から119番通報がありました。 警察と",
+        "pub_date": "11/25 13:09 JST",
+        "link": "https://news.yahoo.co.jp/articles/f5bde8395dd69164e916508b055880e0df5b7f67?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "広島・庄原市の84歳女性強殺で会社員逮捕　過去に市内に居住　「殺意なかった」(テレビ朝日系（ANN）)",
+        "summary": "去年6月、広島県庄原市の住宅で当時84歳の女性が殺害された事件で、警察は24日夜、55歳の会社員の男を強盗殺人などの疑いで逮捕しました。【画像】容疑者「殴って殺害し現金など奪ったが、殺意なかった」",
+        "pub_date": "11/25 13:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/21d283d43d77285cef9b4ca7155064292b0f4df2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "東北　29日は気温急降下　青森3℃・仙台8℃予想　山沿いは積雪増加も(日本気象協会tenki.jp)",
+        "summary": "この先の東北地方は、短い周期で天気や気温が変化するでしょう。28日(土)は広い範囲で雨が降り、29日(日)は一気に冬の寒さとなりそうです。日本海側を中心に雪が降り、山沿いでは積雪が増えるでしょう。12",
+        "pub_date": "11/25 13:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/9e42d07f95e350dbc944490ed5415a50c3a85312?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-25 12:39:43 JST"
+    "last_updated": "2026-11-25 13:44:57 JST"
   },
   "live_media": {
     "default_camera_id": "cam_hiroshima_station",
@@ -947,10 +954,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "NTB9BYQizL4",
+        "video_id": "PBhOu6Zsjeg",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/NTB9BYQizL4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=NTB9BYQizL4"
+        "embed_url": "https://www.youtube.com/embed/PBhOu6Zsjeg?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=PBhOu6Zsjeg"
       },
       {
         "id": "stream_tbsnews",
@@ -969,10 +976,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "AVjZutscozk",
+        "video_id": "fnjMlvWcX-g",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/AVjZutscozk?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=AVjZutscozk"
+        "embed_url": "https://www.youtube.com/embed/fnjMlvWcX-g?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=fnjMlvWcX-g"
       },
       {
         "id": "stream_annnews",
@@ -980,10 +987,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "pBUpkbN9s2Q",
+        "video_id": "R6uKB0ClOZ0",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/pBUpkbN9s2Q?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=pBUpkbN9s2Q"
+        "embed_url": "https://www.youtube.com/embed/R6uKB0ClOZ0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=R6uKB0ClOZ0"
       },
       {
         "id": "stream_fnnnews",

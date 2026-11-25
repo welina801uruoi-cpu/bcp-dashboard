@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-25 08:05:14",
+  "timestamp": "2026-11-25 09:16:02",
   "location": {
     "name": "名古屋",
     "region_name": "東海・信越エリア",
@@ -188,11 +188,11 @@
         "warns": [],
         "notices": [
           "霜注意報",
-          "強風注意報",
           "波浪注意報",
-          "雷注意報"
+          "雷注意報",
+          "強風注意報"
         ],
-        "summary": "霜注意報、強風注意報、波浪注意報、雷注意報",
+        "summary": "霜注意報、波浪注意報、雷注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/15/"
       },
       {
@@ -283,7 +283,7 @@
         "name": "東海道新幹線",
         "status": "NORMAL",
         "state": "平常運転",
-        "detail": "16:50現在、ほぼ平常通り運転しています。（11月25日 16時50分掲載）",
+        "detail": "現在､事故･遅延に関する情報はありません。",
         "url": "https://transit.yahoo.co.jp/diainfo/7/0"
       }
     ],
@@ -302,8 +302,14 @@
     "power_status": "ALERT",
     "water_status": "NORMAL",
     "gas_status": "NORMAL",
-    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野県・岐阜県・静岡県で停電情報を検知",
+    "power_msg": "中部電力PG / 東北電力NW: 【停電発生中】長野県・岐阜県・静岡県・愛知県で停電情報を検知",
     "power_outages": [
+      {
+        "pref": "山形県",
+        "region": "東北",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/06/",
+        "level": "poweroutageLevel1"
+      },
       {
         "pref": "福島県",
         "region": "東北",
@@ -335,15 +341,15 @@
         "level": "poweroutageLevel1"
       },
       {
-        "pref": "徳島県",
-        "region": "四国",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/36/",
+        "pref": "愛知県",
+        "region": "東海",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/23/",
         "level": "poweroutageLevel1"
       },
       {
-        "pref": "大分県",
-        "region": "九州",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/44/",
+        "pref": "徳島県",
+        "region": "四国",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/36/",
         "level": "poweroutageLevel1"
       }
     ],
@@ -456,8 +462,12 @@
       "trend": "FLAT",
       "trend_label": "➡️ 平常",
       "trend_class": "green",
-      "summary": "直近1時間の投稿数は 0 件です。突発的な急増はありません。",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
+        {
+          "time": "11/25 08:17",
+          "text": "今 START au END で通信 START 障害 END とかある？"
+        },
         {
           "time": "11/25 06:07",
           "text": "何か…昼過ぎまで全然 携帯使えんだった なかなか繋がらず… # START au END 通信 START 障害 END とかだったんかなぁ…？ 今はサクサク…"
@@ -465,10 +475,6 @@
         {
           "time": "11/25 04:31",
           "text": "@yunya_monoclub あれま START au END も昔電波 START 障害 END 何回かあったんだよね 今どうなんだろ(っ´・ω・)っ"
-        },
-        {
-          "time": "11/25 03:16",
-          "text": "START au END 通信 START 障害 END 起きてるでしょ？ アンテナ1本、2本を行き来してるんだわ 早急な対応求む。 # START au EN..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=au%20%E9%9A%9C%E5%AE%B3"
@@ -846,130 +852,130 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 6,
+    "disaster_count": 10,
     "articles": [
       {
-        "title": "競輪選手の性被害巡り和解、解決金支払い(共同通信)",
-        "summary": "競輪の男性選手から性的関係を強要されたなどとして、元選手の女性が男性や日本競輪選手会などに損害賠償を求めた訴訟は25日、神戸地裁で和解が成立した。男性選手が解決金を支払う内容。",
-        "pub_date": "11/25 16:59 JST",
-        "link": "https://news.yahoo.co.jp/articles/6e712618aca8f8d8bc7c13a1002800126342e7d8?source=rss",
+        "title": "焼失から再建へ…首里城7年間の軌跡　「見せる復興」 で紡がれた技術と文化(FNNプライムオンライン)",
+        "summary": "2019年10月の火災で正殿など9つの建物を失った首里城が、7年の歳月を経て再び姿を見せる。県内外からの支援を受けながら、伝統の技を駆使して復元に尽力した職人たちや、正殿の再建の歩みをたどる。焼失から",
+        "pub_date": "11/25 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/f94167a24ebcbe5ea4efe86ff869231370a7eb6f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "三重･伊勢市の商店街火災 がれき撤去費用の8割を補助する方針 12月定例議会に補正予算案を提出へ「明倫商店街」(CBCテレビ)",
-        "summary": "三重県伊勢市はことし8月に起きた商店街火災のがれき撤去について、費用の8割を補助する方針です。【写真を見る】がれきの山…火災で9割が全焼した明倫商店街 三重･伊勢市伊勢市の明倫商店街は、ことし8月の火",
-        "pub_date": "11/25 16:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/470b49141ae09dd835cccbc1cdb9e00810d7ef9a?source=rss",
+        "title": "「再建を見守る店」から再び「一望できる店」へ　首里城と共に歩んだ琉球伝承料理人の7年(FNNプライムオンライン)",
+        "summary": "2019年の火災から7年。那覇市首里当蔵町（しゅりとうのくらちょう）にあるレストラン『首里東道（とぅんだー）Dining』の窓辺には、再び威容を取り戻した首里城正殿の姿がある。2026年11月下旬の一",
+        "pub_date": "11/25 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/53372fee46e2873f605134b607bb5ac21f9db339?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "常磐線で人身事故 運転再開(レスキューナウニュース)",
-        "summary": "天王台駅で発生した人身事故の影響で、常磐線は品川～土浦駅間の運転を見合わせていましたが、16:39頃、運転を再開しました。なお、ダイヤが乱れています。",
-        "pub_date": "11/25 16:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/38124ebe317c50b5a989ed114637110e218e05a5?source=rss",
+        "title": "国と一部企業に賠償命じる　建設石綿、埼玉第1陣訴訟(共同通信)",
+        "summary": "建設現場でアスベスト（石綿）を吸い、健康被害が生じたとして、元労働者や遺族らが国や建材メーカー17社に損害賠償を求めた埼玉第1陣訴訟で、さいたま地裁（関根規夫裁判長）が25日、判決を言い渡した。原告弁",
+        "pub_date": "11/25 17:58 JST",
+        "link": "https://news.yahoo.co.jp/articles/78bbfdfe1728c1d00e5b9b4f8605e7588d829900?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "紅葉から落葉シーズンに　道路冠水の原因にもなる厄介な落ち葉には意外なメリットも(ウェザーマップ)",
-        "summary": "秋が深まり、今年の紅葉シーズンも終盤に差し掛かってきました。紅葉は美しい景色を楽しめる一方で、掃いても掃いても積もる落ち葉に頭を悩ませている人もいるのではないでしょうか。大量の落ち葉は様々なトラブルに",
-        "pub_date": "11/25 16:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/f4875b31febc168d710c66de88aec7123565eab8?source=rss",
+        "title": "空気乾燥 相次ぐ火災　住宅全焼 遺体見つかる(テレビ朝日系（ANN）)",
+        "summary": "太平洋側を中心に空気が乾燥しているなか、火災が相次いでいます。 25日未明、仙台市で住宅1軒が全焼する火事がありました。 住人の70代男性が煙を吸って喉の痛みを訴えましたが、軽傷だということです。 埼",
+        "pub_date": "11/25 17:48 JST",
+        "link": "https://news.yahoo.co.jp/articles/02c8bbdb8881302bbb985a045c38deadc9da7dc3?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "運航事業者選定で人員確保確認　一部地域でドクターヘリ運休受け(共同通信)",
-        "summary": "運航事業者の確保が困難なことなどから、患者の救急搬送を担うドクターヘリが一部地域で運休している問題を受け、厚生労働省は25日、事業者選定に関する指針の改定案を明らかにした。安定的に運航するため、都道府",
-        "pub_date": "11/25 16:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/6670ced4a5e628dff2ab504d10a4227ba3e758a0?source=rss",
+        "title": "柏崎原発、事故備え手探り　知事容認1年、作業急ぐ(共同通信)",
+        "summary": "新潟県の花角英世知事が東京電力柏崎刈羽原発6、7号機の再稼働容認を表明し、1年がたった。国や県は原発事故に備え、放射性物質の被ばくを防ぐため、学校体育館などを気密化した屋内退避施設の整備を急ぐ。一方、",
+        "pub_date": "11/25 17:39 JST",
+        "link": "https://news.yahoo.co.jp/articles/ca05c2a93c72ab5801a7f95b595773d2b41c8706?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "低気圧急発達で火災リスク増？　電気火災の意外な原因と対策　初冬の生暖かい空気に注意(ウェザーマップ)",
-        "summary": "空気が乾燥する時季は火災が延焼しやすく、普段以上に気を配っている人が多いでしょう。しかし冬場の火災には、意外な盲点が潜んでいます。「トラッキング現象」です。トラッキングは、コンセントプラグのすき間に溜",
-        "pub_date": "11/25 16:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/4271fb318d71cac55990b6a83be23ddce12bc7ec?source=rss",
+        "title": "秋吉台恒例の山焼き、来年の実施見送り(共同通信)",
+        "summary": "山口県美祢市の秋吉台国定公園で2月、恒例の山焼き中に消防団員の男性が死亡した事故を受け、市や地元住民らの協議会は25日、来年の山焼きを実施しないことを決めた。",
+        "pub_date": "11/25 17:29 JST",
+        "link": "https://news.yahoo.co.jp/articles/dc2a18e5d72c68492957ee7f13d24b4397a9824b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "「体が寒さに慣れていない今年は起こしやすい」ヒートショックに注意　若者も湯船で意識失い溺れる恐れ(読売テレビ)",
-        "summary": "25日朝も近畿各地は寒い朝になりました。この時期、注意が必要なのが「ヒートショック」です。私たちが気を付けるべきこととは？ ロープウェイで空中散歩。 見えるのは、秋から冬への景色です。 山頂は、一面、",
-        "pub_date": "11/25 17:01 JST",
-        "link": "https://news.yahoo.co.jp/articles/b518d270207d60a95b1e3fb87182e6729e5c3cce?source=rss",
+        "title": "1年前の女性死亡“放火事件” 容疑者が逮捕前に取材応じる(テレビ朝日系（ANN）)",
+        "summary": "1年前に女性が亡くなった火災で近くに住む34歳の男が逮捕されました。逮捕された男は当時取材に応じていました。■容疑者が逮捕前に取材応じる逮捕前 畠山伸容疑者（当時33）「（Q.どういう気持ち？）そうい",
+        "pub_date": "11/25 17:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/16128af6596c9820bb01b59c41c4bbe821334bd1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "13秒の｢ながら運転｣で6人死亡させても拘禁刑7年…法廷で｢犠牲者の名前｣を問われたトラック運転手の答え(プレジデントオンライン)",
+        "summary": "スマートフォンを見ながら大型トラックを運転し、6人を死亡させた事故で、運転手に拘禁刑7年の判決が下された。過失運転致死傷罪では最高刑だが、なぜ危険運転致死傷罪は適用されなかったのか。裁判を傍聴したライ",
+        "pub_date": "11/25 17:15 JST",
+        "link": "https://news.yahoo.co.jp/articles/9908851da4e1b8510c56e6db962a9f05c33724aa?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "所有者の費用負担5分の1を想定…三重県伊勢市の商店街で起きた火災 がれき処理費用巡り市独自の補助制度を新設へ(東海テレビ)",
+        "summary": "今年8月、三重県伊勢市の商店街で起きた火災で、がれき処理費用を補助する新たな制度を設ける方針が示されました。 伊勢市の明倫商店街で8月に起きた火災では、店舗などの建物53棟が全焼し、現在もがれきなどが",
+        "pub_date": "11/25 17:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/2d18b5bb6aa68529e3a080770c20d611e42a0da5?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "三重・伊勢市の商店街火災　がれき撤去に向け市や国が8割を補助へ　財源に全国からの寄付金もあてる方針(メ〜テレ（名古屋テレビ）)",
+        "summary": "がれきの撤去に向け、市が補助制度を打ち出しました。 8月に起きた三重県伊勢市の明倫商店街の火事では、被害は建物60棟に及び、約4300平方メートルが焼失しました。 市は25日の市議会で、早期にがれきの",
+        "pub_date": "11/25 17:07 JST",
+        "link": "https://news.yahoo.co.jp/articles/9ece1c95f98a94e8b4af40fbec9f008fa4ec819a?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "逮捕の徳島・阿波市長が辞意　詐欺容疑(共同通信)",
+        "summary": "詐欺容疑で逮捕された徳島県阿波市長の町田寿人容疑者（69）が、辞職する意向を市に伝えたことが25日、市への取材で分かった。近く正式な辞職願が、市議会議長宛てに提出される見通し。 市によると、町田容疑者",
+        "pub_date": "11/25 18:08 JST",
+        "link": "https://news.yahoo.co.jp/articles/ff03298ea04628401be543714030b130ff799cbd?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「裸の大将」山下清が描いた70年前の桜島　「クレヨンを爪で削ったり、親指の先で波の姿を描いていた」　鹿児島・垂水の民家に3週間　当時を知る96歳男性が証言(FNNプライムオンライン)",
-        "summary": "ドラマ「裸の大将放浪記」のモデルとして知られる画家、山下清。実は生前、鹿児島県垂水市に滞在し、一般家庭に寝泊まりしながら絵を描いていたことをご存じだろうか。当時を知る人々の証言から、「垂水放浪記」をた",
-        "pub_date": "11/25 17:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/8415ec08b6f7075ece70cc1958b8a14d0f56c5af?source=rss",
+        "title": "野党が関文科相の問責決議案提出へ　政治資金疑惑相次ぐなか高市首相は交代否定　重要法案の行方に課題(読売テレビ)",
+        "summary": "立憲民主党・斎藤 国対委員長 「関大臣への問責決議案を、明日（26日）の午前10時、参議院議長宛てに提出させていただきたい」 野党側が、進退を問う問責決議案の提出を決めたのは、関文部科学大臣。 議員会",
+        "pub_date": "11/25 18:04 JST",
+        "link": "https://news.yahoo.co.jp/articles/a536d10ba7f40ceac599b52be211ecfda1152655?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "日本は中国の「弟分」に？高市総理への“冷遇”から読み解く次の一手…レアアース輸入に影響、訪日客半減で冷え込む日中関係のゆくえは(ABEMA TIMES)",
-        "summary": "中国がホスト国となり開催されたAPEC（アジア太平洋経済協力会議）首脳会議で、高市早苗総理に対する待遇の温度差が物議を醸した。【映像】その時、何を話した？高市総理と習近平氏「10秒間の握手」 トランプ",
-        "pub_date": "11/25 17:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/03c066ebb8a4ae878bc6d3a5d564222c164dee52?source=rss",
+        "title": "高市早苗首相が「第55回ベストドレッサー賞」受賞　政治部門で選出(日刊スポーツ)",
+        "summary": "高市早苗首相が「第55回ベストドレッサー賞発表・授賞式」で政治部門に選ばれた。 受賞者は以下の通り。 〈政治部門〉 高市早苗首相 〈経済部門〉 大矢光雄氏（東レ株式会社代表取締役社長・社長執行役員CE",
+        "pub_date": "11/25 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/a595da2889dadd78f96a46d8e03dc0d717a9e23b?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "福岡の刺殺事件、死亡は70歳男性(共同通信)",
-        "summary": "福岡県警は25日、福岡市のイオンモール福岡伊都付近の刺殺事件で死亡した男性について、福岡市西区の石川嘉章さん（70）と明らかにした。",
-        "pub_date": "11/25 16:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/9f6e10a85f66548bd884200a16e3201019682866?source=rss",
+        "title": "高速道路のSA・PA、一部でごみ箱撤去へ　「不法投棄増える？」に4社が回答(J-CASTニュース)",
+        "summary": "NEXCO東日本、NEXCO中日本、NEXCO西日本、JB本四高速の高速道路4社は2026年11月18日、営業施設のない高速道路の休憩施設（SA・PA）で、ごみ箱を27年1月から順次廃止すると発表した",
+        "pub_date": "11/25 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/695b1cf7f79cb58c01512640fc379bd1f76c7861?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "小沢一郎氏84歳の逢瀬報道　立民・田名部幹事長、94歳男性の恋愛観を紹介して切り返す(産経新聞)",
-        "summary": "立憲民主党の田名部匡代幹事長は25日の記者会見で、今年1月まで立民に所属し、現在無所属の小沢一郎前衆院議員（84）の逢瀬を巡る週刊誌報道について、「まだちょっと私、それを拝見していないので、どんな表情",
-        "pub_date": "11/25 16:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/761d1e846d7998ce4a8102b0f8b9ab270dc3a15b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "厚労省、自発呼吸確認1回運用へ　成人脳死判定の手順緩和(共同通信)",
-        "summary": "厚生労働省の臓器移植委員会は25日、臓器移植の際に必要な脳死判定の手順について、現在は2回の検査が必要な自発呼吸の喪失確認を、成人患者に限り1回に緩和する方針を了承した。厚労省は省令やマニュアルを改正",
-        "pub_date": "11/25 16:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/8b52e832442d308b57bb2f347929ba335032c18f?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "文科相問責決議案、野党8党派が共同提出へ(共同通信)",
-        "summary": "関芳弘文部科学相の政治資金パーティー問題を巡り、参院野党8党派が問責決議案を共同提出する見通しとなった。複数の関係者が25日明らかにした。",
-        "pub_date": "11/25 16:46 JST",
-        "link": "https://news.yahoo.co.jp/articles/97916bda516f775e403c1146b960186c30f1496b?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "東急電鉄の駅員が遺失物や窓口処理機を不正利用して返金額を着服　懲戒解雇処分に(テレビ朝日系（ANN）)",
-        "summary": "東急電鉄の駅員が、客の遺失物を着服したり窓口での処理機を不正操作して、金を着服していたとして、懲戒解雇処分になりました。東急電鉄によりますと、渋谷駅の男性駅員は、遺失物として届けられたICカード乗車券",
-        "pub_date": "11/25 16:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/19c8ca387682f8f54e588940da824c7b81f3ceb6?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "国の庁舎、木造で整備しやすく　建設費低減、議員立法提出へ(共同通信)",
-        "summary": "衆院国土交通委員会は25日、国の庁舎を木造で整備しやすくするため、関連法改正案を議員立法で本会議に提出することを全会一致で決めた。災害時の応急対応に当たる施設を除き、耐火性能の規定を一般の建築物と同じ",
-        "pub_date": "11/25 16:42 JST",
-        "link": "https://news.yahoo.co.jp/articles/f65fb539e92abb870758a3848e5ecfcc03752225?source=rss",
+        "title": "首相にベストドレッサー賞　歌手の氷川きよしさんらも(共同通信)",
+        "summary": "自分らしいスタイルを持った各分野の著名人に贈られる「第55回ベストドレッサー賞」に高市早苗首相や歌手の氷川きよしさんらが選ばれた。日本メンズファッション協会が25日、発表した。 高市首相は授賞式を欠席",
+        "pub_date": "11/25 18:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/0a4a8df602e602f46dba2babd4399cd5f4729ef7?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-25 17:04:42 JST"
+    "last_updated": "2026-11-25 18:15:21 JST"
   },
   "live_media": {
     "default_camera_id": "cam_nagoya_station",
@@ -990,10 +996,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "210gQ4BeQJo",
+        "video_id": "mDy3ztqNbzQ",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/210gQ4BeQJo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=210gQ4BeQJo"
+        "embed_url": "https://www.youtube.com/embed/mDy3ztqNbzQ?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=mDy3ztqNbzQ"
       },
       {
         "id": "stream_tbsnews",
@@ -1001,10 +1007,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "SJ-0ijD5jkc",
+        "video_id": "TjcGNvJ_0KU",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/SJ-0ijD5jkc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=SJ-0ijD5jkc"
+        "embed_url": "https://www.youtube.com/embed/TjcGNvJ_0KU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=TjcGNvJ_0KU"
       },
       {
         "id": "stream_ntvnews",
@@ -1012,10 +1018,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "QoOFYL15ew0",
+        "video_id": "aIX_4E6cmdU",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/QoOFYL15ew0?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=QoOFYL15ew0"
+        "embed_url": "https://www.youtube.com/embed/aIX_4E6cmdU?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=aIX_4E6cmdU"
       },
       {
         "id": "stream_annnews",
@@ -1023,10 +1029,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "PuMKH2I0jw4",
+        "video_id": "vRek_n-dYNE",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/PuMKH2I0jw4?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=PuMKH2I0jw4"
+        "embed_url": "https://www.youtube.com/embed/vRek_n-dYNE?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=vRek_n-dYNE"
       },
       {
         "id": "stream_fnnnews",
@@ -1034,10 +1040,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "SOmXtWYVYZg",
+        "video_id": "uancp-EpLzY",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/SOmXtWYVYZg?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=SOmXtWYVYZg"
+        "embed_url": "https://www.youtube.com/embed/uancp-EpLzY?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=uancp-EpLzY"
       }
     ],
     "cameras": [

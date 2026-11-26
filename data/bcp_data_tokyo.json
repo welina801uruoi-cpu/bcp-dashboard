@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-26 07:04:37",
+  "timestamp": "2026-11-26 13:06:25",
   "location": {
     "name": "東京（本社）",
     "region_name": "関東エリア",
@@ -112,12 +112,40 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "1",
-    "time": "2026-11-26 14:08",
-    "place": "茨城県南部",
-    "magnitude": "3.2",
+    "shindo": "2",
+    "time": "2026-11-26 21:36",
+    "place": "熊本県天草・芦北地方",
+    "magnitude": "3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-26 21:36",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "2",
+        "magnitude": "3",
+        "maxScale": 20
+      },
+      {
+        "time": "2026-11-26 19:40",
+        "place": "陸奥湾",
+        "shindo": "2",
+        "magnitude": "3.6",
+        "maxScale": 20
+      },
+      {
+        "time": "2026-11-26 19:31",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.2",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-26 18:42",
+        "place": "鹿児島県薩摩地方",
+        "shindo": "1",
+        "magnitude": "2.7",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-26 14:08",
         "place": "茨城県南部",
@@ -159,34 +187,6 @@
         "shindo": "-",
         "magnitude": "4",
         "maxScale": -1
-      },
-      {
-        "time": "2026-11-26 07:31",
-        "place": "震源情報なし",
-        "shindo": "3",
-        "magnitude": "-",
-        "maxScale": 30
-      },
-      {
-        "time": "2026-11-26 05:18",
-        "place": "釧路地方中南部",
-        "shindo": "1",
-        "magnitude": "1.8",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-26 05:12",
-        "place": "熊本県熊本地方",
-        "shindo": "1",
-        "magnitude": "2.5",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-26 03:06",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "1",
-        "magnitude": "1.2",
-        "maxScale": 10
       }
     ]
   },
@@ -202,25 +202,21 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 3地域】東京、神奈川、埼玉（警報なし）",
+    "summary": "【注意報発表: 1地域】埼玉（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 3,
+    "notice_count": 1,
     "total_prefs": 8,
     "pref_details": [
       {
         "code": "13",
         "name": "東京都",
         "short_name": "東京",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "強風注意報",
-          "乾燥注意報",
-          "波浪注意報"
-        ],
-        "summary": "強風注意報、乾燥注意報、波浪注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/13/"
       },
       {
@@ -238,14 +234,11 @@
         "code": "14",
         "name": "神奈川県",
         "short_name": "神奈川",
-        "status": "NOTICE",
+        "status": "NORMAL",
         "emg_warns": [],
         "warns": [],
-        "notices": [
-          "乾燥注意報",
-          "波浪注意報"
-        ],
-        "summary": "乾燥注意報、波浪注意報",
+        "notices": [],
+        "summary": "発表なし",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/14/"
       },
       {
@@ -316,16 +309,22 @@
   },
   "transit": {
     "status": "ALERT",
-    "text": "運行支障あり（在来線: 横須賀線、京葉線、武蔵野線）",
+    "text": "運行支障あり（在来線: 湘南新宿ライン、東海道本線、横須賀線）",
     "line_status": "ALERT",
-    "line_text": "運行支障あり（横須賀線、京葉線、武蔵野線）",
+    "line_text": "運行支障あり（湘南新宿ライン、東海道本線、横須賀線、宇都宮線、高崎線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/4",
     "troubled_lines": [
+      "湘南新宿ライン",
+      "東海道本線",
       "横須賀線",
-      "京葉線",
-      "武蔵野線"
+      "宇都宮線",
+      "高崎線",
+      "埼京川越線",
+      "総武線",
+      "総武本線",
+      "東京メトロ東西線"
     ],
     "troubled_shinkansen": [],
     "shinkansen_details": [
@@ -533,16 +532,16 @@
       "summary": "直近1時間の投稿数は 12 件です。",
       "recent_posts": [
         {
-          "time": "11/26 06:48",
-          "text": "こちらの START 通信障害 END の影響で申し訳ございませんが、よろしくお願い致します。 https://t.co/jiCvi91tS2"
+          "time": "11/26 12:59",
+          "text": "@momomari317 START 通信障害 END ってやつかな？"
         },
         {
-          "time": "11/26 06:48",
-          "text": "本日お取引予定の皆様 ゲート付近大変混みあっておりまして START 通信障害 END により連絡が取りづらい状況ですので、神座前のフードコート付近でしたら連絡..."
+          "time": "11/26 12:58",
+          "text": "@gumichoco_mgmg 私はITインフラのプロジェクトマネージャをしていて 世の中に、セキュアの通信環境をユーザー提供してます 設定変更を間違えると S..."
         },
         {
-          "time": "11/26 06:45",
-          "text": "今の💩みたいなXのアルゴリズムを取っ払わずに START 通信障害 END が起きてるかどうかを把握しようっての？？ https://t.co/48SiRHvb..."
+          "time": "11/26 12:57",
+          "text": "災害多発する国はカード等使えない事多々現在は START 通信障害 END やその他の問題も理解出来無いから皮肉るのは品性に欠ける行為 https://t.co..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E9%80%9A%E4%BF%A1%E9%9A%9C%E5%AE%B3"
@@ -579,16 +578,16 @@
       "summary": "直近1時間で 40 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
       "recent_posts": [
         {
-          "time": "11/26 07:03",
-          "text": "朝から会社 START 停電 END ので、今何もできない~ 暑いそしてダルい(笑)"
+          "time": "11/26 13:05",
+          "text": "あたしも(/ω＼*)キャッてやりたいが 大五郎にキャッてやりたいが START 停電 END ごときであのようにならない女なんだわ残念ながら(笑) でもやりたい..."
         },
         {
-          "time": "11/26 07:03",
-          "text": "朝から会社 START 停電 END し、今何もできない~ 暑いそしてダルい(笑)"
+          "time": "11/26 13:05",
+          "text": "揺れが収まり、周囲の安全を確認した。 俺たちの部屋は START 停電 END していた。 でも隣の部屋には明かりがついている。 「非常灯じゃないの？」 すると..."
         },
         {
-          "time": "11/26 07:03",
-          "text": "懐かしい！！ たしか START 停電 END してめっちゃビビった日だ https://t.co/v6iDsDMUKT"
+          "time": "11/26 13:05",
+          "text": "START 停電 END ワンマンの懐中電灯のロゴステッカーも新しくなります とういかなんかステッカーとか物販で欲しいですか？ 僕はシールとかすぐにダメにするの..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E5%81%9C%E9%9B%BB"
@@ -890,144 +889,144 @@
     "status": "NORMAL",
     "office": "気象庁",
     "target_area": "東京都",
-    "report_time": "11/26 10:39",
+    "report_time": "11/26 16:37",
     "headline": "",
-    "text": "　関東甲信地方は、高気圧に緩やかに覆われています。\n\n　東京地方は、晴れています。\n\n　２６日は、高気圧に覆われますが、湿った空気の影響を受ける見込みです。このため、晴れで夕方から曇りとなるでしょう。\n\n　２７日は、高気圧に緩やかに覆われますが、湿った空気の影響を受ける見込みです。このため、晴れで朝晩は曇りとなるでしょう。",
+    "text": "　関東甲信地方は、高気圧に覆われていますが、湿った空気の影響を受けています。\n\n　東京地方は、曇りとなっています。\n\n　２６日は、湿った空気の影響を受ける見込みです。このため、曇りとなるでしょう。\n\n　２７日は、高気圧に緩やかに覆われますが、気圧の谷や湿った空気の影響を受ける見込みです。このため、晴れで朝晩は曇りとなるでしょう。",
     "paragraphs": [
-      "関東甲信地方は、高気圧に緩やかに覆われています。",
-      "東京地方は、晴れています。",
-      "２６日は、高気圧に覆われますが、湿った空気の影響を受ける見込みです。このため、晴れで夕方から曇りとなるでしょう。",
-      "２７日は、高気圧に緩やかに覆われますが、湿った空気の影響を受ける見込みです。このため、晴れで朝晩は曇りとなるでしょう。"
+      "関東甲信地方は、高気圧に覆われていますが、湿った空気の影響を受けています。",
+      "東京地方は、曇りとなっています。",
+      "２６日は、湿った空気の影響を受ける見込みです。このため、曇りとなるでしょう。",
+      "２７日は、高気圧に緩やかに覆われますが、気圧の谷や湿った空気の影響を受ける見込みです。このため、晴れで朝晩は曇りとなるでしょう。"
     ],
-    "summary": "関東甲信地方は、高気圧に緩やかに覆われています。...",
+    "summary": "関東甲信地方は、高気圧に覆われていますが、湿った空気の影響を受けています。...",
     "url": "https://www.jma.go.jp/bosai/forecast/#area_type=class20s&area_code=130000"
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 6,
+    "disaster_count": 9,
     "articles": [
       {
-        "title": "交通事故などの胎児被害巡り超党派勉強会(共同通信)",
-        "summary": "交通事故などで胎児が被害を受けた場合の刑法上の扱いについて議論を促進するため、超党派の国会議員有志が、法務省に必要な対策の検討を求める要望書の提出を目指し、勉強会を設立することが分かった。関係者が26",
-        "pub_date": "11/26 15:55 JST",
-        "link": "https://news.yahoo.co.jp/articles/827bf87b23360ea195d4b4087efadc25bce8aa14?source=rss",
+        "title": "高齢女性が約9000万の詐欺被害　警察官を騙る男ら「LINEで取り調べ」　群馬県桐生市(テレビ朝日系（ANN）)",
+        "summary": "群馬県桐生市に住む80代の女性が、警察官をかたる男らにおよそ9300万円をだまし取られる被害がありました。 警察によりますと、桐生市に住む80代の女性に6月、警察官や検察官を名乗る男ら3人から「逮捕し",
+        "pub_date": "11/26 21:25 JST",
+        "link": "https://news.yahoo.co.jp/articles/a74347e1fb701ed7f02188c54d4c4d42a290efbc?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "千葉で住宅火災、2人死亡　70代母、娘と連絡取れず(共同通信)",
-        "summary": "26日午前8時45分ごろ、千葉県銚子市長塚町3丁目で「家から煙が出ている」と近隣住民から119番があった。2階建て住宅が燃え、焼け跡から性別不明の2人の遺体が見つかった。銚子署によると、70代母親、5",
-        "pub_date": "11/26 15:38 JST",
-        "link": "https://news.yahoo.co.jp/articles/89fe32be32239690acfc965393e81251b9d37fb8?source=rss",
+        "title": "“ブラックアイスバーン”の恐怖　「ブレーキ踏んでも止まれない」　価格高騰も大事な「冬タイヤ」　“ルール厳格化”車道走る自転車は「車より高いスリップの危険」　重い「チャイルドシート付き」などは特に注意を(FNNプライムオンライン)",
+        "summary": "今週に入って12月並みの寒さが続く中で、注意したいのが路面の凍結による事故。自動車だけでなく、自転車のスリップ事故にも警戒が必要だ。【こちらの動画も】「命がけのパトロール」高速道路などを守る“NEXC",
+        "pub_date": "11/26 21:01 JST",
+        "link": "https://news.yahoo.co.jp/articles/dec3b99e19fbf57eb7a7fa37b8c22547ff15f86d?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "千葉・銚子で住宅火災、2人死亡(共同通信)",
-        "summary": "千葉県警によると、26日午前8時45分ごろ、同県銚子市の住宅で「家から煙が出ている」と近隣住民から119番があった。住宅が全焼し、焼け跡から2人の遺体が見つかった。住人2人と連絡が取れておらず、確認を",
-        "pub_date": "11/26 15:14 JST",
-        "link": "https://news.yahoo.co.jp/articles/3ce039301ec2ee8105fd94f51ad9d8c1afce503d?source=rss",
+        "title": "犯罪被害者支援団体を検事総長が視察　「被害者の負担への支援ありがたい」(テレビ朝日系（ANN）)",
+        "summary": "11月1日から始まった「犯罪被害者月間」に合わせ、検察トップの川原隆司検事総長が民間の犯罪被害者支援団体を訪れました。 被害者支援都民センターは犯罪被害者の刑事手続きや生活について電話相談などを受け付",
+        "pub_date": "11/26 20:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/1ae6734749fa2531464974f9af91530bda0e4fc6?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "債権申告、半年で4百人超　旧統一教会、不動産売却へ(共同通信)",
-        "summary": "解散命令を受け清算手続き中の世界平和統一家庭連合（旧統一教会）の清算人は26日までに、献金被害者らが賠償などを求める債権の申し出が、5月の申告開始から約半年で411人に上ったと公表した。教団が所有する",
-        "pub_date": "11/26 15:11 JST",
-        "link": "https://news.yahoo.co.jp/articles/4e9ad72487eb6478ba165a91300aa36021b872c0?source=rss",
+        "title": "6歳の女の子　バスにはねられ搬送　福岡(テレビ朝日系（ANN）)",
+        "summary": "福岡市早良区で6歳の女の子が西鉄バスにはねられる事故がありました。 警察や消防によりますと、福岡市早良区有田で26日午後5時20分ごろ、「小学生がバスにはねられた」と目撃者から110番通報がありました",
+        "pub_date": "11/26 20:26 JST",
+        "link": "https://news.yahoo.co.jp/articles/27fb37302c42652f07c0df2a298af2a096c3340c?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "住宅が全焼 3人死亡　住人と連絡取れず 鹿児島(テレビ朝日系（ANN）)",
-        "summary": "鹿児島県姶良市で住宅1軒が全焼し、焼け跡から3人の遺体が見つかりました。この家に住む3人と連絡が取れていません。 警察などによりますと、25日午後10時すぎ、姶良市加治木町で「火災です。煙が出ています",
-        "pub_date": "11/26 14:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/481e8fe6ca2a8cf8781cb8b97178116b728d85e8?source=rss",
+        "title": "群馬・太田市の住宅で火災2人死亡　高齢の兄妹と連絡が取れず(テレビ朝日系（ANN）)",
+        "summary": "群馬県太田市の住宅で火事があり、2人の遺体が見つかりました。この家に住む高齢の男性と妹と連絡が取れていません。 26日午後1時15分ごろ、太田市世良田町の住宅で「建物から火が出ている」と近くを車で走行",
+        "pub_date": "11/26 20:21 JST",
+        "link": "https://news.yahoo.co.jp/articles/2b7667cd10a69f6ffc889675bd10abf7201e18b4?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "香港高層住宅火災1年 遺族の憤り",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/26 15:19 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6604069?source=rss",
-        "category": "主要速報",
+        "title": "群馬・太田市で火災　火元の住宅から2人の遺体　高齢の兄妹と連絡取れず(テレビ朝日系（ANN）)",
+        "summary": "群馬県太田市の住宅で火事があり、2人の遺体が見つかりました。この家に住む高齢の男性と妹と連絡が取れていません。26日午後1時15分ごろ、太田市世良田町の住宅で「建物から火が出ている」と近くを車で走行し",
+        "pub_date": "11/26 20:10 JST",
+        "link": "https://news.yahoo.co.jp/articles/8960429d9eea45e194b11910fdeb55cc4a542ee4?source=rss",
+        "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "三重・四日市に公立大新設　32年開学へ、三重大拠点も(共同通信)",
-        "summary": "三重県四日市市や三重大は26日までに、JR四日市駅前に新たな公立大「四日市公立大（仮称）」を設置し、同じ建物に三重大四日市キャンパスも新設すると発表した。2032年の開学を目指す。 新公立大と三重大四",
-        "pub_date": "11/26 16:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/181fcf2df174303cc87041a174837266f11dd34b?source=rss",
+        "title": "防犯カメラに帽子の人物…  愛知･岡崎市の人気カフェで窃盗未遂 警察「年末の空き巣に注意を」(CBCテレビ)",
+        "summary": "愛知県岡崎市の人気カフェで起きた窃盗未遂事件。被害が増える年末にかけ、注意が必要です。【写真を見る】防犯カメラに帽子の人物… 愛知･岡崎市の人気カフェで窃盗未遂 警察「年末の空き巣に注意を」防犯カメラ",
+        "pub_date": "11/26 20:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/d342246c5bf17ba3743407eb6781790631c7604f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "犯罪被害者支援「国の責務」　検事総長、月間に現場視察(共同通信)",
+        "summary": "犯罪被害者月間に合わせ、検察トップの川原隆司検事総長が26日、東京都千代田区の被害者支援都民センターを訪問した。施設内を視察後、報道陣の取材に「被害者支援は極めて重要な国の責務。センターとの協力関係を",
+        "pub_date": "11/26 19:55 JST",
+        "link": "https://news.yahoo.co.jp/articles/3f10044d69e1e1b8f361b8477b23fb1ba0301daa?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "便器が真っ二つ…公衆トイレで10基以上壊される　公園など5カ所で被害　「防犯面での抑止力と利用者の安全確保に」市が防犯カメラを設置へ　トイレの出入り口を含む公園全体を見渡せる場所に　長野・駒ケ根市(FNNプライムオンライン)",
+        "summary": "誰の仕業なのか。長野県駒ケ根市で、2026年9月、公園などの5カ所の公衆トイレで10基以上の便器が壊されているのが見つかった。この事件を受け、11月25日、市はこのうち2カ所の公園に防犯カメラを設置す",
+        "pub_date": "11/26 19:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/0bab19c379a7db3aaf6405e89ad9000e5874abf8?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "JAL、宮崎着陸やり直し時に地表接近　スポイラー自動格納されず、国交省が重大インシデント認定(Aviation Wire)",
+        "summary": "宮崎空港で11月14日午前9時59分ごろ、日本航空（JAL/JL、9201）の羽田発宮崎行きJL687便（ボーイング737-800型機、登録記号JA322J）が着陸をやり直す「ゴーアラウンド（着陸復行",
+        "pub_date": "11/26 21:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/2e3b00129cf14145fbb09ed1444455acfd12e067?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "社説：都構想制度案　際立つ維新の党利党略(京都新聞)",
-        "summary": "住民が2度も「ノー」を突きつけた案とほとんど変わらない。民意を踏みつけにする強引さは目に余る。 日本維新の会が看板政策とする「大阪都構想」の制度案が、きょう開かれる大阪府市の法定協議会で正式に決まる。",
-        "pub_date": "11/26 16:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/9ab96aa2d0a9a36bc923d06c06828dd3615287cd?source=rss",
+        "title": "「現場にこだわり事件解決」和歌山県警の西川健太郎警部補、決意新た　近畿の警察官表彰(産経新聞)",
+        "summary": "ホテルエルセラーン大阪（大阪市北区）で26日に開かれた第140回「近畿の警察官」（産経新聞社提唱・和歌山県信用金庫協会など協賛）の表彰式。受賞した和歌山県警刑事部機動捜査分析課機動捜査隊の西川健太郎警",
+        "pub_date": "11/26 21:56 JST",
+        "link": "https://news.yahoo.co.jp/articles/25fb966668d764c5f0f7268cb7582d548effc0ac?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "認知症なりにくい“スーパーエイジャー”とは 認知機能低下防ぐ?『3つの生活習慣』(テレビ朝日系（ANN）)",
-        "summary": "『認知症』に関する最新の研究が続々と発表されています。新聞を読んだり、犬を飼ったりすると、リスクが低下する可能性があるということです。認知症になりにくい、記憶力の優れた高齢者、“スーパーエイジャー”に",
-        "pub_date": "11/26 16:00 JST",
-        "link": "https://news.yahoo.co.jp/articles/ef2587f843494df9ed8053e63562641c57a70222?source=rss",
+        "title": "さらなる活躍誓う、奈良県警の梅崎警部補「みなさんのおかげ」と感謝　近畿の警察官表彰(産経新聞)",
+        "summary": "ホテルエルセラーン大阪（大阪市北区）で26日に行われた第140回「近畿の警察官」（産経新聞社提唱、奈良県信用金庫協会など協賛）の表彰式。受賞した奈良県警橿原署生活安全課の梅崎光仁（こうじ）警部補（55",
+        "pub_date": "11/26 21:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/7cc6d7f1fdbed7047959e22b505f39e4e52ae3bc?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "警察署給湯室で拳銃誤射か　埼玉の男性巡査けが人なし(共同通信)",
-        "summary": "埼玉県警児玉署（同県本庄市）の給湯室で10月、刑事課の男性巡査（29）が拳銃から銃弾1発を発射していたことが26日、県警への取材で分かった。県警によると、弾丸は窓枠にめり込んだが、けが人はいない。県警",
-        "pub_date": "11/26 15:55 JST",
-        "link": "https://news.yahoo.co.jp/articles/16da1e45cc58625147dfa6414d5f73693006acc7?source=rss",
+        "title": "「家族や同僚のおかげ」滋賀県警の豊田徹警部補、謙虚に喜び　近畿の警察官表彰(産経新聞)",
+        "summary": "ホテルエルセラーン大阪（大阪市北区）で26日に開かれた第140回「近畿の警察官」（産経新聞社提唱、滋賀県信用金庫協会など協賛）の表彰式。受賞した滋賀県警本部捜査支援分析課の豊田徹（あきら）警部補（49",
+        "pub_date": "11/26 21:52 JST",
+        "link": "https://news.yahoo.co.jp/articles/2c0ef5a0b41aa3c48c6ac394691e2c0713045469?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "元「エース調査員」懲役10年判決が確定　4道県連続放火・保険金詐欺事件　岡山地裁(産経新聞)",
-        "summary": "全国4道県で保険金目的の放火を繰り返し、計約1億2800万円をだまし取ったとして、非現住建造物等放火や詐欺などの罪に問われた元保険調査員、深町優将被告（55）に懲役10年（求刑懲役14年）を言い渡した",
-        "pub_date": "11/26 15:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/b20afd6164c63505bd3b5c1ff694a28124cd8de4?source=rss",
+        "title": "ノーベル化学賞・硤合栄誉教授が総理表敬　研究費の配分めぐり「裾野の拡大」訴え(テレビ朝日系（ANN）)",
+        "summary": "ノーベル化学賞の受賞が決まった硤合憲三さんは高市総理大臣と面会し、一部の研究に巨額の資金を集中させるやり方に疑問を示しました。東京理科大学 硤合憲三栄誉教授「微力ではありますが、基礎研究から応用研究ま",
+        "pub_date": "11/26 21:50 JST",
+        "link": "https://news.yahoo.co.jp/articles/2271e5614d0a4cb38f70a7fbe51d17d8b028c7d8?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「セクシー動画を見ている姿が全世界に公開」…出会い・夜遊び系の情報流出が招く“社会的抹殺”の恐怖と自己防衛術(SPA!)",
-        "summary": "全国で相次ぐサイバー攻撃による個人情報の流出。10月末までに流出した個人情報は実に3億7000万件を超えた。こうしたなか、世の男性陣が最も恐れているのは出会い系やアダルト、風俗関連の情報漏洩だ。業者の",
-        "pub_date": "11/26 15:53 JST",
-        "link": "https://news.yahoo.co.jp/articles/f3045ab43aec86b448f42d3236831223cf8e0485?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "【速報】富山市の鉱泉浴場3施設で入湯税の申告漏れ　未納額は合計約1260万円の見込み　原因は「利用料金に課税されると誤って理解していた」(FNNプライムオンライン)",
-        "summary": "富山市は26日、市が設置する公の施設である鉱泉浴場3施設で、入湯客に対する入湯税の申告漏れがあったと発表しました。原因は、指定管理者が税の対象を誤って理解していたためとしています。【写真を見る】入湯税",
-        "pub_date": "11/26 15:50 JST",
-        "link": "https://news.yahoo.co.jp/articles/8034baa7a7dd5bf37f6af134c559d673e31daf32?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "石川の女性殺害疑い、元交際相手の男再逮捕(共同通信)",
-        "summary": "福井県あわら市の山林で石川県野々市市の中田沙耶さん（26）の遺体が見つかった事件で、石川県警は26日、中田さんの首を絞めて殺害したとして、殺人容疑で元交際相手で広島市の無職宇都宮孝司容疑者（49）を再",
-        "pub_date": "11/26 15:49 JST",
-        "link": "https://news.yahoo.co.jp/articles/c60ca1207ec16a2979cab8145fff976ad1363c72?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": false
-      },
-      {
-        "title": "問責決議案への対応めぐり維新をけん制　公明・中野氏「覚悟が問われる」(テレビ朝日系（ANN）)",
-        "summary": "公明党の中野政調会長は関文部科学大臣に対する問責決議案への対応を巡り、「政治とカネに厳しい態度を取ってきた覚悟が問われる」と述べ、自民党と連立を組む日本維新の会を牽制（けんせい）しました。公明党 中野",
-        "pub_date": "11/26 15:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/45ab1f0036eea1f268e85d7f17b391aac0d53ca1?source=rss",
+        "title": "【真っ赤】12月2日頃からこの時期としては「10年に1度レベルの高温」の可能性...気象庁が早期天候情報【関東甲信・東海・近畿・北陸・中国・四国・九州・沖縄】が対象…12月12日までの全国各都市の天気予報(RSK山陽放送)",
+        "summary": "■全国的に10年に1度レベルの高温か気象庁は26日、高温に関する早期天候情報を発表しました。それによりますと12月2日頃から、関東甲信地方、北陸地方、東海地方、近畿地方、中国地方、四国地方、九州地方、",
+        "pub_date": "11/26 21:30 JST",
+        "link": "https://news.yahoo.co.jp/articles/d3834a98a8af5d2a108a7e5ae350688d471eeb56?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-26 16:04:23 JST"
+    "last_updated": "2026-11-26 22:06:07 JST"
   },
   "live_media": {
     "default_camera_id": "cam_tokyo_shibuya",
@@ -1048,10 +1047,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "KwLUqJUI13I",
+        "video_id": "LZJm2-bFAps",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/KwLUqJUI13I?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=KwLUqJUI13I"
+        "embed_url": "https://www.youtube.com/embed/LZJm2-bFAps?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=LZJm2-bFAps"
       },
       {
         "id": "stream_tbsnews",
@@ -1059,10 +1058,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "oUQo6tkTnWI",
+        "video_id": "y-23N-_JGUk",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/oUQo6tkTnWI?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=oUQo6tkTnWI"
+        "embed_url": "https://www.youtube.com/embed/y-23N-_JGUk?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=y-23N-_JGUk"
       },
       {
         "id": "stream_ntvnews",
@@ -1070,10 +1069,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "EH465YaFxok",
+        "video_id": "Vws-At6jQl0",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/EH465YaFxok?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=EH465YaFxok"
+        "embed_url": "https://www.youtube.com/embed/Vws-At6jQl0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Vws-At6jQl0"
       },
       {
         "id": "stream_annnews",
@@ -1081,10 +1080,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "NjMDfI-Yh5Q",
+        "video_id": "703jggngBMw",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/NjMDfI-Yh5Q?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=NjMDfI-Yh5Q"
+        "embed_url": "https://www.youtube.com/embed/703jggngBMw?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=703jggngBMw"
       },
       {
         "id": "stream_fnnnews",
@@ -1092,10 +1091,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "DGa4oK1hcXc",
+        "video_id": "9IQSelLGKk0",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/DGa4oK1hcXc?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=DGa4oK1hcXc"
+        "embed_url": "https://www.youtube.com/embed/9IQSelLGKk0?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=9IQSelLGKk0"
       }
     ],
     "cameras": [

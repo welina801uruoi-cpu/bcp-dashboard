@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27 01:01:38",
+  "timestamp": "2026-11-27 07:06:27",
   "location": {
     "name": "札幌",
     "region_name": "北海道エリア",
@@ -61,12 +61,19 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-27 04:33",
-    "place": "父島近海",
-    "magnitude": "5.5",
+    "shindo": "1",
+    "time": "2026-11-27 14:10",
+    "place": "福島県沖",
+    "magnitude": "4.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-27 14:10",
+        "place": "福島県沖",
+        "shindo": "1",
+        "magnitude": "4.3",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-27 04:33",
         "place": "父島近海",
@@ -129,13 +136,6 @@
         "shindo": "1",
         "magnitude": "1.2",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-26 07:52",
-        "place": "高知県中部",
-        "shindo": "1",
-        "magnitude": "3.4",
-        "maxScale": 10
       }
     ]
   },
@@ -151,10 +151,10 @@
   },
   "weather": {
     "status": "NOTICE",
-    "summary": "【注意報発表: 1地域】道央（警報なし）",
+    "summary": "【注意報発表: 4地域】道央、道南、道北、道東（警報なし）",
     "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/",
     "alert_count": 0,
-    "notice_count": 1,
+    "notice_count": 4,
     "total_prefs": 4,
     "pref_details": [
       {
@@ -165,42 +165,61 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
+          "強風注意報",
+          "波浪注意報",
+          "融雪注意報",
           "なだれ注意報"
         ],
-        "summary": "なだれ注意報",
+        "summary": "雷注意報、強風注意報、波浪注意報、融雪注意報、なだれ注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1a/"
       },
       {
         "code": "1b",
         "name": "道南",
         "short_name": "道南",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報",
+          "波浪注意報",
+          "融雪注意報",
+          "強風注意報"
+        ],
+        "summary": "雷注意報、波浪注意報、融雪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1b/"
       },
       {
         "code": "1c",
         "name": "道北",
         "short_name": "道北",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報",
+          "波浪注意報",
+          "濃霧注意報",
+          "強風注意報"
+        ],
+        "summary": "雷注意報、波浪注意報、濃霧注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1c/"
       },
       {
         "code": "1d",
         "name": "道東",
         "short_name": "道東",
-        "status": "NORMAL",
+        "status": "NOTICE",
         "emg_warns": [],
         "warns": [],
-        "notices": [],
-        "summary": "発表なし",
+        "notices": [
+          "雷注意報",
+          "波浪注意報",
+          "濃霧注意報",
+          "強風注意報"
+        ],
+        "summary": "雷注意報、波浪注意報、濃霧注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/1d/"
       }
     ]
@@ -213,14 +232,16 @@
     "notice_items": []
   },
   "transit": {
-    "status": "NORMAL",
-    "text": "全線平常運行中",
-    "line_status": "NORMAL",
-    "line_text": "全線平常運行中",
+    "status": "ALERT",
+    "text": "運行支障あり（在来線: 根室本線）",
+    "line_status": "ALERT",
+    "line_text": "運行支障あり（根室本線）",
     "shinkansen_status": "NORMAL",
     "shinkansen_text": "全線平常運行中",
     "url": "https://transit.yahoo.co.jp/diainfo/area/2",
-    "troubled_lines": [],
+    "troubled_lines": [
+      "根室本線"
+    ],
     "troubled_shinkansen": [],
     "shinkansen_details": [
       {
@@ -255,21 +276,15 @@
         "level": "poweroutageLevel1"
       },
       {
-        "pref": "群馬県",
-        "region": "関東",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/10/",
-        "level": "poweroutageLevel1"
-      },
-      {
         "pref": "千葉県",
         "region": "関東",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/12/",
         "level": "poweroutageLevel1"
       },
       {
-        "pref": "山梨県",
+        "pref": "東京都",
         "region": "関東",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/19/",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/13/",
         "level": "poweroutageLevel1"
       },
       {
@@ -285,9 +300,9 @@
         "level": "poweroutageLevel2"
       },
       {
-        "pref": "鹿児島県",
-        "region": "九州",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/46/",
+        "pref": "静岡県",
+        "region": "東海",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/22/",
         "level": "poweroutageLevel1"
       }
     ],
@@ -396,23 +411,23 @@
   "sns_voices": [
     {
       "keyword": "通信障害",
-      "status": "ALERT",
-      "trend": "UP",
-      "trend_label": "📈 上昇傾向 (投稿急増・要警戒)",
-      "trend_class": "red",
-      "summary": "直近1時間で 15 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
+      "status": "NORMAL",
+      "trend": "DOWN",
+      "trend_label": "📉 やや投稿あり (様子見)",
+      "trend_class": "yellow",
+      "summary": "直近1時間の投稿数は 11 件です。",
       "recent_posts": [
         {
-          "time": "11/27 01:01",
-          "text": "スマホ1台だけでなく、2台持ちという選択肢も！ 仕事用、家族用、サブ回線など使い方はいろいろ。 ドコモの START 通信障害 END を機に、別キャリアの楽天..."
+          "time": "11/27 07:05",
+          "text": "@haruki_log_ START 通信障害 END で固まってるんじゃないかって時ありますよね😂w"
         },
         {
-          "time": "11/27 00:58",
-          "text": "エネオスのアプリが昨日から使えないんだが… #エネオス # START 通信障害 END"
+          "time": "11/27 07:02",
+          "text": "HYPER OS4せっかく来たのにWiFiの START 通信障害 END でダウンロード出来ない。 さすがにモバイルデータ通信だと8.9ギガダウンロードは遅す..."
         },
         {
-          "time": "11/27 00:56",
-          "text": "ソフトバンク START 通信障害 END だったりする？？？"
+          "time": "11/27 06:55",
+          "text": "【学校連絡アプリが変わります！】 練馬区立小・中学校の連絡システムが「Sigfy」から「すぐーる」へ。 今年6月の台風時に発生した START 通信障害 END..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E9%80%9A%E4%BF%A1%E9%9A%9C%E5%AE%B3"
@@ -449,16 +464,16 @@
       "summary": "直近1時間で 40 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
       "recent_posts": [
         {
-          "time": "11/27 01:00",
-          "text": "キューバの国際観光客、1～10月に65.7%減／ START 停電 END とエネルギー危機が直撃 ｜ 南米の鼓動をキャッチ！ ブラジル日報 https://t..."
+          "time": "11/27 07:06",
+          "text": "戦争が始まった街、 START 停電 END したマンションの15階。 雨の夜の音を、まるごと1時間。 語りも音楽もありません。 窓を打つ雨と、遠くで低く響く砲..."
         },
         {
-          "time": "11/27 01:00",
-          "text": "嵐が東西の州を襲い続ける中 感謝祭の日に 75万人の米国人が START 停電 END に見舞われています。 https://t.co/IP8wgcvy0Z"
+          "time": "11/27 07:03",
+          "text": "感謝祭の帰省ラッシュ中に、複数の州で計約100万世帯が START 停電 END する惨事に。 家族や隣人と和やかで貴重な休息を享受できる限られた機会を、 偽装..."
         },
         {
-          "time": "11/27 00:59",
-          "text": "防災心 １１月２７日 １１月１４日に開催した 防災訓練について考える 「Estimation Game」 その２５ 第２４問 初期消火を試みる? 火災を発見しま..."
+          "time": "11/27 07:00",
+          "text": "【衝撃】イーロン・マスクが START 停電 END に苦しむオーストラリアに「100日以内に巨大バッテリーを作る」って約束してたのマジ？ 記者「電気代高騰で苦..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E5%81%9C%E9%9B%BB"
@@ -760,12 +775,12 @@
     "status": "NORMAL",
     "office": "札幌管区気象台",
     "target_area": "石狩・空知・後志地方",
-    "report_time": "11/27 04:44",
+    "report_time": "11/27 10:39",
     "headline": "",
-    "text": "　北海道付近は、２７日は日本のはるか東に中心をもつ高気圧が張り出しますが、夜には前線を伴った低気圧が沿海州付近へ進むでしょう。２８日は朝には低気圧がオホーツク海へ進み、低気圧からのびる前線が夜にかけて通過する見込みです。このため、気圧の傾きが大きくなり、大気の状態が不安定になるでしょう。\n\n　石狩・空知・後志地方の２７日３時の天気は、晴れまたは曇りとなっています。\n\n　２７日は、曇りで、雷を伴い雨の降る所があるでしょう。\n\n　２８日は、雨のち曇りで雷を伴う所があり、夜遅くに雪の降る所がある見込みです。\n\n　海の波の高さは、２７日は２メートルのち３メートルと高くなるでしょう。２８日は３メートルと高く、のち２メートルの見込みです。",
+    "text": "　北海道付近は、２７日は日本のはるか東に中心をもつ高気圧が張り出しますが、夜には前線を伴った低気圧が沿海州付近へ進むでしょう。２８日は朝には低気圧がオホーツク海へ進み、低気圧からのびる前線が夜にかけて通過する見込みです。このため、２８日にかけて気圧の傾きが大きく、大気の状態が非常に不安定となるでしょう。\n\n　石狩・空知・後志地方の２７日９時の天気は、曇りで雨の降っている所があります。\n\n　２７日は、曇りで、雷を伴い雨の降る所があるでしょう。\n\n　２８日は、雨のち曇りで雷を伴う所があり、夜遅くに雪の降る所がある見込みです。\n\n　海の波の高さは、２７日は２メートルのち３メートルと高くなるでしょう。２８日は３メートルと高く、のち２メートルの見込みです。",
     "paragraphs": [
-      "北海道付近は、２７日は日本のはるか東に中心をもつ高気圧が張り出しますが、夜には前線を伴った低気圧が沿海州付近へ進むでしょう。２８日は朝には低気圧がオホーツク海へ進み、低気圧からのびる前線が夜にかけて通過する見込みです。このため、気圧の傾きが大きくなり、大気の状態が不安定になるでしょう。",
-      "石狩・空知・後志地方の２７日３時の天気は、晴れまたは曇りとなっています。",
+      "北海道付近は、２７日は日本のはるか東に中心をもつ高気圧が張り出しますが、夜には前線を伴った低気圧が沿海州付近へ進むでしょう。２８日は朝には低気圧がオホーツク海へ進み、低気圧からのびる前線が夜にかけて通過する見込みです。このため、２８日にかけて気圧の傾きが大きく、大気の状態が非常に不安定となるでしょう。",
+      "石狩・空知・後志地方の２７日９時の天気は、曇りで雨の降っている所があります。",
       "２７日は、曇りで、雷を伴い雨の降る所があるでしょう。",
       "２８日は、雨のち曇りで雷を伴う所があり、夜遅くに雪の降る所がある見込みです。",
       "海の波の高さは、２７日は２メートルのち３メートルと高くなるでしょう。２８日は３メートルと高く、のち２メートルの見込みです。"
@@ -775,130 +790,130 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 10,
+    "disaster_count": 5,
     "articles": [
       {
-        "title": "政府がBCP＝事業継続計画を12年ぶりに見直し　首都直下地震で被害長期化も見据え(テレビ朝日系（ANN）)",
-        "summary": "首都直下地震を想定し、政府はBCP（事業を継続するための計画）を約12年ぶりに初めて見直しました。各省庁に対し、被害の長期化に備えて代理となる拠点やテレワークの活用を進めるよう求めています。 首都直下",
-        "pub_date": "11/27 09:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/ff7f63a17b988fe5d45da6aa717f8550d829ba4c?source=rss",
+        "title": "社説：首里城の復元　琉球文化　守り手後世へ(京都新聞)",
+        "summary": "7年前に火災で失われた首里城（那覇市）の正殿が再建され、一般公開が始まった。独自の歴史と文化を伝える「沖縄の象徴」がよみがえった節目を祝い、後世に引き継いでいきたい。 世界遺産の首里城は、15世紀に成",
+        "pub_date": "11/27 16:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/8fc726fb02a9c31509b9230545cbaa9a789b9bfc?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "千葉・浦安市でネズミ被害多発　ごみ荒らし、車の配線かじる　業者委託し駆除へ(テレビ朝日系（ANN）)",
-        "summary": "千葉県浦安市は、来年2月をめどに初めて業者に委託したネズミの駆除に取り組む方針です。 市内では、ごみ袋を荒らされたり、車のボンネットに入り込み配線をかじられたりする被害が出ています。 市への相談は、昨",
-        "pub_date": "11/27 09:44 JST",
-        "link": "https://news.yahoo.co.jp/articles/a51fac58df81d40f8d5acfb068d8b633ebb99fdd?source=rss",
+        "title": "関東甲信は明日28日朝まで雨　南部を中心に大雨　道路の冠水に注意　東京都心21℃(日本気象協会tenki.jp)",
+        "summary": "関東甲信では明日28日朝にかけて雨が降り、局地的には雷を伴って激しく降るでしょう。千葉県など南部を中心に大雨になる所があるため、道路の冠水や川の増水に注意、警戒してください。日中は天気が回復し、東京都",
+        "pub_date": "11/27 14:46 JST",
+        "link": "https://news.yahoo.co.jp/articles/a221c8e8e3ee7bb689befd99ac777c9acad5b646?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "事前防災の徹底、「国家戦略」に　政府、災害対策の基本計画を改定(共同通信)",
-        "summary": "政府の中央防災会議（会長・高市早苗首相）は27日、災害対策の指針となる防災基本計画を改定した。「国家戦略」の項目を加え、平時から被害抑制に取り組む事前防災の徹底などを盛り込んだ。2日の防災庁発足を踏ま",
-        "pub_date": "11/27 09:41 JST",
-        "link": "https://news.yahoo.co.jp/articles/c6d713cdd944d8f001e2e43443f29432b4eab9ac?source=rss",
+        "title": "クマ被害対策のロードマップ改定を指示　木原官房長官(テレビ朝日系（ANN）)",
+        "summary": "木原官房長官はクマによる被害対策の取り組みをまとめたロードマップを改定するよう担当大臣に指示しました。木原官房長官「笹川担当大臣におかれては、クマ被害対策の司令塔として関係閣僚と連携し、来年以降の大量",
+        "pub_date": "11/27 14:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/b3a616ed7dfb49ab633364f0a5760faa9de39c1f?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "政府、中枢機能維持へBCP改定　災害本部に副首都も検討(共同通信)",
-        "summary": "政府は27日の閣議で、首都直下地震の発生に備え、行政中枢機能を維持するための業務継続計画（BCP）の改定を決めた。緊急災害対策本部を置く首相官邸が大きな被害を受けた場合の代替拠点として、現行計画で定め",
-        "pub_date": "11/27 09:36 JST",
-        "link": "https://news.yahoo.co.jp/articles/abf8c8d23f5ee0c6179aeb34bc00f4eac891eab6?source=rss",
+        "title": "圏央道が事故で通行止め 常総IC〜つくば中央ICで 車両滞留で支援物資を配布 NEXCO東日本(ABEMA TIMES)",
+        "summary": "NEXCO東日本関東支社が公式Xで支援物資の配布に関するお知らせを発表しました。【映像】支援物資の配布のお知らせ（NEXCO東日本）「【支援物資を配布しております】C4圏央道内外回り常総IC〜つくば中",
+        "pub_date": "11/27 14:33 JST",
+        "link": "https://news.yahoo.co.jp/articles/f471cdb499c083839d932547f66687d192151492?source=rss",
         "category": "国内・気象防災",
         "is_disaster": true
       },
       {
-        "title": "首都直下地震で被害長期化も見据え　政府がBCP＝事業継続計画を12年ぶりに見直し(テレビ朝日系（ANN）)",
-        "summary": "首都直下地震を想定して、政府はBCP＝事業を継続するための計画をおよそ12年ぶりに初めて見直しました。各省庁に対し、被害の長期化に備えて代理となる拠点やテレワークの活用を進めるよう求めています。首都直",
-        "pub_date": "11/27 09:34 JST",
-        "link": "https://news.yahoo.co.jp/articles/0883738529a94de5e73ce9af0a61feb9f2b8eb75?source=rss",
-        "category": "国内・気象防災",
+        "title": "28日は関東で警報級大雨の恐れ",
+        "summary": "詳細情報は元記事をご確認ください。",
+        "pub_date": "11/27 12:51 JST",
+        "link": "https://news.yahoo.co.jp/pickup/6604174?source=rss",
+        "category": "主要速報",
         "is_disaster": true
       },
       {
-        "title": "拉致問題「歴史ではない」　横田めぐみさん弟、拓也さんが川崎・大西学園中高で特別授業(産経新聞)",
-        "summary": "横田めぐみさん（62）＝拉致当時（13）＝が北朝鮮に拉致されてから、丸49年が過ぎた。弟で被害者家族会代表の拓也さん（58）が24日、大西学園中学・高校（川崎市中原区）で特別授業を行い、拉致当時のめぐ",
-        "pub_date": "11/27 09:22 JST",
-        "link": "https://news.yahoo.co.jp/articles/0830dd35351a80e6a8750cfc5413a7a9f525a654?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【週末の天気は?】広い範囲で荒天に…北日本では大雪に注意　東日本の産地でも降雪予想　12月7日にかけての降水シミュレーションも【気象庁27日発表】(BSS山陰放送)",
-        "summary": "気象庁によりますと、29日にかけて日本列島は広い範囲で天気が荒れる見込みです。沖縄地方では27日、前線の影響で大雨となる所があり、土砂災害などに注意・警戒が必要です。【画像を見る】全国の週間天気予報＆",
-        "pub_date": "11/27 09:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/79b5c2a11ab7626906ae35a0565d0d1de8ca8a02?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "堺市中区の市道で成人女性ひき逃げか　事故後に申告に来た50代男性を事情聴取　中堺署(産経新聞)",
-        "summary": "27日午前3時10分ごろ、堺市中区深井清水町の市道で「人が倒れている。頭から血が出ていると思う」と通行人の男性から110番があった。【ひと目でわかる】自転車と歩行者の事故件数大阪府警中堺署によると、成",
-        "pub_date": "11/27 08:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/bc107f377abc1abb8e0043269a237da9d0ab8e33?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "＜独自＞クマ駆除の狩猟税免除　被害続発で緊急銃猟時に　ハンター人材確保のため優遇(産経新聞)",
-        "summary": "全国で相次ぐクマ被害を受け、政府・与党が緊急銃猟などを実施する際にハンターが納める「狩猟税（ハンター税）」を免除する特例措置を設ける方針を固めたことが26日、分かった。ハンターの経済的負担を減らして不",
-        "pub_date": "11/27 07:47 JST",
-        "link": "https://news.yahoo.co.jp/articles/4c3ff03126dd16d58444eaab2d1913cdc770dbd5?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "【動画】27日の天気 - 沖縄は土砂災害などに厳重警戒　気温高く10月並みの陽気も　天気はゆっくり下り坂（27日7時更新）(ウェザーマップ)",
-        "summary": "沖縄では線状降水帯による猛烈な雨が続き、大雨となっている所があります。朝のうちは非常に激しい雨の降る所もありそうです。土砂災害などに厳重な警戒が必要です。 全国的にも天気が下り坂で、夜にかけて雨の範囲",
-        "pub_date": "11/27 07:26 JST",
-        "link": "https://news.yahoo.co.jp/articles/867e4de03c78890134786400b9ae2de10cd038be?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "来年3月開催「国際園芸博覧会」 展示の一部を初公開(ABEMA TIMES)",
-        "summary": "来年3月に横浜市で開幕する「国際園芸博覧会」＝花博開幕まで100日が迫る中、展示施設の一部が初公開されました。【映像】初公開された展示の一部 花博は、来年3月から横浜市内でおよそ半年間行われます。26",
-        "pub_date": "11/27 09:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/024158d87fb3829104e73056ffe202936cdf3b70?source=rss",
+        "title": "エルニーニョでチョコが高騰？　世界の天候不順が日本の食卓・家計に影響する理由とは(ウェザーマップ)",
+        "summary": "今年は春からエルニーニョ現象が発生し、秋には過去最大の強さになっていると気象庁から発表されています。エルニーニョ現象は日本、そして世界各国に異常な天候をもたらします。世界各地の天候不順は農林水産業に直",
+        "pub_date": "11/27 16:03 JST",
+        "link": "https://news.yahoo.co.jp/articles/04068faa5ee7b2b51d972f1b45f07dcc3a8d7964?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "SNSのライブ配信で「マンジャロ」販売か　40歳の女逮捕(テレビ朝日系（ANN）)",
-        "summary": "SNSのライブ配信を通じ、糖尿病治療薬の「マンジャロ」を無許可で販売したとして40歳の女が逮捕されました。 無職の七崎由乃容疑者（40）は去年5月から今年にかけて、女性3人に対し、無許可で糖尿病治療薬",
-        "pub_date": "11/27 09:55 JST",
-        "link": "https://news.yahoo.co.jp/articles/8a873ac6a3159335eecd49b8a37e9c15cbfad4f1?source=rss",
+        "title": "冬の“かくれ脱水”重症化に注意 水分補給に鍋料理 魚介vs肉 医師おすすめは？(テレビ朝日系（ANN）)",
+        "summary": "朝晩の冷え込みが厳しくなってきましたが、空気が乾燥して水分が失われる冬は、夏と同じように、脱水症に注意が必要な季節です。冬の“かくれ脱水”は、重症化すると腎不全や脳梗塞などを引き起こす可能性もあります",
+        "pub_date": "11/27 16:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/32f20c97b3dfa591de5cde9a9b66c17229742128?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「世界一の防災大国」へ　国の防災基本計画に防災を「国家戦略」として示す(テレビ朝日系（ANN）)",
-        "summary": "国難級の災害に備え、日本の防災力を強化し、防災庁を司令塔として世界一の防災大国を実現するための「国家戦略」が国の防災基本計画に盛り込まれることが決まりました。 国の防災に関する長期的な指針を示す「防災",
-        "pub_date": "11/27 09:54 JST",
-        "link": "https://news.yahoo.co.jp/articles/e2abaf3f80215a41f17d3fb0758b925e1ded963d?source=rss",
+        "title": "有料席の新快速、大幅増へ　JR西、日中利用客見込む(共同通信)",
+        "summary": "JR西日本は27日、有料の座席指定サービス「うれしート」がある列車を、来年春から東海道線の新快速など近畿圏を中心に1日当たり150本以上増やすと発表した。日中の本数を手厚くし、買い物客や観光客の利用を",
+        "pub_date": "11/27 16:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/f5f67999824c2290fa54b4d7d39a283fe39e1cbd?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "大阪都構想制度案まとまる　「大阪警視庁」国に求める　維新のみで協議、批判の声も(テレビ朝日系（ANN）)",
-        "summary": "大阪府と市の法定協議会は、大阪市を廃止して4つの特別区に分割する「大阪都構想」について維新の議員のみで協議を続け、26日に制度案をまとめました。 今回は「副首都化」を見据えて、「大阪警視庁・大阪消防庁",
-        "pub_date": "11/27 09:52 JST",
-        "link": "https://news.yahoo.co.jp/articles/07c37741c49aea39509839a2b7a182ff42fd3ffc?source=rss",
+        "title": "偉業達成を続ける「はやぶさ2」に大きな決断の時(ニッポン放送)",
+        "summary": "2020年に小惑星「リュウグウ」からの砂を地球に届けた後も、拡張ミッション=「第二の宇宙の旅」を続けている探査機「はやぶさ2」がついに試練を迎えました。今年7月には小惑星「トリフネ」に接近し、鮮明な画",
+        "pub_date": "11/27 15:59 JST",
+        "link": "https://news.yahoo.co.jp/articles/f67921f32212e12da54c87c4887efb1c0f2db6bd?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "ルイ・ヴィトンなど偽物販売か インド国籍の男3人逮捕(ABEMA TIMES)",
-        "summary": "ルイ・ヴィトンなど高級ブランドの偽物を所持し販売したとして、インド国籍の男3人が逮捕されました。【映像】押収された偽の高級ブランド品 甲府市の貴金属販売会社社長でインド国籍のチャウダリー・アシシ容疑者",
-        "pub_date": "11/27 09:51 JST",
-        "link": "https://news.yahoo.co.jp/articles/5388b6d8d472056c1359df4d78ce331cbd5f3811?source=rss",
+        "title": "「やってることは本当にクズ。関大臣とっとと辞めるべき」も“反対票”投じた日本保守党・百田代表「百田さんも苦しい立場」と政治ジャーナリスト・青山和弘氏　“矛盾”の背景を解説　関文科大臣の問責決議案が否決(関西テレビ)",
+        "summary": "政治資金パーティーに官僚を呼んで企業関係者に政策を説明させた関芳弘文部科学大臣（自民・兵庫選出）に対する問責決議案は、きょう＝27日、参議院本会議で採決が行われ、賛成120票、反対124票で否決されま",
+        "pub_date": "11/27 15:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/dcd04fd926353277ef3b9d081412f237474fb5d2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "福岡市長選に異議申し出　再選挙日程決定は延期(共同通信)",
+        "summary": "15日投開票され当選者が出なかった福岡市長選に関し、元市議ら2人が27日、複数の候補に公選法違反の疑いがあると主張し、事実関係の検証と、違反が認められた場合の選挙無効を求め、市選挙管理委員会に異議を申",
+        "pub_date": "11/27 15:55 JST",
+        "link": "https://news.yahoo.co.jp/articles/9961e67dcbfcf383a46b0884fdd6b9ffe0400369?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "福岡百条委、4人初尋問へ　金銭疑惑、前副議長ら(共同通信)",
+        "summary": "福岡県議会は27日、正副議長ポストを巡る金銭授受疑惑に関する調査特別委員会（百条委員会）の会合を開き、金銭を受け取ったと名指しされた後に議員辞職した中尾正幸前副議長ら4人を証人尋問する方針を決めた。証",
+        "pub_date": "11/27 15:53 JST",
+        "link": "https://news.yahoo.co.jp/articles/bb4f4343a920bf82e7c1a1f935da947da5eb34e1?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "厚労大臣「医学的根拠なし」 政府広報が起用の陰謀論YouTuber配信の動画に(テレビ朝日系（ANN）)",
+        "summary": "政府が起用したユーチューバーが配信する医学的な根拠のない動画を念頭に、上野厚生労働大臣は科学的な根拠に基づいた情報に従うよう呼び掛けました。上野賢一郎厚労大臣「（Q.（ナオキマン氏の動画で）『血圧を下",
+        "pub_date": "11/27 15:41 JST",
+        "link": "https://news.yahoo.co.jp/articles/0385dfde4c1f530d819a315275bcede0581ca8df?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【解説動画】土曜は雨と黄砂　日本海側は雷雨も　雨上がりも洗濯物の外干しは控えて(ウェザーマップ)",
+        "summary": "28日(土)にかけて、低気圧と前線が日本列島を通過し、広い範囲で雨が降るでしょう。ただ、それだけではありません。大陸からは、季節外れの「黄砂」がやってくる見込みです。",
+        "pub_date": "11/27 15:38 JST",
+        "link": "https://news.yahoo.co.jp/articles/aa71c761e23b62318ffe39d6da7338f2105147be?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「制度整えて」と在外邦人が弁論　2月衆院選、郵便投票間に合わず(共同通信)",
+        "summary": "解散から投開票日までが戦後最短だった2月の衆院選で、郵便投票が間に合わなかったのは憲法違反だとして、ドイツやカナダ在住の邦人4人が国に損害賠償などを求めた訴訟の第1回口頭弁論が27日、東京地裁で開かれ",
+        "pub_date": "11/27 15:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/f09d9f63f74cf00bc156eb29c46b450db5ba5c5e?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-27 10:01:20 JST"
+    "last_updated": "2026-11-27 16:06:24 JST"
   },
   "live_media": {
     "default_camera_id": "cam_sapporo",
@@ -919,10 +934,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "z6Qa8q8oI08",
+        "video_id": "2HjSo8r1lZs",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/z6Qa8q8oI08?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=z6Qa8q8oI08"
+        "embed_url": "https://www.youtube.com/embed/2HjSo8r1lZs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=2HjSo8r1lZs"
       },
       {
         "id": "stream_tbsnews",
@@ -930,10 +945,10 @@
         "category": "全国報道",
         "provider": "TBS / JNN",
         "handle": "@tbsnewsdig",
-        "video_id": "fjuYnaJl5_E",
+        "video_id": "0cioVTuIXdk",
         "description": "JNN28局の取材網による全国災害・事件・事故の最新ニュースを常時生配信。",
-        "embed_url": "https://www.youtube.com/embed/fjuYnaJl5_E?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=fjuYnaJl5_E"
+        "embed_url": "https://www.youtube.com/embed/0cioVTuIXdk?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=0cioVTuIXdk"
       },
       {
         "id": "stream_ntvnews",
@@ -941,10 +956,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "1GMV9nOJE6Q",
+        "video_id": "Oggz41WR__Y",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/1GMV9nOJE6Q?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=1GMV9nOJE6Q"
+        "embed_url": "https://www.youtube.com/embed/Oggz41WR__Y?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=Oggz41WR__Y"
       },
       {
         "id": "stream_annnews",
@@ -952,10 +967,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "7iok96dFDRw",
+        "video_id": "VYGTyAqAYu8",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/7iok96dFDRw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=7iok96dFDRw"
+        "embed_url": "https://www.youtube.com/embed/VYGTyAqAYu8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=VYGTyAqAYu8"
       },
       {
         "id": "stream_fnnnews",
@@ -963,10 +978,10 @@
         "category": "全国報道",
         "provider": "フジテレビ / FNN",
         "handle": "@FNNnewsCH",
-        "video_id": "n2wQYPyaybw",
+        "video_id": "AUN-apnzzt8",
         "description": "フジテレビ・FNN各局による最新ニュース・大雨台風地震等の緊急特番を生配信。",
-        "embed_url": "https://www.youtube.com/embed/n2wQYPyaybw?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=n2wQYPyaybw"
+        "embed_url": "https://www.youtube.com/embed/AUN-apnzzt8?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=AUN-apnzzt8"
       }
     ],
     "cameras": [

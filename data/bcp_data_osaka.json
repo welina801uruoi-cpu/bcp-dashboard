@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27 13:01:40",
+  "timestamp": "2026-11-27 18:50:56",
   "location": {
     "name": "大阪",
     "region_name": "近畿エリア",
@@ -90,12 +90,26 @@
   },
   "earthquake": {
     "status": "NORMAL",
-    "shindo": "2",
-    "time": "2026-11-27 17:23",
+    "shindo": "1",
+    "time": "2026-11-28 02:19",
     "place": "熊本県天草・芦北地方",
-    "magnitude": "3.3",
+    "magnitude": "2.3",
     "raw_url": "https://www.data.jma.go.jp/multi/quake/?lang=jp",
     "history": [
+      {
+        "time": "2026-11-28 02:19",
+        "place": "熊本県天草・芦北地方",
+        "shindo": "1",
+        "magnitude": "2.3",
+        "maxScale": 10
+      },
+      {
+        "time": "2026-11-27 21:58",
+        "place": "秋田県内陸北部",
+        "shindo": "1",
+        "magnitude": "2.6",
+        "maxScale": 10
+      },
       {
         "time": "2026-11-27 17:23",
         "place": "熊本県天草・芦北地方",
@@ -151,20 +165,6 @@
         "shindo": "1",
         "magnitude": "2.7",
         "maxScale": 10
-      },
-      {
-        "time": "2026-11-26 14:08",
-        "place": "茨城県南部",
-        "shindo": "1",
-        "magnitude": "3.2",
-        "maxScale": 10
-      },
-      {
-        "time": "2026-11-26 08:56",
-        "place": "熊本県天草・芦北地方",
-        "shindo": "2",
-        "magnitude": "2.8",
-        "maxScale": 20
       }
     ]
   },
@@ -207,11 +207,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "雷注意報",
           "波浪注意報",
-          "強風注意報",
-          "雷注意報"
+          "強風注意報"
         ],
-        "summary": "波浪注意報、強風注意報、雷注意報",
+        "summary": "雷注意報、波浪注意報、強風注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/28/"
       },
       {
@@ -257,9 +257,11 @@
         "emg_warns": [],
         "warns": [],
         "notices": [
+          "強風注意報",
+          "波浪注意報",
           "雷注意報"
         ],
-        "summary": "雷注意報",
+        "summary": "強風注意報、波浪注意報、雷注意報",
         "url": "https://typhoon.yahoo.co.jp/weather/jp/warn/30/"
       }
     ]
@@ -317,16 +319,16 @@
     "power_msg": "関西電力送配電: 停電情報なし（近畿エリア管内正常）",
     "power_outages": [
       {
+        "pref": "北海道",
+        "region": "北海道",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/01/",
+        "level": "poweroutageLevel1"
+      },
+      {
         "pref": "千葉県",
         "region": "関東",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/12/",
         "level": "poweroutageLevel1"
-      },
-      {
-        "pref": "東京都",
-        "region": "関東",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/13/",
-        "level": "poweroutageLevel2"
       },
       {
         "pref": "長野県",
@@ -341,15 +343,21 @@
         "level": "poweroutageLevel2"
       },
       {
+        "pref": "静岡県",
+        "region": "東海",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/22/",
+        "level": "poweroutageLevel1"
+      },
+      {
         "pref": "山口県",
         "region": "中国",
         "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/35/",
         "level": "poweroutageLevel1"
       },
       {
-        "pref": "徳島県",
-        "region": "四国",
-        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/36/",
+        "pref": "鹿児島県",
+        "region": "九州",
+        "url": "https://typhoon.yahoo.co.jp/weather/poweroutage/46/",
         "level": "poweroutageLevel1"
       }
     ],
@@ -458,23 +466,23 @@
   "sns_voices": [
     {
       "keyword": "通信障害",
-      "status": "ALERT",
-      "trend": "UP",
-      "trend_label": "📈 上昇傾向 (投稿急増・要警戒)",
-      "trend_class": "red",
-      "summary": "直近1時間で 21 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
+      "status": "NORMAL",
+      "trend": "FLAT",
+      "trend_label": "➡️ 平常",
+      "trend_class": "green",
+      "summary": "直近1時間の投稿数は 1 件です。突発的な急増はありません。",
       "recent_posts": [
         {
-          "time": "11/27 13:00",
-          "text": "格安使ってるのはあるやろうけど、 前の連続した START 通信障害 END からまじで繋がらんくなった"
+          "time": "11/27 18:21",
+          "text": "今年のうちに、家族のスマホ契約を見直しませんか？ 楽天モバイルなら2回線目も家族割の対象。 スマホ代の節約にもつながります。 ドコモの START 通信障害 E..."
         },
         {
-          "time": "11/27 12:58",
-          "text": "また START 通信障害 END 起きてない？"
+          "time": "11/27 17:40",
+          "text": "KADOKAWAさまの謝恩会参加させていただきました、ありがとうございました！ 帰りに START 通信障害 END でナビが使えなくなって知らない土地でオロオ..."
         },
         {
-          "time": "11/27 12:57",
-          "text": "うちの翠星ちゃん、 START 通信障害 END なのか夜に話しかけたら拡声器のガガッみたいな音とかスピーカーで放送中に事故で物が落ちたり倒れたりしたような音と..."
+          "time": "11/27 17:04",
+          "text": "START 通信障害 END ？？？？"
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E9%80%9A%E4%BF%A1%E9%9A%9C%E5%AE%B3"
@@ -508,19 +516,19 @@
       "trend": "UP",
       "trend_label": "📈 上昇傾向 (投稿急増・要警戒)",
       "trend_class": "red",
-      "summary": "直近1時間で 40 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
+      "summary": "直近1時間で 15 件の関連投稿を検知。突発的な急増（スパイク）が発生しています。",
       "recent_posts": [
         {
-          "time": "11/27 13:01",
-          "text": "@EcoFlowJapan 先日の START 停電 END 時、delta3がとても役に立ちました！！"
+          "time": "11/27 18:50",
+          "text": "【東京電力管内 START 停電 END 情報】 東京電力パワーグリッド管内では、新たに神奈川県南足柄市の約1090軒で START 停電 END しています。..."
         },
         {
-          "time": "11/27 13:01",
-          "text": "落雷で START 停電 END してたっぽい"
+          "time": "11/27 18:49",
+          "text": "START 停電 END されると困るー"
         },
         {
-          "time": "11/27 13:01",
-          "text": "地味な START 停電 END やめとくり"
+          "time": "11/27 18:44",
+          "text": "瞬間 START 停電 END するとPCのUSB給電が勝手に開始され、ケース内のRGBが光り、StreamDeckがひたすらScreenSaverモードになる..."
         }
       ],
       "search_url": "https://search.yahoo.co.jp/realtime/search?p=%E5%81%9C%E9%9B%BB"
@@ -550,9 +558,9 @@
     }
   ],
   "sns_heatmap": {
-    "total_mentions": 0,
-    "top_region": "全国平穏",
-    "top_count": 0,
+    "total_mentions": 1,
+    "top_region": "関東・首都圏",
+    "top_count": 1,
     "regions": [
       {
         "id": "hokkaido",
@@ -586,12 +594,20 @@
         "lat": 35.6895,
         "lon": 139.6917,
         "zoom": 9,
-        "count": 0,
+        "count": 1,
         "level": "NORMAL",
         "color": "#10b981",
         "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
+        "detected_words": [
+          "東京"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "停電",
+            "time": "11/27 18:50",
+            "text": "【東京電力管内 START 停電 END 情報】 東京電力パワーグリッド管内では、新たに神奈川県南足柄市の約1090軒で START 停電 END しています。..."
+          }
+        ]
       },
       {
         "id": "chubu",
@@ -687,6 +703,27 @@
     ],
     "ranking": [
       {
+        "id": "kanto",
+        "name": "関東・首都圏",
+        "lat": 35.6895,
+        "lon": 139.6917,
+        "zoom": 9,
+        "count": 1,
+        "level": "NORMAL",
+        "color": "#10b981",
+        "status_label": "平常・平穏",
+        "detected_words": [
+          "東京"
+        ],
+        "sample_posts": [
+          {
+            "keyword": "停電",
+            "time": "11/27 18:50",
+            "text": "【東京電力管内 START 停電 END 情報】 東京電力パワーグリッド管内では、新たに神奈川県南足柄市の約1090軒で START 停電 END しています。..."
+          }
+        ]
+      },
+      {
         "id": "hokkaido",
         "name": "北海道",
         "lat": 43.0642,
@@ -705,19 +742,6 @@
         "lat": 38.2682,
         "lon": 140.8694,
         "zoom": 7,
-        "count": 0,
-        "level": "NORMAL",
-        "color": "#10b981",
-        "status_label": "平常・平穏",
-        "detected_words": [],
-        "sample_posts": []
-      },
-      {
-        "id": "kanto",
-        "name": "関東・首都圏",
-        "lat": 35.6895,
-        "lon": 139.6917,
-        "zoom": 9,
         "count": 0,
         "level": "NORMAL",
         "color": "#10b981",
@@ -838,11 +862,27 @@
   },
   "disaster_news": {
     "count": 15,
-    "disaster_count": 9,
+    "disaster_count": 4,
     "articles": [
       {
-        "title": "強盗で2400万円被害　千葉・八街、3人組逃走(共同通信)",
-        "summary": "27日午前2時ごろ、千葉県八街市榎戸の住宅に覆面のようなものをかぶった3人組が押し入り、住人の50代男性を縛った上、現金約2400万円と腕時計などを奪い逃走した。男性は軽傷。県警佐倉署は強盗致傷事件と",
+        "title": "「勘弁してくれよ」酷暑に少雨を経て迎えた“収穫の秋”熊本地震から4カ月(テレビ朝日系（ANN）)",
+        "summary": "今年7月の熊本地震からまもなく4カ月。季節は夏から晩秋へと移り変わりました。今年の熊本は地震だけではなく、記録的な高温、そして少雨にも見舞われました。その影響は木々だけではなく、農作物にも出ています。",
+        "pub_date": "11/28 00:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/ea8815307d3fa9e050991bd06a5ebe374ce199c2?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "「カーテレビ観ながら運転していた」車と自転車の事故で男性が死亡　千葉市(テレビ朝日系（ANN）)",
+        "summary": "千葉市で乗用車と自転車が衝突する事故があり、自転車に乗っていた男性が頭を強く打つなどして死亡しました。 27日午前6時半ごろ、千葉市美浜区新港で「乗用車と自転車の事故」と通行人から110番通報がありま",
+        "pub_date": "11/27 22:12 JST",
+        "link": "https://news.yahoo.co.jp/articles/efc2ce0a64ac05c0170c0a54ce1d0fffbe69d8ca?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": true
+      },
+      {
+        "title": "千葉で強盗、2400万円被害　八街市の住宅、3人組逃走(共同通信)",
+        "summary": "27日午前2時ごろ、千葉県八街市榎戸の住宅に覆面のようなものをかぶった3人組が押し入り、住人で中国籍の50代男性を縛った上、現金約2400万円と腕時計などを奪い逃走した。男性は軽傷。県警佐倉署は強盗致",
         "pub_date": "11/27 21:54 JST",
         "link": "https://news.yahoo.co.jp/articles/053bbf1b79cb3783179c1d0bc31254c870b6369b?source=rss",
         "category": "国内・気象防災",
@@ -857,111 +897,95 @@
         "is_disaster": true
       },
       {
-        "title": "多重事故で10人軽傷、静岡　10台程度関係か(共同通信)",
-        "summary": "27日午後3時ごろ、静岡県清水町玉川の県道で、10台程度の車が絡む多重事故があった。県警沼津署や消防によると、10代～70代の男女10人が病院に搬送された。いずれも軽傷とみられる。 沼津署によると、現",
-        "pub_date": "11/27 20:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/b4170fe0ee929f2edbce81739af2a07d8511caf2?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "大型トラックが渋滞の列に突っ込み4台絡む事故　男性1人死亡　茨城県の圏央道(テレビ朝日系（ANN）)",
-        "summary": "茨城県つくば市を通る圏央道で大型トラックなど車4台が絡む事故があり、1人が死亡しました。警察は大型トラックを運転していた男を逮捕しました。 27日午前9時50分ごろ、茨城県つくば市の圏央道外回りつくば",
-        "pub_date": "11/27 20:21 JST",
-        "link": "https://news.yahoo.co.jp/articles/44bf3b7dbae8a4e027c80a41d2cac981a82b540d?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "東京国立博物館「大徳寺展」会館中に照明機材落下　客・作品に被害なし、翌日は通常開館(J-CASTニュース)",
-        "summary": "東京・上野公園にある「東京国立博物館」で開催中の特別展「大徳寺 本朝無双之禅苑」の会場で照明機材が落下する事故が起きた。同館広報室によると、落下した照明機材は撤去し、事故の翌日は通常通り開館した。【画",
-        "pub_date": "11/27 20:15 JST",
-        "link": "https://news.yahoo.co.jp/articles/05aa70c9b925ebdc94c6f956126002ffb827a6fa?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "乗用車とバイクの交通事故で50代男性死亡　乗用車の男を現行犯逮捕　横浜・神奈川区(テレビ朝日系（ANN）)",
-        "summary": "横浜市神奈川区で乗用車とバイクが接触する事故があり、バイクを運転していた男性が死亡しました。 27日午前9時ごろ、神奈川区入江の国道1号で「音を聞いた。見に行ったら事故でした」と近くの住民から110番",
-        "pub_date": "11/27 19:57 JST",
-        "link": "https://news.yahoo.co.jp/articles/ef5c7e01dae36af1349c4112cc302d743434417c?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "「カーテレビ観ながら運転していた」車と自転車の事故で男性が意識不明の重体　千葉市(テレビ朝日系（ANN）)",
-        "summary": "千葉市で乗用車と自転車が衝突する事故があり、自転車に乗っていた男性が意識不明の重体です。 27日午前6時半ごろ、千葉市美浜区新港で「乗用車と自転車の事故」と通行人から110番通報がありました。 警察に",
-        "pub_date": "11/27 19:56 JST",
-        "link": "https://news.yahoo.co.jp/articles/987fc0070d57d99396423a7b6ed31ba10a8c6740?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "マンション防災対策マニュアル 検討会立ち上げ(ABEMA TIMES)",
-        "summary": "防災庁は大規模災害に備えてマンションの防災対策強化を目指し、住民の在宅避難に関するマニュアルを作成するための検討会を立ち上げました。【映像】防災庁 防災対策強化を目指し検討会開催 防災庁は首都直下地震",
-        "pub_date": "11/27 19:48 JST",
-        "link": "https://news.yahoo.co.jp/articles/15f12bb87490ab5228d29f873294766c2a03686a?source=rss",
-        "category": "国内・気象防災",
-        "is_disaster": true
-      },
-      {
-        "title": "事故で10人程けが 「暴走車」通報",
-        "summary": "詳細情報は元記事をご確認ください。",
-        "pub_date": "11/27 19:42 JST",
-        "link": "https://news.yahoo.co.jp/pickup/6604226?source=rss",
-        "category": "主要速報",
-        "is_disaster": true
-      },
-      {
-        "title": "千葉・八街で2400万円強盗、3人組逃走(共同通信)",
-        "summary": "千葉県警によると、27日午前2時ごろ、同県八街市の住宅に3人組が押し入り、現金約2400万円などを奪い逃走した。住人の50代男性が縛られ軽傷。県警は強盗致傷事件として行方を追っている。",
-        "pub_date": "11/27 21:39 JST",
-        "link": "https://news.yahoo.co.jp/articles/ad27bf938425a4d2d29c4a2ca0183ad7533a5027?source=rss",
+        "title": "“2つの窓口”が抱えるジレンマ…市と児相で“食い違い”福島・3歳児暴行死(テレビ朝日系（ANN）)",
+        "summary": "福島県いわき市で今月、3歳の男の子が母親の交際相手からの暴行で死亡した事件。市は以前から虐待の可能性を覚知し、県の児童相談所に相談していたとする一方で、児相側は市が対応するべきだったと、双方の主張が食",
+        "pub_date": "11/28 01:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/e872314335eeea7a20db489f4fe02f76a6691427?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "深まる秋の風情　特別名勝「六義園」で紅葉が見頃(テレビ朝日系（ANN）)",
-        "summary": "東京都内でも有数の紅葉の名所として知られる「六義園」ではイロハモミジやカエデ、イチョウなどが鮮やかに色付き、見頃を迎えています。 東京・文京区にある六義園では、赤や黄色に染まった木々が園内を彩り、訪れ",
-        "pub_date": "11/27 21:35 JST",
-        "link": "https://news.yahoo.co.jp/articles/4ef1dc5cc10746ccb09e678bc11d67f28130ba93?source=rss",
+        "title": "2遺体は山中の近い場所で発見(共同通信)",
+        "summary": "神奈川県警は28日、2遺体は、宮城県七ケ宿町の山中の近い場所で見つかったと明らかにした。30日に司法解剖し、死因などを調べる。",
+        "pub_date": "11/28 01:16 JST",
+        "link": "https://news.yahoo.co.jp/articles/b0545eb1675ae79a200b17d84a9f04a9a2180c73?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "「性行為を伴うAV禁止を検討」Xで430万回表示、立憲民主党が「誤情報」と否定　今後の検討も「未定」(弁護士ドットコムニュース)",
-        "summary": "立憲民主党が性行為を伴うAVの禁止に向け、法制定を検討している──。そんな情報がXで広がっている。立憲民主党「誤情報です」立憲民主党は11月26日、公式のXアカウントで「誤情報です」と否定した。きっか",
-        "pub_date": "11/27 21:30 JST",
-        "link": "https://news.yahoo.co.jp/articles/f432f7b56f12bf06067ccfe260220bc5d3e51d61?source=rss",
+        "title": "宮城県の山中で2人の遺体 1人は横浜市の女子高校生か(ABEMA TIMES)",
+        "summary": "27日、先月から行方不明になっている横浜市の高校1年生の女子生徒とみられる遺体が、宮城県内で見つかったことがわかりました。【映像】山中で2人の遺体発見 1人は行方不明の女子高校生か 捜査関係者によりま",
+        "pub_date": "11/28 00:36 JST",
+        "link": "https://news.yahoo.co.jp/articles/f2a7c36034b06a25f39c6d34617f03772c663395?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "3回目の住民投票で維新が問うのは「大阪副首都構想」に　住民サービス巡りアンケートも(産経新聞)",
-        "summary": "大阪市を廃止して複数の特別区に再編する「大阪都構想」を巡り、大阪維新の会の吉村洋文代表（大阪府知事）は27日、記者会見し、来春の統一地方選との同日実施を目指す3回目の住民投票に向け「大阪副首都構想」を",
-        "pub_date": "11/27 21:20 JST",
-        "link": "https://news.yahoo.co.jp/articles/0811c04b72a40bacff93fa7998501bb0df46eb25?source=rss",
+        "title": "不明女子高生の家族は10月26日に届け出(共同通信)",
+        "summary": "捜査関係者によると、行方不明になっている女子高校生の家族からは、10月26日に「帰ってこない」と神奈川県警に届け出があった。",
+        "pub_date": "11/28 00:35 JST",
+        "link": "https://news.yahoo.co.jp/articles/d593b159870a4459a1d049c69d031386169b2930?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "関芳弘文科相に新たな政治資金規正法違反疑惑が発覚《稲田元防衛相が講師の食事会で300万円の収入を計上していた》(文春オンライン)",
-        "summary": "関芳弘文科大臣（61）が主催する少人数の食事会で、総額300万円もの政治資金パーティとしての収入が計上されていたことが 「週刊文春」 の取材で分かった。政治資金パーティではなく実質的には寄附を集めるた",
-        "pub_date": "11/27 21:12 JST",
-        "link": "https://news.yahoo.co.jp/articles/1e2c7d1635f2f5dd7062e28c78c319c0e6f4bcc0?source=rss",
+        "title": "宮城の山中に2遺体　1人は横浜の女子高校生か(共同通信)",
+        "summary": "神奈川県警が27日、宮城県七ケ宿町の山中で2人の遺体を見つけたことが捜査関係者への取材で分かった。県警はうち1人を、行方不明になっていた横浜市泉区の高校1年の女子生徒（16）の可能性があるとみて調べて",
+        "pub_date": "11/28 00:32 JST",
+        "link": "https://news.yahoo.co.jp/articles/b234734929ea231f38f47fc2102c47bb7eb5e830?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       },
       {
-        "title": "覆面3人組が住宅に侵入し男性を縛って約2400万円などを奪い逃走　千葉・八街市(テレビ朝日系（ANN）)",
-        "summary": "27日未明、千葉県八街市の住宅に覆面のようなものをした3人組が侵入し、この家の男性の手足を縛ってけがをさせたうえ、現金約2400万円などを奪って逃げました。 警察によりますと、27日午前2時ごろ、八街",
-        "pub_date": "11/27 21:10 JST",
-        "link": "https://news.yahoo.co.jp/articles/cac46434de6758086352551991b6180af434850b?source=rss",
+        "title": "女子高生誘拐の疑いで男逮捕(共同通信)",
+        "summary": "宮城県の山中で2遺体が見つかった事件に絡み、神奈川県警は28日までに、行方不明になった横浜市の女子高校生を誘拐した疑いで宮城県の男を逮捕した。捜査関係者への取材で分かった。",
+        "pub_date": "11/28 00:20 JST",
+        "link": "https://news.yahoo.co.jp/articles/ab90bc824f7ad19509cfa9a2c4658a510eefb712?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "宮城で2遺体、1人は横浜の女子高校生か(共同通信)",
+        "summary": "捜査関係者によると、宮城県内の山中で27日、2人の遺体が見つかった。神奈川県警はうち1人を、行方不明になっていた横浜市の女子高校生の可能性があるとみて調べている。",
+        "pub_date": "11/28 00:18 JST",
+        "link": "https://news.yahoo.co.jp/articles/62bf9c8cfe076f13004a7fea937617b0ae4daf7f?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "【速報】宮城県の山中で2人の遺体　1人は横浜市の女子高校生か　誘拐容疑で33歳男逮捕(テレビ朝日系（ANN）)",
+        "summary": "27日、先月から行方不明になっている横浜市の高校1年生の女子生徒とみられる遺体が、宮城県内で見つかったことが分かりました。 捜査関係者によりますと27日、宮城県内の山の中で2人の遺体が見つかり、そのう",
+        "pub_date": "11/28 00:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/8b44bb2acc485a65f2624a9583cbd7d08c8e4463?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "「計画参加するつもりなかった」“ルフィ”トップの男(ABEMA TIMES)",
+        "summary": "“ルフィ”などと名乗るグループのトップの裁判で、トップの男は東京・狛江市での強盗致死事件について、「計画に参加するつもりはなかった」と話しました。【映像】 「参加するつもりなかった」“ルフィ”トップの",
+        "pub_date": "11/28 00:06 JST",
+        "link": "https://news.yahoo.co.jp/articles/263484c86c1036103d7836ee181288ea21157885?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "自宅リビングで目撃を最後に…富山・50歳女性が行方不明から6日目　足取りつかめず(テレビ朝日系（ANN）)",
+        "summary": "富山市で、吉田さつきさん（50）が家族のもとから姿を消し、6日目です。22日午後11時ごろ。家族が最後に見た吉田さんの姿はリビングにありました。しかし、翌朝、家族が目を覚ますと、吉田さんさんはいなくな",
+        "pub_date": "11/28 00:00 JST",
+        "link": "https://news.yahoo.co.jp/articles/6db18f33773053c102f671d4b9d01f1037ea1689?source=rss",
+        "category": "国内・気象防災",
+        "is_disaster": false
+      },
+      {
+        "title": "白銀シーズン開幕　スキー場前倒しで営業開始　早朝からスキーヤーら詰めかける　群馬(テレビ朝日系（ANN）)",
+        "summary": "スキーヤーが待ちわびた冬がひと足早くやってきました。白銀のシーズンが幕開けです。 27日、群馬県沼田市の「たんばらスキーパーク」は予定を1日早めて今シーズンの営業を始めました。 初日のゲレンデには、ス",
+        "pub_date": "11/27 23:57 JST",
+        "link": "https://news.yahoo.co.jp/articles/d2c00384d83b718a7742e5dbcae0b9dcd574ec91?source=rss",
         "category": "国内・気象防災",
         "is_disaster": false
       }
     ],
-    "last_updated": "2026-11-27 22:01:10 JST"
+    "last_updated": "2026-11-28 03:50:33 JST"
   },
   "live_media": {
     "default_camera_id": "cam_osaka_dotonbori",
@@ -982,10 +1006,10 @@
         "category": "気象特番",
         "provider": "ウェザーニューズ",
         "handle": "@weathernews",
-        "video_id": "tyizKEtBgGo",
+        "video_id": "dMhISwoGsjI",
         "description": "24時間365日最新の雨雲レーダー、台風進路、地震・津波・気象警報を生解説。",
-        "embed_url": "https://www.youtube.com/embed/tyizKEtBgGo?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=tyizKEtBgGo"
+        "embed_url": "https://www.youtube.com/embed/dMhISwoGsjI?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=dMhISwoGsjI"
       },
       {
         "id": "stream_tbsnews",
@@ -1004,10 +1028,10 @@
         "category": "全国報道",
         "provider": "日本テレビ / NNN",
         "handle": "@ntv_news",
-        "video_id": "ws5AE0Si_SU",
+        "video_id": "IMKf4U2_sok",
         "description": "日本テレビ系列の24時間ニュース生配信。緊急時は災害特番に切り替え。",
-        "embed_url": "https://www.youtube.com/embed/ws5AE0Si_SU?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=ws5AE0Si_SU"
+        "embed_url": "https://www.youtube.com/embed/IMKf4U2_sok?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=IMKf4U2_sok"
       },
       {
         "id": "stream_annnews",
@@ -1015,10 +1039,10 @@
         "category": "全国報道",
         "provider": "テレビ朝日 / ANN",
         "handle": "@ANNnewsCH",
-        "video_id": "uKHCgaBz_5Y",
+        "video_id": "xbI8qfB8ZQs",
         "description": "テレビ朝日系列の最新ニュース生配信。台風・地震時の緊急報道に対応。",
-        "embed_url": "https://www.youtube.com/embed/uKHCgaBz_5Y?autoplay=0&rel=0",
-        "watch_url": "https://www.youtube.com/watch?v=uKHCgaBz_5Y"
+        "embed_url": "https://www.youtube.com/embed/xbI8qfB8ZQs?autoplay=0&rel=0",
+        "watch_url": "https://www.youtube.com/watch?v=xbI8qfB8ZQs"
       },
       {
         "id": "stream_fnnnews",
